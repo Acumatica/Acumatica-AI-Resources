@@ -1,8 +1,8 @@
 ## Developer Guide 
 
-# Unit Test Framework Guide 
+# Unit Test Framework 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -18,11 +18,11 @@
 
  Test Instance for Unit Testing: To Deploy an Instance..................................................................................... 4 
 
- Creating a Test Project and a Test Class....................................................................................................7 
+ Creating a Test Project and a Test Class....................................................................................................6 
 
- Test Project and Test Class: General Information............................................................................................7 
+ Test Project and Test Class: General Information............................................................................................6 
 
- Test Project and Test Class: To Create a Test Project...................................................................................... 8 
+ Test Project and Test Class: To Create a Test Project...................................................................................... 7 
 
  Test Project and Test Class: To Create a Test Class..........................................................................................9 
 
@@ -36,25 +36,25 @@
 
  Test Method: To Run a Test Method............................................................................................................... 16 
 
- Test Method: To Debug a Test Method........................................................................................................... 18 
+ Test Method: To Debug a Test Method........................................................................................................... 19 
 
- Test Method: To Create a Test Method with Parameters............................................................................... 19 
+ Test Method: To Create a Test Method with Parameters............................................................................... 20 
 
- Test Method: Registration of Services............................................................................................................ 22 
+ Test Method: Registration of Services............................................................................................................ 23 
 
- Test Method: To Register a Service................................................................................................................. 22 
+ Test Method: To Register a Service................................................................................................................. 23 
 
- Correctly Assigning Field Values in Tests.................................................................................................24 
+ Correctly Assigning Field Values in Tests.................................................................................................25 
 
- Correct Assignment of Field Values in Tests: General Information............................................................... 24 
+ Correct Assignment of Field Values in Tests: General Information............................................................... 25 
 
- Correct Assignment of Field Values in Tests: To Test the Effect of Changing Field Values........................... 24 
+ Correct Assignment of Field Values in Tests: To Test the Effect of Changing Field Values........................... 25 
 
- Testing the Display of Errors and Warnings.............................................................................................29 
+ Testing the Display of Errors and Warnings.............................................................................................30 
 
- Testing of Errors and Warnings: General Information................................................................................... 29 
+ Testing of Errors and Warnings: General Information................................................................................... 30 
 
- Testing of Errors and Warnings: To Test the Display of Errors and Warnings............................................... 30 
+ Testing of Errors and Warnings: To Test the Display of Errors and Warnings............................................... 31 
 
 
 <!-- PAGE_BREAK -->
@@ -76,9 +76,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -90,7 +90,7 @@
 
 ### Test Instance for Unit Testing: General Information 
 
- In this chapter, you will learn how to deploy an Acumatica ERP test instance that contains custom and customized forms. You can use this instance to complete a training course or test a scenario described in this guide. You can use this instance to complete the training course. Custom forms are forms that are created entirely from scratch by a customizer. Customized forms are forms that are based on predefined forms in Acumatica ERP, but are modified by a customizer to fit a specific business process. 
+ In this chapter, you will learn how to deploy an Acumatica ERP test instance that contains custom and customized forms. You can use this instance to complete a training course or test a scenario described in this guide. Custom forms are forms that are created entirely from scratch by a customizer. Customized forms are forms that are based on predefined forms in Acumatica ERP, but are modified by a customizer to fit a specific business process. 
 
 #### Learning Objectives 
 
@@ -106,25 +106,25 @@
 
 - You want to test the activities described in this guide. 
 
-- You need to complete a training course. You deploy an Acumatica ERP test instance by using the instructions in this chapter if you need to complete the training course. 
+- You need to complete a training course. 
 
 #### Deploying a Test Instance 
 
  You can use the Acumatica ERP Configuration wizard to deploy instances based on predefined datasets. It also makes it possible to deploy test instances that contain custom and customized forms. 
 
- In the Acumatica ERP Configuration wizard, you click Deploy a New Acumatica ERP Instance for T-Series Developer Courses and select the applicable training course in the list. The instance that you are preparing contains the data that is required to complete the activities of this guide.The instance that you are preparing contains the data that is required to complete a training course. The instance can also include the published customization project. 
+ In the Acumatica ERP Configuration wizard, you click Deploy a New Acumatica ERP Instance for T-Series Developer Courses and select the applicable training course in the list. The instance that you are preparing contains the data that is required to complete the activities of this guide. The instance can also include the published customization project. 
 
 ### Test Instance for Unit Testing: To Deploy an Instance 
 
  The following activity will walk you through the process of preparing and deploying an Acumatica ERP instance that you can use to perform the steps in the chapters of this guide that are related to the development of unit tests. 
 
-
-<!-- PAGE_BREAK -->
- Preparing a Test Instance | 5 
-
 #### Story 
 
  Suppose that you want to learn how to create any unit tests provided in the Unit Test Framework Guide. You need to deploy an Acumatica ERP instance by using the Acumatica ERP Configuration Wizard. 
+
+
+<!-- PAGE_BREAK -->
+ Preparing a Test Instance | 5 
 
 #### Process Overview 
 
@@ -132,35 +132,29 @@
 
 #### Step 1: Preparing the Environment 
 
- If you have completed any of the training courses of the T series and are using the same environment for the current course, you can skip this step. 
-
  Before you begin deploying the needed Acumatica ERP instance, do the following: 
 
-1. Make sure that the environment that you are going to use conforms to the _System Requirements for the_     _Acumatica ERP Installation_. 
+1. Make sure that the environment you’re going to use conforms to the _System Requirements for the Acumatica_     _ERP Installation_. 
 
-2. Make sure that the Web Server (IIS) features that are listed in _Configuration of IIS Web Server Features_ are     turned on. 
+2. Make sure that the Web Server (IIS) features listed in _Configuration of IIS Web Server Features_ are turned on. 
 
 3. Install the Acuminator extension for Visual Studio. 
 
 4. Install Acumatica ERP. On the Main Soware Configuration page of the Acumatica ERP Setup wizard, select     the **Install Acumatica ERP** and **Install Debugger Tools** check boxes. 
 
- If you have already installed Acumatica ERP without debugger tools, you should remove Acumatica ERP and install it again with the Install Debugger Tools check box selected. The reinstallation of Acumatica ERP does not affect existing Acumatica ERP instances. You can also install the Acumatica ERP Tools separately. For details, see Acumatica ERP Installation OnPremises: To Install the Acumatica ERP Tools (Optional). 
+ If you’ve already installed Acumatica ERP without the debugger tools, you should uninstall it and install it again with the Install Debugger Tools check box selected. The reinstallation of Acumatica ERP doesn’t affect existing Acumatica ERP instances. You can also install the Acumatica ERP Tools separately. For details, see Acumatica ERP Installation On-Premises: To Install the Acumatica ERP Tools (Optional). 
 
 #### Step 2: Deploying an Acumatica ERP Instance with the Code of the Customization Project 
 
  To deploy an Acumatica ERP instance and configure it, do the following: 
 
-1. Open the Acumatica ERP Configuration wizard, and do the following:     a. Click **Deploy a New Acumatica ERP Instance for T-Series Developer Courses**.     b. On the **Instance Configuration** page, do the following:        a. In the **Training Course** box, select _T280 Testing Business Logic with the Acumatica Unit Test_           _Framework_.        b. In the **Local Path to the Instance** box, select a folder that is outside of the C:\Program Files           (x86), C:\Program Files, and C:\Users folders. (We recommend that you store the website           folder outside of these folders to avoid an issue with permission to work in these folders when you           customize the website.)     c. On the **Database Configuration** page, make sure the name of the database is _SmartFix_T280_.     The system creates a new Acumatica ERP instance, adds a new tenant, loads the data to it, and publishes     the customization project that is needed for this training course. 
+1. Open the Acumatica ERP Configuration wizard, and do the following:     a. Click **Deploy a New Acumatica ERP Instance for T-Series Developer Courses**.     b. On the **Instance Configuration** page, do the following:        a. In the **Training Course** box, select _T280 Testing Business Logic with the Acumatica Unit Test_           _Framework_.        b. In the **Local Path to the Instance** box, select a folder that’s outside of the C:\Program Files           (x86), C:\Program Files, and C:\Users folders. (We recommend that you store the website           folder outside of these folders to avoid an issue with permission to work in these folders when you           customize the website.)     c. On the **Database Configuration** page, make sure the name of the database is _SmartFix_T280_.     The system creates a new Acumatica ERP instance, adds a new tenant, loads the data to it, and publishes     the customization project that is needed for this training course. 
+
+2. Make sure that a Visual Studio solution is available in the App_Data\Projects\PhoneRepairShop     folder of the Acumatica ERP instance folder.     This is the solution of the extension library that you’ll modify in the activities of this guide. 
 
 
 <!-- PAGE_BREAK -->
- Preparing a Test Instance | 6 
-
-2. Make sure that a Visual Studio solution is available in the App_Data\Projects\PhoneRepairShop     folder of the Acumatica ERP instance folder.     This is the solution of the extension library that you will modify in the activities of this guide.     This is the solution of the extension library that you will modify in the activities of this training course. 
-
-
-<!-- PAGE_BREAK -->
- Creating a Test Project and a Test Class | 7 
+ Creating a Test Project and a Test Class | 6 
 
 ## Creating a Test Project and a Test Class 
 
@@ -204,7 +198,7 @@
 
 
 <!-- PAGE_BREAK -->
- Creating a Test Project and a Test Class | 8 
+ Creating a Test Project and a Test Class | 7 
 
  the PhoneRepairShop_Code.Tests.csproj project; in this project, you create the InventoryItemMaintTests class and place it in the PhoneRepairShop_Code.Tests namespace. 
 
@@ -238,23 +232,35 @@
 
 3. Select **Add > New Project**. 
 
-4. Select the _Class Library (.NET Framework)_ project template. 
+4. Select the _Class Library_ project template. 
 
 5. Click **Next**. 
 
-6. Enter the PhoneRepairShop_Code.Tests project name, leave the value in the **Location** box     unchanged, and specify _.NET Framework 4.8_ in the **Framework** box. 
+6. Enter the PhoneRepairShop_Code.Tests project name, leave the value in the **Location** box     unchanged, and click **Next**. 
 
-7. Click **Create**. 
+7. In the **Framework** box, leave the default setting. 
 
-8. Delete the Class1.cs item from the PhoneRepairShop_Code.Tests.csproj project. You will     create the required C# classes later. 
+8. Click **Create**. 
+
+9. In the Solution Explorer, click the created project and specify its properties as follows: 
+
+- TargetFramework: _net48_ 
+
+- LangVersion: _9.0_ 
+
+- Nullable: _enable_ An example of the configuration is shown in the following code. 
+
+
+<!-- PAGE_BREAK -->
+ Creating a Test Project and a Test Class | 8 
+
+ <PropertyGroup> <TargetFramework>net48</TargetFramework> <RootNamespace>PhoneRepairShop_Code.Tests</RootNamespace> <AssemblyName>PhoneRepairShop_Code.Tests</AssemblyName> <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath> <OutputPath>bin\$(Configuration)</OutputPath> <GenerateAssemblyInfo>false</GenerateAssemblyInfo> <FileVersion>25.201.0166</FileVersion> <InformationalVersion>25.201.0166</InformationalVersion> <LangVersion>9.0</LangVersion> <Nullable>enable</Nullable> <Copyright>Copyright ©^ 2005-2025 Acumatica, Inc. All rights reserved.</Copyright> </PropertyGroup> 
+
+ 10.Delete the Class1.cs item from the PhoneRepairShop_Code.Tests.csproj project. You will create the required C# classes later. 11.Save your changes. 
 
 #### Step 2: Adding NuGet Packages 
 
  Do the following to add the necessary NuGet packages to the PhoneRepairShop_Code.Tests.csproj project: 
-
-
-<!-- PAGE_BREAK -->
- Creating a Test Project and a Test Class | 9 
 
 1. In the **Solution Explorer** panel of Visual Studio, right-click the PhoneRepairShop_Code.Tests     project, and select **Manage NuGet Packages**. 
 
@@ -266,7 +272,9 @@
 
 - System.Runtime.CompilerServices.Unsafe (Version 6.0.0) 
 
-- Microsoft.Bcl.AsyncInterfaces (Version 8.0.0) 
+- Microsoft.Bcl.AsyncInterfaces (Version 9.0.2) 
+
+- Microsoft.Extensions.Configuration (Version 9.0.2) 
 
 - Moq (Version 4.20.72) 
 
@@ -276,27 +284,31 @@
 
 1. Copy the PX.Tests.Unit.dll file from the UnitTesting subfolder of the Acumatica ERP installation     folder to any folder you choose. 
 
-2. Right-click the **References** item of the PhoneRepairShop_Code.Tests project, and select **Add**     **Reference**. 
-
-3. On the **Browse** tab, click **Browse**. 
-
-4. In the SmartFix_T280\Bin folder, select the following files: 
+2. In the PhoneRepairShop_Code.Tests project, add references to all Acumatica ERP libraries that     are referred in the project of the extension library—that is, add reference to the following files in the     SmartFix_T280\Bin folder: 
 
 - PX.Common.dll 
 
-- PX.Common.Std.dll (this library makes it possible to use graph views in the code) 
+- PX.Common.Std.dll 
 
 - PX.Data.BQL.Fluent.dll 
 
 - PX.Data.dll 
 
-- PX.Objects.dll (this library contains the implementation of the     PX.Objects.IN.InventoryItem class) 
+- PX.Objects.dll 
 
-5. Select the PX.Tests.Unit.dll file in the folder where you have placed it. 
+- PX.CS.Contracts.dll 
 
-6. On the **Projects** tab, select the PhoneRepairShop_Code project. 
+- PX.Web.Customization.dll 
 
-7. Click **OK**. 
+
+<!-- PAGE_BREAK -->
+ Creating a Test Project and a Test Class | 9 
+
+3. Add a reference to the Autofac.dll file in the SmartFix_T280\Bin folder. 
+
+4. Add a reference to the PX.Tests.Unit.dll file in the folder where you have placed it. 
+
+5. Add a reference to the PhoneRepairShop_Code project. 
 
 ### Test Project and Test Class: To Create a Test Class 
 
@@ -309,10 +321,6 @@
 #### Process Overview 
 
  In the test project, you create a test class derived from the PX.Tests.Unit.TestBase class. This class is intended for containing test methods. 
-
-
-<!-- PAGE_BREAK -->
- Creating a Test Project and a Test Class | 10 
 
 #### System Preparation 
 
@@ -340,7 +348,11 @@
 
  public class RSSVRepairServiceMaintTests : TestBase 
 
- In this class, you will create a test method to test the logic of the RSSVRepairServiceMaint graph, as described in Test Method: To Create a Test Method Without Parameters. For more information about creating test methods, see Creating a Test Method. 
+
+<!-- PAGE_BREAK -->
+ Creating a Test Project and a Test Class | 10 
+
+In this class, you will create a test method to test the logic of the RSSVRepairServiceMaint graph, as described in _Test Method: To Create a Test Method Without Parameters_. For more information about creating test methods, see _Creating a Test Method_. 
 
 
 <!-- PAGE_BREAK -->
@@ -608,15 +620,23 @@
 
  Do the following to run the method created in Test Method: To Create a Test Method Without Parameters : 
 
-1. In Visual Studio, select the **Test > Test Explorer** menu item. The **Test Explorer** window opens, which     currently displays no tests. 
+1. In Visual Studio, in the solution properties, make sure the website project is excluded from the solution     building (see below). 
 
-2. Click **Run All Tests In View**. The solution is built, and one test for the     PreliminaryCheckAndWalkInServiceFlags_AreOpposite test method appears in the **Test**     **Explorer** window (shown in the following screenshot) and is run. 
+
+<!-- PAGE_BREAK -->
+ Creating a Test Method | 18 
+
+ Figure: Solution properties 
+
+2. Select the **Test > Test Explorer** menu item. The **Test Explorer** window opens, which currently displays no     tests. 
+
+3. Click **Run All Tests In View**. The solution is built, and one test for the     PreliminaryCheckAndWalkInServiceFlags_AreOpposite test method appears in the **Test**     **Explorer** window (shown in the following screenshot) and is run. 
 
  Figure: The Test Explorer window with one test 
 
 
 <!-- PAGE_BREAK -->
- Creating a Test Method | 18 
+ Creating a Test Method | 19 
 
 ### Test Method: To Debug a Test Method 
 
@@ -668,7 +688,7 @@
 
 
 <!-- PAGE_BREAK -->
- Creating a Test Method | 19 
+ Creating a Test Method | 20 
 
  _(Events.FieldUpdated<RSSVRepairService, RSSVRepairService.walkInService> e) method gets triggered when the repairService object is first created and added to the cache using the graph.Caches[typeof(RSSVRepairService)].Insert(...) method of the graph. Continue debugging (you can press F5 for this). 
 
@@ -680,7 +700,11 @@
 
 #### Story 
 
- Suppose that you want to make sure that the following behavior of the customized Stock Items (IN202500) form has not changed: The selection of the Repair Item check box causes the Repair Item Type drop-down list to be available, and the clearing of the Repair Item check box causes the Repair Item Type drop-down list to be unavailable. You need to create a test method that selects or clears the Repair Item check box and checks whether the Repair Item Type drop-down list is available or unavailable, respectively. 
+ Suppose that you want to make sure that the following behavior of the customized Stock Items (IN202500) form has not changed: 
+
+- The selection of the **Repair Item** check box causes the **Repair Item Type** drop-down list to be available. 
+
+- The clearing of the **Repair Item** check box causes the **Repair Item Type** drop-down list to be unavailable. You need to create a test method that selects or clears the **Repair Item** check box and checks whether the **Repair Item Type** drop-down list is available or unavailable, respectively. 
 
 #### Process Overview 
 
@@ -694,11 +718,11 @@
 
 2. Make sure that you have performed the _Test Project and Test Class: To Create a Test Project_ prerequisite     activity to create and configure the PhoneRepairShop_Code.Tests.csproj test project. 
 
-3. Create the InventoryItemMaintTests test class. For an example that shows how to create a test class,     see _Test Project and Test Class: To Create a Test Class_. 
-
 
 <!-- PAGE_BREAK -->
- Creating a Test Method | 20 
+ Creating a Test Method | 21 
+
+3. Create the InventoryItemMaintTests test class. For an example that shows how to create a test class,     see _Test Project and Test Class: To Create a Test Class_. 
 
 #### Step 1: Creating and Configuring a Test Method with Parameters 
 
@@ -736,11 +760,11 @@
 
  InventoryItemExt itemExt = item.GetExtension<InventoryItemExt>(); 
 
-4. Select (or clear) the **Repair Item** check box by using the needed value of the enabled parameter, and     make sure that the **Repair Item Type** drop-down list is available (or, respectively, unavailable) by adding     the following code. 
-
 
 <!-- PAGE_BREAK -->
- Creating a Test Method | 21 
+ Creating a Test Method | 22 
+
+4. Select (or clear) the **Repair Item** check box by using the needed value of the enabled parameter, and     make sure that the **Repair Item Type** drop-down list is available (or, respectively, unavailable) by adding     the following code. 
 
  itemExt.UsrRepairItem = enabled; graph.Caches[typeof(InventoryItem)].Update(item); PXFieldState fieldState = ((PXFieldState)graph.Caches[typeof(InventoryItem)].GetStateExt< InventoryItemExt.usrRepairItemType>(item)); Assert.True(enabled == fieldState.Enabled); 
 
@@ -758,11 +782,11 @@ As a result of the actions you have performed in this activity, the InventoryIte
 
  itemExt.UsrRepairItem = enabled; graph.Caches[typeof(InventoryItem)].Update(item); PXFieldState fieldState = ((PXFieldState)graph.Caches[typeof(InventoryItem)].GetStateExt< InventoryItemExt.usrRepairItemType>(item)); Assert.True(enabled == fieldState.Enabled); } } } 
 
- This test uses the arrange-act-assert pattern. 
-
 
 <!-- PAGE_BREAK -->
- Creating a Test Method | 22 
+ Creating a Test Method | 23 
+
+ This test uses the arrange-act-assert pattern. 
 
  In some circumstances, running this test method may fail. To learn the actions that you must perform to make this test method successful, see Test Method: To Register a Service. 
 
@@ -806,7 +830,7 @@ As a result of the actions you have performed in this activity, the InventoryIte
 
 
 <!-- PAGE_BREAK -->
- Creating a Test Method | 23 
+ Creating a Test Method | 24 
 
 #### Process Overview 
 
@@ -834,21 +858,21 @@ As a result of the actions you have performed in this activity, the InventoryIte
 
  To register this service, do the following: 
 
-1. In the PhoneRepairShop_Code.Tests.csproj project, add a reference to Autofac.dll from     the Bin folder of the Acumatica ERP instance, as described in _Test Project and Test Class: To Create a Test_     _Project_. 
+1. In the PhoneRepairShop_Code.Tests.csproj project, add a reference to Autofac.dll from the     Bin folder of the Acumatica ERP instance if it has not been added yet. For details, see _Test Project and Test_     _Class: To Create a Test Project_. 
 
-2. Add the following using directives to the InventoryItemMaintTests.cs file. 
-
- using Autofac; using PX.Objects.CM.Extensions; 
-
-3. In the InventoryItemMaintTests class, override the TestBase.RegisterServices method as     follows. 
+2. In the InventoryItemMaintTests class, override the TestBase.RegisterServices method as     follows. 
 
  protected override void RegisterServices(ContainerBuilder builder) { base.RegisterServices(builder); builder.RegisterType<PX.Objects.Unit.CurrencyServiceMock>(). As<IPXCurrencyService>(); } 
+
+3. Make sure the following using directives have been added to the InventoryItemMaintTests.cs file. 
+
+ using Autofac; using PX.Objects.CM.Extensions; 
 
  Aer the service is registered, run the tests for the RepairItemTypeEnabled_WhenRepairItemSelected test method, which had failed previously. Make sure that the tests succeed. 
 
 
 <!-- PAGE_BREAK -->
- Correctly Assigning Field Values in Tests | 24 
+ Correctly Assigning Field Values in Tests | 25 
 
 ## Correctly Assigning Field Values in Tests 
 
@@ -886,17 +910,17 @@ As a result of the actions you have performed in this activity, the InventoryIte
 
  The following activity will walk you through the process of creating a method that tests complicated business logic involving the assignment of field values. 
 
-#### Story 
-
- Suppose that you want to make sure that the following behavior of the Services and Prices (RS203000) form has not changed: If changes are made to the state of the Required or Default check box (or both check boxes) of a row, 
-
 
 <!-- PAGE_BREAK -->
- Correctly Assigning Field Values in Tests | 25 
+ Correctly Assigning Field Values in Tests | 26 
 
- these changes affect the states of these check boxes in other rows. Also, you want to make sure that the prices are calculated correctly. 
+#### Story 
 
- You need to create a test method. In this method, you need to create at least three repair items of different types and a labor item, configure them, and make sure that the fields that correspond to the Required and Default check boxes have the correct states and that the boxes with prices have the correct values. 
+ Suppose that you want to make sure that the following behavior of the Services and Prices (RS203000) form has not changed: 
+
+- If changes are made to the state of the **Required** or **Default** check box (or both check boxes) of a row, these     changes affect the states of these check boxes in other rows. 
+
+- The prices are calculated correctly. You need to create a test method. In this method, you need to create at least three repair items of different types and a labor item, configure them, and make sure that the fields that correspond to the **Required** and **Default** check boxes have the correct states and that the boxes with prices have the correct values. 
 
 #### Process Overview 
 
@@ -930,13 +954,13 @@ As a result of the actions you have performed in this activity, the InventoryIte
 
 2. Create a device to repair (an RSSVDevice object) and a service for repairing the device (an     RSSVRepairService object) by adding the following code. You will use the IDs of the device and the     service to create an RSSVRepairPrice object. 
 
- graph.Caches[typeof(RSSVDevice)].Insert(new RSSVDevice { DeviceCD = "Device1" }); graph.Caches[typeof(RSSVRepairService)].Insert(new RSSVRepairService { ServiceCD = "Service1" 
+ graph.Caches[typeof(RSSVDevice)].Insert(new RSSVDevice 
 
 
 <!-- PAGE_BREAK -->
- Correctly Assigning Field Values in Tests | 26 
+ Correctly Assigning Field Values in Tests | 27 
 
- }); 
+ { DeviceCD = "Device1" }); graph.Caches[typeof(RSSVRepairService)].Insert(new RSSVRepairService { ServiceCD = "Service1" }); 
 
  When you are creating an object, you need to specify values for its key fields. If you do not specify a value for an object's key field during the creation of the object, you cannot change the field value later. 
 
@@ -952,11 +976,13 @@ As a result of the actions you have performed in this activity, the InventoryIte
 
  InventoryItem battery1 = (InventoryItem)graph. Caches[typeof(InventoryItem)].Insert(new InventoryItem { InventoryCD = "Battery1" }); graph.Caches[typeof(InventoryItemCurySettings)].Insert(new InventoryItemCurySettings { InventoryID = battery1.InventoryID, CuryID = "USD" }); InventoryItemExt batteryExt1 = battery1.GetExtension<InventoryItemExt>(); batteryExt1.UsrRepairItem = true; batteryExt1.UsrRepairItemType = RepairItemTypeConstants.Battery; graph.Caches[typeof(InventoryItem)].Update(battery1); 
 
- InventoryItem battery2 = (InventoryItem)graph.Caches[typeof(InventoryItem)].Insert(new InventoryItem { InventoryCD = "Battery2" }); graph.Caches[typeof(InventoryItemCurySettings)].Insert(new InventoryItemCurySettings { InventoryID = battery2.InventoryID, CuryID = "USD" }); InventoryItemExt batteryExt2 = battery2.GetExtension<InventoryItemExt>(); batteryExt2.UsrRepairItem = true; batteryExt2.UsrRepairItemType = RepairItemTypeConstants.Battery; graph.Caches[typeof(InventoryItem)].Update(battery2); 
+ InventoryItem battery2 = (InventoryItem)graph.Caches[typeof(InventoryItem)].Insert(new InventoryItem { InventoryCD = "Battery2" }); graph.Caches[typeof(InventoryItemCurySettings)].Insert(new InventoryItemCurySettings { InventoryID = battery2.InventoryID, CuryID = "USD" 
 
 
 <!-- PAGE_BREAK -->
- Correctly Assigning Field Values in Tests | 27 
+ Correctly Assigning Field Values in Tests | 28 
+
+ }); InventoryItemExt batteryExt2 = battery2.GetExtension<InventoryItemExt>(); batteryExt2.UsrRepairItem = true; batteryExt2.UsrRepairItemType = RepairItemTypeConstants.Battery; graph.Caches[typeof(InventoryItem)].Update(battery2); 
 
  InventoryItem backCover1 = (InventoryItem)graph.Caches[typeof(InventoryItem)].Insert(new InventoryItem { InventoryCD = "BackCover1" }); graph.Caches[typeof(InventoryItemCurySettings)].Insert(new InventoryItemCurySettings { InventoryID = backCover1.InventoryID, CuryID = "USD" }); InventoryItemExt backCoverExt1 = backCover1.GetExtension<InventoryItemExt>(); backCoverExt1.UsrRepairItem = true; backCoverExt1.UsrRepairItemType = RepairItemTypeConstants.BackCover; graph.Caches[typeof(InventoryItem)].Update(backCover1); 
 
@@ -970,11 +996,13 @@ As a result of the actions you have performed in this activity, the InventoryIte
 
  // Configure the back cover repair item RSSVRepairItem repairItemBackCover1 = (RSSVRepairItem)graph.Caches[typeof(RSSVRepairItem)].Insert( new RSSVRepairItem { InventoryID = backCover1.InventoryID, Required = true, BasePrice = 10, IsDefault = true }); 
 
- // Configure the first battery repair item RSSVRepairItem repairItemBattery1 = (RSSVRepairItem)graph.Caches[typeof(RSSVRepairItem)].Insert( new RSSVRepairItem { InventoryID = battery1.InventoryID }); repairItemBattery1.Required = true; repairItemBattery1.BasePrice = 20; repairItemBattery1.IsDefault = true; graph.Caches[typeof(RSSVRepairItem)].Update(repairItemBattery1); 
+ // Configure the first battery repair item RSSVRepairItem repairItemBattery1 = (RSSVRepairItem)graph.Caches[typeof(RSSVRepairItem)].Insert( new RSSVRepairItem { 
 
 
 <!-- PAGE_BREAK -->
- Correctly Assigning Field Values in Tests | 28 
+ Correctly Assigning Field Values in Tests | 29 
+
+ InventoryID = battery1.InventoryID }); repairItemBattery1.Required = true; repairItemBattery1.BasePrice = 20; repairItemBattery1.IsDefault = true; graph.Caches[typeof(RSSVRepairItem)].Update(repairItemBattery1); 
 
  // Configure the second battery repair item RSSVRepairItem repairItemBattery2 = (RSSVRepairItem)graph.Caches[typeof(RSSVRepairItem)].Insert( new RSSVRepairItem { InventoryID = battery2.InventoryID }); repairItemBattery2.Required = false; repairItemBattery2.BasePrice = 30; repairItemBattery2.IsDefault = true; graph.Caches[typeof(RSSVRepairItem)].Update(repairItemBattery2); 
 
@@ -996,7 +1024,7 @@ As a result of the actions you have performed in this activity, the InventoryIte
 
 
 <!-- PAGE_BREAK -->
- Testing the Display of Errors and Warnings | 29 
+ Testing the Display of Errors and Warnings | 30 
 
 ## Testing the Display of Errors and Warnings 
 
@@ -1044,7 +1072,7 @@ As a result of the actions you have performed in this activity, the InventoryIte
 
 
 <!-- PAGE_BREAK -->
- Testing the Display of Errors and Warnings | 30 
+ Testing the Display of Errors and Warnings | 31 
 
  In your code, aer you have tested the displaying of an error or warning, you clear the cache of errors and warnings with the PXCache.Clear method. 
 
@@ -1086,7 +1114,7 @@ As a result of the actions you have performed in this activity, the InventoryIte
 
 
 <!-- PAGE_BREAK -->
- Testing the Display of Errors and Warnings | 31 
+ Testing the Display of Errors and Warnings | 32 
 
 1. In the RSSVWorkOrderEntryTests class, create a public void method, and name it     TestRepairWorkOrdersForm. 
 
@@ -1124,7 +1152,7 @@ As a result of the actions you have performed in this activity, the InventoryIte
 
 
 <!-- PAGE_BREAK -->
- Testing the Display of Errors and Warnings | 32 
+ Testing the Display of Errors and Warnings | 33 
 
  InventoryCD = "Battery1" }); InventoryItemExt batteryExt1 = battery1.GetExtension<InventoryItemExt>(); batteryExt1.UsrRepairItem = true; batteryExt1.UsrRepairItemType = RepairItemTypeConstants.Battery; graph.Caches[typeof(InventoryItem)].Update(battery1); 
 
@@ -1140,7 +1168,7 @@ As a result of the actions you have performed in this activity, the InventoryIte
 
 
 <!-- PAGE_BREAK -->
- Testing the Display of Errors and Warnings | 33 
+ Testing the Display of Errors and Warnings | 34 
 
  repairItemBattery1.RepairItemType = batteryExt1.UsrRepairItemType; graph.Caches[typeof(RSSVRepairItem)].Update(repairItemBattery1); 
 
@@ -1174,7 +1202,7 @@ As a result of the actions you have performed in this activity, the InventoryIte
 
 
 <!-- PAGE_BREAK -->
- Testing the Display of Errors and Warnings | 34 
+ Testing the Display of Errors and Warnings | 35 
 
  graph.Caches[typeof(RSSVWorkOrderLabor)].Update(woLabor); PXFieldState fieldState = (PXFieldState)graph.Caches[typeof(RSSVWorkOrderLabor)]. GetStateExt<RSSVWorkOrderLabor.quantity>(woLabor); Assert.Equal(PhoneRepairShop.Messages.QuantityCannotBeNegative, fieldState.Error); Assert.Equal(PXErrorLevel.Error, fieldState.ErrorLevel); graph.Labor.Cache.Clear(); 
 

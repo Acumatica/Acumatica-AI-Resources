@@ -1,8 +1,8 @@
 ## Developer Guide 
 
-# Plug-In Development Guide 
+# Plug-In Development 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -108,9 +108,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -200,7 +200,7 @@
 
 - _Designing Dashboard Contents_ 
 
-- _Administering Dashboard Forms_ 
+- _Administering Dashboards_ 
 
 - _Configuring Widgets_ 
 
@@ -1036,7 +1036,7 @@ public IEnumerable<PXFieldState> ExportSettings { get { var settings = new List<
 
 11. **Creating the configuration form.**     For a user to specify the basic settings of the connection with the external system, you need to create a     custom form in Acumatica ERP. You can create the form in either of the following ways: 
 
-- From scratch. For details about the creation of custom forms, see _To Develop a Custom Form_ , or review     the _T200 Maintenance Forms_ training course. 
+- From scratch. For details about the creation of custom forms, review the _T200 Maintenance Forms_     training course. 
 
 - By using the configuration forms that are available for the predefined connectors as a template and     adjusting these forms. 
 

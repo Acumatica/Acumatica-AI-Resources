@@ -2,7 +2,7 @@
 
 # Fixed Assets 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -56,21 +56,21 @@
 
  Conversion of a Purchase: To Convert a Purchase to an Asset.....................................................................45 
 
- Conversion of a Purchase: To Convert a Purchase to Multiple Assets.......................................................... 48 
+ Conversion of a Purchase: To Convert a Purchase to Multiple Assets.......................................................... 49 
 
- Conversion of a Purchase: Related Reports and Inquiry Form..................................................................... 53 
+ Conversion of a Purchase: Related Reports and Inquiry Form..................................................................... 52 
 
- Creating Fixed Assets............................................................................................................................ 55 
+ Creating Fixed Assets............................................................................................................................ 54 
 
- Fixed Asset Creation: General Information.................................................................................................... 55 
+ Fixed Asset Creation: General Information.................................................................................................... 54 
 
- Fixed Asset Creation: Implementation Checklist........................................................................................... 59 
+ Fixed Asset Creation: Implementation Checklist........................................................................................... 58 
 
- Fixed Asset Creation: Generated Transactions...............................................................................................61 
+ Fixed Asset Creation: Generated Transactions...............................................................................................59 
 
- Fixed Asset Creation: To Create and Reconcile an Asset............................................................................... 62 
+ Fixed Asset Creation: To Create and Reconcile an Asset............................................................................... 61 
 
- Fixed Asset Creation: To Create an Asset Under Construction......................................................................65 
+ Fixed Asset Creation: To Create an Asset Under Construction......................................................................64 
 
  Fixed Asset Creation: To Create an Asset with Multiple Units.......................................................................68 
 
@@ -98,31 +98,31 @@
 
  Additions to Assets: To Make an Addition by Converting a Purchase...........................................................81 
 
- Additions to Assets: To Make a Manual Addition........................................................................................... 83 
+ Additions to Assets: To Make a Manual Addition........................................................................................... 84 
 
-**Making Deductions from Fixed Assets.................................................................................................... 86** 
+**Making Deductions from Fixed Assets.................................................................................................... 87** 
 
- Deductions from Assets: General Information...............................................................................................86 
+ Deductions from Assets: General Information...............................................................................................87 
 
- Deductions from Assets: Implementation Checklist......................................................................................87 
+ Deductions from Assets: Implementation Checklist......................................................................................88 
 
- Deductions from Assets: Generated Transactions......................................................................................... 88 
+ Deductions from Assets: Generated Transactions......................................................................................... 89 
 
- Deductions from Assets: Process Activity.......................................................................................................89 
+ Deductions from Assets: Process Activity.......................................................................................................90 
 
- Deductions from Assets: Related Report........................................................................................................91 
+ Deductions from Assets: Related Report........................................................................................................92 
 
-**Transferring Fixed Assets...................................................................................................................... 93** 
+**Transferring Fixed Assets...................................................................................................................... 94** 
 
- Asset Transfers: General Information............................................................................................................. 93 
+ Asset Transfers: General Information............................................................................................................. 94 
 
- Asset Transfers: Implementation Checklist....................................................................................................94 
+ Asset Transfers: Implementation Checklist....................................................................................................95 
 
- Asset Transfers: Generated Transactions....................................................................................................... 96 
+ Asset Transfers: Generated Transactions....................................................................................................... 97 
 
- Asset Transfers: Process Activity.....................................................................................................................96 
+ Asset Transfers: Process Activity.....................................................................................................................97 
 
- Asset Transfers: Mass Processing....................................................................................................................99 
+ Asset Transfers: Mass Processing..................................................................................................................100 
 
 **Splitting Fixed Assets.......................................................................................................................... 101** 
 
@@ -162,17 +162,17 @@
 
  Asset Depreciation: Generated Transactions............................................................................................... 120 
 
- Asset Depreciation: To Calculate Depreciation............................................................................................120 
+ Asset Depreciation: To Calculate Depreciation............................................................................................121 
 
- Asset Depreciation: To Depreciate Assets.................................................................................................... 122 
+ Asset Depreciation: To Depreciate Assets.................................................................................................... 123 
 
  Asset Depreciation: To Calculate Depreciation in Two Books.................................................................... 125 
 
  Asset Depreciation: Related Reports............................................................................................................ 129 
 
- To Suspend Asset Depreciation.................................................................................................................... 129 
+ To Suspend Asset Depreciation.................................................................................................................... 130 
 
- To Resume Asset Depreciation..................................................................................................................... 129 
+ To Resume Asset Depreciation..................................................................................................................... 130 
 
 **Depreciating Additions to Fixed Assets................................................................................................. 131** 
 
@@ -248,11 +248,11 @@
 
  Report Form.......................................................................................................................................... 179 
 
- Report....................................................................................................................................................184 
+ Report....................................................................................................................................................186 
 
- Form Toolbar and More Menu.......................................................................................................................186 
+ Form Toolbar and More Menu.......................................................................................................................187 
 
- Table Toolbar................................................................................................................................................. 193 
+ Table Toolbar................................................................................................................................................. 194 
 
 
 <!-- PAGE_BREAK -->
@@ -274,9 +274,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -380,7 +380,7 @@
 
 - Document line account: The account that has been specified in the document (such as an AP bill) and that     has been debited by purchasing of the item that then was converted to a fixed asset. 
 
- Oen, the default fixed asset accrual account (specified in the FA Accrual Account box on the Fixed Assets Preferences (FA101000) form) is used in a document (for example, in the AP bill) because the item that is supposed to be a fixed asset has been purchased. In that case, the same account will be debited and credited by the Reconciliation+ or Reconciliationtransaction. 
+ Oen, the default fixed asset accrual account (specified in the FA Accrual Account box on the Fixed Assets Preferences form) is used in a document (for example, in the AP bill) because the item that is supposed to be a fixed asset has been purchased. In that case, the same account will be debited and credited by the Reconciliation+ or Reconciliationtransaction. 
 
 - Accumulated Depreciation account: The account specified for a fixed asset in the **Accumulated**     **Depreciation Account** box on the **GL Accounts** tab of the _Fixed Assets_ form. By default, the system copies     this account from the fixed asset class selected for the fixed asset. 
 
@@ -394,13 +394,13 @@
 
  In each of chapter of this guide about user actions that cause fixed asset transactions to be produced, you can refer to the Generated Transactions topic, which describes the specific transactions that are generated. 
 
-
-<!-- PAGE_BREAK -->
- Types of Fixed Asset Transactions | 10 
-
 **_Purchasing+_** 
 
  A transaction of the Purchasing+ type is created when a new asset has been acquired. Through this transaction, the cost of the asset is transferred from the Fixed Asset Accrual account to the Fixed Assets account. The system generates the following fixed asset transaction. 
+
+
+<!-- PAGE_BREAK -->
+ Types of Fixed Asset Transactions | 10 
 
  Account Debit Credit 
 
@@ -436,15 +436,13 @@
 
  FA Accrual account Amount 0.00 
 
-
-<!-- PAGE_BREAK -->
- Types of Fixed Asset Transactions | 11 
-
- Account Debit Credit 
-
  Document line account 0.00 Amount 
 
  The Reconciliation+ transaction debits the Fixed Assets Accrual account and credits the account that has been debited by the purchase of the corresponding item. 
+
+
+<!-- PAGE_BREAK -->
+ Types of Fixed Asset Transactions | 11 
 
 **_Reconciliation–_** 
 
@@ -482,13 +480,15 @@
 
  This transaction type is used to record the depreciation incurred during the financial period. The system generates the following fixed asset transaction. 
 
+ Account Debit Credit 
+
+ Depreciation Expense account Amount 0.00 
+
 
 <!-- PAGE_BREAK -->
  Types of Fixed Asset Transactions | 12 
 
  Account Debit Credit 
-
- Depreciation Expense account Amount 0.00 
 
  Accumulated Depreciation account 0.00 Amount 
 
@@ -1842,25 +1842,25 @@ In the table, the following terms and formulas are used:
 
  If the purchase of multiple items was processed with one transaction, when you convert this purchase to fixed assets, the system creates one fixed asset of the specified class for each item. 
 
- On the Convert Purchases to Assets (FA504500) form, you select the appropriate Fixed Asset Accrual account in the Account box in the Selection area, and the GL transactions associated with the selected account appear in the upper table of the current form. You can convert one item or multiple items at once, each into one asset or multiple assets. In the lower table, you can add a line for each particular asset manually. Alternatively, you can 
+ On the Convert Purchases to Assets (FA504500) form, you select the appropriate Fixed Asset Accrual account in the Account box in the Selection area, and the GL transactions associated with the selected account appear in the Purchase Transactions table of the current form. You can convert one item or multiple items at once, each into one asset or multiple assets. In the Fixed Assets table, you can add a line for each particular asset manually. Alternatively, you can simultaneously add all required asset lines that correspond to the quantity of 
 
 
 <!-- PAGE_BREAK -->
  Converting Purchases to Fixed Assets | 41 
 
- simultaneously add all required asset lines that correspond to the quantity of items specified in the transaction in the upper table by selecting an asset class for the transaction in the upper table. 
+ items specified in the transaction in the Purchase Transactions table by selecting an asset class for the transaction in the Purchase Transactions table. 
 
  You can specify the conversion settings to be used for the fixed assets on three different levels: 
 
 - In the Selection area, which has the **Branch** , **Custodian** , and **Department** boxes. 
 
-- In the lines of the upper table. The settings in the Selection area are inserted by default for the bills in the     upper table. 
+- In the lines of the **Purchase Transactions** table. The settings in the Selection area are inserted by default for     the bills in the **Purchase Transactions** table. 
 
-- For the assets in the lower table. The settings in the line of the upper table are inserted by default for the     assets in the lower table. You can override any default settings by changing them in this table for each new     asset individually. If you use the FA accrual account and subaccount to aggregate not only the items for conversion but also other items, you should hide the items that you do not want to convert. In this case, you select the **Reconciled** check box for those items in the upper table. The items will be hidden when you process the conversion of the new assets. 
+- For the assets in the **Fixed Assets** table. The settings in the line of the **Purchase Transactions** table     are inserted by default for the assets in the **Fixed Assets** table. You can override any default settings by     changing them in this table for each new asset individually. If you use the FA accrual account and subaccount to aggregate not only the items for conversion but also other items, you should hide the items that you do not want to convert. In this case, you select the **Reconciled** check box for those items in the **Purchase Transactions** table. The items will be hidden when you process the conversion of the new assets. 
 
- In the lower table, you select the check box in the Create Asset column for each unit for which you want to create a fixed asset. You then click Process on the form toolbar to create the fixed assets. 
+ In the Fixed Assets table, you select the check box in the Create Asset column for each unit for which you want to create a fixed asset. You then click Process on the form toolbar to create the fixed assets. 
 
- If some of the transactions that are posted to the account should not be converted to fixed assets, you can also mark them as reconciled to hide them from the upper table and thus eliminate them from conversion. To hide a particular transaction, you select the Reconciled check box for this transaction in the upper table before you create the fixed assets. If you want to review all the transactions that match the selection criteria, including the reconciled ones, you select the Show Transactions Marked as Reconciled check box in the Selection area. 
+ If some of the transactions that are posted to the account should not be converted to fixed assets, you can also mark them as reconciled to hide them from the Purchase Transactions table and thus eliminate them from conversion. To hide a particular transaction, you select the Reconciled check box for this transaction in the Purchase Transactions table before you create the fixed assets. If you want to review all the transactions that match the selection criteria, including the reconciled ones, you select the Show Transactions Marked as Reconciled check box in the Selection area. 
 
  You can review the settings of any converted fixed asset on the Fixed Assets (FA303000) form. You can also modify the settings unless the acquisition transaction has been released. 
 
@@ -1872,9 +1872,9 @@ In the table, the following terms and formulas are used:
 
 - It is not possible to create an asset in a branch based on a purchasing transaction posted for another branch     that has a different base currency. 
 
-- If a user is adding a new asset, the upper table shows only the GL transactions in the same base currency as     the base currency of the selected branch. 
+- If a user is adding a new asset, the **Purchase Transactions** table shows only the GL transactions in the same     base currency as the base currency of the selected branch. 
 
-- If a user is making an addition to a fixed asset, the lookup table in the **Asset ID** column of the lower table     shows only the assets whose currency is the same as the base currency of the selected branch. 
+- If a user is making an addition to a fixed asset, the lookup table in the **Asset ID** column of the **Fixed Assets**     table shows only the assets whose currency is the same as the base currency of the selected branch. 
 
 #### Fixed Asset Statuses 
 
@@ -2018,7 +2018,7 @@ In the table, the following terms and formulas are used:
 
 #### Story 
 
- Suppose that on January 10, 2025, the HEADOFFICE branch of SweetLife Fruits & Jams purchased an office building and the land that holds and surrounds it. Acting as a SweetLife accountant, you need to create a fixed asset in the system by converting this purchase. 
+ Suppose that on January 10, 2026, the HEADOFFICE branch of SweetLife Fruits & Jams purchased an office building and the land that holds and surrounds it. Acting as a SweetLife accountant, you need to create a fixed asset in the system by converting this purchase. 
 
 #### Configuration Overview 
 
@@ -2044,9 +2044,9 @@ In the table, the following terms and formulas are used:
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/10/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/10/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -2060,9 +2060,9 @@ In the table, the following terms and formulas are used:
 
 - **Module** : _GL_ 
 
-- **Transaction Date** : _1/10/2025_ (inserted automatically) 
+- **Transaction Date** : _1/10/2026_ (inserted automatically) 
 
-- **Post Period** : _01-2025_ (inserted automatically) 
+- **Post Period** : _01-2026_ (inserted automatically) 
 
 - **Description** : Purchasing office building and land 
 
@@ -2116,13 +2116,13 @@ In the table, the following terms and formulas are used:
 
 - **Branch** : _HEADOFFICE_ 
 
-- **Department** : _ADMIN_ The system automatically inserts _ADMIN_ in the **Department** column for both rows of the upper table. 
+- **Department** : _ADMIN_ The system automatically inserts _ADMIN_ in the **Department** column for both rows of the **Purchase Transactions** table. 
 
- The upper table displays transactions from purchase receipts. The Department column of the upper table contains the ID of the department to be used for multiple assets created from the selected purchase. The lower table displays a list of units of the item selected in the upper table. The Department column of the lower table contains the department to which each individual created asset should be assigned. 
+ The Purchase Transactions table displays transactions from purchase receipts. The Department column of the table contains the ID of the department to be used for multiple assets created from the selected purchase. The Fixed Assets table displays a list of units of the item selected in the Purchase Transactions table. The Department column of the Fixed Assets table contains the department to which each individually created asset should be assigned. 
 
-3. Select the unlabeled check box in the row with the $120,000 transaction in the upper table. 
+3. Select the unlabeled check box in the row with the $120,000 transaction in the **Purchase Transactions**     table. 
 
-4. In the **Asset Class** column for the row you have selected, select _LAND_. In the lower table, the system shows     the asset to be created.     By default, the system selects the entire amount of the line to be converted to a fixed asset. If needed, you     can change the **Transaction Amount** to convert only part of the purchase to a fixed asset.     By default, the receipt date and the placed-in-service date of the created asset are set to the **Transaction**     **Date** of the selected purchase. The transaction description copied from the description of the GL entry     corresponding to the purchase, which is the **Transaction Description** of the line on the _Journal Transactions_     (GL301000) form, is used as the description of the asset that you are creating. You can modify any of these     default settings, if needed. The following screenshot shows the fixed asset that will be converted from the     purchase. 
+4. In the **Asset Class** column for the row you have selected, select _LAND_. In the **Fixed Assets** table, the system     shows the asset to be created.     By default, the system selects the entire amount of the line to be converted to a fixed asset. If needed, you     can change the **Transaction Amount** to convert only part of the purchase to a fixed asset.     By default, the receipt date and the placed-in-service date of the created asset are set to the **Transaction**     **Date** of the selected purchase. The transaction description copied from the description of the GL entry     corresponding to the purchase, which is the **Transaction Description** of the line on the _Journal Transactions_     (GL301000) form, is used as the description of the asset that you are creating. You can modify any of these     default settings, if needed. The following screenshot shows the fixed asset that will be converted from the     purchase. 
 
  Figure: The new fixed asset that will be created from the purchase 
 
@@ -2134,19 +2134,17 @@ In the table, the following terms and formulas are used:
 
 1. Open the _Release FA Transactions_ (FA503000) form. 
 
+
+<!-- PAGE_BREAK -->
+ Converting Purchases to Fixed Assets | 48 
+
 2. In the table, select the unlabeled check box for the only transaction. 
 
 3. On the form toolbar, click **Release**. 
 
 4. Open the Fixed Asset Transactions (FA3010PL) list of records, and click the **Reference Number** link of the     only transaction. 
 
-5. On the _Fixed Asset Transactions_ (FA301000) form, which is opened, review the generated transactions. 
-
-
-<!-- PAGE_BREAK -->
- Converting Purchases to Fixed Assets | 48 
-
- On release of the transaction, the system generated the following fixed asset transactions: 
+5. On the _Fixed Asset Transactions_ (FA301000) form, which is opened, review the generated transactions.     On release of the transaction, the system generated the following fixed asset transactions: 
 
 - A _Purchasing+_ transaction: With this transaction, the system updates the FA Accrual account that has     been specified on the _Fixed Assets Preferences_ (FA101000) form and the Fixed Assets account that has     been specified for the fixed asset class of the fixed asset. This transaction credits the _15010_ account in the     amount of $120,000 and debits the _15100_ account in the same amount. 
 
@@ -2154,15 +2152,19 @@ In the table, the following terms and formulas are used:
 
 #### Step 4: Reviewing the Land Fixed Asset 
 
- To review the settings of the new fixed asset that was converted from a purchase, do the following: 
+ To review the settings of the new fixed asset that was converted from the purchase, do the following: 
 
 1. While you are still on the _Fixed Asset Transactions_ (FA301000) form, click the link in the **Asset** column for one     of the rows. 
 
-2. On the _Fixed Assets_ (FA303000) form, which is opened, review the fixed asset.     The **Description** box displays the description of the fixed asset, which was copied from the **Transaction**     **Description** specified for the purchase transaction on the _Journal Transactions_ (GL301000) form, which you     created in Step 1. The **Placed-in-Service Date** of the _Land_ asset (the **General** tab) is _1/10/2025_. (You can     override this date if you want to place the asset in service later.) Because the land has an indefinite life span,     the **Useful Life, Years** box is empty. 
+2. On the _Fixed Assets_ (FA303000) form, which is opened, review the fixed asset.     The **Description** box displays the description of the fixed asset, which was copied from the **Transaction**     **Description** specified for the purchase transaction on the _Journal Transactions_ (GL301000) form, which you     created in Step 1. The **Placed-in-Service Date** of the _Land_ asset (the **General** tab) is _1/10/2026_. (You can     override this date if you want to place the asset in service later.) Because the land has an indefinite life span,     the **Useful Life, Years** box is empty. 
 
-3. Review the settings of the created asset on the **Balance** tab, as shown in the screenshot below.     The asset is assigned to the _FIN_ book and has the **Orig. Acquisition Cost** of $120,000. The **Placed-in-Service**     **Period** is calculated based on the **Placed-in-Service Date** according to the book calendar; the _Purchasing_     _+_ transaction is posted to this period. The land is not depreciated, so other settings are not specified for this     fixed asset. 
+3. Review the settings of the created asset on the **Balance** tab, as shown in the screenshot below.     The asset is assigned to the _FIN_ book and has the **Orig. Acquisition Cost** of $120,000. The **Placed-in-Service**     **Period** (displayed on the **General** tab) is calculated based on the **Placed-in-Service Date** according to the     book calendar. The the _Purchasing+_ transaction is posted to this period. 
 
  Figure: Fixed asset settings on the Balance tab 
+
+
+<!-- PAGE_BREAK -->
+ Converting Purchases to Fixed Assets | 49 
 
 ### Conversion of a Purchase: To Convert a Purchase to Multiple Assets 
 
@@ -2170,11 +2172,7 @@ In the table, the following terms and formulas are used:
 
 #### Story 
 
- Suppose that on February 1, 2025, SweetLife Fruits & Jams purchased three desktop computers for the HEADOFFICE branch, one server, and five anti-virus soware licenses. Acting as a SweetLife accountant, you need to convert this purchase to multiple fixed assets. 
-
-
-<!-- PAGE_BREAK -->
- Converting Purchases to Fixed Assets | 49 
+ Suppose that on February 1, 2026, SweetLife Fruits & Jams purchased three desktop computers for the HEADOFFICE branch, one server, and five anti-virus soware licenses. Acting as a SweetLife accountant, you need to convert this purchase to multiple fixed assets. 
 
 #### Configuration Overview 
 
@@ -2198,15 +2196,19 @@ In the table, the following terms and formulas are used:
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _2/1/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _2/1/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
 #### Step 1: Creating a Purchasing Transaction 
 
  In this step, you will create an AP bill to record the purchase of the items. This bill causes the purchasing transaction to be generated. To create the bill, do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Converting Purchases to Fixed Assets | 50 
 
 1. On the _Bills and Adjustments_ (AP301000) form, add a new record. 
 
@@ -2216,9 +2218,9 @@ In the table, the following terms and formulas are used:
 
 - **Vendor** : _COMPULINK_ 
 
-- **Date** : _2/1/2025_ 
+- **Date** : _2/1/2026_ 
 
-- **Post Period** : _02-2025_ (inserted automatically) 
+- **Post Period** : _02-2026_ (inserted automatically) 
 
 - **Description** : Purchased computers and software 
 
@@ -2227,10 +2229,6 @@ In the table, the following terms and formulas are used:
 - **Branch** : _HEADOFFICE_ 
 
 - **Transaction Descr.** : Desktop computer 
-
-
-<!-- PAGE_BREAK -->
- Converting Purchases to Fixed Assets | 50 
 
 - **Quantity** : 3 
 
@@ -2274,13 +2272,13 @@ In the table, the following terms and formulas are used:
 
 2. In the **Department** box of the Selection area, select _ADMIN_. 
 
-3. In the upper table, in the row with an **Orig. Amount** of _3,915.00_ , select _COMPUTERS_ in the **Asset Class**     column, and then select the unlabeled check box for the row.     The system adds a line in the lower table with the **Create Asset** check box selected. 
+3. In the **Purchase Transactions** table, in the row with an **Orig. Amount** of _3,915.00_ , select _COMPUTERS_ in the     **Asset Class** column, and then select the unlabeled check box for the row.     The system adds a line in the **Fixed Assets** table with the **Create Asset** check box selected. 
 
-4. In the lower table, in the **Transaction Amount** column, specify 450. 
+4. In the **Fixed Assets** table, in the **Transaction Amount** column, specify 450. 
 
 5. In the **Transaction Description** column for the new row, specify Desktop computer. 
 
-6. In the lower table, click **Add Row** on the table toolbar, and specify the following settings in the row: 
+6. In the **Fixed Assets** table, click **Add Row** on the table toolbar, and specify the following settings in the row: 
 
 - **Asset Class** : _COMPUTERS_ (inserted automatically) 
 
@@ -2290,19 +2288,19 @@ In the table, the following terms and formulas are used:
 
 7. Click **Add Row** again on the table toolbar to add the third row, and specify the following settings for the row: 
 
-- **Asset Class** : _COMPUTERS_ (inserted automatically) 
-
-- **Transaction Amount** : 450 
-
-- **Transaction Description** : Desktop computer Notice that in the upper table, the **Selected Amount** is now _1,350.00_. The following screenshot shows the three converted fixed assets. 
-
 
 <!-- PAGE_BREAK -->
  Converting Purchases to Fixed Assets | 51 
 
+- **Asset Class** : _COMPUTERS_ (inserted automatically) 
+
+- **Transaction Amount** : 450 
+
+- **Transaction Description** : Desktop computer Notice that in the **Purchase Transactions** table, the **Selected Amount** is now _1,350.00_. The following screenshot shows the three converted fixed assets. 
+
  Figure: A bill converted into three fixed assets 
 
-8. To convert the server to a fixed asset, in the lower table, click **Add Row** on the table toolbar, and specify the     following settings in the added row: 
+8. To convert the server to a fixed asset, in the **Fixed Assets** table, click **Add Row** on the table toolbar, and     specify the following settings in the added row: 
 
 - **Asset Class** : _COMPUTERS_ (inserted automatically) 
 
@@ -2316,17 +2314,7 @@ In the table, the following terms and formulas are used:
 
 - **Transaction Amount** : 330 
 
-- **Transaction Description** : Anti-virus software The following screenshot shows all the purchased items converted to fixed assets. 
-
- Figure: List of converted fixed assets 
-
-10.On the form toolbar, click **Process**. 
-
-
-<!-- PAGE_BREAK -->
- Converting Purchases to Fixed Assets | 52 
-
- 11.Open the Asset Summary (FA402000) form to review the converted assets. 
+- **Transaction Description** : Anti-virus software 10.On the form toolbar, click **Process**. 11.Open the _Asset Summary_ (FA402000) form to review the converted assets. 
 
 #### Step 3: Releasing the Purchasing Transactions 
 
@@ -2342,13 +2330,13 @@ In the table, the following terms and formulas are used:
 
 1. On the _Fixed Assets_ (FA303000) form, open the _Server_ fixed asset. 
 
+
+<!-- PAGE_BREAK -->
+ Converting Purchases to Fixed Assets | 52 
+
 2. On the **Balance** tab, review the asset's depreciation method.     For the assets of the _COMPUTERS_ class, you have selected the _MACRS5-MQ_ table method as the depreciation     method. Depreciation amounts calculated by the table methods depend on the date when the asset was     acquired. The _MACRS5-MQ_ method is the class method that groups four _MACRS5_ methods that are used     based on the quarter in which the asset was acquired.     The _Server_ asset was acquired in the first quarter; that is why _MACRS5-MQ1_ is specified as the depreciation     method for this asset. 
 
 3. Click the link in the **Depreciation Method** column, and on the _Depreciation Table Methods_ (FA202600) form,     which the system has opened, review the settings of the depreciation method, as shown in the screenshot     below.     The averaging convention for this method is _Mid Quarter_ ; it defines the depreciation percent for the first     and last year of the asset's life based on the quarter in which the asset was acquired. The **Class Method** box     shows the class for this depreciation method, which is _MACRS5-MQ_. The **Useful Life** for each method of the     _MACRS5-MQ_ class is 5 years. The **Recovery Period** is the useful life in months.     The table at the bottom of the form lists fixed deprecation percents for each recovery year. Year 1 is the year     when the asset is acquired, and Year 6 is the year when the asset will be disposed of. 
-
-
-<!-- PAGE_BREAK -->
- Converting Purchases to Fixed Assets | 53 
 
  Figure: Settings of the MACRS5 table method 
 
@@ -2362,6 +2350,10 @@ In the table, the following terms and formulas are used:
 
  You can review a list of fixed assets converted from acquisitions for a particular range of financial periods by running the Acquisitions (FA611000) report. 
 
+
+<!-- PAGE_BREAK -->
+ Converting Purchases to Fixed Assets | 53 
+
 #### Reviewing Fixed Assets 
 
  You can review a list of fixed assets for a particular branch and a particular range of periods by running the Fixed Assets List (FA610500) report. 
@@ -2370,17 +2362,13 @@ In the table, the following terms and formulas are used:
 
  You can review a list of transactions related to a specific fixed asset on the Asset Transaction History (FA404000) form. You can review transactions for the posting book or any other book of the fixed asset. 
 
-
-<!-- PAGE_BREAK -->
- Converting Purchases to Fixed Assets | 54 
-
 #### Reviewing Transactions for a Fixed Asset 
 
  You can review a list of transactions associated with a specific fixed asset for a specified range of periods by running the Transactions by Asset (FA631020) report. 
 
 
 <!-- PAGE_BREAK -->
- Creating Fixed Assets | 55 
+ Creating Fixed Assets | 54 
 
 ## Creating Fixed Assets 
 
@@ -2422,7 +2410,7 @@ In the table, the following terms and formulas are used:
 
 
 <!-- PAGE_BREAK -->
- Creating Fixed Assets | 56 
+ Creating Fixed Assets | 55 
 
  You can change the acquisition cost of the asset only before you release the purchasing transaction, so that the data on the Balance tab of the Fixed Assets form will be updated correctly. When the purchasing transaction is released, the data is posted to the books and cannot be modified even though the Orig. Acquisition Cost box on the General tab of the form is available for editing. 
 
@@ -2454,7 +2442,7 @@ In the table, the following terms and formulas are used:
 
 
 <!-- PAGE_BREAK -->
- Creating Fixed Assets | 57 
+ Creating Fixed Assets | 56 
 
 2. On the _Transfer Assets_ (FA507000) form, transfer the asset to a fixed asset class that is not used for under-     construction assets, as described in _Asset Transfers: Process Activity_. This process will post the following     entry, transferring the asset cost to the Fixed Assets account. 
 
@@ -2480,9 +2468,9 @@ In the table, the following terms and formulas are used:
 
 
 <!-- PAGE_BREAK -->
- Creating Fixed Assets | 58 
+ Creating Fixed Assets | 57 
 
-As the diagram shows, manually creating a fixed asset involves these steps: 
+ As the diagram shows, manually creating a fixed asset involves these steps: 
 
 1. If a corresponding AP bill or journal transaction has not been entered in the system yet, you create the fixed     asset manually on the _Fixed Assets_ (FA303000) form. When you create the fixed asset manually, the system     generates a _Purchasing+_ transaction that records the asset acquisition. 
 
@@ -2496,13 +2484,13 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 4. On the **Reconciliation** tab of the _Fixed Assets_ form, you reconcile the cost of the created asset with the     appropriate GL entries. During reconciliation, the system generates a _Reconciliation+_ transaction. When     you create fixed assets manually, you can change any of their settings before you release the acquisition     transaction. 
 
-
-<!-- PAGE_BREAK -->
- Creating Fixed Assets | 59 
-
 #### Maintenance of Fixed Assets with Multiple Base Currencies Enabled in the System 
 
  The fixed asset functionality does not support documents in a foreign currency; documents are processed only in the base currency. If the Multiple Base Currencies feature is enabled on the Enable/Disable Features (CS100000) form, on all fixed asset-related forms that produce GL transactions, the system verifies that the branches specified in a transaction have the same base currency. You can review the currency of amounts and total amounts in all fixed asset transactions on multiple data entry forms and reports. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Fixed Assets | 58 
 
  On the Fixed Assets (FA303000) form, if you change the branch of the asset in the Branch box on the General tab and no Purchasing+ transaction has been released for the asset, the system will insert the base currency of the selected branch in the Currency box. 
 
@@ -2542,13 +2530,11 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
  Multiple forms The general ledger functionality has been implemented, as described in General Ledger: General Information. 
 
+ Vendors (AP303000) The vendor accounts for the vendors for which you will create AP bills have been created in the system. For details, see Vendors: Implementation Activity. 
+
 
 <!-- PAGE_BREAK -->
- Creating Fixed Assets | 60 
-
- Form Criteria to Check 
-
- Vendors (AP303000) The vendor accounts for the vendors for which you will create AP bills have been created in the system. For details, see Vendors: Implementation Activity. 
+ Creating Fixed Assets | 59 
 
 #### Other Settings That Affect the Workflow 
 
@@ -2576,13 +2562,13 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
  To make sure that all configuration has been performed correctly, we recommend that in your system, you create fixed assets by performing instructions similar to those described in Fixed Asset Creation: To Create and Reconcile an Asset and Fixed Asset Creation: To Create an Asset Under Construction. 
 
-
-<!-- PAGE_BREAK -->
- Creating Fixed Assets | 61 
-
 ### Fixed Asset Creation: Generated Transactions 
 
  As you enter fixed assets, the system creates and processes fixed asset transactions. To update the GL balances, the system generates the general ledger transactions described in the following sections. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Fixed Assets | 60 
 
 #### Transaction Generated for Fixed Asset Acquisition 
 
@@ -2628,15 +2614,17 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
  When you reconcile a fixed asset under construction with a GL transaction and release the reconciliation transaction, the system generates the following general ledger transaction. 
 
-
-<!-- PAGE_BREAK -->
- Creating Fixed Assets | 62 
-
  Account Source of Account Debit Credit 
 
  FA Accrual account The FA Accrual Account on the Fixed Assets Preferences (FA101000) form 
 
  Asset cost 0.00 
+
+
+<!-- PAGE_BREAK -->
+ Creating Fixed Assets | 61 
+
+ Account Source of Account Debit Credit 
 
  FA Accrual account The FA Accrual Account on the Fixed Assets Preferences form 
 
@@ -2648,7 +2636,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 #### Story 
 
- Suppose that on January 10, 2025, SweetLife Fruits & Jams invested in an office building for its Head Office, which it purchased for $165,000. However, at the time of purchase, the building was not ready for use. To prepare the building, SweetLife paid $15,000 to the Frontsource Ltd. company. Aer the work was completed, the building was ready to be placed in use on February 15, 2025. 
+ Suppose that on January 10, 2026, SweetLife Fruits & Jams invested in an office building for its Head Office, which it purchased for $165,000. However, at the time of purchase, the building was not ready for use. To prepare the building, SweetLife paid $15,000 to the Frontsource Ltd. company. Aer the work was completed, the building was ready to be placed in use on February 15, 2026. 
 
  Acting as a SweetLife accountant, you need to manually create a fixed asset for the office building and reconcile the acquisition cost of the asset with the appropriate financial transactions for the asset acquisition (the $165,000 GL entry and the $15,000 AP bill). 
 
@@ -2674,13 +2662,13 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/12/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/12/2026_ on the calendar. 
+
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 
 <!-- PAGE_BREAK -->
- Creating Fixed Assets | 63 
-
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+ Creating Fixed Assets | 62 
 
 4. Be sure that you have performed the _Conversion of a Purchase: To Convert a Purchase to an Asset_     prerequisite activity to create a purchasing transaction for the building. 
 
@@ -2708,9 +2696,9 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 - **Vendor** : _FRONTSRC_ 
 
-- **Date** : _1/12/2025_ (inserted automatically) 
+- **Date** : _1/12/2026_ (inserted automatically) 
 
-- **Post Period** : _01-2025_ (inserted automatically) 
+- **Post Period** : _01-2026_ (inserted automatically) 
 
 - **Description** : Preparing building for use (materials and work) 
 
@@ -2744,17 +2732,17 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 - **Useful Life, Years** : _39.0000_ (inserted automatically based on the fixed asset class settings) 
 
-- **Receipt Date** : _1/10/2025_ 
+- **Receipt Date** : _1/10/2026_ 
 
-
-<!-- PAGE_BREAK -->
- Creating Fixed Assets | 64 
-
-- **Placed-in-Service Date** : _2/15/2025_ 
+- **Placed-in-Service Date** : _2/15/2026_ 
 
 - **Orig. Acquisition Cost** : 180000 
 
 - **Branch** : _HEADOFFICE_ (the current branch is inserted by default) 
+
+
+<!-- PAGE_BREAK -->
+ Creating Fixed Assets | 63 
 
 - **Department** : _ADMIN_ You can change any asset setting except for the state of the **Tangible** check box until the acquisition transaction is released. 
 
@@ -2784,11 +2772,11 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 
 <!-- PAGE_BREAK -->
- Creating Fixed Assets | 65 
+ Creating Fixed Assets | 64 
 
  Figure: The fixed asset cost before reconciliation 
 
-5. On the form toolbar, click **Save** to save the created reconciliation transactions, and review them on     the **Transactions** tab (see the screenshot below). The generated _Reconciliation+_ transactions were     automatically released because the **Automatically Release Acquisition Transactions** check box (which is     selected) also applies to the reconciliation transactions that correspond to asset acquisition. The **Batch.**     **Nbr.** box displays the number of the corresponding GL batch. 
+5. On the form toolbar, click **Save** to save the created reconciliation transactions, and review them on the     **Transactions** tab (see the screenshot below).     The generated _Reconciliation+_ transactions were automatically released because the **Automatically**     **Release Acquisition Transactions** check box (which is selected) also applies to the reconciliation     transactions that correspond to asset acquisition. The **Batch. Nbr.** box displays the number of the     corresponding GL batch. 
 
  Figure: The reconciliation transactions generated for the fixed asset 
 
@@ -2800,13 +2788,13 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
  The following activity will walk you through the process of creating a fixed asset under construction. 
 
-#### Story 
-
- Suppose that in January 2025, SweetLife Fruits & Jams started the construction of a warehouse near its office building. According to the company's policy, the cost of such assets must be recorded to a dedicated asset account. The warehouse is expected to be placed in service on April 20, 2025. 
-
 
 <!-- PAGE_BREAK -->
- Creating Fixed Assets | 66 
+ Creating Fixed Assets | 65 
+
+#### Story 
+
+ Suppose that in January 2026, SweetLife Fruits & Jams started the construction of a warehouse near its office building. According to the company's policy, the cost of such assets must be recorded to a dedicated asset account. The warehouse is expected to be placed in service on April 20, 2026. 
 
  Acting as a SweetLife accountant, you need to create a GL transaction, a fixed asset class for assets under construction, and the Office Warehouse asset. You then need to reconcile this asset with the GL transaction. 
 
@@ -2830,9 +2818,9 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/30/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/30/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -2846,13 +2834,17 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 - **Module** : _GL_ 
 
-- **Transaction Date** : _1/30/2025_ (inserted automatically) 
+- **Transaction Date** : _1/30/2026_ (inserted automatically) 
 
-- **Post Period** : _01-2025_ (inserted automatically) 
+- **Post Period** : _01-2026_ (inserted automatically) 
 
 - **Description** : Construction of office warehouse 
 
 3. On the **Details** tab, click **Add Row** on the table toolbar, and specify the following settings in the added row: 
+
+
+<!-- PAGE_BREAK -->
+ Creating Fixed Assets | 66 
 
 - **Branch** : _HEADOFFICE_ 
 
@@ -2863,10 +2855,6 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 - **Transaction Description** : Office warehouse 
 
 4. Click **Add Row** on the table toolbar again, and specify the following settings in the second row: 
-
-
-<!-- PAGE_BREAK -->
- Creating Fixed Assets | 67 
 
 - **Branch** : _HEADOFFICE_ 
 
@@ -2936,17 +2924,17 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 - **Useful Life, Years** : _20.0000_ (inserted automatically from the fixed asset class settings) 
 
-- **Receipt Date** : _1/30/2025_ 
 
-- **Placed-in-Service Date** : _4/20/2025_     Notice that as soon as you specify the placed-in-service date, the system displays a warning message     that the fixed asset is under construction and cannot be depreciated. 
+<!-- PAGE_BREAK -->
+ Creating Fixed Assets | 67 
+
+- **Receipt Date** : _1/30/2026_ 
+
+- **Placed-in-Service Date** : _4/20/2026_     Notice that as soon as you specify the placed-in-service date, the system displays a warning message     that the fixed asset is under construction and cannot be depreciated. 
 
 - **Orig. Acquisition Cost** : 38000 
 
 - **Branch** : _HEADOFFICE_ (the current branch is inserted by default) 
-
-
-<!-- PAGE_BREAK -->
- Creating Fixed Assets | 68 
 
 - **Department** : _ADMIN_ 
 
@@ -2970,19 +2958,19 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 5. On the form toolbar, click **Save** to save the created reconciliation transaction, and review it on the     **Transactions** tab.     The generated _Reconciliation+_ transaction was automatically released because the **Automatically Release**     **Acquisition Transactions** check box (which is selected) also applies to the reconciliation transactions that     correspond to asset acquisition. The **Batch. Nbr.** box displays the number of the corresponding GL batch. 
 
+
+<!-- PAGE_BREAK -->
+ Creating Fixed Assets | 68 
+
 6. On the **Reconciliation** tab, review the **Unreconciled Amount**. It is _0.00_ , indicating that the full amount of     the asset has been reconciled. 
 
 ### Fixed Asset Creation: To Create an Asset with Multiple Units 
 
  The following activity will walk you through the process of creating and reconciling a fixed asset with multiple units. 
 
-
-<!-- PAGE_BREAK -->
- Creating Fixed Assets | 69 
-
 #### Story 
 
- Suppose that on May 5, 2025, SweetLife Fruits & Jams purchased five office soware licenses. This should be defined in the system as one fixed asset that contains multiple units. Acting as a SweetLife accountant, you need to manually create the asset, specify a quantity of five units for the asset, and reconcile the asset with this purchase. 
+ Suppose that on May 5, 2026, SweetLife Fruits & Jams purchased five office soware licenses. This should be defined in the system as one fixed asset that contains multiple units. Acting as a SweetLife accountant, you need to manually create the asset, specify a quantity of five units for the asset, and reconcile the asset with this purchase. 
 
 #### Configuration Overview 
 
@@ -3006,9 +2994,9 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _5/15/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _5/15/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -3018,23 +3006,23 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 1. On the _Bills and Adjustments_ (AP301000) form, add a new record. 
 
+
+<!-- PAGE_BREAK -->
+ Creating Fixed Assets | 69 
+
 2. In the Summary area, specify the following settings: 
 
 - **Type** : _Bill_ 
 
 - **Vendor** : _OFFICEUP_ 
 
-- **Date** : _5/15/2025_ (inserted automatically) 
+- **Date** : _5/15/2026_ (inserted automatically) 
 
-- **Post Period** : _05-2025_ (inserted automatically) 
+- **Post Period** : _05-2026_ (inserted automatically) 
 
 - **Description** : Office software 
 
 3. On the **Details** tab, click **Add Row** on the table toolbar, and specify the following settings in the added row: 
-
-
-<!-- PAGE_BREAK -->
- Creating Fixed Assets | 70 
 
 - **Branch** : _HEADOFFICE_ 
 
@@ -3066,9 +3054,9 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 - **Useful Life, Years** : _3.0000_ (inserted automatically from the fixed asset class settings) 
 
-- **Receipt Date** : _5/15/2025_ 
+- **Receipt Date** : _5/15/2026_ 
 
-- **Placed-in-Service Date** : _5/15/2025_ 
+- **Placed-in-Service Date** : _5/15/2026_ 
 
 - **Orig. Acquisition Cost** : 750 
 
@@ -3096,7 +3084,11 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 5. On the form toolbar, click **Save** to save the generated transaction and reconcile the asset. 
 
- You can skip reconciliation for any fixed asset if the Require Full Reconciliation Before Disposal check box is cleared on the Fixed Assets Preferences (FA101000) form. 
+
+<!-- PAGE_BREAK -->
+ Creating Fixed Assets | 70 
+
+You can skip reconciliation for any fixed asset if the **Require Full Reconciliation Before Disposal** check box is cleared on the _Fixed Assets Preferences_ (FA101000) form. 
 
 
 <!-- PAGE_BREAK -->
@@ -3128,7 +3120,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
  Asset Type You can create the required fixed asset type or edit an existing one by using the Fixed Asset Types (FA201010) form. 
 
- Useful Life, Years If you change the useful life for an existing asset that was already depreciated for some periods, the system recalculates the depreciation starting from the placedin-service date and generates a Depreciation Adjustment transaction. 
+ Useful Life, Years If you change the useful life for an existing asset that was already depreciated for some periods, the system recalculates the depreciation starting from the placed-in-service date and generates a Depreciation Adjustment transaction. 
 
  The useful life cannot be changed for the fixed assets that are depreciated by using any of the table depreciation methods. 
 
@@ -3136,7 +3128,11 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
  General 
 
- Placed-in-Service Date For a depreciable fixed asset, this box will be unavailable for editing once the first depreciation transaction (of the Depreciation+ type) has been created. 
+ Placed-in-Service Date 
+
+ For a depreciable fixed asset, this box will be unavailable for editing once the first depreciation transaction (of the Depreciation+ type) has been created. 
+
+ GL Accounts All boxes available on this tab 
 
 
 <!-- PAGE_BREAK -->
@@ -3146,11 +3142,11 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
  Comments 
 
- GL Accounts All boxes available on this tab 
-
  Depreciation Method On this tab, you can also add other depreciation books that are assigned to the fixed asset class. 
 
- Averaging Convention This column is not available for a non-depreciable fixed asset (one for which the Depreciate box is cleared on the General tab). 
+ Averaging Convention 
+
+ This column is not available for a non-depreciable fixed asset (one for which the Depreciate box is cleared on the General tab). 
 
  Balance 
 
@@ -3180,11 +3176,11 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
  The processing of fixed assets causes batches to be produced by the system on the Journal Transactions (GL301000) form. A user can also manually create batches on this form. The settings on the General Ledger Preferences (GL102000) form can affect the processing workflow of each batch as follows: 
 
+- If the **Hold Batches on Entry** check box is selected, a batch is saved with the _On Hold_ status by default. If the     batch is on hold, the user should click **Remove Hold** on the toolbar of the _Journal Transactions_ (GL301000)     form for the batch so that they can process it further. If the check box is cleared, the batch is saved with the     _Balanced_ status. 
+
 
 <!-- PAGE_BREAK -->
  Changing an Asset's Default Settings | 73 
-
-- If the **Hold Batches on Entry** check box is selected, a batch is saved with the _On Hold_ status by default. If the     batch is on hold, the user should click **Remove Hold** on the toolbar of the _Journal Transactions_ (GL301000)     form for the batch so that they can process it further. If the check box is cleared, the batch is saved with the     _Balanced_ status. 
 
 - If the **Validate Batch Control Totals on Entry** check box is selected, the user has to enter the batch control     total before you save the batch on the _Journal Transactions_ form. If this check box is cleared and the status of     the batch is _Balanced_ , the system automatically validates the batch. 
 
@@ -3214,15 +3210,17 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
  When you create a fixed asset on the Fixed Assets (FA303000) form, the system generates the following general ledger transaction. 
 
-
-<!-- PAGE_BREAK -->
- Changing an Asset's Default Settings | 74 
-
  Account Source of Account Debit Credit 
 
  Fixed Asset account The Fixed Asset Account box on the GL Accounts tab of the Fixed Asset Classes (FA201000) form for the asset class 
 
  Asset cost 0.00 
+
+
+<!-- PAGE_BREAK -->
+ Changing an Asset's Default Settings | 74 
+
+ Account Source of Account Debit Credit 
 
  FA Accrual account The FA Accrual Account on the Fixed Assets Preferences (FA101000) form 
 
@@ -3252,7 +3250,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 #### Story 
 
- Suppose that on March 12, 2025, SweetLife Fruits & Jams purchased materials to use them for repairs in the office building. In March, the Frontsource Ltd. company repaired the roof by using part of the purchased materials; the company also installed downspouts. SweetLife paid for this work on March 30, 2025. The accountants have decided to capitalize the roof repair expense—that is, to create a fixed asset of the BUILDING class and depreciate it for five years. 
+ Suppose that on March 12, 2026, SweetLife Fruits & Jams purchased materials to use them for repairs in the office building. In March, the Frontsource Ltd. company repaired the roof by using part of the purchased materials; the company also installed downspouts. SweetLife paid for this work on March 30, 2026. The accountants have decided to capitalize the roof repair expense—that is, to create a fixed asset of the BUILDING class and depreciate it for five years. 
 
  Acting as a SweetLife accountant, you need to create a fixed asset for the roof repair, with some settings that differ from those that the system copies from the BUILDING fixed asset class. 
 
@@ -3262,13 +3260,13 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 - On the _Enable/Disable Features_ (CS100000) form, the _Fixed Asset Management_ feature has been enabled. 
 
-
-<!-- PAGE_BREAK -->
- Changing an Asset's Default Settings | 75 
-
 - On the _Chart of Accounts_ (GL202500) form, the needed GL accounts have been created. 
 
 - On the _Vendors_ (AP303000) form, the _FRONTSRC_ vendor has been created. 
+
+
+<!-- PAGE_BREAK -->
+ Changing an Asset's Default Settings | 75 
 
 - On the _Fixed Assets Preferences_ (FA101000) form, the **Automatically Release Acquisition Transactions**     check box has been selected. 
 
@@ -3282,9 +3280,9 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _3/12/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _3/12/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. Be sure that you have created a purchasing transaction for the building by performing the _Fixed Asset_     _Creation: To Create and Reconcile an Asset_ prerequisite activity. 
 
@@ -3302,9 +3300,9 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 - **Vendor** : _FRONTSRC_ 
 
-- **Date** : _3/12/2025_ (inserted automatically) 
+- **Date** : _3/12/2026_ (inserted automatically) 
 
-- **Post Period** : _03-2025_ 
+- **Post Period** : _03-2026_ 
 
 - **Description** : Materials for repair work 
 
@@ -3324,17 +3322,17 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 6. In the Summary area, specify the following settings for the new bill: 
 
-
-<!-- PAGE_BREAK -->
- Changing an Asset's Default Settings | 76 
-
 - **Type** : _Bill_ 
 
 - **Vendor** : _CSEMBLY_ 
 
-- **Date** : _3/30/2025_ 
 
-- **Post Period** : _03-2025_ 
+<!-- PAGE_BREAK -->
+ Changing an Asset's Default Settings | 76 
+
+- **Date** : _3/30/2026_ 
+
+- **Post Period** : _03-2026_ 
 
 - **Description** : Repair work 
 
@@ -3376,9 +3374,9 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 - **Depreciable** : Selected (inserted automatically based on the asset class) 
 
-- **Receipt Date** : _3/30/2025_ 
+- **Receipt Date** : _3/30/2026_ 
 
-- **Placed-in-Service Date** : _3/30/2025_ 
+- **Placed-in-Service Date** : _3/30/2026_ 
 
 - **Orig. Acquisition Cost** : 8000 
 
@@ -3388,7 +3386,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 4. While you are still on the **General** tab, change the **Useful Life, Years** to 5 and save the fixed asset. 
 
-5. On the **Balance** tab, review the asset's settings. The recovery period for the asset is five years, so the fixed     asset will be depreciated from the 03-2025 period to the 03-2030 period. 
+5. On the **Balance** tab, review the asset's settings. The recovery period for the asset is five years, so the fixed     asset will be depreciated from the 03-2026 period to the 03-2031 period. 
 
 6. On the form toolbar, click **Save** to save the asset. 
 
@@ -3396,15 +3394,11 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 8. On the **Reconciliation** tab, make sure that _15010_ is selected in the **Account** box. 
 
-9. In the table, select the unlabeled check box in the row of the $5,800 entry. 10.On the table toolbar, click **Process**. 
+9. In the table, select the unlabeled check box in the row of the $5,800 entry. 10.On the table toolbar, click **Process**. 11.On the form toolbar, click **Save**. The unreconciled amount is reduced to $2,200. 12.In the **Account** box, select _62950_ to process the rest of the amount by using another account. 
 
 
 <!-- PAGE_BREAK -->
  Changing an Asset's Default Settings | 77 
-
-11.On the form toolbar, click **Save**. The unreconciled amount is reduced to $2,200. 
-
-12.In the **Account** box, select _62950_ to process the rest of the amount by using another account. 
 
 13.In the table, select the unlabeled check box in the row of the $6,750 transaction. The system automatically fills the **Selected Amount** column with _2,200.00_. 
 
@@ -3586,9 +3580,9 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _3/12/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _3/12/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. Make sure that you have entered the purchasing transaction for repair work by performing _Non-Default_     _Asset Settings: Process Activity_ , which is also a prerequisite activity. 
 
@@ -3602,19 +3596,19 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 2. In the **Account** box of the Selection area, select _62950 (Repairs)_. 
 
-3. In the upper table, select the unlabeled check box in the row with the original amount of $6,750 posted to     the _62950_ account. (See the following screenshot.) The open amount of this entry is currently $4,550. 
+3. In the **Purchase Transactions** table, select the unlabeled check box in the row with the original amount of     $6,750 posted to the _62950_ account. (See the screenshot below.) The open amount of this entry is currently     $4,550. 
 
-4. In the lower table (which provides a list of units of the item selected for conversion in the upper table), click     **Add Row** on the table toolbar, and clear the **Create Asset** check box in the added row, because you are     going to make an addition to an existing asset. 
+4. In the **Fixed Assets** table (which provides a list of units of the item selected for conversion in the **Purchase**     **Transactions** table), click **Add Row** on the table toolbar, and clear the **Create Asset** check box in the added     row, because you are going to make an addition to an existing asset. 
 
-5. In the **Asset ID** column of the added row, select the _Roof repair (Head Office building)_ asset, and specify     2500 ($4,700 – $2,200) in the **Transaction Amount** column (also shown in the following screenshot).     The system automatically inserts _ADMIN_ in the **Department** column and _BUILDING_ in the **Asset Class**     column, because these are the settings of the fixed asset that you selected in the upper table. 
-
- Figure: Addition to the existing roof repair asset 
-
-6. In the **Transaction Description** column of this row, type Additional materials used. 
+5. In the **Asset ID** column of the added row, select the _Roof repair (Head Office building)_ asset, and specify     2500 ($4,700 – $2,200) in the **Transaction Amount** column (also shown in the screenshot below).     The system automatically inserts _ADMIN_ in the **Department** column and _BUILDING_ in the **Asset Class**     column, because these are the settings of the fixed asset that you selected in the **Purchase Transactions**     table. 
 
 
 <!-- PAGE_BREAK -->
  Making Additions to Fixed Assets | 83 
+
+ Figure: Addition to the existing roof repair asset 
+
+6. In the **Transaction Description** column of this row, type Additional materials used. 
 
 7. Click **Process** on the form toolbar to add the cost of these materials to the asset. 
 
@@ -3634,7 +3628,13 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 - A _Purchasing+_ transaction that updates the current cost and the basis of the asset, and generates a GL     transaction that debits the Fixed Assets account ( _15200_ ) and credits the FA Accrual account ( _15010_ ). 
 
-- A _Reconciliation+_ transaction that updates the unreconciled amount of the asset, debits the FA Accrual     account (15010), and credits the GL account that was used in the AP bill ( _62950_ ). The transaction also     decreases the open amount of the reconciled GL entry to avoid converting the same amount to a fixed     asset multiple times. 
+- A _Reconciliation+_ transaction that updates the unreconciled amount of the asset, debits the FA Accrual     account (15010), and credits the GL account that was used in the AP bill ( _62950_ ). The transaction also 
+
+
+<!-- PAGE_BREAK -->
+ Making Additions to Fixed Assets | 84 
+
+ decreases the open amount of the reconciled GL entry to avoid converting the same amount to a fixed asset multiple times. 
 
 ### Additions to Assets: To Make a Manual Addition 
 
@@ -3642,17 +3642,13 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 #### Story 
 
- Suppose that on May 30, 2025, the system administrator of SweetLife Fruits & Jams installed a new SSD hard drive on the server. The accountant of SweetLife decided to add this cost to the current cost of the Server asset. Acting as the SweetLife accountant, you need to create a purchasing transaction and reconcile the transaction amount. 
+ Suppose that on May 30, 2026, the system administrator of SweetLife Fruits & Jams installed a new SSD hard drive on the server. The accountant of SweetLife decided to add this cost to the current cost of the Server asset. Acting as the SweetLife accountant, you need to create a purchasing transaction and reconcile the transaction amount. 
 
 #### Configuration Overview 
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
 - On the _Enable/Disable Features_ (CS100000) form, the _Fixed Asset Management_ feature has been enabled. 
-
-
-<!-- PAGE_BREAK -->
- Making Additions to Fixed Assets | 84 
 
 - On the _Chart of Accounts_ (GL202500) form, the needed GL accounts have been created. 
 
@@ -3670,9 +3666,9 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _5/30/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _5/30/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. Make sure that you have created the _Server_ fixed asset by performing the _Conversion of a Purchase: To_     _Convert a Purchase to Multiple Assets_ prerequisite activity. 
 
@@ -3684,15 +3680,19 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 1. On the _Bills and Adjustments_ (AP301000) form, add a new record. 
 
+
+<!-- PAGE_BREAK -->
+ Making Additions to Fixed Assets | 85 
+
 2. In the Summary area, specify the following settings: 
 
 - **Type** : _Bill_ 
 
 - **Vendor** : _COMPULINK_ 
 
-- **Date** : _5/30/2025_ (inserted automatically) 
+- **Date** : _5/30/2026_ (inserted automatically) 
 
-- **Post Period** : _05-2025_ 
+- **Post Period** : _05-2026_ 
 
 - **Description** : SSD hard drive 
 
@@ -3712,10 +3712,6 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
  To make the addition to the cost of the Server fixed asset, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Making Additions to Fixed Assets | 85 
-
 1. On the _Fixed Assets_ (FA303000) form, open the _Server_ fixed asset. 
 
 2. In the Summary area of the **Reconciliation** tab, specify the following settings: 
@@ -3724,9 +3720,9 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 - **Account** : _15010_ 
 
-- **Tran. Date** : _5/30/2025_ (the date of the _Purchasing+_ transaction generated for the addition) 
+- **Tran. Date** : _5/30/2026_ (the date of the _Purchasing+_ transaction generated for the addition) 
 
-- **Addition Period** : _05-2025_ (the period to which the _Purchasing+_ transaction generated for the addition is     posted) 
+- **Addition Period** : _05-2026_ (the period to which the _Purchasing+_ transaction generated for the addition is     posted) 
 
 3. In the table on this tab, select the unlabeled check box in the row with the original amount of $300, and     specify 300 in the **Selected Amount** column, as shown in the following screenshot. 
 
@@ -3738,7 +3734,13 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 6. On the **Transactions** tab, review the transactions that were created when the addition was processed. 
 
-7. Click the link in the **Batch Nbr.** column, and review the generated batch on the _Journal Transactions_     (GL301000) form. In the generated batch, the first two rows were generated by the _Reconciliation+_     transaction, and the next two rows were generated by the _Purchasing+_ transaction.     The system has created and released the following transactions: 
+7. Click the link in the **Batch Nbr.** column, and review the generated batch on the _Journal Transactions_     (GL301000) form. In the generated batch, the first two rows were generated by the _Reconciliation+_     transaction, and the next two rows were generated by the _Purchasing+_ transaction. 
+
+
+<!-- PAGE_BREAK -->
+ Making Additions to Fixed Assets | 86 
+
+The system has created and released the following transactions: 
 
 - A _Purchasing+_ transaction that updates the current cost and the basis of the asset, and generates a GL     transaction that debits the Fixed Assets account ( _15300_ ) and credits the FA Accrual account ( _15010_ ). 
 
@@ -3746,7 +3748,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 
 <!-- PAGE_BREAK -->
- Making Deductions from Fixed Assets | 86 
+ Making Deductions from Fixed Assets | 87 
 
 ## Making Deductions from Fixed Assets 
 
@@ -3784,7 +3786,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 
 <!-- PAGE_BREAK -->
- Making Deductions from Fixed Assets | 87 
+ Making Deductions from Fixed Assets | 88 
 
  Optionally, you can make deductions from fixed assets on the Fixed Assets (FA303000) or Convert Purchases to Assets (FA504500) form to record the assets' impairment. A deduction reduces the current cost and the net value of the asset. 
 
@@ -3812,7 +3814,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 
 <!-- PAGE_BREAK -->
- Making Deductions from Fixed Assets | 88 
+ Making Deductions from Fixed Assets | 89 
 
 #### Other Settings That Affect the Workflow 
 
@@ -3846,7 +3848,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 
 <!-- PAGE_BREAK -->
- Making Deductions from Fixed Assets | 89 
+ Making Deductions from Fixed Assets | 90 
 
 #### Transaction Generated for Purchasing– 
 
@@ -3886,7 +3888,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 #### Story 
 
- Suppose that on April 5, 2025, SweetLife Fruits & Jams received a credit memo of $1,375 from Frontsource, Ltd., which gave SweetLife a large discount on materials purchased in March. The accountant of SweetLife decided to process $850 of this amount as a deduction from the roof repair cost. Acting as the SweetLife accountant, you need to create a debit adjustment and make a deduction from the asset. 
+ Suppose that on April 5, 2026, SweetLife Fruits & Jams received a credit memo of $1,375 from Frontsource, Ltd., which gave SweetLife a large discount on materials purchased in March. The accountant of SweetLife decided to process $850 of this amount as a deduction from the roof repair cost. Acting as the SweetLife accountant, you need to create a debit adjustment and make a deduction from the asset. 
 
 #### Configuration Overview 
 
@@ -3898,7 +3900,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 
 <!-- PAGE_BREAK -->
- Making Deductions from Fixed Assets | 90 
+ Making Deductions from Fixed Assets | 91 
 
 - On the _Fixed Assets Preferences_ (FA101000) form ( **Posting Settings** section), the **Automatically Release**     **Acquisition Transactions** check box has been selected. 
 
@@ -3914,9 +3916,9 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _4/5/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _4/5/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. Make sure that you have entered an addition to the roof repair materials by converting a purchase by     performing the _Additions to Assets: To Make an Addition by Converting a Purchase_ prerequisite activity. 
 
@@ -3934,9 +3936,9 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 - **Vendor** : _FRONTSRC_ 
 
-- **Date** : _4/5/2025_ (inserted automatically) 
+- **Date** : _4/5/2026_ (inserted automatically) 
 
-- **Post Period** : _04-2025_ (inserted automatically) 
+- **Post Period** : _04-2026_ (inserted automatically) 
 
 - **Description** : Discount on purchased materials 
 
@@ -3958,7 +3960,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 
 <!-- PAGE_BREAK -->
- Making Deductions from Fixed Assets | 91 
+ Making Deductions from Fixed Assets | 92 
 
 1. On the _Fixed Assets_ (FA303000) form, open the _Roof repair (Head Office building)_ asset. 
 
@@ -3968,25 +3970,27 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 - **Account** : _62950_ 
 
-- **Tran. Date** : _3/1/2025_ 
+- **Tran. Date** : _3/1/2026_ 
 
-- **Addition Period** : _03-2025_ 
+- **Addition Period** : _03-2026_ 
 
-3. In the row with the original amount of $1,375 posted to the _62950_ account, enter 850 in the **Selected**     **Amount** column, as shown in the following screenshot. 
+3. Select the unlabeled check box in the row with the original amount of $1,375 posted to the _62950_ account. 
+
+4. In the **Selected Amount** column, enter 850 , as shown in the following screenshot. 
 
  Figure: Selection of the line to be processed as a deduction 
 
-4. On the table toolbar, click **Process** to process the deduction. 
+5. On the table toolbar, click **Process** to process the deduction. 
 
-5. On the form toolbar, click **Save** to save the created transactions. 
+6. On the form toolbar, click **Save** to save the created transactions. 
 
-6. On the **Transactions** tab, review the transactions created for the deduction.     The system has created and released the following transactions: 
+7. On the **Transactions** tab, review the transactions created for the deduction.     The system has created and released the following transactions: 
 
 - A _Purchasing–_ transaction that updates the current cost and the basis of the asset, and generates a GL     transaction that debits the FA Accrual account ( _15010_ ) and credits the Fixed Asset account ( _15200_ ). 
 
 - A _Reconciliation–_ transaction that credits the FA Accrual account ( _15010_ ) and debits the GL account that     was used in the AP bill ( _62950_ ). The transaction also decreases the open amount of the reconciled GL     entry to avoid converting the same amount to a fixed asset multiple times. _Reconciliation–_ transactions     are generated automatically when you decrease the net book value of an asset. 
 
-7. On the **Balance** tab, review the current cost of the fixed asset. The current cost of the asset has been     decreased and is now $9,650 ($10,500 – $850). 
+8. On the **Balance** tab, review the current cost of the fixed asset. The current cost of the asset has been     decreased and is now $9,650 ($10,500 – $850). 
 
 ### Deductions from Assets: Related Report 
 
@@ -3996,7 +4000,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 
 <!-- PAGE_BREAK -->
- Making Deductions from Fixed Assets | 92 
+ Making Deductions from Fixed Assets | 93 
 
 #### Reviewing Reconciliation History 
 
@@ -4008,7 +4012,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 
 <!-- PAGE_BREAK -->
- Transferring Fixed Assets | 93 
+ Transferring Fixed Assets | 94 
 
 ## Transferring Fixed Assets 
 
@@ -4052,7 +4056,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 
 <!-- PAGE_BREAK -->
- Transferring Fixed Assets | 94 
+ Transferring Fixed Assets | 95 
 
  If the Multiple Base Currencies feature is enabled on the Enable/Disable Features (CS100000) form, assets can be transferred only between the branches with the same base currencies. If the currencies are different, an asset has to be disposed of in the source branch on the Dispose Assets (FA505000) form and acquired in the destination branch on the Fixed Assets form. 
 
@@ -4102,7 +4106,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 
 <!-- PAGE_BREAK -->
- Transferring Fixed Assets | 95 
+ Transferring Fixed Assets | 96 
 
  Form Criteria to Check 
 
@@ -4134,7 +4138,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 
 <!-- PAGE_BREAK -->
- Transferring Fixed Assets | 96 
+ Transferring Fixed Assets | 97 
 
 ### Asset Transfers: Generated Transactions 
 
@@ -4170,7 +4174,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 #### Story 
 
- Suppose that on April 30, 2025, one of the computers and one anti-virus soware license were transferred from the Administrative department of the Head Office branch of SweetLife Fruits & Jams to the Sales department of the company's Retail branch. Acting as a SweetLife accountant, you need to record this transfer in the system. 
+ Suppose that on April 30, 2026, one of the computers and one anti-virus soware license were transferred from the Administrative department of the Head Office branch of SweetLife Fruits & Jams to the Sales department of the company's Retail branch. Acting as a SweetLife accountant, you need to record this transfer in the system. 
 
 #### Configuration Overview 
 
@@ -4188,7 +4192,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 
 <!-- PAGE_BREAK -->
- Transferring Fixed Assets | 97 
+ Transferring Fixed Assets | 98 
 
  (GL301000) form, you will review the generated GL transaction. You will return to the Fixed Assets form and review the location of one of the transferred assets. Finally, you will review the list of assets for a specific branch on the Asset Summary (FA402000) form. 
 
@@ -4198,9 +4202,9 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _4/30/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _4/30/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. Make sure that you have entered the needed fixed assets by performing the _Conversion of a Purchase: To_     _Convert a Purchase to Multiple Assets_ prerequisite activity. 
 
@@ -4232,7 +4236,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 
 <!-- PAGE_BREAK -->
- Transferring Fixed Assets | 98 
+ Transferring Fixed Assets | 99 
 
  Figure: The generated transfer transactions 
 
@@ -4250,37 +4254,35 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 2. In the Selection area, specify the following settings: 
 
-- **Transfer Date** : _4/30/2025_ (inserted automatically) 
+- **Transfer Date** : _4/30/2026_ (inserted automatically) 
 
-- **Transfer Period** : _04-2025_ (inserted automatically) 
-
-- **Reason** : Antivirus software for desktop 
-
-3. In the **Asset Transfer From** section, specify the following settings: 
+- **Transfer Period** : _04-2026_ (inserted automatically) 
 
 - **Branch** : _HEADOFFICE_ 
 
 - **Department** : _ADMIN_ 
 
-4. In the **Asset Transfer To** section, specify the following settings: 
+3. In the **Asset Transfer To** section, specify the following settings: 
 
 - **Branch** : _RETAIL_ 
 
 - **Department** : _SALES_ 
 
-5. In the table, select the unlabeled check box in the row of the _Anti-virus soware_ asset, as shown in the     following screenshot. 
+- **Reason** : Antivirus software for desktop 
+
+4. In the table, select the unlabeled check box in the row of the _Anti-virus soware_ asset, as shown in the     following screenshot. 
 
 
 <!-- PAGE_BREAK -->
- Transferring Fixed Assets | 99 
+ Transferring Fixed Assets | 100 
 
  Figure: Transfer settings 
 
-6. On the form toolbar, click **Process**. The system generates the transfer transactions. 
+5. On the form toolbar, click **Process**. The system generates the transfer transactions. 
 
-7. On the _Fixed Assets_ (FA303000) form, open the _Anti-virus soware_ fixed asset, and go to the **Transactions**     tab. 
+6. On the _Fixed Assets_ (FA303000) form, open the _Anti-virus soware_ fixed asset, and go to the **Transactions**     tab. 
 
-8. Click the link in the **Batch Nbr.** column in the row for the _Transfer Purchasing_ transaction, and review the     generated GL transaction on the _Journal Transactions_ (GL301000) form, which is opened.     The cost of the fixed asset was transferred from the _HEADOFFICE_ branch to the _RETAIL_ branch. 
+7. Click the link in the **Batch Nbr.** column in the row for the _Transfer Purchasing_ transaction, and review the     generated GL transaction on the _Journal Transactions_ (GL301000) form, which is opened.     The cost of the fixed asset was transferred from the _HEADOFFICE_ branch to the _RETAIL_ branch. 
 
 #### Step 4: Reviewing the Settings of the Transferred Asset 
 
@@ -4288,7 +4290,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 1. On the _Fixed Assets_ (FA303000) form with the _Anti-virus soware_ asset opened, go to the **Locations** tab. 
 
-2. Review the list of locations. The fixed asset has been located in the _ADMIN_ department of the _HEADOFFICE_     branch since 2/1/2025 (the placed-in-service date of the asset). On 4/30/2025, the fixed asset was     transferred to the _SALES_ department of the _RETAIL_ branch. The most recent location is displayed at the top     of the list of locations. 
+2. Review the list of locations. The fixed asset has been located in the _ADMIN_ department of the _HEADOFFICE_     branch since 2/1/2026 (the placed-in-service date of the asset). On 4/30/2026, the fixed asset was     transferred to the _SALES_ department of the _RETAIL_ branch. The most recent location is displayed at the top     of the list of locations. 
 
 3. Open the _Asset Summary_ (FA402000) form, and specify the following settings in the Selection area: 
 
@@ -4302,13 +4304,7 @@ As the diagram shows, manually creating a fixed asset involves these steps:
 
 #### Mass Transfer of Fixed Assets 
 
- You use the Transfer Assets (FA507000) form for the mass transfer of multiple fixed assets from one location to another. In the Asset Transfer From and Asset Transfer To sections of the Summary area, you specify these 
-
-
-<!-- PAGE_BREAK -->
- Transferring Fixed Assets | 100 
-
-locations. To transfer some of the listed assets, you select the fixed assets to be transferred in the table and click **Prepare** on the form toolbar. To transfer all assets listed on the form, you click **Prepare All**. 
+ You use the Transfer Assets (FA507000) form for the mass transfer of multiple fixed assets from one location to another. In the Asset Transfer From and Asset Transfer To sections of the Summary area, you specify these locations. To transfer some of the listed assets, you select the fixed assets to be transferred in the table and click Prepare on the form toolbar. To transfer all assets listed on the form, you click Prepare All. 
 
 
 <!-- PAGE_BREAK -->
@@ -4446,7 +4442,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Story 
 
- Suppose that on September 1, 2025, the management of SweetLife Fruits & Jams decided to sell a part of the land near the office building. Earlier, an accountant had recorded the land near and under the office building as a single fixed asset. To process the sale of the part of the land, acting as the SweetLife accountant, you need to split the Land fixed asset into two assets. 
+ Suppose that on September 1, 2026, the management of SweetLife Fruits & Jams decided to sell a part of the land near the office building. Earlier, an accountant had recorded the land near and under the office building as a single fixed asset. To process the sale of the part of the land, acting as the SweetLife accountant, you need to split the Land fixed asset into two assets. 
 
 #### Configuration Overview 
 
@@ -4468,9 +4464,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _9/1/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _9/1/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. Make sure that you have created the _Land_ fixed asset by converting a purchase by performing the     _Conversion of a Purchase: To Convert a Purchase to an Asset_ prerequisite. 
 
@@ -4486,9 +4482,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 3. In the Selection area of this form, make sure that the following settings are selected: 
 
-- **Split Date** : _9/1/2025_ 
+- **Split Date** : _9/1/2026_ 
 
-- **Split Period** : _09-2025_ 
+- **Split Period** : _09-2026_ 
 
 
 <!-- PAGE_BREAK -->
@@ -4512,7 +4508,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 2. Click the link in the **Reference Number** column of the only row, and review the generated split transaction     on the _Fixed Asset Transactions_ (FA301000) form, which the system has opened.     The generated transaction creates a new fixed asset and transfers the selected cost ($72,000) from the     original asset to the new asset. The created asset belongs to the same department and branch as those of     the original asset. The amount of the original asset is decreased by the specified cost. Because you have     split the non-depreciable asset, no transaction has been generated to update the accumulated depreciation     account. 
 
-3. On the _Release FA Transactions_ form, select the unlabeled check box for the split transaction, and click     **Release** on the form toolbar. The account balances remain the same aer the release of the transaction,     which is why no GL batch is generated for this transaction. Aer you release the transaction, it has the     _Unposted_ status, and the **Batch Nbr.** column is empty. 
+3. On the _Release FA Transactions_ form, select the unlabeled check box for the split transaction and click     **Release** on the form toolbar. The account balances remain the same aer the release of the transaction,     which is why no GL batch is generated for this transaction. Aer you release the transaction, it has the     _Unposted_ status, and the **Batch Nbr.** column is empty. 
 
 #### Step 3: Reviewing the Original Asset 
 
@@ -4744,9 +4740,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _9/1/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _9/1/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. Make sure that you have created the _Land_ fixed asset by converting a purchase by performing the     _Conversion of a Purchase: To Convert a Purchase to an Asset_ prerequisite activity. 
 
@@ -4768,9 +4764,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 3. In the **Disposal Parameters** dialog box, which is opened, specify the following settings: 
 
-- **Disposal Date** : _9/1/2025_ (inserted automatically) 
+- **Disposal Date** : _9/1/2026_ (inserted automatically) 
 
-- **Disposal Period** : _09-2025_ (inserted automatically) 
+- **Disposal Period** : _09-2026_ (inserted automatically) 
 
 - **Proceeds Amount** : 75000 
 
@@ -4810,9 +4806,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Customer** : _FRUITICO_ 
 
-- **Date** : _9/1/2025_ (inserted automatically) 
+- **Date** : _9/1/2026_ (inserted automatically) 
 
-- **Post Period** : _09-2025_ (inserted automatically) 
+- **Post Period** : _09-2026_ (inserted automatically) 
 
 - **Description** : Selling land near the Head Office building 
 
@@ -4826,7 +4822,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Account** : _11010 (AR Accrual Account)_ 
 
-4. On the form toolbar, click **Remove Hold** , and click **Release** to release the invoice. 
+4. On the form toolbar, click **Remove Hold** and click **Release** to release the invoice. 
 
 #### Step 3: Reviewing the Account Balances 
 
@@ -4834,7 +4830,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Open the _Account Summary_ (GL401000) form. 
 
-2. In the **Period** box, specify _09-2025_. 
+2. In the **Period** box, specify _09-2026_. 
 
 3. Review the balances of the _11000 (Accounts Receivable)_ , _11010 (AR Accrual Account)_ , _15100 (Land)_ , and _90000_     _(Gain/Loss of Fixed Asset Disposal)_ accounts. 
 
@@ -4956,6 +4952,14 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  You can also calculate depreciation for a particular fixed asset on the Fixed Assets form. On this form, you select the required asset, and on the More menu (under Processing ), you click Calculate Depreciation. No transactions are generated with this process. To depreciate the asset, you need to use the Calculate Depreciation form. 
 
+ The system prevents the depreciation of assets with the Straight-Line calculation method and the Full Period or Full Day averaging convention, because if the asset had additions, the asset's Net Value specified on the Balance tab of the Fixed Assets (FA303000) form may not be equal to 0 , although the net value is expected to be 0. Thus, the system excludes from depreciation the lines corresponding to the asset's book that has the following settings: 
+
+- The _Straight-Line_ calculation method with the _Full Period_ or _Full Day_ averaging convention 
+
+- The **Accelerated Depreciation for SL Depr. Method** check box selected for the depreciation method on the     _Fixed Asset Classes_ (FA201000) form 
+
+- At least one addition was created outside of the period specified in the **Depr. From Period** column on the     **Balance** tab of the _Fixed Assets_ (FA303000) form To depreciate such assets with the _Straight-Line_ calculation method and the _Full Period_ or _Full Day_ averaging convention, you should change the depreciation method to a method based on the _Remaining Value_ calculation method on the **Balance** tab of the _Fixed Assets_ (FA202500) form. 
+
 #### Depreciation Calculation in Multiple Books 
 
  If a fixed asset belongs to an asset class with multiple books, you can calculate depreciation of this fixed asset in all these books at once. 
@@ -4976,15 +4980,15 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - If the _Side by Side_ option is selected, all the books to which the asset is assigned are displayed     simultaneously. In this case, depreciation history is represented as a table with depreciation periods as rows     and books as columns. 
 
+
+<!-- PAGE_BREAK -->
+ Depreciating Fixed Assets | 118 
+
 #### Suspending of Depreciation 
 
  Sometimes it is necessary to stop calculating the depreciation of a fixed asset for some number of financial periods. In this case, you can suspend the depreciation of the asset. Suspension stops depreciation; then when you restart depreciation, the system resumes depreciation calculation and extends the asset life for the number of periods the asset has been suspended to ensure full depreciation. Suspension can be used if, for example, some asset is not used (but is not disposed of) and becomes temporarily inactive. 
 
  In Acumatica ERP, you can suspend an asset with the Active status starting from the current business date. Aer you suspend an asset, the system stops posting the depreciation transactions to the books, thus suspending the depreciation process. The asset status is changed to Suspended. 
-
-
-<!-- PAGE_BREAK -->
- Depreciating Fixed Assets | 118 
 
  The system generates a line to the asset depreciation history for suspended assets with the amount of 0 for each period that you did not depreciate. You can view the history of asset depreciation on the Depreciation tab of the Fixed Assets (FA303000) form. 
 
@@ -4996,13 +5000,15 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  As the diagram shows, the depreciation of a fixed asset involves these steps: 
 
-1. When the asset has been placed in use, you start to depreciate the fixed asset on the _Calculate Depreciation_     (FA502000) form. Optionally, you can first calculate depreciation for the asset by selecting _Calculate Only_     in the **Action** box of the form. The calculated depreciation will be shown in the **Calculated** column on the     **Depreciation** tab of the _Fixed Assets_ (FA303000) form. 
-
-2. You depreciate the fixed asset on the _Calculate Depreciation_ form by selecting _Depreciate_ in the **Action** box,     selecting the asset in the table, and clicking **Process**.     You can depreciate fixed assets by using different depreciation methods for different depreciation books.     If the asset has been fully depreciated in a book through its entire life, its balance is assigned the _Fully_     _Depreciated_ status in this book. You repeat these steps as needed until it is time to dispose of the asset. 
+1. When the asset has been placed in use, you start to depreciate the fixed asset on the _Calculate Depreciation_     (FA502000) form. Optionally, you can first calculate depreciation for the asset by selecting _Calculate Only_ 
 
 
 <!-- PAGE_BREAK -->
  Depreciating Fixed Assets | 119 
+
+ in the Action box of the form. The calculated depreciation will be shown in the Calculated column on the Depreciation tab of the Fixed Assets (FA303000) form. 
+
+2. You depreciate the fixed asset on the _Calculate Depreciation_ form by selecting _Depreciate_ in the **Action** box,     selecting the asset in the table, and clicking **Process**.     You can depreciate fixed assets by using different depreciation methods for different depreciation books.     If the asset has been fully depreciated in a book through its entire life, its balance is assigned the _Fully_     _Depreciated_ status in this book. You repeat these steps as needed until it is time to dispose of the asset. 
 
 ### Asset Depreciation: Implementation Checklist 
 
@@ -5032,15 +5038,17 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - If the **Validate Batch Control Totals on Entry** check box is selected, the user has to enter the control total     of the batch before they save the batch on the _Journal Transactions_ form. If this check box is cleared and the     status of the batch is _Balanced_ , the system automatically validates the batch. 
 
-- If the **Automatically Post on Release** check box is selected, the system posts batches on release. If this     check box is cleared, the user has to post the batches aer release. AP documents are typically created on the _Bills and Adjustments_ (AP301000) form to record the purchase of items that will be converted to fixed assets. The workflow of processing AP documents can be affected based on the settings on the _Accounts Payable Preferences_ (AP101000) form as follows: 
-
-- You select the **Hold Documents on Entry** check box in the **Data Entry Settings** section if you want the     created AP documents to be assigned the _On Hold_ status. You clear the check box to cause these documents     to be assigned the _Balanced_ status. 
-
-- You clear the **Require Vendor Reference** check box in the **Data Entry Settings** section if you do not need     users to enter a vendor reference number in the **Vendor Ref.** box on the _Bills and Adjustments_ form. If your     company requires this data to be entered, you select the check box. 
+- If the **Automatically Post on Release** check box is selected, the system posts batches on release. If this     check box is cleared, the user has to post the batches aer release. 
 
 
 <!-- PAGE_BREAK -->
  Depreciating Fixed Assets | 120 
+
+ AP documents are typically created on the Bills and Adjustments (AP301000) form to record the purchase of items that will be converted to fixed assets. The workflow of processing AP documents can be affected based on the settings on the Accounts Payable Preferences (AP101000) form as follows: 
+
+- You select the **Hold Documents on Entry** check box in the **Data Entry Settings** section if you want the     created AP documents to be assigned the _On Hold_ status. You clear the check box to cause these documents     to be assigned the _Balanced_ status. 
+
+- You clear the **Require Vendor Reference** check box in the **Data Entry Settings** section if you do not need     users to enter a vendor reference number in the **Vendor Ref.** box on the _Bills and Adjustments_ form. If your     company requires this data to be entered, you select the check box. 
 
 - If you want AP documents to be automatically posted to the general ledger once they are entered, make     sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section.     Otherwise, you should clear this check box. The following settings on the _Fixed Assets Preferences_ (FA101000) form can affect the processing workflow as follows: 
 
@@ -5078,21 +5086,21 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  0.00 Depreciation amount 
 
+
+<!-- PAGE_BREAK -->
+ Depreciating Fixed Assets | 121 
+
  You can view the reference number of the GL batch in the Batch Nbr. column on the Transactions tab of the Fixed Assets form. The reference number is also a link that you can click to view the GL batch on the Journal Transactions (GL301000) form. 
 
 ### Asset Depreciation: To Calculate Depreciation 
 
  The following activity will walk you through the process of calculating depreciation for fixed assets. 
 
-
-<!-- PAGE_BREAK -->
- Depreciating Fixed Assets | 121 
-
 #### Story 
 
  Suppose that the fixed assets belonging to SweetLife Fruits & Jams have to be depreciated through September 
 
-2025. Acting as a SweetLife accountant, you need to calculate depreciation for the fixed assets that you have created through the specified period. 
+2026. Acting as a SweetLife accountant, you need to calculate depreciation for the fixed assets that you have created through the specified period. 
 
 #### Configuration Overview 
 
@@ -5104,7 +5112,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Process Overview 
 
- In this activity, on the Calculate Depreciation (FA502000) form, you will calculate depreciation for all fixed assets through September 2025. On the Fixed Assets (FA303000) form, you will review the calculated depreciation of one fixed asset. Finally, on the FA Balance Projection by Account (FA670010) form, you will run a report and review the calculated accumulated depreciation and net balance for all fixed assets. 
+ In this activity, on the Calculate Depreciation (FA502000) form, you will calculate depreciation for all fixed assets through September 2026. On the Fixed Assets (FA303000) form, you will review the calculated depreciation of one fixed asset. Finally, on the FA Balance Projection by Account (FA670010) form, you will run a report and review the calculated accumulated depreciation and net balance for all fixed assets. 
 
 #### System Preparation 
 
@@ -5112,15 +5120,19 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _9/30/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _9/30/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. Make sure that you have created the fixed assets by performing the following prerequisite activities:     _Conversion of a Purchase: To Convert a Purchase to an Asset_ , _Conversion of a Purchase: To Convert a_     _Purchase to Multiple Assets_ , _Fixed Asset Creation: To Create and Reconcile an Asset_ , _Fixed Asset Creation: To_     _Create an Asset with Multiple Units_ , and _Non-Default Asset Settings: Process Activity_. 
 
 5. Make sure that you have split the _Land_ fixed asset by performing the _Splitting of Assets: Process Activity_     prerequisite activity. 
 
 6. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
+
+
+<!-- PAGE_BREAK -->
+ Depreciating Fixed Assets | 122 
 
 #### Step: Calculating Depreciation 
 
@@ -5132,15 +5144,11 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Company/Branch** : _HEADOFFICE_ 
 
-- **To Period** : _09-2025_ (inserted automatically)     This is the financial period through which the system will calculate depreciation. 
+- **Book** : _FIN_ 
 
-- **Action** : _Calculate Only_ 
+- **To Period** : _09-2026_ (inserted automatically)     This is the financial period through which the system will calculate depreciation. 
 
-
-<!-- PAGE_BREAK -->
- Depreciating Fixed Assets | 122 
-
- When the system performs this action, it will not generate depreciation transactions. 
+- **Action** : _Calculate Only_     When the system performs this action, it will not generate depreciation transactions. 
 
 3. On the form toolbar, click **Process All**. The system calculates depreciation through the specified period for     each fixed asset. 
 
@@ -5158,11 +5166,17 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Book** : _FIN (Posting Book)_ 
 
-- **Period From** : _02-2025_ 
+- **Period From** : _02-2026_ 
 
-- **Period To** : _09-2025_ 
+- **Period To** : _09-2026_ 
 
-7. Click **Run Report** , and review the generated report.     The generated report displays the projection of fixed asset balances for the specified financial periods,     grouped by account-subaccount pairs. The calculated accumulated depreciation is also shown on the     report. 
+7. Click **Run Report** , and review the generated report. 
+
+
+<!-- PAGE_BREAK -->
+ Depreciating Fixed Assets | 123 
+
+ The generated report displays the projection of fixed asset balances for the specified financial periods, grouped by account-subaccount pairs. The calculated accumulated depreciation is also shown on the report. 
 
 ### Asset Depreciation: To Depreciate Assets 
 
@@ -5170,11 +5184,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Story 
 
- Suppose that the accountant of SweetLife Fruits & Jams has calculated the depreciation of the company's fixed assets through September 2025 and made sure that the calculation is correct. Acting as the SweetLife accountant, you need to depreciate the fixed assets through February 2025. 
-
-
-<!-- PAGE_BREAK -->
- Depreciating Fixed Assets | 123 
+ Suppose that the accountant of SweetLife Fruits & Jams has calculated the depreciation of the company's fixed assets through September 2026 and made sure that the calculation is correct. Acting as the SweetLife accountant, you need to depreciate the fixed assets through February 2026. 
 
 #### Configuration Overview 
 
@@ -5196,15 +5206,19 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _2/28/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _2/28/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. Make sure that you have created the fixed assets by performing the following prerequisite activities:     _Conversion of a Purchase: To Convert a Purchase to an Asset_ , _Conversion of a Purchase: To Convert a_     _Purchase to Multiple Assets_ , _Fixed Asset Creation: To Create and Reconcile an Asset_ , _Fixed Asset Creation: To_     _Create an Asset with Multiple Units_ , and _Non-Default Asset Settings: Process Activity_. 
 
 5. Make sure that you have split the _Land_ fixed asset by performing the _Splitting of Assets: Process Activity_     prerequisite. 
 
 6. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
+
+
+<!-- PAGE_BREAK -->
+ Depreciating Fixed Assets | 124 
 
 #### Step 1: Depreciating Fixed Assets 
 
@@ -5218,13 +5232,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Book** : _FIN (Posting Book)_ 
 
-- **To Period** : _02-2025_ (inserted automatically)     This is the financial period through which the system will depreciate assets. 
+- **To Period** : _02-2026_ (inserted automatically)     This is the financial period through which the system will depreciate assets. 
 
 - **Action** : _Depreciate_     When the system performs this action, it will calculate depreciation and generate depreciation     transactions. 
-
-
-<!-- PAGE_BREAK -->
- Depreciating Fixed Assets | 124 
 
 3. On the form toolbar, click **Process All**. For each asset in the table, the system calculates depreciation     through the specified period and generates the depreciation transaction, which is not released yet. 
 
@@ -5236,19 +5246,21 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 2. Click the link in the **Reference Number** column for the only row displayed in the table. 
 
-3. On the _Fixed Asset Transactions_ (FA301000) form, which the system has opened, review the entries of the     fixed asset transaction generated for the 02-2025 period, as shown in the following screenshot. 
+3. On the _Fixed Asset Transactions_ (FA301000) form, which the system has opened, review the entries of the     fixed asset transaction generated for the 02-2026 period, as shown in the following screenshot. 
 
  Figure: Depreciation calculated for fixed assets 
 
- The generated fixed asset transaction includes entries of the Calculated+ type—one for each fixed asset for the 02-2025 period. 
+ The generated fixed asset transaction includes entries of the Calculated+ type—one for each fixed asset for the 02-2026 period. 
 
-4. On the form toolbar of the _Fixed Asset Transactions_ (FA301000) form, click **Release**.     The system has released and posted the fixed asset transaction and displayed the corresponding GL batch     number in the **Batch Nbr.** column for each depreciation entry, as the following screenshot shows. The     type of each entry was changed from _Calculated+_ to _Depreciation+_ as these entries were posted. Each     _Depreciation+_ entry debits the Depreciation Expense account ( _64000_ ) in the amount of the depreciation     calculated for the period for the particular asset, and credits the Accumulated Depreciation contra account     specified for the fixed asset in the same amount. 
-
- Figure: Released depreciation transactions 
+4. On the form toolbar, click **Release**.     The system has released and posted the fixed asset transaction and displayed the corresponding GL batch     number in the **Batch Nbr.** column for each depreciation entry, as the following screenshot shows. The     type of each entry was changed from _Calculated+_ to _Depreciation+_ as these entries were posted. Each     _Depreciation+_ entry debits the Depreciation Expense account ( _64000_ ) in the amount of the depreciation 
 
 
 <!-- PAGE_BREAK -->
  Depreciating Fixed Assets | 125 
+
+ calculated for the period for the particular asset, and credits the Accumulated Depreciation contra account specified for the fixed asset in the same amount. 
+
+ Figure: Released depreciation transactions 
 
 #### Step 3: Reviewing a Depreciated Fixed Asset 
 
@@ -5256,7 +5268,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. On the _Fixed Assets_ (FA303000) form, open the _Head Office Building_ asset. 
 
-2. Review the **Depreciation** tab.     The **Calculated** column shows the calculated depreciation for the 02-2025 period. Because the depreciation     transaction was released for 02-2025, the **Depreciated** column shows the actual depreciation amount. 
+2. Review the **Depreciation** tab.     The **Calculated** column shows the calculated depreciation for the 02-2026 period. Because the depreciation     transaction was released for 02-2026, the **Depreciated** column shows the actual depreciation amount. 
 
 ### Asset Depreciation: To Calculate Depreciation in Two Books 
 
@@ -5264,7 +5276,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Story 
 
- Suppose that on May 2, 2025, SweetLife Fruits & Jams paid $9,000 to Blueline Advertisement for the development of a new website. You want to process the website as a new fixed asset of the SOFTWARE type and depreciate it through three years. For the company's internal accounting, you want to use the straight-line depreciation method, and for tax reporting, you want to depreciate the asset by using the MACRS3-Y method. 
+ Suppose that on May 2, 2026, SweetLife Fruits & Jams paid $9,000 to Blueline Advertisement for the development of a new website. You want to process the website as a new fixed asset of the SOFTWARE type and depreciate it through three years. For the company's internal accounting, you want to use the straight-line depreciation method, and for tax reporting, you want to depreciate the asset by using the MACRS3-Y method. 
 
  To be able to depreciate the fixed asset with two different methods at the same time, acting as a SweetLife accountant, you need to create a separate book to be used for taxes and depreciate this asset in two books. 
 
@@ -5275,6 +5287,10 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 - On the _Enable/Disable Features_ (CS100000) form, the _Fixed Asset Management_ feature has been enabled. 
 
 - On the _Chart of Accounts_ (GL202500) form, the needed GL accounts have been created. 
+
+
+<!-- PAGE_BREAK -->
+ Depreciating Fixed Assets | 126 
 
 - On the _Fixed Assets Preferences_ (FA101000) form, the **Automatically Release Depreciation Transactions**     check box has been cleared. 
 
@@ -5290,13 +5306,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _5/2/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _5/2/2026_ on the calendar. 
 
-
-<!-- PAGE_BREAK -->
- Depreciating Fixed Assets | 126 
-
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. Make sure that you have created the fixed assets by performing the following prerequisite activities:     _Conversion of a Purchase: To Convert a Purchase to an Asset_ , _Conversion of a Purchase: To Convert a_     _Purchase to Multiple Assets_ , _Fixed Asset Creation: To Create and Reconcile an Asset_ , _Fixed Asset Creation: To_     _Create an Asset with Multiple Units_ , and _Non-Default Asset Settings: Process Activity_. 
 
@@ -5322,9 +5334,13 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 3. On the form toolbar, click **Save** to save your changes. 
 
-4. On the form toolbar, click **Calendar**. 
+4. On the form toolbar, click **Calendar Setup**. 
 
-5. On the _Book Calendars_ (FA206000) form, which the system has opened, enter _1/1/2025_ in the **Year Starts On**     box, leave _Month_ in the **Period Type** box, and click **Create Periods** on the form toolbar.     The calendar for the year 2025 is set up. 
+5. On the _Book Calendars_ (FA206000) form, which the system has opened, enter _1/1/2026_ in the **Year Starts On**     box, leave _Month_ in the **Period Type** box, and click **Create Periods** on the form toolbar.     The calendar for the year 2026 is set up. 
+
+
+<!-- PAGE_BREAK -->
+ Depreciating Fixed Assets | 127 
 
  The calendar generated for the tax book can differ from the posting book calendar and does not have to match the general ledger calendar. 
 
@@ -5332,9 +5348,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 7. Open the _Generate Book Calendars_ (FA501000) form. 
 
-8. In the **From Year** box, enter _2025_ , and in the **To Year** box, enter 2029. 
+8. In the **From Year** box, enter _2026_ , and in the **To Year** box, enter 2030. 
 
-9. Select the unlabeled check box in the row of the _TAX_ book, and click **Process** on the form toolbar. The     system generates the calendar for the _TAX_ book from 2025 through 2029. 
+9. Select the unlabeled check box in the row of the _TAX_ book, and click **Process** on the form toolbar. The     system generates the calendar for the _TAX_ book from 2026 through 2030. 
 
 #### Step 2: Updating the Settings of the Fixed Asset Class 
 
@@ -5350,10 +5366,6 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Class Method** : _MACRS3-Y_ 
 
-
-<!-- PAGE_BREAK -->
- Depreciating Fixed Assets | 127 
-
 - **Useful Life, Years** : 3 
 
 - **Averaging Convention** : _Mid Year_ 
@@ -5364,7 +5376,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  To create a fixed asset for the website, do the following: 
 
-1. Open the _Bills and Adjustments_ (AP301000) form, add a new record. 
+1. On the _Bills and Adjustments_ (AP301000) form, add a new record. 
 
 2. In the Summary area, specify the following settings for an AP bill: 
 
@@ -5372,9 +5384,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Vendor** : _BLUELINE_ 
 
-- **Date** : _5/2/2025_ (inserted automatically) 
+- **Date** : _5/2/2026_ (inserted automatically) 
 
-- **Post Period** : _05-2025_ (inserted automatically) 
+- **Post Period** : _05-2026_ (inserted automatically) 
 
 - **Description** : Website development 
 
@@ -5388,13 +5400,19 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Account** : _15010 (Accrued Purchases: Fixed Assets)_ 
 
-4. On the form toolbar, click **Remove Hold** , and then click **Release** to release the bill. 
+4. On the form toolbar, click **Remove Hold** and then click **Release** to release the bill. 
 
 5. Open the _Convert Purchases to Assets_ (FA504500) form. 
 
 6. In the Selection area, make sure that _15010_ is selected in the **Account** box. 
 
-7. In the upper table, in the row with the **Orig. Amount** set to _9,000_ , do the following:     a. In the **Asset Class** column, select _SOFTWARE_.     b. In the **Department** column, select _ADMIN_.     c. Select the unlabeled check box. 
+7. In the **Purchase Transactions** table, in the row with the **Orig. Amount** set to _9,000_ , do the following:     a. In the **Asset Class** column, select _SOFTWARE_. 
+
+
+<!-- PAGE_BREAK -->
+ Depreciating Fixed Assets | 128 
+
+ b. In the Department column, select ADMIN. c. Select the unlabeled check box for the row. 
 
 8. On the form toolbar, click **Process** to convert the purchase to an asset. 
 
@@ -5408,13 +5426,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 2. Select the **Automatically Release Depreciation Transactions** check box to cause future depreciation     transactions to be released automatically aer they are generated. 
 
-3. In the **Depreciation History View** box, select _Side by Side_. 
-
-
-<!-- PAGE_BREAK -->
- Depreciating Fixed Assets | 128 
-
- This option specifies the way the depreciation history is displayed on the Depreciation tab of the Fixed Assets (FA303000) form. With Side by Side selected, the system shows the calculated and depreciated amounts for all configured books in separate columns. 
+3. In the **Depreciation History View** box ( **Other** section), select _Side by Side_.     This option specifies the way the depreciation history is displayed on the **Depreciation** tab of the _Fixed_     _Assets_ (FA303000) form. With _Side by Side_ selected, the system shows the calculated and depreciated     amounts for all configured books in separate columns. 
 
 4. On the form toolbar, click **Save**. 
 
@@ -5426,13 +5438,13 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 2. On the More menu (under **Processing** ), click **Calculate Depreciation**. 
 
-3. Review the **Depreciation** tab, which is shown in the following screenshot.     The **FIN Calculated** column displays the depreciation that was calculated for the _FIN_ book. Because the     book uses the straight-line method, the system spreads the amount of $9,000 across 36 months (3 years)—     that is, the depreciation expense for each month is $250 ($9,000 / 36 = $250). The **TAX Calculated** column     displays the depreciation that was calculated for the _TAX_ book. The system uses a different method of     calculating depreciation for the _TAX_ book ( _MACRS3-Y_ ), so the depreciation expenses differ from those     calculated for the _FIN_ book. 
-
- Figure: Depreciation calculated for the SweetLife website fixed asset 
+3. Review the **Depreciation** tab, which is shown in the screenshot below.     The **FIN Calculated** column displays the depreciation that was calculated for the _FIN_ book. Because the     book uses the straight-line method, the system spreads the amount of $9,000 across 36 months (3 years)—     that is, the depreciation expense for each month is $250 ($9,000 / 36 = $250). The **TAX Calculated** column     displays the depreciation that was calculated for the _TAX_ book. The system uses a different method of     calculating depreciation for the _TAX_ book ( _MACRS3-Y_ ), so the depreciation expenses differ from those     calculated for the _FIN_ book. 
 
 
 <!-- PAGE_BREAK -->
  Depreciating Fixed Assets | 129 
+
+ Figure: Depreciation calculated for the SweetLife website fixed asset 
 
 ### Asset Depreciation: Related Reports 
 
@@ -5447,6 +5459,10 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 #### Reviewing the Net Value of Depreciated Fixed Assets 
 
  To can run a report on the Fixed Assets Net Value (FA613000) form to review the net value of the depreciated fixed assets. In this report, the Ending Net column shows the net value of the assets at the end of the specified period— that is, Beginning Net plus Addition minus Disposal minus Depreciation. The End. Depr. column shows the total accumulated depreciation for each asset. 
+
+
+<!-- PAGE_BREAK -->
+ Depreciating Fixed Assets | 130 
 
 ### To Suspend Asset Depreciation 
 
@@ -5467,10 +5483,6 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 ### To Resume Asset Depreciation 
 
  You can reinstate the depreciation of an asset by using the Fixed Assets form. 
-
-
-<!-- PAGE_BREAK -->
- Depreciating Fixed Assets | 130 
 
 #### To Reinstate Asset Depreciation 
 
@@ -5524,17 +5536,17 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  If you have two or more depreciation books, to get up-to-date depreciation in all these books, in the To Period box, you should select the period that corresponds to the date through which you need to depreciate the assets. If you have two or more depreciation books with different book calendars, we recommend that you depreciate the fixed assets separately in each book. 
 
-2. In the Selection area, you specify any other needed selection criteria to narrow the range of listed assets. 
+2. In the Selection area, specify any other needed selection criteria to narrow the range of listed assets. 
 
-3. In the table, you select the fixed assets whose additions you want to depreciate. 
+3. In the table, select the fixed assets whose additions you want to depreciate. 
 
-4. You click **Process** on the form toolbar to depreciate the selected assets. For each processed asset, the     system generates depreciation transactions for the selected books for all periods, from the asset being     placed into service through the end of its useful life. 
+4. Click **Process** on the form toolbar to depreciate the selected assets. For each processed asset, the system     generates depreciation transactions for the selected books for all periods, from the asset being placed into     service through the end of its useful life. 
 
 
 <!-- PAGE_BREAK -->
  Depreciating Additions to Fixed Assets | 132 
 
-5. You run the report on the _FA Balance_ (FA630000) form to make sure that the net value of the asset is _0.00_ in     the selected books.     Depending on the depreciation method of the book, some amount of the addition may not be depreciated     at the end of the asset's lifetime. In this case, you can depreciate this amount manually by making an     adjustment transaction. 
+5. Run the report on the _FA Balance_ (FA630000) form to make sure that the net value of the asset is _0.00_ in the     selected books.     Depending on the depreciation method of the book, some amount of the addition may not be depreciated     at the end of the asset's lifetime. In this case, you can depreciate this amount manually by making an     adjustment transaction. 
 
  An asset gets the Fully Depreciated status in a book aer it has been depreciated in the Depr. To Period , which is the last period of its useful life. Once it gets the Fully Depreciated status in all books, the asset itself gets the Fully Depreciated status which is shown on the General tab of the Fixed Assets (FA303000) form. 
 
@@ -5544,7 +5556,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - Switch from the _Straight-Line_ depreciation method to the _Remaining Value_ depreciation method that     allocates the remaining net value evenly among the remaining periods. The _Remaining Value_ depreciation     method can be used to completely recover the cost of the addition during the rest of the useful life of the     original asset to which the addition has been made.     For more details, see _Predefined Depreciation Methods_. 
 
-- Process the additions on the **Reconciliation** tab of the _Fixed Assets_ form only. By default, the system will     use the asset's placed-in-service period as the addition period. It means that the depreciation base will     be increased in this period. If the period is closed in the fixed asset subledger, the batch corresponding to     the addition will be created in the earliest open period, but the depreciation base will be increased in the     selected period anyway.     You cannot use the _Convert Purchases to Assets_ (FA504500) form to process such additions, because the     addition period is unavailable on this form and is the same as the period of the transaction. 
+- Process the additions on the **Reconciliation** tab of the _Fixed Assets_ form only. By default, the system will     use the asset's placed-in-service period as the addition period. It means that the depreciation base will     be increased in this period. If the period is closed in the fixed asset subledger, the batch corresponding to     the addition will be created in the earliest open period, but the depreciation base will be increased in the     selected period anyway. 
+
+ You cannot use the Convert Purchases to Assets (FA504500) form to process such additions, because the addition period is unavailable on this form and is the same as the period of the transaction. 
 
 #### Adjustment Transactions 
 
@@ -5562,11 +5576,13 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  Fixed Assets Account Amount 0.00 
 
- FA Accrual Account 0.00 Amount 
-
 
 <!-- PAGE_BREAK -->
  Depreciating Additions to Fixed Assets | 133 
+
+ Account Debit Credit 
+
+ FA Accrual Account 0.00 Amount 
 
  As a result of this transaction, the system updates the current cost of the fixed asset (in the Current Cost box on the Balance tab of the Fixed Assets form) and the depreciable basis (in the Basis box on the Balance tab of the Fixed Assets form) to calculate the depreciation expenses of the selected asset. The changes will affect the selected book only. 
 
@@ -5600,17 +5616,15 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  Vendors (AP303000) Vendor accounts exist for the vendors for which you will create AP bills. For details, see Vendors: Implementation Activity. 
 
-#### Other Settings That Affect the Workflow 
-
- The processing of fixed assets causes batches to be produced by the system on the Journal Transactions (GL301000) form. A user can also manually create batches on this form. The settings on the General Ledger Preferences (GL102000) form can affect the processing workflow of each batch as follows: 
-
-- If the **Hold Batches on Entry** check box is selected, a batch is saved with the _On Hold_ status by default. If the     batch is on hold, the user should click **Remove Hold** on the form toolbar of the _Journal Transactions_ form for 
-
 
 <!-- PAGE_BREAK -->
  Depreciating Additions to Fixed Assets | 134 
 
- the batch so that they can process it further. If the check box is cleared, the batch is saved with the Balanced status. 
+#### Other Settings That Affect the Workflow 
+
+ The processing of fixed assets causes batches to be produced by the system on the Journal Transactions (GL301000) form. A user can also manually create batches on this form. The settings on the General Ledger Preferences (GL102000) form can affect the processing workflow of each batch as follows: 
+
+- If the **Hold Batches on Entry** check box is selected, a batch is saved with the _On Hold_ status by default. If the     batch is on hold, the user should click **Remove Hold** on the form toolbar of the _Journal Transactions_ form for     the batch so that they can process it further. If the check box is cleared, the batch is saved with the _Balanced_     status. 
 
 - If the **Validate Batch Control Totals on Entry** check box is selected, the user has to enter the control total     of the batch before they save the batch on the _Journal Transactions_ form. If this check box is cleared and the     status of the batch is _Balanced_ , the system automatically validates the batch. 
 
@@ -5636,13 +5650,13 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  As you fully depreciate additions to a fixed asset, you create a manual transaction with the Depreciation+ type to adjust depreciation. To update the balances of GL accounts, the system generates the GL transaction described in the following section. 
 
-#### Transaction Generated for the Adjustment Transaction 
-
- When you create and release a Depreciation+ transaction, the system generates the following general ledger transaction. 
-
 
 <!-- PAGE_BREAK -->
  Depreciating Additions to Fixed Assets | 135 
+
+#### Transaction Generated for the Adjustment Transaction 
+
+ When you create and release a Depreciation+ transaction, the system generates the following general ledger transaction. 
 
  Account Source of Account Debit Credit 
 
@@ -5664,7 +5678,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Story 
 
- Suppose that on May 2, 2026, SweetLife Fruits & Jams paid for the additional search engine optimization of the website. The company’s management has decided to capitalize these expenses. 
+ Suppose that on May 2, 2027, SweetLife Fruits & Jams paid for the additional search engine optimization of the website. The company’s management has decided to capitalize these expenses. 
 
  To capitalize the additional site optimization, acting as a SweetLife accountant, you need to make an addition to the fixed asset for the website; the addition should be made on the start of the second year of website usage. Then you need to calculate depreciation for the entire useful life of the asset. To make the asset's net value in the FIN book 0 at the end of the useful life, you need to switch the depreciation method for this particular asset to the Remaining Value method. Aer that, you need to completely depreciate the website asset in two books and make a depreciation adjustment for the TAX book. 
 
@@ -5680,11 +5694,13 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Process Overview 
 
- In this activity, you will create an AP bill on the Bills and Adjustments (AP301000) form and convert this purchase on the Convert Purchases to Assets (FA504500) form. On the Fixed Assets form, you will calculate depreciation for the SweetLife website asset. On the Calculate Depreciation (FA502000) form, you will recalculate depreciation for the fixed asset. Finally, on the Fixed Asset Transactions (FA301000) form, you will create and release a depreciation adjustment transaction. 
+ In this activity, you will create an AP bill on the Bills and Adjustments (AP301000) form and convert this purchase on the Convert Purchases to Assets (FA504500) form. On the Fixed Assets form, you will calculate depreciation for the SweetLife website asset. On the Calculate Depreciation (FA502000) form, you will recalculate depreciation for 
 
 
 <!-- PAGE_BREAK -->
  Depreciating Additions to Fixed Assets | 136 
+
+ the fixed asset. Finally, on the Fixed Asset Transactions (FA301000) form, you will create and release a depreciation adjustment transaction. 
 
 #### System Preparation 
 
@@ -5692,9 +5708,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _5/2/2026_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _5/2/2027_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. Make sure that you have created the fixed assets by performing the following prerequisite activities:     _Conversion of a Purchase: To Convert a Purchase to an Asset_ , _Conversion of a Purchase: To Convert a_     _Purchase to Multiple Assets_ , _Fixed Asset Creation: To Create and Reconcile an Asset_ , _Fixed Asset Creation: To_     _Create an Asset with Multiple Units_ , and _Non-Default Asset Settings: Process Activity_. 
 
@@ -5708,7 +5724,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Open the _Fixed Assets Preferences_ (FA101000) form. 
 
-2. In the **Depreciation History View** box, select _By Book_. 
+2. In the **Depreciation History View** box ( **Other** section), select _By Book_. 
 
 3. On the form toolbar, click **Save** to save your changes. 
 
@@ -5724,9 +5740,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Vendor** : _BLUELINE_ 
 
-- **Date** : _5/2/2026_ (inserted automatically) 
+- **Date** : _5/2/2027_ (inserted automatically) 
 
-- **Post Period** : _05-2026_ (inserted automatically) 
+- **Post Period** : _05-2027_ (inserted automatically) 
 
 - **Description** : Website optimization 
 
@@ -5740,19 +5756,19 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Account** : _15010 (Accrued Purchases: Fixed Assets)_ 
 
-4. On the form toolbar, click **Remove Hold** , and then click **Release** to release the AP bill. 
-
-5. Open the _Convert Purchases to Assets_ (FA504500) form. 
-
 
 <!-- PAGE_BREAK -->
  Depreciating Additions to Fixed Assets | 137 
 
+4. On the form toolbar, click **Remove Hold** and then click **Release** to release the AP bill. 
+
+5. Open the _Convert Purchases to Assets_ (FA504500) form. 
+
 6. In the **Account** box, make sure that _15010_ is selected. 
 
-7. In the upper table, select the unlabeled check box in the row with the **Orig. Amount** set to _720_. 
+7. In the **Purchase Transactions** table, select the unlabeled check box in the row with the **Orig. Amount** set to     _720_. 
 
-8. In the lower table, do the following: 
+8. In the **Fixed Assets** table, do the following: 
 
  a. Click Add Row on the table toolbar. b. In the table, clear the Create Asset check box for the new row. c. In the Asset ID column of the row, select SweetLife website ; leave the other settings of the row unchanged. 
 
@@ -5768,15 +5784,15 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  When you are depreciating a fixed asset with an addition, the depreciation amount is calculated as follows: 
 
-- Before the addition is made, the system calculates depreciation based on the cost of the original asset.     For the _SweetLife website_ asset for the periods before the addition (from 05-2025 through 04-2026), the     calculated depreciation in the _FIN_ book is $250 ($9000 / 36). 
+- Before the addition is made, the system calculates depreciation based on the cost of the original asset.     For the _SweetLife website_ asset for the periods before the addition (from 05-2026 through 04-2027), the     calculated depreciation in the _FIN_ book is $250 ($9000 / 36). 
 
-- Starting from the date when the addition was made (5/2/2026), the depreciation for the period is     calculated as the sum of the depreciation of the original asset plus the depreciation of the addition     calculated for the period. The addition is depreciated as if it is a separate asset acquired on the addition     date, with the basis equal to the addition cost ($720) and the same depreciation method and recovery     period that the original asset has. In the _FIN_ book, the addition is depreciated using the _SL (Straight-Line)_     method, so the cost of the addition is spread among 36 months; the calculated depreciation expense for     the addition is $20 ($720 / 36) per month. Thus, the resulting depreciation expenses in the _FIN_ book for each period from 05-2026 through 04-2028 total $270 ($250 + $20). The addition amount is not completely depreciated at the end of the useful life of the asset, because the addition period is later than the asset's acquisition period. At the end of the recovery period of the asset (04-2028), the addition is depreciated by $480 ($20 * 24). That is, the addition's net value of $240 ($720 – 24 * $20) will be undepreciated at the end of the life of the asset. To completely recover the cost of the addition during the rest of the useful life of the original asset, you can change the _Straight-Line_ method to the _Remaining Value_ method for this particular asset. 
+- Starting from the date when the addition was made (5/2/2027), the depreciation for the period is     calculated as the sum of the depreciation of the original asset plus the depreciation of the addition     calculated for the period. The addition is depreciated as if it is a separate asset acquired on the addition     date, with the basis equal to the addition cost ($720) and the same depreciation method and recovery     period that the original asset has. In the _FIN_ book, the addition is depreciated using the _SL (Straight-Line)_     method, so the cost of the addition is spread among 36 months; the calculated depreciation expense for     the addition is $20 ($720 / 36) per month. Thus, the resulting depreciation expenses in the _FIN_ book for each period from 05-2027 through 04-2029 total $270 ($250 + $20). The addition amount is not completely depreciated at the end of the useful life of 
 
 
 <!-- PAGE_BREAK -->
  Depreciating Additions to Fixed Assets | 138 
 
- 13.On the Balance tab, select RV in the Depreciation Method column for the first row. 14.Save your changes. This will make the system fully depreciate the additions until the end of the recovery period of this fixed asset. 15.On the More menu, click Calculate Depreciation. 16.Review the Depreciation tab (see the screenshot below). Because the system fully depreciates the addition through 24 months (from 05-2026 through 04-2028), the depreciation expenses for the addition are $30 ($720 / 24), and the total depreciation expenses are $280 per month. At the end of the asset's life, the entire cost of the asset and the asset addition will be fully depreciated. 
+ the asset, because the addition period is later than the asset's acquisition period. At the end of the recovery period of the asset (04-2029), the addition is depreciated by $480 ($20 * 24). That is, the addition's net value of $240 ($720 – 24 * $20) will be undepreciated at the end of the life of the asset. To completely recover the cost of the addition during the rest of the useful life of the original asset, you can change the Straight-Line method to the Remaining Value method for this particular asset. 13.On the Balance tab, select RV in the Depreciation Method column for the first row. 14.Save your changes. This will make the system fully depreciate the additions until the end of the recovery period of this fixed asset. 15.On the More menu, click Calculate Depreciation. 16.Review the Depreciation tab (see the screenshot below). Because the system fully depreciates the addition through 24 months (from 05-2027 through 04-2029), the depreciation expenses for the addition are $30 ($720 / 24), and the total depreciation expenses are $280 per month. At the end of the asset's life, the entire cost of the asset and the asset addition will be fully depreciated. 
 
  Figure: Depreciation of the website calculated with the Remaining Value method 
 
@@ -5786,11 +5802,17 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Open the _Calculate Depreciation_ (FA502000) form. 
 
-2. In the **To Period** box, select _05-2028_ , and in the **Action** box, select _Depreciate_.     Notice that you have two records for the _SweetLife website_ asset in the table: one for the _FIN_ book, and the     other for the _TAX_ book. 
+2. In the **To Period** box, select _05-2029_ , and in the **Action** box, select _Depreciate_.     Notice that you have two records for the _SweetLife website_ asset in the table: one for the _FIN_ book, and the     other for the _TAX_ book. 
 
 3. Select the check boxes in the rows of both records for the _SweetLife website_ asset in the table to generate     depreciation transactions for both books. 
 
-4. On the form toolbar, click **Process**. The system will generate depreciation transactions for both books     for all periods, from the asset being placed into service through the end of its useful life. The generated     transactions will be automatically released, because the **Automatically Release Depreciation**     **Transactions** check box is selected on the _Fixed Assets Preferences_ (FA101000) form. 
+4. On the form toolbar, click **Process**.     The system generates depreciation transactions for both books for all periods, from the asset being placed     into service through the end of its useful life. The generated transactions are automatically released, 
+
+
+<!-- PAGE_BREAK -->
+ Depreciating Additions to Fixed Assets | 139 
+
+ because the Automatically Release Depreciation Transactions check box is selected on the Fixed Assets Preferences (FA101000) form. 
 
 5. Open the _FA Balance_ (FA630000) report form. 
 
@@ -5798,13 +5820,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 7. On the report form toolbar, click **Run Report**. 
 
-8. Review the generated report. 
-
-
-<!-- PAGE_BREAK -->
- Depreciating Additions to Fixed Assets | 139 
-
- The SweetLife website asset's balance now has the Fully Depreciated status for both books. This means that the asset was depreciated through all the periods of its useful life. The status of the asset on the General tab of the Fixed Assets (FA303000) form is also Fully Depreciated. As you can see, the net value of the SweetLife website asset is $0.00 in the FIN book. In the TAX book, you have a small undepreciated expense of $115.55, which is the undepreciated amount of the addition that has been done on 5/2/2026. You can depreciate this amount manually by making an adjustment transaction. 
+8. Review the generated report.     The _SweetLife website_ asset's balance now has the _Fully Depreciated_ status for both books. This means that     the asset was depreciated through all the periods of its useful life. The status of the asset on the **General** tab     of the _Fixed Assets_ (FA303000) form is also _Fully Depreciated_.     As you can see, the net value of the _SweetLife website_ asset is $0.00 in the _FIN_ book. In the _TAX_ book, you     have a small undepreciated expense of $115.55, which is the undepreciated amount of the addition that has     been done on 5/2/2027. You can depreciate this amount manually by making an adjustment transaction. 
 
 #### Step 4: Making a Depreciation Adjustment 
 
@@ -5814,7 +5830,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 2. On the form toolbar, click **Add New Record** , and specify the following settings in the Summary area: 
 
-- **Document Date** : _4/30/2028_ 
+- **Document Date** : _4/30/2029_ 
 
 - **Description** : Depreciation adjustment 
 
@@ -6082,7 +6098,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Story 
 
- Suppose that on July 15, 2025, the management of SweetLife Fruits & Jams decided to transfer one computer and one office soware license from the Head Office branch to the Retail branch of the company. Previously, a SweetLife 
+ Suppose that on July 15, 2026, the management of SweetLife Fruits & Jams decided to transfer one computer and one office soware license from the Head Office branch to the Retail branch of the company. Previously, a SweetLife 
 
 
 <!-- PAGE_BREAK -->
@@ -6110,9 +6126,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _7/15/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _7/15/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. Make sure that you have created the fixed assets by performing the following prerequisite activities:     _Conversion of a Purchase: To Convert a Purchase to an Asset_ , _Conversion of a Purchase: To Convert a_     _Purchase to Multiple Assets_ , _Fixed Asset Creation: To Create and Reconcile an Asset_ , _Fixed Asset Creation: To_     _Create an Asset with Multiple Units_ , and _Non-Default Asset Settings: Process Activity_. 
 
@@ -6136,13 +6152,13 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Step 2: Depreciating the Fixed Asset 
 
- To depreciate the Office soware asset through 06-2025, do the following: 
+ To depreciate the Office soware asset through 06-2026, do the following: 
 
 1. On the _Calculate Depreciation_ (FA502000) form, specify the following settings in the Selection area: 
 
 - **Book** : _FIN_ 
 
-- **To Period** : _06-2025_ 
+- **To Period** : _06-2026_ 
 
 - **Action** : _Depreciate_ 
 
@@ -6150,7 +6166,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 3. On the _Fixed Assets_ (FA303000) form, open the _Office Soware_ asset. 
 
-4. On the **Depreciation** tab, review the **Depreciated** column for periods from 05-2025 to 06-2025. 
+4. On the **Depreciation** tab, review the **Depreciated** column for periods from 05-2026 to 06-2026. 
 
 #### Step 3: Splitting the Fixed Asset 
 
@@ -6162,9 +6178,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Fixed Asset** : _Office Soware_ 
 
-- **Split Date** : _7/15/2025_ (inserted automatically) 
+- **Split Date** : _7/15/2026_ (inserted automatically) 
 
-- **Split Period** : _07-2025_ (inserted automatically) 
+- **Split Period** : _07-2026_ (inserted automatically) 
 
 3. On the table toolbar, click **Add Row** , and in the **Quantity** column of the new row, enter 1.     The system automatically inserts _150_ in the **Cost** column and _20_ in the **Ratio** column. 
 
@@ -6212,9 +6228,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _7/15/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _7/15/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_ 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_ 
 
 
 <!-- PAGE_BREAK -->
@@ -6250,11 +6266,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Company** : _SWEETLIFE_ 
 
-- **Transfer Date** : _7/15/2025_ 
+- **Transfer Date** : _7/15/2026_ 
 
-- **Transfer Period** : _07-2025_ 
-
-3. In the **Asset Transfer From** section, specify the following settings: 
+- **Transfer Period** : _07-2026_ 
 
 - **Branch** : _HEADOFFICE_ 
 
@@ -6262,23 +6276,23 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Asset Class** : Cleared 
 
-4. In the **Asset Transfer To** section, specify the following settings: 
+3. In the **Transfer To** section, specify the following settings: 
 
 - **Branch** : _RETAIL_ 
 
 - **Department** : _DEV_ 
 
-- **Asset Class** : Cleared The system narrows the fixed assets displayed in the table based on the values specified in the **Branch** , **Department** , and **Asset Class** boxes of the **Asset Transfer From** section. Aer you specify these settings, the system displays the fixed assets that belong to the Administrative department of the _HEADOFFICE_ branch. 
+- **Asset Class** : Cleared The system narrows the list of the fixed assets displayed in the table based on the values specified in the **Branch** , **Department** , and **Asset Class** boxes. Aer you specify these settings, the system displays the fixed assets that belong to the Administrative department of the _HEADOFFICE_ branch. 
 
-5. In the table, select the unlabeled check boxes in the rows of a _Desktop computer_ asset and the _Office_     _soware - split from 00000013_ asset. 
+4. In the table, select the unlabeled check boxes in the rows of a _Desktop computer_ asset and the _Office_     _soware - split from 00000013_ asset. 
 
-6. On the form toolbar, click **Process**. The system generates the transfer transactions; it also releases them     because the **Automatically Release Transfer Transactions** check box is selected on the _Fixed Assets_     _Preferences_ (FA101000) form. 
+5. On the form toolbar, click **Process**. The system generates the transfer transactions. It also releases them     because the **Automatically Release Transfer Transactions** check box is selected on the _Fixed Assets_     _Preferences_ (FA101000) form. 
+
+6. On the _Fixed Assets_ (FA303000) form, open the _Desktop computer_ asset and review the **Transactions** tab, as     shown in the following screenshot. 
 
 
 <!-- PAGE_BREAK -->
  Managing Fixed Assets with Depreciation | 149 
-
-7. On the _Fixed Assets_ (FA303000) form, open the _Desktop computer_ asset and review the **Transactions** tab, as     shown in the following screenshot. 
 
  Figure: Transfer transactions on the Transactions tab 
 
@@ -6298,13 +6312,13 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Asset ID** : _Office soware - split from 00000013_ 
 
-- **Fin Period** : _07-2025_ 
+- **Fin Period** : _07-2026_ 
 
 - **Book** : _FIN_ In the selected period, the values in the **Period to Date** column convey that the amount of $150 (the asset's cost) was depreciated in the amount of $8.33 (the accumulated depreciation). 
 
 3. In the table, click the line for the _15400_ account, and on the form toolbar, click **Asset Transaction History**. 
 
-4. On the _Asset Transaction History_ (FA404000) form, which the system has opened, review the transactions     that update the selected account through the _07-2025_ period, as shown in the following screenshot. 
+4. On the _Asset Transaction History_ (FA404000) form, which the system has opened, review the transactions     that update the selected account through the _07-2026_ period, as shown in the following screenshot. 
 
 
 <!-- PAGE_BREAK -->
@@ -6318,7 +6332,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Story 
 
- Suppose that on August 1, 2026, the management of the SweetLife Fruits & Jams company decided to sell one desktop computer for $75 to Cakeado Cafe. Acting as a SweetLife accountant, you need to dispose of the asset and create an invoice for the buyer of the computer. 
+ Suppose that on August 1, 2027, the management of the SweetLife Fruits & Jams company decided to sell one desktop computer for $75 to Cakeado Cafe. Acting as a SweetLife accountant, you need to dispose of the asset and create an invoice for the buyer of the computer. 
 
 #### Configuration Overview 
 
@@ -6340,13 +6354,15 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _8/1/2026_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _8/1/2027_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_ 
 
 
 <!-- PAGE_BREAK -->
  Managing Fixed Assets with Depreciation | 151 
+
+ Management , Fixed Assets: To Configure the Fixed Asset Functionality , and Fixed Assets: To Create Fixed Asset Classes. 
 
 4. Make sure that you have created the fixed assets by performing the _Conversion of a Purchase: To Convert a_     _Purchase to Multiple Assets_ prerequisite activity. 
 
@@ -6372,9 +6388,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Company/Branch** : _HEADOFFICE_ 
 
-- **Disposal Date** : _8/1/2026_ (inserted automatically) 
+- **Disposal Date** : _8/1/2027_ (inserted automatically) 
 
-- **Disposal Period** : _08-2026_ (inserted automatically) 
+- **Disposal Period** : _08-2027_ (inserted automatically) 
 
 - **Disposal Method** : _SOLD_ 
 
@@ -6390,7 +6406,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  If the Automatically Release Depreciation Transactions check box had been cleared on the Fixed Assets Preferences (FA101000) form, you would have had to depreciate the asset by using the Calculate Depreciation (FA502000) form before disposing of it. 
 
-4. In the **Processing** dialog box, click the link in the **Asset ID** column, and on the _Fixed Assets_ (FA303000) form,     which the system has opened, review the generated transactions on the **Transactions** tab.     The system has automatically depreciated the asset from the _02-2025_ to _08-2026_ periods, and then disposed     of the asset. The following transactions have been generated and released: 
+4. In the **Processing** dialog box, click the link in the **Asset ID** column, and on the _Fixed Assets_ (FA303000) form,     which the system has opened, review the generated transactions on the **Transactions** tab.     The system has automatically depreciated the asset from the _02-2026_ to _08-2027_ periods, and then disposed     of the asset. The following transactions have been generated and released: 
 
 - _Depreciation+_ transactions that debit the Depreciation Expense account ( _64000_ ) for the depreciation     amount and credit the Accumulated Depreciation account ( _16300_ ) for the same amount. The system has     generated multiple _Depreciation+_ transactions to depreciate the asset until the disposal date. 
 
@@ -6398,13 +6414,13 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - A _Depreciation Adjusting–_ transaction that debits the Accumulated Depreciation account in the total     amount of the accumulated depreciation ($235.50) for all the depreciation periods, and credits the Gain/     Loss of Fixed Asset Disposal account ( _90000_ ) in the same amount. 
 
-- A _Sale/Dispose+_ transaction that credits the Gain/Loss of Fixed Asset Disposal account ( _90000_ ) and debits     the Proceeds account ( _11010_ ) in the proceeds amount of $75. 
-
 
 <!-- PAGE_BREAK -->
  Managing Fixed Assets with Depreciation | 152 
 
-5. Review the **General** tab (see the screenshot below). The status of the fixed asset has changed to _Disposed_ ,     and the **Disposal Date** , **Disposal Method** , and **Disposal Amount** boxes show disposal information for this     asset. 
+- A _Sale/Dispose+_ transaction that credits the Gain/Loss of Fixed Asset Disposal account ( _90000_ ) and debits     the Proceeds account ( _11010_ ) in the proceeds amount of $75. 
+
+5. Review the **General** tab (see the screenshot below).     The status of the fixed asset has changed to _Disposed_. In the **Disposal Info** section, the **Disposal Date** ,     **Disposal Method** , and **Disposal Amount** boxes show disposal information for this asset. 
 
  Figure: Asset with the Disposed status 
 
@@ -6420,9 +6436,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Customer** : _CAKEADO_ 
 
-- **Date** : _8/1/2026_ (inserted automatically) 
+- **Date** : _8/1/2027_ (inserted automatically) 
 
-- **Post Period** : _08-2026_ (inserted automatically) 
+- **Post Period** : _08-2027_ (inserted automatically) 
 
 - **Description** : Sale of desktop computer 
 
@@ -6478,11 +6494,11 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 2. Optional: You convert purchases to assets. 
 
-3. You review the _Unreleased FA Documents_ (FA651000) report for the needed period to find the fixed asset     transactions that were created in this period but not released. 
+3. You review the _Unreleased FA Documents_ (FA651100) report for the needed period to find the fixed asset     transactions that were created in this period but not released. 
 
 4. You release the unreleased fixed asset transactions. 
 
-5. You depreciate all the needed fixed assets for the period that you are going to close. To review the list of     fixed assets that must be depreciated in a certain period, you generate and review the _Non-Depreciated_     _Fixed Assets_ (FA652000) report for this period. 
+5. You depreciate all the needed fixed assets for the period that you are going to close. To review the list of     fixed assets that must be depreciated in a certain period, you generate and review the _Non-Depreciated_     _Fixed Assets_ (FA652100) report for this period. 
 
 6. You reconcile fixed assets with the GL account balances by using the _FA Balance by GL Account_ (FA643000)     and _Trial Balance Detailed_ (GL632500) reports. You compare the balances of all Fixed Asset and Accumulated     Depreciation accounts that are in use in the fixed asset subledger. 
 
@@ -6498,7 +6514,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Story 
 
- Suppose that January 2025 should be closed in the fixed asset subledger. Acting as a SweetLife accountant, you need to prepare for closing the period by reconciling the fixed asset subledger with the general ledger. You will do that by comparing the fixed asset balance of the GL accounts with the account balances in the trial balance report. Finally, you will close the 01-2025 period in the fixed asset subledger. 
+ Suppose that January 2026 should be closed in the fixed asset subledger. Acting as a SweetLife accountant, you need to prepare for closing the period by reconciling the fixed asset subledger with the general ledger. You will do that by comparing the fixed asset balance of the GL accounts with the account balances in the trial balance report. Finally, you will close the 01-2026 period in the fixed asset subledger. 
 
 #### Configuration Overview 
 
@@ -6510,7 +6526,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Process Overview 
 
- In this activity, you will first run the Unreconciled Transactions for Period (FA620010), Unreleased FA Documents (FA651000), and Non-Depreciated Fixed Assets (FA652000) reports. You will then reconcile fixed asset accounts with GL accounts by comparing balances on the FA Balance by GL Account (FA643000) and Trial Balance Detailed (GL632500) reports. On the Close Financial Periods (FA509000) form, you will close the 01-2025 period and all the preceding periods. 
+ In this activity, you will first run the Unreconciled Transactions for Period (FA620010), Unreleased FA Documents (FA651100), and Non-Depreciated Fixed Assets (FA652100) reports. You will then reconcile fixed asset accounts with GL accounts by comparing balances on the FA Balance by GL Account (FA643000) and Trial Balance Detailed (GL632500) reports. On the Close Financial Periods (FA509000) form, you will close the 01-2026 period and all the preceding periods. 
 
 #### System Preparation 
 
@@ -6518,9 +6534,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/31/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/31/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. Make sure that you have created the fixed assets by performing the following prerequisite activities:     _Conversion of a Purchase: To Convert a Purchase to an Asset_ , _Conversion of a Purchase: To Convert a_     _Purchase to Multiple Assets_ , _Fixed Asset Creation: To Create and Reconcile an Asset_ , _Fixed Asset Creation: To_     _Create an Asset with Multiple Units_ , and _Non-Default Asset Settings: Process Activity_. 
 
@@ -6540,23 +6556,23 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Company/Branch** : Cleared 
 
-- **Period From** : _01-2025_ 
+- **Period From** : _01-2026_ 
 
-- **Period To** : _01-2025_ 
+- **Period To** : _01-2026_ 
 
 - **Account** : _15010 (Accrued Purchases: Fixed Assets)_ b. On the report form toolbar, click **Run Report** , and notice that the generated report is empty. This means that there are no purchases posted to the _15010_ account that must be converted to fixed assets. 
 
-2. Run the _Unreleased FA Documents_ (FA651000) report as follows:     a. On the **Report Parameters** tab of the _Unreleased FA Documents_ form, specify the following settings: 
+2. Run the _Unreleased FA Documents_ (FA651100) report as follows:     a. On the **Report Parameters** tab of the _Unreleased FA Documents_ form, specify the following settings: 
 
-- **From Period** : _01-2025_ 
+- **From Period** : _01-2026_ 
 
-- **To Period** : _01-2025_ b. On the report form toolbar, click **Run Report** , and review the generated report. Notice that there are no documents that should be released in 01-2025. 
+- **To Period** : _01-2026_ b. On the report form toolbar, click **Run Report** , and review the generated report. Notice that there are no documents that should be released in 01-2026. 
 
-3. Run the _Non-Depreciated Fixed Assets_ (FA652000) report as follows:     a. On the **Report Parameters** tab of the _Non-Depreciated Fixed Assets_ form, specify the following settings: 
+3. Run the _Non-Depreciated Fixed Assets_ (FA652100) report as follows:     a. On the **Report Parameters** tab of the _Non-Depreciated Fixed Assets_ form, specify the following settings: 
 
-- **From Period** : _01-2025_ 
+- **From Period** : _01-2026_ 
 
-- **To Period** : _01-2025_ b. On the report form toolbar, click **Run Report** , and review the generated report. Notice that there are no assets that must be depreciated through the _01-2025_ period, because you have depreciated all of these assets earlier. Now you can reconcile the account balances. 
+- **To Period** : _01-2026_ b. On the report form toolbar, click **Run Report** , and review the generated report. Notice that there are no assets that must be depreciated through the _01-2026_ period, because you have depreciated all of these assets earlier. Now you can reconcile the account balances. 
 
 4. On the **Report Parameters** tab of the _Trial Balance Detailed_ (GL632500) report form, specify the following     settings: 
 
@@ -6564,9 +6580,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Ledger** : _ACTUAL_ 
 
-- **From Period** : _01-2025_ 
+- **From Period** : _01-2026_ 
 
-- **To Period** : _01-2025_ 
+- **To Period** : _01-2026_ 
 
 - **Suppress Zero Balances** : Selected 
 
@@ -6578,7 +6594,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Branch** : _HEADOFFICE_ 
 
-- **Financial Period** : _01-2025_ 
+- **Financial Period** : _01-2026_ 
 
 7. On the report form toolbar, click **Run Report** , and review the report. 
 
@@ -6588,11 +6604,11 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 <!-- PAGE_BREAK -->
  Closing Financial Periods in Fixed Assets | 156 
 
- balances are reconciled for the 01-2025 period. Now you can close the financial period along with all preceding periods. 
+ balances are reconciled for the 01-2026 period. Now you can close the financial period along with all preceding periods. 
 
 #### Step 2: Closing a Financial Period 
 
- To close the 01-2025 period, do the following: 
+ To close the 01-2026 period, do the following: 
 
 1. Open the _Close Financial Periods_ (FA509000) form. 
 
@@ -6602,13 +6618,13 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Action** : _Close_ 
 
-- **To Year** : _2025_ 
+- **To Year** : _2026_ 
 
-3. In the table, select the unlabeled check box in the row with _01-2025_. Notice that the system selects the check     boxes for all the previous periods as well. 
+3. In the table, select the unlabeled check box in the row with _01-2026_. Notice that the system selects the check     boxes for all the previous periods as well. 
 
  To review the list of unreleased documents for the selected periods, on the form toolbar, you can click Unreleased Documents. 
 
-4. On the form toolbar, click **Process**.     Now the _01-2025_ period and all the preceding periods are closed. 
+4. On the form toolbar, click **Process**.     Now the _01-2026_ period and all the preceding periods are closed in the fixed asset subledger. 
 
 ### To Reopen a Financial Period in Fixed Assets 
 
@@ -6768,9 +6784,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Story 
 
- The accountant of SweetLife Fruits & Jams wants to start using Acumatica ERP for production use on 7/1/2025. Before this date, multiple fixed assets of SweetLife Fruits & Jams were maintained in the legacy system from 1/1/2024 through 6/30/2025 and data should be migrated through this date. 
+ The accountant of SweetLife Fruits & Jams wants to start using Acumatica ERP for production use on 7/1/2026. Before this date, multiple fixed assets of SweetLife Fruits & Jams were maintained in the legacy system from 1/1/2025 through 6/30/2026 and data should be migrated through this date. 
 
- Acting as the SweetLife accountant, you need to migrate the existing assets with accumulated depreciation without updating the general ledger. You have decided to manually create the asset for the SweetLife office building, which has been in use since 1/1/2024. It has an acquisition cost of $117,000 and accumulated depreciation of $4,375. 
+ Acting as the SweetLife accountant, you need to migrate the existing assets with accumulated depreciation without updating the general ledger. You have decided to manually create the asset for the SweetLife office building, which has been in use since 1/1/2025. It has an acquisition cost of $117,000 and accumulated depreciation of $4,375. 
 
 #### Configuration Overview 
 
@@ -6794,9 +6810,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/1/2024_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/1/2025_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -6828,9 +6844,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Useful Life, Years** : _39_ (inserted automatically based on the fixed asset class) 
 
-- **Receipt Date** : _1/1/2024_ 
+- **Receipt Date** : _1/1/2025_ 
 
-- **Placed-in-Service Date** : _1/1/2024_ 
+- **Placed-in-Service Date** : _1/1/2025_ 
 
 - **Orig. Acquisition Cost** : 117000 
 
@@ -6844,7 +6860,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 3. On the **Balance** tab, specify the following settings in the row for the _FIN_ book: 
 
-- **Last Depr. Period** : _06-2025_ 
+- **Last Depr. Period** : _06-2026_ 
 
 - **Accum. Depr.** : 4375 
 
@@ -6862,7 +6878,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. While you are still reviewing the asset on the _Fixed Assets_ (FA303000) form, click **Calculate Depreciation** on     the More menu.     The system calculates the depreciation by using the depreciation method and recovery period specified     for the asset. If the entered accumulated depreciation does not equal the calculated value, the system     calculates the depreciation adjustment to be posted in the first open period. 
 
-2. On the **Depreciation** tab, select _FIN_ in the **Book** box, and review the calculated depreciation amounts (see     the screenshot below).     The **Calculated** column displays the calculated depreciation amounts for the periods. The total calculated     depreciation for the periods from 01-2024 through 06-2025 is $4,375 ($125 + $250 * 17). The **Depreciated**     column shows the recorded depreciation amounts. For the periods from 01-2024 through 06-2025, the     recorded depreciation is $0.00. The accumulated depreciation that you have entered ($4,375) is recorded to     the last depreciation period (06-2025). 
+2. On the **Depreciation** tab, select _FIN_ in the **Book** box, and review the calculated depreciation amounts (see     the screenshot below).     The **Calculated** column displays the calculated depreciation amounts for the periods. The total calculated     depreciation for the periods from 01-2025 through 06-2026 is $4,375 ($125 + $250 * 17). The **Depreciated**     column shows the recorded depreciation amounts. For the periods from 01-2025 through 06-2026, the     recorded depreciation is $0.00. The accumulated depreciation that you have entered ($4,375) is recorded to     the last depreciation period (06-2026). 
 
 
 <!-- PAGE_BREAK -->
@@ -6876,7 +6892,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  When this check box is selected, on the Depreciation tab of the Fixed Assets form, the system shows the depreciation amounts recorded for the previous financial periods, along with the depreciation adjustment calculated for the current period. 
 
-5. On the _Fixed Assets_ form, open the _SweetLife office building_ asset, and review the **Depreciation** tab, as     shown in the screenshot below.     For the periods listed before the current period, in the **Depreciated** column, the system shows the     depreciation amounts that have been recorded to the Accumulated Depreciation account for the asset:     $0.00 for the periods through 05-2025, and $4,375 for the last depreciation period (06-2025). For the     current period (07-2025), in the **Calculated** column, the system shows the calculated depreciation plus     the calculated depreciation adjustment. Because the calculated depreciation amount ($4,375) is equal     to the entered accumulated depreciation, no adjustment is needed for the asset in 07-2025. For the     periods aer the current period, in the **Calculated** column, the system shows the depreciation amounts     calculated according to the settings of the asset. If no changes to the asset's cost are made, when the asset     is depreciated, these amounts will be posted to the Accumulated Depreciation account. 
+5. On the _Fixed Assets_ form, open the _SweetLife office building_ asset, and review the **Depreciation** tab, as     shown in the screenshot below.     For the periods listed before the current period, in the **Depreciated** column, the system shows the     depreciation amounts that have been recorded to the Accumulated Depreciation account for the asset:     $0.00 for the periods through 05-2026, and $4,375 for the last depreciation period (06-2026). For the     current period (07-2026), in the **Calculated** column, the system shows the calculated depreciation plus     the calculated depreciation adjustment. Because the calculated depreciation amount ($4,375) is equal     to the entered accumulated depreciation, no adjustment is needed for the asset in 07-2026. For the     periods aer the current period, in the **Calculated** column, the system shows the depreciation amounts     calculated according to the settings of the asset. If no changes to the asset's cost are made, when the asset     is depreciated, these amounts will be posted to the Accumulated Depreciation account. 
 
 
 <!-- PAGE_BREAK -->
@@ -6892,11 +6908,11 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Story 
 
- Suppose that in the middle of 2025, SweetLife Fruits & Jams is migrating its fixed assets to Acumatica ERP from a legacy system. The trial balances for the previous periods have already been imported into Acumatica ERP. 
+ Suppose that in the middle of 2026, SweetLife Fruits & Jams is migrating its fixed assets to Acumatica ERP from a legacy system. The trial balances for the previous periods have already been imported into Acumatica ERP. 
 
- Because the company has been maintaining its fixed assets since 2024, it has multiple fixed assets in the old database, and the depreciation of these assets has been accumulated from the start of their useful life through June 2025. 
+ Because the company has been maintaining its fixed assets since 2025, it has multiple fixed assets in the old database, and the depreciation of these assets has been accumulated from the start of their useful life through June 2026. 
 
- Acting as a SweetLife administrator, you need to import these assets along with the accumulated depreciation and start fully operating in Acumatica ERP on 7/1/2025. 
+ Acting as a SweetLife administrator, you need to import these assets along with the accumulated depreciation and start fully operating in Acumatica ERP on 7/1/2026. 
 
 #### Configuration Overview 
 
@@ -6912,13 +6928,13 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. On the _Numbering Sequences_ (CS201010) form, you will disable the auto-numbering of fixed assets. 
 
+2. On the _Fixed Asset Classes_ (FA201000) form, you will update the settings of an asset class by adding a book     to it. On the _Generate Book Calendars_ (FA501000) form, you will generate book calendars for this book. 
+
 
 <!-- PAGE_BREAK -->
  Migrating Fixed Assets | 165 
 
-2. On the _Fixed Asset Classes_ (FA201000) form, you will update the settings of an asset class by adding a book     to it. On the _Generate Book Calendars_ (FA501000) form, you will generate book calendars for this book. 
-
-3. On the _Data Providers_ (SM206015) form, you will create a new data provider and upload the     _ACU_Import_Fixed_Assets_F310.xlsx file_ file for it. 
+3. On the _Data Providers_ (SM206015) form, you will create a new data provider and upload the     _ACU_Import_Fixed_Assets_F310.xlsx_ file for it. 
 
 4. On the _Import Scenarios_ (SM206025) form, you will create an import scenario based on an XML file. 
 
@@ -6932,9 +6948,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _gibbs_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _7/1/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _7/1/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -6968,13 +6984,13 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Useful Life, Years** : _5_ (inserted automatically) 
 
-
-<!-- PAGE_BREAK -->
- Migrating Fixed Assets | 166 
-
 - **Averaging Convention** : _Mid Quarter_ (inserted automatically) 
 
 - **Mid-Period Type** : _Fixed Day_ (inserted automatically) 
+
+
+<!-- PAGE_BREAK -->
+ Migrating Fixed Assets | 166 
 
 - **Mid-Period Day** : _15_ (inserted automatically) 
 
@@ -6982,9 +6998,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 4. On the _Generate Book Calendars_ (FA501000) form, specify the following settings in the Selection area: 
 
-- **From Year** : _2024_ 
+- **From Year** : _2025_ 
 
-- **To Year** : _2064_ 
+- **To Year** : _2065_ 
 
 5. In the table, select the unlabeled check box for the _TAX_ book and click **Process** on the form toolbar. 
 
@@ -7032,11 +7048,11 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 3. On the form title bar, click **Files** , and upload the _ACU_Import_Fixed_Assets_F310.xlsx_ file, which you have     downloaded earlier. 
 
+4. On the form toolbar, click **Prepare** to prepare the already-uploaded list of fixed assets for import. The     system uploads the data to the table (see the following screenshot). 
+
 
 <!-- PAGE_BREAK -->
  Migrating Fixed Assets | 167 
-
-4. On the form toolbar, click **Prepare** to prepare the already-uploaded list of fixed assets for import. The     system uploads the data to the table (see the following screenshot). 
 
  Figure: The prepared data 
 
@@ -7078,7 +7094,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Story 
 
- Suppose that on July 1, 2025, SweetLife Fruits & Jams purchased a 10-user license of the TextEditor word processor to be used by the workers of the Sales department. The accountant of SweetLifedecided to apply the Section 179 deduction for this soware. Acting as the SweetLife accountant, you need to create this fixed asset in the system, depreciate it, and recover the asset's cost. 
+ Suppose that on July 1, 2026, SweetLife Fruits & Jams purchased a 10-user license of the TextEditor word processor to be used by the workers of the Sales department. The accountant of SweetLifedecided to apply the Section 179 deduction for this soware. Acting as the SweetLife accountant, you need to create this fixed asset in the system, depreciate it, and recover the asset's cost. 
 
 #### Configuration Overview 
 
@@ -7102,9 +7118,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _7/1/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _7/1/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -7134,9 +7150,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Vendor** : _COMPULINK_ 
 
-- **Date** : _7/1/2025_ (inserted automatically) 
+- **Date** : _7/1/2026_ (inserted automatically) 
 
-- **Post Period** : _07-2025_ 
+- **Post Period** : _07-2026_ 
 
 - **Description** : TextEditor 10-user license 
 
@@ -7172,9 +7188,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Useful Life, Years** : _3_ (inserted automatically when you select the fixed asset class) 
 
-- **Receipt Date** : _7/1/2025_ 
+- **Receipt Date** : _7/1/2026_ 
 
-- **Placed-in-Service Date** : _7/1/2025_ 
+- **Placed-in-Service Date** : _7/1/2026_ 
 
 - **Orig. Acquisition Cost** : 5000 
 
@@ -7204,7 +7220,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Open the _Calculate Depreciation_ (FA502000) form. 
 
-2. In the **To Period** box, enter _07-2025_. 
+2. In the **To Period** box, enter _07-2026_. 
 
 3. In the **Action** box, select _Depreciate_. 
 
@@ -7218,7 +7234,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 <!-- PAGE_BREAK -->
  Migrating Fixed Assets | 171 
 
- Figure: Depreciation calculated for 07-2025 for the TAX book 
+ Figure: Depreciation calculated for 07-2026 for the TAX book 
 
 7. On the **Balance** tab, review the **Accum. Depr.** and **Net Value** columns, and notice that the net value in the     _TAX_ book is now _0.00_. 
 
@@ -7342,7 +7358,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Story 
 
- Suppose that an accountant at SweetLife Fruits & Jams created the Office soware fixed asset with an acquisition cost of $750, a useful life of three years, and the SL (Straight-Line) depreciation method, and depreciated the asset for two periods. Then the accountant decided to increase the useful life of the asset to five years. Acting as the SweetLife accountant, you need to change the useful life of the asset and depreciate the asset from 07-2025 to 08-2025. 
+ Suppose that an accountant at SweetLife Fruits & Jams created the Office soware fixed asset with an acquisition cost of $750, a useful life of three years, and the SL (Straight-Line) depreciation method, and depreciated the asset for two periods. Then the accountant decided to increase the useful life of the asset to five years. Acting as the SweetLife accountant, you need to change the useful life of the asset and depreciate the asset from 07-2026 to 08-2026. 
 
 #### Configuration Overview 
 
@@ -7366,9 +7382,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _7/1/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _7/1/2026_ on the calendar. 
 
-3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Configure the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
+3. In the company to which you are signed in, be sure that you have implemented the fixed asset functionality     by performing the following prerequisite activities: _Fixed Assets: To Set Up the System for Fixed Asset_     _Management_ , _Fixed Assets: To Configure the Fixed Asset Functionality_ , and _Fixed Assets: To Create Fixed_     _Asset Classes_. 
 
 4. Make sure that you have completed the _Fixed Asset Creation: To Create an Asset with Multiple Units_     prerequisite activity to create the _Office soware_ fixed asset. 
 
@@ -7396,7 +7412,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - **Book** : _FIN_ 
 
-- **To Period** : _08-2025_ 
+- **To Period** : _08-2026_ 
 
 - **Action** : _Depreciate_ 
 
@@ -7404,7 +7420,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 4. On the _Fixed Assets_ (FA303000) form, open the _Office soware_ fixed asset. 
 
-5. Review the **Depreciation** tab.     The system has calculated depreciation for 07-2025 and 08-2025, and recalculated depreciation for the     previous periods. Because the depreciation expenses for 07-2025 exceed the newly calculated amount, the     system posts a negative depreciation amount in 07-2025. 
+5. Review the **Depreciation** tab.     The system has calculated depreciation for 07-2026 and 08-2026, and recalculated depreciation for the     previous periods. Because the depreciation expenses for 07-2026 exceed the newly calculated amount, the     system posts a negative depreciation amount in 07-2026. 
 
 
 <!-- PAGE_BREAK -->
@@ -7484,7 +7500,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 2. In the **Book** box, select the book whose book calendar you want to shi. 
 
-3. On the form toolbar, click **Shi the First Year**. This brings up a message that warns you about the     consequences of such an action. 
+3. On the form toolbar, click **Shi First Year**. This brings up a message that warns you about the consequences     of such an action. 
 
  Shiing the first year to an earlier date can affect statistics and data on reports. 
 
@@ -7532,9 +7548,9 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 1. Open the _Delete Unreleased Transactions_ (FA508000) form. 
 
-2. To delete only particular listed transactions, do the following:     a. For each transaction that you want to delete, select the appropriate Selected check box.     b. On the form toolbar, click **Process**. 
+2. To delete only particular listed transactions, do the following:     a. For each transaction that you want to delete, select the appropriate Selected check box.     b. On the form toolbar, click **Delete**. 
 
-3. To delete all listed transactions, click **Process All** on the form toolbar. 
+3. To delete all listed transactions, click **Delete All** on the form toolbar. 
 
 
 <!-- PAGE_BREAK -->
@@ -7578,7 +7594,11 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
@@ -7586,29 +7606,93 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 181 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 182 
 
 #### Report Toolbar 
 
@@ -7617,12 +7701,6 @@ locations. To transfer some of the listed assets, you select the fixed assets to
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 181 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -7648,25 +7726,77 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 182 
+ Appendix | 183 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 184 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -7684,91 +7814,45 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 183 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 184 
+ Appendix | 185 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -7787,6 +7871,12 @@ locations. To transfer some of the listed assets, you select the fixed assets to
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 186 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -7810,10 +7900,6 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 185 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -7828,13 +7914,19 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 187 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -7852,10 +7944,6 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 186 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -7870,6 +7958,10 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 188 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -7878,11 +7970,7 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 187 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -7908,6 +7996,12 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 189 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -7915,12 +8009,6 @@ locations. To transfer some of the listed assets, you select the fixed assets to
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 188 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -7948,19 +8036,19 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 190 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 189 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -7970,13 +8058,15 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 191 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -7987,10 +8077,6 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 190 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -8004,6 +8090,10 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 192 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -8014,11 +8104,11 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 191 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 193 
 
 #### Unavailable Commands on the More Menu 
 
@@ -8030,17 +8120,13 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 192 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 193 
+ Appendix | 194 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -8052,7 +8138,11 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 195 
 
  Figure: Table toolbar 
 
@@ -8072,17 +8162,17 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 194 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 196 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -8112,13 +8202,13 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 195 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 197 
 
  Element Description 
 
@@ -8162,15 +8252,15 @@ locations. To transfer some of the listed assets, you select the fixed assets to
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 196 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 198 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

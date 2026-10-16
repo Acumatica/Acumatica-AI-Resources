@@ -1,8 +1,8 @@
 ## Developer Guide 
 
-# Mobile Framework Guide 
+# Mobile Framework 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -20,7 +20,7 @@
 
  Mobile Site Map.................................................................................................................................... 12 
 
- To Update the Main Menu of a Mobile App.................................................................................................... 12 
+ To Update the Site Map of a Mobile App........................................................................................................12 
 
  To Manage the Workspaces of the Mobile App.............................................................................................. 12 
 
@@ -34,163 +34,165 @@
 
  To Add a Screen to the Mobile Site Map (Example)....................................................................................... 19 
 
- To Remove a Screen of a Mobile App............................................................................................................. 20 
+ To Remove a Screen of a Mobile App............................................................................................................. 21 
 
  To Convert an XML Mobile Site Map to MSDL Format................................................................................... 21 
 
  To Reverse Changes Made to the Mobile Site Map........................................................................................ 21 
 
- Configuring the Mobile Site Map............................................................................................................ 23 
+ To Map a Screen in the Modern UI................................................................................................................. 22 
 
- Main Menu........................................................................................................................................................ 23 
+ Configuring the Mobile Site Map............................................................................................................ 24 
 
- Sidebar Menu................................................................................................................................................... 29 
+ Home Screen....................................................................................................................................................24 
 
- Screens............................................................................................................................................................. 30 
+ Sidebar Menu................................................................................................................................................... 30 
 
- Getting the WSDL Schema..................................................................................................................... 30 
+ Screens............................................................................................................................................................. 31 
 
- Adding Attributes of Entities to Mobile Screens................................................................................... 32 
+ Getting the WSDL Schema..................................................................................................................... 31 
 
- Configuring Editing Screens...................................................................................................................35 
+ Adding Attributes of Entities to Mobile Screens................................................................................... 33 
 
- Configuring Related Containers.............................................................................................................37 
+ Configuring Editing Screens...................................................................................................................36 
 
- Configuring Selectors............................................................................................................................. 43 
+ Configuring Related Containers.............................................................................................................38 
 
- Configuring User-Defined Fields............................................................................................................44 
+ Configuring Selectors............................................................................................................................. 44 
 
- Displaying Any Field as a Text Field.......................................................................................................47 
+ Configuring User-Defined Fields............................................................................................................45 
 
- Mapping Dashboards..............................................................................................................................47 
+ Displaying Any Field as a Text Field.......................................................................................................48 
 
- Mapping Reports.....................................................................................................................................48 
+ Mapping Dashboards..............................................................................................................................48 
 
- Redirecting the User to Different Screens and Containers...................................................................51 
+ Mapping Reports.....................................................................................................................................49 
 
- Configuring Screen Layout..............................................................................................................................54 
+ Redirecting the User to Different Screens and Containers...................................................................52 
 
- Configuring Lists..................................................................................................................................... 54 
+ Configuring Screen Layout..............................................................................................................................55 
 
- Displaying Thumbnails...........................................................................................................................56 
+ Configuring Lists..................................................................................................................................... 55 
 
- Grouping Fields on a Screen..................................................................................................................57 
+ Displaying Thumbnails...........................................................................................................................57 
 
- Configuring Specific Functionality of a Screen..............................................................................................58 
+ Grouping Fields on a Screen..................................................................................................................58 
 
 
 <!-- PAGE_BREAK -->
  Contents | 3 
 
- Creating the User Signature...................................................................................................................59 
+ Configuring Specific Functionality of a Screen..............................................................................................60 
 
- Configuring Attachments....................................................................................................................... 61 
+ Creating the User Signature...................................................................................................................60 
 
- Dialog Boxes and Smart Panels...................................................................................................................... 63 
+ Configuring Attachments....................................................................................................................... 62 
 
- Mapping a Smart Panel.......................................................................................................................... 63 
+ Dialog Boxes and Smart Panels...................................................................................................................... 65 
 
- Displaying a Simple Dialog Box............................................................................................................. 68 
+ Mapping a Smart Panel.......................................................................................................................... 66 
 
- Configuring the Close Button of a Smart Panel....................................................................................69 
+ Displaying a Simple Dialog Box............................................................................................................. 70 
 
-**Configuring the Mobile Site Map by Using XML (deprecated).................................................................... 71** 
+ Configuring the Close Button of a Smart Panel....................................................................................71 
 
- To Customize the Mobile Site Map for a Form............................................................................................... 71 
+**Configuring the Mobile Site Map by Using XML (deprecated).................................................................... 73** 
 
- To Add a Form to the Mobile Site Map by Using an XML File........................................................................ 71 
+ To Customize the Mobile Site Map for a Form............................................................................................... 73 
 
- To Generate the Delta from Two Mobile Site Maps....................................................................................... 73 
+ To Add a Form to the Mobile Site Map by Using an XML File........................................................................ 73 
 
- How to Use XML Examples of This Section.................................................................................................... 74 
+ To Generate the Delta from Two Mobile Site Maps....................................................................................... 75 
 
- Main Menu........................................................................................................................................................ 74 
+ How to Use XML Examples of This Section.................................................................................................... 76 
 
- Sidebar Menu................................................................................................................................................... 79 
+ Main Menu........................................................................................................................................................ 76 
 
- Screens............................................................................................................................................................. 80 
+ Sidebar Menu................................................................................................................................................... 81 
 
- Getting the WSDL Schema..................................................................................................................... 81 
+ Screens............................................................................................................................................................. 82 
 
- Configuring Lists..................................................................................................................................... 82 
+ Getting the WSDL Schema..................................................................................................................... 83 
 
- Configuring Editing Forms..................................................................................................................... 87 
+ Configuring Lists..................................................................................................................................... 84 
 
- Mapping Reports.....................................................................................................................................89 
+ Configuring Editing Forms..................................................................................................................... 89 
 
- Mapping Dashboards..............................................................................................................................92 
+ Mapping Reports.....................................................................................................................................91 
 
- Grouping Fields on a Form.................................................................................................................... 93 
+ Mapping Dashboards..............................................................................................................................94 
 
- Configuring Attachments....................................................................................................................... 94 
+ Grouping Fields on a Form.................................................................................................................... 95 
 
- Configuring Selectors............................................................................................................................. 96 
+ Configuring Attachments....................................................................................................................... 96 
 
- Configuring Nested Containers..............................................................................................................98 
+ Configuring Selectors............................................................................................................................. 98 
 
- Adding Entity Attributes to Mobile Screens........................................................................................ 105 
+ Configuring Nested Containers............................................................................................................100 
 
- Redirecting to Different Screens and Containers............................................................................... 107 
+ Adding Entity Attributes to Mobile Screens........................................................................................ 107 
 
- Displaying Any Field as a Text Field.....................................................................................................111 
+ Redirecting to Different Screens and Containers............................................................................... 109 
 
- Creating the User Signature.................................................................................................................111 
+ Displaying Any Field as a Text Field.....................................................................................................113 
 
-**Mobile Site Map Reference...................................................................................................................116** 
+ Creating the User Signature.................................................................................................................113 
 
- MSDL............................................................................................................................................................... 116 
+**Mobile Site Map Reference...................................................................................................................118** 
 
- Object Types......................................................................................................................................... 117 
+ MSDL............................................................................................................................................................... 118 
 
- Constants.............................................................................................................................................. 145 
+ Object Types......................................................................................................................................... 119 
 
- Instructions........................................................................................................................................... 145 
+ Constants.............................................................................................................................................. 147 
 
- Error Messages......................................................................................................................................152 
+ Instructions........................................................................................................................................... 147 
 
- XML Tags.........................................................................................................................................................153 
+ Error Messages......................................................................................................................................155 
 
- <sm:Action>...........................................................................................................................................155 
+ XML Tags.........................................................................................................................................................156 
 
- <sm:Attachments>................................................................................................................................ 157 
+ <sm:Action>...........................................................................................................................................158 
 
 
 <!-- PAGE_BREAK -->
  Contents | 4 
 
- <sm:Attributes>.....................................................................................................................................158 
+ <sm:Attachments>................................................................................................................................ 160 
 
- <sm:Container>.....................................................................................................................................158 
+ <sm:Attributes>.....................................................................................................................................161 
 
- <sm:ContainerLink>..............................................................................................................................159 
+ <sm:Container>.....................................................................................................................................161 
 
- <sm:Field>............................................................................................................................................. 160 
+ <sm:ContainerLink>..............................................................................................................................162 
 
- <sm:Folder>.......................................................................................................................................... 163 
+ <sm:Field>............................................................................................................................................. 163 
 
- <sm:Group>...........................................................................................................................................164 
+ <sm:Folder>.......................................................................................................................................... 166 
 
- <sm:Include>.........................................................................................................................................165 
+ <sm:Group>...........................................................................................................................................167 
 
- <sm:Layout>..........................................................................................................................................165 
+ <sm:Include>.........................................................................................................................................168 
 
- <sm:RecordActionLink>........................................................................................................................167 
+ <sm:Layout>..........................................................................................................................................168 
 
- <sm:Screen>..........................................................................................................................................168 
+ <sm:RecordActionLink>........................................................................................................................170 
 
- <sm:SelectorContainer>.......................................................................................................................169 
+ <sm:Screen>..........................................................................................................................................171 
 
- <sm:Type>............................................................................................................................................. 169 
+ <sm:SelectorContainer>.......................................................................................................................172 
 
- Icons................................................................................................................................................................169 
+ <sm:Type>............................................................................................................................................. 172 
 
-**Troubleshooting Tips...........................................................................................................................182** 
+ Icons................................................................................................................................................................172 
 
- To Access an Acumatica ERP Instance Running Locally from the Acumatica Mobile App......................... 182 
+**Troubleshooting Tips...........................................................................................................................185** 
 
-**Known Limitations..............................................................................................................................185** 
+ To Access an Acumatica ERP Instance Running Locally from the Acumatica Mobile App......................... 185 
 
-**ac.exe MOBILEITEMAP Reference..........................................................................................................186** 
+**Known Limitations..............................................................................................................................188** 
+
+**ac.exe MOBILEITEMAP Reference..........................................................................................................189** 
 
 
 <!-- PAGE_BREAK -->
@@ -212,9 +214,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -282,7 +284,7 @@ This part of the guide describes how to configure the Acumatica ERP mobile site 
 
  The app connects to the Acumatica ERP server, and the server authorizes the user and returns the metadata to render the Home screen of the mobile app. 
 
- The following screenshot shows the Home screen of the mobile app. The menu contains a placeholder for adding KPI widgets (see Item 1 in the screenshot), the list of recently visited screens and records (Item 2), the list of screens and records marked as favorites (Item 3), and the tiles with the workspaces (Item 4). 
+ The following screenshot shows the Home screen of the mobile app. The screen contains a placeholder for adding KPI widgets (see Item 1 in the screenshot), the list of recently visited screens and records (Item 2), the list of screens and records marked as favorites (Item 3), and the tiles with the workspaces (Item 4). 
 
 
 <!-- PAGE_BREAK -->
@@ -332,33 +334,33 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
 ## Mobile Site Map 
 
- The mobile site map is the metadata you use to configure the Acumatica mobile app. The mobile site map contains descriptions of the elements that should appear on the mobile device, including the main menu, the workspaces, the screens, and the fields and actions on the screens. 
+ The mobile site map is the metadata you use to configure the Acumatica mobile app. The mobile site map contains descriptions of the elements that should appear on the mobile device, including the Home screen, the workspaces, the screens, and the fields and actions on the screens. 
 
  The mobile site map is defined with Mobile Site Map Definition Language (MSDL) code. You access and edit the mobile site map definition by using the Customization Project Editor. 
 
-### To Update the Main Menu of a Mobile App 
+### To Update the Site Map of a Mobile App 
 
- In a customization project, you can update the main menu of the customized Acumatica mobile app by using the Customization Project Editor. 
+ In a customization project, you can update the sitemap of the customized Acumatica mobile app by using the Customization Project Editor. 
 
-#### To Update the Main Menu of the Mobile App 
+#### To Update the Site Map of the Mobile App 
 
 1. Open the _Customization Projects_ (SM204505) form, and in the **Project Name** column, click the link of the     customization project. The Customization Project Editor opens. 
 
 2. Open the Mobile Application page. 
 
-3. On the More menu of the page, click **Update Main Menu**.     The Update: MENU page opens. The _Update MENU_ screen appears in the list of modified screens on the     Mobile Application page of the Customization Project Editor. 
+3. On the More menu of the page, click **Update Sitemap**.     The Update: SITEMAP page opens. The _Update SITEMAP_ screen appears in the list of modified screens on the     Mobile Application page of the Customization Project Editor. 
 
-4. In the **Result Preview** area of the Update: MENU page, explore the original code of the main menu. 
+4. In the **Result Preview** area of the Update: SITEMAP page, explore the original code of the mobile site map. 
 
-5. In the **Commands** area of the Update: MENU page, implement your code by using Mobile Site Map Definition     Language (MSDL). For details, see _Main Menu_. 
+5. In the **Commands** area of the Update: SITEMAP page, implement your code by using Mobile Site Map     Definition Language (MSDL). For details, see _Home Screen_. 
 
-6. Save your changes.     Your commands are applied to the menu. If any errors have occurred, you can see them in the **Errors** area     of the form. If your changes have been applied successfully, you can see the updated site map of the main     menu in the **Result Preview** area of the form. 
+6. Save your changes.     Your commands are applied to the mobile site map. If any errors have occurred, you can see them in the     **Errors** area of the form. If your changes have been applied successfully, you can see the updated site map in     the **Result Preview** area of the form. 
 
 7. Publish your customization project. 
 
  Related Links 
 
-- _Main Menu_ 
+- _Home Screen_ 
 
 ### To Manage the Workspaces of the Mobile App 
 
@@ -382,11 +384,11 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
 #### To Add a Workspace 
 
- You can add a workspace to the mobile app so that its tile is shown on the main menu. Do the following: 
+ You can add a workspace to the mobile app so that its tile is shown on the Home screen. Do the following: 
 
 1. In your Acumatica ERP instance, open the _Mobile Workspaces_ (AU220012) form. 
 
-2. On the form toolbar, click **Add Row** and provide the following values: 
+2. On the form toolbar, click **Add New Record** and provide the following values: 
 
 - **Workspace ID** : Internal identifier of the workspace 
 
@@ -398,7 +400,7 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
 #### To Change the Order of Workspaces 
 
- To change the order in which the workspaces are displayed on the main menu of the mobile app, perform the following steps: 
+ To change the order in which the workspaces are displayed on the Home screen of the mobile app, perform the following steps: 
 
 1. Open the _Mobile Workspaces_ (AU220012) form. 
 
@@ -410,7 +412,7 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
 #### To Remove a Workspace from the List of Workspaces 
 
- To remove a workspace from the main menu of the mobile app, perform the following steps: 
+ To remove a workspace from the Home screen of the mobile app, perform the following steps: 
 
 1. Open the _Mobile Workspaces_ (AU220012) form. 
 
@@ -528,9 +530,9 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
 1. Open the _Customization Projects_ (SM204505) form, and in the **Project Name** column, click the link of the     customization project. The Customization Project Editor opens. 
 
-2. In the navigation pane, click **Mobile Application** to open the Mobile Application page. 
+2. In the navigation pane, click **Mobile Application** to open the _Mobile Application_ page. 
 
-3. On the More menu of the page, click **Manage Workspaces**.     The Mobile Workspace page opens. 
+3. On the More menu of the page, click **Add Customized Workspaces**.     The Mobile Workspace page opens. 
 
 
 <!-- PAGE_BREAK -->
@@ -538,9 +540,9 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
 4. On the page toolbar, click **Add New Record**.     The **Add Workspace** dialog box opens. The dialog box contains workspaces that you have modified. These     include workspaces for which you have added any screens or widgets on the _Mobile Workspace_ (AU220013)     form, new workspaces you have created on the form, as well as workspaces whose order you have changed     on the _Mobile Workspaces_ (AU220012) form. 
 
-5. Select the unlabeled check box in each row with a workspace whose changes you want to add to the     project.     In the navigation pane, notice that the Mobile Workspaces page is listed under the **Mobile Application**     node. Open this page, and you can see that the More menu of this page contains the **Manage Workspaces**     command. 
+5. Select the unlabeled check box in each row with a workspace whose changes you want to add to the     project. 
 
-6. Click **Save** to add the selected workspaces to the customization project and save your changes. 
+6. Click **Save** to add the selected workspaces to the customization project and save your changes.     In the navigation pane, notice that the _Mobile Workspaces_ page is listed under the **Mobile Application** node.     Open this page, and you can see that the More menu of this page contains the **Add Customized Workspaces**     command. 
 
 #### To Configure Workspaces from a Customization Project 
 
@@ -590,25 +592,25 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
  The configuration described in this topic is performed by a user of the Acumatica mobile app. The configuration applies to only this user's copy of the mobile app. 
 
- A workspace added on the Mobile Workspaces form is displayed on the main menu of the mobile app only if this workspace contains at least one screen or one KPI widget that is available to the mobile app user. 
+ A workspace added on the Mobile Workspaces form is displayed on the Home screen of the mobile app only if this workspace contains at least one screen or one KPI widget that is available to the mobile app user. 
 
 #### To Change the Order of Workspaces 
 
- To change the order in which the workspaces are displayed on the main menu of the mobile app for your user account, perform the following steps: 
+ To change the order in which the workspaces are displayed on the Home screen of the mobile app for your user account, perform the following steps: 
 
-1. Sign in to the mobile app.     The main menu of the app opens. 
+1. Sign in to the mobile app.     The Home screen of the app opens. 
 
 2. On the More menu of the **Workspaces** section, tap **Reorder Workspaces**.     The **Reorder Workspaces** screen opens. 
 
 3. On the screen, tap and hold a tile, and then drag it to the required location. 
 
-4. Click the back arrow to save your changes and return to the main menu. 
+4. Click the back arrow to save your changes and return to the Home screen. 
 
 #### To Change the Order of Screens 
 
  To change the order in which the screens are displayed within a workspace, perform the following steps: 
 
-1. Sign in to the mobile app.     The main menu of the app opens. 
+1. Sign in to the mobile app.     The Home screen of the app opens. 
 
 2. Tap the tile with the required workspace. 
 
@@ -620,7 +622,7 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
 #### To Add KPI Widgets 
 
- On the main menu of the mobile app and in each of the workspaces, you can add KPI widgets of the following types: 
+ On the Home screen of the mobile app and in each of the workspaces, you can add KPI widgets of the following types: 
 
 - Scorecard 
 
@@ -628,7 +630,7 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
 - Trend card By default, no widgets are displayed. To add a widget to the main menu or to a workspace, perform the following steps: 
 
-1. Sign in to the mobile app.     The main menu of the app opens. 
+1. Sign in to the mobile app.     The Home screen of the app opens. 
 
 
 <!-- PAGE_BREAK -->
@@ -640,7 +642,7 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
 4. Click the back arrow to save your changes and return to the workspace. 
 
- The mobile app adds the selected widget to the workspace or to the main menu. You can view the list of records of a widget by tapping it. 
+ The mobile app adds the selected widget to the workspace or to the Home screen. You can view the list of records of a widget by tapping it. 
 
  Aer you have added at least one widget to the workspace, the More (…) button of the KPIs section becomes available. You can edit the list of KPIs or add new ones by tapping the corresponding commands on this menu. 
 
@@ -650,7 +652,7 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
  To add a screen to your list of favorites, perform the following steps: 
 
-1. Sign in to the mobile app.     The main menu of the app opens. 
+1. Sign in to the mobile app.     The Home screen of the app opens. 
 
 2. Tap the workspace that contains the screen, and then tap the screen you want to add to favorites. 
 
@@ -666,7 +668,7 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
  To add a record to your list of favorites, perform the following steps: 
 
-1. Sign in to the mobile app.     The main menu of the app opens. 
+1. Sign in to the mobile app.     The Home screen of the app opens. 
 
 2. Tap the required workspace, and then tap the required screen. 
 
@@ -696,7 +698,7 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
 3. On the More menu of the page, click **Update Existing Screen**.     The **Update Existing Screen** dialog box opens. 
 
-4. In the dialog box, specify the ID of the screen you want to update, and click **OK**.     The Update: <screen_name> page opens. The new _update_ screen with its details appears in the list of     modified screens on the Mobile Application page of the Customization Project Editor. 
+4. In the dialog box, specify the ID of the screen you want to update, and click **OK**.     The Update: <screen_name> page opens. The new _Update Existing Screen_ item with its details appears in     the list of modified screens on the _Mobile Application_ page of the Customization Project Editor. 
 
 5. Explore the original code of the screen in the **Result Preview** area of the Update: <screen_name> page. 
 
@@ -730,11 +732,11 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
 2. Open the _Customization Projects_ (SM204505) form, and in the **Project Name** column, click the link of the     customization project. The Customization Project Editor opens. 
 
-3. Open the Mobile Application page. 
+3. Open the _Mobile Application_ page. 
 
 4. On the More menu of the page, click **Add New Screen**.     The **Add New Screen** dialog box opens. 
 
-5. In the dialog box, enter the form ID of the Acumatica ERP form (and thus of the corresponding screen in the     mobile app) that you want to add to the mobile app, and click **OK**.     The Add: <screen_name> page opens. The row with the _add_ screen and its details appears in the list of     modified screens on the Mobile Application page of the Customization Project Editor. 
+5. In the dialog box, enter the form ID of the Acumatica ERP form (and thus of the corresponding screen in the     mobile app) that you want to add to the mobile app, and click **OK**.     The Add: <screen_name> page opens. The row with the _Add New Screen_ item and its details appears in the     list of modified screens on the _Mobile Application_ page of the Customization Project Editor. 
 
 6. Notice that the initial code of the screen includes only one add instruction. 
 
@@ -742,23 +744,23 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
  (See add for details about the instruction.) 
 
-7. Implement the code of the new screen in the **Commands** area of the Add page. For details, see _Screens_.     While implementing the code, use the WSDL schema to understand which actions and fields are available     for the form you are adding. For details, see _Getting the WSDL Schema_. 
+7. Implement the code of the new screen in the **Commands** area of the Add page. For details, see _Screens_.     While implementing the code, use the Element Inspector to learn the names of fields, containers, and     actions that you are mapping. For details, see _Element Inspector_. 
 
-8. Save your changes.     Your commands are applied to the site map. If any errors have occurred, you can see them in the **Errors** area     of the page. If your changes have been applied successfully, you can see the updated site map of the main     menu in the **Result Preview** area of the form. 
+8. Save your changes.     Your commands are applied to the site map. If any errors have occurred, you can see them in the **Errors** area     of the page. If your changes have been applied successfully, you can see the updated site map in the **Result**     **Preview** area of the form. 
 
-9. On the Update: MENU page, add a shortcut for the new screen in the main menu, as illustrated in the     following code. 
+9. On the Update: SITEMAP page, add the screen to the mobile site map, as illustrated in the following code. 
 
  add item <screen_ID> { visible = True displayName = "screen_title" } 
 
- 10.Save your changes, and publish your customization project. 
-
-### To Remove a Screen of a Mobile App 
-
- You can remove a screen of the customized Acumatica mobile app from a customization project by using the Customization Project Editor. 
+ 10.Add a screen to a mobile workspace on the Mobile Workspaces (AU220012) form. 11.Save your changes, and publish your customization project. 
 
 
 <!-- PAGE_BREAK -->
  Mobile Site Map | 21 
+
+### To Remove a Screen of a Mobile App 
+
+ You can remove a screen of the customized Acumatica mobile app from a customization project by using the Customization Project Editor. 
 
 #### To Remove a Screen of a Mobile App 
 
@@ -792,15 +794,17 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
 ### To Reverse Changes Made to the Mobile Site Map 
 
- When you are customizing the mobile site map in a customization project by using the Customization Project Editor, you might need to reverse the changes you have made to the site map of the Acumatica mobile app in this project. You can return to the original site map for one tenant or for all tenants without removing the other changes you have made in the customization project. 
-
-#### To Reverse Changes Made to the Mobile Site Map 
-
- To reverse the changes to the mobile site map in a particular customization project, perform the following steps: 
+ When you are customizing the mobile site map in a customization project by using the Customization Project Editor, you might need to reverse the changes you have made to the site map of the Acumatica mobile app in this 
 
 
 <!-- PAGE_BREAK -->
  Mobile Site Map | 22 
+
+ project. You can return to the original site map for one tenant or for all tenants without removing the other changes you have made in the customization project. 
+
+#### To Reverse Changes Made to the Mobile Site Map 
+
+ To reverse the changes to the mobile site map in a particular customization project, perform the following steps: 
 
 1. Open the customization project in the Customization Project Editor. 
 
@@ -808,13 +812,41 @@ At the bottom of the Home screen, there is a navigation bar highlighted in the f
 
 3. On the More menu of the page, click **Clear Current Tenant** if you want to reverse the changes to the current     tenant only. If you want to reverse the changes to all tenants, click **Clear All Tenants**. 
 
-The mobile app customization is unpublished from the selected tenants. 
+ The mobile app customization is unpublished from the selected tenants. 
 
-To return to your changes, publish your customization project, as described in _To Publish the Current Project_. 
+ To return to your changes, publish your customization project, as described in To Publish the Current Project. 
+
+### To Map a Screen in the Modern UI 
+
+#### To Convert Screen Mapping Written for the Classic UI 
+
+ All screens that were originally mapped with the Classic UI version should be displayed in the Acumatica mobile app without any changes in the mapping. 
+
+ For the forms that have both the Classic UI and the Modern UI version, the MSDL mapping is based on the Classic UI version, that is, the ASPX file. If you want to map a new field that was added only in the Modern UI, you should also add it in the ASPX file for the object to be displayed in the mobile app. 
+
+#### To Map a Screen That Exists Only in the Modern UI 
+
+ You can map a screen that is defined only in the Modern UI and does not have any ASPX file for the Classic UI. You can use the same approach as for the Classic UI, meaning mapping objects and adding instructions. To determine the object name for mapping, you can use one of the sources: 
+
+- Container and field names from the Element Inspector: In the Modern UI, you can safely use the Element     Inspector to determine the container name and field name for mapping.     The container name corresponds to the **View Name** value in the **Element Properties** dialog box.     The field name corresponds to the **Data Field** value in the **Element Properties** dialog box.     Suppose that you want to map the **Processing Center** box on the Sales Orders (SO301000) form. To     determine the container and field names, you use the Element Inspector on the **Processing Center** box,     and in the **Element Properties** dialog box, use the View Name value (CurrentDocument) and **Data Field**     value (ProcessingCenterID). 
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 23 
+ Mobile Site Map | 23 
+
+ Figure: The Element Properties dialog box 
+
+ The resulting mapping looks as follows. 
+
+ add container "CurrentDocument" { add field "ProcessingCenterID" } 
+
+ This approach is recommended if you are mapping the screen in the Modern UI. 
+
+- Element names from WSDL schema: This approach was used in the Classic UI, but does not always work     because some object names may not be correct in the WSDL schema for mapping. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring the Mobile Site Map | 24 
 
 ## Configuring the Mobile Site Map 
 
@@ -838,7 +870,7 @@ To return to your changes, publish your customization project, as described in _
 
 - _Screens_ : You can customize the mobile app screens by using instructions that work with Container,     Field, Action, and other objects. 
 
- In previous versions of Acumatica ERP, you could customize the sidebar menu by populating it with links ti favorite records and screens. As of Acumatica ERP 2025 R1, the sidebar menu has been deprecated. Customization projects that contain sidebar modification will no longer work. We recommend that you use the workspace functionality and add the required records and screens to Favorites. (For details, see Main Menu .) 
+ In previous versions of Acumatica ERP, you could customize the sidebar menu by populating it with links ti favorite records and screens. As of Acumatica ERP 2025 R2, the sidebar menu has been deprecated. Customization projects that contain sidebar modification will no longer work. We recommend that you use the workspace functionality and add the required records and screens to Favorites. (For details, see Home Screen .) 
 
 #### How to Use the MSDL Examples of This Section 
 
@@ -846,49 +878,47 @@ To return to your changes, publish your customization project, as described in _
 
  To use the examples from this section, you should first add a new page (or modify an existing one) in the Customization Project Editor, and then insert the code in the Commands area. You can see your changes aer you publish the customization project. For details, see the topics of the Mobile Site Map chapter. 
 
-### Main Menu 
+### Home Screen 
 
- The main menu of the Acumatica mobile app consists of workspaces, a placeholder for adding KPI widgets, the list of recently visited screens and records, the list of screens and records marked as favorites, and the bottom menu with the Home , Search , Favorites , and Settings buttons. A user can go to any of these parts of the mobile app by tapping the needed part of the screen. 
-
-
-<!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 24 
-
- The workspaces in the mobile app are not the same as the workspaces in the web version. You configure mobile workspaces separately (see To Manage the Workspaces of the Mobile App ). 
-
- To add a screen to the main menu, you perform the following steps: 
-
-1. Map the screen to the mobile site map, as described in _To Add a Screen to the Mobile Site Map (Example)_ 
-
-2. Add the screen to the mobile site map, as described in _To Update the Main Menu of a Mobile App_ 
-
-3. Add the screen to a workspace, as described in _To Manage the Workspaces of the Mobile App_ 
-
- The access rights for screens in the mobile application are the same as the access rights for screens in Acumatica ERP. 
-
- The start page of the main menu contains all child tags of the sitemap instruction. 
-
- In this topic, you can read about and perform several simple examples that demonstrate how to build the main menu of the mobile application. 
-
-#### Exploring of the Original Main Menu Code 
-
- You can view the original code of the main menu of the Acumatica mobile app by doing the following: 
-
-1. Open the _Customization Projects_ (SM204505) form, and in the **Project Name** column, click the link of the     customization project. The Customization Project Editor opens. 
-
-2. Open the Mobile Application page. 
-
-3. On the More menu of the page, click **Update Main Menu**.     The Update: MENU page opens. The _Update: MENU_ screen appears in the list of modified screens on the     Mobile Application page. 
-
-4. On the Update: MENU page, explore the original code of the main menu in the **Result Preview** area. 
-
- The mobile app's main menu is shown in the following screenshot. 
+ The Home screen of the Acumatica mobile app consists of workspaces, a placeholder for adding KPI widgets, the list of recently visited screens and records, the list of screens and records marked as favorites, and the bottom menu with the Home , Search , Favorites , and Settings buttons. A user can go to any of these parts of the mobile app by tapping the needed part of the screen. 
 
 
 <!-- PAGE_BREAK -->
  Configuring the Mobile Site Map | 25 
 
- Figure: The main menu of the mobile app 
+ The workspaces in the mobile app are not the same as the workspaces in the web version. You configure mobile workspaces separately (see To Manage the Workspaces of the Mobile App ). 
+
+ To add a link to screen (form) so that a user can access it from the Home screen, you perform the following steps: 
+
+1. Map the screen to the mobile site map, as described in _To Add a Screen to the Mobile Site Map (Example)_ 
+
+2. Add the screen to the mobile site map, as described in _To Update the Site Map of a Mobile App_ 
+
+3. Add the screen to a workspace, as described in _To Manage the Workspaces of the Mobile App_ 
+
+ The access rights for screens in the mobile application are the same as the access rights for screens in Acumatica ERP. 
+
+ In this topic, you can read about and perform several simple examples that demonstrate how to build the site map of the mobile application. 
+
+#### Exploring of the Original Code of the Site Map 
+
+ The code of the site map defines which screens will be accessible from different workspaces on the Home screen. The mobile app's Home screen is shown in the following screenshot. 
+
+ Figure: The Home screen of the mobile app 
+
+ You can view the original code of the site map of the Acumatica mobile app by doing the following: 
+
+1. Open the _Customization Projects_ (SM204505) form, and in the **Project Name** column, click the link of the     customization project. The Customization Project Editor opens. 
+
+2. Open the Mobile Application page. 
+
+3. On the More menu of the page, click **Update Sitemap**.     The Update: SITEMAP page opens. The _Update: SITEMAP_ screen appears in the list of modified screens on     the Mobile Application page. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring the Mobile Site Map | 26 
+
+4. On the Update: SITEMAP page, explore the original code of the site map in the **Result Preview** area. 
 
 #### Example: Adding a Screen to a Workspace 
 
@@ -914,29 +944,29 @@ To return to your changes, publish your customization project, as described in _
 
 5. Sign out of the mobile app, and then sign in again. 
 
-6. On the main menu, tap **CRM**.     The workspace should look similar to the one shown in the following screenshot: 
+6. On the Home screen, tap **CRM**.     The workspace should look similar to the one shown in the following screenshot: 
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 26 
+ Configuring the Mobile Site Map | 27 
 
  Figure: The CRM workspace with the added widget 
 
 #### Example: Adding a Screen to a Folder 
 
- As of Acumatica ERP 2025 R1, the adding of screens by methods described in the section has been deprecated. We recommend that you use the workspace functionality as described in To Configure Workspaces in the Acumatica ERP Instance. 
+ As of Acumatica ERP 2025 R2, the adding of screens by methods described in the section has been deprecated. We recommend that you use the workspace functionality as described in To Configure Workspaces in the Acumatica ERP Instance. 
 
  Adding a screen to a folder consists of two actions: 
 
 - Adding a new screen to the mobile site map, as described in _To Add a Screen to the Mobile Site Map_     _(Example)_ 
 
-- Adding the new screen shortcut to the main menu. In this example, you will add a shortcut of the Controller screen to the Dashboards folder of the main menu. Copy the code below to the Commands area of the Update: MENU page in the Customization Project Editor. 
+- Adding the new screen shortcut to the main menu. In this example, you will add a shortcut of the Controller screen to the Dashboards folder of the main menu. Copy the code below to the Commands area of the Update: SITEMAP page in the Customization Project Editor. 
 
  update sitemap { add folder "Folder_0" { displayName = "Dashboards" icon = "system://Folder" add item "DB000015" { displayName = "Controller" icon = "system://Graph1" } } } 
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 27 
+ Configuring the Mobile Site Map | 28 
 
  The screenshots below show the results of this code on the mobile device. 
 
@@ -958,7 +988,7 @@ To return to your changes, publish your customization project, as described in _
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 28 
+ Configuring the Mobile Site Map | 29 
 
 **_Figure: Acumatica ERP form with multiple tabs_** 
 
@@ -974,7 +1004,7 @@ To configure a screen for a form, do the following:
 
  add screen GI000008 { add container "Result" { add field "AccountName" add field "CustomerClassID" add field "InvoiceDate" } } 
 
-3. Update the main menu of the mobile app with the following code. For details, see _To Update the Main Menu_     _of a Mobile App_. 
+3. Update the site map of the mobile app with the following code. For details, see _To Update the Site Map of a_     _Mobile App_. 
 
  add folder "Invoiced_Items" { type = HubFolder displayName = "Invoiced Items" icon = "system://Pen" add item "GI000008" { displayName = "Invoiced Items" } } 
 
@@ -982,7 +1012,7 @@ To configure a screen for a form, do the following:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 29 
+ Configuring the Mobile Site Map | 30 
 
 5. Publish your customization project, and open the mobile app. 
 
@@ -992,7 +1022,7 @@ To configure a screen for a form, do the following:
 
 ### Sidebar Menu 
 
- As of Acumatica ERP 2025 R1, the sidebar menu of the Acumatica mobile app has been deprecated. Customization projects that contain modification to the sidebar menu will no longer work. We recommend that you use the workspace functionality and add the required records and screens to Favorites. (For details, see Main Menu .) 
+ As of Acumatica ERP 2025 R2, the sidebar menu of the Acumatica mobile app has been deprecated. Customization projects that contain modification to the sidebar menu will no longer work. We recommend that you use the workspace functionality and add the required records and screens to Favorites. (For details, see Home Screen .) 
 
  The mobile app has a sidebar menu , which is the shortcut menu for favorite folders and screens. You can add links to folders and screens to the sidebar menu. 
 
@@ -1008,7 +1038,7 @@ To configure a screen for a form, do the following:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 30 
+ Configuring the Mobile Site Map | 31 
 
  Figure: A link to the screen in the sidebar menu 
 
@@ -1048,7 +1078,7 @@ To configure a screen for a form, do the following:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 31 
+ Configuring the Mobile Site Map | 32 
 
 2. On the title bar of the form, click **Tools > Web Service** in the UI. 
 
@@ -1060,7 +1090,7 @@ See the following screenshot for an example of the WSDL schema. The schema inclu
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 32 
+ Configuring the Mobile Site Map | 33 
 
  Figure: Viewing an example of the WSDL schema 
 
@@ -1078,7 +1108,7 @@ See the following screenshot for an example of the WSDL schema. The schema inclu
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 33 
+ Configuring the Mobile Site Map | 34 
 
 #### Example: Displaying a Group of Attributes on the Summary Tab 
 
@@ -1098,7 +1128,7 @@ See the following screenshot for an example of the WSDL schema. The schema inclu
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 34 
+ Configuring the Mobile Site Map | 35 
 
  Figure: Viewing the Cases screen and the Attributes group 
 
@@ -1114,7 +1144,7 @@ See the following screenshot for an example of the WSDL schema. The schema inclu
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 35 
+ Configuring the Mobile Site Map | 36 
 
  Figure: Viewing the Settings tab and the list of attributes 
 
@@ -1136,7 +1166,7 @@ See the following screenshot for an example of the WSDL schema. The schema inclu
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 36 
+ Configuring the Mobile Site Map | 37 
 
 #### Example: Configuring the List and the Editing Form Separately 
 
@@ -1160,15 +1190,15 @@ See the following screenshot for an example of the WSDL schema. The schema inclu
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 37 
+ Configuring the Mobile Site Map | 38 
 
  } 
 
-5. Add the screens to the main menu of the mobile app using the **Update Main Menu** page as shown below. 
+5. Add the screens to the mobile site map by using the **Update: SITEMAP** page as shown below. 
 
  add item "SO3030PL" { displayName = "Invoices" icon = "system://NewsPaper" } add item "SO303000" { displayName = "Invoice" visible = False } 
 
- The visible attribute of the Invoices (SO303000) screen is set to false to hide the editing screen from the main menu of the mobile app so that a user can access it only from the Invoices (SO3030PL) screen. 
+ The visible attribute of the Invoices (SO303000) screen is set to false to hide the editing screen from the Home screen of the mobile app so that a user can access it only from the Invoices (SO3030PL) screen. 
 
  Aer you publish the customization project, you should see a new tile on the main menu of the mobile app and the corresponding screens, as shown below. 
 
@@ -1186,7 +1216,7 @@ See the following screenshot for an example of the WSDL schema. The schema inclu
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 38 
+ Configuring the Mobile Site Map | 39 
 
 The following code is an example of the one-to-many-containers scheme. You can see the full example if you select **Update Existing Screen > EP301000** on the toolbar of the Mobile Application page in the Customization Project Editor. 
 
@@ -1198,7 +1228,7 @@ The following screenshot shows the resulting screen in the mobile application.
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 39 
+ Configuring the Mobile Site Map | 40 
 
  Figure: Screen with one-to-many containers 
 
@@ -1212,7 +1242,7 @@ The following screenshot shows the resulting screen in the mobile application.
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 40 
+ Configuring the Mobile Site Map | 41 
 
  In this example, the Description field of the ReceiptDetailsExpenseDetails container is displayed (among other fields). To see the full example, in the navigation pane of the Customization Project Editor select the Mobile Application page and click Customize > Update Existing Screen > EP301020. 
 
@@ -1226,7 +1256,7 @@ The following screenshot shows the resulting screen in the mobile application.
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 41 
+ Configuring the Mobile Site Map | 42 
 
 **_Figure: Example of a dialog box with a grid_** 
 
@@ -1238,7 +1268,7 @@ To see the full example, in the navigation pane of the Customization Project Edi
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 42 
+ Configuring the Mobile Site Map | 43 
 
  The screenshots below show the resulting screens in the mobile app. Screens with list actions support selecting multiple items. 
 
@@ -1264,7 +1294,7 @@ To see the full example, in the navigation pane of the Customization Project Edi
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 43 
+ Configuring the Mobile Site Map | 44 
 
  The screenshots below show the Timecard (EP305000) screen with the container links and the opened Summary screen. 
 
@@ -1282,7 +1312,7 @@ To see the full example, in the navigation pane of the Customization Project Edi
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 44 
+ Configuring the Mobile Site Map | 45 
 
  A selector with pickerType="Attached" is displayed as a field on the first screenshot and as a pop-up window on the second screenshot. 
 
@@ -1300,7 +1330,7 @@ To see the full example, in the navigation pane of the Customization Project Edi
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 45 
+ Configuring the Mobile Site Map | 46 
 
  Figure: The User-Defined Fields tab on the Cases form 
 
@@ -1320,7 +1350,7 @@ To see the full example, in the navigation pane of the Customization Project Edi
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 46 
+ Configuring the Mobile Site Map | 47 
 
  For example, if user-defined fields should be displayed as a group of fields alongside other fields (rather than on a separate tab), a developer can use the following code. The add instruction should be used with an object of the UDFields type, as you can see from the highlighted line in the example. 
 
@@ -1340,7 +1370,7 @@ To see the full example, in the navigation pane of the Customization Project Edi
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 47 
+ Configuring the Mobile Site Map | 48 
 
  The hideUDF attribute and the add UDFields instruction cannot be used in the same screen mapping. 
 
@@ -1378,7 +1408,9 @@ To see the full example, in the navigation pane of the Customization Project Edi
 
  If a user taps a dashboard widget, the mobile app tries to open the appropriate screen that supplies data to the widget. You may also want to add the screens that contain the data on which dashboard widgets are based. If the screen is absent in the mobile site map, the mobile app displays a warning. 
 
-- Add a shortcut of the added dashboard screen to the main menu. A screen of the _Dashboard_ type can display the following types of dashboard widgets: 
+- Add the dashboard to the mobile site map 
+
+- Add the dashboard to a workspace A screen of the _Dashboard_ type can display the following types of dashboard widgets: 
 
 - Chart 
 
@@ -1390,7 +1422,7 @@ To see the full example, in the navigation pane of the Customization Project Edi
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 48 
+ Configuring the Mobile Site Map | 49 
 
  Widgets of other types are not available in the mobile app. For details on widget types, see Configuring Widgets. 
 
@@ -1416,7 +1448,7 @@ To see the full example, in the navigation pane of the Customization Project Edi
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 49 
+ Configuring the Mobile Site Map | 50 
 
 - The report form already exists in Acumatica ERP. 
 
@@ -1438,7 +1470,7 @@ To see the full example, in the navigation pane of the Customization Project Edi
 
 1. Add the report form to the mobile site map. For details, see _To Add a Screen to the Mobile Site Map_     _(Example)_. 
 
-2. Add the report form to the main menu of the mobile app. For details, see _To Update the Main Menu of a_     _Mobile App_. 
+2. Add the report form to the mobile site map. For details, see _To Update the Site Map of a Mobile App_. 
 
 3. Map the action that opens the report. 
 
@@ -1450,11 +1482,11 @@ To see the full example, in the navigation pane of the Customization Project Edi
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 50 
+ Configuring the Mobile Site Map | 51 
 
  } 
 
-2. Add the report to the main menu. The code for the main menu should look as follows. 
+2. Add the report to the mobile site map. The code for the site map should look as follows. 
 
  update sitemap { ... add item "SO641010" { displayName="Sales Order" visible=False } } 
 
@@ -1470,7 +1502,7 @@ When a user performs the action by using the mobile app, the app immediately rec
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 51 
+ Configuring the Mobile Site Map | 52 
 
  Figure: Viewing the report 
 
@@ -1504,7 +1536,7 @@ When a user performs the action by using the mobile app, the app immediately rec
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 52 
+ Configuring the Mobile Site Map | 53 
 
  redirect attribute of this object is set to True. The possible values for the after attribute have the following meanings: 
 
@@ -1544,7 +1576,7 @@ When a user performs the action by using the mobile app, the app immediately rec
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 53 
+ Configuring the Mobile Site Map | 54 
 
  behavior = Save after = Close } add recordAction "Cancel" { behavior = Cancel } attachments { disabled = True } } add container "SubmitReceipts" { type = SelectionActionList visible = False add field "Description" add field "Date" add field "ClaimAmount" add listAction "SubmitReceipt" { behavior = Void } } } 
 
@@ -1578,7 +1610,7 @@ These arguments allow more detailed configuration of the container behavior. The
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 54 
+ Configuring the Mobile Site Map | 55 
 
 ### Configuring Screen Layout 
 
@@ -1596,17 +1628,21 @@ These arguments allow more detailed configuration of the container behavior. The
 
 - Add a screen based on the Invoices and Memos (AR301000) form to the mobile site map. For details, see _To_     _Add a Screen to the Mobile Site Map (Example)_. 
 
-- Add a screen shortcut to the main menu of the mobile app. For details, see _Main Menu_. Before adding a list of records created by a particular form, you explore the WSDL schema of the Invoices and Memos (AR301000) form, which the screen will be based on, as described in _Getting the WSDL Schema_ , and find the elements you want to add to the mobile screen. In this example, we want to add an action button and several fields of a record that will be displayed in the list. The WSDL schema elements are shown below. 
+- Add a screen to the mobile site map. For details, see _Home Screen_. 
 
- Figure: WSDL schema elements used in the example 
+- Add a screen to a mobile workspace Before adding a list of records created by a particular form, you need to find the names of elements you want to map. To do that, use the Element Inspector. For details, see _Element Inspector_ and _To Map a Screen in the Modern UI_. In this example, we want to map action buttons and fields of a record. To map the fields, you need to know the container name (the **View Name** from the **Element Inspector** dialog box) and the field name (the **Data Field** value from the **Element Inspector** dialog box). The **Element Inspector** dialog box for one of the fields is shown below. 
 
- So to add the highlighted action buttons and fields to the screen you are creating, you should use the following code. 
+ Figure: The Element Inspector dialog box 
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 55 
+ Configuring the Mobile Site Map | 56 
 
- add screen AR301000 { add container "InvoiceSummary" { add field "Customer" add field "Location" add field "ReferenceNbr" add field "Terms" add field "DueDate" 
+ If you are mapping a screen that exists both in the Classic UI and the Modern UI, all the elements for mapping should be present in the Classic UI, that is, the ASPX file of the form. 
+
+So to add the highlighted action buttons and fields to the screen, you should use the following code. 
+
+ add screen AR301000 { add container "Document" { add field "CustomerID" add field "CustomerLocationID" add field "RefNbr" add field "TermsID" add field "DueDate" 
 
  add recordAction "Save" { behavior = Save } add recordAction "Cancel" { behavior = Cancel } } } 
 
@@ -1616,15 +1652,15 @@ The le screenshot below shows the resulting screen you will see in the mobile
 
 **_Figure: List view layout and form view layout_** 
 
- All list views in Acumatica ERP mobile app support multi-selection. You can select multiple records and perform actions that have been declared as selectionAction. 
-
-**Related Links** 
-
-- _container_ 
-
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 56 
+ Configuring the Mobile Site Map | 57 
+
+ All list views in Acumatica ERP mobile app support multi-selection. You can select multiple records and perform actions that have been declared as selectionAction. 
+
+ Related Links 
+
+- _container_ 
 
 ### Displaying Thumbnails 
 
@@ -1638,17 +1674,15 @@ The le screenshot below shows the resulting screen you will see in the mobile
 
  For thumbnails to be displayed in the list view of the mobile screen, you need to configure the mapping of the list in MSDL: In the list mapping, specify elementType = FilePreview in the field object that contains the image file. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring the Mobile Site Map | 58 
+
  A field marked with FilePreview should have a FileID value that corresponds to the FileID value in the UploadFile table in the instance database. 
 
  The following code shows an example implementing the screenshot above. 
 
- add container "Photos" 
-
-
-<!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 57 
-
- { fieldsToShow = 5 containerActionsToExpand = 1 add field "Name" { listDisplayFormat = CaptionValue } add field "PhotoID" { listDisplayFormat = CaptionValue } add field "UploadedOn" { listDisplayFormat = CaptionValue } add field "UploadedBy" { displayName = "Created By" listDisplayFormat = CaptionValue } add field "Description" { listDisplayFormat = CaptionValue } add field "FileId" { elementType = FilePreview } add selectionAction "Delete" { icon = "system://Trash" behavior = Delete after = Close } add containerAction "ViewPhoto" { behavior = Open redirect = True } } 
+ add container "Photos" { fieldsToShow = 5 containerActionsToExpand = 1 add field "Name" { listDisplayFormat = CaptionValue } add field "PhotoID" { listDisplayFormat = CaptionValue } add field "UploadedOn" { listDisplayFormat = CaptionValue } add field "UploadedBy" { displayName = "Created By" listDisplayFormat = CaptionValue } add field "Description" { listDisplayFormat = CaptionValue } add field "FileId" { elementType = FilePreview } add selectionAction "Delete" { icon = "system://Trash" behavior = Delete after = Close } add containerAction "ViewPhoto" { behavior = Open redirect = True } } 
 
  Related Links 
 
@@ -1660,35 +1694,35 @@ The le screenshot below shows the resulting screen you will see in the mobile
 
 #### Example: Grouping Fields 
 
- The following example enhances the Sales Order Preferences (SO101000) screen. To see an example of grouping fields into a group, add the Sales Orders Preferences (SO101000) screen to your customization project (as described in To Add a Screen to the Mobile Site Map (Example) ), copy the code below to the Commands area of the Add: SO101000 page, and publish the project. 
-
- add screen SO101000 { add container "GeneralSettingsDataEntrySettings" { add field "DefaultSalesOrderType" add group "DataEntrySettings" { displayName = "Data Entry Settings" 
-
-
-<!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 58 
-
- collapsable = True collapsed = True add field "DefaultTransferOrderType" add field "ShipmentNumberingSequence" } add recordAction "Save" { behavior = Save } } } 
-
- While entering data, the user may collapse or expand a particular group of fields. You can prevent a group from being collapsed by setting the collapsable attribute of the group to False (by default, the attribute value is True ). If a group is collapsible (the collapsable attribute is set to True ), the collapsed attribute indicates whether a group is initially collapsed (by default, the attribute value is False ). 
-
- You can see the result in the mobile application in the following screenshots. 
-
- The le screenshot shows the Data Entry Settings group, which is initially collapsed. If the user clicks on the header of the group, the group is expanded, as shown in the right screenshot. 
-
- Figure: A collapsible group on a screen 
-
- Related Links 
-
-- _group_ 
-
-### Configuring Specific Functionality of a Screen 
-
- The following section contains instructions and examples on configuring specific functionality such as signatures and scanning of receipts. 
+ The following example enhances the Sales Order Preferences (SO101000) screen. To see an example of grouping fields into a group, add the Sales Orders Preferences (SO101000) screen to your customization project (as described 
 
 
 <!-- PAGE_BREAK -->
  Configuring the Mobile Site Map | 59 
+
+in _To Add a Screen to the Mobile Site Map (Example)_ ), copy the code below to the **Commands** area of the Add: SO101000 page, and publish the project. 
+
+ add screen SO101000 { add container "GeneralSettingsDataEntrySettings" { add field "DefaultSalesOrderType" add group "DataEntrySettings" { displayName = "Data Entry Settings" collapsable = True collapsed = True add field "DefaultTransferOrderType" add field "ShipmentNumberingSequence" } add recordAction "Save" { behavior = Save } } } 
+
+While entering data, the user may collapse or expand a particular group of fields. You can prevent a group from being collapsed by setting the collapsable attribute of the group to _False_ (by default, the attribute value is _True_ ). If a group is collapsible (the collapsable attribute is set to _True_ ), the collapsed attribute indicates whether a group is initially collapsed (by default, the attribute value is _False_ ). 
+
+You can see the result in the mobile application in the following screenshots. 
+
+The le screenshot shows the **Data Entry Settings** group, which is initially collapsed. If the user clicks on the header of the group, the group is expanded, as shown in the right screenshot. 
+
+**_Figure: A collapsible group on a screen_** 
+
+**Related Links** 
+
+- _group_ 
+
+
+<!-- PAGE_BREAK -->
+ Configuring the Mobile Site Map | 60 
+
+### Configuring Specific Functionality of a Screen 
+
+ The following section contains instructions and examples on configuring specific functionality such as signatures and scanning of receipts. 
 
 ### Creating the User Signature 
 
@@ -1704,11 +1738,11 @@ The le screenshot below shows the resulting screen you will see in the mobile
 
  As a result, the Sign action appears on the appropriate screen of the mobile app, as the following screenshot shows. 
 
- Figure: Viewing the Sign action on the screen toolbar 
-
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 60 
+ Configuring the Mobile Site Map | 61 
+
+**_Figure: Viewing the Sign action on the screen toolbar_** 
 
 When the user clicks this action, the app displays a blank form with the **Cancel** and **OK** buttons and the words _Sign here_ to instruct the user to add the signature, as shown in the following screenshot. A user can add multiple signatures to one record. 
 
@@ -1716,11 +1750,11 @@ When the user clicks this action, the app displays a blank form with the **Cance
 
 Aer the user clicks the Save (✓) button on the screen toolbar (shown in the following screenshot), the mobile app sends the signature file to the Acumatica ERP server, which saves the file in the database as a file attached to the appropriate form. In the mobile app, the attachment is displayed as an image that is attached to the Acumatica ERP form. 
 
-**_Figure: Viewing signatures added to the screen_** 
-
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 61 
+ Configuring the Mobile Site Map | 62 
+
+ Figure: Viewing signatures added to the screen 
 
 ### Configuring Attachments 
 
@@ -1732,15 +1766,17 @@ Aer the user clicks the Save (✓) button on the screen toolbar (shown in the
 
  The following sample code gives the Invoices (SO303000) screen the ability to accept attachments of various formats. To see an example, add the Invoices (SO303000) screen to your customization project (as described in To Add a Screen to the Mobile Site Map (Example) ), copy the code below to the Commands area of the Add: SO303000 page, and publish the project. 
 
- add screen SO303000 { add container "InvoiceSummary" { add field "Customer" add field "Location" add field "Terms" add field "DueDate" add field "CashDiscountDate" add field "Currency" { selector { add field "CurrencyID" } PickerType = Attached } add recordAction "Save" { behavior = Save } add recordAction "Cancel" { behavior = Cancel } attachments { add type "jpg" { extension = "jpg" } add type "png" { extension = "png" } add type "pdf" { extension = "pdf" } } } } 
+ add screen SO303000 { add container "InvoiceSummary" { add field "Customer" add field "Location" add field "Terms" add field "DueDate" add field "CashDiscountDate" add field "Currency" { selector { add field "CurrencyID" } PickerType = Attached } add recordAction "Save" { behavior = Save } add recordAction "Cancel" { behavior = Cancel 
+
+
+<!-- PAGE_BREAK -->
+ Configuring the Mobile Site Map | 63 
+
+ } attachments { add type "jpg" { extension = "jpg" } add type "png" { extension = "png" } add type "pdf" { extension = "pdf" } } } } 
 
  To enable or disable attachments and configure the file types that are allowed, you use the attachments instruction inside the container object. 
 
  If a screen does not support attachments, the attachments are not displayed even if you set the disabled attribute of the attachments instruction to False. 
-
-
-<!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 62 
 
  The screenshot below shows the resulting screen in the mobile application. To attach an item, the user taps the paper clip symbol in the top right corner of the screen. Aer at least one item has been attached, the number next to the paper clip indicates how many items have been attached. 
 
@@ -1748,9 +1784,13 @@ Aer the user clicks the Save (✓) button on the screen toolbar (shown in the
 
 #### The Enhancement of Images Taken from the Camera 
 
- The functionality of enhancing images taken from the camera of a mobile device is implemented in the Acumatica mobile app with the help of Azure Form Recognizer (AFR) version 3.1. This image enhancement makes the image look better and more readable. This functionality is useful for any printed document, such as expense receipts that may be attached to documents in Acumatica ERP. 
+ The functionality of enhancing images taken from the camera of a mobile device is implemented in the Acumatica mobile app with the help of Azure Form Recognizer (AFR) version 4.0. This image enhancement makes the image look better and more readable. This functionality is useful for any printed document, such as expense receipts that may be attached to documents in Acumatica ERP. 
 
  To switch on image enhancement in the Acumatica mobile app, you should set the imageAdjustmentPreset attribute to Receipt in the attachments instruction of the mobile site map as follows. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring the Mobile Site Map | 64 
 
  attachments { imageAdjustmentPreset = Receipt } 
 
@@ -1764,13 +1804,23 @@ Aer the user clicks the Save (✓) button on the screen toolbar (shown in the
 
 - The contrast of the image is maximized. Each of these enhancements is first performed automatically and then the user can also add manual adjustments. The automatic changes cannot be undone. 
 
-
-<!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 63 
-
  Figure: A screen with the attachment area to add photos in enhanced mode 
 
  If the imageAdjustmentPreset attribute is not specified or has value other than Receipt, the Acumatica mobile app attaches the original image taken from the camera. 
+
+#### Attachments as Tiles 
+
+ You can configure the Acumatica mobile app to display attachments in tiles. Mobile users will see all attachments as tiles with full names (shown below)— and be able to access the attachment just by clicking the tile. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring the Mobile Site Map | 65 
+
+ Figure: The list of attachments 
+
+ To display attachments as tiles, specify DisplayInListview = True in the attachments instruction. The following code shows how to enable the list of attachments for the Activities tab of the CR301000 screen. 
+
+ add screen CR301000 { add container "Activities" { ... attachments { DisplayInListview = True } } } 
 
  Related Links 
 
@@ -1779,6 +1829,10 @@ Aer the user clicks the Save (✓) button on the screen toolbar (shown in the
 ### Dialog Boxes and Smart Panels 
 
  The following section contains information about mapping of simple dialog boxes and smart panels (complex dialog boxes). 
+
+
+<!-- PAGE_BREAK -->
+ Configuring the Mobile Site Map | 66 
 
 ### Mapping a Smart Panel 
 
@@ -1793,10 +1847,6 @@ Aer the user clicks the Save (✓) button on the screen toolbar (shown in the
 3. In the screen mapping, map the smart panel, including its containers and actions. _Mapping of a Smart Panel_ 
 
  You can see a complete example of a smart panel mapping in Example: Adding a Smart Panel on the Sales Orders (SO301000) Form. 
-
-
-<!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 64 
 
 #### Locating of Objects to Be Mapped 
 
@@ -1824,6 +1874,10 @@ Aer the user clicks the Save (✓) button on the screen toolbar (shown in the
 
  If an action does not have the CommandName attribute, you can use any name for it in the mapping. For example, for the action with no CommandName and DialogResult = "Ok", you can add the action under the "Ok" name. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring the Mobile Site Map | 67 
+
 #### Mapping of an Action That Opens a Smart Panel 
 
  To map an action that opens a smart panel, do the following: 
@@ -1838,13 +1892,7 @@ Aer the user clicks the Save (✓) button on the screen toolbar (shown in the
 
 - redirectToDialog: The custom name of the smart panel you will map later An example of the mapping is shown below. 
 
- add recordAction "AddInvBySite" { displayName = "Add Stock Item" redirect = true redirectToDialog = "SO301000D1" 
-
-
-<!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 65 
-
- } 
+ add recordAction "AddInvBySite" { displayName = "Add Stock Item" redirect = true redirectToDialog = "SO301000D1" } 
 
  For details, see recordAction. 
 
@@ -1872,17 +1920,15 @@ Aer the user clicks the Save (✓) button on the screen toolbar (shown in the
 
 - CloseDialog: An indicator of whether the app should close the smart panel aer the user taps the     action. An example of the dialog action is shown in the following code. For details on the dialogAction object, see _dialogAction_. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring the Mobile Site Map | 68 
+
  add dialogAction "Ok" { DisplayName = "Add&Close" DialogAnswer = "OK" closeDialog = true } 
 
 4. Inside the dialog object, add the containers that you want to display on the smart panel.     If the container should contain actions such as listAction and containerAction, in the container,     specify includeDialogActions = true.     An example of a container is shown in the following code. For details, see _container_. 
 
- add container "AddTag" { includeDialogActions = True add field "Customer" add field "Contact" add field "Barcode" { special = BarCodeScan 
-
-
-<!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 66 
-
- } 
+ add container "AddTag" { includeDialogActions = True add field "Customer" add field "Contact" add field "Barcode" { special = BarCodeScan } 
 
 5. If you have added any dialogAction objects (in Instruction 3), for each dialogAction object, you also     need to add a recordAction, containerAction, or listAction object inside a container where     you want the action to be displayed. The new object should have the same name as the dialogAction     object.     Suppose that you have added the dialogAction "Ok", as described in Instruction 3, and a container, as     described in Instruction 4. Then you need to add the recordAction object inside the container as shown     in the following code. 
 
@@ -1894,11 +1940,13 @@ Aer the user clicks the Save (✓) button on the screen toolbar (shown in the
 
  update screen SO301000 { update container "OrderSummary" { formActionsToExpand = 3 add recordAction "AddInvBySite" { displayName = "Add Stock Item" redirect = true redirectToDialog = "SO301000D1" } } 
 
- add dialog SO301000D1 { type = FilterListScreen openAs = List add dialogAction "Ok" { DisplayName = "Add&Close" DialogResult = "OK" closeDialog = true } add dialogAction "Cancel" { DisplayName = "Cancel" DialogResult = "Cancel" closeDialog = true } add dialogAction "AddInvSelBySite" { DisplayName = "Add" closeDialog = false } add container "InventoryLookupInventory" { add field "Inventory" ... add field "HistoryDate" } 
+ add dialog SO301000D1 { type = FilterListScreen openAs = List add dialogAction "Ok" { DisplayName = "Add&Close" DialogResult = "OK" 
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 67 
+ Configuring the Mobile Site Map | 69 
+
+ closeDialog = true } add dialogAction "Cancel" { DisplayName = "Cancel" DialogResult = "Cancel" closeDialog = true } add dialogAction "AddInvSelBySite" { DisplayName = "Add" closeDialog = false } add container "InventoryLookupInventory" { add field "Inventory" ... add field "HistoryDate" } 
 
  add container "InventoryLookup"{ type = SelectionActionList includeDialogActions = true add field "QtySelected" add field "Selected" { special = "ListSelection" } add field "Warehouse" ... add field "AlternateDescription" 
 
@@ -1908,7 +1956,7 @@ The resulting smart panel looks as shown in the following screenshots. The first
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 68 
+ Configuring the Mobile Site Map | 70 
 
  Figure: Using the Inventory smart panel 
 
@@ -1934,7 +1982,7 @@ The resulting smart panel looks as shown in the following screenshots. The first
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 69 
+ Configuring the Mobile Site Map | 71 
 
  if (this.Transactions.Select().Count > 0 && !IsMobile ) { this.Document.Ask(Messages.Warning, Messages.POOrderOrderDateChangeConfirmation, MessageButtons.YesNo, MessageIcon.Question); } 
 
@@ -1972,7 +2020,7 @@ The resulting smart panel looks as shown in the following screenshots. The first
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map | 70 
+ Configuring the Mobile Site Map | 72 
 
 3. In the dialog object, specify the name of the action in the CloseButtonDialogAction property. 
 
@@ -1988,13 +2036,13 @@ The following code shows an example of the Close action being defined in a dialo
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 71 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 73 
 
 ## Configuring the Mobile Site Map by Using XML 
 
 ## (deprecated) 
 
- Using XML for customizing the Mobile Site Map is deprecated since Acumatica 2025 R1. Use Configuring the Mobile Site Map instead. 
+ Using XML for customizing the Mobile Site Map is deprecated since Acumatica 2025 R2. Use Configuring the Mobile Site Map instead. 
 
  The user interface of the Acumatica mobile app has the following structure: 
 
@@ -2022,7 +2070,7 @@ The following code shows an example of the Close action being defined in a dialo
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 72 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 74 
 
 **_Figure: Use of an XML file to configure a screen in the mobile app_** 
 
@@ -2050,7 +2098,7 @@ To create the metadata for the form, perform the following actions:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 73 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 75 
 
 7. For each required field, add an sm:Field tag with the original name to the container tag to map the field     to the _XXX_ screen in the mobile app. 
 
@@ -2060,7 +2108,7 @@ To create the metadata for the form, perform the following actions:
 
 ### To Generate the Delta from Two Mobile Site Maps 
 
- The following information is applicable only for Acumatica Framework versions earlier than 2025 R1. 
+ The following information is applicable only for Acumatica Framework versions earlier than 2025 R2. 
 
  If you have developed a custom site map for the mobile application and want to redistribute it to multiple Acumatica ERP instances, you can generate a delta script file that can be applied to the default site map. You then add this delta file to the customization project, as described in this topic. 
 
@@ -2086,7 +2134,7 @@ To create the metadata for the form, perform the following actions:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 74 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 76 
 
  You can use the short name of the delta argument, which is d. 
 
@@ -2122,7 +2170,7 @@ To create the metadata for the form, perform the following actions:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 75 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 77 
 
  Access rights for screens in the mobile application are the same as the access rights for screens in Acumatica ERP. 
 
@@ -2144,7 +2192,7 @@ To create the metadata for the form, perform the following actions:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 76 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 78 
 
 #### Example: Adding a Screen to a Folder 
 
@@ -2170,7 +2218,7 @@ To create the metadata for the form, perform the following actions:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 77 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 79 
 
 - ListFolder (default): With a folder of this type, folders and screens are represented as icons (see the     example in this section, shown above). You need to tap an icon to open a folder or screen. 
 
@@ -2196,7 +2244,7 @@ To create the metadata for the form, perform the following actions:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 78 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 80 
 
  Figure: The main menu and the folder of HubFolder type 
 
@@ -2216,7 +2264,7 @@ To create the metadata for the form, perform the following actions:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 79 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 81 
 
  <sm:SiteMap xmlns:sm="http://acumatica.com/mobilesitemap" xmlns:xsi="http:// http://www.w3.org/2001/XMLSchema-instance"> 
 
@@ -2246,7 +2294,7 @@ To create the metadata for the form, perform the following actions:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 80 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 82 
 
  <sm:SiteMap xmlns:sm="http://acumatica.com/mobilesitemap" xmlns:xsi="http:// http://www.w3.org/2001/XMLSchema-instance"> 
 
@@ -2280,7 +2328,7 @@ To create the metadata for the form, perform the following actions:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 81 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 83 
 
 - _Grouping Fields on a Form_ 
 
@@ -2316,7 +2364,7 @@ To create the metadata for the form, perform the following actions:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 82 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 84 
 
  See the following screenshot for an example of the WSDL schema. The schema includes containers (such as the ReceiptDetails container in this example), the list of container fields, and the Actions list. 
 
@@ -2340,7 +2388,7 @@ To create the metadata for the form, perform the following actions:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 83 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 85 
 
  <sm:SiteMap xmlns:sm="http://acumatica.com/mobilesitemap" xmlns:xsi="http:// http://www.w3.org/2001/XMLSchema-instance"> 
 
@@ -2352,7 +2400,7 @@ This example uses the WSDL schema elements marked in the screenshot below.
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 84 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 86 
 
 **_Figure: WSDL schema elements used in the example_** 
 
@@ -2360,7 +2408,7 @@ The following screenshot shows the resulting screen you will see in the mobile a
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 85 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 87 
 
 **_Figure: List view layout_** 
 
@@ -2376,7 +2424,7 @@ The Context attribute is used to set the target of the action. For example, you 
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 86 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 88 
 
  You use the Icon attribute to set the icon that is displayed on the UI. 
 
@@ -2412,7 +2460,7 @@ The Context attribute is used to set the target of the action. For example, you 
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 87 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 89 
 
  Figure: Use of a filter on a screen 
 
@@ -2438,7 +2486,7 @@ The Context attribute is used to set the target of the action. For example, you 
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 88 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 90 
 
  <sm:Action Behavior="Save" Context="Record" Name="Save" /> <sm:Action Behavior="Cancel" Context="Record" Name="Cancel" /> 
 
@@ -2462,7 +2510,7 @@ The Context attribute is used to set the target of the action. For example, you 
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 89 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 91 
 
  In this example, you use the EP301010 screen to display the list form, and you use the EP301020 screen to display the editing form. The same approach is used in Acumatica ERP. 
 
@@ -2488,7 +2536,7 @@ The Context attribute is used to set the target of the action. For example, you 
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 90 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 92 
 
  Figure: Viewing a report screen 
 
@@ -2506,7 +2554,7 @@ The Context attribute is used to set the target of the action. For example, you 
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 91 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 93 
 
 **_Figure: Viewing the report action button on the Sales Orders screen_** 
 
@@ -2518,11 +2566,11 @@ Once the action is performed by using the mobile app, the app immediately receiv
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 92 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 94 
 
 ### Mapping Dashboards 
 
- You can add a dashboard to the mobile site map. To do this, you have to add to the mobile site map the sm:Screen tag with the Id attribute set to the dashboard form ID and the Type attribute set to Dashboard. The following example provides mapping of three dashboard screens for the mobile app. 
+ You can add a dashboard to the mobile site map. To do this, you have to add to the mobile site map the sm:Screen tag with the Id attribute set to the dashboard’s form ID and the Type attribute set to Dashboard. The following example provides mapping of three dashboard screens for the mobile app. 
 
  ... <sm:Folder DisplayName="Dashboards" Icon="system://Folder" Type="ListFolder"> <sm:Screen DisplayName="Controller" Icon="system://Graph1" Id="DH000025" Type="Dashboard" /> <sm:Screen DisplayName="Financial" Icon="system://Graph1" Id="DH000045" Type="Dashboard" /> <sm:Screen DisplayName="Sales Manager" Icon="system://Graph1" Id="DH000005" Type="Dashboard" /> </sm:Folder> ... 
 
@@ -2544,7 +2592,7 @@ Once the action is performed by using the mobile app, the app immediately receiv
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 93 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 95 
 
 ### Grouping Fields on a Form 
 
@@ -2572,7 +2620,7 @@ Once the action is performed by using the mobile app, the app immediately receiv
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 94 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 96 
 
  Figure: A collapsible group on a screen 
 
@@ -2594,7 +2642,7 @@ Once the action is performed by using the mobile app, the app immediately receiv
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 95 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 97 
 
  </sm:Folder> 
 
@@ -2618,7 +2666,7 @@ The screenshot below shows the resulting screen in the mobile application.
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 96 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 98 
 
 #### Enhancing Images Taken from the Camera 
 
@@ -2654,7 +2702,7 @@ The screenshot below shows the resulting screen in the mobile application.
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 97 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 99 
 
  <sm:Screen Id="EP301020" Type="SimpleScreen" Icon="system://Display1" DisplayName="Expense Receipt" Visible="false" OpenAs="Form"> <sm:Container Name="ReceiptDetails" > 
 
@@ -2676,7 +2724,7 @@ A selector with PickerType="Detached" is displayed as a grid (as shown in the sc
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 98 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 100 
 
  Figure: A selector as a grid 
 
@@ -2702,7 +2750,7 @@ A selector with PickerType="Detached" is displayed as a grid (as shown in the sc
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 99 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 101 
 
  <sm:Action Name="EditDetail" Context="Container" Behavior="Open" Redirect="true" /> </sm:Container> </sm:Screen> </sm:Folder> <sm:Screen Id="EP301000" Type="SimpleScreen" DisplayName="Expense Claim" Visible="false" OpenAs="Form"> 
 
@@ -2728,7 +2776,7 @@ The screenshot below shows the resulting screen in the mobile application.
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 100 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 102 
 
  Figure: Screen with one-to-many containers 
 
@@ -2750,7 +2798,7 @@ The screenshot below shows the resulting screen in the mobile application.
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 101 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 103 
 
  <sm:Field Name="Date" /> <sm:Field Name="Description" /> <sm:Field Name="ExpenseItem" /> <sm:Field Name="Currency" /> 
 
@@ -2776,7 +2824,7 @@ The screenshot below shows the resulting screen in the mobile application.
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 102 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 104 
 
  </sm:Container> 
 
@@ -2802,7 +2850,7 @@ The screenshots below show the resulting screen in the mobile application.
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 103 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 105 
 
  Figure: Container supporting multi-selection 
 
@@ -2826,7 +2874,7 @@ The screenshots below show the resulting screen in the mobile application.
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 104 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 106 
 
  <sm:Action Name="CreateNew" Context="Container" Behavior="Create" Redirect="true" Icon="system://Plus" /> <sm:Action Name="EditDetail" Context="Container" Behavior="Open" Redirect="true" /> </sm:Container> </sm:Screen> </sm:Folder> <sm:Screen Id="EP301000" Type="SimpleScreen" DisplayName="Expense Claim" Visible="false" OpenAs="Form"> 
 
@@ -2848,7 +2896,7 @@ The screenshot below shows the resulting screen, which displays the container li
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 105 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 107 
 
  Figure: Use of a button on the action panel to open a container 
 
@@ -2866,7 +2914,7 @@ The screenshot below shows the resulting screen, which displays the container li
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 106 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 108 
 
  Figure: Viewing the Attributes tab on the Case Classes form 
 
@@ -2896,7 +2944,7 @@ The screenshot below shows the resulting screen, which displays the container li
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 107 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 109 
 
  Figure: Viewing the Case Attributes group 
 
@@ -2924,7 +2972,7 @@ The screenshot below shows the resulting screen, which displays the container li
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 108 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 110 
 
 In a mobile application, you can allow a redirection that is implemented in an action of Acumatica ERP. To do this, you set the Redirect attribute of the _<sm:Action>_ tag to _true_ in an .xml file of the mobile site map. 
 
@@ -2956,7 +3004,7 @@ You can still control the current screen aer an action is completed by using 
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 109 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 111 
 
 - Refresh: A new screen is loaded, and the previous one is saved in the stack. 
 
@@ -2994,7 +3042,7 @@ You can still control the current screen aer an action is completed by using 
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 110 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 112 
 
  </sm:Screen> </sm:Folder> 
 
@@ -3040,7 +3088,7 @@ In this example, the RedirectToContainer value consists of the following parts:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 111 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 113 
 
  To use the expanded way of configuring a redirection, you should clearly understand how the target screen works, how its business logic operates, and how the state of the business logic objects changes aer any of the actions is executed. 
 
@@ -3074,7 +3122,7 @@ In this example, the RedirectToContainer value consists of the following parts:
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 112 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 114 
 
 **_Figure: Viewing the SIGN action on the toolbar of a screen_** 
 
@@ -3082,7 +3130,7 @@ When the user clicks this action, the application displays a blank form with the
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 113 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 115 
 
 **_Figure: Creating a signature_** 
 
@@ -3090,7 +3138,7 @@ Aer the user signs the form and clicks **OK** , an attachment with the signat
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 114 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 116 
 
 **_Figure: Viewing the signature added to the screen of the mobile app_** 
 
@@ -3098,13 +3146,13 @@ Aer the user clicks Save on the screen toolbar, the mobile app sends the sign
 
 
 <!-- PAGE_BREAK -->
- Configuring the Mobile Site Map by Using XML (deprecated) | 115 
+ Configuring the Mobile Site Map by Using XML (deprecated) | 117 
 
 **_Figure: Viewing the signature added to the Acumatica ERP form_** 
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 116 
+ Mobile Site Map Reference | 118 
 
 ## Mobile Site Map Reference 
 
@@ -3154,7 +3202,7 @@ Aer the user clicks Save on the screen toolbar, the mobile app sends the sign
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 117 
+ Mobile Site Map Reference | 119 
 
  # this is a comment 
 
@@ -3220,7 +3268,7 @@ Aer the user clicks Save on the screen toolbar, the mobile app sends the sign
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 118 
+ Mobile Site Map Reference | 120 
 
  Attribute Description 
 
@@ -3266,7 +3314,7 @@ Aer the user clicks Save on the screen toolbar, the mobile app sends the sign
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 119 
+ Mobile Site Map Reference | 121 
 
  Attribute Description 
 
@@ -3308,7 +3356,7 @@ Aer the user clicks Save on the screen toolbar, the mobile app sends the sign
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 120 
+ Mobile Site Map Reference | 122 
 
  } add field "NoteText" { textType = PlainMultiLine } } 
 
@@ -3346,7 +3394,7 @@ Aer the user clicks Save on the screen toolbar, the mobile app sends the sign
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 121 
+ Mobile Site Map Reference | 123 
 
 **Attribute Description** 
 
@@ -3390,7 +3438,7 @@ RedirectToScreen The name of the destination screen. The mobile site map has to 
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 122 
+ Mobile Site Map Reference | 124 
 
  Attribute Description 
 
@@ -3432,7 +3480,7 @@ RedirectToScreen The name of the destination screen. The mobile site map has to 
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 123 
+ Mobile Site Map Reference | 125 
 
  Attribute Description 
 
@@ -3484,7 +3532,7 @@ RedirectToScreen The name of the destination screen. The mobile site map has to 
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 124 
+ Mobile Site Map Reference | 126 
 
 - _container_ 
 
@@ -3528,7 +3576,7 @@ RedirectToScreen The name of the destination screen. The mobile site map has to 
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 125 
+ Mobile Site Map Reference | 127 
 
  Attribute Description 
 
@@ -3570,7 +3618,7 @@ RedirectToScreen The name of the destination screen. The mobile site map has to 
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 126 
+ Mobile Site Map Reference | 128 
 
 **Attribute Description** 
 
@@ -3614,7 +3662,7 @@ selectorDisplayFormat
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 127 
+ Mobile Site Map Reference | 129 
 
 **Attribute Description** 
 
@@ -3642,7 +3690,7 @@ special The field type that is used by the mobile app for a specific purpose. Th
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 128 
+ Mobile Site Map Reference | 130 
 
 **Attribute Description** 
 
@@ -3658,7 +3706,7 @@ textType The type of text to be used for the field value. The value can be one o
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 129 
+ Mobile Site Map Reference | 131 
 
  Attribute Description 
 
@@ -3680,7 +3728,7 @@ textType The type of text to be used for the field value. The value can be one o
 
 ### folder 
 
- An object of the main menu of the mobile app that can hold multiple folders and screen shortcuts. 
+ An object of the site map of the mobile app that can hold multiple folders and screen shortcuts. 
 
 #### Attributes 
 
@@ -3696,7 +3744,7 @@ textType The type of text to be used for the field value. The value can be one o
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 130 
+ Mobile Site Map Reference | 132 
 
  Attribute Description 
 
@@ -3708,7 +3756,7 @@ textType The type of text to be used for the field value. The value can be one o
 
 #### Example 
 
- In the following example, a new folder containing the Expense Rexeipts (EP301010) screen is added to the main menu of the mobile app. The added folder will also appear in the sidebar menu of the mobile app. 
+ In the following example, a new folder containing the Expense Rexeipts (EP301010) screen is added to the mobile site map. The added folder will also appear in the sidebar menu of the mobile app. 
 
  add folder "ExpenseReceipts" { type = HubFolder isDefaultFavorite = True displayName = "Expense Receipts" icon = "system://NewsPaper" add item "EP301010" { displayName = "Expense Receipts" } } 
 
@@ -3738,7 +3786,7 @@ textType The type of text to be used for the field value. The value can be one o
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 131 
+ Mobile Site Map Reference | 133 
 
  Attribute Description 
 
@@ -3772,7 +3820,7 @@ textType The type of text to be used for the field value. The value can be one o
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 132 
+ Mobile Site Map Reference | 134 
 
  } 
 
@@ -3782,7 +3830,7 @@ textType The type of text to be used for the field value. The value can be one o
 
 ### item 
 
- An object of the main menu that defines a screen of a mobile app. 
+ An object of the mobile site map that defines a screen of a mobile app. 
 
 #### Attributes 
 
@@ -3804,7 +3852,7 @@ textType The type of text to be used for the field value. The value can be one o
 
 #### Example 
 
- In the following example, the Transaction (CA304000) screen is added to the main menu of the mobile app. 
+ In the following example, the Transaction (CA304000) screen is added to the mobile site map. 
 
  add item "CA304000" { expandSelector = "TranType" displayName = "Cash Transactions" icon = "system://Credit" } 
 
@@ -3814,7 +3862,7 @@ textType The type of text to be used for the field value. The value can be one o
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 133 
+ Mobile Site Map Reference | 135 
 
 ### layout 
 
@@ -3850,7 +3898,7 @@ textType The type of text to be used for the field value. The value can be one o
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 134 
+ Mobile Site Map Reference | 136 
 
  Attribute Description 
 
@@ -3876,7 +3924,7 @@ textType The type of text to be used for the field value. The value can be one o
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 135 
+ Mobile Site Map Reference | 137 
 
  Figure: Viewing the organized layout 
 
@@ -3902,7 +3950,7 @@ textType The type of text to be used for the field value. The value can be one o
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 136 
+ Mobile Site Map Reference | 138 
 
 **Attribute Description** 
 
@@ -3934,7 +3982,7 @@ Priority The priority value that defines the position of the action on the scree
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 137 
+ Mobile Site Map Reference | 139 
 
  Attribute Description 
 
@@ -3980,7 +4028,7 @@ Priority The priority value that defines the position of the action on the scree
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 138 
+ Mobile Site Map Reference | 140 
 
  } 
 
@@ -4024,7 +4072,7 @@ Priority The priority value that defines the position of the action on the scree
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 139 
+ Mobile Site Map Reference | 141 
 
 **Attribute Description** 
 
@@ -4070,7 +4118,7 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 140 
+ Mobile Site Map Reference | 142 
 
 #### Example 
 
@@ -4108,7 +4156,7 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 141 
+ Mobile Site Map Reference | 143 
 
 #### Attributes 
 
@@ -4150,7 +4198,7 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 142 
+ Mobile Site Map Reference | 144 
 
  } 
 
@@ -4194,7 +4242,7 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 143 
+ Mobile Site Map Reference | 145 
 
 **Attribute Description** 
 
@@ -4240,7 +4288,7 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 144 
+ Mobile Site Map Reference | 146 
 
 #### Example 
 
@@ -4280,7 +4328,7 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 145 
+ Mobile Site Map Reference | 147 
 
 #### Attributes 
 
@@ -4320,7 +4368,7 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 146 
+ Mobile Site Map Reference | 148 
 
  Instruction Description 
 
@@ -4334,7 +4382,7 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
  remove Removes the specified object from the mobile site map. 
 
- sitemap Switches the MSDL interpreter to the mode of editing the main menu of the mobile site map. 
+ sitemap Switches the MSDL interpreter to the mode of editing of the mobile site map. 
 
  selector In a field, switches the MSDL interpreter to the mode of editing the selector content. 
 
@@ -4356,13 +4404,11 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
  Suppose that you need to add a new field to a container that is defined in the mobile site map. We recommend that you do this as shown in the following example. 
 
- update screen "ERP_ScreenID" { update container "WSDL_ContainerName" { add field "WSDL_FieldName" { FieldTagAttribute1 = Value1 FieldTagAttribute2 = Value2 } } 
+ update screen "ERP_ScreenID" { update container "WSDL_ContainerName" { add field "WSDL_FieldName" { FieldTagAttribute1 = Value1 FieldTagAttribute2 = Value2 } } } 
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 147 
-
- } 
+ Mobile Site Map Reference | 149 
 
  The code above performs the following operations: 
 
@@ -4396,6 +4442,16 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
  Disabled An indicator of whether attachments are disabled. If its value is true , the attachments are disabled. 
 
+ DisplayInListview An indicator of whether attachements should be displayes as tiles with full names (see screenshot below). 
+
+
+<!-- PAGE_BREAK -->
+ Mobile Site Map Reference | 150 
+
+ Attribute Description 
+
+ Figure: The list of attachments 
+
  ImageAdjustmentPreset 
 
  The type of the image adjustment that is processed by the application for enhancing images taken from the camera of a mobile device. The only value of this attribute is Receipt , which is an indicator that a special camera mode is switched on in the Acumatica mobile app. In this mode, the following enhancements of the image captured by the camera are preformed automatically: 
@@ -4414,19 +4470,17 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
  MaxImageHeight The maximum height of an attached image (in pixels). 
 
-
-<!-- PAGE_BREAK -->
- Mobile Site Map Reference | 148 
-
- Attribute Description 
-
  MaxImageWidth The maximum width of an attached image (in pixels). 
 
- Example: 
+_Example:_ 
 
- Suppose that you need to specify the following requirements related to attachments: 
+Suppose that you need to specify the following requirements related to attachments: 
 
 - The attachments of an Acumatica ERP form are allowed in the container. 
+
+
+<!-- PAGE_BREAK -->
+ Mobile Site Map Reference | 151 
 
 - The attachments can contain files that have the JPG or PNG extension. 
 
@@ -4458,15 +4512,15 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
  update folder "ExpenseReceipts" { update item "EP503010" { placeAfter item "EP301010" } } 
 
-
-<!-- PAGE_BREAK -->
- Mobile Site Map Reference | 149 
-
 ### placeAt 
 
  In the mobile site map, moves the object that is referenced in the outer scope of this instruction to the specified position in the same parent object of the mobile site map. 
 
  Syntax: 
+
+
+<!-- PAGE_BREAK -->
+ Mobile Site Map Reference | 152 
 
  placeAt positionNumber 
 
@@ -4494,13 +4548,11 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
  Suppose that you need to add the CompanyName field within the ContactSummary container to the position before the Address group. You can add the following code within an instruction for the container. 
 
- update screen "CR302000" { update container "ContactSummary" { ... add group "Address" {...} ... 
+ update screen "CR302000" { update container "ContactSummary" { ... add group "Address" {...} ... add field "CompanyName" { container = "DetailsSummary" placeBefore group "Address" } } } 
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 150 
-
- add field "CompanyName" { container = "DetailsSummary" placeBefore group "Address" } } } 
+ Mobile Site Map Reference | 153 
 
 ### remove 
 
@@ -4532,7 +4584,7 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
 ### sitemap 
 
- Switches the MSDL interpreter to editing mode for the main menu of the mobile site map. 
+ Switches the MSDL interpreter to editing mode of the mobile site map. 
 
  Syntax: 
 
@@ -4540,19 +4592,21 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
  The braces are mandatory. Within the braces, you can add instructions for objects of the main menu of the mobile site map. 
 
-
-<!-- PAGE_BREAK -->
- Mobile Site Map Reference | 151 
-
  Examples: 
 
  The following code adds the new folder to the main menu, sets the attributes of the folder in the mobile site map (see folder for details), and adds the shortcut for the Expense Receipts (EP301010) screen with the specified display name to the folder. 
 
- sitemap { add folder "ExpenseReceipts" { type = HubFolder isDefaultFavorite = True displayName = "Expense Receipts" icon = "system://NewsPaper" add item "EP301010" { displayName = "Expense Receipts" } } 
+ sitemap { 
+
+
+<!-- PAGE_BREAK -->
+ Mobile Site Map Reference | 154 
+
+ add folder "ExpenseReceipts" { type = HubFolder isDefaultFavorite = True displayName = "Expense Receipts" icon = "system://NewsPaper" add item "EP301010" { displayName = "Expense Receipts" } } 
 
  The code below updates the ExpenseReceipts folder of the main menu in the following ways: 
 
-- Switches the MSDL interpreter to editing mode for the main menu 
+- Switches the MSDL interpreter to editing mode for the mobile site map 
 
 - Changes the display name of the folder 
 
@@ -4580,13 +4634,11 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
  Suppose that you need to define for a field a selector container that contains four columns but displays only three. You can add the following code within an instruction for the field. 
 
- any instruction for the field { selector { fieldsToShow = 3 
+ any instruction for the field { selector { fieldsToShow = 3 add field "BusinessAccount" add field "Type" add field "BusinessAccountName" add field "BAccountID" } } 
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 152 
-
- add field "BusinessAccount" add field "Type" add field "BusinessAccountName" add field "BAccountID" } } 
+ Mobile Site Map Reference | 155 
 
 ### update 
 
@@ -4624,15 +4676,13 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
 - Production mode, in which the interpreter ignores most errors while processing the MSDL code, for greater     stability 
 
-- Debugging mode, in which the interpreter logs every error and stops executing the MSDL code if an error     occurs 
+- Debugging mode, in which the interpreter logs every error and stops executing the MSDL code if an error     occurs Production mode is used by default; here the MSDL interpreter does not log errors that occur. The interpreter ignores any MSDL file that contains a syntax error. It also ignores any instruction that contains a semantic error; if such an instruction contains nested instructions and assignment commands, the interpreter also ignores them. 
+
+ To turn on debugging mode, you should turn on the mobileSitemapDebug key by including the following string in the <appSettings> section of the web.config file, which is located in the website folder:<add key="mobileSitemapDebug" value="True" />. 
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 153 
-
- Production mode is used by default; here the MSDL interpreter does not log errors that occur. The interpreter ignores any MSDL file that contains a syntax error. It also ignores any instruction that contains a semantic error; if such an instruction contains nested instructions and assignment commands, the interpreter also ignores them. 
-
- To turn on debugging mode, you should turn on the mobileSitemapDebug key by including the following string in the <appSettings> section of the web.config file, which is located in the website folder:<add key="mobileSitemapDebug" value="True" />. 
+ Mobile Site Map Reference | 156 
 
  If the key is turned on, the MSDL interpreter logs errors and sends the error messages to the mobile app, which displays these messages on the mobile device. 
 
@@ -4678,13 +4728,13 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
 ### XML Tags 
 
- XML tags for customizing the Mobile Site Map is deprecated since Acumatica 2025 R1. Use MSDL instead. 
+ XML tags for customizing the Mobile Site Map is deprecated since Acumatica 2025 R2. Use MSDL instead. 
+
+ The figure below shows the relationships between tag types in the mobile site map. In the figure, each line connecting a le tag type and a right tag type indicates that the le tag may contain any number of right tags. The exception to this rule is the sm:Container tag, which may include only a single sm:Attachments tag. 
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 154 
-
- The figure below shows the relationships between tag types in the mobile site map. In the figure, each line connecting a le tag type and a right tag type indicates that the le tag may contain any number of right tags. The exception to this rule is the sm:Container tag, which may include only a single sm:Attachments tag. 
+ Mobile Site Map Reference | 157 
 
  The sm:Include tag can be located in any place of another tag. 
 
@@ -4704,15 +4754,15 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
 - _<sm:Folder>_ 
 
-
-<!-- PAGE_BREAK -->
- Mobile Site Map Reference | 155 
-
 - _<sm:Group>_ 
 
 - _<sm:Include>_ 
 
 - _<sm:Layout>_ 
+
+
+<!-- PAGE_BREAK -->
+ Mobile Site Map Reference | 158 
 
 - _<sm:RecordActionLink>_ 
 
@@ -4754,7 +4804,7 @@ SyncLongOperation An indicator of whether the mobile app should wait until the a
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 156 
+ Mobile Site Map Reference | 159 
 
 **Attribute Description** 
 
@@ -4794,7 +4844,7 @@ Redirect An indicator of whether the action redirects the user to a container of
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 157 
+ Mobile Site Map Reference | 160 
 
  Attribute Description 
 
@@ -4846,7 +4896,7 @@ Redirect An indicator of whether the action redirects the user to a container of
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 158 
+ Mobile Site Map Reference | 161 
 
  Related Links 
 
@@ -4898,7 +4948,7 @@ Redirect An indicator of whether the action redirects the user to a container of
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 159 
+ Mobile Site Map Reference | 162 
 
  Attribute Description 
 
@@ -4946,7 +4996,7 @@ Redirect An indicator of whether the action redirects the user to a container of
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 160 
+ Mobile Site Map Reference | 163 
 
  Attribute Description 
 
@@ -4988,7 +5038,7 @@ Redirect An indicator of whether the action redirects the user to a container of
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 161 
+ Mobile Site Map Reference | 164 
 
 **Attribute Description** 
 
@@ -5032,7 +5082,7 @@ Special The field type that is used by the mobile app for a special purpose. The
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 162 
+ Mobile Site Map Reference | 165 
 
 **Attribute Description** 
 
@@ -5044,7 +5094,7 @@ Special The field type that is used by the mobile app for a special purpose. The
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 163 
+ Mobile Site Map Reference | 166 
 
  Attribute Description 
 
@@ -5088,7 +5138,7 @@ Special The field type that is used by the mobile app for a special purpose. The
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 164 
+ Mobile Site Map Reference | 167 
 
  Related Links 
 
@@ -5134,7 +5184,7 @@ Special The field type that is used by the mobile app for a special purpose. The
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 165 
+ Mobile Site Map Reference | 168 
 
  Attribute Description 
 
@@ -5176,7 +5226,7 @@ Special The field type that is used by the mobile app for a special purpose. The
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 166 
+ Mobile Site Map Reference | 169 
 
  The sm:Layout tags with the Template attribute set to HeaderSimple or HeaderFirstAttachment can include nested sm:Layout tags with Template="Inline". The sm:Layout tags for which the Template attribute is Inline cannot include any nested sm:Layout tags. 
 
@@ -5206,7 +5256,7 @@ Special The field type that is used by the mobile app for a special purpose. The
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 167 
+ Mobile Site Map Reference | 170 
 
  </sm:Layout> 
 
@@ -5244,7 +5294,7 @@ Special The field type that is used by the mobile app for a special purpose. The
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 168 
+ Mobile Site Map Reference | 171 
 
 ### <sm:Screen> 
 
@@ -5286,11 +5336,11 @@ Special The field type that is used by the mobile app for a special purpose. The
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 169 
+ Mobile Site Map Reference | 172 
 
  Attribute Description 
 
- Visible An indicator of the visibility of the screen in the main menu. If the value of this attribute is true , the screen is visible on the main menu. By default, the value is true. 
+ Visible An indicator of the visibility of the screen in the Home screen. If the value of this attribute is true , the screen is visible on the main menu. By default, the value is true. 
 
  Related Links 
 
@@ -5340,7 +5390,7 @@ Special The field type that is used by the mobile app for a special purpose. The
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 170 
+ Mobile Site Map Reference | 173 
 
 To specify an icon for an MSDL object, use the following format of the attribute value: system://IconName, where the IconName is one of the following values. 
 
@@ -5366,7 +5416,7 @@ To specify an icon for an MSDL object, use the following format of the attribute
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 171 
+ Mobile Site Map Reference | 174 
 
 **Icon Name Description** 
 
@@ -5390,7 +5440,7 @@ _Chat_
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 172 
+ Mobile Site Map Reference | 175 
 
 **Icon Name Description** 
 
@@ -5414,7 +5464,7 @@ _Config_
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 173 
+ Mobile Site Map Reference | 176 
 
 **Icon Name Description** 
 
@@ -5438,7 +5488,7 @@ _Drop_
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 174 
+ Mobile Site Map Reference | 177 
 
 **Icon Name Description** 
 
@@ -5462,7 +5512,7 @@ _Graph1_
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 175 
+ Mobile Site Map Reference | 178 
 
 **Icon Name Description** 
 
@@ -5486,7 +5536,7 @@ _Less_
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 176 
+ Mobile Site Map Reference | 179 
 
 **Icon Name Description** 
 
@@ -5510,7 +5560,7 @@ _Monitor_
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 177 
+ Mobile Site Map Reference | 180 
 
 **Icon Name Description** 
 
@@ -5534,7 +5584,7 @@ _PaperPlane_
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 178 
+ Mobile Site Map Reference | 181 
 
 **Icon Name Description** 
 
@@ -5558,7 +5608,7 @@ _Refresh_
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 179 
+ Mobile Site Map Reference | 182 
 
 **Icon Name Description** 
 
@@ -5582,7 +5632,7 @@ _Share_
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 180 
+ Mobile Site Map Reference | 183 
 
 **Icon Name Description** 
 
@@ -5606,7 +5656,7 @@ _Umbrella_
 
 
 <!-- PAGE_BREAK -->
- Mobile Site Map Reference | 181 
+ Mobile Site Map Reference | 184 
 
 **Icon Name Description** 
 
@@ -5630,7 +5680,7 @@ _World_
 
 
 <!-- PAGE_BREAK -->
- Troubleshooting Tips | 182 
+ Troubleshooting Tips | 185 
 
 ## Troubleshooting Tips 
 
@@ -5654,7 +5704,7 @@ _World_
 
 
 <!-- PAGE_BREAK -->
- Troubleshooting Tips | 183 
+ Troubleshooting Tips | 186 
 
  Figure: The update of the firewall settings 
 
@@ -5672,7 +5722,7 @@ _World_
 
 
 <!-- PAGE_BREAK -->
- Troubleshooting Tips | 184 
+ Troubleshooting Tips | 187 
 
  Figure: The IP address of the computer 
 
@@ -5686,7 +5736,7 @@ _World_
 
 
 <!-- PAGE_BREAK -->
- Known Limitations | 185 
+ Known Limitations | 188 
 
 ## Known Limitations 
 
@@ -5700,7 +5750,7 @@ _World_
 
 
 <!-- PAGE_BREAK -->
- ac.exe MOBILEITEMAP Reference | 186 
+ ac.exe MOBILEITEMAP Reference | 189 
 
 ## ac.exe MOBILEITEMAP Reference 
 

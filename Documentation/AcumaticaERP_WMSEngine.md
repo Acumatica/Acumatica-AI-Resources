@@ -2,9 +2,7 @@
 
 # Barcode-Driven Engine 
 
-# Developer Guide 
-
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -160,9 +158,9 @@
 
 ##### product names and services herein are trademarks or service marks of their respective companies. 
 
-##### Soware Version: 2025 R1 
+##### Soware Version: 2025 R2 
 
-##### Last Updated: 06/01/2025 
+##### Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -202,13 +200,11 @@
 
 ##### In this chapter, you will learn how to deploy an Acumatica ERP test instance that contains custom and customized 
 
-##### forms. You can use this instance to complete a training course or test a scenario described in this guide. You can use 
+##### forms. You can use this instance to complete a training course or test a scenario described in this guide. Custom 
 
-##### this instance to complete the training course. Custom forms are forms that are created entirely from scratch by a 
+##### forms are forms that are created entirely from scratch by a customizer. Customized forms are forms that are based 
 
-##### customizer. Customized forms are forms that are based on predefined forms in Acumatica ERP, but are modified by 
-
-##### a customizer to fit a specific business process. 
+##### on predefined forms in Acumatica ERP, but are modified by a customizer to fit a specific business process. 
 
 #### Learning Objectives 
 
@@ -226,10 +222,6 @@
 
 - You need to complete a training course. 
 
-##### You deploy an Acumatica ERP test instance by using the instructions in this chapter if you need to complete the 
-
-##### training course. 
-
 #### Deploying a Test Instance 
 
 ##### You can use the Acumatica ERP Configuration wizard to deploy instances based on predefined datasets. It also 
@@ -240,11 +232,9 @@
 
 ##### Developer Courses and select the applicable training course in the list. The instance that you are preparing 
 
-##### contains the data that is required to complete the activities of this guide.The instance that you are preparing 
+##### contains the data that is required to complete the activities of this guide. The instance can also include the 
 
-##### contains the data that is required to complete a training course. The instance can also include the published 
-
-##### customization project. 
+##### published customization project. 
 
 ### Test Instance: To Deploy an Instance 
 
@@ -266,7 +256,7 @@
 
 ##### You will prepare the environment that you will use to customize Acumatica ERP. Then you will deploy an Acumatica 
 
-##### ERP instance with the data for the T210 Customized Forms and Master-Detail Relationship course. 
+##### ERP instance with the data for the T210 Customized Forms and Master-Details Relationships course. 
 
 ##### This instance will contain the data that you can use for testing of activities in this guide, the 
 
@@ -276,19 +266,13 @@
 
 #### Step 1: Preparing the Environment 
 
-##### If you have completed any of the training courses of the T series and are using the same environment 
-
-##### for the current course, you can skip this step. 
-
 ##### Before you begin deploying the needed Acumatica ERP instance, do the following: 
 
-##### 1. Make sure that the environment that you are going to use conforms to the System Requirements for the 
+##### 1. Make sure that the environment you’re going to use conforms to the System Requirements for the Acumatica 
 
-##### Acumatica ERP Installation. 
+##### ERP Installation. 
 
-##### 2. Make sure that the Web Server (IIS) features that are listed in Configuration of IIS Web Server Features are 
-
-##### turned on. 
+##### 2. Make sure that the Web Server (IIS) features listed in Configuration of IIS Web Server Features are turned on. 
 
 ##### 3. Install the Acuminator extension for Visual Studio. 
 
@@ -296,15 +280,15 @@
 
 ##### the Install Acumatica ERP and Install Debugger Tools check boxes. 
 
-##### If you have already installed Acumatica ERP without debugger tools, you should remove 
+##### If you’ve already installed Acumatica ERP without the debugger tools, you should uninstall 
 
-##### Acumatica ERP and install it again with the Install Debugger Tools check box selected. The 
+##### it and install it again with the Install Debugger Tools check box selected. The reinstallation 
 
-##### reinstallation of Acumatica ERP does not affect existing Acumatica ERP instances. You can 
+##### of Acumatica ERP doesn’t affect existing Acumatica ERP instances. You can also install the 
 
-##### also install the Acumatica ERP Tools separately. For details, see Acumatica ERP Installation On
+##### Acumatica ERP Tools separately. For details, see Acumatica ERP Installation On-Premises: To 
 
-##### Premises: To Install the Acumatica ERP Tools (Optional). 
+##### Install the Acumatica ERP Tools (Optional). 
 
 #### Step 2: Deploying an Acumatica ERP Instance 
 
@@ -326,7 +310,7 @@
 
 ##### perform customization of the website.) 
 
-##### b. In the Training Course box, select T210 Customized Forms and Master-Detail Relationship. 
+##### b. In the Training Course box, select T210 Customized Forms and Master-Details Relationships. 
 
 ##### The system creates a new Acumatica ERP instance, adds a new tenant, loads the data to it, and publishes 
 
@@ -2526,7 +2510,7 @@ if (row == null) { row = (INPIDetail)Basis.Details.Cache.CreateInstance(); row.P
 
 ##### 1. Open the PhoneRepairShop customization project in the Customization Project Editor. 
 
-##### 2. In the navigation pane, click Files. The Custom Files page opens. 
+##### 2. In the navigation pane, click Files. The Files page opens. 
 
 ##### 3. On the page toolbar, click Add New Record. 
 

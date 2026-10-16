@@ -2,7 +2,7 @@
 
 # Inventory 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -36,7 +36,7 @@
 
  Warehouse Locations and Single-Step Transfers: Mass Processing of Documents......................................26 
 
- Warehouse Locations and Single-Step Transfers: Process Activity...............................................................26 
+ Warehouse Locations and Single-Step Transfers: Process Activity...............................................................27 
 
  Warehouse Locations and Single-Step Transfers: Related Report and Inquiry Forms.................................29 
 
@@ -144,11 +144,11 @@
 
  Items with Lot and Serial Numbers: Related Report and Inquiry Forms....................................................101 
 
-**Managing Matrix Items........................................................................................................................ 103** 
+**Managing Matrix Items........................................................................................................................ 102** 
 
- Matrix Items: General Information................................................................................................................103 
+ Matrix Items: General Information................................................................................................................102 
 
- Matrix Items: Configuration Prerequisites....................................................................................................105 
+ Matrix Items: Configuration Prerequisites....................................................................................................104 
 
  Matrix Items: Implementation Activity......................................................................................................... 105 
 
@@ -160,7 +160,7 @@
 
  Matrix Items: To Sell Matrix Items.................................................................................................................115 
 
- Matrix Items: Related Report and Inquiry Forms.........................................................................................118 
+ Matrix Items: Related Report and Inquiry Forms.........................................................................................117 
 
 **Creating Non-Stock Items.................................................................................................................... 119** 
 
@@ -236,7 +236,7 @@
 
  Inventory Transactions..................................................................................................................................160 
 
- Inventory Receipt Processing........................................................................................................................163 
+ Inventory Receipt Processing........................................................................................................................164 
 
  Inventory Issue Processing............................................................................................................................165 
 
@@ -244,7 +244,7 @@
 
  To Enter an Inventory Issue of the Issue Type............................................................................................. 169 
 
- To Enter an Inventory Issue of the Invoice Type..........................................................................................169 
+ To Enter an Inventory Issue of the Invoice Type..........................................................................................170 
 
  To Enter an Inventory Adjustment................................................................................................................170 
 
@@ -366,11 +366,11 @@
 
  Report Form.......................................................................................................................................... 243 
 
- Report....................................................................................................................................................248 
+ Report....................................................................................................................................................250 
 
- Form Toolbar and More Menu.......................................................................................................................250 
+ Form Toolbar and More Menu.......................................................................................................................251 
 
- Table Toolbar................................................................................................................................................. 257 
+ Table Toolbar................................................................................................................................................. 258 
 
 
 <!-- PAGE_BREAK -->
@@ -392,9 +392,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -748,7 +748,7 @@ For the default warehouse, the system creates a default location that the goods 
 <!-- PAGE_BREAK -->
  Managing Warehouses | 17 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -826,9 +826,9 @@ For the default warehouse, the system creates a default location that the goods 
 
 - **Description** : Retail warehouse in Florida 
 
-3. In the **Location Table** table of the **Locations** tab, add the location as follows:     a. On the form toolbar, click **Add Row**.     b. In the **Location ID** column, enter MAIN.     c. In the **Description** column, enter Location in the Floretail warehouse.     d. Keep default values in all other columns.     e. On the form toolbar, click **Save**. 
+3. On the **Locations** tab, add a location as follows:     a. On the form toolbar, click **Add Row**.     b. In the **Location ID** column, enter MAIN.     c. In the **Description** column, enter Location in the Floretail warehouse.     d. Keep default values in all other columns.     e. On the form toolbar, click **Save**. 
 
-4. In the **Receiving Location** box of the same tab, select _MAIN_. The system will copy this location to purchase     and inventory receipts by default. 
+4. In the **Receiving Location** box of the **Default Locations** tab, select _MAIN_. The system will copy this location     to purchase and inventory receipts by default. 
 
 5. On the **GL Accounts** tab, specify the following settings: 
 
@@ -1004,7 +1004,7 @@ For the default warehouse, the system creates a default location that the goods 
 
  To create a similar configuration of locations in multiple warehouses, you can export the location table of one of these warehouses to an Excel file and then import the settings from the file to another warehouse, changing the settings as needed. For details on importing the settings from an Excel file, see Integration with Excel. 
 
-3. Optional: In the boxes above the table of locations, you select the following default locations for inventory     operations (which simplify data entry on purchase receipts and sales orders): 
+3. Optional: On the **Default Locations** tab, you select the following default locations for inventory operations     (which simplify data entry on purchase receipts and sales orders): 
 
 - **Receiving Location** : The default receiving location for stock items in the warehouse. 
 
@@ -1020,6 +1020,8 @@ For the default warehouse, the system creates a default location that the goods 
 
 - **Drop-Ship Location** : The location used for drop-ship orders and inventory issues that are automatically     generated for drop-ship orders. This box is displayed only if the _Drop Shipment_ feature is enabled on the     _Enable/Disable Features_ (CS100000) form. 
 
+- **Non-Stock Location** : The default warehouse location for the picking, receipt, and putaway of non-stock     items. 
+
 4. Optional: In the **Location Entry** box in the Summary area, you specify the option that indicates whether     you want to allow users to add new locations on the fly when they are entering inventory documents. If an     option that allows these additions is selected, user-added locations can be viewed (and edited, if needed)     along with other locations on the **Locations** tab of the form. 
 
 #### Priorities of Warehouse Locations 
@@ -1028,7 +1030,7 @@ For the default warehouse, the system creates a default location that the goods 
 
  For example, suppose that you store a dairy product that can be kept for one week. You purchase this dairy product every day and store it in two locations of the warehouse: A and B. In Location A, you store a variant of the dairy product that can be kept from five to seven days. In Location B, you store a variant of the dairy product that can be kept from two to four days. You can assign the highest pick priority to Location B so that dairy products with an earlier expiration date are shipped first. 
 
- If for the majority of stock items, you specify a warehouse location in the Default Issue From box on the General tab of the Stock Items (IN202500) form for an item, you can include this location in search for appropriate locations by selecting the Use Item Default Location for Picking check box on the Locations tab of the Warehouses form. 
+ If for the majority of stock items, you specify a warehouse location in the Default Issue From box on the General tab of the Stock Items (IN202500) form for an item, you can include this location in search for appropriate locations by selecting the Use Item Default Location for Picking check box on the Default Locations tab of the Warehouses form. 
 
  When this check box is selected, the system treats the location specified in the Default Issue From box as having a higher priority than the location with the highest possible pick priority. That is, the system searches for locations in the following order until it finds a match: 
 
@@ -1044,13 +1046,11 @@ For the default warehouse, the system creates a default location that the goods 
 
 - The destination warehouse (in the **To Warehouse ID** box). For a single-step transfer, select the same     warehouse as the source warehouse. 
 
-- Transaction details of the stock item to be moved: the source location, the destination location, inventory     ID, UOM, and quantity. 
-
 
 <!-- PAGE_BREAK -->
  Managing Warehouse Locations and Processing Single-Step Transfers | 25 
 
- You can release a particular inventory transfer by clicking Release on the More menu of the Transfers form. Also, you can release multiple transfers at the same time by using the Release IN Documents (IN501000) form. No GL transactions are generated for a single-step transfer that records item movement from one location to another within the same warehouse. 
+- Transaction details of the stock item to be moved: the source location, the destination location, inventory     ID, UOM, and quantity. You can release a particular inventory transfer by clicking **Release** on the More menu of the _Transfers_ form. Also, you can release multiple transfers at the same time by using the _Release IN Documents_ (IN501000) form. No GL transactions are generated for a single-step transfer that records item movement from one location to another within the same warehouse. 
 
  When a transfer performed between locations within the same warehouse is released, the system updates the allocations and the availability data for the transferred items but does not change the item costs. 
 
@@ -1072,7 +1072,7 @@ For the default warehouse, the system creates a default location that the goods 
 
  In the following implementation activity, you will learn how to create warehouse locations. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1080,13 +1080,13 @@ For the default warehouse, the system creates a default location that the goods 
 
  A third location of the warehouse is the default location, MAIN , which is where items are initially received and items not stored in the other areas are stored. 
 
-#### Process Overview 
-
- In this activity, as you create locations for spices and write-off items for the retail warehouse by using the Warehouses (IN204000) form, you will specify a location identifier and appropriate settings for each location. 
-
 
 <!-- PAGE_BREAK -->
  Managing Warehouse Locations and Processing Single-Step Transfers | 26 
+
+#### Process Overview 
+
+ In this activity, as you create locations for spices and write-off items for the retail warehouse by using the Warehouses (IN204000) form, you will specify a location identifier and appropriate settings for each location. 
 
 #### System Preparation 
 
@@ -1112,17 +1112,17 @@ For the default warehouse, the system creates a default location that the goods 
 
 #### Mass-Releasing Single-Step Transfers 
 
- Transfers can be mass-released. To release multiple single-step transfers at a time, you open the Release IN Documents (IN501000) form, select the unlabeled check boxes in the rows of the transfers to be processed, and click Process on the form toolbar. The system releases the selected transfers. 
+ Transfers can be mass-released. To release multiple single-step transfers at a time, you open the Release IN Documents (IN501000) form, select the unlabeled check boxes in the rows of the transfers to be processed, and click Release on the form toolbar. The system releases the selected transfers. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Warehouse Locations and Processing Single-Step Transfers | 27 
 
 ### Warehouse Locations and Single-Step Transfers: Process Activity 
 
  In the following activity, you will learn how to move stock items between warehouse locations within the same warehouse by using a single-step transfer. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-
-<!-- PAGE_BREAK -->
- Managing Warehouse Locations and Processing Single-Step Transfers | 27 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1162,6 +1162,10 @@ For the default warehouse, the system creates a default location that the goods 
 
 2. On the _Warehouses_ (IN204000) form, make sure that the _SPICES_ and _WRITEOFF_ warehouse locations have     been created in the _RETAIL_ warehouse, as described in _Warehouse Locations and Single-Step Transfers:_     _Implementation Activity_. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Warehouse Locations and Processing Single-Step Transfers | 28 
+
 #### Step 1: Viewing Item Availability 
 
  To check the availability of cinnamon and ginger in the default ( MAIN ) location, do the following: 
@@ -1173,10 +1177,6 @@ For the default warehouse, the system creates a default location that the goods 
 3. In the **Warehouse** box, select _RETAIL_. 
 
 4. In the **On Hand** table column, make sure that the on-hand quantity in the _MAIN_ location is positive. Notice     that the _SPICES_ location is not displayed in the table, which means that it does not contain any cinnamon. 
-
-
-<!-- PAGE_BREAK -->
- Managing Warehouse Locations and Processing Single-Step Transfers | 28 
 
 5. In the **Inventory ID** box, select _GINGER_. 
 
@@ -1198,7 +1198,13 @@ For the default warehouse, the system creates a default location that the goods 
 
 6. Add the items to be transferred between the _MAIN_ and _SPICES_ locations as follows:     a. On the table toolbar of the **Details** tab, click **Add Items**. The **Inventory Lookup** dialog box opens.     b. In the **Inventory** box, type GINGER. The system searches for items with this string in the inventory ID        and lists in the table the one item it finds with this ID.     c. In the row with the _GINGER_ item, select the check box in the unlabeled column.     d. In the **Qty. Selected** column of this row, make sure that the same value that is in the **Qty. On Hand**        column is specified.     e. In the **Inventory** box, type CINNAMON. The system again searches for items with this string in the        inventory ID and lists the item with this ID in the table.     f. In the row with the _CINNAMON_ item, select the check box in the unlabeled column.     g. In the **Qty. Selected** column of the _CINNAMON_ row, type the value of the **Qty. On Hand** column minus 2        to account for the damaged packages.     h. Click the **Add & Close** button to add the selected items to the transfer and close the dialog box.     j. In the **To Location ID** column, in each line, select _SPICES_. 
 
-7. Add the items to be transferred between the _MAIN_ and _WRITEOFF_ locations as follows:     a. On the table toolbar, click **Add Row**.     b. In the **Inventory ID** column of the new row, select _CINNAMON_.     c. In the **Location** column, select _MAIN_.     d. In the **To Location ID** column, select _WRITEOFF_.     e. In the **Quantity** column, type 2. 
+7. Add the items to be transferred between the _MAIN_ and _WRITEOFF_ locations as follows:     a. On the table toolbar, click **Add Row**.     b. In the **Inventory ID** column of the new row, select _CINNAMON_.     c. In the **Location** column, select _MAIN_.     d. In the **To Location ID** column, select _WRITEOFF_. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Warehouse Locations and Processing Single-Step Transfers | 29 
+
+ e. In the Quantity column, type 2. 
 
 8. On the form toolbar, click **Save**. 
 
@@ -1209,10 +1215,6 @@ For the default warehouse, the system creates a default location that the goods 
  Now that you have moved items to the appropriate locations, you will make sure that cinnamon and ginger are available in the appropriate locations. Do the following: 
 
 1. Open the _Inventory Summary_ (IN401000) form. 
-
-
-<!-- PAGE_BREAK -->
- Managing Warehouse Locations and Processing Single-Step Transfers | 29 
 
 2. In the **Inventory ID** box, select _GINGER_. 
 
@@ -1378,13 +1380,13 @@ For the default warehouse, the system creates a default location that the goods 
 
  Transfers can be mass-released. To release multiple transfers of the 2-Step type at a time, you open the Release IN Documents (IN501000) form and specify any needed selection criteria. 
 
- Then you select the unlabeled check boxes in the rows of the transfers to be released and click Process on the form toolbar. As an alternative to releasing only the selected transfers, you can click Process All to release all the listed transfers. 
+ Then you select the unlabeled check boxes in the rows of the transfers to be released and click Release on the form toolbar. As an alternative to releasing only the selected transfers, you can click Release All to release all the listed transfers. 
 
 ### Two-Step Transfers: Process Activity 
 
  In the following activity, you will learn how to move stock items between warehouses by using a two-step transfer. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1562,7 +1564,7 @@ For the default warehouse, the system creates a default location that the goods 
 
  The majority of transactions with inventory items are performed when the items are purchased or sold, and the respective inventory receipts or issues are generated by other documents. These documents include purchase receipts and sales orders from which financial documents, such as AP bills and AR invoices, are generated. Because direct inventory transactions (that is, inventory transactions that are not based on any sales or purchase documents) do not contain information about why inventory items are being moved, users should specify reason codes for them. When a reason code is specified for each direct inventory transaction, your organization can track why the particular inventory transaction was performed. 
 
- Also, a reason code should be created for vendor returns. In this case, a reason code indicates that when the system creates an inventory issue that corresponds to a vendor return, the system copies GL accounts that will be used for posting to GL from a receipt for which a purchase return is prepared. For details, see Purchase Returns at the Original CostPurchase Returns: General Information. 
+ Also, a reason code should be created for vendor returns. In this case, a reason code indicates that when the system creates an inventory issue that corresponds to a vendor return, the system copies GL accounts that will be used for posting to GL from a receipt for which a purchase return is prepared. For details, see Purchase Returns at the Original Cost: General Information. 
 
  In the following sections, you will read about the creation and use of reason codes in inventory. 
 
@@ -1618,17 +1620,21 @@ For the default warehouse, the system creates a default location that the goods 
 
 - Adjustments 
 
-- Physical inventory adjustments When you release one of these inventory documents, the system automatically inserts the specified default reason code into the **Reason Code** box on the **Details** tab of the corresponding form: 
+- Physical inventory adjustments Additionally, you can specify the default reason code for transfers; this setting is optional. When you release one of these inventory documents, the system automatically inserts the specified default reason code into the **Reason Code** box on the **Details** tab of the corresponding form: 
 
 - _Receipts_ (IN301000) for receipts 
 
 - _Issues_ (IN302000) for issues 
 
-- _Adjustments_ (IN303000) for adjustments and physical inventory adjustments Users can replace the default reason code with another reason code, if necessary. If users change the reason code, its account or accounts will be used for posting to the GL. 
+- _Adjustments_ (IN303000) for adjustments and physical inventory adjustments 
+
+- _Transfers_ (IN304000) for transfers The users can change the default reason code in a transaction, but only until they release the transaction. The system will use the account or accounts from the new code for posting to the general ledger. 
 
 #### Reason Code for Vendor Returns 
 
  When you configure order management preferences, you specify the default reason code of the Vendor Return usage type for vendor returns on the Purchase Orders Preferences (PO101000) form. The system inserts this reason code for inventory issues that are generated during the processing of purchase returns, which are documents of the Return type created on the Purchase Receipts (PO302000) form. Users can change the default reason code in the inventory issue, which is created on the Issues (IN302000) form. 
+
+ W 
 
  For information on configuring order management preferences, see Configuration of Order Management: General Information. 
 
@@ -1658,7 +1664,7 @@ For the default warehouse, the system creates a default location that the goods 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -1858,7 +1864,7 @@ For the default warehouse, the system creates a default location that the goods 
 
 #### General Ledger Accounts of a Posting Class 
 
- You specify the default general ledger accounts assigned to a posting class on the GL Accounts tab of the Posting Classes (IN206000) form. These default GL accounts simplify data entry on the Stock Items (IN202500) and NonStock Items (IN202000) forms. When a posting class is assigned to an item class, the system copies the GL accounts from the posting class to the new items in this class. In the settings of the item, you can override any of the default accounts, if needed. 
+ You specify the default general ledger accounts assigned to a posting class in the Default GL Accounts section of the Posting Classes (IN206000) form. These default GL accounts simplify data entry on the Stock Items (IN202500) and Non-Stock Items (IN202000) forms. When a posting class is assigned to an item class, the system copies the GL accounts from the posting class to the new items in this class. In the settings of the item, you can override any of the default accounts, if needed. 
 
  If you change the posting class for an item, the system updates the GL accounts on the Stock Items or Non-Stock Items form with the accounts from the new posting class. 
 
@@ -1874,7 +1880,7 @@ For the default warehouse, the system creates a default location that the goods 
 
 - _Warehouse_ : The Inventory account will vary depending on the warehouse where the inventory transaction     is made. You select this source if you use multiple warehouses in the system and each warehouse has a     specific Inventory account assigned. 
 
-- _Posting class_ : The Inventory account assigned to the posting class itself (as specified on the **GL Accounts**     tab of the _Posting Classes_ form) will be used. You select this source when you need to replace the Inventory     account in item settings with a new account. 
+- _Posting class_ : The Inventory account assigned to the posting class itself (as specified in the **Default GL**     **Accounts** section of the _Posting Classes_ form) will be used. You select this source when you need to replace     the Inventory account in item settings with a new account. 
 
 #### Basic Scenarios of Configuring Posting Classes 
 
@@ -1938,7 +1944,7 @@ For the default warehouse, the system creates a default location that the goods 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -1960,7 +1966,7 @@ For the default warehouse, the system creates a default location that the goods 
 
 3. On the _Reason Codes_ (CS211000) form, create and save the reason codes that are required for configuring     inventory and order management, as described in _Reason Codes: Implementation Activity_. 
 
-4. On the _Order Types_ (SO201000) form, configure and activate at least the _SO_ order type, as described in _Sales_     _Order Types: To Activate the SO Order TypeImplementation Activity_. 
+4. On the _Order Types_ (SO201000) form, configure and activate at least the _SO_ order type, as described in _Sales_     _Order Types: To Activate the SO Order Type_. 
 
 5. Specify the appropriate inventory settings, as described in _Configuration of Order Management:_     _Implementation Activity_. 
 
@@ -1974,15 +1980,15 @@ For the default warehouse, the system creates a default location that the goods 
 
 2. In the Summary area, specify the following settings: 
 
-- **Class ID** : JUICE 
-
 
 <!-- PAGE_BREAK -->
  Creating Posting Classes | 48 
 
+- **Class ID** : JUICE 
+
 - **Description** : Juice 
 
-3. On the **General** tab, specify the following settings: 
+3. In the **Posting Settings** section, specify the following settings: 
 
 - **Use Inventory/Accrual Account from** : _Posting Class_ 
 
@@ -2000,7 +2006,7 @@ For the default warehouse, the system creates a default location that the goods 
 
 - **Use Landed Cost Variance Account from** : _Posting Class_ 
 
-4. On the **GL Accounts** tab, specify the following settings: 
+4. In the **Default GL Accounts** section, specify the following settings: 
 
 - **Inventory/Accrual Account** : _12100 - Inventory Asset_ 
 
@@ -2110,13 +2116,15 @@ For the default warehouse, the system creates a default location that the goods 
 
  You define conversion rules similarly for a non-stock item on the Non-Stock Items (IN202000) form. 
 
- Before you define conversion rules for UOMs, you must make sure that the decimal precision specified in the Decimal Precision box on the Companies (CS101500) form corresponds to your organization's rounding policy for the base currency. 
+ Before you define conversion rules for UOMs, you must make sure that the decimal precision of the base currency in the Base Currency ID box on the Currencies (CM202000) form corresponds to your organization's rounding policy for your base currency. You can click the base currency ID to open its settings on the Currencies (CM202000) form and view the value in the Decimal Precision box. 
 
- In conversion rules, you use the operations of multiplication and division and the conversion factor, which is a number the system uses to convert one UOM to another UOM. For example, suppose that your organization purchases bottled lemonade in crates and sells lemonade by boxes and crates. The base UOM for lemonade is BOTTLE. The BOX UOM contains 10 bottles. The CRATE UOM includes six boxes or 60 bottles. The conversion rules between these UOMs are listed in the following table. 
+ In conversion rules, you use the operations of multiplication and division and the conversion factor, which is a number the system uses to convert one UOM to another UOM. For example, suppose that your organization purchases bottled lemonade in crates and sells lemonade by boxes and crates. The base UOM for lemonade is 
 
 
 <!-- PAGE_BREAK -->
  Creating Units of Measure | 51 
+
+ BOTTLE. The BOX UOM contains 10 bottles. The CRATE UOM includes six boxes or 60 bottles. The conversion rules between these UOMs are listed in the following table. 
 
  UOM To Unit Multiply/Divide Conversion Factor 
 
@@ -2150,17 +2158,17 @@ For the default warehouse, the system creates a default location that the goods 
 
  In this implementation activity, you will learn how to create system-wide units of measure and conversion rules. 
 
- The following activity is based on the U100 Basic Company dataset. If you are using another dataset, or if any system settings have been changed in U100 Basic Company , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 Basic Company dataset to its initial state. 
-
- If you want to perform this activity in an out-of-the-box company instead of creating a tenant with the dataset, you need to prepare a company with the basic settings, as described in Company Without Branches: General Information. 
-
 
 <!-- PAGE_BREAK -->
  Creating Units of Measure | 52 
 
+ The following activity is based on the U100 Basic Company dataset. If you are using another dataset, or if any system settings have been changed in U100 Basic Company , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 Basic Company dataset to its initial state. 
+
+ If you want to perform this activity in an out-of-the-box company instead of creating a tenant with the dataset, you need to prepare a company with the basic settings, as described in Company Without Branches: General Information. 
+
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -2194,6 +2202,10 @@ For the default warehouse, the system creates a default location that the goods 
 
 5. On the form toolbar, click **Add New Record**. 
 
+
+<!-- PAGE_BREAK -->
+ Creating Units of Measure | 53 
+
 6. In the **Unit ID** box, specify BOX12. 
 
 7. In the **Description for Reports** box, specify BOX12. 
@@ -2201,10 +2213,6 @@ For the default warehouse, the system creates a default location that the goods 
 8. On the table toolbar, click **Add Row**. 
 
 9. In the **To Unit** column, type BTL05. 10.In the **Multiply/Divide** column, select _Multiply_. 11.In the **Conversion Factor** column, type 12. 12.On the form toolbar, click **Save**. 
-
-
-<!-- PAGE_BREAK -->
- Creating Units of Measure | 53 
 
 #### Step 2: Creating the BTL1L and BOX08 Units of Measure 
 
@@ -2280,7 +2288,7 @@ For the default warehouse, the system creates a default location that the goods 
 <!-- PAGE_BREAK -->
  Creating Availability Calculation Rules | 55 
 
-- Quantity available for issue: This is an estimated quantity of the items that can be issued from inventory,     which is calculated as the on-hand quantity minus the shipped quantity ( _SO Shipped_ in the diagram). The     system checks this quantity to prevent a user from issuing unavailable stock directly from a warehouse;     that is, if the issued quantity of an inventory issue, a transfer, or an adjustment with a negative quantity is     greater than the quantity available for issue, the document cannot be released. 
+- Quantity available for issue: This is an estimated quantity of the items that can be issued from inventory,     which is calculated as the on-hand quantity minus the shipped quantity ( _SO Shipped_ in the diagram). The     system checks this quantity to prevent a user from issuing unavailable stock directly from a warehouse.     This means that an inventory adjustment with a negative quantity, an issue, or a transfer cannot be released     if the issued quantity is greater than the quantity available for issue at the selected location. Note that the     system applies this rule only to locations for which the **Include in Qty. Available** check box is selected     on the _Warehouses_ (IN204000) form. For locations that have this check box cleared, only direct inventory     transactions on the _Issues_ (IN301000), _Transfers_ (IN304000), and _Adjustments_ (IN303000) forms can be used     to issue an item. In these transactions, the system validates only the on-hand quantity. 
 
 - Available quantity: You can configure the way this estimated quantity is calculated by using availability     calculation rules. The available quantity may include anticipated transactions and therefore may be less     than or greater than the on-hand quantity. Anticipated transactions correspond to the documents and     transactions that have been entered in the system but not yet processed to the end. (In the diagram, these     documents and transactions are indicated by _Sum of Deductions_ , which is subtracted from the on-hand     quantity, and _Sum of Additions_ , which is added to the on-hand quantity.) In the availability calculation     settings of an item class, you specify which anticipated transactions affect the available quantity. Thus, the     available quantity may include goods on purchase orders ( _Purchase Orders_ in the diagram) and exclude the     goods allocated for sales orders ( _SO Allocated_ ). For details, see _Plan Types_. 
 
@@ -2378,7 +2386,7 @@ The plan types that correspond to the following documents increase the available
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -2568,7 +2576,7 @@ The plan types that correspond to the following documents increase the available
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -2810,11 +2818,13 @@ The plan types that correspond to the following documents increase the available
 
  You define conversion rules similarly for a non-stock item on the Non-Stock Items (IN202000) form. 
 
+ Before you define conversion rules for UOMs, you must make sure that the decimal precision of the base currency in the Base Currency ID box on the Currencies (CM202000) form corresponds to your organization's rounding policy 
+
 
 <!-- PAGE_BREAK -->
  Creating Stock Items | 70 
 
- Before you define conversion rules for UOMs, you must make sure that the decimal precision specified in the Decimal Precision box on the Companies (CS101500) form corresponds to your organization's rounding policy for the base currency. 
+ for your base currency. You can click the base currency ID to open its settings on the Currencies (CM202000) form and view the value in the Decimal Precision box. 
 
  In conversion rules, you use the operations of multiplication and division and the conversion factor, which is a number the system uses to convert one UOM to another UOM. For example, suppose that your organization purchases bottled lemonade in crates and sells lemonade by boxes and crates. The base UOM for lemonade is BOTTLE. The BOX UOM contains 10 bottles. The CRATE UOM includes six boxes or 60 bottles. The conversion rules between these UOMs are listed in the following table. 
 
@@ -2928,11 +2938,11 @@ The plan types that correspond to the following documents increase the available
 
  In this implementation activity, you will learn how to create stock items. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -3354,9 +3364,9 @@ The plan types that correspond to the following documents increase the available
 
 #### Setup of Lot and Serial Attributes 
 
- Before you begin using lot or serial attributes, you need to define each attribute on the Attributes (CS205000) form. Then you define the attributes to be used for the items of a lot or serial class by adding the attributes on the Attributes tab of the Lot/Serial Classes (IN207000) form. 
+ Before you begin using lot or serial attributes, you need to define each attribute on the Attributes (CS205000) form. Then you define the attributes to be used for the items of a lot or serial class by adding the attributes in the Attributes section of the Lot/Serial Classes (IN207000) form. 
 
- You can add attributes for an item of a lot or serial class only if the tracking method of the class is either Track Serial Numbers or Track Lot Numbers and the assignment method is When Received. If the class has a different tracking method or assignment method (or both), you cannot add attributes on the Attributes tab. 
+ You can add attributes for an item of a lot or serial class only if the tracking method of the class is either Track Serial Numbers or Track Lot Numbers and the assignment method is When Received. If the class has a different tracking method or assignment method (or both), you cannot add attributes in the Attributes section. 
 
  If you add or delete attributes for a lot or serial class on the Lot/Serial Classes form, the system adds or deletes them for each existing item of this class. Also, if you change the state of the Active or Required check box for an attribute in the lot or serial class, the system changes the state of the respective check box for all the items of this class. 
 
@@ -3366,9 +3376,9 @@ The plan types that correspond to the following documents increase the available
 
 #### Specification of Values for Lot and Serial Attributes 
 
- When a unit of a stock item with a lot or serial number has been purchased, you can specify attribute values for this unit in the Lot/Serial Attributes table of the Line Details dialog box on the Purchase Receipts (PO301000) or Receipts (IN301000) form. You open this dialog box by clicking the line on the Details tab of the form and clicking Line Details on the table toolbar. The table contains the attributes and attribute values that are specified for each unit of the stock item selected in the line. 
+ When a unit of a stock item with a lot or serial number has been purchased, you can specify attribute values for this unit in the General table of the Line Details dialog box on the Purchase Receipts (PO302000) or Receipts (IN301000) form. You open this dialog box by clicking the line on the Details tab of the form and clicking Line Details on the table toolbar. The table contains the attributes and attribute values that are specified for each unit of the stock item selected in the line. 
 
- In the Line Details dialog box, you must enter the lot or serial number first; then you can specify attributes for the lot or serial number in the Lot/Serial Attributes table. 
+ In the Line Details dialog box, you must enter the lot or serial number first; then you can specify attributes for the lot or serial number in the General table. 
 
 
 <!-- PAGE_BREAK -->
@@ -3382,7 +3392,7 @@ The plan types that correspond to the following documents increase the available
 
 - **Tracking Method** : _Track Lot Numbers_ or _Track Serial Numbers_ 
 
-- **Assignment Method** : _When Received_ On the **Attributes** tab of the _Lot/Serial Details_ form, you can view and modify the attribute values of a unit and upload its image. On the **Description** tab, you can add or update an extended description of the item. On the **History** tab, you can review the history of the related inventory documents. 
+- **Assignment Method** : _When Received_ On the **Attributes** tab of the _Lot/Serial Details_ form, you can view and modify the attribute values of a unit. On the **Description** tab, you can add or update an extended description of the item and upload its image. On the **History** tab, you can review the history of the related inventory documents. 
 
 #### Specification of a Sales Price and Description for a Unit of a Stock Item 
 
@@ -3474,7 +3484,7 @@ The plan types that correspond to the following documents increase the available
 
  In the following implementation activity, you will learn how to create a serial class, review the settings of existing lot and serial classes, and specify lot and serial classes for item classes and stock items. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3588,9 +3598,9 @@ The plan types that correspond to the following documents increase the available
 
 1. Open the _Item Classes_ (IN201000) form. 
 
-2. In the **Item Class Tree** pane, click the _OTHERPARTS_ item class. 
+2. In the **Class ID** box, select _OTHERPARTS - Juicer Spare Parts_. 
 
-3. In the **Lot/Serial Class** box on the **General** tab of the right pane, select _SRNPARTS_. 
+3. In the **General Settings** section of the **General** tab, select _SRNPARTS_ in the **Lot/Serial Class** box. 
 
 4. On the form toolbar, click **Save**. 
 
@@ -3736,7 +3746,7 @@ The plan types that correspond to the following documents increase the available
 
  In the following activity, you will learn how to create and process purchase and sales documents for a stock item with a serial number that is entered manually into each shipment that includes units of the item. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
@@ -3896,7 +3906,7 @@ The plan types that correspond to the following documents increase the available
 
 4. On the form toolbar, click **Save**. 
 
- You have entered the serial numbers of the juicers. Notice that the warnings on the Details tab and the Unassigned Qty. column on this tab are no longer shown. Now you can confirm the shipment and process the related invoice. 
+ You have entered the serial numbers of the juicers. Notice that the Unassigned Qty. column and the warning on the Details tab are no longer shown. Now you can confirm the shipment and process the related invoice. 
 
 #### Step 6: Confirming the Shipment and Processing the Invoice 
 
@@ -3918,7 +3928,7 @@ The plan types that correspond to the following documents increase the available
 
  In the following activity, you will learn how to create and process purchase and sales documents for a stock item with a lot number generated automatically when the item is shipped. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -4004,7 +4014,7 @@ The plan types that correspond to the following documents increase the available
 
 - **Confirm Shipment** 
 
-- **Update IN** d. In the **Invoicing** section, do the following: a. Make sure that the **Prepare Invoice** check box is selected. b. Select the **Release Invoice** check box. e. Click **OK**. The **Processing Results** dialog box opens. Wait for the system to create the documents. f. Close the dialog box. Notice that the sales order now has the _Completed_ status. 
+- **Update IN** d. In the **Invoicing** section, do the following: a. Make sure that the **Prepare Invoice** check box is selected. b. Select the **Release Invoice** check box. e. Click **Process**. Wait for the system to create the documents. When the processing is completed, the status of the sales order becomes _Completed_. 
 
 7. On the **Shipments** tab, click the link in the **Document Nbr.** column. The system opens the shipment on the     _Shipments_ (SO302000) form in a pop-up window. 
 
@@ -4024,7 +4034,7 @@ You have created the sales order for items with a lot number that was generated 
 
  In the following activity, you will learn how to create and process purchase and sales documents for a stock item for which the lot number and expiration date are entered manually on receipt. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -4080,7 +4090,7 @@ You have created the sales order for items with a lot number that was generated 
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as sales and purchasing     manager Regina Wiley by using the _wiley_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the _Enable/Disable Features_ (CS100000) form, make sure that the _Lot and Serial Tracking_ feature is     enabled. 
 
@@ -4130,7 +4140,7 @@ You have created the sales order for items with a lot number that was generated 
 
 3. On the table toolbar, click **Line Details**. 
 
-4. In the **Line Details** dialog box, which opens, do the following:     a. Notice that the value of the **Unassigned Qty.** box in the Summary area is _20_.     b. On the table toolbar, click **Add Row**.     c. In the **Location** column, select _MAIN_.     d. In the **Lot/Serial Nbr.** column, type FRT000862.     e. In the **Quantity** column, type 10.     f. In the **Expiration Date** column, select _2/20/2025_.     g. On the table toolbar, click **Add Row** to add a second row. Notice that the value of the **Unassigned Qty.**        box was changed to _10_.     h. In the **Lot/Serial Nbr.** column, type FRT000877.     j. In the **Quantity** column, type 10.     k. In the **Expiration Date** column, select _2/13/2025_.     l. Click **OK** to save your changes and close the dialog box.     Notice that the value of the **Lot/Serial Nbr.** column for the _GUAVAS_ line is _<SPLIT>_ , which means that units of     the item with different lot numbers have been included in the line of the purchase receipt. 
+4. In the **Line Details** dialog box, which opens, do the following:     a. Notice that the value of the **Unassigned Qty.** box in the Summary area is _20_.     b. On the table toolbar, click **Add Row**.     c. In the **Location** column, select _MAIN_.     d. In the **Lot/Serial Nbr.** column, type FRT000862.     e. In the **Quantity** column, type 10.     f. In the **Expiration Date** column, select _2/20/2026_.     g. On the table toolbar, click **Add Row** to add a second row. Notice that the value of the **Unassigned Qty.**        box was changed to _10_.     h. In the **Lot/Serial Nbr.** column, type FRT000877.     j. In the **Quantity** column, type 10.     k. In the **Expiration Date** column, select _2/13/2026_.     l. Click **OK** to save your changes and close the dialog box.     Notice that the value of the **Lot/Serial Nbr.** column for the _GUAVAS_ line is _<SPLIT>_ , which means that units of     the item with different lot numbers have been included in the line of the purchase receipt. 
 
 5. In the Summary area, select the **Create Bill** check box. 
 
@@ -4188,7 +4198,7 @@ You have created the sales order for items with a lot number that was generated 
 
 - **Confirm Shipment** 
 
-- **Update IN** d. In the **Invoicing** section, make sure that the **Prepare Invoice** check box is selected. e. Select the **Release Invoice** check box. f. Click **OK**. g. Aer the system creates the shipment, issue, and invoice, close the **Processing Results** dialog box. Notice that the sales order now has the _Completed_ status. 
+- **Update IN** d. In the **Invoicing** section, make sure that the **Prepare Invoice** check box is selected. e. Select the **Release Invoice** check box. f. Click **Process**. Wait for the system to create the documents. When the processing is completed, the status of the sales order becomes _Completed_. 
 
  By using quick processing, you have created the sales documents related to the sales order. Now you will review how the system has allocated units of the item in the shipment. 
 
@@ -4202,11 +4212,11 @@ You have created the sales order for items with a lot number that was generated 
 
 3. Click the only shipment line, and, on the table toolbar, click **Line Details**. 
 
+4. In the **Line Details** dialog box, which opens, review how the system has selected guavas from warehouse as     follows (see the screenshot below): 
+
 
 <!-- PAGE_BREAK -->
  Managing Items with Lot and Serial Numbers | 101 
-
-4. In the **Line Details** dialog box, which opens, review how the system has selected guavas from warehouse as     follows (see the screenshot below): 
 
 - In the first line, notice that the system selected 10 pounds of guavas from the _FRT000877_ lot with the     earlier expiration date. 
 
@@ -4232,15 +4242,11 @@ You have created the sales order for items with a lot number that was generated 
 
  When you want to view the documents that include the item you specify and that are in process in the system (not completed yet), you can use the Inventory Allocation Details (IN402000) form. You can also use this form to view the quantities of items in a particular warehouse or location (or both). 
 
-
-<!-- PAGE_BREAK -->
- Managing Items with Lot and Serial Numbers | 102 
-
-When you want to view the on-hand quantities of particular items and the total cost of inventory by inventory account, with details for different warehouses, you can use the _Inventory Valuation_ (IN615500) report. 
+ When you want to view the on-hand quantities of particular items and the total cost of inventory by inventory account, with details for different warehouses, you can use the Inventory Valuation (IN615500) report. 
 
 
 <!-- PAGE_BREAK -->
- Managing Matrix Items | 103 
+ Managing Matrix Items | 102 
 
 ## Managing Matrix Items 
 
@@ -4284,7 +4290,7 @@ When you want to view the on-hand quantities of particular items and the total c
 
 
 <!-- PAGE_BREAK -->
- Managing Matrix Items | 104 
+ Managing Matrix Items | 103 
 
 - The attribute whose values will be displayed in the matrix columns by default, and the attribute whose     values will be displayed in the matrix rows by default when you generate the matrix items on the **Item**     **Creation** tab of the _Template Items_ form. For other attributes of the _Variant_ category (if there are any), you     select the particular value when creating matrix items.     Suppose that matrix items are used for a T-shirt of various sizes, colors, and materials. You want sizes to be     displayed by default in the rows, and colors to be displayed by default in the columns. For a material, you     select a particular value (such as cotton). In the matrix table, you select combinations of particular sizes and     colors for the selected material. 
 
@@ -4312,13 +4318,29 @@ When you want to view the on-hand quantities of particular items and the total c
 
 
 <!-- PAGE_BREAK -->
- Managing Matrix Items | 105 
+ Managing Matrix Items | 104 
 
  View dialog box, the New check box is selected. The system generates the new items on the fly when you close the dialog box and add the items to the document. 
 
  In the matrix view, which is opened when you click the Open Matrix View button in the Add Matrix Item: Table View dialog box, you can select existing matrix items by entering the required quantities in the matrix. 
 
  You must use either the table view or matrix view to select the matrix items to be added to the document. If you select the items in the table view and then switch to the matrix view, the selection of items in the table view will be discarded. 
+
+#### Deleting Redundant Attributes 
+
+ You may need to delete redundant attributes from the settings of an item class in the following cases: 
+
+- An attribute has been erroneously added to the item class. 
+
+- A large number of redundant attributes complicates the creation of new matrix items. To delete an attribute from the settings of an item class on the _Item Classes_ (IN201000) form, you must make it inactive on the **Attributes** tab first. For attributes with the _Attribute_ category, you can clear the Active check box on this tab at any time. For attributes with the _Variant_ category, you need to make them inactive for all template items of the current class on the **Attributes** tab of the _Template Items_ (IN203000) form. You can deactivate a _Variant_ attribute for a template item only if one of the following conditions is met: 
+
+- The template item doesn't have generated matrix items, and the attribute is not the last active variant of the     template item. 
+
+- All matrix items of the template item have the same value for the attribute, and the attribute is not the last     active variant of the template item. Before you deactivate the _Variant_ attribute on the _Template Items_ form, make sure that it hasn't been added to one of the following tables on the **Configuration** subtab of the **Matrix Items** tab. 
+
+- **Inventory ID Segment Settings** 
+
+- **Description Segment Settings** If you have just started implementing matrix items and there are no inventory transactions including them, you can delete all matrix items with the incorrect _Variant_ attribute. Aer that, you can deactivate and delete this attribute on the _Item Classes_ form. 
 
 ### Matrix Items: Configuration Prerequisites 
 
@@ -4334,23 +4356,23 @@ When you want to view the on-hand quantities of particular items and the total c
 
 - On the _Attributes_ (CS205000) form, the attributes that you will use for matrix items have been created, and     the values that you will use have been specified. For more information, see _Stock Items: Attributes_. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Matrix Items | 105 
+
 - On the _Item Classes_ (IN201000) form, an item class has been created for each template item that you     will use to generate each group of related matrix items. For details, see _Item Classes for Stock Items:_     _Implementation Activity_. 
 
 ### Matrix Items: Implementation Activity 
 
  In the following implementation activity, you will learn how to create attributes, template items, and matrix items. In addition, you will learn how to delete matrix items and apply changes to multiple related matrix items. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that SweetLife Fruit & Jams company has decided to extend the assortment of items it sells, and to sell various packed nuts of two brands: Bronko's Nuts and Merry Squirrel. Packed nuts of the Bronko's Nuts brand have multiple variants, with each variant defined by the type of nut, the package weight, the specialty (salted, spicy, roasted, raw, yogurt-covered, or chocolate-covered), and the state of the shell. The Merry Squirrel brand has the same variants of packed nuts as the Bronko's nuts brand excluding the shell state because all nuts of this brand are always shelled. For now, sales managers are going to sell Merry Squirrel nuts in packages of 4 ounces; depending on sales, other sizes may be available in the future. The following combinations of specialty and nut type will be available initially: 
 
 - Raw almonds, cashews, and hazelnuts 
-
-
-<!-- PAGE_BREAK -->
- Managing Matrix Items | 106 
 
 - Roasted pecans and peanuts 
 
@@ -4375,6 +4397,10 @@ When you want to view the on-hand quantities of particular items and the total c
 - The _MNUTS_ item class on the _Item Classes_ (IN201000) form 
 
 - The following attributes on the _Attributes_ (CS205000) form: _WEIGHT_ , _SPECIALTY_ , and _SHELL_. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Matrix Items | 106 
 
 #### Process Overview 
 
@@ -4402,10 +4428,6 @@ When you want to view the on-hand quantities of particular items and the total c
 
 9. On the _Template Items_ form, modify the settings of the created matrix items through the template item 
 
-
-<!-- PAGE_BREAK -->
- Managing Matrix Items | 107 
-
 #### System Preparation 
 
  Before you start creating template items and matrix items, do the following: 
@@ -4431,6 +4453,10 @@ When you want to view the on-hand quantities of particular items and the total c
 - **Control Type** : _Combo_ 
 
 4. On the table toolbar, click **Load Records from File**. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Matrix Items | 107 
 
 5. In the **File Upload** dialog box, which opens, select the file path to the _Matrix_Items_Nutype_Attribute_ file, and     click **Upload**. 
 
@@ -4462,10 +4488,6 @@ When you want to view the on-hand quantities of particular items and the total c
 
  1LB 1 lb 4 
 
-
-<!-- PAGE_BREAK -->
- Managing Matrix Items | 108 
-
 4. In the **Attribute ID** box, select _SPECIALTY_. 
 
 5. In the **Control Type** box, make sure that _Combo_ is selected. 
@@ -4491,6 +4513,10 @@ When you want to view the on-hand quantities of particular items and the total c
 8. In the **Control Type** box, make sure that _Combo_ is selected. 
 
 9. In the table, review the list of attribute values and their settings (listed below). 
+
+
+<!-- PAGE_BREAK -->
+ Managing Matrix Items | 108 
 
  Value ID Description Sort Order 
 
@@ -4524,10 +4550,6 @@ When you want to view the on-hand quantities of particular items and the total c
 
  You have added the attributes to the item class and specified the Variant category for the attributes. 
 
-
-<!-- PAGE_BREAK -->
- Managing Matrix Items | 109 
-
 #### Step 4: Creating a Template Item 
 
  Now you will create the template item that for the Bronko's Nuts brand. Do the following: 
@@ -4553,6 +4575,10 @@ When you want to view the on-hand quantities of particular items and the total c
 7. In the **Default Row Attribute ID** box, select _SPECIALTY_. The values of this attribute will be displayed in the     matrix rows by default when you create the matrix items. 
 
 8. In the **Inventory ID Segment Settings** table, add the inventory ID segments and settings listed below. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Matrix Items | 109 
 
  Segment Type Attribute ID Number of Characters Separator 
 
@@ -4582,10 +4608,6 @@ When you want to view the on-hand quantities of particular items and the total c
 
  You have created the template item that will provide default settings for the matrix items representing the variants of nuts. 
 
-
-<!-- PAGE_BREAK -->
- Managing Matrix Items | 110 
-
 #### Step 5: Creating Another Template Item 
 
  Now you will create the template item that for the Merry Squirrel brand. Do the following: 
@@ -4611,6 +4633,10 @@ When you want to view the on-hand quantities of particular items and the total c
 7. In the **Default Row Attribute ID** box, select _SPECIALTY_. The values of this attribute will be displayed in the     matrix rows by default when you create the matrix items. 
 
 8. In the **Inventory ID Segment Settings** table, add the inventory ID segments and settings listed below. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Matrix Items | 110 
 
  Segment Type Attribute ID Number of Characters Separator 
 
@@ -4640,10 +4666,6 @@ When you want to view the on-hand quantities of particular items and the total c
 
 1. Open the _Create Matrix Items_ (IN203500) form. 
 
-
-<!-- PAGE_BREAK -->
- Managing Matrix Items | 111 
-
 2. In the **Template ID** box of the Summary area, select _NUTSMERRY_. 
 
 3. In the Additional Attributes table (which is immediately below the Summary area), in the only row of the     **Weight** column, select _04OZ_. The system will use this value to generate all items of this group. 
@@ -4665,6 +4687,14 @@ When you want to view the on-hand quantities of particular items and the total c
  Chocolate-covered 
 
  Selected Selected Selected Selected 
+
+
+<!-- PAGE_BREAK -->
+ Managing Matrix Items | 111 
+
+ Attribute Value 
+
+ Almonds Cashews Hazelnuts Pecans Pistachios Peanuts 
 
  Yogurt-covered 
 
@@ -4696,10 +4726,6 @@ When you want to view the on-hand quantities of particular items and the total c
 
  Yes PNT-CHT-04OZ Peanuts Chocolate-covered 04 oz 
 
-
-<!-- PAGE_BREAK -->
- Managing Matrix Items | 112 
-
 7. Click **Confirmation**. The system creates the items and closes the dialog box. 
 
 8. Open the _Template Items_ (IN203000) form, and select the _NUTSMERRY_ template item. 
@@ -4719,6 +4745,10 @@ When you want to view the on-hand quantities of particular items and the total c
 3. On the **Attributes** tab, view the list of attribute values specific to this matrix item. 
 
 4. Close the window with the _Stock Items_ form. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Matrix Items | 112 
 
 #### Step 8: Deleting a Matrix Item 
 
@@ -4750,17 +4780,17 @@ When you want to view the on-hand quantities of particular items and the total c
 
  The following activity will walk you through the process of creating and processing purchasing documents that contain matrix items. 
 
-
-<!-- PAGE_BREAK -->
- Managing Matrix Items | 113 
-
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that SweetLife Fruits & Jams has started to sell fruit and vegetable juice. You, as a purchasing manager of the company, have a task to order apple, tomato, pineapple, and orange juice in glass bottles of 16 and 32 fluid ounces, 20 units of each variant, from the All Fruits Mall vendor and receive the juice in the wholesale warehouse. 
 
  Stock items for juice have been added to the system as matrix items, but the items for tomato and pineapple juice in glass bottles of 32 fluid ounces were not created during the initial creation of these matrix items. The system will create these matrix items automatically when you create a purchase order. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Matrix Items | 113 
 
  For simplicity, in this activity, you will create and process all documents in the system during the same business date. 
 
@@ -4800,10 +4830,6 @@ When you want to view the on-hand quantities of particular items and the total c
 
 1. Launch the Acumatica ERP website, and sign in as a purchasing manager by using the _wiley_ login and the     _123_ password. 
 
-
-<!-- PAGE_BREAK -->
- Managing Matrix Items | 114 
-
 2. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, make sure that     the SweetLife Head Office and Wholesale Center branch is selected. 
 
 3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to today’s date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
@@ -4813,6 +4839,10 @@ When you want to view the on-hand quantities of particular items and the total c
  To create a purchase order for 20 units of apple, orange, tomato, and pineapple juice in glass bottles of 16 and 32 fluid ounces, do the following: 
 
 1. On the _Purchase Orders_ (PO301000) form, create a purchase order, and specify the following settings in the     Summary area: 
+
+
+<!-- PAGE_BREAK -->
+ Managing Matrix Items | 114 
 
 - **Type** : _Normal_ 
 
@@ -4850,10 +4880,6 @@ When you want to view the on-hand quantities of particular items and the total c
 
 4. In the **Unit Cost** column of the tab, specify 6.99 for the items in bottles of 16 fluid ounces and 9.99 for the     items in bottles of 32 fluid ounces. 
 
-
-<!-- PAGE_BREAK -->
- Managing Matrix Items | 115 
-
 5. On the form toolbar, click **Remove Hold** so that you can continue processing the purchase order. 
 
  You have created the purchase order that contains matrix items. 
@@ -4865,6 +4891,10 @@ When you want to view the on-hand quantities of particular items and the total c
 1. On the form toolbar of the _Purchase Orders_ (PO301000) form while you are still viewing the purchase order,     click **Enter PO Receipt**. The system prepares the purchase receipt for the selected purchase order and     opens it on the _Purchase Receipts_ (PO302000) form. 
 
 2. Select the **Create Bill** check box so that the system will create the related AP bill automatically during the     release of the purchase order. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Matrix Items | 115 
 
 3. On the form toolbar, click **Save**. 
 
@@ -4902,11 +4932,7 @@ When you want to view the on-hand quantities of particular items and the total c
 
  The following activity will walk you through the process of creating and processing sales documents that contain matrix items. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-
-<!-- PAGE_BREAK -->
- Managing Matrix Items | 116 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -4919,6 +4945,10 @@ When you want to view the on-hand quantities of particular items and the total c
  For the purposes of this lesson, the following features have been enabled on the Enable/Disable Features (CS100000) form: 
 
 - _Matrix Items_ 
+
+
+<!-- PAGE_BREAK -->
+ Managing Matrix Items | 116 
 
 - _Inventory_ The following entities, which you will use in this activity, have been predefined in the system: 
 
@@ -4952,10 +4982,6 @@ When you want to view the on-hand quantities of particular items and the total c
 
  To create a sales order, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Managing Matrix Items | 117 
-
 1. On the _Sales Orders_ (SO301000) form, create a sales order, and specify the following settings in the     Summary area: 
 
 - **Order Type** : _SO_ 
@@ -4970,7 +4996,13 @@ When you want to view the on-hand quantities of particular items and the total c
 
 2. On the table toolbar of the **Details** tab, click **Add Matrix Items**. The system opens the **Add Matrix Item:**     **Matrix View** dialog box. 
 
-3. In the dialog box, do the following:     a. In the **Template ID** box, select _JUICE_.     b. In the **Warehouse** box, select _WHOLESALE_.     c. Select the **Display Availability Details** check box. In the table footer, the system will display availability        details when you click any matrix cell.     d. In the only row of the **Package** column (which is located right of the Summary area), select _GBT - Glass_        _Bottle_.     e. In the matrix table, specify the quantities listed in the following table. 
+3. In the dialog box, do the following:     a. In the **Template ID** box, select _JUICE_.     b. In the **Warehouse** box, select _WHOLESALE_. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Matrix Items | 117 
+
+ c. Select the Display Availability Details check box. In the table footer, the system will display availability details when you click any matrix cell. d. In the only row of the Package column (which is located right of the Summary area), select GBT Glass Bottle. e. In the matrix table, specify the quantities listed in the following table. 
 
  Attribute Value Cherry Peach Strawberry 
 
@@ -5002,19 +5034,17 @@ When you want to view the on-hand quantities of particular items and the total c
 
 - **Confirm Shipment** 
 
-- **Update IN** d. In the **Invoicing** section, make sure that the **Prepare Invoice** check box is selected. 
-
-
-<!-- PAGE_BREAK -->
- Managing Matrix Items | 118 
-
- e. Select the Release Invoice check box. f. Click OK. g. Aer the system creates the documents, close the Processing Results box (which the system has opened). Notice that the sales order now has the Completed status. 
+- **Update IN** d. In the **Invoicing** section, make sure that the **Prepare Invoice** check box is selected. e. Select the **Release Invoice** check box. f. Click **OK**. g. Aer the system creates the documents, close the **Processing Results** box (which the system has opened). Notice that the sales order now has the _Completed_ status. 
 
  You have successfully created a sales order with matrix items and processed the related shipment and invoice. 
 
 ### Matrix Items: Related Report and Inquiry Forms 
 
  In the following sections, you can find details about the reports and inquiry forms you may want to review to gather information about matrix items. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Matrix Items | 118 
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
 
@@ -5170,7 +5200,7 @@ When you want to view the on-hand quantities of particular items and the total c
 
  The following implementation activity will walk you through the process of creating a non-stock item. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
@@ -5326,7 +5356,7 @@ When you want to view the on-hand quantities of particular items and the total c
 
  The following implementation activity will walk you through the process of creating a new service item. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -6584,17 +6614,17 @@ If you need to move multiple inventory items to another item class at a time, yo
 
  Purchases and sales cause inventory item movements, and the respective inventory transactions are generated by documents, such as purchase receipts and sales orders, and documents of other functional areas. Your company may also use direct inventory transactions—those not based on purchase or sales documents—such as issue transactions to remove damaged or expired goods from inventory. Because direct transactions are not standard operations, they should be accompanied by reason codes, which supply offset accounts and subaccounts and explain why these transactions were performed. 
 
- This topic contains an overview of the inventory processes and processing options applicable to documents of all types. 
+ This topic contains an overview of the inventory processes and processing options applicable to transactions of all types. 
 
 #### Types of Inventory Transactions 
 
- You use the following documents to record the inventory transactions performed: 
+ In Acumatica ERP, the following types of inventory transactions are available: 
 
 - Receipts: To record the arrival of some quantity of stock items to inventory. Generally, inventory receipts     are generated when purchase and transfer receipts are released; inventory receipts can also be created     manually. For more details, see _Inventory Receipt Processing_.     On the _Receipts_ (IN301000) form, you can enter inventory receipts manually and view all the receipts that     have been created in the system. 
 
 - Issues: To record the withdrawal of some quantity of stock items from inventory. Generally, inventory issues     are generated in the process of shipment confirmation, but they can also be created directly.     By using the _Issues_ (IN302000) form, you can enter inventory issues manually and view all the issues that     have been created in the system. For more details, see _Inventory Issue Processing_. 
 
-- Adjustments: To update the quantity of stock items in the warehouse (usually aer physical inventory     counts) and to update costs for items with various valuation methods. By using the _Adjustments_ (IN303000)     form, you can enter inventory adjustments manually and view all the adjustments that have been created in     the system.     An adjustment with a negative quantity that decreases the stock cannot be released if it would make the     available for shipping quantity of an item negative. The **Allow Negative Quantity** check box can be selected     or cleared on the _Item Classes_ (IN201000) form for the item's class. In this case, the system displays an error     message. Also, on the release of an adjustment with a negative quantity of a stock item, the system checks     whether this item has allocations in sales orders, service orders, or production orders, as well as whether     the item is added as a stock component to kit assemblies.     If the stock item has an allocation in any of these documents and the quantity of this item that is     available for issue will become insufficient if the adjustment is released, the system prohibits releasing     the adjustment. It displays an error message with a recommendation to check the documents that the     adjustment would have affected.     You can review the list of allocations that can be affected by negative adjustments to stock item quantities     by using the _Allocations Affected by Inventory Adjustments_ (IN622000) report. 
+- Adjustments: To update the quantity of stock items in the warehouse (usually aer physical inventory     counts) and to update costs for items with various valuation methods. By using the _Adjustments_ (IN303000)     form, you can enter inventory adjustments manually and view all the adjustments that have been created in     the system.     An adjustment with a negative quantity that decreases the stock cannot be released if it would make the     available for shipping quantity of an item negative. The **Allow Negative Quantity** check box can be selected     or cleared on the _Item Classes_ (IN201000) form for the item's class. In this case, the system displays an error     message. Also, on the release of an adjustment with a negative quantity of a stock item, the system checks     whether this item has allocations in sales orders, service orders, or production orders, as well as whether     the item is added as a stock component to kit assemblies.     If the stock item has an allocation in any of these transactions and the quantity of this item that is     available for issue will become insufficient if the adjustment is released, the system prohibits releasing     the adjustment. It displays an error message with a recommendation to check the transactions that the     adjustment would have affected.     You can review the list of allocations that can be affected by negative adjustments to stock item quantities     by using the _Allocations Affected by Inventory Adjustments_ (IN622000) report. 
 
 
 <!-- PAGE_BREAK -->
@@ -6614,11 +6644,11 @@ If you need to move multiple inventory items to another item class at a time, yo
 
 #### Data Entry Options 
 
- The settings that can be used to manage the data entry of inventory documents are located on the Inventory Preferences (IN101000) form. 
+ The settings that can be used to manage the data entry of inventory transactions are located on the Inventory Preferences (IN101000) form. 
 
- When a new inventory document is created, the system assigns it a reference number according to the numbering sequence specified for documents of this type in the Numbering Settings section of the form. 
+ When a new inventory transaction is created, the system assigns it a reference number according to the numbering sequence specified for transactions of this type in the Numbering Settings section of the form. 
 
- You can select the Hold Documents on Entry check box to make On Hold the default status. Then when you save a new inventory document, it will be assigned the On Hold status. To save it in another status, the user will need to click Remove Hold on the form toolbar. 
+ You can select the Hold Documents on Entry check box to make On Hold the default status. Then when you save a new inventory transactions, it will be assigned the On Hold status. To save it in another status, the user will need to click Remove Hold on the form toolbar. 
 
  To reduce the input error rate, you can select the Validate Document Totals on Entry check box. Then the user will need to review the transaction and manually enter a control quantity that is the same as the transaction quantity and a control amount that is equal to the transaction amount. 
 
@@ -6626,17 +6656,39 @@ If you need to move multiple inventory items to another item class at a time, yo
 
  Also, you can select the Add One Unit Per Barcode check box to indicate to the system that the item quantity on the receipt should be increased by one unit each time the item's barcode is entered into the system, manually or by using a barcode scanner. 
 
-#### Statuses 
+#### Upload of Transaction Lines from a File 
 
- An inventory transaction can pass through the following statuses: 
-
-- _On Hold_ : The transaction is a dra and may require further editing. With this status, the transaction cannot     be released. If the **Hold Documents on Entry** check box is selected on the _Inventory Preferences_ (IN101000) 
+ You can upload multiple lines from an Excel spreadsheet or a CSV file to an inventory transaction with the On Hold or Balanced status. To start the upload, click the Load Records from File button on the form toolbar and specify the required settings in the Import Data dialog box. For details, see To Import Data from a Local File to a Table. 
 
 
 <!-- PAGE_BREAK -->
  Processing Inventory Transactions | 162 
 
- form, the system assigns the On Hold status to new inventory transactions by default. To change the status of the transaction, you need to click Remove Hold on the form toolbar and save the transaction. 
+ If you select the Update Existing or Bypass Existing option in the Mode box of the Import Data dialog box, the system must identify duplicate records before uploading them. The fields used for identification depend on the form. On the Receipts (IN301000), Issues (IN302000), and Adjustments (IN303000) forms, the system uses the following fields: 
+
+- Branch 
+
+- Inventory ID 
+
+- Warehouse 
+
+- Location 
+
+- Lot/Serial Nbr. On the _Transfers_ (IN304000) form, the system uses the following fields: 
+
+- Inventory ID 
+
+- Location 
+
+- To Location 
+
+- Lot/Serial Nbr. 
+
+#### Statuses 
+
+ An inventory transaction can pass through the following statuses: 
+
+- _On Hold_ : The transaction is a dra and may require further editing. With this status, the transaction cannot     be released. If the **Hold Documents on Entry** check box is selected on the _Inventory Preferences_ (IN101000)     form, the system assigns the _On Hold_ status to new inventory transactions by default. To change the status     of the transaction, you need to click **Remove Hold** on the form toolbar and save the transaction. 
 
 - _Balanced_ : This is the default status for new transactions if the **Hold Documents on Entry** check box is     cleared on the _Inventory Preferences_ form. The transaction still can be edited and can be released. If the     **Validate Document Totals on Entry** check box is selected on the _Inventory Preferences_ form, you must enter     the control quantity and control amount to save the transaction in this status. 
 
@@ -6656,17 +6708,21 @@ If you need to move multiple inventory items to another item class at a time, yo
 
 - If the updating of the general ledger is enabled, generates the general ledger transactions according to the     transaction type of each line. You can view the balance of each inventory account and the list of documents     that update the account on the _Inventory Transactions by Account_ (IN403000) form. 
 
+
+<!-- PAGE_BREAK -->
+ Processing Inventory Transactions | 163 
+
 #### Inventory Accounts Used for the Posting of Inventory Transactions 
 
  The system determines the inventory account to which it posts transactions with a stock item differently depending on whether it is receiving or issuing an item. 
 
- When the system is receiving the item to the warehouse, it uses the inventory account from the source selected in the item's posting class. In this case, it creates a new cost layer or updates an existing one (depending on the item's valuation method). The system posts transactions to the inventory account on release of the following inventory documents: 
+ When the system is receiving the item to the warehouse, it uses the inventory account from the source selected in the item's posting class. In this case, it creates a new cost layer or updates an existing one (depending on the item's valuation method). The system posts transactions to the inventory account on release of the following inventory transactions: 
 
 - A receipt on the _Receipts_ (IN301000) form 
 
 - An issue on the _Issues_ (IN302000) form with the _Return_ or _Credit Memo_ transaction type 
 
-- A kit assembly for a stock kit or a kit disassembly for a stock component on the _Kit Assembly_ (IN307000) form When it is issuing the item from the warehouse or adjusting the item's quantity or cost, the system uses the inventory account specified in an existing cost layer. No new cost layers are created when the system posts transactions to the inventory account on release of the following inventory documents: 
+- A kit assembly for a stock kit or a kit disassembly for a stock component on the _Kit Assembly_ (IN307000) form When it is issuing the item from the warehouse or adjusting the item's quantity or cost, the system uses the inventory account specified in an existing cost layer. No new cost layers are created when the system posts transactions to the inventory account on release of the following inventory transactions: 
 
 - An issue on the _Issues_ form with the _Issue_ , _Invoice_ , or _Debit Memo_ transaction type 
 
@@ -6674,13 +6730,7 @@ If you need to move multiple inventory items to another item class at a time, yo
 
 - A transfer on the _Transfers_ (IN304000) form, which is generated directly or on release of a transfer order on     the _Sales Orders_ (SO301000) form 
 
-- A kit assembly for a stock component or kit disassembly for a stock kit on the _Kit Assembly_ form Suppose that you have some units of a stock item received to inventory to cost layer 1 with inventory account _12100_. Later you have changed the inventory account for the stock item to _12200_. Then you have created and released an inventory issue or adjustment with this item. When a batch of journal transactions containing the item is generated and posted to the Inventory account, the system will issue the item from account _12100_ specified in 
-
-
-<!-- PAGE_BREAK -->
- Processing Inventory Transactions | 163 
-
- the existing cost layer 1. The system will not use inventory account 12200 from the source selected in the item's posting class. 
+- A kit assembly for a stock component or kit disassembly for a stock kit on the _Kit Assembly_ form Suppose that you have some units of a stock item received to inventory to cost layer 1 with inventory account _12100_. Later you have changed the inventory account for the stock item to _12200_. Then you have created and released an inventory issue or adjustment with this item. When a batch of journal transactions containing the item is generated and posted to the Inventory account, the system will issue the item from account _12100_ specified in the existing cost layer 1. The system will not use inventory account _12200_ from the source selected in the item's posting class. 
 
  If a stock item has been received to multiple cost layers with multiple inventory accounts, the system will use the inventory account for an issue or adjustment, starting with the earliest available cost layer in which the item has an on-hand quantity greater than 0. 
 
@@ -6696,7 +6746,13 @@ If you need to move multiple inventory items to another item class at a time, yo
 
 #### Transaction Reason Codes 
 
- You use reason codes, defined on the Reason Codes (CS211000) form, to indicate why direct inventory transactions have been created. Each reason code has a default account and subaccount specified, and these are used as the offset account and subaccount for the inventory transactions. You can specify the reason codes to be used as the default reason codes for inventory receipts, issues, and adjustments on the Inventory Preferences (IN101000) form. 
+ You use reason codes, defined on the Reason Codes (CS211000) form, to indicate why direct inventory transactions have been created. Each reason code has a default account and subaccount specified, and these are used as the 
+
+
+<!-- PAGE_BREAK -->
+ Processing Inventory Transactions | 164 
+
+ offset account and subaccount for the inventory transactions. You can specify the reason codes to be used as the default reason codes for inventory receipts, issues, and adjustments on the Inventory Preferences (IN101000) form. 
 
 ### Inventory Receipt Processing 
 
@@ -6716,10 +6772,6 @@ If you need to move multiple inventory items to another item class at a time, yo
 
 - **Inventory ID** that identifies the stock item. If the _Inventory Subitems_ feature is enabled in your system,     subitem is used with the inventory ID to identify the stock item. 
 
-
-<!-- PAGE_BREAK -->
- Processing Inventory Transactions | 164 
-
 - **UOM** , unit of measure. By default, it is the base UOM selected for the item on the _Stock Items_ form. However,     if the _Multiple Units of Measure_ feature is enabled on the _Enable/Disable Features_ (CS100000) form, you can     use any of the UOMs specified for the item. 
 
 - **Quantity** , the quantity of the item to be received to the inventory in the selected UOM. 
@@ -6736,6 +6788,10 @@ If you need to move multiple inventory items to another item class at a time, yo
 
  Released receipts are read-only documents. 
 
+
+<!-- PAGE_BREAK -->
+ Processing Inventory Transactions | 165 
+
  If the Update GL check box is selected on the Inventory Preferences form, on release of each receipt the system generates a batch of general ledger entries, updates the availability data for the items and the cost statistics. You can view the reference number of such batch on the Financial tab of the Receipts form: To view the details of the batch, click the reference number of the batch in the Batch Nbr box. 
 
  The Inventory Valuation (IN615500) report shows the on-hand quantity and the total cost of inventory items on hand, which are updated by every released inventory receipt. 
@@ -6751,10 +6807,6 @@ If you need to move multiple inventory items to another item class at a time, yo
 #### Processing of Manually Entered Receipts 
 
  You can create inventory receipts manually if your organization does not use the Purchase Orders and Sales Orders modules. In case the Sales Orders module is integrated with the Inventory module, you can create receipts for the transferred inventory in a two-step transfer process. Also, you can use receipts to enter initial quantities of stock items during the system implementation. 
-
-
-<!-- PAGE_BREAK -->
- Processing Inventory Transactions | 165 
 
  On release of a receipt, the system generates a batch of General Ledger entries: For each receipt's line, one journal entry debits the inventory account (determined by the posting class of the item) and another credits the account specified in the reason code of the receipt line. 
 
@@ -6776,6 +6828,10 @@ If you need to move multiple inventory items to another item class at a time, yo
 
  Also, you can create inventory issues that are not linked to sales in the following situations: 
 
+
+<!-- PAGE_BREAK -->
+ Processing Inventory Transactions | 166 
+
 - To remove expired or damaged goods 
 
 - To return excessively issued goods If the Sales Orders functionality is not used, or in some other cases, you can create inventory issues to account for sales and returns. 
@@ -6791,10 +6847,6 @@ If you need to move multiple inventory items to another item class at a time, yo
 - _Return_ : Indicates that the specified quantity of the stock item was returned to inventory. Transactions of     this type are generated from customer return orders of the _RM_ and _RR_ order types. Issues of this type can     be created to return the excessively issued items. The quantities of returned items increase the on-hand     quantities of stock items and the total costs. 
 
 - _Invoice_ : Indicates that the specified quantity of the inventory item is issued based on an invoice. Generally,     the system generates issues of this type when you are fulfilling the sales orders; also, you can create these     issues manually. The quantity of inventory in this transaction will be subtracted from the quantity of the     item available at the warehouse. 
-
-
-<!-- PAGE_BREAK -->
- Processing Inventory Transactions | 166 
 
  If the Advanced SO Invoices feature is enabled on the Enable/Disable Features (CS100000) form, the system generates issues of the Invoice type on release of the direct sales invoices. For more information, see Direct Sales: General Information. 
 
@@ -6814,6 +6866,10 @@ If you need to move multiple inventory items to another item class at a time, yo
 
 - **Inventory ID** , which identifies the stock item. If the _Inventory Subitems_ feature is enabled in your system,     the subitem is used with the inventory ID to identify the stock item. 
 
+
+<!-- PAGE_BREAK -->
+ Processing Inventory Transactions | 167 
+
 - **UOM** , or the unit of measure. By default, the system inserts the base UOM selected for the item on the _Stock_     _Items_ form. However, if the _Multiple Units of Measure_ feature is enabled on the _Enable/Disable Features_     (CS100000) form, you can use any of the UOMs specified for the item. 
 
 - **Quantity** , the quantity of the item to be issued in the selected UOM. 
@@ -6823,10 +6879,6 @@ If you need to move multiple inventory items to another item class at a time, yo
 - **Unit Price** or **Ext. Price** (extended price) of the issued item, which is applicable only to lines of the _Invoice_ ,     _Debit_ , and _Credit Memo_ types. You can enter the unit price or use the default unit price, and the system     calculates the extended price automatically as the unit price multiplied by quantity. You can instead enter     the extended price manually. 
 
 - **Reason Code** , which is required only for transactions of the _Issue_ or _Return_ types. The reason code defines     the offset account to be updated by the issue line. The system will use the default reason code selected for     issues on the _Inventory Preferences_ (IN101000) form if no reason code is specified for the line. Reason codes     are not used for issues generated from documents originating in the Sales Orders functionality. For the procedures that describe how to enter an inventory issue, see _To Enter an Inventory Issue of the Issue Type_ and _To Enter an Inventory Issue of the Invoice Type_. 
-
-
-<!-- PAGE_BREAK -->
- Processing Inventory Transactions | 167 
 
 #### Release of Issues 
 
@@ -6848,7 +6900,13 @@ If you need to move multiple inventory items to another item class at a time, yo
 
 #### Direct Issues 
 
- If you enter an issue manually, reason codes are required for each issue line of the Issue and Return types. Reason codes used for issues should provide offset accounts for each specific type of issues. You can specify the most appropriate reason code for each issue line; when no reason code is selected, the system automatically inserts the default reason code of the Issue usage that is specified on the Inventory Preferences (IN101000) form. 
+ If you enter an issue manually, reason codes are required for each issue line of the Issue and Return types. Reason codes used for issues should provide offset accounts for each specific type of issues. You can specify the most 
+
+
+<!-- PAGE_BREAK -->
+ Processing Inventory Transactions | 168 
+
+ appropriate reason code for each issue line; when no reason code is selected, the system automatically inserts the default reason code of the Issue usage that is specified on the Inventory Preferences (IN101000) form. 
 
  With a direct issue, the extended cost amount updates the balances of the inventory account and of the offset account supplied by the reason code. The selected offset account depends on the reason of the transaction; it is a specific expense account. If the issue has been created for kit assembling, the offset account is usually an expense account, such as Material Expense. If the issue has been created to remove expired goods, the offset account might be Expired Goods' Costs. 
 
@@ -6859,10 +6917,6 @@ If you need to move multiple inventory items to another item class at a time, yo
  On release of such transactions (with nonzero extended prices), the system generates the following additional journal entries: 
 
 - For a line of the _Invoice_ or _Debit Memo_ type, the extended price amount (sales amount) is credited to the     Sales account and debited to the AR Clearing account defined on the _Inventory Preferences_ (IN101000) form. 
-
-
-<!-- PAGE_BREAK -->
- Processing Inventory Transactions | 168 
 
 - For a line of the _Credit Memo_ type, this amount is credited to the AR Clearing account and debited to the     Sales account. The Sales account is determined by the posting class of the item; can be overridden by the     offset account of the reason code it such code is specified. To complete the sale to the customer or the customer return, you can later create an appropriate AR document ( _Invoice_ , _Credit Memo_ , or _Debit Memo_ ) by using the _Invoices and Memos_ (AR301000) form, and move the sales amount from the AR Clearing account to the AR account of the customer. 
 
@@ -6886,15 +6940,17 @@ If you need to move multiple inventory items to another item class at a time, yo
 
 3. In the **Description** box of the Summary area, type the description of the transaction. 
 
-4. On the **Details** tab, do the following:     a. On the table toolbar, click **Add Items**.     b. In the **Inventory Lookup** dialog box, which opens, do the following:        a. Select the unlabeled check box for one stock item or multiple stock items that you want to add to the           receipt.        b. In the **Qty. Selected** column, specify the quantity included in the receipt for each of the selected           items.        c. Click **Add & Close** to add the selected item or items and close the dialog box.     c. In the **UOM** column, make sure that the correct unit of measure is selected.     d. In the **Unit Cost** column, make sure that the default unit cost is correct or specify the correct value.     e. In the **Reason Code** column, select the reason code for this transaction.     f. Press Ctrl+Enter to confirm the line. 
-
-5. On the form toolbar, click **Save**. 
-
-6. On the form toolbar, click **Release** to release the inventory receipt. 
+4. On the **Details** tab, do the following:     a. On the table toolbar, click **Add Items**.     b. In the **Inventory Lookup** dialog box, which opens, do the following: 
 
 
 <!-- PAGE_BREAK -->
  Processing Inventory Transactions | 169 
+
+ a. Select the unlabeled check box for one stock item or multiple stock items that you want to add to the receipt. b. In the Qty. Selected column, specify the quantity included in the receipt for each of the selected items. c. Click Add & Close to add the selected item or items and close the dialog box. c. In the UOM column, make sure that the correct unit of measure is selected. d. In the Unit Cost column, make sure that the default unit cost is correct or specify the correct value. e. In the Reason Code column, select the reason code for this transaction. f. Press Ctrl+Enter to confirm the line. 
+
+5. On the form toolbar, click **Save**. 
+
+6. On the form toolbar, click **Release** to release the inventory receipt. 
 
 ### To Enter an Inventory Issue of the Issue Type 
 
@@ -6916,6 +6972,10 @@ If you need to move multiple inventory items to another item class at a time, yo
 
 5. On the form toolbar, click **Save**. 
 
+
+<!-- PAGE_BREAK -->
+ Processing Inventory Transactions | 170 
+
 6. On the form toolbar, click **Release** to release the issue. 
 
 ### To Enter an Inventory Issue of the Invoice Type 
@@ -6923,10 +6983,6 @@ If you need to move multiple inventory items to another item class at a time, yo
  You create an issue of the Invoice type by using the Issues (IN302000) form, as described in this topic. When the issue of this type is released, the system creates the credit transaction to the inventory account and the debit transaction to the COGS account. 
 
  To open any form, you can navigate to it or search for it (by its name or by its form ID without periods). For more information about search capabilities, see Search. 
-
-
-<!-- PAGE_BREAK -->
- Processing Inventory Transactions | 170 
 
 #### To Enter an Issue of the Invoice Type 
 
@@ -6950,6 +7006,10 @@ If you need to move multiple inventory items to another item class at a time, yo
 
  To open any form, you can navigate to it or search for it (by its name or by its form ID without periods). For more information about search capabilities, see Search. 
 
+
+<!-- PAGE_BREAK -->
+ Processing Inventory Transactions | 171 
+
 #### To Enter an Inventory Adjustment 
 
 1. Open the _Adjustments_ (IN303000) form. 
@@ -6960,13 +7020,7 @@ If you need to move multiple inventory items to another item class at a time, yo
 
 3. In the **Description** box in the Summary area, type the description of the transaction. 
 
-4. On the **Details** tab, do the following for each stock item to be included in the adjustment:     a. On the table toolbar, click **Add Row**. 
-
-
-<!-- PAGE_BREAK -->
- Processing Inventory Transactions | 171 
-
- b. In the Inventory ID column of the added row, select the stock item for which you need to enter corrections. c. In the UOM column, make sure that the correct unit of measure is selected. d. If you are adjusting the item quantity, in the Quantity column, type the negative quantity to subtract units from inventory or positive quantity to add units to inventory. e. If you are adjusting the item cost, in the Ext. Cost column, type the negative extended cost (cost difference) to reduce the cost of inventory or positive extended cost (cost difference) to increase the cost of inventory. f. In the Reason Code column, select the reason code appropriate to this transaction. g. Press Ctrl+Enter to confirm the line. 
+4. On the **Details** tab, do the following for each stock item to be included in the adjustment:     a. On the table toolbar, click **Add Row**.     b. In the **Inventory ID** column of the added row, select the stock item for which you need to enter        corrections.     c. In the **UOM** column, make sure that the correct unit of measure is selected.     d. If you are adjusting the item quantity, in the **Quantity** column, type the negative quantity to subtract        units from inventory or positive quantity to add units to inventory.     e. If you are adjusting the item cost, in the **Ext. Cost** column, type the negative extended cost (cost        difference) to reduce the cost of inventory or positive extended cost (cost difference) to increase the cost        of inventory.     f. In the **Reason Code** column, select the reason code appropriate to this transaction.     g. Press Ctrl+Enter to confirm the line. 
 
 5. On the form toolbar, click **Save**. 
 
@@ -7720,7 +7774,7 @@ If you need to move multiple inventory items to another item class at a time, yo
 
 - In a sales order line with the _Issue_ operation, the system uses the populated **Unit Cost** value for the     calculation of the estimated margin amount. When an item is shipped and the inventory issue is     released, this item will be issued from a warehouse with the unit cost calculated based on its valuation     method. 
 
-- In a sales order line with the _Receipt_ operation, the **Unit Cost** value is populated based on the selected     option if no original unit cost has been found in the system. This unit cost will be posted to the Inventory     account when the item has been received back in stock. 
+- In a sales order line with the _Receipt_ operation, the **Unit Cost** value is populated based on the selected     option if no original unit cost has been found in the system. This unit cost will be posted to the Inventory     account when the item has been received back in stock. (If the _Average_ option is selected, no original unit     cost has been found, and the item's on-hand quantity is 0, then the system will use the item's **Last Cost**     value on the _Stock Items_ (IN202500) form.) 
 
  If the original unit cost has been found in an issue related to the original invoice (if any) specified in the Invoice Nbr. column, the system will use the original unit cost by default. 
 
@@ -7912,7 +7966,7 @@ The following table lists the inventory documents that affect the cost (in the f
 
  The following activity demonstrates how to completely process a sale of a stock item that is assigned the Average valuation method. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -7920,17 +7974,17 @@ The following table lists the inventory documents that affect the cost (in the f
 
  Previously, SweetLife bought peach jam as follows: 
 
-- On December 1, 2024, 10 boxes of peach jam for $85 each, which were received at the main warehouse     location. 
+- On December 1, 2025, 10 boxes of peach jam for $85 each, which were received at the main warehouse     location. 
 
-- On December 15, 2024, 10 boxes of peach jam for $90 each, which were received at the main warehouse     location. 
+- On December 15, 2025, 10 boxes of peach jam for $90 each, which were received at the main warehouse     location. 
 
-- On December 20, 2024, 10 boxes of peach jam for $92.25 each, which were received at the fruit warehouse     location; costs for this location should be tracked separately. These boxes were bought from a particular     vendor at a higher price for a special customer project, but the customer later refused to buy them. 
+- On December 20, 2025, 10 boxes of peach jam for $92.25 each, which were received at the fruit warehouse     location; costs for this location should be tracked separately. These boxes were bought from a particular     vendor at a higher price for a special customer project, but the customer later refused to buy them. 
 
 
 <!-- PAGE_BREAK -->
  Managing Item Costs and Valuation Methods | 194 
 
- On January 30, 2025, the FourStar Coffee & Sweets Shop customer ordered 30 boxes of the jam. Acting as SweetLife's sales manager Regina Wiley, you need to process the sale and review the cost of the peach jam issued from the warehouse. 
+ On January 30, 2026, the FourStar Coffee & Sweets Shop customer ordered 30 boxes of the jam. Acting as SweetLife's sales manager Regina Wiley, you need to process the sale and review the cost of the peach jam issued from the warehouse. 
 
 #### Configuration Overview 
 
@@ -7956,11 +8010,11 @@ The following table lists the inventory documents that affect the cost (in the f
 
 - On the _Receipts_ (IN301000) form, the following receipts have been created and released: 
 
-- A receipt dated 12/1/2024 for 10 units of the _PEACHJAM08_ item with a cost of $85 each. The units have     been received in the _MAIN_ location. 
+- A receipt dated 12/1/2025 for 10 units of the _PEACHJAM08_ item with a cost of $85 each. The units have     been received in the _MAIN_ location. 
 
-- A receipt dated 12/15/2024 for 10 units of the _PEACHJAM08_ item with a cost of $90 each. The units have     been received in the _MAIN_ location. 
+- A receipt dated 12/15/2025 for 10 units of the _PEACHJAM08_ item with a cost of $90 each. The units have     been received in the _MAIN_ location. 
 
-- A receipt dated 12/20/2024 for 10 units of the _PEACHJAM08_ item with a cost of $92.25 each. The units     have been received in the _F4S1_ location. 
+- A receipt dated 12/20/2025 for 10 units of the _PEACHJAM08_ item with a cost of $92.25 each. The units     have been received in the _F4S1_ location. 
 
 #### Process Overview 
 
@@ -7980,13 +8034,13 @@ The following table lists the inventory documents that affect the cost (in the f
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as a sales manager by     using the _wiley_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and 
 
 
 <!-- PAGE_BREAK -->
  Managing Item Costs and Valuation Methods | 195 
 
- button and select 1/30/2025 on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date. 
+ select 1/30/2026 from the calendar. For simplicity, you'll create and process all documents in this activity using this business date. 
 
 #### Step 1: Reviewing the Costs of the Purchased Item 
 
@@ -8016,7 +8070,7 @@ The following table lists the inventory documents that affect the cost (in the f
 
 - **Customer** : _COFFEESHOP_ 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
 - **Description** : Sale of 30 boxes of peach jam 
 
@@ -8060,7 +8114,7 @@ The following table lists the inventory documents that affect the cost (in the f
 
 2. In the Selection area, specify the following settings: 
 
-- **Period** : _01-2025_ 
+- **Period** : _01-2026_ 
 
 - **Inventory ID** : _PEACHJAM08_ 
 
@@ -8110,7 +8164,7 @@ The following table lists the inventory documents that affect the cost (in the f
 <!-- PAGE_BREAK -->
  Managing Item Costs and Valuation Methods | 198 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -8118,9 +8172,9 @@ The following table lists the inventory documents that affect the cost (in the f
 
  Previously SweetLife bought clementines as follows: 
 
-- On January 5, 2025, 40 pounds for $4.50 each 
+- On January 5, 2026, 40 pounds for $4.50 each 
 
-- On January 15, 2025, 80 pounds for $4.25 each Suppose that you are Regina Wiley, a sales manager at SweetLife. The FourStar Coffee & Sweets Shop customer ordered 50 pounds of clementines. You need to process the sale and review the cost of the items issued from the warehouse. 
+- On January 15, 2026, 80 pounds for $4.25 each Suppose that you are Regina Wiley, a sales manager at SweetLife. The FourStar Coffee & Sweets Shop customer ordered 50 pounds of clementines. You need to process the sale and review the cost of the items issued from the warehouse. 
 
 #### Configuration Overview 
 
@@ -8138,9 +8192,9 @@ The following table lists the inventory documents that affect the cost (in the f
 
 - On the _Receipts_ (IN301000) form, the following receipts have been created: 
 
-- The _000099_ receipt dated 1/5/2025 with 40 pounds of the _CLEMENTINES_ item and a cost of $4.50 each 
+- The _000099_ receipt dated 1/5/2026 with 40 pounds of the _CLEMENTINES_ item and a cost of $4.50 each 
 
-- The _0000100_ receipt dated 1/15/2025 with 80 pounds of the _CLEMENTINES_ item and a cost of $4.25 each 
+- The _0000100_ receipt dated 1/15/2026 with 80 pounds of the _CLEMENTINES_ item and a cost of $4.25 each 
 
 #### Process Overview 
 
@@ -8164,7 +8218,7 @@ The following table lists the inventory documents that affect the cost (in the f
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as a sales manager by     using the _wiley_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Reviewing the Costs of the Purchased Item 
 
@@ -8194,7 +8248,7 @@ The following table lists the inventory documents that affect the cost (in the f
 
 - **Customer** : _COFFEESHOP_ 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
 - **Description** : Sale of 50 pounds of clementines 
 
@@ -8292,13 +8346,13 @@ The following table lists the inventory documents that affect the cost (in the f
 
  The following activity demonstrates how to completely process a sale of a stock item that is assigned the Specific valuation method. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  SweetLife Fruits & Jams is a midsize company that purchases fruit, jams, and spices from large fruit vendors and then sells these goods to wholesale customers such as restaurants and cafes. Also, SweetLife offers hand-made gi baskets with a unique design for fruit and jam. The HMBASKET stock item (which represents one hand-made gi basket) has been assigned the Specific valuation method in Acumatica ERP. 
 
- On January 15, 2025, the company bought ten baskets, and each of them has a different serial number. On receipt of the baskets, the serial numbers have been assigned to them. Further suppose that the Delicious Energy restaurant ordered four baskets. 
+ On January 15, 2026, the company bought ten baskets, and each of them has a different serial number. On receipt of the baskets, the serial numbers have been assigned to them. Further suppose that the Delicious Energy restaurant ordered four baskets. 
 
  Suppose that you are Regina Wiley, a sales manager at SweetLife. You need to process the sale and review the cost of the baskets issued from the warehouse. 
 
@@ -8320,7 +8374,7 @@ The following table lists the inventory documents that affect the cost (in the f
 
 - On the _Stock Items_ (IN202500) form, the _HMBASKET_ stock item has been created with the _HMBSKT_ serial     class and the _Specific_ valuation method. 
 
-- On the _Receipts_ (IN301000) form, the _000103_ receipt dated 1/15/2025 has been created for the _HMBASKET_     item. It has the ten lines for ten baskets with serial numbers from _BSKT02001_ through _BSKT02010_. 
+- On the _Receipts_ (IN301000) form, the _000103_ receipt dated 1/15/2026 has been created for the _HMBASKET_     item. It has the ten lines for ten baskets with serial numbers from _BSKT02001_ through _BSKT02010_. 
 
 #### Process Overview 
 
@@ -8346,7 +8400,7 @@ The following table lists the inventory documents that affect the cost (in the f
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as a sales manager by     using the _wiley_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Enabling the Feature 
 
@@ -8388,7 +8442,7 @@ The following table lists the inventory documents that affect the cost (in the f
 
 - **Customer** : _DELIENERGY_ 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
 - **Description** : Sale of hand-made baskets 
 
@@ -8460,7 +8514,7 @@ The following table lists the inventory documents that affect the cost (in the f
 
 5. In the Selection area, specify the following settings: 
 
-- **Period** : _01-2025_ 
+- **Period** : _01-2026_ 
 
 - **Warehouse** : _WHOLESALE_ 
 
@@ -8544,7 +8598,7 @@ The following table lists the inventory documents that affect the cost (in the f
 
  The following activity demonstrates how to completely process a sale of a stock item that is assigned the Standard valuation method. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -8554,7 +8608,7 @@ The following table lists the inventory documents that affect the cost (in the f
 <!-- PAGE_BREAK -->
  Managing Item Costs and Valuation Methods | 209 
 
- On January 15, 2025, the company bought 100 bags at the cost of $3.75 from a regular vendor. On January 20, 2025, the company bought 200 bags at the cost of $3.50 from a new vendor. Further suppose that the HM's Bakery & Cafe customer ordered 125 bags for giving out SweetLife's fruit at a corporate event. 
+ On January 15, 2026, the company bought 100 bags at the cost of $3.75 from a regular vendor. On January 20, 2026, the company bought 200 bags at the cost of $3.50 from a new vendor. Further suppose that the HM's Bakery & Cafe customer ordered 125 bags for giving out SweetLife's fruit at a corporate event. 
 
  Acting as sales manager Regina Wiley, you need to review how the costs of the purchased bags have been recorded in the system. You will then process the sale, and review the cost of the bags issued from the warehouse. 
 
@@ -8574,9 +8628,9 @@ The following table lists the inventory documents that affect the cost (in the f
 
 - On the _Purchase Receipts_ (PO302000) form, the following purchase receipts that include the _BAMBOOBAG_     item have been created and released: 
 
-- A purchase receipt dated 1/15/2025 for 100 pieces with a cost of $3.75 
+- A purchase receipt dated 1/15/2026 for 100 pieces with a cost of $3.75 
 
-- A purchase receipt dated 1/25/2025 for 200 pieces with a cost of $3.50 
+- A purchase receipt dated 1/25/2026 for 200 pieces with a cost of $3.50 
 
 #### Process Overview 
 
@@ -8596,13 +8650,13 @@ The following table lists the inventory documents that affect the cost (in the f
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as a sales manager by     using the _wiley_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Reviewing the Cost of the Purchased Item 
 
  To review the costs of the BAMBOOBAG stock item, do the following: 
 
-1. On the _Receipts_ (IN301000) form, open the receipt dated 1/25/2025 for 200 pieces of bags. Notice that the     **Total Cost** is _700_ , which means that the unit cost is $3.5. 
+1. On the _Receipts_ (IN301000) form, open the receipt dated 1/25/2026 for 200 pieces of bags. Notice that the     **Total Cost** is _700_ , which means that the unit cost is $3.5. 
 
 
 <!-- PAGE_BREAK -->
@@ -8614,13 +8668,13 @@ The following table lists the inventory documents that affect the cost (in the f
 
 3. In the Selection area, specify the following settings: 
 
-- **Period** : _01-2025_ 
+- **Period** : _01-2026_ 
 
 - **Warehouse** : _WHOLESALE_ 
 
 - **Inventory ID** : _BAMBOOBAG_ 
 
-4. Review the amounts in the table (see the following screenshot). Notice that in the receipt dated 1/15/2025     for 100 bags, the **In/Out Unit Cost [*]** is _3.75_. This means that the standard unit cost of $3.75 was used. Also     notice that in the receipt dated 1/25/2025 for 200 bags, the **In/Out Unit Cost [*]** is _3.75_. Despite the unit cost     of $3.5 for the purchased items the system has recorded the standard cost of $3.75. 
+4. Review the amounts in the table (see the following screenshot). Notice that in the receipt dated 1/15/2026     for 100 bags, the **In/Out Unit Cost [*]** is _3.75_. This means that the standard unit cost of $3.75 was used. Also     notice that in the receipt dated 1/25/2026 for 200 bags, the **In/Out Unit Cost [*]** is _3.75_. Despite the unit cost     of $3.5 for the purchased items the system has recorded the standard cost of $3.75. 
 
  Figure: The item costs on the Inventory Transaction Details form 
 
@@ -8636,7 +8690,7 @@ The following table lists the inventory documents that affect the cost (in the f
 
 - **Customer** : _HMBAKERY_ 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
 - **Description** : Sale of 125 bamboo grocery bags 
 
@@ -9738,7 +9792,7 @@ The following table lists the inventory documents that affect the cost (in the f
 
  The following activity will walk you through the process of calculating the inventory turnover and filtering the results. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -9772,7 +9826,7 @@ The following table lists the inventory documents that affect the cost (in the f
 
 1. Sign in to the system as purchasing manager by using the _wiley_ username and the provided password.. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/30/2025_. If a different date is displayed, click the Business Date menu     button, and select _3/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/30/2026_. If a different date is displayed, click the Business Date menu     button, and select _3/30/2026_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 #### Step 1: Calculating the Inventory Turnover 
 
@@ -9782,9 +9836,9 @@ The following table lists the inventory documents that affect the cost (in the f
 
 2. In the Company/Branch box in the Selection area, specify _RETAIL_. 
 
-3. In the **From Period** box in the Selection area, specify _01-2025_. 
+3. In the **From Period** box in the Selection area, specify _01-2026_. 
 
-4. In the **To Period** box in the Selection area, specify _03-2025_. 
+4. In the **To Period** box in the Selection area, specify _03-2026_. 
 
 5. On the form toolbar, click **Calculate Turnover**. 
 
@@ -9930,7 +9984,11 @@ The following table lists the inventory documents that affect the cost (in the f
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
@@ -9938,29 +9996,93 @@ The following table lists the inventory documents that affect the cost (in the f
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 245 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 246 
 
 #### Report Toolbar 
 
@@ -9969,12 +10091,6 @@ The following table lists the inventory documents that affect the cost (in the f
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 245 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -10000,25 +10116,77 @@ The following table lists the inventory documents that affect the cost (in the f
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 246 
+ Appendix | 247 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 248 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -10036,91 +10204,45 @@ The following table lists the inventory documents that affect the cost (in the f
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 247 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 248 
+ Appendix | 249 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -10139,6 +10261,12 @@ The following table lists the inventory documents that affect the cost (in the f
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 250 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -10162,10 +10290,6 @@ The following table lists the inventory documents that affect the cost (in the f
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 249 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -10180,13 +10304,19 @@ The following table lists the inventory documents that affect the cost (in the f
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 251 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -10204,10 +10334,6 @@ The following table lists the inventory documents that affect the cost (in the f
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 250 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -10222,6 +10348,10 @@ The following table lists the inventory documents that affect the cost (in the f
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 252 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -10230,11 +10360,7 @@ The following table lists the inventory documents that affect the cost (in the f
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 251 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -10260,6 +10386,12 @@ The following table lists the inventory documents that affect the cost (in the f
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 253 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -10267,12 +10399,6 @@ The following table lists the inventory documents that affect the cost (in the f
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 252 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -10300,19 +10426,19 @@ The following table lists the inventory documents that affect the cost (in the f
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 254 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 253 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -10322,13 +10448,15 @@ The following table lists the inventory documents that affect the cost (in the f
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 255 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -10339,10 +10467,6 @@ The following table lists the inventory documents that affect the cost (in the f
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 254 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -10356,6 +10480,10 @@ The following table lists the inventory documents that affect the cost (in the f
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 256 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -10366,11 +10494,11 @@ The following table lists the inventory documents that affect the cost (in the f
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 255 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 257 
 
 #### Unavailable Commands on the More Menu 
 
@@ -10382,17 +10510,13 @@ The following table lists the inventory documents that affect the cost (in the f
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 256 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 257 
+ Appendix | 258 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -10404,7 +10528,11 @@ The following table lists the inventory documents that affect the cost (in the f
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 259 
 
  Figure: Table toolbar 
 
@@ -10424,17 +10552,17 @@ The following table lists the inventory documents that affect the cost (in the f
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 258 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 260 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -10464,13 +10592,13 @@ The following table lists the inventory documents that affect the cost (in the f
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 259 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 261 
 
  Element Description 
 
@@ -10514,15 +10642,15 @@ The following table lists the inventory documents that affect the cost (in the f
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 260 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 262 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

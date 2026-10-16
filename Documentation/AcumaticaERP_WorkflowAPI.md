@@ -1,8 +1,8 @@
 ## Developer Guide 
 
-# Workflow API Guide 
+# Workflow API 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -118,7 +118,7 @@
 
  Step 1: Adding a Condition.................................................................................................................... 69 
 
- Step 2: Adding the PendingPayment Workflow State (Self-Guided Exercise)..................................... 70 
+ Step 2: Adding the PendingPayment Workflow State (Self-Guided Exercise)..................................... 69 
 
  Step 3: Grouping Transitions and Adding Conditions to Transitions...................................................70 
 
@@ -182,13 +182,13 @@
 
  Step 1: Creating a Custom Field............................................................................................................ 99 
 
- Step 2: Deriving the Value of the Field................................................................................................ 100 
+ Step 2: Deriving the Value of the Field................................................................................................ 101 
 
- Step 3: Exploring the Acumatica ERP Source Code............................................................................ 101 
+ Step 3: Exploring the Acumatica ERP Source Code............................................................................ 102 
 
- Step 4: Declaring the Workflow Event.................................................................................................102 
+ Step 4: Declaring the Workflow Event.................................................................................................103 
 
- Step 5: Firing the Event........................................................................................................................ 103 
+ Step 5: Firing the Event........................................................................................................................ 104 
 
  Step 6: Testing the Transition.............................................................................................................. 105 
 
@@ -226,35 +226,35 @@
 
  Step 7: Testing the Transition.............................................................................................................. 121 
 
-**Defining Action Sequences...................................................................................................................122** 
+**Defining Action Sequences...................................................................................................................123** 
 
- Action Sequences: General Info.................................................................................................................... 122 
+ Action Sequences: General Info.................................................................................................................... 123 
 
 
 <!-- PAGE_BREAK -->
  Contents | 5 
 
- Action Sequences: To Define an Action Sequence.......................................................................................124 
+ Action Sequences: To Define an Action Sequence.......................................................................................125 
 
-**Defining Workflows with a Workflow Identifying Field...........................................................................129** 
+**Defining Workflows with a Workflow Identifying Field...........................................................................130** 
 
- Workflow-Identifying Fields: General Information...................................................................................... 129 
+ Workflow-Identifying Fields: General Information...................................................................................... 130 
 
- Workflow-Identifying Fields: To Add a Workflow for a Value of the Workflow-Identifying Field............... 130 
+ Workflow-Identifying Fields: To Add a Workflow for a Value of the Workflow-Identifying Field............... 131 
 
- Step 1: Adding the OrderType Field and Corresponding Box to the UI............................................. 132 
+ Step 1: Adding the OrderType Field and Corresponding Box to the UI............................................. 133 
 
- Step 2: Specifying the Workflow-Identifying Field in the Workflow.................................................. 134 
+ Step 2: Specifying the Workflow-Identifying Field in the Workflow.................................................. 136 
 
- Step 3: Adding a Workflow for the Specific Value of the Workflow-Identifying Field........................135 
+ Step 3: Adding a Workflow for the Specific Value of the Workflow-Identifying Field........................137 
 
- Step 4: Testing the Workflow............................................................................................................... 137 
+ Step 4: Testing the Workflow............................................................................................................... 139 
 
-**Using Workflow-Identifying Fields of the Second Level.......................................................................... 138** 
+**Using Workflow-Identifying Fields of the Second Level.......................................................................... 141** 
 
- Workflow-Identifying Fields of the Second Level: General Information.....................................................138 
+ Workflow-Identifying Fields of the Second Level: General Information.....................................................141 
 
- Workflow-Identifying Fields of the Second Level: To Define a Workflow................................................... 140 
+ Workflow-Identifying Fields of the Second Level: To Define a Workflow................................................... 143 
 
 
 <!-- PAGE_BREAK -->
@@ -276,9 +276,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -298,11 +298,7 @@
 
 #### Advantages of Workflows 
 
- Before workflows were introduced, similar logic was implemented in one of the following ways: 
-
-- By using automation steps.     This functionality has been deprecated since 2023 R1. 
-
-- Through complex logic in graph code. Developers used a set of flags to track the record status and     implemented event handlers, such as RowSelected. In the event handlers, they changed the properties of     different elements of the screen, such as fields and actions, depending on the flags’ values. Workflows provide the following advantages over the previous approaches: 
+ Workflows provide the following advantages over the previous approaches: 
 
 - **Shorter, more readable code:** You can use Workflow API to declaratively describe complicated logic that     was previously in RowSelected event handlers. This makes it much easier to understand the structure     and modify the logic—for example, to enable an action for a particular status. 
 
@@ -318,11 +314,11 @@
 
  A workflow can be described as a state machine, with transitions showing the movement of the record through its processing in the system as the corresponding work is performed in the company. For example, a workflow can involve the changing of the status of an opportunity based on user interactions on the Opportunities (CR304000) form to reflect the progress made with the potential customer that represents an opportunity. 
 
+ For details on defining states, see Defining Workflow States. For details on defining transitions, see Implementing Transitions. 
+
 
 <!-- PAGE_BREAK -->
  Getting Started with Workflow API: General Information | 8 
-
- For details on defining states, see Defining Workflow States. For details on defining transitions, see Implementing Transitions. 
 
 #### Actions and Fields 
 
@@ -344,13 +340,13 @@
 
 ## Company Story and Customization Description 
 
- In the activities of this guide, you will develop a customization project to support the cell phone repair shop of the Smart Fix company. Parts of this customization were developed in the T200 Maintenance Forms , T210 Customized Forms and Master-Detail Relationship , and T220 Data Entry and Setup Forms training courses. The activities of this guide use the customization project that you can get as a result of completing these courses. You will deploy this project in Test Instance for Workflow Customization: To Deploy a Test Instance. 
+ In the activities of this guide, you will develop a customization project to support the cell phone repair shop of the Smart Fix company. Parts of this customization were developed in the T200 Maintenance Forms , T210 Customized Forms and Master-Details Relationships , and T220 Data Entry and Setup Forms training courses. The activities of this guide use the customization project that you can get as a result of completing these courses. You will deploy this project in Test Instance for Workflow Customization: To Deploy a Test Instance. 
 
  The T200 Maintenance Forms training course describes the creation of the following simple maintenance forms: 
 
 - Repair Services (RS201000): The Smart Fix company uses this form to manage the list of the repair services     the company provides. 
 
-- Serviced Devices (RS202000): On this form, the Smart Fix company manages the list of the devices serviced     by the company. The _T210 Customized Forms and Master-Detail Relationship_ course covers the creation of another maintenance form, Services and Prices (RS203000), and the customization of the _Stock Items_ (IN202500) form of Acumatica ERP. The Services and Prices (RS203000) form provides users with the ability to define and maintain the price for each repair service the company provides. The _Stock Items_ (IN202500) form has been customized to give users the ability to mark particular stock items as repair items—that is, items that are used for repair services. 
+- Serviced Devices (RS202000): On this form, the Smart Fix company manages the list of the devices serviced     by the company. The _T210 Customized Forms and Master-Details Relationships_ course covers the creation of another maintenance form, Services and Prices (RS203000), and the customization of the _Stock Items_ (IN202500) form of Acumatica ERP. The Services and Prices (RS203000) form provides users with the ability to define and maintain the price for each repair service the company provides. The _Stock Items_ (IN202500) form has been customized to give users the ability to mark particular stock items as repair items—that is, items that are used for repair services. 
 
  In the T220 Data Entry and Setup Forms course, the Repair Work Orders (RS301000) data entry form, which is used to create and manage work orders for repairs, is created. The course also covers the creation of the Repair Work Order Preferences (RS101000) setup form, on which an administrative user specifies the company’s preferences for the repair work orders. 
 
@@ -506,11 +502,11 @@ In the workflow, you will implement the following items:
 
  Figure: The View Repair Work Order action 
 
+ To implement this task, you will extend the graph to define the action and customize the predefined workflow of the Invoices (SO303000) form. In the customized workflow, you will do the following: 
+
 
 <!-- PAGE_BREAK -->
  Company Story and Customization Description | 16 
-
-To implement this task, you will extend the graph to define the action and customize the predefined workflow of the _Invoices_ (SO303000) form. In the customized workflow, you will do the following: 
 
 - Define the workflow action 
 
@@ -528,7 +524,7 @@ To implement this task, you will extend the graph to define the action and custo
 
 ### Test Instance for Workflow Customization: General Information 
 
- In this chapter, you will learn how to deploy an Acumatica ERP test instance that contains custom and customized forms. You can use this instance to complete a training course or test a scenario described in this guide. You can use this instance to complete the training course. Custom forms are forms that are created entirely from scratch by a customizer. Customized forms are forms that are based on predefined forms in Acumatica ERP, but are modified by a customizer to fit a specific business process. 
+ In this chapter, you will learn how to deploy an Acumatica ERP test instance that contains custom and customized forms. You can use this instance to complete a training course or test a scenario described in this guide. Custom forms are forms that are created entirely from scratch by a customizer. Customized forms are forms that are based on predefined forms in Acumatica ERP, but are modified by a customizer to fit a specific business process. 
 
 #### Learning Objectives 
 
@@ -544,13 +540,13 @@ To implement this task, you will extend the graph to define the action and custo
 
 - You want to test the activities described in this guide. 
 
-- You need to complete a training course. You deploy an Acumatica ERP test instance by using the instructions in this chapter if you need to complete the training course. 
+- You need to complete a training course. 
 
 #### Deploying a Test Instance 
 
  You can use the Acumatica ERP Configuration wizard to deploy instances based on predefined datasets. It also makes it possible to deploy test instances that contain custom and customized forms. 
 
- In the Acumatica ERP Configuration wizard, you click Deploy a New Acumatica ERP Instance for T-Series Developer Courses and select the applicable training course in the list. The instance that you are preparing contains the data that is required to complete the activities of this guide.The instance that you are preparing contains the data that is required to complete a training course. The instance can also include the published customization project. 
+ In the Acumatica ERP Configuration wizard, you click Deploy a New Acumatica ERP Instance for T-Series Developer Courses and select the applicable training course in the list. The instance that you are preparing contains the data that is required to complete the activities of this guide. The instance can also include the published customization project. 
 
 ### Test Instance for Workflow Customization: To Deploy a Test Instance 
 
@@ -572,9 +568,9 @@ To implement this task, you will extend the graph to define the action and custo
 
  To prepare the environment, do the following: 
 
-1. Make sure that the environment that you are going to use conforms to the _System Requirements for the_     _Acumatica ERP Installation_. 
+1. Make sure that the environment you’re going to use conforms to the _System Requirements for the Acumatica_     _ERP Installation_. 
 
-2. Make sure that the Web Server (IIS) features that are listed in _Configuration of IIS Web Server Features_ are     turned on. 
+2. Make sure that the Web Server (IIS) features listed in _Configuration of IIS Web Server Features_ are turned on. 
 
 3. Install the Acuminator extension for Visual Studio. 
 
@@ -582,7 +578,7 @@ To implement this task, you will extend the graph to define the action and custo
 
 5. Install Acumatica ERP. On the Main Soware Configuration page of the Acumatica ERP Setup wizard, select     the **Install Acumatica ERP** and **Install Debugger Tools** check boxes. 
 
- If you have already installed Acumatica ERP without debugger tools, you should remove Acumatica ERP and install it again with the Install Debugger Tools check box selected. The reinstallation of Acumatica ERP does not affect existing Acumatica ERP instances. You can also install the Acumatica ERP Tools separately. For details, see Acumatica ERP Installation OnPremises: To Install the Acumatica ERP Tools (Optional). 
+ If you’ve already installed Acumatica ERP without the debugger tools, you should uninstall it and install it again with the Install Debugger Tools check box selected. The reinstallation of Acumatica ERP doesn’t affect existing Acumatica ERP instances. You can also install the Acumatica ERP Tools separately. For details, see Acumatica ERP Installation On-Premises: To Install the Acumatica ERP Tools (Optional). 
 
 #### Step 2: Deploying the Instance 
 
@@ -590,23 +586,23 @@ To implement this task, you will extend the graph to define the action and custo
 
  You deploy an Acumatica ERP instance and configure it as follows: 
 
-1. Open the Acumatica ERP Configuration wizard, and do the following:     a. Click **Deploy a New Acumatica ERP Instance for T-Series Developer Courses**.     b. On the **Instance Configuration** page, do the following:        a. In the **Training Course** box, select _T270 Workflow API_.        b. In the **Local Path to the Instance** box, select a folder that is outside of the C:\Program Files           (x86), C:\Program Files, and C:\Users folders. (We recommend that you store the website           folder outside of these folders to avoid an issue with permission to work in these folders when you           customize the website.)     c. On the **Database Configuration** page, make sure the name of the database is SmartFix_T270.     The system creates a new Acumatica ERP instance, adds a new tenant, loads the data to it, and publishes     the customization project that is needed for activities of this guide. 
+1. Open the Acumatica ERP Configuration wizard, and do the following:     a. Click **Deploy a New Acumatica ERP Instance for T-Series Developer Courses**.     b. On the **Instance Configuration** page, do the following:        a. In the **Training Course** box, select _T270 Workflow API_.        b. In the **Local Path to the Instance** box, select a folder that’s outside of the C:\Program Files           (x86), C:\Program Files, and C:\Users folders. (We recommend that you store the website           folder outside of these folders to avoid an issue with permission to work in these folders when you           customize the website.)     c. On the **Database Configuration** page, make sure the name of the database is SmartFix_T270.     The system creates a new Acumatica ERP instance, adds a new tenant, loads the data to it, and publishes     the customization project that is needed for activities of this guide. 
 
-2. Make sure that a Visual Studio solution is available in the App_Data\Projects\PhoneRepairShop     folder of the Acumatica ERP instance folder.     This is the solution of the extension library that you will modify in the activities of this guide.     This is the solution of the extension library that you will modify in the activities of this training course. 
+2. Make sure that a Visual Studio solution is available in the App_Data\Projects\PhoneRepairShop     folder of the Acumatica ERP instance folder.     This is the solution of the extension library that you’ll modify in the activities of this guide. 
 
 3. Sign in to the new tenant by using the following credentials: 
+
+- **Username** : admin 
 
 
 <!-- PAGE_BREAK -->
  Preparing an Instance for Workflow Customization | 19 
 
-- **Username** : admin 
-
 - **Password** : setup Change the password when the system prompts you to do so. 
 
-4. In the top right corner of the Acumatica ERP screen, click the username, and then click **My Profile**. The _User_     _Profile_ (SM203010) form opens. On the **General Info** tab, select _YOGIFON_ in the **Default Branch** box; then     click **Save** on the form toolbar.     In subsequent sign-ins to this account, you will be signed in to this branch. 
+4. In the top right corner of the Acumatica ERP screen, click the username and then **My Profile**. The _User_     _Profile_ (SM203010) form opens. On the **General Info** tab, under **Personal Settings** , select _YOGIFON_ in the     **Default Branch** box; then click **Save** on the form toolbar.     In subsequent sign-ins to this account, you’ll be signed in to this branch. 
 
-5. Optional: Add the _Customization Projects_ (SM204505) and _Generic Inquiry_ (SM208000) forms to your favorites.     For details about how to add a form to your favorites, see _Favorites: General Information_. 
+5. Optional: Add the _Customization Projects_ (SM204505), _Site Map_ (SM200520), and _Generic Inquiry_ (SM208000)     forms to your favorites. For details about how to add a form to your favorites, see _The Acumatica ERP UI:_     _Favorites_. 
 
 ### Test Instance for Workflow Customization: To Turn On Workflow Validation 
 
@@ -670,7 +666,7 @@ To implement this task, you will extend the graph to define the action and custo
 
  To allow negative quantities for stock items, do the following: 
 
-1. On the _Item Classes_ (IN201000) form, in the **Item Class Tree** , select _STOCKITEM_. All the stock items used in     the activities of this guide belong to this class.All the stock items used in the activities of this training course     belong to this class. 
+1. On the _Item Classes_ (IN201000) form, in the **Item Class Tree** , select _STOCKITEM_. All the stock items used in     the activities of this guide belong to this class. 
 
 2. On the **General** tab ( **General Settings** section), select the **Allow Negative Quantity** check box, as shown in     the following screenshot. 
 
@@ -772,7 +768,7 @@ To implement this task, you will extend the graph to define the action and custo
 
 - Workflow states, which can include action definitions and field states     To define workflow states, you use the WithStates method. For details, see _Defining Workflow States_. 
 
-- Workflow transitions, which can be triggered based on conditions     To define transitions, you use the WithTransitions method. For details, see _Implementing Transitions_. For workflow other than the default workflow, you also define the workflow-identifying field. This field holds the value that determines the workflow to be used. The following diagram shows all components of the screen configuration. 
+- Workflow transitions, which can be triggered based on conditions     To define transitions, you use the WithTransitions method. For details, see _Implementing Transitions_. For a workflow other than the default workflow, you also define the workflow-identifying field. This field holds the value that determines the workflow to be used. The following diagram shows all components of the screen configuration. 
 
 
 <!-- PAGE_BREAK -->
@@ -992,13 +988,17 @@ To implement this task, you will extend the graph to define the action and custo
 
 2. In the SOInvoiceRepairOrder_Workflow.cs file, define the     SOInvoiceRepairOrder_Workflow class, as the following code shows. 
 
- In the code above, you have defined an extension of the SOInvoiceEntry_Workflow class. As a second parameter of the extension, you have specified the graph of the Invoices form. In the extension, you have overridden the Configure(PXScreenConfiguration) method, which initializes the screen 
+ public class SOInvoiceRepairOrder_Workflow : PXGraphExtension<SOInvoiceEntry_Workflow, SOInvoiceEntry> { public sealed override void Configure(PXScreenConfiguration config) { 
 
 
 <!-- PAGE_BREAK -->
  Preparing a Screen Configuration | 30 
 
- configuration, and have declared the Configure(WorkflowContext) method, where you can later update the workflow. 
+ Configure(config.GetScreenConfigurationContext<SOInvoiceEntry, ARInvoice>()); } 
+
+ protected static void Configure(WorkflowContext<SOInvoiceEntry, ARInvoice> context) { } } 
+
+ In the code above, you have defined an extension of the SOInvoiceEntry_Workflow class. As a second parameter of the extension, you have specified the graph of the Invoices form. In the extension, you have overridden the Configure(PXScreenConfiguration) method, which initializes the screen configuration, and have declared the Configure(WorkflowContext) method, where you can later update the workflow. 
 
 3. Make sure that you have added the needed using directives. 
 
@@ -1022,15 +1022,15 @@ To implement this task, you will extend the graph to define the action and custo
 
  private class SOSetupInspection : IPrefetchable { public static bool InspectionEnabled => PXDatabase.GetSlot<SOSetupInspection>("SOSetupInspection", typeof(SOSetup))._inspectionEnabled; private bool _inspectionEnabled; void IPrefetchable.Prefetch() { using (PXDataRecord soSetup = PXDatabase.SelectSingle<SOSetup>(new PXDataField<SOSetup.inspectionEnabled>())) if (soSetup != null) _inspectionEnabled = (bool)soSetup.GetBoolean(0); } } 
 
+
+<!-- PAGE_BREAK -->
+ Preparing a Screen Configuration | 31 
+
  [PXWorkflowDependsOnType(typeof(SOSetup))] public sealed override void Configure(PXScreenConfiguration config){ //if (!Base.sosetup.Current.InspectionEnabled) return; if (!SOSetupInspection.InspectionEnabled) return; ... } 
 
  The code above has done the following: 
 
 1. In the extension, defined the SOSetupInspection database slot, which depends on the SOSetup table.     In the slot, the SOSetup.InspectionEnabled value has been cached. 
-
-
-<!-- PAGE_BREAK -->
- Preparing a Screen Configuration | 31 
 
 2. Attached the PXWorkflowDependsOnType attribute to the Configure method and specified that the     workflows of the form depend on data from the SOSetup DAC. 
 
@@ -1058,13 +1058,15 @@ To implement this task, you will extend the graph to define the action and custo
 
  //Replace the TGraph and TPrimaryEntity below with your actual graph and DAC classes, respectively 
 
- protected static void Configure(WorkflowContext<TGraph, TPrimaryEntity> context) { ... context.AddScreenConfigurationFor(screen => screen ... ); } 
-
- In addition to the restrictions regarding access to an instance state, current best practices forbid calling any instance methods from the Configure method. However, it should be noted that calling instance methods from the Configure method will not cause an error by itself, whereas accessing the instance state will lead to a runtime error. 
+ protected static void Configure(WorkflowContext<TGraph, TPrimaryEntity> context) { ... 
 
 
 <!-- PAGE_BREAK -->
  Preparing a Screen Configuration | 32 
+
+ context.AddScreenConfigurationFor(screen => screen ... ); } 
+
+ In addition to the restrictions regarding access to an instance state, current best practices forbid calling any instance methods from the Configure method. However, it should be noted that calling instance methods from the Configure method will not cause an error by itself, whereas accessing the instance state will lead to a runtime error. 
 
 #### Graph Class Hierarchy 
 
@@ -1610,7 +1612,7 @@ To implement this task, you will extend the graph to define the action and custo
 
  actions.Add(g => g.Assign, c => c.WithCategory(processingCategory, g => g.PutOnHold) .MassProcessingScreen<RSSVAssignProcess>() .InBatchMode() ); 
 
- For a detailed example, see Processing Forms: Activity 1.1.1: To Create a Simple Processing Form. 
+ For a detailed example, see Processing Operations: To Implement a Processing Operation by Using the Workflow. 
 
 
 <!-- PAGE_BREAK -->
@@ -2074,13 +2076,13 @@ To implement this task, you will extend the graph to define the action and custo
 
  actions.Add(g => g.assignAddress, c => c .WithCategory(addressCategory) .WithFieldAssignments(fass => { fass.Add<firstName>(firstName); fass.Add<lastName>(lastName); fass.Add<phone>(phoneNumber); fass.Add<city>(cityName); } )); 
 
- Now suppose that you later realize that you need to add the Country field to your form in addition to the workflow action defined in the preceding code example. This means that you need to update your existing 
+ Now suppose that you later realize that you need to add the Country field to your form in addition to the workflow action defined in the preceding code example. This means that you need to update your existing workflow action and add the Country field by using the WithFieldAssignments method. Because the City field is dependent on the Country field, the order in which you declare these field assignments is important. If you declare the City field first, as shown in the code above, then the field assignment will most likely fail. This 
 
 
 <!-- PAGE_BREAK -->
  Implementing Workflow Actions | 63 
 
-workflow action and add the Country field by using the WithFieldAssignments method. Because the City field is dependent on the Country field, the order in which you declare these field assignments is important. If you declare the City field first, as shown in the code above, then the field assignment will most likely fail. This is because the value, _New York_ , that you want to set for the City field would be available only if the value in the Country field is already set to _USA_. 
+is because the value, _New York_ , that you want to set for the City field would be available only if the value in the Country field is already set to _USA_. 
 
 However, in this case, the Country field has not being added to the form and the workflow action yet. Even if it had been added, it would have to be declared before the City field in the preceding code example because the City field depends on its value. To resolve this issue, you can either declare the Country field assignment first when you initially define the action in the code above or you can add this field assignment elsewhere in the code and use the PlaceBefore or PlaceAfter method to update the order of the field assignments. 
 
@@ -2250,11 +2252,11 @@ The code above would result in the Country field being added and placed before t
 
 6. Notice that the status of the record has been changed to _Ready for Assignment_ and that the **Customer ID** ,     **Service ID** , and **Device ID** boxes are unavailable, as shown in the following screenshot. 
 
+ Figure: A record with the Ready for Assignment status 
+
 
 <!-- PAGE_BREAK -->
  Implementing Transitions | 68 
-
- Figure: A record with the Ready for Assignment status 
 
 ### Transitions: Transition Groups 
 
@@ -2265,10 +2267,6 @@ The code above would result in the Country field being added and placed before t
 ### Transitions: To Implement a Group of Transitions 
 
  The following activity will walk you through the process of implementing a group of transitions—that is, a set of transitions that have the same source workflow state. 
-
-
-<!-- PAGE_BREAK -->
- Implementing Transitions | 69 
 
 #### Story 
 
@@ -2285,6 +2283,10 @@ The code above would result in the Country field being added and placed before t
  Make sure that you have done the following: 
 
 1. Prepared an instance with the _PhoneRepairShop_ customization project and enabled the workflow validation     by performing the following prerequisite activities:     a. _Test Instance for Workflow Customization: To Deploy a Test Instance_     b. _Test Instance for Workflow Customization: To Turn On Workflow Validation_ 
+
+
+<!-- PAGE_BREAK -->
+ Implementing Transitions | 69 
 
 2. Prepared the screen configuration and define the set of states by performing the _Screen Configuration: To_     _Prepare a Screen Configuration for a Form Without a Predefined Workflow_ prerequisite activity. 
 
@@ -2304,13 +2306,7 @@ The code above would result in the Country field being added and placed before t
 
 2. In the Conditions region, declare a condition class, as the following code shows. 
 
- public class Conditions : Condition.Pack { 
-
-
-<!-- PAGE_BREAK -->
- Implementing Transitions | 70 
-
- } 
+ public class Conditions : Condition.Pack { } 
 
 3. In the Conditions class, declare a condition that is true when the repair work order requires prepayment,     as the following code shows. 
 
@@ -2326,7 +2322,13 @@ The code above would result in the Country field being added and placed before t
 
 ### Step 2: Adding the PendingPayment Workflow State (Self-Guided Exercise) 
 
- To define a transition from the OnHold workflow state to the PendingPayment workflow state, you first need to define the PendingPayment workflow state. In this step, you will define the PendingPayment state of the workflow as a self-guided exercise. You have learned how to add a workflow state in Workflow States: To Define a Workflow State. 
+ To define a transition from the OnHold workflow state to the PendingPayment workflow state, you first need to define the PendingPayment workflow state. In this step, you will define the PendingPayment state of the 
+
+
+<!-- PAGE_BREAK -->
+ Implementing Transitions | 70 
+
+ workflow as a self-guided exercise. You have learned how to add a workflow state in Workflow States: To Define a Workflow State. 
 
  While defining a state, you need to use the States.pendingPayment class, which you have added in Step 2: Defining the Set of States of the Workflow of the Screen Configuration: To Prepare a Screen Configuration for a Form Without a Predefined Workflow activity. In the PendingPayment workflow state, make the Customer ID , Service ID , and Device ID boxes of the Repair Work Orders (RS301000) form are unavailable for this workflow state. 
 
@@ -2344,10 +2346,6 @@ The code above would result in the Country field being added and placed before t
 
 2. Move the definition of the transition that you added in _Transitions: To Implement a Transition Triggered by_     _an Action_ inside the group, and remove the call of the From method because it is no longer necessary. The     resulting code is shown below. 
 
-
-<!-- PAGE_BREAK -->
- Implementing Transitions | 71 
-
  transitions.AddGroupFrom<States.onHold>(transitionGroup => { transitionGroup.Add(transition => transition.To<States.readyForAssignment>() .IsTriggeredOn(graph => graph.ReleaseFromHold) ); }); 
 
 3. Aer the IsTriggeredOn method call, add the When method call, and specify the     RequiresPrepayment condition with the logical NOT operator, as the following code shows. 
@@ -2362,7 +2360,13 @@ The code above would result in the Country field being added and placed before t
 
  The full code of the section should look as follows. 
 
- .WithTransitions(transitions => { transitions.AddGroupFrom<States.onHold>(transitionGroup => { transitionGroup.Add(transition => transition.To<States.readyForAssignment>() .IsTriggeredOn(graph => graph.ReleaseFromHold) .When(!conditions.RequiresPrepayment)); transitionGroup.Add(transition => transition.To<States.pendingPayment>() .IsTriggeredOn(graph => graph.ReleaseFromHold) .When(conditions.RequiresPrepayment)); }); })) 
+ .WithTransitions(transitions => 
+
+
+<!-- PAGE_BREAK -->
+ Implementing Transitions | 71 
+
+ { transitions.AddGroupFrom<States.onHold>(transitionGroup => { transitionGroup.Add(transition => transition.To<States.readyForAssignment>() .IsTriggeredOn(graph => graph.ReleaseFromHold) .When(!conditions.RequiresPrepayment)); transitionGroup.Add(transition => transition.To<States.pendingPayment>() .IsTriggeredOn(graph => graph.ReleaseFromHold) .When(conditions.RequiresPrepayment)); }); })) 
 
 ### Step 4 (Optional): Specifying the Order of Transitions 
 
@@ -2374,15 +2378,15 @@ The code above would result in the Country field being added and placed before t
 
 - A transition to the pendingPayment workflow state Suppose that you want to make sure that the transition to the pendingPaymentworkflow state is always checked before the transition to the readyForAssignment workflow state. 
 
-
-<!-- PAGE_BREAK -->
- Implementing Transitions | 72 
-
  To explicitly specify this order of transitions, call the PlaceBefore method in the definition of the transition from the onHold workflow state to the pendingPayment workflow state, as the following code shows. 
 
  .WithTransitions(transitions => { transitions.AddGroupFrom<States.onHold>(transitionGroup => { transitionGroup.Add(transition => transition.To<States.readyForAssignment>() .IsTriggeredOn(graph => graph.ReleaseFromHold) .When(!conditions.RequiresPrepayment)); transitionGroup.Add(transition => transition.To<States.pendingPayment>() .IsTriggeredOn(graph => graph.ReleaseFromHold) .When(conditions.RequiresPrepayment) .PlaceBefore(transition => transition.To<States.readyForAssignment>())); }); })) 
 
  In this code,you have called the PlaceBefore method aer calling the When method. Notice that you have passed in a lambda expression as a parameter to the PlaceBefore method, and within it, you have specified transition.To<States.readyForAssignment>() as the transition before which you want the transition being defined to be checked. 
+
+
+<!-- PAGE_BREAK -->
+ Implementing Transitions | 72 
 
 ### Step 5: Testing Transitions With Conditions 
 
@@ -3104,9 +3108,9 @@ Specify combo box value
 
  Notice the following line in the code of the CloseInvoiceAndClearBalances method. 
 
- RaiseInvoiceEvent(ardoc, ARInvoice.Events.Select(ev => ev.CloseDocument)); 
+ RaiseInvoiceEvent(ardoc, PXEntityEventBase<ARInvoice>.Container<ARInvoice.Events> .Select((ARInvoice.Events ev) => ev.CloseDocument)); 
 
- If you go to the definition of the RaiseInvoiceEvent(ARRegister doc, PX.Data.WorkflowAPI.SelectedEntityEvent<ARInvoice> invEvent) method, you can find that the CloseDocument workflow event is fired in this method, as shown in the following line of the method. 
+ If you go to the definition of the RaiseInvoiceEvent(ARRegister doc, SelectedEntityEvent<ARInvoice> invEvent) method, you can find that the CloseDocument workflow event is fired in this method, as shown in the following line of the method. 
 
  invEvent.FireOn(this, (ARInvoice)doc); 
 
@@ -3246,13 +3250,11 @@ Specify combo box value
 
  Make sure that you have done the following: 
 
-1. Prepared an instance with the _PhoneRepairShop_ customization project and enabled the workflow validation     by performing the following activities:     a. _Test Instance for Workflow Customization: To Deploy a Test Instance_     b. _Test Instance for Workflow Customization: To Turn On Workflow Validation_ 
+1. Prepared an instance with the _PhoneRepairShop_ customization project and enabled the workflow validation     by performing the following activities:     a. _Test Instance for Workflow Customization: To Deploy a Test Instance_     b. _Test Instance for Workflow Customization: To Turn On Workflow Validation_     c. _Test Instance for Workflow Customization: To Configure the Instance_ 
 
 
 <!-- PAGE_BREAK -->
  Implementing Workflow Events | 99 
-
- c. Test Instance for Workflow Customization: To Configure the Instance 
 
 2. Prepared the screen configuration and defined the set of workflow states by performing the _Screen_     _Configuration: To Prepare a Screen Configuration for a Form Without a Predefined Workflow_ activity. 
 
@@ -3272,51 +3274,51 @@ Specify combo box value
 
 #### Adding a Custom Field to the Payments and Applications Form 
 
- To display and modify the prepayment percentage on the Payments and Applications (AR302000) form, you need to add the Prepayment Percent box to the form. Complete the following general tasks: 
+ To give users the ability to enter, view, and modify the prepayment percentage on the Payments and Applications (AR302000) form, you need to add the Prepayment Percent box to the form. Complete the following general tasks: 
 
-1. By using the Element Inspector, learn the name of the DAC and graph that define the Summary area of     the _Payments and Applications_ (AR302000) form. In this case, the DAC is ARPayment and the graph is     ARPaymentEntry. You need the DAC name to know which database table and DAC to extend. You will     need the graph name in the next step. 
+1. By using the Element Inspector, learn the name of the DAC and graph that define the Summary area of     the _Payments and Applications_ (AR302000) form. In this case, the DAC is ARPayment and the graph is     ARPaymentEntry. You need the DAC name to know which database table and DAC to extend. You’ll need     the graph name in the next step. 
 
-2. Add a column named UsrPrepaymentPercent to the ARPayment table with the same parameters as     are specified for the PrepaymentPercent field of the RSSVSetup table. The data type of the column is     decimal(9, 6). 
+2. Add a column named UsrPrepaymentPercent to the ARPayment table with the same parameters as     are specified for the PrepaymentPercent field of the RSSVSetup table. The data type of the column is     decimal(9, 6).     Add the column on the **Data Access** page of the Customization Project Editor, generate the DAC     extension from the added item, and move it to the extension library. The generated extension file has the     ARRegisterExtensions.cs name, and the UsrPrepaymentPercent field is added to it. 
 
-3. Create an extension of the ARPayment DAC, and add the UsrPrepaymentPercent field to the     extension. 
+ If you create a DAC extension by using the Customization Project Editor, it creates an extension of the base DAC. So in the case above, the system creates an extension of the ARRegister DAC because this DAC is the base DAC for the ARPayment DAC. 
 
- If you create a DAC extension by using the Customization Project Editor, it creates an extension of the base DAC. So in this case, the system will create an extension of the ARRegister DAC because the ARRegister DAC is the base DAC for the ARPayment DAC. 
+3. Modify the code of the generated DAC extension in the ARRegisterExtensions.cs file so that the code     in the file is the same as the code shown below. 
 
- The code for the field is shown below. 
+ using PX.Data; using PX.Objects.AR; using System; 
 
- #region UsrPrepaymentPercent [PXDBDecimal()] [PXDefault(TypeCode.Decimal, "0.0", PersistingCheck = PXPersistingCheck.Nothing)] [PXUIField(DisplayName = "Prepayment Percent")] public Decimal? UsrPrepaymentPercent { get; set; } 
+ namespace PhoneRepairShop 
 
 
 <!-- PAGE_BREAK -->
  Implementing Workflow Events | 100 
 
- public abstract class usrPrepaymentPercent : PX.Data.BQL.BqlDecimal.Field<usrPrepaymentPercent> { } #endregion 
+ { // Acuminator disable once PX1016 ExtensionDoesNotDeclareIsActiveMethod extension // should be constantly active public sealed class ARRegisterExt : PXCacheExtension<ARRegister> { #region UsrPrepaymentPercent [PXDBDecimal()] [PXDefault(TypeCode.Decimal, "0.0", PersistingCheck = PXPersistingCheck.Nothing)] [PXUIField(DisplayName = "Prepayment Percent")] public Decimal? UsrPrepaymentPercent { get; set; } public abstract class usrPrepaymentPercent : PX.Data.BQL.BqlDecimal.Field<usrPrepaymentPercent> { } #endregion } 
 
-4. Add a box for the UsrPrepaymentPercent field to the Summary area of the _Payments and Applications_     (AR302000) form. On the _Customized Screens_ page, the location of the element appears as shown in the     following screenshot. 
+4. Build the project in Visual Studio. 
+
+5. Publish the customization project. 
+
+6. Add a box for the custom UsrPrepaymentPercent field to the Summary area of the _Payments and_     _Applications_ (AR302000) form as follows:     a. Add the _Payments and Applications_ form to the customization project.     b. On the _Modern UI Editor_ page for the _Payments and Applications_ form, use the **Add Field** button on the        page toolbar to generate the TypeScript extension for the custom field. Note that the data view that        corresponds to the Summary area is Document.     c. Specify the location for the corresponding control of the custom field in the HTML code and generate the        HTML extension. The field should be placed aer the PaymentMethodID field. On the **HTML** tab of the        _Modern UI Editor_ page, the location of the added field appears, as shown below. 
 
  Figure: Prepayment Percent element 
 
-5. Correct the width for the **Prepayment Percent** label. To do this, in the Column element that is the parent     to the Prepayment Percent element, for the LabelsWidth property, specify the _M_ value. 
-
-6. Publish the customization project. 
-
-### Step 2: Deriving the Value of the Field 
-
- You can implement the deriving of a field value from the RSSVSetup DAC and the copying of it to the ARPayment DAC by using one of the following: 
-
-- The FieldDefaulting event 
-
-- The PXDefault attribute To populate the UsrPrepaymentPercent field of the ARPayment DAC extension when a payment is created, you will use the FieldDefaulting event. Do the following: 
-
-1. Create an extension of the ARPaymentEntry graph, as shown in the following code.     You learned the name of the graph to extend in Instruction 1 of the previous step. 
-
- public class ARPaymentEntry_Extension : PXGraphExtension<ARPaymentEntry> { 
+7. Save your changes and publish the customization project. 
 
 
 <!-- PAGE_BREAK -->
  Implementing Workflow Events | 101 
 
- } 
+### Step 2: Deriving the Value of the Field 
+
+ You can implement the deriving of a field value from the RSSVSetup DAC and the copying of it to the ARRegister DAC by using one of the following: 
+
+- The FieldDefaulting event 
+
+- The PXDefault attribute To populate the UsrPrepaymentPercent field of the ARRegister DAC extension when a payment is created, you will use the FieldDefaulting event. Do the following: 
+
+1. Create an extension of the ARPaymentEntry graph, as shown in the following code.     You learned the name of the graph to extend in Instruction 1 of the previous step. 
+
+ public class ARPaymentEntry_Extension : PXGraphExtension<ARPaymentEntry> { } 
 
 2. Add the following using directives. 
 
@@ -3324,13 +3326,11 @@ Specify combo box value
 
 3. Use Acuminator to suppress the _PX1016_ error in a comment. In this course, for simplicity, the extension is     always active. 
 
-4. Define the FieldDefaulting event handler for the UsrPrepaymentPercent field of the     ARPayment extension, as shown in the following code. 
+4. Define the FieldDefaulting event handler for the UsrPrepaymentPercent field of the     ARRegister extension, as shown in the following code. 
 
- public virtual void _(Events.FieldDefaulting<ARPayment, ARPaymentExt.usrPrepaymentPercent> e) { RSSVSetup setupRecord = SelectFrom<RSSVSetup>.View.Select(Base); if (setupRecord != null) { e.NewValue = setupRecord.PrepaymentPercent; } } 
+ public virtual void _(Events.FieldDefaulting<ARPayment, ARRegisterExt.usrPrepaymentPercent> e) { RSSVSetup setupRecord = SelectFrom<RSSVSetup>.View.Select(Base); if (setupRecord != null) { e.NewValue = setupRecord.PrepaymentPercent; } } 
 
- In the code above, you have selected the record with the repair work order preferences and assigned the PrepaymentPercent field value to the UsrPrepaymentPercent field of the ARPayment DAC. You have checked for the null value of setupRecord so that the NullReferenceException exception is not thrown if the data on the form has not been filled in yet. 
-
- In the event handler, specify ARRegisterExt.usrPrepaymentPercent instead of ARPaymentExt.usrPrepaymentPercent if the usrPrepaymentPercent field belongs to the ARRegisterExt DAC extension. 
+ In the code above, you have selected the record with the repair work order preferences and assigned the PrepaymentPercent field value to the UsrPrepaymentPercent field of the ARRegister DAC. You have checked for the null value of setupRecord so that the NullReferenceException exception is not thrown if the data on the form has not been filled in yet. 
 
  Another way to derive the default value is to use the PXDefault attribute, which performs the same logic. If you use this approach, the PXDefault attribute for the UsrPrepaymentPercent field should look as follows. 
 
@@ -3342,15 +3342,15 @@ Specify combo box value
 
 - Your logic is written in declarative style. 
 
+
+<!-- PAGE_BREAK -->
+ Implementing Workflow Events | 102 
+
  You need to specify the SourceField parameter if the field names are not identical. 
 
 ### Step 3: Exploring the Acumatica ERP Source Code 
 
  In this step, you will explore the source code of the Invoices (SO303000) and Payments and Applications (AR302000) forms of Acumatica ERP. You will explore the code of these forms to learn the field names and methods you need to use in order to determine where and when to fire the event that triggers the transition from the PendingPayment state to the ReadyForAssignment state. 
-
-
-<!-- PAGE_BREAK -->
- Implementing Workflow Events | 102 
 
 #### Learning Field Names 
 
@@ -3374,6 +3374,10 @@ Specify combo box value
 
  As a result of this debugging, you can see that UpdateBalances is the method that you should override to calculate the prepaid percentage of the invoice and to fire the workflow event that triggers the transition from the PendingPayment workflow state to the ReadyForAssignment workflow state. 
 
+
+<!-- PAGE_BREAK -->
+ Implementing Workflow Events | 103 
+
 ### Step 4: Declaring the Workflow Event 
 
  In this step, you will declare the workflow event that triggers the transition from the PendingPayment workflow state to the ReadyForAssignment workflow state, define an event handler for this event, and register the workflow event handler in the screen configuration. You will also define the transition triggered by the workflow event. 
@@ -3382,13 +3386,7 @@ Specify combo box value
 
 1. In the RSSVWorkOrder DAC, declare a class that contains the new workflow event, as the following code     shows. 
 
- public class WorkflowEvents : 
-
-
-<!-- PAGE_BREAK -->
- Implementing Workflow Events | 103 
-
- PXEntityEvent<ARRegister>.Container<WorkflowEvents> { public PXEntityEvent<ARRegister> InvoiceGotPrepaid = null!; } 
+ public class WorkflowEvents : PXEntityEvent<ARRegister>.Container<WorkflowEvents> { public PXEntityEvent<ARRegister> InvoiceGotPrepaid = null!; } 
 
  Make sure that you have added the PX.Data.WorkflowAPI using directive. 
 
@@ -3406,17 +3404,19 @@ Specify combo box value
 
 5. In the lambda expression for the WithTransitions method, declare the transition from     the PendingPayment workflow state to the ReadyForAssignment workflow state in the     transitions.AddGroupFrom<States.pendingPayment> group, as the following code shows. 
 
- transitionGroup.Add(transition => transition.To<States.readyForAssignment>() .IsTriggeredOn(graph => graph.OnInvoiceGotPrepaid)); 
+ transitionGroup.Add(transition => transition.To<States.readyForAssignment>() 
+
+
+<!-- PAGE_BREAK -->
+ Implementing Workflow Events | 104 
+
+ .IsTriggeredOn(graph => graph.OnInvoiceGotPrepaid)); 
 
 6. Save your changes. 
 
 ### Step 5: Firing the Event 
 
  As you learned in Step 3: Exploring the Acumatica ERP Source Code of this activity, you need to override the UpdateBalances method to fire the event that triggers the transition from the PendingPayment workflow state to the ReadyForAssignment workflow state. However, you should first calculate the prepaid percentage value based on the values of the Balance and Amount boxes of an invoice on the Invoices (SO303000) form. These values, which are available in an ARRegister record, have been calculated in the base UpdateBalances method. 
-
-
-<!-- PAGE_BREAK -->
- Implementing Workflow Events | 104 
 
  You can work with the fields of the ARRegister record instead of selecting the corresponding ARInvoice record because ARRegister is the base class for the ARInvoice data access class (DAC) and contains the same essential fields. 
 
@@ -3430,15 +3430,15 @@ Specify combo box value
 
  RSSVWorkOrder order = SelectFrom<RSSVWorkOrder>. Where<RSSVWorkOrder.invoiceNbr. IsEqual<ARRegister.refNbr.FromCurrent>> .View.SelectSingleBound(Base, new[] { ardoc }); 
 
- if (order != null && order.Status == WorkOrderStatusConstants.PendingPayment) { var payment = SelectFrom<ARPayment>. Where<ARPayment.docType. IsEqual<ARAdjust.adjgDocType.FromCurrent>. And<ARPayment.refNbr. IsEqual<ARAdjust.adjgRefNbr.FromCurrent>>> .View.SelectSingleBound(Base, new[] { ardoc }); 
-
- if (payment != null) { var paidPercent = (ardoc.CuryOrigDocAmt ardoc.CuryDocBal) * 100 / ardoc.CuryOrigDocAmt; var paymentExt = PXCache<ARPayment>. GetExtension<ARPaymentExt>(payment); if (paidPercent >= paymentExt.UsrPrepaymentPercent) { RSSVWorkOrder.WorkflowEvents .Select(e => e.InvoiceGotPrepaid) .FireOn(Base, ardoc); // No need to call the Persist method. 
+ if (order != null && order.Status == WorkOrderStatusConstants.PendingPayment) { var payment = SelectFrom<ARPayment>. Where<ARPayment.docType. IsEqual<ARAdjust.adjgDocType.FromCurrent>. And<ARPayment.refNbr. 
 
 
 <!-- PAGE_BREAK -->
  Implementing Workflow Events | 105 
 
- } } } } 
+ IsEqual<ARAdjust.adjgRefNbr.FromCurrent>>> .View.SelectSingleBound(Base, new[] { ardoc }); 
+
+ if (payment != null) { var paidPercent = (ardoc.CuryOrigDocAmt ardoc.CuryDocBal) * 100 / ardoc.CuryOrigDocAmt; var paymentExt = PXCache<ARRegister>. GetExtension<ARRegisterExt>(payment); if (paidPercent >= paymentExt.UsrPrepaymentPercent) { RSSVWorkOrder.WorkflowEvents .Select(e => e.InvoiceGotPrepaid) .FireOn(Base, ardoc); // No need to call the Persist method. } } } } 
 
  In the code above, first you have called the base method, and then you have obtained the cached values of the invoice record. You have selected the repair work order with the same invoice number as the invoice passed as a parameter. Then you have selected the prepayment and its extension (which contains the prepayment percent) and calculated the prepaid percentage for the invoice. If the prepaid percentage is greater than the required percentage, you have fired the InvoiceGotPrepaid event. 
 
@@ -3464,15 +3464,15 @@ Specify combo box value
 
 7. On the _Payments and Applications_ (AR302000) form, change the existing values to the following values, as     shown in the following screenshot: 
 
+
+<!-- PAGE_BREAK -->
+ Implementing Workflow Events | 106 
+
 - **Prepayment Percent** : 5.00 
 
 - **Amount Paid** (in the only row of the **Documents to Apply** tab): 3.00 
 
  As you have noticed previously, the total amount of the invoice is $50.00. The paid amount ($3.00) is greater than the amount ($2.50) corresponding to the prepayment percent you specified on the form (which is 5%). Thus, $3 is enough to prepay the work order. 
-
-
-<!-- PAGE_BREAK -->
- Implementing Workflow Events | 106 
 
  Figure: The prepayment for the created invoice 
 
@@ -3726,7 +3726,7 @@ Specify combo box value
 
  .WithFlowStates(flowStates => { flowStates.Add(initialState, flowState => flowState .IsInitial(graph => graph.initializeState)); flowStates.AddSequence<State.HoldToBalance>(seq => seq.WithStates(seqStates => { seqStates.Add<State.hold>(flowState => { return flowState .IsSkippedWhen(conditions.IsNotOnHold) .WithActions(actions => { ... }); }); seqStates.Add<State.creditHold>(flowState => { return flowState .IsSkippedWhen(conditions.IsCreditHoldChecked) .WithActions(actions => { ... }); }); seqStates.Add<State.balanced>(flowState => { return flowState .WithActions(actions => { ... }); }); })); } 
 
- In the code above, the HoldToBalance composite workflow state is declared. The composite state includes the following wokflow states: 
+ In the code above, the HoldToBalance composite workflow state is declared. The composite state includes the following workflow states: 
 
 - hold, which is skipped when the IsNotOnHold condition is _true_ 
 
@@ -3968,11 +3968,17 @@ Specify combo box value
 
 8. On the _Invoices_ (SO303000) form, open the created invoice. 
 
-9. On the form toolbar, click **Remove Hold**.     The status of the invoice changes to _Balanced_. Because you have not specified any value in the **Document**     **Discounts** box, the system skipped the Postponed workflow state and moved the invoice to the next     workflow state in the composite state (Balanced in this case). 
+9. On the form toolbar, click **Remove Hold**. 
 
 
 <!-- PAGE_BREAK -->
- Defining Action Sequences | 122 
+ Implementing Composite States | 122 
+
+The status of the invoice changes to _Balanced_. Because you have not specified any value in the **Document Discounts** box, the system skipped the Postponed workflow state and moved the invoice to the next workflow state in the composite state (Balanced in this case). 
+
+
+<!-- PAGE_BREAK -->
+ Defining Action Sequences | 123 
 
 ## Defining Action Sequences 
 
@@ -4018,7 +4024,7 @@ Specify combo box value
 
 
 <!-- PAGE_BREAK -->
- Defining Action Sequences | 123 
+ Defining Action Sequences | 124 
 
  During the execution of each action in a sequence, the system displays a dialog box with the status of the action execution, as shown in the following screenshot. (It is the same dialog box that the system displays when the user clicks the Quick Process button on a form that supports quick processing.) For report and navigation actions, the system opens the corresponding report or data entry form in a new browser tab and continues the processing of other actions in the current tab. 
 
@@ -4048,7 +4054,7 @@ Specify combo box value
 
 
 <!-- PAGE_BREAK -->
- Defining Action Sequences | 124 
+ Defining Action Sequences | 125 
 
 - WithFieldAssignments (optional): Assigns the fields of a dialog box that is configured for the     second action of the sequence (specified in the RunAction method). The assignment is performed     aer the first action (specified in the AfterAction method) is executed. 
 
@@ -4090,7 +4096,7 @@ Specify combo box value
 
 
 <!-- PAGE_BREAK -->
- Defining Action Sequences | 125 
+ Defining Action Sequences | 126 
 
 2. By using the Element Inspector, learn the name of the graph and the DAC for the form: CRCaseMaint and     CRCase 
 
@@ -4128,7 +4134,7 @@ Specify combo box value
 
 
 <!-- PAGE_BREAK -->
- Defining Action Sequences | 126 
+ Defining Action Sequences | 127 
 
  using PX.Data; using PX.Data.WorkflowAPI; using PX.Objects.CR; using PX.Objects.CR.Workflows; 
 
@@ -4168,7 +4174,7 @@ Specify combo box value
 
 
 <!-- PAGE_BREAK -->
- Defining Action Sequences | 127 
+ Defining Action Sequences | 128 
 
 - **Case Class** : _PRODSUPINC_     You need to specify this class because it is billable; this causes the **Billable** check box to be selected on     the **CRM Info** tab of the form. 
 
@@ -4192,7 +4198,7 @@ Specify combo box value
 
 
 <!-- PAGE_BREAK -->
- Defining Action Sequences | 128 
+ Defining Action Sequences | 129 
 
  Figure: The list of performed actions 
 
@@ -4200,7 +4206,7 @@ Specify combo box value
 
 
 <!-- PAGE_BREAK -->
- Defining Workflows with a Workflow Identifying Field | 129 
+ Defining Workflows with a Workflow Identifying Field | 130 
 
 ## Defining Workflows with a Workflow Identifying Field 
 
@@ -4240,7 +4246,7 @@ Specify combo box value
 
 
 <!-- PAGE_BREAK -->
- Defining Workflows with a Workflow Identifying Field | 130 
+ Defining Workflows with a Workflow Identifying Field | 131 
 
  .FlowTypeIdentifierIs<SOOrder.behavior>(); }); 
 
@@ -4278,7 +4284,7 @@ Specify combo box value
 
 
 <!-- PAGE_BREAK -->
- Defining Workflows with a Workflow Identifying Field | 131 
+ Defining Workflows with a Workflow Identifying Field | 132 
 
 - _Standard_ 
 
@@ -4294,7 +4300,7 @@ Specify combo box value
 
 
 <!-- PAGE_BREAK -->
- Defining Workflows with a Workflow Identifying Field | 132 
+ Defining Workflows with a Workflow Identifying Field | 133 
 
  in the screen configuration for the Repair Work Orders (RS301000) form, you will specify this field as a workflowidentifying field. Then, you will add a workflow for the Simple value of the UsrOrderType field. 
 
@@ -4334,7 +4340,7 @@ Specify combo box value
 
 
 <!-- PAGE_BREAK -->
- Defining Workflows with a Workflow Identifying Field | 133 
+ Defining Workflows with a Workflow Identifying Field | 134 
 
  public const string Simple = "SP"; public const string Standard = "ST"; public const string Awaiting = "AW"; } 
 
@@ -4350,15 +4356,55 @@ Specify combo box value
 
 5. Rebuild the PhoneRepairShop_Code project. 
 
-6. Add the **Order Type** box to the Repair Work Orders (RS301000) form by doing the following: 
+6. Add the **Order Type** box to the Repair Work Orders form by doing the following: 
 
- a. In the Customization Project Editor, open Screens > RS301000 page. b. In the control tree, select the first column in the Form: WorkOrders node. c. On the Add Data Fields tab, select the UsrOrderType field and click Create Controls. The Order Type field appears as the first element of the selected column in the control tree. d. On the Layout Properties tab, for the CommitChanges property, select True. 
+ a. Create the development folder (if it doesn't exist) in the FrontendSources\screen\src\ folder of your instance. Within it, create the screens folder. b. In the FrontendSources\screen\src\development\screens\ folder, create the RS folder, and within it, create the RS301000 folder. c. In the RS301000 folder, create the extensions folder, and within it, create the following files: 
+
+- RS301000_PhoneRepairShop_UsrOrderType.html 
 
 
 <!-- PAGE_BREAK -->
- Defining Workflows with a Workflow Identifying Field | 134 
+ Defining Workflows with a Workflow Identifying Field | 135 
 
- Once a new value is selected in the box, the system will apply the workflow that corresponds to the selected value. e. Save your changes and publish the customization project. f. Open the Repair Work Orders (RS301000) form and make sure the Order Type box is displayed in the Summary area of the form as a drop down control. 
+- RS301000_PhoneRepairShop_UsrOrderType.ts In these files, you’ll write the code that adds the **Order Type** box (which corresponds to the UsrOrderType custom field) to the UI of the Repair Work Orders form. 
+
+d. Add the following code in the RS301000_PhoneRepairShop_UsrOrderType.ts file. 
+
+ import { PXFieldState, fieldInfo } from "client-controls"; import { RS301000, RSSVWorkOrder } from "src/customizationScreens/Company/screens/RS/RS301000/RS301000"; 
+
+ export interface RS301000_PhoneRepairShop_UsrOrderType extends RS301000 {} export class RS301000_PhoneRepairShop_UsrOrderType {} 
+
+ export interface RSSVWorkOrder_PhoneRepairShop_UsrOrderType extends RSSVWorkOrder {} export class RSSVWorkOrder_PhoneRepairShop_UsrOrderType { @fieldInfo({ commitChanges: true }) UsrOrderType: PXFieldState; } 
+
+ In the code above, you’ve created an extension of the original TypeScript code of the Repair Work Orders form. The code extends the original screen and view class of the form and adds the UsrOrderType field in the extended view class. You’ve added the @fieldInfo decorator to the UsrOrderType field and set the commitChanges property to true. This ensures that once a new value is selected in the box corresponding to the UsrOrderType field, the system will apply the workflow that corresponds to the selected value. 
+
+e. Add the following code in the RS301000_PhoneRepairShop_UsrOrderType.html file. 
+
+ <template> <field name="WorkOrders.UsrOrderType" before="#fsColumnA-Order FIELD[name='OrderNbr']"> </field> </template> 
+
+ In the code above, you’ve created an extension of the original HTML code of the Repair Work Orders form. This code specifies that a control should be created for the UsrOrderType field and placed before the OrderNbr field. 
+
+f. To build the extension code that you’ve written in the previous steps, do the following: 
+
+ a. Open a terminal (such as Command Prompt) in the FrontendSources\screen folder of your instance. b. In the terminal, run the following command. 
+
+ npm run build-dev ----env customFolder=development screenIds=RS301000 
+
+ Once the command finishes its execution, you should see a message about successful compilation of Webpack. 
+
+g. Include the extension files in your customization project as follows: 
+
+ a. Open the PhoneRepairShop customization project. 
+
+
+<!-- PAGE_BREAK -->
+ Defining Workflows with a Workflow Identifying Field | 136 
+
+ b. In the navigation pane of the Customization Project Editor, click Modern UI Files. The Modern UI Files page opens. c. Click Add New Record on the page toolbar. The Add Files dialog box opens. d. Select the check box in the Selected column for the rows with the following file paths: 
+
+- development\screens\RS\RS301000\extensions     \RS301000_PhoneRepairShop_UsrOrderType.html 
+
+- development\screens\RS\RS301000\extensions     \RS301000_PhoneRepairShop_UsrOrderType.ts e. Click **Save** in the dialog box. The system adds the selected files to the Modern UI Files page. h. Publish the customization project. j. Open the Repair Work Orders (RS301000) form and make sure the **Order Type** box is displayed in the Summary area of the form as a drop-down control. 
 
 ### Step 2: Specifying the Workflow-Identifying Field in the Workflow 
 
@@ -4380,13 +4426,13 @@ Specify combo box value
 
  public class standard : PX.Data.BQL.BqlString.Constant<standard> { public standard() : base(Standard) { } } 
 
+
+<!-- PAGE_BREAK -->
+ Defining Workflows with a Workflow Identifying Field | 137 
+
  public class awaiting : PX.Data.BQL.BqlString.Constant<awaiting> { public awaiting() : base(Awaiting) { } } } #endregion 
 
 3. In the RSSVWorkOrderEntry_Workflow_Extension class, override the Configure method as the     following code shows. 
-
-
-<!-- PAGE_BREAK -->
- Defining Workflows with a Workflow Identifying Field | 135 
 
  public sealed override void Configure(PXScreenConfiguration config) { Configure(config.GetScreenConfigurationContext<RSSVWorkOrderEntry, RSSVWorkOrder>()); } 
 
@@ -4416,27 +4462,27 @@ Specify combo box value
 
  You have specified the value for the workflow-identifying field as the type parameter of the Add method. 
 
+
+<!-- PAGE_BREAK -->
+ Defining Workflows with a Workflow Identifying Field | 138 
+
 2. Add the private static getSimpleBehavior method, and specify the list of states of the new workflow as     shown in the following code. 
 
- private static Workflow.IConfigured getSimpleBehavior( Workflow.INeedStatesFlow flowState) { return flowState .WithFlowStates(states => { states.Add<RSSVWorkOrderEntry_Workflow.States.onHold>(flowState => 
+ private static Workflow.IConfigured getSimpleBehavior( Workflow.INeedStatesFlow flowState) { return flowState .WithFlowStates(states => { states.Add<RSSVWorkOrderEntry_Workflow.States.onHold>(flowState => { return flowState .IsInitial() .WithActions(actions => { actions.Add(g => g.Complete, a => a .IsDuplicatedInToolbar() .WithConnotation(ActionConnotation.Success)); }); }); states.Add<RSSVWorkOrderEntry_Workflow.States.completed>(flowState => { return flowState .WithFieldStates(fieldstates => { fieldstates.AddField<RSSVWorkOrder.customerID>(state => state.IsDisabled()); fieldstates.AddField<RSSVWorkOrder.serviceID>(state => state.IsDisabled()); fieldstates.AddField<RSSVWorkOrder.deviceID>(state => state.IsDisabled()); }) .WithActions(actions => { actions.Add(g => g.CreateInvoiceAction, a => a .IsDuplicatedInToolbar() .WithConnotation(ActionConnotation.Success)); }) .WithEventHandlers(handlers => { handlers.Add(g => g.OnCloseDocument); }); }); states.Add<RSSVWorkOrderEntry_Workflow.States.paid>(flowState => { return flowState .WithFieldStates(fieldstates => { fieldstates.AddField<RSSVWorkOrder.customerID>(state => state.IsDisabled()); fieldstates.AddField<RSSVWorkOrder.serviceID>(state => state.IsDisabled()); fieldstates.AddField<RSSVWorkOrder.deviceID>(state => state.IsDisabled()); }); }); }); 
 
 
 <!-- PAGE_BREAK -->
- Defining Workflows with a Workflow Identifying Field | 136 
+ Defining Workflows with a Workflow Identifying Field | 139 
 
- { return flowState .IsInitial() .WithActions(actions => { actions.Add(g => g.Complete, a => a .IsDuplicatedInToolbar() .WithConnotation(ActionConnotation.Success)); }); }); states.Add<RSSVWorkOrderEntry_Workflow.States.completed>(flowState => { return flowState .WithFieldStates(fieldstates => { fieldstates.AddField<RSSVWorkOrder.customerID>(state => state.IsDisabled()); fieldstates.AddField<RSSVWorkOrder.serviceID>(state => state.IsDisabled()); fieldstates.AddField<RSSVWorkOrder.deviceID>(state => state.IsDisabled()); }) .WithActions(actions => { actions.Add(g => g.CreateInvoiceAction, a => a .IsDuplicatedInToolbar() .WithConnotation(ActionConnotation.Success)); }) .WithEventHandlers(handlers => { handlers.Add(g => g.OnCloseDocument); }); }); states.Add<RSSVWorkOrderEntry_Workflow.States.paid>(flowState => { return flowState .WithFieldStates(fieldstates => { fieldstates.AddField<RSSVWorkOrder.customerID>(state => state.IsDisabled()); fieldstates.AddField<RSSVWorkOrder.serviceID>(state => state.IsDisabled()); fieldstates.AddField<RSSVWorkOrder.deviceID>(state => state.IsDisabled()); }); }); }); } 
+ } 
 
-In the code above, you have added the following workflow states: 
+ In the code above, you have added the following workflow states: 
 
 - OnHold: You have specified that the **Complete** action should be available in this workflow state. 
 
-- Completed: You have specified which fields should be unavailable in this worklfow state. You have     also specified that the CreateInvoice action and the OnCloseDocument workflow event handler     should be available in this workflow state. 
+- Completed: You have specified which fields should be unavailable in this workflow state. You have     also specified that the CreateInvoice action and the OnCloseDocument workflow event handler     should be available in this workflow state. 
 
 - Paid: You have specified which fields should be unavailable. 
-
-
-<!-- PAGE_BREAK -->
- Defining Workflows with a Workflow Identifying Field | 137 
 
 3. In the private static getSimpleBehavior method, aer the call of the WithFlowStates method,     define the transitions by using the WithTransitions method as the following code shows. 
 
@@ -4468,15 +4514,25 @@ In the code above, you have added the following workflow states:
 
 6. On the _Invoices_ (SO303000) form, open the created invoice. 
 
+
+<!-- PAGE_BREAK -->
+ Defining Workflows with a Workflow Identifying Field | 140 
+
 7. On the form toolbar, click **Remove Hold** , and then **Release**. 
 
-8. In the More menu, click **Pay**.     The _Payments and Applications_ (AR302000) form opens. 
+8. In the More menu, click **Pay**. 
 
-9. On the form toolbar, click **Remove Hold** , and then **Release**. 10.Open the repair work order that you have created in this step.     Make sure that its status has changed to _Paid_. 
+ The Payments and Applications (AR302000) form opens. 
+
+9. On the form toolbar, click **Remove Hold** , and then **Release**. 
+
+10.Open the repair work order that you have created in this step. 
+
+ Make sure that its status has changed to Paid. 
 
 
 <!-- PAGE_BREAK -->
- Using Workflow-Identifying Fields of the Second Level | 138 
+ Using Workflow-Identifying Fields of the Second Level | 141 
 
 ## Using Workflow-Identifying Fields of the Second Level 
 
@@ -4508,7 +4564,7 @@ In the code above, you have added the following workflow states:
 
 
 <!-- PAGE_BREAK -->
- Using Workflow-Identifying Fields of the Second Level | 139 
+ Using Workflow-Identifying Fields of the Second Level | 142 
 
  Figure: Types and subtypes of workflows 
 
@@ -4526,7 +4582,7 @@ In the code above, you have added the following workflow states:
 
 
 <!-- PAGE_BREAK -->
- Using Workflow-Identifying Fields of the Second Level | 140 
+ Using Workflow-Identifying Fields of the Second Level | 143 
 
 ### Workflow-Identifying Fields of the Second Level: To Define a Workflow 
 
@@ -4550,7 +4606,7 @@ In the code above, you have added the following workflow states:
 
 
 <!-- PAGE_BREAK -->
- Using Workflow-Identifying Fields of the Second Level | 141 
+ Using Workflow-Identifying Fields of the Second Level | 144 
 
  will specify the UsrBehavior field as the workflow-identifying field of the second level. For each value of the UsrBehavior field, you will add a workflow of the second level. 
 
@@ -4598,7 +4654,7 @@ In the code above, you have added the following workflow states:
 
 
 <!-- PAGE_BREAK -->
- Using Workflow-Identifying Fields of the Second Level | 142 
+ Using Workflow-Identifying Fields of the Second Level | 145 
 
  context.UpdateScreenConfigurationFor(screen => screen .FlowTypeIdentifierIs<RSSVWorkOrder_Extension.usrOrderType>() .FlowSubTypeIdentifierIs<RSSVWorkOrder_Extension.usrBehavior>()); 
 

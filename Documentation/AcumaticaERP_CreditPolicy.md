@@ -2,7 +2,7 @@
 
 # Credit Policy 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -58,7 +58,7 @@
 
  Customer Statements: Process Activity..........................................................................................................38 
 
- Customer Statements: Related Report and Inquiry Forms........................................................................... 40 
+ Customer Statements: Related Report and Inquiry Forms........................................................................... 41 
 
  Regenerating Customer Statements....................................................................................................... 42 
 
@@ -160,31 +160,31 @@
 
  Direct Write-Offs: Mass Processing............................................................................................................... 109 
 
-**Processing Payments with Write-Offs................................................................................................... 110** 
+**Processing Payments with Write-Offs................................................................................................... 111** 
 
- Payments with Write-Offs: General Information..........................................................................................110 
+ Payments with Write-Offs: General Information..........................................................................................111 
 
- Payments with Write-Offs: Implementation Checklist.................................................................................113 
+ Payments with Write-Offs: Implementation Checklist.................................................................................114 
 
- Payments with Write-Offs: Generated Transactions.................................................................................... 114 
+ Payments with Write-Offs: Generated Transactions.................................................................................... 115 
 
- Payments with Write-Offs: To Create a Payment with a Credit Write-Off................................................... 115 
+ Payments with Write-Offs: To Create a Payment with a Credit Write-Off................................................... 116 
 
- Payments with Write-Offs: To Create a Payment with a Balance Write-Off................................................ 117 
+ Payments with Write-Offs: To Create a Payment with a Balance Write-Off................................................ 118 
 
- Payments with Write-Offs: Related Reports and Forms.............................................................................. 119 
+ Payments with Write-Offs: Related Reports and Forms.............................................................................. 120 
 
-**Appendix............................................................................................................................................ 121** 
+**Appendix............................................................................................................................................ 122** 
 
- Reports........................................................................................................................................................... 121 
+ Reports........................................................................................................................................................... 122 
 
- Report Form.......................................................................................................................................... 121 
+ Report Form.......................................................................................................................................... 122 
 
- Report....................................................................................................................................................126 
+ Report....................................................................................................................................................129 
 
- Form Toolbar and More Menu.......................................................................................................................128 
+ Form Toolbar and More Menu.......................................................................................................................130 
 
- Table Toolbar................................................................................................................................................. 135 
+ Table Toolbar................................................................................................................................................. 137 
 
 
 <!-- PAGE_BREAK -->
@@ -206,9 +206,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -344,7 +344,7 @@
 
  In the following implementation activity, you will learn how to set up credit verification rules for specific customers. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -528,7 +528,7 @@
 
 #### Story 
 
- Suppose that credit verification rules have been defined for some of SweetLife customers. On January 30, 2025, the COFFEESHOP customer bought online training services, but failed the credit check. On the same date, the GOODFOOD customer bought consulting services, but also failed the credit check. 
+ Suppose that credit verification rules have been defined for some of SweetLife customers. On January 30, 2026, the COFFEESHOP customer bought online training services, but failed the credit check. On the same date, the GOODFOOD customer bought consulting services, but also failed the credit check. 
 
  Yona Jones called the COFFEESHOP customer and they told him that they sent the payment the day before but it had not yet been received. Yona decided to release the invoice from credit hold. 
 
@@ -554,7 +554,7 @@
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant by using     the _jones_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. As a prerequisite activity, in the company to which you are signed in, be sure you have set up credit     verification rules, as described in _Credit Verification Rules: Implementation Activity_. 
 
@@ -576,9 +576,9 @@
 
 - **Customer** : _GOODFOOD_ 
 
-- **Date** : _1/30/2025_ (inserted automatically) 
+- **Date** : _1/30/2026_ (inserted automatically) 
 
-- **Post Period** : _01-2025_ (inserted automatically) 
+- **Post Period** : _01-2026_ (inserted automatically) 
 
 - **Description** : Consulting Notice that the system displays a warning near the **Customer** box that the customer's days past due limit has been exceeded. 
 
@@ -602,9 +602,9 @@
 
 - **Customer** : _COFFEESHOP_ 
 
-- **Date** : _1/30/2025_ (inserted automatically) 
+- **Date** : _1/30/2026_ (inserted automatically) 
 
-- **Post Period** : _01-2025_ (inserted automatically) 
+- **Post Period** : _01-2026_ (inserted automatically) 
 
 - **Description** : Online training Notice that the system displays a warning near the **Customer** box that the customer's credit limit has been exceeded. 
 
@@ -1596,13 +1596,13 @@ _Fixed Number of Days Starting Next Month_
 
  The following activity will walk you through the process of preparing and printing customer statements. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that at the end of each month, the accounting department of the SweetLife Fruits & Jams company sends customer statements to its customers. 
 
- Acting as a SweetLife accountant, at the end of January 2025 you need to prepare and print the customer statements that you will later send to customers. You need to prepare customer statements based on the end-ofmonth (EOM) cycle, view the statement history, and then print the statements. 
+ Acting as a SweetLife accountant, at the end of January 2026 you need to prepare and print the customer statements that you will later send to customers. You need to prepare customer statements based on the end-ofmonth (EOM) cycle, view the statement history, and then print the statements. 
 
 #### Configuration Overview 
 
@@ -1638,7 +1638,7 @@ _Fixed Number of Days Starting Next Month_
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2025_. If a different date is displayed, click the Business Date menu     button and select _1/31/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2026_. If a different date is displayed, click the Business Date menu     button and select _1/31/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -1656,7 +1656,7 @@ _Fixed Number of Days Starting Next Month_
 
 1. Open the _Prepare Statements_ (AR503000) form. 
 
-2. In the **Prepare For** box, verify that _1/31/2025_ is displayed. (This is the date for which you are preparing     statements.) 
+2. In the **Prepare For** box, verify that _1/31/2026_ is displayed. (This is the date for which you are preparing     statements.) 
 
 3. In the table, select the unlabeled check box for the _EOM_ statement cycle, and on the form toolbar, click     **Process**. 
 
@@ -1670,7 +1670,7 @@ _Fixed Number of Days Starting Next Month_
 
 2. In the **Statement Cycle ID** box, select _EOM_. 
 
-3. In the **Start Date** and **End Date** boxes, verify that _1/1/2025_ and _1/31/2025_ , respectively, are displayed. 
+3. In the **Date Range** boxes, verify that _1/1/2026_ and _1/31/2026_ are displayed. 
 
 
 <!-- PAGE_BREAK -->
@@ -1678,11 +1678,11 @@ _Fixed Number of Days Starting Next Month_
 
  The table displays the number of statements that have been generated within the specified range of dates in the system. The number in the Number of Documents column shows the number of statements that have been generated. 
 
-4. Click the link in the **Statement Cycle ID** box in the table row that corresponds to the _1/31/2025_ date. 
+4. Click the link in the **Statement Cycle ID** box in the table row that corresponds to the _1/31/2026_ date. 
 
-5. On the _Statement History Details_ (AR404300) form, which is opened, view the customer statements that have     been generated on _1/31/2025_ for the _EOM_ statement cycle, as shown in the following screenshot. 
+5. On the _Statement History Details_ (AR404300) form, which is opened, view the customer statements that have     been generated on _1/31/2026_ for the _EOM_ statement cycle, as shown in the following screenshot. 
 
- Figure: Customer statements generated for January 2025 
+ Figure: Customer statements generated for January 2026 
 
 6. Click the link for the _GOODFOOD_ customer to view the list of the statements generated for the customer on     the _Customer Statement History_ (AR404600) form.     The cleared **Printed** check box means that this customer statement has not been printed yet. 
 
@@ -1696,21 +1696,21 @@ _Fixed Number of Days Starting Next Month_
 
 - **Actions** : _Print Statement_ (selected by default) 
 
-- **Statement Cycle** : _EOM_ 
-
-- **Statement Date** : _1/31/2025_ 
-
 - **Branch** : _HEADOFFICE_ (inserted by default) 
 
+- **Statement Cycle** : _EOM_ 
+
+- **Statement Date** : _1/31/2026_ 
+
 3. On the form toolbar, click **Process All** to print all the statements.     The system prints each statement on a separate page. 
-
-### Customer Statements: Related Report and Inquiry Forms 
-
- In the following sections, you can find details about the reports and inquiry forms you may want to review to gather information about customer statements. 
 
 
 <!-- PAGE_BREAK -->
  Preparing Customer Statements | 41 
+
+### Customer Statements: Related Report and Inquiry Forms 
+
+ In the following sections, you can find details about the reports and inquiry forms you may want to review to gather information about customer statements. 
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
 
@@ -1816,7 +1816,7 @@ _Fixed Number of Days Starting Next Month_
 
 #### Story 
 
- Suppose that aer the generation of customer statements, the sales manager of the SweetLife Fruits & Jams company found out that an invoice as of 1/31/2025 for Morning Cafe in the amount of $210 had not been entered into the system. 
+ Suppose that aer the generation of customer statements, the sales manager of the SweetLife Fruits & Jams company found out that an invoice as of 1/31/2026 for Morning Cafe in the amount of $210 had not been entered into the system. 
 
  Acting as the chief accountant of SweetLife, you need to record this invoice and regenerate the customer statement for this customer. 
 
@@ -1836,7 +1836,7 @@ _Fixed Number of Days Starting Next Month_
 
 #### Process Overview 
 
- You will enter an invoice on the Invoices and Memos (AR301000) form. On the Print Statements (AR503500) form, you will regenerate the last statement for this customer and print the statement on the same form. 
+ In this activity, you will enter an invoice on the Invoices and Memos (AR301000) form. On the Print Statements (AR503500) form, you will regenerate the last statement for this customer and print the statement on the same form. 
 
 #### System Preparation 
 
@@ -1848,13 +1848,15 @@ _Fixed Number of Days Starting Next Month_
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2025_. If a different date is displayed, click the Business Date menu     button and select _1/31/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2026_. If a different date is displayed, click the Business Date menu     button and select _1/31/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
-3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
+3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the 
 
 
 <!-- PAGE_BREAK -->
  Regenerating Customer Statements | 45 
+
+ Company and Branch Selection menu to view the list of branches that you have access to, and then click SweetLife Head Office and Wholesale Center. 
 
 4. As a prerequisite activity, make sure that a statement has been prepared for this customer in the needed     financial period, as described in _Customer Statements: Process Activity_. 
 
@@ -1872,7 +1874,7 @@ _Fixed Number of Days Starting Next Month_
 
 - **Customer** : _MORNINGCAF_ 
 
-- **Date** : _1/31/2025_ (inserted by default) 
+- **Date** : _1/31/2026_ (inserted by default) 
 
 - **Description** : 3 hours of service 
 
@@ -2016,13 +2018,13 @@ _Fixed Number of Days Starting Next Month_
 
 #### Story 
 
- Suppose that one of the customers of the SweetLife Fruits & Jams company, FourStar Coffee & Sweets Shop ( COFFEESHOP ) has called the accounting department and asked for a statement dated 1/25/2025, to reconcile it with their records. Because a regular statement for this customer was generated on 1/31/2025, the new statement must be an on-demand one. 
+ Suppose that one of the customers of the SweetLife Fruits & Jams company, FourStar Coffee & Sweets Shop ( COFFEESHOP ) has called the accounting department and asked for a statement dated 1/25/2026, to reconcile it with their records. Because a regular statement for this customer was generated on 1/31/2026, the new statement must be an on-demand one. 
 
 
 <!-- PAGE_BREAK -->
  Preparing an On-Demand Statement | 50 
 
- Acting as a SweetLife accountant, you have to generate an on-demand statement as of 1/25/2025 for the COFFEESHOP customer. 
+ Acting as a SweetLife accountant, you have to generate an on-demand statement as of 1/25/2026 for the COFFEESHOP customer. 
 
 #### Configuration Overview 
 
@@ -2052,7 +2054,7 @@ _Fixed Number of Days Starting Next Month_
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2025_. If a different date is displayed, click the Business Date menu     button and select _1/31/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2026_. If a different date is displayed, click the Business Date menu     button and select _1/31/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -2072,15 +2074,15 @@ _Fixed Number of Days Starting Next Month_
 <!-- PAGE_BREAK -->
  Preparing an On-Demand Statement | 51 
 
-4. In the **Generate On-Demand Statement** dialog box, which is opened, enter _01/25/2025_ in the **Statement**     **Date** box, and then click **OK**. 
+4. In the **Generate On-Demand Statement** dialog box, which is opened, enter _01/25/2026_ in the **Statement**     **Date** box, and then click **OK**. 
 
 5. On the More menu (under **Statements** ), click **Statement History** to review the history of statements     generated for this customer. 
 
 6. On the _Customer Statement History_ (AR404600) form, which opens, review the statements in the table. 
 
- Notice that the statement dated 1/25/2025 has the On-Demand Statement check box selected. 
+ Notice that the statement dated 1/25/2026 has the On-Demand Statement check box selected. 
 
-7. Select the statement dated 1/25/2025 and, on the form toolbar, click **Print Statement** to print the     statement, as shown in the following screenshot. 
+7. Select the statement dated 1/25/2026 and, on the form toolbar, click **Print Statement** to print the     statement, as shown in the following screenshot. 
 
  Figure: The on-demand customer statement before printing 
 
@@ -2216,7 +2218,7 @@ _Fixed Number of Days Starting Next Month_
 
  In the following implementation activity, you will learn how to implement the dunning process. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2264,9 +2266,9 @@ _Fixed Number of Days Starting Next Month_
 
 2. On the **Dunning** tab, specify the following settings: 
 
-- **Dunning Process** : _By Customer_ 
-
 - **Add Coming-Due Documents** : Selected 
+
+- **Dunning Process** : _By Customer_ 
 
 - **Dunning Fee Item** : _DUNNINGFEE_ 
 
@@ -2814,7 +2816,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as Yona Jones by using the     _jones_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/31/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/31/2026_ on the calendar. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -2832,7 +2834,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Customer Class** : _DEFAULT_ 
 
-- **Age as of Date** : _1/31/2025_ 
+- **Age as of Date** : _1/31/2026_ 
 
 
 <!-- PAGE_BREAK -->
@@ -2846,7 +2848,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 #### Story 
 
- Suppose that on January 31, 2025, the Credit Control team of SweetLife Fruits & Jams starts the process of generating dunning letters for its customers. Acting as Yona Jones, you need to run the process on the Prepare Dunning Letters (AR521000) form for the GOODFOOD customer. 
+ Suppose that on January 31, 2026, the Credit Control team of SweetLife Fruits & Jams starts the process of generating dunning letters for its customers. Acting as Yona Jones, you need to run the process on the Prepare Dunning Letters (AR521000) form for the GOODFOOD customer. 
 
 #### Configuration Overview 
 
@@ -2868,7 +2870,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as Yona Jones by using the     _jones_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/31/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2026_. If a different date is displayed, click the Business Date menu     button, and select _1/31/2026_ on the calendar. 
 
 3. As a prerequisite activity, in the company to which you are signed in, be sure you have set up the dunning     process, as described in _Dunning Process Setup: Implementation Activity_. 
 
@@ -2890,9 +2892,9 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Customer Class** : _DEFAULT_ 
 
-- **Dunning Letter Date** : _1/31/2025_ 
+- **Dunning Letter Date** : _1/31/2026_ 
 
-- **Add Coming-Due Documents** : Selected The _GOODFOOD_ customer appears in the table along with other customers because its overdue invoices match the level 1 settings and because no dunning letters have already been prepared for the customer. The earliest due date among the customer's outstanding documents (8/20/2022, which is the due date of one of the invoices) is displayed in the **Earliest Due Date** column. The invoice is three years past due on _1/31/2025_ , which is more than the 30 days past due specified for level 1 of dunning letters. Therefore, in the **Dunning Letter Level** column, you can see the level of the dunning letter to be generated, which is _1_. 
+- **Add Coming-Due Documents** : Selected The _GOODFOOD_ customer appears in the table along with other customers because its overdue invoices match the level 1 settings and because no dunning letters have already been prepared for the customer. The earliest due date among the customer's outstanding documents (2/6/2023, which is the due date of one of the invoices) is displayed in the **Earliest Due Date** column. The invoice is three years past due on _1/31/2026_ , which is more than the 30 days past due specified for level 1 of dunning letters. Therefore, in the **Dunning Letter Level** column, you can see the level of the dunning letter to be generated, which is _1_. 
 
 3. Select the check box in the unlabeled column for the _GOODFOOD_ customer, and on the form toolbar, click     **Process** to generate the dunning letter for the customer. 
 
@@ -2900,9 +2902,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Action** : _Print Dunning Letter_ 
 
-- **Start Date** : _1/31/2025_ 
-
-- **End Date** : _1/31/2025_ The system shows the dunning letters that have not yet been printed for the time interval between **Start Date** and **End Date** (see the screenshot below). 
+- **Date Range** : _1/31/2026_ to _1/31/2026_ The system shows the dunning letters that have not yet been printed for the time interval between the start date and the end date of **Date Range** (see the screenshot below). 
 
  To view all generated letters for the specified time interval, you can select the Show All check box. By using this form, you can also email the generated dunning letters to customers if the email accounts are configured in the system. 
 
@@ -2916,21 +2916,21 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 <!-- PAGE_BREAK -->
  Preparing Dunning Letters | 73 
 
- the letter's footer in the base currency, is the total balance of the overdue documents. (For documents that are not overdue, Current is displayed in the Due Date column of the letter.) Open payments, prepayments, and credit memos are not listed in the letter, and their balances are not counted in the total balances shown in the letter. Therefore, you have to apply all open payments and credit memos to overdue documents before you prepare the dunning letters. The generated letter shows six overdue invoices and asks the customer to settle the documents by 2/3/2025, which is the dunning letter date of 1/31/2025 plus 3 days. The 3 days is the Days to Settle that you have specified for level 1 of dunning letters on the Accounts Receivable Preferences (AR101000) form. 
+ the letter's footer in the base currency, is the total balance of the overdue documents. (For documents that are not overdue, Current is displayed in the Due Date column of the letter.) Open payments, prepayments, and credit memos are not listed in the letter, and their balances are not counted in the total balances shown in the letter. Therefore, you have to apply all open payments and credit memos to overdue documents before you prepare the dunning letters. The generated letter shows six overdue invoices and asks the customer to settle the documents by 2/3/2026, which is the dunning letter date of 1/31/2026 plus 3 days. The 3 days is the Days to Settle that you have specified for level 1 of dunning letters on the Accounts Receivable Preferences (AR101000) form. 
 
  You can modify the text and the layout of a dunning letter by customizing the Dunning Letter (AR661000) report. 
 
 #### Step 2: Preparing the Second Dunning Letter 
 
- You can prepare the next dunning letter for the GOODFOOD customer no sooner than 3/3/2025. This date is calculated as follows: 
+ You can prepare the next dunning letter for the GOODFOOD customer no sooner than 3/3/2026. This date is calculated as follows: 
 
-- The level 1 dunning letter is prepared on 1/31/2025. The time interval for dunning letter level 1 is 30 days, as     specified in the accounts receivable preferences. 
+- The level 1 dunning letter is prepared on 1/31/2026. The time interval for dunning letter level 1 is 30 days, as     specified in the accounts receivable preferences. 
 
 - The time interval for the level 2 dunning letter is 60 days, so the difference between level 2 and level 1 is 30     (60 – 30) days. 
 
-- The calculated difference is added to the date of the level 1 dunning letter, 1/31/2025 + 30 days = 3/2/2025.     This is the last day when the payment can be made before the next dunning letter can be prepared. 
+- The calculated difference is added to the date of the level 1 dunning letter, 1/31/2026 + 30 days = 3/2/2026.     This is the last day when the payment can be made before the next dunning letter can be prepared. 
 
-- On the next day, 3/3/2025, you can prepare the level 2 dunning letter. To prepare the second dunning letter to the _GOODFOOD_ customer, do the following: 
+- On the next day, 3/3/2026, you can prepare the level 2 dunning letter. To prepare the second dunning letter to the _GOODFOOD_ customer, do the following: 
 
 1. Open the _Prepare Dunning Letters_ (AR521000) form. 
 
@@ -2940,9 +2940,9 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Customer Class** : _DEFAULT_ 
 
-- **Dunning Letter Date** : _3/3/2025_ 
+- **Dunning Letter Date** : _3/3/2026_ 
 
-- **Add Coming-Due Documents** : Selected The _GOODFOOD_ customer appears in the table along with other customers because its overdue invoices match the level 2 settings and because the first dunning letter has already been prepared for the customer. The **Last Dunning Letter Date** column shows the date of the previous dunning letter (1/31/2025). The earliest due date among the customer's outstanding documents (8/20/2022, which is the due date of one of the invoices) is displayed in the **Earliest Due Date** column. The invoice is still three years past due on _3/3/2025_ , which is more than the 60 days past due specified for level 2 of dunning letters. Therefore, in the **Dunning Letter Level** column, you can see the level of the dunning letter to be generated, which is _2_. 
+- **Add Coming-Due Documents** : Selected The _GOODFOOD_ customer appears in the table along with other customers because its overdue invoices match the level 2 settings and because the first dunning letter has already been prepared for the customer. The **Last Dunning Letter Date** column shows the date of the previous dunning letter (1/31/2026). The earliest due date among the customer's outstanding documents (8/20/2023, which is the due date of one of the invoices) is displayed in the **Earliest Due Date** column. The invoice is still three years past due on _3/3/2026_ , which is more than the 60 days past due specified for level 2 of dunning letters. Therefore, in the **Dunning Letter Level** column, you can see the level of the dunning letter to be generated, which is _2_. 
 
 3. Select the check box in the unlabeled column for the _GOODFOOD_ customer, and on the form toolbar, click     **Process** to generate the dunning letter for the customer. 
 
@@ -2950,17 +2950,15 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Action** : _Print Dunning Letter_ 
 
-- **Start Date** : _3/3/2025_ 
+- **Date Range** : _3/3/2026_ to _3/3/2026_ The system shows the dunning letters that have not yet been printed for the time interval between the start date and end date of the date range. 
 
-- **End Date** : _3/3/2025_ The system shows the dunning letters that have not yet been printed for the time interval between **Start Date** and **End Date**. 
-
-5. Select the check box in the unlabeled column for the only row in the table, and on the form toolbar, click     **Process** to view a printable preview of the dunning letter. 
+5. Select the check box in the unlabeled column for the only row in the table, and on the form toolbar, click     **Process** to view a printable preview of the dunning letter.     The system displays the preview of the dunning letter; you can then print the letter. 
 
 
 <!-- PAGE_BREAK -->
  Preparing Dunning Letters | 74 
 
- The system displays the preview of the dunning letter; you can then print the letter. The generated letter shows six overdue invoices and asks the customer to settle the documents by 3/6/2025, which is the dunning letter date of 3/3/2025 plus 3 days. The 3 days is the Days to Settle that you have specified for level 2 of dunning letters on the Accounts Receivable Preferences (AR101000) form. 
+ The generated letter shows six overdue invoices and asks the customer to settle the documents by 3/6/2026, which is the dunning letter date of 3/3/2026 plus 3 days. The 3 days is the Days to Settle that you have specified for level 2 of dunning letters on the Accounts Receivable Preferences (AR101000) form. 
 
 #### Step 3: Reviewing the Dunning Fee Invoice 
 
@@ -2968,9 +2966,9 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 1. Open the Invoices and Memos (AR3010PL) list of records. 
 
-2. In the list, open an invoice for the _GOODFOOD_ customer, dated _3/3/2025_ with the amount of _5.00_. (The     invoice has the _Dunning Letter Fee_ description.) 
+2. In the list, open an invoice for the _GOODFOOD_ customer, dated _3/3/2026_ with the amount of _5.00_. (The     invoice has the _Dunning Letter Fee_ description.) 
 
-3. On the _Invoices and Memos_ (AR301000) form, review the invoice.     The system has automatically released the generated invoice because the **Automatically Release**     **Dunning Fee Documents** check box is selected on the **Dunning** tab of the _Accounts Receivable Preferences_     (AR101000) form.     The invoice **Due Date** is _3/10/2025_ , which is the dunning letter date of _3/3/2025_ plus 7 days (on the **Dunning**     tab of the _Accounts Receivable Preferences_ form, _7D (7 Days)_ is selected in the **Terms** box). 
+3. On the _Invoices and Memos_ (AR301000) form, review the invoice.     The system has automatically released the generated invoice because the **Automatically Release**     **Dunning Fee Documents** check box is selected on the **Dunning** tab of the _Accounts Receivable Preferences_     (AR101000) form.     The invoice **Due Date** is _3/10/2026_ , which is the dunning letter date of _3/3/2026_ plus 7 days (on the **Dunning**     tab of the _Accounts Receivable Preferences_ form, _7D (7 Days)_ is selected in the **Terms** box). 
 
 4. On the **Details** tab, the _DUNNINGFEE_ item has been automatically selected for the invoice line in the     **Inventory ID** column.     This is the non-stock item that you selected in the **Dunning Fee Item** box on the **Dunning** tab of the     _Accounts Receivable Preferences_ form. 
 
@@ -2988,13 +2986,13 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  To see overdue customer balances at the end of the particular period, use the AR Aged PeriodSensitive (AR630500) report and the AR Aged Period-Sensitive by Project (AR630600) report. 
 
- For each customer, the report shows all outstanding AR documents in the system and the document balances; the report lists released AR documents, which are broken down by aging periods. The balance of the listed AR documents is calculated as the difference between the original amount of the documents and the application amounts of the documents that were applied no later than the specified aging date. The balances of the 
+ For each customer, the report shows all outstanding AR documents in the system and the document balances; the report lists released AR documents, which are broken down by aging periods. The balance of the listed AR documents is calculated as the difference between the original amount of the documents and the application amounts of the documents that were applied no later than the specified aging date. The balances of the documents are sorted into columns that represent aging buckets. The system forms aging buckets for a particular 
 
 
 <!-- PAGE_BREAK -->
  Preparing Dunning Letters | 75 
 
- documents are sorted into columns that represent aging buckets. The system forms aging buckets for a particular statement cycle depending on whether the Use Financial Periods for Aging check box is selected for this cycle on the Statement Cycles (AR202800) form as follows: 
+ statement cycle depending on whether the Use Financial Periods for Aging check box is selected for this cycle on the Statement Cycles (AR202800) form as follows: 
 
 - If the check box is selected, the system uses aging buckets that correspond to the financial periods. The     zero period (the lemost column in the report) is the financial period of the **Age as of Date** specified on the     report form; the other aging periods are the preceding financial periods. 
 
@@ -3120,7 +3118,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  Suppose that the Credit Control team of SweetLife Fruits & Jams regularly reviews a list of customers that have not paid for a long time and have ignored dunning letters. One of the customers, GOODFOOD has already received two dunning letters, but failed to pay the outstanding invoices. This customer has be put on credit hold to prevent users from creating documents for it. 
 
- Further suppose that on May 15, 2025 the customer called SweetLife to inform them that a bank transfer has been sent to pay the debt. The Credit Control team decided to remove the credit hold for the customer on the same day. 
+ Further suppose that on May 15, 2026 the customer called SweetLife to inform them that a bank transfer has been sent to pay the debt. The Credit Control team decided to remove the credit hold for the customer on the same day. 
 
  Acting as Yona Jones, you need to generate the final dunning letter for GOODFOOD , put this customer on credit hold, and remove the credit hold for the customer. 
 
@@ -3146,7 +3144,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as Yona Jones by using the     _jones_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/3/2025_. If a different date is displayed, click the Business Date menu     button, and select _4/3/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/3/2026_. If a different date is displayed, click the Business Date menu     button, and select _4/3/2026_ on the calendar. 
 
 3. As a prerequisite activity, in the company to which you are signed in, be sure you have set up the dunning     process, as described in _Dunning Process Setup: Implementation Activity_. 
 
@@ -3166,7 +3164,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Customer Class** : _DEFAULT_ 
 
-- **Dunning Letter Date** : _4/3/2025_ 
+- **Dunning Letter Date** : _4/3/2026_ 
 
 - **Add Coming-Due Documents** : Selected The _GOODFOOD_ customer appears in the table along with other customers because its overdue invoices match the level 3 settings and because two dunning letters have already been prepared for the customer. In the **Dunning Letter Level** column, you can see the level of the dunning letter to be generated, which is _3_. 
 
@@ -3176,17 +3174,15 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Action** : _Print Dunning Letter_ 
 
-- **Start Date** : _4/3/2025_ 
+- **Date Range** : _4/3/2026_ to _4/3/2026_ Notice that for the only row in the table, the check box in the **Final Reminder** column is selected, indicating that this is the final dunning letter. 
 
-- **End Date** : _4/3/2025_ Notice that for the only row in the table, the check box in the **Final Reminder** column is selected, indicating that this is the final dunning letter. 
-
-5. Select the check box in the unlabeled column for row, and on the form toolbar, click **Process** to view a     printable preview of the dunning letter.     The system displays the preview of the dunning letter; you can then print the letter. 
+5. Select the check box in the unlabeled column for row, and on the form toolbar, click **Process** to view a     printable preview of the dunning letter.     The system displays the preview of the dunning letter; you can then print the letter.     The dunning letter lists all of the customer's outstanding documents. The generated letter shows seven     overdue invoices, including the dunning fee invoice, and asks the customer to settle the documents by 
 
 
 <!-- PAGE_BREAK -->
  Managing Customers' Credit Status | 81 
 
- The dunning letter lists all of the customer's outstanding documents. The generated letter shows seven overdue invoices, including the dunning fee invoice, and asks the customer to settle the documents by 4/6/2025, which is the dunning letter date of 4/3/2025 plus 3 days. The 3 days is the Days to Settle that you have specified for level 3 of dunning letters on the Accounts Receivable Preferences (AR101000) form. 
+ 4/6/2026, which is the dunning letter date of 4/3/2026 plus 3 days. The 3 days is the Days to Settle that you have specified for level 3 of dunning letters on the Accounts Receivable Preferences (AR101000) form. 
 
 #### Step 2: Putting the Customer on Credit Hold 
 
@@ -3198,9 +3194,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Action** : _Credit Hold_ 
 
-- **Start Date** : _4/3/2025_ 
-
-- **End Date** : _5/7/2025_ The _GOODFOOD_ customer with the overdue balance of $8,503.81 appears in the table (see the following screenshot), because with the specified settings, the system displays the customers with the _Active_ status, which have an overdue balance on 4/3/2025 and to which the last-level dunning letter has been sent in the specified time interval (3/3/2025 to 4/3/2025). 
+- **Date Range** : _4/3/2026_ to _5/7/2026_ The _GOODFOOD_ customer with the overdue balance of $8,503.81 appears in the table (see the following screenshot), because with the specified settings, the system displays the customers with the _Active_ status, which have an overdue balance on 4/3/2026 and to which the last-level dunning letter has been sent in the specified time interval (3/3/2026 to 4/3/2026). 
 
 3. Select the check box for the only row in the table, and on the form toolbar, click **Process** to put the selected     customer on credit hold. 
 
@@ -3218,17 +3212,15 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  To remove the credit hold for the GOODFOOD customer, do the following: 
 
-1. In the info area, click the Business Date menu button and select _5/15/2025_ on the calendar. 
+1. In the info area, click the Business Date menu button and select _5/15/2026_ on the calendar. 
 
 2. Open the _Manage Credit Holds_ (AR523000) form. 
 
-3. In the **Action** box, select _Remove Credit Hold_. 
+3. In the **Action** box, select _Remove Credit Hold_.     The _GOODFOOD_ customer appears in the table, because with this action selected, the form shows all     customers that have the _Credit Hold_ status. 
 
 
 <!-- PAGE_BREAK -->
  Managing Customers' Credit Status | 82 
-
- The GOODFOOD customer appears in the table, because with this action selected, the form shows all customers that have the Credit Hold status. 
 
 4. Select the unlabeled check box for the customer, and on the form toolbar, click **Process** to release the     customer from credit hold. 
 
@@ -3588,11 +3580,11 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  In the following implementation activity, you will learn how to implement the overdue charges functionality. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that starting on January 1, 2024 the CFO of SweetLife Fruits & Jams decided to start applying overdue charges to customer documents that are past due. Overdue charge documents should be generated for two customers that have multiple past due documents— COFFEESHOP and GOODFOOD. The overdue charges should be calculated for the days past due by using the outstanding balance of a document for each of these days. The annual rate for overdue charges is 10%. 
+ Suppose that starting on January 1, 2025 the CFO of SweetLife Fruits & Jams decided to start applying overdue charges to customer documents that are past due. Overdue charge documents should be generated for two customers that have multiple past due documents— COFFEESHOP and GOODFOOD. The overdue charges should be calculated for the days past due by using the outstanding balance of a document for each of these days. The annual rate for overdue charges is 10%. 
 
  Acting as the chief accountant, you need to enable the needed feature and set up the overdue charge functionality. 
 
@@ -3626,11 +3618,11 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 1. On the _Overdue Charges_ (AR204500) form, create a new record. 
 
-2. In the **General Settings** section, specify the following settings for the new code: 
+2. In the **Overdue Charge ID** box, enter OVERDUE10. 
 
-- **Overdue Charge ID** : OVERDUE10 
+3. In the **Description** box, enter Overdue charges of 10% annually. 
 
-- **Description** : Overdue charges of 10% annually 
+4. In the **General Settings** section, specify the following settings for the new code: 
 
 - **Calculation Method** : _Interest on Prorated Balance_     This calculation method means that the system will calculate overdue charges for the days past due by     using the outstanding balance of a document for each of these days. The overdue document is subject to     charges until it is closed. If overdue charges have been recorded for the document, the system calculates     the charges for the number of days since the date of the last overdue charges. 
 
@@ -3640,7 +3632,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Tax Category** : _EXEMPT_ 
 
-3. In the **Charging Settings** section, specify the following settings for the new code: 
+5. In the **Charging Settings** section, specify the following settings for the new code: 
 
 - **Total Threshold** : 5     This box specifies the minimum amount of the overdue charge on which the system initiates the     generation of a document of the _Overdue Charge_ type. 
 
@@ -3650,13 +3642,13 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  If you specify a particular amount in this box, the calculated overdue charges whose amounts are less than the threshold amount will not be included in the generated Overdue Charge document. 
 
-4. In the table that appears when you select the _Percent With Threshold_ charging method, add a row with the     following settings: 
+6. In the table that appears when you select the _Percent With Threshold_ charging method, add a row with the     following settings: 
 
-- **Start Date** : _1/1/2024_ 
+- **Start Date** : _1/1/2025_ 
 
 - **Percent Rate** : 10     This is the annual percentage rate to be used for calculation overdue charges. 
 
-5. On the form toolbar, click **Save** to save the changes. 
+7. On the form toolbar, click **Save** to save the changes. 
 
 
 <!-- PAGE_BREAK -->
@@ -3718,7 +3710,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Equals** : Selected 
 
-- Customer lookup box: _COFFEESHOP_ c. Click **OK** to close the dialog box and apply the filter. 
+- Customer lookup box: _COFFEESHOP_ c. Click **Apply** to close the dialog box and apply the filter. 
 
 3. In the table, locate an invoice in the amount of $5,300 and open it. 
 
@@ -3740,9 +3732,9 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 #### Story 
 
- Suppose that in February 2025, SweetLife Fruits & Jams started to send overdue charge documents to some of its customers and want these documents to be shown in customer statements. Further suppose that on February 15, 2025, COFFEESHOP made a payment of $2,000 that should be applied to one of the customer's outstanding documents. On February 28, an accountant of SweetLife prepared customer statements for February 2025, which is the next statement date according to the EOM statement cycle. 
+ Suppose that in February 2026, SweetLife Fruits & Jams started to send overdue charge documents to some of its customers and want these documents to be shown in customer statements. Further suppose that on February 15, 2026, COFFEESHOP made a payment of $2,000 that should be applied to one of the customer's outstanding documents. On February 28, an accountant of SweetLife prepared customer statements for February 2026, which is the next statement date according to the EOM statement cycle. 
 
- Acting as the SweetLife accountant, you need to record the payment of $2,000 from COFFEESHOP , generate and release overdue charge documents for the COFFEESHOP and GOODFOOD customers, and generate customer statements for February 2025. 
+ Acting as the SweetLife accountant, you need to record the payment of $2,000 from COFFEESHOP , generate and release overdue charge documents for the COFFEESHOP and GOODFOOD customers, and generate customer statements for February 2026. 
 
 #### Configuration Overview 
 
@@ -3768,7 +3760,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as Anna Johnson by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/28/2025_. If a different date is displayed, click the Business Date menu     button, and select _2/28/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/28/2026_. If a different date is displayed, click the Business Date menu     button, and select _2/28/2026_ on the calendar. 
 
 3. As a prerequisite activity, in the company to which you are signed in, be sure you have configured the     overdue charge functionality, as described in _Overdue Charges: Implementation Activity_. 
 
@@ -3790,9 +3782,9 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Cash Account** : _10200WH (Wholesale Checking)_ 
 
-- **Application Date** : _2/15/2025_ 
+- **Application Date** : _2/15/2026_ 
 
-- **Application Period** : _02-2025_ 
+- **Application Period** : _02-2026_ 
 
 - **Description** : Partial payment for training 
 
@@ -3814,9 +3806,9 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Statement Cycle** : _EOM_ 
 
-- **Overdue Charge Date** : _2/28/2025_ (inserted automatically based on the business date) 
+- **Overdue Charge Date** : _2/28/2026_ (inserted automatically based on the business date) 
 
-- **Fin. Period** : _02-2025_ 
+- **Fin. Period** : _02-2026_ 
 
 2. On the form toolbar, click **Calculate** to run the calculation process.     When you run the calculation process, the system searches for overdue invoices and debit memos among     the documents of the customers of the selected statement cycle. For each found document, the system     calculates the amount of overdue charges on the specified date by using the calculation method that is     specified in the overdue charge code that is assigned to the selected statement cycle. 
 
@@ -3824,7 +3816,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 <!-- PAGE_BREAK -->
  Applying Overdue Charges | 97 
 
-3. Review the two invoices that appear in the table, as shown in the following screenshot. On 2/28/2025, there     are two overdue documents, which are the invoices to _COFFEESHOP_ and _GOODFOOD_. The **Last Payment**     **Date** column for the _COFFEESHOP_ invoice shows the date of the most recent payment applied to the invoice,     which is 2/15/2025. 
+3. Review the two invoices that appear in the table, as shown in the following screenshot. On 2/28/2026, there     are two overdue documents, which are the invoices to _COFFEESHOP_ and _GOODFOOD_. The **Last Payment**     **Date** column for the _COFFEESHOP_ invoice shows the date of the most recent payment applied to the invoice,     which is 2/15/2026. 
 
  Figure: Overdue charges aer a partial payment has been applied 
 
@@ -3852,11 +3844,11 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 7. On the form toolbar, click **Remove Hold** , and then click **Remove Credit Hold** to give the document the     _Balanced_ status. 
 
-8. Click **Release** to release the document. 
-
 
 <!-- PAGE_BREAK -->
  Applying Overdue Charges | 98 
+
+8. Click **Release** to release the document. 
 
 9. Go to the **Financial** tab and click the link in the **Batch Nbr.** box to open the generated GL transaction on the     _Journal Transactions_ (GL301000) form.     On release of the overdue charge document, the system has updated the current balance of the customer     and generated a batch to debit the AR account specified in the document and credit the specified income     account. Because the _NYSTATE_ tax zone is specified for the _COFFEESHOP_ customer, an entry for the Tax     Payable account has been added to the GL transaction. This entry has 0.00 debit and credit amounts     because the _EXEMPT_ tax category has been specified for the _OVERDUE10_ charge code. 
 
@@ -3870,27 +3862,27 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 3. Clear the **Show All Documents** check box.     The customer's current balance has increased by the amount of the overdue charge. The _Overdue Charge_     document is displayed in the list of open documents of the customer and should be paid in the same way as     an invoice or debit memo is paid. 
 
-4. In the **Customer** box, select _GOODFOOD_ and review the list of the customer's documents.     The _Overdue Charge_ document in the amount of $352.81 is displayed in the list of open documents of the     customer. 
+4. In the **Customer** box, select _GOODFOOD_ and review the list of the customer's documents.     The _Overdue Charge_ document in the amount of $351.98 is displayed in the list of open documents of the     customer. 
 
 #### Step 5: Preparing and Reviewing Customer Statements 
 
- To prepare and review customer statements for 2/28/2025, do the following: 
+ To prepare and review customer statements for 2/28/2026, do the following: 
 
 1. Open the _Prepare Statements_ (AR503000) form. 
 
-2. In the **Prepare For** box, select _2/28/2025_.     The **Next Statement Date** column in the table shows on which date the statements will be generated. 
+2. In the **Prepare For** box, select _2/28/2026_.     The **Next Statement Date** column in the table shows on which date the statements will be generated. 
 
 3. Select the unlabeled check box for the _EOM_ statement cycle row in the table, and on the form toolbar, click     **Process** to generate customer statements. 
 
 4. Open the _Customer Statement History_ (AR404600) form. 
 
-5. In the **Customer** box, select _COFFEESHOP_.     The table displays a row with the statement dated 2/28/2025. 
+5. In the **Customer** box, select _COFFEESHOP_.     The table displays a row with the statement dated 2/28/2026. 
 
-6. On the form toolbar, click **Print Statement** to review the statement.     The _Open Item_ statement shows the $6.39 debit balance due on 2/28/2025 and a list of all the customer's     documents. 
+6. On the form toolbar, click **Print Statement** to review the statement.     The _Open Item_ statement shows the $4.94 debit balance due on 2/28/2026 and a list of all the customer's     documents. 
 
-7. In the **Customer** box of the _Customer Statement History_ form, select _GOODFOOD_.     The table displays a row with the statement dated 2/28/2025. 
+7. In the **Customer** box of the _Customer Statement History_ form, select _GOODFOOD_.     The table displays a row with the statement dated 2/28/2026. 
 
-8. On the form toolbar, click **Print Statement** to review the statement.     The _Open Item_ statement shows the $4,261.62 due on 2/28/2025 and a list of all the customer's documents.     The amount of the overdue charge ($352.81) is shown in the **Current** column because it is not overdue yet.     Other amounts are displayed in the respective columns showing the number of day they are past due. 
+8. On the form toolbar, click **Print Statement** to review the statement.     The _Open Item_ statement shows the $4,260.79 due on 2/28/2026 and a list of all the customer's documents.     The amount of the overdue charge ($351.98) is shown in the **Current** column because it is not overdue yet.     Other amounts are displayed in the respective columns showing the number of day they are past due. 
 
 
 <!-- PAGE_BREAK -->
@@ -4096,7 +4088,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  In the following implementation activity, you will learn how to implement the write-off functionality. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -4128,7 +4120,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 #### Step 2: Allowing Write-Offs for Particular Customers 
 
- To allows write-offs for the ABAKERY and CITRUS customers, do the following: 
+ To allow write-offs for the ABAKERY and CITRUS customers, do the following: 
 
 1. On the _Customers_ (AR303000) form, open the _ABAKERY_ customer. 
 
@@ -4194,7 +4186,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as Anna Johnson by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. As a prerequisite activity, in the company to which you are signed in, be sure you have set up the write-off     functionality, as described in _Direct Write-Offs: Implementation Activity_. 
 
@@ -4214,11 +4206,11 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Type** : _Credit WO_ 
 
-- **Doc. Date** : _1/30/2025_ 
+- **Doc. Date** : _1/30/2026_ 
 
 - **Company/Branch** : _HEADOFFICE_ 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Customer** : _BLUECAFE_ 
 
@@ -4240,11 +4232,13 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 2. In the **Type** box, select _Credit WO_ and open the document that the system created and released in Step 1.     Notice that the system has inserted the amount, the document date, and the post period into the _Credit WO_     document, based on the settings you have specified on the _Write Off Balances and Credits_ (AR505000) form.     The system has automatically released and closed the _Credit WO_ document. The payment whose amount     has been written off is displayed on the **Applications** tab. In the **Amount Paid** column, you can see the     written-off amount of the payment. 
 
-3. On the **Financial** tab, click the number of the batch that has been generated on release of the _Credit WO_     document; the system displays the batch on the _Journal Transactions_ (GL301000) form.     On release of the _Credit WO_ document, the system increases the customer's current balance by the written-     off amount, closes the document that has been processed, and generates a GL transaction to credit the     account specified for the reason code and to debit the AR account of the document. 
+3. On the **Financial** tab, click the number of the batch that has been generated on release of the _Credit WO_     document; the system displays the batch on the _Journal Transactions_ (GL301000) form. 
 
 
 <!-- PAGE_BREAK -->
  Processing Direct Write-Offs | 107 
+
+ On release of the Credit WO document, the system increases the customer's current balance by the writtenoff amount, closes the document that has been processed, and generates a GL transaction to credit the account specified for the reason code and to debit the AR account of the document. 
 
  If you write off a balance of a prepayment, the prepayment account will be debited. 
 
@@ -4266,7 +4260,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 #### Story 
 
- Suppose that in January 2025, SweetLife Fruits & Jams undercharged one of its customers, Morning Cafe, in the amount of $7 for onsite training courses. However, on January 30, the chief accountant of SweetLife decided to write off this small amount. 
+ Suppose that in January 2026, SweetLife Fruits & Jams undercharged one of its customers, Morning Cafe, in the amount of $7 for onsite training courses. However, on January 30, the chief accountant of SweetLife decided to write off this small amount. 
 
  Acting as the chief accountant, you need to create a $7 debit memo, update to customer's settings to enable writeoffs, and create a balance write off for the $7. 
 
@@ -4286,13 +4280,13 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as Anna Johnson by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
-
-3. As a prerequisite activity, in the company to which you are signed in, be sure you have set up the write-off     functionality, as described in _Direct Write-Offs: Implementation Activity_. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 
 <!-- PAGE_BREAK -->
  Processing Direct Write-Offs | 108 
+
+3. As a prerequisite activity, in the company to which you are signed in, be sure you have set up the write-off     functionality, as described in _Direct Write-Offs: Implementation Activity_. 
 
 4. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -4306,9 +4300,9 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Type** : _Debit Memo_ 
 
-- **Date** : _1/15/2025_ 
+- **Date** : _1/15/2026_ 
 
-- **Post Period** : _01-2025_ (inserted automatically) 
+- **Post Period** : _01-2026_ (inserted automatically) 
 
 - **Customer** : _MORNINGCAF_ 
 
@@ -4350,19 +4344,21 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Type** : _Balance WO_ 
 
-- **Doc. Date** : _1/30/2025_ 
+- **Doc. Date** : _1/30/2026_ 
 
 - **Company/Branch** : _HEADOFFICE_ 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Customer** : _MORNINGCAF_ 
 
-- **Reason Code** : _BALWOFF_ (inserted automatically) The debit memo that has the $7 balance appears in table (see the screenshot below), because the form shows the documents of this customer that have a balance no greater than the amount specified in the **Limit** box, which by default contains the **Write-Off Limit** amount specified for the customer. 
+- **Reason Code** : _BALWOFF_ (inserted automatically) 
 
 
 <!-- PAGE_BREAK -->
  Processing Direct Write-Offs | 109 
+
+ The debit memo that has the $7 balance appears in table (see the screenshot below), because the form shows the documents of this customer that have a balance no greater than the amount specified in the Limit box, which by default contains the Write-Off Limit amount specified for the customer. 
 
  Figure: Debit memo that can be written off 
 
@@ -4390,11 +4386,15 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 3. In the **Limit** box, you specify the needed limit to see the document balances of all customers that are no     greater than the limit and therefore can be written off. 
 
+
+<!-- PAGE_BREAK -->
+ Processing Direct Write-Offs | 110 
+
 4. You select the unlabeled check boxes for the needed documents and click **Process** on the form toolbar or     click **Process All** to create write-offs for all the customers displayed in the table. 
 
 
 <!-- PAGE_BREAK -->
- Processing Payments with Write-Offs | 110 
+ Processing Payments with Write-Offs | 111 
 
 ## Processing Payments with Write-Offs 
 
@@ -4432,7 +4432,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 
 <!-- PAGE_BREAK -->
- Processing Payments with Write-Offs | 111 
+ Processing Payments with Write-Offs | 112 
 
  Figure: Payment processing with a credit write-off 
 
@@ -4446,7 +4446,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 
 <!-- PAGE_BREAK -->
- Processing Payments with Write-Offs | 112 
+ Processing Payments with Write-Offs | 113 
 
  Figure: Payment processing with a balance write-off 
 
@@ -4464,7 +4464,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 
 <!-- PAGE_BREAK -->
- Processing Payments with Write-Offs | 113 
+ Processing Payments with Write-Offs | 114 
 
 1. On the _Invoices and Memos_ (AR301000) form, you open the document to which the credit write-off has been     applied. 
 
@@ -4500,7 +4500,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 
 <!-- PAGE_BREAK -->
- Processing Payments with Write-Offs | 114 
+ Processing Payments with Write-Offs | 115 
 
 - Do the following on the **Posting Settings** tab of the _General Ledger Preferences_ (GL102000) form: 
 
@@ -4544,17 +4544,17 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 
 <!-- PAGE_BREAK -->
- Processing Payments with Write-Offs | 115 
+ Processing Payments with Write-Offs | 116 
 
 ### Payments with Write-Offs: To Create a Payment with a Credit Write-Off 
 
  In this activity, you will learn how to create a payment, apply it to multiple invoices, and create a credit write-off. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that on January 30, 2025, the SweetLife Fruits & Jams company received a check for $80.70 from one of its customers, Morning Cafe. 
+ Suppose that on January 30, 2026, the SweetLife Fruits & Jams company received a check for $80.70 from one of its customers, Morning Cafe. 
 
  Acting as a SweetLife accountant, you need to create the payment in the system and apply it to two outstanding invoices of this customer, which have a total amount of $80. As you are processing the payment, you need to create a credit write-off for the remaining payment balance of $0.70 and apply it to one of the invoices. 
 
@@ -4582,13 +4582,13 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_. For simplicity, in this exercise, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button and select _1/30/2026_. For simplicity, in this exercise, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the 
 
 
 <!-- PAGE_BREAK -->
- Processing Payments with Write-Offs | 116 
+ Processing Payments with Write-Offs | 117 
 
  Company and Branch Selection menu to view the list of branches that you have access to, and then click SweetLife Head Office and Wholesale Center. 
 
@@ -4604,13 +4604,13 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Customer** : _MORNINGCAF_ 
 
-- **Application Date** : _1/30/2025_ (inserted by default) 
+- **Application Date** : _1/30/2026_ (inserted by default) 
 
-- **Application Period** : _01-2025_ (inserted by default) 
+- **Application Period** : _01-2026_ (inserted by default) 
 
 - **Payment Amount** : 80.70 
 
-- **Description** : Check payment received on 1/30/2025 
+- **Description** : Check payment received on 1/30/2026 
 
 #### Step 2: Applying the Payment to Multiple Invoices and Creating a Credit Write-Off 
 
@@ -4632,11 +4632,11 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  Figure: A payment with a credit write-off 
 
-5. Review the Summary area of the form. The **Applied to Documents** box now displays _80.70_ , the **Write-Off**     **Amount** box displays _-0.70_ , and the **Available Balance** box displays _0.00_. 
-
 
 <!-- PAGE_BREAK -->
- Processing Payments with Write-Offs | 117 
+ Processing Payments with Write-Offs | 118 
+
+5. Review the Summary area of the form. The **Applied to Documents** box now displays _80.70_ , the **Write-Off**     **Amount** box displays _-0.70_ , and the **Available Balance** box displays _0.00_. 
 
 #### Step 3: Releasing the Payment and Its Applications 
 
@@ -4652,11 +4652,11 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  The following activity will walk you through the processing of a payment with a balance write-off. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that on January 30, 2025, SweetLife Fruits & Jams received a payment from Morning Cafe in the amount of $195. The payment should be applied to a $199 invoice dated 1/6/2025. 
+ Suppose that on January 30, 2026, SweetLife Fruits & Jams received a payment from Morning Cafe in the amount of $195. The payment should be applied to a $199 invoice dated 1/6/2026. 
 
  Acting as a SweetLife accountant, you need to create the payment in the system and apply it to the outstanding invoices of this customer. As you are processing the payment, you need to create a balance write-off for the remaining invoice balance of $4 and apply it to the payment. 
 
@@ -4676,7 +4676,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 
 <!-- PAGE_BREAK -->
- Processing Payments with Write-Offs | 118 
+ Processing Payments with Write-Offs | 119 
 
 #### System Preparation 
 
@@ -4688,7 +4688,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_. For simplicity, in this exercise, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button and select _1/30/2026_. For simplicity, in this exercise, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -4704,9 +4704,9 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - **Customer** : _MORNINGCAF_ 
 
-- **Application Date** : _1/30/2025_ (inserted by default) 
+- **Application Date** : _1/30/2026_ (inserted by default) 
 
-- **Application Period** : _01-2025_ (inserted by default) 
+- **Application Period** : _01-2026_ (inserted by default) 
 
 - **Payment Amount** : 195 
 
@@ -4732,7 +4732,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 
 <!-- PAGE_BREAK -->
- Processing Payments with Write-Offs | 119 
+ Processing Payments with Write-Offs | 120 
 
  Figure: Payment with a balance write-off 
 
@@ -4762,11 +4762,11 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  To view the documents that have been paid with a specific payment document, do the following: 
 
-1. Open the _Payments and Applications_ (AR302000) form. 
-
 
 <!-- PAGE_BREAK -->
- Processing Payments with Write-Offs | 120 
+ Processing Payments with Write-Offs | 121 
+
+1. Open the _Payments and Applications_ (AR302000) form. 
 
 2. In the **Type** box of the Summary area, select the type of the payment. 
 
@@ -4780,7 +4780,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 121 
+ Appendix | 122 
 
 ## Appendix 
 
@@ -4820,37 +4820,105 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 122 
+ Appendix | 123 
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 124 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 125 
 
 #### Report Toolbar 
 
@@ -4859,12 +4927,6 @@ Aer you complete these steps, you can prepare dunning letters and email them 
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 123 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -4890,25 +4952,77 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 124 
+ Appendix | 126 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 127 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -4926,91 +5040,45 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 125 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 126 
+ Appendix | 128 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -5029,6 +5097,12 @@ Aer you complete these steps, you can prepare dunning letters and email them 
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 129 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -5052,10 +5126,6 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 127 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -5070,13 +5140,19 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 130 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -5094,10 +5170,6 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 128 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -5112,6 +5184,10 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 131 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -5120,11 +5196,7 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 129 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -5150,6 +5222,12 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 132 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -5157,12 +5235,6 @@ Aer you complete these steps, you can prepare dunning letters and email them 
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 130 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -5190,19 +5262,19 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 133 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 131 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -5212,13 +5284,15 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 134 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -5229,10 +5303,6 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 132 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -5246,6 +5316,10 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 135 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -5256,11 +5330,11 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 133 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 136 
 
 #### Unavailable Commands on the More Menu 
 
@@ -5272,17 +5346,13 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 134 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 135 
+ Appendix | 137 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -5294,7 +5364,11 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 138 
 
  Figure: Table toolbar 
 
@@ -5314,17 +5388,17 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 136 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 139 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -5354,13 +5428,13 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 137 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 140 
 
  Element Description 
 
@@ -5404,15 +5478,15 @@ Aer you complete these steps, you can prepare dunning letters and email them 
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 138 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 141 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

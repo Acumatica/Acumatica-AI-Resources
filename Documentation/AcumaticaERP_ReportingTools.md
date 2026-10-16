@@ -2,7 +2,7 @@
 
 # Reporting Tools 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -20,7 +20,7 @@
 
  DAC Discovery: General Information..................................................................................................... 12 
 
- DAC Discovery: To Inspect UI Elements.................................................................................................16 
+ DAC Discovery: To Inspect UI Elements.................................................................................................17 
 
  Copying a Predefined Inquiry......................................................................................................................... 18 
 
@@ -32,437 +32,437 @@
 
  Modification of Inquiry Results: General Information.......................................................................... 22 
 
- Modification of Inquiry Results: To Include an Additional Output Field............................................. 26 
+ Modification of Inquiry Results: To Include an Additional Output Field............................................. 27 
 
- Applying Sorting and Grouping...................................................................................................................... 29 
+ Applying Sorting and Grouping...................................................................................................................... 30 
 
- Sorting and Grouping: General Information......................................................................................... 29 
+ Sorting and Grouping: General Information......................................................................................... 30 
 
- Sorting and Grouping: To Group and Sort Inquiry Data.......................................................................31 
+ Sorting and Grouping: To Group and Sort Inquiry Data.......................................................................32 
 
- Using Conditions and Parameters.................................................................................................................. 34 
+ Using Conditions and Parameters.................................................................................................................. 35 
 
- Conditions and Parameters: General Information................................................................................34 
+ Conditions and Parameters: General Information................................................................................35 
 
- Conditions and Parameters: Condition Configuration......................................................................... 35 
+ Conditions and Parameters: Condition Configuration......................................................................... 36 
 
- Conditions and Parameters: Parameter Configuration........................................................................ 37 
+ Conditions and Parameters: Parameter Configuration........................................................................ 39 
 
- Conditions and Parameters: To Add a Date Condition.........................................................................42 
+ Conditions and Parameters: To Add a Date Condition.........................................................................43 
 
- Conditions and Parameters: To Add Period-Range Parameters to the Selection Area....................... 44 
+ Conditions and Parameters: To Add Period-Range Parameters to the Selection Area....................... 46 
 
- Conditions and Parameters: To Add a Field Parameter to the Selection Area.................................... 47 
+ Conditions and Parameters: To Add a Field Parameter to the Selection Area.................................... 48 
 
- Using Formulas................................................................................................................................................ 49 
+ Using Formulas................................................................................................................................................ 50 
 
- Formulas in Inquiry Results: General Information............................................................................... 49 
+ Formulas in Inquiry Results: General Information............................................................................... 50 
 
- Formulas in Inquiry Results: To Highlight Row with Color...................................................................52 
+ Formulas in Inquiry Results: To Highlight Row with Color...................................................................53 
 
- Formulas in Inquiry Results: To Concatenate Strings...........................................................................55 
+ Formulas in Inquiry Results: To Concatenate Strings...........................................................................56 
 
- Enabling Navigation........................................................................................................................................ 58 
+ Enabling Navigation........................................................................................................................................ 59 
 
- Navigation Configuration: General Information................................................................................... 58 
+ Navigation Configuration: General Information................................................................................... 59 
 
- Navigation Configuration: Side Panel................................................................................................... 61 
+ Navigation Configuration: Side Panel................................................................................................... 63 
 
- Navigation Configuration: To Configure the Side Panel.......................................................................62 
+ Navigation Configuration: To Configure the Side Panel.......................................................................64 
 
- Navigation Configuration: To Specify Visibility Conditions for a Side Panel....................................... 65 
+ Navigation Configuration: To Specify Visibility Conditions for a Side Panel....................................... 66 
 
- Navigation Configuration: To Configure Navigation to an External URI.............................................. 68 
+ Navigation Configuration: To Configure Navigation to an External URI.............................................. 69 
 
- Making a Generic Inquiry a Substitute Form................................................................................................. 70 
+ Making a Generic Inquiry a Substitute Form................................................................................................. 71 
 
- Generic Inquiry as a Substitute Form: General Information................................................................ 70 
+ Generic Inquiry as a Substitute Form: General Information................................................................ 72 
 
 
 <!-- PAGE_BREAK -->
  Contents | 3 
 
- Generic Inquiry as a Substitute Form: To Configure an Inquiry as an Entry Point..............................74 
+ Generic Inquiry as a Substitute Form: To Configure an Inquiry as an Entry Point..............................75 
 
- Generic Inquiry as a Substitute Form: To Suspend the Replacement of a Primary Form...................75 
+ Generic Inquiry as a Substitute Form: To Suspend the Replacement of a Primary Form...................77 
 
-Transferring an Inquiry....................................................................................................................................76 
+Transferring an Inquiry....................................................................................................................................78 
 
- Inquiry Transfer: General Information.................................................................................................. 77 
+ Inquiry Transfer: General Information.................................................................................................. 78 
 
- Inquiry Transfer: To Export and Import an Existing Inquiry as XML File.............................................. 78 
+ Inquiry Transfer: To Export and Import an Existing Inquiry as XML File.............................................. 79 
 
-Creating a Generic Inquiry.............................................................................................................................. 79 
+Creating a Generic Inquiry.............................................................................................................................. 81 
 
- Creation of a Generic Inquiry: General Information............................................................................. 79 
+ Creation of a Generic Inquiry: General Information............................................................................. 81 
 
- Creation of a Generic Inquiry: To Create an Inquiry Based on One DAC............................................. 83 
+ Creation of a Generic Inquiry: To Create an Inquiry Based on One DAC............................................. 85 
 
-Getting Data from Multiple Data Sources.......................................................................................................86 
+Using Generic Inquiry Query Language (GIQL).............................................................................................. 87 
 
- Data from Multiple Data Sources: General Information....................................................................... 86 
+ GIQL: General Information..................................................................................................................... 88 
 
- Data from Multiple Data Sources: Use of Related Tables Dialog Box...................................................89 
+ GIQL: Defining Parameters..................................................................................................................... 92 
 
- Data from Multiple Data Sources: Use of Generic Inquiry as Data Source.......................................... 93 
+Getting Data from Multiple Data Sources.......................................................................................................94 
 
- Data from Multiple Data Sources: DAC Schema Browser..................................................................... 96 
+ Data from Multiple Data Sources: General Information....................................................................... 94 
 
- Data from Multiple Data Sources: Discovery of Key Fields...................................................................98 
+ Data from Multiple Data Sources: Use of Related Tables Dialog Box...................................................97 
 
- Data from Multiple Data Sources: To Create an Inquiry with Two Tables..........................................102 
+ Data from Multiple Data Sources: Use of Generic Inquiry as Data Source........................................ 101 
 
-Exposing Inquiry Results by Using OData.................................................................................................... 106 
+ Data from Multiple Data Sources: DAC Schema Browser................................................................... 104 
 
- Generic Inquiries and OData: General Information............................................................................ 106 
+ Data from Multiple Data Sources: Discovery of Key Fields.................................................................106 
 
- Generic Inquiries and OData: Preparation of an Inquiry for Exposure.............................................. 107 
+ Data from Multiple Data Sources: To Create an Inquiry with Two Tables..........................................110 
 
- Generic Inquiries and OData: To Expose Inquiry Results Through OData......................................... 108 
+Exposing Inquiry Results by Using OData.................................................................................................... 114 
 
-Accessing the Exposed Inquiry Results Through OData.............................................................................. 110 
+ Generic Inquiries and OData: General Information............................................................................ 114 
 
- Generic Inquiry Access Through OData: General Information........................................................... 110 
+ Generic Inquiries and OData: Preparation of an Inquiry for Exposure.............................................. 115 
 
- Generic Inquiry Access Through OData: Data Retrieval..................................................................... 114 
+ Generic Inquiries and OData: To Expose Inquiry Results Through OData......................................... 117 
 
- Generic Inquiry Access Through OData: Connecting to Acumatica ERP from Power BI................... 115 
+Accessing the Exposed Inquiry Results Through OData.............................................................................. 119 
 
- Generic Inquiry Access Through OData: To Access an Exposed Inquiry in Microso Excel............... 116 
+ Generic Inquiry Access Through OData: General Information........................................................... 119 
 
- Generic Inquiry Access Through OData: To Configure CORS..............................................................118 
+ Generic Inquiry Access Through OData: Data Retrieval..................................................................... 123 
 
- Generic Inquiry Access Through OData: To Sign In to Acumatica ERP and Retrieve the Metadata... 119 
+ Generic Inquiry Access Through OData: Connecting to Acumatica ERP from Power BI................... 124 
 
- Generic Inquiry Access Through OData: To Retrieve Data by Using a Custom Generic Inquiry........ 121 
+ Generic Inquiry Access Through OData: To Access an Exposed Inquiry in Microso Excel............... 125 
 
- Generic Inquiry Access Through OData: To Retrieve Data by Using a Generic Inquiry with Parameters............................................................................................................................................ 124 
+ Generic Inquiry Access Through OData: To Configure CORS..............................................................127 
 
- Generic Inquiry Access Through OData: To Filter the Result of a Generic Inquiry............................ 126 
+ Generic Inquiry Access Through OData: To Sign In to Acumatica ERP and Retrieve the Metadata... 127 
 
-Managing Access Rights To Generic Inquiries.............................................................................................. 130 
+ Generic Inquiry Access Through OData: To Retrieve Data by Using a Custom Generic Inquiry........ 130 
 
- Access Rights to Generic Inquiries: General Information................................................................... 130 
+ Generic Inquiry Access Through OData: To Retrieve Data by Using a Generic Inquiry with Parameters............................................................................................................................................ 132 
 
- Access Rights to Generic Inquiries: To Define Access Rights to a Generic Inquiry ............................131 
+ Generic Inquiry Access Through OData: To Filter the Results of a Generic Inquiry...........................134 
 
- Access Rights to Generic Inquiries: To Configure Access Rights to the Export to Excel Action of a Generic Inquiry................................................................................................................................................... 133 
+Managing Access Rights To Generic Inquiries.............................................................................................. 138 
 
-Including Generic Inquiries in a Customization Project.............................................................................. 133 
+ Access Rights to Generic Inquiries: General Information................................................................... 138 
 
- Generic Inquiries in a Customization Project: General Information.................................................. 134 
+ Access Rights to Generic Inquiries: To Define Access Rights to a Generic Inquiry ............................139 
 
 
 <!-- PAGE_BREAK -->
  Contents | 4 
 
- Generic Inquiries in a Customization Project: To Include Generic Inquiries in a Customization Project................................................................................................................................................... 134 
+ Access Rights to Generic Inquiries: To Configure Access Rights to the Export to Excel Action of a Generic Inquiry................................................................................................................................................... 141 
 
- Generic Inquiries in a Customization Project: Limiting the DACs Available for Generic Inquiries.... 136 
+ Including Generic Inquiries in a Customization Project.............................................................................. 141 
 
- Detecting Anomalies in Generic Inquiries.................................................................................................... 138 
+ Generic Inquiries in a Customization Project: General Information.................................................. 142 
 
- Anomaly Detection: General Information........................................................................................... 138 
+ Generic Inquiries in a Customization Project: To Include Generic Inquiries in a Customization Project................................................................................................................................................... 142 
 
- Anomaly Detection: Process Activity................................................................................................... 143 
+ Generic Inquiries in a Customization Project: Limiting the DACs Available for Generic Inquiries.... 144 
 
-**Accessing DACs Through OData............................................................................................................ 151** 
+ Detecting Anomalies in Generic Inquiries.................................................................................................... 146 
 
- DAC-Based OData: General Information.......................................................................................................151 
+ Anomaly Detection: General Information........................................................................................... 146 
 
- DAC-Based OData: Data Retrieval................................................................................................................. 155 
+ Anomaly Detection: Process Activity................................................................................................... 151 
 
- DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata............................................. 159 
+**Accessing DACs Through OData............................................................................................................ 159** 
 
- DAC-Based OData: To Retrieve Data by Using the $expand and $select Parameters.................................161 
+ DAC-Based OData: General Information.......................................................................................................159 
 
- DAC-Based OData: To Retrieve Data by Using the $expand, $select, and $filter Parameters.................... 164 
+ DAC-Based OData: Data Retrieval................................................................................................................. 162 
 
- DAC-Based OData: To Filter the Requested Data......................................................................................... 166 
+ DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata............................................. 166 
 
-**Managing Advanced Filters.................................................................................................................. 170** 
+ DAC-Based OData: To Retrieve Data by Using the $expand and $select Parameters.................................168 
 
- Advanced Filters: General Information.........................................................................................................170 
+ DAC-Based OData: To Retrieve Data by Using the $expand, $select, and $filter Parameters.................... 171 
 
- Advanced Filters: To Create Advanced Shared Filters................................................................................. 175 
+ DAC-Based OData: To Filter the Requested Data......................................................................................... 173 
 
- Advanced Filters: To Remove an Advanced Filter........................................................................................ 178 
+**Managing Advanced Filters.................................................................................................................. 177** 
 
- Advanced Filters: To Modify an Advanced Shared Filter..............................................................................179 
+ Advanced Filters: General Information.........................................................................................................177 
 
- Advanced Filters: To Create a Personal Filter Based on a Shared Filter..................................................... 181 
+ Advanced Filters: To Create Advanced Shared Filters................................................................................. 183 
 
-**Managing Pivot Tables.........................................................................................................................184** 
+ Advanced Filters: To Remove an Advanced Filter........................................................................................ 188 
 
- Pivot Tables: General Information................................................................................................................ 184 
+ Advanced Filters: To Modify an Advanced Shared Filter..............................................................................189 
 
- Pivot Tables: Creation of a Pivot Table as a Separate Form........................................................................184 
+ Advanced Filters: To Create a Personal Filter Based on a Shared Filter..................................................... 190 
 
- Pivot Tables: Creation of a Pivot Table on a Filter Tab................................................................................ 186 
+**Managing Pivot Tables.........................................................................................................................193** 
 
- Pivot Tables: Data Presentation....................................................................................................................188 
+ Pivot Tables: General Information................................................................................................................ 193 
 
- Pivot Tables: To Create a Pivot Table as a Form.......................................................................................... 190 
+ Pivot Tables: Creation of a Pivot Table.........................................................................................................194 
 
- Pivot Tables: To Create a Pivot Table on a Filter Tab...................................................................................193 
+ Pivot Tables: Data Presentation....................................................................................................................198 
 
- Pivot Tables: To Delete a Pivot Table as a Form.......................................................................................... 196 
+ Pivot Tables: To Create a Pivot Table........................................................................................................... 200 
 
-**Designing Dashboard Contents............................................................................................................ 197** 
+ Pivot Tables: To Delete a Pivot Table............................................................................................................202 
 
- Dashboard Design: General Information......................................................................................................197 
+**Designing Dashboard Contents............................................................................................................ 204** 
 
- Dashboard Design: Widget Arrangement..................................................................................................... 200 
+ Dashboard Design: General Information......................................................................................................204 
 
- Dashboard Design: User Operations with Data............................................................................................203 
+ Dashboard Design: Widget Arrangement..................................................................................................... 208 
 
- Dashboard Design: To Modify a Dashboard................................................................................................. 206 
+ Dashboard Design: User Operations with Data............................................................................................210 
 
- Dashboard Design: Dashboard Reference.................................................................................................... 210 
+ Dashboard Design: To Modify a Dashboard................................................................................................. 214 
 
- Dashboard Design: Widget Toolbar Reference.............................................................................................212 
+ Dashboard Design: Dashboard Reference.................................................................................................... 218 
 
-**Administering Dashboard Forms.......................................................................................................... 214** 
+ Dashboard Design: Widget Toolbar Reference.............................................................................................219 
 
- Dashboards: General Information................................................................................................................ 214 
+**Administering Dashboards...................................................................................................................222** 
 
 
 <!-- PAGE_BREAK -->
  Contents | 5 
 
- Dashboards: Access Rights............................................................................................................................ 216 
+ Dashboards: General Information................................................................................................................ 222 
 
- Dashboards: Widget Location Within a Working Area................................................................................. 217 
+ Dashboards: Access Rights............................................................................................................................ 224 
 
- Dashboards: To Add a Dashboard Form.......................................................................................................219 
+ Dashboards: Widget Location Within a Working Area................................................................................. 226 
 
-**Configuring Widgets............................................................................................................................ 223** 
+ Dashboards: To Add a Dashboard................................................................................................................ 228 
 
- Widget Settings: General Information.......................................................................................................... 223 
+**Configuring Widgets............................................................................................................................ 232** 
 
- Widget Settings: To Change a Widget's Title and Caching Settings............................................................ 226 
+ Widget Settings: General Information.......................................................................................................... 232 
 
- Specific Widgets: Data Filtering.................................................................................................................... 227 
+ Widget Settings: To Change a Widget's Title and Caching Settings............................................................ 236 
 
- Specific Widgets: To Filter Widget Data........................................................................................................231 
+ Specific Widgets: Data Filtering.................................................................................................................... 237 
 
- Specific Widgets: Header Widgets.................................................................................................................235 
+ Specific Widgets: To Filter Widget Data........................................................................................................241 
 
- Specific Widgets: Table Widgets....................................................................................................................236 
+ Specific Widgets: Header Widgets.................................................................................................................245 
 
- Specific Widgets: Link Widgets......................................................................................................................239 
+ Specific Widgets: Table Widgets....................................................................................................................246 
 
- Specific Widgets: Embedded Page Widgets................................................................................................. 241 
+ Specific Widgets: Link Widgets......................................................................................................................249 
 
- Specific Widgets: To Add Link, Table, and Embedded Page Widgets..........................................................242 
+ Specific Widgets: Embedded Page Widgets................................................................................................. 252 
 
- Specific Widgets: KPI Widgets....................................................................................................................... 245 
+ Specific Widgets: To Add Link, Table, and Embedded Page Widgets..........................................................253 
 
- Specific Widgets: To Add KPI Widgets.......................................................................................................... 253 
+ Specific Widgets: KPI Widgets....................................................................................................................... 255 
 
- Specific Widgets: Chart Widgets................................................................................................................... 257 
+ Specific Widgets: To Add KPI Widgets.......................................................................................................... 263 
 
- Specific Widgets: To Add Chart Widgets.......................................................................................................266 
+ Specific Widgets: Chart Widgets................................................................................................................... 267 
 
- Specific Widgets: Wiki Page Widgets.............................................................................................................269 
+ Specific Widgets: To Add Chart Widgets.......................................................................................................276 
 
- Specific Widgets: To Add a Wiki Page Widget...............................................................................................270 
+ Specific Widgets: Wiki Page Widgets.............................................................................................................279 
 
- Specific Widgets: Power BI Tile Widgets.......................................................................................................270 
+ Specific Widgets: To Add a Wiki Page Widget...............................................................................................280 
 
- Specific Widgets: To Register Your Acumatica ERP Instance for Power BI..................................................271 
+ Specific Widgets: Power BI Tile Widgets.......................................................................................................280 
 
- Specific Widgets: To Add a Power BI Tile Widget.........................................................................................274 
+ Specific Widgets: To Register Your Acumatica ERP Instance for Power BI..................................................281 
 
- Specific Widgets: Widget Reference..............................................................................................................275 
+ Specific Widgets: To Add a Power BI Tile Widget.........................................................................................285 
 
- Add Widget Dialog Box for Chart Widgets........................................................................................... 275 
+ Specific Widgets: Widget Reference..............................................................................................................286 
 
- Add Widget Dialog Box for Data Table Widgets.................................................................................. 284 
+ Add Widget Dialog Box for Chart Widgets........................................................................................... 286 
 
- Add Widget Dialog Box for Embedded Page Widgets......................................................................... 287 
+ Add Widget Dialog Box for Data Table Widgets.................................................................................. 296 
 
- Add Widget Dialog Box for Header Widgets........................................................................................ 289 
+ Add Widget Dialog Box for Embedded Page Widgets......................................................................... 300 
 
- Add Widget Dialog Box for Key Performance Indicator (KPI) Widgets............................................... 290 
+ Add Widget Dialog Box for Header Widgets........................................................................................ 301 
 
- Add Widget Dialog Box for Link Widgets............................................................................................. 296 
+ Add Widget Dialog Box for Key Performance Indicator (KPI) Widgets............................................... 303 
 
- Add Widget Dialog Box for Pivot Table Widgets..................................................................................298 
+ Add Widget Dialog Box for Link Widgets............................................................................................. 309 
 
- Add Widget Dialog Box for Power BI Tile Widgets.............................................................................. 302 
+ Add Widget Dialog Box for Pivot Table Widgets..................................................................................311 
 
- Add Widget Dialog Box for Trend Card KPI Widgets........................................................................... 304 
+ Add Widget Dialog Box for Power BI Tile Widgets.............................................................................. 315 
 
- Add Widget Dialog Box for Wiki Page Widgets.................................................................................... 308 
+ Add Widget Dialog Box for Trend Card KPI Widgets........................................................................... 317 
 
-**Managing Power BI Integration............................................................................................................ 311** 
+ Add Widget Dialog Box for Wiki Page Widgets.................................................................................... 321 
 
- Integration with External Applications......................................................................................................... 311 
+**Managing Power BI Integration............................................................................................................ 324** 
 
- To Integrate an External Application............................................................................................................ 312 
+ Integration with External Applications......................................................................................................... 324 
 
 
 <!-- PAGE_BREAK -->
  Contents | 6 
 
- To Add an Integrated External Application Resource to Acumatica Site Map............................................ 313 
+ To Integrate an External Application............................................................................................................ 325 
 
-**Managing Analytical Reports............................................................................................................... 315** 
+ To Add an Integrated External Application Resource to Acumatica Site Map............................................ 326 
 
- Analytical Report Manager............................................................................................................................ 315 
+**Managing Analytical Reports............................................................................................................... 328** 
 
- Report Structure Design................................................................................................................................ 317 
+ Analytical Report Manager............................................................................................................................ 328 
 
- Row Sets......................................................................................................................................................... 320 
+ Report Structure Design................................................................................................................................ 330 
 
- Column Sets................................................................................................................................................... 322 
+ Row Sets......................................................................................................................................................... 333 
 
- Unit Sets......................................................................................................................................................... 325 
+ Column Sets................................................................................................................................................... 335 
 
- Data Source.................................................................................................................................................... 326 
+ Unit Sets......................................................................................................................................................... 338 
 
- Formulas.........................................................................................................................................................328 
+ Data Source.................................................................................................................................................... 339 
 
- Best Practices................................................................................................................................................. 329 
+ Formulas.........................................................................................................................................................341 
 
- To Add a Report Title.....................................................................................................................................331 
+ Best Practices................................................................................................................................................. 342 
 
- To Add a Title for a Report Section.............................................................................................................. 332 
+ To Add a Report Title.....................................................................................................................................344 
 
- To Create, Modify, or Delete a Row Set........................................................................................................ 334 
+ To Add a Title for a Report Section.............................................................................................................. 345 
 
- To Define the Rows of the Row Set.............................................................................................................. 335 
+ To Create, Modify, or Delete a Row Set........................................................................................................ 347 
 
- To Create, Modify, or Delete a Column Set.................................................................................................. 336 
+ To Define the Rows of the Row Set.............................................................................................................. 348 
 
- To Define the Columns of the Column Set...................................................................................................337 
+ To Create, Modify, or Delete a Column Set.................................................................................................. 349 
 
- To Create, Modify, or Delete a Unit Set........................................................................................................ 339 
+ To Define the Columns of the Column Set...................................................................................................350 
 
- To Define the Units to Be Included in the Unit Set......................................................................................340 
+ To Create, Modify, or Delete a Unit Set........................................................................................................ 352 
 
- To Select the Data Source of a Row, Column, or Unit................................................................................. 341 
+ To Define the Units to Be Included in the Unit Set......................................................................................353 
 
- To Publish the Analytical Report.................................................................................................................. 341 
+ To Select the Data Source of a Row, Column, or Unit................................................................................. 354 
 
- To Merge Analytical Reports..........................................................................................................................342 
+ To Publish the Analytical Report.................................................................................................................. 354 
 
- Example: Designing an Analytical Report.....................................................................................................342 
+ To Merge Analytical Reports..........................................................................................................................355 
 
- ARM Reference............................................................................................................................................... 346 
+ Example: Designing an Analytical Report.....................................................................................................355 
 
- Cell Formatting..................................................................................................................................... 346 
+ ARM Reference............................................................................................................................................... 359 
 
- Formula Functions................................................................................................................................358 
+ Cell Formatting..................................................................................................................................... 359 
 
- Formula Operators............................................................................................................................... 367 
+ Formula Functions................................................................................................................................370 
 
- Formula Parameters............................................................................................................................. 370 
+ Formula Operators............................................................................................................................... 380 
 
- Printing Style........................................................................................................................................ 374 
+ Formula Parameters............................................................................................................................. 383 
 
-**Acumatica Report Designer Guide........................................................................................................ 378** 
+ Printing Style........................................................................................................................................ 387 
 
- Getting Started with the Report Designer.................................................................................................... 378 
+**Acumatica Report Designer Guide........................................................................................................ 391** 
 
- Report Designer: General Information................................................................................................ 378 
+ Getting Started with the Report Designer.................................................................................................... 391 
 
- Report Designer: To Install the Acumatica Report Designer.............................................................. 380 
+ Report Designer: General Information................................................................................................ 391 
 
- Creating a Report...........................................................................................................................................381 
+ Report Designer: To Install the Acumatica Report Designer.............................................................. 393 
 
- Report Creation: General Information.................................................................................................382 
+ Creating a Report...........................................................................................................................................394 
 
- Report Creation: Modification of an Existing Report.......................................................................... 384 
+ Report Creation: General Information.................................................................................................395 
 
- Report Creation: Report Sections........................................................................................................386 
+ Report Creation: Modification of an Existing Report.......................................................................... 397 
 
 
 <!-- PAGE_BREAK -->
  Contents | 7 
 
- Report Creation: Update of the Database Schema for Reports......................................................... 388 
+ Report Creation: Report Sections........................................................................................................399 
 
- Report Creation: To Copy an Existing Report......................................................................................390 
+ Report Creation: Update of the Database Schema for Reports......................................................... 401 
 
- Report Creation: To Create a Report Based on One DAC................................................................... 392 
+ Report Creation: To Copy an Existing Report......................................................................................403 
 
- Filling a Report with Content........................................................................................................................397 
+ Report Creation: To Create a Report Based on One DAC................................................................... 405 
 
- Report Content: General Information................................................................................................. 397 
+ Filling a Report with Content........................................................................................................................410 
 
- Report Content: To Add QR Codes to a Report...................................................................................400 
+ Report Content: General Information................................................................................................. 410 
 
- Report Content: To Embed an Image in a Report...............................................................................403 
+ Report Content: To Add QR Codes to a Report...................................................................................414 
 
- Report Content: To Add a Subreport...................................................................................................406 
+ Report Content: To Embed an Image in a Report...............................................................................416 
 
- Using Variables and Expressions.................................................................................................................. 410 
+ Using Variables and Expressions.................................................................................................................. 419 
 
- Variables and Expressions: General Information................................................................................410 
+ Variables and Expressions: General Information................................................................................419 
 
- Variables and Expressions: Functions in Expressions.........................................................................412 
+ Variables and Expressions: Functions in Expressions.........................................................................421 
 
- Variables and Expressions: Expression Editor.....................................................................................424 
+ Variables and Expressions: Expression Editor.....................................................................................434 
 
- Variables and Expressions: Data Formats of Values........................................................................... 426 
+ Variables and Expressions: Data Formats of Values........................................................................... 436 
 
- Variables and Expressions: To Add a Variable and an Expression......................................................430 
+ Variables and Expressions: To Add a Variable and an Expression......................................................440 
 
- Using Parameters and Filters........................................................................................................................ 434 
+ Using Parameters and Filters........................................................................................................................ 444 
 
- Parameters and Filters: General Information......................................................................................434 
+ Parameters and Filters: General Information......................................................................................444 
 
- Parameters and Filters: To Define a Parameter and a Filter...............................................................437 
+ Parameters and Filters: To Define a Parameter and a Filter...............................................................447 
 
- Sorting and Grouping Data........................................................................................................................... 441 
+ Sorting and Grouping Data........................................................................................................................... 451 
 
- Data Sorting and Grouping: General Information.............................................................................. 441 
+ Data Sorting and Grouping: General Information.............................................................................. 451 
 
- Data Sorting and Grouping: To Specify a Data Group in a Report..................................................... 443 
+ Data Sorting and Grouping: To Specify a Data Group in a Report..................................................... 453 
 
- Data Sorting and Grouping: To Specify Sorting Conditions...............................................................446 
+ Data Sorting and Grouping: To Specify Sorting Conditions...............................................................456 
 
- Modifying the Report Style............................................................................................................................450 
+ Modifying the Report Style............................................................................................................................460 
 
- Report Style: General Information.......................................................................................................450 
+ Report Style: General Information.......................................................................................................460 
 
- Report Style: To Create and Apply a Style Template.......................................................................... 452 
+ Report Style: To Create and Apply a Style Template.......................................................................... 462 
 
- Developing Tabular Reports..........................................................................................................................456 
+ Developing Tabular Reports..........................................................................................................................466 
 
- Tabular Reports: General Information.................................................................................................456 
+ Tabular Reports: General Information.................................................................................................466 
 
- Tabular Reports: To Create a Tabular Report......................................................................................457 
+ Tabular Reports: To Create a Tabular Report......................................................................................467 
 
- Exporting Reports.......................................................................................................................................... 462 
+ Exporting Reports.......................................................................................................................................... 472 
 
- Report Export: General Information....................................................................................................462 
+ Report Export: General Information....................................................................................................472 
 
- Report Export: To Export a Report as an XLS file................................................................................465 
+ Report Export: To Export a Report as an XLS file................................................................................475 
 
- Localizing Reports..........................................................................................................................................467 
+ Localizing Reports..........................................................................................................................................477 
 
- Report Localization: General Information...........................................................................................467 
+ Report Localization: General Information...........................................................................................477 
 
- Report Localization: To Localize a Report...........................................................................................469 
+ Report Localization: To Localize a Report...........................................................................................479 
 
-**Appendix............................................................................................................................................ 473** 
+**Appendix............................................................................................................................................ 483** 
 
- Reports........................................................................................................................................................... 473 
+ Reports........................................................................................................................................................... 483 
 
- Report Form.......................................................................................................................................... 473 
+ Report Form.......................................................................................................................................... 483 
 
 
 <!-- PAGE_BREAK -->
  Contents | 8 
 
- Report....................................................................................................................................................478 
+ Report....................................................................................................................................................490 
 
-Form Toolbar and More Menu.......................................................................................................................480 
+Form Toolbar and More Menu.......................................................................................................................491 
 
-Table Toolbar................................................................................................................................................. 487 
+Table Toolbar................................................................................................................................................. 498 
 
 
 <!-- PAGE_BREAK -->
@@ -484,9 +484,9 @@ Table Toolbar...................................................................
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -520,7 +520,7 @@ Table Toolbar...................................................................
 
  Dashboards are an important and convenient tool for monitoring and analyzing critical business information. Dashboards display widgets, such as charts, data tables, embedded pages, Power BI tiles, key performance indicators (KPIs), trend card KPIs, and wiki pages. 
 
- You can customize dashboards so that users can view important information and quickly access further details. On the Dashboards (SM208600) form, you can add dashboards, specify their locations in the site map, and set up access rights. For more information, see Administering Dashboard Forms. 
+ You can customize dashboards so that users can view important information and quickly access further details. On the Classic Dashboards (SM208600) form, you can add dashboards, specify their locations in the site map, and set up access rights. For more information, see Administering Dashboards. 
 
 
 <!-- PAGE_BREAK -->
@@ -546,7 +546,7 @@ Table Toolbar...................................................................
 
 - _Managing Pivot Tables_ 
 
-- _Administering Dashboard Forms_ 
+- _Administering Dashboards_ 
 
 - _Managing Power BI Integration_ 
 
@@ -602,29 +602,31 @@ Table Toolbar...................................................................
 
  You usually create or modify a generic inquiry or report to retrieve data related to some business purpose, so you know which data you need to retrieve. Thus, you have to explore which data access classes and data fields you can use to access this data. 
 
- To find the underlying data access classes and fields, you explore the forms related to the needed data. For example, suppose that you want to find the data field that holds the reference number of a sales order. When you save a sales order on the Sales Orders (SO301000) form, the system assigns a reference number to it. To find out which data class and data field correspond to the sales order reference number, you open this form, press Ctrl+Alt and click the Order Nbr. element on the form (see Item 1 in the screenshot below). 
+ To find the underlying data access classes and fields, you explore the forms related to the needed data. For example, suppose that you want to find the data field that holds the reference number of a sales order. When you save a sales order on the Sales Orders (SO301000) form, the system assigns a reference number to it. To find out which data class and data field correspond to the sales order reference number, you open this form, press Ctrl+Alt and click the Order Nbr. element on the form (see Item 1 below). 
 
- As an alternative, you can click Customization > Inspect Element on the form title bar and then click the needed UI element. 
+ As an alternative, you can click Settings > Inspect Element on the form title bar and then click the needed UI element. 
 
- The Element Properties dialog box opens. You are interested in the values in the Data Class and Data Field boxes (Item 2 in the following screenshot), which correspond to the data access class and data field you need to specify when you modify the generic inquiry or report. 
+ The Element Properties dialog box opens. You are interested in the values in the Data Class and Data Field boxes (Item 2), which correspond to the data access class and data field you need to specify when you modify the generic inquiry or report. 
 
  Figure: Form element inspection 
+
+ You use the Data Class values you discover when you add data access classes on the Data Sources tab of the Generic Inquiry (SM208000) form for a generic inquiry or on the Tables tab of the Schema Builder in the Report 
 
 
 <!-- PAGE_BREAK -->
  Managing Generic Inquiries | 14 
 
- You use the Data Class values you discover when you add data access classes on the Data Sources tab of the Generic Inquiry (SM208000) form for a generic inquiry or on the Tables tab of the Schema Builder in the Report Designer for a report. The generic inquiry or report can access various data fields of the data access classes that are listed on this tab. You will use the Data Field value to customize various generic inquiry parameters, conditions, and listed items in the results grid (that is, the table of the generic inquiry form that shows its results). In the Report Designer, you will use the Data Field value to customize report parameters and filters, to specify data sorting and grouping, and to link the elements with the data to be displayed in the report. 
+ Designer for a report. The generic inquiry or report can access various data fields of the data access classes that are listed on this tab. You will use the Data Field value to customize various generic inquiry parameters, conditions, and listed items in the results grid (that is, the table of the generic inquiry form that shows its results). In the Report Designer, you will use the Data Field value to customize report parameters and filters, to specify data sorting and grouping, and to link the elements with the data to be displayed in the report. 
 
 #### Inspection of an Element with a Drop-Down Control 
 
- If you are inspecting an element with a drop-down control (see Item 1 in the following screenshot), you can also view the list of values for the element. To do this, in the Element Properties dialog box, you click the Drop-Down Values button (Item 2) and the system displays the Drop-Down Values dialog box (Item 3). In the dialog box, you can review the list of options available for the drop-down control. The Value column lists the values stored in the database, and the Description column lists the corresponding captions that are displayed on the user interface. You use the values from the Value column in complex conditions and in formulas in generic inquiries and reports. 
+ If you are inspecting an element with a drop-down control (see Item 1 below), you can also view the list of values for the element. To do this, in the Element Properties dialog box, you click the Drop-Down Values button (Item 2) and the system displays the Drop-Down Values dialog box (Item 3). In the dialog box, you can review the list of options available for the drop-down control. The Value column lists the values stored in the database, and the Description column lists the corresponding captions that are displayed on the user interface. You use the values from the Value column in complex conditions and in formulas in generic inquiries and reports. 
 
  Figure: Inspection of a form element with a drop-down control 
 
 #### Detailed Information About DACs 
 
- You can get more information about the data access class structure and its data fields by using the functionality of the Element Properties dialog box (see Item 1 in the following screenshot). 
+ You can get more information about the data access class structure and its data fields by using the functionality of the Element Properties dialog box (see Item 1 below). 
 
  In the dialog box, you can click the link with the data access class name (Item 2). The system opens the DAC Schema Browser in a new browser tab with information about the selected data access class (Item 3). For more information about the DAC Schema Browser, see Data from Multiple Data Sources: DAC Schema Browser. 
 
@@ -652,21 +654,21 @@ Table Toolbar...................................................................
 <!-- PAGE_BREAK -->
  Managing Generic Inquiries | 16 
 
- Figure: The list of data access classes and their aliases 
+**_Figure: The list of data access classes and their aliases_** 
 
- In the Acumatica Report Designer, you can specify aliases (if needed) on the Relationships tab of the Schema Builder. The following screenshot shows the aliases specified for some tables on the Relationships tab of the Schema Builder. 
+In the Acumatica Report Designer, you can specify aliases on the **Relationships** tab of the Schema Builder. The following screenshot shows the aliases specified for some tables on the **Relationships** tab of the Schema Builder. 
 
- Figure: Aliases in the Schema Builder of the Report Designer 
-
-### DAC Discovery: To Inspect UI Elements 
-
- The following activity will walk you through the process of inspecting the user interface elements on Acumatica ERP forms to find the data access classes (DACs) and data fields related to these elements. 
+**_Figure: Aliases in the Schema Builder of the Report Designer_** 
 
 
 <!-- PAGE_BREAK -->
  Managing Generic Inquiries | 17 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+### DAC Discovery: To Inspect UI Elements 
+
+ The following activity will walk you through the process of inspecting the user interface elements on Acumatica ERP forms to find the data access classes (DACs) and data fields related to these elements. 
+
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -692,17 +694,19 @@ Table Toolbar...................................................................
 
 2. Point to the **Order Type** box, press Ctrl+Alt, and then click. The **Element Properties** dialog box opens. 
 
- As an alternative, you can click Customization > Inspect Element on the form title bar and then click the needed UI element. 
+ As an alternative, you can click Settings > Inspect Element on the form title bar and then click the needed UI element. 
 
- Note the values of the Data Class and Data Field elements ( SOOrder and OrderType , respectively), which are the data access class and field you need. The Data Class value reflects a data access class you need to add on the Data Sources tab of the Generic Inquiry (SM208000) form, so that the inquiry can access various data fields of the data access class. You will use the Data Field value when you customize various generic inquiry parameters and conditions, as well as listed items on the results grid (that is, the table showing the inquiry results). 
-
-3. Close the dialog box. 
-
-4. Inspect the UI elements listed in the **UI Element** column of the following table, and make a note of the data     access class and data field of each element. Make sure that you get the same results as the following table     shows. 
+ Note the values of the Data Class and Data Field elements ( SOOrder and OrderType , respectively), which are the data access class and field you need. The Data Class value reflects a data access class you need to add on the Data Sources tab of the Generic Inquiry (SM208000) form, so that the inquiry can access various data fields of the data access class. You will 
 
 
 <!-- PAGE_BREAK -->
  Managing Generic Inquiries | 18 
+
+ use the Data Field value when you customize various generic inquiry parameters and conditions, as well as listed items on the results grid (that is, the table showing the inquiry results). 
+
+3. Close the dialog box. 
+
+4. Inspect the UI elements listed in the **UI Element** column of the following table, and make a note of the data     access class and data field of each element. Make sure that you get the same results as the following table     shows. 
 
  UI Element Data Access Class Data Field 
 
@@ -720,7 +724,7 @@ Table Toolbar...................................................................
 
 8. Close the dialog box. 
 
-9. On the **General** tab, inspect the **Account Name** element. Notice that the **Data Class** and **Data Field** values     are _Customer_ and _AcctName_ , respectively. 10.Close the dialog box. 
+9. In the Summary area, inspect the **Account Name** element. Notice that the **Data Class** and **Data Field** values     are _Customer_ and _AcctName_ , respectively. 10.Close the dialog box. 
 
 ### Copying a Predefined Inquiry 
 
@@ -740,15 +744,13 @@ Table Toolbar...................................................................
 
  You may find the information in this chapter useful when you are responsible for the customization of Acumatica ERP in your company, and you need to modify a predefined generic inquiry to meet particular specifications. 
 
-#### Modification of a Predefined Inquiry 
-
- You can adjust any predefined generic inquiry to the needs of your organization by changing the tables that are used in the inquiry, adding or removing parameters, or changing the results grid. However, note that the system does not update the settings of customized generic inquiries during an upgrade of Acumatica ERP. That is, aer an upgrade, any predefined generic inquiries that you have customized will not include any changes that may have been made to the system data with this upgrade. For example, if a database table previously included in 
-
 
 <!-- PAGE_BREAK -->
  Managing Generic Inquiries | 19 
 
- the generic inquiry was removed in the system data of a newer version of Acumatica ERP, aer an upgrade to this version, the customized generic inquiry that includes this table will no longer work. 
+#### Modification of a Predefined Inquiry 
+
+ You can adjust any predefined generic inquiry to the needs of your organization by changing the tables that are used in the inquiry, adding or removing parameters, or changing the results grid. However, note that the system does not update the settings of customized generic inquiries during an upgrade of Acumatica ERP. That is, aer an upgrade, any predefined generic inquiries that you have customized will not include any changes that may have been made to the system data with this upgrade. For example, if a database table previously included in the generic inquiry was removed in the system data of a newer version of Acumatica ERP, aer an upgrade to this version, the customized generic inquiry that includes this table will no longer work. 
 
  Thus, we strongly recommend that instead of directly modifying a predefined generic inquiry, you make a copy of the predefined inquiry and modify the copy. 
 
@@ -768,7 +770,7 @@ Table Toolbar...................................................................
 
  In this activity, you will learn how to make a copy of a predefined generic inquiry and create a new inquiry based on the copied generic inquiry. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -776,13 +778,13 @@ Table Toolbar...................................................................
 
  In this activity, acting as the technical specialist, you will copy the predefined generic inquiry to leave it intact, and you will later modify its copy as requested. 
 
-#### Configuration Overview 
-
- You will work with the predefined Invoices and Memos (AR3010PL) inquiry form, which has the AR-Invoices and Memos inquiry title and the Invoices and Memos site map title specified on the Generic Inquiry (SM208000) form. 
-
 
 <!-- PAGE_BREAK -->
  Managing Generic Inquiries | 20 
+
+#### Configuration Overview 
+
+ You will work with the predefined Invoices and Memos (AR3010PL) inquiry form, which has the AR-Invoices and Memos inquiry title and the Invoices and Memos site map title specified on the Generic Inquiry (SM208000) form. 
 
  The Invoices and Memos (AR3010PL) generic inquiry form, which is the list of the invoices and memos that have been created on the Invoices and Memos (AR301000) form, is the substitute form that is opened when you click the Invoices and Memos link in a workspace or a list of search results. 
 
@@ -804,7 +806,7 @@ Table Toolbar...................................................................
 
 1. Open the Invoices and Memos (AR3010PL) form. 
 
-2. On the form title bar, click **Customization > Edit Generic Inquiry**. The system opens the _Generic Inquiry_     (SM208000) form with the settings of this generic inquiry. The inquiry title is _AR-Invoices and Memos_. 
+2. On the form title bar, click **Settings > Edit Generic Inquiry**. The system opens the _Generic Inquiry_     (SM208000) form with the settings of this generic inquiry. The inquiry title is _AR-Invoices and Memos_. 
 
 3. On the form toolbar, click **Clipboard > Copy**. 
 
@@ -844,15 +846,13 @@ Table Toolbar...................................................................
 
 3. In the **Access Rights** section, select **Copy Access Rights from Screen** , and then select _Invoices and Memos_     with the _AR.30.10.PL_ screen ID in the box next to the option button (as shown in the following screenshot).     (To do this, you search for the screen ID in the lookup table.)     With these settings, users that have access to the Invoices and Memos (AR3010PL) list of records will also     have access to the Copy of Invoices and Memos form. 
 
- Figure: The set of access rights to the copied inquiry 
-
-4. Click **Publish**. 
-
 
 <!-- PAGE_BREAK -->
  Managing Generic Inquiries | 22 
 
- The system publishes the generic inquiry and adds it to the Data Views workspace. Now you can open it by searching for its identifier. 
+ Figure: The set of access rights to the copied inquiry 
+
+4. Click **Publish**.     The system publishes the generic inquiry and adds it to the **Data Views** workspace. Now you can open it by     searching for its identifier. 
 
 ### Modifying Inquiry Results 
 
@@ -874,6 +874,10 @@ Table Toolbar...................................................................
 
 - Add a data field to the results 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 23 
+
 - Change the caption of a column 
 
 - Specify the default navigation setting of a column in the inquiry results 
@@ -892,10 +896,6 @@ Table Toolbar...................................................................
 
  You add a row to the table on the Results Grid tab of the Generic Inquiry (SM208000) form for each column to appear on the results grid, and in the row, you select the data field whose values the system should display. On this tab, you can select data fields of the data access classes that you have added on the Data Sources tab of the form. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 23 
-
  Some data access classes have data fields whose values are not stored in the database as the values of ordinary data fields are. Moreover, an entire class can include only data fields whose values are not stored in the database. For example, the Inventory Transaction Details (IN404000) form uses the InventoryTranDetEnqResult data access class, which has no values stored in the database, to show summary information about the inventory transactions that have been posted within a selected financial period. 
 
  If you use a data field whose values are not stored in the database in your inquiry or report, this data field might return no data. Whether this data field returns any data depends on the way this field is calculated in the source code. 
@@ -912,6 +912,10 @@ Table Toolbar...................................................................
 
  When you add a new row to the table on the Results Grid tab, the Default Navigation check box is selected by default. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 24 
+
 #### Use of Columns in Quick Searches 
 
  By selecting or clearing the Use in Quick Search check box, which is hidden by default, on the Results Grid tab of the Generic Inquiry (SM208000) form, you determine which columns of the resulting generic inquiry form are used by the Acumatica ERP search functionality. When you add a row on this tab, the check box is cleared by default, indicating that the system will ignore the values of the column while searching through the inquiry data. If the check box is selected, the system will search for keywords in the values of the column. 
@@ -924,13 +928,7 @@ Table Toolbar...................................................................
 
 #### Quick Filters 
 
- You determine which columns are used as quick filters by default by selecting or clearing the Quick Filter check box, which is hidden by default, on the Results Grid tab of the Generic Inquiry (SM208000) form. With this check box 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 24 
-
- selected, the system adds a quick filter for the column to the filtering area of the resulting generic inquiry form. For more information about filters in Acumatica ERP, see Filtering and Sorting Capabilities: General Information. 
+ You determine which columns are used as quick filters by default by selecting or clearing the Quick Filter check box, which is hidden by default, on the Results Grid tab of the Generic Inquiry (SM208000) form. With this check box selected, the system adds a quick filter for the column to the filtering area of the resulting generic inquiry form. For more information about filters in Acumatica ERP, see Filtering and Sorting Capabilities: General Information. 
 
 #### Column Width 
 
@@ -946,6 +944,10 @@ Table Toolbar...................................................................
 
  If you specify numbers that are too large (based on the applicable configuration and inquiry) in the Select Top or Records per Page box (or in both boxes), these settings can increase the time to process the inquiry and can cause performance degradation in the server. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 25 
+
 #### Attachment of Files and Notes to Tables Used in the Generic Inquiry 
 
  While working with a list of records on a generic inquiry form, a user can attach a file, such as a scanned document with a signature, and a note, such as important information for colleagues about a customer, to a particular row of the table. When you design the generic inquiry, you can select the database table to which files and notes should be attached in the resulting generic inquiry form, or you can instead disable any attachments. In the Summary area of the Generic Inquiry (SM208000) form, in the Attach Notes To drop-down list, you can select one of the tables listed on the Relations tab of the Generic Inquiry form, or the Not Applicable option. 
@@ -956,45 +958,43 @@ Table Toolbar...................................................................
 
  In some cases, you may want to include deleted records among the inquiry results. 
 
- For example, suppose that your company has provided services for a customer; it has generated the related invoice in Acumatica ERP and sent it to the customer. The company has later complained about the provided services, and a manager has approved the deletion of the invoice so that the customer no longer owes the company for the disputed services. You delete the invoice of the customer. (Because the invoice has not been released yet, it can be edited or deleted.) Then during your company’s audit, you generate the AR Register (AR621500) report, in which 
+ For example, suppose that your company has provided services for a customer; it has generated the related invoice in Acumatica ERP and sent it to the customer. The company has later complained about the provided services, and a manager has approved the deletion of the invoice so that the customer no longer owes the company for the disputed services. You delete the invoice of the customer. (Because the invoice has not been released yet, it can be edited or deleted.) Then during your company’s audit, you generate the AR Register (AR621500) report, in which the invoice number is missing. To give the interested parties a way to find and view invoices whose numbers are missing, you have decided to create an inquiry on the Generic Inquiry (SM208000) form based on the AR-Invoices and Memos inquiry, except that the results will include deleted records. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 25 
-
-the invoice number is missing. To give the interested parties a way to find and view invoices whose numbers are missing, you have decided to create an inquiry on the _Generic Inquiry_ (SM208000) form based on the _AR-Invoices and Memos_ inquiry, except that the results will include deleted records. 
-
-To include deleted records in the inquiry results, on the _Generic Inquiry_ form, you do the following: 
+ To include deleted records in the inquiry results, on the Generic Inquiry form, you do the following: 
 
 - On the **Results Grid** tab, add a row, and in this row, specify the DAC name whose deleted records you want     to include in the **Object** column and the _DeletedDatabaseRecord_ value in the **Data Field** column. 
 
-- In the Summary area, select the **Show Deleted Records** check box. By default, this check box is cleared. 
+- On the **Interface Options** tab, select the **Show Deleted Records** check box. By default, this check box is     cleared. With these settings, the system displays the deleted records in the inquiry results, indicating the deleted records by selecting the check box in a new column. By default, this column contains _Is Deleted_ , but you can change this caption in the **Caption** column of the **Results Grid** tab of the form. We recommend entering a descriptive caption for this column—for example, _Deleted_ followed by the type of record. 
 
-With these settings, the system displays the deleted records in the inquiry results, indicating the deleted records by selecting the check box in a new column. By default, this column contains _Is Deleted_ , but you can change this caption in the **Caption** column of the **Results Grid** tab of the form. We recommend entering a descriptive caption for this column—for example, _Deleted_ followed by the type of record. 
-
-The following screenshot shows rows added to the **Results Grid** tab to show the deleted records of the Batch and Ledger tables. Notice that the _Deleted Batch_ and _Deleted Ledger_ column captions, respectively, have been specified for these tables. 
-
-**_Figure: Rows added to show deleted records in the Journal Transactions inquiry_** 
-
-The following screenshot shows the _Journal Transactions_ generic inquiry, in which the records of deleted batches and ledgers are now included. Newly added columns can be used for filtering records. 
-
-**_Figure: Records of the Journal Transactions inquiry filtered by the deleted batches_** 
+ The following screenshot shows rows added to the Results Grid tab to show the deleted records of the Batch and Ledger tables. Notice that the Deleted Batch and Deleted Ledger column captions, respectively, have been specified for these tables. 
 
 
 <!-- PAGE_BREAK -->
  Managing Generic Inquiries | 26 
 
+ Figure: Rows added to show deleted records in the Journal Transactions inquiry 
+
+ The following screenshot shows the Journal Transactions generic inquiry, in which the records of deleted batches and ledgers are now included. Newly added columns can be used for filtering records. 
+
+ Figure: Records of the Journal Transactions inquiry filtered by the deleted batches 
+
 #### Attributes and User-Defined Fields in Inquiry Results 
 
  If any attributes or user-defined fields are defined for the entity that corresponds to the data access class, you can include these attributes or user-defined fields to the inquiry results. You can find an attribute in the Data Field column on the Results Grid tab, where its name has the following format: AttributeID_Attributes. For example, suppose that a stock item has an attribute with the INGREDIENT ID, which is defined on the Attributes (CS205000) form. To add this attribute to the generic inquiry results, you select the INGREDIENT_Attributes field. 
 
- You can find a user-defined field in the list in the Data Field column, where its name has the following format: AttributeAttributeID. For example, suppose that a sales order has the Interest user-defined field, which corresponds to the INTEREST attribute. To include this user-defined field in the inquiry results, you select the AttributeINTEREST field. 
+ You can find a user-defined field in the list in the Data Field column, where its name has the following format: AttributeAttributeID. For example, suppose that a sales order has the Interest user-defined field, which corresponds 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 27 
+
+ to the INTEREST attribute. To include this user-defined field in the inquiry results, you select the AttributeINTEREST field. 
 
 ### Modification of Inquiry Results: To Include an Additional Output Field 
 
  In this activity, you will learn how to modify an existing generic inquiry to include an additional column of data in the results grid. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1016,10 +1016,6 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 
  The copy you will work with has the DB1-ARInvoicesMemos inquiry title and the S130 Invoices and Memos site map title specified on the Generic Inquiry form. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 27 
-
 #### Process Overview 
 
  In the Summary area of the Invoices and Memos (AR301000) form, you will inspect the Project/Contract element to find the related data access class (DAC) and data field. Then you will make changes to the copied inquiry on the Generic Inquiry (SM208000) form. You will add a data field on the Results Grid tab of the form. 
@@ -1027,6 +1023,10 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 #### System Preparation 
 
  Launch the Acumatica ERP website, and sign in to a tenant with the U100 dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the gibbs username and the 123 password. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 28 
 
  The gibbs user is assigned the Administrator role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards. 
 
@@ -1038,7 +1038,7 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 
  While you are working with a generic inquiry on the Generic Inquiry (SM208000) form, you may find it convenient to have the form or forms containing the UI elements open in a separate browser tab, so that you can quickly switch between the Generic Inquiry form and the form you are using to inspect the elements. 
 
-2. Make a note of the discovered DAC and data field of the **Project/Contract** element ( _ARInvoice_ and _ProjectID_ ,     respectively). 
+2. Make a note of the discovered DAC and data field of the **Project/Contract** element ( _PX.Objects.AR.ARInvoice_     and _ProjectID_ , respectively). 
 
 #### Step 2: Adding a Data Field, Changing the Caption, and Setting Up Default Navigation and 
 
@@ -1060,13 +1060,7 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 
 - **Object** : ARInvoice 
 
-- **Data Field** : ProjectID Notice that the **Visible** check box is selected by default, which indicates that the system will display the added column in the inquiry. Also notice that the **Default Navigation** check box is selected by default, indicating that the values in this column will be shown as links, because the _Projects_ (PM301000) form is specified for the data field as the default form defined in the source code. In the generic inquiry resulting 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 28 
-
- from these changes, when a user clicks a link in this column, the system opens the Projects form in a pop-up window with the selected project details. 
+- **Data Field** : ProjectID Notice that the **Visible** check box is selected by default, which indicates that the system will display the added column in the inquiry. Also notice that the **Default Navigation** check box is selected by default, indicating that the values in this column will be shown as links, because the _Projects_ (PM301000) form is specified for the data field as the default form defined in the source code. In the generic inquiry resulting from these changes, when a user clicks a link in this column, the system opens the _Projects_ form in a pop-up window with the selected project details. 
 
 6. In the **Caption** column (which is hidden by default), type the caption (name) of the requested column     ( _Project ID_ ). 
 
@@ -1075,6 +1069,10 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 8. On the form toolbar, click **Save**. 
 
  You have added the row that corresponds to the Project ID column. Currently, it is the last row (as shown in the following screenshot), so Project ID would be the rightmost column on the generic inquiry form. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 29 
 
  Figure: The added row in the inquiry 
 
@@ -1094,7 +1092,7 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 29 
+ Managing Generic Inquiries | 30 
 
  Figure: The Invoices and Memos with Projects generic inquiry 
 
@@ -1122,11 +1120,13 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 
 #### Applicable Scenarios 
 
- You may find the information in this chapter useful when you are responsible for the customization of Acumatica ERP in your company. To speed up inquiry creation, you have copied an existing generic inquiry that provides results similar to those you need. Now you want to group and aggregate the inquiry output and add a sort order to suit your needs. 
+ You may find the information in this chapter useful when you are responsible for the customization of Acumatica ERP in your company. To speed up inquiry creation, you have copied an existing generic inquiry that provides 
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 30 
+ Managing Generic Inquiries | 31 
+
+ results similar to those you need. Now you want to group and aggregate the inquiry output and add a sort order to suit your needs. 
 
 #### Sorting Settings 
 
@@ -1134,7 +1134,7 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 
  Any user-defined sorting that a user of an inquiry specifies (by clicking the column header and specifying a condition in the dialog box) overrides any default sorting you specify on the Sort Order tab. 
 
- If an inquiry has no sorting settings specified on the Sort Order tab, the system displays a warning in the tab title, as shown in the following screenshot. Until you define sorting settings, the default ones, which are shown at the bottom of the screen, are used for the inquiry. 
+ If an inquiry has no sorting settings specified on the Sort Order tab, the system displays a warning in the tab title, as shown in the following screenshot. Until you define sorting settings, the default ones are used for the inquiry. 
 
  Figure: Warning about the default sort order 
 
@@ -1144,7 +1144,7 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 31 
+ Managing Generic Inquiries | 32 
 
  Figure: The Grouping tab of the Generic Inquiry form 
 
@@ -1158,7 +1158,9 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 
 - _MIN_ : Returns the minimum value of all values of the group 
 
-- _SUM_ : Returns the sum of all values of the group If no function is selected in the **Aggregate Function** column for a data field used for grouping, the following aggregate functions are applied by default: 
+- _SUM_ : Returns the sum of all values of the group 
+
+- _STRINGAGG_ : Concatenates the values of the group into a string If no function is selected in the **Aggregate Function** column for a data field used for grouping, the following aggregate functions are applied by default: 
 
 - _SUM_ is applied to the columns with the numeric type. 
 
@@ -1170,17 +1172,15 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 
  In this activity, you will learn how to modify an existing generic inquiry to add grouping and sorting conditions. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-#### Story 
-
- Suppose that you are a technical specialist in your company who is working on simple customizations, including those involving the creation, modification, and use of generic inquiries. An accountant of your company has requested a generic inquiry that collects data about invoices and memos. You have offered the predefined Invoices and Memos (AR3010PL) generic inquiry form, but the accountant would like the results to list not individual 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 32 
+ Managing Generic Inquiries | 33 
 
- invoices but instead the average invoice amount of each customer, with these rows sorted in descending order by the average invoice amount. 
+#### Story 
+
+ Suppose that you are a technical specialist in your company who is working on simple customizations, including those involving the creation, modification, and use of generic inquiries. An accountant of your company has requested a generic inquiry that collects data about invoices and memos. You have offered the predefined Invoices and Memos (AR3010PL) generic inquiry form, but the accountant would like the results to list not individual invoices but instead the average invoice amount of each customer, with these rows sorted in descending order by the average invoice amount. 
 
 #### Configuration Overview 
 
@@ -1214,15 +1214,15 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 
  If the Visible check box is cleared for a row, the corresponding column is not visible initially on the resulting inquiry form, but a user can make it visible as needed by using the Column Configuration dialog box of the table. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 34 
+
 5. On the **Grouping** tab, click **Add Row** on the table toolbar; in the **Data Field** column of the added row,     specify the value you found (that is, _BAccountR.AcctName_ ). 
 
  This value consists of the name of the source table, which is specified in the Object column of the Results Grid tab, and the Data Field value. 
 
 6. On the form toolbar, click **Save**. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 33 
 
 #### Step 2: Adding a Row to Hold the Aggregated Value 
 
@@ -1262,7 +1262,7 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 34 
+ Managing Generic Inquiries | 35 
 
  Figure: Generic inquiry with the average invoice amount grouped by customer name 
 
@@ -1284,11 +1284,11 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 
 - Add a Selection area with parameters to the generic inquiry form so that users of the form can view the most     relevant data for their current information needs 
 
-- Specify conditions to limit the listed data by default 
-
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 35 
+ Managing Generic Inquiries | 36 
+
+- Specify conditions to limit the listed data by default 
 
 #### Applicable Scenarios 
 
@@ -1310,13 +1310,11 @@ The following screenshot shows the _Journal Transactions_ generic inquiry, in wh
 
  While constructing conditions in a generic inquiry, you can use the predefined values of data fields in the database, such as document statuses, and the predefined names of options stored in the database, such as document types. (A document status value is generally inserted by the system, based on the defined workflow. A document type value is entered by a user, who selects the needed option from the drop-down list.) 
 
- To use the predefined values of data fields, on the Conditions tab of the Generic Inquiry (SM208000) form, you select the From Schema check box for the data field; as a result, the system displays the possible values in the drop-down list in the Value 1 column and, for some conditions (for example, Is Between ), the Value 2 column. In the following screenshot, which shows the condition used to display sales orders with the Open status that have 
-
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 36 
+ Managing Generic Inquiries | 37 
 
-been created on the _Sales Orders_ (SO301000) form, you can see that the **From Schema** check box is selected and the predefined document status values are shown in the **Value 1** column. 
+To use the predefined values of data fields, on the **Conditions** tab of the _Generic Inquiry_ (SM208000) form, you select the **From Schema** check box for the data field; as a result, the system displays the possible values in the drop-down list in the **Value 1** column and, for some conditions (for example, _Is Between_ ), the **Value 2** column. In the following screenshot, which shows the condition used to display sales orders with the _Open_ status that have been created on the _Sales Orders_ (SO301000) form, you can see that the **From Schema** check box is selected and the predefined document status values are shown in the **Value 1** column. 
 
 **_Figure: Condition that uses predefined values in the database_** 
 
@@ -1326,11 +1324,13 @@ Further suppose that you would like to copy the inquiry and modify the copy to r
 
 Also, you can define a value to be a formula that uses the values of particular data fields. To specify a formula as a value, on the **Conditions** tab of the _Generic Inquiry_ form, you click the edit button in the **Value 1** or **Value 2** column to open the Formula Editor dialog box. For details, see _Formulas in Inquiry Results: General Information_. In a formula, if you use a value of a data field with a drop-down control, then you should use the value that is stored in the database, rather than the one that is displayed on the user interface. For details, see _DAC Discovery: General Information_. 
 
-If you are designing a condition that is not based on predefined values—as you would for data fields that store amounts or dates, which vary widely and are not predefined in the system—you clear the **From Schema** check box in the row with the data field. For example, suppose that you are designing an inquiry that returns only sales orders that have been created on the _Sales Orders_ form with a total amount that is greater than or equal to 2000. You would add the condition shown in the following screenshot. 
+If you are designing a condition that is not based on predefined values—as you would for data fields that store amounts or dates, which vary widely and are not predefined in the system—you clear the **From Schema** check box in the row with the data field. For example, suppose that you are designing an inquiry that returns only sales 
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 37 
+ Managing Generic Inquiries | 38 
+
+ orders that have been created on the Sales Orders form with a total amount that is greater than or equal to 2000. You would add the condition shown in the following screenshot. 
 
  Figure: Condition that uses a value entered by a user 
 
@@ -1342,13 +1342,13 @@ If you are designing a condition that is not based on predefined values—as you
 
  Figure: Two conditions joined with the And operator 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 39 
+
 ### Conditions and Parameters: Parameter Configuration 
 
  You can configure parameters that correspond to UI elements on the generic inquiry form. By using these UI elements, users can narrow the inquiry results to meet their current needs for information. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 38 
 
 #### Use of Parameters 
 
@@ -1364,13 +1364,13 @@ If you are designing a condition that is not based on predefined values—as you
 
 - A drop-down list: In the column, you select _<Combobox>_ , as shown in the following screenshot for a     parameter being defined for an inquiry for sales orders that have been defined on the _Sales Orders_     (SO301000) form. Because the parameter corresponds to the **Status** drop-down list on the form, you need to     select < _Combobox_ >. In this case, you also need to define the list of options in the **Combo Box Values** dialog     box, which you invoke by clicking **Combo Box Values** on the table toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 40 
+
  Figure: Selection of the control type of the parameter 
 
  Optionally, you can specify a default value for the parameter in the Default Value column. To make it possible to select a default value from a drop-down list or a lookup box, you can select the From Schema check box. If a field name is selected in the Schema Field column and you select the From Schema check box, then in the Default Value column, a lookup box, drop-down list, or check box (depending on the selected field) is displayed, and you can select a default value from the list of values. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 39 
 
 #### Creation of Conditions for Parameters 
 
@@ -1380,13 +1380,13 @@ If you are designing a condition that is not based on predefined values—as you
 
  As another example, suppose that for an inquiry form that lists sales orders, you were asked to add the Open Only check box to the Selection area of the inquiry form instead of limiting the output to list only open sales orders by default. If a user selects the check box, the inquiry should display only open sales orders; if the check box is cleared, it should list all available orders. You first add the OrderStatus parameter on the Parameters tab of the Generic Inquiry form and define it as a check box that is cleared by default, as shown in the following screenshot. 
 
- Figure: The OrderStatus parameter defined as a check box 
-
- Then on the Conditions tab of the form, you add a complex condition for the parameter you added, as shown in the following screenshot. The condition has the following meaning: If the Order Status check box is selected, display only orders with the Open status; otherwise, display the records without regard to status. 
-
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 40 
+ Managing Generic Inquiries | 41 
+
+**_Figure: The OrderStatus parameter defined as a check box_** 
+
+Then on the **Conditions** tab of the form, you add a complex condition for the parameter you added, as shown in the following screenshot. The condition has the following meaning: If the **Order Status** check box is selected, display only orders with the _Open_ status; otherwise, display the records without regard to status. 
 
 **_Figure: A complex condition corresponding to the OrderStatus parameter_** 
 
@@ -1394,13 +1394,13 @@ If you need the system to display the output results if a user of the generic in
 
 For example, suppose that for the inquiry you are modifying (which lists sales orders that have been created on the _Sales Orders_ form), you have been asked to add the **Date From** and **Date To** boxes to the Selection area of the inquiry form to give users the ability to specify a date range for the sales orders to be listed; you also need to add the parameters on the **Parameters** tab of the _Generic Inquiry_ form. If you do not indicate to the system that the values of these parameters can be empty, the system will not display any results if a user leaves the **Date From** and **Date To** boxes cleared. 
 
-Thus, for each of these date range parameters, you need to add a complex condition on the **Conditions** tab, as shown in the following screenshot, that specifies that the **Date From** and **Date To** boxes can be empty. If you add such a condition and a user leaves the **Date From** box empty and specifies a date in the **Date To** box, for example, the inquiry results display sales orders that have been created before the date specified in the **Date To** box. If the user leaves the both boxes empty, the system displays all applicable sales orders without regard to date. 
-
- If you did not include a condition on the Conditions tab to indicate that the parameter can be le empty by specifying the IsEmpty value in the Condition column, and if a user le the Date From box empty on the generic inquiry form, the inquiry would compare the empty value with the dates of order creation. Because in the database there are no records with empty order creation dates, the inquiry results would be empty. 
-
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 41 
+ Managing Generic Inquiries | 42 
+
+ Thus, for each of these date range parameters, you need to add a complex condition on the Conditions tab, as shown in the following screenshot, that specifies that the Date From and Date To boxes can be empty. If you add such a condition and a user leaves the Date From box empty and specifies a date in the Date To box, for example, the inquiry results display sales orders that have been created before the date specified in the Date To box. If the user leaves the both boxes empty, the system displays all applicable sales orders without regard to date. 
+
+ If you did not include a condition on the Conditions tab to indicate that the parameter can be le empty by specifying the IsEmpty value in the Condition column, and if a user le the Date From box empty on the generic inquiry form, the inquiry would compare the empty value with the dates of order creation. Because in the database there are no records with empty order creation dates, the inquiry results would be empty. 
 
  Figure: Complex conditions to display results if a user clears either parameter value (or both values) 
 
@@ -1410,13 +1410,13 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  For example, if an inquiry has two parameters and Arrange Parameters in X Columns is set to 1 on the Generic Inquiry form, then the system arranges the elements corresponding to the parameters in a single column, as shown in the following screenshot, which shows a generic inquiry listing sales orders that have been created on the Sales Orders (SO301000) form. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 43 
+
  Figure: Elements arranged in one column in the Selection area of the generic inquiry form 
 
  If Arrange Parameters in X Columns is set to 2 on the Generic Inquiry form, then the system arranges the elements corresponding to the parameters in two columns, as the following screenshot demonstrates. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 42 
 
  Figure: Elements arranged in two columns in the Selection area of the generic inquiry form 
 
@@ -1424,11 +1424,17 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  In this activity, you will learn how to modify an existing generic inquiry to limit the data displayed to a specific range of financial periods—that is, to include a date condition. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that you are a technical specialist in your company who is working on simple customizations, including those involving the creation, modification, and use of generic inquiries. An accountant of your company has requested an inquiry form that displays data about invoices. You have offered the predefined Invoices and Memos (AR3010PL) generic inquiry form, but the accountant wants the inquiry form to show results limited to a range of financial periods that the accountant wants to analyze. Specifically, the inquiry form should display only invoices (that is, no other document types) posted from the 12-2024 financial period through the 01-2025 financial period (including the starting and ending periods). 
+ Suppose that you are a technical specialist in your company who is working on simple customizations, including those involving the creation, modification, and use of generic inquiries. An accountant of your company has requested an inquiry form that displays data about invoices. You have offered the predefined Invoices and Memos 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 44 
+
+ (AR3010PL) generic inquiry form, but the accountant wants the inquiry form to show results limited to a range of financial periods that the accountant wants to analyze. Specifically, the inquiry form should display only invoices (that is, no other document types) posted from the 12-2025 financial period through the 01-2026 financial period (including the starting and ending periods). 
 
 #### Configuration Overview 
 
@@ -1437,10 +1443,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
  The Invoices and Memos (AR3010PL) generic inquiry form, which is the list of the invoices and memos that have been created on the Invoices and Memos (AR301000) form, is the substitute form that is opened when you click the Invoices and Memos link in a workspace or a list of search results. 
 
  The copy you will work with has the DB3-ARInvoicesMemos inquiry title and the S130 Invoices and Memos site map title specified on the Generic Inquiry form. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 43 
 
 #### Process Overview 
 
@@ -1470,13 +1472,15 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  To modify the generic inquiry by adding a condition for a document type, do the following: 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 45 
+
 1. Open the _Generic Inquiry_ (SM208000) form. 
 
 2. In the **Inquiry Title** box of the Summary area, select _DB3-ARInvoicesMemos_. 
 
-3. On the **Results Grid** tab, look for the row that corresponds to the **Type** column, and make a note of the     value in the **Data Field** column ( _DocType_ ). 
-
-4. On the **Conditions** tab, click **Add Row** on the table toolbar, and specify the following settings in the added     row: 
+3. On the **Conditions** tab, click **Add Row** on the table toolbar, and specify the following settings in the added     row: 
 
 - **Data Field** : _ARInvoice.DocType_ 
 
@@ -1486,19 +1490,13 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - **Value 1** : INV 
 
-5. On the form toolbar, click **Save**. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 44 
+4. On the form toolbar, click **Save**. 
 
 #### Step 3: Adding a Date Condition 
 
  To modify the generic inquiry by adding a date condition, do the following: 
 
-1. While you are still viewing the _DB3-ARInvoicesMemos_ inquiry on the _Generic Inquiry_ (SM208000) form, on     the **Results Grid** tab, look for the row that corresponds to the **Post Period** column, and make a note of the     value in the **Data Field** column ( _FinPeriodID_ ). 
-
-2. On the **Conditions** tab, click **Add Row** on the table toolbar, and specify the following settings in the added     row: 
+1. While you are still viewing the _DB3-ARInvoicesMemos_ inquiry on the _Generic Inquiry_ (SM208000) form, on the     **Conditions** tab, click **Add Row** on the table toolbar, and specify the following settings in the added row: 
 
 - **Data Field** : _ARInvoice.FinPeriodID_ 
 
@@ -1506,25 +1504,25 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - **From Schema** : Selected 
 
-- **Value 1** : _12-2024_ 
+- **Value 1** : _12-2025_ 
 
-- **Value 2** : _01-2025_ 
+- **Value 2** : _01-2026_ 
 
-3. On the form toolbar, click **Save**. 
+2. On the form toolbar, click **Save**. 
 
-4. Click the eye icon on the side panel to preview how your changes have affected the inquiry. The system has     applied the conditions you have added, so that the resulting generic inquiry (see the following screenshot)     displays only the invoices within the range of financial periods that you specified for the condition in the     **Value 1** and **Value 2** boxes ( _12-2024_ through _01-2025_ ). 
+3. Click the eye icon on the side panel to preview how your changes have affected the inquiry. The system has     applied the conditions you have added, so that the resulting generic inquiry (see the following screenshot)     displays only the invoices within the range of financial periods that you specified for the condition in the     **Value 1** and **Value 2** boxes ( _12-2025_ through _01-2026_ ). 
 
  Figure: Generic inquiry with a date condition 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 46 
 
 ### Conditions and Parameters: To Add Period-Range Parameters to the Selection Area 
 
  In this activity, you will learn how to modify an existing generic inquiry to give users the ability to limit the data displayed to a specific range of financial periods—that is, to add boxes corresponding to parameters to define the range. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 45 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1552,6 +1550,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  To inspect the UI element, do the following: 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 47 
+
 1. Open the _Invoices and Memos_ (AR301000) form, which displays a single invoice. 
 
 2. Point to the **Post Period** box, press Ctrl+Alt, and then click. The **Element Properties** dialog box opens.     Make a note of the value in the **Data Field** box ( _FinPeriodID_ ). 
@@ -1566,13 +1568,11 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 2. In the **Inquiry Title** box of the Summary area, select _DB4-ARInvoicesMemos_. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 46 
-
 3. On the **Results Grid** tab, look for the row that corresponds to the **Post Period** column, and make note of the     value in the **Data Field** column ( _FinPeriodID_ ). 
 
-4. On the **Parameters** tab, click **Add Row** on the table toolbar, and specify the following settings in the added     row: 
+4. On the **Parameters** tab, set the **Arrange Parameters in X Columns** to 1. 
+
+5. Click **Add Row** on the table toolbar, and specify the following settings in the added row: 
 
 - **Name** : PeriodFrom 
 
@@ -1582,9 +1582,9 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - **From Schema** : Selected 
 
-- **Default Value** : _01-2024_ 
+- **Default Value** : _01-2025_ 
 
-5. Again click **Add Row** on the table toolbar, and specify the following settings in the added row: 
+6. Again click **Add Row** on the table toolbar, and specify the following settings in the added row: 
 
 - **Name** : PeriodTo 
 
@@ -1594,9 +1594,9 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - **From Schema** : Selected 
 
-- **Default Value** : _02-2025_ 
+- **Default Value** : _02-2026_ 
 
-6. On the form toolbar, click **Save**. 
+7. On the form toolbar, click **Save**. 
 
 #### Step 3: Adding a Condition for the Parameters 
 
@@ -1620,7 +1620,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 47 
+ Managing Generic Inquiries | 48 
 
  Figure: Generic inquiry with parameters that define a range 
 
@@ -1634,19 +1634,19 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  In this activity, you will learn how to modify an existing generic inquiry to give users the ability to limit the data displayed by a value of some data field. To give users the ability to select that value, you will include a parameter for this data field in the Selection area of the inquiry form. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that you are a technical specialist in your company who is working on simple customizations, including those involving the creation, modification, and use of generic inquiries. An accountant of your company has requested an inquiry that displays data about invoices and memos. You have offered the predefined Invoices and Memos (AR3010PL) generic inquiry form, but the accountant wants to give users the ability to filter the inquiry results by a particular customer—that is, users should be able to select a particular customer in the Selection area of the resulting generic inquiry form and review only that customer’s invoices and memos. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 49 
+
 #### Configuration Overview 
 
  You will work with a copy of the predefined Invoices and Memos (AR3010PL) inquiry form, which has the AR-Invoices and Memos inquiry title and the Invoices and Memos site map title specified on the Generic Inquiry (SM208000) form. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 48 
 
  The Invoices and Memos (AR3010PL) generic inquiry form, which is the list of the invoices and memos that have been created on the Invoices and Memos (AR301000) form, is the substitute form that is opened when you click the Invoices and Memos link in a workspace or a list of search results. 
 
@@ -1670,7 +1670,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 2. In the **Inquiry Title** box of the Summary area, select _DB5-ARInvoicesMemos_. 
 
-3. On the **Results Grid** tab, look for the row that corresponds to the **Customer** column, and note the value in     the **Data Field** column. 
+3. On the **Results Grid** tab, look for the row that corresponds to the **Customer** column, and note the value in     the **Data Field** column ( _ARInvoice.CustomerID_ ). 
 
 4. On the **Parameters** tab, click **Add Row** on the table toolbar, and specify the following settings in the added     row: 
 
@@ -1692,6 +1692,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - **Brackets** : _(_ 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 50 
+
 - **Data Field** : _ARInvoice.CustomerID_ 
 
 - **Condition** : _Equals_ 
@@ -1699,10 +1703,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 - **From Schema** : Cleared 
 
 - **Value 1** : _[Customer]_ 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 49 
 
 - **Operator** : _Or_ 
 
@@ -1732,13 +1732,11 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  When you are developing or modifying generic inquiries in Acumatica ERP, you can use formulas to perform different operations with the values in the columns in the results grid, for greater flexibility to present the information users need. 
 
- You can use formulas to perform different operations with the values of the columns in the results grid. Formulas give you the ability to use advanced calculations and data transformation functions if some values in the inquiry rows are calculated or depend on data in other data fields. To do this, you can type formulas manually into certain boxes, or you can use the Formula Editor dialog box to construct or edit these formulas. These formulas are similar 
-
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 50 
+ Managing Generic Inquiries | 51 
 
- to the formulas used in Excel. You can define parameters and construct a formula with the parameters by using operators and functions. 
+ You can use formulas to perform different operations with the values of the columns in the results grid. Formulas give you the ability to use advanced calculations and data transformation functions if some values in the inquiry rows are calculated or depend on data in other data fields. To do this, you can type formulas manually into certain boxes, or you can use the Formula Editor dialog box to construct or edit these formulas. These formulas are similar to the formulas used in Excel. You can define parameters and construct a formula with the parameters by using operators and functions. 
 
 #### Learning Objectives 
 
@@ -1762,7 +1760,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 51 
+ Managing Generic Inquiries | 52 
 
 - Component Type (Item 2 in the screenshot above): Displays the types of operators, functions, and fields that     can be used as formula components. You click any of the types to display the corresponding list of available     components in the Component Selection pane. 
 
@@ -1782,7 +1780,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 52 
+ Managing Generic Inquiries | 53 
 
  Figure: The Styles component type 
 
@@ -1798,11 +1796,11 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  In this activity, you will learn how to modify an existing generic inquiry to highlight all rows in the results grid that meet a condition. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 53 
+ Managing Generic Inquiries | 54 
 
 #### Story 
 
@@ -1844,7 +1842,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 54 
+ Managing Generic Inquiries | 55 
 
 2. In the **Inquiry Title** box of the Summary area, select _DB6-ARInvoicesMemos_. 
 
@@ -1862,7 +1860,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 2. In the Component Selection pane, double-click the _IIf( expr, truePart, falsePart )_ function. The system copies     it to the Formula Text (bottom) pane, where you can edit the formula. 
 
-3. In the Formula Text pane, replace the _expr_ parameter in the copied expression with the data field that holds     the document balance as follows:     a. In the Component Type pane, click **Fields**.     b. In the search box in the top right of the dialog box, start typing the data field name you have noted earlier        ( _CuryDocBal_ ).     c. In the Formula Text pane, select only the _expr_ string in the copied expression.     d. In the search results in the Component Selection pane, double-click _[ARInvoice.CuryDocBal]_. (When you        are indicating a data field in a formula, the DAC name precedes the data field name, and this complex        name is enclosed in brackets.)        In the Formula Text pane, notice that the system has replaced the _expr_ string with the selected data field        name.     e. Aer the field name, type >1000 to specify a condition for the field value exceeding $1000. 
+3. In the Formula Text pane, replace the _expr_ parameter in the copied expression with the data field that holds     the document balance as follows:     a. In the Component Type pane, click **Fields & Parameters**.     b. In the search box in the top right of the dialog box, start typing the data field name you have noted earlier        ( _CuryDocBal_ ).     c. In the Formula Text pane, select only the _expr_ string in the copied expression.     d. In the search results in the Component Selection pane, double-click _[ARInvoice.CuryDocBal]_. (When you        are indicating a data field in a formula, the DAC name precedes the data field name, and this complex        name is enclosed in brackets.)        In the Formula Text pane, notice that the system has replaced the _expr_ string with the selected data field        name.     e. Aer the field name, type >1000 to specify a condition for the field value exceeding $1000. 
 
 4. In the Formula Text pane, replace the _truePart_ parameter in the copied expression with the requested color     as follows:     a. In the Component Type pane, click **Styles**.     b. In the Formula Text pane, select only the _truePart_ string in the copied expression.     c. In the Component Selection pane, double-click the _'yellow'_ value.        Notice that the system has replaced the _truePart_ string with the selected value. 
 
@@ -1870,7 +1868,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 55 
+ Managing Generic Inquiries | 56 
 
 6. Click **OK** to save your changes and close the Formula Editor dialog box. 
 
@@ -1890,7 +1888,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  In this activity, you will learn how to modify an existing generic inquiry to concatenate string values. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1898,7 +1896,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 56 
+ Managing Generic Inquiries | 57 
 
  and Description. The column should contain this information in the following format: <order number>: <order description>. 
 
@@ -1942,7 +1940,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 57 
+ Managing Generic Inquiries | 58 
 
 2. In the Component Selection pane, double-click the _Concat( str1, str2, ... )_ function. The system copies it to     the Formula Text (bottom) pane, where you can edit the formula. 
 
@@ -1964,11 +1962,11 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 10.Click the eye icon on the side panel to preview how your changes have affected the inquiry. The system applies the changes you have made, so that the resulting generic inquiry displays the order number and order description in the same column (see the following screenshot). 
 
- Figure: Inquiry results with the concatenated strings 
-
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 58 
+ Managing Generic Inquiries | 59 
+
+ Figure: Inquiry results with the concatenated strings 
 
 ### Enabling Navigation 
 
@@ -1992,6 +1990,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - Configuring navigation to external webpages from an inquiry form 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 60 
+
 - Managing the ways the system should open the target forms or webpages 
 
 - Managing the visibility of tabs defined on the side panel 
@@ -2003,10 +2005,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
  For example, as you are creating a generic inquiry form that lists purchase orders, you could turn on and configure built-in navigation for the Vendor ID column, which contains links to the Vendors (AP303000) form. With this configuration, on the generic inquiry form, in the row of any purchase order, a user will be able to click the link in this column to view the details of the vendor from which the items were purchased. 
 
  The ability to navigate to external webpages can be very useful, for example, in ecommerce solutions to monitor entities whose state can change. For example, suppose that your company uses the FedEx delivery services company to deliver packages. You can design a generic inquiry that lists the packages in shipments and the packages' FedEx tracking numbers. In this generic inquiry, you can configure navigation to a tracking page on the FedEx website. In the results grid of the inquiry form, in the column with tracking numbers, a user can click the link in a row of any package and open the page on the FedEx website that corresponds to the tracking number. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 59 
 
 #### Default Navigation 
 
@@ -2034,7 +2032,13 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - Inquiry 
 
-- Report For each target, in the **Link** column, you specify the screen ID of the form or the uniform resource locator (URI) of the external website. In the **Window Mode** column, you select one of the following options, which determine the mode in which the system opens the form or page: 
+- Report 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 61 
+
+For each target, in the **Link** column, you specify the screen ID of the form or the uniform resource locator (URI) of the external website. In the **Window Mode** column, you select one of the following options, which determine the mode in which the system opens the form or page: 
 
 - _Same Tab_ (default): In the same browser tab, replacing the generic inquiry form 
 
@@ -2042,21 +2046,23 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - _Pop-Up Window_ : In a pop-up window 
 
-- _Side Panel_ : In the side panel Then with the row of the navigation target selected, on the **Navigation Parameters** tab on the right pane (of the **Navigation** tab), you specify the data field or fields the system should pass to the target or the name of the parameter from the URI in the **Field** column. For each data field you pass to the target, you specify the corresponding parameter in the **Parameter** column by selecting it from the fields of the generic inquiry that you are configuring. 
+- _Side Panel_ : In the side panel 
 
- In most cases, you need to pass the key fields, which are displayed on the UI and used to identify the record to be displayed on the target form. There are some forms with hidden key fields (that is, fields not displayed on the UI); an example of a form with hidden key fields is the Email Activity (CR306015) form. Regardless of the visibility of the key fields, in the Field column of the Navigation Parameters tab, the system offers for selection the key field or fields that correspond to the requirements of the navigation target. 
+Then with the row of the navigation target selected, on the **Navigation Parameters** tab on the right pane (of the **Navigation** tab), you specify the data field or fields the system should pass to the target or the name of the parameter from the URI in the **Field** column. For each data field you pass to the target, you specify the corresponding parameter in the **Parameter** column by selecting it from the fields of the generic inquiry that you are configuring. 
+
+In most cases, you need to pass the key fields, which are displayed on the UI and used to identify the record to be displayed on the target form. There are some forms with hidden key fields (that is, fields not displayed on the UI); an example of a form with hidden key fields is the _Email Activity_ (CR306015) form. Regardless of the visibility of the key fields, in the **Field** column of the **Navigation Parameters** tab, the system offers for selection the key field or fields that correspond to the requirements of the navigation target. 
+
+For example, if the _Sales Orders_ (SO301000) form is the selected navigation target, you need to pass the order type and the order number, which are the key fields. In the **Field** column, the system provides the key fields of the _Sales Orders_ form for selection, as shown in the following screenshot. 
+
+**_Figure: Key fields the system provides for selection_** 
+
+If you specify an inquiry, a report form, or a dashboard as a navigation target and parameters have been defined for the target, the system instead provides the list of these parameters for selection in the **Field** column of the **Navigation Parameters** tab. 
+
+In the **Link** column of the table in the **Navigation Targets** pane, you can specify the same Acumatica ERP inquiry, dashboard, or report form more than once. For each row in which you list the same inquiry, dashboard, or report, you can specify different parameters in the table on the **Navigation Parameters** tab. 
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 60 
-
- For example, if the Sales Orders (SO301000) form is the selected navigation target, you need to pass the order type and the order number, which are the key fields. In the Field column, the system provides the key fields of the Sales Orders form for selection, as shown in the following screenshot. 
-
- Figure: Key fields the system provides for selection 
-
- If you specify an inquiry, a report form, or a dashboard as a navigation target and parameters have been defined for the target, the system instead provides the list of these parameters for selection in the Field column of the Navigation Parameters tab. 
-
- In the Link column of the table in the Navigation Targets pane, you can specify the same Acumatica ERP inquiry, dashboard, or report form more than once. For each row in which you list the same inquiry, dashboard, or report, you can specify different parameters in the table on the Navigation Parameters tab. 
+ Managing Generic Inquiries | 62 
 
 #### Navigation to a Particular Form or Webpage 
 
@@ -2065,10 +2071,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
  Aer you have finished specifying the navigation settings for the target, you switch to the Results Grid tab of the Generic Inquiry form. In the row of the data field that should be displayed in the inquiry results as a link, you cancel the default navigation by clearing the Default Navigation check box, and you select the configured navigation target in the Navigate To column. 
 
  If you were to leave the Default Navigation check box selected, the target selected in the Navigate To column would be ignored—that is, if a user clicked a link in the column of the inquiry results, the system would open the default form (if any was defined for the data field). If you were to clear the Default Navigation check box and not specify a form in the Navigate To column for the data field, the data field would not be displayed as a link. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 61 
 
 #### Specification of Navigation Settings for a Webpage 
 
@@ -2086,6 +2088,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  For the navigation target, if you selected a window mode other than Side Panel , you should associate the target with a data field that should be displayed in the inquiry results as a link. On the Results Grid tab of the form, for a data field of your choice, you select the URI in the Navigate To column and clear the check box in the Default Navigation column. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 63 
+
 ### Navigation Configuration: Side Panel 
 
  By configuring a side panel for a generic inquiry, you give users the ability to quickly access additional information related to a record that they select in the inquiry results, while still viewing the main generic inquiry form. 
@@ -2097,10 +2103,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 #### Configuration of Tabs on the Side Panel 
 
  Whether the side panel you are configuring has one tab or multiple tabs, each tab is configured in the same way. You specify the navigation target—the Acumatica ERP form (which may be a dashboard or report) or external webpage to be shown on the tab— and the additional settings for the tab. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 62 
 
  For the navigation target of each side panel tab, on the Navigation tab of the Generic Inquiry (SM208000) form, you add a row in the Navigation Targets pane. In the row, you specify its link and select the Side Panel option. In the Icon box, which appears above the Navigation Parameters tab in the right pane, you select the icon to be displayed on the side panel bar for the tab. On the resulting generic inquiry form, if the user selects a record in the inquiry results and clicks the icon, the system opens the side panel with the tab displaying the navigation target. 
 
@@ -2116,7 +2118,13 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  You may need to deactivate a side panel tab temporarily—for example, while editing its settings. To do this, on the Navigation tab of the Generic Inquiry (SM208000) form, in the Navigation Targets pane, you clear the check box in the Active column of the row whose side panel tab should be deactivated. This check box is available for only the navigation targets for which Window Mode is set to Side Panel. 
 
- Once you save these changes to the generic inquiry and open the resulting generic inquiry form, the system does not display a side panel if the Navigation Targets pane has no other active rows with the Side Panel window mode. If other active rows have the Side Panel window mode, then the system hides the icon corresponding to the nowdeactivated side panel tab. Thus, the user cannot view the corresponding navigation target in the side panel. 
+ Once you save these changes to the generic inquiry and open the resulting generic inquiry form, the system does not display a side panel if the Navigation Targets pane has no other active rows with the Side Panel window mode. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 64 
+
+ If other active rows have the Side Panel window mode, then the system hides the icon corresponding to the nowdeactivated side panel tab. Thus, the user cannot view the corresponding navigation target in the side panel. 
 
 #### Modification of the Order of Tabs 
 
@@ -2126,11 +2134,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  In this activity, you will learn how to modify an existing generic inquiry to add the ability to view the details of a record selected in the inquiry results in a side panel. You will configure a side panel with a single tab. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 63 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2152,6 +2156,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  Launch the Acumatica ERP website, and sign in to a tenant with the U100 dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the gibbs username and the 123 password. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 65 
+
  The gibbs user is assigned the Administrator role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards. 
 
 #### Step: Specifying Navigation Settings for the Side Panel 
@@ -2172,10 +2180,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 5. On the **Navigation** tab, while the row you added is still selected in the **Navigation Targets** pane, in the **Icon**     box of the right pane, select _account details_. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 64 
-
  This box appears for any navigation target row with Side Panel selected in the Window Mode column. 
 
 6. On the **Navigation Parameters** tab (also in the right pane of the **Navigation** tab), add a row, and specify the     following settings in the added row: 
@@ -2194,6 +2198,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 9. On the form toolbar, click **View Inquiry** to preview how your changes have affected the inquiry form. 10.Click a row with an invoice or memo, and notice that the system displays its details in the side panel (see the     following screenshot). 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 66 
+
  Figure: Generic inquiry with a side panel 
 
 #### Self-Test Exercise 
@@ -2202,21 +2210,21 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  On the Navigation tab of the Generic Inquiry (SM208000) form, in the Navigation Targets pane, you add a row with the AR303000 Customers link and select the Side Panel window mode. Then in the right pane, you select an icon and specify the navigation parameter offered by the system for selection. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 65 
-
 ### Navigation Configuration: To Specify Visibility Conditions for a Side Panel 
 
  In this activity, you will learn how to specify the visibility conditions for tabs on a side panel. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that you are a technical specialist in your company who works on simple customizations, including those involving the creation, modification, and use of generic inquiries. A sales representative of your company has requested an inquiry form that displays data about business accounts. 
 
  You have offered the predefined Business Accounts (CR3030PL) generic inquiry form, but the sales representative has asked you to give users the capability to view the following detailed information on a single tab of the side panel, depending on the type of the selected record: 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 67 
 
 - For a business account of the vendor type: Vendor details on the _Vendors_ (AP303000) form 
 
@@ -2239,10 +2247,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 #### System Preparation 
 
  Launch the Acumatica ERP website, and sign in to a tenant with the U100 dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the gibbs username and the 123 password. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 66 
 
  The gibbs user is assigned the Administrator role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards. 
 
@@ -2268,6 +2272,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - **Field** : _AcctCD_ 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 68 
+
 - **Parameter** : _BAccount.AcctCD_ 
 
 7. On the form toolbar, click **Save**. 
@@ -2284,15 +2292,27 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  If the Side Panel option is selected in the Window Mode column, the Visibility Conditions tab is displayed in the right pane. 
 
-9. On the form toolbar, click **Save**. 10.On the **Navigation** tab, in the **Navigation Targets** pane, add one more row with the following settings: 
+9. On the form toolbar, click **Save**. 
+
+10.On the **Navigation** tab, in the **Navigation Targets** pane, add one more row with the following settings: 
 
 - **Link** : _AR303000 - Customers_ 
 
-- **Window Mode** : _Side Panel_ 11.On the form toolbar, click **Save**. 12.While the row you just added is still selected in the **Navigation Targets** pane, in the **Icon** box of the right pane of the **Navigation** tab, select _shopping cart_. 13.On the **Navigation Parameters** tab (in the right pane), add a row with the following settings: 
+- **Window Mode** : _Side Panel_ 
+
+11.On the form toolbar, click **Save**. 
+
+12.While the row you just added is still selected in the **Navigation Targets** pane, in the **Icon** box of the right pane of the **Navigation** tab, select _shopping cart_. 
+
+13.On the **Navigation Parameters** tab (in the right pane), add a row with the following settings: 
 
 - **Field** : _AcctCD_ 
 
-- **Parameter** : _BAccount.AcctCD_ 14.On the form toolbar, click **Save**. 15.On the **Visibility Conditions** tab of the **Navigation** tab, add a row, and specify the following settings: 
+- **Parameter** : _BAccount.AcctCD_ 
+
+14.On the form toolbar, click **Save**. 
+
+15.On the **Visibility Conditions** tab of the **Navigation** tab, add a row, and specify the following settings: 
 
 - **Data Field** : _BAccount.Type_ 
 
@@ -2300,19 +2320,29 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - **From Schema** : Selected 
 
+- **Value** : _Customer_ 
 
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 67 
+16.On the form toolbar, click **Save**. 
 
-- **Value** : _Customer_ 16.On the form toolbar, click **Save**. 17.On the **Navigation** tab, in the **Navigation Targets** pane, add one more row with the following settings: 
+17.On the **Navigation** tab, in the **Navigation Targets** pane, add one more row with the following settings: 
 
 - **Link** : _CR303000 - Business Accounts_ 
 
-- **Window Mode** : _Side Panel_ 18.On the form toolbar, click **Save**. 19.While the row you just added is still selected in the **Navigation Targets** pane, in the **Icon** box of the right pane, select _badge_. 20.On the **Navigation Parameters** tab (in the right pane), add a row with the following settings: 
+- **Window Mode** : _Side Panel_ 
+
+18.On the form toolbar, click **Save**. 
+
+19.While the row you just added is still selected in the **Navigation Targets** pane, in the **Icon** box of the right pane, select _badge_. 
+
+20.On the **Navigation Parameters** tab (in the right pane), add a row with the following settings: 
 
 - **Field** : _AcctCD_ 
 
-- **Parameter** : _BAccount.AcctCD_ 21.On the form toolbar, click **Save**. 22.On the **Visibility Conditions** tab of the **Navigation** tab, add a row, and specify the following settings: 
+- **Parameter** : _BAccount.AcctCD_ 
+
+21.On the form toolbar, click **Save**. 
+
+22.On the **Visibility Conditions** tab of the **Navigation** tab, add a row, and specify the following settings: 
 
 - **Data Field** : _BAccount.Type_ 
 
@@ -2320,7 +2350,13 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - **From Schema** : Selected 
 
-- **Value** : _Business Account_ 23.On the form toolbar, click **Save**. 
+- **Value** : _Business Account_ 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 69 
+
+ 23.On the form toolbar, click Save. 
 
 #### Step 2: Verifying the Configuration of Visibility Conditions for the Side Panel 
 
@@ -2334,10 +2370,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  Figure: The list of business accounts on the inquiry form and the Vendors form in the side panel 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 68 
-
 4. In the inquiry results, click a row with a business account of the _Customer_ type, and notice that on the     side panel, the system has changed the icon to the shopping cart icon. In the side panel, which is already     opened, notice that the system displays detailed information about the selected customer on the _Customers_     (AR303000) form. 
 
 5. In the inquiry results, click a row with a business account of the _Business Account_ type, and notice that on     the side panel, the system has changed the icon to the badge icon. In the side panel, notice that the system     displays detailed information about the selected business account on the _Business Accounts_ (CR303000)     form. 
@@ -2346,7 +2378,11 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  In this activity, you will learn how to configure navigation from a generic inquiry form to an external URI. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 70 
+
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2372,10 +2408,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 1. Open the _Generic Inquiry_ (SM208000) form. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 69 
-
 2. In the **Inquiry Title** box of the Summary area, select _DB1-SOPackages_. 
 
 3. In the **Navigation Targets** pane of the **Navigation** tab, add a row with the following settings: 
@@ -2396,25 +2428,27 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 7. On the **Results Grid** tab, in the row with _TrackNumber_ in the **Data Field** column, clear the **Default**     **Navigation** check box. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 71 
+
  If the column is not available in the table, make it visible by using the Column Configuration dialog box of the table. 
 
 8. In the same row, in the **Navigate To** column, select the URI that you have entered in the     **Navigation Targets** pane of the **Navigation** tab—that is, _https://www.fedex.com/apps/fedextrack/?_     _action=track&trackingnumber=((TrackingNumber))_.     In the resulting generic inquiry form, the system will display tracking numbers that are links in the **Tracking**     **Number** column. When a user clicks a link in this column, the system will open the window with the FedEx     tracking information of the package, based on the tracking number. 
 
-9. On the form toolbar, click **Save**. 
-
-10.Click the eye icon on the side panel of the _Generic Inquiry_ form to preview how your changes have affected the resulting generic inquiry form. In the **Tracking Number** column, click _398305336614_. Notice that the system opens a pop-up window and navigates to the _https://www.fedex.com/apps/fedextrack/? action=track&trackingnumber=398305336614_ URI (see the following screenshot). 
+9. On the form toolbar, click **Save**. 10.Click the eye icon on the side panel of the _Generic Inquiry_ form to preview how your changes have affected     the resulting generic inquiry form. In the **Tracking Number** column, click _398305336614_. Notice that     the system opens a pop-up window and navigates to the _https://www.fedex.com/apps/fedextrack/?_     _action=track&trackingnumber=398305336614_ URI (see the following screenshot). 
 
  The data on third-party webpages is subject to change. Therefore, the resulting generic inquiry form may differ from the data shown in the screenshot. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 70 
 
  Figure: The resulting generic inquiry form with the page associated with the external URI 
 
 ### Making a Generic Inquiry a Substitute Form 
 
  Sometimes you might need a faster way to access particular information in the system, such as the contacts of a particular vendor or the customers list. In Acumatica ERP, you can access such information through the corresponding data entry form. Aer you click the magnifier icon in the appropriate box, the list of records opens in the pop-up window. The data entry forms are convenient for entering new data, but once you have entered most data, you may need to view the list of records instead. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 72 
 
  In the topics of this chapter, you will learn how to help users find needed information with a help of a generic inquiry used as a substitute form. 
 
@@ -2425,10 +2459,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 #### Learning Objectives 
 
  In this chapter, you will learn how to substitute an inquiry form for a data entry form. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 71 
 
 #### Applicable Scenarios 
 
@@ -2442,6 +2472,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  When you replace a primary form with an inquiry form, the system automatically adds the corresponding navigation settings for this inquiry on the Navigation tab. It also sets the Window Mode for the path to the Inline option (as shown in the following screenshot), which is not available for selection by users. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 73 
+
  Figure: The Window Mode setting of Inline 
 
  When you save an inquiry with the replacement of a data entry form configured for this inquiry, the system adds a row to the Lists as Entry Points (SM208500) form. This row contains the entry screen identifier and name in the Entry Screen ID column, the substitute screen identifier and name in the Substitute Screen ID column, and the indicator of whether the replacement is active in the Active column. 
@@ -2452,13 +2486,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - On the _Lists as Entry Points_ (SM208500) form, by clearing the check box in the **Active** column in the row for     the entry form that was replaced 
 
-- On the _Generic Inquiry_ (SM208000) form, by clearing the **Replace Entry Screen with This Inquiry in Menu**     check box on the **Entry Point** tab ( **Entry Screen Settings** section) for the generic inquiry that was used as a     substitute form 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 72 
-
- On the Lists as Entry Points form, if you delete the row containing the entry form and the corresponding substitute form, the following changes occur in the system: 
+- On the _Generic Inquiry_ (SM208000) form, by clearing the **Replace Entry Screen with This Inquiry in Menu**     check box on the **Entry Point** tab ( **Entry Screen Settings** section) for the generic inquiry that was used as a     substitute form On the _Lists as Entry Points_ form, if you delete the row containing the entry form and the corresponding substitute form, the following changes occur in the system: 
 
 - The replacement is canceled, but the forms are not deleted. 
 
@@ -2471,6 +2499,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
  In the Access Rights section of the dialog box, you select what access rights should be assigned to the substitution form. In this case, the system shows a warning in the Publish to the UI dialog box. The warning explains that the inquiry is a substitute form and access rights that you select for this inquiry will be applied to its data entry form. If you do not need to change access rights to the data entry form, you select the Copy Access Rights from Screen option and specify the data entry form for this option. 
 
  To complete the publication process, you click Publish in the dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 74 
 
 #### Modification of a Published Substitute Form 
 
@@ -2492,13 +2524,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  The ability to perform mass actions for the entry form that the inquiry replaces depends on the business logic of the form. It is possible that you could list some mass actions on the Mass Actions tab that cannot actually be performed. 
 
- Aer you have selected the required options and saved your changes to the generic inquiry, the Included column is available on the substitute form, and the selected commands appear on the More menu (under Actions ) of the substitute form. A user can select one record or multiple records on the substitute form and 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 73 
-
- then apply any available command on the More menu (under Actions ) to the selected records. Before you make the substitute form available to users, you need to test each of the commands on the More menu (under Actions ) of the substitute form to make sure that the following requirements are met: 
+ Aer you have selected the required options and saved your changes to the generic inquiry, the Included column is available on the substitute form, and the selected commands appear on the More menu (under Actions ) of the substitute form. A user can select one record or multiple records on the substitute form and then apply any available command on the More menu (under Actions ) to the selected records. Before you make the substitute form available to users, you need to test each of the commands on the More menu (under Actions ) of the substitute form to make sure that the following requirements are met: 
 
 - The action can be performed properly. 
 
@@ -2514,6 +2540,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - Automatic confirmation of record deletion (the **Auto-Confirm Custom Delete Confirmations** check box): If     you select this check box, when a user tries to delete one record or multiple records, the system deletes the     records without confirmation. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 75 
+
 - Mass update of records (the **Enable Mass Record Update** check box): If you select this check box, the     **Update** and **Update All** commands will be available on the More menu (under **Actions** ) of the substitute     form; also, the Included column will be available on the substitute form, so that the user can select a record     or multiple records for updating.     If the **Enable Mass Record Update** check box is selected on the **Entry Point** tab, the **Mass Update Fields**     tab appears on the _Generic Inquiry_ form. On this tab, you select the field or fields that should be updated     if a user clicks one of the commands on the More menu (under **Actions** ). A user can select one record or     multiple records on the substitute form and then change the specified fields of the selected records. 
 
  During the mass update on the inquiry form, the ability to update a particular field of the entry form that the inquiry replaces depends on the business logic of the field and may vary. 
@@ -2526,13 +2556,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 #### Access Rights to Substitute Forms 
 
- In Acumatica ERP, every form has its own levels of access rights that you can specify for the user roles in the system by using the Access Rights by Screen (SM201020) form. You can change the level of access rights to the data entry and generic inquiry forms independently of each other. However, when an inquiry form replaces the corresponding data entry form, it becomes the substitute form and inherits the level of access rights the users of each role have to the data entry form. Thus, to change the access rights users have to the substitute form, you need to change the access rights to the entry form. You can manage access rights to substitute forms in the same ways as you manage 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 74 
-
- access rights to other generic inquiries. For more information about access rights, see Managing Access Rights To Generic Inquiries. 
+ In Acumatica ERP, every form has its own levels of access rights that you can specify for the user roles in the system by using the Access Rights by Screen (SM201020) form. You can change the level of access rights to the data entry and generic inquiry forms independently of each other. However, when an inquiry form replaces the corresponding data entry form, it becomes the substitute form and inherits the level of access rights the users of each role have to the data entry form. Thus, to change the access rights users have to the substitute form, you need to change the access rights to the entry form. You can manage access rights to substitute forms in the same ways as you manage access rights to other generic inquiries. For more information about access rights, see Managing Access Rights To Generic Inquiries. 
 
  If you suspend an inquiry form’s replacement of a data entry form, the level of access to the inquiry form reverts to its initial state (that is, the levels of access rights roles had to the inquiry form before it was defined to replace a data entry form). 
 
@@ -2540,7 +2564,11 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  In this activity, you will learn how to modify an existing generic inquiry to make it a substitute form for a primary data entry form. Once you have done this, when a user clicks the name of the entry form in a workspace or a list of search results, the system will open the substitute form. If the user clicks a record name in the inquiry results, the entry form will open. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 76 
 
 #### Story 
 
@@ -2561,10 +2589,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
  Launch the Acumatica ERP website, and sign in to a tenant with the U100 dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the gibbs username and the 123 password. 
 
  The gibbs user is assigned the Administrator role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 75 
 
 #### Step: Defining the Generic Inquiry as an Entry Point 
 
@@ -2588,7 +2612,13 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 5. On the form toolbar, click **Save**. 
 
-6. On the **Entry Point** tab, in the **Entry Screen Settings** section, do the following:     a. Make sure that in the **Entry Screen** box, the _Invoices and Memos_ (AR301000) form is selected.     b. To replace the selected entry form with the substitute form (that is, to direct the system to display the        generic inquiry form instead of the entry form when a user clicks the menu item), select the **Replace**        **Entry Screen with This Inquiry in Menu** check box.     c. In the dialog box that opens, click **Yes**. 
+6. On the **Entry Point** tab, in the **Entry Screen Settings** section, do the following:     a. Make sure that in the **Entry Screen** box, the _Invoices and Memos_ (AR301000) form is selected. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 77 
+
+ b. To replace the selected entry form with the substitute form (that is, to direct the system to display the generic inquiry form instead of the entry form when a user clicks the menu item), select the Replace Entry Screen with This Inquiry in Menu check box. c. In the dialog box that opens, click Yes. 
 
 7. In the **Operations With Records** section, ensure the **Enable New Record Creation** check box is selected.     This gives a user the ability to add new records from the substitute form. With this check box selected, the     **New Record** button appears on the form toolbar of the substitute form (that is, the inquiry form). When the     user clicks this button, the system opens the entry form so that the user can add a new record. 
 
@@ -2602,17 +2632,17 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  In this activity, you will learn how to suspend the replacement of a primary form with a substitute form. Once you have done this, when a user clicks the name of the entry form in a workspace or a list of search results, the system will open the entry form instead of the substitute form it currently opens. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 76 
-
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that you are a technical specialist in your company who is working on customizations. Previously, you configured Acumatica ERP in your company so that the Invoices and Memos (AR301000) form is replaced with the predefined Invoices and Memos (AR3010PL) generic inquiry form, which has the AR-Invoices and Memos inquiry title and the Invoices and Memos site map title specified on the Generic Inquiry (SM208000) form. Now an accountant of your company has asked you to make changes to the generic inquiry that is defined as a substitute form. Before you begin making these changes, you need to suspend the replacement of the primary form, so that the generic inquiry form is not opened while you are in the process of making changes to it. 
 
  The Invoices and Memos (AR3010PL) generic inquiry form, which is the list of the invoices and memos that have been created on the Invoices and Memos (AR301000) form, is the substitute form that is opened when you click the Invoices and Memos link in a workspace or a list of search results. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 78 
 
 #### Process Overview 
 
@@ -2642,10 +2672,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  In the topics of this chapter, you will learn how to transfer an inquiry by using export and import operations. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 77 
-
 ### Inquiry Transfer: General Information 
 
  You can transfer a generic inquiry to another company or application instance as an XML file. To do this, you first need to export the inquiry as an XML file and then need to import the file in the target company or instance. In addition, you can export a generic inquiry form as an RPX file. 
@@ -2655,6 +2681,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 #### Learning Objectives 
 
  In this chapter, you will learn how to export and import a generic inquiry form as an XML file, how to export a generic inquiry form as an RPX file, and how to export inquiry results to an XLS file. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 79 
 
 #### Applicable Scenarios 
 
@@ -2676,10 +2706,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  If you specify a value that can increase the time to process the inquiry and can cause the server performance degradation, the system displays a warning. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 78 
-
 #### Export of a Generic Inquiry That Is the Source of a Report 
 
  An exported generic inquiry can be used as a source for building a report through the Acumatica Report Designer tool. You can export a generic inquiry as an RPX file to be used for creating a report in Acumatica Report Designer. To do this, on the Generic Inquiry (SM208000) form with the inquiry selected, click Export as Report on the form toolbar. The system will export the generic inquiry as an RPX file. The name of the RPX file corresponds to the name in the Inquiry Title box but can include only letters and digits. If other symbols are used in the Inquiry Title box, they are deleted when the name is assigned to the RPX file. 
@@ -2689,6 +2715,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 ### Inquiry Transfer: To Export and Import an Existing Inquiry as XML File 
 
  In this activity, you will learn how to export an existing inquiry as an XML file and then import the inquiry. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 80 
 
 #### Story 
 
@@ -2718,10 +2748,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 1. Open the _Generic Inquiry_ (SM208000) form. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 79 
-
 2. In the **Inquiry Title** box, select _AR-Invoices and Memos_. 
 
 3. On the form toolbar, click **Clipboard > Export as XML**. 
@@ -2741,6 +2767,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 - Username: _gibbs_ 
 
 - Password: _123_ 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 81 
 
 3. Open the _Generic Inquiry_ form. 
 
@@ -2772,10 +2802,6 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - Publish an inquiry 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 80 
-
 #### Applicable Scenarios 
 
  You may find the information in this chapter useful when you are responsible for the customization of Acumatica ERP in your company, including developing and modifying generic inquiries to give users information they need to do their jobs. You need to deliver different inquiry forms that your colleagues may need for getting their jobs done. 
@@ -2787,6 +2813,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
  Before you begin creating the generic inquiry, you gather the needed information by doing the following: 
 
 1. _Identifying the DACs to be used for the inquiry_ : The data to be used in a generic inquiry is available through     DACs, which represent specific data from the system database. Based on the business needs the inquiry will     meet, you need to decide what general type of data you want to collect from the system database in order     to list it in the results grid of the inquiry form. Thus, you need to know on which form this data is entered. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 82 
 
 2. _Inspecting UI elements to find the DACs and data fields_ : Based on the data you will use in the generic inquiry,     you have to open the data entry forms where the data is entered and explore the user interface elements of     the forms to find out which classes and data fields you can use to access this data.     For example, to discover the data access class that provides access to the sales order numbers, you need to     inspect the form elements of the _Sales Orders_ (SO301000) form. 
 
@@ -2804,13 +2834,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 2. _Specifying data sources_ : On the **Data Sources** tab of this form, you select the DACs (which are referred to as     _tables_ in most user interface element names) to be used in your generic inquiry. For each table, you specify     a value in the **Alias** column. This value will be used in SQL statements to designate the table. You can type     the value in the **Alias** column manually or leave it empty; if you do not specify a value, the value from the     **Source Name** column will be used instead. Additionally, you can add other generic inquires to be used as     data sources for the inquiry. 
 
-3. _Configuring the results grid_ : On the **Results Grid** tab of the form, you select the column values from the data     sources to display data. On this tab, you can specify how the results of the search in the database tables     should be displayed, with each row on this tab corresponding to a column in the results grid of the inquiry     form. You can specify formulas in the **Data Field** column to calculate the values of columns in the results     grid by using the Formula Editor dialog box. In this dialog box, you can enter the formula directly in the 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 81 
-
- formula editing area or compose it by selecting fields and using operators and functions. For details, see Modification of Inquiry Results: General Information and Formulas in Inquiry Results: General Information. 
+3. _Configuring the results grid_ : On the **Results Grid** tab of the form, you select the column values from the data     sources to display data. On this tab, you can specify how the results of the search in the database tables     should be displayed, with each row on this tab corresponding to a column in the results grid of the inquiry     form. You can specify formulas in the **Data Field** column to calculate the values of columns in the results     grid by using the Formula Editor dialog box. In this dialog box, you can enter the formula directly in the     formula editing area or compose it by selecting fields and using operators and functions. For details, see     _Modification of Inquiry Results: General Information_ and _Formulas in Inquiry Results: General Information_. 
 
 #### Preview of a Generic Inquiry 
 
@@ -2821,6 +2845,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 - Advanced filters 
 
 - Side panels 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 83 
 
 #### Refinement of a Generic Inquiry 
 
@@ -2840,13 +2868,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - _Sorting_ : You can use the **Sort Order** tab to specify how the inquiry data is sorted—that is, the default     order in which the results should be displayed on the inquiry form. For more details about the sorting and     grouping, see _Sorting and Grouping: General Information_. 
 
-- _Entry point_ : By using the **Entry Point** tab, you can optionally define the generic inquiry to be an entry point     (that is, a substitute form) instead of the existing primary Acumatica ERP form. If you do this, when a user     clicks the name of the primary form while navigating or searching, the system will open the generic inquiry     form containing the list of records, and when you click the name of a record in the list, the primary form will 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 82 
-
- open with that record selected. For more details about making a generic inquiry an entry point, see Generic Inquiry as a Substitute Form: General Information. 
+- _Entry point_ : By using the **Entry Point** tab, you can optionally define the generic inquiry to be an entry point     (that is, a substitute form) instead of the existing primary Acumatica ERP form. If you do this, when a user     clicks the name of the primary form while navigating or searching, the system will open the generic inquiry     form containing the list of records, and when you click the name of a record in the list, the primary form will     open with that record selected. For more details about making a generic inquiry an entry point, see _Generic_     _Inquiry as a Substitute Form: General Information_. 
 
 - _Navigation_ : On the **Navigation** tab, you can optionally configure inquiry columns to contain links to     Acumatica ERP forms and webpages. For example, you can configure a generic inquiry so that a user will     be able to open the _Invoices and Memos_ (AR301000) form with the details of a particular document in a new     browser tab or in the side panel by clicking the link in the **Reference Nbr.** column of the inquiry. For details,     see _Navigation Configuration: General Information_. 
 
@@ -2855,6 +2877,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
  When an inquiry has been created and all the necessary settings have been specified, you can preview and then publish it, so that it can be used by other users. To publish the generic inquiry form, you click the Publish to the UI button on the form toolbar. The system opens the Publish to the UI dialog box. 
 
  In this dialog box, you specify the following information: 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 84 
 
 - **Site Map Title** : The name of the form that will be shown on the _Site Map_ (SM200520) form. By default, the     system uses the value specified in the **Inquiry Title** box. 
 
@@ -2878,13 +2904,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 #### Modification of Screen ID and a Title 
 
- You can change the automatically assigned screen identifier of a generic inquiry while publishing it. In the Publish to the UI dialog box, you enter the new screen ID for the generic inquiry, and click Publish to close the dialog box. The system begins the processing of the screen ID change. If this screen ID is not unique, the system displays an error on the form toolbar indicating that you need to enter another screen ID. If the processing of the change is 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 83 
-
- successful, the system saves the generic inquiry with the new screen ID and changes this screen ID in all the system objects that are related to this generic inquiry. 
+ You can change the automatically assigned screen identifier of a generic inquiry while publishing it. In the Publish to the UI dialog box, you enter the new screen ID for the generic inquiry, and click Publish to close the dialog box. The system begins the processing of the screen ID change. If this screen ID is not unique, the system displays an error on the form toolbar indicating that you need to enter another screen ID. If the processing of the change is successful, the system saves the generic inquiry with the new screen ID and changes this screen ID in all the system objects that are related to this generic inquiry. 
 
  To change the inquiry title (specified in the Inquiry Title box), you can click Change Inquiry Title on the More menu (under Actions ) or on the form toolbar of the Generic Inquiry form. In the dialog box, which opens, you enter the new title and click OK. The system begins the processing of the title change. If this title is not unique, the system displays an error indicating that you need to enter another title. If the processing of the change is successful, the system closes the dialog box and inserts the title in the Inquiry Title box. To save the changes, you need to click Save on the form toolbar. 
 
@@ -2893,6 +2913,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
  Aer you have published the generic inquiry, you can adjust access rights to generic inquiries. On the Access Rights by Screen (SM201020) form, you select a role and one of the predefined levels of access rights. For more information, see Access Rights to Generic Inquiries: General Information. 
 
  Alternatively, you can use the Publish to the UI button on the toolbar of the Generic Inquiry (SM208000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 85 
 
 #### Modification of a Published Generic Inquiry 
 
@@ -2910,17 +2934,11 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  In this activity, you will learn how to create a simple generic inquiry that collects data from one data access class (DAC). The activity describes the steps of designing a sample generic inquiry for testing purposes, so that you can develop a better understanding of the process. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that you are a technical specialist in your company who is working on simple customizations, including the creation and modification of generic inquiry forms. An accountant of your company has requested an inquiry form that collects data about invoices and memos. You have offered the predefined Invoices and Memos 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 84 
-
- (AR3010PL) generic inquiry form, but the accountant instead wants a simpler inquiry that displays columns with the document type, the reference number, and the balance of the invoice with that number. The accountant has asked you to maintain the default access rights to the inquiry. 
+ Suppose that you are a technical specialist in your company who is working on simple customizations, including the creation and modification of generic inquiry forms. An accountant of your company has requested an inquiry form that collects data about invoices and memos. You have offered the predefined Invoices and Memos (AR3010PL) generic inquiry form, but the accountant instead wants a simpler inquiry that displays columns with the document type, the reference number, and the balance of the invoice with that number. The accountant has asked you to maintain the default access rights to the inquiry. 
 
 #### Process Overview 
 
@@ -2929,6 +2947,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
  Once you obtain these details, you will create a generic inquiry on the Generic Inquiry (SM208000) form and configure its results grid. 
 
  When the inquiry has been created and all the necessary settings have been specified, you preview and then publish the inquiry. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 86 
 
 #### System Preparation 
 
@@ -2942,13 +2964,13 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 1. Open the _Invoices and Memos_ (AR301000) form. 
 
-2. Point to the **Reference Nbr.** element, press Ctrl+Alt, and then click. The **Element Properties** dialog box     opens. You are interested in two settings, **Data Class** and **Data Field** ; these settings correspond to the data     access class and data field you need, which are, respectively, _ARInvoice_ and _RefNbr_. 
+2. Point to the **Reference Nbr.** element, press Ctrl+Alt, and then click. The **Element Properties** dialog box     opens. You are interested in two settings, **Data Class** and **Data Field** ; these settings correspond to the data     access class and data field you need, which are, respectively, _PX.Objects.AR.ARInvoice_ and _RefNbr_. 
 
- As an alternative, you can click Customization > Inspect Element on the form title bar and then click the Reference Nbr. element. 
+ As an alternative, you can click Settings > Inspect Element on the form title bar and then click the Reference Nbr. element. 
 
-3. While you are pointing at the **Balance** element, press Ctrl+Alt and click to open the **Element Properties**     dialog box. Notice that the **Data Class** box again contains _ARInvoice_ , while the **Data Field** box contains     _CuryDocBal_. 
+3. While you are pointing at the **Balance** element, press Ctrl+Alt and click to open the **Element Properties**     dialog box. Notice that the **Data Class** box again contains _PX.Objects.AR.ARInvoice_ , while the **Data Field** box     contains _CuryDocBal_. 
 
-4. Inspect the **Type** element, and notice that the **Data Field** box contains _DocType_ and that the **Data Class** box     again contains _ARInvoice_.     You have discovered that the data access class you need is _ARInvoice_ and the data fields you need are     _DocType_ , _RefNbr_ , and _CuryDocBal_. 
+4. Inspect the **Type** element, and notice that the **Data Field** box contains _DocType_ and that the **Data Class** box     again contains _PX.Objects.AR.ARInvoice_.     You have discovered that the data access class you need is _PX.Objects.AR.ARInvoice_ and the data fields you     need are _DocType_ , _RefNbr_ , and _CuryDocBal_. 
 
 #### Step 2: Creating the Generic Inquiry 
 
@@ -2958,13 +2980,7 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 2. In the Summary area, in the **Inquiry Title** box, type the name for the inquiry: DB-     SampleGenericInquiry. 
 
-3. On the **Data Sources** tab, do the following:     a. On the table toolbar, click **Add Row**. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 85 
-
- b. In the Source Name column of the added row, select PX.Objects.AR.ARInvoice. (In this example, you need to add a row for only this DAC, because the fields that are going to be used are in this DAC.) 
+3. On the **Data Sources** tab, do the following:     a. On the table toolbar, click **Add Row**.     b. In the **Source Name** column of the added row, select _PX.Objects.AR.ARInvoice_. (In this example, you need        to add a row for only this DAC, because the fields that are going to be used are in this DAC.) 
 
  Use the Search box (upper right) to find the DAC. 
 
@@ -2973,6 +2989,10 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 #### Step 3: Configuring the Results Grid 
 
  To configure the results grid (that is, the columns showing the data in the generic inquiry form), do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 87 
 
 1. On the **Results Grid** tab of the _Generic Inquiry_ (SM208000) form with _DB-SampleGenericInquiry_ selected, on     the table toolbar, click **Add Row** to add a new row, and do the following: 
 
@@ -3000,13 +3020,175 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 3. In the **Access Rights** section, select **Copy Access Rights from Screen** , and then select _Invoices and Memos_     with the _AR.30.10.00_ screen ID in the box next to the option button.     With these settings, users that have access to the Invoices and Memos (AR3010PL) list of records will also     have access to the created generic inquiry. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 86 
-
 4. Click **Publish** to complete publication and close the dialog box. 
 
 5. On the main menu, select the **Data Views** menu item, and under the **Inquiries** category, make sure the     created inquiry is listed. 
+
+### Using Generic Inquiry Query Language (GIQL) 
+
+ This section describes the concepts of Generic Inquiry Query Language (GIQL) and explains how to create generic inquiries with GIQL. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 88 
+
+### GIQL: General Information 
+
+ Generic Inquiry Query Language (GIQL) is a powerful SQL-like language that streamlines how you create generic inquiries. This section describes the basic principles of GIQL and how to create generic inquiries by using GIQL. 
+
+#### Learning Objectives 
+
+ In this chapter, you will learn about the following: 
+
+- Basic principles of GIQL and GIQL Editor 
+
+- How to define a generic inquiry with GIQL 
+
+- How to access the GIQL Editor 
+
+#### Applicable Scenarios 
+
+ You create generic inquiries with GIQL when you want to define or modify a generic inquiry in a code-like format. 
+
+#### Overview of GIQL 
+
+ GIQL is an SQL-like language meaning that it uses SQL syntax and keywords with a few important differences: 
+
+- You reference DACs and DAC fields instead of database tables. That means you can use both database-     bound and unbound DACs and DAC fields. 
+
+- You can use another generic inquiry as a data source in your query and reference fields of a generic inquiry. 
+
+- GIQL queries start with FROM, not SELECT. Here’s a sample GIQL query that selects AR transactions for a specific salesperson within a date range. 
+
+ FROM SalesPerson INNER JOIN ARTran ON SalesPerson.SalesPersonID = ARTran.SalesPersonID WHERE (StartDate IS NULL OR ARTran.TranDate >= StartDate) AND (EndDate IS NULL OR ARTran.TranDate <= EndDate) AND (SalespersonID IS NULL OR SalesPerson.SalesPersonID = SalespersonID) ORDER BY SalesPerson.SalesPersonCD SELECT MAX(SalesPerson.SalesPersonCD), MAX(SalesPerson.Descr), MAX(ARTran.TranDate) AS 'Invoice Date', SUM(ARTran.TranAmt) AS 'Invoiced Sales' 
+
+ By using GIQL, you can define the same components of a generic inquiry that you would configure on the following tabs of the Generic Inquiry form: 
+
+- **Data Source** 
+
+- **Relations** 
+
+- **Parameters** 
+
+- **Conditions** 
+
+- **Grouping** 
+
+- **Sort Order** 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 89 
+
+- **Results Grid** 
+
+#### GIQL Editor 
+
+ To define and modify generic inquiries, Acumatica ERP provides the GIQL Editor. The GIQL Editor provides a rich text box where you can write your queries directly. 
+
+ GIQL Editor includes several intelligent assistance features: 
+
+- **Syntax highlighting** : For easy readability, the editor color-codes query components, such as keywords,     entities, properties, aggregate functions and parameters. 
+
+- **Interactive infotips** : When you hover over an entity, such as a DAC or a DAC field, the editor shows helpful     information about it (see below). 
+
+ Figure: Details of a DAC in an infotip 
+
+ If a field comes from a formula in another generic inquiry, the GIQL Editor generates a readable name for this field and shows the full formula in the infotip, as shown below. 
+
+ Figure: The infotip for the formula field 
+
+- **Real-time validation** : The editor checks your syntax and semantics as you type, validates entities, and     makes sure they exist. It also highlights errors, as you can see below. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 90 
+
+ Figure: A semantic error in the GIQL Editor 
+
+- **Auto completion** : The editor shows valid entities (see below) depending on the current context and cursor     position. 
+
+ Figure: A list of suggestions 
+
+- **Automatic organization** : As you type your query, it automatically organizes your code into these generic     inquiry components, as shown below: 
+
+- Data sources and relations 
+
+- Conditions 
+
+- Grouping 
+
+- Sort order 
+
+- Results 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 91 
+
+ Figure: The GIQL Editor 
+
+#### Where You Can Use GIQL 
+
+ You can access the GIQL Editor and write GIQL queries on the Generic Inquiry (SM208000) form: In the Summary area, select Advanced as the mode. The Query tab appears with the GIQL Editor, as shown below. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 92 
+
+ Figure: The GIQL Editor on the Query tab 
+
+ Everything you write in the GIQL Editor is also available in the Low Code mode so that you can switch between the mode while editing the inquiry. 
+
+### GIQL: Defining Parameters 
+
+ You can define parameters of a generic inquiry by using GIQL. You can later use the parameters in the GIQL expressions. 
+
+#### Parameter Syntax 
+
+ To define a parameter, use the DECLARE statement. Each parameter can include essential properties such as the display name, schema/field type, and default value. The structure of the DECLARE statement is shown in the following code. 
+
+ DECLARE parameter_name SCHEMA schema_reference [ <Checkbox> | <Combobox> ( 'key' : 'value', ... ) ] [ DAFAULT default_value ] [ AS 'display_name' ] [ REQUIRED ] [ HIDDEN ] 
+
+ The DECLARE statement can have the following arguments: 
+
+- parameter_name: The name of the parameter used to reference it within the query. Must be a valid     identifier. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 93 
+
+- SCHEMA: The schema or field in the database that the parameter is linked to. This associates the parameter     with a specific table field, allowing it to dynamically filter or condition the query based on the field’s values. 
+
+- <Chechbox>: Optional. The type of the control for a parameter of the Boolean type. 
+
+- <Combobox>: Optional. The drop-down control with a list of predefined values. The key word must be     followed by the VALUES clause that specifies available options as key-value pairs. 
+
+- VALUES: For parameters with the <Combobox> type, the VALUES clause defines a set of available     options as key-value pairs. Each key-value pair should be enclosed in parentheses, with the key on the     le and the value on the right. 
+
+- DEFAULT: Optional. A default value for the parameter if no other value is provided. The value must match     the type specified by the schema field or control type. 
+
+- AS ‘Display Name’: Optional. A display name for the parameter. AS should be specified as the last     operator in the parameter declaration. 
+
+- REQUIRED: Optional. An indicator that the parameter must have a value before the query can be executed.     If specified, the editor will enforcea user to input a value and will block execution until a valid value is     specified. 
+
+- HIDDEN: Optional. An indicator that the parameter will be hidden from the generic inquiry output. This     option might be useful for configurations such as GI on GI, where the parameter does not need to be visible     to the end user. 
+
+#### Parameter Examples 
+
+ An example of parameter definition is shown in the following code. 
+
+ DECLARE InventoryID SCHEMA [PX.Objects.AM.AMProdItem].InventoryID AS 'Inventory ID' DECLARE EmployeeID SCHEMA [PX.Objects.AM.AMMTran].EmployeeID AS 'Employee ID' DECLARE EndDateFrom SCHEMA [PX.Objects.AM.AMProdItem].EndDate DEFAULT @MonthStart-12 AS 'From Date' DECLARE ToEndDate SCHEMA [PX.Objects.AM.AMProdItem].EndDate DEFAULT @Today AS 'To Date' 
+
+ The code above declares four parameters and specifies default values for them: InventoryID, EmployeeID, EndDateFrom, and ToEndDate. 
+
+ The parameters can be used in the GIQL query as shown in the following example. 
+
+ WHERE (AMProdOper.StatusID = 'M' OR AMProdOper.StatusID = 'L' OR AMProdOper.StatusID = 'C') AND (AMProdItem.InventoryID = InventoryID OR InventoryID IS NULL) AND (AMMTran.DocType = 'L' AND (AMProdOper.ActualLaborTime > {=0}) AND (AMMTran.EmployeeID = EmployeeID OR EmployeeID IS NULL) AND (AMProdItem.EndDate >= EndDateFrom OR EndDateFrom IS NULL) AND (AMProdItem.EndDate <= ToEndDate OR ToEndDate IS NULL) 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 94 
 
 ### Getting Data from Multiple Data Sources 
 
@@ -3036,11 +3218,11 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  You start from inspecting the related forms (that is, the data entry forms of the data you will use) to determine the list of data access classes and fields you need to have in the results grid and use in formulas. 
 
+ Aer the list of the tables is prepared, you determine how the tables will relate to each other (parent-child pairs) and what join type the system should use. Thus, you define how the system returns combined records in case either a parent or a child table is missing a record to combine. 
+
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 87 
-
- Aer the list of the tables is prepared, you determine how the tables will relate to each other (parent-child pairs) and what join type the system should use. Thus, you define how the system returns combined records in case either a parent or a child table is missing a record to combine. 
+ Managing Generic Inquiries | 95 
 
  Then for each pair you map a field from the parent table to the corresponding field from the child table. Thus, you define how the system will combine the records of the paired tables—that is, join conditions in SQL terms. 
 
@@ -3068,15 +3250,15 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
 - _Right_ : A _Right_ join returns all the records from the child table combined with any matching records from the     parent table (see the figure below). For example, suppose that for an inquiry that lists open sales orders by     customers, you join SOOrder (parent table) and Customer (child table) with the _Right_ join. The system     will return all customers. For a customer for which a sales order record was not found, the system returns an     empty value in the column with sales order information. 
 
-- _Full_ : A _Full_ join returns all the records from both the parent table and the child table when there is a match     in a parent or child table record (see the figure below). For example, suppose that for an inquiry that lists     open sales orders by customers, you join SOOrder and Customer with a _Full_ join. The system will return 
+- _Full_ : A _Full_ join returns all the records from both the parent table and the child table when there is a match     in a parent or child table record (see the figure below). For example, suppose that for an inquiry that lists     open sales orders by customers, you join SOOrder and Customer with a _Full_ join. The system will return     all open sales orders (from SOOrder) and all customers (from the Customer table). A _Full_ join can return a     huge number of records. 
+
+- _Cross_ : A _Cross_ join returns each record from the parent table combined with each record from the child     table. Thus, the number of records in the result set is the number of records in the parent table multiplied by 
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 88 
+ Managing Generic Inquiries | 96 
 
- all open sales orders (from SOOrder) and all customers (from the Customer table). A Full join can return a huge number of records. 
-
-- _Cross_ : A _Cross_ join returns each record from the parent table combined with each record from the child     table. Thus, the number of records in the result set is the number of records in the parent table multiplied by     the number of records in the child table (see the figure below). Unlike the _Inner_ , _Le_ , _Right_ , and _Full_ join, the     _Cross_ join does not require a joining condition. 
+ the number of records in the child table (see the figure below). Unlike the Inner , Le , Right , and Full join, the Cross join does not require a joining condition. 
 
  The inquiry results may be empty because of your access rights to Acumatica ERP forms, or because some data has been deleted in the database. For example, with the Inner join, the system will not display the open sales orders of the customers to whose accounts your access is restricted or whose accounts were deleted for some reason. 
 
@@ -3086,11 +3268,13 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  You can use any fields to join the tables. We recommend using the key fields because it allows the system to retrieve the data more quickly. 
 
+ For example, suppose that for an inquiry that lists open sales orders by customers, you joined SOOrder as the parent table and Customer as the child table (the type of join does not matter for linking fields). This means that the system should combine the records of these two tables by adding data from the child table to the parent one. The child table provides customer details, so you should indicate to the system that the data of the particular customer needs to be joined with the data of particular open sales order of this customer. To do this, 
+
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 89 
+ Managing Generic Inquiries | 97 
 
- For example, suppose that for an inquiry that lists open sales orders by customers, you joined SOOrder as the parent table and Customer as the child table (the type of join does not matter for linking fields). This means that the system should combine the records of these two tables by adding data from the child table to the parent one. The child table provides customer details, so you should indicate to the system that the data of the particular customer needs to be joined with the data of particular open sales order of this customer. To do this, you add the link that indicates to the system that the customerID field from the SOOrder table equals the BAccountID field from the Customer table. The BAccountID field is a key field in the Customer table. The system finds an open sales order, identifies the value of the customerID field, and searches for the same value in the BAccountID column of the Customer table. When the customer record is found, the system combines these two records into one and proceeds to the next open sales order. The following screenshot shows the SOOrder and Customer tables and the result of their combination. 
+ you add the link that indicates to the system that the customerID field from the SOOrder table equals the BAccountID field from the Customer table. The BAccountID field is a key field in the Customer table. The system finds an open sales order, identifies the value of the customerID field, and searches for the same value in the BAccountID column of the Customer table. When the customer record is found, the system combines these two records into one and proceeds to the next open sales order. The following screenshot shows the SOOrder and Customer tables and the result of their combination. 
 
  Figure: Data combined from two tables 
 
@@ -3108,21 +3292,21 @@ Thus, for each of these date range parameters, you need to add a complex conditi
 
  You add a parent table on the Data Sources tab by clicking Add Row on the table toolbar and selecting the needed table in the Source Name column of the added row. 
 
+ With the row with the added table selected, you then open the Related Tables dialog box by clicking Add Related Table on the table toolbar. In the Parent Table box of the dialog box, the system displays the selected table (see the following screenshot). 
+
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 90 
-
-With the row with the added table selected, you then open the **Related Tables** dialog box by clicking **Add Related Table** on the table toolbar. In the **Parent Table** box of the dialog box, the system displays the selected table (see the following screenshot). 
+ Managing Generic Inquiries | 98 
 
 **_Figure: The parent table (specified automatically)_** 
 
 If multiple tables are listed on the **Data Sources** tab, you can then select any of them as a parent table in the **Parent Table** box (see the following screenshot). 
 
+**_Figure: Selection of a parent table_** 
+
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 91 
-
- Figure: Selection of a parent table 
+ Managing Generic Inquiries | 99 
 
  The Add Related Table button is unavailable until you add a table to the Data Source tab. It is also unavailable if a generic inquiry is selected as a source. 
 
@@ -3134,13 +3318,13 @@ If multiple tables are listed on the **Data Sources** tab, you can then select a
 
  To select the child table, you click Select Related Table on the table toolbar (Item 2). The system displays the selected table in the Child Table box (Item 3) and the relation between the parent and child tables in the Relation box (Item 4). The relation is described as a part of the SQL statement and includes a type of join and data field links. By default, the Inner join type is used. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 92 
-
  Figure: Selection of a child table 
 
  If a child table can be joined using different join conditions (set of fields), the system offers available options for the selection in the list of child tables, as the following screenshot demonstrates for the Users (parent) and CRActivity (child) tables. You select the needed option and click Select Related Table. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 100 
 
  Figure: Selection of a child table that have multiple join options 
 
@@ -3150,13 +3334,13 @@ If multiple tables are listed on the **Data Sources** tab, you can then select a
 
 - Adds the tables you selected to the list on the **Data Sources** tab of the form. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 93 
-
 - Adds the relation record to the **Table Relations** table on the **Relations** tab (see Item 1 in the following     screenshot). 
 
 - Adds join conditions for the relation record to the **Data Field Links For Active Relation** table on the     **Relations** tab (Item 2). 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 101 
 
  Figure: Table relation added with the Related Tables dialog box 
 
@@ -3174,11 +3358,11 @@ If multiple tables are listed on the **Data Sources** tab, you can then select a
 
  When you use generic inquiries as data sources for other inquiries, the system does not limit the number of levels of nesting. It ensures only that an inquiry is not a parent to another inquiry that uses it as data source. 
 
- The term parent refers to a generic inquiry that uses another generic inquiry as its data source. 
-
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 94 
+ Managing Generic Inquiries | 102 
+
+ The term parent refers to a generic inquiry that uses another generic inquiry as its data source. 
 
  To add a generic inquiry as a data source, you click Add Row on the table toolbar of the Data Sources tab. In the new row, you open the lookup table for Source Name. On the Generic Inquiries tab of the lookup table, you selects the needed inquiry. The system adds the inquiry to the table and switches focus to the Alias column. You can type an alias for the inquiry or skip this step. The system inserts the value from Source Name if no alias has been specified. 
 
@@ -3214,13 +3398,11 @@ If multiple tables are listed on the **Data Sources** tab, you can then select a
 
  The system does not add parameters from source inquiries automatically to the Parameters tab of the Generic Inquiry (SM208000) form. You can add any needed parameters manually. As with the field names, the system will display parameter names with the alias of the source inquiry preceding the parameter name. 
 
- When you add a row on the Parameters tab and select a parameter from a source inquiry in the drop-down list in the Name column, the system adds the parameter and copies its settings. If you type some name in the Name 
-
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 95 
+ Managing Generic Inquiries | 103 
 
- column and then open the drop-down list in this cell and select a parameter from a source inquiry, the system adds the parameter with the typed name and the settings from the selected parameter. 
+ When you add a row on the Parameters tab and select a parameter from a source inquiry in the drop-down list in the Name column, the system adds the parameter and copies its settings. If you type some name in the Name column and then open the drop-down list in this cell and select a parameter from a source inquiry, the system adds the parameter with the typed name and the settings from the selected parameter. 
 
  When parameters in the parent and source inquiry share the same names, the system creates a link between these parameters. You can adjust the parameter settings. However, these modifications must align with the settings in the source inquiry. For instance, if a parameter is defined as an integer type in the source inquiry, it should not be redefined as a string. 
 
@@ -3256,7 +3438,7 @@ If multiple tables are listed on the **Data Sources** tab, you can then select a
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 96 
+ Managing Generic Inquiries | 104 
 
 ### Data from Multiple Data Sources: DAC Schema Browser 
 
@@ -3270,7 +3452,7 @@ If multiple tables are listed on the **Data Sources** tab, you can then select a
 
 - A link with a data access class in the **Element Properties** dialog box, which opens when you inspect UI     elements on a data entry form 
 
-- **Tools > DAC Schema Browser** on the right side of the form title bar of any form The system opens the DAC Schema Browser in a separate browser tab. 
+- **Settings > DAC Schema Browser** on the right side of the form title bar of any form The system opens the DAC Schema Browser in a separate browser tab. 
 
 #### Parts of the DAC Schema Browser 
 
@@ -3278,7 +3460,7 @@ If multiple tables are listed on the **Data Sources** tab, you can then select a
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 97 
+ Managing Generic Inquiries | 105 
 
 **_Figure: DAC Schema Browser_** 
 
@@ -3296,11 +3478,11 @@ If multiple tables are listed on the **Data Sources** tab, you can then select a
 
 - _Source Data_ : Opens the source data of the selected DAC. 
 
+4. Main information area (Item 4): In this part, you can obtain additional information about the selected DAC,     such as the following: a link to the base DAC (that is, the DAC through which the system receives data); a link     to a DAC that is used in a projection query or in a nested DAC; the list of forms whose primary view is based     on the selected DAC (applicable only for primary DACs); and a link to the parent DAC (if applicable) of the     selected DAC. 
+
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 98 
-
-4. Main information area (Item 4): In this part, you can obtain additional information about the selected DAC,     such as the following: a link to the base DAC (that is, the DAC through which the system receives data); a link     to a DAC that is used in a projection query or in a nested DAC; the list of forms whose primary view is based     on the selected DAC (applicable only for primary DACs); and a link to the parent DAC (if applicable) of the     selected DAC. 
+ Managing Generic Inquiries | 106 
 
 5. Summary and Remarks area (Item 5): This area contains a general description of the selected DAC, which     can be useful when you are selecting DACs for your generic inquiry or report. 
 
@@ -3328,13 +3510,13 @@ If multiple tables are listed on the **Data Sources** tab, you can then select a
 
  Suppose that you need to create an inquiry that shows a list of AR invoices with detailed information about customers and the branch related to each AR invoice. You need to select the correct DACs for this inquiry and to specify the correct fields to link these DACs. 
 
- Your primary goal is to show the list of AR invoices. You open the Invoices and Memos (AR301000) form and invoke the Element Properties dialog box for the Reference Nbr. box (which holds a unique identifier of a document) in the Summary area of the form. In the dialog box, you click the ARInvoice link in the Data Class box. The system opens the DAC Schema Browser in a separate browser tab with the detailed information about the ARInvoice DAC. 
+ Your primary goal is to show the list of AR invoices. You open the Invoices and Memos (AR301000) form and invoke the Element Properties dialog box for the Reference Nbr. box (which holds a unique identifier of a document) in the Summary area of the form. In the dialog box, you click the PX.Objects.AR.ARInvoice link in the Data Class box. The system opens the DAC Schema Browser in a separate browser tab with the detailed information about the PX.Objects.AR.ARInvoice DAC. 
+
+ In the DAC Schema Browser, in the Name column of the Fields table, you look for the fields that hold information about the branch and customer of an AR invoice. These fields are BranchID and CustomerID , which are foreign keys, which means that there are DACs that reference these fields (listed in the Foreign Reference column, as shown in the following screenshot). 
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 99 
-
-In the DAC Schema Browser, in the **Name** column of the **Fields** table, you look for the fields that hold information about the branch and customer of an AR invoice. These fields are _BranchID_ and _CustomerID_ , which are foreign keys, which means that there are DACs that reference these fields (listed in the **Foreign Reference** column, as shown in the following screenshot). 
+ Managing Generic Inquiries | 107 
 
 **_Figure: Details of the BranchID field_** 
 
@@ -3344,17 +3526,21 @@ For the _BranchID_ field, the _Branch_ DAC is listed as a foreign reference. You
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 100 
+ Managing Generic Inquiries | 108 
 
- Figure: The information about the Branch DAC and its key field 
+**_Figure: The information about the Branch DAC and its key field_** 
 
- For the CustomerID field, the BAccount and Customer DACs are listed. While reading about the BAccount DAC, you find out that it is the base class for the Customer DAC. That is, the Customer DAC takes information from the BAccount DAC and has additional fields. So, if the information about the customers that you need is available in the BAccount class, you should use this class for the performance reasons. Otherwise, you should use the Customer class. Suppose that you need to show only customer's identifier, name, and default address. All this information is present in the BAccount class. You search for the BAccount class either in the Incoming References or Outgoing References section to find its key field that you should use for linking (see the following screenshot). 
+For the _CustomerID_ field, the _BAccount_ and _Customer_ DACs are listed. While reading about the _BAccount_ DAC, you find out that it is the base class for the _Customer_ DAC. That is, the _Customer_ DAC takes information from the _BAccount_ DAC and has additional fields. So, if the information about the customers that you need is available in the _BAccount_ class, you should use this class for the performance reasons. Otherwise, you should use the _Customer_ class. Suppose that you need to show only customer's identifier, name, and default address. All this information is present in the _BAccount_ class. You search for the _BAccount_ class either in the **Incoming References** or **Outgoing References** section to find its key field that you should use for linking (see the following screenshot). 
 
- Figure: The information about BAccount DAC and its key field 
+**_Figure: The information about BAccount DAC and its key field_** 
 
- Thus, you determine that the following relations should be used for the selected DACs: 
+Thus, you determine that the following relations should be used for the selected DACs: 
 
 - _ARInvoice_ and _Branch_ : _ARInvoice.BranchID = Branch.BranchID_ 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 109 
 
 - _ARInvoice_ and _BAccount_ : _ARInvoice.CusomerID = BAccount.BAccountID_ With this information, you add the DACs to the **Data Tables** tab and specify the relations on the **Relations** tab of the _Generic Inquiry_ form. 
 
@@ -3362,35 +3548,25 @@ For the _BranchID_ field, the _Branch_ DAC is listed as a foreign reference. You
 
 #### Discovery of Key Fields on the Source Code Form 
 
- The information about each key field—the field in the applicable record that holds unique data identifying that record from all the other records in the database—of the data access class you need is stored in the source code. 
+ The information about each key field—the field in the applicable record that holds unique data identifying that record from all the other records in the database—of the data access class you need is stored in the source code. You can get more information about the data access class you need on the Source Code (SM204570) form, which you can access in the following ways: 
 
+- From the **Element Properties** dialog box, as you are using it to explore a UI element on a particular form, by     clicking **Actions > View Data Class Source**. The form opens in a pop-up window. The specified data access     class is shown on the **Data Access** tab (see Item 1 below). 
 
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 101 
+- By directly navigating to the _Source Code_ form. Then in the **Table Name** box on the **Data Access** tab, you     select the data access class you need. All fields of a data access class are listed on the **Data Access** tab, as shown in the following screenshot. You can explore any field further as you look for the key field; you generally focus on fields whose names seem to allude to numbers or identifiers. In the example shown in the screenshot, you would click #region OrderNbr to expand its attributes (Item 2 in the screenshot). Here you can find the string IsKey = true, which means that _OrderNbr_ is included in the key of this class (Item 3). 
 
-You can get more information about the data access class you need on the _Source Code_ (SM204570) form, which you can access in the following ways: 
+ Figure: Exploration of a data access class on the Source Code form 
 
-- From the **Element Properties** dialog box, as you are using it to explore a UI element on a particular form, by     clicking **Actions > View Data Class Source**. The form opens in a pop-up window. The specified data access     class is shown on the **Data Access** tab (see Item 1 in the screenshot below). 
-
-- By directly navigating to the _Source Code_ form. Then in the **Table Name** box on the **Data Access** tab, you     select the data access class you need. 
-
-All fields of a data access class are listed on the **Data Access** tab, as shown in the following screenshot. You can explore any field further as you look for the key field; you generally focus on fields whose names seem to allude to numbers or identifiers. In the example shown in the screenshot, you would click #region OrderNbr to expand its attributes (Item 2 in the screenshot). Here you can find the string IsKey = true, which means that _OrderNbr_ is included in the key of this class (Item 3). 
-
-**_Figure: Exploration of a data access class on the Source Code form_** 
-
-Particular types of key fields are distinguished as follows: 
+ Particular types of key fields are distinguished as follows: 
 
 - On the application level, key fields are the fields that are marked with IsKey = true. 
 
 - On the database level, key fields are the fields that are marked with the PXDBIdentity attribute and     with IsKey = true. Key fields of this type are used to join data access classes. The key field with     the PXDBIdentity attribute is a part of the database index, so the queries with the fields with the     PXDBIdentity attribute execute faster than the queries with fields with only the IsKey attribute do. 
 
-Acumatica ERP master classes (which are categorized as **Profiles** in the UI in workspaces and search results), such as Customer and InventoryItem, usually have two key fields—that is, one with the IsKey attribute, and another with the PXDBIdentity attribute. The key fields of the _InventoryItem_ class are _InventoryID_ , which is marked with the PXDBIdentity attribute, and _InventoryCD_ , which is marked with the IsKey attribute. For these 
-
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 102 
+ Managing Generic Inquiries | 110 
 
- classes, you use the field with the PXDBIdentity attribute to join classes in queries and the field with the IsKey attribute in other cases, such as for inquiry or report parameters. 
+ Acumatica ERP master classes (which are categorized as Profiles in the UI in workspaces and search results), such as Customer and InventoryItem, usually have two key fields—that is, one with the IsKey attribute, and another with the PXDBIdentity attribute. The key fields of the InventoryItem class are InventoryID , which is marked with the PXDBIdentity attribute, and InventoryCD , which is marked with the IsKey attribute. For these classes, you use the field with the PXDBIdentity attribute to join classes in queries and the field with the IsKey attribute in other cases, such as for inquiry or report parameters. 
 
  Acumatica ERP document and transaction classes (which are mentioned as Transactions in the UI in workspaces and search results)—such as SOOrder, ARInvoice, and ARPayment—usually have two or more key fields, which are marked with the IsKey attribute. For example, the key fields of the ARInvoice class are RefNbr and DocType. You can use both of these fields to join data access classes in queries. 
 
@@ -3400,7 +3576,7 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 
  In this activity, you will learn how to create a generic inquiry that collects and displays data from two data access classes (DACs), which are referred to as tables on the user interface of the Generic Inquiry (SM208000) form. The activity walks you through the steps of designing a sample generic inquiry for testing purposes, so that you can develop a better understanding of the process. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3420,15 +3596,13 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 
  The generic inquiry that you are going to create in this activity will collect data about sales orders and the corresponding customers. You will inspect the needed elements on the Sales Orders (SO301000) and Customers (AR303000) forms to explore which classes you can use to access the needed data. 
 
- With the knowledge you have obtained, you will create a generic inquiry on the Generic Inquiry (SM208000) form and configure the results grid, the requested parameters (that is, the elements in the Selection area), and the conditions that correspond to the parameters. 
-
- To comply with the security policy and fulfill the salesperson’s requirement, you will use the Inner join type while configuring table relations. An Inner join creates a result by combining the rows of the parent and child tables when 
-
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 103 
+ Managing Generic Inquiries | 111 
 
- there is at least one match in both tables. That is, if for a sales order, the system finds a customer account that was deleted or the salesperson has no access, the system will not return the sales order. 
+ With the knowledge you have obtained, you will create a generic inquiry on the Generic Inquiry (SM208000) form and configure the results grid, the requested parameters (that is, the elements in the Selection area), and the conditions that correspond to the parameters. 
+
+ To comply with the security policy and fulfill the salesperson’s requirement, you will use the Inner join type while configuring table relations. An Inner join creates a result by combining the rows of the parent and child tables when there is at least one match in both tables. That is, if for a sales order, the system finds a customer account that was deleted or the salesperson has no access, the system will not return the sales order. 
 
  When an inquiry has been created and all the necessary settings have been specified, you will preview and then publish the inquiry. 
 
@@ -3446,7 +3620,7 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 
 2. Point to the **Order Type** box, press Ctrl+Alt, and then click. The **Element Properties** dialog box opens. 
 
-3. Make a note of the values in the **Data Class** and **Data Field** boxes ( _SOOrder_ and _OrderType_ , respectively),     which are the data access class and data field you need. Close the dialog box. 
+3. Make a note of the values in the **Data Class** and **Data Field** boxes ( _PX.Objects.SO.SOOrder_ and _OrderType_ ,     respectively), which are the data access class and data field you need. Close the dialog box. 
 
  Although in this activity, the tasks of element inspection and generic inquiry development are kept separate for simplicity, in production development, you will generally be inspecting elements on the UI and creating the generic inquiry at the same time. In this case, you may find it convenient to have the form or forms containing the UI elements open in a separate tab, so that you can quickly switch between the Generic Inquiry (SM208000) form and the form you are using to inspect the elements. 
 
@@ -3458,23 +3632,23 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 
 - **Date** 
 
-- **Customer** The **Customer** element on the _Sales Orders_ form contains an identifier of a customer but not a customer name that should be displayed in the resulting inquiry form. To obtain information about specific customer specified in each sales order, you should use the _Customers_ (AR303000) form. In exploring these elements, you have discovered that the data access class you need is _SOOrder_ and the data fields are _OrderType_ , _OrderNbr_ , _Status_ , _OrderDate_ , and _CustomerID_. 
+- **Customer** The **Customer** element on the _Sales Orders_ form contains an identifier of a customer but not a customer name that should be displayed in the resulting inquiry form. To obtain information about specific customer specified in each sales order, you should use the _Customers_ (AR303000) form. In exploring these elements, you have discovered that the data access class you need is _PX.Objects.SO.SOOrder_ and the data fields are _OrderType_ , _OrderNbr_ , _Status_ , _OrderDate_ , and _CustomerID_. 
 
 5. Open the _Customers_ form. 
 
 6. Point to the **Customer ID** box, press Ctrl+Alt, and then click. The **Element Properties** dialog box opens. 
 
-7. Make a note of the values of the **Data Class** and **Data Field** elements ( _Customer_ and _AcctCD_ , respectively),     which are the data access class and data field you need. 
+7. Make a note of the values of the **Data Class** and **Data Field** elements ( _PX.Objects.AR.Customer_ and _AcctCD_ ,     respectively), which are the data access class and data field you need. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 112 
 
 #### Step 2: Creating the New Inquiry 
 
  To begin the process of creating the generic inquiry, you do the following: 
 
 1. Open the _Generic Inquiry_ (SM208000) form. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 104 
 
 2. In the Summary area, in the **Inquiry Title** box, type the name you will use for the inquiry: DB-     SOOpenByCustomer. 
 
@@ -3512,15 +3686,13 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 
  SOOrder OrderDate 
 
- Customer AcctName 
-
- Notice that the Visible and Default Navigation check boxes are selected by default for all rows. With these settings, the system will display the added columns in the inquiry results, and for data fields that have a default data entry form specified in the source code, the system will display the values in the corresponding 
-
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 105 
+ Managing Generic Inquiries | 113 
 
- columns of the generic inquiry form as links. When a user clicks a link in this column on the generic inquiry form, the system opens the specified form in a pop-up window with the record selected. 
+ Object Data Field Customer AcctName 
+
+ Notice that the Visible and Default Navigation check boxes are selected by default for all rows. With these settings, the system will display the added columns in the inquiry results, and for data fields that have a default data entry form specified in the source code, the system will display the values in the corresponding columns of the generic inquiry form as links. When a user clicks a link in this column on the generic inquiry form, the system opens the specified form in a pop-up window with the record selected. 
 
 3. On the form toolbar, click **Save**. 
 
@@ -3548,15 +3720,15 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 
 3. In the **Publish to the UI** dialog box, which opens, in the **Site Map Title** box, type Sales Orders of the     Selected Customer. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 114 
+
 4. In the **Access Rights** section, select **Copy Access Rights from Screen** , and then select _Sales Orders_ with the     _SO.30.10.00_ screen ID in the box next to the option button.     With these settings, users that have access to the _Sales Orders_ (SO301000) list of records will also have     access to the created generic inquiry. 
 
 5. Click **Publish** to complete publication and close the dialog box. 
 
 6. In the main menu, select the **Data Views** workspace, and under the **Inquiries** category, make sure the     inquiry you have created is listed. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 106 
 
 ### Exposing Inquiry Results by Using OData 
 
@@ -3590,11 +3762,11 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 
  Multiple applications can use data exposed through the OData protocol, including Microso Power BI and Microso Excel. Also, some Acumatica ERP technology partners have built reporting solutions by using the ability of Acumatica ERP to expose data through the generic inquiry–based OData interface. 
 
- Microso Power BI offers advanced capabilities for creating charts. You can expose a generic inquiry’s results through OData and access the data from Power BI. By using Power BI, you can create advanced charts based on data imported from Acumatica ERP. An advanced Power BI chart can then be imported back to Acumatica ERP and added to a dashboard as a widget. For example, you can create a visual display of your sales across the United States (as shown in the following screenshot). Due to the exposure of the inquiry results through OData, the Power BI chart displays real-time data when you view it either in Power BI or on your dashboard in Acumatica ERP. 
-
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 107 
+ Managing Generic Inquiries | 115 
+
+ Microso Power BI offers advanced capabilities for creating charts. You can expose a generic inquiry’s results through OData and access the data from Power BI. By using Power BI, you can create advanced charts based on data imported from Acumatica ERP. An advanced Power BI chart can then be imported back to Acumatica ERP and added to a dashboard as a widget. For example, you can create a visual display of your sales across the United States (as shown in the following screenshot). Due to the exposure of the inquiry results through OData, the Power BI chart displays real-time data when you view it either in Power BI or on your dashboard in Acumatica ERP. 
 
  Figure: Example of an advanced chart built with Power BI 
 
@@ -3614,6 +3786,10 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 
  The second requirement is assigning the appropriate access rights to the user accounts that will access the exposed inquiry results through an OData client. These user accounts need to have the View Only level of access rights to the inquiry forms. For more information about access rights to generic inquiries, see Managing Access Rights To Generic Inquiries. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 116 
+
 #### Supporting the OData Specification 
 
  Acumatica ERP generates the names of the fields for OData entities based on the display names of the Acumatica ERP fields in an English locale. To adhere to the OData specification, Acumatica ERP uses the following rules in generating these names: 
@@ -3621,10 +3797,6 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 - If the display name contains no invalid symbols, the name is le unchanged. 
 
 - If the display name starts with a digit, an underscore is added before the name. For example, _2Update_ is     converted to __2Update_. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 108 
 
 - If the display name contains invalid symbols, such as spaces, these symbols are removed from the name.     For example, _Account Name_ is converted to _AccountName_. The generic inquiry–based OData protocol provided by Acumatica ERP does not support the following items in the OData specification: 
 
@@ -3638,6 +3810,10 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 
  You can view the list of generic inquiries whose results are exposed through OData by opening the lookup table for the Inquiry Title box on the Generic Inquiry form and then filtering the generic inquiries by the selection of the check box in the Expose via OData column, as the following screenshot shows. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 117 
+
  Figure: Generic inquiries that are exposed via OData 
 
  Acumatica ERP includes multiple predefined generic inquiries whose results can be exposed through OData; the titles of these inquiries start with BI. Additionally, the BI role is available in Acumatica ERP; a user with the role assigned can access the data of these predefined generic inquiries. 
@@ -3648,17 +3824,17 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 
  In this activity, you will learn how to modify an existing generic inquiry to expose its results through OData. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 109 
-
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that you are a technical specialist in your company who is working on simple customizations, including the creation and modification of generic inquiry forms. An accountant of your company has asked you to provide access to the predefined Invoices and Memos (AR3010PL) inquiry form through Microso Excel. The accountant uses Excel for building reports based on the data of this inquiry and would like for the data to always be up to date. Further suppose that the access role of the accountant is Accountant. 
 
  The Invoices and Memos inquiry form, which is a list of records, has the AR-Invoices and Memos inquiry title and the Invoices and Memos site map title specified on the Generic Inquiry (SM208000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 118 
 
 #### Process Overview 
 
@@ -3684,17 +3860,13 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 
  An inquiry form is considered published as long as the Screen ID box is filled in on the Generic Inquiry form. 
 
-4. Select the **Expose via OData** check box. 
+4. On the **Interface Options** tab, select the **Expose via OData** check box. 
 
 5. On the form toolbar, click **Save**. 
 
 #### Step 2: Specifying the Access Rights to the Exposed Inquiry 
 
  To specify the access rights of the Accountant role to the exposed inquiry, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 110 
 
 1. Open the _Access Rights by Screen_ (SM201020) form. Because no workspace is specified for the _AR-Invoices_     _and Memos_ generic inquiry on the _Generic Inquiry_ (SM208000) form, you need to search for this generic     inquiry in the **Hidden** node of the le pane. 
 
@@ -3703,6 +3875,10 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
  The system displays a tooltip with the screen identifier when you point to a node; this can help you find the needed form when multiple forms have the same name. 
 
 3. In the right pane, in the **Access Rights** column of the row with the _Accountant_ role, select the _View Only_ level     (Item 2). 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 119 
 
  Figure: The level of access rights of the Accountant role for the exposed inquiry 
 
@@ -3724,11 +3900,11 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 
  You can view the results of the generic inquiries exposed through the generic inquiry–based OData interface in your browser or in another application that works with OData. 
 
+ We strongly recommend that you deploy each Acumatica ERP instance by using HTTPS so that you can pass the user credentials safely. 
+
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 111 
-
- We strongly recommend that you deploy each Acumatica ERP instance by using HTTPS so that you can pass the user credentials safely. 
+ Managing Generic Inquiries | 120 
 
 #### Learning Objectives 
 
@@ -3746,7 +3922,7 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 
 #### Access to an Exposed Generic Inquiry Through an OData Client 
 
- You use the OData interface to expose data from Acumatica ERP through the OData interface—in this case, data from a generic inquiry created on the Generic Inquiry (SM208000) form. By doing this, you can give users the ability to view your company’s data and perform detailed financial analysis by using third-party OData clients, such as Microso Excel and Microso Power BI. 
+ You use the OData interface to expose data from Acumatica ERP—in this case, data from a generic inquiry created on the Generic Inquiry (SM208000) form. By doing this, you can give users the ability to view your company’s data and perform detailed financial analysis by using third-party OData clients, such as Microso Excel and Microso Power BI. 
 
  The generic inquiry–based OData interface uses the basic authentication in Acumatica ERP. That is, you need to sign in to Acumatica ERP before you request the data through the OData protocol. To connect to your data, you specify the URL of the generic inquiry–based OData interface of your Acumatica ERP instance to the OData client and authenticate yourself by entering your Acumatica ERP credentials. The OData client then connects to your Acumatica ERP instance and obtains the data for you. 
 
@@ -3760,11 +3936,11 @@ Acumatica ERP master classes (which are categorized as **Profiles** in the UI in
 
  The URL for the generic inquiry–based OData interface is <Acumatica ERP instance URL>/t/<TenantName>/api/ odata/gi. In this URL, <TenantName> is the login name of the tenant in the Acumatica ERP instance. (For more information on single-tenant and multitenant configuration, see Tenants: General Information .) A request to this URL returns the list of all generic inquiries whose data is exposed. 
 
+ Even though you can view the list of all generic inquiries whose data is exposed, you can obtain only the data to which your user account has sufficient access rights. 
+
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 112 
-
- Even though you can view the list of all generic inquiries whose data is exposed, you can obtain only the data to which your user account has sufficient access rights. 
+ Managing Generic Inquiries | 121 
 
 For example, you would specify the _https://sweetlife.com/erp/t/Calipso LLC/api/odata/gi_ URL if the following are true: 
 
@@ -3776,7 +3952,7 @@ For example, you would specify the _https://sweetlife.com/erp/t/Calipso LLC/api/
 
 If you type this sample URL into a browser, you will notice that the browser automatically replaces the space with _%20_. 
 
- You can find the login names of tenants on the Tenant List (SM203530) form, as shown in the following screenshot. 
+ You can find the login names of tenants in the Login Name column on the Tenant List (SM203530) form, as shown in the following screenshot. 
 
  Figure: The login names of tenants 
 
@@ -3786,13 +3962,13 @@ If you type this sample URL into a browser, you will notice that the browser aut
 
 The following code fragment shows a list of the exposed inquiries; the list has been retrieved through the OData interface. 
 
- { "@odata.context": "<Acumatica ERP instance URL>/t/<TenantName>/api/odata/gi/$metadata", "value": [ { "name": "BI-LeadConversion", "kind": "EntitySet", "url": "BI-LeadConversion" 
+ { "@odata.context": "<Acumatica ERP instance URL>/t/<TenantName>/api/odata/gi/$metadata", "value": [ { "name": "BI-LeadConversion", "kind": "EntitySet", "url": "BI-LeadConversion" }, { "name": "BI-Cases", "kind": "EntitySet", "url": "BI-Cases" }, { "name": "DB-StorageDetails", "kind": "EntitySet", 
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 113 
+ Managing Generic Inquiries | 122 
 
- }, { "name": "BI-Cases", "kind": "EntitySet", "url": "BI-Cases" }, { "name": "DB-StorageDetails", "kind": "EntitySet", "url": "DB-StorageDetails" }, ... ] } 
+ "url": "DB-StorageDetails" }, ... ] } 
 
 #### Use of OData to View a Generic Inquiry’s Fields and Parameters 
 
@@ -3818,15 +3994,13 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
  The CORS settings of the web server of your instance are defined by the cors section of the Web.config file; see the following example of the default configuration for this section. 
 
- <cors enabled="true" origins="*" methods="*" headers="*" 
+ <cors enabled="true" origins="*" methods="*" headers="*" exposedHeaders="DataServiceVersion,MaxDataServiceVersion,OData-Version, OData-MaxVersion" /> 
+
+ By default, CORS is enabled, all origins are allowed access to the server, and all supported headers are exposed and available for use. The web server of the application supports simple headers as well as the following headers: DataServiceVersion, MaxDataServiceVersion, OData-Version, and OData-MaxVersion. You need to use these four headers to access OData endpoints. 
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 114 
-
- exposedHeaders="DataServiceVersion,MaxDataServiceVersion,OData-Version, OData-MaxVersion" /> 
-
- By default, CORS is enabled, all origins are allowed access to the server, and all supported headers are exposed and available for use. The web server of the application supports simple headers as well as the following headers: DataServiceVersion, MaxDataServiceVersion, OData-Version, and OData-MaxVersion. You need to use these four headers to access OData endpoints. 
+ Managing Generic Inquiries | 123 
 
  You can enforce limitations on cross-origin requests by changing the settings in the Web.config file. You can add your own headers as well. For details, see Generic Inquiry Access Through OData: To Configure CORS. 
 
@@ -3850,7 +4024,7 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
  To specify the values for the parameters of a generic inquiry and obtain the results of the generic inquiry, you do the following: 
 
-- You append _/<GI_Name_WithParameters>_ to the URL of the generic inquiry–based OData interface. In     the URL, you use the name of the generic inquiry that is specified in the respective FunctionImport     element. 
+- You append _/<GI_Name_WithParameters>_ to the URL of the generic inquiry–based OData interface. As     _<GI_Name_WithParameters>_ , you use the name of the generic inquiry that is specified in the respective     FunctionImport element. 
 
 - You specify the values of the parameters of the generic inquiry in parentheses. For example, you would specify the _https://sweetlife.com/erp/t/U100/api/odata/gi/ DBStorageDetailsByItemWarehouseLocation_WithParameters(Warehouse='WHOLESALE')_ URL if the following are true: 
 
@@ -3860,10 +4034,6 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
 - You want to obtain the results of the _DB-StorageDetailsByItemWarehouseLocation_ generic inquiry for the     _WHOLESALE_ warehouse. You can also use parameter aliases. You may find them useful if the parameter value includes symbols that cannot be used in the URL. In this case, you can move the parameter value to the query part. The example above can be rewritten with a parameter alias as follows: _https://sweetlife.com/erp/t/U100/api/odata/gi/ DBStorageDetailsByItemWarehouseLocation_WithParameters(Warehouse=@1)?@1='WHOLESALE'_ 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 115 
-
 #### Filtering and Ordering the Results of a Generic Inquiry 
 
  You can filter and order the data of an exposed generic inquiry. In the URL, you use a question mark to start the list of parameters, such as $filter and $orderby. To specify multiple URL parameters, you use the & character between the parameters. 
@@ -3871,6 +4041,10 @@ The following code fragment shows a list of the exposed inquiries; the list has 
  For example, you use the https://sweetlife.com/erp/t/U100/api/odata/gi/SO-BI-SalesOrdersForYear?$filter=Customer eq 'GOODFOOD' and OrderTotal ge 1000&$orderby=OrderTotal asc URL if the following are true: 
 
 - The URL of the Acumatica ERP instance is _https://sweetlife.com/erp_. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 124 
 
 - The instance contains the _U100_ tenant. 
 
@@ -3900,10 +4074,6 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
  Microso Power BI is a platform that you use to find and visualize data, share analysis, and collaborate intuitively. With Power BI, you can visualize the results of Acumatica ERP generic inquiries that are exposed through the OData protocol. You can also create custom views for Power BI. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 116 
-
 #### Custom Power BI Views 
 
  You can create custom Power BI views for your instance of Acumatica ERP. The process of creating your own view of Acumatica ERP data in Microso Power BI includes the following general steps: 
@@ -3913,6 +4083,10 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 2. In Microso Excel, you retrieve the data from the generic inquiry, as described in _Generic Inquiry Access_     _Through OData: To Access an Exposed Inquiry in Microsoft Excel_. You then prepare the data model for Power     BI. By using the Power Pivot add-in to Microso Excel, you create, arrange, and normalize the data model of     the raw data obtained from the generic inquiry. 
 
 3. You upload the Excel file with the data model to Microso Power BI. For more information, see _Getting data_     _from Excel to Power BI_ in the Microso documentation. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 125 
 
 #### Requirements for the User Account Role 
 
@@ -3926,7 +4100,7 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
  In this activity, you will learn how to access a generic inquiry that was exposed through OData in Microso Excel. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3937,10 +4111,6 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 #### Process Overview 
 
  On Access Rights by User (SM201055) form, you will verify that your user account has sufficient access rights (the Delete level) to the predefined Invoices and Memos (AR3010PL) generic inquiry. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 117 
 
  You will then open Microso Excel and import data from the exposed inquiry to a spreadsheet. 
 
@@ -3955,6 +4125,10 @@ The following code fragment shows a list of the exposed inquiries; the list has 
  To verify that your user account has the appropriate level of access rights to the exposed inquiry, do the following: 
 
 1. Open the _Access Rights by User_ (SM201055) form. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 126 
 
 2. In the **Login** box, select your username, which is _gibbs_. 
 
@@ -3982,10 +4156,6 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
  e. Click Connect. Excel connects to the Acumatica ERP instance and obtains the list of exposed generic inquiries that are available for your Acumatica ERP user account. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 118 
-
 4. In the le pane of the **Navigator** dialog box, which opens, select the _AR-Invoices and Memos_ generic inquiry.     You can preview the data in the right pane of the dialog box. 
 
  In this dialog box, for a generic inquiry with parameters, you can specify the values of the parameters. 
@@ -3995,6 +4165,10 @@ The following code fragment shows a list of the exposed inquiries; the list has 
  The sorting order in the resulting Excel file may differ from the sorting order in Acumatica ERP because Excel applies sorting aer the data is downloaded. 
 
 6. To update the data, click **Refresh All** in the **Data** ribbon tab. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 127 
 
 ### Generic Inquiry Access Through OData: To Configure CORS 
 
@@ -4026,10 +4200,6 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
 - To limit simple headers supported by the resource, for the headers parameter, list the allowed simple     headers, separated by commas. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 119 
-
 - To allow all simple headers, specify headers="*". 
 
 - To add your own headers, for the exposedHeaders parameter aer the default headers, list the     allowed headers, separated by commas. 
@@ -4041,6 +4211,10 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 ### the Metadata 
 
  This activity will walk you through the process of signing in to Acumatica ERP and retrieving the metadata when you use the generic inquiry–based OData interface. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 128 
 
 #### Story 
 
@@ -4066,13 +4240,9 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
 1. In Postman, create a new collection. 
 
-2. On the **Authorization** tab of the collection, specify its authorization settings as follows:     a. In the **Type** box, select the _Basic Auth_ type.     b. In the **Username** and **Password** boxes, type the credentials that you are using to access the Acumatica        ERP instance for the training course. 
+2. On the **Auth** tab of the collection, specify its authorization settings as follows:     a. In the **Auth Type** box, select the _Basic Auth_ type.     b. In the **Username** and **Password** boxes, type the credentials that you are using to access the Acumatica        ERP instance for the training course. 
 
 3. Click **Save**. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 120 
 
 #### Step 2: Retrieving the Metadata 
 
@@ -4082,15 +4252,29 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
  GET http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/$metadata 
 
-2. Send the request. The response of the successful request contains the 200 OK status code. The following     code example shows a fragment of the response body. 
+ In this request: 
 
- <edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0"> <edmx:DataServices> <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="GenericInquiry"> <EntityType Name="BILeadConversion"> <Key> <PropertyRef Name="LeadID"/> <PropertyRef Name="OpportunityID"/> <PropertyRef Name="BusinessAccount"/> <PropertyRef Name="ContactID"/> <PropertyRef Name="NoteID"/> <PropertyRef Name="AddressID"/> <PropertyRef Name="LeadID_2"/> </Key> <Property Name="LeadID" Type="Edm.Int32"/> <Property Name="OpportunityID" Type="Edm.String"/> <Property Name="BusinessAccount" Type="Edm.String"/> <Property Name="Contact" Type="Edm.String"/> <Property Name="AccountName" Type="Edm.String"/> <Property Name="JobTitle" Type="Edm.String"/> ... </EntityType> ... <Function Name="DB-StorageDetails"> <Parameter Name="Warehouse" Type="Edm.String"/> <ReturnType Type="Collection(GenericInquiry.DBStorageDetails)" Nullable="false"/> </Function> ... <EntityContainer Name="Default"> <EntitySet Name="BI-LeadConversion" EntityType="GenericInquiry.BILeadConversion"/> <EntitySet Name="BI-Cases" EntityType="GenericInquiry.BICases"/> <EntitySet Name="DB-StorageDetails" EntityType="GenericInquiry.DBStorageDetails"/> <EntitySet Name="BI-ARInvoices" EntityType="GenericInquiry.BIARInvoices"/> <EntitySet Name="BI-GLBudgetActual" EntityType="GenericInquiry.BIGLBudgetActual"/> ... <FunctionImport Name="DBStorageDetails_WithParameters" Function="GenericInquiry.DB-StorageDetails" EntitySet="DB-StorageDetails"/> <FunctionImport Name="CRCampaignSalesOrders_WithParameters" 
+- _[http://localhost/MyStoreInstance](http://localhost/MyStoreInstance)_ is the URL of an Acumatica ERP instance. 
+
+- _MyStore_ is the login name of a tenant in this instance. 
+
+- _[http://localhost/MyStoreInstance/t/MyStore/api/odata/gi](http://localhost/MyStoreInstance/t/MyStore/api/odata/gi)_ is the base URL of the generic inquiry–based     OData interface of this tenant in this instance. 
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 121 
+ Managing Generic Inquiries | 129 
 
- Function="GenericInquiry.CR-CampaignSalesOrders" EntitySet="CR-CampaignSalesOrders"/> <FunctionImport Name="PMProjectSummary_WithParameters" Function="GenericInquiry.PM-Project Summary" EntitySet="PM-Project Summary"/> <FunctionImport Name="DBStorageDetailsByItemWarehouseLocation_WithParameters" Function="GenericInquiry.DB-StorageDetailsByItemWarehouseLocation" EntitySet="DB-StorageDetailsByItemWarehouseLocation"/> <FunctionImport Name="CRCampaignInvoices_WithParameters" Function="GenericInquiry.CR-CampaignInvoices" EntitySet="CR-CampaignInvoices"/> ... </EntityContainer> </Schema> </edmx:DataServices> </edmx:Edmx> 
+- You’ve appended _/$metadata_ to this URL to view the list of fields and parameters in exposed generic     inquiries. 
+
+2. Send the request. The response of the successful request contains the 200 OK status code. The following     code example shows a fragment of the response body. 
+
+ <?xml version="1.0" encoding="utf-8"?> <edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx"> <edmx:DataServices> <Schema Namespace="GenericInquiry" xmlns="http://docs.oasis-open.org/odata/ns/edm"> <EntityType Name="BILeadConversion"> <Key> <PropertyRef Name="LeadID"/> <PropertyRef Name="OpportunityID"/> <PropertyRef Name="BusinessAccount"/> <PropertyRef Name="ContactID"/> <PropertyRef Name="NoteID"/> <PropertyRef Name="AddressID"/> <PropertyRef Name="LeadID_2"/> </Key> <Property Name="LeadID" Type="Edm.Int32"/> <Property Name="OpportunityID" Type="Edm.String"/> <Property Name="BusinessAccount" Type="Edm.String"/> <Property Name="Contact" Type="Edm.String"/> <Property Name="AccountName" Type="Edm.String"/> <Property Name="JobTitle" Type="Edm.String"/> ... </EntityType> ... <Function Name="DB-StorageDetails"> <Parameter Name="Warehouse" Type="Edm.String"/> <ReturnType Type="Collection(GenericInquiry.DBStorageDetails)" Nullable="false"/> </Function> ... <EntityContainer Name="Default"> <EntitySet Name="BI-LeadConversion" EntityType="GenericInquiry.BILeadConversion"/> <EntitySet Name="BI-Cases" EntityType="GenericInquiry.BICases"/> <EntitySet Name="DB-StorageDetails" EntityType="GenericInquiry.DBStorageDetails"/> <EntitySet Name="BI-ARInvoices" EntityType="GenericInquiry.BIARInvoices"/> <EntitySet Name="BI-GLBudgetActual" EntityType="GenericInquiry.BIGLBudgetActual"/> ... <FunctionImport Name="DBStorageDetails_WithParameters" Function="GenericInquiry.DB-StorageDetails" EntitySet="DB-StorageDetails"/> <FunctionImport Name="CRCampaignSalesOrders_WithParameters" Function="GenericInquiry.CR-CampaignSalesOrders" EntitySet="CR-CampaignSalesOrders"/> <FunctionImport Name="PMProjectSummary_WithParameters" Function="GenericInquiry.PM-Project Summary" EntitySet="PM-Project Summary"/> <FunctionImport 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 130 
+
+ Name="DBStorageDetailsByItemWarehouseLocation_WithParameters" Function="GenericInquiry.DB-StorageDetailsByItemWarehouseLocation" EntitySet="DB-StorageDetailsByItemWarehouseLocation"/> <FunctionImport Name="CRCampaignInvoices_WithParameters" Function="GenericInquiry.CR-CampaignInvoices" EntitySet="CR-CampaignInvoices"/> ... </EntityContainer> </Schema> </edmx:DataServices> </edmx:Edmx> 
 
 3. Save the request. 
 
@@ -4118,45 +4302,39 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
 2. Make sure the Postman application is installed on your computer. To download and install Postman, follow     the instructions on _https://www.postman.com/downloads/_. 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 122 
-
 3. Complete the following prerequisite activity: _Generic Inquiry Access Through OData: To Sign In to Acumatica_     _ERP and Retrieve the Metadata_. 
 
 4. If you have created a Postman collection with the basic authentication configured, add a new request to the     collection and configure the request to inherit the authorization type from the parent collection. 
 
- Before you send the request in this activity, you need to sign in to Acumatica ERP, as described in Generic Inquiry Access Through OData: To Sign In to Acumatica ERP and Retrieve the Metadata. If you have created a Postman collection with the basic authorization configured, add a new request to the collection and configure the request to inherit the authorization type from the parent collection. 
-
-#### Step 1: Reviewing the Generic Inquiry 
-
- To provide the list of customers to the BI application, you need to retrieve the following values from Acumatica ERP, which are listed with the corresponding locations on the Customers (AR303000) form: 
-
-- Customer ID (the **Customer ID** box of the Summary area) 
-
-- Account name (the **Account Name** box of the **Account Info** section on the **General** tab) 
-
-- Customer class (the **Customer Class** box of the Summary area) 
-
-- Details of the main contact of the customer (the **Additional Account Info** section of the **General** tab): 
-
-- Email address (the **Account Email** box) 
-
-- Primary phone number (the **Business 1** box) 
-
-- Customer address (the **Account Address** section of the **General** tab): 
-
-- City (the **City** box) 
-
-- State (the **State** box) 
-
-- Postal code (the **Postal Code** box) 
-
-- Address line (the **Address Line 1** and **Address Line 2** boxes) These elements are shown in the following screenshot. 
-
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 123 
+ Managing Generic Inquiries | 131 
+
+#### Step 1: Viewing the Generic Inquiry in Acumatica ERP 
+
+ To provide the list of customers to the BI application, you need to retrieve the following values from Acumatica ERP: 
+
+- Customer ID 
+
+- Account name 
+
+- Customer class 
+
+- Details of the main contact of the customer: 
+
+- Email address 
+
+- Primary phone number 
+
+- Customer address: 
+
+- City 
+
+- State 
+
+- Postal code 
+
+- Address lines The corresponding elements on the _Customers_ (AR303000) form are shown in the following screenshot. 
 
  Figure: Elements on the Customers form 
 
@@ -4164,9 +4342,13 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
 1. In the Summary area of the _Generic Inquiry_ (SM208000) form, select the inquiry with the _Customer Contacts_     title. 
 
-2. Make sure the **Expose via OData** check box is selected for this generic inquiry. This means that the generic     inquiry results are available through OData. 
+2. Make sure the **Expose via OData** check box is selected for this generic inquiry on the **Interface Options** tab.     This means that the generic inquiry results are available through OData. 
 
 3. On the form toolbar, click **View Inquiry** to review the resulting generic inquiry form. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 132 
 
 #### Step 2: Retrieving the List of Customers Through OData 
 
@@ -4176,17 +4358,11 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
 - HTTP method: GET 
 
-- URL: _[http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/Customer](http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/Customer) Contacts_ 
+- URL: _[http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/Customer](http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/Customer) Contacts_     In this URL, you’ve appended generic inquiry name, which is _Customer Contacts_ , to the base URL of the     generic inquiry–based OData interface of the _MyStore_ tenant in the _MyStoreInstance_ instance. 
 
 2. Send the request. If the request is successful, its response contains the 200 OK status code. The following     code example shows a fragment of the response body. 
 
- { { "@odata.context": 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 124 
-
- "http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/$metadata#Customer %20Contacts", "value": [ { "CustomerID": "C000000001", "CustomerName": "Jersey Central Office Equip", "CustomerClass": "DEFAULT", "Email": "jersey-equip@mail.con", "Phone1": "+1 (777) 283-0414", "City": "Johannesburg", "State": null, "PostalCode": null, "AddressLine1": "1 De Villiers & Harrison St, 11-th Flr.", "AddressLine2": null, "ContactID": 5764, "AddressID": 5759 }, ... ] } 
+ { { "@odata.context": "http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/$metadata#Customer %20Contacts", "value": [ { "CustomerID": "C000000001", "CustomerName": "Jersey Central Office Equip", "CustomerClass": "DEFAULT", "Email": "jersey-equip@mail.con", "Phone1": "+1 (777) 283-0414", "City": "Johannesburg", "State": null, "PostalCode": null, "AddressLine1": "1 De Villiers & Harrison St, 11-th Flr.", "AddressLine2": null, "ContactID": 5764, "AddressID": 5759 }, ... ] } 
 
 3. Save the request. 
 
@@ -4200,6 +4376,10 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
  In the business intelligence (BI) application of the MyStore company, a warehouse manager should be able to view the statistics of the items available in the warehouse. To make it possible for the BI application to display these statistics, you need to retrieve from Acumatica ERP information about the quantities of stock items that are available in each warehouse. You also need to retrieve these statistics for a particular stock item. You want to use the generic inquiry–based OData interface to obtain this data. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 133 
+
  In Acumatica ERP, you can view the item availability data on the Inventory Summary (IN401000) form. To view the on-hand and available quantities of any stock item on this form, you select the item in the Selection area of the form. 
 
  To export the on-hand and available quantities of stock items by using the generic inquiry-based OData interface, you will use the Item Availability Data (INGI0002) generic inquiry, which has been preconfigured for this activity. 
@@ -4212,10 +4392,6 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
  Before you begin performing the steps of this activity, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 125 
-
 1. Deploy an instance of Acumatica ERP with the name _MyStoreInstance_ and a tenant that has the _MyStore_     name and contains the _T100_ data. 
 
 2. Make sure the Postman application is installed on your computer. To download and install Postman, follow     the instructions on _https://www.postman.com/downloads/_. 
@@ -4224,23 +4400,37 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
 4. If you have created a Postman collection with the basic authentication configured, add a new request to the     collection and configure the request to inherit the authorization type from the parent collection. 
 
- Before you send the request in this activity, you need to sign in to Acumatica ERP, as described in Generic Inquiry Access Through OData: To Sign In to Acumatica ERP and Retrieve the Metadata. If you have created a Postman collection with the basic authorization configured, add a new request to the collection and configure the request to inherit the authorization type from the parent collection. 
-
-#### Step 1: Reviewing the Generic Inquiry 
+#### Step 1: Viewing the Generic Inquiry in Acumatica ERP 
 
  The Item Availability Data (INGI0002) generic inquiry is based on the PX.Objects.IN.INSiteStatus data access class and has one parameter, which you can use to filter the list of stock items by inventory ID. To review this generic inquiry and make sure it includes the needed elements, do the following: 
 
 1. On the _Generic Inquiry_ (SM208000) form, select the inquiry with the _Item Availability Data_ title in the     Summary area. 
 
-2. Make sure that the **Expose via OData** check box is selected for this generic inquiry in the Summary area.     This means that the generic inquiry results are available through OData. 
+2. Make sure that the **Expose via OData** check box is selected for this generic inquiry on the **Interface Options**     tab. This means that the generic inquiry results are available through OData. 
 
 3. Click **View Inquiry** on the form toolbar to review the resulting generic inquiry form. 
 
-4. Select a value in the **Inventory ID** box of the generic inquiry form. Make sure that only one record is     returned. 
+4. Select _AACOMPUT01_ in the **Inventory ID** box of the generic inquiry form. Make sure that only one record is     returned. 
+
+#### Step 2: Finding the List of Parameters and the Name of the Generic Inquiry 
+
+ In Generic Inquiry Access Through OData: To Sign In to Acumatica ERP and Retrieve the Metadata , you have received the list of fields and parameters in exposed generic inquiries. Now you need to search this list to find the name of the generic inquiry with parameters and the list of parameters. Do the following: 
+
+1. In the list of fields and parameters in exposed generic inquiries, search for _Item Availability Data_. 
+
+2. In the Function element with the _Item Availability Data_ name, notice the _InventoryID_ parameter. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 134 
+
+ Figure: The parameter of the generic inquiry 
+
+3. In the FunctionImport element, notice the name of the generic inquiry that is used in an OData request     with specified parameters. 
+
+ Figure: The name of the generic inquiry with parameters 
 
 #### Step 2: Retrieving the Quantities of Items 
-
- In Generic Inquiry Access Through OData: To Sign In to Acumatica ERP and Retrieve the Metadata , you have received the list of fields and parameters in exposed generic inquiries. For each generic inquiry with parameters, the returned list contains a FunctionImport element, which specifies the name of the exposed generic inquiry that is used in an OData request with specified parameters. The list of parameters is available in the respective Function element. You can see that the Function element with the Item Availability Data name includes the InventoryID parameter. 
 
  To retrieve the quantities of items, do the following: 
 
@@ -4248,29 +4438,31 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
 - HTTP method: GET 
 
-- URL: _[http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/](http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/)_     _ItemAvailabilityData_WithParameters(InventoryID='AALEGO500')_ 
+- URL: _[http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/](http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/)_     _ItemAvailabilityData_WithParameters(InventoryID='AALEGO500')_     In this URL: 
+
+- You’ve appended generic inquiry name, which is _ItemAvailabilityData_WithParameters_ , to the base     URL of the generic inquiry–based OData interface of the _MyStore_ tenant in the _MyStoreInstance_     instance. 
+
+- You’ve also specified the value of the _InventoryID_ parameter of the generic inquiry. 
 
 2. Send the request. If the request is successful, the response contains the 200 OK status code. The result is     shown in the following code. 
 
- { "odata.metadata": "http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/$metadata#Item %20Availability%20Data", "value": [ { "InventoryID": "AALEGO500 ", "Warehouse": "MAIN ", 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 126 
-
- "Description": "Lego 500 piece set", "QtyOnHand": "1999.000000", "QtyAvailable": "1977.000000", "Subitem": "0" } ] } 
+ { "odata.metadata": "http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/$metadata#Item %20Availability%20Data", "value": [ { "InventoryID": "AALEGO500 ", "Warehouse": "MAIN ", "Description": "Lego 500 piece set", "QtyOnHand": "1999.000000", "QtyAvailable": "1977.000000", "Subitem": "0" } ] } 
 
 3. Save the request. 
 
-### Generic Inquiry Access Through OData: To Filter the Result of a Generic Inquiry 
+### Generic Inquiry Access Through OData: To Filter the Results of a Generic Inquiry 
 
  This activity will walk you through the process of retrieving data with a filter applied to the results of a generic inquiry. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 135 
 
 #### Story 
 
  The business intelligence (BI) application of the MyStore company should display information about the items that are sold in the store. These items are entered and updated on the Stock Items (IN202500) form in Acumatica ERP. Suppose that you already have a list of items with the necessary information, and now you need to retrieve only the changes that have been made to the items during the past day. By retrieving only this data, you can optimize the performance of the application. To display the list of modified items to a user, you will export the list of stock items that satisfy the specified conditions from Acumatica ERP. That is, you will export the stock item records that have the Active status and that were modified within the past day. 
 
- Through the generic inquiry–based OData protocol, you cannot export records directly from a data entry form, such as the Stock Items (IN202500) form. Thus, before the export, you have to configure a generic inquiry that retrieves the needed data from Acumatica ERP. In this activity, you will use the Modified Stock Items (INGI0016) custom generic inquiry, which has been preconfigured for this activity. 
+ Through the generic inquiry–based OData interface, you cannot export records directly from a data entry form, such as the Stock Items (IN202500) form. Thus, before the export, you have to configure a generic inquiry that retrieves the needed data from Acumatica ERP. In this activity, you will use the Modified Stock Items (INGI0016) custom generic inquiry, which has been preconfigured for this activity. 
 
 #### Process Overview 
 
@@ -4288,14 +4480,6 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
 4. If you have created a Postman collection with the basic authentication configured, add a new request to the     collection and configure the request to inherit the authorization type from the parent collection. 
 
- Before you send the request in this activity, you need to sign in to Acumatica ERP, as described in Generic Inquiry Access Through OData: To Sign In to Acumatica ERP and Retrieve the Metadata. If you have created a Postman 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 127 
-
- collection with the basic authorization configured, add a new request to the collection and configure the request to inherit the authorization type from the parent collection. 
-
 #### Step 1: Modifying Records 
 
  In this step, you will modify stock items so that you have at least one stock item record modified within the past day. 
@@ -4310,47 +4494,49 @@ The following code fragment shows a list of the exposed inquiries; the list has 
 
  Now you have at least two inventory items that have been modified within the past month, and one of them has Active status. 
 
- The system tracks the last modified date for every record, but this date is not displayed on the Stock Items form. In the system, a preconfigured generic inquiry shows the dates when stock items were last modified. To view this generic inquiry, on the Generic Inquiry (SM208000) form, you can select the inquiry with the title Stock Items: Last Modified Date , and click View Inquiry on the form toolbar. 
+ The system tracks the last modified date for every record, but this date is not displayed on the Stock Items form. In the system, a preconfigured generic inquiry shows the dates when stock items were last modified. To view this 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 136 
+
+ generic inquiry, on the Generic Inquiry (SM208000) form, you can select the inquiry with the title Stock Items: Last Modified Date , and click View Inquiry on the form toolbar. 
 
 #### Step 2: Reviewing the Generic Inquiry 
 
- For a stock item record entered and maintained on the Stock Items (IN202500) form, you need to export the following values, whose locations on the form are noted: 
+ For a stock item record entered and maintained on the Stock Items (IN202500) form, you need to export the following values: 
 
-- The inventory ID (in the Summary area) 
+- The inventory ID 
 
-- The description of the item (in the Summary area) 
+- The description of the item 
 
-- The item class assigned to the item in Acumatica ERP (in the **Item Defaults** section of the **General** tab) 
+- The item class assigned to the item in Acumatica ERP 
 
-- The base unit of measure (in the **Unit of Measure** section of the **General** tab) 
+- The base unit of measure 
 
 - The date and time the record was last modified (for which there are no corresponding elements on the     form) 
 
-- The following information about the availability of the item in particular warehouses (the **Warehouse**     **Details** tab): 
+- The following information about the availability of the item in particular warehouses: 
 
-- The warehouse ID (the **Warehouse** column) 
+- The warehouse ID 
 
-- The quantity of the item available in the warehouse (the **Qty. On Hand** column) The elements that are available on the form are shown in the following screenshots. 
+- The quantity of the item available in the warehouse The elements that are available on the form are shown in the following screenshots. 
+
+ Figure: Elements in the Summary area and the General tab whose values will be exported 
+
+ Figure: Elements on the Warehouses tab whose values will be exported 
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 128 
+ Managing Generic Inquiries | 137 
 
-**_Figure: Elements in the Summary area and the General tab whose values will be exported_** 
-
-**_Figure: Elements on the Warehouses tab whose values will be exported_** 
-
-The Modified Stock Items (INGI0016) custom generic inquiry, which you will use for this activity, has no parameters and is based on the _PX.Objects.IN.INSiteStatus_ and _PX.Objects.IN.InventoryItem_ data access classes. To review this generic inquiry and make sure it includes the needed elements, do the following: 
+ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use for this activity, has no parameters and is based on the PX.Objects.IN.INSiteStatus and PX.Objects.IN.InventoryItem data access classes. To review this generic inquiry and make sure it includes the needed elements, do the following: 
 
 1. In the Summary area of the _Generic Inquiry_ (SM208000) form, select the inquiry with the _Modified Stock Items_     title. 
 
-2. In the Summary area, make sure that the **Expose via OData** check box is selected. This means that the     generic inquiry results are available through OData. 
+2. On the **Interface Options** tab, make sure that the **Expose via OData** check box is selected. This means that     the generic inquiry results are available through OData. 
 
 3. On the form toolbar, click **View Inquiry** to review the resulting generic inquiry form. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 129 
 
 #### Step 3: Finding Out the Field Names for the Filter 
 
@@ -4358,7 +4544,7 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 
  Figure: Fields of the generic inquiry 
 
- You will use these field names to configure a filter for the results of the generic inquiry through the OData protocol. 
+ You will use these field names to configure a filter for the results of the generic inquiry through the OData interface. 
 
 #### Step 4: Retrieving the List of Modified Stock Items 
 
@@ -4372,19 +4558,19 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 
 - URL: _[http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/Modified](http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/Modified) Stock Items_ 
 
-- Parameters: _?$filter=ItemStatus eq 'Active' and LastModifiedOn gt 2024-11-14_     Specify the current date instead of 2024-11-14. 
+- Parameters: _?$filter=ItemStatus eq 'Active' and LastModifiedOn gt 2025-10-14_     Specify the current date instead of 2025-10-14. 
 
  If you use the Postman collection that is provided with this course, the pre-request script specifies today's date in the request. 
 
 2. Send the request. The response of the successful request contains the 200 OK status code. The following     code shows an example of the response body. 
 
- { "odata.metadata": "http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/$metadata#Modified %20Stock%20Items", "value": [ { "InventoryID": "AALEGO500 ", "Warehouse": "MAIN ", "Description": "Lego, 500 piece set", "ItemStatus": "Active", "LastModifiedOn": "2024-11-14T06:13:09.57", "ItemClass": "STOCKITEM ", 
+ { "odata.metadata": 
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 130 
+ Managing Generic Inquiries | 138 
 
- "BaseUnit": "PIECE", "QtyOnHand": "1999.000000", "InventoryID_2": "AALEGO500 ", "Subitem": "0" } ] } 
+ "http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/$metadata#Modified %20Stock%20Items", "value": [ { "InventoryID": "AALEGO500 ", "Warehouse": "MAIN ", "Description": "Lego, 500 piece set", "ItemStatus": "Active", "LastModifiedOn": "2025-10-14T06:13:09.57", "ItemClass": "STOCKITEM ", "BaseUnit": "PIECE", "QtyOnHand": "1999.000000", "InventoryID_2": "AALEGO500 ", "Subitem": "0" } ] } 
 
 3. Save the request. 
 
@@ -4408,15 +4594,15 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 
  You may find the information in this chapter useful when you are responsible for administering user access to Acumatica ERP in your company. You need to manage access rights to different generic inquiries that your colleagues may need to do their jobs as efficiently as possible. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 139 
+
 #### Access Rights to Inquiry Forms 
 
  You set up access rights to a generic inquiry during the publication process. You click the Publish to the UI command on the toolbar of the Generic Inquiry (SM208000) form—the system opens the Publish to the UI dialog box. 
 
  In the Access Rights section of the dialog box, you select one of the following option buttons to indicate which access rights should be specified for the inquiry: 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 131 
 
 - **Set to Granted for All Roles** : The system will set the access rights for this form to _Granted_ for all user roles in     the system. 
 
@@ -4438,17 +4624,19 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 
  In this activity, you will learn how to specify access rights to a generic inquiry that has been created on the Access Rights by Screen (SM201020) form. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that you are a system administrator who manages user access to Acumatica ERP in your company. A financial supervisor of your company has requested that you allow users who are working with the SweetLife Store branch to view information on the Expected Receipts (GI000081) inquiry form, which is the predefined generic inquiry form with the DB-ARexpectedReceipts inquiry title and the Expected Receipts site map title specified on the Generic Inquiry (SM208000) form. 
-
- For the DB-ARexpectedReceipts generic inquiry, you have reviewed the inquiry settings on the Entry Point tab of the Generic Inquiry form and made sure that the inquiry is not configured as a substitute form for an entry form. This means that you need to specify the level of access rights directly for the form because the inquiry form does not inherit access rights from an entry form. 
+ Suppose that you are a system administrator who manages user access to Acumatica ERP in your company. A financial supervisor of your company has requested that you allow users who are working with the SweetLife Store 
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 132 
+ Managing Generic Inquiries | 140 
+
+ branch to view information on the Expected Receipts (GI000081) inquiry form, which is the predefined generic inquiry form with the DB-ARexpectedReceipts inquiry title and the Expected Receipts site map title specified on the Generic Inquiry (SM208000) form. 
+
+ For the DB-ARexpectedReceipts generic inquiry, you have reviewed the inquiry settings on the Entry Point tab of the Generic Inquiry form and made sure that the inquiry is not configured as a substitute form for an entry form. This means that you need to specify the level of access rights directly for the form because the inquiry form does not inherit access rights from an entry form. 
 
  You have reviewed the roles that are assigned to the employees of the branch and determined that to give these employees the ability to view information on the form, you need to assign the View Only level of access rights to the Branch Retail role. 
 
@@ -4488,13 +4676,13 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 
 3. On the main menu, click the **Data Views** menu item. In the corresponding workspace, which opens, click     _Expected Receipts_ in the **Inquiries** category. Make sure the form is displayed. 
 
-4. Make sure that in the top right of the form title bar, the **Customization** menu is not displayed, which means     that the user cannot modify the inquiry. 
-
-5. In the right corner of the top pane on the Acumatica ERP screen, click the User menu button, and in the     menu that opens, select **Sign Out**. 
+4. Make sure that the **Edit Generic Inquiry** menu item is not displayed in the **Settings** menu in the top right of     the form title bar, which means that the user cannot modify the inquiry. 
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 133 
+ Managing Generic Inquiries | 141 
+
+5. In the right corner of the top pane on the Acumatica ERP screen, click the User menu button, and in the     menu that opens, select **Sign Out**. 
 
 ### Access Rights to Generic Inquiries: To Configure Access Rights to the Export to Excel 
 
@@ -4514,7 +4702,7 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 134 
+ Managing Generic Inquiries | 142 
 
 ### Generic Inquiries in a Customization Project: General Information 
 
@@ -4554,7 +4742,7 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 135 
+ Managing Generic Inquiries | 143 
 
 #### Process Overview 
 
@@ -4600,7 +4788,7 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 136 
+ Managing Generic Inquiries | 144 
 
  Figure: Selecting the generic inquiries 
 
@@ -4614,7 +4802,7 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 
 2. On the page toolbar, click **Add New Record**. 
 
-3. In the **Add Access Rights for Screen** dialog box, select the Customer Contacts (ARGI0015) generic inquiry in     the **Screen Name** box, leave the merge rule unchanged, and click **Add**. 
+3. In the **Add Access Rights for Screen** dialog box, select the Customer Contacts (ARGI0015) generic inquiry in     the **Screen Name** box and click **Add**. 
 
 4. Repeat the previous two instructions for the Item Availability Data (INGI0002) and Modified Stock Items     (INGI0016) generic inquiries. 
 
@@ -4634,7 +4822,7 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 137 
+ Managing Generic Inquiries | 145 
 
 #### The Contents of the GITables.xml File 
 
@@ -4664,7 +4852,7 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 138 
+ Managing Generic Inquiries | 146 
 
  </Allowed> </GITables> 
 
@@ -4706,7 +4894,7 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 139 
+ Managing Generic Inquiries | 147 
 
  demand or by schedule on a daily, weekly, or monthly basis. The anomalies that the system finds can then be used in business events and shown on dashboards. 
 
@@ -4721,6 +4909,14 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 - Costs in Purchase Orders (PO3010ML): On this generic inquiry form, purchasing managers and supply chain     managers can view the cost information of items included in purchase orders.     By running anomaly detection, these managers can detect unexpected purchase variations early. They can     also analyze the costs of abnormal purchases, identify cost inefficiencies, prevent excessive spending, and     negotiate better terms with suppliers. 
 
 - Costs in AP Documents (AP3010ML): This generic inquiry form shows the cost information of inventory items     included in accounts payable documents.     Accountants, purchasing managers, and supply chain managers can use this form to detect anomalies in     these documents. They can also analyze the abnormal costs, identify inconsistencies in billing, detect and     correct billing errors, and monitor spending. 
+
+- Production Total Variance (AM0018ML): This generic inquiry provides a complete picture of cost variances     per production order, so you can review exceptions before period-end and correct discrepancies quickly. 
+
+- Production Labor Variance (AM0024ML): This generic inquiry lets you identify discrepancies in labor time     and cost to catch inaccurate reporting or outdated BOM estimates. 
+
+- Production Material Variance (AM0025ML): This generic inquiry helps you analyze material cost deviations     between planned and actual values for WIP and completed production orders—broken down by operation. 
+
+- Production Employee Efficiency (AM0030ML): This generic inquiry gives you the ability to compare actual     performance across employees doing the same operations, enabling fair evaluation and targeted coaching     without over-adjusting BOM labor times. 
 
 #### Setup of Anomaly Detection 
 
@@ -4740,6 +4936,10 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 
 7. Optional: The configuration of a business event that the system triggers when it detects anomalies. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 148 
+
 #### Anomaly Detection Settings 
 
  You specify the following anomaly detection settings for a generic inquiry on the Anomaly Detection tab of the Generic Inquiry (SM208000) form: 
@@ -4747,10 +4947,6 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 - The data field whose values will be analyzed.     In the **Field for Analysis** box (see Item 1 in the screenshot below), you can select any data field that is     specified on the **Results Grid** tab of the _Generic Inquiry_ form and has a numeric value. 
 
 - The date field whose values provide the data points on the timeline.     In the **Date Field for Timeline** box (Item 2), you can select only a data field that is specified on the **Results**     **Grid** tab of the _Generic Inquiry_ form and contains date or date and time values. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 140 
 
 - The **Skip Empty Groups** check box in the **Grouping** section (Item 3) indicating whether groups with empty     key values should be skipped.     Suppose that you select the _Inventory ID_ and _Order Type_ fields—which correspond to the **Inventory ID**     and **Order Type** boxes on the _Sales Orders_ (SO301000) form—for grouping in the table. If the **Skip Empty**     **Groups** check box is selected and **Inventory ID** is empty for a certain record, this record will be skipped, or     the model will treat all records with the same **Order Type** and empty **Inventory ID** as one group. 
 
@@ -4760,17 +4956,19 @@ The Modified Stock Items (INGI0016) custom generic inquiry, which you will use f
 
  Figure: The anomaly detection settings 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 149 
+
+ If you change the values in the Field for Analysis box, Date Field for Timeline box, or in the Data Field table aer anomaly detection has run, the system deletes all previous calculation results for the generic inquiry. 
+
 #### Start of Anomaly Detection 
 
  Aer you have specified the anomaly detection settings, you start the anomaly detection process on the Detect Anomalies in Generic Inquiries (ML502000) form (see the following screenshot). You open this form by clicking Detect Anomalies on the form toolbar of the Generic Inquiry (SM208000) form or on the form toolbar of the appropriate generic inquiry form. (You can also open the form directly from search results or a workspace.) 
 
+ Figure: The Detect Anomalies in Generic Inquiries (ML502000) form 
 
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 141 
-
-**_Figure: The Detect Anomalies in Generic Inquiries (ML502000) form_** 
-
-To start the anomaly detection process manually, you perform the following general steps on this form: 
+ To start the anomaly detection process manually, you perform the following general steps on this form: 
 
 1. You select the needed generic inquiry or inquiries in the top table (by selecting the Included check box for     each inquiry to be processed) and click **Process** on the form toolbar.     The system uploads the data to the server. 
 
@@ -4778,21 +4976,21 @@ To start the anomaly detection process manually, you perform the following gener
 
 3. Aer the status becomes _Ready to Download_ for each processed inquiry, you select the needed generic     inquiries and click **Process** on the form toolbar again to download the calculation results into the system.     If the process is successful, the final status of anomaly calculation is _Completed_ for each processed inquiry. 
 
-You can click the **Process** button only if _On Demand_ is selected in the **Update Frequency** box on the _Generic Inquiry_ form for all generic inquiries selected for processing. The system starts the processing immediately in this case. If any other value is selected in this box for any included generic inquiry, the system displays a warning and starts the processing at the scheduled time. 
+ You can click the Process button only if On Demand is selected in the Update Frequency box on the Generic Inquiry form for all generic inquiries selected for processing. The system starts the processing immediately in this case. If any other value is selected in this box for any included generic inquiry, the system displays a warning and starts the processing at the scheduled time. 
 
-You use the bottom table on the _Detect Anomalies in Generic Inquiries_ form to view the processing status of the generic inquiry selected in the top table. (You select the needed generic inquiry by clicking it.) During manual processing, you can also use the bottom table to initiate the next processing step for this generic inquiry by clicking **Execute Next Step** on the table toolbar. The bottom table displays only one row during manual processing. (If you have not yet run the process for this generic inquiry, the table is empty.) 
+ You use the bottom table on the Detect Anomalies in Generic Inquiries form to view the processing status of the generic inquiry selected in the top table. (You select the needed generic inquiry by clicking it.) During manual processing, you can also use the bottom table to initiate the next processing step for this generic inquiry by clicking Execute Next Step on the table toolbar. The bottom table displays only one row during manual processing. (If you have not yet run the process for this generic inquiry, the table is empty.) 
 
-Aer you perform the steps listed above for the first time, the following columns appear on the processed inquiry form: 
+ Aer you perform the steps listed above for the first time, the following columns appear on the processed inquiry form: 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 150 
 
 - **Anomaly Severity** : An indicator of the difference between the expected value and the real value: _Normal_ ,     _Medium_ , or _Significant_.     The system highlights the rows with records with the _Medium_ and _Significant_ anomaly severity, as well as     the rows that have not been processed, as shown in the screenshot below. 
 
  Results with the Medium anomaly severity can falsely indicate possible anomalies. We recommend that you use these results when it is important to detect even small deviations. 
 
 - **Expected Value** : The value in the data field that you have selected as the field for analysis on the _Generic_     _Inquiry_ form. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 142 
 
 - **Reviewed** : A check box that a supply chain manager selects to indicate to the system that the current row     has been reviewed or verified and should be excluded from subsequent analysis.     You can configure a shared filter to display only records that have not been reviewed (that is, records with     this check box cleared). If a manager has selected the check box for any row, the system will not display it. 
 
@@ -4806,15 +5004,17 @@ Aer you perform the steps listed above for the first time, the following colu
 
  You should not use the Schedule > Add button on the form toolbar of the Detect Anomalies in Generic Inquiries (ML502000) form for schedule configuration. 
 
- If you have run the process at least once during a certain day, the system will not start the next calculation for at least the next 24 hours (even if the Daily update frequency is specified). Suppose that you have specified the Daily frequency and then changed this setting to On Demand. Further suppose that you started the calculation on Wednesday and then changed the update frequency back to Daily. The system will run the next daily schedule at 12 AM on Friday. 
+ If you have run the process at least once during a certain day, the system will not start the next calculation for at least the next 24 hours (even if the Daily update frequency is specified). Suppose that you have specified the Daily frequency and then changed this setting to On Demand. Further suppose that you started the calculation on 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 151 
+
+ Wednesday and then changed the update frequency back to Daily. The system will run the next daily schedule at 12 AM on Friday. 
 
  The schedule runs according to the time zone specified on the Site Preferences (SM200505) form. 
 
  You can reset the status of the processed records and remove all temporary data related to the anomaly calculation by clicking Reset Data on the form toolbar of the Detect Anomalies in Generic Inquiries (ML502000) form. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 143 
 
 #### Use of Anomaly Detection in Dashboards 
 
@@ -4844,21 +5044,21 @@ Aer you perform the steps listed above for the first time, the following colu
 
  The following activity will walk you through the process of configuring the process that detects anomalies in generic inquiries. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that you are a technical specialist who is working on configuring generic inquiries. Further suppose that a purchase manager in your company monitors the cost information of inventory items included in accounts payable documents. This purchase manager has requested the sending of notifications when the cost of an item in a particular AP document is too high or too low for a particular vendor, depending on the average value of the item for this vendor. Acting as a system administrator, you need to do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 152 
 
 1. Configure the anomaly detection process for the generic inquiry that lists the cost information of inventory     items 
 
 2. Configure a business event that the system will trigger when any anomalies are detected 
 
 3. Create a widget that displays the number of new anomalies and add this widget to a dashboard 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 144 
 
 #### Configuration Overview 
 
@@ -4900,15 +5100,15 @@ Aer you perform the steps listed above for the first time, the following colu
 
 6. On the form toolbar, click **Save**. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 153 
+
 #### Step 2: Starting the Anomaly Detection Process 
 
  While your are still working on the Generic Inquiry (SM208000) form with the Costs in AP Documents (AP3010ML) generic inquiry selected, do the following: 
 
 1. On the form toolbar, click **Detect Anomalies**.     The _Detect Anomalies in Generic Inquiries_ (ML502000) form opens. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 145 
 
 2. In the table with generic inquiries (the top table), select the unlabeled check box in the only row, which     contains the _AP-ML-Costs in AP Documents_ generic inquiry. 
 
@@ -4948,6 +5148,12 @@ Aer you perform the steps listed above for the first time, the following colu
 
  Anomaly Severity Equals Medium ) And 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 154 
+
+ Brackets Property Condition Value Brackets Operator 
+
  ( Reviewed Equals Cleared Or 
 
  Reviewed IsEmpty Cleared ) 
@@ -4955,10 +5161,6 @@ Aer you perform the steps listed above for the first time, the following colu
 4. In the **Filter Settings** dialog box, click **Save**. 
 
 5. In the dialog box that opens, enter Significant and Medium Anomalies as the filter name and     click **OK**. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 146 
 
 6. In the **Filter Settings** dialog box, to which you return, select the **Shared** check box and click **Apply**.     The **Significant and Medium Anomalies** tab appears on the generic inquiry form. This tab lists the records     with only _Medium_ or _Significant_ in the **Anomaly Severity** column. Notice that the system highlights these     records in red. 
 
@@ -4994,6 +5196,10 @@ Aer you perform the steps listed above for the first time, the following colu
 
 4. In the **Widget Properties** dialog box, which opens, specify the following settings: 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 155 
+
 - **Inquiry Screen** : _Costs in AP Documents_ 
 
 - **Shared Filter to Apply** : _Significant and Medium Anomalies_ 
@@ -5005,10 +5211,6 @@ Aer you perform the steps listed above for the first time, the following colu
 - **Caption** : Anomalies in AP Documents 
 
 5. Click **Finish** , which saves your changes, closes the dialog box, and adds the widget.     The following screenshot shows the _Purchasing Manager (PO3015DB)_ dashboard with the added widget. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 147 
 
  Figure: The widget with the number of detected anomalies 
 
@@ -5042,6 +5244,16 @@ Aer you perform the steps listed above for the first time, the following colu
 
  Or 
 
+
+<!-- PAGE_BREAK -->
+ Managing Generic Inquiries | 156 
+
+ Brackets Table Name 
+
+ Field Name Condition From Schema 
+
+ Value 1 Brackets Operator 
+
  GIMLResult Anomaly Severity (anomalyClass) 
 
  Equals Selected Medium ) And 
@@ -5059,10 +5271,6 @@ Aer you perform the steps listed above for the first time, the following colu
  Is Empty Selected ) 
 
 3. On the **Subscribers** tab, click **Create Subscriber > Email Notification**. 
-
-
-<!-- PAGE_BREAK -->
- Managing Generic Inquiries | 148 
 
 4. On the _Email Templates_ (SM204003) form, which opens, specify the following settings: 
 
@@ -5084,7 +5292,7 @@ Aer you perform the steps listed above for the first time, the following colu
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 149 
+ Managing Generic Inquiries | 157 
 
  Figure: The subscriber of the business event 
 
@@ -5108,13 +5316,13 @@ Aer you perform the steps listed above for the first time, the following colu
 
 
 <!-- PAGE_BREAK -->
- Managing Generic Inquiries | 150 
+ Managing Generic Inquiries | 158 
 
 **_Figure: An email with the results of anomaly detection_** 
 
 
 <!-- PAGE_BREAK -->
- Accessing DACs Through OData | 151 
+ Accessing DACs Through OData | 159 
 
 ## Accessing DACs Through OData 
 
@@ -5146,7 +5354,7 @@ Aer you perform the steps listed above for the first time, the following colu
 
 #### Access to DAC Records Through an OData Client 
 
- By exposing data from Acumatica ERP—in this case, records from DACs—through the OData interface, you can give users the ability to view your company’s data and perform detailed financial analysis by using third-party OData clients, such as Microso Excel and Microso Power BI. 
+ You can expose data from Acumatica ERP—in this case, records from DACs—through the OData interface. With this data, users can perform detailed financial analysis by using third-party OData clients, such as Microso Excel and Microso Power BI. 
 
  The DAC-based OData interface uses the basic authentication in Acumatica ERP. That is, you need to sign in with a username and password to Acumatica ERP before you request the data through the OData protocol. To connect to your data, you specify the URL of the DAC-based OData endpoint of your Acumatica ERP instance to the OData client and authenticate yourself by entering your Acumatica ERP credentials. The OData client then connects to your Acumatica ERP instance and obtains the data for you. 
 
@@ -5154,7 +5362,7 @@ Aer you perform the steps listed above for the first time, the following colu
 
 
 <!-- PAGE_BREAK -->
- Accessing DACs Through OData | 152 
+ Accessing DACs Through OData | 160 
 
  When the system calculates the number of signed-in users, it treats the basic authentication used for OData as a sign-in of a conventional user (not an API user). The license restriction for conventional users is shown in the Concurrent Users box on the License tab of the License Monitoring Console (SM604000) form. 
 
@@ -5174,11 +5382,7 @@ Aer you perform the steps listed above for the first time, the following colu
 
 - You want to obtain the list of DACs in this tenant. If you type this sample URL into a browser, you will notice that the browser automatically replaces the space with _%20_. 
 
-
-<!-- PAGE_BREAK -->
- Accessing DACs Through OData | 153 
-
- You can find the login names of tenants on the Tenant List (SM203530) form, as shown in the following screenshot. 
+ You can find the login names of tenants in the Login Name column on the Tenant List (SM203530) form, as shown in the following screenshot. 
 
  Figure: The login names of tenants 
 
@@ -5186,15 +5390,13 @@ Aer you perform the steps listed above for the first time, the following colu
 
  Figure: The User menu with the tenant login name 
 
-The following code fragment shows a list of DACs; the list has been retrieved through the OData interface. 
-
- { "@odata.context": "<Acumatica ERP instance URL>/t/<TenantName>/api/odata/dac/$metadata", "value": [ { "name": "PX_Api_Mobile_Workspaces_MobileSiteMapWorkspaces", "kind": "EntitySet", "url": "PX_Api_Mobile_Workspaces_MobileSiteMapWorkspaces" }, { "name": "PX_Api_SYMapping", "kind": "EntitySet", "url": "PX_Api_SYMapping" }, { "name": "Mapping", "kind": "EntitySet", "url": "Mapping" }, ... ] 
-
 
 <!-- PAGE_BREAK -->
- Accessing DACs Through OData | 154 
+ Accessing DACs Through OData | 161 
 
- } 
+ The following code fragment shows a list of DACs; the list has been retrieved through the OData interface. 
+
+ { "@odata.context": "<Acumatica ERP instance URL>/t/<TenantName>/api/odata/dac/$metadata", "value": [ { "name": "PX_Api_Mobile_Workspaces_MobileSiteMapWorkspaces", "kind": "EntitySet", "url": "PX_Api_Mobile_Workspaces_MobileSiteMapWorkspaces" }, { "name": "PX_Api_SYMapping", "kind": "EntitySet", "url": "PX_Api_SYMapping" }, { "name": "Mapping", "kind": "EntitySet", "url": "Mapping" }, ... ] } 
 
 #### Retrieval of a Tenant’s Full Set of Metadata 
 
@@ -5208,11 +5410,15 @@ The following code fragment shows a list of DACs; the list has been retrieved th
 
 - The fields of the DACs and the fields' types. You can find the list of fields of the DAC in the Property tags     nested in the EntityType tag. 
 
-- The related DACs, which are defined by the NavigationProperty tags nested in the EntityType tag.     The navigation properties contain detail entities in the <detail_entity_type>Collection format     and related entities in the <related_entity_type>By<entity_field> format.     For example, the definition of the PX.Objects.SO.SOOrder DAC has the SOLineCollection     navigation property, which states that the PX.Objects.SO.SOLine DAC is a detail entity. The definition     of the PX.Objects.SO.SOOrder DAC also has the BAccountByCustomerID navigation property,     which links the CustomerID field of the PX.Objects.SO.SOOrder DAC with the BAccountID field of     the PX.Objects.CR.BAccount DAC. You use the DAC names and fields from the metadata to retrieve the data from Acumatica ERP, as described in _DAC- Based OData: Data Retrieval_. 
+- The related DACs, which are defined by the NavigationProperty tags nested in the EntityType tag.     The navigation properties whose name is in the <detail_entity_type>Collection     format refer to detail entities. The navigation properties with the name in the     <related_entity_type>By<entity_field> format refer to related entities.     For example, the definition of the PX.Objects.SO.SOOrder DAC has the SOLineCollection     navigation property, which states that the PX.Objects.SO.SOLine DAC is a detail entity. The definition     of the PX.Objects.SO.SOOrder DAC also has the BAccountByCustomerID navigation property,     which links the CustomerID field of the PX.Objects.SO.SOOrder DAC with the BAccountID field of     the PX.Objects.CR.BAccount DAC. You use the DAC names and fields from the metadata to retrieve the data from Acumatica ERP, as described in _DAC- Based OData: Data Retrieval_. 
 
 #### Support of the OData Specification 
 
  The OData protocol provided by Acumatica ERP for the retrieval of data access classes (DACs) does not support aggregation functions. These functions are defined in the OData Version 4.0 standard extension (see OData Extension for Data Aggregation Version 4.0 ). 
+
+
+<!-- PAGE_BREAK -->
+ Accessing DACs Through OData | 162 
 
 #### Configuration of CORS 
 
@@ -5225,10 +5431,6 @@ The following code fragment shows a list of DACs; the list has been retrieved th
  By default, CORS is enabled, all origins are allowed access to the server, and all supported headers are exposed and available for use. The web server of the application supports simple headers as well as the following headers: DataServiceVersion, MaxDataServiceVersion, OData-Version, and OData-MaxVersion. You need to use these four headers to access OData endpoints. 
 
  You can enforce limitations on cross-origin requests by changing the settings in the Web.config file. You can add your own headers as well. For details, see Generic Inquiry Access Through OData: To Configure CORS. 
-
-
-<!-- PAGE_BREAK -->
- Accessing DACs Through OData | 155 
 
 ### DAC-Based OData: Data Retrieval 
 
@@ -5254,6 +5456,10 @@ The following code fragment shows a list of DACs; the list has been retrieved th
 
  The following sample request retrieves the sales order for which the OrderType field is set to SO and the OrderNbr field is set to 000058. 
 
+
+<!-- PAGE_BREAK -->
+ Accessing DACs Through OData | 163 
+
  GET https://localhost/AcumaticaERP/t/U100/api/odata/dac/ SOOrder(OrderType='SO',OrderNbr='000058') 
 
 #### Specifying a Filter 
@@ -5269,10 +5475,6 @@ The following code fragment shows a list of DACs; the list has been retrieved th
  You can obtain records along with related data, such as detail records or other linked records. For example, consider a sales order record: Each sales order record may have one or more detail records, which contain data about the inventory items included in the sales order. A sales order record also includes the identifier of the customer, which can be used to retrieve the linked customer record. Therefore, along with a sales order record, you can retrieve detail records and the linked customer record. 
 
  You can obtain the records, along with their detail records, in a single query by using the $expand parameter and the needed navigation property. 
-
-
-<!-- PAGE_BREAK -->
- Accessing DACs Through OData | 156 
 
  The following sample request retrieves sales orders along with their detail information. 
 
@@ -5298,6 +5500,10 @@ The following code fragment shows a list of DACs; the list has been retrieved th
 
 - Aer the property, in parentheses, the DAC fields as the values of the _$select_ parameter 
 
+
+<!-- PAGE_BREAK -->
+ Accessing DACs Through OData | 164 
+
  By default, the maximum depth of expansion of the detail DACs in the $expand parameter is 3. You can change this value by specifying the value of the maxExpansionDepth attribute of the odata tag, which is available inside the px.core tag in the Web.config file of your Acumatica ERP instance. 
 
  The following sample URL retrieves customers along with their default addresses. 
@@ -5313,10 +5519,6 @@ The following code fragment shows a list of DACs; the list has been retrieved th
  If the $orderby parameter is not specified for retrieving batches of records, the system sorts the records by the key fields in ascending order. 
 
  The following example retrieves a batch of warehouse detail records. It indicates that the records should be ordered by inventory ID in ascending order. The system will retrieve the top 500 records, excluding the first 50. 
-
-
-<!-- PAGE_BREAK -->
- Accessing DACs Through OData | 157 
 
  GET https://localhost/AcumaticaERP/t/U100/api/odata/dac/PX_Objects_IN_INSiteStatus? $skip=50& $top=500& $orderby=InventoryID 
 
@@ -5334,7 +5536,13 @@ The following code fragment shows a list of DACs; the list has been retrieved th
 
  The use of the following request has the same effect. 
 
- GET /AcumaticaERP/t/U100/api/odata/dac/PX_Objects_IN_InventoryItem? $filter=InventoryCD eq 'AACOMPUT01' HTTP/1.1 Host: localhost Accept-Language: fr-FR 
+ GET /AcumaticaERP/t/U100/api/odata/dac/PX_Objects_IN_InventoryItem? $filter=InventoryCD eq 'AACOMPUT01' HTTP/1.1 Host: localhost 
+
+
+<!-- PAGE_BREAK -->
+ Accessing DACs Through OData | 165 
+
+ Accept-Language: fr-FR 
 
 #### Retrieving Archived Records 
 
@@ -5349,10 +5557,6 @@ The following code fragment shows a list of DACs; the list has been retrieved th
  The removed records are stored in the database if the corresponding database table has the DeletedDatabaseRecord column. For details about this mechanism, see Preservation of Deleted Records (DeletedDatabaseRecord). By default, the removed records are not returned if you request data through the DACbased OData interface. 
 
  To retrieve the removed records, you need to specify the PX-ApiDeleted HTTP header with the SHOW value in the request. 
-
-
-<!-- PAGE_BREAK -->
- Accessing DACs Through OData | 158 
 
  For example, the following request retrieves both removed customer records and customer records that have not been removed. 
 
@@ -5370,6 +5574,10 @@ The following code fragment shows a list of DACs; the list has been retrieved th
 
 2. To obtain the list of removed records of a particular DAC, you use the px.GetDeletedRecords()     function in the request URL.     You can also filter the records by the date of removal by using the DeleteDate field in the _$filter_     parameter. 
 
+
+<!-- PAGE_BREAK -->
+ Accessing DACs Through OData | 166 
+
  A user can obtain the list of removed records of a DAC by using an OData request if the user has access to this DAC through DAC-based OData. 
 
 3. Optional: To include this list of DACs in a customization project, you use the _Tables to Track Deleted Records_     page of the Customization Project Editor. You need to list the DACs on the _Tables to Track Deleted Records_     (SM207010) form first in order they are available for selection on the page. 
@@ -5383,10 +5591,6 @@ The following code fragment shows a list of DACs; the list has been retrieved th
  In a customization project, you can add custom fields to Acumatica ERP forms. You can also add user-defined fields to Acumatica ERP forms and include them in a customization project. (For details about user-defined fields, see User-Defined Fields .) 
 
  To retrieve custom and user-defined fields through the DAC-based OData interface, you do not need to perform special actions. You address custom and user-defined fields by their names. 
-
-
-<!-- PAGE_BREAK -->
- Accessing DACs Through OData | 159 
 
 ### DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata 
 
@@ -5408,6 +5612,10 @@ The following code fragment shows a list of DACs; the list has been retrieved th
 
 2. Make sure the Postman application is installed on your computer. To download and install Postman, follow     the instructions on _https://www.postman.com/downloads/_. 
 
+
+<!-- PAGE_BREAK -->
+ Accessing DACs Through OData | 167 
+
 #### Step 1: Signing In to Acumatica ERP 
 
  For sign-in in Acumatica ERP, you will use basic authorization. To configure basic authorization in Postman, do the following: 
@@ -5418,7 +5626,7 @@ The following code fragment shows a list of DACs; the list has been retrieved th
 
  Instead of creating a new collection, you can use the same Postman collection that is used in Generic Inquiry Access Through OData: To Sign In to Acumatica ERP and Retrieve the Metadata. 
 
-2. On the **Authorization** tab, specify its authorization settings as follows:     a. In the **Type** box, select the _Basic Auth_ type.     b. In the **Username** and **Password** boxes, type the credentials that you are using to access the Acumatica        ERP instance. 
+2. On the **Auth** tab of the collection, specify its authorization settings as follows:     a. In the **Auth Type** box, select the _Basic Auth_ type.     b. In the **Username** and **Password** boxes, type the credentials that you are using to access the Acumatica        ERP instance for the training course. 
 
 3. Click **Save**. 
 
@@ -5426,23 +5634,33 @@ The following code fragment shows a list of DACs; the list has been retrieved th
 
  To test the sign-in and retrieve the metadata, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Accessing DACs Through OData | 160 
-
 1. In the Postman collection, create a GET request to the following URL. 
 
  http://localhost/MyStoreInstance/t/MyStore/api/odata/dac/$metadata 
 
+ In this request: 
+
+- _[http://localhost/MyStoreInstance](http://localhost/MyStoreInstance)_ is the URL of an Acumatica ERP instance. 
+
+- _MyStore_ is the login name of a tenant in this instance. 
+
+- _[http://localhost/MyStoreInstance/t/MyStore/api/odata/dac](http://localhost/MyStoreInstance/t/MyStore/api/odata/dac)_ is the base URL of the DAC-based OData     interface of this tenant in this instance. 
+
+- You’ve appended _/$metadata_ to this URL to obtain the full metadata. 
+
 2. Send the request. The response of the successful request contains the 200 OK status code. The following     code example shows a fragment of the response body. 
 
- <edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0"> <edmx:DataServices> <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="PX.Api.Mobile.Workspaces"> <EntityType Name="MobileSiteMapWorkspaces"> <Key> <PropertyRef Name="Name"/> </Key> <Property Name="MobileWorkspaceID" Type="Edm.Guid"/> <Property Name="Owner" Type="Edm.String"/> <Property Name="Name" Type="Edm.String"/> <Property Name="DisplayName" Type="Edm.String"/> <Property Name="SortOrder" Type="Edm.Int32" Nullable="false"/> ... <NavigationProperty Name="UsersByCreatedByID" Type="PX.SM.Users"> <ReferentialConstraint Property="CreatedByID" ReferencedProperty="PKID"/> </NavigationProperty> <NavigationProperty Name="UsersByLastModifiedByID" Type="PX.SM.Users"> <ReferentialConstraint Property="LastModifiedByID" ReferencedProperty="PKID"/> </NavigationProperty> </EntityType> </Schema> ... <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="Default"> <EntityContainer Name="Container"> <EntitySet Name="PX_Api_Mobile_Workspaces_MobileSiteMapWorkspaces" EntityType="PX.Api.Mobile.Workspaces.MobileSiteMapWorkspaces"> <NavigationPropertyBinding Path="UsersByCreatedByID" Target="PX_SM_Users"/> <NavigationPropertyBinding Path="UsersByLastModifiedByID" Target="PX_SM_Users"/> </EntitySet> ... <Singleton Name="ApplicationVersion" Type="PX.SM.Version"/> <Singleton Name="Version" Type="PX.SM.Version"/> <Singleton Name="PX_Web_UI_SMPageCache" Type="PX.Web.UI.SMPageCache"/> </EntityContainer> </Schema> </edmx:DataServices> </edmx:Edmx> 
+ Because of the large number of metadata, the request can take a significant amount of time. 
 
-3. Save the request. 
+ <?xml version="1.0" encoding="utf-8"?> <edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx"> <edmx:DataServices> ... <Schema Namespace="PX.Api.Mobile.Workspaces" xmlns="http://docs.oasis-open.org/odata/ns/edm"> <EntityType Name="MobileSiteMapWorkspaces"> <Key> <PropertyRef Name="Name"/> </Key> <Property Name="MobileWorkspaceID" Type="Edm.Guid"/> <Property Name="Owner" Type="Edm.String"/> 
 
 
 <!-- PAGE_BREAK -->
- Accessing DACs Through OData | 161 
+ Accessing DACs Through OData | 168 
+
+ <Property Name="Name" Type="Edm.String"/> <Property Name="DisplayName" Type="Edm.String"/> <Property Name="SortOrder" Type="Edm.Int32" Nullable="false"/> ... <NavigationProperty Name="UsersByCreatedByID" Type="PX.SM.Users"> <ReferentialConstraint Property="CreatedByID" ReferencedProperty="PKID"/> </NavigationProperty> <NavigationProperty Name="UsersByLastModifiedByID" Type="PX.SM.Users"> <ReferentialConstraint Property="LastModifiedByID" ReferencedProperty="PKID"/> </NavigationProperty> </EntityType> </Schema> ... </edmx:DataServices> </edmx:Edmx> 
+
+3. Save the request. 
 
 ### DAC-Based OData: To Retrieve Data by Using the $expand and $select Parameters 
 
@@ -5466,39 +5684,37 @@ The following code fragment shows a list of DACs; the list has been retrieved th
 
 3. Complete the following prerequisite activity: _DAC-Based OData: To Sign In to Acumatica ERP and Retrieve_     _the Metadata_. 
 
-4. If you have created a Postman collection with the basic authentication configured, add a new request to the     collection and configure the request to inherit the authorization type from the parent collection. 
 
- Before you send the request in this activity, you need to sign in to Acumatica ERP, as described in DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata. If you have created a Postman collection with the basic authentication configured, add a new request to the collection and configure the request to inherit the authorization type from the parent collection. 
+<!-- PAGE_BREAK -->
+ Accessing DACs Through OData | 169 
+
+4. If you have created a Postman collection with the basic authentication configured, add a new request to the     collection and configure the request to inherit the authorization type from the parent collection. 
 
 #### Step 1: Researching the Needed Fields 
 
- To provide the list of customers to the BI application, you need to retrieve the following values from Acumatica ERP, which are listed with the corresponding locations on the Customers (AR303000) form: 
+ To provide the list of customers to the BI application, you need to retrieve the following values from Acumatica ERP: 
 
-- Customer ID (the **Customer ID** box of the Summary area) 
+- Customer ID 
 
-- Account name (the **Account Name** box of the **Account Info** section on the **General** tab) 
+- Account name 
 
-- Customer class (the **Customer Class** box of the Summary area) 
+- Customer class 
 
-- Details of the main contact of the customer (the **Additional Account Info** section of the **General** tab): 
+- Details of the main contact of the customer: 
 
-- Email address (the **Account Email** box) 
+- Email address 
 
-- Primary phone number (the **Business 1** box) 
+- Primary phone number 
 
-- Customer address (the **Account Address** section of the **General** tab): 
+- Customer address: 
 
+- City 
 
-<!-- PAGE_BREAK -->
- Accessing DACs Through OData | 162 
+- State 
 
-- City (the **City** box) 
+- Postal code 
 
-- State (the **State** box) 
-
-- Postal code (the **Postal Code** box) 
-
-- Address line (the **Address Line 1** and **Address Line 2** boxes) These elements are shown in the following screenshot. 
+- Address lines The corresponding elements on the _Customers_ (AR303000) form are shown in the following screenshot. 
 
  Figure: Elements on the Customers form 
 
@@ -5512,17 +5728,15 @@ The following code fragment shows a list of DACs; the list has been retrieved th
 
 - The AddressLine1, AddressLine2, City, State, and PostalCode fields of the     PX.Objects.CR.Address DAC 
 
-#### Step 2: Retrieving the List of Customers 
-
- Along with the information from the PX.Objects.AR.Customer DAC, you need to retrieve information from the PX.Objects.CR.Contact and PX.Objects.CR.Address DACs, which are related to the PX.Objects.AR.Customer DAC. The ContactByDefBillContactID navigation property of the Customer entity refers to the contact information contained in the Contact DAC. The AddressByDefAddressID navigation property of the Customer entity refers to the address contained in the 
-
 
 <!-- PAGE_BREAK -->
- Accessing DACs Through OData | 163 
+ Accessing DACs Through OData | 170 
 
-Address DAC. To understand which navigation properties to use, you can review the metadata that you have received in _DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata_. 
+#### Step 2: Retrieving the List of Customers 
 
-To retrieve the list of customers with contacts, do the following: 
+ Along with the information from the PX.Objects.AR.Customer DAC, you need to retrieve information from the PX.Objects.CR.Contact and PX.Objects.CR.Address DACs, which are related to the PX.Objects.AR.Customer DAC. The ContactByDefBillContactID navigation property of the Customer entity refers to the contact information contained in the Contact DAC. The AddressByDefAddressID navigation property of the Customer entity refers to the address contained in the Address DAC. To understand which navigation properties to use, you can review the metadata that you have received in DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata. 
+
+ To retrieve the list of customers with contacts, do the following: 
 
 1. In the Postman collection, add a request with the following settings: 
 
@@ -5540,13 +5754,15 @@ _$expand_ (^) ContactByDefBillContactID($select=Email,Phone1), AddressByDefAddre
 
 2. Send the request. If the request is successful, its response contains the 200 OK status code. The following     code example shows a fragment of the response body. 
 
- { "@odata.context": "http://localhost/MyStoreInstance/t/MyStore/api/odata/dac/$metadata #PX_Objects_AR_Customer( AcctCD,AcctName,CustomerClassID,ContactByDefBillContactID(EMail,Phone1), AddressByDefAddressID(AddressLine1,AddressLine2,City,State,PostalCode))", "value": [ { "AcctCD": "C000000001", "AcctName": "Jersey Central Office Equip", "CustomerClassID": "DEFAULT", "ContactByDefBillContactID": { "EMail": "jersey-equip@mail.con", "Phone1": "+1 (777) 283-0414" }, "AddressByDefAddressID": { "AddressLine1": "1 De Villiers & Harrison St, 11-th Flr.", "AddressLine2": null, "City": "Johannesburg", "State": null, "PostalCode": null } }, ... ] } 
-
-3. Save the request. 
+ { "@odata.context": "http://localhost/MyStoreInstance/t/MyStore/api/odata/dac/$metadata #PX_Objects_AR_Customer( AcctCD,AcctName,CustomerClassID,ContactByDefBillContactID(EMail,Phone1), AddressByDefAddressID(AddressLine1,AddressLine2,City,State,PostalCode))", "value": [ { "AcctCD": "C000000001", "AcctName": "Jersey Central Office Equip", "CustomerClassID": "DEFAULT", "ContactByDefBillContactID": { "EMail": "jersey-equip@mail.con", "Phone1": "+1 (777) 283-0414" }, "AddressByDefAddressID": { "AddressLine1": "1 De Villiers & Harrison St, 11-th Flr.", "AddressLine2": null, "City": "Johannesburg", "State": null, "PostalCode": null } }, ... ] 
 
 
 <!-- PAGE_BREAK -->
- Accessing DACs Through OData | 164 
+ Accessing DACs Through OData | 171 
+
+ } 
+
+3. Save the request. 
 
 ### DAC-Based OData: To Retrieve Data by Using the $expand, $select, and $filter 
 
@@ -5576,8 +5792,6 @@ _$expand_ (^) ContactByDefBillContactID($select=Email,Phone1), AddressByDefAddre
 
 4. If you have created a Postman collection with the basic authentication configured, add a new request to the     collection and configure the request to inherit the authorization type from the parent collection. 
 
- Before you send the request in this activity, you need to sign in to Acumatica ERP, as described in DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata. If you have created a Postman collection with the basic authentication configured, add a new request to the collection and configure the request to inherit the authorization type from the parent collection. 
-
 #### Step 1: Reviewing the Generic Inquiry 
 
  The Item Availability Data (INGI0002) generic inquiry is based on the PX.Objects.IN.INSiteStatus data access class and has one parameter, which you can use to extract the stock item by its inventory ID. To review this generic inquiry and make sure it includes the needed elements, do the following: 
@@ -5588,7 +5802,7 @@ _$expand_ (^) ContactByDefBillContactID($select=Email,Phone1), AddressByDefAddre
 
 
 <!-- PAGE_BREAK -->
- Accessing DACs Through OData | 165 
+ Accessing DACs Through OData | 172 
 
 - On the **Data Sources** tab, the DAC that is used in the generic inquiry 
 
@@ -5624,7 +5838,7 @@ _$expand_ (^) InventoryItemByInventoryID($select=InventoryCD,Descr), INSiteBySit
 
 
 <!-- PAGE_BREAK -->
- Accessing DACs Through OData | 166 
+ Accessing DACs Through OData | 173 
 
 ### DAC-Based OData: To Filter the Requested Data 
 
@@ -5652,8 +5866,6 @@ _$expand_ (^) InventoryItemByInventoryID($select=InventoryCD,Descr), INSiteBySit
 
 4. If you have created a Postman collection with the basic authentication configured, add a new request to the     collection and configure the request to inherit the authorization type from the parent collection. 
 
- Before you send the request in this activity, you need to sign in to Acumatica ERP, as described in DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata. If you have created a Postman collection with the basic authentication configured, add a new request to the collection and configure the request to inherit the authorization type from the parent collection. 
-
 #### Step 1: Modifying Records 
 
  In this step, you will modify stock items so that you have at least one stock item record modified within the past day. 
@@ -5664,11 +5876,11 @@ _$expand_ (^) InventoryItemByInventoryID($select=InventoryCD,Descr), INSiteBySit
 
 1. Open the _KEYBOARD_ inventory item. Change its status to _Inactive_ and save the record. 
 
+2. Open the _AALEGO500_ inventory item. Change its description and notice that it has the _Active_ status; save the     record. 
+
 
 <!-- PAGE_BREAK -->
- Accessing DACs Through OData | 167 
-
-2. Open the _AALEGO500_ inventory item. Change its description and notice that it has the _Active_ status; save the     record. 
+ Accessing DACs Through OData | 174 
 
  Now you have at least two inventory items that have been modified within the past month, and one of them has Active status. 
 
@@ -5676,29 +5888,29 @@ _$expand_ (^) InventoryItemByInventoryID($select=InventoryCD,Descr), INSiteBySit
 
 #### Step 2: Researching the Needed Fields 
 
- For a stock item record entered and maintained on the Stock Items (IN202500) form, you need to export the following values, whose locations on the form are noted: 
+ For a stock item record entered and maintained on the Stock Items (IN202500) form, you need to export the following values: 
 
-- The inventory ID (in the Summary area) 
+- The inventory ID 
 
-- The description of the item (in the Summary area) 
+- The description of the item 
 
-- The item class assigned to the item in Acumatica ERP (in the **Item Defaults** section of the **General** tab) 
+- The item class assigned to the item in Acumatica ERP 
 
-- The base unit of measure (in the **Unit of Measure** section of the **General** tab) 
+- The base unit of measure 
 
 - The date and time the record was last modified (for which there are no corresponding elements on the     form) 
 
-- The following information about the availability of the item in particular warehouses (the **Warehouse**     **Details** tab): 
+- The following information about the availability of the item in particular warehouses: 
 
-- The warehouse ID (the **Warehouse** column) 
+- The warehouse ID 
 
-- The quantity of the item available in the warehouse (the **Qty. On Hand** column) The elements that are available on the form are shown in the following screenshots. 
+- The quantity of the item available in the warehouse The elements that are available on the form are shown in the following screenshots. 
 
  Figure: Elements in the Summary area and the General tab whose values will be exported 
 
 
 <!-- PAGE_BREAK -->
- Accessing DACs Through OData | 168 
+ Accessing DACs Through OData | 175 
 
  Figure: Elements on the Warehouses tab whose values will be exported 
 
@@ -5738,25 +5950,25 @@ _$expand_ (^) INSiteByDfltSiteID($select=SiteCD), INItemClassByItemClassID($sele
 
 
 <!-- PAGE_BREAK -->
- Accessing DACs Through OData | 169 
+ Accessing DACs Through OData | 176 
 
  Parameter Value 
 
-_$filter_ (^) StkItem eq true and ItemStatus eq 'AC' and LastModifiedDateTime eq 2024-12-01 Specify today's date instead of 2024-12-01. If you use the Postman collection that is provided with this course, the pre-request script specifies the today's date in the request. 
+_$filter_ (^) StkItem eq true and ItemStatus eq 'AC' and LastModifiedDateTime eq 2025-12-01 Specify today's date instead of 2025-12-01. If you use the Postman collection that is provided with this course, the pre-request script specifies the today's date in the request. 
 
 2. Send the request. The response of the successful request contains the 200 OK status code. The following     code shows an example of the response body. 
 
- { "@odata.context": "http://localhost/MyStoreInstance/t/MyStore/api/odata/dac/$metadata #PX_Objects_IN_InventoryItem( InventoryCD,Descr,ItemStatus,LastModifiedDateTime,BaseUnit, INSiteByDfltSiteID(SiteCD),INItemClassByItemClassID(ItemClassCD), INSiteStatusCollection(QtyOnHand))", "value": [ { "InventoryCD": "AALEGO500 ", "Descr": "Lego 500 piece set", "ItemStatus": "AC", "LastModifiedDateTime": "2023-12-01T12:34:56+03:00", "BaseUnit": "PIECE", "INSiteByDfltSiteID": { "SiteCD": "MAIN " }, "INItemClassByItemClassID": { "ItemClassCD": "STOCKITEM " }, "INSiteStatusCollection": [ { "QtyOnHand": 1999.000000 } ] } ] } 
+ { "@odata.context": "http://localhost/MyStoreInstance/t/MyStore/api/odata/dac/$metadata #PX_Objects_IN_InventoryItem( InventoryCD,Descr,ItemStatus,LastModifiedDateTime,BaseUnit, INSiteByDfltSiteID(SiteCD),INItemClassByItemClassID(ItemClassCD), INSiteStatusCollection(QtyOnHand))", "value": [ { "InventoryCD": "AALEGO500 ", "Descr": "Lego 500 piece set", "ItemStatus": "AC", "LastModifiedDateTime": "2025-12-01T12:34:56+03:00", "BaseUnit": "PIECE", "INSiteByDfltSiteID": { "SiteCD": "MAIN " }, "INItemClassByItemClassID": { "ItemClassCD": "STOCKITEM " }, "INSiteStatusCollection": [ { "QtyOnHand": 1999.000000 } ] } ] } 
 
 3. Save the request. 
 
 
 <!-- PAGE_BREAK -->
- Managing Advanced Filters | 170 
+ Managing Advanced Filters | 177 
 
 ## Managing Advanced Filters 
 
- In Acumatica ERP, you can create advanced filters for mass processing, inquiry, and generic inquiry forms to filter the data in these forms. Once you create an advanced filter for a particular form, it is shown as a tab on the form, both in the current user session and during future user sessions. You can create advanced filters for your personal use; if you have the appropriate access rights, you can share them with other users. 
+ In Acumatica ERP, you can create advanced filters for mass processing, inquiry, and generic inquiry forms to filter the data in these forms. Once you create an advanced filter for a particular form, it’s listed in the Filter List dropdown menu, both in the current user session and during future sessions. You can create advanced filters for your personal use; if you have the appropriate access rights, you can share them with other users. 
 
  In this part of the guide, you will learn how to create and manage advanced filters. 
 
@@ -5764,7 +5976,7 @@ _$filter_ (^) StkItem eq true and ItemStatus eq 'AC' and LastModifiedDateTime eq
 
  In Acumatica ERP, you can use simple and quick filters to quickly filter the data in the tables of forms based on the values of columns. In addition, you can create advanced filters for any mass processing, inquiry, or generic inquiry form to filter the data in the table shown on the form. (For more information about types of forms, see Record Entry: General Information .) 
 
- Advanced filters are shown as tabs on the form. Once you create an advanced filter for a particular form and save the filter, you can reuse it at any time you open that form in the future. You can create advanced filters for your personal use or share them with other users. 
+ A form’s saved filters are listed in the Filter List drop-down menu. Once you create an advanced filter for a form and save the filter, you can reuse it when you use that form in the future. You can create advanced filters for your personal use or share them with other users. 
 
 #### Learning Objectives 
 
@@ -5786,17 +5998,15 @@ _$filter_ (^) StkItem eq true and ItemStatus eq 'AC' and LastModifiedDateTime eq
 
 #### Personal and Shared Filters 
 
- When you work with a form, you can create advanced filters, which save time spent on filtering data. When you save an advanced filter, the system adds a tab with the filtered data to the form. You can create as many filters as you need for a particular form. All the filters that you create are your personal filters; they are not available to other users in the system. You can modify the conditions of these filters or delete the filters if you do not need them anymore. 
+ When you work with a form, you can create advanced filters, which save time spent on filtering data. When you save an advanced filter, the system adds it to the Filter List drop-down menu. You can create as many filters as you need for a particular form. All the filters that you create are your personal filters; they aren’t available to other users in the system. You can modify the conditions of these filters or delete the filters if you don’t need them anymore. 
 
- If you would like to share your advanced filters with other users, you need to have sufficient access rights to the Filters (CS209010) form. If you do, you can modify filter clauses or delete shared advanced filters, either by selecting the filter on this form or directly on the related form. If you need to change the name of an advanced filter, you can do this only on the Filters form. 
+ If you would like to share your advanced filters with other users, you need to have sufficient access rights to the Filters (CS209010) form. If you do, you can modify filter clauses, rename or delete shared advanced filters, either by selecting the filter on this form or directly on the related form. 
 
- By default, users with the built-in Administrator role have access to this form. These users, generally system administrators or technical specialists that perform customizations, can create advanced filters and share them 
+ By default, users with the built-in Administrator role have access to this form. These users, generally system administrators or technical specialists that perform customizations, can create advanced filters and share them with other users. If an advanced filter is shared, it cannot be modified or deleted by users that do not have sufficient access rights to the Filters form. 
 
 
 <!-- PAGE_BREAK -->
- Managing Advanced Filters | 171 
-
- with other users. If an advanced filter is shared, it cannot be modified or deleted by users that do not have sufficient access rights to the Filters form. 
+ Managing Advanced Filters | 178 
 
  By default, a new filter created on the Filters form is shared. 
 
@@ -5806,39 +6016,47 @@ _$filter_ (^) StkItem eq true and ItemStatus eq 'AC' and LastModifiedDateTime eq
 
  If you have sufficient access rights to the Filters (CS209010) form, you can use this form to create advanced shared filters for processing, inquiry, and generic inquiry forms. 
 
- We recommend, however, that you instead create an advanced filter directly on the form by using the Filter Settings dialog box (for details, see Filter Settings Dialog Box ), in which you can view the results immediately aer applying the filter and modify the filter conditions, if needed. If you have access rights to the Filters form, you can also share the filter by using the Filter Settings dialog box. 
+ We recommend, however, that you instead create an advanced filter directly on the form by opening the Advanced Filter dialog box from the form's filtering area (for details, see Filtering Area ). This way, you can view the results immediately aer applying the filter and modify the filter conditions, if needed. You can also share the filter with other users directly from the form if you have access rights to the Filters form. 
 
  Users with any level of access rights can create both quick and advanced filters. 
 
- To access the dialog box, you click Filter Settings on the table toolbar, as shown in the following screenshot. 
+ To open the Advanced Filter dialog box, do either of the following: 
 
- Figure: Button to access the Filter Settings dialog box 
+- Click the **...** button in the filtering area and then click **Open Advanced Filter** , as shown below. 
 
- By using the dialog box, you can manage your advanced personal filters created for this form, and if you have sufficient access rights, you can also manage advanced shared filters that have been created for this form by other users. 
+ Figure: Creating an advanced filter 
+
+- Click the **Add Quick Filter** button and click **Advanced** in the dialog box that opens, as shown below. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Advanced Filters | 179 
+
+ Figure: Invoking advanced filter 
+
+ By using the Advanced Filter dialog box, you can manage your advanced personal filters created for this form. If you have sufficient access rights, you can also manage advanced shared filters that have been created for this form by other users. 
 
 #### Filter Clauses 
 
- A filter clause is a part of a filter represented by a table row in the table in the Filter Settings dialog box. Any advanced filter consists of either one filter clause or multiple filter clauses. For each clause, you specify the following settings in the table row: 
+ Any advanced filter consists of either one filter clause or multiple filter clauses. For each clause, you specify the following settings: 
 
 - **Property** : The data field of the form that the filter will be applied to. You select a property from the list of     available data fields, including those that are hidden in the table on the form. 
 
 - **Condition** : The logical operation that applies to the value of the selected property. You select a condition     from the list of available conditions. 
 
-- **Value** : A value for the logical condition used to filter the data. Depending on the selected property and     condition, you enter a value (and sometimes a second value as well, depending on the condition). Each     value must conform with the data type of the selected property. Generally, there are a series of fixed values     for the property—for example, the _Completed_ value for the _Status_ property. For date-relative clauses,     you can specify parameters, such as _@WeekStart_ and _@Today_ , as values. The filtering process is not case-     sensitive; that is, the system does not differentiate between uppercase and lowercase letters in values.     A value is not used for the _Is Empty_ and _Is Not Empty_ conditions. 
+- **Value** : A value for the logical condition used to filter the data. Depending on the selected property and     condition, you enter a value (and sometimes a second value as well, depending on the condition). Each     value must conform with the data type of the selected property. Generally, there are a series of fixed values     for the property—for example, the _Completed_ value for the _Status_ property. For date-relative clauses,     you can specify parameters, such as _@WeekStart_ and _@Today_ , as values. The filtering process is not case-     sensitive; that is, the system does not differentiate between uppercase and lowercase letters in values.     A value is not used for the _Is Empty_ and _Is Not Empty_ conditions. To define a clause, you specify the property, the condition, and the applicable values in the table row. You can use _And_ and _Or_ operators and parentheses to group clauses into logical expressions. Parentheses can be used in logical statements to define the order of operations. The _And_ and _Or_ operators work on a unit in parentheses as if the unit was a single clause. 
+
+ For example, on the Invoices and Memos (AR3010PL) list of records, you can search for invoices with the open status by specifying a filter that has two conditions combined with the And operator. The first condition has Type specified as the property, Equals specified as the condition, and Invoice specified as the value. The second condition has Status specified as the property, Equals specified as the condition, and Open specified as the value (as shown in the following screenshot). 
 
 
 <!-- PAGE_BREAK -->
- Managing Advanced Filters | 172 
-
- To define a clause, you specify the property, the condition, and the applicable values in the table row. You can use And and Or operators and parentheses to group clauses into logical expressions. Parentheses can be used in logical statements to define the order of operations. The And and Or operators work on a unit in parentheses as if the unit was a single clause. 
-
- For example, on the Invoices and Memos (AR3010PL) list of records, you can search for invoices with the open status by specifying a filter that has two conditions combined with the And operator. The first condition has Type specified as the property, Equals specified as the condition, and Invoice specified as the value. The second condition has Status specified as the property, Equals specified as the condition, and Open specified as the value (as shown in the following screenshot). 
+ Managing Advanced Filters | 180 
 
  Figure: The clauses of the Open Invoices filter 
 
 #### Wildcards in Filter Clauses 
 
- When you filter data by using the Filter Settings dialog box or on the Filters (CS209010) form, you can use a pattern for the string value in the Value column. In the pattern, you can substitute any symbols with wildcard characters. You can use the following wildcard characters: 
+ When you filter data by using the Advanced Filter dialog box or on the Filters (CS209010) form, you can use a pattern for the string value in the Value column. In the pattern, you can substitute any symbols with wildcard characters. You can use the following wildcard characters: 
 
 - Underscore ( ___ ): You can use this character if you want to filter the data according to a pattern in which only     one symbol is substituted. For example, if you try to filter the data by a customer name that contains the     _Customer_Name_ string, the system will return all the customers whose name contains any of the following     strings: _Customer_Name_ , _Customer-Name_ , and _Customer Name_. 
 
@@ -5846,13 +6064,13 @@ _$filter_ (^) StkItem eq true and ItemStatus eq 'AC' and LastModifiedDateTime eq
 
 
 <!-- PAGE_BREAK -->
- Managing Advanced Filters | 173 
+ Managing Advanced Filters | 181 
 
  Figure: The use of wildcards in filter clauses 
 
 #### User-Relative Filter Clauses 
 
- To simplify the process of filtering data by owner or by workgroup in the Filter Settings dialog box or on the Filters (CS209010) form, you can use three predefined user-relative parameters in the Value column. By using these parameters, you can configure user-relative clauses. When you use these parameters, you do not need to create multiple rows with specific values—for example, to specify each workgroup in which you are a member for the Workgroup property. Instead, you can use only one parameter, such as @MyGroups , to filter all the records of the workgroups you are a member of. 
+ To simplify the process of filtering data by owner or by workgroup in the Advanced Filter dialog box or on the Filters (CS209010) form, you can use three predefined user-relative parameters in the Value column. By using these parameters, you can configure user-relative clauses. When you use these parameters, you do not need to create multiple rows with specific values—for example, to specify each workgroup in which you are a member for the Workgroup property. Instead, you can use only one parameter, such as @MyGroups , to filter all the records of the workgroups you are a member of. 
 
  The following predefined user-relative parameters are available: 
 
@@ -5864,51 +6082,49 @@ _$filter_ (^) StkItem eq true and ItemStatus eq 'AC' and LastModifiedDateTime eq
 
 #### Date-Relative Filter Clauses 
 
- To make date clauses in advanced filters more flexible, you can use date-relative parameters—parameters that are relative to the business date—in the Filter Settings dialog box or on the Filters (CS209010) form. 
+ To make date clauses in advanced filters more flexible, you can use date-relative parameters—parameters that are relative to the business date—in the Advanced Filter dialog box or on the Filters (CS209010) form. 
 
 
 <!-- PAGE_BREAK -->
- Managing Advanced Filters | 174 
+ Managing Advanced Filters | 182 
 
  For the date-relative parameters, as the current date, the system uses the date (in coordinated universal time, or UTC ) of the server used to run the Acumatica ERP instance. Changing the business date (in the upper-right corner of the screen) does not affect the filter results. 
 
-You can use the following date-relative parameters in the **Value** and **Value2** boxes of the **Filter Settings** dialog box: 
+You can use the following date-relative parameters: 
 
 - @Today: The business date. You can modify this parameter by adding or subtracting days. 
 
- If the data field contains a value that consists of a date and time, only records for which both the date is equal to the business date and the time is 00:00:00 match this parameter. 
+ If the data field contains a value that consists of a date and time, records match this parameter only if the date is the same as the business date and the time is 00:00:00. 
 
-- @WeekStart: The start of the current week. You can modify this parameter by adding or subtracting     weeks. 
-
- The start and end of the week are determined based on the default system locale or the locale that you selected when you signed in to Acumatica ERP. The system locales are specified and configured on the System Locales (SM200550) form. 
-
-- @WeekEnd: The end of the current week. You can modify this parameter by adding or subtracting weeks. 
+- @WeekStart: The date of the start of the current week. You can modify this parameter by adding or     subtracting weeks. 
 
  The start and end of the week are determined based on the default system locale or the locale that you selected when you signed in to Acumatica ERP. The system locales are specified and configured on the System Locales (SM200550) form. 
 
-- @MonthStart: The start of the current month. 
+- @WeekEnd: The date of the end of the current week. You can modify this parameter by adding or     subtracting weeks. 
 
-- @MonthEnd: The end of the current month. 
+- @MonthStart: The date representing the start of the current month. 
 
-- @QuarterStart: The start of the current quarter. 
+- @MonthEnd: The date that’s the end of the current month. 
 
-- @QuarterEnd: The end of the current quarter. 
+- @QuarterStart: The date that’s the start of the current quarter. 
 
-- @PeriodStart: The start of the current financial period. 
+- @QuarterEnd: The date of the end of the current quarter. 
 
-- @PeriodEnd: The end of the current financial period; the financial periods in your system are defined on     the _Financial Year_ (GL101000) form. 
+- @PeriodStart: The date representing the start of the current financial period. 
 
-- @YearStart: The start of the current calendar year. 
+- @PeriodEnd: The date marking the end of the current financial period; the financial periods in your     system are defined on the _Financial Year_ (GL101000) form. 
 
-- @YearEnd: The end of the current calendar year. 
+- @YearStart: The start date of the current calendar year. 
+
+- @YearEnd: The end date of the current calendar year. 
 
 To add a filter clause with a date-relative parameter, you select the parameter from the list. (See the following screenshot.) 
 
-**_Figure: The selection of a date-relative parameter_** 
-
 
 <!-- PAGE_BREAK -->
- Managing Advanced Filters | 175 
+ Managing Advanced Filters | 183 
+
+ Figure: The selection of a date-relative parameter 
 
  You can modify the parameters by adding or subtracting integers. The date is calculated according to the unit of measure of the parameter. For example, to view all tasks that are due next week, on the Tasks (EP4040PL) form, you add a filter clause as follows: You specify Due Date as the property, Is Between as the condition, @WeekStart + 1 as the first value, and WeekEnd + 1 as the second value. The integer ( 1 ) in these values represents a week because it is the unit of measure of the parameter. 
 
@@ -5918,27 +6134,29 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
  In this activity, you will learn how to create advanced filters and make these filters available to other users. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that you are a technical specialist in your company who is working on simple customizations. An accountant of your company has asked you to add multiple filters (that is, filter tabs) for the Invoices and Memos (AR3010PL) generic inquiry form, which is the predefined generic inquiry with the AR-Invoices and Memos inquiry title and the Invoices and Memos site map title specified on the Generic Inquiry (SM208000) form. These filters should be available to all users that have access to the inquiry. The following filter tabs need to be added with the noted content: 
+ Suppose that you’re a technical specialist in your company who’s working on simple customizations. An accountant of your company has asked you to add multiple filters (that is, filter tabs) for the Invoices and Memos (AR3010PL) generic inquiry form. This form is the predefined generic inquiry with the AR-Invoices and Memos inquiry title and the Invoices and Memos site map title specified on the Generic Inquiry (SM208000) form. 
 
-- **My Documents** : The documents owned by the user who is currently signed in to the system. When a user     accesses the inquiry form, the system should open this tab by default instead of the **All Records** tab. 
 
-- **Open Invoices** : Only invoices that have the _Open_ status. 
+<!-- PAGE_BREAK -->
+ Managing Advanced Filters | 184 
 
-- **Current Quarter** : Documents for the current quarter. 
+ The following filters, which should be available to all users with access to the generic inquiry form, need to be added: 
 
-- **Previous Quarter** : Documents for the previous quarter. 
+- _My Documents_ : The documents owned by the user who is currently signed in to the system. When a user     accesses the inquiry form, the system should open this filter by default instead of the _All Records_ filter. 
 
-#### Configuration Overview 
+- _Open Invoices_ : Only invoices that have the _Open_ status. 
 
- You will create the requested advanced filters using the predefined Invoices and Memos (AR3010PL) inquiry form, which has the AR-Invoices and Memos inquiry title and the Invoices and Memos site map title specified on the Generic Inquiry (SM208000) form. 
+- _Current Quarter_ : Documents for the current quarter. 
+
+- _Previous Quarter_ : Documents for the previous quarter. 
 
 #### Process Overview 
 
- On the Invoices and Memos (AR3010PL) generic inquiry form, you will create the requested filters by using the Filter Settings dialog box. 
+ On the Invoices and Memos (AR3010PL) generic inquiry form, you will create the requested filters by the Advanced Filter dialog box. 
 
 #### System Preparation 
 
@@ -5946,21 +6164,17 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
  The gibbs user is assigned the Administrator role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards. 
 
-
-<!-- PAGE_BREAK -->
- Managing Advanced Filters | 176 
-
 #### Step 1: Creating an Advanced Filter with a User-Relative Clause 
 
  To create an advanced filter with a user-relative clause, do the following: 
 
-1. Open the Invoices and Memos (AR3010PL) inquiry form. 
+1. Open the Invoices and Memos (AR3010PL) generic inquiry form. 
 
-2. On the table toolbar, click **Filter Settings**. 
+2. On the table toolbar, click **Filter Settings** to expand the filtering area. 
 
-3. In the bottom le of the **Filter Settings** dialog box, which opens, click **New**. 
+3. In the filtering area, click **...** and then **Open Advanced Filter**. 
 
-4. Add a row to the table with the following settings: 
+4. In the **Advanced Filter** dialog box, which opens, add a clause with the following settings (shown below): 
 
 - **Property** : _Owner_ 
 
@@ -5968,25 +6182,27 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
 - **Value** : @Me 
 
-5. In the bottom le of the dialog box, click **Save**. In the dialog box that opens, type My Documents, and     click **OK**. 
 
-6. In the upper part of the **Filter Settings** dialog box, select the **Default** and **Shared** check boxes.     The following screenshot shows the settings of the _My Documents_ filter. 
+<!-- PAGE_BREAK -->
+ Managing Advanced Filters | 185 
 
- Figure: The settings of the My Documents filter 
+ Figure: The settings of the new filter 
 
-7. In the bottom le of the dialog box, click **Save**. 
+5. Click **Apply**. This closes the dialog box and applies the filter. 
 
-8. Close the **Filter Settings** dialog box by clicking **Apply**.     On the inquiry form, notice that the **My Documents** tab has been added. 
+6. Click **Save Filter** in the filtering area. 
+
+7. In the **Save Filter As** dialog box, which opens, type My Documents and select the **Shared** and **Default**     check boxes. 
+
+8. Click **Save** , which closes the dialog box.     On the generic inquiry form, notice that _My Documents_ has been added to the Filter List drop-down menu. 
 
 #### Step 2: Creating an Advanced Filter with Multiple Filter Clauses 
 
  To create an advanced filter with multiple filter clauses, do the following: 
 
-1. While you are still on the Invoices and Memos (AR3010PL) inquiry form, on the table toolbar, click **Filter**     **Settings**. 
+1. While you are still on the Invoices and Memos (AR3010PL) generic inquiry form, in the filtering area, click **...**     and then **Open Advanced Filter**. 
 
-2. In the bottom le of the **Filter Settings** dialog box, which opens, click **New**. 
-
-3. Add a row to the table with the following settings: 
+2. In the **Advanced Filter** dialog box, add a clause with the following settings: 
 
 - **Property** : _Type_ 
 
@@ -5994,13 +6210,7 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
 - **Value** : _Invoice_ 
 
-
-<!-- PAGE_BREAK -->
- Managing Advanced Filters | 177 
-
-- **Operator** : _And_ 
-
-4. Add another row to the table with the following settings: 
+3. Join the clause with the _And_ logical operator, and add another clause with the following settings (shown     below): 
 
 - **Property** : _Status_ 
 
@@ -6008,75 +6218,87 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
 - **Value** : _Open_ 
 
-5. In the bottom le of the dialog box, click **Save**. In the dialog box that opens, type Open Invoices, and     click **OK**. 
 
-6. In the upper part of the dialog box, select the **Shared** check box.     The following screenshot shows the settings of the _Open Invoices_ filter. 
+<!-- PAGE_BREAK -->
+ Managing Advanced Filters | 186 
 
- Figure: The settings of the Open Invoices filter 
+ Figure: The second clause of the filter 
 
-7. At the bottom of the dialog box, click **Save**. 
+4. Click **Apply** , which closes the **Advanced Filter** dialog box. 
 
-8. Close the **Filter Settings** dialog box by clicking **Apply**.     On the inquiry form, notice that the **Open Invoices** tab has been added. 
+5. Click **Save Filter** in the filtering area. 
 
-#### Step 3: Creating Advanced Shared Filters with a Date-Relative Clause 
+6. In the **Save Filter As** dialog box, which opens, type Open Invoices and select the **Shared** check box. 
 
- To create advanced filters with a date-relative clause, do the following: 
+7. Click **Save** , which closes the dialog box.     On the inquiry form, notice that _Open Invoices_ has been added to the Filter List drop-down menu. 
 
-1. While you are still on the Invoices and Memos (AR3010PL) inquiry form, on the table toolbar, click **Filter**     **Settings**. 
+#### Step 3: Creating Advanced Shared Filter with a Date-Relative Clause 
 
-2. In the bottom le of the **Filter Settings** dialog box, which opens, click **New**. 
+ To create advanced filter with a date-relative clause, do the following: 
 
-3. Add a row to the table with the following settings: 
+1. While you are still on the Invoices and Memos (AR3010PL) inquiry form, in the filtering area, click **...** and then     **Open Advanced Filter**. 
+
+2. In the **Advanced Filter** dialog box, add a clause with the following settings (see below): 
 
 - **Property** : _Date_ 
 
 - **Condition** : _Is Between_ 
 
-- **Value** : _@QuarterStart_ 
+- **From** : _@QuarterStart_ 
 
-- **Value2** : _@QuarterEnd_ 
-
-4. In the bottom le of the dialog box, click **Save**. In the dialog box that opens, type Current Quarter, and     click **OK**. 
-
-5. In the upper part of the dialog box, select the **Shared** check box. 
-
-6. In the bottom le of the dialog box, click **Save**.     The following screenshot shows the settings of the _Current Quarter_ filter. 
+- **To** : _@QuarterEnd_ 
 
 
 <!-- PAGE_BREAK -->
- Managing Advanced Filters | 178 
+ Managing Advanced Filters | 187 
 
- Figure: The settings of the Current Quarter filter 
+ Figure: The settings of the filter being created 
 
-7. Click **Copy** in the bottom le of the dialog box. 
+3. Click **Apply** , which closes the **Advanced Filter** dialog box. 
 
-8. In the dialog box that opens, type Previous Quarter, and click **OK**. 
+4. Click **Save Filter** in the filtering area. 
 
-9. In the only row, change the values in the columns to the following: 
+5. In the **Save Filter As** dialog box, which opens, type Current Quarter and select the **Shared** check box. 
 
-- **Value** : @QuarterStart-1 
+6. Click **Save** ; this closes the dialog box. 
 
-- **Value2** : @QuarterEnd-1 10.Click **Save**. 11.In the upper part of the dialog box, select the **Shared** check box. 12.In the bottom le of the dialog box, click **Save**. 13.Close the **Filter Settings** dialog box by clicking **Apply**. On the form, notice that the **Current Quarter** and **Previous Quarter** tabs have been added along with the other filter tabs that you have added in the activity, as shown in the following screenshot. 
+7. In the filtering area, click **...** and then **Save As**. 
 
- Figure: The tabs with added shared filters 
+8. In the dialog box that opens, type Previous Quarter, select the **Shared** check box, and click **Save**. 
+
+9. In the filtering area, click **...** and then **Open Advanced Filter**. 
+
+10.In the **Advanced Filter** dialog box, change the clause to the following: 
+
+- **From** : @QuarterStart-1 
+
+- **To** : @QuarterEnd-1 
+
+11.Click **Apply** , which closes the **Advanced Filter** dialog box. 
+
+12.Click **Save Filter** in the filtering area. 
+
+ Notice that Current Quarter and Previous Quarter have been added to the Filter List drop-down menu—along with menu commands for the other filters you’ve added in the activity, as shown below. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Advanced Filters | 188 
+
+ Figure: The updated drop-down menu 
 
 ### Advanced Filters: To Remove an Advanced Filter 
 
  In this activity, you will learn how to remove an advanced filter. 
 
-
-<!-- PAGE_BREAK -->
- Managing Advanced Filters | 179 
-
 #### Story 
 
- Suppose that you are a technical specialist in your company who is working on simple customizations. One year ago, you configured a set of shared filters for the Invoices and Memos (AR3010PL) generic inquiry form. Further suppose that the accounting department has worked with the set of shared filters for some time and realized that the Previous Quarter tab is not needed, so you have been asked to remove the filter tab. 
+ Suppose that you are a technical specialist in your company who is working on simple customizations. One year ago, you configured a set of shared filters for the Invoices and Memos (AR3010PL) generic inquiry form. Further suppose that the accounting department has worked with the set of shared filters for some time and realized that the Previous Quarter tab is not needed, so you have been asked to remove the corresponding filter. 
+
+ Alternatively, you could stop sharing the filter by clearing the Shared check box in the Filter Settings dialog box. In this case, the filter would still exist, so if it was requested again, you wouldn’t need to reconfigure it. You’ve decided against this approach; the filter conditions are simple and you can configure the filter quickly, so you don’t want to clutter the list of available filters. 
 
 #### Process Overview 
 
- For the Invoices and Memos (AR3010PL) inquiry form, you will remove the Previous Quarter filter tab by using the Filter Settings dialog box. 
-
- Alternatively, you could stop sharing the filter by clearing the Shared check box for the filter in the Filter Settings dialog box. In this case, the filter would still exist, so that if the accounting department again requested the filter, you would not need to configure it once again. You have decided against this alternate approach; the filter conditions are simple and you can configure the filter quickly, so you do not want to clutter the list of available filters. 
+ For the Invoices and Memos (AR3010PL) generic inquiry form, you will remove the Previous Quarter filter by using the table's filtering area. 
 
 #### System Preparation 
 
@@ -6086,35 +6308,35 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
 2. Complete the _Advanced Filters: To Create Advanced Shared Filters_ activity. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Advanced Filters | 189 
+
 #### Step: Removing an Advanced Filter 
 
  To remove an advanced filter, do the following: 
 
-1. Open the Invoices and Memos (AR3010PL) inquiry form. 
+1. Open the Invoices and Memos (AR3010PL) generic inquiry form. 
 
-2. On the table toolbar, click **Filter Settings** to open the **Filter Settings** dialog box. 
+2. On the table toolbar, click **Filter Settings** to expand the filtering area. 
 
-3. In the drop-down box in the upper-le corner of the dialog box, select _Previous Quarter_. 
+3. In the **Filter List** drop-down menu in the upper-le corner, select **Previous Quarter**. 
 
-4. At the bottom of the dialog box, click **Remove**. 
+4. In the filtering area, click **...** and then **Delete Filter**. 
 
 5. In the dialog box that opens, confirm your action by clicking **OK**.     The system deletes the filter. 
 
-6. Close the **Filter Settings** dialog box by clicking **Apply**. 
-
-7. On the form, notice that the **Previous Quarter** tab is no longer available. 
+6. On the form, notice that the _Previous Quarter_ is no longer available in the Filter List drop-down menu. 
 
 ### Advanced Filters: To Modify an Advanced Shared Filter 
 
  In this activity, you will learn how to modify an advanced shared filter. 
 
-
-<!-- PAGE_BREAK -->
- Managing Advanced Filters | 180 
-
 #### Story 
 
- Suppose that you are a technical specialist in your company who is working on simple customizations. A year ago, you configured a set of shared filters for the Invoices and Memos (AR3010PL) generic inquiry form. The accounting department has worked with the set of filters for some time and decided that the Open Invoices tab needs to list all open documents, regardless of their type; accordingly, its name should be Open Documents. Also, the My Documents tab is no longer needed. 
+ Suppose that you are a technical specialist in your company who works on simple customizations. A year ago, you configured a set of shared filters for the Invoices and Memos (AR3010PL) generic inquiry form. 
+
+ The accounting department has worked with the set of filters for some time and decided that the Open Invoices filter needs to list all open documents, regardless of their type; accordingly, its name should be Open Documents. Also, the My Documents filter is no longer needed. 
 
 #### Process Overview 
 
@@ -6134,11 +6356,11 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
 1. Open the _Filters_ (CS209010) form. 
 
-2. In the **Filter ID** box, select _Open Invoices_.     To locate the filter, click the selector button; in the search box of the lookup table, type its name or     the screen identifier of the form the filter is applied to, which is _AR3010PL_ (as shown in the following     screenshot). 
+2. In the **Filter ID** box, select _Open Invoices_.     To locate the filter, click the selector button; in the search box of the lookup table, type its name or the     screen identifier of the form the filter is applied to, which is _AR3010PL_ (as shown below). 
 
 
 <!-- PAGE_BREAK -->
- Managing Advanced Filters | 181 
+ Managing Advanced Filters | 190 
 
  Figure: Searching for an existing shared filter 
 
@@ -6156,15 +6378,9 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
 1. In the **Filter ID** box of the _Filters_ (CS209010) form, select _My Documents_. 
 
-2. On the form toolbar, click **Make Filter Not Shared**. In the warning dialog box that appears, click **Yes**.     The filter is no longer shared; also, it is no longer shown on the _Filters_ form, because you can manage only     shared filters on this form. 
+2. On the form toolbar, click **Make Filter Not Shared**. In the warning dialog box that appears, click **Yes**.     The filter is no longer shared; also, it’s no longer shown on the _Filters_ form, because you can manage only     shared filters on this form. 
 
-3. Open the Invoices and Memos (AR3010PL) form. 
-
-4. On the table toolbar, click **Filter Settings** to open the **Filter Settings** dialog box. 
-
-5. In the drop-down box in the upper-le corner of the dialog box, select _My Documents_. 
-
-6. Verify that the **Shared** check box is cleared for the filter. 
+3. Open the Invoices and Memos (AR3010PL) generic inquiry form. 4.     Open the Filter List drop-down menu and verify that **My Documents** is not marked with the icon, which     denotes shared filters. 
 
 ### Advanced Filters: To Create a Personal Filter Based on a Shared Filter 
 
@@ -6172,17 +6388,17 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
 
 <!-- PAGE_BREAK -->
- Managing Advanced Filters | 182 
+ Managing Advanced Filters | 191 
 
 #### Story 
 
- Suppose that you are an accountant in your company. Some time ago, a set of shared filters was configured for the Invoices and Memos (AR3010PL) generic inquiry form. 
+ Suppose that you are an accountant in your company. Some time ago, a set of shared filters was configured for the Invoices and Memos (AR3010PL) generic inquiry form,which is a list of records. 
 
- Further suppose that you are responsible for tracking the open credit memos for the current year. The generic inquiry has no filter you can use to quickly view these documents, so you have decided to create a personal filter and define it as your default tab, to streamline your work. 
+ Further suppose that you are responsible for tracking the open credit memos for the current year. The generic inquiry has no filter you can use to quickly view these documents, so you have decided to create a personal filter and define it as your default filter, to streamline your work. 
 
 #### Process Overview 
 
- On the Invoices and Memos (AR3010PL) generic inquiry form, you will copy the Current Quarter filter and modify it to suit your needs by using the Filter Settings dialog box. 
+ On the Invoices and Memos (AR3010PL) generic inquiry form, you will copy the Current Quarter filter and modify it to suit your needs. 
 
 #### System Preparation 
 
@@ -6196,23 +6412,29 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
  To create an advanced personal filter, do the following: 
 
-1. Open the Invoices and Memos (AR3010PL) form.     Notice that the **My Documents** tab is opened by default. This happened because for this filter, the **Default**     check box was selected in the **Filter Settings** dialog box. 
+1. Open the Invoices and Memos (AR3010PL) generic inquiry form.     Notice that the **My Documents** filter is opened by default. This happens because for this filter, the **Default**     check box was selected in the **Save Filter As** dialog box. 
 
-2. On the table toolbar, click **Filter Settings** to open the **Filter Settings** dialog box. 
+2. On the table toolbar, click **Filter Settings** to expand the filtering area. 
 
-3. In the drop-down box in the upper-le corner of the dialog box, select _Current Quarter_. 
+3. In the Filter List drop-down menu in the upper-le corner, select **Current Quarter**. 
 
-4. In the bottom le of the dialog box, click **Copy**. 
+4. In the filtering area, click **...** and then **Save As**. 
 
-5. In the dialog box that opens, type Open Memos for Current Year, and click **OK**. 
+5. In the **Save Filter As** dialog box, which opens, type Open Memos for Current Year, select the     **Default** check box, and click **Save**. 
 
-6. In the only row, change the values in the columns to the following: 
+6. In the filtering area, click **...** and then **Open Advanced Filter**. 
 
-- **Value** : _@YearStart_ 
+7. In the **Advanced Filter** dialog box, modify the clause to the following settings: 
 
-- **Value 2** : _@YearEnd_ 
+- **Property** : _Date_ 
 
-7. Add one more row with the following settings: 
+- **Condition** : _Is Between_ 
+
+- **From** : _@YearStart_ 
+
+- **To** : _@YearEnd_ 
+
+8. Add a second clause with the following settings: 
 
 - **Property** : _Type_ 
 
@@ -6220,37 +6442,33 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
 - **Value** : _Credit Memo_ 
 
-8. Add one more row with the following settings: 
+9. Add a third clause with the following settings: 
+
+
+<!-- PAGE_BREAK -->
+ Managing Advanced Filters | 192 
 
 - **Property** : _Status_ 
 
 - **Condition** : _Equals_ 
 
-- **Value** : _Open_ 
+- **Value** : _Open_ Below you can see the updated settings of the _Open Memos for Current Year_ filter. 
 
-9. In the bottom le of the dialog box, click **Save**. 
+ Figure: The updated settings of the Open Memos for Current Year filter 
 
+10.Click **Apply** , which closes the dialog box. 
 
-<!-- PAGE_BREAK -->
- Managing Advanced Filters | 183 
+11.In the filtering area, click **Save Filter**. 
 
-10.In the upper part of the dialog box, select the **Default** check box and click **Save**. 
+ Notice that Open Memos for Current Year has been added to the Filter List drop-down menu. 
 
- The settings of the Open Memos for Current Year filter are shown in the following screenshot. 
+12.Go to any other form and then open the Invoices and Memos (AR3010PL) generic inquiry form again. 
 
- Figure: Reviewing the settings of the Open Memos for Current Year filter 
-
-11.Close the **Filter Settings** dialog box by clicking **Apply**. 
-
- Notice that the Open Memos for Current Year filter tab has been added to the form. 
-
-12.Navigate to any other form, and then open the Invoices and Memos (AR3010PL) generic inquiry form again. 
-
- Notice that the system has opened the Open Memos for Current Year tab for you by default. 
+ Notice that the system has applied the Open Memos for Current Year filter by default. 
 
 
 <!-- PAGE_BREAK -->
- Managing Pivot Tables | 184 
+ Managing Pivot Tables | 193 
 
 ## Managing Pivot Tables 
 
@@ -6264,137 +6482,127 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
 #### Learning Objectives 
 
- In this chapter, you will learn how to do the following: 
+ In this chapter, you’ll learn how to do the following: 
 
-- Configure a pivot table as a separate form and make it available to other users 
+- Configure a pivot table on an inquiry form and share it with other users 
 
-- Modify the generic inquiry that is used as the basis for a pivot table while you are configuring the table 
-
-- Configure a pivot table as a filter tab on an inquiry form and share it with other users 
+- Modify the generic inquiry that’s used as the basis for a pivot table while you are configuring the table 
 
 #### Applicable Scenarios 
 
- You may find the information in this chapter useful when you are responsible for the customization of Acumatica ERP in your company, including developing and modifying generic inquiries and pivot tables to give users information they need to do their jobs, and you need to deliver inquiries and reports that your colleagues can use to perform their jobs effectively. 
+ You may find the information in this chapter useful when you’re responsible for the customization of Acumatica ERP in your company. This includes developing and modifying generic inquiries and pivot tables to give the users information they need to do their jobs effectively. 
 
 #### Pivot Table Basis 
 
- You use the data from a particular generic inquiry to compose a pivot table—that is, a generic inquiry is used as the basis of a pivot table. You can use only one generic inquiry to build each pivot table. If you need to compose a pivot table with information obtained from multiple generic inquiries, you must first create a single generic inquiry that includes all the necessary data and then use this inquiry as a basis for the pivot table. 
+ You use the data from a particular generic inquiry to compose a pivot table—that is, the generic inquiry is used as the basis of the pivot table. You can use only one generic inquiry to build each pivot table. If you need to compose a pivot table with information obtained from multiple generic inquiries, you must: 
 
-### Pivot Tables: Creation of a Pivot Table as a Separate Form 
+1. Create a single generic inquiry that includes all the necessary data. 
 
- You can create pivot tables and share them with other users as forms. You can place any pivot table in a workspace by adding it to the site map and then specifying the needed levels of access rights to the pivot table for the user roles available in the system. 
+2. Use this inquiry as a basis for the pivot table. 
 
-#### Access Rights for Modifying Pivot Tables 
+#### Pivot Tables in the Modern UI 
 
- Acumatica ERP uses roles to restrict access to the system. Administrators assign users one role or multiple roles, and based on these roles, the users are then granted the appropriate levels of access to system objects. For details, see Managing User Access. 
+ In the Modern UI, you can effortlessly toggle between the table and pivot data representations of generic inquiry forms. Pivot views support in-depth analysis of information from multiple perspectives, enhancing your ability to make informed decisions. You can apply the same filter to both table data representations and pivot data representations. 
+
+ By default, generic inquiry forms display data in the Table view. If other data views are available, they’ll be listed in the View List drop-down menu, where you can select another data representation. The menu caption changes to the name of the selected view, as you can see below. 
 
 
 <!-- PAGE_BREAK -->
- Managing Pivot Tables | 185 
+ Managing Pivot Tables | 194 
 
- To be able to create, delete, or modify standalone pivot tables, you need a role that provides sufficient access rights (the Delete level) to the Pivot Tables (SM208010) form. By default, the built-in Administrator role provides the access rights for working with pivot tables created as forms. 
+ Figure: Pivot data representation 
+
+ You can create your own pivot views or use pivot views created by other users. 
+
+### Pivot Tables: Creation of a Pivot Table 
+
+ Once a generic inquiry form has been created, you can create multiple pivot tables, which are saved as data views, for the inquiry form. Once you’ve created a pivot table, you can modify its configuration. You can also delete a pivot table as a data view if you don’t need it anymore. 
+
+#### Access Rights to Pivot Tables as Data Views 
+
+ By default, the ability to save pivot tables as data views is available to all users. If you’d like to share your pivot tables with other users, you need to have the Administrator role. 
 
 #### Creation of a Pivot Table 
 
- You perform the following general steps to compose a pivot table: 
+ To create a new pivot view, you open the desired generic inquiry form and click Create View in the View List dropdown menu. The Create View dialog box opens, as shown below. 
 
-1. Preparation: You determine which generic inquiry will be used as a data source for the pivot table. 
 
-2. Creation: You create a pivot table on the _Pivot Tables_ (SM208010) form, specify the generic inquiry to be     used as the data source in the **Screen ID** box of the Summary area, and configure the table layout. While     configuring the table, you can preview it at any time. 
+<!-- PAGE_BREAK -->
+ Managing Pivot Tables | 195 
 
-3. Publication: Aer you have previewed the finished pivot table and made any needed changes, you publish     the table, which makes it available for other users. 
+**_Figure: Pivot view creation_** 
+
+In the dialog box: 
+
+1. Enter a name for the new view and then click **Save**. 
+
+2. Optional: Select the **Default** check box if you want the system to open this view by default 
+
+3. Optional (if you have with the _Administrator_ user role): Select the **Shared** check box to make this view     available to other users. 
+
+4. Click **Create**. The **Settings** dialog box opens (described in the next section). 
+
+Once you’ve applied your settings, you’ll see the new pivot view in the View List drop-down menu of the inquiry form, as shown below. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Pivot Tables | 196 
+
+ Figure: The data view in the list 
 
 #### Configuration of the Table Layout 
 
- The configuration of the layout of a pivot table in Acumatica ERP is similar to this process in Microso Excel. You use multiple panes to configure a pivot table. 
+ Configuring the layout of a pivot table in Acumatica ERP is similar to this process in Microso Excel. You use multiple panes of the Settings dialog box to configure a pivot table: 
 
- The Fields pane of the Pivot Tables (SM208010) form lists all the fields that have been added to the related inquiry on the Results Grid tab of the Generic Inquiry (SM208000) form, regardless of their visibility settings. You move fields between the panes by dragging them. When you click a field in the Filters , Rows , Columns , or Values pane (see Item 1 in the following screenshot), the system displays its properties in the Properties pane (Item 2). By using the settings in the Properties pane, you define how the data of the field is to be presented in the table. 
+- The **Fields** pane lists all the fields that have been added to the related inquiry on the **Results Grid** tab of the     _Generic Inquiry_ (SM208000) form, regardless of their visibility settings. You move fields between the panes by     dragging them. 
+
+- When you click a field in the **Rows** , **Columns** , or **Values** pane (Item 1 below), the system displays its     properties in the **Properties** pane (Item 2). 
+
+- By using the settings in the **Properties** pane, you define how the data of the field is to be presented in the     table. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Pivot Tables | 197 
 
  Figure: Configuration of the layout of a pivot table 
 
+#### Edit Mode of the Pivot Table 
+
+ To edit an existing pivot view, you open the inquiry form's View List drop-down menu; hover over the pivot view name to display the Settings , Edit , and Delete buttons (see below). 
+
+ Figure: Pivot view buttons 
+
+ Here’s how the buttons work: 
+
+- **Settings** : Opens this dialog box so that you can reconfigure the pivot table. 
+
+- **Edit** : Opens the **Edit View** dialog box, where you can rename the pivot view, set it as the default view, and     share it with other users (if you have the _Administrator_ role). 
+
+- **Delete** : Deletes the view and its settings. Changes made to shared pivot views affect the pivot view’s appearance for all users, while changes to non-shared pivot views affect the pivot view’s appearance for only your user account. 
+
+ You cannot delete or reconfigure the predefined Table view. 
+
 
 <!-- PAGE_BREAK -->
- Managing Pivot Tables | 186 
-
-#### Application of Shared Filters 
-
- The generic inquiry that you select as a data source for your pivot table may have advanced shared filters, which are displayed as tabs on the inquiry form and contain filtered data that meets particular specifications. To reduce the amount of data in the pivot table for easier analysis, you can apply any advanced shared filter created for the generic inquiry. To do this, while configuring the pivot table, you select the filter in the Shared Filter to Apply box on the Pivot Tables (SM208010) form. 
-
- When the pivot table is displayed, the filter is applied to the generic inquiry, and then the pivot table uses the filtered data. 
+ Managing Pivot Tables | 198 
 
 #### Data Filtering in Pivot Tables 
 
- As described in the previous section, when you are defining a pivot table on the Pivot Tables (SM208010) form, you can specify an advanced shared filter to be applied to the generic inquiry; the pivot table then uses the filtered data. In addition, you can filter the data in a pivot table in any of the following ways: 
-
-- By the values of the fields added to the **Filters** pane: When you want to filter the data in a pivot table by     fields that are not used in the table, you add these fields to the **Filters** pane during the design of the pivot     table. The system displays these fields in the pivot table as quick filters, and the users can filter the data in     the table to meet their current needs. 
-
- When a field is added to the Rows pane and the resulting pivot table column has more than 100 unique records to display, for reasons related to system performance, the quick filter popup window does not display items for multiple selection. 
-
-- By the values of fields added to the **Columns** or **Rows** pane: For fields that you add to the **Columns** or **Rows**     pane, the system automatically adds simple filters to the pivot table. 
-
-### Pivot Tables: Creation of a Pivot Table on a Filter Tab 
-
- Once a generic inquiry form has been created, you can create multiple pivot tables saved as filter tabs for the inquiry form. Once you have created a pivot table, you can modify its configuration. You can also delete a pivot table as a filter tab if you do not need the tab anymore. 
-
-#### Creation of the Pivot Table 
-
- If you save a pivot table as a filter tab of a generic inquiry form, this pivot table is not in the list on the Pivot Tables (SM208010) form. That is, you cannot view, modify, or delete this pivot table by navigating to this form and selecting it. You can work with this pivot table only by navigating to the inquiry form and opening the filter tab. 
-
- When you click More > Save as Pivot in the filtering area of an inquiry form (shown in the following screenshot), the system opens the Filter Settings dialog box, where you specify the name to be used for the filter tab, select or clear the Shared Configuration check box, and click OK. Then the system opens the newly created tab in edit mode for the pivot table; this mode is similar in appearance and functionality to the Pivot Tables form, with various panes that you can use to construct the table based on the generic inquiry. 
-
-
-<!-- PAGE_BREAK -->
- Managing Pivot Tables | 187 
-
- Figure: The Save as Pivot action on an inquiry form 
-
-#### Access Rights to Pivot Tables on Filter Tabs 
-
- By default, the ability to save pivot tables on filter tabs is available to all users. For all user roles, the Delete access level is specified for the Pivot Tables (SM208020) form. The form has a similar layout to the Pivot Tables (SM208010) form, but it is used specifically for configuring pivot tables as filter tabs. 
-
- You can use the Access Rights by Screen (SM201020) form to verify the levels of access the user roles in the system have to the form. On this form, you look for the Pivot Tables link, which is located in the Hidden node of the tree in the le pane. Then in the right pane, you make sure that for all roles in the system, the Delete access level is set. 
-
-#### Personal and Shared Filter Tabs with Pivot Tables 
-
- By default, when you save a filter as a pivot table, the Shared Configuration check box in the Filter Settings dialog box is cleared (see the following screenshot), and the system treats the filter tab as an advanced filter that is not available to other system users. If you select the Shared Configuration check box while saving a pivot table as a tab, this tab will instead be available to all users who have access to the inquiry form. 
-
- Figure: The Shared Configuration check box in the Filter Settings dialog box 
-
- If you would like to share your pivot tables with other users, you need to have sufficient access rights to the Filters (CS209010) form; without the access, the Shared Configuration check box will be cleared and unavailable for you. By default, users with the built-in Administrator role (such as system administrators or technical specialists that perform simple customizations) have access to the form and can share pivot tables as filter tabs. 
-
-#### Edit Mode of the Pivot Table Tab 
-
- When you initially add a pivot table as a filter tab, the tab is opened in edit mode, so that you can configure the pivot table. Once you have configured the pivot table, you can switch between edit mode and view mode by clicking the Edit Pivot Table button (see Item 1 in the screenshot below). 
-
-
-<!-- PAGE_BREAK -->
- Managing Pivot Tables | 188 
-
- The editing layout is similar to the one you may be accustomed to seeing when you are configuring a pivot table in Microso Excel. You use multiple panes to configure a pivot table. 
-
- The Fields pane lists all the fields that have been added to the generic inquiry on the Results Grid tab of the Generic Inquiry (SM208000) form, regardless of their visibility settings. You move fields between the panes by dragging them. When you set focus on a field in the Rows , Columns , or Values pane (Item 2), the system displays its properties in the Properties pane (Item 3). By using the settings in the Properties pane, you define how the data of the field is to be presented in the table. 
-
- If you need to add quick filters to the table, you drag the needed fields to the filtering area (Item 4). If some quick filters were added to an inquiry tab that you saved as a pivot table, the system copies all these filters to the filtering area by default. You can remove them if they are not needed. You remove quick filters by selecting Remove Quick Filter from the drop-down list that opens when you click this quick filter. 
-
- Figure: Edit mode of a pivot table as a filter tab 
+ In the Modern UI, you can apply the same filter to both table data representations and pivot data representations. You can create personal filters or apply any shared filter created for the generic inquiry. 
 
 ### Pivot Tables: Data Presentation 
 
- Because pivot tables can contain a lot of data, users who analyze their data need the data to be presented in a meaningful way. On the Pivot Tables (SM208010) form of Acumatica ERP, you can flexibly configure the format of the fields to be displayed in a pivot table. 
+ Because pivot tables can contain a lot of data, users who analyze their data need the data to be presented in a meaningful way. On the Pivot Tables (SM208010) form or in the Settings dialog box when creating or modifying a pivot table, you can flexibly configure the format of the fields to be displayed in a pivot table. 
 
 #### Format of Field Values in Pivot Tables 
 
  If you want to change the format of the fields to be displayed in a pivot table, you can specify the required format in the Format box of the Properties pane on the Pivot Tables (SM208010) form. (This pane contains the display properties for any field that is selected in the Filters , Columns , Rows , or Values pane.) In this box, you can type one of the standard formats defined for the format function in .Net. In the following table, you can find examples of format definitions for numbers and the corresponding output. 
 
-
-<!-- PAGE_BREAK -->
- Managing Pivot Tables | 189 
-
  Table: User-Defined Format for Numbers 
 
  Format Definition Output Example 
 
-##### 0 8972 
+ 0 8972 
 
 ##### 0.0 8972.2 
 
@@ -6420,7 +6628,13 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
 - _% of Total by Row Group_ The **Values** pane of this form contains a list of fields from the selected generic inquiry whose values are displayed in cells of the pivot table. You can add the same field to this pane multiple times and specify different display options for each entry. 
 
- For example, suppose that you want to analyze activities that your employees have with customers—that is, review the number of phone calls, sent emails, and completed work items for each customer. Also, you would like to know this activity type's percentage of the grand total of all activities that employees have with customers. For each activity type shown in a column, you add two values: a value that is the count of the activities of the type, displayed as a number; and the same value displayed as a percentage of the grand total of all activities for all customers. 
+ For example, suppose that you want to analyze activities that your employees have with customers—that is, review the number of phone calls, sent emails, and completed work items for each customer. Also, you would like to know this activity type's percentage of the grand total of all activities that employees have with customers. For each 
+
+
+<!-- PAGE_BREAK -->
+ Managing Pivot Tables | 199 
+
+ activity type shown in a column, you add two values: a value that is the count of the activities of the type, displayed as a number; and the same value displayed as a percentage of the grand total of all activities for all customers. 
 
 #### Format Options for Date Fields 
 
@@ -6430,13 +6644,7 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
 - _Aggregate data by a particular date part_ : You can select the part of a date field by which you want to     aggregate data in a pivot table. For example, suppose that you want to analyze the seasonal demand of T-     shirts for the past five years. To do this, you can build a pivot table that displays sales amounts aggregated     by month. Suppose that the date field in the generic inquiry with sales amounts for T-shirts contains the     month and the year (such as _July 2025_ ). To make the system aggregate data by month and display only     months in the pivot table, in the **Date Part** box, you select _Month_. 
 
-- _Display hierarchical column or row headers_ : If you want to configure the dates in columns or rows for a pivot     table to meet your needs, you can set up a hierarchical structure of the parts of the dates. For example, 
-
-
-<!-- PAGE_BREAK -->
- Managing Pivot Tables | 190 
-
- suppose that you want to analyze the number of shipped laptops by month for the past three years. Suppose that the date in the generic inquiry contains the day, the month, and the year (such as 04/11/2025 ). In the pivot table, you can display a one-level column that will contain the following date values: Jan 2025 , Feb 2025 , and so on through Dec 2025. Alternatively, you can configure the system so that it displays two levels of column headers: In the first level, the system displays the years, and under each year, the system displays the months. To configure the system in this way, you add two copies of the date field to the Columns pane of the Pivot Tables form. For the first copy, in the Round To box, you select Years ; for the second copy, in the Date Part box, you select Month. 
+- _Display hierarchical column or row headers_ : If you want to configure the dates in columns or rows for a pivot     table to meet your needs, you can set up a hierarchical structure of the parts of the dates. For example,     suppose that you want to analyze the number of shipped laptops by month for the past three years.     Suppose that the date in the generic inquiry contains the day, the month, and the year (such as _04/11/2025_ ).     In the pivot table, you can display a one-level column that will contain the following date values: _Jan_     _2025_ , _Feb 2025_ , and so on through _Dec 2025_. Alternatively, you can configure the system so that it displays     two levels of column headers: In the first level, the system displays the years, and under each year, the     system displays the months. To configure the system in this way, you add two copies of the date field to     the **Columns** pane of the _Pivot Tables_ form. For the first copy, in the **Round To** box, you select _Years_ ; for the     second copy, in the **Date Part** box, you select _Month_. 
 
  The value in the Format field on the Properties pane is case sensitive. Use lowercase letters for the day and year and uppercase letters for the month: dd/MM/yyyy. 
 
@@ -6448,131 +6656,23 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
 - _Display hierarchical column or row headers_ : If you want to analyze data by using a combination of two     segments of a field value, you can set up a hierarchical structure of the segments. Suppose that in the     example described in the previous list item, you also want to add to the pivot table the country of origin for     each item type. To do this, you add to the **Columns** pane two copies of the _Class ID_ field. For the first copy, in     the **Segment** box, you select the segment used for the item category; for the second copy, in the **Segment**     box, you select the segment used for the country of origin. 
 
-### Pivot Tables: To Create a Pivot Table as a Form 
 
- In this activity, you will learn how to create a pivot table and make it available as a standalone form in Acumatica ERP. 
+<!-- PAGE_BREAK -->
+ Managing Pivot Tables | 200 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+### Pivot Tables: To Create a Pivot Table 
+
+ In this activity, you will learn how to create a pivot table and share it with other users. 
+
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that you are a technical specialist in your company who is working on simple customizations, including the creation and modification of generic inquiry forms and pivot tables. An accountant of your company has asked you to create a pivot table that aggregates invoice totals by quarter for each customer and displays this customer's percentage of the grand total of all sales to customers in the quarter. 
+ Suppose that you’re a technical specialist in your company who’s working on simple customizations, including the creation and modification of generic inquiry forms and pivot tables. A warehouse manager of your company has asked you to create a pivot table that: 
 
-#### Process Overview 
+- Groups stock keeping units (SKUs) by item class 
 
- In this activity, on the Pivot Tables (SM208010) form, you will create the requested pivot table. 
-
-
-<!-- PAGE_BREAK -->
- Managing Pivot Tables | 191 
-
- While creating the pivot table, you will notice that the inquiry does not include the field that holds the line total of the document. You will add the missing field to the inquiry, refresh the data in the Fields pane, and continue configuring the table. 
-
- When the table has been created and all the necessary settings have been specified, you will preview the pivot table and then add it to the site map. 
-
-#### System Preparation 
-
- Launch the Acumatica ERP website, and sign in to a tenant with the U100 dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the gibbs username and the 123 password. 
-
- The gibbs user is assigned the Administrator role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards. 
-
-#### Step 1: Creating a Pivot Table 
-
- To create the pivot table, do the following: 
-
-1. Open the _Pivot Tables_ (SM208010) form. 
-
-2. In the **Screen ID** box, select _Invoices and Memos_ with the _AR3010PL_ screen identifier. 
-
- You can look for the generic inquiry by typing its name (Invoices and Memos) or screen identifier (AR3010PL) in the search box in the lookup table. The lookup table shows the Title column (with the site map title) and the Screen ID column (with the screen ID). When you double-click a row to select it, the system inserts the title rather than the screen ID into the Screen ID box. 
-
-3. In the **Name** box, type Invoice Totals by Customer, which describes the type of data that is shown     with this pivot table. The value will be used as the default value for the pivot table title in the site map. 
-
-4. On the form toolbar, click **Save**. The system saves the pivot table and copies the specified name to the **Pivot**     **Table ID** box. 
-
-#### Step 2: Adding a Missing Field to the Inquiry 
-
- Suppose that you have realized that you need the Line Total field to calculate the percentage. To add the missing field to the inquiry for the pivot table, do the following: 
-
-1. On the form toolbar of the _Pivot Tables_ (SM208010) form with the _Invoices and Memos_ pivot table selected in     the **Screen ID** box (and with the _Invoice Totals by Customer_ in the **Name** box), click **Edit Inquiry**.     The system opens the _Generic Inquiry_ (SM208000) form in a separate tab. (Do not close the other browser     tab, with the _Pivot Tables_ form opened with the _Invoices and Memos_ pivot table selected; you will return to it     in the next step.) 
-
-2. On the **Results Grid** tab of the _Generic Inquiry_ form, add a row with the following settings: 
-
-- **Object** : _ARInvoice_ 
-
-- **Data Field** : _LineTotal_ 
-
-- **Visible** : Cleared 
-
-- **Default Navigation** : Cleared 
-
-- **Caption** : Line Total 
-
-
-<!-- PAGE_BREAK -->
- Managing Pivot Tables | 192 
-
- If some columns mentioned in the activity are not available in the table, make them visible by using the Column Configuration dialog box of the table. 
-
-3. On the form toolbar, click **Save**. 
-
-#### Step 3: Configuring the Pivot Table 
-
- To configure the pivot table, do the following: 
-
-1. Switch to the browser tab with the _Pivot Tables_ (SM208010) form with the _Invoices and Memos_ pivot table     selected. 
-
-2. On the toolbar of the **Fields** pane, click **Refresh** to update the list of available fields. Make sure that the _Line_     _Total_ is listed. 
-
-3. To configure the rows of the pivot table, do the following:     a. Drag _Customer_ from the **Fields** pane to the **Rows** pane. The names of customers will be displayed as row        headers in the pivot table.     b. While _Customer_ is selected in the **Rows** pane, in the **Properties** pane, make sure that the **Show Total**        check box is selected. With this setting, the system will add the **Total** row, which will display a total for all        customers in each column. 
-
-4. To configure the columns of the pivot table, do the following:     a. Drag _Date_ from the **Fields** pane to the **Columns** pane.     b. While _Date_ is selected in the **Columns** pane, in the **Properties** pane, make sure that the **Show Total**        check box is selected. With this setting, the system will add the **Total** column, where a total for all dates        in each row will be displayed.     c. In the **Round To** box, select _Quarters_ to aggregate invoice totals by quarter. Notice that in the **Format**        box, the format of the date is displayed automatically. 
-
-5. To configure the values of the pivot table, do the following:     a. Drag _Line Total_ from the **Fields** pane to the **Values** pane. The pivot table will display invoice amounts,        aggregated by quarter, for each customer.     b. While _Line Total_ is selected in the **Values** pane, in the **Properties** pane, type $#,##0.00 in the **Format**        box.     c. Drag _Line Total_ from the **Fields** pane to the **Values** pane one more time.     d. While _Line Total_ is selected in the **Values** pane, in the **Properties** pane, type % of Grand Total in        the **Caption** box.     e. Select _% of Grand Total_ in the **Show Value As** box. 
-
-6. On the form toolbar, click **Save**. 
-
-#### Step 4: Previewing the Pivot Table 
-
- To preview the pivot table you have created, with the Invoices and Memos pivot table selected on the Pivot Tables (SM208010) form, click View Pivot on the form toolbar. The system opens the table in a separate browser tab. The pivot table that you have created is shown in the following screenshot. 
-
-
-<!-- PAGE_BREAK -->
- Managing Pivot Tables | 193 
-
- Figure: The Invoice Totals by Customer pivot table 
-
-#### Step 5: Making the New Table Visible to Other Users 
-
- To add the pivot table you have created to the site map, do the following while viewing the Invoices and Memos pivot table on the Pivot Tables (SM208010) form: 
-
-1. On the form toolbar, click **Publish to the UI**. In the dialog box that opens, do the following:     a. In the **Site Map Title** box, modify the table title, if needed. Other boxes are populated automatically,        based on the values you specified. The **Workspace** and **Category** boxes are populated with the default        values for the pivot tables which are _Data Views_ and _Pivot Tables_ respectively. For details see, _Categories_        _and Workspaces for Entities of Specific Forms_.     b. In the **Screen ID** , leave the automatically assigned identifier.     c. In the **Access Rights** section, select the **Set to Granted for All Roles** option button.     d. Click **Publish** to publish the pivot table and close the dialog box. 
-
-2. On the main menu, click **Data Views** , and in the workspace, under the **Pivot Tables** category, make sure the     pivot table you created is listed. 
-
-#### Self-Test Exercise 
-
- Now that you have learned how to create a pivot table as a separate form and specify different properties, try to apply this knowledge and modify the pivot table on the Pivot Tables (SM208010) form as follows: 
-
-- Make the system aggregate invoice totals by quarters, using the **Date Part** setting in the **Properties** pane. 
-
-- Make the system display the percentage of the column total instead of the grand total. 
-
-- Move the pivot table to the **Receivables** workspace. 
-
-### Pivot Tables: To Create a Pivot Table on a Filter Tab 
-
- In this activity, you will learn how to create a pivot table as a filter tab and share it with other users. 
-
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-
-<!-- PAGE_BREAK -->
- Managing Pivot Tables | 194 
-
-#### Story 
-
- Suppose that you are a technical specialist in your company who is working on simple customizations, including the creation and modification of generic inquiry forms and pivot tables. A warehouse manager of your company has asked you to create a pivot table that groups stock keeping units (SKUs) by item class and shows the total number of all units and the number of units in each class. Also, the pivot table should be viewed as a tab of the predefined Stock Items (IN2025PL) inquiry form, which has the IN-StockItem inquiry title and the Stock Items site map title specified on the Generic Inquiry (SM208000) form. 
+- Shows the total number of all SKUs and the number of SKUs in each class Also, the pivot table should be available as a data view of the predefined Stock Items (IN2025PL) generic inquiry form (list of records). This form has the _IN-StockItem_ inquiry title and the _Stock Items_ site map title specified on the _Generic Inquiry_ (SM208000) form. 
 
 #### Configuration Overview 
 
@@ -6584,11 +6684,11 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
 - On the _Stock Items_ (IN202500) form, multiple stock items have been defined. 
 
-- The Stock Items (IN2025PL) inquiry form, which displays the list of the stock items that have been created     on the _Stock Items_ (IN202500) form, has been set up as the substitute form that is opened when you click the     _Stock Items_ link in a workspace or a list of search results. 
+- The Stock Items (IN2025PL) generic inquiry form has been set up as a substitute form that is opened when     you click the _Stock Items_ link in a workspace or a list of search results. This form displays the list of the stock     items that have been created on the _Stock Items_ (IN202500) form. 
 
 #### Process Overview 
 
- In the activity, on the Stock Items (IN2025PL) generic inquiry form, you will create the requested pivot table and save it as a shared filter tab of this inquiry form. 
+ In the activity, on the Stock Items (IN2025PL) generic inquiry form, you will create the requested pivot table and save it as a shared data view of this inquiry form. 
 
 #### System Preparation 
 
@@ -6596,57 +6696,77 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
  The gibbs user is assigned the Administrator role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards. 
 
-#### Step 1: Creating the Pivot Table on a Filter Tab 
+#### Step 1: Creating the Pivot Table 
 
- To create the pivot table as a filter tab, do the following: 
+ To create the pivot table as a data view, do the following: 
 
 1. Open the Stock Items (IN2025PL) generic inquiry form. 
 
-2. In the filtering area of the form, click the More button and then click **Save as Pivot**. 
 
-3. In the **Filter Settings** dialog box, which opens, do the following:     a. In the **Filter Name** box, type Items by Item Class.     b. Select the **Shared Configuration** check box.     c. Click **OK** to add the shared filter tab.     The system opens the newly created tab in edit mode for the pivot table. 
+<!-- PAGE_BREAK -->
+ Managing Pivot Tables | 201 
+
+2. Open the View List drop-down menu and click **Create View**. 
+
+3. In the **Create View** dialog box, which opens, do the following:     a. In the **Name** box, type Items by Item Class.     b. Select the **Shared** check box.     c. Click **Create** to add the shared data view.     The system opens the **Settings** dialog box, where you can configure the pivot table. 
 
 #### Step 2: Configuring the Pivot Table 
 
- To configure the pivot table, do the following: 
+ Do the following in the Settings dialog box: 
+
+1. To set up the rows of the pivot table, add fields to the pivot table as follows:     a. Drag _Item Class_ from the **Fields** pane to the **Rows** pane. The identifiers of the item classes will be        displayed as row headers in the pivot table.     b. Drag _Inventory ID_ from the **Fields** pane to the **Rows** pane as a second row aer _Item Class_. This will group        stock items that belong to the same item class. 
+
+2. In the **Rows** pane, click _Item Class_ to display and edit its properties in the **Properties** pane:     a. Make sure that the **Show Total** check box is selected. The system will add the **Total** row at the bottom of        the table to display the total number of items in stock for all item classes.     b. Type Total SKUs in the **Total Label** box. This changes the caption for the **Total** row at the bottom of        the table.     c. Select the **Collapsed** check box to collapse item class groups by default. 
+
+3. In the **Rows** pane, click _Inventory ID_ to show and edit its properties in the **Properties** pane. In this pane,     clear the **Show Total** check box. The total number of stock items in a class will be displayed with the     collapsed groups of item classes. 
+
+4. To configure the values of the pivot table, add fields to the pivot table as follows:     a. Drag _Inventory ID_ from the **Fields** pane to the **Values** pane. The pivot table will display the number of        SKUs aggregated by item class.     b. In the **Properties** pane, clear the **Show Total** check box. 
+
+5. Close the **Settings** dialog box to switch to view mode.     The system displays the pivot table, which aggregates SKUs by item class. Note that: 
+
+- Item class groups are collapsed by default, and the total number of SKUs in each group is displayed in     the **Total** column. 
+
+- The **Total SKUs** row, at the bottom of the table, shows the total number of SKUs available. 
+
+- A user can expand a particular group by clicking the plus sign next to its name or click **Expand All** at the     bottom of the form (shown below) to expand all groups at once. 
+
+- The button next to **Expand All** is **Collapse All**. 
 
 
 <!-- PAGE_BREAK -->
- Managing Pivot Tables | 195 
-
-1. While you are still viewing the **Items by Item Class** filter tab of the Stock Items (IN2025PL) inquiry form in     edit mode, to configure the rows of the pivot table, add fields to the pivot table as follows:     a. Drag _Item Class_ from the **Fields** pane to the **Rows** pane. The identifiers of the item classes will be        displayed as row headers in the pivot table.     b. Drag _Inventory ID_ from the **Fields** pane to the **Rows** pane as a second row aer _Item Class_. This will group        stock items that belong to the same item class. 
-
-2. In the **Rows** pane, click _Item Class_ to display its properties in the **Properties** pane, and do the following in     this pane:     a. Make sure that the **Show Total** check box is selected. With this setting, the system will add the **Total** row        at the bottom of the table, which will display the total number of items in stock for all item classes.     b. Type Total SKUs in the **Total Label** box. With this setting, the system will change the caption for the        **Total** row at the bottom of the table.     c. Select the **Collapsed** check box. With this setting, the system will collapse item class groups by default. 
-
-3. In the **Rows** pane, click _Inventory ID_ to display its properties in the **Properties** pane. In this pane, clear     the **Show Total** check box. The total number of stock items in a class will be displayed with the collapsed     groups of item classes. 
-
-4. To configure the values of the pivot table, add fields to the pivot table as follows: 
-
- a. Drag Inventory ID from the Fields pane to the Values pane. The pivot table will display the number of SKUs aggregated by item class. b. While Inventory ID is selected in the Values pane, in the Properties pane, clear the Show Total check box. 
-
-5. In the filtering area, click **Edit Pivot Table** to switch to view mode. 
-
- The system will display the pivot table, which aggregates SKUs by item class. Item class groups are collapsed by default, and the total number of SKUs in the group is displayed in the Total column. The Total SKUs row is added at the bottom of the table and shows the total number of stock keeping units available. A user can expand a particular group by clicking the plus sign next to a group name or click the Expand All button at the bottom of the form (shown in the following screenshot) to expand all groups at once. The button next to Expand All is the Collapse All button. 
+ Managing Pivot Tables | 202 
 
  Figure: A pivot table with the groups collapsed 
 
+### Pivot Tables: To Delete a Pivot Table 
 
-<!-- PAGE_BREAK -->
- Managing Pivot Tables | 196 
+ In this activity, you will learn how to delete a pivot table. 
 
-### Pivot Tables: To Delete a Pivot Table as a Form 
-
- In this activity, you will learn how to delete a pivot table that is created as a form. 
-
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that you are a technical specialist in your company who is working on simple customizations, including the creation and modification of generic inquiry forms and pivot tables. An accountant of your company has asked you to delete the Invoice Totals by Customer pivot table, which you created while performing the Pivot Tables: To Create a Pivot Table as a Form activity. 
+ Suppose that you’re a technical specialist in your company who’s working on simple customizations, including the creation and modification of generic inquiry forms and pivot tables. An accountant of your company has asked you to delete the Items by Item Class pivot table, which you created while performing Pivot Tables: To Create a Pivot Table. 
+
+#### Configuration Overview 
+
+ In the U100 dataset, the following tasks have been performed to support this activity: 
+
+- The _Inventory and Order Management_ feature has been enabled on the _Enable/Disable Features_ (CS100000)     form to provide support for the stock item functionality. 
+
+- On the _Item Classes_ (IN201000) form, multiple item classes have been defined. 
+
+- On the _Stock Items_ (IN202500) form, multiple stock items have been defined. 
+
+- The Stock Items (IN2025PL) generic inquiry form has been set up as a substitute form that is opened when     you click the _Stock Items_ link in a workspace or a list of search results. This form displays the list of the stock     items that have been created on the _Stock Items_ (IN202500) form. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Pivot Tables | 203 
 
 #### Process Overview 
 
- In this activity, on the Pivot Tables (SM208010) form, you will delete the Invoice Totals by Customer pivot table. 
+ In this activity, on the Stock Items (IN2025PL) inquiry form, you will delete the Items by Item Class pivot table. 
 
 #### System Preparation 
 
@@ -6654,27 +6774,25 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
  The gibbs user is assigned the Administrator role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards. 
 
-2. Complete the _Pivot Tables: To Create a Pivot Table as a Form_ activity. 
+2. Complete the _Pivot Tables: To Create a Pivot Table_ activity. 
 
 #### Step: Deleting the Pivot Table 
 
- To delete the needed pivot table, do the following: 
+ To delete the pivot table, do the following: 
 
-1. Open the _Pivot Tables_ form (SM208010). 
+1. Open the Stock Items (IN2025PL) inquiry form. 
 
-2. In the **Screen ID** box of the Summary area, select _Invoices and Memos_ (AR3010PL), which is the generic     inquiry that is used as a data source for the pivot table. 
+2. Open the View List drop-down menu and hover over the _Items by Item Class_ pivot view—the pivot table that     should be deleted. 
 
-3. In the **Pivot Table ID** box, select _Invoice Totals by Customer_ , which is the pivot table that should be deleted. 
+3. Click **Delete**. 
 
-4. On the form toolbar, click **Delete**. 
+4. In the dialog box that opens, confirm your action by clicking **OK**.     The system deletes the pivot table. 
 
-5. In the dialog box that opens, confirm your action by clicking **OK**.     The system deletes the pivot table. 
-
- The generic inquiry on which the pivot table is based is not deleted. 
+ This action doesn’t delete the generic inquiry on which the pivot table is based. 
 
 
 <!-- PAGE_BREAK -->
- Designing Dashboard Contents | 197 
+ Designing Dashboard Contents | 204 
 
 ## Designing Dashboard Contents 
 
@@ -6716,11 +6834,11 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
  In Acumatica ERP, most types of widgets are based on data from generic inquiries. A generic inquiry is a userdefinable tool—generally created by a developer, customizer, or system administrator—that collects data from the system database and displays the query results on an Acumatica ERP form. The system provides a number of predefined generic inquiries to meet most needs. You can modify copies of these generic inquiries if needed or build your own generic inquiries from the ground up. 
 
- To create widgets based on a generic inquiry, you need to have at minimum View Only access rights to the Generic Inquiry (SM208000) form. 
+ To create widgets based on a generic inquiry, you need to have at least View Only access rights to the Generic Inquiry (SM208000) form. 
 
 
 <!-- PAGE_BREAK -->
- Designing Dashboard Contents | 198 
+ Designing Dashboard Contents | 205 
 
  With the data sources prepared, you need to plan how many widgets and which types you will add to the dashboard. 
 
@@ -6728,15 +6846,29 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
  In Acumatica ERP, a dashboard can be displayed in view or design mode. When you open a dashboard, it is displayed in view mode. 
 
- To modify a dashboard, you switch to design mode by clicking the Design button on the dashboard title bar. The button appears if your user account has the owner role for the dashboard on the Dashboards (SM208600) form (that is, the role selected in the Owner Role box on this form). 
+ To modify a dashboard, you switch to design mode by clicking the Design button on the dashboard title bar. The button appears if your user account has the owner role for the dashboard on the Dashboards (SM208610) form— that is, the role selected in the Owner Role box on this form. 
 
  If your user account does not have the role assigned and the owner of the dashboard has allowed its personalization, you can create a copy of it by clicking the Create User Copy button on the dashboard title bar. (This button is displayed if the Allow Users to Personalize check box is selected on the Dashboards form for the dashboard.) Once you have created your copy of the dashboard, the Design button is displayed on the dashboard title bar instead of Create User Copy. You click Design to switch on design mode for the dashboard. 
+
+#### Simplified Design Mode in Modern UI 
+
+ In the Modern UI, you can create and modify dashboards efficiently, thanks to the responsive, clean design mode (shown below). It’s more responsive and visually cleaner. 
+
+ Figure: A Modern UI dashboard in design mode 
+
+ The grid used to place widgets on a dashboard has been designed to ease dashboard design. You can move widgets effortlessly—they’ll snap into proper alignment without needing manual adjustments. 
 
 #### Basic Elements of a Dashboard in Design Mode 
 
  When a dashboard is in design mode, it has the basic elements shown in the following screenshot. 
 
- The dashboard has the following elements, whose numbers correspond to those in the screenshot: 
+
+<!-- PAGE_BREAK -->
+ Designing Dashboard Contents | 206 
+
+**_Figure: Elements of a dashboard in design mode_** 
+
+The dashboard has the following elements, whose numbers correspond to those in the screenshot: 
 
 1. The dashboard title bar, which you can use to click the needed actions and add the needed dashboard to     your favorites. 
 
@@ -6746,39 +6878,35 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
 4. A title bar of a widget, with buttons you can click to paste a copied widget by using the clipboard, edit the     widget, or delete it. 
 
-5. A blank widget in design mode. 
+5. A widget placeholder. You can add a new widget, copy and paste an existing widget from the clipboard (from     this dashboard or another dashboard), or replace this UI element with an existing widget by dragging the     widget. 
+
+6. The **Reset to Default** button. This button is displayed if your copy of the dashboard differs from the original     dashboard. You click the button to cancel all your changes to the dashboard and restore the default     dashboard and settings. 
+
+7. The **Refresh All** button. You click this button to update the information in all the widgets on the dashboard. 
+
+8. The **Design** button. You click this button to switch between design and view modes for the dashboard. 
+
+9. A working area, which is the major part of the dashboard. The number and placement of working areas     determines the overall appearance of the dashboard and depends on the dashboard layout (for details, see     _Dashboard Design: Widget Arrangement_ ). 
 
 
 <!-- PAGE_BREAK -->
- Designing Dashboard Contents | 199 
-
-6. A widget placeholder. You can add a new widget, copy and paste an existing widget from the clipboard (from     this dashboard or another dashboard), or replace this UI element with an existing widget by dragging the     widget. 
-
-7. The **Reset to Default** button. This button is displayed if your copy of the dashboard differs from the original     dashboard. You click the button to cancel all your changes to the dashboard and restore the default     dashboard and settings. 
-
-8. The **Refresh All** button. You click this button to update the information in all the widgets on the dashboard. 
-
-9. The **Design** button. You click this button to switch between design and view modes for the dashboard. 10.A working area, which is a major part of the dashboard. The number and placement of working areas     determines the overall appearance of the dashboard and depends on the dashboard layout (for details, see     _Dashboard Design: Widget Arrangement_ ). The dashboard shown above has two working areas. 
+ Designing Dashboard Contents | 207 
 
 #### The Dashboard Title Bar for an Administrative User 
 
  An administrative user can view additional buttons on the dashboard title bar if their user account is assigned both of the following roles: 
 
-- A role with access to the _Dashboards_ (SM208600) form 
+- A role with access to the _Dashboards_ (SM208610) form 
 
 - The dashboard owner role for the dashboard The following screenshot shows an example of the dashboard title bar for an administrator. 
 
+ Figure: Dashboard title bar 
+
  You can see the following buttons (with the numbers corresponding to those in the screenshot), which are not shown for users: 
 
-1. The **Properties** button. You click this button to open the _Dashboards_ form for the current dashboard. 
+1. The **Switch to Classic UI** or **Switch to Modern UI** button. You click this button to switch between the     Modern UI and the Classic UI version of the dashboard. 
 
-2. The **Edit Layout** button. You click this button to select any of the predefined dashboard layout templates     that are available in the system. By using a template, you can find a layout that meets users' needs and     quickly implement a dashboard that uses the layout. 
-
- If you change the layout of the dashboard, this change will be applied to all user copies of the dashboard. For details, see Dashboards: Access Rights. 
-
-
-<!-- PAGE_BREAK -->
- Designing Dashboard Contents | 200 
+2. The **Properties** button. You click this button to open the _Dashboards_ form for the current dashboard. 
 
 #### Types of Widgets 
 
@@ -6786,53 +6914,63 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
  You can add to a dashboard various types of widgets. In the Add Widget dialog box, you can click one of the following widget types: 
 
-- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use charts of various types,     such as bar charts and line charts. 
+- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use charts of the following     types: 
+
+- **Doughnut** 
+
+- **Line** 
+
+- **Column** 
+
+- **Stacked Column** 
+
+- **Bar** 
+
+- **Stacked Bar** 
+
+- **Funnel** 
 
 - **Data Table** : A systematic display of data from an Acumatica ERP form, with data arranged into rows and     columns. 
 
-- **Embedded Page** : A document or an image that is stored on an external resource, such as cloud storage. 
 
-- **Header** : A title that can be added to the widget section. 
+<!-- PAGE_BREAK -->
+ Designing Dashboard Contents | 208 
 
-- **Key Performance Indicator (KPI)** : A statistical record that measures progress or achievement toward a     set performance indicator by showing parameters that are important to the business processes of your     organization and should be monitored daily. The following visualization types are available for the widget: 
+- **Meter** : A statistical record that tracks progress or achievement toward a specific performance indicator by     displaying key parameters relevant to your organization's business processes. Data appears as a gauge with     normal, warning, and alarm levels. 
 
-- _Scorecard_ : Data is presented in the form of a card with a single parameter. 
+- **Score Card** : A statistical record showing a single performance parameter. 
 
-- _Meter_ : Data is presented in the form of a gauge with normal, warning, and alarm levels. 
-
-- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
+- **Trend Card** : A statistical record showing parameters whose dynamic change is important to the business     processes of your organization. 
 
 - **Pivot Table** : A data table organized to filter, sort, count, total, or give the average of data from an Acumatica     ERP inquiry, displaying the summarized results in a separate table. 
 
-- **Power BI Tile** : A chart, scorecard, or other analytical information that is represented on a Power BI     dashboard designed by your organization. 
+- **Embedded Page** : A document or an image that is stored on an external resource, such as cloud storage. 
 
-- **Trend Card KPI** : A statistical record showing parameters whose dynamic change is important to the     business processes of your organization. 
+- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
 
-- **Wiki Page** : A reference topic, procedure, business plan, or other content that is frequently consulted by     Acumatica ERP users. 
+- **Wiki** : A reference topic, procedure, business plan, or other content that is frequently consulted by     Acumatica ERP users. 
+
+- **Header** : A title that can be added to the widget section. 
+
+- **Power BI** : A chart, scorecard, or other analytical information that is represented on a Power BI dashboard     designed by your organization. 
 
 #### Actions with Widgets on Dashboards 
 
- In design mode of a dashboard, a user designing the dashboard can perform the following actions: 
+ In design mode of a dashboard, you can perform the following actions: 
 
-- Add a new widget: The user clicks **Add a New Widget** in a widget placeholder. 
+- Add a new widget: Click **New Widget** in a widget placeholder. 
 
-- Move an existing widget to a new position on the dashboard: The user drags the widget by its title bar from     its current position to a widget placeholder on the dashboard. 
+- Move an existing widget to a new position: Drag the widget from its current position to a new position on the     dashboard. 
 
-- Copy and paste an existing widget: The user copies an existing widget by clicking the Copy button on the     widget title bar and then clicks **Paste from Clipboard** in a widget placeholder. The user can copy and paste     widgets within one dashboard or from one dashboard to another. The clipboard clears when the user     session ends. 
+- Copy and paste an existing widget: Click **Copy** on the widget title bar and then click **Paste Copied** in a     widget placeholder. You can copy and paste widgets within the same dashboard or from one dashboard to     another. The clipboard clears when the user session ends. 
 
-- Change widget properties: The user can change the properties of the widget by clicking the Edit button on     the title bar of the widget. 
+- Change widget properties: Click **Edit** on the title bar of the widget. 
 
-- Delete a widget: The user deletes a widget by clicking the Delete button on the title bar of the widget. 
+- Delete a widget: Click **Remove** on the title bar of the widget. 
 
 ### Dashboard Design: Widget Arrangement 
 
- Best practices in dashboard design involve more than just good metrics and well-thought-out charts. The next step is the placement of charts on a dashboard. If your dashboard is well organized, users will easily find the information 
-
-
-<!-- PAGE_BREAK -->
- Designing Dashboard Contents | 201 
-
- they need. Poor layout forces users to think more before they grasp the key points. The general rule is that key information should be displayed first—at the top of the screen, in the upper le corner. 
+ Best practices in dashboard design involve more than just good metrics and well-thought-out charts. The next step is the placement of charts on a dashboard. If your dashboard is well organized, users will easily find the information they need. Poor layout forces users to think more before they grasp the key points. The general rule is that key information should be displayed first—at the top of the screen, in the upper le corner. 
 
  You should also group the charts by theme with comparable metrics placed next to each other. This way, users do not have to change gears while looking at the dashboard by, for example, jumping from sales data to marketing data, and then back to sales data. 
 
@@ -6842,7 +6980,11 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
  Acumatica ERP offers four options for dashboard layout to help you organize your widgets. These options differ in the size and shape of their working areas, which are major parts of the dashboard that determine its overall appearance. You can modify dashboard layout by clicking the Edit Layout button on the title bar of the dashboard, which opens the Dashboard Layouts dialog box. 
 
- This button appears for only a user with the dashboard owner role—that is, the user role selected in the Owner Role box on the Dashboards (SM208600) form for the dashboard. If a user with this role changes the layout of the dashboard, this change will be applied to all user copies of the dashboard. For details, see Dashboards: Access Rights. 
+
+<!-- PAGE_BREAK -->
+ Designing Dashboard Contents | 209 
+
+ This button appears for only a user with the dashboard owner role—that is, the user role selected in the Owner Role box on the Dashboards (SM208610) form for the dashboard. If a user with this role changes the layout of the dashboard, this change will be applied to all user copies of the dashboard. For details, see Dashboards: Access Rights. 
 
  The first option (see Item 1 in the following screenshot) is a single working area in which you can arrange and resize widgets. The other three options (Items 2, 3, and 4) consist of two independent working areas of different sizes with some white space between them. You can move widgets between the working areas, but you can resize a widget only within a particular working area aer you placed it in the area. 
 
@@ -6854,25 +6996,21 @@ To add a filter clause with a date-relative parameter, you select the parameter 
 
  You can select a layout option that has two working areas and leave empty space between the working areas (see the following screenshot). 
 
+ Figure: A dashboard with empty space between working areas 
 
-<!-- PAGE_BREAK -->
- Designing Dashboard Contents | 202 
-
-**_Figure: A dashboard with empty space between working areas_** 
-
-A row height is defined by the tallest widget in the row. By making some widgets shorter than the tallest widget in a row, you can visually separate the shorter widgets in the row from the widgets in the next row (see the widgets on the le of the following screenshot). 
-
-**_Figure: A dashboard with two rows_** 
-
-Alternatively, to visually separate groups of widgets, you can use specific widgets, such as header widgets and embedded page widgets. 
-
-A header widget can help you to group the widgets by theme. This also gives you the ability to simplify chart titles. 
-
-An embedded page widget can be used to display a white rectangle or square of the needed size. You can place it between other widgets in a row or between rows to add more white space to your dashboard. To create such a widget, you type about:blank instead of a URL in the widget settings and the system displays it as a white rectangle or square (see the following screenshot). 
+ A row height is defined by the tallest widget in the row. By making some widgets shorter than the tallest widget in a row, you can visually separate the shorter widgets in the row from the widgets in the next row (see the widgets on the le of the following screenshot). 
 
 
 <!-- PAGE_BREAK -->
- Designing Dashboard Contents | 203 
+ Designing Dashboard Contents | 210 
+
+ Figure: A dashboard with two rows 
+
+ Alternatively, to visually separate groups of widgets, you can use specific widgets, such as header widgets and embedded page widgets. 
+
+ A header widget can help you to group the widgets by theme. This also gives you the ability to simplify chart titles. 
+
+ An embedded page widget can be used to display a white rectangle or square of the needed size. You can place it between other widgets in a row or between rows to add more white space to your dashboard. To create such a widget, you type about:blank instead of a URL in the widget settings and the system displays it as a white rectangle or square (see the following screenshot). 
 
  Figure: An embedded page widget to add space 
 
@@ -6882,19 +7020,17 @@ An embedded page widget can be used to display a white rectangle or square of th
 
  For better dashboard design, you should understand how users can work with data on a dashboard. 
 
+
+<!-- PAGE_BREAK -->
+ Designing Dashboard Contents | 211 
+
 #### Drilling Down to the Source Data 
 
  To drill down to the source data of a widget, a user simply clicks the widget or the widget title (see the following screenshot), and the system opens in a new browser tab the generic inquiry form that is specified as the source of the widget data. 
 
  Figure: Clicking of the widget title to drill down 
 
- In a chart widget, the user can click a particular data point in the chart area, and the system opens the generic inquiry form with its results filtered according to the selected value. For example, suppose that in a doughnut chart that shows the number of opportunities generated by a source, the user clicks the sector that represents the 
-
-
-<!-- PAGE_BREAK -->
- Designing Dashboard Contents | 204 
-
- number of opportunities generated by campaigns. In a new tab, the system opens the list of opportunities that have a campaign specified as the source. 
+ In a chart widget, the user can click a particular data point in the chart area, and the system opens the generic inquiry form with its results filtered according to the selected value. For example, suppose that in a doughnut chart that shows the number of opportunities generated by a source, the user clicks the sector that represents the number of opportunities generated by campaigns. In a new tab, the system opens the list of opportunities that have a campaign specified as the source. 
 
 #### Updating Information on Widgets 
 
@@ -6904,6 +7040,10 @@ An embedded page widget can be used to display a white rectangle or square of th
 
  To zoom in on a chart region, a user drags the pointer to create a selection around the area where the user wants to zoom in (see the following screenshot). The system zooms in on the selected area when the user releases the pointer. 
 
+
+<!-- PAGE_BREAK -->
+ Designing Dashboard Contents | 212 
+
  Figure: A chart with an area selected for zooming in 
 
  To zoom out, the user clicks Update right of the chart title. 
@@ -6912,15 +7052,15 @@ An embedded page widget can be used to display a white rectangle or square of th
 
  In a chart widget, a user can point to the desired legend item to view its details on the chart (see the following screenshot). If the legend of the chart is visible, the system duplicates the values of the selected point in the legend. 
 
-
-<!-- PAGE_BREAK -->
- Designing Dashboard Contents | 205 
-
  Figure: A chart with the details displayed for a data point 
 
 #### Viewing the Legend of a Chart 
 
  If a chart legend has multiple entries or if entry names are quite long, the user will find the layout less distracting if you display the legend on demand in a pop-up box. If the legend is configured in this way for a chart, the system displays a legend icon in the right bottom corner of the chart (see the following screenshot). 
+
+
+<!-- PAGE_BREAK -->
+ Designing Dashboard Contents | 213 
 
  Figure: A chart with the legend icon shown 
 
@@ -6930,13 +7070,13 @@ An embedded page widget can be used to display a white rectangle or square of th
 
  In the legend, a user can click a legend item to exclude the associated series from the chart (see the following screenshot). 
 
-
-<!-- PAGE_BREAK -->
- Designing Dashboard Contents | 206 
-
  Figure: A chart with data excluded 
 
  For the doughnut and funnel widget types, the system proportionally distributes the share of the excluded sector among the remaining sectors on the chart. 
+
+
+<!-- PAGE_BREAK -->
+ Designing Dashboard Contents | 214 
 
 #### Sorting Data in a Table 
 
@@ -6948,11 +7088,7 @@ An embedded page widget can be used to display a white rectangle or square of th
 
  The following activity will show you how to modify your copy of an Acumatica ERP dashboard. 
 
-
-<!-- PAGE_BREAK -->
- Designing Dashboard Contents | 207 
-
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -6971,6 +7107,10 @@ An embedded page widget can be used to display a white rectangle or square of th
 4. Resize widgets 
 
 5. Specify the dashboard as your Acumatica ERP home page 
+
+
+<!-- PAGE_BREAK -->
+ Designing Dashboard Contents | 215 
 
 #### System Preparation 
 
@@ -6996,10 +7136,6 @@ An embedded page widget can be used to display a white rectangle or square of th
 
 5. Click the **Design** button again to switch to view mode for the dashboard. 
 
-
-<!-- PAGE_BREAK -->
- Designing Dashboard Contents | 208 
-
 #### Step 2: Removing Widgets from the Dashboard 
 
  Suppose that in your copy of the Controller dashboard, you do not need the following widgets, which are related to cash: Cash Position , Cash On-Hand , Cash Required: 30 Days , Cash Required: 60 Days , Cash Expected 30 days , and all blank widgets. 
@@ -7024,6 +7160,10 @@ An embedded page widget can be used to display a white rectangle or square of th
 
 - Any blank widgets (those in which you see only a white background and the widget toolbar) You can see the modified dashboard in the following screenshot. 
 
+
+<!-- PAGE_BREAK -->
+ Designing Dashboard Contents | 216 
+
  Figure: The dashboard without the cash-related widgets 
 
 5. On the dashboard title bar, click the **Design** button to switch to view mode for the dashboard. 
@@ -7036,10 +7176,6 @@ An embedded page widget can be used to display a white rectangle or square of th
 
 1. While you are still viewing the _Controller_ dashboard in view mode, click the **Design** button on the dashboard     title bar to switch on design mode. 
 
-
-<!-- PAGE_BREAK -->
- Designing Dashboard Contents | 209 
-
 2. Drag the _Top Overdue Balances_ widget by its title bar to the lower-le part of the dashboard. 
 
 3. Drag the _Overdue Payments_ and _Overdue 90+_ widgets, one by one, by their title bar to the right working area. 
@@ -7049,6 +7185,10 @@ An embedded page widget can be used to display a white rectangle or square of th
 5. Drag the _Vendor Payment Hold_ widget by its title bar to the widget placeholder next to the _On Credit Hold_     widget. 
 
  You can see the modified dashboard in the following screenshot. 
+
+
+<!-- PAGE_BREAK -->
+ Designing Dashboard Contents | 217 
 
  Figure: The dashboard with the relocated widgets 
 
@@ -7066,11 +7206,11 @@ An embedded page widget can be used to display a white rectangle or square of th
 
  The width of the widgets and number of available widget placeholders depend on the size of your browser window. You may need to resize other widgets as well to get the same arrangement. 
 
+ Figure: The dashboard with the resized widgets 
+
 
 <!-- PAGE_BREAK -->
- Designing Dashboard Contents | 210 
-
- Figure: The dashboard with the resized widgets 
+ Designing Dashboard Contents | 218 
 
 4. On the dashboard title bar, click the **Design** button to switch to view mode for the dashboard. 
 
@@ -7098,25 +7238,27 @@ An embedded page widget can be used to display a white rectangle or square of th
 
  The dashboard title bar includes standard and form-specific buttons. The form-specific buttons are listed below. 
 
-
-<!-- PAGE_BREAK -->
- Designing Dashboard Contents | 211 
-
  Button Description 
 
  Design Switches the dashboard between view mode and design mode. In view mode, you can only view information on the dashboard and cannot edit it. In design mode, you can edit the dashboard layout and add or modify widgets. 
 
  This button is visible to users who are assigned the Administrator role or a dashboard owner role, and to users who have created a personal copy of the dashboard by clicking Create User Copy. 
 
- For details, see Administering Dashboard Forms. 
+ For details, see Administering Dashboards. 
 
  Edit Layout Opens the Dashboard Layouts dialog box. 
 
  This button appears only in design mode. 
 
- Properties Opens the Dashboards (SM208600) form, where you can specify the properties of the dashboard. 
+ Properties Opens the Dashboards (SM208610) form, where you can specify the properties of the dashboard. 
 
- The button is displayed only in design mode and only if you have access to the Dashboards (SM208600) form. 
+ The button is displayed only in design mode and only if you have access to the Dashboards (SM208610) form. 
+
+
+<!-- PAGE_BREAK -->
+ Designing Dashboard Contents | 219 
+
+ Button Description 
 
  Reset to Default Replaces the settings of your copy of the dashboard with the settings of the original dashboard. 
 
@@ -7132,7 +7274,7 @@ An embedded page widget can be used to display a white rectangle or square of th
 
  In the Selection area, you can select the values of any parameters, and the system will filter the data displayed in widgets by using these values. (Data will be filtered on only those widgets that have the filter settings by the parameters.) 
 
- This section is displayed only if at least one active parameter has been specified for the dashboard on the Dashboards (SM208600) form. For details on dashboard parameters, see Specific Widgets: Data Filtering. 
+ This section is displayed only if at least one active parameter has been specified for the dashboard on the Dashboards (SM208610) form. For details on dashboard parameters, see Specific Widgets: Data Filtering. 
 
 #### Dashboard Layouts Dialog Box 
 
@@ -7141,12 +7283,6 @@ An embedded page widget can be used to display a white rectangle or square of th
  Element Description 
 
  Layout Option The list of layouts that can be applied to the dashboard. You can select a layout option that will organize information on your dashboard appropriately. 
-
-
-<!-- PAGE_BREAK -->
- Designing Dashboard Contents | 212 
-
- Element Description 
 
  The dialog box provides the following buttons. 
 
@@ -7162,6 +7298,10 @@ An embedded page widget can be used to display a white rectangle or square of th
 
  The widget toolbar is located at the top of each widget. The widget toolbar actions that are available to you depend on the mode in which you are working with the dashboard (view or design) and on the widget type. In view mode, you can update the widget. See the following screenshot for an example of a table widget in view mode. 
 
+
+<!-- PAGE_BREAK -->
+ Designing Dashboard Contents | 220 
+
  Figure: Widget toolbar in view mode 
 
  In design mode, shown in the following screenshot, you can copy and delete the widget and edit its properties. 
@@ -7169,10 +7309,6 @@ An embedded page widget can be used to display a white rectangle or square of th
  Figure: Widget toolbar in design mode 
 
  You can switch to design mode only if you have the rights to modify the dashboard on which the widget is added— that is, only of you see the Design button on the dashboard toolbar. The widget toolbar includes only standard buttons, which are described in the following section. 
-
-
-<!-- PAGE_BREAK -->
- Designing Dashboard Contents | 213 
 
 #### Standard Widget Toolbar Buttons 
 
@@ -7186,17 +7322,23 @@ An embedded page widget can be used to display a white rectangle or square of th
 
  Edit Opens the appropriate version of the Widget Properties dialog box. 
 
- Delete Deletes the widget from the dashboard. 
+
+<!-- PAGE_BREAK -->
+ Designing Dashboard Contents | 221 
+
+**Button Icon Description** 
+
+**Delete** Deletes the widget from the dashboard. 
 
 
 <!-- PAGE_BREAK -->
- Administering Dashboard Forms | 214 
+ Administering Dashboards | 222 
 
-## Administering Dashboard Forms 
+## Administering Dashboards 
 
  In Acumatica ERP, a dashboard is a form to which you can add a collection of widgets that give you needed information at a glance. 
 
- To be able to manage dashboards, your user account must be designed a role with full access rights to the Dashboards (SM208600) form. By default, the built-in Administrator role provides the access rights for working with dashboards. 
+ To be able to manage dashboards, your user account must be designed a role with full access rights to the Dashboards (SM208610) or Classic Dashboards (SM208600) forms. By default, the built-in Administrator role provides the access rights for working with dashboards. 
 
  In this part of the guide, you will learn how to create a dashboard and how to configure access rights to dashboards. 
 
@@ -7204,35 +7346,45 @@ An embedded page widget can be used to display a white rectangle or square of th
 
  In Acumatica ERP, a dashboard is a collection of widgets—small components you configure to display a particular type of information—that are displayed on a single form and are designed to give you needed information at a glance. 
 
- When you create a dashboard, which is also an Acumatica ERP form, you can click buttons to perform dashboardspecific actions. You can share a dashboard with other users as you can other forms. That is, you can place any dashboard in a workspace by adding it to the Acumatica ERP site map and specifying different access levels to the dashboard form for the user roles available in the system. 
+ When you create a dashboard, which is also an Acumatica ERP form, you can click buttons to perform dashboardspecific actions. You can share a dashboard with other users as you can other forms. 
 
 #### Learning Objectives 
 
  In this chapter, you will learn how to do the following: 
 
-- Create a dashboard form 
+- Create a dashboard 
 
-- Manage access rights for the viewing and configuration of dashboard forms 
+- Manage access rights for the viewing and configuration of a dashboard 
 
 #### Applicable Scenario 
 
- You administer dashboard forms if you are responsible for system administration or for the customization of Acumatica ERP in your company. 
+ You administer dashboards if you’re responsible for system administration or for the customization of Acumatica ERP in your company. 
 
-#### Creation of a New Dashboard Form 
+#### Dashboards in the Modern UI 
 
- On the Dashboards (SM208600) form, you add the new dashboard form and enter its internal identifier in the Name box. 
+ In the Modern UI, dashboards have a sleeker design, faster performance, and a more intuitive experience for both dashboard creators and users. These dashboards represent a complete redesign from the Classic UI dashboards. 
+
+ The new Dashboards (SM208610) form provides a centralized place to create or delete Modern UI dashboards and manage their properties. 
+
+ You can manage Classic UI dashboards through the renamed Classic Dashboards (SM20860) form. Design of these dashboards works as it did in previous versions of Acumatica ERP. 
+
+#### Creation of a New Dashboard 
+
+ On the Dashboards (SM208610) form, you add a record for the dashboard to be created and enter its internal identifier in the Name box. 
 
  In the Owner Role box, you select a user role. All users that have the selected role assigned are the owners of the dashboard. That is, the Design button on the dashboard title bar is available to these users. If they click the button, the dashboard switches to design mode. In this mode, an owner of the dashboard can populate the dashboard with widgets, modify the dashboard layout, and edit widget properties. 
 
-#### Publication of a Dashboard 
-
- You publish a dashboard to make it available to users. To do this, on the form toolbar of the Dashboards (SM208600) form, you click the Publish to the UI button. The system opens the Publish to the UI dialog box. 
-
- In this dialog box, you make the needed changes to the default values in the Site Map Title (in which the system inserts the value you have specified as the name), Workspace , and Category boxes. 
-
 
 <!-- PAGE_BREAK -->
- Administering Dashboard Forms | 215 
+ Administering Dashboards | 223 
+
+#### Publication of a Dashboard 
+
+ You publish a dashboard to make it available to users. To do this, on the form toolbar of the Dashboards (SM208610) form, you click the Publish to the UI button. The system opens the Publish to the UI dialog box. 
+
+ If the Classic UI version of the current dashboard is already published to the UI, the system suggests that you replace the Classic UI dashboard or publish the Modern UI dashboard alongside it. 
+
+ In the Publish to the UI dialog box, you make the needed changes to the default values in the Site Map Title (in which the system inserts the value you have specified as the name), Workspace , and Category boxes. 
 
  Also, the system assigns the dashboard an automatically generated ID in a format similar to the format of screen IDs of other dashboards, with DB as the two-letter module code: DB000000. When the ID is assigned, the system adds the dashboard to the site map on the Site Map (SM200520) form and shows its ID in the Screen ID box. This means that the dashboard is the dashboard is published on the Acumatica ERP site. 
 
@@ -7250,11 +7402,15 @@ An embedded page widget can be used to display a white rectangle or square of th
 
 #### Configuration of Dashboard Visibility 
 
- On the Visible To tab of the Dashboards (SM208600) form, you specify the access levels for the roles defined in the system. To give the access, you select the Granted access level for the roles for which the dashboard should be available. Users that do not have a role for which the Granted access level is specified will not be able to view the dashboard. 
+ On the Visible To tab of the Dashboards (SM208610) form, you specify the access levels for the roles defined in the system. To give access, you select the Granted access level for the roles for which the dashboard should be available. Users that do not have a role with the Granted access level is specified will not be able to view the dashboard. 
 
 #### Ability to Personalize a Dashboard 
 
- You can also control whether these users who can view a dashboard can personalize the dashboard—that is, create a personal copy of the dashboard and configure and modify the copied widgets. To provide users with this capability, you need to select the Allow Users to Personalize check box on the Dashboards (SM208600) form for the particular dashboard. With this check box selected, the Create User Copy button will be displayed on the title bar of the dashboard. A user clicks the button to create a personal copy of the dashboard. 
+ You can also control whether users who can view the dashboard can personalize it—that is, create a personal copy of the dashboard and configure and modify the copied widgets. To provide users with this capability, you need to select the Allow Users to Personalize check box on the Dashboards (SM208610) form for the particular dashboard. With this check box selected, the Create User Copy button will be displayed on the title bar of the dashboard. A user clicks the button to create a personal copy of the dashboard. 
+
+
+<!-- PAGE_BREAK -->
+ Administering Dashboards | 224 
 
  If a user has created a personal copy of the dashboard and made modifications to it, this user can reset the copy to the original dashboard by clicking the Reset to Default button on the title bar of the dashboard. 
 
@@ -7262,37 +7418,39 @@ An embedded page widget can be used to display a white rectangle or square of th
 
 #### Ability to Deactivate Widgets 
 
- In Acumatica ERP, you can deactivate a widget that consumes a lot of memory, malfunctions, or currently is not needed. On the Widgets tab of the Dashboards (SM208600) form, the list of widgets of the selected dashboard is shown. By default, the Active check box is selected for each widget, meaning that the widget is shown on the dashboard. You can deactivate a widget on the dashboard by clearing the Active check box for the widget. If you clear the check box, the widget is no longer shown on the dashboard in either view mode or design mode. 
-
-
-<!-- PAGE_BREAK -->
- Administering Dashboard Forms | 216 
+ In Acumatica ERP, you can deactivate a widget that consumes a lot of memory, malfunctions, or currently isn’t needed. On the Widgets tab of the Dashboards (SM208610) form, the list of widgets of the selected dashboard is shown. By default, the Active check box is selected for each widget, meaning that it’s shown on the dashboard. You can deactivate a widget on the dashboard by clearing the Active check box for it. If you clear the check box, the widget is no longer shown on the dashboard in either view mode or design mode. 
 
  A user with the dashboard owner role or a user who has created a personalized copy of a dashboard can drag a widget to the place of an inactive widget. If the inactive widget is activated again, it may not reappear on the dashboard. In this case, you may need to know the hidden widget's coordinates so that you can quickly locate it and rearrange the widgets on the dashboard. Widget coordinates are shown in the Row and Column table columns on the Widgets tab of the Dashboards form for the dashboard. For details, see Dashboards: Widget Location Within a Working Area. 
 
 #### Ability to Delete Widgets 
 
- On the Widgets tab of the Dashboards (SM208600) form, you can delete a widget from a dashboard by selecting the row of the needed widget and clicking the Delete Row button on the form toolbar. 
+ On the Widgets tab of the Dashboards (SM208610) form, you can delete a widget from a dashboard by selecting its row and clicking the Delete Row button on the table toolbar. 
 
 #### Exposure to the Acumatica Mobile App 
 
- If a dashboard should be displayed in the Acumatica mobile app connected to your Acumatica ERP site, you select the Expose to the Mobile Application check box on the Dashboards (SM208600) form for the particular dashboard. 
+ If a dashboard should be displayed in the Acumatica mobile app connected to your Acumatica ERP site, you select the Expose to the Mobile Application check box on the Dashboards (SM208610) form for the particular dashboard. 
 
 #### Export of a Dashboard 
 
- On the Dashboards (SM208600) form, you can prepare a dashboard as an XML file to export it to another tenant of your Acumatica ERP site. You can do this by opening the needed dashboard and clicking the Export as XML command on the Clipboard menu of the form toolbar. For details, see To Export Data to XML. Then in the other tenant, you open the Dashboards form and click the Import from XML command on the Clipboard menu of the form toolbar, as described in To Import Data from XML. 
+ On the Dashboards (SM208610) form, you can prepare a dashboard as an XML file to export it to another tenant of your Acumatica ERP site. You can do this by opening the needed dashboard and clicking the Export as XML command on the Clipboard menu of the form toolbar. For details, see To Export Data to XML. Then in the other tenant, you open the Dashboards form and click the Import from XML command on the Clipboard menu of the form toolbar, as described in To Import Data from XML. 
 
- If a dashboard contains a widget that is a wiki page or a widget based on a generic inquiry (such as a table widget or a KPI widget), you need to make sure that this wiki page or generic inquiry exists in the tenant to which you are exporting the dashboard. If it does not, you need first to create the wiki page or generic inquiry in the tenant. You can also import the wiki page or generic inquiry from the tenant where it is stored along with the dashboard and then export the wiki page or generic inquiry to the same tenant where you are exporting the dashboard. Aer importing a dashboard, you need to reselect the wiki page or generic inquiry in the imported dashboard on the Dashboards form. For details, see Specific Widgets: Table Widgets , Specific Widgets: Wiki Page Widgets , and Specific Widgets: KPI Widgets. 
+ If a dashboard contains a widget that’s a wiki page or a widget based on a generic inquiry (such as a table widget or a KPI widget), make sure that this wiki page or generic inquiry exists in the tenant to which you’re exporting the dashboard. If it doesn’t, you need to create the wiki page or generic inquiry in the tenant. You can also import the wiki page or generic inquiry from the tenant where it is stored along with the dashboard and then export the wiki page or generic inquiry to the same tenant where you are exporting the dashboard. Aer importing a dashboard, you need to reselect the wiki page or generic inquiry in the imported dashboard on the Dashboards form. 
+
+ For details, see Specific Widgets: Table Widgets , Specific Widgets: Wiki Page Widgets , and Specific Widgets: KPI Widgets. 
 
 ### Dashboards: Access Rights 
 
  In Acumatica ERP, you can allow users to manage dashboards, to view a dashboard, and to modify widgets on a dashboard. In this topic, you will read about access rights to dashboards. 
 
-#### Access Rights for Administering Dashboard Forms 
 
- When you want to allow users to administer dashboards, you need to assign them a user role with full access rights to the Dashboards (SM208600) form. Users with such a role can do the following: 
+<!-- PAGE_BREAK -->
+ Administering Dashboards | 225 
 
-- Add and remove dashboard forms 
+#### Access Rights for Administering Dashboards 
+
+ When you want to allow users to administer dashboards, you need to assign them a user role with full access rights to the Dashboards (SM208610) form. Users with such a role can do the following: 
+
+- Add and remove dashboards 
 
 - Select the user role whose users are allowed to design a particular dashboard 
 
@@ -7302,15 +7460,11 @@ An embedded page widget can be used to display a white rectangle or square of th
 
 - Allow other users to personalize their copy of a specific dashboard If you want a user who can administer a dashboard to also be able to design the dashboard (that is, make changes that are visible to all users who can view the dashboard), you should assign the dashboard owner role to this user. 
 
-
-<!-- PAGE_BREAK -->
- Administering Dashboard Forms | 217 
-
  You can't delete system dashboards. 
 
 #### Access Rights for Designing Dashboards 
 
- A dashboard can be designed by only a user with the role specified as the owner role of the particular dashboard in the Owner Role box on the Dashboards (SM208600) form. A user with a dashboard owner role can design the contents of the dashboard from scratch or modify them: modify the dashboard layout, add and delete widgets, arrange widgets, and modify widget properties. 
+ A dashboard can be designed by only a user with the role specified as the owner role of the particular dashboard in the Owner Role box on the Dashboards (SM208610) form. A user with a dashboard owner role can design the contents of the dashboard from scratch or modify them: modify the dashboard layout, add and delete widgets, arrange widgets, and modify widget properties. 
 
  For predefined dashboards and dashboards created in previous versions of Acumatica ERP, the default owner role is the predefined role DashboardDesigner. 
 
@@ -7318,11 +7472,15 @@ An embedded page widget can be used to display a white rectangle or square of th
 
 #### Access Rights for Viewing Widget Data 
 
- The set of widgets that are displayed to the users who can view the dashboard depends on their access rights to the forms from which the widgets' source data is taken. If access to a form underlying a widget is denied for particular users, they see a placeholder with a grey lock icon instead of this widget on the dashboard. For example, suppose that you have added the following widgets to the dashboard you have defined as the home page in the system: 
+ The set of widgets that are displayed to the users who can view the dashboard depends on their access rights to the forms from which the widgets' source data is taken. If access to a form underlying a widget is denied for particular users, they see a placeholder with a gray lock icon instead of this widget on the dashboard. For example, suppose that you have added the following widgets to the dashboard you have defined as the home page in the system: 
 
 - _Bills to Approve_ , which uses data from the _Approve Bills for Payment_ (AP502000) form 
 
 - _Accounts Receivable Balances_ , which is based on data from the _Vendor Summary_ (AR401000) form When users who do not have access to the _Approve Bills for Payment_ form sign in to the system, they can view only the _Accounts Receivable Balances_ widget; they cannot view the _Bills to Approve_ widget on the dashboard. If the particular dashboard can be personalized, any of these users can delete the hidden widget or change its properties in their personal copy of the dashboard. 
+
+
+<!-- PAGE_BREAK -->
+ Administering Dashboards | 226 
 
 ### Dashboards: Widget Location Within a Working Area 
 
@@ -7332,15 +7490,15 @@ An embedded page widget can be used to display a white rectangle or square of th
 
  Widgets are organized in rows and columns (or both) within a working area. A widget's coordinates represent its exact location: the number of its row and the number of its column. For example, the widget in the top le corner has a location of 0, 0: the 0 row and the 0 column. 
 
- Widget coordinates are shown in the Row and Column table columns on the Widgets tab of the Dashboards (SM208600) form for a dashboard (see the following screenshot). 
+ Widget coordinates are shown in the Row and Column table columns on the Widgets tab of the Dashboards (SM208610) form for a dashboard (see the following screenshot). 
+
+ Figure: The widget coordinates on the Widgets tab 
+
+ Suppose that a dashboard has one working area and six widgets, three in the first row and three in the second row (see the following screenshot). 
 
 
 <!-- PAGE_BREAK -->
- Administering Dashboard Forms | 218 
-
-**_Figure: The widget coordinates on the Widgets tab_** 
-
-Suppose that a dashboard has one working area and six widgets, three in the first row and three in the second row (see the following screenshot). 
+ Administering Dashboards | 227 
 
 **_Figure: A dashboard with one working area and six widgets_** 
 
@@ -7360,15 +7518,15 @@ The widgets in the second row have the following coordinates:
 
 - Widget 6: 1, 2 (row 1 and column 2) 
 
+If a dashboard layout has two independent working areas, the location of a widget is defined independently in each of the two working areas. Suppose that a dashboard has two working areas and eight widgets, four widgets in each working area. Each working area has two rows, and each row has two widgets (see the following screenshot). 
+
+**_Figure: A dashboard with two working areas and eight widgets_** 
+
+The widgets in the first row of each working area have the following coordinates: 
+
 
 <!-- PAGE_BREAK -->
- Administering Dashboard Forms | 219 
-
- If a dashboard layout has two independent working areas, the location of a widget is defined independently in each of the two working areas. Suppose that a dashboard has two working areas and eight widgets, four widgets in each working area. Each working area has two rows, and each row has two widgets (see the following screenshot). 
-
- Figure: A dashboard with two working areas and eight widgets 
-
- The widgets in the first row of each working area have the following coordinates: 
+ Administering Dashboards | 228 
 
 - Widgets 1 and 5: 0, 0 
 
@@ -7380,19 +7538,15 @@ The widgets in the second row have the following coordinates:
 
 #### Finding of Deactivated Widgets 
 
- A widget that has the Active check box cleared on the Widgets tab of the Dashboards (SM208600) form is not shown on the dashboard in either view mode or design mode. A user with the dashboard owner role or a user that has created a personalized copy of the dashboard can drag another widget into the location of the inactive widget. If you then select the Active check box for this inactive widget, it may remain hidden on the dashboard. You can quickly locate the hidden widget by using its coordinates in the Row and Column table columns on the Widgets tab. 
+ A widget that has the Active check box cleared on the Widgets tab of the Dashboards (SM208610) form is not shown on the dashboard in either view mode or design mode. A user with the dashboard owner role or a user that has created a personalized copy of the dashboard can drag another widget into the location of the inactive widget. If you then select the Active check box for this inactive widget, it may remain hidden on the dashboard. You can quickly locate the hidden widget by using its coordinates in the Row and Column table columns on the Widgets tab. 
 
  If you do not use a widget anymore, you can remove it from the selected dashboard. To do this, click the row with this widget, and then click Delete Row on the table toolbar. 
 
-### Dashboards: To Add a Dashboard Form 
+### Dashboards: To Add a Dashboard 
 
  The following activity will show you how to create a dashboard and share it with other users. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-
-<!-- PAGE_BREAK -->
- Administering Dashboard Forms | 220 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -7402,11 +7556,15 @@ The widgets in the second row have the following coordinates:
 
  In this activity, you will do the following: 
 
-1. Create a record for the dashboard on the _Dashboards_ (SM208600) form and specify the requested settings.     You will specify your role ( _Administrator_ ) as the owner role of this dashboard so that you can design the     dashboard later if this is requested. 
+1. Create a record for the dashboard on the _Dashboards_ (SM208610) form and specify the requested settings.     You will specify your role ( _Administrator_ ) as the owner role of this dashboard so that you can design the     dashboard later if this is requested. 
 
 2. Review how the access rights assigned to the dashboard are working. You will try to view the created     dashboard as a technical specialist (with the _Administrator_ role) and then as a sales manager (with the _Sales_     _Manager_ role). 
 
 3. Change access rights to the dashboard so that users with the _Administrator_ role can open the dashboard in     order to begin adding widgets to it. 
+
+
+<!-- PAGE_BREAK -->
+ Administering Dashboards | 229 
 
 #### System Preparation 
 
@@ -7418,25 +7576,19 @@ The widgets in the second row have the following coordinates:
 
  To create the dashboard that the sales managers need, do the following: 
 
-1. Open the _Dashboards_ (SM208600) form. 
+1. Open the _Dashboards_ (SM208610) form. 
 
 2. In the Summary area, in the **Name** box, type the name for the dashboard: SalesMgrDashboard. 
 
 3. In the **Owner Role** box, select _Administrator_. 
 
-4. Make sure that the **Allow Users to Personalize** check box is selected. 
+4. Select the **Allow Users to Personalize** check box. 
 
 5. On the form toolbar, click **Save**. 
 
 6. On the form toolbar, click **Publish to the UI**. In the dialog box that opens, do the following:     a. In the **Site Map Title** box, change the system-specified value, which was copied from the **Name** box, to        Sales Mgr Dashboard.     b. In the **Workspace** box, select _Opportunities_.     c. In the **Category** box, leave the default value, _Dashboards_.     d. In the **Screen ID** , leave the automatically assigned identifier.     e. In the **Access Rights** section, select the **Set to Revoked for All Roles** option button.     f. Click **Publish** to publish the dashboard and close the dialog box. 
 
-7. On the **Visible To** tab, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Administering Dashboard Forms | 221 
-
- a. Locate the row with Sales Manager in the Role column. 
+7. On the **Visible To** tab, do the following:     a. Locate the row with _Sales Manager_ in the **Role** column. 
 
  You can use the search box in the le corner of the table footer. 
 
@@ -7454,9 +7606,13 @@ The widgets in the second row have the following coordinates:
 
  If the Opportunities menu item is not on the main menu, click the More Items menu item and then click the Opportunities tile. 
 
+
+<!-- PAGE_BREAK -->
+ Administering Dashboards | 230 
+
 2. On the workspace footer, click the **Show All** button to expand the workspace menu, and look for the _Sales_     _Mgr Dashboard_ link under the **Dashboards** category.     The system does not display a link to the dashboard you have created because you have limited the access     to the dashboard to only those who have the _Sales Manager_ role. The _Administrator_ role does not have     access to the dashboard. 
 
- In Step 1, you specified the Administrator role as the Owner Role of the dashboard, indicating that a user with this role assigned can design the dashboard and edit its settings. This setting does not control, however, whether the Administrator role can access the dashboard. The rights of all roles to the dashboard are specified on the Visible To tab of the Dashboards (SM208600) form. 
+ In Step 1, you specified the Administrator role as the Owner Role of the dashboard, indicating that a user with this role assigned can design the dashboard and edit its settings. This setting does not control, however, whether the Administrator role can access the dashboard. The rights of all roles to the dashboard are specified on the Visible To tab of the Dashboards (SM208610) form. 
 
 3. Sign out, and then sign in by using the _chubb_ username and the _123_ password. These are the credentials of     David Chubb, whose user account has the _Sales Manager_ role. 
 
@@ -7464,17 +7620,13 @@ The widgets in the second row have the following coordinates:
 
  Figure: Sales Mgr Dashboard viewed by a sales manager 
 
-
-<!-- PAGE_BREAK -->
- Administering Dashboard Forms | 222 
-
 #### Step 3: Changing the Assess Rights to the Dashboard 
 
  Now you need to change the access rights of the dashboard so that users with the Administrator role can open the dashboard in order to begin adding widgets. To change the access rights to the dashboard, do the following: 
 
 1. Sign out, and sign in by using the _gibbs_ username and the _123_ password. These are the credentials of the     technical specialist with the _Administrator_ role (which you used earlier). 
 
-2. Open the _Dashboards_ (SM208600) form. 
+2. Open the _Dashboards_ (SM208610) form. 
 
 3. In the Summary area, in the **Name** box, select _SalesMgrDashboard_. 
 
@@ -7484,15 +7636,19 @@ The widgets in the second row have the following coordinates:
 
 6. Open the **Opportunities** workspace, and click the _Sales Mgr Dashboard_ link. 
 
+
+<!-- PAGE_BREAK -->
+ Administering Dashboards | 231 
+
  If the dashboard link is not displayed in the workspace right away, refresh your browser window. 
 
  The system opens the dashboard, indicating that you have the needed access rights to view the dashboard. On the dashboard title toolbar, notice that the Design button is displayed (as shown in the following screenshot). This means that as an owner of the dashboard, you can populate it with widgets. 
 
- Figure: Sales Mgr Dashboard viewed by the owner of the dashboard 
+**_Figure: Sales Mgr Dashboard viewed by the owner of the dashboard_** 
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 223 
+ Configuring Widgets | 232 
 
 ## Configuring Widgets 
 
@@ -7520,41 +7676,63 @@ The widgets in the second row have the following coordinates:
 
 #### Widget Type Selection 
 
- When you click Add a New Widget in a widget placeholder, the system opens the Add Widget dialog box. You select a widget type and click Next (see the following screenshot). The system opens the Widget Properties dialog box, whose elements you use to configure the settings of the widget. 
+ When you click Add a New Widget in a widget placeholder, the system opens the Add Widget dialog box where you select the desired widget type (see the following screenshot). The system opens the Widget Properties dialog box, whose elements you use to configure the settings of the widget. 
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 224 
+ Configuring Widgets | 233 
 
- Figure: The Add Widget dialog box with the Data Table widget type selected 
+ Figure: The Add Widget dialog box 
+
+#### Widget Properties 
+
+ In the Modern UI, you’ll find widget configuration streamlined and more intuitive than it was in the Classic UI. You can define the widget’s settings, set up filters, and adjust layout options in a single dialog box. Also, you can see filter conditions without extra clicks and find settings easily. 
+
+ The Widget Properties dialog box has slightly different settings based on the type of widget you're creating. Below you can see the dialog box for a widget for a scorecard. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 234 
+
+ Figure: The Widget Properties dialog box 
+
+ The Modern UI’s approach to parameter mapping gives you greater control and flexibility. You can: 
+
+- Map a widget filter directly to a field or GI parameter 
+
+- Specify conditions at the dashboard level instead of within individual widgets 
+
+- Save multiple filters for possible reuse and switch between them as needed 
+
+- Modify conditions quickly without reconfiguring widgets 
 
 #### Caption 
 
- For all widget types, the Caption box, in which you specify the widget title, appears in the Widget Properties dialog box. The system displays the title in all capital letters in the widget, regardless of the capitalization you used while typing the title. 
+ For all widget types, the Caption box, in which you specify the widget title, appears in the Widget Properties dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 235 
 
 #### Caching of Dashboard Widgets 
 
- When a dashboard with many widgets is refreshed or opened, it may take a lot of time to load data for all widgets. Dashboard widgets can display information that is updated very frequently (such as every five minutes) or very rarely (such as once a week). When you design the dashboard, you can manage the interval at which the system refreshes data for each widget. 
+ When a dashboard with many widgets is refreshed or opened, it may take certain time to load data for all widgets. Dashboard widgets can display information that is updated very frequently (such as every five minutes) or very rarely (such as once a week). When you design the dashboard, you can manage the interval at which the system refreshes data for each widget. 
 
  You can specify the interval at which the system refreshes data (see the following screenshot) or you can switch off caching by using the Refresh Data box of the Widget Properties dialog box for any type of widget. 
 
+ Figure: Caching settings of a widget 
 
-<!-- PAGE_BREAK -->
- Configuring Widgets | 225 
+ Aer you specify the refresh interval for a widget, the system loads the widget data from the database and caches the data when a user opens the dashboard with the widget for the first time. When the dashboard is reopened or the dashboard page is refreshed by the user, the system displays the data in the widget from the cache (that is, it does not load the data from the database) if the data was updated a shorter time ago than the interval specified in the Refresh Data box. 
 
-**_Figure: Caching settings of a widget_** 
+ To switch off caching for a particular widget and make the system update the widget's data each time a dashboard is opened or refreshed, the dashboard designer should select On Page Reload in the Refresh Data box for the widget. 
 
-Aer you specify the refresh interval for a widget, the system loads the widget data from the database and caches the data when a user opens the dashboard with the widget for the first time. When the dashboard is reopened or the dashboard page is refreshed by the user, the system displays the data in the widget from the cache (that is, it does not load the data from the database) if the data was updated a shorter time ago than the interval specified in the **Refresh Data** box. 
-
-To switch off caching for a particular widget and make the system update the widget's data each time a dashboard is opened or refreshed, the dashboard designer should select _On Page Reload_ in the **Refresh Data** box for the widget. 
-
-A user can view information about how much time has passed since the last update of a widget’s data in the popup toolbar that appears when the user points to the widget (as shown in the following screenshot). The user can manually update the widget data by clicking **Update** on this toolbar. 
-
-**_Figure: The elapsed time since the last update of the widget's data_** 
+ A user can view information about how much time has passed since the last update of a widget’s data in the popup toolbar that appears when the user points to the widget (as shown in the following screenshot). The user can manually update the widget data by clicking Update on this toolbar. 
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 226 
+ Configuring Widgets | 236 
+
+ Figure: The elapsed time since the last update of the widget's data 
 
 ### Widget Settings: To Change a Widget's Title and Caching Settings 
 
@@ -7590,6 +7768,10 @@ A user can view information about how much time has passed since the last update
 
 1. Open the _Controller_ dashboard. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 237 
+
 2. On the dashboard title bar, click the **Design** button. 
 
 3. On the title bar of the _Overdue Customers_ widget, click Edit (the pencil icon). 
@@ -7604,13 +7786,7 @@ A user can view information about how much time has passed since the last update
 
 8. Click **Finish** to save your changes and close the dialog box. 
 
-9. On the dashboard title bar, click the **Design** button. 10.Wait for a minute and refresh the browser page. Point to each widget with a mouse. Notice that the system     has updated the information for all the widgets on the dashboard, except for the _Top Overdue Balances_ table 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 227 
-
- widget and the Customer Details link widget. The Top Overdue Balances table widget was updated a minute ago (see the following screenshot). 
+9. On the dashboard title bar, click the **Design** button. 10.Wait for a minute and refresh the browser page. Point to each widget with a mouse. Notice that the system     has updated the information for all the widgets on the dashboard, except for the _Top Overdue Balances_ table     widget and the _Customer Details_ link widget. The _Top Overdue Balances_ table widget was updated a minute     ago (see the following screenshot). 
 
  Figure: The information about the widget's last data update 
 
@@ -7630,15 +7806,15 @@ A user can view information about how much time has passed since the last update
 
 - Trend card KPI 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 238 
+
 #### Inquiry Parameters 
 
  An inquiry that you are using as a data source for a widget may have multiple parameters configured. These parameters are displayed as optional or required UI elements in the Selection area of the inquiry form and are used to narrow the inquiry results. 
 
  In the Widget Properties dialog box, the Inquiry Parameters button becomes available if the inquiry selected in the Inquiry Screen box has parameters. You click the button to open the Inquiry Parameters dialog box (see the following screenshot). In the dialog box, you can enter specific values for these parameters in the Value column. Initially, the system displays any default values that have been specified for the parameters in the inquiry settings. When you modify a value in the Value column, the system clears the corresponding check box in the Use Default Value column to indicate that the custom value will be used instead. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 228 
 
  Figure: Modification of values for the source inquiry parameters 
 
@@ -7650,7 +7826,7 @@ A user can view information about how much time has passed since the last update
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 229 
+ Configuring Widgets | 239 
 
  Figure: Selection of a shared filter for a widget 
 
@@ -7664,7 +7840,7 @@ A user can view information about how much time has passed since the last update
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 230 
+ Configuring Widgets | 240 
 
  Figure: Filtering conditions that are specific to the widget 
 
@@ -7674,15 +7850,15 @@ A user can view information about how much time has passed since the last update
 
  If you want to provide dashboard users with the ability to filter widget data on the fly, you can add parameters to the Selection area of a dashboard. The functionality of these parameters is similar to that of the parameters in the Selection area of inquiry forms. When a user selects values in the corresponding UI elements, the system filters the data on all applicable widgets by these values. 
 
- Widget data can be filtered by a parameter value only if the inquiry on which the widget is based contains the data field that is used by the parameter. 
+ Widget data can be filtered by a parameter value only if the inquiry on which the widget is based contains the data field that is used by the parameter. Also, unbound fields used by the inquiry are excluded from the filter. 
 
- To add parameters to a dashboard, you select the dashboard on the Dashboards (SM208600) form, and on the Parameters tab, you add parameters that will be displayed in the Selection area of the dashboard. 
+ To add parameters to a dashboard, you select the dashboard on the Dashboards (SM208610) form, and on the Parameters tab, you add parameters that will be displayed in the Selection area of the dashboard. 
 
  For each widget whose data should be filtered by the values of the added parameter or parameters, in the Filter Settings dialog box, you add a corresponding filtering condition with the Use Parameter check box selected and the parameter name specified as a value in the Value 1 column (see the following screenshot). 
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 231 
+ Configuring Widgets | 241 
 
  Figure: A dashboard parameter in a widget-specific filter 
 
@@ -7692,7 +7868,7 @@ A user can view information about how much time has passed since the last update
 
 #### Story 
 
- Suppose that you are Kimberly Gibbs, a technical specialist in your company who is working on simple customizations. A sales manager of your company had previously requested a dashboard named Sales Mgr Dashboard , and you created the requested dashboard form. Aer that, the sales manager requested that you add multiple widgets that track different KPIs and trends, and you added the needed widgets. 
+ Suppose that you are Kimberly Gibbs, a technical specialist in your company who is working on simple customizations. A sales manager of your company had previously requested a dashboard named Sales Mgr Dashboard , and you created the requested dashboard. Aer that, the sales manager requested that you add multiple widgets that track different KPIs and trends, and you added the needed widgets. 
 
  The sales manager has assessed the data displayed by the widgets and found the following issues: 
 
@@ -7704,11 +7880,11 @@ A user can view information about how much time has passed since the last update
 
  In this activity, you will do the following: 
 
-1. On the _Dashboards_ (SM208600) form, add the **Customer ID** parameter for the _SalesMgrDashboard_     dashboard. 
+1. On the _Dashboards_ (SM208610) form, add the **Customer ID** parameter for the _SalesMgrDashboard_     dashboard. 
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 232 
+ Configuring Widgets | 242 
 
 2. On the _Customer Summary (AR0008DB)_ generic inquiry form, you will add a shared filter to exclude The     Equity Group Investors from the list of customers. 
 
@@ -7722,7 +7898,7 @@ A user can view information about how much time has passed since the last update
 
  The gibbs user is assigned the Administrator role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards. 
 
-- You have completed the _Dashboards: To Add a Dashboard Form_ activity. In this activity, you created the     _Sales Mgr Dashboard_ dashboard and made sure that a user with the _Administrator_ role can populate the     dashboard with the widgets. 
+- You have completed the _Dashboards: To Add a Dashboard_ activity. In this activity, you created the _Sales Mgr_     _Dashboard_ dashboard and made sure that a user with the _Administrator_ role can populate the dashboard     with the widgets. 
 
 - You have completed the _Specific Widgets: To Add Link, Table, and Embedded Page Widgets_ activity. 
 
@@ -7730,13 +7906,13 @@ A user can view information about how much time has passed since the last update
 
 - You have completed the _Specific Widgets: To Add Chart Widgets_ activity. 
 
-- In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+- In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Adding the Dashboard Parameter 
 
  To add the dashboard parameter for the customer ID to be selected, do the following: 
 
-1. Open the _Dashboards_ (SM208600) form. 
+1. Open the _Dashboards_ (SM208610) form. 
 
 2. In the **Name** box, select _SalesMgrDashboard_. 
 
@@ -7764,7 +7940,7 @@ A user can view information about how much time has passed since the last update
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 233 
+ Configuring Widgets | 243 
 
 2. On the table toolbar, click **Filter Settings**. 
 
@@ -7834,7 +8010,7 @@ A user can view information about how much time has passed since the last update
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 234 
+ Configuring Widgets | 244 
 
 3. In the widget placeholder next to the _Orders to Ship_ widget, click **Paste from clipboard**. 
 
@@ -7874,7 +8050,7 @@ A user can view information about how much time has passed since the last update
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 235 
+ Configuring Widgets | 245 
 
  Figure: The Sales Mgr Dashboard with the widget data filtered 
 
@@ -7888,7 +8064,7 @@ A user can view information about how much time has passed since the last update
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 236 
+ Configuring Widgets | 246 
 
 #### Header Widgets 
 
@@ -7906,7 +8082,7 @@ A user can view information about how much time has passed since the last update
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 237 
+ Configuring Widgets | 247 
 
 #### Applicable Scenario 
 
@@ -7934,7 +8110,7 @@ A user can view information about how much time has passed since the last update
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 238 
+ Configuring Widgets | 248 
 
  Figure: Properties of a table widget 
 
@@ -7950,7 +8126,7 @@ A user can view information about how much time has passed since the last update
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 239 
+ Configuring Widgets | 249 
 
  Figure: Properties of a pivot table widget 
 
@@ -7972,7 +8148,7 @@ A user can view information about how much time has passed since the last update
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 240 
+ Configuring Widgets | 250 
 
  Figure: Link widget 
 
@@ -7990,27 +8166,25 @@ A user can view information about how much time has passed since the last update
 
  Figure: The correspondence of form boxes with URL parameters 
 
- Alternatively, to determine the URL parameters for the boxes that the system does not add as URL parameters, you can inspect each form element and find out what data field corresponds to the element. On the form that the link will open, you press Ctrl+Alt and click the needed element. The Element Properties dialog box opens. In the dialog box, you copy the value specified in the Data Field box, as the following screenshot shows for the Vendor box of the Bills and Adjustments (AP301000) form. In the URL shown in the screenshot, notice that the system has 
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 251 
+
+Alternatively, to determine the URL parameters for the boxes that the system does not add as URL parameters, you can inspect each form element and find out what data field corresponds to the element. On the form that the link will open, you press Ctrl+Alt and click the needed element. The **Element Properties** dialog box opens. In the dialog box, you copy the value specified in the **Data Field** box, as the following screenshot shows for the **Vendor** box of the _Bills and Adjustments_ (AP301000) form. In the URL shown in the screenshot, notice that the system has added to the URL only the document type and its reference number, because these two values explicitly identify the document, so adding other parameters to the URL is not needed. 
+
+**_Figure: The inspection of a form element_** 
+
+Aer you find out which data fields correspond to all the elements whose settings you want to provide to the system when a user clicks the link, you add the parameters for the link widget. You open the **Widget Properties** dialog box for the needed link widget and specify the parameters in the **Parameters** box. The following screenshot shows an example of the configuration settings of a link widget. 
+
+**_Figure: Properties of a link widget_** 
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 241 
-
- added to the URL only the document type and its reference number, because these two values explicitly identify the document, so adding other parameters to the URL is not needed. 
-
- Figure: The inspection of a form element 
-
- Aer you find out which data fields correspond to all the elements whose settings you want to provide to the system when a user clicks the link, you add the parameters for the link widget. You open the Widget Properties dialog box for the needed link widget and specify the parameters in the Parameters box. The following screenshot shows an example of the configuration settings of a link widget. 
-
- Figure: Properties of a link widget 
+ Configuring Widgets | 252 
 
 ### Specific Widgets: Embedded Page Widgets 
 
  You can embed a page from an external website as a widget on a dashboard. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 242 
 
 #### Applicable Scenario 
 
@@ -8028,13 +8202,13 @@ A user can view information about how much time has passed since the last update
 
  Figure: Properties of an embedded page widget 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 253 
+
 ### Specific Widgets: To Add Link, Table, and Embedded Page Widgets 
 
  The following activity will show you how to add and configure link, table, and embedded page widgets. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 243 
 
 #### Story 
 
@@ -8058,7 +8232,7 @@ A user can view information about how much time has passed since the last update
 
 - You have signed in as a system administrator with the _gibbs_ username and the _123_ password. 
 
-- You have completed the _Dashboards: To Add a Dashboard Form_ activity. In this activity, you created the     _Sales Mgr Dashboard_ dashboard and made sure that a user with the _Administrator_ role can populate the     dashboard with the widgets. 
+- You have completed the _Dashboards: To Add a Dashboard_ activity. In this activity, you created the _Sales Mgr_     _Dashboard_ dashboard and made sure that a user with the _Administrator_ role can populate the dashboard     with the widgets. 
 
  The gibbs user is assigned the Administrator role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards. 
 
@@ -8080,15 +8254,15 @@ A user can view information about how much time has passed since the last update
 
 - **Icon** : _account details_ 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 254 
+
 - **Form** : _Customer Details (AR402000)_ 
 
 - **Window Mode** : _New Tab_ 
 
 - **Description** : You use this form to track outstanding balances for a specific     customer. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 244 
 
 6. Click **Finish** to save your changes and close the dialog box. 
 
@@ -8144,7 +8318,7 @@ A user can view information about how much time has passed since the last update
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 245 
+ Configuring Widgets | 255 
 
  Figure: Sales Mgr Dashboard with the link, table, and embedded page widgets 
 
@@ -8172,7 +8346,7 @@ A user can view information about how much time has passed since the last update
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 246 
+ Configuring Widgets | 256 
 
  Figure: The settings of a KPI widget where a user can use data fields of a source inquiry 
 
@@ -8194,7 +8368,7 @@ A user can view information about how much time has passed since the last update
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 247 
+ Configuring Widgets | 257 
 
 #### Threshold Values of KPI Widgets 
 
@@ -8236,7 +8410,7 @@ A user can view information about how much time has passed since the last update
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 248 
+ Configuring Widgets | 258 
 
 - Alarm range: From the **Alarm Level** value to the **Alarm Level** value plus 20 percent of the sum of the **Normal**     **Level** value and the **Alarm Level** value 
 
@@ -8264,7 +8438,7 @@ If the **Normal Level** value is a positive number and larger than the **Alarm L
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 249 
+ Configuring Widgets | 259 
 
 - Alarm range: From zero to the **Alarm Level** value Suppose that the **Normal Level** value is 75 and the **Alarm Level** value is 35. The system will calculate the ranges as shown in the following screenshot. 
 
@@ -8294,7 +8468,7 @@ If the **Normal Level** value is a positive number and larger than the **Alarm L
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 250 
+ Configuring Widgets | 260 
 
  Figure: Properties of a scorecard widget 
 
@@ -8304,7 +8478,7 @@ If the **Normal Level** value is a positive number and larger than the **Alarm L
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 251 
+ Configuring Widgets | 261 
 
  Figure: Meter KPI widget 
 
@@ -8318,7 +8492,7 @@ If the **Normal Level** value is a positive number and larger than the **Alarm L
 
  The source inquiry should include a date parameter to be used by the system for the calculation of a trend. 
 
- For example, suppose that you want to display the number of support cases and compare it with the number in the previous month on the trend card KPI widget. The inquiry should include the date when a case was created. By using this date, the system will calculate the number of cases created during a particular period of time. Further suppose that the current business date is July 14, 2025. To find the current KPI value, the system counts the number of cases from July 1, 2025, to July 14, 2025. To find the difference, the system counts the number of cases in the previous calendar month—from June 1, 2025, to June 14, 2025—and calculates the difference between the current value and the previous one. Then the absolute difference, the difference expressed as a percent, and the current number of cases are displayed in the widget. 
+ For example, suppose that you want to display the number of support cases and compare it with the number in the previous month on the trend card KPI widget. The inquiry should include the date when a case was created. By using this date, the system will calculate the number of cases created during a particular period of time. Further suppose that the current business date is July 14, 2026. To find the current KPI value, the system counts the number of cases from July 1, 2026, to July 14, 2026. To find the difference, the system counts the number of cases in the previous calendar month—from June 1, 2026, to June 14, 2026—and calculates the difference between the current value and the previous one. Then the absolute difference, the difference expressed as a percent, and the current number of cases are displayed in the widget. 
 
  The following screenshot shows an example of a trend card KPI widget and its elements. 
 
@@ -8330,7 +8504,7 @@ If the **Normal Level** value is a positive number and larger than the **Alarm L
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 252 
+ Configuring Widgets | 262 
 
 2. The difference in the percent between the current KPI value and the previous one 
 
@@ -8364,7 +8538,7 @@ The following screenshot shows an example of the configuration of the trend card
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 253 
+ Configuring Widgets | 263 
 
 ### Specific Widgets: To Add KPI Widgets 
 
@@ -8372,7 +8546,7 @@ The following screenshot shows an example of the configuration of the trend card
 
 #### Story 
 
- Suppose that you are Kimberly Gibbs, a technical specialist in your company who is working on simple customizations. A sales manager of your company had previously requested a dashboard named Sales Mgr Dashboard. You had created the requested dashboard form. The sales manager has now requested that you add the following widgets to the dashboard to track the described KPIs: 
+ Suppose that you are Kimberly Gibbs, a technical specialist in your company who is working on simple customizations. A sales manager of your company had previously requested a dashboard named Sales Mgr Dashboard , and you created it. The sales manager has now requested that you add the following widgets to the dashboard to track the described KPIs: 
 
 - _Profitability Trend_ : The trend for the cumulative margin percentage in comparison to the previous week 
 
@@ -8392,11 +8566,11 @@ The following screenshot shows an example of the configuration of the trend card
 
  The gibbs user is assigned the Administrator role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards. 
 
-2. You have completed the _Dashboards: To Add a Dashboard Form_ activity from this course. In this activity,     you created the _Sales Mgr Dashboard_ dashboard and made sure that a user with the _Administrator_ role can     populate the dashboard with the widgets. 
+2. You have completed the _Dashboards: To Add a Dashboard_ activity from this course. In this activity, you     created the _Sales Mgr Dashboard_ dashboard and made sure that a user with the _Administrator_ role can     populate the dashboard with the widgets. 
 
 3. You have completed the _Specific Widgets: To Add Link, Table, and Embedded Page Widgets_ activity. 
 
-4. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/30/2025_ on the calendar. 
+4. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button, and select _1/30/2026_ on the calendar. 
 
 #### Step 1: Modifying the Dashboard Layout 
 
@@ -8406,7 +8580,7 @@ The following screenshot shows an example of the configuration of the trend card
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 254 
+ Configuring Widgets | 264 
 
  If the Opportunities menu item is not on the main menu, click the More Items menu item and then click the Opportunities tile. 
 
@@ -8438,7 +8612,7 @@ The following screenshot shows an example of the configuration of the trend card
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 255 
+ Configuring Widgets | 265 
 
 - **Timeline Field** : _Date_ 
 
@@ -8512,7 +8686,7 @@ The following screenshot shows an example of the configuration of the trend card
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 256 
+ Configuring Widgets | 266 
 
 2. In the **Add Widget** dialog box, select **Key Performance Indicator (KPI)** and click **Next**. 
 
@@ -8554,7 +8728,7 @@ You have changed the dashboard layout and arranged the previously added widgets 
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 257 
+ Configuring Widgets | 267 
 
  Figure: The Sales Mgr Dashboard with the changed layout and additional widgets 
 
@@ -8582,7 +8756,7 @@ You have changed the dashboard layout and arranged the previously added widgets 
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 258 
+ Configuring Widgets | 268 
 
  Each column of a generic inquiry is a data field configured in the inquiry settings. Data field can be a data field from an existing database table or a custom data field whose value is calculated by the system based on the formula specified for this field in the inquiry. 
 
@@ -8602,7 +8776,7 @@ You have changed the dashboard layout and arranged the previously added widgets 
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 259 
+ Configuring Widgets | 269 
 
 Optionally, in the **Series** section, you specify the data field to be the source of the series (Item 2), which is a set of related data. A chart can have no series or one series. Each chart type displays series differently. The values of the data field specified as the source of the series compose the chart legend. 
 
@@ -8630,7 +8804,7 @@ The following screenshot shows the resulting chart on a dashboard.
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 260 
+ Configuring Widgets | 270 
 
  Figure: A column chart with series 
 
@@ -8672,7 +8846,7 @@ The following screenshot shows the resulting chart on a dashboard.
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 261 
+ Configuring Widgets | 271 
 
  In the Maximum Number of Values Shown box, you specify the number of values to be individually shown on the chart. The system always selects the values starting from the largest ones. The default value is 10 ; that is, the system will display values for only the 10 largest categories. The maximum allowed value is 150. If you want the system to individually display all values, set the value of this box to 0. 
 
@@ -8700,7 +8874,7 @@ The following screenshot shows the resulting chart on a dashboard.
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 262 
+ Configuring Widgets | 272 
 
  The following chart represents sales values calculated by financial period. The x axis entity is the month, and the y axis entity is the sales amount. 
 
@@ -8720,7 +8894,7 @@ The following screenshot shows the resulting chart on a dashboard.
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 263 
+ Configuring Widgets | 273 
 
  Figure: Bar chart 
 
@@ -8736,7 +8910,7 @@ The following screenshot shows the resulting chart on a dashboard.
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 264 
+ Configuring Widgets | 274 
 
  Figure: Stacked column chart 
 
@@ -8762,7 +8936,7 @@ The following screenshot shows the resulting chart on a dashboard.
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 265 
+ Configuring Widgets | 275 
 
  The following doughnut chart displays the time spent on processing support cases for all employees by period-todate. Each section represents a portion of the total number of support cases. 
 
@@ -8778,7 +8952,7 @@ The following screenshot shows the resulting chart on a dashboard.
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 266 
+ Configuring Widgets | 276 
 
  Figure: Funnel chart 
 
@@ -8788,7 +8962,7 @@ The following screenshot shows the resulting chart on a dashboard.
 
 #### Story 
 
- Suppose that you are Kimberly Gibbs, a technical specialist in your company who is working on simple customizations. A sales manager of your company had previously requested a dashboard named Sales Mgr Dashboard , and you created the requested dashboard form. The sales manager has now requested that you add the following widgets to present the listed data: 
+ Suppose that you are Kimberly Gibbs, a technical specialist in your company who is working on simple customizations. A sales manager of your company had previously requested a dashboard named Sales Mgr Dashboard , and you created the requested dashboard. The sales manager has now requested that you add the following widgets to present the listed data: 
 
 - _Sales Order Trend by Month_ : The total amount of the sales orders by month 
 
@@ -8810,15 +8984,15 @@ The following screenshot shows the resulting chart on a dashboard.
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 267 
+ Configuring Widgets | 277 
 
-- You have completed the _Dashboards: To Add a Dashboard Form_ activity. In this activity, you created the     _Sales Mgr Dashboard_ dashboard and made sure that a user with the _Administrator_ role can populate the     dashboard with the widgets. 
+- You have completed the _Dashboards: To Add a Dashboard_ activity. In this activity, you created the _Sales Mgr_     _Dashboard_ dashboard and made sure that a user with the _Administrator_ role can populate the dashboard     with the widgets. 
 
 - You have completed the _Specific Widgets: To Add Link, Table, and Embedded Page Widgets_ activity. 
 
 - You have completed the _Specific Widgets: To Add KPI Widgets_ activity. 
 
-- In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+- In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Adding a Line Chart Widget 
 
@@ -8872,7 +9046,7 @@ The following screenshot shows the resulting chart on a dashboard.
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 268 
+ Configuring Widgets | 278 
 
 6. In the **Categories** section, specify the following settings: 
 
@@ -8912,7 +9086,7 @@ The following screenshot shows the resulting chart on a dashboard.
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 269 
+ Configuring Widgets | 279 
 
  Figure: The Sales Mgr Dashboard with the three chart widgets 
 
@@ -8932,7 +9106,7 @@ The following screenshot shows the resulting chart on a dashboard.
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 270 
+ Configuring Widgets | 280 
 
 ### Specific Widgets: To Add a Wiki Page Widget 
 
@@ -8964,7 +9138,7 @@ The following screenshot shows the resulting chart on a dashboard.
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 271 
+ Configuring Widgets | 281 
 
  Figure: Power BI tile widget 
 
@@ -8978,13 +9152,13 @@ The following screenshot shows the resulting chart on a dashboard.
 
  Integrating Microso Power BI reports into Acumatica ERP to be used as Acumatica ERP forms is a different type of interaction between Acumatica ERP and Microso Power BI than the integration described in the Managing Power BI Integration and To Integrate an External Application topics. 
 
- This topic walks you through the configuration of third-party soware. Please note the following: 
+ Note the following: 
 
-- The procedure below is designed for the most common usage scenarios. If you are     implementing a more complicated scenario and you encounter difficulties, contact Acumatica     ERP technical support. 
+- The procedure below covers the most common usage scenarios. If you’re implementing a     more complicated scenario and you encounter difficulties, contact Acumatica ERP technical     support. 
 
-- The vendor of the third-party soware may change the user interface and settings. Therefore,     the screen elements and setting names that you see may differ from the ones described in the     procedure. 
+- The vendor of the third-party soware may change the user interface and settings. The labels     you see in the UI may differ from the ones described in the procedure. 
 
-- The procedure will be updated to describe new common scenarios and changes in the user     interface and settings. 
+- The procedure will be updated to describe new common scenarios and UI changes arise. 
 
 #### Before You Begin 
 
@@ -8994,67 +9168,77 @@ The following screenshot shows the resulting chart on a dashboard.
 
 #### To Register Your Acumatica ERP Instance 
 
- You register a new instance on the https://app.powerbi.com/embedsetup website. If you already have any registered instances and configured Power BI tiles, you can view them on the https://dev.powerbi.com/apps website. 
+ You register a new instance on the Azure portal. If you already have any registered instances and configured Power BI tiles, you can view them on the https://app.powerbi.com/home?experience=power-bi website. 
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 272 
+ Configuring Widgets | 282 
 
  The registration of Power BI embedded is also described in Set up Power BI Embedded. 
 
 Do the following to register the instance: 
 
-1. Open the _https://app.powerbi.com/embedsetup_ website. 
+1. Sign in to the _Microsoft Azure portal_. 
 
-2. To select an embedding solution, click **Embed for your customers**. 
+2. On the le menu, click the Microso Entra ID icon. If you have one Microso Entra ID instance, it will be     opened automatically. If you have multiple instances, click the Microso Entra ID instance where you want     to register the application. 
 
-3. In the **Step 1: Sign in to Power BI** section, click **Sign in** (see the following screenshot) and type your     Microso Entra ID credentials. You will see your name in the **Welcome** line. 
+3. In the le pane, expand the **Manage** node and click **App registrations**. You will see a list of applications or     an empty list, as shown below, depending on whether any applications have been registered previously. 
 
- Figure: Signing in to your Power BI account 
+ Figure: Microso Azure: No registered applications in Microso Entra ID 
 
-4. In the **Step 2: Register your application** section, do the following:     a. Enter the name of the application, as shown in the following screenshot. 
+4. On the pane toolbar, click **New registration**. 
 
- Figure: Entering the application name 
-
- b. Select the APIs and the level of access for your application by selecting the needed check boxes, as shown in the following screenshot. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 273 
-
- The minimum permissions required are Read all datasets , Read all dashboards , and Read all reports. Other permissions are optional and may be granted for your customers' additional needs and at your company's risk. 
-
- Figure: Selecting the APIs to access 
-
- c. Click Register. 
-
-5. Optional: In the **Step 3: Create a workspace** section, enter the name of the workspace and click **Create**     **workspace**. 
-
-6. Optional: In the **Step 4: Import Content** section, select the **Sample Power BI report** or **Upload .pbix file**     option button, and click **Import**. 
-
-7. In the **Step 5: Grant permissions** section, click **Grant permissions**. 
-
-8. In the **Permission requested** dialog box, which opens, click **Accept**. 
-
-9. Open the _Microsoft Azure_ portal. 
-
-10.In the top right corner, click your email address and then click **Switch Directory**. 
-
-11.On the **Directories + subscriptions** page, make sure that your tenant is active. 
-
-12.On the portal menu, click **Microso Entra ID**. 
-
-13.On the le pane, expand the **Manage** node and click **App registrations**. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 274 
-
- 14.On the Owned applications tab, click the name of your application, which is also a link. 15.On the le menu, click Overview. 16.In the Redirect URIs box, click the link. 17.In the Platform configuration section, click Add a platform. 18.In the Configure platforms dialog box, which opens, click Web. 19.In the Configure Web window, enter the URL of your Acumatica ERP site in the following format: https:// <full URL of your Acumatica ERP site>/powerBI/auth (for example, https://app.site.net/powerBI/auth ) 
+5. In the **Register an application** pane (which is shown in the following screenshot), do the following:     a. In the **Name** box, type a name for your Acumatica ERP instance. This name will be displayed in the        application list.     b. In the **Supported account types** section, select the **Accounts in this organizational directory only**        **(<Your_Entra_ID_Instance_Name> only - Single tenant)** option button.     c. In the **Redirect URI** section, select _Web_ in the first box. In the second box enter the URL of your        Acumatica ERP site in the following format: _https://<full URL of your Acumatica ERP site>/powerBI/auth_        (for example, _https://app.site.net/powerBI/auth_ ) 
 
  This URL is case sensitive. 
 
- 20.On the le menu, click Certificates & secrets. 21.On the Client secrets tab, click New client secret. 22.In the Add a client secret dialog box, type the name of your client secret, select its expiration period, and click Add. 23.Copy the client ID and client secret values for later retrieval. 
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 283 
+
+d. Click **Register**. 
+
+**_Figure: Microso Azure: Registration of an application_** 
+
+Now your Acumatica ERP instance is registered with Microso Entra ID, and an **Application (Client) ID** value is generated (see the following screenshot). 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 284 
+
+ Figure: Microso Azure: Application registered with Microso Entra ID 
+
+6. On the le menu, click **Certificates & secrets**. 
+
+7. On the **Client secrets** tab, click **New client secret**. 
+
+8. In the **Add a client secret** dialog box, type the name of your client secret, select its expiration period, and     click **Add**. 
+
+9. Copy the client ID and client secret values for later retrieval. 
+
+ You must copy the client secret value right aer clicking Add and before you leave the page. If you leave the page and return to it, the value will be hidden and will not be shown anymore. 
+
+10.In the le pane, expand the **Manage** node and click **App registrations**. 
+
+11.Select your application on the **Owned applications** tab. 
+
+12.Click **View API permissions**. 
+
+13.In the **API permissions** pane, click **Add a permission** (see the following screenshot). 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 285 
+
+ Figure: Microso Azure: New API permissions 
+
+ 14.On the Microso APIs tab, select Power BI service. 15.Select Delegated Permissions and add the following permissions: 
+
+- **Read all datasets** 
+
+- **Read all dashboards** 
+
+- **Read all reports** Other permissions are optional and may be granted for your customers' additional needs and at your company's risk. 16.Click **Add permissions** to save your changes. 
 
 ### Specific Widgets: To Add a Power BI Tile Widget 
 
@@ -9065,6 +9249,10 @@ Do the following to register the instance:
 #### Before You Begin 
 
  Before adding a Power BI tile widget on a dashboard, ask your administrator for the client ID and client secret that he or she received aer registering your Acumatica ERP instance on Microso Azure for Power BI. For details, see Specific Widgets: To Register Your Acumatica ERP Instance for Power BI. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 286 
 
 #### To Add a Power BI Tile Widget 
 
@@ -9079,10 +9267,6 @@ Do the following to register the instance:
 4. In the **Client Secret** box, paste the client secret that your system administrator has provided. 
 
 5. Click **Sign In** to log in to the Microso Power BI website. Aer the successful sign-in, you will be     automatically redirected to Acumatica ERP. Notice that the **Dashboard** and **Tile** boxes appear in the **Widget**     **Properties** dialog box. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 275 
 
 6. In the **Dashboard** box, select the Power BI dashboard with the tile that you want to embed in the Acumatica     ERP dashboard. 
 
@@ -9104,39 +9288,49 @@ Do the following to register the instance:
 
  When you want to add a new widget to a dashboard, you first need to select the option button representing the type of the widget in the Add Widget dialog box. The elements of this dialog box are described in the following table. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 287 
+
  Element Description 
 
  Widget Type The type of widget to be added to the dashboard, which can be one of the following: 
 
-- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of various types, such as bar charts and line charts. 
+- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of the following types: 
+
+- **Doughnut** 
+
+- **Line** 
+
+- **Column** 
+
+- **Stacked Column** 
+
+- **Bar** 
+
+- **Stacked Bar** 
+
+- **Funnel** 
 
 - **Data Table** : A systematic display of data from an Acumatica ERP form, with data     arranged into rows and columns. 
 
-- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
+- **Meter** : A statistical record that tracks progress or achievement toward a specific per-     formance indicator by displaying key parameters relevant to your organization's busi-     ness processes. Data appears as a gauge with normal, warning, and alarm levels. 
 
-- **Header** : A title that can be added to the widget section. 
+- **Score Card** : A statistical record showing a single performance parameter. 
 
-- **Key Performance Indicator (KPI)** : A statistical record that measures progress or     achievement toward a set performance indicator by showing parameters that are im-     portant to the business processes of your organization and should be monitored daily.     The following visualization types are available for the widget: 
-
-- _Scorecard_ : Data is presented in the form of a card with a single parameter. 
-
-- _Meter_ : Data is presented in the form of a gauge with normal, warning, and alarm lev-     els. 
-
-- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
+- **Trend Card** : A statistical record showing parameters whose dynamic change is impor-     tant to the business processes of your organization. 
 
 - **Pivot Table** : A data table organized to filter, sort, count, total, or give the average of     data from an Acumatica ERP inquiry, displaying the summarized results in a separate     table. 
 
+- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
 
-<!-- PAGE_BREAK -->
- Configuring Widgets | 276 
+- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
 
- Element Description 
+- **Wiki** : A reference topic, procedure, business plan, or other content that is frequently     consulted by Acumatica ERP users. 
 
-- **Power BI Tile** : A chart, scorecard, or other analytical information that is represented     on a Power BI dashboard designed by your organization. 
+- **Header** : A title that can be added to the widget section. 
 
-- **Trend Card KPI** : A statistical record showing parameters whose dynamic change is im-     portant to the business processes of your organization. 
-
-- **Wiki Page** : A reference topic, procedure, business plan, or other content that is fre-     quently consulted by Acumatica ERP users. 
+- **Power BI** : A chart, scorecard, or other analytical information that is represented on a     Power BI dashboard designed by your organization. 
 
  The dialog box has the following buttons. 
 
@@ -9147,6 +9341,10 @@ Do the following to register the instance:
 #### Add Widget Dialog Box: Step 2 
 
  Aer you select the Chart widget type in the Add Widget dialog box, or when you click Edit ( ) on the widget toolbar, the Widget Properties dialog box opens. In this dialog box, you need to specify the properties that are specific to chart widgets. You should select the inquiry form to provide source data for the widget, a shared filter to be applied to the data (optional), and the type of the chart; you then configure the chart widget. For more information about chart widgets, see Specific Widgets: Chart Widgets. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 288 
 
  Table: Widget Properties Dialog Box You can use this dialog box to specify the properties that are specific to chart widgets. 
 
@@ -9174,12 +9372,6 @@ Do the following to register the instance:
 
  Previous Returns to the previous step of the dialog box without saving your changes. The button appears only when you are adding a widget. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 277 
-
- Element Description 
-
  Finish Saves your changes and closes the dialog box. 
 
 #### Other Dialog Boxes 
@@ -9200,9 +9392,17 @@ Do the following to register the instance:
 
  Cancel Cancels your changes and closes the dialog box. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 289 
+
+ Element Description 
+
  OK Saves your changes and closes the dialog box. 
 
- Table: Filter Settings Dialog Box You can use this dialog box to configure filters for widget data. If any parameters are specified in the properties of the dashboard, you can select them for filtering widget data. The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
+**_Table: Filter Settings Dialog Box_** 
+
+You can use this dialog box to configure filters for widget data. If any parameters are specified in the properties of the dashboard, you can select them for filtering widget data. The table toolbar includes only standard buttons. For the list of standard buttons, see _Table Toolbar_. 
 
  Element Description 
 
@@ -9226,12 +9426,6 @@ Do the following to register the instance:
 
 - _Is Less Than or Equal To_ : Returns _TRUE_ if the field value is less than or equal to the **Value**     **1** value. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 278 
-
- Element Description 
-
 - _Is Between_ : Returns _TRUE_ if the field value is between the **Value 1** and **Value 2** values.     (For this option, you must specify both **Value 1** and **Value 2** .) 
 
 - _Contains_ : Returns _TRUE_ if the field value (string) contains the **Value 1** value. 
@@ -9244,7 +9438,15 @@ Do the following to register the instance:
 
 - _Is Empty_ : Returns _TRUE_ if the field value is empty (null). 
 
-- _Is Not Empty_ : Returns _TRUE_ if the field value is not empty (not null). 
+- _Is Not Empty_ : Returns _TRUE_ if the field value is not empty (not null). If you specify a date in the **Value** or **Value 2** boxes but do not specify any time, the system uses 00:00:00 or 23:59:99 as the time, depending on the condition. 
+
+ If you specify date-relative parameters such as @Today in those boxes, the system also uses 00:00:00 or 23:59:99 as the time, depending on the condition. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 290 
+
+ Element Description 
 
  If you try to filter the inquiry results by using a string that contains an underscore, the result will also contain the values with the same string with any symbol instead of the underscore. For example, if you try to filter the inquiry by a customer name that contains the Customer_Name string, the system will return all the customers whose name contains any of the following strings: Customer_Name , Customer-Name , and Customer Name. The reason that all of these strings will be returned is that the underscore is used as a wildcard character. 
 
@@ -9266,13 +9468,9 @@ Do the following to register the instance:
 
 You can use this dialog box to specify properties that are specific to the chart type. 
 
+ Element Description 
 
-<!-- PAGE_BREAK -->
- Configuring Widgets | 279 
-
-**Element Description** 
-
-**Chart Type** Required. The type of chart widget you want to add. The following options are available: 
+ Chart Type Required. The type of chart widget you want to add. The following options are available: 
 
 - _Doughnut_ : A doughnut chart widget 
 
@@ -9287,6 +9485,12 @@ You can use this dialog box to specify properties that are specific to the chart
 - _Stacked Bar_ : A stacked bar chart widget 
 
 - _Funnel_ : A funnel chart widget For more information, see _Specific Widgets: Chart Widgets_. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 291 
+
+**Element Description** 
 
 **Legend Position** The location of the legend on the widget. The box is displayed for only doughnut and funnel chart types. The following options are available: 
 
@@ -9328,12 +9532,6 @@ The **Categories** section of the dialog box includes the following elements.
 
 - _Field_ : The legend data is sorted by labels in the column you selected in the **Field to**     **Sort By** box, which appears when you select this option. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 280 
-
-**Element Description** 
-
 - _Field Value_ : The legend data is sorted by the value of the field you selected in the **Field**     **to Sort By** box, which appears when you select this option. The right box defines the sort order. The way the values are sorted depends on the chart type as well as this selection. The following options are available: 
 
 - _Ascending_ : 
@@ -9341,6 +9539,12 @@ The **Categories** section of the dialog box includes the following elements.
 - _Doughnut_ : The smallest sector is displayed in the upper part of the doughnut, and     larger sectors are displayed clockwise in ascending order. 
 
 - _Line_ , _Column_ , and _Stacked Column_ : The lowest value (the first alphabetic value for     text data) appears in the le part of the horizontal axis, and higher values are shown     to the right in ascending order. The function ignores null values. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 292 
+
+**Element Description** 
 
 - _Bar_ and _Stacked Bar_ : The lowest value (the first alphabetic value for text data) ap-     pears in the upper part of the vertical axis, and higher values are arranged down-     ward along the vertical axis in ascending order. The function ignores null values. 
 
@@ -9374,7 +9578,7 @@ The **Categories** section of the dialog box includes the following elements.
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 281 
+ Configuring Widgets | 293 
 
 **Element Description** 
 
@@ -9434,7 +9638,7 @@ This section is available for the following chart types: _Line_ , _Column_ , _St
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 282 
+ Configuring Widgets | 294 
 
 **Element Description** 
 
@@ -9486,7 +9690,7 @@ This section is available for the following chart types: _Line_ , _Column_ , _St
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 283 
+ Configuring Widgets | 295 
 
 **Element Description** 
 
@@ -9538,7 +9742,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 284 
+ Configuring Widgets | 296 
 
 ### Add Widget Dialog Box for Data Table Widgets 
 
@@ -9552,39 +9756,51 @@ The dialog box has the following buttons.
 
  Widget Type The type of widget to be added to the dashboard, which can be one of the following: 
 
-- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of various types, such as bar charts and line charts. 
+- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of the following types: 
+
+- **Doughnut** 
+
+- **Line** 
+
+- **Column** 
+
+- **Stacked Column** 
+
+- **Bar** 
+
+- **Stacked Bar** 
+
+- **Funnel** 
 
 - **Data Table** : A systematic display of data from an Acumatica ERP form, with data     arranged into rows and columns. 
 
-- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
+- **Meter** : A statistical record that tracks progress or achievement toward a specific per-     formance indicator by displaying key parameters relevant to your organization's busi-     ness processes. Data appears as a gauge with normal, warning, and alarm levels. 
 
-- **Header** : A title that can be added to the widget section. 
+- **Score Card** : A statistical record showing a single performance parameter. 
 
-- **Key Performance Indicator (KPI)** : A statistical record that measures progress or     achievement toward a set performance indicator by showing parameters that are im-     portant to the business processes of your organization and should be monitored daily.     The following visualization types are available for the widget: 
-
-- _Scorecard_ : Data is presented in the form of a card with a single parameter. 
-
-- _Meter_ : Data is presented in the form of a gauge with normal, warning, and alarm lev-     els. 
-
-- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
+- **Trend Card** : A statistical record showing parameters whose dynamic change is impor-     tant to the business processes of your organization. 
 
 - **Pivot Table** : A data table organized to filter, sort, count, total, or give the average of     data from an Acumatica ERP inquiry, displaying the summarized results in a separate     table. 
 
-- **Power BI Tile** : A chart, scorecard, or other analytical information that is represented     on a Power BI dashboard designed by your organization. 
+- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
 
-- **Trend Card KPI** : A statistical record showing parameters whose dynamic change is im-     portant to the business processes of your organization. 
+- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
 
-- **Wiki Page** : A reference topic, procedure, business plan, or other content that is fre-     quently consulted by Acumatica ERP users. 
+- **Wiki** : A reference topic, procedure, business plan, or other content that is frequently     consulted by Acumatica ERP users. 
+
+- **Header** : A title that can be added to the widget section. 
+
+- **Power BI** : A chart, scorecard, or other analytical information that is represented on a     Power BI dashboard designed by your organization. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 297 
+
+ Element Description 
 
  The dialog box has the following buttons. 
 
  Cancel Cancels the changes and closes the dialog box. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 285 
-
- Element Description 
 
  Next Goes to the next step of the Add Widget dialog box for the selected widget type. 
 
@@ -9626,13 +9842,13 @@ The dialog box has the following buttons.
 
  The dialog box has the following buttons. 
 
- Finish Saves your changes and closes the dialog box. If you are configuring a new widget, it is created on the dashboard after you click this button. 
-
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 286 
+ Configuring Widgets | 298 
 
  Element Description 
+
+ Finish Saves your changes and closes the dialog box. If you are configuring a new widget, it is created on the dashboard after you click this button. 
 
  Previous Returns to the previous step of the dialog box without saving your changes. The button appears only when you are adding a widget. 
 
@@ -9676,15 +9892,15 @@ The dialog box has the following buttons.
 
 - _Is Greater Than_ : Returns _TRUE_ if the field value is greater than the **Value 1** value. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 299 
+
+**Element Description** 
+
 - _Is Greater Than or Equal To_ : Returns _TRUE_ if the field value is greater than or equal to     the **Value 1** value. 
 
 - _Is Less Than_ : Returns _TRUE_ if the field value is less than the **Value 1** value. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 287 
-
- Element Description 
 
 - _Is Less Than or Equal To_ : Returns _TRUE_ if the field value is less than or equal to the **Value**     **1** value. 
 
@@ -9700,33 +9916,35 @@ The dialog box has the following buttons.
 
 - _Is Empty_ : Returns _TRUE_ if the field value is empty (null). 
 
-- _Is Not Empty_ : Returns _TRUE_ if the field value is not empty (not null). 
+- _Is Not Empty_ : Returns _TRUE_ if the field value is not empty (not null). If you specify a date in the **Value** or **Value 2** boxes but do not specify any time, the system uses 00:00:00 or 23:59:99 as the time, depending on the condition. 
+
+ If you specify date-relative parameters such as @Today in those boxes, the system also uses 00:00:00 or 23:59:99 as the time, depending on the condition. 
 
  If you try to filter the inquiry results by using a string that contains an underscore, the result will also contain the values with the same string with any symbol instead of the underscore. For example, if you try to filter the inquiry by a customer name that contains the Customer_Name string, the system will return all the customers whose name contains any of the following strings: Customer_Name , Customer-Name , and Customer Name. The reason that all of these strings will be returned is that the underscore is used as a wildcard character. 
 
- Use Parameter A check box that indicates (if selected) that a dashboard parameter is used in the filtering condition. When this check box is selected, only active dashboard parameters are displayed in the Value 1 and Value 2 columns. 
+**Use Parameter** A check box that indicates (if selected) that a dashboard parameter is used in the filtering condition. When this check box is selected, only active dashboard parameters are displayed in the **Value 1** and **Value 2** columns. 
 
- Value 1 The value you enter for the logical condition used to filter the data, if the selected condition requires a value. The value you enter must conform with the data type of the selected property. You can enter or select a fixed value, one of the predefined parameters, or one of the dashboard parameters. 
-
- The predefined parameters are listed in Managing Advanced Filters. 
-
- Value 2 The second value for the logical condition, if the selected logical condition requires a second value. (For example, the Is Between logical condition requires a second value.) The value you enter must conform with the data type of the selected property. You can enter or select a fixed value, one of the predefined parameters, or one of the dashboard parameters. 
+**Value 1** The value you enter for the logical condition used to filter the data, if the selected condition requires a value. The value you enter must conform with the data type of the selected property. You can enter or select a fixed value, one of the predefined parameters, or one of the dashboard parameters. 
 
  The predefined parameters are listed in Managing Advanced Filters. 
 
- Brackets A group of closing brackets to group logical conditions. 
+**Value 2** The second value for the logical condition, if the selected logical condition requires a second value. (For example, the _Is Between_ logical condition requires a second value.) The value you enter must conform with the data type of the selected property. You can enter or select a fixed value, one of the predefined parameters, or one of the dashboard parameters. 
+
+ The predefined parameters are listed in Managing Advanced Filters. 
+
+**Brackets** A group of closing brackets to group logical conditions. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 300 
+
+ Element Description 
 
  Operator The logical operator to be used between groups of logical conditions. 
 
 ### Add Widget Dialog Box for Embedded Page Widgets 
 
- You use the Add Widget dialog box to add a widget to a dashboard and to modify an existing widget. The settings that you need to specify depend on the widget type. When you add a new widget by using this dialog box, you perform two steps. In the first step, you select the type of the widget that you want to add to the dashboard; the system brings up the version of the Add Widget dialog box 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 288 
-
- that is specific to the widget type. In the second step, you specify the properties that are specific to the selected widget type. When you modify an existing widget, you perform only the second step. (In this case, the system immediately brings up the appropriate version of the dialog box.) 
+ You use the Add Widget dialog box to add a widget to a dashboard and to modify an existing widget. The settings that you need to specify depend on the widget type. When you add a new widget by using this dialog box, you perform two steps. In the first step, you select the type of the widget that you want to add to the dashboard; the system brings up the version of the Add Widget dialog box that is specific to the widget type. In the second step, you specify the properties that are specific to the selected widget type. When you modify an existing widget, you perform only the second step. (In this case, the system immediately brings up the appropriate version of the dialog box.) 
 
 #### Add Widget Dialog Box: Step 1 
 
@@ -9736,29 +9954,47 @@ The dialog box has the following buttons.
 
  Widget Type The type of widget to be added to the dashboard, which can be one of the following: 
 
-- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of various types, such as bar charts and line charts. 
+- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of the following types: 
+
+- **Doughnut** 
+
+- **Line** 
+
+- **Column** 
+
+- **Stacked Column** 
+
+- **Bar** 
+
+- **Stacked Bar** 
+
+- **Funnel** 
 
 - **Data Table** : A systematic display of data from an Acumatica ERP form, with data     arranged into rows and columns. 
 
-- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
+- **Meter** : A statistical record that tracks progress or achievement toward a specific per-     formance indicator by displaying key parameters relevant to your organization's busi-     ness processes. Data appears as a gauge with normal, warning, and alarm levels. 
 
-- **Header** : A title that can be added to the widget section. 
+- **Score Card** : A statistical record showing a single performance parameter. 
 
-- **Key Performance Indicator (KPI)** : A statistical record that measures progress or     achievement toward a set performance indicator by showing parameters that are im-     portant to the business processes of your organization and should be monitored daily.     The following visualization types are available for the widget: 
-
-- _Scorecard_ : Data is presented in the form of a card with a single parameter. 
-
-- _Meter_ : Data is presented in the form of a gauge with normal, warning, and alarm lev-     els. 
-
-- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
+- **Trend Card** : A statistical record showing parameters whose dynamic change is impor-     tant to the business processes of your organization. 
 
 - **Pivot Table** : A data table organized to filter, sort, count, total, or give the average of     data from an Acumatica ERP inquiry, displaying the summarized results in a separate     table. 
 
-- **Power BI Tile** : A chart, scorecard, or other analytical information that is represented     on a Power BI dashboard designed by your organization. 
+- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
 
-- **Trend Card KPI** : A statistical record showing parameters whose dynamic change is im-     portant to the business processes of your organization. 
+- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
 
-- **Wiki Page** : A reference topic, procedure, business plan, or other content that is fre-     quently consulted by Acumatica ERP users. 
+- **Wiki** : A reference topic, procedure, business plan, or other content that is frequently     consulted by Acumatica ERP users. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 301 
+
+ Element Description 
+
+- **Header** : A title that can be added to the widget section. 
+
+- **Power BI** : A chart, scorecard, or other analytical information that is represented on a     Power BI dashboard designed by your organization. 
 
  The dialog box has the following buttons. 
 
@@ -9769,10 +10005,6 @@ The dialog box has the following buttons.
 #### Add Widget Dialog Box: Step 2 
 
  Aer you select the Embedded Page widget type in the Add Widget dialog box, or when you click Edit ( ) on the widget toolbar, the Widget Properties dialog box opens. In this dialog box, you need to specify the properties that are specific to the embedded page widget. For more information about embedded page widgets, see Specific Widgets: Embedded Page Widgets. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 289 
 
  Table: Widget Properties Dialog Box You can use this dialog box to specify the widget properties that are specific to embedded page widgets. 
 
@@ -9794,6 +10026,10 @@ The dialog box has the following buttons.
 
  You use the Add Widget dialog box to add a widget to a dashboard and to modify an existing widget. The settings that you need to specify depend on the widget type. When you add a new widget by using this dialog box, you perform two steps. In the first step, you select the type of the widget that you want to add to the dashboard; the system brings up the version of the Add Widget dialog box that is specific to the widget type. In the second step, you specify the properties that are specific to the selected widget type. When you modify an existing widget, you perform only the second step. (In this case, the system immediately brings up the appropriate version of the dialog box.) 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 302 
+
 #### Add Widget Dialog Box: Step 1 
 
  When you want to add a new widget to a dashboard, you first need to select the option button representing the type of the widget in the Add Widget dialog box. The elements of this dialog box are described in the following table. 
@@ -9802,35 +10038,41 @@ The dialog box has the following buttons.
 
  Widget Type The type of widget to be added to the dashboard, which can be one of the following: 
 
-- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of various types, such as bar charts and line charts. 
+- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of the following types: 
+
+- **Doughnut** 
+
+- **Line** 
+
+- **Column** 
+
+- **Stacked Column** 
+
+- **Bar** 
+
+- **Stacked Bar** 
+
+- **Funnel** 
 
 - **Data Table** : A systematic display of data from an Acumatica ERP form, with data     arranged into rows and columns. 
 
-- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
+- **Meter** : A statistical record that tracks progress or achievement toward a specific per-     formance indicator by displaying key parameters relevant to your organization's busi-     ness processes. Data appears as a gauge with normal, warning, and alarm levels. 
 
-- **Header** : A title that can be added to the widget section. 
+- **Score Card** : A statistical record showing a single performance parameter. 
 
-- **Key Performance Indicator (KPI)** : A statistical record that measures progress or     achievement toward a set performance indicator by showing parameters that are im-     portant to the business processes of your organization and should be monitored daily.     The following visualization types are available for the widget: 
-
-- _Scorecard_ : Data is presented in the form of a card with a single parameter. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 290 
-
- Element Description 
-
-- _Meter_ : Data is presented in the form of a gauge with normal, warning, and alarm lev-     els. 
-
-- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
+- **Trend Card** : A statistical record showing parameters whose dynamic change is impor-     tant to the business processes of your organization. 
 
 - **Pivot Table** : A data table organized to filter, sort, count, total, or give the average of     data from an Acumatica ERP inquiry, displaying the summarized results in a separate     table. 
 
-- **Power BI Tile** : A chart, scorecard, or other analytical information that is represented     on a Power BI dashboard designed by your organization. 
+- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
 
-- **Trend Card KPI** : A statistical record showing parameters whose dynamic change is im-     portant to the business processes of your organization. 
+- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
 
-- **Wiki Page** : A reference topic, procedure, business plan, or other content that is fre-     quently consulted by Acumatica ERP users. 
+- **Wiki** : A reference topic, procedure, business plan, or other content that is frequently     consulted by Acumatica ERP users. 
+
+- **Header** : A title that can be added to the widget section. 
+
+- **Power BI** : A chart, scorecard, or other analytical information that is represented on a     Power BI dashboard designed by your organization. 
 
  The dialog box has the following buttons. 
 
@@ -9840,7 +10082,13 @@ The dialog box has the following buttons.
 
 #### Add Widget Dialog Box: Step 2 
 
- Aer you select the Header widget type in the Add Widget dialog box, or when you click Edit ( ) on the widget toolbar of a header widget, the Widget Properties dialog box opens. In this dialog box, you need to specify the properties that are specific to the header widget. For more information about header widgets, see Specific Widgets: Header Widgets. 
+ Aer you select the Header widget type in the Add Widget dialog box, or when you click Edit ( ) on the widget toolbar of a header widget, the Widget Properties dialog box opens. In this dialog box, you need to specify the 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 303 
+
+ properties that are specific to the header widget. For more information about header widgets, see Specific Widgets: Header Widgets. 
 
  Table: Widget Properties Dialog Box 
 
@@ -9858,13 +10106,7 @@ The dialog box has the following buttons.
 
 ### Add Widget Dialog Box for Key Performance Indicator (KPI) Widgets 
 
- You use the Add Widget dialog box to add a widget to a dashboard and to modify an existing widget. The settings that you need to specify depend on the widget type. When you add a new widget by using this dialog box, you perform two steps. In the first step, you select the type of the widget that you want to add to the dashboard; the system brings up the version of the Add Widget dialog box 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 291 
-
- that is specific to the widget type. In the second step, you specify the properties that are specific to the selected widget type. When you modify an existing widget, you perform only the second step. (In this case, the system immediately brings up the appropriate version of the dialog box.) 
+ You use the Add Widget dialog box to add a widget to a dashboard and to modify an existing widget. The settings that you need to specify depend on the widget type. When you add a new widget by using this dialog box, you perform two steps. In the first step, you select the type of the widget that you want to add to the dashboard; the system brings up the version of the Add Widget dialog box that is specific to the widget type. In the second step, you specify the properties that are specific to the selected widget type. When you modify an existing widget, you perform only the second step. (In this case, the system immediately brings up the appropriate version of the dialog box.) 
 
 #### Add Widget Dialog Box: Step 1 
 
@@ -9874,29 +10116,47 @@ The dialog box has the following buttons.
 
  Widget Type The type of widget to be added to the dashboard, which can be one of the following: 
 
-- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of various types, such as bar charts and line charts. 
+- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of the following types: 
+
+- **Doughnut** 
+
+- **Line** 
+
+- **Column** 
+
+- **Stacked Column** 
+
+- **Bar** 
+
+- **Stacked Bar** 
+
+- **Funnel** 
 
 - **Data Table** : A systematic display of data from an Acumatica ERP form, with data     arranged into rows and columns. 
 
-- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
 
-- **Header** : A title that can be added to the widget section. 
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 304 
 
-- **Key Performance Indicator (KPI)** : A statistical record that measures progress or     achievement toward a set performance indicator by showing parameters that are im-     portant to the business processes of your organization and should be monitored daily.     The following visualization types are available for the widget: 
+ Element Description 
 
-- _Scorecard_ : Data is presented in the form of a card with a single parameter. 
+- **Meter** : A statistical record that tracks progress or achievement toward a specific per-     formance indicator by displaying key parameters relevant to your organization's busi-     ness processes. Data appears as a gauge with normal, warning, and alarm levels. 
 
-- _Meter_ : Data is presented in the form of a gauge with normal, warning, and alarm lev-     els. 
+- **Score Card** : A statistical record showing a single performance parameter. 
 
-- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
+- **Trend Card** : A statistical record showing parameters whose dynamic change is impor-     tant to the business processes of your organization. 
 
 - **Pivot Table** : A data table organized to filter, sort, count, total, or give the average of     data from an Acumatica ERP inquiry, displaying the summarized results in a separate     table. 
 
-- **Power BI Tile** : A chart, scorecard, or other analytical information that is represented     on a Power BI dashboard designed by your organization. 
+- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
 
-- **Trend Card KPI** : A statistical record showing parameters whose dynamic change is im-     portant to the business processes of your organization. 
+- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
 
-- **Wiki Page** : A reference topic, procedure, business plan, or other content that is fre-     quently consulted by Acumatica ERP users. 
+- **Wiki** : A reference topic, procedure, business plan, or other content that is frequently     consulted by Acumatica ERP users. 
+
+- **Header** : A title that can be added to the widget section. 
+
+- **Power BI** : A chart, scorecard, or other analytical information that is represented on a     Power BI dashboard designed by your organization. 
 
  The dialog box has the following buttons. 
 
@@ -9910,13 +10170,7 @@ The dialog box has the following buttons.
 
  Edit ( ) on the widget toolbar, the Widget Properties dialog box opens. In this dialog box, you need to specify the properties that are specific to the KPI widget. For more information about KPI widgets, see Specific Widgets: KPI Widgets. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 292 
-
-**_Table: Widget Properties Dialog Box_** 
-
-You can use this dialog box to specify the widget properties that are specific to KPI widgets. 
+ Table: Widget Properties Dialog Box You can use this dialog box to specify the widget properties that are specific to KPI widgets. 
 
  Element Description 
 
@@ -9932,7 +10186,13 @@ You can use this dialog box to specify the widget properties that are specific t
 
  Filter Settings A button that you click to open the Filter Settings dialog box. (For the description of this dialog box, see Other Dialog Boxes .) You use this dialog box to configure a filter for data displayed on the widget. 
 
- Refresh Data The interval at which the system refreshes data. The possible values in this box are the following: 
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 305 
+
+**Element Description** 
+
+**Refresh Data** The interval at which the system refreshes data. The possible values in this box are the following: 
 
 - _On Page Reload_ 
 
@@ -9952,9 +10212,9 @@ You can use this dialog box to specify the widget properties that are specific t
 
 - _Every Week_ 
 
- Field to Aggregate Required. The field from the selected inquiry that is displayed on the widget. 
+**Field to Aggregate** Required. The field from the selected inquiry that is displayed on the widget. 
 
- Aggregate Function 
+**Aggregate Function** 
 
  The function that is used to aggregate the values of the selected inquiry field. Possible values in this box are the following: 
 
@@ -9968,12 +10228,6 @@ You can use this dialog box to specify the widget properties that are specific t
 
 - _Sum_ : Calculates the sum of the items in the column. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 293 
-
-**Element Description** 
-
 **Normal Level Type** The type of the value for the normal level. Possible values in this box are the following: 
 
 - _Fixed Value_ : The value to be specified for the level is any positive or negative integer or     decimal number. If you select this option, then you need to specify the number in the     **Normal Level** box. 
@@ -9985,6 +10239,12 @@ You can use this dialog box to specify the widget properties that are specific t
 **Normal Level** The normal threshold of an aggregated field value. If the aggregated field value is less than or equal to this threshold, the color that is selected in the **Normal Color** box is used as the widget background color. 
 
  The default value of this box is 0.00. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 306 
+
+**Element Description** 
 
 **Normal Level Field** The inquiry field whose data is represented numerically, as with amounts or totals. The system will sum the values of the selected field (that is, the field values shown in the corresponding inquiry column) and display the result in the widget. 
 
@@ -10002,27 +10262,27 @@ You can use this dialog box to specify the widget properties that are specific t
 
  The default value of this box is 0.00. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 294 
-
- Element Description 
-
- Alarm Level Field The inquiry field whose data is represented numerically, as with amounts or totals. The system will sum the values of the selected field (that is, the field values shown in the corresponding inquiry column) and display the result in the widget. 
+**Alarm Level Field** The inquiry field whose data is represented numerically, as with amounts or totals. The system will sum the values of the selected field (that is, the field values shown in the corresponding inquiry column) and display the result in the widget. 
 
  This box is available only if Inquiry Field is selected in the Alarm Level Type box. 
 
- Normal Color The color of the widget background that is used when the aggregate value of the field selected in the Field to Aggregate box is less than or equal to the value specified in the Normal Level box. 
+**Normal Color** The color of the widget background that is used when the aggregate value of the field selected in the **Field to Aggregate** box is less than or equal to the value specified in the **Normal Level** box. 
 
  The default value of this box is Teal. 
 
- Warning Color The color of the widget background that is used when the aggregate value of the field selected in the Field to Aggregate box is between the values specified in the Normal Level and Alarm Level boxes. 
+**Warning Color** The color of the widget background that is used when the aggregate value of the field selected in the **Field to Aggregate** box is between the values specified in the **Normal Level** and **Alarm Level** boxes. 
 
  The default value of this box is Yellow. 
 
- Alarm Color The color of the widget background that is used when the aggregate value of the field selected in the Field to Aggregate box is equal to or greater than the value specified in the Alarm Level box. 
+**Alarm Color** The color of the widget background that is used when the aggregate value of the field selected in the **Field to Aggregate** box is equal to or greater than the value specified in the **Alarm Level** box. 
 
  The default value of this box is Pink. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 307 
+
+ Element Description 
 
  Visualization Type The display mode of the KPI widget. Possible values in this box are the following: 
 
@@ -10052,12 +10312,6 @@ You can use this dialog box to specify the widget properties that are specific t
 
  Parameter The name of the parameter of the inquiry selected in the Inquiry Screen box. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 295 
-
- Element Description 
-
  Value The value of the inquiry parameter. 
 
  Use Default Value A check box that indicates (if selected) that a default value should be used for the inquiry parameter. You can specify the default value on the Generic Inquiry (SM208000) form. 
@@ -10068,19 +10322,23 @@ You can use this dialog box to specify the widget properties that are specific t
 
  OK Saves your changes and closes the dialog box. 
 
-**_Table: Filter Settings Dialog Box_** 
-
-You can use this dialog box to configure filters for widget data. If any parameters are specified in the properties of the dashboard, you can select them for filtering widget data. The table toolbar includes only standard buttons. For the list of standard buttons, see _Table Toolbar_. 
+ Table: Filter Settings Dialog Box You can use this dialog box to configure filters for widget data. If any parameters are specified in the properties of the dashboard, you can select them for filtering widget data. The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
 
  Element Description 
 
  Active A check box that indicates (if selected) that the row is an active filter. 
 
- Brackets The opening bracket or brackets for composing a logical expression with multiple filtering conditions. 
 
- Data Field The field whose value the filter should be applied to. 
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 308 
 
- Condition One of the following logical conditions, which will be applied to the value of the field specified as the Data Field and the values in the Value 1 and Value 2 fields if applicable: 
+**Element Description** 
+
+**Brackets** The opening bracket or brackets for composing a logical expression with multiple filtering conditions. 
+
+**Data Field** The field whose value the filter should be applied to. 
+
+**Condition** One of the following logical conditions, which will be applied to the value of the field specified as the **Data Field** and the values in the **Value 1** and **Value 2** fields if applicable: 
 
 - _Equals_ : Returns _TRUE_ if the value of the **Data Field** field is equal to the value specified     as **Value 1**. 
 
@@ -10106,17 +10364,19 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
 - _Is Empty_ : Returns _TRUE_ if the field value is empty (null). 
 
-- _Is Not Empty_ : Returns _TRUE_ if the field value is not empty (not null). 
+- _Is Not Empty_ : Returns _TRUE_ if the field value is not empty (not null). If you specify a date in the **Value** or **Value 2** boxes but do not specify any time, the system uses 00:00:00 or 23:59:99 as the time, depending on the condition. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 296 
-
- Element Description 
+ If you specify date-relative parameters such as @Today in those boxes, the system also uses 00:00:00 or 23:59:99 as the time, depending on the condition. 
 
  If you try to filter the inquiry results by using a string that contains an underscore, the result will also contain the values with the same string with any symbol instead of the underscore. For example, if you try to filter the inquiry by a customer name that contains the Customer_Name string, the system will return all the customers whose name contains any of the following strings: Customer_Name , Customer-Name , and Customer Name. The reason that all of these strings will be returned is that the underscore is used as a wildcard character. 
 
- Use Parameter A check box that indicates (if selected) that a dashboard parameter is used in the filtering condition. When this check box is selected, only active dashboard parameters are displayed in the Value 1 and Value 2 columns. 
+**Use Parameter** A check box that indicates (if selected) that a dashboard parameter is used in the filtering condition. When this check box is selected, only active dashboard parameters are displayed in the **Value 1** and **Value 2** columns. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 309 
+
+ Element Description 
 
  Value 1 The value you enter for the logical condition used to filter the data, if the selected condition requires a value. The value you enter must conform with the data type of the selected property. You can enter or select a fixed value, one of the predefined parameters, or one of the dashboard parameters. 
 
@@ -10138,37 +10398,51 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
  When you want to add a new widget to a dashboard, you first need to select the option button representing the type of the widget in the Add Widget dialog box. The elements of this dialog box are described in the following table. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 297 
-
  Element Description 
 
  Widget Type The type of widget to be added to the dashboard, which can be one of the following: 
 
-- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of various types, such as bar charts and line charts. 
+- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of the following types: 
+
+- **Doughnut** 
+
+- **Line** 
+
+- **Column** 
+
+- **Stacked Column** 
+
+- **Bar** 
+
+- **Stacked Bar** 
+
+- **Funnel** 
 
 - **Data Table** : A systematic display of data from an Acumatica ERP form, with data     arranged into rows and columns. 
 
-- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
 
-- **Header** : A title that can be added to the widget section. 
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 310 
 
-- **Key Performance Indicator (KPI)** : A statistical record that measures progress or     achievement toward a set performance indicator by showing parameters that are im-     portant to the business processes of your organization and should be monitored daily.     The following visualization types are available for the widget: 
+ Element Description 
 
-- _Scorecard_ : Data is presented in the form of a card with a single parameter. 
+- **Meter** : A statistical record that tracks progress or achievement toward a specific per-     formance indicator by displaying key parameters relevant to your organization's busi-     ness processes. Data appears as a gauge with normal, warning, and alarm levels. 
 
-- _Meter_ : Data is presented in the form of a gauge with normal, warning, and alarm lev-     els. 
+- **Score Card** : A statistical record showing a single performance parameter. 
 
-- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
+- **Trend Card** : A statistical record showing parameters whose dynamic change is impor-     tant to the business processes of your organization. 
 
 - **Pivot Table** : A data table organized to filter, sort, count, total, or give the average of     data from an Acumatica ERP inquiry, displaying the summarized results in a separate     table. 
 
-- **Power BI Tile** : A chart, scorecard, or other analytical information that is represented     on a Power BI dashboard designed by your organization. 
+- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
 
-- **Trend Card KPI** : A statistical record showing parameters whose dynamic change is im-     portant to the business processes of your organization. 
+- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
 
-- **Wiki Page** : A reference topic, procedure, business plan, or other content that is fre-     quently consulted by Acumatica ERP users. 
+- **Wiki** : A reference topic, procedure, business plan, or other content that is frequently     consulted by Acumatica ERP users. 
+
+- **Header** : A title that can be added to the widget section. 
+
+- **Power BI** : A chart, scorecard, or other analytical information that is represented on a     Power BI dashboard designed by your organization. 
 
  The dialog box has the following buttons. 
 
@@ -10188,12 +10462,6 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
  Form Required. The form to which navigation will occur. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 298 
-
- Element Description 
-
  Parameters The form-specific parameters of the address line that the system adds to the form link when a user clicks the tile. 
 
  Window Mode The setting, which defines how the system should open the form once you click the link widget. The following options are available: 
@@ -10203,6 +10471,12 @@ You can use this dialog box to configure filters for widget data. If any paramet
 - _New Tab_ 
 
 - _Pop-Up Window_ 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 311 
+
+ Element Description 
 
  Description A description of the widget. 
 
@@ -10230,35 +10504,47 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
  Widget Type The type of widget to be added to the dashboard, which can be one of the following: 
 
-- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of various types, such as bar charts and line charts. 
+- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of the following types: 
+
+- **Doughnut** 
+
+- **Line** 
+
+- **Column** 
+
+- **Stacked Column** 
+
+- **Bar** 
+
+- **Stacked Bar** 
+
+- **Funnel** 
 
 - **Data Table** : A systematic display of data from an Acumatica ERP form, with data     arranged into rows and columns. 
 
-- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
+- **Meter** : A statistical record that tracks progress or achievement toward a specific per-     formance indicator by displaying key parameters relevant to your organization's busi-     ness processes. Data appears as a gauge with normal, warning, and alarm levels. 
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 299 
+ Configuring Widgets | 312 
 
  Element Description 
 
-- **Header** : A title that can be added to the widget section. 
+- **Score Card** : A statistical record showing a single performance parameter. 
 
-- **Key Performance Indicator (KPI)** : A statistical record that measures progress or     achievement toward a set performance indicator by showing parameters that are im-     portant to the business processes of your organization and should be monitored daily.     The following visualization types are available for the widget: 
-
-- _Scorecard_ : Data is presented in the form of a card with a single parameter. 
-
-- _Meter_ : Data is presented in the form of a gauge with normal, warning, and alarm lev-     els. 
-
-- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
+- **Trend Card** : A statistical record showing parameters whose dynamic change is impor-     tant to the business processes of your organization. 
 
 - **Pivot Table** : A data table organized to filter, sort, count, total, or give the average of     data from an Acumatica ERP inquiry, displaying the summarized results in a separate     table. 
 
-- **Power BI Tile** : A chart, scorecard, or other analytical information that is represented     on a Power BI dashboard designed by your organization. 
+- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
 
-- **Trend Card KPI** : A statistical record showing parameters whose dynamic change is im-     portant to the business processes of your organization. 
+- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
 
-- **Wiki Page** : A reference topic, procedure, business plan, or other content that is fre-     quently consulted by Acumatica ERP users. 
+- **Wiki** : A reference topic, procedure, business plan, or other content that is frequently     consulted by Acumatica ERP users. 
+
+- **Header** : A title that can be added to the widget section. 
+
+- **Power BI** : A chart, scorecard, or other analytical information that is represented on a     Power BI dashboard designed by your organization. 
 
  The dialog box has the following buttons. 
 
@@ -10286,15 +10572,15 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
  Filter Settings A button that you click to open the Filter Settings dialog box. (For the description of this dialog box, see Other Dialog Boxes .) You use this dialog box to configure a filter for data displayed on the widget. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 300 
-
- Element Description 
-
  Pivot Table Required. The name of the pivot table that provides data for the widget. 
 
  Caption The name of the widget on the dashboard. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 313 
+
+ Element Description 
 
  The dialog box has the following buttons. 
 
@@ -10336,15 +10622,15 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
  Condition One of the following logical conditions, which will be applied to the value of the field specified as the Data Field and the values in the Value 1 and Value 2 fields if applicable: 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 301 
-
-**Element Description** 
-
 - _Equals_ : Returns _TRUE_ if the value of the **Data Field** field is equal to the value specified     as **Value 1**. 
 
 - _Does Not Equal_ : Returns _TRUE_ if the field value is not equal to the **Value 1** value. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 314 
+
+**Element Description** 
 
 - _Is Greater Than_ : Returns _TRUE_ if the field value is greater than the **Value 1** value. 
 
@@ -10366,7 +10652,9 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
 - _Is Empty_ : Returns _TRUE_ if the field value is empty (null). 
 
-- _Is Not Empty_ : Returns _TRUE_ if the field value is not empty (not null). 
+- _Is Not Empty_ : Returns _TRUE_ if the field value is not empty (not null). If you specify a date in the **Value** or **Value 2** boxes but do not specify any time, the system uses 00:00:00 or 23:59:99 as the time, depending on the condition. 
+
+ If you specify date-relative parameters such as @Today in those boxes, the system also uses 00:00:00 or 23:59:99 as the time, depending on the condition. 
 
  If you try to filter the inquiry results by using a string that contains an underscore, the result will also contain the values with the same string with any symbol instead of the underscore. For example, if you try to filter the inquiry by a customer name that contains the Customer_Name string, the system will return all the customers whose name contains any of the following strings: Customer_Name , Customer-Name , and Customer Name. The reason that all of these strings will be returned is that the underscore is used as a wildcard character. 
 
@@ -10382,11 +10670,13 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
 **Brackets** A group of closing brackets to group logical conditions. 
 
-**Operator** The logical operator to be used between groups of logical conditions. 
-
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 302 
+ Configuring Widgets | 315 
+
+ Element Description 
+
+ Operator The logical operator to be used between groups of logical conditions. 
 
 ### Add Widget Dialog Box for Power BI Tile Widgets 
 
@@ -10400,39 +10690,51 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
  Widget Type The type of widget to be added to the dashboard, which can be one of the following: 
 
-- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of various types, such as bar charts and line charts. 
+- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of the following types: 
+
+- **Doughnut** 
+
+- **Line** 
+
+- **Column** 
+
+- **Stacked Column** 
+
+- **Bar** 
+
+- **Stacked Bar** 
+
+- **Funnel** 
 
 - **Data Table** : A systematic display of data from an Acumatica ERP form, with data     arranged into rows and columns. 
 
-- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
+- **Meter** : A statistical record that tracks progress or achievement toward a specific per-     formance indicator by displaying key parameters relevant to your organization's busi-     ness processes. Data appears as a gauge with normal, warning, and alarm levels. 
 
-- **Header** : A title that can be added to the widget section. 
+- **Score Card** : A statistical record showing a single performance parameter. 
 
-- **Key Performance Indicator (KPI)** : A statistical record that measures progress or     achievement toward a set performance indicator by showing parameters that are im-     portant to the business processes of your organization and should be monitored daily.     The following visualization types are available for the widget: 
-
-- _Scorecard_ : Data is presented in the form of a card with a single parameter. 
-
-- _Meter_ : Data is presented in the form of a gauge with normal, warning, and alarm lev-     els. 
-
-- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
+- **Trend Card** : A statistical record showing parameters whose dynamic change is impor-     tant to the business processes of your organization. 
 
 - **Pivot Table** : A data table organized to filter, sort, count, total, or give the average of     data from an Acumatica ERP inquiry, displaying the summarized results in a separate     table. 
 
-- **Power BI Tile** : A chart, scorecard, or other analytical information that is represented     on a Power BI dashboard designed by your organization. 
+- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
 
-- **Trend Card KPI** : A statistical record showing parameters whose dynamic change is im-     portant to the business processes of your organization. 
+- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
 
-- **Wiki Page** : A reference topic, procedure, business plan, or other content that is fre-     quently consulted by Acumatica ERP users. 
+- **Wiki** : A reference topic, procedure, business plan, or other content that is frequently     consulted by Acumatica ERP users. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 316 
+
+ Element Description 
+
+- **Header** : A title that can be added to the widget section. 
+
+- **Power BI** : A chart, scorecard, or other analytical information that is represented on a     Power BI dashboard designed by your organization. 
 
  The dialog box has the following buttons. 
 
  Cancel Cancels the changes and closes the dialog box. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 303 
-
- Element Description 
 
  Next Goes to the next step of the Add Widget dialog box for the selected widget type. 
 
@@ -10458,17 +10760,17 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
  Caption The name of the widget on the dashboard. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 317 
+
+ Element Description 
+
  The dialog box has the following buttons. 
 
  Finish Saves the changes and closes the dialog box. 
 
  Previous Returns to the previous step of the dialog box without saving your changes. The button appears only when you are adding a widget. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 304 
-
- Element Description 
 
  Cancel Cancels your changes and closes the dialog box. 
 
@@ -10484,37 +10786,49 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
  Widget Type The type of widget to be added to the dashboard, which can be one of the following: 
 
-- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of various types, such as bar charts and line charts. 
+- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of the following types: 
+
+- **Doughnut** 
+
+- **Line** 
+
+- **Column** 
+
+- **Stacked Column** 
+
+- **Bar** 
+
+- **Stacked Bar** 
+
+- **Funnel** 
 
 - **Data Table** : A systematic display of data from an Acumatica ERP form, with data     arranged into rows and columns. 
 
-- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
+- **Meter** : A statistical record that tracks progress or achievement toward a specific per-     formance indicator by displaying key parameters relevant to your organization's busi-     ness processes. Data appears as a gauge with normal, warning, and alarm levels. 
 
-- **Header** : A title that can be added to the widget section. 
+- **Score Card** : A statistical record showing a single performance parameter. 
 
-- **Key Performance Indicator (KPI)** : A statistical record that measures progress or     achievement toward a set performance indicator by showing parameters that are im-     portant to the business processes of your organization and should be monitored daily.     The following visualization types are available for the widget: 
-
-- _Scorecard_ : Data is presented in the form of a card with a single parameter. 
-
-- _Meter_ : Data is presented in the form of a gauge with normal, warning, and alarm lev-     els. 
-
-- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
-
-- **Pivot Table** : A data table organized to filter, sort, count, total, or give the average of     data from an Acumatica ERP inquiry, displaying the summarized results in a separate     table. 
-
-- **Power BI Tile** : A chart, scorecard, or other analytical information that is represented     on a Power BI dashboard designed by your organization. 
-
-- **Trend Card KPI** : A statistical record showing parameters whose dynamic change is im-     portant to the business processes of your organization. 
-
-- **Wiki Page** : A reference topic, procedure, business plan, or other content that is fre-     quently consulted by Acumatica ERP users. 
-
- The dialog box has the following buttons. 
+- **Trend Card** : A statistical record showing parameters whose dynamic change is impor-     tant to the business processes of your organization. 
 
 
 <!-- PAGE_BREAK -->
- Configuring Widgets | 305 
+ Configuring Widgets | 318 
 
  Element Description 
+
+- **Pivot Table** : A data table organized to filter, sort, count, total, or give the average of     data from an Acumatica ERP inquiry, displaying the summarized results in a separate     table. 
+
+- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
+
+- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
+
+- **Wiki** : A reference topic, procedure, business plan, or other content that is frequently     consulted by Acumatica ERP users. 
+
+- **Header** : A title that can be added to the widget section. 
+
+- **Power BI** : A chart, scorecard, or other analytical information that is represented on a     Power BI dashboard designed by your organization. 
+
+ The dialog box has the following buttons. 
 
  Cancel Cancels the changes and closes the dialog box. 
 
@@ -10542,7 +10856,13 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
  Field to Aggregate Required. The field from the selected inquiry that is displayed in the widget. 
 
- Aggregate Function 
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 319 
+
+**Element Description** 
+
+**Aggregate Function** 
 
  The function that is used to aggregate the values of the selected generic inquiry field. Possible values in this box are the following. 
 
@@ -10556,15 +10876,9 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
 - _Sum_ : Calculates the sum of the items in the column. 
 
- Timeline Field The field of the date type from the selected inquiry, which is used for calculating trends. 
+**Timeline Field** The field of the date type from the selected inquiry, which is used for calculating trends. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 306 
-
- Element Description 
-
- Period The time period upon which a comparison of the field selected in the Field to Aggregate box is performed. The following values are available in the box: 
+**Period** The time period upon which a comparison of the field selected in the **Field to Aggregate** box is performed. The following values are available in the box: 
 
 - _Yesterday_ : The day that is before the current business date. 
 
@@ -10576,27 +10890,31 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
 - _Last Year_ : The calendar year that is immediately before the current business date. 
 
- Rising Trend Color The color of the widget background that is used when the aggregate value of the field selected in the Field to Aggregate box is rising in comparison to the time period selected in the Period field. 
+**Rising Trend Color** The color of the widget background that is used when the aggregate value of the field selected in the **Field to Aggregate** box is rising in comparison to the time period selected in the **Period** field. 
 
  The default value of this box is Acumatica Blue. 
 
- Flat Trend Color The color of the widget background that is used when the aggregate value of the field selected in the Field to Aggregate box stays the same in comparison to the time period selected in the Period field. 
+**Flat Trend Color** The color of the widget background that is used when the aggregate value of the field selected in the **Field to Aggregate** box stays the same in comparison to the time period selected in the **Period** field. 
 
  The default value of this box is Acumatica Yellow. 
 
- Falling Trend Color The color of the widget background that is used when the aggregate value of the field selected in the Field to Aggregate box is falling in comparison to the time period selected in the Period field. 
+**Falling Trend Color** The color of the widget background that is used when the aggregate value of the field selected in the **Field to Aggregate** box is falling in comparison to the time period selected in the **Period** field. 
 
  The default value of this box is Acumatica Red. 
 
- Caption The name of the widget on the dashboard. 
+**Caption** The name of the widget on the dashboard. 
 
- The dialog box has the following buttons. 
+The dialog box has the following buttons. 
 
- Finish Saves your changes and closes the dialog box. 
+**Finish** Saves your changes and closes the dialog box. 
 
- Previous Returns to the previous step of the dialog box without saving your changes. The button appears only when you are adding a widget. 
+**Previous** Returns to the previous step of the dialog box without saving your changes. The button appears only when you are adding a widget. 
 
- Cancel Cancels your changes and closes the dialog box. 
+**Cancel** Cancels your changes and closes the dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 320 
 
 #### Other Dialog Boxes 
 
@@ -10610,12 +10928,6 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
  Value The value of the inquiry parameter. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 307 
-
- Element Description 
-
  Use Default Value A check box that indicates (if selected) that a default value should be used for the inquiry parameter. You can specify the default value on the Generic Inquiry (SM208000) form. 
 
  The dialog box has the following buttons. 
@@ -10624,9 +10936,7 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
  OK Saves your changes and closes the dialog box. 
 
-**_Table: Filter Settings Dialog Box_** 
-
-You can use this dialog box to configure filters for widget data. If any parameters are specified in the properties of the dashboard, you can select them for filtering widget data. The table toolbar includes only standard buttons. For the list of standard buttons, see _Table Toolbar_. 
+ Table: Filter Settings Dialog Box You can use this dialog box to configure filters for widget data. If any parameters are specified in the properties of the dashboard, you can select them for filtering widget data. The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
 
  Element Description 
 
@@ -10654,6 +10964,12 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
 - _Contains_ : Returns _TRUE_ if the field value (string) contains the **Value 1** value. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 321 
+
+ Element Description 
+
 - _Does Not Contain_ : Returns _TRUE_ if the field value (string) does not contain the **Value 1**     value. 
 
 - _Starts With_ : Returns _TRUE_ if the field value contains at the beginning the **Value 1** value. 
@@ -10662,13 +10978,9 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
 - _Is Empty_ : Returns _TRUE_ if the field value is empty (null). 
 
-- _Is Not Empty_ : Returns _TRUE_ if the field value is not empty (not null). 
+- _Is Not Empty_ : Returns _TRUE_ if the field value is not empty (not null). If you specify a date in the **Value** or **Value 2** boxes but do not specify any time, the system uses 00:00:00 or 23:59:99 as the time, depending on the condition. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 308 
-
- Element Description 
+ If you specify date-relative parameters such as @Today in those boxes, the system also uses 00:00:00 or 23:59:99 as the time, depending on the condition. 
 
  If you try to filter the inquiry results by using a string that contains an underscore, the result will also contain the values with the same string with any symbol instead of the underscore. For example, if you try to filter the inquiry by a customer name that contains the Customer_Name string, the system will return all the customers whose name contains any of the following strings: Customer_Name , Customer-Name , and Customer Name. The reason that all of these strings will be returned is that the underscore is used as a wildcard character. 
 
@@ -10688,49 +11000,67 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
 ### Add Widget Dialog Box for Wiki Page Widgets 
 
- You use the Add Widget dialog box to add a widget to a dashboard and to modify an existing widget. The settings that you need to specify depend on the widget type. When you add a new widget by using this dialog box, you perform two steps. In the first step, you select the type of the widget that you want to add to the dashboard; the system brings up the version of the Add Widget dialog box that is specific to the widget type. In the second step, you specify the properties that are specific to the selected widget type. When you modify an existing widget, you perform only the second step. (In this case, the system immediately brings up the appropriate version of the dialog box.) 
+ You use the Add Widget dialog box to add a widget to a dashboard and to modify an existing widget. The settings that you need to specify depend on the widget type. When you add a new widget by using this dialog box, you perform two steps. In the first step, you select the type of the widget that you want to add to the dashboard; the system brings up the version of the Add Widget dialog box that is specific to the widget type. In the second step, you specify the properties that are specific to the selected 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 322 
+
+ widget type. When you modify an existing widget, you perform only the second step. (In this case, the system immediately brings up the appropriate version of the dialog box.) 
 
 #### Add Widget Dialog Box: Step 1 
 
  When you want to add a new widget to a dashboard, you first need to select the option button representing the type of the widget in the Add Widget dialog box. The elements of this dialog box are described in the following table. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Widgets | 309 
-
  Element Description 
 
  Widget Type The type of widget to be added to the dashboard, which can be one of the following: 
 
-- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of various types, such as bar charts and line charts. 
+- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use     charts of the following types: 
+
+- **Doughnut** 
+
+- **Line** 
+
+- **Column** 
+
+- **Stacked Column** 
+
+- **Bar** 
+
+- **Stacked Bar** 
+
+- **Funnel** 
 
 - **Data Table** : A systematic display of data from an Acumatica ERP form, with data     arranged into rows and columns. 
 
-- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
+- **Meter** : A statistical record that tracks progress or achievement toward a specific per-     formance indicator by displaying key parameters relevant to your organization's busi-     ness processes. Data appears as a gauge with normal, warning, and alarm levels. 
 
-- **Header** : A title that can be added to the widget section. 
+- **Score Card** : A statistical record showing a single performance parameter. 
 
-- **Key Performance Indicator (KPI)** : A statistical record that measures progress or     achievement toward a set performance indicator by showing parameters that are im-     portant to the business processes of your organization and should be monitored daily.     The following visualization types are available for the widget: 
-
-- _Scorecard_ : Data is presented in the form of a card with a single parameter. 
-
-- _Meter_ : Data is presented in the form of a gauge with normal, warning, and alarm lev-     els. 
-
-- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
+- **Trend Card** : A statistical record showing parameters whose dynamic change is impor-     tant to the business processes of your organization. 
 
 - **Pivot Table** : A data table organized to filter, sort, count, total, or give the average of     data from an Acumatica ERP inquiry, displaying the summarized results in a separate     table. 
 
-- **Power BI Tile** : A chart, scorecard, or other analytical information that is represented     on a Power BI dashboard designed by your organization. 
+- **Embedded Page** : A document or an image that is stored on an external resource, such     as cloud storage. 
 
-- **Trend Card KPI** : A statistical record showing parameters whose dynamic change is im-     portant to the business processes of your organization. 
+- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
 
-- **Wiki Page** : A reference topic, procedure, business plan, or other content that is fre-     quently consulted by Acumatica ERP users. 
+- **Wiki** : A reference topic, procedure, business plan, or other content that is frequently     consulted by Acumatica ERP users. 
+
+- **Header** : A title that can be added to the widget section. 
+
+- **Power BI** : A chart, scorecard, or other analytical information that is represented on a     Power BI dashboard designed by your organization. 
 
  The dialog box has the following buttons. 
 
  Cancel Cancels the changes and closes the dialog box. 
 
  Next Goes to the next step of the Add Widget dialog box for the selected widget type. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Widgets | 323 
 
 #### Add Widget Dialog Box: Step 2 
 
@@ -10744,23 +11074,17 @@ You can use this dialog box to configure filters for widget data. If any paramet
 
  Caption The name of the widget. 
 
+ The dialog box has the following buttons. 
 
-<!-- PAGE_BREAK -->
- Configuring Widgets | 310 
+ Finish Saves your changes and closes the dialog box. If you are configuring a new widget, it is created on the dashboard after you click this button. 
 
-**Element Description** 
+ Previous Returns to the previous step of the dialog box without saving your changes. The button appears only when you are adding a widget. 
 
-The dialog box has the following buttons. 
-
-**Finish** Saves your changes and closes the dialog box. If you are configuring a new widget, it is created on the dashboard after you click this button. 
-
-**Previous** Returns to the previous step of the dialog box without saving your changes. The button appears only when you are adding a widget. 
-
-**Cancel** Cancels your changes and closes the dialog box. 
+ Cancel Cancels your changes and closes the dialog box. 
 
 
 <!-- PAGE_BREAK -->
- Managing Power BI Integration | 311 
+ Managing Power BI Integration | 324 
 
 ## Managing Power BI Integration 
 
@@ -10802,7 +11126,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Power BI Integration | 312 
+ Managing Power BI Integration | 325 
 
 5. You give user roles access rights to the integrated report on the _Application Resources_ form. 
 
@@ -10848,7 +11172,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Power BI Integration | 313 
+ Managing Power BI Integration | 326 
 
 #### To Integrate an External Application 
 
@@ -10890,7 +11214,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Power BI Integration | 314 
+ Managing Power BI Integration | 327 
 
 - **Set to Granted for All Roles** : The system will set the access rights for this form to _Granted_ for all user     roles in the system. 
 
@@ -10904,7 +11228,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 315 
+ Managing Analytical Reports | 328 
 
 ## Managing Analytical Reports 
 
@@ -10952,7 +11276,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 316 
+ Managing Analytical Reports | 329 
 
 #### Report Structure Elements 
 
@@ -10982,7 +11306,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 317 
+ Managing Analytical Reports | 330 
 
  columns in the data source editor. For detailed information about data source elements, see Data Source and Data Source Editor 
 
@@ -11026,7 +11350,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 318 
+ Managing Analytical Reports | 331 
 
 #### Selecting the Rows and Columns for the Report 
 
@@ -11072,7 +11396,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 319 
+ Managing Analytical Reports | 332 
 
 2. You open the _Row Sets_ (CS206010) form, and specify the same value in the **Unit Group** column for all the     rows to be included in this report section. 
 
@@ -11100,9 +11424,9 @@ The dialog box has the following buttons.
 
  Depending on the data sampling rules, the sections in the report can be arranged in a flat or hierarchical structure. 
 
- The flat structure can be used when the report consists of multiple sets of data assembled in different numbers of rows and columns.A hierarchical report structure is used when a report section includes the data from the other sections of the report (for example, the consolidated sales volumes followed by separation of the sales volumes by the time periods). 
+ The flat structure can be used when the report consists of multiple sets of data assembled in different numbers of rows and columns. A hierarchical report structure is used when a report section includes the data from the other sections of the report (for example, the consolidated sales volumes followed by separation of the sales volumes by the time periods). 
 
- To define how the sections will be grouped and displayed in the report, you should define the unit structure in the unit set selected for the report. For a flat report structure, the sections will be included in the report in the same order as the corresponding units in the unit set selected for the report. For a hierarchical structure, the sections corresponding to the nodes in the units's hierarchical structure will be displayed before the sections corresponding to the child nodes or leaves in the units's hierarchical structure. 
+ To define how the sections will be grouped and displayed in the report, you should define the unit structure in the unit set selected for the report. For a flat report structure, the sections will be included in the report in the same order as the corresponding units in the unit set selected for the report. For a hierarchical structure, the sections corresponding to the nodes in the units' hierarchical structure will be displayed before the sections corresponding to the child nodes or leaves in the units' hierarchical structure. 
 
  When the sections in the report are organized in a hierarchical structure, you usually apply additional data filtering rules for the node units to include the particular data from the other report sections in the section corresponding to the node unit, use the formulas in the node units if the data in one report section is calculated by using the data from the other report sections, or apply both formulas and data filtering rules. 
 
@@ -11116,7 +11440,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 320 
+ Managing Analytical Reports | 333 
 
  For a detailed description of specifying the unit attributes, see To Define the Units to Be Included in the Unit Set. 
 
@@ -11152,7 +11476,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 321 
+ Managing Analytical Reports | 334 
 
  When you fill in the Value column to display a total values in the row, you need to confirm that the appropriate row Type is selected for this row to exclude it from the data that can be selected as a source for summarized value calculation. 
 
@@ -11184,7 +11508,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 322 
+ Managing Analytical Reports | 335 
 
 #### Column Group 
 
@@ -11228,7 +11552,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 323 
+ Managing Analytical Reports | 336 
 
  In the Description row, you can add a description of the contents of each column. The data from the Description row is not automatically printed in the analytical report. To include the description column in the report, you should create a header for this column. 
 
@@ -11264,7 +11588,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 324 
+ Managing Analytical Reports | 337 
 
 #### Unit Group 
 
@@ -11298,7 +11622,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 325 
+ Managing Analytical Reports | 338 
 
  calculated for certain periods, you should specify the account on the row level, and specify the start date and the end date of each period on the columns level. 
 
@@ -11344,7 +11668,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 326 
+ Managing Analytical Reports | 339 
 
  values from the units on the lower hierarchical levels. The higher hierarchical levels can include the summarized and aggregated values based on the units from the lower hierarchical levels. 
 
@@ -11390,7 +11714,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 327 
+ Managing Analytical Reports | 340 
 
 #### Data Filtering Criteria 
 
@@ -11428,11 +11752,11 @@ The dialog box has the following buttons.
 
  You can also use the amounts in a foreign currency retrieved from the denominated accounts by specifying one of the following options: Curr. Turnover , Curr. Credit , Curr. Debit , Curr. Beg. Balance , or Curr. Ending Balance. 
 
- If no Amount Type is specified for any report item (such as row or column), the null value will be displayed in the report row or column. 
-
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 328 
+ Managing Analytical Reports | 341 
+
+ If no Amount Type is specified for any report item (such as row or column), the null value will be displayed in the report row or column. 
 
  Related Links 
 
@@ -11464,25 +11788,25 @@ The dialog box has the following buttons.
 
  The Formula Editor dialog box, which is shown in the screenshot below, includes the following panes: 
 
-- Component Type pane (upper le): Displays the types of operators, functions, and fields that can be used as     formula components. Click any of the types to display the corresponding list of available components in the     Component Selection pane. 
+- **Component Type pane** (see Item 1): Displays the types of operators, functions, and fields that can be used     as formula components. You can search for the needed type by using the Search box at the top of the pane.     Click any of the types to display the corresponding list of available components in the Component Selection     pane. 
 
-- Component Selection pane (upper right): For the component type chosen in the Component Types pane,     displays the list of available components. Click a component to add it to the formula at the bottom of the     dialog box. You can search for the needed component by using the Search box at the top of the Component     Selection pane. 
+- **Component Selection pane** (Item 2): For the component type chosen in the Component Types pane,     displays the list of available components.     Click a component to add it to the formula at the bottom of the dialog box. You can search for the needed     component by using the Search box at the top of the pane. 
 
-- Formula Text pane (bottom): Contains the text of the formula, which you can edit manually. The formula     may include the selected components, arguments of manually inserted components, and other elements,     all arranged in accordance with the syntax of the formula. 
+- **Formula Text pane** (Item 3): Contains the text of the formula, which you can edit manually.     The formula may include the selected components, arguments of manually inserted components, and other     elements, all arranged in accordance with the syntax of the formula. 
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 329 
+ Managing Analytical Reports | 342 
 
  Figure: Formula Editor dialog box 
 
- Table: Formula Editor Dialog Box Buttons The dialog has the following buttons. 
+ Table: Buttons The dialog box has the following buttons. 
 
  Button Description 
 
  Validate Checks whether the formula typed in the Formula Text pane is valid. 
 
- OK Closes the dialog box and inserts the formula you have created into the formula box. 
+ OK Inserts the formula you have created into the formula box or column and closes the dialog box. 
 
  Cancel Closes the dialog box without saving your changes. 
 
@@ -11506,13 +11830,13 @@ The dialog box has the following buttons.
 
 #### Proper Naming Conventions and Descriptions 
 
- You should develop naming conventions so that you can easily identify the report definitions, row sets, and column sets that are used together in the same reports. If you have multiple column sets that are used with the same row set in different report definitions, you can name the column sets with a prefix that helps you identify the row set with which each column set is used. For example, the names (codes) of the report definition, the row set, and the 
+ You should develop naming conventions so that you can easily identify the report definitions, row sets, and column sets that are used together in the same reports. If you have multiple column sets that are used with the same row set in different report definitions, you can name the column sets with a prefix that helps you identify the row set with which each column set is used. For example, the names (codes) of the report definition, the row set, and the column set of each report can be similar. The codes of all the predefined reports—report definitions, column sets, 
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 330 
+ Managing Analytical Reports | 343 
 
- column set of each report can be similar. The codes of all the predefined reports—report definitions, column sets, row sets, and unit sets—start with D. For your reports, we recommend that you start the codes with any character except D. 
+ row sets, and unit sets—start with D. For your reports, we recommend that you start the codes with any character except D. 
 
  Also, you should specify a report description that matches the report title. On the Report Definitions (CS206000) form, specify a description that matches the title of the report in the Site Map section of this form. This will help you find the report when you select its report definition code. 
 
@@ -11548,7 +11872,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 331 
+ Managing Analytical Reports | 344 
 
  When you define the chart of accounts or any time aer, you can define the account classes for further use in analytical reports. To select a set of particular accounts in the data source of a report row or a report column, you can create an account class and assign this class to the needed accounts. You can define any number of custom account classes. 
 
@@ -11560,7 +11884,7 @@ The dialog box has the following buttons.
 
  YTD Net Income is excluded from these equations. 
 
-- If the sign of the trial balance is reversed, the credit balances for liability and income accounts are displayed     with the minus sign so that the following equation is correct: Assets + Expenses + Liabilities + Income = 0.     However, the reversed sign of the trial balance doesn't affect analytical reports, because analytical reports     don't consider the type of accounts. That is, the second equation isn't correct for analytical reports, which     always show the credit balance of liabilities and income with the positive sign. You should use uppercase references to the codes of rows and units in formulas. The codes of rows in row sets and units in unit sets can be up to 10 alphanumeric characters. The letters of codes are always uppercase. Thus, it is very important to use the appropriate letter case of codes in formulas. For example, the expression =@RowCode1+@RowCode2 in a formulat would return an exception because lowercase letters are specified in the codes. In formulas, you have also to precede a row code and a unit code with the _@_ character, such as =@UNITCODE1+@UNITCODE2. 
+- If the sign of the trial balance is reversed, the credit balances for liability and income accounts are displayed     with the minus sign so that the following equation is correct: Assets + Expenses + Liabilities + Income = 0.     However, the reversed sign of the trial balance doesn't affect analytical reports, because analytical reports     don't consider the type of accounts. That is, the second equation isn't correct for analytical reports, which     always show the credit balance of liabilities and income with the positive sign. You should use uppercase references to the codes of rows and units in formulas. The codes of rows in row sets and units in unit sets can be up to 10 alphanumeric characters. The letters of codes are always uppercase. Thus, it is very important to use the appropriate letter case of codes in formulas. For example, the expression =@RowCode1+@RowCode2 in a formula would return an exception because lowercase letters are specified in the codes. In formulas, you have also to precede a row code and a unit code with the _@_ character, such as =@UNITCODE1+@UNITCODE2. 
 
  However, you shouldn't use the @ character with a row code or a unit code in functions. Thus, for example, you would use =Sum('ROWCODE01', 'ROWCODE10') in this function rather than =Sum(@ROWCODE01, @ROWCODE10). 
 
@@ -11584,7 +11908,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 332 
+ Managing Analytical Reports | 345 
 
 3. On the table toolbar of the upper table (which is used to define and modify column headers for the column     set), click **New**. The system creates a new row in the upper table. 
 
@@ -11634,7 +11958,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 333 
+ Managing Analytical Reports | 346 
 
 3. On the table toolbar of the upper table, click **New**. 
 
@@ -11682,7 +12006,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 334 
+ Managing Analytical Reports | 347 
 
 5. In the selected column in **Headers** section of the Column Sets form, enter the header text, which might     include a formula to display variable data in the report section title. 
 
@@ -11720,7 +12044,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 335 
+ Managing Analytical Reports | 348 
 
 #### To Modify an Existing Row Set 
 
@@ -11778,7 +12102,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 336 
+ Managing Analytical Reports | 349 
 
 1. Open the _Row Sets_ (CS206010) form. 
 
@@ -11834,7 +12158,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 337 
+ Managing Analytical Reports | 350 
 
 2. In the **Code** box of the Summary area, select the code of the column set you want to modify. 
 
@@ -11890,7 +12214,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 338 
+ Managing Analytical Reports | 351 
 
  In the upper table, you can define the headers for a single column or a column range, and insert the headers in the rows specified by the Printing Group attribute. You can add, delete, or change the order of the headers, and copy the printing style defined for a certain header to apply it to another header in the analytical report. 
 
@@ -11952,7 +12276,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 339 
+ Managing Analytical Reports | 352 
 
 ### To Create, Modify, or Delete a Unit Set 
 
@@ -12004,7 +12328,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 340 
+ Managing Analytical Reports | 353 
 
 ### To Define the Units to Be Included in the Unit Set 
 
@@ -12060,7 +12384,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 341 
+ Managing Analytical Reports | 354 
 
 #### To Delete a Unit from the Unit Set 
 
@@ -12110,7 +12434,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 342 
+ Managing Analytical Reports | 355 
 
  e. Click Publish to publish the dashboard and close the dialog box. 
 
@@ -12152,7 +12476,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 343 
+ Managing Analytical Reports | 356 
 
  Figure: Profit & Loss report 
 
@@ -12178,7 +12502,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 344 
+ Managing Analytical Reports | 357 
 
 3. In the tab that opens, review the generated report and see if the changes you have made suit your needs. 
 
@@ -12220,7 +12544,7 @@ The dialog box has the following buttons.
 
 9. Click **Save** on the form toolbar. 10.Preview the report to verify that the new rows with warehouse assets are displayed properly. 
 
- For more information about row sets in the Analytical Report Manager, see Row Sets .. 
+ For more information about row sets in the Analytical Report Manager, see Row Sets. 
 
 #### Creating a New Column Set 
 
@@ -12230,7 +12554,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 345 
+ Managing Analytical Reports | 358 
 
  but also to review and quickly modify the column set or even create a new one. To modify the column set, do the following: 
 
@@ -12270,11 +12594,11 @@ The dialog box has the following buttons.
 
 3. Preview the report to verify that the selected unit set grouping entries by product groups are displayed     properly. 
 
- For more information about unit sets in the Analytical Report Manager, see Unit Sets .. 
+ For more information about unit sets in the Analytical Report Manager, see Unit Sets. 
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 346 
+ Managing Analytical Reports | 359 
 
 ### ARM Reference 
 
@@ -12306,7 +12630,7 @@ The dialog box has the following buttons.
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 347 
+ Managing Analytical Reports | 360 
 
 **Format specifier Name Description** 
 
@@ -12326,7 +12650,7 @@ _F_ or _f_ Fixed point The number is converted to a string of the form _-ddd.ddd
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 348 
+ Managing Analytical Reports | 361 
 
 **Format specifier Name Description** 
 
@@ -12344,7 +12668,7 @@ _G_ or _g_ General The number is converted to the most compact of the fixed-poin
 
 - Double: 15 
 
-- Decimal: 29 Fixed-point notation is used if the exponent that would result from expressing the number in scientific notation is greater than –5 and less than the precision specifier; otherwise, scientific no- tation is used. The result contains a decimal point, if required, and trailing zeros are omitted. If the precision specifier is present and the number of significant digits in the result exceeds the specified precision, then the excess trailing digits are removed by rounding. If scientific notation is used, the exponent in the re- sult is preceded by _E_ if the format specifier is _G_ , or _e_ if the format specifier is _g_. The exception to the preceding rule is if the number is a decimal and the precision specifier is omitted. In that case, fixed-point notation is always used and trailing zeros are pre- served. 
+- Decimal: 29 Fixed-point notation is used if the exponent that would result from expressing the number in scientific notation is greater than –5 and less than the precision specifier; otherwise, scientific notation is used. The result contains a decimal point, if required, and trailing zeros are omitted. If the precision specifier is present and the num- ber of significant digits in the result exceeds the specified precision, then the excess trailing digits are removed by rounding. If scientif- ic notation is used, the exponent in the result is preceded by _E_ if the format specifier is _G_ , or _e_ if the format specifier is _g_. The exception to the preceding rule is if the number is a decimal and the precision specifier is omitted. In that case, fixed-point notation is always used and trailing zeros are preserved. 
 
  Examples : g , g4 
 
@@ -12358,13 +12682,13 @@ _P_ or _p_ Percent The number is converted to a string that represents a percent
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 349 
+ Managing Analytical Reports | 362 
 
  Format specifier Name Description 
 
  R or r Round-trip (this format is very seldom used in analytical reports) 
 
- The round-trip specifier guarantees that a numeric value converted to a string will be parsed back into the same numeric value. When a numeric value is formatted using this specifier, it is first tested using the general format, with 15 spaces of precision for a Double and 7 spaces of precision for a Single. If the value is successfully parsed back to the same numeric value, it is formatted by using the general format specifier. However, if the value is not successfully parsed back to the same numeric value, then the value is formatted by using 17 digits of precision for a Double and 9 digits of precision for a Single. Although a precision specifier can be appended to the round-trip format specifier, it is ignored. Round trips are given precedence over precision when you use this specifier. This format is supported by floating-point types only. 
+ The round-trip specifier guarantees that a numeric value converted to a string will be parsed back into the same numeric value. When a numeric value is formatted using this specifier, it is first tested using the general format, with 15 spaces of precision for a Double and 7 spaces of precision for a Single. If the value is successfully parsed back to the same numeric value, it is formatted by using the general format specifier. However, if the value is not successfully parsed back to the same numeric value, then the value is formatted by using 17 digits of precision for a Double and 9 digits of precision for a Single. Although a precision specifier can be appended to the roundtrip format specifier, it is ignored. Round trips are given precedence over precision when you use this specifier. This format is supported by floating-point types only. 
 
  Example : r 
 
@@ -12384,7 +12708,7 @@ The following table shows the characters you can use to create custom numeric fo
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 350 
+ Managing Analytical Reports | 363 
 
 **Format character Name Description** 
 
@@ -12396,9 +12720,7 @@ _#_ Digit placeholder If the value being formatted has a digit in the position w
 
  "(###) ### ####" 
 
-_._ Decimal point The first_._ character in the format string determines the location     of the decimal separator in the formatted value; any additional 
-
-_._ characters are ignored. The actual character used as the deci- mal separator is determined by the settings in the **Regional Op- tions** control panel. 
+_._ Decimal point The first_._ character in the format string determines the location of     the decimal separator in the formatted value; any additional_._ char-     acters are ignored. The actual character used as the decimal sepa-     rator is determined by the settings in the **Regional Options** control     panel. 
 
 _,_ Thousand separator and number scaling 
 
@@ -12408,17 +12730,17 @@ _%_ Percentage placeholder
 
  The presence of the % character in a format string causes a number to be multiplied by 100 before it is formatted. The appropriate symbol is inserted in the number itself at the location where the % appears in the format string. The percent character used is dependent on the settings in the Regional Options control panel. 
 
+_E0 E+0 E-0 e0_ e+0 
 
-<!-- PAGE_BREAK -->
- Managing Analytical Reports | 351 
-
- Format character Name Description 
-
- E0 E+0 E-0 e0 e+0 
-
- e-0 
+_e-0_ 
 
  Scientific notation If any of the strings E , E+ , E, e , e+ , or eis present in the format string and followed immediately by at least one 0 character, then the number is formatted using scientific notation with an E or e inserted between the number and the exponent. The number of 0 characters following the scientific notation indicator determines the minimum number of digits to output for the exponent. The E+ and e+ formats indicate that a sign character (plus or minus) should always precede the exponent. The E , E, e , and eformats indicate that a sign character should only precede negative exponents. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Analytical Reports | 364 
+
+ Format character Name Description 
 
  \ Escape character In C# and C++, the backslash character causes the next character in the format string to be interpreted as an escape sequence. This character is used with traditional formatting sequences like \n (new line). 
 
@@ -12454,13 +12776,7 @@ The following table describes the standard date/time format specifiers. The outp
 
 - _dddd d MMMM yyyy_ (for _fr-FR_ local settings) **Example** : _D_ 
 
-
-<!-- PAGE_BREAK -->
- Managing Analytical Reports | 352 
-
-**Format character Name Description** 
-
-_t_ Short time pattern Displays a value in the short time format. 
+ t Short time pattern Displays a value in the short time format. 
 
  Depending on the settings in the Regional Options control panel, the value can be in one of the following formats: 
 
@@ -12469,6 +12785,12 @@ _t_ Short time pattern Displays a value in the short time format.
 - _H:mm_ (for ja-JP local settings) 
 
 - _HH:mm_ (for fr-FR local settings) **Example** : _t_ 
+
+
+<!-- PAGE_BREAK -->
+ Managing Analytical Reports | 365 
+
+**Format character Name Description** 
 
 _T_ Long time pattern Displays a value in the long time format. 
 
@@ -12520,17 +12842,17 @@ _M_ or _m_ Month day pattern Displays the day of month defined by the value.
 
 - _d MMMM_ (for _fr-FR_ local settings **Example** : _M_ m 
 
-
-<!-- PAGE_BREAK -->
- Managing Analytical Reports | 353 
-
- Format character Name Description 
-
- R or r RFC1123 pattern Displays a time value based on the Internet Engineering Task Force (IETF) Request for Comments (RFC) 1123 specification. This specification sets the following common time format (regardless of the settings in the Regional Options control panel): ddd, dd MMM yyyy HH':'mm':'ss 'GMT'. 
+_R_ or _r_ RFC1123 pattern Displays a time value based on the Internet Engineering Task Force (IETF) Request for Comments (RFC) 1123 specification. This specification sets the following common time format (regardless of the settings in the **Regional Options** control panel): _ddd, dd MMM yyyy HH':'mm':'ss 'GMT'_. 
 
  Formatting does not modify the DateTime value; therefore, you must adjust the value to GMT before formatting. 
 
  Examples : R , r 
+
+
+<!-- PAGE_BREAK -->
+ Managing Analytical Reports | 366 
+
+ Format character Name Description 
 
  s Sortable date/time pattern; conforms to ISO 8601 
 
@@ -12562,25 +12884,27 @@ The following table describes the custom date/time format specifiers. The output
 
  Format specifier Description 
 
- d Displays the current day of the month, expressed as a number between 1 and 31. If the day is a single digit only (1 to 9), then it is displayed as a single digit. Note that if the d format specifier is used without other custom format strings, it is interpreted as the standard format specifier for the short date pattern. If the d format specifier is passed with other custom format specifiers or the % character, it is interpreted as a custom format specifier. 
+ d Displays the current day of the month, expressed as a number between 1 and 
+
+31. If the day is a single digit only (1 to 9), then it is displayed as a single digit. Note that if the _d_ format specifier is used without other custom format strings, it is interpreted as the standard format specifier for the short date pattern. If the _d_ format specifier is passed with other custom format specifiers or the _%_ character, it is interpreted as a custom format specifier. 
 
  ddd Displays the abbreviated name of the day for the specified DateTime. 
 
-
-<!-- PAGE_BREAK -->
- Managing Analytical Reports | 354 
-
-**Format specifier Description** 
-
-_dddd_ (plus any number of additional _d_ characters) 
+ dddd (plus any number of additional d characters) 
 
  Displays the full name of the day for the specified DateTime. 
 
-_f_ Displays the most significant digit of the seconds fraction. Note that if the _f_ format specifier is used alone, without other custom format strings, it is interpreted as the full (long date + short time) format specifier. If the _f_ format specifier is passed with other custom format specifiers or the _%_ character, it is interpreted as a custom format specifier. 
+ f Displays the most significant digit of the seconds fraction. Note that if the f format specifier is used alone, without other custom format strings, it is interpreted as the full (long date + short time) format specifier. If the f format specifier is passed with other custom format specifiers or the % character, it is interpreted as a custom format specifier. 
 
-_ff_ Displays the two most significant digits of the seconds fraction. 
+ ff Displays the two most significant digits of the seconds fraction. 
 
-_fff_ Displays the three most significant digits of the seconds fraction. 
+ fff Displays the three most significant digits of the seconds fraction. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Analytical Reports | 367 
+
+**Format specifier Description** 
 
 _ffff_ Displays the four most significant digits of the seconds fraction. 
 
@@ -12608,49 +12932,37 @@ _g_ or _gg_ (plus any number of additional _g_ characters)
 
  Displays the era (A.D. for example) for the specified DateTime value. Note that if the g format specifier is used alone, without other custom format strings, it is interpreted as the standard general format specifier. If the g format specifier is passed with other custom format specifiers or the % character, it is interpreted as a custom format specifier. 
 
-
-<!-- PAGE_BREAK -->
- Managing Analytical Reports | 355 
-
-**Format specifier Description** 
-
-_h_ Displays the hour for the specified _DateTime_ value in the range 1 to 
-
-12. The hour represents whole hours passed since either midnight (displayed as 12) or noon (also displayed as 12). If this format is used alone, then the same hour before or after noon is indistinguishable. If the hour is a single digit (1 to 9), it is displayed as a single digit. No rounding occurs when the hour is displayed. For example, a _DateTime_ of 5:43 returns 5. 
+_h_ Displays the hour for the specified _DateTime_ value in the range 1 to 12. The hour represents whole hours passed since either midnight (displayed as 12) or noon (also displayed as 12). If this format is used alone, then the same hour before or after noon is indistinguishable. If the hour is a single digit (1 to 9), it is displayed as a single digit. No rounding occurs when the hour is displayed. For example, a _DateTime_ of 5:43 returns 5. 
 
 _hh_ , _hh_ (plus any number of additional _h_ characters) 
 
- Displays the hour for the specified DateTime value in the range 1 to 
-
-12. The hour represents whole hours passed since either midnight (displayed as 12) or noon (also displayed as 12). If this format is used alone, then the same hour before or after noon is indistinguishable. If the hour is a single digit (1 to 9), it is formatted with a preceding 0 (01-09). 
+ Displays the hour for the specified DateTime value in the range 1 to 12. The hour represents whole hours passed since either midnight (displayed as 12) or noon (also displayed as 12). If this format is used alone, then the same hour before or after noon is indistinguishable. If the hour is a single digit (1 to 9), it is formatted with a preceding 0 (01-09). 
 
 _H_ Displays the hour for the specified _DateTime_ value in the range 0 to 23. The hour represents whole hours passed since midnight (displayed as 0). If the hour is a single digit (0 to 9), it is displayed as a single digit. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Analytical Reports | 368 
+
+**Format specifier Description** 
 
 _HH, HH_ (plus any number of additional _H_ characters) 
 
  Displays the hour for the specified DateTime value in the range 0 to 23. The hour represents whole hours passed since midnight (displayed as 0). If the hour is a single digit (0 to 9), it is formatted with a preceding 0 (01 to 09). 
 
-_m_ Displays the minute for the specified _DateTime_ value in the range 0 to 
-
-59. The minute represents whole minutes passed since the last hour. If the minute is a single digit (0 to 9), it is displayed as a single digit. Note that if the _m_ format specifier is used alone, without other custom for- mat strings, it is interpreted as the standard format specifier for the month-day pattern. If the _m_ format specifier is passed with other cus- tom format specifiers or the _%_ character, it is interpreted as a custom format specifier. 
+_m_ Displays the minute for the specified _DateTime_ value in the range 0 to 59. The minute represents whole minutes passed since the last hour. If the minute is a single digit (0 to 9), it is displayed as a single digit. Note that if the _m_ format specifier is used alone, without other custom format strings, it is interpreted as the standard format specifier for the month-day pattern. If the _m_ format specifier is passed with other custom format specifiers or the _%_ character, it is interpreted as a custom format specifier. 
 
 _mm_ , _mm_ (plus any number of additional _m_ characters) 
 
  Displays the minute for the specified DateTime in the range 0 to 59. The minute represents whole minutes passed since the last hour. If the minute is a single digit (0 to 9), it is formatted with a preceding 0 (01 to 09). 
 
-_M_ Displays the month, expressed as a number between 1 and 12. If the month is a single digit (1 to 9), it is displayed as a single digit. Note that if the _M_ format specifier is used alone, without other custom format strings, it is interpreted as the standard format specifier for the monthday pattern. If the _M_ format specifier is passed with other custom format specifiers or the _%_ character, it is interpreted as a custom format specifier. 
+_M_ Displays the month, expressed as a number between 1 and 12. If the month is a single digit (1 to 9), it is displayed as a single digit. Note that if the _M_ format specifier is used alone, without other custom format strings, it is interpreted as the standard format specifier for the month-day pattern. If the _M_ format specifier is passed with other custom format specifiers or the _%_ character, it is interpreted as a custom format specifier. 
 
 _MM_ Displays the month, measured as a number between 1 and 12. If the month is a single digit (1 to 9), it is formatted with a preceding 0 (01 to 09). 
 
 _MMM_ Displays the abbreviated name of the month for the specified _DateTime_ value. 
 
 _MMMM_ Displays the full name of the month for the specified _DateTime_ value. 
-
-
-<!-- PAGE_BREAK -->
- Managing Analytical Reports | 356 
-
-**Format specifier Description** 
 
 _s_ Displays the seconds for the specified _DateTime_ value in the range 0 to 59. The second represents whole seconds passed since the last minute. If the second is a single digit (0 to 9), it is displayed as a single digit only. Note that if the _s_ format specifier is used alone, without other custom format strings, it is interpreted as the standard sortable format specifier for the date-time pattern. If the _s_ format specifier is passed with other custom format specifiers or the _%_ character, it is interpreted as a custom format specifier. 
 
@@ -12662,23 +12974,23 @@ _ss_ , _ss_ (plus any number of additional _s_ characters)
 
  Displays the seconds for the specified DateTime in the range 0 to 59. The second represents whole seconds passed since the last minute. If the second is a single digit (0 to 9), it is formatted with a preceding 0 (01 to 09). 
 
+
+<!-- PAGE_BREAK -->
+ Managing Analytical Reports | 369 
+
+**Format specifier Description** 
+
 _t_ Displays the first character of the a.m./p.m. designator for the specified _DateTime_ value. Note that if the _t_ format specifier is used alone, without other custom format strings, it is interpreted as the standard format specifier for the long time pattern. If the _t_ format specifier is passed with other custom format specifiers or the _%_ character, it is interpreted as a custom format specifier. 
 
 _tt_ , _tt_ (plus any number of additional _t_ characters) 
 
  Displays the a.m./p.m. designator for the specified DateTime value. 
 
-_y_ Displays the year for the specified _DateTime_ value as a maximum twodigit number. The first two digits of the year are omitted. If the year is a single digit (1 to 9), it is displayed as a single digit. Note that if the _y_ format specifier is used alone, without other custom format strings, it is interpreted as the standard format specifier for the short date pattern. If the _y_ format specifier is passed with other custom format specifiers or the _%_ character, it is interpreted as a custom format specifier. 
+_y_ Displays the year for the specified _DateTime_ value as a maximum two-digit number. The first two digits of the year are omitted. If the year is a single digit (1 to 9), it is displayed as a single digit. Note that if the _y_ format specifier is used alone, without other custom format strings, it is interpreted as the standard format specifier for the short date pattern. If the _y_ format specifier is passed with other custom format specifiers or the _%_ character, it is interpreted as a custom format specifier. 
 
-_yy_ Displays the year for the specified _DateTime_ value as a maximum twodigit number. The first two digits of the year are omitted. If the year is a single digit (1 to 9), it is formatted with a preceding 0 (01 to 09). 
+_yy_ Displays the year for the specified _DateTime_ value as a maximum two-digit number. The first two digits of the year are omitted. If the year is a single digit (1 to 9), it is formatted with a preceding 0 (01 to 09). 
 
 _yyyy_ Displays the year for the specified _DateTime_ value, including the century. If the year is fewer than four digits in length, then preceding zeros are appended as necessary to make the displayed year four digits long. 
-
-
-<!-- PAGE_BREAK -->
- Managing Analytical Reports | 357 
-
-**Format specifier Description** 
 
 _z_ Displays the time zone offset for the system's current time zone in whole hours only. The offset is always displayed with a leading sign (zero is displayed as _+0_ ), indicating hours ahead of Greenwich mean time (+) or hours behind Greenwich mean time (–). The range of values is –12 to +13. If the offset is a single digit (0 to 9), it is displayed as a single digit with the appropriate leading sign. The setting for the time zone is specified as _+X_ or _–X_ , where _X_ is the offset in hours from GMT. The displayed offset is affected by daylight saving time. 
 
@@ -12692,17 +13004,19 @@ _:_ Serves as a time separator.
 
 _/_ Functions as a date separator. 
 
-_"_ Indicates a quoted string. Displays the literal value of any string between two quotation marks preceded by the escape character (/). 
-
-_'_ Indicates a quoted string. Displays the literal value of any string between two single quotation marks. 
-
-_%c_ Where _c_ is both a standard format specifier and a custom format specifier, displays the custom format pattern associated with the format specifier. Note that if a format specifier is used alone as a single character, it is interpreted as a standard format specifier. Only format specifiers consisting of two or more characters are interpreted as custom format specifiers. In order to display the custom format for a specifier defined as both a standard and a custom format specifier, precede the specifier with a _%_ symbol. 
-
-_\c_ Where _c_ is any character, displays the next character as a literal. The escape character cannot be used to create an escape sequence (like _\n_ for new line) in this context. 
-
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 358 
+ Managing Analytical Reports | 370 
+
+ Format specifier Description 
+
+ " Indicates a quoted string. Displays the literal value of any string between two quotation marks preceded by the escape character (/). 
+
+ ' Indicates a quoted string. Displays the literal value of any string between two single quotation marks. 
+
+ %c Where c is both a standard format specifier and a custom format specifier, displays the custom format pattern associated with the format specifier. Note that if a format specifier is used alone as a single character, it is interpreted as a standard format specifier. Only format specifiers consisting of two or more characters are interpreted as custom format specifiers. In order to display the custom format for a specifier defined as both a standard and a custom format specifier, precede the specifier with a % symbol. 
+
+ \c Where c is any character, displays the next character as a literal. The escape character cannot be used to create an escape sequence (like \n for new line) in this context. 
 
  Related Links 
 
@@ -12736,6 +13050,12 @@ _\c_ Where _c_ is any character, displays the next character as a literal. The e
 
  Example: =CBool(A11+B11-C11*0.05) (where A11 , B11 and C11 are the links used in a function argument) 
 
+
+<!-- PAGE_BREAK -->
+ Managing Analytical Reports | 371 
+
+ Function Description and Examples 
+
  CDate(x) Converts an expression defined in a function argument to a value of the Date type. The CDate function argument should be a valid date expression. CDate recognizes date formats according to the locale setting of the system. The return type is DateTime. 
 
  Example: =CDate(A2-B2) (where A2 and B2 are the links used in a function argument) 
@@ -12751,12 +13071,6 @@ _\c_ Where _c_ is any character, displays the next character as a literal. The e
  CSng(x) Converts an expression defined in a function argument to a value of the Single type. If the expression defined in the function argument lies outside the acceptable range for the Single type, an error occurs. The return type is Float. 
 
  Example: =CSng(A12) (where A12 is the link used in a function argument) 
-
-
-<!-- PAGE_BREAK -->
- Managing Analytical Reports | 359 
-
- Function Description and Examples 
 
  CDec(x) Converts an expression defined in a function argument to a value of the Decimal type. The return type is Decimal. 
 
@@ -12784,29 +13098,29 @@ _\c_ Where _c_ is any character, displays the next character as a literal. The e
 
  Example: =LTrim(CStr(A12)) (where A12 is the link used in a function argument) 
 
- RTrim(string) Removes all trailing spaces or parsing characters from the specified character expression, or all trailing 0 bytes from the specified binary expression. The return type is String. 
+
+<!-- PAGE_BREAK -->
+ Managing Analytical Reports | 372 
+
+**Function Description and Examples** 
+
+RTrim(string) Removes all trailing spaces or parsing characters from the specified character expression, or all trailing _0_ bytes from the specified binary expression. The return type is String. 
 
  Example: =RTrim(CStr(A12)) (where A12 is the link used in a function argument) 
 
- Trim(string) Removes all leading and trailing spaces or parsing characters from the specified character expression, or all leading and trailing 0 bytes from the specified binary expression. The return type is String. 
+Trim(string) Removes all leading and trailing spaces or parsing characters from the specified character expression, or all leading and trailing _0_ bytes from the specified binary expression. The return type is String. 
 
  Example: =Trim(CStr(A12)) (where A12 is the link used in a function argument) 
 
- Format(format, argument(s)) 
+Format(format, argument(s)) 
 
  Replaces the format item in a specified formatting string ( format ) with the text equivalent of the arguments ( arguments ). The return type is String. 
 
  Example: =Format('Currency:........ {0:C}; Account:........ {1:N}', A1, B1) (where A1 and B1 are the links used as a function arguments; 0, 1 are the specifiers indicating where the arguments will be inserted; C is the currency format specifier; and N is the number format specifier) 
 
- UCase(string) Returns a string that has been converted to uppercase. The string argument is any valid string expression. The return type is String. If string contains a null value, the null value is returned. 
+UCase(string) Returns a string that has been converted to uppercase. The _string_ argument is any valid string expression. The return type is String. If _string_ contains a null value, the null value is returned. 
 
  Example: =UCase(CStr(A12)) (where A12 is the link used in a function argument) 
-
-
-<!-- PAGE_BREAK -->
- Managing Analytical Reports | 360 
-
-**Function Description and Examples** 
 
 LCase(string) Returns a string that has been converted to lowercase. The _string_ argument is any valid string expression. The return type is String. If _string_ contains a null value, the null value is returned. 
 
@@ -12834,33 +13148,35 @@ Left(string, length)
 
  Example: =Left(CStr(A12), 3) (where A12 is the link used in a function argument) 
 
-Right(string, length) 
+
+<!-- PAGE_BREAK -->
+ Managing Analytical Reports | 373 
+
+ Function Description and Examples 
+
+ Right(string, length) 
 
  Returns a string containing a specified number of characters from the right side of a string. The return type is String. If string contains a null value, the null value is returned. 
 
  Example: =Right(CStr(A12), 3) (where A12 is the link used in a function argument) 
 
-Replace(string, oldValue, newValue) 
+ Replace(string, oldValue, newValue) 
 
  Returns a string in which a specified substring ( oldValue ) has been replaced with another substring ( newValue ). The return type is String. 
 
  Example: =Replace(CStr(A12), 'rur', 'eur') (where A12 is the link used in a function argument) 
 
-PadLeft(string, width, paddingChar) 
+ PadLeft(string, width, paddingChar) 
 
  Right-aligns the characters in a specified string ( string ), padding with the specified characters ( paddingChar ) on the le for a specified total width ( width ). The return type is String. 
 
  Example: =PadLeft(CStr(A12), 3, '%') (where A12 is the link used in a function argument). In this example the PadLeft function adds padding character/s at the begining of the string. 
 
-PadRight(string, width, paddingChar) 
+ PadRight(string, width, paddingChar) 
 
  Le-aligns the characters in a specified string ( string ), padding with the specified characters ( paddingChar ) on the right for a specified total width ( width ). The return type is String. 
 
  Example: =PadRight(CStr(A12), 3, '%') (where A12 is the link used in a function argument). In this example the PadRight function adds padding character/s at the end of the string. 
-
-
-<!-- PAGE_BREAK -->
- Managing Analytical Reports | 361 
 
 #### Math Functions 
 
@@ -12885,6 +13201,12 @@ PadRight(string, width, paddingChar)
  Example: =Ceiling(A10-C11) 
 
  Here A10 and C11 are the links used in a function argument. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Analytical Reports | 374 
+
+ Function Description and Examples 
 
  Round(x, decimals) 
 
@@ -12918,7 +13240,7 @@ PadRight(string, width, paddingChar)
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 362 
+ Managing Analytical Reports | 375 
 
 **Function Description and Examples** 
 
@@ -12982,7 +13304,7 @@ DayOfYear(date)
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 363 
+ Managing Analytical Reports | 376 
 
 **Function Description and Examples** 
 
@@ -13040,7 +13362,7 @@ Today() Returns the business date according to the system date and time on the l
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 364 
+ Managing Analytical Reports | 377 
 
  Function Description and Examples 
 
@@ -13098,7 +13420,7 @@ Today() Returns the business date according to the system date and time on the l
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 365 
+ Managing Analytical Reports | 378 
 
  Function Description and Examples 
 
@@ -13158,7 +13480,7 @@ Today() Returns the business date according to the system date and time on the l
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 366 
+ Managing Analytical Reports | 379 
 
 **Function Description and Examples** 
 
@@ -13220,7 +13542,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 367 
+ Managing Analytical Reports | 380 
 
  Function Description and Examples 
 
@@ -13244,7 +13566,7 @@ FormatPeriod(object period, object period shift)
 
 ### Formula Operators 
 
- You use operators to perform certain operations with the formula parameters or modify the data specified by the Data Source report parameter before the data is inserted in the report. You can add operator manually by typing them in in the formula area or select them from the list of operators available in the formula editor. 
+ You use operators to perform certain operations with the formula parameters or modify the data specified by the Data Source report parameter before the data is inserted in the report. You can add operator manually by typing them in the formula area or select them from the list of operators available in the formula editor. 
 
  There are several groups of operators in the formulas, as described in the following sections. 
 
@@ -13274,7 +13596,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 368 
+ Managing Analytical Reports | 381 
 
  Operator Description and Examples 
 
@@ -13320,7 +13642,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 369 
+ Managing Analytical Reports | 382 
 
  Operator Description and Examples 
 
@@ -13368,7 +13690,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 370 
+ Managing Analytical Reports | 383 
 
  Operator Description and Examples 
 
@@ -13422,7 +13744,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 371 
+ Managing Analytical Reports | 384 
 
 **Parameter Description** 
 
@@ -13460,7 +13782,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 372 
+ Managing Analytical Reports | 385 
 
 **Parameter Description** 
 
@@ -13468,7 +13790,9 @@ FormatPeriod(object period, object period shift)
 
 @StartAccount The first account in the range of accounts used in the report. This parameter refers to the value in the **Start Account** box in the **Default Data Source Settings** section of the _Report Definitions_ form. 
 
-@StartAccountGroup The first account group in the range of account groups used in the report. Refers to the value in the **Start Account Group** box in the **Default Data Source Settings** section of the _Report Definitions_ form. 
+@StartAccountGroup 
+
+ The first account group in the range of account groups used in the report. Refers to the value in the Start Account Group box in the Default Data Source Settings section of the Report Definitions form. 
 
  This parameter is valid only in reports of the PM type. 
 
@@ -13500,7 +13824,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 373 
+ Managing Analytical Reports | 386 
 
  Parameter Description 
 
@@ -13546,7 +13870,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 374 
+ Managing Analytical Reports | 387 
 
  =C30-D20 
 
@@ -13586,7 +13910,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 375 
+ Managing Analytical Reports | 388 
 
  Report Layout Parameter 
 
@@ -13630,7 +13954,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 376 
+ Managing Analytical Reports | 389 
 
  Column Formatting Parameter 
 
@@ -13666,7 +13990,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Managing Analytical Reports | 377 
+ Managing Analytical Reports | 390 
 
  Formatting parameter 
 
@@ -13686,7 +14010,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 378 
+ Acumatica Report Designer Guide | 391 
 
 ## Acumatica Report Designer Guide 
 
@@ -13732,7 +14056,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 379 
+ Acumatica Report Designer Guide | 392 
 
 #### Installation of the Report Designer 
 
@@ -13748,7 +14072,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 380 
+ Acumatica Report Designer Guide | 393 
 
  Figure: The main window of the Report Designer 
 
@@ -13778,7 +14102,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 381 
+ Acumatica Report Designer Guide | 394 
 
  based on the data of Acumatica ERP, you have decided to use the Acumatica Report Designer, which is included in the Acumatica ERP installation package. 
 
@@ -13824,7 +14148,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 382 
+ Acumatica Report Designer Guide | 395 
 
 ### Report Creation: General Information 
 
@@ -13868,7 +14192,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 383 
+ Acumatica Report Designer Guide | 396 
 
 6. _Publishing_ : You preview the report and make sure that it satisfies all the requirements. If it does not, you     modify the report. When it is ready, you publish the report, which entails adding it to the site map to make     it listed in a workspace, and assigning the _Granted_ access rights to the roles whose users need to work with     the report. 
 
@@ -13880,7 +14204,7 @@ FormatPeriod(object period, object period shift)
 
  You can load the database schema of all available data access classes from the application server that you use to work with Acumatica ERP. To load the database schema, you use the Schema Builder, which you invoke by clicking File > Build Schema on the Report Designer menu bar. On the Tables tab, you specify the following settings: 
 
-1. The connection string (see Item 1 in the screenshot below) in the following format: _https://<URL of your_     _Acumatica ERP server>/<InstanceName>/_ , where you replace _<URL of your Acumatica ERP server>_ with     the actual URL of your Acumatica ERP server, and _<InstanceName>_ with the name of your Acumatica ERP     instance. 
+1. The connection string (see Item 1 in the screenshot below) in the following format: _[http://<URL](http://<URL) of your_     _Acumatica ERP server>/<InstanceName>/_ , where you replace _<URL of your Acumatica ERP server>_ with     the actual URL of your Acumatica ERP server, and _<InstanceName>_ with the name of your Acumatica ERP     instance. 
 
 2. Your username and password in the Acumatica ERP instance (Item 2). If your application contains more     than one tenant, you type the appropriate tenant name with the username in the following format:     <username>@<tenant name>. The tenant name is the name you select when you sign in to Acumatica     ERP. 
 
@@ -13892,7 +14216,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 384 
+ Acumatica Report Designer Guide | 397 
 
 #### Report Publication 
 
@@ -13930,7 +14254,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 385 
+ Acumatica Report Designer Guide | 398 
 
  In the Acumatica ERP interface, you can view reports published in the system. In most workspaces, predefined reports are listed in the Reports category. You can add reports that you develop with the Report Designer to this category of any workspace. 
 
@@ -13968,7 +14292,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 386 
+ Acumatica Report Designer Guide | 399 
 
  Figure: The Save Report on Server dialog box 
 
@@ -14004,7 +14328,7 @@ FormatPeriod(object period, object period shift)
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 387 
+ Acumatica Report Designer Guide | 400 
 
 All these sections are briefly described below: 
 
@@ -14026,7 +14350,7 @@ You can do the following with a report section:
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 388 
+ Acumatica Report Designer Guide | 401 
 
  contain any elements or the information in this section is not relevant to this report. To delete a section, you right-click the section header and then select Delete , as shown in the screenshot below. 
 
@@ -14052,7 +14376,7 @@ You can do the following with a report section:
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 389 
+ Acumatica Report Designer Guide | 402 
 
 - **Refresh** : Updates the table structure you have selected (by clicking it in the list of tables) in the database     schema for the report. 
 
@@ -14090,7 +14414,7 @@ You can do the following with a report section:
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 390 
+ Acumatica Report Designer Guide | 403 
 
  a. Reads the report b. Refreshes all the tables used in the report, based on the database schema c. Writes the updated report file to the specified destination folder d. Writes the result of the report update to either the system console or the specified log file 
 
@@ -14118,7 +14442,7 @@ You can do the following with a report section:
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 391 
+ Acumatica Report Designer Guide | 404 
 
 #### Story 
 
@@ -14150,19 +14474,19 @@ You can do the following with a report section:
 
  Alternatively, to open a form, you can search for it by its name or by its form ID without periods. 
 
-3. In the **From Period** box of the **Report Parameters** tab, select _01-2024_ , in the **To Period** box, leave the     default value. 
+3. In the **From Period** box of the **Report Parameters** tab, select _01-2025_ , in the **To Period** box, leave the     default value. 
 
 4. On the form toolbar, click **Run Report**.     The resulting report is displayed. 
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 392 
+ Acumatica Report Designer Guide | 405 
 
 #### Step 2: Opening the Existing Report in the Acumatica Report Designer 
 
  To open the existing report in the Acumatica Report Designer, do the following: 
 
-1. On the Windows Start menu, select **All Programs > Acumatica > Report Designer**. 
+1. On the Windows Start menu, select **All > Acumatica > Report Designer**. 
 
 2. On the Report Designer menu bar, click **File > Open From Server**. 
 
@@ -14208,9 +14532,9 @@ You can do the following with a report section:
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 393 
+ Acumatica Report Designer Guide | 406 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -14242,15 +14566,17 @@ You can do the following with a report section:
 
 1. In Acumatica ERP, open the _Invoices and Memos_ (AR301000) form. 
 
-2. Point to the **Reference Nbr.** element, press Ctrl+Alt, and then click. The **Element Properties** dialog box     opens. You are interested in the **Data Class** and **Data Field** values, which correspond to the class and field     you need. Notice that these values are _ARInvoice_ and _RefNbr_ , respectively. Close the dialog box. 
+2. Point to the **Reference Nbr.** element, press Ctrl+Alt, and then click.     The **Element Properties** dialog box opens. You are interested in the **Data Class** and **Data Field** values,     which correspond to the class and field you need. Notice that these values are _ARInvoice_ and _RefNbr_ ,     respectively. Close the dialog box. 
 
-3. On the form, point at the **Balance** element, press Ctrl+Alt, and click to again open the **Element Properties**     dialog box. Notice that the **Data Class** value is again _ARInvoice_ , while the **Data Field** value is _CuryDocBal_.     Close the dialog box. 
+3. On the form, point at the **Balance** element, press Ctrl+Alt, and click to again open the **Element Properties**     dialog box.     Notice that the **Data Class** value is again _ARInvoice_ , while the **Data Field** value is _CuryDocBal_. Close the     dialog box. 
 
-4. On the form, inspect the **Type** element as you inspected elements in the previous instructions to find its     data class and data field. Notice that its **Data Class** value is again _ARInvoice_ and its **Data Field** value is     _DocType_. 
+4. On the form, inspect the **Type** element as you inspected elements in the previous instructions to find its     data class and data field. 
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 394 
+ Acumatica Report Designer Guide | 407 
+
+ Notice that its Data Class value is again ARInvoice and its Data Field value is DocType. 
 
  You have discovered that the data access class you need is ARInvoice and the data fields are DocType , RefNbr , and CuryDocBal. 
 
@@ -14292,11 +14618,13 @@ You can do the following with a report section:
 
  Alternatively, you could double-click the added text box, enter Document Type, and press the Enter key. 
 
-6. Add two more _TextBox_ elements to the pageHeaderSection1 section with the following     values: Reference Number and Balance. These elements will be the headers of two other     columns. Place these elements above the element with the [=[ARInvoice.RefNbr]] and     [=[ARInvoice.CuryDocBal]] content. 
+6. Add two more _TextBox_ elements to the pageHeaderSection1 section with the following     values: Reference Number and Balance. These elements will be the headers of two other 
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 395 
+ Acumatica Report Designer Guide | 408 
+
+ columns. Place these elements above the element with the [=[ARInvoice.RefNbr]] and [=[ARInvoice.CuryDocBal]] content. 
 
 7. In the Tools pane, drag the _Line_ element to pageHeaderSection1. Extend the line. Place the line below     the added text boxes. This line will divide the heading of the table in the report. 
 
@@ -14338,15 +14666,15 @@ You can do the following with a report section:
 
 - **URL** : ~/Frames/ReportLauncher.aspx?ID=AR308000.rpx 
 
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 409 
+
 - **Workspaces** : _Receivables_ 
 
 - **Category** : _Reports_ 
 
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 396 
-
-3. Save your changes. 
+3. On the page toolbar, click **Save**. 
 
 4. On the _Access Rights by Screen_ (SM201020) form, specify the access rights for the added report as follows:     a. In the **Receivables** node, click **All Invoices and Memos**.     b. In the right pane, select _Granted_ in the **Access Rights** column for the _ReportDesigner_ , _AR Admin_ , and        _Accountant_ roles.     c. On the form toolbar, click **Save**. 
 
@@ -14362,11 +14690,11 @@ You can do the following with a report section:
 
  The created report with the information about invoices and memos is displayed. The following screenshot shows the resulting report. 
 
- Figure: The resulting report displaying information about invoices and memos 
-
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 397 
+ Acumatica Report Designer Guide | 410 
+
+ Figure: The resulting report displaying information about invoices and memos 
 
 ### Filling a Report with Content 
 
@@ -14377,6 +14705,10 @@ You can do the following with a report section:
 ### Report Content: General Information 
 
  The content of a report designed in the Acumatica Report Designer includes visual elements, which can contain text, data, and images. The visual elements are placed within the report sections, and their appearance and behavior are determined by both the properties of the visual elements themselves and the properties of the report section where they are placed. 
+
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 411 
 
 #### Learning Objectives 
 
@@ -14410,10 +14742,6 @@ You can do the following with a report section:
 
 - _SubReport_ : You can use a subreport to include data from other reports in the current report. For example,     you can define as a subreport the list of change orders in a project. By using subreports, you can reduce the     time it takes to form a complex report that extracts data from multiple related tables. 
 
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 398 
-
 #### Operations with Visual Elements in a Report 
 
  When you add content to a report, you generally perform the following steps: 
@@ -14427,6 +14755,10 @@ You can do the following with a report section:
  The visual elements are located in the Tools pane of the Report Designer main window. To add a visual element to a report section, you click the element in the Tools pane, and drag it to the desired position within the report. You can resize the element by dragging its borders. You can also move the element within the section or to another section. 
 
  When you place elements in a report layout, you need to make sure that the elements do not overlap. The Report Designer crosses out all visual elements that overlap. Overlapping elements will not cause a runtime error in the report; but only one of these elements will be shown in the report. To fix the overlapping visual elements, you have to adjust the layout and move or resize the elements. 
+
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 412 
 
  Aer you add a visual element to the report, you can do the following: 
 
@@ -14460,13 +14792,7 @@ You can do the following with a report section:
 
  You use the PictureBox element to add an image to an Acumatica ERP report. You can do any of the following: 
 
-- Embed an image file in the report. Embedded images are stored along with the report file, and you include     them in the report as its inner elements. You can add images of the following types to the collection     of embedded images: bmp, gif, jpg, and png. You first specify the name of the image that you are 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 399 
-
- embedding as the Data > EmbeddedImages property for report1 Report. Then you specify the following properties for the PictureBox element: 
+- Embed an image file in the report. Embedded images are stored along with the report file, and you include     them in the report as its inner elements. You can add images of the following types to the collection     of embedded images: bmp, gif, jpg, and png. You first specify the name of the image that you are     embedding as the **Data > EmbeddedImages** property for report1 Report. Then you specify the     following properties for the _PictureBox_ element: 
 
 - **Data > Source** : _Embedded_ 
 
@@ -14481,6 +14807,10 @@ You can do the following with a report section:
 - Select a data field and load an image from it. In Acumatica ERP, all images are stored in the _UploadFile_ table.     For an image inserted in a report from the database, you specify the following properties for the _PictureBox_     element: 
 
 - **Data > Source** : _Database_ 
+
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 413 
 
 - **Data > Value** : =[UploadFile.Name] 
 
@@ -14520,10 +14850,6 @@ You can do the following with a report section:
 
 - LREX50 is the lot number, 
 
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 400 
-
 - (37) is the GS1 code for the quantity, 
 
 - 15 is the quantity of the item in the lot. For more details on GS1-128 barcodes, see _GS1 Barcodes in Acumatica ERP_. 
@@ -14535,6 +14861,10 @@ You can do the following with a report section:
 #### Subreports 
 
  You can add any number of subreports to a single main report by using the SubReport element. If a SubReport element is placed in any report section, the entire subreport will be printed in that section, except for the page header and page footer sections. 
+
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 414 
 
  Although you can insert a subreport into any report, we do not recommend that you insert a subreport into another subreport because it can degrade the performance of the server. 
 
@@ -14552,15 +14882,11 @@ You can do the following with a report section:
 
  In the following activity, you will learn how to add QR codes to reports. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that you are a technical specialist in your company who is working on simple customizations. A sales manager has requested a report that displays the details of a particular invoice or memo, including the QR codes of the included items. You have decided to use the predefined Invoice/Memo (AR641000) report as a base and modify it by adding the QR code of each item. 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 401 
 
 #### Process Overview 
 
@@ -14573,6 +14899,10 @@ You can do the following with a report section:
 1. You have installed the Acumatica Report Designer, as described in _Report Designer: To Install the Acumatica_     _Report Designer_. 
 
 2. You have installed an Acumatica ERP instance with the _U100_ dataset, or a system administrator has     performed this task for you. 
+
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 415 
 
 3. You have signed in to Acumatica ERP as the system administrator by using the _gibbs_ username and the _123_     password. 
 
@@ -14604,13 +14934,7 @@ You can do the following with a report section:
 
 - **Data > BarcodeType** : _QRCode_.     This value indicates that the image will be a QR code. 
 
-- **Data > Value** : ='http://<URL of Your Instance>/Main?     ScreenId=AR301000&InventoryCD='+[ARTran.InventoryID]     For example, **Data > Value** can be ='http://my-server.acumatica.com/InstanceName/     Main?ScreenId=AR301000&InventoryCD='+[ARTran.InventoryID]. Based on this value, 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 402 
-
- each item will contain the QR code that is linked to the appropriate item. Notice that the link contains the application URL explicitly. 
+- **Data > Value** : ='http://<URL of Your Instance>/Main?     ScreenId=AR301000&InventoryCD='+[ARTran.InventoryID]     For example, **Data > Value** can be ='http://my-server.acumatica.com/InstanceName/     Main?ScreenId=AR301000&InventoryCD='+[ARTran.InventoryID]. Based on this value,     each item will contain the QR code that is linked to the appropriate item. Notice that the link contains the     application URL explicitly. 
 
 - **Behavior > QRCodeSettings > CodeSize** : 64.     The default **CodeSize** of any QR code image is _50_. If the length of the string you have specified as the     **Value** is too long, the QR code will disappear from the image preview on the report layout. If the user     runs this report, the QR code will be invisible too. The larger the string whose value you have specified     for the barcode, the larger the **CodeSize** you should specify to make the image visible. 
 
@@ -14624,6 +14948,10 @@ You can do the following with a report section:
 
 1. In Acumatica ERP, open the S150 Invoice/Memo (AR6410C2) report form by searching for its identifier. 
 
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 416 
+
  This report, which you have modified in this activity, has been published in the U100 dataset. That is, it has been added to the Site Map (SM200520) form, and you can access it in Acumatica ERP. 
 
 2. On the **Report Parameters** tab, in the **Document Type** box, make sure _Invoice_ (the default value) is     selected. 
@@ -14634,25 +14962,21 @@ You can do the following with a report section:
 
  Make sure that QR code is displayed for each item in the invoice, as shown in the following screenshot. 
 
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 403 
-
  Figure: The S150 Invoice/Memo (AR6410C2) report with the QR codes of items 
 
 ### Report Content: To Embed an Image in a Report 
 
  In the following activity, you will learn how to embed an image in a report. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 417 
+
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that you are a technical specialist in your company who is working on simple customizations. A sales manager has requested that you add an image of his signature to a report that displays the details of an invoice or memo. You have decided to use the predefined Invoice/Memo (AR641000) report as a base and modify it by adding the image of the signature, which the sales manager has sent to you as a PNG file. 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 404 
 
 #### Process Overview 
 
@@ -14688,13 +15012,15 @@ You can do the following with a report section:
 
 1. In the Report Designer, make sure that the _AR6410C3_ report (which you have saved to the server) is open. 
 
-2. On the **Properties** tab of the Properties pane, select the report1 Report object from the drop-down list     to select the report form, and do the following:     a. In the **Data > EmbeddedImages** property, click the More button to open the **Embedded Images** dialog        box.     b. In the dialog box, click the **New image ...** button, which is shown in the following screenshot, and select        the _facsimile.png_ file, which contains the needed image. (The **Name** and **Mime Type** of the selected file        are filled in automatically.) 
-
- Figure: The embedded image in the Embedded Images dialog box 
+2. On the **Properties** tab of the Properties pane, select the report1 Report object from the drop-down list     to select the report form, and do the following: 
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 405 
+ Acumatica Report Designer Guide | 418 
+
+ a. In the Data > EmbeddedImages property, click the More button to open the Embedded Images dialog box. b. In the dialog box, click the New image ... button, which is shown in the following screenshot, and select the facsimile.png file, which contains the needed image. (The Name and Mime Type of the selected file are filled in automatically.) 
+
+ Figure: The embedded image in the Embedded Images dialog box 
 
 3. Click **OK** to add the image that you have selected to the embedded images collection of the report and to     close the **Embedded Images** dialog box. Now you can use this image in the report. 
 
@@ -14728,151 +15054,13 @@ You can do the following with a report section:
 
 4. On the report form toolbar, click **Run Report**. 
 
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 419 
+
  Make sure that the image you have added is displayed below the list of items in the invoice. The following screenshot displays the report. 
 
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 406 
-
  Figure: The Invoice/Memo (IN6410C2) report with the image added 
-
-### Report Content: To Add a Subreport 
-
- In the following activity, you will learn how to create a subreport that is placed within a report. 
-
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-#### Story 
-
- Suppose that you are a technical specialist in your company who is working on simple customizations. A project manager has requested a report that displays project profitability by project manager. The project manager has also asked you to display the list of change orders for each project. You have looked through the reports in Acumatica ERP and decided to use a copy of the Project Profitability (PM624000) report and make modifications to it. 
-
-#### Process Overview 
-
- In the Report Designer, you will create the COProfit report, a subreport that will display a list of change orders related to projects in the main report. As the main report, you will use the PM6240C1.RPX report, which is a copy of the Project Profitability (PM624000) report. You will insert the COProfit report (subreport) into the main report. 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 407 
-
-#### System Preparation 
-
- Before you perform the steps of this activity, make sure that the following tasks have been performed: 
-
-1. You have installed the Acumatica Report Designer, as described in _Report Designer: To Install the Acumatica_     _Report Designer_. 
-
-2. You have installed an Acumatica ERP instance with the _U100_ dataset, or a system administrator has     performed this task for you. 
-
-3. You have signed in to Acumatica ERP as the system administrator by using the _gibbs_ username and the _123_     password. 
-
- The gibbs user is assigned the Administrator role and the Report Designer role. Thus, this user has sufficient access rights to manage system configuration and to preview, save, and publish reports. 
-
- Also, to prepare for use the file that you will need for this activity, do the following: 
-
-1. Download the PM6240C1.rpx file. 
-
-2. Open the downloaded file in the Report Designer. 
-
-3. On the Report Designer menu bar, select **File > Save To Server** , which opens the **Save Report on Server**     dialog box. 
-
-4. In the dialog box, specify the connection string and sign-in credentials of your Acumatica ERP instance, type     PM6240C1 as the report name, and click **OK**.     The report is saved on the server. 
-
-#### Step 1: Creating a Subreport 
-
- To create a subreport that lists change orders, do the following: 
-
-1. On the Report Designer menu bar, click **File > New**.     An empty report with the default sections opens. 
-
-2. On the Report Designer menu bar, click **File > Build Schema**.     The Schema Builder opens with the **Tables** tab selected. 
-
-3. In the **Site URL to Load Database Tables** box of the tab, enter the URL of your Acumatica ERP website,     which can be your local website or an external URL of Acumatica ERP. 
-
- The history of successful connections is automatically saved in the drop-down list of the URL box. For example, if you have already opened a report from the server, you can select the URL from the drop-down list. 
-
-4. Type gibbs as the username and 123 as the password. 
-
-5. Click the **Load Schema** button. 
-
-6. In the **Search** box, type ChangeOrder, and in the **Report Tables** list, select _PMChangeOrder_ and click **>**.     The PMChangeOrder data access class is placed in the right pane of the Schema Builder. This data access     class contains information about change orders. 
-
-7. To link the subreport with the main report, do the following:     a. On the **Parameters** tab of the Schema Builder, click **Add** to add a parameter.     b. In the **Name** box, type Project. 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 408 
-
- c. On the Filters tab of the Schema Builder, add a row with the following settings: 
-
-- **Data Field** : _PMChangeOrder.ProjectID_ 
-
-- **Condition** : _Equal_ 
-
-- **Value1** : @Project 
-
-8. In the Schema Builder, click **Apply** to apply the changes and **OK** to close the window. 
-
-9. In the Tools pane, drag the _TextBox_ element to the detailSection1 section, on the le. 10.As the **Appearance > Value** property of the added text box, specify =[PMChangeOrder.RefNbr]. 11.Adjust the height of the detailSection1 section to be the same as (or a bit taller than) the height of the     added text box. 12.Right-click any empty space in the report layout, and click the **Add New Group** command to add a new     group.     The groupHeaderSection1 (Header of group1) and groupFooterSection1 (Footer of     group1) sections are added to the report layout. 13.In the groupHeaderSection1 (Header of group1) section, add a text box, and for its     **Appearance > Value** property, type Change Order Reference Number. This text box will display the     header of the list of change orders for a project. 14.Adjust the height of the groupHeaderSection1 (Header of group1) section to be the same as (or     a bit taller than) the height of the added text box. 15.Optional: Right-click the header of the pageHeaderSection1 section, and click **Delete** to delete the     section. Delete the pageFooterSection1 section in the same way. 16.Select the groupFooterSection1 (Footer of group1) section, and for its **Behavior > Visible**     property, select _False_ to make the section invisible. 17.On the Report Designer menu bar, click **File > Save To Server** to save the report. 18.In the **Save Report on Server** dialog box, fill in the following boxes: 
-
-- **Site URL to Load Database Tables** : The URL of your Acumatica ERP website 
-
-- **Login** : gibbs 
-
-- **Password** : 123 
-
-- **Name of Report to Save** : COProfit 19.Click **OK** to save the report and close the window. COProfit.rpx is saved on the server. 
-
- The subreport that you have created is shown in the following screenshot. 
-
- Figure: The subreport that lists the change orders of the specified project 
-
-#### Step 2: Adding the Subreport to the Report 
-
- The groupHeaderSection1 (Header of ProjectGroup) section of the PM6240C1 report contains the detailed information about a project. The section will also display information about change orders for each report aer you add the created subreport to this section. 
-
- To insert the subreport in the PM6240C1 report, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 409 
-
-1. In the Report Designer, open the _PM6240C1_ report (which you have saved to the server). 
-
-2. Select the groupHeaderSection1 (Header of ProjectGroup) section and specify the 1.4cm     value for the **Appearance > Height** property to increase the height of the section. 
-
-3. In the Tools pane, drag the _SubReport_ element to the groupHeaderSection1 (Header of     ProjectGroup) section, below the text boxes. 
-
-4. While the _SubReport_ element is selected, in the **Behavior > ReportName** property of the **Properties** tab,     type the name of the subreport: COProfit.rpx. 
-
-5. To the right of the **Behavior > Parameters** property, click the More button. 
-
-6. In the ExternalParameter Collection Editor, which opens, in the **Members** pane, click **Add**. 
-
-7. In the right pane of the ExternalParameter Collection Editor, for the Name parameter, enter Project, and     for the ValueExpr parameter, enter =[PMProject.ContractCD].     The **Project** parameter will be passed from the main report to the subreport. 
-
-8. Click **OK** to close the ExternalParameter Collection Editor. 
-
-9. On the Report Designer window toolbar, click **Save**. 
-
- The PM6240C1 report with the COProfit subreport is shown in the following screenshot. 
-
- Figure: The report with the subreport 
-
-#### Step 3: Viewing the Report with the Subreport 
-
- To view the report, do the following: 
-
-1. In Acumatica ERP, open the S150 Project Profitability (PM6240C1) report form by searching for its identifier. 
-
- This report, which you have modified in this activity, has been published in the U100 dataset. That is, it has been added to the Site Map (SM200520) form, and you can access it in Acumatica ERP. 
-
-2. On the report form toolbar, click **Run Report**. 
-
- In the report (shown in the following screenshot), make sure that the change orders displayed for the project are related to the correct project. To do this, you can open Projects (PM301000) form and select the project identifier that is displayed in the report. On the Change Orders tab, the list of change orders should match the list of change orders in the report. 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 410 
-
- Figure: The Project Profitability (PM6240C1) report with change orders 
 
 ### Using Variables and Expressions 
 
@@ -14883,6 +15071,10 @@ You can do the following with a report section:
 ### Variables and Expressions: General Information 
 
  In the Acumatica Report Designer, you can use variables to store values and substitute values in expressions. You can use expressions to define the values to be displayed in a report, or to specify report properties, such as group conditions and the visibility of sections or elements of the report. In expressions, you can use variables and user-specified report parameters. (For more information about parameters, see Parameters and Filters: General Information .) In the Report Designer, you can type an expression or you can compose it in the Expression Editor. 
+
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 420 
 
 #### Learning Objectives 
 
@@ -14903,10 +15095,6 @@ You can do the following with a report section:
 #### System and User Variables 
 
  System variables are available in all reports. These variables can be inserted into a report as values or included in expressions. The following table shows the system variables defined in the Report Designer. 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 411 
 
  Table: System Variables 
 
@@ -14932,6 +15120,10 @@ You can do the following with a report section:
 
  In a report, you can use a variable defined in a subreport. In this case, the variable has the $ReportName_VariableName format, where ReportName is the name of the report (that is, the subreport) in which the variable is defined. For example, suppose that you have defined the $pmt variable in the payment report. If you need to use this variable in the main report in your Acumatica ERP instance, you refer to this variable as $payment_pmt. 
 
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 421 
+
 #### Addition and Deletion of a Variable in a Report Section 
 
  To define a variable, you use the ReportVariable Collection Editor (that is, the ReportVariable Collection Editor dialog box). To open the ReportVariable Collection Editor, you select the report section where you want to add the variable; then on the Properties tab of the Properties pane, you click the More button to the right of the Behavior > Variables property. 
@@ -14942,13 +15134,7 @@ You can do the following with a report section:
 
 #### Processing of Variables and Property Values of Visual Elements 
 
- When you define a variable in the ReportVariable Collection Editor, the ProcessOrder property of the variable is set to WhileRead by default. The ProcessOrder property specifies when a variable value is processed during the generation of the report. A value can be processed when the data is read from the data source ( WhileRead ), when 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 412 
-
- the report is printed ( WhilePrint ), or in both cases ( Always ). In most cases, when a value is read from the data source and then displayed in the report, WhileRead is sufficient. 
+ When you define a variable in the ReportVariable Collection Editor, the ProcessOrder property of the variable is set to WhileRead by default. The ProcessOrder property specifies when a variable value is processed during the generation of the report. A value can be processed when the data is read from the data source ( WhileRead ), when the report is printed ( WhilePrint ), or in both cases ( Always ). In most cases, when a value is read from the data source and then displayed in the report, WhileRead is sufficient. 
 
  The ProcessOrder property is also used for sections and visual elements. Once this property has been specified for a section, the property is applied to every visual element in this section unless it is overridden for a visual element. By default, the ProcessOrder property of the page header and page footer sections is set to Always. For other sections, WhileRead is the default value for this property. 
 
@@ -14964,61 +15150,65 @@ You can do the following with a report section:
 
  You use the type conversion functions to convert data from one data type to another. The following table lists the type conversion functions available in the Conversion subnode of the Functions node in the Expression Editor. 
 
- Function Description and Examples 
 
- CBool(x) Converts the expression used as the function argument into a Boolean expression. Returns False if the Boolean value is 0 ; otherwise, returns True. The return type is Boolean. 
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 422 
+
+**Function Description and Examples** 
+
+CBool(x) Converts the expression used as the function argument into a Boolean expression. Returns _False_ if the Boolean value is _0_ ; otherwise, returns _True_. The return type is Boolean. 
 
  Example: CBool($CurrCompanyTot $CompanyTot) 
 
  In this example, CurrCompanyTot and CompanyTot are report variables. 
 
- CDate(x) Converts the expression used as the function argument into a value of the Date type. The argument should be a valid date expression according to the locale selected for the import or export scenario. 
+CDate(x) Converts the expression used as the function argument into a value of the _Date_ type. The argument should be a valid date expression according to the locale selected for the import or export scenario. 
 
  Example: CDate($DueDate 1) 
 
  In this example, DueDate is a report variable. 
 
- CStr(x) Converts the expression used as the function argument into a string. If the argument is Null , the function returns a run-time error; otherwise, it returns a string. The return type is String. 
+CStr(x) Converts the expression used as the function argument into a string. If the argument is _Null_ , the function returns a run-time error; otherwise, it returns a string. The return type is String. 
 
  Example: CStr($PrintDoc) 
 
  Here, PrintDoc is a report variable. 
 
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 413 
-
- Function Description and Examples 
-
- CDbl(x) Converts the expression defined in the function argument into a value of the Double type. The return type is Double. 
+CDbl(x) Converts the expression defined in the function argument into a value of the Double type. The return type is Double. 
 
  Example: CDbl($CurrBal/$CurrTot) 
 
  Here, CurrBal and CurrTot are report variables. 
 
- CSng(x) Converts the expression used as the function argument into a value of the Single type. If the expression has a value outside the acceptable range for the Single type, this function returns an error. The return type is Float. 
+CSng(x) Converts the expression used as the function argument into a value of the Single type. If the expression has a value outside the acceptable range for the Single type, this function returns an error. The return type is Float. 
 
  Example: CSng($StCycCurrTot/$CompanyTot) 
 
  In this example, StCycCurrTot and CompanyTot are report variables. 
 
- CDec(x) Converts the expression used as the function argument into a value of the Decimal type. The return type is Decimal. 
+CDec(x) Converts the expression used as the function argument into a value of the Decimal type. The return type is Decimal. 
 
  Example: CDec($CompanyTot) 
 
  In this example, CompanyTot is a report variable. 
 
- CInt(x) Converts the expression used as the function argument into a value of the Integer type. The return type is Int32. 
+CInt(x) Converts the expression used as the function argument into a value of the Integer type. The return type is Int32. 
 
  Example: CInt([ARPayment.ExtRefNbr]) 
 
  In this example, ARPayment.ExtRefNbr is an attribute from the database schema. 
 
- CShort(x) Converts a numeric value to a value of the Short type. The return type is Int16. 
+CShort(x) Converts a numeric value to a value of the Short type. The return type is Int16. 
 
  Example: CShort([ARPayment.ImpRefNbr]) 
 
  ARPayment.ImpRefNbr is an attribute from the database schema. 
+
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 423 
+
+ Function Description and Examples 
 
  CLong(x) Converts a numeric value to a value of the Long type. The return type is Int64. 
 
@@ -15037,12 +15227,6 @@ You can do the following with a report section:
  Example: Avg($StCycAgeTot00, $StCycAgeTot01) 
 
  In this example, StCycAgeTot00 and StCycAgeTot01 are report variables. 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 414 
-
- Function Description and Examples 
 
  Sum(expression) Returns the sum of the values of the specified expression. 
 
@@ -15078,6 +15262,12 @@ You can do the following with a report section:
 
  Example: Prev([ARInvoice.LineTotal],[ARInvoice.TaxTotal]) ARInvoice.LineTotal and ARInvoice.TaxTotal are attributes from the database schema. 
 
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 424 
+
+ Function Description and Examples 
+
  First(expression) Returns the first value in the specified expression. 
 
  Example: First([ARInvoice.LineTotal],[ARInvoice.TaxTotal]) 
@@ -15094,37 +15284,39 @@ You can do the following with a report section:
 
  String functions perform an operation on a string input value and return a string or numeric value. Listed below are the string functions available in the Text subnode of the Functions node in the Expression Editor. 
 
+ Function Description and Examples 
 
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 415 
-
-**Function Description and Examples** 
-
-LTrim(string) Removes all leading spaces or parsing characters from the specified character expression, or all leading _0_ bytes from the specified binary expression. 
+ LTrim(string) Removes all leading spaces or parsing characters from the specified character expression, or all leading 0 bytes from the specified binary expression. 
 
  Example: LTrim(CStr([Contact.LastName])) 
 
  In this example, Contact.LastName is an attribute from the database schema. 
 
-RTrim(string) Removes all trailing spaces or parsing characters from the specified character expression, or all trailing _0_ bytes from the specified binary expression. The return type is String. 
+ RTrim(string) Removes all trailing spaces or parsing characters from the specified character expression, or all trailing 0 bytes from the specified binary expression. The return type is String. 
 
  Example: RTrim(CStr([Contact.LastName])) 
 
  In this example, Contact.LastName is an attribute from the database schema. 
 
-Trim(string) Removes all leading and trailing spaces or parsing characters from the specified character expression, or all leading and trailing _0_ bytes from the specified binary expression. The return type is String. 
+ Trim(string) Removes all leading and trailing spaces or parsing characters from the specified character expression, or all leading and trailing 0 bytes from the specified binary expression. The return type is String. 
 
  Example: Trim(CStr([Contact.FirstName]+[Contact.MidName]+[Contact.LastName])) 
 
  In this example, Contact.FirstName, Contact.MidName, and Contact.LastName are attributes from the database schema. 
 
-Format(format, argument(s)) 
+ Format(format, argument(s)) 
 
  Replaces the format item in a specified formatting string ( format ) with the text equivalent of the arguments ( arguments ). The return type is String. 
 
  Example: Format('Curr. Balance:........ {0:C}; Total Amount:........ {1:N}', $CurrBal, $CurrTot) 
 
  In this example, CurrBal and CurrTot are report variables; 0 and 1 are specifiers indicating where the arguments will be inserted; C is the currency format specifier; and N is the number format specifier. 
+
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 425 
+
+**Function Description and Examples** 
 
 UCase(string) Returns a string that has been converted to uppercase. The _string_ argument can be any valid string expression. The return type is String. If _string_ contains _Null_ , _Null_ is returned. 
 
@@ -15145,12 +15337,6 @@ InStr(string, findString)
  Example: InStr(CStr([Contact.Email]), '@') 
 
  In this example, Contact.Email is an attribute from the database schema. 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 416 
-
-**Function Description and Examples** 
 
 InStrRev(string, findString) 
 
@@ -15190,7 +15376,13 @@ Replace(string, oldValue, newValue)
 
  In this example, Contact.Email is an attribute from the database schema. 
 
-PadLeft(string, width, paddingChar) 
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 426 
+
+ Function Description and Examples 
+
+ PadLeft(string, width, paddingChar) 
 
  Right-aligns the characters in the specified string ( string ), padding with the specified characters ( paddingChar ) on the le for the specified total width ( width ). 
 
@@ -15198,7 +15390,7 @@ PadLeft(string, width, paddingChar)
 
  In this example, Contact.Email is an attribute from the database schema. 
 
-PadRight(string, width, paddingChar) 
+ PadRight(string, width, paddingChar) 
 
  Le-aligns the characters in a specified string ( string ), padding with the specified character ( paddingChar ) on the right up to the specified total width ( width ). The return type is String. 
 
@@ -15206,17 +15398,13 @@ PadRight(string, width, paddingChar)
 
  In this example, Contact.Email is an attribute from the data schema. 
 
-Substring(string, start, length) 
+ Substring(string, start, length) 
 
  Returns a string containing the specified number of characters ( length ) from the le side of the specified string ( string ) starting from the specified symbol number ( start ). The numbering is 0 based, meaning that the number of the first symbol in the string is 0. 
 
  Example: Substring([ARInvoice.DocDesc], 0, 10) 
 
  In this example, ARInvoice.DocDesc is an attribute from the data schema. 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 417 
 
 #### Mathematical Functions 
 
@@ -15250,6 +15438,12 @@ Substring(string, start, length)
 
  In this example, CurrTot is a report variable. 
 
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 427 
+
+ Function Description and Examples 
+
  Min(x, y) Returns the smaller of two values. 
 
  Example: Min($CurrTot, $CurrCompanyTot) 
@@ -15274,7 +15468,7 @@ Substring(string, start, length)
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 418 
+ Acumatica Report Designer Guide | 428 
 
 **Function Description and Examples** 
 
@@ -15328,7 +15522,7 @@ DateDiff(interval, date1, date2)
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 419 
+ Acumatica Report Designer Guide | 429 
 
 **Function Description and Examples** 
 
@@ -15378,7 +15572,7 @@ DayOrdinal(day) Converts the specified integer value ( _day_ ) to a string that 
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 420 
+ Acumatica Report Designer Guide | 430 
 
 **Function Description and Examples** 
 
@@ -15430,7 +15624,7 @@ Now() Returns the business date and time according to the system date and time o
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 421 
+ Acumatica Report Designer Guide | 431 
 
 **Function Description and Examples** 
 
@@ -15472,7 +15666,7 @@ TodayUTC() Returns the business date in the user's time zone. The system extract
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 422 
+ Acumatica Report Designer Guide | 432 
 
  Function Description and Examples 
 
@@ -15524,7 +15718,7 @@ TodayUTC() Returns the business date in the user's time zone. The system extract
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 423 
+ Acumatica Report Designer Guide | 433 
 
  Function Description and Examples 
 
@@ -15574,7 +15768,7 @@ TodayUTC() Returns the business date in the user's time zone. The system extract
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 424 
+ Acumatica Report Designer Guide | 434 
 
  Function Description and Examples 
 
@@ -15624,7 +15818,7 @@ TodayUTC() Returns the business date in the user's time zone. The system extract
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 425 
+ Acumatica Report Designer Guide | 435 
 
 - On the **Filters** tab of the Schema Builder, by clicking the **Data Field Formula** button 
 
@@ -15666,7 +15860,7 @@ You perform the following steps (repeating the steps as needed) to enter an expr
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 426 
+ Acumatica Report Designer Guide | 436 
 
 ### Variables and Expressions: Data Formats of Values 
 
@@ -15694,7 +15888,7 @@ You perform the following steps (repeating the steps as needed) to enter an expr
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 427 
+ Acumatica Report Designer Guide | 437 
 
  Figure: Available languages in the system 
 
@@ -15754,7 +15948,7 @@ You perform the following steps (repeating the steps as needed) to enter an expr
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 428 
+ Acumatica Report Designer Guide | 438 
 
  Format specifier Description Examples 
 
@@ -15828,7 +16022,7 @@ You perform the following steps (repeating the steps as needed) to enter an expr
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 429 
+ Acumatica Report Designer Guide | 439 
 
  Format specifier Description Example (en-US) 
 
@@ -15900,7 +16094,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 430 
+ Acumatica Report Designer Guide | 440 
 
  Format specifier Description Examples (en-US) 
 
@@ -15948,11 +16142,11 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  In the following activity, you will learn how to use variables and expressions in a report. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 431 
+ Acumatica Report Designer Guide | 441 
 
 #### Story 
 
@@ -15996,7 +16190,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 432 
+ Acumatica Report Designer Guide | 442 
 
 4. In the **Misc > Name** property on the right pane, type IsGroup1Visible to specify the name of the     variable. You will use this variable to calculate the visibility of a vendor. 
 
@@ -16028,7 +16222,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 433 
+ Acumatica Report Designer Guide | 443 
 
  14.On the Report Designer window toolbar, click Save. 
 
@@ -16060,7 +16254,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 434 
+ Acumatica Report Designer Guide | 444 
 
  Figure: The Vendor Summary (AP6550C6) report with vendors numbered in each vendor class 
 
@@ -16086,7 +16280,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 435 
+ Acumatica Report Designer Guide | 445 
 
 - You are responsible for the customization of Acumatica ERP in your company, including developing and     modifying reports to give users the information they need to do their jobs. 
 
@@ -16122,7 +16316,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 436 
+ Acumatica Report Designer Guide | 446 
 
  Parameter Description 
 
@@ -16164,7 +16358,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 437 
+ Acumatica Report Designer Guide | 447 
 
 - In the FilterExp Collection Editor (that is, the **FilterExp Collection Editor** dialog box). You use the **Data >**     **Filters** property of the report in the Properties pane of the **Properties** tab to open the FilterExp Collection     Editor. Filter expressions use the data field names and parameters to specify the criteria for data processing. You specify filters as one filter clause or multiple filter clauses. For each clause, you specify the following settings: 
 
@@ -16182,7 +16376,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 #### Optional Data Filtering 
 
- Acumatica ERP gives users the ability to add filters to a generated report. Before a user runs the report, the user can add filters on the Additional Sort and Filters tab of the report form, in the Additional Filtering Conditions table. However, the user cannot view, delete, or modify the filters that are defined in the Report Designer. 
+ Acumatica ERP gives users the ability to add filters to a generated report. Before a user runs the report, the user can add filters on the Sorting & Filtering tab of the report form, in the Filtering table. However, the user cannot view, delete, or modify the filters that are defined in the Report Designer. 
 
  In the Report Designer, you can manage the list of fields that a user can use to define the sorting and filtering conditions of the published report. When a report is selected, in the Behavior > ViewerFieldsMode property, you can select the following settings: 
 
@@ -16196,11 +16390,11 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  In the following activity, you will learn how to define parameters for a report and set a filter using the parameters. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 438 
+ Acumatica Report Designer Guide | 448 
 
 #### Story 
 
@@ -16246,7 +16440,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 439 
+ Acumatica Report Designer Guide | 449 
 
 5. In the **Data Type** box, make sure that _String_ is selected. 
 
@@ -16272,7 +16466,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 440 
+ Acumatica Report Designer Guide | 450 
 
 3. Add two filter clauses. The first clause uses the _@Class_ parameter specified in this report (which you can     find listed on the **Parameters** tab). The clause compares the value in the _Vendor.VendorClassID_ field with the     value of the vendor class that a user will specify before running the report. Specify the following settings in     the first row of the table: 
 
@@ -16316,7 +16510,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 441 
+ Acumatica Report Designer Guide | 451 
 
  Figure: The S150 Vendor Summary (AP6550C2) report for the Product vendor class 
 
@@ -16358,7 +16552,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 442 
+ Acumatica Report Designer Guide | 452 
 
  You define data groups in the Properties pane of the Report Designer, on the Properties tab. You use the Data > Groups property to open the Group Collection Editor (that is, the Group Collection Editor dialog box), where you can specify the names of groups and their properties. 
 
@@ -16380,7 +16574,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 #### Optional Data Sorting 
 
- Acumatica ERP gives users the ability to add sorting rules to a generated report. Before a user runs the report, on the report form, the user can redefine the sort order that the report designer has specified in the Report Designer (by using the Data > Sorting property of the Property pane). The user can also add data fields whose data will be sorted and specify the sort order. The user redefines and adds the sort order on the Additional Sort and Filters tab of the report form. The user can define only the sort order for the data in the report but cannot redefine the sort order for the data in specified groups. 
+ Acumatica ERP gives users the ability to add sorting rules to a generated report. Before a user runs the report, on the report form, the user can redefine the sort order that the report designer has specified in the Report Designer (by using the Data > Sorting property of the Property pane). The user can also add data fields whose data will be sorted and specify the sort order. The user redefines and adds the sort order on the Sorting & Filtering tab of the report form. The user can define only the sort order for the data in the report but cannot redefine the sort order for the data in specified groups. 
 
  In the Report Designer, you can manage the list of fields that a user can use to define the sorting and filtering conditions of the published report. When a report is selected, in the Behavior > ViewerFieldsMode property, you can select the following settings: 
 
@@ -16388,7 +16582,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 443 
+ Acumatica Report Designer Guide | 453 
 
 - _OnlySpecified_ : With this setting, on the **Additional Sort and Filters** tab of the report form, the user can     select only the data fields specified on the **Viewer Fields** tab of the Schema Builder. 
 
@@ -16398,7 +16592,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  In the following activity, you will specify a data group in a report. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -16428,7 +16622,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 444 
+ Acumatica Report Designer Guide | 454 
 
 3. On the Report Designer menu bar, select **File > Save To Server** , which opens the **Save Report on Server**     dialog box. 
 
@@ -16478,7 +16672,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 445 
+ Acumatica Report Designer Guide | 455 
 
 #### Step 3: Placing Elements in the New Group 
 
@@ -16510,7 +16704,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 446 
+ Acumatica Report Designer Guide | 456 
 
  Figure: Grouping and sorting settings for the AP6550C1 report 
 
@@ -16530,9 +16724,9 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 447 
+ Acumatica Report Designer Guide | 457 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -16574,7 +16768,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 448 
+ Acumatica Report Designer Guide | 458 
 
 2. Select groupHeaderSection1 (Header of group1), and in the **Appearance > Style > BackColor**     property, select the light green color. 
 
@@ -16588,7 +16782,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  This report, which you have modified in this activity, has been published in the U100 dataset. That is, it has been added to the Site Map (SM200520) form, and you can access it in Acumatica ERP. 
 
-6. On the **Report Parameters** tab, in the **From Period** box, select _01-2024_ , and in the **To Period** box, select     _12-2024_. In other boxes, leave the default values. 
+6. On the **Report Parameters** tab, in the **From Period** box, select _01-2025_ , and in the **To Period** box, select     _12-2025_. In other boxes, leave the default values. 
 
 7. On the report form toolbar, click **Run Report**.     Notice that different sections of the report have different colors. The stock item description has a yellow     background because it is located in detailSection1. The batch number has a green background     because it is located in group1. Based on this information, you can make a conclusion about the sections     in which you need to sort data. You will need to sort data in the group1 group by batch number (the     _Batch.BatchNbr_ field) and in the detailSection1 section by debit amount ( _GLTran.DebitAmt_ field). 
 
@@ -16620,7 +16814,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 449 
+ Acumatica Report Designer Guide | 459 
 
 4. In the right pane of the SortExp Collection Editor, in the **Misc > DataField** property, select _GLTran.DebitAmt_.     This field will be used to sort the data in the report. 
 
@@ -16644,7 +16838,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  The report that you have modified in this activity has been published in the U100 dataset. That is, it has been added to the Site Map (SM200520) form, and you can access it in Acumatica ERP. 
 
-2. On the **Report Parameters** tab, in the **From Period** box, select _01-2025_ , and in the **To Period** box, select     _12-2025_. In other boxes, leave the default values. 
+2. On the **Report Parameters** tab, in the **From Period** box, select _01-2026_ , and in the **To Period** box, select     _12-2026_. In other boxes, leave the default values. 
 
 3. On the report form toolbar, click **Run Report**. 
 
@@ -16652,7 +16846,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 450 
+ Acumatica Report Designer Guide | 460 
 
  Figure: Sample page of the S150 AP Batch Register Detailed (AP6210C1) report 
 
@@ -16676,7 +16870,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 451 
+ Acumatica Report Designer Guide | 461 
 
 #### Applicable Scenarios 
 
@@ -16712,7 +16906,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 452 
+ Acumatica Report Designer Guide | 462 
 
 - Table heading 
 
@@ -16754,11 +16948,11 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  In the following activity, you will learn how to create a style template and apply it to a report. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 453 
+ Acumatica Report Designer Guide | 463 
 
 #### Story 
 
@@ -16814,7 +17008,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 454 
+ Acumatica Report Designer Guide | 464 
 
  The report is saved on the server. 
 
@@ -16860,7 +17054,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 455 
+ Acumatica Report Designer Guide | 465 
 
 8. In the **Save Report on Server** dialog box, which opens, specify the connection string and sign-in credentials     of your Acumatica ERP instance, enter TemplateForPayables.rpx name as the report name, and click     **OK**.     The report is saved on the server. 
 
@@ -16892,7 +17086,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  This report, which you have modified in this activity, has been published in the U100 dataset. That is, it has been added to the Site Map (SM200520) form, and you can access it in Acumatica ERP. 
 
-2. In the **Financial Period** box of the **Report Parameters** tab, leave the default value or select _12-2024_. 
+2. In the **Financial Period** box of the **Report Parameters** tab, leave the default value or select _12-2025_. 
 
 3. Click **Run Report**. 
 
@@ -16900,7 +17094,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 456 
+ Acumatica Report Designer Guide | 466 
 
  Figure: The AP Balance by Vendor (AP6325C1) report with the new style template applied 
 
@@ -16926,7 +17120,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 457 
+ Acumatica Report Designer Guide | 467 
 
 - You need to create tabular reports so that their users can compare and analyze the same type of data     according to particular criteria. 
 
@@ -16952,7 +17146,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  In the following activity, you will learn how to create a tabular report. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -16964,7 +17158,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 458 
+ Acumatica Report Designer Guide | 468 
 
  conditions for the data in the report, and delete the groups and text boxes that you do not need from the report layout. (You will not make any modifications in the Schema Builder.) 
 
@@ -17014,7 +17208,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 459 
+ Acumatica Report Designer Guide | 469 
 
 9. In the GroupExp Collection Editor, which opens, on the right pane, for the **Misc > DataField** property, type     SOLine.InventoryID. 10.Click **OK** to close the GroupExp Collection Editor. 11.Click **OK** to close the Group Collection Editor. 12.On the Report Designer window toolbar, click **Save**. 
 
@@ -17052,7 +17246,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 460 
+ Acumatica Report Designer Guide | 470 
 
 - In groupHeaderSection1 (Header of group1), below the text box with the     =[BAccount.AcctCD] value 
 
@@ -17084,7 +17278,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 461 
+ Acumatica Report Designer Guide | 471 
 
  Figure: The tabular report in design mode 
 
@@ -17096,7 +17290,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  This report, which you have modified in this activity, has been published in the U100 dataset. That is, it has been added to the Site Map (SM200520) form, and you can access it in Acumatica ERP. 
 
-2. On the **Report Parameters** tab, select _11/1/2024_ in the **Start Date** box, and select _1/28/2025_ in the **End Date**     box. 
+2. On the **Report Parameters** tab, select _11/1/2025_ in the **Start Date** box, and select _1/28/2026_ in the **End Date**     box. 
 
 3. On the report form toolbar, click **Run Report**. 
 
@@ -17104,7 +17298,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 462 
+ Acumatica Report Designer Guide | 472 
 
  Figure: The Sales Order Details by Customer (SO6110C1) tabular report 
 
@@ -17130,7 +17324,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 463 
+ Acumatica Report Designer Guide | 473 
 
 #### Export of Reports in Acumatica ERP 
 
@@ -17168,7 +17362,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 464 
+ Acumatica Report Designer Guide | 474 
 
  Figure: Display of the Excel column grid for the report 
 
@@ -17188,7 +17382,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 465 
+ Acumatica Report Designer Guide | 475 
 
  In the Members pane of the Int32 Collection Editor, the first number corresponds to the order of the column in the Excel grid. 0 is the first column ( A ) of the Excel grid, 1 is the second ( B ), and so on. To specify the width of each column, you click the column in the Members pane; then you specify the Value property of the right pane of the Int32 Collection Editor. The column width corresponds to the element width in pixels in an approximate 1:6 ratio. For example, the width of a column with a Value of 10 is approximately equal to the width of a text box with a Size > Width of 60px. 
 
@@ -17224,11 +17418,11 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  In the following activity, you will learn how to export a report to an XLS file. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 466 
+ Acumatica Report Designer Guide | 476 
 
 #### Story 
 
@@ -17276,7 +17470,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 467 
+ Acumatica Report Designer Guide | 477 
 
 1. In Acumatica ERP, open the S150 Vendor Summary (AP6550C4) report form by searching for its identifier. 
 
@@ -17298,13 +17492,13 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  Acumatica ERP provides built-in localization functionality. In the Acumatica Report Designer, you can localize any report, so that a user can run this report and view the resulting report in the language they selected when signing in to Acumatica ERP. 
 
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 478 
+
 #### Learning Objectives 
 
  In this chapter, you will learn how to localize a report in the Report Designer. 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 468 
 
 #### Applicable Scenarios 
 
@@ -17346,15 +17540,15 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 - On the _Translation Sets_ (SM211500) form: You create a translation set with the following options selected in     the **Unbound Resources To Collect** box: 
 
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 479 
+
 - _Chart Name_ 
 
 - _Constant in Formula_ 
 
 - _Prompt_ 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 469 
 
 - _Text Box Value_ 
 
@@ -17364,7 +17558,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  In the following activity, you will learn how to localize a report. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -17386,15 +17580,15 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  The gibbs user is assigned the Administrator role and the Report Designer role. Thus, this user has sufficient access rights to manage system configuration and to preview, save, and publish reports. 
 
+
+<!-- PAGE_BREAK -->
+ Acumatica Report Designer Guide | 480 
+
  Also, to prepare for use the file that is intended for this activity, do the following: 
 
 1. Download the AP6550C5.rpx file. 
 
 2. Open the downloaded file in the Report Designer. 
-
-
-<!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 470 
 
 3. On the Report Designer menu bar, select **File > Save To Server** , which opens the **Save Report on Server**     dialog box. 
 
@@ -17424,15 +17618,17 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  Because you decided to translate only the report heading and column headers that are TextBox elements, in the Unbound Resources To Display box, you can select Text Box Value. 
 
-9. On the **Collected** tab, in the lookup box below **Default Values** , type the string you are looking for to find the     particular string of your report (which is initially _Vendor Summary_ ). 
+9. On the **Collected** tab, in the Search box of the **Default Values** table, type the string you are looking for to     find the particular string of your report (which is initially _Vendor Summary_ ). 
 
  To view already localized strings, select the Show Localized check box. 
 
- 10.In the Source Value column of the Default Values table, click the string that exactly matches the string in the AP6550C5 report. To look for a string in a long list, use the arrow buttons below Default Values. In the Key column of the Key-Specific Values table, all elements that use the string are listed. 
+ 10.In the Source Value column of the Default Values table, click the string that exactly matches the string in the AP6550C5 report. To look for a string in a long list, use the arrow buttons below Default Values. 
 
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 471 
+ Acumatica Report Designer Guide | 481 
+
+ In the Key column of the Key-Specific Values table, all elements that use the string are listed. 
 
  When you look for the string in the Default Values table, make sure that in the Key-Specific Values table, the Key value is AP6550C5.rpx textBox11.Value. You need to look for this value because in the Report Designer, the Vendor Summary string is the value of the Appearance > Value property of the text box element with the textBox11 value of the Design > (Name) property. 
 
@@ -17472,17 +17668,17 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 3. On the report form toolbar, click **Run Report**. 
 
- The following screenshot displays the localized report. Make sure that the report heading and each column header has $$ as a prefix and a suffix. 
-
 
 <!-- PAGE_BREAK -->
- Acumatica Report Designer Guide | 472 
+ Acumatica Report Designer Guide | 482 
+
+The following screenshot displays the localized report. Make sure that the report heading and each column header has _$$_ as a prefix and a suffix. 
 
 **_Figure: The localized AP6550C5 report_** 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 473 
+ Appendix | 483 
 
 ## Appendix 
 
@@ -17522,37 +17718,105 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 474 
+ Appendix | 484 
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 485 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 486 
 
 #### Report Toolbar 
 
@@ -17561,12 +17825,6 @@ You can combine custom numeric format specifiers, as shown in the following exam
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 475 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -17592,25 +17850,77 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 476 
+ Appendix | 487 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 488 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -17628,91 +17938,45 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 477 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 478 
+ Appendix | 489 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -17731,6 +17995,12 @@ You can combine custom numeric format specifiers, as shown in the following exam
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 490 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -17754,10 +18024,6 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 479 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -17772,13 +18038,19 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 491 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -17796,10 +18068,6 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 480 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -17814,6 +18082,10 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 492 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -17822,11 +18094,7 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 481 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -17852,6 +18120,12 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 493 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -17859,12 +18133,6 @@ You can combine custom numeric format specifiers, as shown in the following exam
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 482 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -17892,19 +18160,19 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 494 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 483 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -17914,13 +18182,15 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 495 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -17931,10 +18201,6 @@ You can combine custom numeric format specifiers, as shown in the following exam
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 484 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -17948,6 +18214,10 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 496 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -17958,11 +18228,11 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 485 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 497 
 
 #### Unavailable Commands on the More Menu 
 
@@ -17974,17 +18244,13 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 486 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 487 
+ Appendix | 498 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -17996,7 +18262,11 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 499 
 
  Figure: Table toolbar 
 
@@ -18016,17 +18286,17 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 488 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 500 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -18056,13 +18326,13 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 489 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 501 
 
  Element Description 
 
@@ -18106,15 +18376,15 @@ You can combine custom numeric format specifiers, as shown in the following exam
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 490 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 502 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

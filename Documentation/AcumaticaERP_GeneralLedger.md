@@ -2,7 +2,7 @@
 
 # General Ledger 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -150,7 +150,7 @@
 
  Financial Periods: To Unlock a Period............................................................................................................94 
 
- Financial Periods: To Reopen a Period...........................................................................................................96 
+ Financial Periods: To Reopen a Period...........................................................................................................97 
 
  Financial Periods: To Deactivate a Period...................................................................................................... 98 
 
@@ -184,237 +184,237 @@
 
  To Set Up Automatic Release of General Ledger Batches........................................................................... 116 
 
-**Processing Reversing Transactions....................................................................................................... 119** 
+**Processing Reversing Transactions....................................................................................................... 118** 
 
- Reversing Transactions: General Information..............................................................................................119 
+ Reversing Transactions: General Information..............................................................................................118 
 
- Reversing Transactions: Implementation Checklist.................................................................................... 122 
+ Reversing Transactions: Implementation Checklist.................................................................................... 121 
 
- Reversing Transactions: Generated Transactions........................................................................................ 122 
+ Reversing Transactions: Generated Transactions........................................................................................ 121 
 
- Reversing Transactions: Process Activity..................................................................................................... 123 
+ Reversing Transactions: Process Activity..................................................................................................... 122 
 
- Reversing Transactions: Related Reports and Inquiries.............................................................................. 125 
+ Reversing Transactions: Related Reports and Inquiries.............................................................................. 124 
 
-**Processing Adjusting Transactions....................................................................................................... 126** 
+**Processing Adjusting Transactions....................................................................................................... 125** 
 
- Adjusting Transactions: General Information.............................................................................................. 126 
+ Adjusting Transactions: General Information.............................................................................................. 125 
 
- Adjusting Transactions: Implementation Checklist..................................................................................... 127 
+ Adjusting Transactions: Implementation Checklist..................................................................................... 126 
 
- Adjusting Transactions: Generated Transactions.........................................................................................128 
+ Adjusting Transactions: Generated Transactions.........................................................................................127 
 
- Adjusting Transactions: Process Activity...................................................................................................... 129 
+ Adjusting Transactions: Process Activity...................................................................................................... 128 
 
- Adjusting Transactions: Related Reports and Inquiries...............................................................................131 
+ Adjusting Transactions: Related Reports and Inquiries...............................................................................130 
 
-**Processing Recurring Transactions....................................................................................................... 132** 
+**Processing Recurring Transactions....................................................................................................... 131** 
 
- Recurring Transactions: General Information..............................................................................................132 
+ Recurring Transactions: General Information..............................................................................................131 
 
- Recurring Transactions: Implementation Checklist.....................................................................................134 
+ Recurring Transactions: Implementation Checklist.....................................................................................133 
 
- Recurring Transactions: Process Activity......................................................................................................135 
+ Recurring Transactions: Process Activity......................................................................................................134 
 
- Recurring Transactions: Mass-Processing.................................................................................................... 138 
+ Recurring Transactions: Mass-Processing.................................................................................................... 137 
 
- Recurring Transactions: Related Reports and Forms.................................................................................. 139 
+ Recurring Transactions: Related Reports and Forms.................................................................................. 138 
 
- To Generate Recurring Transactions for a Single Schedule........................................................................ 139 
+ To Generate Recurring Transactions for a Single Schedule........................................................................ 138 
 
-**Reclassifying Transactions...................................................................................................................141** 
+**Reclassifying Transactions...................................................................................................................140** 
 
- Reclassifying Transactions: General Information........................................................................................ 141 
+ Reclassifying Transactions: General Information........................................................................................ 140 
 
- Reclassifying Transactions: Initiation of the Reclassification Process........................................................144 
+ Reclassifying Transactions: Initiation of the Reclassification Process........................................................143 
 
- Reclassifying Transactions: Correction of Reclassified Transactions..........................................................144 
+ Reclassifying Transactions: Correction of Reclassified Transactions..........................................................143 
 
 
 <!-- PAGE_BREAK -->
  Contents | 5 
 
- Reclassifying Transactions: Implementation Checklist............................................................................... 145 
+ Reclassifying Transactions: Implementation Checklist............................................................................... 144 
 
- Reclassifying Transactions: Generated Transactions...................................................................................146 
+ Reclassifying Transactions: Generated Transactions...................................................................................145 
 
- Reclassifying Transactions: Process Activity................................................................................................ 146 
+ Reclassifying Transactions: Process Activity................................................................................................ 145 
 
- Reclassifying Transactions: Related Reports and Inquiries.........................................................................148 
+ Reclassifying Transactions: Related Reports and Inquiries.........................................................................147 
 
-**Splitting Transactions......................................................................................................................... 150** 
+**Splitting Transactions......................................................................................................................... 149** 
 
- Splitting Transactions: General Information................................................................................................150 
+ Splitting Transactions: General Information................................................................................................149 
 
- Splitting Transactions: Implementation Checklist.......................................................................................153 
+ Splitting Transactions: Implementation Checklist.......................................................................................152 
 
- Splitting Transactions: Generated Transactions.......................................................................................... 153 
+ Splitting Transactions: Generated Transactions.......................................................................................... 152 
 
- Splitting Transactions: To Split a GL Transaction........................................................................................ 154 
+ Splitting Transactions: To Split a GL Transaction........................................................................................ 153 
 
- Splitting Transactions: To Split a Transaction by Subaccounts.................................................................. 156 
+ Splitting Transactions: To Split a Transaction by Subaccounts.................................................................. 155 
 
- Splitting Transactions: Reports and Inquiries..............................................................................................159 
+ Splitting Transactions: Reports and Inquiries..............................................................................................158 
 
-**Processing Transactions with Subaccounts........................................................................................... 161** 
+**Processing Transactions with Subaccounts........................................................................................... 160** 
 
- Transactions with Subaccounts: General Information................................................................................ 161 
+ Transactions with Subaccounts: General Information................................................................................ 160 
 
- Transactions with Subaccounts: Implementation Checklist....................................................................... 161 
+ Transactions with Subaccounts: Implementation Checklist....................................................................... 160 
 
- Transactions with Subaccounts: Process Activity........................................................................................ 162 
+ Transactions with Subaccounts: Process Activity........................................................................................ 161 
 
- Transactions with Subaccounts: Generated Transactions.......................................................................... 164 
+ Transactions with Subaccounts: Generated Transactions.......................................................................... 163 
 
- Transactions with Subaccounts: Related Reports and Inquiries.................................................................165 
+ Transactions with Subaccounts: Related Reports and Inquiries.................................................................164 
 
-**Processing Transactions with Approvals............................................................................................... 167** 
+**Processing Transactions with Approvals............................................................................................... 166** 
 
- Transactions with Approvals: General Information..................................................................................... 167 
+ Transactions with Approvals: General Information..................................................................................... 166 
 
- Transactions with Approval: Process Activity.............................................................................................. 170 
+ Transactions with Approval: Process Activity.............................................................................................. 169 
 
- Transactions with Approval: Related Report and Inquiry Form..................................................................173 
+ Transactions with Approval: Related Report and Inquiry Form..................................................................172 
 
-**Transactions for Companies with Different Calendars............................................................................ 174** 
+**Transactions for Companies with Different Calendars............................................................................ 173** 
 
-**Consolidated Reports for Companies with Different Calendars............................................................... 175** 
+**Consolidated Reports for Companies with Different Calendars............................................................... 174** 
 
-**Processing Vouchers........................................................................................................................... 177** 
+**Processing Vouchers........................................................................................................................... 176** 
 
- Voucher Processing Workflow.......................................................................................................................177 
+ Voucher Processing Workflow.......................................................................................................................176 
 
- Journal Voucher Entry...................................................................................................................................179 
+ Journal Voucher Entry...................................................................................................................................178 
 
- To Enter a Voucher Code...............................................................................................................................181 
+ To Enter a Voucher Code...............................................................................................................................180 
 
- To Add Documents to a Document Batch.................................................................................................... 181 
+ To Add Documents to a Document Batch.................................................................................................... 180 
 
-**Performing GL Anomaly Detection....................................................................................................... 185** 
+**Performing GL Anomaly Detection....................................................................................................... 184** 
 
- GL Anomaly Detection: General Information............................................................................................... 185 
+ GL Anomaly Detection: General Information............................................................................................... 184 
 
- GL Anomaly Detection: Scheduled Mode..................................................................................................... 188 
+ GL Anomaly Detection: Scheduled Mode..................................................................................................... 187 
 
-**Preparing a Simple Budget.................................................................................................................. 194** 
+**Preparing a Simple Budget.................................................................................................................. 193** 
 
- Simple Budget: General Information............................................................................................................194 
+ Simple Budget: General Information............................................................................................................193 
 
- Simple Budget: Implementation Checklist.................................................................................................. 195 
+ Simple Budget: Implementation Checklist.................................................................................................. 194 
 
- Simple Budget: Process Activity................................................................................................................... 196 
+ Simple Budget: Process Activity................................................................................................................... 195 
 
- Simple Budget: Related Report.................................................................................................................... 198 
+ Simple Budget: Related Report.................................................................................................................... 197 
 
 
 <!-- PAGE_BREAK -->
  Contents | 6 
 
-**Preparing a Budget Based on an Existing Budget...................................................................................199** 
+**Preparing a Budget Based on an Existing Budget...................................................................................198** 
 
- Budget Based on Existing Budgets: General Information........................................................................... 199 
+ Budget Based on Existing Budgets: General Information........................................................................... 198 
 
- Budget Based on an Existing Budget: Implementation Checklist...............................................................200 
+ Budget Based on an Existing Budget: Implementation Checklist...............................................................199 
 
- Budget Based on an Existing Budget: Process Activity................................................................................201 
+ Budget Based on an Existing Budget: Process Activity................................................................................200 
 
-**Preparing a Hierarchical Budget...........................................................................................................204** 
+**Preparing a Hierarchical Budget...........................................................................................................203** 
 
- Hierarchical Budget: General Information................................................................................................... 204 
+ Hierarchical Budget: General Information................................................................................................... 203 
 
- Hierarchical Budget: Implementation Checklist.......................................................................................... 205 
+ Hierarchical Budget: Implementation Checklist.......................................................................................... 204 
 
- Hierarchical Budget: Process Activity........................................................................................................... 206 
+ Hierarchical Budget: Process Activity........................................................................................................... 205 
 
- Hierarchical Budget: Related Report............................................................................................................ 207 
+ Hierarchical Budget: Related Report............................................................................................................ 206 
 
-**Converting a Simple Budget to a Hierarchical Budget............................................................................ 208** 
+**Converting a Simple Budget to a Hierarchical Budget............................................................................ 207** 
 
- Conversion of a Simple Budget to a Hierarchical Budget: General Information........................................ 208 
+ Conversion of a Simple Budget to a Hierarchical Budget: General Information........................................ 207 
 
- Converting a Simple Budget to a Hierarchical Budget: Implementation Checklist................................... 208 
+ Converting a Simple Budget to a Hierarchical Budget: Implementation Checklist................................... 207 
 
- Conversion of a Simple Budget to a Hierarchical Budget: Process Activity................................................209 
+ Conversion of a Simple Budget to a Hierarchical Budget: Process Activity................................................208 
 
-**Modifying a Hierarchical Budget.......................................................................................................... 213** 
+**Modifying a Hierarchical Budget.......................................................................................................... 212** 
 
- Modification of a Hierarchical Budget: General Information...................................................................... 213 
+ Modification of a Hierarchical Budget: General Information...................................................................... 212 
 
- Modifying a Hierarchical Budget: Implementation Checklist......................................................................214 
+ Modifying a Hierarchical Budget: Implementation Checklist......................................................................213 
 
- Modification of a Hierarchical Budget: Process Activity.............................................................................. 215 
+ Modification of a Hierarchical Budget: Process Activity.............................................................................. 214 
 
- Modification of a Hierarchical Budget: Related Report............................................................................... 217 
+ Modification of a Hierarchical Budget: Related Report............................................................................... 216 
 
-**Preparing and Running a Budget vs Actual ARM Report..........................................................................219** 
+**Preparing and Running a Budget vs Actual ARM Report..........................................................................218** 
 
- Budget vs. Actual ARM Report: General Information...................................................................................219 
+ Budget vs. Actual ARM Report: General Information...................................................................................218 
 
- Budget vs Actual ARM Report: Implementation Checklist.......................................................................... 219 
+ Budget vs Actual ARM Report: Implementation Checklist.......................................................................... 218 
 
- Budget vs. Actual ARM Report: Process Activity.......................................................................................... 221 
+ Budget vs. Actual ARM Report: Process Activity.......................................................................................... 220 
 
-**Revising a Budget............................................................................................................................... 227** 
+**Revising a Budget............................................................................................................................... 226** 
 
- Budget Revision: General Information......................................................................................................... 227 
+ Budget Revision: General Information......................................................................................................... 226 
 
- Revising a Budget: Implementation Checklist............................................................................................. 227 
+ Revising a Budget: Implementation Checklist............................................................................................. 226 
 
- Budget Revision: Process Activity................................................................................................................. 228 
+ Budget Revision: Process Activity................................................................................................................. 227 
 
-**Running Allocations............................................................................................................................ 231** 
+**Running Allocations............................................................................................................................ 230** 
 
- Running of Allocations: General Information...............................................................................................231 
+ Running of Allocations: General Information...............................................................................................230 
 
- Running of Allocations: Implementation Checklist..................................................................................... 232 
+ Running of Allocations: Implementation Checklist..................................................................................... 231 
 
- Running of Allocations: Generated Transactions.........................................................................................233 
+ Running of Allocations: Generated Transactions.........................................................................................232 
 
- Running of Allocations: Process Activity...................................................................................................... 233 
+ Running of Allocations: Process Activity...................................................................................................... 232 
 
- Running of Allocations: Related Forms........................................................................................................ 236 
+ Running of Allocations: Related Forms........................................................................................................ 235 
 
-**Configuring GL Consolidation.............................................................................................................. 237** 
+**Configuring GL Consolidation.............................................................................................................. 236** 
 
- GL Consolidation Configuration: Prerequisites............................................................................................237 
+ GL Consolidation Configuration: Prerequisites............................................................................................236 
 
- GL Consolidation Configuration (Optional): To Configure Consolidation in a Parent Company with Subaccounts...................................................................................................................................................238 
+ GL Consolidation Configuration (Optional): To Configure Consolidation in a Parent Company with Subaccounts...................................................................................................................................................237 
 
 
 <!-- PAGE_BREAK -->
  Contents | 7 
 
-**Performing GL Consolidation............................................................................................................... 240** 
+**Performing GL Consolidation............................................................................................................... 239** 
 
- GL Consolidation: General Information........................................................................................................240 
+ GL Consolidation: General Information........................................................................................................239 
 
- GL Consolidation: Account Mapping............................................................................................................ 242 
+ GL Consolidation: Account Mapping............................................................................................................ 241 
 
- GL Consolidation: Subaccount Mapping...................................................................................................... 243 
+ GL Consolidation: Subaccount Mapping...................................................................................................... 242 
 
- GL Consolidation: Implementation Checklist.............................................................................................. 246 
+ GL Consolidation: Implementation Checklist.............................................................................................. 245 
 
- GL Consolidation: To Prepare the Consolidation Unit................................................................................ 247 
+ GL Consolidation: To Prepare the Consolidation Unit................................................................................ 246 
 
- GL Consolidation: To Import Consolidation Data from a Subsidiary..........................................................249 
+ GL Consolidation: To Import Consolidation Data from a Subsidiary..........................................................248 
 
- GL Consolidation (Optional): To Configure Consolidation in a Consolidation Unit with Subaccounts.....252 
+ GL Consolidation (Optional): To Configure Consolidation in a Consolidation Unit with Subaccounts.....251 
 
-**Troubleshooting Balance Discrepancies................................................................................................ 254** 
+**Troubleshooting Balance Discrepancies................................................................................................ 253** 
 
- To Reconcile AP Accounts and AR Accounts with the General Ledger Accounts........................................ 254 
+ To Reconcile AP Accounts and AR Accounts with the General Ledger Accounts........................................ 253 
 
- To Find Vendors and Customers with Discrepancies Between the General Ledger and a Subledger....... 255 
+ To Find Vendors and Customers with Discrepancies Between the General Ledger and a Subledger....... 254 
 
- To Find Documents with Discrepancies Between the General Ledger and a Subledger............................256 
+ To Find Documents with Discrepancies Between the General Ledger and a Subledger............................255 
 
-**Appendix............................................................................................................................................ 258** 
+**Appendix............................................................................................................................................ 257** 
 
- Reports........................................................................................................................................................... 258 
+ Reports........................................................................................................................................................... 257 
 
- Report Form.......................................................................................................................................... 258 
+ Report Form.......................................................................................................................................... 257 
 
- Report....................................................................................................................................................263 
+ Report....................................................................................................................................................264 
 
  Form Toolbar and More Menu.......................................................................................................................265 
 
@@ -440,9 +440,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -1750,7 +1750,7 @@ _Fixed Assets_ (FA303000) **GL Accounts** tab **Fixed Assets Account** box
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -1786,7 +1786,7 @@ _Fixed Assets_ (FA303000) **GL Accounts** tab **Fixed Assets Account** box
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2025_. If a different date is displayed, click the Business Date menu     button and select _1/31/2025_. For simplicity, in this process activity, you will create all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2026_. If a different date is displayed, click the Business Date menu     button and select _1/31/2026_. For simplicity, in this process activity, you will create all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu button to view the list of branches that you have access to, and then     click _SweetLife Head Office and Wholesale Center_. 
 
@@ -1812,7 +1812,7 @@ _Fixed Assets_ (FA303000) **GL Accounts** tab **Fixed Assets Account** box
 
 - **Customer** : _GOODFOOD_ 
 
-- **Date** : _1/31/2025_ (selected by default) 
+- **Date** : _1/31/2026_ (selected by default) 
 
 2. On the **Details** tab, add a new row, and in the added row, specify the following settings: 
 
@@ -1840,7 +1840,7 @@ _Fixed Assets_ (FA303000) **GL Accounts** tab **Fixed Assets Account** box
 
 - **Vendor** : _BLUELINE_ 
 
-- **Date** : _1/31/2025_ (selected by default) 
+- **Date** : _1/31/2026_ (selected by default) 
 
 2. On the **Details** tab, add a new row, and in the added row, specify the following settings: 
 
@@ -1906,13 +1906,13 @@ _Fixed Assets_ (FA303000) **GL Accounts** tab **Fixed Assets Account** box
 
  You cannot post transactions with dates earlier than the start date of the first period of the first financial year defined in Acumatica ERP. 
 
- For example, if you plan to start using Acumatica ERP from the first period of the 2025 financial year, you should select 2024 as the first year. You then generate all periods of 2024, open only the last period of 2024, and enter initial balances in the last period of 2024. 
+ For example, if you plan to start using Acumatica ERP from the first period of the 2026 financial year, you should select 2025 as the first year. You then generate all periods of 2025, open only the last period of 2025, and enter initial balances in the last period of 2025. 
 
- If your company starts operations in Acumatica ERP aer the first financial period of the year, you select the current year as the first financial year and open only the periods for which you are going to enter transactions. For example, if you intended to start operations in November 2025, define financial years as calendar years, and use monthly financial periods, you would select 2025 as the first financial year and open periods for October 2025, November 2025, and December 2025. 
+ If your company starts operations in Acumatica ERP aer the first financial period of the year, you select the current year as the first financial year and open only the periods for which you are going to enter transactions. For example, if you intended to start operations in November 2026, define financial years as calendar years, and use monthly financial periods, you would select 2026 as the first financial year and open periods for October 2026, November 2026, and December 2026. 
 
  You define the first financial year by selecting its start date in the Financial Year Starts On box on the Financial Year (GL101000) form. Aer you have selected the start date, you can see the first financial year defined by its start date in the First Financial Year box. 
 
- In some organizations, the financial year starts in the current year but belongs to the next year. For example, the United States Government's financial year begins on October 1 of the previous calendar year and ends on September 30 of the year that gives the financial year its number—so the financial year 2025 ran from October 1, 2024, to September 30, 2025. 
+ In some organizations, the financial year starts in the current year but belongs to the next year. For example, the United States Government's financial year begins on October 1 of the previous calendar year and ends on September 30 of the year that gives the financial year its number—so the financial year 2026 ran from October 1, 2025, to September 30, 2026. 
 
 
 <!-- PAGE_BREAK -->
@@ -1972,7 +1972,7 @@ _Fixed Assets_ (FA303000) **GL Accounts** tab **Fixed Assets Account** box
 <!-- PAGE_BREAK -->
  Setting Up the Financial Year | 43 
 
- For example, you set up the first financial year to start on January 1, 2024 with periods of the 5-4-4 Week type. In the 2020 financial year, the last period of four weeks ends on December 26. The gap between the end of the financial period and end of the financial year is 5 days. The system automatically adds a week to the last period so that it lasts 5 weeks. 
+ For example, you set up the first financial year to start on January 1, 2025 with periods of the 5-4-4 Week type. In the 2020 financial year, the last period of four weeks ends on December 26. The gap between the end of the financial period and end of the financial year is 5 days. The system automatically adds a week to the last period so that it lasts 5 weeks. 
 
  When you configure week-based periods ( 4-4-5 Weeks , 4-5-4 Weeks , and 5-4-4 Weeks ), you need to specify the Financial Year Starts On setting on the Financial Year (GL101000) form. The system generates a financial year as follows: 
 
@@ -1980,27 +1980,35 @@ _Fixed Assets_ (FA303000) **GL Accounts** tab **Fixed Assets Account** box
 
 2. It tries to add the 53rd week. If the larger part of the week (4 days) belongs to the next year aer the     **Financial Year Starts On** day, the week is not added. 
 
- Suppose that you want the financial year to end on the last Sunday of August (which is August 30). You should specify 8/29/20XX in the Financial Year Starts On box. In this case, the system will add the 53rd week only if the week ends on August 31 or earlier or starts not later than August 25. This means that the Financial Year Starts On date must be set to August 29 (August 25 plus 4 days). The following table illustrates the selection of the Financial Year Starts On date. 
+ Suppose that the period type is 5-4-4 Weeks and Financial Year Starts On is set to 01/01/2025. When the calendar for financial year 2025 is created, the last period has either 28 or 35 days (4 or 5 weeks) depending on the First Period Start Date. 
 
- Date Can This Date Be the Start Date of Week 53? 
+ The table below illustrates the following: 
 
- Notes 
+- If the **First Period Start Date** is _12/29/2024_ or earlier, the 53rd week has 3 or fewer days that belong to the     new year. That's why the 53rd week is added to the last period. 
 
- August 24 Yes 
+- If the **First Period Start Date** is _12/30/2024_ or later, the 53rd week has 4 or more days that belong to the new     year. That's why the 53rd week is not added to the last period. 
 
- August 25 Yes The latest possible start date 
+ First Period Start Date 
 
- August 26 No 
+ Last Period Start Date (First Period Start Date + 48 weeks) 
 
- August 27 No 
+ Is 53rd week added? 
 
- August 28 No 
+ Last Period Length (weeks) 
 
- August 29 No Financial Year Starts On date 
+ Last Period End Date 
 
- August 30 No 
+ Last Period End Date if the period had 5 weeks 
 
- August 31 No 
+ Number of days belonging to new year if the last period had 5 weeks 
+
+ Dec. 28, 2024 Nov. 29, 2025 Yes 5 Jan. 2, 2026 Jan. 2, 2026 2 
+
+ Dec. 29, 2024 Nov. 30, 2025 Yes 5 Jan. 3, 2026 Jan. 3, 2026 3 
+
+ Dec. 30, 2024 Dec. 1, 2025 No 4 Dec. 28, 2026 Jan. 4, 2026 4 
+
+ Dec. 31, 2024 Dec. 2, 2025 No 4 Dec. 29, 2026 Jan. 5, 2026 5 
 
  For a week-based period type of calendar, because the financial year does not have a fixed start date and structure, you cannot generate a year template on the Financial Year (GL101000) form. 
 
@@ -2012,13 +2020,11 @@ _Fixed Assets_ (FA303000) **GL Accounts** tab **Fixed Assets Account** box
 
 - To set up the system to add an additional period if the last period ends four or more days earlier than the     financial year ends, you select _Last Day of the Financial Year_. The system adds no additional period if the last     period ends fewer than four days before the financial year ends. 
 
-- To set up the system to add an additional period if the year's last period does not include the last occurrence     of the day of the week that is displayed in the **Day of Week** box in the financial year, you select _Include the_ 
-
 
 <!-- PAGE_BREAK -->
  Setting Up the Financial Year | 44 
 
- Last <Day of Week> of the Financial Year. The system adds no additional period if the last period includes the last occurrence in the financial year of this day of the week. 
+- To set up the system to add an additional period if the year's last period does not include the last occurrence     of the day of the week that is displayed in the **Day of Week** box in the financial year, you select _Include the_     _Last <Day of Week> of the Financial Year_. The system adds no additional period if the last period includes the     last occurrence in the financial year of this day of the week. 
 
 - To set up the system to add an additional period if the year's last period does not include the day of the     week specified in the **Day of Week** box that is nearest to the end of the financial year, you select _Include_     _<Day of Week> Nearest to the End of the Financial Year_. The system adds no additional period if the last     period includes the day of the week that is nearest to the end of the financial year. 
 
@@ -2358,7 +2364,7 @@ _Fixed Assets_ (FA303000) **GL Accounts** tab **Fixed Assets Account** box
 
 3. You create a company financial calendar for the new company on the _Company Financial Calendar_     (GL201100) form, specifying the needed start date of a financial year. For details, see _To Create the First Year_     _of the Company Calendar_. 
 
- If the first financial year exists for the company and you add a year earlier than this one, the system will copy the period status of the first period to all the periods of the created year. For example, year 2025 exists in the system with the start date on 01/11/2025 and the 11-2025 period with the Open status. If you add year 2024 on the Company Financial Calendar form, the system will create year 2024 with all the periods having the Open status. 
+ If the first financial year exists for the company and you add a year earlier than this one, the system will copy the period status of the first period to all the periods of the created year. For example, year 2026 exists in the system with the start date on 01/11/2026 and the 11-2026 period with the Open status. If you add year 2025 on the Company Financial Calendar form, the system will create year 2025 with all the periods having the Open status. 
 
  Related Links 
 
@@ -2562,13 +2568,13 @@ _Fixed Assets_ (FA303000) **GL Accounts** tab **Fixed Assets Account** box
 
  The example shown in the following screenshot illustrates multiple period ranges in the system, with the periods in each range having a particular status that is valid in the system. You can see the following ranges of periods: 
 
-- _01-2024_ to _02-2024_ , whose periods have the _Locked_ status 
+- _01-2025_ to _02-2025_ , whose periods have the _Locked_ status 
 
-- _03-2024_ to _04-2024_ , whose periods have the _Closed_ status 
+- _03-2025_ to _04-2025_ , whose periods have the _Closed_ status 
 
-- _05-2024_ to _10-2024_ , whose periods have the _Open_ status 
+- _05-2025_ to _10-2025_ , whose periods have the _Open_ status 
 
-- _11-2024_ to _13-2024_ , whose periods have the _Inactive_ status 
+- _11-2025_ to _13-2025_ , whose periods have the _Inactive_ status 
 
 
 <!-- PAGE_BREAK -->
@@ -2736,11 +2742,11 @@ The lifetime of a financial period in the system includes the following actions:
 
  The following activity will walk you through the process of closing a period in the accounts receivable subledger. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
 
 <!-- PAGE_BREAK -->
@@ -2750,7 +2756,7 @@ The lifetime of a financial period in the system includes the following actions:
 
 #### Story 
 
- Suppose that as an accountant of the SweetLife Fruits & Jams company, you have to close the 03-2024 financial period and the preceding periods in the accounts receivable subledger for the SweetLife Head Office and Wholesale Center branch to prevent users from posting to these periods. 
+ Suppose that as an accountant of the SweetLife Fruits & Jams company, you have to close the 03-2025 financial period and the preceding periods in the accounts receivable subledger for the SweetLife Head Office and Wholesale Center branch to prevent users from posting to these periods. 
 
 #### Process Overview 
 
@@ -2786,9 +2792,9 @@ The lifetime of a financial period in the system includes the following actions:
 
 - **Action** : _Close_ (selected by default) 
 
-- **To Year** : _2024_ 
+- **To Year** : _2025_ 
 
-3. Select the unlabeled check box for the _03-2024_ period. Notice that the check boxes corresponding to all the     preceding periods are selected automatically, as shown in the following screenshot. 
+3. Select the unlabeled check box for the _03-2025_ period. Notice that the check boxes corresponding to all the     preceding periods are selected automatically, as shown in the following screenshot. 
 
 
 <!-- PAGE_BREAK -->
@@ -2816,7 +2822,7 @@ The lifetime of a financial period in the system includes the following actions:
 
 - **Action** : _Close_ 
 
-- **To Year** : _2024_ 
+- **To Year** : _2025_ 
 
 5. In the table, review the statuses of the financial periods that you closed earlier.     The periods have retained the _Open_ status (because they are still open in the subledgers and in the general     ledger), but the **Closed in AR** check box is selected for all the periods, meaning that these periods have been     closed in the accounts receivable subledger. 
 
@@ -2830,13 +2836,13 @@ The lifetime of a financial period in the system includes the following actions:
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
 #### Story 
 
- Suppose that as an accountant of the SweetLife Fruits & Jams company, you have to close the 04-2024 financial period (and all previous periods that are not already closed) in all the subledgers and in the general ledger at the same time. The periods should be closed for the SweetLife Head Office and Wholesale Center branch to prevent users from posting to these periods. 
+ Suppose that as an accountant of the SweetLife Fruits & Jams company, you have to close the 04-2025 financial period (and all previous periods that are not already closed) in all the subledgers and in the general ledger at the same time. The periods should be closed for the SweetLife Head Office and Wholesale Center branch to prevent users from posting to these periods. 
 
 #### Process Overview 
 
@@ -2862,19 +2868,19 @@ The lifetime of a financial period in the system includes the following actions:
 
 #### Step 1: Reviewing the Statuses of Financial Periods 
 
- To review the statuses of the financial periods of 2024, do the following: 
+ To review the statuses of the financial periods of 2025, do the following: 
 
 1. Open the _Company Financial Calendar_ (GL201100) form. 
-
-2. In the Selection area, specify the following settings: 
 
 
 <!-- PAGE_BREAK -->
  Closing Financial Periods in Subledgers and GL | 67 
 
+2. In the Selection area, specify the following settings: 
+
 - **Company** : _SWEETLIFE_ (inserted by default) 
 
-- **Financial Year** : _2024_ 
+- **Financial Year** : _2025_ 
 
 #### Step 2: Closing the Financial Periods 
 
@@ -2882,7 +2888,7 @@ The lifetime of a financial period in the system includes the following actions:
 
 1. On the More menu of the _Company Financial Calendar_ (GL201100) form, click **Close Periods**. 
 
-2. On the _Manage Financial Periods_ (GL503000) form, which opens, notice that the system has selected the     _Close_ action in the Summary area. In the table, select the unlabeled check box for the _04-2024_ period. The     check boxes for the preceding periods are automatically selected, as shown in the following screenshot. 
+2. On the _Manage Financial Periods_ (GL503000) form, which opens, notice that the system has selected the     _Close_ action in the Summary area. In the table, select the unlabeled check box for the _04-2025_ period. The     check boxes for the preceding periods are automatically selected, as shown in the following screenshot. 
 
  Figure: Periods selected for closing in subledgers and general ledger 
 
@@ -2990,7 +2996,7 @@ The lifetime of a financial period in the system includes the following actions:
 
 #### Story 
 
- Suppose that as an accountant, you need to close the 2024 financial year in all the subledgers and the general ledger in the SweetLife Fruits & Jams company and in the Muffins & Cakes company. 
+ Suppose that as an accountant, you need to close the 10-2025 financial period in the 2025 financial year in all the subledgers and the general ledger in the SweetLife Fruits & Jams company and in the Muffins & Cakes company. 
 
 
 <!-- PAGE_BREAK -->
@@ -3026,41 +3032,39 @@ The lifetime of a financial period in the system includes the following actions:
 
 - **Company** : _SWEETLIFE_ 
 
-- **Financial Year** : _2024_ Notice that all periods in the _2024_ financial year are open. 
+- **Financial Year** : _2025_ Notice that all periods in the _2025_ financial year are open. 
 
-#### Step 2: Closing a Financial Year in SweetLife Fruits & Jams 
+#### Step 2: Closing a Financial Period in SweetLife Fruits & Jams 
 
- To close the 2024 financial year and the preceding years in the SweetLife company, do the following: 
+ To close the 10-2025 financial period and the preceding periods in the SweetLife company, do the following: 
 
 1. While you are still on the _Company Financial Calendar_ (GL201100) form with the _SWEETLIFE_ company     selected, on the More menu, click **Close Periods**. 
 
-2. On the _Manage Financial Periods_ (GL503000) form that opens, select the unlabeled check box for the _13-2024_     period. The check boxes for the preceding periods are automatically selected. 
+2. On the _Manage Financial Periods_ (GL503000) form that opens, select the unlabeled check box for the _10-2025_     period. The check boxes for the preceding periods are automatically selected. 
 
-3. On the form toolbar, click **Unposted Documents** to verify that no unposted documents exist for these     periods. The system opens the Unreleased AP Documents (AP656100) report listing one unposted AP     payment. Process this payment as follows:     a. Click the link in the **Reference Nbr.** column.     b. On the _Checks and Payments_ (AP302000) form, which opens, review the payment.     c. In the **Application Date** box, change the date to _1/30/2025_. Notice that the application period of the        payment has changed to _01-2025._     d. On the form toolbar, click **Save** to save your changes. 
+3. On the form toolbar, click **Unposted Documents** to verify that no unposted documents exist for these     periods.     There are no unposted documents for the selected periods in the branches of the SweetLife company and     you can proceed with closing the periods. 
 
 
 <!-- PAGE_BREAK -->
  Closing Financial Periods in Separate Companies | 72 
 
- e. Close the Checks and Payments form. 
+ If there are unposted documents in any of the subledgers in the selected periods, when you invoke this action, the reports for the subledgers will be displayed showing all unposted documents in each subledger. Review each of the documents in the reports and either post it or reassign to a different period. Once all documents in all the periods are posted, you can proceed to close the periods. 
 
-4. On the _Manage Financial Periods_ form, click **Unposted Documents** again. In the message that is displayed,     click **OK**.     There are no unposted documents for the selected periods in the branches of the SweetLife company and     you can proceed with closing the periods. 
+4. On the form toolbar, click **Process**.     The system displays a message that the selected range of periods will be closed in subledgers and in the     general ledger. Click **OK**. 
 
-5. On the form toolbar, click **Process**.     The system displays a message that the selected range of periods will be closed in subledgers and in the     general ledger. Click **OK**. 
+5. In the **Processing** pop-up window, which opens, click the **Processed** tab and review the list of processed     records. Click **Close**. 
 
-6. In the **Processing** pop-up window, which opens, click the **Processed** tab and review the list of processed     records. Click **Close**. 
+6. Open the _Company Financial Calendar_ form. 
 
-7. Open the _Company Financial Calendar_ form. 
-
-8. In the Summary area, specify the following settings: 
+7. In the Summary area, specify the following settings: 
 
 - **Company** : _SWEETLIFE_ 
 
-- **Financial Year** : _2024_ The periods in the specified range have changed their status to _Closed_ and the **Closed in AP** , **Closed in AR** , **Closed in IN** , and **Closed in CA** check boxes for these periods are selected. 
+- **Financial Year** : _2025_ The periods in the specified range have changed their status to _Closed_ and the **Closed in AP** , **Closed in AR** , **Closed in IN** , and **Closed in CA** check boxes for these periods are selected. 
 
 #### Step 3: Closing a Financial Year in Muffins & Cakes 
 
- To close the 2024 financial year in the Muffins & Cakes company, do the following: 
+ To close the 102025 period of the 2025 financial year in the Muffins & Cakes company, do the following: 
 
 1. Open the _Manage Financial Periods_ (GL503000) form. 
 
@@ -3068,13 +3072,13 @@ The lifetime of a financial period in the system includes the following actions:
 
 3. In the **Action** box, select _Close_. 
 
-4. In the **To Year** box, select _2024_. 
+4. In the **To Year** box, select _2025_. 
 
-5. Select the unlabeled check box for the _13-2024_ period. The check boxes for the preceding periods are     automatically selected. 
+5. Select the unlabeled check box for the _10-2025_ period. The check boxes for the preceding periods are     automatically selected. 
 
 6. On the form toolbar, click **Unposted Documents** to verify that no unposted documents exist for these     periods. 
 
- If there are unposted documents in any of the subledgers in the selected periods, when you invoke this action, the reports for the subledgers will be displayed showing all unposted documents in each subledger. Review each of the documents in the reports and either post it or reassign to a different period (as described in Step 2 of this activity). Once all documents in all the periods are posted, you can proceed to close the periods. 
+ If there are unposted documents in any of the subledgers in the selected periods, when you invoke this action, the reports for the subledgers will be displayed showing all unposted documents in each subledger. Review each of the documents in the reports and either post it or reassign to a different period. Once all documents in all the periods are posted, you can proceed to close the periods. 
 
 7. On the form toolbar, click **Process**.     The system displays a message that the selected range of periods will be closed in subledgers and in the     general ledger. Click **OK**. 
 
@@ -3084,7 +3088,7 @@ The lifetime of a financial period in the system includes the following actions:
 
 - **Company** : _MUFFINS_ 
 
-- **Financial Year** : _2024_ 
+- **Financial Year** : _2025_ 
 
 
 <!-- PAGE_BREAK -->
@@ -3158,13 +3162,13 @@ The periods in the specified range have changed their status to _Closed_ and the
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
 #### Story 
 
- Suppose that at the end of 2025, acting as the accountant of the SweetLife Fruits & Jams company, you must generate a financial calendar for the 2026 year in the system. 
+ Suppose that at the end of 2026, acting as the accountant of the SweetLife Fruits & Jams company, you must generate a financial calendar for the 2027 year in the system. 
 
 #### Process Overview 
 
@@ -3194,13 +3198,13 @@ The periods in the specified range have changed their status to _Closed_ and the
 
 2. On the form toolbar, click **Generate Calendar**. 
 
-3. In the **Generate GL Calendar** dialog box, which opens, verify that _2026_ is displayed in the **From Year** and **To**     **Year** boxes and click **OK**. 
+3. In the **Generate GL Calendar** dialog box, which opens, verify that _2027_ is displayed in the **From Year** and **To**     **Year** boxes and click **Generate**. 
 
-4. In the Summary area, select _2026_ in the **Financial Year** box and review the generated periods displayed in     the table. 
+4. In the Summary area, select _2027_ in the **Financial Year** box and review the generated periods displayed in     the table. 
 
-#### Step 2: Reviewing the Periods for 2026 
+#### Step 2: Reviewing the Periods for 2027 
 
- To review the financial periods generated for 2026 in the SWEETLIFE company, do the following: 
+ To review the financial periods generated for 2027 in the SWEETLIFE company, do the following: 
 
 1. Open the _Company Financial Calendar_ (GL201100) form. 
 
@@ -3208,9 +3212,9 @@ The periods in the specified range have changed their status to _Closed_ and the
 
 - **Company** : _SWEETLIFE_ (inserted by default) 
 
-- **Financial Year** : _2026_ 
+- **Financial Year** : _2027_ 
 
-3. In the table, review the periods generated for 2026.     Note that all the periods in the new 2026 financial year have the _Inactive_ status, as shown in the following     screenshot. 
+3. In the table, review the periods generated for 2027.     Note that all the periods in the new 2027 financial year have the _Inactive_ status, as shown in the following     screenshot. 
 
 
 <!-- PAGE_BREAK -->
@@ -3240,13 +3244,13 @@ The periods in the specified range have changed their status to _Closed_ and the
 
  The example shown in the following screenshot illustrates multiple period ranges in the system, with the periods in each range having a particular status that is valid in the system. You can see the following ranges of periods: 
 
-- _01-2024_ to _02-2024_ , whose periods have the _Locked_ status 
+- _01-2025_ to _02-2025_ , whose periods have the _Locked_ status 
 
-- _03-2024_ to _04-2024_ , whose periods have the _Closed_ status 
+- _03-2025_ to _04-2025_ , whose periods have the _Closed_ status 
 
-- _05-2024_ to _10-2024_ , whose periods have the _Open_ status 
+- _05-2025_ to _10-2025_ , whose periods have the _Open_ status 
 
-- _11-2024_ to _13-2024_ , whose periods have the _Inactive_ status 
+- _11-2025_ to _13-2025_ , whose periods have the _Inactive_ status 
 
 
 <!-- PAGE_BREAK -->
@@ -3346,13 +3350,13 @@ The lifetime of a financial period in the system includes the following actions:
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
 #### Story 
 
- Suppose that at the end of November 2026, acting as an accountant of the SweetLife Fruits & Jams company, you need to open the next financial period— 12-2026 —to enable users to post transactions to it. 
+ Suppose that at the end of November 2027, acting as an accountant of the SweetLife Fruits & Jams company, you need to open the next financial period— 12-2027 —to enable users to post transactions to it. 
 
 #### Process Overview 
 
@@ -3360,9 +3364,9 @@ The lifetime of a financial period in the system includes the following actions:
 
  In a production environment, before opening a period, you would make sure the following conditions are met: 
 
-- The _2026_ financial year for which you want to open the financial period has been created. 
+- The _2027_ financial year for which you want to open the financial period has been created. 
 
-- Financial periods (that have the _Inactive_ status) have been generated for the _2026_ year. 
+- Financial periods (that have the _Inactive_ status) have been generated for the _2027_ year. 
 
 #### System Preparation 
 
@@ -3376,15 +3380,15 @@ The lifetime of a financial period in the system includes the following actions:
 
 2. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu button to view the list of branches that you have access to, and then     click _SweetLife Head Office and Wholesale Center_. 
 
-3. Make sure that the 2026 financial year has been created as described in _Financial Calendar Generation:_     _Process Activity_. 
-
-#### Step 1: Preparing to Open the Financial Period 
-
- To prepare for opening the financial period, do the following: 
+3. Make sure that the 2027 financial year has been created as described in _Financial Calendar Generation:_     _Process Activity_. 
 
 
 <!-- PAGE_BREAK -->
  Opening Financial Periods | 84 
+
+#### Step 1: Preparing to Open the Financial Period 
+
+ To prepare for opening the financial period, do the following: 
 
 1. Open the _Company Financial Calendar_ (GL201100) form. 
 
@@ -3392,7 +3396,7 @@ The lifetime of a financial period in the system includes the following actions:
 
 - **Company** : _SWEETLIFE_ (inserted by default) 
 
-- **Financial Year** : _2026_ In the table, notice that all of the periods have the _Inactive_ status. These periods can be opened in the system. 
+- **Financial Year** : _2027_ In the table, notice that all of the periods have the _Inactive_ status. These periods can be opened in the system. 
 
 #### Step 2: Opening the Financial Period 
 
@@ -3400,7 +3404,7 @@ The lifetime of a financial period in the system includes the following actions:
 
 1. On the More menu of the _Company Financial Calendar_ (GL201100) form, click **Open Periods**. 
 
-2. On the _Manage Financial Periods_ (GL503000) form, which opens, notice that the system has selected the     _Open_ action in the Summary area. In the table, select the unlabeled check box for the _13-2026_ period, and     on the form toolbar, click **Process** , as shown in the following screenshot. 
+2. On the _Manage Financial Periods_ (GL503000) form, which opens, notice that the system has selected the     _Open_ action in the Summary area. In the table, select the unlabeled check box for the _13-2027_ period, and     on the form toolbar, click **Process** , as shown in the following screenshot. 
 
  Figure: The period selected for opening 
 
@@ -3436,13 +3440,13 @@ The lifetime of a financial period in the system includes the following actions:
 
  The example shown in the following screenshot illustrates multiple period ranges in the system, with the periods in each range having a particular status that is valid in the system. You can see the following ranges of periods: 
 
-- _01-2024_ to _02-2024_ , whose periods have the _Locked_ status 
+- _01-2025_ to _02-2025_ , whose periods have the _Locked_ status 
 
-- _03-2024_ to _04-2024_ , whose periods have the _Closed_ status 
+- _03-2025_ to _04-2025_ , whose periods have the _Closed_ status 
 
-- _05-2024_ to _10-2024_ , whose periods have the _Open_ status 
+- _05-2025_ to _10-2025_ , whose periods have the _Open_ status 
 
-- _11-2024_ to _13-2024_ , whose periods have the _Inactive_ status 
+- _11-2025_ to _13-2025_ , whose periods have the _Inactive_ status 
 
 
 <!-- PAGE_BREAK -->
@@ -3636,7 +3640,7 @@ The lifetime of a financial period in the system includes the following actions:
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -3662,11 +3666,11 @@ The lifetime of a financial period in the system includes the following actions:
 
 2. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu button to view the list of branches that you have access to, and then     click _SweetLife Head Office and Wholesale Center_. 
 
-3. Make sure that some of the periods of 2024 have been closed as described in _Closing Financial Periods: To_     _Close a Period in Subledgers and GL_. 
+3. Make sure that some of the periods of 2025 have been closed as described in _Closing Financial Periods: To_     _Close a Period in Subledgers and GL_. 
 
 #### Step: Locking a Financial Period 
 
- To lock the 02-2024 financial period, do the following: 
+ To lock the 02-2025 financial period, do the following: 
 
 1. Open the _Company Financial Calendar_ (GL201100) form. 
 
@@ -3674,11 +3678,11 @@ The lifetime of a financial period in the system includes the following actions:
 
 - **Company** : _SWEETLIFE_ (inserted by default) 
 
-- **Financial Year** : _2024_ In the table, notice that some of the periods have the _Closed_ status. These periods can be locked. 
+- **Financial Year** : _2025_ In the table, notice that some of the periods have the _Closed_ status. These periods can be locked. 
 
 3. On the More menu, click **Lock Periods**. 
 
-4. On the _Manage Financial Periods_ (GL503000) form, which opens, notice that the system has selected the     _Lock_ action in the Summary area. In the table, select the unlabeled check box for the _02-2024_ period. The     preceding periods are selected automatically. 
+4. On the _Manage Financial Periods_ (GL503000) form, which opens, notice that the system has selected the     _Lock_ action in the Summary area. In the table, select the unlabeled check box for the _02-2025_ period. The     preceding periods are selected automatically. 
 
 5. On the form toolbar, click **Process** , as shown in the following screenshot. 
 
@@ -3696,15 +3700,21 @@ The lifetime of a financial period in the system includes the following actions:
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
 #### Story 
 
- Suppose that at the end of January 2024, the 01-2024 financial period was locked for the SweetLife Fruits & Jams company. Acting as SweetLife's chief accountant, you have realized that it should not have been locked yet, because a transaction hasn't been entered in the system (a purchase of office supplies on January 31, 2024, in the amount of $300). 
+ Suppose that at the end of January 2025, the 01-2025 financial period was locked for the SweetLife Fruits & Jams company. Acting as SweetLife's chief accountant, you have realized that it should not have been locked yet, 
 
- You need to unlock the 01-2024 period and post this transaction to it. 
+
+<!-- PAGE_BREAK -->
+ Managing Financial Periods | 95 
+
+ because a transaction hasn't been entered in the system (a purchase of office supplies on January 31, 2025, in the amount of $300). 
+
+ You need to unlock the 01-2025 period and post this transaction to it. 
 
 #### Process Overview 
 
@@ -3714,25 +3724,21 @@ The lifetime of a financial period in the system includes the following actions:
 
  To prepare the system, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Managing Financial Periods | 95 
-
 1. Launch the Acumatica ERP website with the _U100_ dataset. Sign in as an accountant by using the following     credentials: 
 
 - Username: _johnson_ 
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _1/31/2024_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _1/31/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu button to view the list of branches that you have access to, and then     click _SweetLife Head Office and Wholesale Center_. 
 
-4. Mare sure that the _01-2024_ period has been locked as described in _Financial Periods: To Lock a Period_. 
+4. Mare sure that the _01-2025_ period has been locked as described in _Financial Periods: To Lock a Period_. 
 
 #### Step 1: Unlocking the Financial Period 
 
- To unlock the 01-2024 financial period, do the following: 
+ To unlock the 01-2025 financial period, do the following: 
 
 1. Open the _Company Financial Calendar_ (GL201100) form. 
 
@@ -3740,13 +3746,17 @@ The lifetime of a financial period in the system includes the following actions:
 
 - **Company** : _SWEETLIFE_ (inserted by default) 
 
-- **Financial Year** : _2024_ Notice that several periods have the _Locked_ status. 
+- **Financial Year** : _2025_ Notice that several periods have the _Locked_ status. 
 
 3. On the More menu, click **Unlock Periods**. 
 
-4. On the _Manage Financial Periods_ (GL503000) form, which opens, notice that the system has selected the     _Unlock_ action in the Summary area. In the table, select the unlabeled check box for the _01-2024_ period. The     following _02-2024_ period is selected automatically. 
+4. On the _Manage Financial Periods_ (GL503000) form, which opens, notice that the system has selected the     _Unlock_ action in the Summary area. In the table, select the unlabeled check box for the _01-2025_ period. The     following _02-2025_ period is selected automatically. 
 
 5. On the form toolbar, click **Process** , as shown in the following screenshot. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Financial Periods | 96 
 
  Figure: The periods selected for unlocking 
 
@@ -3754,11 +3764,7 @@ The lifetime of a financial period in the system includes the following actions:
 
 #### Step 2: Posting a GL Batch to the Closed Period 
 
- To create a GL batch and post it to the closed 01-2024 period, which you unlocked in the previous step, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Managing Financial Periods | 96 
+ To create a GL batch and post it to the closed 01-2025 period, which you unlocked in the previous step, do the following: 
 
 1. Open the _Journal Transactions_ (GL301000) form. 
 
@@ -3772,9 +3778,9 @@ The lifetime of a financial period in the system includes the following actions:
 
 - **Ledger** : _ACTUAL_ (inserted by default) 
 
-- **Transaction Date** : _01/31/2024_ 
+- **Transaction Date** : _01/31/2025_ 
 
-- **Post Period** : _01-2024_ 
+- **Post Period** : _01-2025_ 
 
 - **Description** : Office supplies 
 
@@ -3796,9 +3802,13 @@ The lifetime of a financial period in the system includes the following actions:
 
 5. On the form toolbar, click **Remove Hold**. 
 
-6. Notice the warning message that is displayed next to the **Post Period** box. It informs you that the _01-2024_     period is closed in the _SWEETLIFE_ company (but you still can post to this closed period). Click **Save** to save     your changes. 
+6. Notice the warning message that is displayed next to the **Post Period** box. It informs you that the _01-2025_     period is closed in the _SWEETLIFE_ company (but you still can post to this closed period). Click **Save** to save     your changes. 
 
 7. On the form toolbar, click **Release** to release the transaction. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Financial Periods | 97 
 
 ### Financial Periods: To Reopen a Period 
 
@@ -3806,17 +3816,13 @@ The lifetime of a financial period in the system includes the following actions:
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
 #### Story 
 
- Suppose that acting as the chief accountant of the SweetLife Fruits & Jams company, you need to reopen a previously closed financial period ( 02-2024 ), so that users can post transactions to it without having to type the period manually (as they need to do when posting to closed periods). 
-
-
-<!-- PAGE_BREAK -->
- Managing Financial Periods | 97 
+ Suppose that acting as the chief accountant of the SweetLife Fruits & Jams company, you need to reopen a previously closed financial period ( 02-2025 ), so that users can post transactions to it without having to type the period manually (as they need to do when posting to closed periods). 
 
 #### Process Overview 
 
@@ -3834,11 +3840,11 @@ The lifetime of a financial period in the system includes the following actions:
 
 2. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu button to view the list of branches that you have access to, and then     click _SweetLife Head Office and Wholesale Center_. 
 
-3. Make sure that the _02-2024_ period has been closed as described in _Closing Financial Periods: To Close a_     _Period in Subledgers and GL_. 
+3. Make sure that the _02-2025_ period has been closed as described in _Closing Financial Periods: To Close a_     _Period in Subledgers and GL_. 
 
 #### Step: Reopening the Financial Period 
 
- To reopen the 02-2024 financial period, do the following: 
+ To reopen the 02-2025 financial period, do the following: 
 
 1. Open the _Company Financial Calendar_ (GL201100) form. 
 
@@ -3846,21 +3852,21 @@ The lifetime of a financial period in the system includes the following actions:
 
 - **Company** : _SWEETLIFE_ (inserted by default) 
 
-- **Financial Year** : _2024_ Notice that several periods in the table have the _Closed_ status and the **Closed in AP** , **Closed in AR** , **Closed in IN** , and **Closed in CA** check boxes are selected. 
+- **Financial Year** : _2025_ Notice that several periods in the table have the _Closed_ status and the **Closed in AP** , **Closed in AR** , **Closed in IN** , and **Closed in CA** check boxes are selected. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Financial Periods | 98 
 
 3. On the More menu, click **Reopen Periods**. 
 
 4. On the _Manage Financial Periods_ (GL503000) form, which opens, notice that the system has selected the     _Reopen_ action in the Summary area. 
 
-5. In the table, select the unlabeled check box for the _02-2024_ period. The _03-2024_ period and later periods are     selected automatically. 
+5. In the table, select the unlabeled check box for the _02-2025_ period. The _03-2025_ period and later periods are     selected automatically. 
 
 6. To reopen the selected periods in all subledgers, select the **Reopen Financial Periods in All Modules** check     box in the Selection area. 
 
 7. On the form toolbar, click **Process** , as shown in the following screenshot. 
-
-
-<!-- PAGE_BREAK -->
- Managing Financial Periods | 98 
 
  Figure: The periods selected for reopening in all subledgers and the general ledger 
 
@@ -3874,13 +3880,17 @@ The lifetime of a financial period in the system includes the following actions:
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
+
+<!-- PAGE_BREAK -->
+ Managing Financial Periods | 99 
+
 #### Story 
 
- Suppose that as an accountant of the SweetLife Fruits & Jams company, you have to deactivate the open 09-2025 financial period to prevent data entry clerks from posting transactions to it. 
+ Suppose that as an accountant of the SweetLife Fruits & Jams company, you have to deactivate the open 09-2026 financial period to prevent data entry clerks from posting transactions to it. 
 
 #### Process Overview 
 
@@ -3889,10 +3899,6 @@ The lifetime of a financial period in the system includes the following actions:
 #### System Preparation 
 
  To prepare the system, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Managing Financial Periods | 99 
 
 1. Launch the Acumatica ERP website with the _U100_ dataset. Sign in as an accountant by using the following     credentials: 
 
@@ -3904,7 +3910,7 @@ The lifetime of a financial period in the system includes the following actions:
 
 #### Step: Deactivating the Financial Period 
 
- To deactivate the open 09-2025 financial period, do the following: 
+ To deactivate the open 09-2026 financial period, do the following: 
 
 1. Open the _Company Financial Calendar_ (GL201100) form. 
 
@@ -3912,13 +3918,13 @@ The lifetime of a financial period in the system includes the following actions:
 
 - **Company** : _SWEETLIFE_ (inserted by default) 
 
-- **Financial Year** : _2025_ Notice that some periods including _October_ have the _Open_ status. 
+- **Financial Year** : _2026_ Notice that some periods including _October_ have the _Open_ status. 
 
 3. On the More menu, click **Deactivate Periods**. 
 
 4. On the _Manage Financial Periods_ (GL503000) form, which opens, notice that the system has selected the     _Deactivate_ action in the Summary area. 
 
-5. In the table, select the unlabeled check box for the _09-2025_ period. Notice that the later periods have been     selected automatically. 
+5. In the table, select the unlabeled check box for the _09-2026_ period. Notice that the later periods have been     selected automatically. 
 
 6. On the form toolbar, click **Process** , as shown on the following screenshot. 
 
@@ -4304,23 +4310,23 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
  In this activity, you will learn how to create a GL batch, release and post the batch, and review the statuses of the batch. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
 #### Story 
 
- Suppose that in January 2025, the SweetLife Fruits & Jams company paid its employees $15,600. 
+ Suppose that in January 2026, the SweetLife Fruits & Jams company paid its employees $15,600. 
 
 
 <!-- PAGE_BREAK -->
  Processing Transactions | 113 
 
- Acting as a SweetLife accountant, you need to enter a batch for a payment in the amount of $15,600 for the 01-2025 financial period for the salaries and wages of the employees of the SweetLife Head Office and Wholesale Center ( HEADOFFICE ) branch. 
+ Acting as a SweetLife accountant, you need to enter a batch for a payment in the amount of $15,600 for the 01-2026 financial period for the salaries and wages of the employees of the SweetLife Head Office and Wholesale Center ( HEADOFFICE ) branch. 
 
 #### Process Overview 
 
@@ -4336,7 +4342,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2025_. If a different date is displayed, click the Business Date menu     button and select _1/31/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2026_. If a different date is displayed, click the Business Date menu     button and select _1/31/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -4350,11 +4356,11 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 2. In the Summary area, specify the following settings: 
 
-- **Transaction Date** : _1/31/2025_ (inserted by default) 
+- **Transaction Date** : _1/31/2026_ (inserted by default) 
 
-- **Post Period** : _01-2025_ (inserted by default) 
+- **Post Period** : _01-2026_ (inserted by default) 
 
-- **Description** : Salary payment Jan 2025 
+- **Description** : Salary payment Jan 2026 
 
 3. On the table toolbar of the **Details** tab, click **Add Row** and specify the following settings in the row that     appears: 
 
@@ -4476,11 +4482,11 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 4. In the **Action Name** box, make sure _Process All_ is selected. 
 
-5. On the **Details** tab, specify the additional settings of the schedule:     a. Optional: In the **Starts On** box of the **Details** tab, select the start date. By default, the schedule execution        starts on the current business date.     b. Optional: If you need to specify an expiration date for the schedule, clear the **No Expiration Date** check        box, and specify the expiration date in the **Expires On** box.     c. Do one of the following: 
+5. On the **Details** tab, specify the additional settings of the schedule:     a. Optional: In the **Starts On** box, select the start date. By default, the schedule execution starts on the        current business date.     b. Optional: If you need to specify an expiration date for the schedule, clear the **No Expiration Date** check        box and specify the expiration date in the **Expires On** box.     c. Do one of the following: 
 
 - If you want to limit the number of executions, in the **Execution Limit** box, specify the number of times     the schedule should be executed. 
 
-- If you do not need to limit the number of executions, select the **No Execution Limit** check box. d. Optional: In the **Process with Branch** box, select the branch under which the schedule should be processed. For example, if documents are created by this schedule, the system creates these documents and specifies the selected branch for each document. e. Optional: Change the time zone in which the schedule will operate. By default, the time zone specified on the _User Profile_ (SM203010) form for the currently signed-in user is selected. 
+- If you do not need to limit the number of executions, select the **No Execution Limit** check box. d. Optional: In the **Process with Branch** box, select the branch under which the schedule should be processed. For example, if documents are created by this schedule, the system creates these documents and specifies the selected branch for each document. e. Optional: Change the time zone the schedule uses. By default, the time zone specified on the _User Profile_ (SM203010) form for the currently signed-in user is selected. 
 
 6. On the **Schedule** tab, specify the execution dates and time as follows:     a. Specify how oen the schedule execution should be performed: 
 
@@ -4502,15 +4508,11 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 - As the **Field Name** , select _Control Total_ as the boxes available on the _Release Transactions_ form. In the     **Condition** box, select _Is Less Than_ , and in the **Value** box, type 1000. 
 
-
-<!-- PAGE_BREAK -->
- Processing Transactions | 118 
-
-8. Click **Save** on the form toolbar to create the schedule. When you save a newly created schedule, the     system gives it an identifier in accordance with the built-in numbering sequence intended for automation     schedules. 
+8. Click **Save** on the form toolbar to create the schedule. When you save a new schedule, the system gives it an     identifier in accordance with the built-in numbering sequence intended for automation schedules. 
 
 
 <!-- PAGE_BREAK -->
- Processing Reversing Transactions | 119 
+ Processing Reversing Transactions | 118 
 
 ## Processing Reversing Transactions 
 
@@ -4548,7 +4550,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Reversing Transactions | 120 
+ Processing Reversing Transactions | 119 
 
  You can reverse a batch multiple times. To view the list of the related reversing batches, you click the link in the Reversing Batches box of the Journal Transactions form. The system opens the GL Reversing Batches (GL690010) report with the list of batches and their details. 
 
@@ -4558,13 +4560,13 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Reversing Transactions | 121 
+ Processing Reversing Transactions | 120 
 
 **_Figure: Processing workflow for reversing a transaction_** 
 
 
 <!-- PAGE_BREAK -->
- Processing Reversing Transactions | 122 
+ Processing Reversing Transactions | 121 
 
 ### Reversing Transactions: Implementation Checklist 
 
@@ -4608,7 +4610,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Reversing Transactions | 123 
+ Processing Reversing Transactions | 122 
 
  Account Debit Credit 
 
@@ -4618,17 +4620,17 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
  In this activity, you will learn how to reverse a GL batch. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
 #### Story 
 
- Suppose that in February 2025, a transaction was posted by mistake for the monthly office rent expense that the SweetLife Fruits & Jams company pays to its landlord. 
+ Suppose that in February 2026, a transaction was posted by mistake for the monthly office rent expense that the SweetLife Fruits & Jams company pays to its landlord. 
 
  Acting as a SweetLife accountant, you need to reverse this transaction posted for the SweetLife Head Office and Wholesale Center ( HEADOFFICE ) branch. 
 
@@ -4654,7 +4656,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Reversing Transactions | 124 
+ Processing Reversing Transactions | 123 
 
 1. Open the Journal Transactions (GL3010PL) list of records. 
 
@@ -4662,9 +4664,9 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 - **Equals** : Selected 
 
-- **Value** : _2/25/2025_ 
+- **Value** : _2/25/2026_ 
 
-3. Click **OK**. The system displays the batch dated February 25, 2025. 
+3. Click **Apply**. The system displays the batch dated February 25, 2026. 
 
 #### Step 2: Reversing the Batch 
 
@@ -4686,7 +4688,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 1. Open the _Account Summary_ (GL401000) form. 
 
-2. In the **Period** box of the Summary area, select _02-2025_. 
+2. In the **Period** box of the Summary area, select _02-2026_. 
 
 3. In the table, locate the _62900 - Rent or Lease Expense_ account and review its ending balance in the **Ending**     **Balance** column. 
 
@@ -4694,7 +4696,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Reversing Transactions | 125 
+ Processing Reversing Transactions | 124 
 
 ### Reversing Transactions: Related Reports and Inquiries 
 
@@ -4708,7 +4710,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Adjusting Transactions | 126 
+ Processing Adjusting Transactions | 125 
 
 ## Processing Adjusting Transactions 
 
@@ -4752,7 +4754,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Adjusting Transactions | 127 
+ Processing Adjusting Transactions | 126 
 
 ### Adjusting Transactions: Implementation Checklist 
 
@@ -4766,7 +4768,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Adjusting Transactions | 128 
+ Processing Adjusting Transactions | 127 
 
  Form Settings to Validate Notes 
 
@@ -4812,7 +4814,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Adjusting Transactions | 129 
+ Processing Adjusting Transactions | 128 
 
  Account Debit Credit 
 
@@ -4822,17 +4824,17 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
  In this activity, you will learn how to process an auto-reversing batch. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
 #### Story 
 
- Suppose that by the end of January 2025, the electricity used by the SweetLife Head Office and Wholesale Center in January has not yet been billed by the vendor. Acting as a SweetLife accountant, you need to create an autoreversing batch for the amount of $2,320, which will be posted on January 31 and reversed at the beginning of the next financial period. 
+ Suppose that by the end of January 2026, the electricity used by the SweetLife Head Office and Wholesale Center in January has not yet been billed by the vendor. Acting as a SweetLife accountant, you need to create an autoreversing batch for the amount of $2,320, which will be posted on January 31 and reversed at the beginning of the next financial period. 
 
 #### Process Overview 
 
@@ -4848,13 +4850,13 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2025_. If a different date is displayed, click the Business Date menu     button and select _1/31/2025_. For simplicity, in this lesson, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2026_. If a different date is displayed, click the Business Date menu     button and select _1/31/2026_. For simplicity, in this lesson, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
 
 <!-- PAGE_BREAK -->
- Processing Adjusting Transactions | 130 
+ Processing Adjusting Transactions | 129 
 
 #### Step 1: Creating and Releasing an Auto-Reversing Batch 
 
@@ -4864,9 +4866,9 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 2. In the Summary area, specify the following settings: 
 
-- **Transaction Date** : _1/31/2025_ (inserted by default) 
+- **Transaction Date** : _1/31/2026_ (inserted by default) 
 
-- **Post Period** : _01-2025_ (inserted by default) 
+- **Post Period** : _01-2026_ (inserted by default) 
 
 - **Description** : Electricity expenses of $2,320 
 
@@ -4898,27 +4900,25 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 8. In the **Reversing Batches** box of the Summary area, click _1_ (the number of the reversing batches).     The system opens the _GL Reversing Batches_ (GL690010) report with the created reversing batch and its     details. 
 
+
+<!-- PAGE_BREAK -->
+ Processing Adjusting Transactions | 130 
+
 #### Step 2: Reviewing the Posted Transaction 
 
  To review the account balance and the posted transactions, do the following: 
 
 1. Open the _Account Details_ (GL404000) form. 
 
+2. In the **Period Range** boxes of the Summary area, select _01-2026_ to _02-2026_. 
 
-<!-- PAGE_BREAK -->
- Processing Adjusting Transactions | 131 
+3. In the **Account** box, select _23020 - Other Accrued Expenses_. 
 
-2. In the **From Period** box of the Summary area, select _01-2025_. 
+4. In the table, review the account's ending balance in the **Ending Balance** column for both periods. 
 
-3. In the **To Period** box, select _02-2025_. 
+5. In the **Account** box, select _63300 - Utilities_. 
 
-4. In the **Account** box, select _23020 - Other Accrued Expenses_. 
-
-5. In the table, review the account's ending balance in the **Ending Balance** column for both periods. 
-
-6. In the **Account** box, select _63300 - Utilities_. 
-
-7. In the table, review the account's ending balance in the **Ending Balance** column for both periods. 
+6. In the table, review the account's ending balance in the **Ending Balance** column for both periods. 
 
 ### Adjusting Transactions: Related Reports and Inquiries 
 
@@ -4932,7 +4932,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Recurring Transactions | 132 
+ Processing Recurring Transactions | 131 
 
 ## Processing Recurring Transactions 
 
@@ -4974,7 +4974,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Recurring Transactions | 133 
+ Processing Recurring Transactions | 132 
 
  Figure: Processing recurring batches 
 
@@ -4994,7 +4994,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Recurring Transactions | 134 
+ Processing Recurring Transactions | 133 
 
 #### Scheduled Batches 
 
@@ -5032,7 +5032,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Recurring Transactions | 135 
+ Processing Recurring Transactions | 134 
 
  Form Settings to Check Notes 
 
@@ -5060,11 +5060,11 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
  In this activity, you will create a recurring batch to be used as a template, create a schedule for the batch, and run the schedule to generate the batch. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -5074,9 +5074,9 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Recurring Transactions | 136 
+ Processing Recurring Transactions | 135 
 
- Acting as a SweetLife accountant, you have to create a recurring batch to schedule the accrual of rent expenses for every month of 2025. You also need to generate the batch for the 01-2025 financial period. 
+ Acting as a SweetLife accountant, you have to create a recurring batch to schedule the accrual of rent expenses for every month of 2026. You also need to generate the batch for the 01-2026 financial period. 
 
 #### Process Overview 
 
@@ -5092,7 +5092,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2025_. If a different date is displayed, click the Business Date menu     button and select _1/31/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2026_. If a different date is displayed, click the Business Date menu     button and select _1/31/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -5106,7 +5106,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 2. On the form toolbar, click **Add New Record** and specify the following settings in the Summary area: 
 
-- **Transaction Date** : _1/31/2025_ (inserted by default) 
+- **Transaction Date** : _1/31/2026_ (inserted by default) 
 
 - **Description** : Rent Accrual 
 
@@ -5132,7 +5132,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Recurring Transactions | 137 
+ Processing Recurring Transactions | 136 
 
 #### Step 2: Creating a Schedule for the Batch 
 
@@ -5142,11 +5142,11 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 2. Configure a schedule to repeat the batch 12 times, on the last day of each month, by specifying the     following settings: 
 
-- **Start Date** : _1/31/2025_ (or any date that is not aer the first date when you need to execute the schedule) 
+- **Description** : Rent Accrual 
+
+- **Start Date** : _1/31/2026_ (or any date that is not aer the first date when you need to execute the schedule) 
 
 - **Execution Limit (Times)** : 12 
-
-- **Description** : Rent Accrual 
 
 - **Frequency** : _Monthly_ 
 
@@ -5162,7 +5162,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 1. Open the _Generate Recurring Transactions_ (GL504000) form, and in the Summary area, specify the following     settings: 
 
-- **Execution Date** : _1/31/2025_ 
+- **Execution Date** : _1/31/2026_ 
 
 - **Stop Aer Number of Executions** : Selected, 1 
 
@@ -5174,7 +5174,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Recurring Transactions | 138 
+ Processing Recurring Transactions | 137 
 
  Figure: The recurring schedule and the generated batch 
 
@@ -5202,7 +5202,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Recurring Transactions | 139 
+ Processing Recurring Transactions | 138 
 
 ### Recurring Transactions: Related Reports and Forms 
 
@@ -5242,13 +5242,13 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Recurring Transactions | 140 
+ Processing Recurring Transactions | 139 
 
 4. On the **Generated Documents** tab, view the list of generated batches. 
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Transactions | 141 
+ Reclassifying Transactions | 140 
 
 ## Reclassifying Transactions 
 
@@ -5286,13 +5286,13 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Transactions | 142 
+ Reclassifying Transactions | 141 
 
 **_Figure: Batch reclassification process_** 
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Transactions | 143 
+ Reclassifying Transactions | 142 
 
 #### Modification of Selected Transactions Manually 
 
@@ -5338,7 +5338,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Transactions | 144 
+ Reclassifying Transactions | 143 
 
 - Transactions generated by a user invoking the run allocation process on the _Run Allocations_ (GL504500)     form. For details, see _Allocation Rules_ and _Running Allocations_. 
 
@@ -5380,13 +5380,13 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Transactions | 145 
+ Reclassifying Transactions | 144 
 
 - The transaction description ( **New Transaction Description** ) 
 
-- The project ( **To Project** ), which appears on the form if the _Project Accounting_ feature is enabled on the     _Enable/Disable Features_ form 
+- The project ( **To Project** ), which appears on the form if the _Projects_ feature is enabled on the _Enable/Disable_     _Features_ form 
 
-- The project task ( **To Project Task** ), which appears on the form if the _Project Accounting_ feature is enabled on     the _Enable/Disable Features_ form 
+- The project task ( **To Project Task** ), which appears on the form if the _Projects_ feature is enabled on the     _Enable/Disable Features_ form 
 
 - The cost code ( **To Cost Code** ), which appears on the form if the _Cost Codes_ feature is enabled on the _Enable/_     _Disable Features_ form While you are editing, you can add new journal entries (rows) to the list of journal entries on the _Reclassify Transactions_ form. You add a new journal entry (or multiple entries) by clicking **Load** on the form toolbar. In the **Load Transactions** dialog box, you specify the criteria to load the required journal entries. For these journal entries, if you specify a post period or currency that differs from the period or currency of the original GL transaction, then when you process the transaction, the system generates a new reclassification transaction (with a new identification number) that includes these journal entries. 
 
@@ -5418,7 +5418,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Transactions | 146 
+ Reclassifying Transactions | 145 
 
 - If the **Validate Batch Control Totals on Entry** check box is selected, you have to enter the batch control     total before you save the batch on the _Journal Transactions_ form. If this check box is cleared and the status of     the batch is _Balanced_ , the system automatically validates the batch. 
 
@@ -5448,11 +5448,11 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
  In this activity, you will learn how to reclassify GL transactions. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -5462,9 +5462,9 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Transactions | 147 
+ Reclassifying Transactions | 146 
 
- Acting as a SweetLife accountant, you have to find this transaction, which was posted in 03-2024 , and reclassify it to the 62950 Repairs account. 
+ Acting as a SweetLife accountant, you have to find this transaction, which was posted in 03-2025 , and reclassify it to the 62950 Repairs account. 
 
 #### Process Overview 
 
@@ -5480,7 +5480,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button and select _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -5496,9 +5496,9 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 - **Ledger** : _ACTUAL_ 
 
-- **From Period** : _03-2024_ 
+- **From Period** : _03-2025_ 
 
-- **To Period** : _03-2024_ 
+- **To Period** : _03-2025_ 
 
 - **Account** : _62400 - Office Expense_ 
 
@@ -5514,7 +5514,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Transactions | 148 
+ Reclassifying Transactions | 147 
 
  The batch is opened on the Reclassify Transactions (GL506000) form. 
 
@@ -5544,9 +5544,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 2. In the Summary area, specify the following settings: 
 
-- **From Period** : _03-2024_ 
-
-- **To Period** : _03-2024_ 
+- **Period Range** : _03-2025_ to _03-2025_ 
 
 - **Account** : _62400_ 
 
@@ -5560,7 +5558,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Transactions | 149 
+ Reclassifying Transactions | 148 
 
 #### Viewing the Reclassification History of a Transaction 
 
@@ -5580,7 +5578,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Splitting Transactions | 150 
+ Splitting Transactions | 149 
 
 ## Splitting Transactions 
 
@@ -5622,13 +5620,13 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Splitting Transactions | 151 
+ Splitting Transactions | 150 
 
 **_Figure: GL transaction splitting_** 
 
 
 <!-- PAGE_BREAK -->
- Splitting Transactions | 152 
+ Splitting Transactions | 151 
 
 #### Modification of the Transaction 
 
@@ -5664,7 +5662,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Splitting Transactions | 153 
+ Splitting Transactions | 152 
 
 ### Splitting Transactions: Implementation Checklist 
 
@@ -5702,7 +5700,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Splitting Transactions | 154 
+ Splitting Transactions | 153 
 
  Account Subaccount Debit Credit 
 
@@ -5728,17 +5726,17 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
  In this activity, you will learn how to split a GL transaction into two new transactions. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
 #### Story 
 
- Suppose that on February 13, 2025, a GL batch for $212 was wrongly posted to the 81000 Other Expenses account. This account should contain a $32 expense, and the rest of the expenses should be split between two other accounts. The expenses accounted for in this transaction should be the following: 
+ Suppose that on February 13, 2026, a GL batch for $212 was wrongly posted to the 81000 Other Expenses account. This account should contain a $32 expense, and the rest of the expenses should be split between two other accounts. The expenses accounted for in this transaction should be the following: 
 
 - Travel expenses: $80 
 
@@ -5748,7 +5746,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Splitting Transactions | 155 
+ Splitting Transactions | 154 
 
 #### Process Overview 
 
@@ -5764,7 +5762,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _2/13/2025_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _2/13/2026_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu button to view the list of branches that you have access to, and then     click _SweetLife Head Office and Wholesale Center_. 
 
@@ -5776,17 +5774,15 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 2. In the Selection area, specify the following settings: 
 
-- **Company/Branch** : _HEADOFFICE (SweetLife Head Office and Wholesale Center)_ (inserted by default based     on the selected branch) 
+- **Company/Branch** : _HEADOFFICE - SweetLife Head Office and Wholesale Center_ (inserted by default based     on the selected branch) 
 
 - **Ledger** : _ACTUAL_ (inserted by default) 
 
-- **From Period** : _02-2025_ 
-
-- **To Period** : _02-2025_ 
+- **Period Range** : _02-2026_ , _02-2026_ 
 
 - **Account** : _81000 - Other Expenses_ 
 
-3. In the table, select the unlabeled check box for the transaction dated _2/13/2025_ and the debit amount of     $212, and on the form toolbar, click **Reclassify** to open the entry related to the account on the _Reclassify_     _Transactions_ (GL506000) form. 
+3. In the table, select the unlabeled check box for the transaction dated _2/13/2026_ and the debit amount of     $212, and on the form toolbar, click **Reclassify** to open the entry related to the account on the _Reclassify_     _Transactions_ (GL506000) form. 
 
 #### Step 2: Splitting the Transaction 
 
@@ -5798,13 +5794,11 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 - **To Account** : _54400 - Project Travel Expense_ 
 
-- **New Amount** : 80 
+- **New Amount** : 80 Notice that the **New Amount** column for the original line has decreased by the specified amount for the new line and now shows _132.00_. 
 
 
 <!-- PAGE_BREAK -->
- Splitting Transactions | 156 
-
- Notice that the New Amount column for the original line has decreased by the specified amount for the new line and now shows 132.00. 
+ Splitting Transactions | 155 
 
 3. To enter the other new entry, click **Split** on the form toolbar. 
 
@@ -5838,7 +5832,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 #### Story 
 
- Suppose that on January 25, 2025, a GL batch for $620 was posted to the 62400 Office Expenses account and to the general 000-000 subaccount. The accountant then decided to split expenses between different departments so that reports would reflect the expense breakdown by departmental subaccounts. The departments in this batch have the following office expenses: 
+ Suppose that on January 25, 2026, a GL batch for $620 was posted to the 62400 Office Expenses account and to the general 000-000 subaccount. The accountant then decided to split expenses between different departments so that reports would reflect the expense breakdown by departmental subaccounts. The departments in this batch have the following office expenses: 
 
 - Sales department: $185 
 
@@ -5848,11 +5842,13 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 - Operations department: $89 
 
+- Finance department: $150 
+
 
 <!-- PAGE_BREAK -->
- Splitting Transactions | 157 
+ Splitting Transactions | 156 
 
-- Finance department: $150 Acting as a SweetLife accountant, you have to split the original transaction by subaccounts to record the applicable expenses for each department. 
+ Acting as a SweetLife accountant, you have to split the original transaction by subaccounts to record the applicable expenses for each department. 
 
 #### Configuration Overview 
 
@@ -5878,7 +5874,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Nenad     Pasic by using the _pasic_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button and select _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -5896,19 +5892,17 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 - **Ledger** : _ACTUAL_ 
 
-- **From Period** : _01-2025_ 
-
-- **To Period** : _01-2025_ 
+- **Period Range** : _01-2026, 01-2026_ 
 
 3. In the **Account** box, select _62400 - Office Expense_. 
 
 4. In the **Ending Balance** box, notice that the ending balance of the _62400_ account is $2,296.00. 
 
+5. In the table, select the unlabeled check box for the line with the debit amount of $620.00. 
+
 
 <!-- PAGE_BREAK -->
- Splitting Transactions | 158 
-
-5. In the table, select the unlabeled check box for the line with the debit amount of $620.00. 
+ Splitting Transactions | 157 
 
 6. On the form toolbar, click **Reclassify** to open the _Reclassify Transactions_ (GL506000) form with the line     listed. 
 
@@ -5952,7 +5946,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Splitting Transactions | 159 
+ Splitting Transactions | 158 
 
 7. In the **Processing** dialog box, which opens, click the **Processed** tab to verify that the batch was generated.     Do not close the **Processing** dialog box. 
 
@@ -5978,7 +5972,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 - **Ledger** : _ACTUAL_ 
 
-- **Period** : _01-2025_ 
+- **Period** : _01-2026_ 
 
 3. In the **Account** box, select _62400 - Office Expense_.     The system shows the balances broken down by subaccounts. Make sure that the balance of the _000-000_     subaccount has been decreased by the amount that you split in Step 2 ($620.00). The ending balance of the     _000-000_ subaccount of the _62400_ account should be _1,676.00_. 
 
@@ -5998,7 +5992,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Splitting Transactions | 160 
+ Splitting Transactions | 159 
 
 #### Viewing a Reclassification History of a Transaction 
 
@@ -6010,7 +6004,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Transactions with Subaccounts | 161 
+ Processing Transactions with Subaccounts | 160 
 
 ## Processing Transactions with Subaccounts 
 
@@ -6050,7 +6044,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Transactions with Subaccounts | 162 
+ Processing Transactions with Subaccounts | 161 
 
  Form Settings to Check Notes 
 
@@ -6078,9 +6072,9 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 #### Story 
 
- Suppose that in January 2025, the SweetLife Fruits & Jams company paid its employees a total of $38,300. 
+ Suppose that in January 2026, the SweetLife Fruits & Jams company paid its employees a total of $38,300. 
 
- Acting as a SweetLife accountant, you need to enter a batch for a payment in the amount of $38,300 for the 01-2025 financial period for the salaries of the employees of the SweetLife Head Office and Wholesale Center ( HEADOFFICE ) branch. The following amounts were paid to the company’s departments: 
+ Acting as a SweetLife accountant, you need to enter a batch for a payment in the amount of $38,300 for the 01-2026 financial period for the salaries of the employees of the SweetLife Head Office and Wholesale Center ( HEADOFFICE ) branch. The following amounts were paid to the company’s departments: 
 
 - Sales: $19,500 
 
@@ -6098,7 +6092,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Transactions with Subaccounts | 163 
+ Processing Transactions with Subaccounts | 162 
 
 - On the _Branches_ (CS102000) form, the _HEADOFFICE_ branch of the _SWEETLIFE_ company has been created. 
 
@@ -6122,7 +6116,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Nenad     Pasic by using the _pasic_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button and select _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -6136,11 +6130,11 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 2. In the Summary area, notice that the following settings are inserted by default: 
 
-- **Transaction Date** : _1/30/2025_ 
+- **Transaction Date** : _1/30/2026_ 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
-3. In the **Description** box, enter Salary payment Jan 2025. 
+3. In the **Description** box, enter Salary payment Jan 2026. 
 
 4. On the **Details** tab, click **Add Row** on the table toolbar, and specify the following settings in the row: 
 
@@ -6162,7 +6156,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Transactions with Subaccounts | 164 
+ Processing Transactions with Subaccounts | 163 
 
 - **Debit Amount** : 8,100.00 
 
@@ -6210,7 +6204,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 - **Ledger** : _ACTUAL_ 
 
-- **Period** : 01-2025 
+- **Period** : 01-2026 
 
 3. In the **Account** box, select _69500 - Salaries and Wages_. 
 
@@ -6230,7 +6224,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Transactions with Subaccounts | 165 
+ Processing Transactions with Subaccounts | 164 
 
  Account Subaccount Debit Amount Credit Amount 
 
@@ -6274,7 +6268,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Transactions with Subaccounts | 166 
+ Processing Transactions with Subaccounts | 165 
 
 #### Printing Transactions for a Particular Period 
 
@@ -6286,7 +6280,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Transactions with Approvals | 167 
+ Processing Transactions with Approvals | 166 
 
 ## Processing Transactions with Approvals 
 
@@ -6328,7 +6322,7 @@ About the **Exceptions** tab of the form, note that if you perform periodic impo
 
 
 <!-- PAGE_BREAK -->
- Processing Transactions with Approvals | 168 
+ Processing Transactions with Approvals | 167 
 
 3. On the **Conditions** tab of the _Approval Maps_ form, you specify the conditions that the GL transaction must     meet to be assigned for approval. In the **Entity** column, you specify the entity (which in this case indicates     the database table) whose field will be used for the condition in the row. You can select one of the following     options: 
 
@@ -6364,7 +6358,7 @@ The following table shows the types of batches of GL transactions that are avail
 
 
 <!-- PAGE_BREAK -->
- Processing Transactions with Approvals | 169 
+ Processing Transactions with Approvals | 168 
 
  Type Description Scenarios After Which Approvals Can Be Applied 
 
@@ -6404,7 +6398,7 @@ The following table shows the types of batches of GL transactions that are avail
 
 
 <!-- PAGE_BREAK -->
- Processing Transactions with Approvals | 170 
+ Processing Transactions with Approvals | 169 
 
 6. The requester resubmits the transaction for approval. 
 
@@ -6420,7 +6414,7 @@ The following table shows the types of batches of GL transactions that are avail
 
  According to the company's rules, both transactions have to be reviewed by Anna Johnson, a financial supervisor, who has to either approve or reject them. An appropriate approval map has already been created and is active in the system. 
 
- Acting as Nenad Pasic, you need to create two GL transactions directly in the general ledger on 1/30/2025. Then acting as Anna Johnson, you need to review both transactions, approve the first transaction, and reject the second transaction specifying a reason for it. 
+ Acting as Nenad Pasic, you need to create two GL transactions directly in the general ledger on 1/30/2026. Then acting as Anna Johnson, you need to review both transactions, approve the first transaction, and reject the second transaction specifying a reason for it. 
 
 #### Configuration Overview 
 
@@ -6442,11 +6436,11 @@ The following table shows the types of batches of GL transactions that are avail
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as Nenad Pasic by using     the _pasic_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 
 <!-- PAGE_BREAK -->
- Processing Transactions with Approvals | 171 
+ Processing Transactions with Approvals | 170 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -6464,7 +6458,7 @@ The following table shows the types of batches of GL transactions that are avail
 
 - **Module** : _GL_ 
 
-- **Transaction Date** : _1/30/2025_ (inserted automatically) 
+- **Transaction Date** : _1/30/2026_ (inserted automatically) 
 
 - **Branch** : _HEADOFFICE_ 
 
@@ -6496,7 +6490,7 @@ The following table shows the types of batches of GL transactions that are avail
 
 - **Module** : _GL_ 
 
-- **Transaction Date** : _1/30/2025_ (inserted automatically) 
+- **Transaction Date** : _1/30/2026_ (inserted automatically) 
 
 - **Branch** : _HEADOFFICE_ 
 
@@ -6520,7 +6514,7 @@ The following table shows the types of batches of GL transactions that are avail
 
 
 <!-- PAGE_BREAK -->
- Processing Transactions with Approvals | 172 
+ Processing Transactions with Approvals | 171 
 
  11.On the form toolbar, click Remove Hold. Notice that the status of the batch has also changed to Pending Approval. This transaction also needs to be approved by the financial supervisor. 12.On the form toolbar, click Save. 13.Sign out as Nenad Pasic. 
 
@@ -6560,7 +6554,7 @@ The following table shows the types of batches of GL transactions that are avail
 
 
 <!-- PAGE_BREAK -->
- Processing Transactions with Approvals | 173 
+ Processing Transactions with Approvals | 172 
 
 ### Transactions with Approval: Related Report and Inquiry Form 
 
@@ -6584,7 +6578,7 @@ The following table shows the types of batches of GL transactions that are avail
 
 
 <!-- PAGE_BREAK -->
- Transactions for Companies with Different Calendars | 174 
+ Transactions for Companies with Different Calendars | 173 
 
 ## Transactions for Companies with Different Calendars 
 
@@ -6600,7 +6594,7 @@ The following table shows the types of batches of GL transactions that are avail
 
 
 <!-- PAGE_BREAK -->
- Consolidated Reports for Companies with Different Calendars | 175 
+ Consolidated Reports for Companies with Different Calendars | 174 
 
 ## Consolidated Reports for Companies with Different 
 
@@ -6670,7 +6664,7 @@ The following table shows the types of batches of GL transactions that are avail
 
 
 <!-- PAGE_BREAK -->
- Consolidated Reports for Companies with Different Calendars | 176 
+ Consolidated Reports for Companies with Different Calendars | 175 
 
  example of a consolidated balance sheet for both companies for the 2018 financial year when you use the By Period Number approach. 
 
@@ -6694,7 +6688,7 @@ The following table shows the types of batches of GL transactions that are avail
 
 
 <!-- PAGE_BREAK -->
- Processing Vouchers | 177 
+ Processing Vouchers | 176 
 
 ## Processing Vouchers 
 
@@ -6740,11 +6734,11 @@ The following table shows the types of batches of GL transactions that are avail
 
 
 <!-- PAGE_BREAK -->
-Processing Vouchers | **178** 
+Processing Vouchers | **177** 
 
 
 <!-- PAGE_BREAK -->
- Processing Vouchers | 179 
+ Processing Vouchers | 178 
 
 #### Statuses of Document Batches 
 
@@ -6794,7 +6788,7 @@ Processing Vouchers | **178**
 
 
 <!-- PAGE_BREAK -->
- Processing Vouchers | 180 
+ Processing Vouchers | 179 
 
  In this topic, you will read about creating a document batch, adding documents to it, and applying payments to a document in the batch. 
 
@@ -6830,7 +6824,7 @@ Processing Vouchers | **178**
 
 
 <!-- PAGE_BREAK -->
- Processing Vouchers | 181 
+ Processing Vouchers | 180 
 
  Make sure that the payment methods specified for payments to vendors in the Payment Method column have the Not Required option selected on the Settings for Use in AP tab of the Payment Methods (CA204000) form. In other words, these payment methods must not require check printing and must not be ACH payments. 
 
@@ -6882,7 +6876,7 @@ Processing Vouchers | **178**
 
 
 <!-- PAGE_BREAK -->
- Processing Vouchers | 182 
+ Processing Vouchers | 181 
 
 #### Before You Proceed 
 
@@ -6922,7 +6916,7 @@ Processing Vouchers | **178**
 
 
 <!-- PAGE_BREAK -->
- Processing Vouchers | 183 
+ Processing Vouchers | 182 
 
  b. In the Total Amount column, specify the line amount. c. Specify the credit or debit account and a corresponding subaccount for the line, depending on the document type, if they are different from the default ones. k. Make sure that the document is balanced and its total credits equal total debits. l. If the Control Total box appears in the Summary area, enter the amount, which is equal to the credit and debit total. 
 
@@ -6950,7 +6944,7 @@ Processing Vouchers | **178**
 
 
 <!-- PAGE_BREAK -->
- Processing Vouchers | 184 
+ Processing Vouchers | 183 
 
  b. In the Tran. Code column, select the transaction code for the journal transaction you want to add. c. In the Transaction Date column, check the date, and change it if necessary. d. In the Ext. Ref. Number column, enter the reference number shown on the external document. 
 
@@ -6962,7 +6956,7 @@ Processing Vouchers | **178**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Anomaly Detection | 185 
+ Performing GL Anomaly Detection | 184 
 
 ## Performing GL Anomaly Detection 
 
@@ -7006,7 +7000,7 @@ Processing Vouchers | **178**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Anomaly Detection | 186 
+ Performing GL Anomaly Detection | 185 
 
 - Branch, account, and subaccount 
 
@@ -7042,11 +7036,11 @@ Processing Vouchers | **178**
 
 
 <!-- PAGE_BREAK -->
-Performing GL Anomaly Detection | **187** 
+Performing GL Anomaly Detection | **186** 
 
 
 <!-- PAGE_BREAK -->
- Performing GL Anomaly Detection | 188 
+ Performing GL Anomaly Detection | 187 
 
 ### GL Anomaly Detection: Scheduled Mode 
 
@@ -7090,11 +7084,11 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Anomaly Detection | 189 
+ Performing GL Anomaly Detection | 188 
 
 - **By Financial Period** : Selected 
 
-- **Next Execution Date** : _8/15/2025 12:00 AM_ (the date may vary, but the day should be in the middle of a     financial period) 
+- **Next Execution Date** : _8/15/2026 12:00 AM_ (the date may vary, but the day should be in the middle of a     financial period) 
 
 - **Fixed Day of the Period** : Selected, 15 
 
@@ -7116,7 +7110,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Anomaly Detection | 190 
+ Performing GL Anomaly Detection | 189 
 
 - **Field Name** : _Action_ 
 
@@ -7152,7 +7146,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Anomaly Detection | 191 
+ Performing GL Anomaly Detection | 190 
 
  Figure: The Analyze Transactions automation schedule 
 
@@ -7166,7 +7160,7 @@ Performing GL Anomaly Detection | **187**
 
 - **Weekly** : Selected 
 
-- **Next Execution Date** : _8/31/2025 4:00 PM_ 
+- **Next Execution Date** : _8/31/2026 4:00 PM_ 
 
 - **Every** : 1 Week(s) 
 
@@ -7176,7 +7170,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Anomaly Detection | 192 
+ Performing GL Anomaly Detection | 191 
 
  Figure: The schedule of the Analyze Transactions automation schedule 
 
@@ -7198,7 +7192,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Anomaly Detection | 193 
+ Performing GL Anomaly Detection | 192 
 
  Figure: The filter values for the Analyze Transactions automation schedule 
 
@@ -7206,7 +7200,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing a Simple Budget | 194 
+ Preparing a Simple Budget | 193 
 
 ## Preparing a Simple Budget 
 
@@ -7250,7 +7244,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing a Simple Budget | 195 
+ Preparing a Simple Budget | 194 
 
  An account–subaccount pair may be used only once in a budget. 
 
@@ -7284,7 +7278,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing a Simple Budget | 196 
+ Preparing a Simple Budget | 195 
 
  Form Things to Check Notes 
 
@@ -7314,11 +7308,11 @@ Performing GL Anomaly Detection | **187**
 
 #### Story 
 
- Suppose that the sales manager of SweetLife Fruits & Jams has prepared an Excel file with the sales budget for the SweetLife company. The sales budget contains the amounts of each stock and non-stock item (jams, fruit, equipment, services, and other products) that the company's stores plan to sell in 2025. 
+ Suppose that the sales manager of SweetLife Fruits & Jams has prepared an Excel file with the sales budget for the SweetLife company. The sales budget contains the amounts of each stock and non-stock item (jams, fruit, equipment, services, and other products) that the company's stores plan to sell in 2026. 
 
 
 <!-- PAGE_BREAK -->
- Preparing a Simple Budget | 197 
+ Preparing a Simple Budget | 196 
 
  Further suppose that the production manager of SweetLife has prepared an Excel file with a production budget for SweetLife, with amounts based on the sales budget. Acting as a SweetLife accountant, you have to upload these budgets to the system. 
 
@@ -7356,23 +7350,23 @@ Performing GL Anomaly Detection | **187**
 
 3. In the **Ledger** box, ensure that _BUDGET_ is selected. 
 
-4. In the **Financial Year** box, select _2025_. 
+4. In the **Financial Year** box, select _2026_. 
 
 5. On the table toolbar, click **Load Records from File**. 
 
-6. In the **File Upload** dialog box, which opens, click **Choose File** , and select the     _Sales_Budget_HEADOFFICE_2025.xlsx_ file. Click **Upload**. 
+6. In Step 1 of the **Import Data** wizard, which opens, click **Upload File** and select the     _Sales_Budget_HEADOFFICE_2026.xlsx_ file. 
 
-7. In the **Common Settings** dialog box, which opens, select _Insert All Records_ in the **Mode** box, and click **OK**. 
+7. In Step 2 of the wizard, leave the default values and click **Next**. 
 
-8. In the wizard that opens, leave all the default settings and map the columns the system has filled in, and     click **OK**.     The system uploads the budget articles from the Excel file. 
+8. In Step 3 of the wizard, leave all the default settings and click **Finish**.     The system uploads the budget articles from the Excel file. 
 
-9. On the form toolbar, click **Save** to save the uploaded budget. 10.In the **Ledger** box, make sure that _BUDGET_ is selected. 11.In the **Financial Year** box, make sure that _2025_ is selected. 12.On the table toolbar, click **Load Records from File**. 
+9. On the form toolbar, click **Save** to save the uploaded budget. 10.In the **Ledger** box, make sure that _BUDGET_ is selected. 11.In the **Financial Year** box, make sure that _2026_ is selected. 12.On the table toolbar, click **Load Records from File**. 13.In Step 1 of the wizard that opens, click **Upload File** and select the     _Production_Budget_HEADOFFICE_2026.xlsx_ file. 
 
 
 <!-- PAGE_BREAK -->
- Preparing a Simple Budget | 198 
+ Preparing a Simple Budget | 197 
 
- 13.In the File Upload dialog box that opens, click Choose File , and select the Production_Budget_HEADOFFICE_2025.xlsx file. Click Upload. 14.In the Common Settings dialog box that opens, leave Update Existing in the Mode box, and click OK. 15.In the wizard that opens, leave all the default settings and map the columns the system has filled in, and click OK. The system uploads the budget articles from the Excel file. 16.On the form toolbar, click Save to save the uploaded budget. 
+ 14.In Step 2 of the wizard, leave Update Existing in the Mode box, and click Next. 15.In Step 3 of the wizard, leave all the default settings and click Finish. The system uploads the budget articles from the Excel file. 16.On the form toolbar, click Save to save the uploaded budget. 
 
 #### Step 2: Releasing the Budgets 
 
@@ -7382,7 +7376,7 @@ Performing GL Anomaly Detection | **187**
 
 2. On the form toolbar, click **Release All**.     The **Processing** dialog box opens. Close this dialog box when the processing is complete. 
 
- You have prepared a simple sales budget and a simple production budget for the HEADOFFICE branch for the year 2025. 
+ You have prepared a simple sales budget and a simple production budget for the HEADOFFICE branch for the year 2026. 
 
 ### Simple Budget: Related Report 
 
@@ -7396,7 +7390,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing a Budget Based on an Existing Budget | 199 
+ Preparing a Budget Based on an Existing Budget | 198 
 
 ## Preparing a Budget Based on an Existing Budget 
 
@@ -7438,7 +7432,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing a Budget Based on an Existing Budget | 200 
+ Preparing a Budget Based on an Existing Budget | 199 
 
  If a budget ledger is used for comparison, only the released amounts of the budget articles are shown in the table. 
 
@@ -7472,7 +7466,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing a Budget Based on an Existing Budget | 201 
+ Preparing a Budget Based on an Existing Budget | 200 
 
  Form Settings to Check Notes 
 
@@ -7488,7 +7482,7 @@ Performing GL Anomaly Detection | **187**
 
 #### Story 
 
- Suppose that the financial supervisor of SweetLife Fruits & Jams has to prepare an optimistic budget for 2026 based on the uploaded budget for 2025. The articles of the budget should be increased by 15%, except for the rent or lease expense, which should remain the same. (Wages belong to the part of the budget that will be increased by 15%.) 
+ Suppose that the financial supervisor of SweetLife Fruits & Jams has to prepare an optimistic budget for 2027 based on the uploaded budget for 2026. The articles of the budget should be increased by 15%, except for the rent or lease expense, which should remain the same. (Wages belong to the part of the budget that will be increased by 15%.) 
 
  Acting as the SweetLife financial supervisor, you need to update the budget in the system. 
 
@@ -7506,11 +7500,11 @@ Performing GL Anomaly Detection | **187**
 
 #### Process Overview 
 
- In this activity, you will first create a new financial year, 2026, on the Master Financial Calendar (GL201000) form. On the Budgets (GL302010) form, you will prepare a budget for 2026 based on the budget for 2025 and release it on the Release Budgets (GL505510) form. Finally, on the Budgets form, you will compare the budget for 2025 to the budget for 2026. 
+ In this activity, you will first create a new financial year, 2027, on the Master Financial Calendar (GL201000) form. On the Budgets (GL302010) form, you will prepare a budget for 2027 based on the budget for 2026 and release it on the Release Budgets (GL505510) form. Finally, on the Budgets form, you will compare the budget for 2026 to the budget for 2027. 
 
 #### System Preparation 
 
- Before you begin creating budgets for 2026, do the following: 
+ Before you begin creating budgets for 2027, do the following: 
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
@@ -7518,7 +7512,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing a Budget Based on an Existing Budget | 202 
+ Preparing a Budget Based on an Existing Budget | 201 
 
  and Branch Selection menu to view the list of branches that you have access to, and then click SweetLife Head Office and Wholesale Center. 
 
@@ -7528,19 +7522,19 @@ Performing GL Anomaly Detection | **187**
 
 5. Make sure that no budget tree has been configured on the _Budget Configuration_ (GL205000) form. You cannot     complete this activity if a budget tree has been configured. 
 
-#### Step 1: Creating the 2026 Financial Year 
+#### Step 1: Creating the 2027 Financial Year 
 
- To prepare the system for the creation of the 2026 budget, do the following: 
+ To prepare the system for the creation of the 2027 budget, do the following: 
 
 1. Open the _Master Financial Calendar_ (GL201000) form. 
 
 2. On the form toolbar, click **Generate Calendar**. 
 
-3. In the **Generate GL Calendar** dialog box, which opens, make sure that _2026_ is selected in the **From Year** and     **To Year** boxes, and click **OK**. 
+3. In the **Generate GL Calendar** dialog box, which opens, make sure that _2027_ is selected in the **From Year** and     **To Year** boxes, and click **Generate**. 
 
-#### Step 2: Preparing and Releasing the Sales and Production Budgets for 2026 
+#### Step 2: Preparing and Releasing the Sales and Production Budgets for 2027 
 
- To prepare an optimistic budget for 2026 based on the budget data of 2025, do the following: 
+ To prepare an optimistic budget for 2027 based on the budget data of 2026, do the following: 
 
 1. Open the _Budgets_ (GL302010) form. 
 
@@ -7550,7 +7544,7 @@ Performing GL Anomaly Detection | **187**
 
 - **Ledger** : _BUDGETOPT_ 
 
-- **Financial Year** : _2026_ 
+- **Financial Year** : _2027_ 
 
 3. On the form toolbar, click **Preload Articles**. 
 
@@ -7560,7 +7554,7 @@ Performing GL Anomaly Detection | **187**
 
 - **Ledger** : _BUDGET_ 
 
-- **Financial Year** : _2025_ 
+- **Financial Year** : _2026_ 
 
 - **Multiplier (in %)** : 115 
 
@@ -7568,21 +7562,21 @@ Performing GL Anomaly Detection | **187**
 
 6. In Step 2 of the wizard, leave the specified settings, and click **Next**. 
 
-7. In Step 3 of the wizard, leave the **Update Existing Articles and Load Nonexistent Articles** option button     selected, and click **Finish**.     The system calculates the sales budget for 2026 as a 15% increase over the budget figures for 2025 kept for     the _HEADOFFICE_ branch in the _BUDGET_ ledger. 
+7. In Step 3 of the wizard, leave the **Update Existing Articles and Load Nonexistent Articles** option button     selected, and click **Finish**.     The system calculates the sales budget for 2027 as a 15% increase over the budget figures for 2026 kept for     the _HEADOFFICE_ branch in the _BUDGET_ ledger. 
 
-8. In the row with the _62900 (Rent or Lease Expense)_ account, enter 14,400.00 in the **Amount** column.     This is the original amount of the rent expenses from the 2025 production budget, which should stay the     same for 2026. 
+8. In the row with the _62900 (Rent or Lease Expense)_ account, enter 14,400.00 in the **Amount** column.     This is the original amount of the rent expenses from the 2026 production budget, which should stay the     same for 2027. 
 
 9. On the table toolbar, click **Distribute**. 10.In the **Distribute Year Amount by Periods** dialog box, which opens, leave _Evenly_ in the **Distribution**     **Method** box, and click **OK**. 11.On the form toolbar, click **Save** to save your changes. 
 
 
 <!-- PAGE_BREAK -->
- Preparing a Budget Based on an Existing Budget | 203 
+ Preparing a Budget Based on an Existing Budget | 202 
 
  12.Open the Release Budgets (GL505510) form. 13.On the form toolbar, click Release All. The Processing dialog box opens; close this dialog box when the processing has completed. 
 
-#### Step 3: Comparing the 2025 and 2026 Budgets 
+#### Step 3: Comparing the 2026 and 2027 Budgets 
 
- To compare the budgets for 2025 and 2026, do the following: 
+ To compare the budgets for 2026 and 2027, do the following: 
 
 1. Open the _Budgets_ (GL302010) form. 
 
@@ -7592,19 +7586,19 @@ Performing GL Anomaly Detection | **187**
 
 - **Ledger** : _BUDGETOPT_ 
 
-- **Financial Year** : _2026_ 
+- **Financial Year** : _2027_ 
 
 - **Compare to Branch** : _HEADOFFICE_ 
 
 - **Compare to Ledger** : _BUDGET_ 
 
-- **Compare to Year** : 2025 
+- **Compare to Year** : 2026 
 
-3. Review the results in the table on the form.     As you can see, all the budget articles have been increased by 15% for 2026 except for the _Rent or Lease_     _Expense_ article, which stayed the same in 2026 as it was in 2025. 
+3. Review the results in the table on the form.     As you can see, all the budget articles have been increased by 15% for 2027 except for the _Rent or Lease_     _Expense_ article, which stayed the same in 2027 as it was in 2026. 
 
 
 <!-- PAGE_BREAK -->
- Preparing a Hierarchical Budget | 204 
+ Preparing a Hierarchical Budget | 203 
 
 ## Preparing a Hierarchical Budget 
 
@@ -7650,7 +7644,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing a Hierarchical Budget | 205 
+ Preparing a Hierarchical Budget | 204 
 
 - To preload the amounts from an actual ledger, a statistical ledger, or another budget, you click **Preload**     **Articles** on the form toolbar and select the source settings in the **Preload Budget Articles** wizard. The system calculates the amount for each node automatically as the sum of the amounts of all its leaf articles. The amounts for the nodes containing other nodes are also calculated automatically, based on the amounts of all leaf articles within those nodes. 
 
@@ -7684,17 +7678,17 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing a Hierarchical Budget | 206 
+ Preparing a Hierarchical Budget | 205 
 
 ### Hierarchical Budget: Process Activity 
 
  In this activity, you will learn how to prepare a hierarchical budget. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that for the SweetLife Fruits & Jams company, the budget structure has been defined in the system. Acting as an accountant, you need to prepare a hierarchical budget for the Service and Equipment Sales Center branch in the system for the financial years 2025 and 2021. 
+ Suppose that for the SweetLife Fruits & Jams company, the budget structure has been defined in the system. Acting as an accountant, you need to prepare a hierarchical budget for the Service and Equipment Sales Center branch in the system for the financial years 2026 and 2021. 
 
 #### Configuration Overview 
 
@@ -7704,7 +7698,7 @@ Performing GL Anomaly Detection | **187**
 
 #### Process Overview 
 
- To create a hierarchical budget, you preload the budget structure on the Budgets (GL302010) form. For 2025, you will upload the budget amounts from a file and distribute these amounts over the periods of the year on the Budgets form. You will then post the 2025 budget to a budget ledger by releasing the budget articles on the Release Budgets (GL505510) form. 
+ To create a hierarchical budget, you preload the budget structure on the Budgets (GL302010) form. For 2026, you will upload the budget amounts from a file and distribute these amounts over the periods of the year on the Budgets form. You will then post the 2026 budget to a budget ledger by releasing the budget articles on the Release Budgets (GL505510) form. 
 
 #### System Preparation 
 
@@ -7728,25 +7722,25 @@ Performing GL Anomaly Detection | **187**
 
 #### Step 1: Preloading the Budget Structure 
 
- To preload the budget structure for 2025, do the following: 
+ To preload the budget structure for 2026, do the following: 
 
 1. Open the _Budgets_ (GL302010) form. 
 
 
 <!-- PAGE_BREAK -->
- Preparing a Hierarchical Budget | 207 
+ Preparing a Hierarchical Budget | 206 
 
 2. In the Summary area, in the **Branch** box, select _SWEETEQUIP_. 
 
 3. In the **Ledger** box, make sure _BUDGET_ is selected. 
 
-4. In the **Financial Year** box, select _2025_.     As soon as you select the year for which you want to create a new budget, the system opens the **Preload**     **from Budget Configuration** dialog box. 
+4. In the **Financial Year** box, select _2026_.     As soon as you select the year for which you want to create a new budget, the system opens the **Preload**     **from Budget Configuration** dialog box. 
 
 5. In the dialog box, click **Yes** to confirm that you want to preload the budget articles. The system closes     the dialog box and populates the budget articles on the _Budgets_ form according to the budget tree     configuration. 
 
 6. In the Summary area of the form, make sure the **Tree View** check box is selected. 
 
-#### Step 2: Defining the Budget Amounts for 2025 and Releasing the Budget 
+#### Step 2: Defining the Budget Amounts for 2026 and Releasing the Budget 
 
  To define the budget amounts and release the budget, do the following: 
 
@@ -7782,7 +7776,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Converting a Simple Budget to a Hierarchical Budget | 208 
+ Converting a Simple Budget to a Hierarchical Budget | 207 
 
 ## Converting a Simple Budget to a Hierarchical Budget 
 
@@ -7818,7 +7812,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Converting a Simple Budget to a Hierarchical Budget | 209 
+ Converting a Simple Budget to a Hierarchical Budget | 208 
 
  Form Things to Check Notes 
 
@@ -7848,11 +7842,11 @@ Performing GL Anomaly Detection | **187**
 
 #### Story 
 
- Suppose that the 2025 budget of the SweetLife Fruits & Jams company, which contains sales and production budget articles, has to be converted into a hierarchical budget based on the previously created budget tree. (As the 
+ Suppose that the 2026 budget of the SweetLife Fruits & Jams company, which contains sales and production budget articles, has to be converted into a hierarchical budget based on the previously created budget tree. (As the 
 
 
 <!-- PAGE_BREAK -->
- Converting a Simple Budget to a Hierarchical Budget | 210 
+ Converting a Simple Budget to a Hierarchical Budget | 209 
 
  company has grown, its management has decided to have more detailed budgets in the system, and a budget tree has been configured.) 
 
@@ -7872,7 +7866,7 @@ Performing GL Anomaly Detection | **187**
 
 #### Process Overview 
 
- In this activity, on the Budgets (GL302010) form, you will convert a simple budget for 2025 into a hierarchical one. You will sign in as a user with the Sales Manager role, then as a user with the Purchasing Manager role, and finally as a user with the Financial Supervisor role; while signed in as each user, you will review the available budget nodes on the Budgets (GL302010) form. 
+ In this activity, on the Budgets (GL302010) form, you will convert a simple budget for 2026 into a hierarchical one. You will sign in as a user with the Sales Manager role, then as a user with the Purchasing Manager role, and finally as a user with the Financial Supervisor role; while signed in as each user, you will review the available budget nodes on the Budgets (GL302010) form. 
 
 #### System Preparation 
 
@@ -7900,7 +7894,7 @@ Performing GL Anomaly Detection | **187**
 
 - **Ledger** : _BUDGET_ 
 
-- **Financial Year** : _2025_ 
+- **Financial Year** : _2026_ 
 
 - **Tree View** : Cleared 
 
@@ -7908,7 +7902,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Converting a Simple Budget to a Hierarchical Budget | 211 
+ Converting a Simple Budget to a Hierarchical Budget | 210 
 
 4. In the **Select Action** box, select _Convert Budget Using Current Budget Configuration_ , and click **OK**. 
 
@@ -7934,7 +7928,7 @@ Performing GL Anomaly Detection | **187**
 
 - **Ledger** : _BUDGET_ 
 
-- **Financial Year** : 2025 
+- **Financial Year** : 2026 
 
 - **Tree View** : Selected 
 
@@ -7956,7 +7950,7 @@ Performing GL Anomaly Detection | **187**
 
 - **Ledger** : _BUDGET_ 
 
-- **Financial Year** : 2025 
+- **Financial Year** : 2026 
 
 - **Tree View** : Selected 
 
@@ -7978,11 +7972,11 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Converting a Simple Budget to a Hierarchical Budget | 212 
+ Converting a Simple Budget to a Hierarchical Budget | 211 
 
 - **Ledger** : _BUDGET_ 
 
-- **Financial Year** : 2025 
+- **Financial Year** : 2026 
 
 - **Tree View** : Selected 
 
@@ -7990,7 +7984,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Modifying a Hierarchical Budget | 213 
+ Modifying a Hierarchical Budget | 212 
 
 ## Modifying a Hierarchical Budget 
 
@@ -8038,7 +8032,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Modifying a Hierarchical Budget | 214 
+ Modifying a Hierarchical Budget | 213 
 
 ### Modifying a Hierarchical Budget: Implementation Checklist 
 
@@ -8068,7 +8062,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Modifying a Hierarchical Budget | 215 
+ Modifying a Hierarchical Budget | 214 
 
 #### Validation of Configuration 
 
@@ -8080,9 +8074,9 @@ Performing GL Anomaly Detection | **187**
 
 #### Story 
 
- Suppose that the management of SweetLife Fruits & Jams needs to have a budget article that aggregates all travel expenses of the company. The hierarchical budget should include the Travel Expenses leaf that would aggregate budgeted amounts for accounts from 70000 (Travel Tickets) to 70020 (Travel Meals). Further suppose that the budget for 2026 should be based on the configured budget tree and uploaded to the system. 
+ Suppose that the management of SweetLife Fruits & Jams needs to have a budget article that aggregates all travel expenses of the company. The hierarchical budget should include the Travel Expenses leaf that would aggregate budgeted amounts for accounts from 70000 (Travel Tickets) to 70020 (Travel Meals). Further suppose that the budget for 2027 should be based on the configured budget tree and uploaded to the system. 
 
- Acting as a system administrator, you need to add a leaf budget article to the Production node of the budget, add the budget amounts for travel expenses in 2025, and upload the budget for 2026 that already includes travel expenses. 
+ Acting as a system administrator, you need to add a leaf budget article to the Production node of the budget, add the budget amounts for travel expenses in 2026, and upload the budget for 2027 that already includes travel expenses. 
 
 #### Configuration Overview 
 
@@ -8100,7 +8094,7 @@ Performing GL Anomaly Detection | **187**
 
 #### Process Overview 
 
- In this activity, you will add the Travel Expenses leaf to the Production node of the hierarchical budget on the Budget Configuration (GL205000) form. On the Budgets (GL302010) form, you will convert the 2025 budget based on the updated budget tree and update the Travel Expenses article. You will then release the modified budget article on the Release Budgets (GL505510) form. Finally, on the Budgets form, you will upload a budget for 2026 from an Excel file. 
+ In this activity, you will add the Travel Expenses leaf to the Production node of the hierarchical budget on the Budget Configuration (GL205000) form. On the Budgets (GL302010) form, you will convert the 2026 budget based on the updated budget tree and update the Travel Expenses article. You will then release the modified budget article on the Release Budgets (GL505510) form. Finally, on the Budgets form, you will upload a budget for 2027 from an Excel file. 
 
 #### System Preparation 
 
@@ -8112,7 +8106,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Modifying a Hierarchical Budget | 216 
+ Modifying a Hierarchical Budget | 215 
 
 3. Make sure that you have performed the following prerequisite activity to create a hierarchical budget:     _Conversion of a Simple Budget to a Hierarchical Budget: Process Activity_. 
 
@@ -8156,7 +8150,7 @@ Performing GL Anomaly Detection | **187**
 
 - **Ledger** : _BUDGET_ 
 
-- **Financial Year** : _2025_ 
+- **Financial Year** : _2026_ 
 
 - **Tree View** : Selected 
 
@@ -8174,7 +8168,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Modifying a Hierarchical Budget | 217 
+ Modifying a Hierarchical Budget | 216 
 
 2. In the row for the _70000_ account, enter 3,600.00 in the **Amount** column. 
 
@@ -8198,13 +8192,13 @@ Performing GL Anomaly Detection | **187**
 
 2. On the form toolbar, select the updated budget and click **Release**. 
 
-#### Step 5: Uploading and Releasing a Budget for 2026 
+#### Step 5: Uploading and Releasing a Budget for 2027 
 
- To upload and then release a budget for 2026 that should be based on the updated budget tree, do the following: 
+ To upload and then release a budget for 2027 that should be based on the updated budget tree, do the following: 
 
 1. Open the _Budgets_ (GL302010) form. 
 
-2. In the Summary area, specify the 2026 financial year in the **Financial Year** box, and ensure that the     following settings have been inserted by default: 
+2. In the Summary area, specify the 2027 financial year in the **Financial Year** box, and ensure that the     following settings have been inserted by default: 
 
 - **Branch** : _HEADOFFICE_ 
 
@@ -8234,7 +8228,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Modifying a Hierarchical Budget | 218 
+ Modifying a Hierarchical Budget | 217 
 
 #### Viewing the List of Budget Articles 
 
@@ -8242,7 +8236,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing and Running a Budget vs Actual ARM Report | 219 
+ Preparing and Running a Budget vs Actual ARM Report | 218 
 
 ## Preparing and Running a Budget vs Actual ARM Report 
 
@@ -8286,7 +8280,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing and Running a Budget vs Actual ARM Report | 220 
+ Preparing and Running a Budget vs Actual ARM Report | 219 
 
 #### Implementation Checklist 
 
@@ -8314,7 +8308,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing and Running a Budget vs Actual ARM Report | 221 
+ Preparing and Running a Budget vs Actual ARM Report | 220 
 
 ### Budget vs. Actual ARM Report: Process Activity 
 
@@ -8322,7 +8316,7 @@ Performing GL Anomaly Detection | **187**
 
 #### Story 
 
- Suppose that the management of the SweetLife Fruits & Jams company wants to compare the budget for 2025 with the actual figures for this financial year. 
+ Suppose that the management of the SweetLife Fruits & Jams company wants to compare the budget for 2026 with the actual figures for this financial year. 
 
  Acting as a system administrator, you need to prepare and run the Budget vs. Actual ARM report. 
 
@@ -8352,9 +8346,9 @@ Performing GL Anomaly Detection | **187**
 
 2. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
-#### Step 1: Preparing the Actual Data of SweetLife for 2025 
+#### Step 1: Preparing the Actual Data of SweetLife for 2026 
 
- To prepare the actual data of SweetLife for 2025, you need to open the remaining closed financial periods, and then create and release a list of transactions. Do the following: 
+ To prepare the actual data of SweetLife for 2026, you need to open the remaining closed financial periods, and then create and release a list of transactions. Do the following: 
 
 1. Open the _Manage Financial Periods_ (GL503000) form. 
 
@@ -8366,11 +8360,11 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing and Running a Budget vs Actual ARM Report | 222 
+ Preparing and Running a Budget vs Actual ARM Report | 221 
 
 - **To Year** : _2025_ 
 
-3. In the table, select the check boxes next to _11-2025_ and _12-2025_. 
+3. In the table, select the check boxes next to _11-2026_ and _12-2026_. 
 
 4. On the form toolbar, click **Process**. 
 
@@ -8382,9 +8376,9 @@ Performing GL Anomaly Detection | **187**
 
 - **Ledger** : _ACTUAL_ 
 
-- **Transaction Date** : _12/31/2025_ 
+- **Transaction Date** : _12/31/2026_ 
 
-- **Post Period** : _12-2025_ 
+- **Post Period** : _12-2026_ 
 
 - **Description** : Transactions for 2025 
 
@@ -8426,7 +8420,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing and Running a Budget vs Actual ARM Report | 223 
+ Preparing and Running a Budget vs Actual ARM Report | 222 
 
  Figure: Changes to the column set 
 
@@ -8446,7 +8440,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing and Running a Budget vs Actual ARM Report | 224 
+ Preparing and Running a Budget vs Actual ARM Report | 223 
 
 6. In the **Report Definition** section, specify the following settings: 
 
@@ -8482,7 +8476,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing and Running a Budget vs Actual ARM Report | 225 
+ Preparing and Running a Budget vs Actual ARM Report | 224 
 
 #### Step 4: Publishing the ARM Report 
 
@@ -8514,7 +8508,7 @@ Performing GL Anomaly Detection | **187**
 
 - **Start Branch** : _HEADOFFICE_ 
 
-- **Financial Period** : _12-2025_ 
+- **Financial Period** : _12-2026_ 
 
 3. On the form toolbar, click **Run Report**. 
 
@@ -8522,13 +8516,13 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Preparing and Running a Budget vs Actual ARM Report | 226 
+ Preparing and Running a Budget vs Actual ARM Report | 225 
 
 **_Figure: The Actual vs. Budget report_** 
 
 
 <!-- PAGE_BREAK -->
- Revising a Budget | 227 
+ Revising a Budget | 226 
 
 ## Revising a Budget 
 
@@ -8570,7 +8564,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Revising a Budget | 228 
+ Revising a Budget | 227 
 
  Form Things to Check Notes 
 
@@ -8584,13 +8578,13 @@ Performing GL Anomaly Detection | **187**
 
 #### Story 
 
- Suppose that the management of the SweetLife Fruits & Jams company has reviewed the budget for 2025 and decided to revise it as follows: 
+ Suppose that the management of the SweetLife Fruits & Jams company has reviewed the budget for 2026 and decided to revise it as follows: 
 
-- The wholesale center's budget has to be increased by $3,600 in the 12th period of 2025 because more     revenue is expected during the winter holidays. 
+- The wholesale center's budget has to be increased by $3,600 in the 12th period of 2026 because more     revenue is expected during the winter holidays. 
 
 - The rent expenses should be increased by $2,000 and distributed evenly among the periods. 
 
-- Advertising expenses should be increased to $14,200 and distributed proportionally to released values. Acting as the financial supervisor of SweetLife, you need to modify the 2025 budget in the system. 
+- Advertising expenses should be increased to $14,200 and distributed proportionally to released values. Acting as the financial supervisor of SweetLife, you need to modify the 2026 budget in the system. 
 
 #### Configuration Overview 
 
@@ -8620,7 +8614,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Revising a Budget | 229 
+ Revising a Budget | 228 
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
@@ -8644,7 +8638,7 @@ Performing GL Anomaly Detection | **187**
 
 - **Tree View** : Selected 
 
-- Specify _2025_ in the **Financial Year** box. 
+- Specify _2026_ in the **Financial Year** box. 
 
 3. Select the **Sales** node, and in the table, modify the amount for the 12th financial period for the _40000_     account and the _JAM-000_ subaccount as follows:     a. In the **Amount** column, specify 125,700.00.     b. In the **Period 12** column, change the amount to 14,950.00.     Notice that the system has cleared the **Released** check box for the row. 
 
@@ -8670,13 +8664,13 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Revising a Budget | 230 
+ Revising a Budget | 229 
 
 - **Compare to Branch** : _HEADOFFICE_ 
 
 - **Compare to Ledger** : _BUDGET_ 
 
-- **Compare to Year** : 2025 
+- **Compare to Year** : 2026 
 
 2. Select the **Production > Purchases** node, and in the table, click the row with the _61000_ account to select it. 
 
@@ -8700,7 +8694,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Running Allocations | 231 
+ Running Allocations | 230 
 
 ## Running Allocations 
 
@@ -8744,7 +8738,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Running Allocations | 232 
+ Running Allocations | 231 
 
  than the date of the previous run. You cannot run the allocation with an allocation date that is earlier than the date of last execution. 
 
@@ -8780,7 +8774,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Running Allocations | 233 
+ Running Allocations | 232 
 
 ### Running of Allocations: Generated Transactions 
 
@@ -8830,7 +8824,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Running Allocations | 234 
+ Running Allocations | 233 
 
 #### System Preparation 
 
@@ -8838,7 +8832,7 @@ Performing GL Anomaly Detection | **187**
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Nenad     Pasic by using the _pasic_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button and select _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -8870,27 +8864,29 @@ Performing GL Anomaly Detection | **187**
 
 - **Ledger** : _HEADCOUNT_ 
 
-- **Transaction Date** : _1/30/2025_ 
+- **Transaction Date** : _1/30/2026_ 
 
-- **Post Period** : _01-2025_ (inserted by default) 
+- **Post Period** : _01-2026_ (inserted by default) 
 
-- **Description** : Head Count for Jan 2024 
+- **Description** : Head Count for Jan 2026 
 
-3. On the table toolbar, click **Load Records from File** , and in the **File Upload** dialog box, which opens, select     the _GL_Batch_HEADCOUNT_012025.xlsx_ file. Click **Upload**. 
+3. On the table toolbar, click **Load Records from File**. 
 
-4. In the dialog box that opens, leave the default settings, and click **OK**. 
+4. In Step 1 of the **Import Data** wizard that opens, click **Upload File** and select the     _GL_Batch_HEADCOUNT_012026.xlsx_ file. 
 
-5. In the wizard that opens, leave all the default settings, map the columns as the system suggests, and click     **OK**. 
+5. In Step 2 of the wizard, leave the default settings and click **Next**. 
 
-6. On the form toolbar, click **Remove Hold**. 
+6. In Step 3 of the wizard, leave the default settings and click **Finish**. 
 
-7. On the form toolbar, click **Release**. 
+7. On the form toolbar, click **Remove Hold**. 
 
- You have uploaded the head count to the statistical ledger. 
+8. On the form toolbar, click **Release**. 
 
 
 <!-- PAGE_BREAK -->
- Running Allocations | 235 
+ Running Allocations | 234 
+
+ You have uploaded the head count to the statistical ledger. 
 
 #### Step 2: Running the Allocations 
 
@@ -8898,7 +8894,7 @@ Performing GL Anomaly Detection | **187**
 
 1. Open the _Run Allocations_ (GL504500) form. 
 
-2. In the **Allocation Date** box of the Selection area, make sure that _1/30/2025_ is selected.     The period of the selected date is inserted in the **Post Period** box. These settings represent the date and     period of the allocation batches to be generated. 
+2. In the **Allocation Date** box of the Selection area, make sure that _1/30/2026_ is selected.     The period of the selected date is inserted in the **Post Period** box. These settings represent the date and     period of the allocation batches to be generated. 
 
 3. On the form toolbar, click **Process All**.     The **Processing** dialog box opens. 
 
@@ -8942,13 +8938,11 @@ Performing GL Anomaly Detection | **187**
 
 3. On the **Allocation History** tab, notice that one GL batch has been generated for the rule and that it has the     _On Hold_ status. 
 
-4. In the **Batch Number** column, click the link. 
-
 
 <!-- PAGE_BREAK -->
- Running Allocations | 236 
+ Running Allocations | 235 
 
- The Journal Transactions (GL301000) form opens with the generated allocation batch. 
+4. In the **Batch Number** column, click the link.     The _Journal Transactions_ (GL301000) form opens with the generated allocation batch. 
 
 5. On the form toolbar, click **Remove Hold**. 
 
@@ -8986,7 +8980,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Configuring GL Consolidation | 237 
+ Configuring GL Consolidation | 236 
 
 ## Configuring GL Consolidation 
 
@@ -9028,7 +9022,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Configuring GL Consolidation | 238 
+ Configuring GL Consolidation | 237 
 
 ### GL Consolidation Configuration (Optional): To Configure Consolidation in a Parent 
 
@@ -9058,7 +9052,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Configuring GL Consolidation | 239 
+ Configuring GL Consolidation | 238 
 
  l. Optional: In the Start Period and End Period columns, specify the start and end period for consolidation. 
 
@@ -9066,7 +9060,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Consolidation | 240 
+ Performing GL Consolidation | 239 
 
 ## Performing GL Consolidation 
 
@@ -9108,7 +9102,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Consolidation | 241 
+ Performing GL Consolidation | 240 
 
  In each consolidation unit that has the Multicurrency Accounting feature enabled on the Enable/Disable Features (CS100000) form and has the base currency different from the base currency of the parent tenant, you perform the following steps to prepare data for consolidation: 
 
@@ -9140,7 +9134,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Consolidation | 242 
+ Performing GL Consolidation | 241 
 
  Figure: The process of GL consolidation 
 
@@ -9150,7 +9144,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Consolidation | 243 
+ Performing GL Consolidation | 242 
 
  depends on your consolidation scenario: what level of details should be available in the consolidation branch for the required consolidated reports. 
 
@@ -9186,7 +9180,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Consolidation | 244 
+ Performing GL Consolidation | 243 
 
  If a segment in a unit's subaccount does not match any string (segment or part of the segment) in the parent subaccount, set both of these settings to 0. This means the amounts associated with the segment will be aggregated. During data collection, the subaccounts of the unit are mapped to temporary subaccounts that may differ from the parent's subaccounts by the absence of the consolidation segment. 
 
@@ -9212,7 +9206,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Consolidation | 245 
+ Performing GL Consolidation | 244 
 
  Segment ID Description Length Consol. Order Number of Characters 
 
@@ -9252,7 +9246,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Consolidation | 246 
+ Performing GL Consolidation | 245 
 
 ### GL Consolidation: Implementation Checklist 
 
@@ -9294,7 +9288,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Consolidation | 247 
+ Performing GL Consolidation | 246 
 
 #### Validation of Configuration 
 
@@ -9306,9 +9300,9 @@ Performing GL Anomaly Detection | **187**
 
 #### Story 
 
- Suppose that the management of the SweetLife AZ company decided to prepare the system for further GL consolidation. The trial balances for November and December 2024 have been transferred from the company's legacy system to Excel files and need to be uploaded to Acumatica ERP. 
+ Suppose that the management of the SweetLife AZ company decided to prepare the system for further GL consolidation. The trial balances for November and December 2025 have been transferred from the company's legacy system to Excel files and need to be uploaded to Acumatica ERP. 
 
- Acting as the system administrator of SweetLife AZ, you need to prepare the consolidation unit for GL consolidation by mapping its GL accounts with the GL accounts of the parent company and to import the trial balance of SweetLife AZ for the 11-2024 and 12-2024 periods. 
+ Acting as the system administrator of SweetLife AZ, you need to prepare the consolidation unit for GL consolidation by mapping its GL accounts with the GL accounts of the parent company and to import the trial balance of SweetLife AZ for the 11-2025 and 12-2025 periods. 
 
 #### Configuration Overview 
 
@@ -9318,7 +9312,7 @@ Performing GL Anomaly Detection | **187**
 
  In this activity, on the Chart of Accounts (GL202500) form, you will map the accounts of the consolidation unit with the parent company accounts by uploading an Excel file. 
 
- On the Trial Balance (GL303000) form, you will upload the Excel files with trial balances for the 11-2024 and 12-2024 periods. On the Journal Transactions (GL301000) form, you will release the GL transactions generated by the system. 
+ On the Trial Balance (GL303000) form, you will upload the Excel files with trial balances for the 11-2025 and 12-2025 periods. On the Journal Transactions (GL301000) form, you will release the GL transactions generated by the system. 
 
 #### System Preparation 
 
@@ -9332,11 +9326,11 @@ Performing GL Anomaly Detection | **187**
 
 4. Make sure that in the parent company (the company with the _U100_ dataset preloaded) the data     synchronization has been performed as described in _GL Consolidation Configuration: To Configure the Parent_     _Company_. 
 
-5. Download the _AZ_Subsidiary_COA_with_Mapped_Accounts.xlsx_ , _SWEETAZ_Trial_Balance_11-2024.xlsx_ , and     _SWEETAZ_Trial_Balance_12-2024.xlsx_ files. 
+5. Download the _AZ_Subsidiary_COA_with_Mapped_Accounts.xlsx_ , _SWEETAZ_Trial_Balance_11-2025.xlsx_ , and     _SWEETAZ_Trial_Balance_12-2025.xlsx_ files. 
 
 
 <!-- PAGE_BREAK -->
- Performing GL Consolidation | 248 
+ Performing GL Consolidation | 247 
 
 #### Step 1: Mapping Accounts 
 
@@ -9348,11 +9342,11 @@ Performing GL Anomaly Detection | **187**
 
 2. On the form toolbar, click **Load Records from File**. 
 
-3. In the **File Upload** dialog box, which opens, select the file path to the     _AZ_Subsidiary_COA_with_Mapped_Accounts.xlsx_ file that you downloaded for this activity, and click     **Upload**. 
+3. In Step 1 of the **Import Data** wizard, which opens, click Upload File and select the file path to the     _AZ_Subsidiary_COA_with_Mapped_Accounts.xlsx_ file that you downloaded for this activity. 
 
-4. In the **Common Settings** dialog box, which opens, select _Update Existing_ in the **Mode** box, and click **OK**. 
+4. In Step 2 of the wizard, select _Update Existing_ in the **Mode** box, and click **Next**. 
 
-5. In the **Columns** dialog box, leave the current mapping, and click **OK**.     The system uploads a chart of accounts with accounts from the parent company specified in the     **Consolidation Account** column. All the accounts have been mapped, except for four cash accounts. You     need to map them manually. 
+5. In Step 3 of the wizard, leave the current mapping and click **Finish**.     The system uploads a chart of accounts with accounts from the parent company specified in the     **Consolidation Account** column. All the accounts have been mapped, except for four cash accounts. You     need to map them manually. 
 
 6. In the row for _10200 - Company Checking Account_ , specify _10000_ in the **Consolidation Account** column. 
 
@@ -9362,9 +9356,9 @@ Performing GL Anomaly Detection | **187**
 
 9. In the row for _10600 - Credit Card Account_ , specify _10000_ in the **Consolidation Account** column.     The amounts posted to these accounts will be consolidated in the _10000 - Cash Account_ in the parent     company. 10.On the form toolbar, click **Save**. 
 
-#### Step 2: Importing Trial Balance for 11-2024 to the System 
+#### Step 2: Importing Trial Balance for 11-2025 to the System 
 
- To import the trial balance for 11-2024 of SweetLife AZ and post the transaction, do the following: 
+ To import the trial balance for 11-2025 of SweetLife AZ and post the transaction, do the following: 
 
 1. Open the Trial Balance (GL3030PL) list of records. 
 
@@ -9374,37 +9368,37 @@ Performing GL Anomaly Detection | **187**
 
 3. On the _Trial Balance_ (GL303000) form, which opens, specify the following settings in the Summary area: 
 
-- **Import Date** : _11/30/2024_ 
+- **Import Date** : _11/30/2025_ 
 
-- **Period** : _11-2024_ (inserted automatically) 
+- **Period** : _11-2025_ (inserted automatically) 
 
 - **Company/Branch** : _SWEETAZ_ (inserted by default) 
 
 - **Ledger** : _ACTUALAZ_ 
 
-- **Description** : 11-2024 TB import 
+- **Description** : 11-2025 TB import 
 
 4. On the table toolbar of the **Transaction Details** tab, click **Load Records from File**. 
 
-5. In the **File Upload** dialog box, select the _SWEETAZ_Trial_Balance_11-2024.xlsx_ file and click **Upload**. 
+5. In Step 1 of the **Import Data** wizard, click Upload File and select the path to the     _SWEETAZ_Trial_Balance_11-2025.xlsx_ file. 
 
-6. In the **Common Settings** dialog box, leave the default settings and click **OK**. In the **Columns** dialog box,     click **OK**. 
+6. In Step 2 of the wizard, leave the default settings and click **Next**. 
+
+7. In Step 3 of the wizard, leave the default settings and click **Finish**. 
 
 
 <!-- PAGE_BREAK -->
- Performing GL Consolidation | 249 
+ Performing GL Consolidation | 248 
 
- The system uploads the trial balance for the 11-2024 period on the Transaction Details tab. 
+ The system uploads the trial balance for the 11-2025 period on the Transaction Details tab. 
 
-7. In the **Action** box, make sure that the _Validate_ option is selected. 
-
-8. On the table toolbar of the **Transaction Details** tab, click **Process All**. 
+8. Select the unlabeled check box for all the rows of the table and on the table toolbar, click **Validate**. 
 
 9. On the form toolbar, click **Remove Hold** and then click **Release** to release the trial balance.     The system opens the _Journal Transactions_ (GL301000) form and displays a transaction with the uploaded     balances. 10.On the form toolbar, click **Release** to release the transaction. 
 
-#### Step 3: Importing Trial Balance for 12-2024 to the System 
+#### Step 3: Importing Trial Balance for 12-2025 to the System 
 
- To import the trial balance for 12-2024 of SweetLife AZ and post the transaction, do the following: 
+ To import the trial balance for 12-2025 of SweetLife AZ and post the transaction, do the following: 
 
 1. Open the Trial Balance (GL3030PL) list of records. 
 
@@ -9412,25 +9406,25 @@ Performing GL Anomaly Detection | **187**
 
 3. On the _Trial Balance_ (GL303000) form, which opens, specify the following settings in the Summary area: 
 
-- **Import Date** : _12/31/2024_ 
+- **Import Date** : _12/31/2025_ 
 
-- **Period** : _12-2024_ (inserted automatically) 
+- **Period** : _12-2025_ (inserted automatically) 
 
 - **Company/Branch** : _SWEETAZ_ (inserted by default) 
 
 - **Ledger** : _ACTUALAZ_ 
 
-- **Description** : 12-2024 TB import 
+- **Description** : 12-2025 TB import 
 
 4. On the table toolbar of the **Transaction Details** tab, click **Load Records from File**. 
 
-5. In the **File Upload** dialog box, select the _SWEETAZ_Trial_Balance_12-2024.xlsx_ file and click **Upload**. 
+5. In Step 1 of the **Import Data** wizard, which opens, click Upload File and select the path to the     _SWEETAZ_Trial_Balance_12-2025.xlsx_ file. 
 
-6. In the **Common Settings** dialog box, leave the default settings and click **OK**. In the **Columns** dialog box,     click **OK**.     The system uploads the trial balance for the 12-2024 period on the **Transaction Details** tab. 
+6. In Step 2 of the wizard, leave the default settings and click **Next**. 
 
-7. In the **Action** box, make sure that the _Validate_ option is selected. 
+7. In Step 3 of the wizard, leave the default settings and click **Finish**.     The system uploads the trial balance for the 12-2025 period on the **Transaction Details** tab. 
 
-8. On the table toolbar of the **Transaction Details** form, click **Process All**. 
+8. Select the unlabeled check box for all the rows in the table and on the table toolbar, click **Validate**. 
 
 9. On the form toolbar, click **Remove Hold** and then click **Release** to release the trial balance.     The system opens the _Journal Transactions_ (GL301000) form and displays a transaction with the uploaded     balances. 10.On the form toolbar, click **Release** to release the transaction. 
 
@@ -9444,7 +9438,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Consolidation | 250 
+ Performing GL Consolidation | 249 
 
 #### Configuration Overview 
 
@@ -9452,7 +9446,7 @@ Performing GL Anomaly Detection | **187**
 
 #### Process Overview 
 
- In this activity, you will import the consolidation data to the parent company on the Import Consolidation Data (GL509000) form. You will then review and post the generated batches on the Journal Transactions (GL301000) form. Finally, you will review the account balances of the AZENTITY company for 11-2024 and 12-2024 on the Account Summary (GL401000) form. 
+ In this activity, you will import the consolidation data to the parent company on the Import Consolidation Data (GL509000) form. You will then review and post the generated batches on the Journal Transactions (GL301000) form. Finally, you will review the account balances of the AZENTITY company for 11-2025 and 12-2025 on the Account Summary (GL401000) form. 
 
 #### System Preparation 
 
@@ -9482,7 +9476,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Consolidation | 251 
+ Performing GL Consolidation | 250 
 
 #### Step 2: Reviewing and Posting the Consolidation Batches 
 
@@ -9498,7 +9492,7 @@ Performing GL Anomaly Detection | **187**
 
 - **Ledger** : _CONSOL_ 
 
-- **Transaction Date** : _11/30/2024_ This is the consolidation batch for 11-2024, which was generated as a result of the import process. 
+- **Transaction Date** : _11/30/2025_ This is the consolidation batch for 11-2025, which was generated as a result of the import process. 
 
 3. Click the link in the **Batch Number** column to open the batch on the _Journal Transactions_ (GL301000) form.     The batch has a description indicating that this is a consolidation batch and _AZENTITY_ specified in the     **Branch** column for each entry. 
 
@@ -9514,7 +9508,7 @@ Performing GL Anomaly Detection | **187**
 
 - **Ledger** : _CONSOL_ 
 
-- **Transaction Date** : _12/31/2024_ This is the consolidation batch for 12-2024, which was generated as a result of the import process. 
+- **Transaction Date** : _12/31/2025_ This is the consolidation batch for 12-2025, which was generated as a result of the import process. 
 
 7. Click the link in the **Batch Number** column to open the batch on the _Journal Transactions_ form. 
 
@@ -9534,19 +9528,19 @@ Performing GL Anomaly Detection | **187**
 
 - **Ledger** : _CONSOL_ 
 
-- **Period** : _11-2024_ 
+- **Period** : _11-2025_ 
 
-3. In the table, review the balances shown for the _11-2024_ period. 
+3. In the table, review the balances shown for the _11-2025_ period. 
 
-4. In the **Period** box, select _12-2024_. 
+4. In the **Period** box, select _12-2025_. 
 
-5. In the table, review the balances shown for the _12-2024_ period. 
+5. In the table, review the balances shown for the _12-2025_ period. 
 
  This data can be used for preparing ARM reports and is available in all GL reports and inquiries. 
 
 
 <!-- PAGE_BREAK -->
- Performing GL Consolidation | 252 
+ Performing GL Consolidation | 251 
 
 ### GL Consolidation (Optional): To Configure Consolidation in a Consolidation Unit 
 
@@ -9604,7 +9598,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Performing GL Consolidation | 253 
+ Performing GL Consolidation | 252 
 
 3. For each of the segments, perform the following steps: 
 
@@ -9614,7 +9608,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Troubleshooting Balance Discrepancies | 254 
+ Troubleshooting Balance Discrepancies | 253 
 
 ## Troubleshooting Balance Discrepancies 
 
@@ -9664,7 +9658,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Troubleshooting Balance Discrepancies | 255 
+ Troubleshooting Balance Discrepancies | 254 
 
 - Specify a mask to view information on a group of subaccounts. To define a mask, specify the values for     only some of the segments. The system will list a row for each account-subaccount pair that meets the     selection criteria. 
 
@@ -9710,7 +9704,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Troubleshooting Balance Discrepancies | 256 
+ Troubleshooting Balance Discrepancies | 255 
 
 5. In the **Account** box, select the AP or AR account in which you want to find discrepancies. 
 
@@ -9762,7 +9756,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Troubleshooting Balance Discrepancies | 257 
+ Troubleshooting Balance Discrepancies | 256 
 
 6. Optional (if subaccounts are used in your system): In the **Subaccount** box, do one of the following: 
 
@@ -9790,7 +9784,7 @@ Performing GL Anomaly Detection | **187**
 
 
 <!-- PAGE_BREAK -->
- Appendix | 258 
+ Appendix | 257 
 
 ## Appendix 
 
@@ -9830,37 +9824,105 @@ Performing GL Anomaly Detection | **187**
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 258 
+
+ Figure: Report form 
+
+ Switching reports to the Modern UI will be available in a future release. 
+
+#### Report Form Toolbar and More Menu 
+
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
+
+ Element Description 
+
+ Cancel Clears any changes you have made on the report form and restores the default settings. 
+
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
+ Run Report Initiates data collection for the report and displays the generated report. 
+
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
+
+ Save Template As 
+
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
 
 <!-- PAGE_BREAK -->
  Appendix | 259 
 
- Figure: Report form 
+ Element Description 
 
-1. Report form toolbar 
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
 
-2. Selection area 
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
 
-3. Details area 
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
 
-#### Report Form Toolbar 
+**_Table: The Save Template Dialog Box_** 
 
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
 
- Button Description 
+ Element Description 
 
- Cancel Clears any changes you have made on the report form and restores the default settings. 
+ Template The name of the template. 
 
- Run Report Initiates data collection for the report and displays the generated report. 
+ Default A check box that you select to mark the template as the default one for you. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Shared A check box that you select to indicate that the template is shared with other users. 
 
- Remove Template 
+ Shared templates are marked with the Group icon to help you identify them quickly. 
 
- Removes the previously saved template. 
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
 
- This button is available only when a template is specified on the report form. 
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 260 
 
 #### Report Toolbar 
 
@@ -9869,12 +9931,6 @@ Performing GL Anomaly Detection | **187**
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 260 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -9900,25 +9956,77 @@ Performing GL Anomaly Detection | **187**
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
  Appendix | 261 
 
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
+
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 262 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -9936,91 +10044,45 @@ Performing GL Anomaly Detection | **187**
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 262 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
  Appendix | 263 
 
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
+
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -10039,6 +10101,12 @@ Performing GL Anomaly Detection | **187**
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 264 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -10062,10 +10130,6 @@ Performing GL Anomaly Detection | **187**
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 264 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -10080,13 +10144,19 @@ Performing GL Anomaly Detection | **187**
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 265 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -10104,10 +10174,6 @@ Performing GL Anomaly Detection | **187**
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 265 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -10122,6 +10188,10 @@ Performing GL Anomaly Detection | **187**
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 266 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -10130,11 +10200,7 @@ Performing GL Anomaly Detection | **187**
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 266 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -10160,6 +10226,12 @@ Performing GL Anomaly Detection | **187**
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 267 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -10167,12 +10239,6 @@ Performing GL Anomaly Detection | **187**
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 267 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -10200,19 +10266,19 @@ Performing GL Anomaly Detection | **187**
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 268 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 268 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -10222,13 +10288,15 @@ Performing GL Anomaly Detection | **187**
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 269 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -10239,10 +10307,6 @@ Performing GL Anomaly Detection | **187**
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 269 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -10256,6 +10320,10 @@ Performing GL Anomaly Detection | **187**
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 270 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -10266,11 +10334,11 @@ Performing GL Anomaly Detection | **187**
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 270 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 271 
 
 #### Unavailable Commands on the More Menu 
 
@@ -10282,17 +10350,13 @@ Performing GL Anomaly Detection | **187**
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 271 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
  Appendix | 272 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -10304,7 +10368,11 @@ Performing GL Anomaly Detection | **187**
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 273 
 
  Figure: Table toolbar 
 
@@ -10324,17 +10392,17 @@ Performing GL Anomaly Detection | **187**
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 273 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 274 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -10364,13 +10432,13 @@ Performing GL Anomaly Detection | **187**
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 274 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 275 
 
  Element Description 
 
@@ -10414,15 +10482,15 @@ Performing GL Anomaly Detection | **187**
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 275 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 276 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

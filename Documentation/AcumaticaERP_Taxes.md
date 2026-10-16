@@ -2,7 +2,7 @@
 
 # Taxes Guide 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -206,151 +206,151 @@
 
  Direct Tax Payment: To Create an AP Bill with a Direct-Entry Tax...............................................................131 
 
-**Processing AP Bills with Withholding Taxes...........................................................................................135** 
+**Processing AP Bills with Withholding Taxes...........................................................................................136** 
 
- Bills with Withholding Tax: General Information......................................................................................... 135 
+ Bills with Withholding Tax: General Information......................................................................................... 136 
 
- Bills with Withholding Tax: Implementation Checklist................................................................................135 
+ Bills with Withholding Tax: Implementation Checklist................................................................................136 
 
- Bills with Withholding Tax: Generated Transactions................................................................................... 137 
+ Bills with Withholding Tax: Generated Transactions................................................................................... 138 
 
- Bills with Withholding Tax: Process Activity.................................................................................................137 
+ Bills with Withholding Tax: Process Activity.................................................................................................138 
 
-**Adjusting VAT for Early Payments.........................................................................................................142** 
+**Adjusting VAT for Early Payments.........................................................................................................143** 
 
- VAT for Early Payments: General Information..............................................................................................142 
+ VAT for Early Payments: General Information..............................................................................................143 
 
- VAT for Early Payments: Implementation Checklist.....................................................................................145 
+ VAT for Early Payments: Implementation Checklist.....................................................................................146 
 
- VAT for Early Payments: Generated Transactions........................................................................................ 146 
+ VAT for Early Payments: Generated Transactions........................................................................................ 147 
 
- VAT for Early Payments: To Process a Payment with a Cash Discount........................................................148 
+ VAT for Early Payments: To Process a Payment with a Cash Discount........................................................149 
 
- VAT for Early Payments: To Prepare a New Revision of VAT Tax Report......................................................152 
+ VAT for Early Payments: To Prepare a New Revision of VAT Tax Report......................................................153 
 
-**Preparing a Tax Report for Sales Taxes................................................................................................. 154** 
+**Preparing a Tax Report for Sales Taxes................................................................................................. 155** 
 
 
 <!-- PAGE_BREAK -->
  Contents | 5 
 
- Tax Report Preparation: General Information..............................................................................................154 
+ Tax Report Preparation: General Information..............................................................................................155 
 
- Tax Report Preparation: Overview of the Tax Reporting Process............................................................... 155 
+ Tax Report Preparation: Overview of the Tax Reporting Process............................................................... 156 
 
- Tax Report Preparation: Tax Report for a Closed Period............................................................................. 157 
+ Tax Report Preparation: Tax Report for a Closed Period............................................................................. 158 
 
- Tax Report Preparation: Implementation Checklist.................................................................................... 157 
+ Tax Report Preparation: Implementation Checklist.................................................................................... 158 
 
- Tax Report Preparation: Process Activity..................................................................................................... 158 
+ Tax Report Preparation: Process Activity..................................................................................................... 159 
 
- Tax Report Preparation: Related Reports and Inquiries.............................................................................. 159 
+ Tax Report Preparation: Related Reports and Inquiries.............................................................................. 160 
 
- Tax Report Preparation: To Prepare a Tax Report for a Closed Tax Period.................................................160 
+ Tax Report Preparation: To Prepare a Tax Report for a Closed Tax Period.................................................161 
 
-**Voiding a Tax Report for Sales Taxes.................................................................................................... 161** 
+**Voiding a Tax Report for Sales Taxes.................................................................................................... 162** 
 
- Voiding of a Sales Tax Report: General Information....................................................................................161 
+ Voiding of a Sales Tax Report: General Information....................................................................................162 
 
- Voiding of a Sales Tax Report: Implementation Checklist...........................................................................161 
+ Voiding of a Sales Tax Report: Implementation Checklist...........................................................................162 
 
- Voiding of a Sales Tax Report: Process Activity........................................................................................... 162 
+ Voiding of a Sales Tax Report: Process Activity........................................................................................... 163 
 
- Voiding of a Sales Tax Report: Related Reports and Inquiries.................................................................... 164 
+ Voiding of a Sales Tax Report: Related Reports and Inquiries.................................................................... 165 
 
-**Creating Sales Tax Adjustments........................................................................................................... 165** 
+**Creating Sales Tax Adjustments........................................................................................................... 166** 
 
- Sales Tax Adjustments: General Information............................................................................................... 165 
+ Sales Tax Adjustments: General Information............................................................................................... 166 
 
- Sales Tax Adjustments: Implementation Checklist......................................................................................166 
+ Sales Tax Adjustments: Implementation Checklist......................................................................................167 
 
- Sales Tax Adjustments: Generated Transactions......................................................................................... 167 
+ Sales Tax Adjustments: Generated Transactions......................................................................................... 168 
 
- Sales Tax Adjustments: Process Activity.......................................................................................................167 
+ Sales Tax Adjustments: Process Activity.......................................................................................................168 
 
- Sales Tax Adjustments: Related Reports and Inquiries............................................................................... 170 
+ Sales Tax Adjustments: Related Reports and Inquiries............................................................................... 171 
 
- Sales Tax Adjustments: To Reverse a Tax Adjustment Document...............................................................171 
+ Sales Tax Adjustments: To Reverse a Tax Adjustment Document...............................................................172 
 
-**Releasing a Sales Tax Report............................................................................................................... 172** 
+**Releasing a Sales Tax Report............................................................................................................... 173** 
 
- Release of Sales Tax Report: General Information...................................................................................... 172 
+ Release of Sales Tax Report: General Information...................................................................................... 173 
 
- Release of Sales Tax Report: Implementation Checklist............................................................................. 173 
+ Release of Sales Tax Report: Implementation Checklist............................................................................. 174 
 
- Release of Sales Tax Report: Generated Transactions.................................................................................173 
+ Release of Sales Tax Report: Generated Transactions.................................................................................174 
 
- Release of Sales Tax Report: Process Activity.............................................................................................. 174 
+ Release of Sales Tax Report: Process Activity.............................................................................................. 175 
 
- Release of Sales Tax Report: Related Reports and Inquiries.......................................................................176 
+ Release of Sales Tax Report: Related Reports and Inquiries.......................................................................177 
 
-**Preparing a Tax Report for Value-Added Taxes...................................................................................... 177** 
+**Preparing a Tax Report for Value-Added Taxes...................................................................................... 178** 
 
- Tax Report for VAT: General Information......................................................................................................177 
+ Tax Report for VAT: General Information......................................................................................................178 
 
- Tax Report for VAT: Implementation Checklist............................................................................................ 180 
+ Tax Report for VAT: Implementation Checklist............................................................................................ 181 
 
- Tax Report for VAT: Generated Transactions................................................................................................ 182 
+ Tax Report for VAT: Generated Transactions................................................................................................ 183 
 
- Tax Report for VAT: Process Activity............................................................................................................. 182 
+ Tax Report for VAT: Process Activity............................................................................................................. 183 
 
- Tax Report for VAT: Related Report and Inquiry Forms............................................................................... 185 
+ Tax Report for VAT: Related Report and Inquiry Forms............................................................................... 186 
 
-**Applying a Deductible VAT................................................................................................................... 186** 
+**Applying a Deductible VAT................................................................................................................... 187** 
 
- Applying Deductible VAT: General Information............................................................................................186 
+ Applying Deductible VAT: General Information............................................................................................187 
 
- Applying Deductible VAT: Implementation Checklist.................................................................................. 187 
+ Applying Deductible VAT: Implementation Checklist.................................................................................. 188 
 
- Applying Deductible VAT: Generated Transactions......................................................................................188 
+ Applying Deductible VAT: Generated Transactions......................................................................................189 
 
- Applying Deductible VAT: Process Activity................................................................................................... 189 
+ Applying Deductible VAT: Process Activity................................................................................................... 190 
 
 
 <!-- PAGE_BREAK -->
  Contents | 6 
 
-**Applying a Reverse VAT....................................................................................................................... 192** 
+**Applying a Reverse VAT....................................................................................................................... 193** 
 
- Applying Reverse VAT: General Information.................................................................................................192 
+ Applying Reverse VAT: General Information.................................................................................................193 
 
- Applying Reverse VAT: Implementation Checklist....................................................................................... 192 
+ Applying Reverse VAT: Implementation Checklist....................................................................................... 193 
 
- Applying Reverse VAT: Generated Transactions...........................................................................................194 
+ Applying Reverse VAT: Generated Transactions...........................................................................................195 
 
- Applying Reverse VAT: Process Activity........................................................................................................ 194 
+ Applying Reverse VAT: Process Activity........................................................................................................ 195 
 
-**Applying a Pending VAT....................................................................................................................... 197** 
+**Applying a Pending VAT....................................................................................................................... 198** 
 
- Applying a Pending VAT: General Information............................................................................................. 197 
+ Applying a Pending VAT: General Information............................................................................................. 198 
 
- Applying a Pending VAT: Processing of Documents with Multiple Installments.........................................199 
+ Applying a Pending VAT: Processing of Documents with Multiple Installments.........................................200 
 
- Applying a Pending VAT: Implementation Checklist....................................................................................201 
+ Applying a Pending VAT: Implementation Checklist....................................................................................202 
 
- Applying a Pending VAT: Generated Transactions....................................................................................... 203 
+ Applying a Pending VAT: Generated Transactions....................................................................................... 204 
 
- Applying a Pending VAT: To Apply a Pending VAT to an AR Invoice............................................................ 205 
+ Applying a Pending VAT: To Apply a Pending VAT to an AR Invoice............................................................ 206 
 
- Applying a Pending VAT: To Apply a Pending VAT to an AP Bill with Multiple Installments....................... 210 
+ Applying a Pending VAT: To Apply a Pending VAT to an AP Bill with Multiple Installments....................... 211 
 
- Applying a Pending VAT: Related Report and Inquiry Forms...................................................................... 214 
+ Applying a Pending VAT: Related Report and Inquiry Forms...................................................................... 216 
 
-**Configuring Support for Making Tax Digital (MTD)................................................................................. 216** 
+**Configuring Support for Making Tax Digital (MTD)................................................................................. 217** 
 
- To Submit a VAT Return.................................................................................................................................219 
+ To Submit a VAT Return.................................................................................................................................220 
 
-**Appendix............................................................................................................................................ 221** 
+**Appendix............................................................................................................................................ 222** 
 
- Reports........................................................................................................................................................... 221 
+ Reports........................................................................................................................................................... 222 
 
- Report Form.......................................................................................................................................... 221 
+ Report Form.......................................................................................................................................... 222 
 
- Report....................................................................................................................................................226 
+ Report....................................................................................................................................................229 
 
- Form Toolbar and More Menu.......................................................................................................................228 
+ Form Toolbar and More Menu.......................................................................................................................230 
 
- Table Toolbar................................................................................................................................................. 235 
+ Table Toolbar................................................................................................................................................. 237 
 
 
 <!-- PAGE_BREAK -->
@@ -372,9 +372,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -530,7 +530,7 @@ You can view any required tax-related information for a selected period or the d
 
  To open the form for creating a new record, type the form ID in the Search box, and on the Search form, point at the form title and click New right of the title. 
 
-2. On the form toolbar, click **Add New Record** , and specify the following settings on the **Tax Settings** tab: 
+2. On the form toolbar, click **Add New Record** , and specify the following settings in the Summary area: 
 
 - **Tax ID** : EXDOCLEVEL 
 
@@ -544,7 +544,7 @@ You can view any required tax-related information for a selected period or the d
 
 3. On the **Tax Schedule** tab, click **Add Row** on the table toolbar and specify the following settings in the table: 
 
-- **Start Date** : _1/1/2025_ 
+- **Start Date** : _1/1/2026_ 
 
 - **Tax Rate** : 5 
 
@@ -560,7 +560,7 @@ You can view any required tax-related information for a selected period or the d
 
  To create a tax that uses the Exclusive Line-Level method, proceed as follows: 
 
-1. While you are still on the _Taxes_ (TX205000) form, click **Add New Record** on the form toolbar, and specify the     following settings on the **Tax Settings** tab: 
+1. While you are still on the _Taxes_ (TX205000) form, click **Add New Record** on the form toolbar, and specify the     following settings in the Summary area: 
 
 - **Tax ID** : EXLINELEVEL 
 
@@ -574,7 +574,7 @@ You can view any required tax-related information for a selected period or the d
 
 2. On the **Tax Schedule** tab, click **Add Row** on the table toolbar, and specify the following settings in the table: 
 
-- **Start Date** : _1/1/2025_ 
+- **Start Date** : _1/1/2026_ 
 
 - **Tax Rate** : 5 
 
@@ -594,7 +594,7 @@ You can view any required tax-related information for a selected period or the d
 <!-- PAGE_BREAK -->
  Selecting Tax Calculation Methods | 13 
 
-1. While you are still on the _Taxes_ (TX205000) form, click **Add New Record** on the form toolbar, and specify the     following settings on the **Tax Settings** tab: 
+1. While you are still on the _Taxes_ (TX205000) form, click **Add New Record** on the form toolbar, and specify the     following settings in the Summary area: 
 
 - **Tax ID** : INCLINELEVEL 
 
@@ -608,7 +608,7 @@ You can view any required tax-related information for a selected period or the d
 
 2. On the **Tax Schedule** tab, click **Add Row** on the table toolbar, and specify the following settings in the table: 
 
-- **Start Date** : _1/1/2025_ 
+- **Start Date** : _1/1/2026_ 
 
 - **Tax Rate** : 5 
 
@@ -666,7 +666,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _2/28/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _2/28/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -686,9 +686,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Customer** : _CANDYY_ 
 
-- **Date** : _2/28/2025_ (inserted by default) 
+- **Date** : _2/28/2026_ (inserted by default) 
 
-- **Post Period** : _02-2025_ (inserted by default based on the selected date) 
+- **Post Period** : _02-2026_ (inserted by default based on the selected date) 
 
 - **Description** : Calculation rules 
 
@@ -718,9 +718,9 @@ You can view any required tax-related information for a selected period or the d
 
  You do not need to save and release the invoice created in this activity. 
 
-5. On the **Financial** tab, in the **Tax Info** section, select _TRAINING_ in the **Customer Tax Zone** box. 
+5. On the **Taxes** tab, in the **Tax Info** section, select _TRAINING_ in the **Customer Tax Zone** box. 
 
-6. On the **Taxes** tab, remove the lines with the _EXDOCLEVEL_ and _EXLINELEVEL_ taxes by clicking **Delete Row** on     the table toolbar, and leave the _INCLINELEVEL_ tax; review the invoice.     When the _Inclusive Line-Level_ calculation method is selected, the system calculates the tax amount on each     line and then adds the amounts. This method is based on the assumption that the **Ext. Price** of each line     already includes the tax amount calculated by using the specified tax rate. The **Taxes** tab displays the total     of taxable amounts and the total tax calculated for the document, which is the sum of the tax amounts for     all lines of the document that are subject to tax. Based on the rule, the system calculates the tax of $12.85     for the document.     The following table shows how the system calculates the taxes for the invoice. 
+6. In the table, remove the lines with the _EXDOCLEVEL_ and _EXLINELEVEL_ taxes by clicking **Delete Row** on the     table toolbar, and leave the _INCLINELEVEL_ tax. Review the invoice.     When the _Inclusive Line-Level_ calculation method is selected, the system calculates the tax amount on each     line and then adds the amounts. This method is based on the assumption that the **Ext. Price** of each line     already includes the tax amount calculated by using the specified tax rate. The **Taxes** tab displays the total     of taxable amounts and the total tax calculated for the document, which is the sum of the tax amounts for     all lines of the document that are subject to tax. Based on the rule, the system calculates the tax of $12.85     for the document.     The following table shows how the system calculates the taxes for the invoice. 
 
  Table: Calculating taxes with the Inclusive Line-Level calculation rule 
 
@@ -746,7 +746,7 @@ You can view any required tax-related information for a selected period or the d
 
  To apply a tax with the Exclusive Document-Level calculation method to the invoice, proceed as follows: 
 
-1. While you are still on the _Invoices and Memos_ (AR301000) form with the created invoice open, on the     **Taxes** tab, remove the _INCLINELEVEL_ tax, and add a row with the _EXDOCLEVEL_ tax. The row fills in with the     respective details. 
+1. While you are still on the _Invoices and Memos_ (AR301000) form with the created invoice open, on the **Taxes**     tab, remove the _INCLINELEVEL_ tax. Add a row with the _EXDOCLEVEL_ tax.     The row fills in with the respective details. 
 
 2. Review the invoice details.     When the _Exclusive Document-Level_ calculation method is selected, the system calculates the sum of the line     amounts to which the tax applies, and then calculates the tax amount based on the sum.     The system has applied the _EXDOCLEVEL_ tax to the invoice. The detail total ($269.88) is the taxable amount     on which the tax is calculated. Based on the rule, the system calculates the tax for the document: $269.88 *     0.05 = $13.494 ≈ $13.49. The document's total amount is $283.37 ($269.88 + $13.49). The table below shows     how the system calculates the taxes for the invoice. 
 
@@ -786,9 +786,9 @@ You can view any required tax-related information for a selected period or the d
 
  To apply a tax with the Exclusive Line-Level calculation method to the invoice, proceed as follows: 
 
-1. While you are still on the _Invoices and Memos_ (AR301000) form with the created invoice open, on the     **Taxes** tab, remove the _EXDOCLEVEL_ tax, and add a row with the _EXLINELEVEL_ tax. The row fills in with the     respective details. 
+1. While you are still on the _Invoices and Memos_ (AR301000) form with the created invoice open, on the **Taxes**     tab, remove the _EXDOCLEVEL_ tax. Add a row with the _EXLINELEVEL_ tax.     The row fills in with the respective details. 
 
-2. Review the invoice details.     When the _Exclusive Line-Level_ calculation method is selected, the system calculates the tax amount on each     line to which the tax applies and then calculates the sum of the tax amounts. The table below shows how     the system calculates the taxes for the invoice.     The system has applied the _EXLINELEVEL_ tax to the invoice. The detail total ($269.88) is displayed as the     taxable amount for the document; taxes are calculated separately for each line and then summed. Based on     the rule, the system calculates taxes for each line: $115.11 * 0.05 = $5.7555 ≈ $5.76; $154.77 * 0.05 = $7.7385 ≈     $7.74. The total tax is $5.76 + $7.74 = $13.50. The document's total amount is $283.38 ($269.88 + $13.50). 
+2. Review the invoice details.     When the _Exclusive Line-Level_ calculation method is selected, the system calculates the tax amount on each     line to which the tax applies and then calculates the sum of the tax amounts. The table below shows how     the system calculates the taxes for the invoice.     The system has applied the _EXLINELEVEL_ tax to the invoice. The detail total ($269.88) is displayed as the     taxable amount for the document. Taxes are calculated separately for each line and then summed. Based on     the rule, the system calculates taxes for each line: $115.11 * 0.05 = $5.7555 ≈ $5.76; $154.77 * 0.05 = $7.7385 ≈     $7.74. The total tax is $5.76 + $7.74 = $13.50. The document's total amount is $283.38 ($269.88 + $13.50). 
 
  Table: Calculating taxes with the Exclusive Line-Level rule (EXLINELEVEL) 
 
@@ -838,7 +838,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/28/2025_. If a different date is displayed, click the Business Date     menu button and select _2/28/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/28/2026_. If a different date is displayed, click the Business Date     menu button and select _2/28/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -870,7 +870,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Open the _Taxes_ (TX205000) form. 
 
-2. On the form toolbar, click **Add New Record** , and specify the following settings on the **Tax Settings** tab: 
+2. On the form toolbar, click **Add New Record** , and specify the following settings in the Summary area: 
 
 - **Tax ID** : LINELEVEL2 
 
@@ -884,7 +884,7 @@ You can view any required tax-related information for a selected period or the d
 
 3. On the **Tax Schedule** tab, click **Add Row** on the table toolbar, and specify the following settings for the row: 
 
-- **Start Date** : _1/1/2025_ 
+- **Start Date** : _1/1/2026_ 
 
 - **Tax Rate** : 5 
 
@@ -898,7 +898,7 @@ You can view any required tax-related information for a selected period or the d
 
 7. In the **Tax Zone ID** box, select _TRAINING_. 
 
-8. On the table toolbar of the **Applicable Taxes** tab, click **Add Row** , and add _LINELEVEL2_. 
+8. On the table toolbar of the **Applicable Taxes** tab, click **Add Row** and add _LINELEVEL2_. 
 
 9. Remove the _EXDOCLEVEL_ and _INCLINELEVEL_ taxes from the table. 10.On the form toolbar, click **Save** to save the tax zone. 
 
@@ -934,7 +934,7 @@ You can view any required tax-related information for a selected period or the d
 <!-- PAGE_BREAK -->
  Selecting Tax Calculation Methods | 19 
 
-- **Date** : _2/28/2025_ (inserted by default) 
+- **Date** : _2/28/2026_ (inserted by default) 
 
 - **Description** : Tax-on-tax calculation 
 
@@ -948,11 +948,11 @@ You can view any required tax-related information for a selected period or the d
 
  HEADOFFICE Taxable item sale 25 TAXONTAX 
 
-4. On the **Financial** tab, in the **Tax Info** section, select _TRAINING_ in the **Customer Tax Zone** box. 
+4. On the **Taxes** tab, in the **Tax Info** section, select _TRAINING_ in the **Customer Tax Zone** box. 
 
-5. On the **Taxes** tab, review the calculated taxes and the way the system has applied them. 
+5. In the table, review the calculated taxes and the way the system has applied them. 
 
- First, the system has applied the first-level EXLINELEVEL tax to the invoice. The detail total ($125) is the taxable amount for the EXLINELEVEL tax, which is the first-level tax; taxes are calculated separately for each line and then summed. Based on the rule, the system has calculated taxes for each line as follows before calculating the sum of the taxes: $100 * 0.05 = $5; $25 * 0.05 = $1.25. The total EXLINELEVEL tax is $6.25 ($5.00 + $1.25). Then the system has applied the second-level LINELEVEL2 tax. The system has applied this tax to each line; the taxable amount for the second-level tax is calculated as the taxable amount of the line plus the tax amount of the first-level tax that was applied to the line ($131.25). The total second-level tax for the document is the sum of tax amounts calculated for the document lines. Based on the rule, the system has calculated the LINELEVEL2 tax for each line: ($100 + $5) * 0.05 = $5.25; ($25 + $1.25) * 0.05 = $1.3125 ≈ $1.31. The total second-level tax for the document is $5.25 + $1.31 = $6.56. The total tax amount for the document is the sum of the first-level and second-level tax amounts, which is $12.81 ($6.25 + $6.56). Thus, the document's balance is $137.81 ($125.00 + $12.81). 
+ First, the system has applied the first-level EXLINELEVEL tax to the invoice. The detail total ($125) is the taxable amount for the EXLINELEVEL tax, which is the first-level tax. Taxes are calculated separately for each line and then summed. Based on the rule, the system has calculated taxes for each line as follows before calculating the sum of the taxes: $100 * 0.05 = $5; $25 * 0.05 = $1.25. The total EXLINELEVEL tax is $6.25 ($5.00 + $1.25). Then the system has applied the second-level LINELEVEL2 tax. The system has applied this tax to each line. The taxable amount for the second-level tax is calculated as the taxable amount of the line plus the tax amount of the first-level tax that was applied to the line ($131.25). The total second-level tax for the document is the sum of tax amounts calculated for the document lines. Based on the rule, the system has calculated the LINELEVEL2 tax for each line: ($100 + $5) * 0.05 = $5.25; ($25 + $1.25) * 0.05 = $1.3125 ≈ $1.31. The total second-level tax for the document is $5.25 + $1.31 = $6.56. The total tax amount for the document is the sum of the first-level and second-level tax amounts, which is $12.81 ($6.25 + $6.56). Thus, the document's balance is $137.81 ($125.00 + $12.81). 
 
 6. Close the form without saving your changes to the invoice, which was created solely for testing purposes. 
 
@@ -1124,7 +1124,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that starting in 01-2025, SweetLife Fruits & Jams uses external payroll soware for calculating salaries. Based on the governmental laws of the country, employers need to withhold certain payroll tax amounts from salary payments and pay them to the tax authority. Acting as an implementation consultant, you need to create a withholding payroll tax and create other entities needed for that tax. 
+ Suppose that starting in 01-2026, SweetLife Fruits & Jams uses external payroll soware for calculating salaries. Based on the governmental laws of the country, employers need to withhold certain payroll tax amounts from salary payments and pay them to the tax authority. Acting as an implementation consultant, you need to create a withholding payroll tax and create other entities needed for that tax. 
 
 #### Configuration Overview 
 
@@ -1174,7 +1174,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. On the _Taxes_ (TX205000) form, create a new record. 
 
-2. On **Tax Settings** tab, specify the following settings: 
+2. In the Summary area, specify the following settings: 
 
 - **Tax ID** : PAYROLL 
 
@@ -1192,7 +1192,7 @@ You can view any required tax-related information for a selected period or the d
 
 4. On the **Tax Schedule** tab, click **Add Row** on the table toolbar, and specify the following settings: 
 
-- **Start Date** : _1/1/2025_ 
+- **Start Date** : _1/1/2026_ 
 
 - **Tax Rate** : 6.2 
 
@@ -1214,7 +1214,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that starting in 01-2025, SweetLife Fruits & Jams uses external payroll soware for calculating salaries. Based on the governmental laws of the country, employers need to withhold certain payroll tax amounts from salary payments and pay them to the tax authority. The needed system settings have been performed and a payroll tax has been created in the system. Acting as a SweetLife accountant, you need to process a taxable transaction in the general ledger. 
+ Suppose that starting in 01-2026, SweetLife Fruits & Jams uses external payroll soware for calculating salaries. Based on the governmental laws of the country, employers need to withhold certain payroll tax amounts from salary payments and pay them to the tax authority. The needed system settings have been performed and a payroll tax has been created in the system. Acting as a SweetLife accountant, you need to process a taxable transaction in the general ledger. 
 
 #### Configuration Overview 
 
@@ -1234,7 +1234,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the company and branch selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -1256,7 +1256,7 @@ You can view any required tax-related information for a selected period or the d
 
 2. On the form toolbar, click **Modify**. 
 
-3. Under the _Standard Financials_ group of features, select the **Tax Entry from GL Module** check box. 
+3. Under the **Standard Financials** group of features, select the **Tax Entry from GL Module** check box. 
 
 4. On the form toolbar, click **Enable** to enable the feature. 
 
@@ -1276,7 +1276,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Open the _General Ledger Preferences_ (GL102000) form. 
 
-2. In the **Data Entry Settings** section, select the **Require Ref. Numbers for GL Documents with Taxes** check     box.     When this check box is selected, the document reference number is required in taxable GL entries. 
+2. On the **General** tab ( **Data Entry Settings** section), select the **Require Ref. Numbers for GL Documents**     **with Taxes** check box.     When this check box is selected, the document reference number is required in taxable GL entries. 
 
 3. On the form toolbar, click **Save**. 
 
@@ -1292,15 +1292,15 @@ You can view any required tax-related information for a selected period or the d
 
 - **Module** : _GL_ 
 
-- **Transaction Date** : _1/30/2025_ 
+- **Transaction Date** : _1/30/2026_ 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 
 <!-- PAGE_BREAK -->
  Entering Taxes from the General Ledger | 27 
 
-- **Description** : Payroll 01-2025 (taxes withheld) 
+- **Description** : Payroll 01-2026 (taxes withheld) 
 
 4. On the table toolbar, click **Add Row** and specify the following settings for a new row: 
 
@@ -1308,7 +1308,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Account** : _69500 (Salaries and Wages)_ 
 
-- **Ref. Number** : 01302025 
+- **Ref. Number** : 01302026 
 
 - **Debit Amount** : 10000 The _PAYROLL_ tax category is automatically specified in this line. The system will use the line amount as a taxable amount. 
 
@@ -1318,7 +1318,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Account** : _24050 (Payroll Liabilities: Taxes)_ 
 
-- **Ref. Number** : 01302025 
+- **Ref. Number** : 01302026 
 
 - **Credit Amount** : 620 The _PAYROLL_ tax is automatically specified in this line because you have selected the tax payable account associated with the tax. The system will use the line amount as a tax amount. 
 
@@ -1328,7 +1328,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Account** : _23015 (Accrued Expenses)_ 
 
-- **Ref. Number** : 01302025 
+- **Ref. Number** : 01302026 
 
 - **Credit Amount** : 9380 Notice that with a transaction entered in the general ledger, the system does not calculate taxes; it uses the tax amount entered by the user. If the **Skip Tax Amount Validation** check box is cleared for the transaction, the system validates the tax amounts for groups of GL entries having the same **Ref. Number**. The system considers GL entries with the same **Ref. Number** as a single document. The amount of the line in which the tax category is specified is used as the taxable amount. 
 
@@ -1346,9 +1346,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _VATTAX_ 
 
-- **Tax Period** : _01-2025_ 
+- **Tax Period** : _01-2026_ 
 
-3. In the table, review the updated report amounts for 01-2025.     The tax amount withheld from employee salaries ($620) is now shown in the _Tax Amount Payable_ and     _Withholding Tax_ report lines. The taxable amount ($10,000) is shown in the _Purchases Subject to Withholding_     _Tax_ line. 
+3. In the table, review the updated report amounts for 01-2026.     The tax amount withheld from employee salaries ($620) is now shown in the _Tax Amount Payable_ and     _Withholding Tax_ report lines. The taxable amount ($10,000) is shown in the _Purchases Subject to Withholding_     _Tax_ line. 
 
 
 <!-- PAGE_BREAK -->
@@ -1504,7 +1504,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on February 5, 2025, the head office of the SweetLife Fruits & Jams company provided a video course and two hours of support services to Morning Cafe. Acting as a SweetLife accountant, you have to process the corresponding invoice and analyze how the system applies taxes to invoices. 
+ Suppose that on February 5, 2026, the head office of the SweetLife Fruits & Jams company provided a video course and two hours of support services to Morning Cafe. Acting as a SweetLife accountant, you have to process the corresponding invoice and analyze how the system applies taxes to invoices. 
 
 #### Configuration Overview 
 
@@ -1536,7 +1536,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _2/5/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _2/5/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -1556,9 +1556,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Terms** : _30D_ (inserted by default based on the selected customer) 
 
-- **Date** : _2/5/2025_ (the current business date, which is inserted by default) 
+- **Date** : _2/5/2026_ (the current business date, which is inserted by default) 
 
-- **Post Period** : _02-2025_ (inserted by default based on the selected date) 
+- **Post Period** : _02-2026_ (inserted by default based on the selected date) 
 
 - **Description** : Video training 
 
@@ -1590,9 +1590,9 @@ You can view any required tax-related information for a selected period or the d
 
 5. On the form toolbar, click **Save**. 
 
-6. On the **Financial** tab, review the **Customer Tax Zone** box, in which the _NYSTATE_ tax zone is specified. The     taxes of the _NYSTATE_ tax zone are now applied to the taxable line of the invoice. 
+6. On the **Taxes** tab, review the **Customer Tax Zone** box, in which the _NYSTATE_ tax zone is specified. The taxes     of the _NYSTATE_ tax zone are now applied to the taxable line of the invoice. 
 
-7. On the **Taxes** tab, review the taxes that were applied to the invoice.     The _VIDEOGUIDE_ item belongs to the _TAXABLE_ tax category, which contains the _NYSTATETAX_ tax. The _NYSTATE_     tax zone, which includes the _NYSTATETAX_ tax, is specified for the document. Thus, the _NYSTATETAX_ tax, which     is assigned to the both the tax category and the tax zone, is applied to the invoice line. The taxable amount     is $145.00 and the calculated total tax is $12.87.     The _NYNOTAX_ tax does not belong to the _TAXABLE_ category, so it is not applied to the first line of the invoice.     Similarly, the _NYNOTAX_ tax, which is assigned to both the _EXEMPT_ tax category and the _NYSTATE_ tax zone, is     applied to the second line of the invoice. The _NYSTATETAX_ tax does not belong to the _EXEMPT_ category, so it     is not applied to the second line of the invoice. The tax-exempt amount is $20.00. 
+7. In the table, review the taxes that were applied to the invoice.     The _VIDEOGUIDE_ item belongs to the _TAXABLE_ tax category, which contains the _NYSTATETAX_ tax. The _NYSTATE_     tax zone, which includes the _NYSTATETAX_ tax, is specified for the document. Thus, the _NYSTATETAX_ tax, which     is assigned to the both the tax category and the tax zone, is applied to the invoice line. The taxable amount     is $145.00 and the calculated total tax is $12.87.     The _NYNOTAX_ tax does not belong to the _TAXABLE_ category, so it is not applied to the first line of the invoice.     Similarly, the _NYNOTAX_ tax, which is assigned to both the _EXEMPT_ tax category and the _NYSTATE_ tax zone, is     applied to the second line of the invoice. The _NYSTATETAX_ tax does not belong to the _EXEMPT_ category, so it     is not applied to the second line of the invoice. The tax-exempt amount is $20.00. 
 
 8. On the form toolbar, click **Remove Hold** , and then click **Release** to release the invoice. 
 
@@ -1614,13 +1614,13 @@ You can view any required tax-related information for a selected period or the d
 
  The following activity will walk you through the process of creating and releasing an AR invoice with a cash discount and a sales tax. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that on February 10, 2025, SweetLife Fruits & Jams provided support services to the Morning Cafe customer in the amount of $1,000 and issued an invoice. The invoice amount is $1,000 plus the sales tax ($88.75). The credit terms of the invoice give the customer a 3% discount if the customer pays the invoice within 10 days. 
+ Suppose that on February 10, 2026, SweetLife Fruits & Jams provided support services to the Morning Cafe customer in the amount of $1,000 and issued an invoice. The invoice amount is $1,000 plus the sales tax ($88.75). The credit terms of the invoice give the customer a 3% discount if the customer pays the invoice within 10 days. 
 
- On February 14, 2025, Morning Cafe paid the invoice and took the 3% cash discount. 
+ On February 14, 2026, Morning Cafe paid the invoice and took the 3% cash discount. 
 
 
 <!-- PAGE_BREAK -->
@@ -1656,7 +1656,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _2/10/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _2/10/2026_. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -1688,9 +1688,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Terms** : _310N30_     These credit terms indicate that if the invoice is paid within 10 days, the customer will receive a 3% cash     discount. If the invoice is paid within 30 days, the customer will pay the full amount. 
 
-- **Date** : _2/10/2025_ (the current business date, which is inserted by default) 
+- **Date** : _2/10/2026_ (the current business date, which is inserted by default) 
 
-- **Post Period** : _02-2025_ (inserted by default based on the selected date) 
+- **Post Period** : _02-2026_ (inserted by default based on the selected date) 
 
 - **Description** : Support services 
 
@@ -1742,7 +1742,7 @@ You can view any required tax-related information for a selected period or the d
 
  To create a payment for the taxable invoice with the cash discount, do the following: 
 
-1. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _2/14/2025_. 
+1. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _2/14/2026_. 
 
 2. On the _Invoices and Memos_ (AR301000) form, open the invoice that you created and released in Step 2. 
 
@@ -1992,9 +1992,9 @@ You can view any required tax-related information for a selected period or the d
 
 1. Open the _Tax Preferences_ (TX103000) form. 
 
-2. In the **Tax Rounding Gain Account** box, make sure _83110 - Tax Rounding Gain / Loss_ is specified. 
+2. In the **Tax Rounding Gain Account** box, make sure that _83110 - Tax Rounding Gain / Loss_ is specified. 
 
-3. In the **Tax Rounding Loss Account** box, make sure _83110 - Tax Rounding Gain / Loss_ is specified. 
+3. In the **Tax Rounding Loss Account** box, make sure that _83110 - Tax Rounding Gain / Loss_ is specified. 
 
 
 <!-- PAGE_BREAK -->
@@ -2030,9 +2030,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Reporting Group** : _Taxable_ 
 
-4. On the **Categories** tab, click **Add Row** on the table toolbar, and select _TAXABLE_ in the **Tax Category** column. 
+4. On the **Categories** tab, click **Add Row** on the table toolbar and select _TAXABLE_ in the **Tax Category** column. 
 
-5. On the **Zones** tab, click **Add Row** on the table toolbar, and select _NYSTATE_ in the **Tax Zone ID** column.     The created tax will be applied to all taxable items sold to customers assigned to the _NYSTATE_ tax zone. 
+5. On the **Zones** tab, click **Add Row** on the table toolbar and select _NYSTATE_ in the **Tax Zone ID** column.     The created tax will be applied to all taxable items sold to customers assigned to the _NYSTATE_ tax zone. 
 
 6. On the **GL Accounts** tab, review the GL accounts assigned to this sales tax. 
 
@@ -2060,7 +2060,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that the SweetLife Fruits & Jams company provides the services of installing juicers and cleaning services, which are subject to a sales tax. On February 13, 2025, one of the SweetLife customers, Morning Cafe purchased the installation and cleaning services. 
+ Suppose that the SweetLife Fruits & Jams company provides the services of installing juicers and cleaning services, which are subject to a sales tax. On February 13, 2026, one of the SweetLife customers, Morning Cafe purchased the installation and cleaning services. 
 
  Acting as the SweetLife accountant, you need to create an AR invoice, and you want the system to calculate the sales tax for the whole document, but not for each document line. The total amount of the invoice should include the tax amount. 
 
@@ -2088,7 +2088,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/13/2025_. If a different date is displayed, click the Business Date menu     button, and select _2/13/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/13/2026_. If a different date is displayed, click the Business Date menu     button, and select _2/13/2026_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -2114,9 +2114,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Terms** : _30D_ (inserted by default based on the selected customer) 
 
-- **Date** : _2/13/2025_ (the current business date, which is inserted by default) 
+- **Date** : _2/13/2026_ (the current business date, which is inserted by default) 
 
-- **Post Period** : _02-2025_ (inserted by default based on the selected date) 
+- **Post Period** : _02-2026_ (inserted by default based on the selected date) 
 
 - **Description** : Installation and cleaning services 
 
@@ -2132,7 +2132,7 @@ You can view any required tax-related information for a selected period or the d
 
 5. On the **Taxes** tab, review the tax that was applied to the invoice.     The lines with the _CLEANING_ and _INSTALL_ items are assigned the _TAXABLE_ tax category, which contains     the _NYINCTAX_ tax. The _NYSTATE_ tax zone, which includes the _NYINCTAX_ tax, is specified for the customer for     which the document is created. The tax calculation rule for the _NYINCTAX_ tax, which is assigned to both     the tax category and the tax zone, is _Inclusive Document-Level_ , which means that the tax is applied to the     document amount and is included in it. The taxable amount is $115.73 and the calculated document-level     tax is $10.27. 
 
-6. On the form toolbar, click **Remove Hold** , then click **Release** to release the invoice. 
+6. On the form toolbar, click **Remove Hold** and then click **Release** to release the invoice. 
 
 #### Step 2: Reviewing the GL Transaction Generated on Invoice Release 
 
@@ -2290,7 +2290,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- The SweetLife Fruits & Jams company provides juicer cleaning services for cash, and these services are subject to sales taxes. Accountants use cash entries to record cash receipts and update the income account. Suppose that on February 13, 2025, a customer of SweetLife paid $45 in cash for 3 hours of juicer cleaning services. 
+ The SweetLife Fruits & Jams company provides juicer cleaning services for cash, and these services are subject to sales taxes. Accountants use cash entries to record cash receipts and update the income account. Suppose that on February 13, 2026, a customer of SweetLife paid $45 in cash for 3 hours of juicer cleaning services. 
 
  Acting as a SweetLife accountant, you need to process the corresponding cash entry and apply taxes to it. 
 
@@ -2326,7 +2326,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _2/13/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _2/13/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -2342,15 +2342,15 @@ You can view any required tax-related information for a selected period or the d
 
 - **Cash Account** : _10200WH_ 
 
-- **Tran. Date** : _2/13/2025_ (inserted automatically) 
+- **Tran. Date** : _2/13/2026_ (inserted automatically) 
 
-- **Fin. Period** : _02-2025_ (inserted automatically) 
+- **Fin. Period** : _02-2026_ (inserted automatically) 
 
 - **Entry Type** : _TAXSALES_ 
 
-- **Document Ref.** : 2132025 
-
 - **Description** : Cleaning services 
+
+- **Document Ref.** : 2132026 
 
 3. On the **Details** tab, click **Add Row** and specify the following settings in the added row: 
 
@@ -2372,9 +2372,7 @@ You can view any required tax-related information for a selected period or the d
 
 4. On the form toolbar, click **Save** to save the cash entry. 
 
-5. On the **Financial** tab, review the **Tax Zone** box.     The _NYSTATE_ tax zone is specified for the cash entry, because the cash entry has the _TAXSALES_ type and has     been created for the _10200WH_ cash account. 
-
-6. Review the **Taxes** tab.     The _NYSTATE_ tax zone is applied to the document (as you can see on the **Financial Details** tab), and the     _TAXABLE_ category is specified in the document line. Thus, the _NYSTATETAX_ tax was applied to the cash entry.     The taxable total is $45, and the tax total is $3.99. 
+5. On the **Taxes** tab, review the **Tax Zone** box.     The _NYSTATE_ tax zone is specified for the cash entry, because the cash entry has the _TAXSALES_ type and has     been created for the _10200WH_ cash account.     The _NYSTATE_ tax zone is applied to the document and the _TAXABLE_ category is specified in the document     line. Thus, the _NYSTATETAX_ tax was applied to the cash entry. The taxable amount is $45 and the tax amount     is $3.99. 
 
 #### Step 2: Releasing the Cash Entry and Reviewing the GL Transaction 
 
@@ -2398,7 +2396,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on January 30, 2025, SweetLife Fruits & Jams purchased office supplies for $199 (VAT excluded) and paid for them with cash. Acting as a SweetLife accountant, you need to create a corresponding cash entry and apply taxes to it. 
+ Suppose that on January 30, 2026, SweetLife Fruits & Jams purchased office supplies for $199 (VAT excluded) and paid for them with cash. Acting as a SweetLife accountant, you need to create a corresponding cash entry and apply taxes to it. 
 
 #### Configuration Overview 
 
@@ -2426,7 +2424,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. To sign in as     an accountant, use the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu button to view the list of branches that you have access to, and then     click _SweetLife Head Office and Wholesale Center_. 
 
@@ -2456,9 +2454,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Cash Account** : _10200WH_ 
 
-- **Tran. Date** : _1/30/2025_ 
+- **Tran. Date** : _1/30/2026_ 
 
-- **Fin. Period** : _01-2025_ 
+- **Fin. Period** : _01-2026_ 
 
 - **Entry Type** : _TAXPURCH_ 
 
@@ -2476,11 +2474,13 @@ You can view any required tax-related information for a selected period or the d
 
  By default, the system uses the tax category ( TAXABLE ) of the tax zone in the cash transaction line, because it is the default category for the specified tax zone. 
 
-4. On the **Financial** tab, review the **Tax Zone** box. The _CANADA_ tax zone is specified because the cash entry is     of the _TAXPURCH_ type and is created for the _10200WH_ account. 
+4. On the **Taxes** tab ( **Tax Info** section), review the **Tax Zone** box. The _CANADA_ tax zone is specified because the     cash entry is of the _TAXPURCH_ type and is created for the _10200WH_ account. 
 
 5. On the form toolbar, click **Save**. 
 
-6. Review the **Taxes** tab. The _CANADA_ tax zone is applied to the document and the _TAXABLE_ category is     specified in the document line. Thus, the _VAT_ tax was applied to the cash entry. The **VAT Taxable Total** in     the Summary area is $199, and the **Tax Total** is $13.93. As a result, the checking account is credited in the     amount of $212.93. 
+6. Review the **Taxes** tab. 
+
+ The CANADA tax zone is applied to the document and the TAXABLE category is specified in the document line. Thus, the VAT tax was applied to the cash entry. The Taxable Total is $199 and the Tax Total is $13.93. As a result, the checking account is credited in the amount of $212.93. 
 
 7. On the form toolbar, click **Remove Hold** and click **Release** to release the cash transaction. 
 
@@ -2640,7 +2640,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that in January 2025, the Head office of SweetLife needs to transfer $5,000 to the company's account in Cathay Bank ( 10300WH ), which is currently empty. The bank fee for this funds transfer is $20 and is taxable. 
+ Suppose that in January 2026, the Head office of SweetLife needs to transfer $5,000 to the company's account in Cathay Bank ( 10300WH ), which is currently empty. The bank fee for this funds transfer is $20 and is taxable. 
 
  Acting as a SweetLife accountant, you need to perform the funds transfer from the 10200WH (Wholesale Checking) account to the 10300WH Cathay Bank Savings and record the taxable bank fee that should be paid from the 10200WH account. 
 
@@ -2676,7 +2676,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website and sign in to a company with the _U100_ dataset preloaded. You should     sign in as Anna Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -2708,17 +2708,17 @@ You can view any required tax-related information for a selected period or the d
 
 - **Account** : _10200WH - Wholesale Checking_ 
 
-- **Transfer Date** : _1/30/2025_ (inserted automatically) 
+- **Transfer Date** : _1/30/2026_ (inserted automatically) 
 
 - **Document Ref.** : 325676330 
 
-- **Amount** : 5000 These settings indicate that $5,000 will be transferred from the _10200WH - Wholesale Checking_ account on January 30, 2025. 
+- **Amount** : 5000 These settings indicate that $5,000 will be transferred from the _10200WH - Wholesale Checking_ account on January 30, 2026. 
 
 4. In the **Destination Account** section, specify the following settings: 
 
 - **Account** : _10300WH - Cathay Bank Savings_ 
 
-- **Receipt Date** : _1/30/2025_ These settings indicate that the funds will be transferred to the _10300WH_ account, which is the company's account in Cathay Bank. 
+- **Receipt Date** : _1/30/2026_ These settings indicate that the funds will be transferred to the _10300WH_ account, which is the company's account in Cathay Bank. 
 
 
 <!-- PAGE_BREAK -->
@@ -2830,7 +2830,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on February 15, 2025, the SweetLife Fruits & Jams company issued a credit memo to Morning Cafe for five hours of online training that were not provided to the customer. 
+ Suppose that on February 15, 2026, the SweetLife Fruits & Jams company issued a credit memo to Morning Cafe for five hours of online training that were not provided to the customer. 
 
  Acting as a SweetLife accountant, you need to create and release the credit memo and review how it is processed. 
 
@@ -2862,7 +2862,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _2/15/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _2/15/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -2880,9 +2880,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Customer** : _MORNINGCAF_ 
 
-- **Date** : _2/15/2025_ (the current business date, which is inserted by default) 
+- **Date** : _2/15/2026_ (the current business date, which is inserted by default) 
 
-- **Post Period** : _02-2025_ (inserted by default based on the selected date) 
+- **Post Period** : _02-2026_ (inserted by default based on the selected date) 
 
 - **Description** : 5 hours of training 
 
@@ -2904,7 +2904,7 @@ You can view any required tax-related information for a selected period or the d
 
 5. On the **Taxes** tab, review the sales tax applied to the credit memo.     The system will subtract the calculated tax amount from the accumulated taxes, because credit memos are     included in the tax report with the negative sign. 
 
-6. On the form toolbar, click **Remove Hold** , and then click **Release** to release the credit memo. 
+6. On the form toolbar, click **Remove Hold** and then click **Release** to release the credit memo. 
 
 
 <!-- PAGE_BREAK -->
@@ -3172,7 +3172,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on February 13, 2025, the SweetLife Fruits & Jams company purchased office supplies and stationery from the Frontsource vendor in the amount of $280. The vendor is located in the New York state, and the NYSTATETAX sales tax has to be applied to this purchase. 
+ Suppose that on February 13, 2026, the SweetLife Fruits & Jams company purchased office supplies and stationery from the Frontsource vendor in the amount of $280. The vendor is located in the New York state, and the NYSTATETAX sales tax has to be applied to this purchase. 
 
  Acting as a SweetLife accountant, you need to enter the AP bill, release it, and review how the system calculates the sales tax. 
 
@@ -3198,7 +3198,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _2/13/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _2/13/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -3220,9 +3220,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Vendor** : _FRONTSRC_ 
 
-- **Date** : _2/13/2025_ (the current business date, which is inserted by default) 
+- **Date** : _2/13/2026_ (the current business date, which is inserted by default) 
 
-- **Post Period** : _02-2025_ (inserted by default based on the selected date) 
+- **Post Period** : _02-2026_ (inserted by default based on the selected date) 
 
 - **Description** : Office supplies and stationery 
 
@@ -3240,7 +3240,7 @@ You can view any required tax-related information for a selected period or the d
 
 5. On the **Taxes** tab, review the tax that was applied to the bill.     For the bill line, you selected the _TAXABLE_ category; it contains the _NYSTATETAX_ tax, which has been applied     to the bill. The taxable amount is $280.00, and the calculated total tax is $24.85. 
 
-6. On the form toolbar, click **Remove Hold** , then click **Release** to release the bill. 
+6. On the form toolbar, click **Remove Hold** and then click **Release** to release the bill. 
 
 #### Step 2: Reviewing the GL Transaction Generated on Bill Release 
 
@@ -3498,7 +3498,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on February 13, 2025, SweetLife Fruits & Jams company purchased stationery for its office needs (printing paper and pens) from the Frontsource Ltd. vendor. The vendor is located in the state of New York—that is, the New York inclusive sales tax has to be applied at the document level. 
+ Suppose that on February 13, 2026, SweetLife Fruits & Jams company purchased stationery for its office needs (printing paper and pens) from the Frontsource Ltd. vendor. The vendor is located in the state of New York—that is, the New York inclusive sales tax has to be applied at the document level. 
 
 
 <!-- PAGE_BREAK -->
@@ -3528,7 +3528,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/13/2025_. If a different date is displayed, click the Business Date menu     button, and select _2/13/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/13/2026_. If a different date is displayed, click the Business Date menu     button, and select _2/13/2026_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -3548,13 +3548,13 @@ You can view any required tax-related information for a selected period or the d
 
 - **Vendor** : _FRONTSRC_ 
 
-- **Date** : _2/13/2025_ (inserted by default) 
+- **Date** : _2/13/2026_ (inserted by default) 
 
 
 <!-- PAGE_BREAK -->
  Processing Purchases with Inclusive Sales Taxes | 79 
 
-- **Promised On** : _2/13/2025_ (inserted by default) 
+- **Promised On** : _2/13/2026_ (inserted by default) 
 
 - **Description** : Purchase of stationery 
 
@@ -3568,7 +3568,7 @@ You can view any required tax-related information for a selected period or the d
 
 4. On the form toolbar, click **Save** to save your changes. 
 
-5. On the **Taxes** tab, review the tax calculated for the purchase order.     For both purchase order lines, you selected the _TAXABLE_ category; it contains the _NYINCTAX_ tax with the     8.875% tax rate, which has been applied to the purchase order. The taxable amount is $116.65, and the     calculated total tax is $10.35. 
+5. On the **Taxes** tab, review the tax calculated for the purchase order.     For both purchase order lines, you selected the _TAXABLE_ category. It contains the _NYINCTAX_ tax with the     8.875% tax rate, which has been applied to the purchase order. The taxable amount is $116.65, and the     calculated tax amount is $10.35. 
 
 6. On the form toolbar, click **Remove Hold** so you can continue processing the purchase order. Now it has the     _Open_ status. 
 
@@ -3582,7 +3582,7 @@ You can view any required tax-related information for a selected period or the d
 
 3. On the form toolbar, click **Release**. 
 
-4. On the **Billing** tab, click the **Reference Nbr.** link to open the bill the system has created on the _Bills and_     _Adjustments_ (AP301000) form. 
+4. On the **Billing** tab, click the **Reference Nbr.** link to open the bill that the system has created on the _Bills and_     _Adjustments_ (AP301000) form. 
 
 5. On the **Taxes** tab, review the tax that was applied to the bill and make sure it is the same tax as was applied     to the purchase order. 
 
@@ -3740,9 +3740,9 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on February 21, 2025, SweetLife Fruits & Jams purchased two juicers from SQUEEZO , which is located in New Jersey. No sales tax was collected on this purchase because the vendor is located outside of the New York state, so SweetLife has to report the use tax and pay it to the NYTAXDEP tax agency. 
+ Suppose that on February 21, 2026, SweetLife Fruits & Jams purchased two juicers from SQUEEZO , which is located in New Jersey. No sales tax was collected on this purchase because the vendor is located outside of the New York state, so SweetLife has to report the use tax and pay it to the NYTAXDEP tax agency. 
 
- Acting as a SweetLife accountant, you need to process the purchase and update the tax report for 02-2025. 
+ Acting as a SweetLife accountant, you need to process the purchase and update the tax report for 02-2026. 
 
 #### Configuration Overview 
 
@@ -3766,7 +3766,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/21/2025_. If a different date is displayed, click the Business Date     menu button and select _2/21/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/21/2026_. If a different date is displayed, click the Business Date     menu button and select _2/21/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 
 <!-- PAGE_BREAK -->
@@ -3790,7 +3790,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Vendor** : _SQUEEZO_ 
 
-- **Date** : _2/21/2025_ (inserted by default) 
+- **Date** : _2/21/2026_ (inserted by default) 
 
 - **Description** : Juicers 
 
@@ -3822,7 +3822,7 @@ You can view any required tax-related information for a selected period or the d
 
 2. On the **Taxes** tab, make sure that the use tax has been applied. 
 
-3. On the form toolbar, click **Remove Hold** , then click **Release** to release the AP bill. 
+3. On the form toolbar, click **Remove Hold** and then click **Release** to release the AP bill. 
 
 4. On the **Financial** tab, click the link in the **Batch Nbr.** box to open the generated transaction. 
 
@@ -3852,23 +3852,23 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _NYTAXDEP_ 
 
-- **Tax Period** : _02-2025_ (inserted by default) 
+- **Tax Period** : _02-2026_ (inserted by default) 
 
-3. On the form toolbar, click **Prepare Tax Report** , and review the prepared tax report for _02-2025_ on the     _Release Tax Report_ (TX502000) form, which opens. 
+3. On the form toolbar, click **Prepare Tax Report** , and review the prepared tax report for _02-2026_ on the     _Release Tax Report_ (TX502000) form, which opens. 
 
 #### Step 4: Reviewing Report Revisions and Releasing the Tax Report 
 
  To review the revisions of the tax report and release it, do the following: 
 
-1. While you are still reviewing the tax report on the _Release Tax Report_ (TX502000) form, in the Summary area,     select the **Show Difference** check box right of the **Revision** box.     The **Revision** box displays _2_ , which means that the tax report has two revisions. With this check box     selected, the _2 - Tax Total_ line includes the use tax calculated on the purchase of two juicers ($142.00) and     the _6 - Purchases Subject to Use Tax_ line includes the amount of the purchase order to which the use tax has     been applied ($1,600.00). 
+1. While you are still reviewing the tax report on the _Release Tax Report_ (TX502000) form, in the Summary area,     select the **Show Difference** check box.     The **Revision** box displays _2_ , which means that the tax report has two revisions. With this check box     selected, the _2 - Tax Total_ line includes the use tax calculated on the purchase of two juicers ($142.00) and     the _6 - Purchases Subject to Use Tax_ line includes the amount of the purchase order to which the use tax has     been applied ($1,600.00). 
 
 2. In the **Revision** box, select _1_. The system displays the first revision of the tax report that you released in     _Release of Sales Tax Report: Process Activity_. 
 
 3. In the **Revision** box, select _2_ and clear the **Show Difference** check box. 
 
-4. On form toolbar, click **Release** to release the tax report, close the _02-2025_ tax period, and generate the tax     bill to the agency. 
+4. On form toolbar, click **Release** to release the tax report, close the _02-2026_ tax period, and generate the tax     bill to the agency. 
 
-5. On the **AP Documents** tab, click the link in the **Reference Nbr.** column of the second AP bill generated for     the _HEADOFFICE_ branch. On the _Bills and Adjustments_ (AP301000) form, which is opened, review the tax bill     generated to the agency. The tax bill shows the use tax amount that has to be paid to the _NYTAXDEP_ tax     agency in _02-2025_. 
+5. On the **AP Documents** tab, click the link in the **Reference Nbr.** column of the second AP bill generated for     the _HEADOFFICE_ branch. On the _Bills and Adjustments_ (AP301000) form, which is opened, review the tax bill     generated to the agency. The tax bill shows the use tax amount that has to be paid to the _NYTAXDEP_ tax     agency in _02-2026_. 
 
 ### Purchases with Use Taxes: Related Reports and Inquiries 
 
@@ -4120,9 +4120,11 @@ You can view any required tax-related information for a selected period or the d
 
 3. On the form toolbar, click **Save** to save your changes. 
 
-4. Open the _Purchase Orders Preferences_ (PO101000) form. On the **General** tab, in the **Tax Reason Code** box     ( **Other** section), select the reason code you have created ( _POTAXCODE_ ). 
+4. Open the _Purchase Orders Preferences_ (PO101000) form. 
 
-5. On the form toolbar, click **Save** to save your changes. 
+5. On the **General** tab, in the **Tax Reason Code** box ( **Other** section), select the reason code you have created     ( _POTAXCODE_ ). 
+
+6. On the form toolbar, click **Save** to save your changes. 
 
 #### Step 2: Updating the Tax Settings 
 
@@ -4154,7 +4156,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on February 13, 2025, SweetLife Fruits & Jams company purchased stationery for its office needs (printing paper and pens) from the Frontsource Ltd. vendor. The vendor is located in the state of New York—that is, the New York sales tax has to be applied to this purchase. 
+ Suppose that on February 13, 2026, SweetLife Fruits & Jams company purchased stationery for its office needs (printing paper and pens) from the Frontsource Ltd. vendor. The vendor is located in the state of New York—that is, the New York sales tax has to be applied to this purchase. 
 
  Acting as a SweetLife purchasing manager, you need to enter the purchase order and process it to completion by creating the related purchase receipt and AP bill. Then you need to review how the processed purchase has affected the cost of the purchased items. 
 
@@ -4168,11 +4170,11 @@ You can view any required tax-related information for a selected period or the d
 
 - On the _Tax Zones_ (TX206000) form, the _NYSTATE_ tax zone has been configured and _NYSTATETAX_ has been     added to it. 
 
-- On the _Tax Categories_ (TX205500) form, the _TAXABLE_ tax category has been created and _NYSTATETAX_ has     been added to it. 
-
 
 <!-- PAGE_BREAK -->
  Including Taxes in the Cost of Items | 93 
+
+- On the _Tax Categories_ (TX205500) form, the _TAXABLE_ tax category has been created and _NYSTATETAX_ has     been added to it. 
 
 - On the _Vendors_ (AP303000) form, the _FRONTSRC (Frontsource Ltd.)_ vendor has been configured. 
 
@@ -4180,7 +4182,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Process Overview 
 
- In this activity, you will create a purchase order on the Purchase Orders (PO301000) form, and add lines with taxable stock items to it. Then you will process the related purchase receipt on the Purchase Receipts (PO302000) form, and create the related bill on the Bills and Adjustments (AP301000) form. You will release the bill and review the inventory adjustment that updates the items' costs; also, on the Journal Transactions (GL301000) form, you will review the GL transaction generated by the system when the inventory adjustment have been released. 
+ In this activity, you will create a purchase order on the Purchase Orders (PO301000) form, and add lines with taxable stock items to it. Then you will process the related purchase receipt on the Purchase Receipts (PO302000) form, and create the related bill on the Bills and Adjustments (AP301000) form. You will release the bill and review the inventory adjustment that updates the items' costs. On the Journal Transactions (GL301000) form, you will review the GL transaction generated by the system when the inventory adjustment have been released. 
 
 #### System Preparation 
 
@@ -4188,7 +4190,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/13/2025_. If a different date is displayed, click the Business Date     menu button, and select _2/13/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/13/2026_. If a different date is displayed, click the Business Date     menu button, and select _2/13/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -4208,21 +4210,13 @@ You can view any required tax-related information for a selected period or the d
 
 - **Vendor** : _FRONTSRC_ 
 
-- **Date** : _2/13/2025_ (the current business date, which is inserted by default) 
+- **Date** : _2/13/2026_ (the current business date, which is inserted by default) 
 
-- **Promised On** : _2/13/2025_ (inserted by default based on the selected date) 
+- **Promised On** : _2/13/2026_ (inserted by default based on the selected date) 
 
 - **Description** : Purchase of stationery 
 
 3. On the **Details** tab, add rows with the following settings: 
-
- Branch Inventory ID Warehouse Order Qty. Unit Cost Tax Category 
-
-##### HEADOFFICE 
-
- (inserted by default) 
-
-##### PAPER WHOLESALE 5 9.99 TAXABLE 
 
 
 <!-- PAGE_BREAK -->
@@ -4232,11 +4226,17 @@ You can view any required tax-related information for a selected period or the d
 
 ##### HEADOFFICE 
 
+ (inserted by default) 
+
+##### PAPER WHOLESALE 5 9.99 TAXABLE 
+
+##### HEADOFFICE 
+
  (inserted by deafult) 
 
 ##### PEN WHOLESALE 10 11.99 TAXABLE 
 
-4. On the **Taxes** tab, review the tax calculated for the purchase order.     For both purchase order lines, you selected the _TAXABLE_ category; it contains the _NYSTATETAX_ tax with the     8.875% tax rate, which has been applied to the purchase order. The taxable amount is $169.85, and the     calculated total tax is $15.07. 
+4. On the **Taxes** tab, review the tax calculated for the purchase order.     For both purchase order lines, you selected the _TAXABLE_ category. It contains the _NYSTATETAX_ tax with the     8.875% tax rate, which has been applied to the purchase order. The taxable amount is $169.85, and the     calculated total tax is $15.07. 
 
 5. On the form toolbar, click **Save** to save your changes. 
 
@@ -4252,25 +4252,27 @@ You can view any required tax-related information for a selected period or the d
 
 3. On the form toolbar, click **Release**. 
 
-4. On the **Billing** tab, click the **Reference Nbr.** link to open the bill the system has created on the _Bills and_     _Adjustments_ (AP301000) form. 
+4. On the **Billing** tab, click the **Reference Nbr.** link to open the bill that the system has created on the _Bills and_     _Adjustments_ (AP301000) form. 
 
 5. On the **Taxes** tab, review the tax that was applied to the bill, and make sure it is the same tax that was     applied to the purchase order. 
 
-6. On the **Financial** tab, click the **Adjustment Nbr.** link. 
+6. On the form toolbar, click **Release** to release the bill. 
 
-7. On the _Adjustments_ (IN303000) form, which opens with the inventory adjustment transaction that was     generated on release of the AP bill (see the screenshot below), review this adjustment.     The **Total Cost** of the adjustment, shown in the Summary area, is equal to the calculated tax ($15.07). On     the **Details** tab, the **Unit Cost** column shows the cost of each item with accumulated tax. 
+7. On the **Taxes** tab, click the **Adjustment Nbr.** link. 
 
- Figure: Inventory transaction that updates the items' costs 
+8. On the _Adjustments_ (IN303000) form, which opens with the inventory adjustment transaction that was     generated on release of the AP bill (see the screenshot below), review this adjustment.     The **Total Cost** of the adjustment, shown in the Summary area, is equal to the calculated tax ($15.07). On     the **Details** tab, the **Unit Cost** column shows the cost of each item with accumulated tax. 
 
 
 <!-- PAGE_BREAK -->
  Including Taxes in the Cost of Items | 95 
 
-8. On the **Financial** tab, click the **Batch Nbr.** link and review the generated GL transaction on the _Journal_     _Transactions_ (GL301000) form, which is opened. Notice that for each purchased item, the system has     generated the following entries: 
+ Figure: Inventory transaction that updates the items' costs 
 
-- The Inventory account of the stock item ( _12100_ ) is debited in the amount of the tax calculated for the     line. 
+9. On the **Financial** tab, click the **Batch Nbr.** link and review the generated GL transaction on the _Journal_     _Transactions_ (GL301000) form, which is opened. Notice that for each purchased item, the system has     generated the following entries: 
 
-- The PO Accrual account of the stock item ( _20100_ ) is credited in the amount of the tax calculated for the     line. 
+- The Inventory account of the stock item ( _12100_ ) is debited in the amount of the tax calculated for each     line. 
+
+- The PO Accrual account of the stock item ( _20100_ ) is credited in the amount of the tax calculated for each     line. 
 
 
 <!-- PAGE_BREAK -->
@@ -4462,7 +4464,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that in January 2025, SweetLife Fruits & Jams provided 25 hours of video training courses and 10 hours of maintenance services to EasyDiner Co. The video training course is subject to VAT and the maintenance services are VAT-exempt. The needed VAT and VAT exempt taxes have been already created in the system. Acting as a SweetLife accountant, you need to process an AR invoice in the system. 
+ Suppose that in January 2026, SweetLife Fruits & Jams provided 25 hours of video training courses and 10 hours of maintenance services to EasyDiner Co. The video training course is subject to VAT and the maintenance services are VAT-exempt. The needed VAT and VAT exempt taxes have been already created in the system. Acting as a SweetLife accountant, you need to process an AR invoice in the system. 
 
 #### Configuration Overview 
 
@@ -4490,7 +4492,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -4504,7 +4506,7 @@ You can view any required tax-related information for a selected period or the d
 
 2. In the **Customer ID** box, select _EASYDINER_. 
 
-3. On the **Shipping** tab, select _CANADA_ in the **Tax Zone** box. 
+3. On the **Shipping** tab ( **Tax Settings** section), select _CANADA_ in the **Tax Zone** box. 
 
 
 <!-- PAGE_BREAK -->
@@ -4528,9 +4530,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Terms** : _30D_ (inserted by default based on the selected customer) 
 
-- **Date** : _1/30/2025_ (the current business date, which is inserted by default) 
+- **Date** : _1/30/2026_ (the current business date, which is inserted by default) 
 
-- **Post Period** : _01-2025_ (inserted by default based on the selected date) 
+- **Post Period** : _01-2026_ (inserted by default based on the selected date) 
 
 - **Description** : Video training 25 hours and maintenance 10 hours 
 
@@ -4540,7 +4542,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Inventory ID** : _VIDEOGUIDE_ 
 
-- **Transaction Descr.** : Video Training Course 
+- **Transaction Descr.** : _Video Training Course_ (inserted automatically) 
 
 - **Quantity** : 25 
 
@@ -4554,7 +4556,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Inventory ID** : _MAINTSERV_ 
 
-- **Transaction Descr.** : Juicer maintenance service 
+- **Transaction Descr.** : _Juicer maintenance service_ (inserted automatically) 
 
 - **Quantity** : 10 
 
@@ -4564,19 +4566,23 @@ You can view any required tax-related information for a selected period or the d
 
 5. On the form toolbar, click **Save**. 
 
-6. On the **Taxes** tab, review the taxes that have been applied to the invoice.     The taxes have been applied to the invoice according to the following rules: The _VAT_ tax, which is assigned     to both the _TAXABLE_ tax category and the _CANADA_ tax zone, is applied to the _VIDEOGUIDE_ invoice line, and     the _VATEXEMPT_ tax, which is assigned to both the _EXEMPT_ tax category and the _CANADA_ tax zone, is applied     to the _MAINTSERV_ invoice line. The taxable amount is $3,750 (also shown in the **VAT Taxable** box on the     **Financial** tab), and the tax-exempt amount is $1,000 (also shown in the **VAT Exempt** box on the **Financial**     tab). The total tax calculated for the invoice is $262.50 ( **Tax Total** in the Summary area). 
+6. On the **Taxes** tab, review the taxes that have been applied to the invoice.     The taxes have been applied to the invoice according to the following rules: 
+
+- The _VAT_ tax, which is assigned to both the _TAXABLE_ tax category and the _CANADA_ tax zone, is applied to     the _VIDEOGUIDE_ invoice line. 
+
+- The _VATEXEMPT_ tax, which is assigned to both the _EXEMPT_ tax category and the _CANADA_ tax zone, is     applied to the _MAINTSERV_ invoice line. The taxable amount is $3,750 (also shown in the **Taxable Total** box), and the tax-exempt amount is $1,000 (also shown in the **Tax Exempt Total** box). The total tax calculated for the invoice is $262.50 ( **Tax Total** in the Summary area). 
 
 7. On the form toolbar, click **Remove Hold** and click **Release** to release the invoice. 
+
+
+<!-- PAGE_BREAK -->
+ Processing AR Documents with Value-Added Taxes | 102 
 
 #### Step 3: Reviewing a GL Transaction 
 
  To review the GL transaction generated by the system, do the following: 
 
 1. While you are still reviewing the invoice on the _Invoices and Memos_ (AR301000) form, open the **Financial**     tab. 
-
-
-<!-- PAGE_BREAK -->
- Processing AR Documents with Value-Added Taxes | 102 
 
 2. Click the **Batch Nbr.** link and review the GL transaction that opens on the _Journal Transactions_ (GL301000)     form.     On release of the invoice, the system generated the following entries: 
 
@@ -4590,13 +4596,13 @@ You can view any required tax-related information for a selected period or the d
 
  The following activity will walk you through the processing of an AR invoice with a cash discount and VAT applied to it. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that on January 10, 2025, SweetLife Fruits & Jams provided support services to EasyDiner Co. in the amount of $1,000 and issued an invoice. The invoice amount is $1,000 plus the VAT ($70). The credit terms of the invoice give the customer a 3% discount if the customer pays the invoice within 10 days. 
+ Suppose that on January 10, 2026, SweetLife Fruits & Jams provided support services to EasyDiner Co. in the amount of $1,000 and issued an invoice. The invoice amount is $1,000 plus the VAT ($70). The credit terms of the invoice give the customer a 3% discount if the customer pays the invoice within 10 days. 
 
- On January 14, 2025, EasyDiner paid the invoice and took the 3% cash discount. 
+ On January 14, 2026, EasyDiner paid the invoice and took the 3% cash discount. 
 
  Acting as a SweetLife accountant, you need to create and release the invoice, applying the cash discount to the taxable amount of the document and making sure that the VAT amount is not affected by the cash discount. Finally, you have to create the payment for the invoice. 
 
@@ -4614,13 +4620,13 @@ You can view any required tax-related information for a selected period or the d
 
 - On the _Customers_ (AR303000) form, the _EASYDINER_ customer account has been created, and on the     **Shipping** tab, _CANADA_ is selected in the **Tax Zone** box for the customer. 
 
-#### Process Overview 
-
- In this activity, you will update the company settings on the Companies (CS101500) form. On the Invoices and Memos (AR301000) form, you will create and release an invoice with a cash discount. On the Journal Transactions (GL301000) form, you will review the GL transaction generated on release of the invoice. On the Payments and Applications (AR302000) form, you will pay the invoice within the cash discount period. Finally, on the Journal Transactions form, you will review the GL transaction generated on release of the payment. 
-
 
 <!-- PAGE_BREAK -->
  Processing AR Documents with Value-Added Taxes | 103 
+
+#### Process Overview 
+
+ In this activity, you will update the company settings on the Companies (CS101500) form. On the Invoices and Memos (AR301000) form, you will create and release an invoice with a cash discount. On the Journal Transactions (GL301000) form, you will review the GL transaction generated on release of the invoice. On the Payments and Applications (AR302000) form, you will pay the invoice within the cash discount period. Finally, on the Journal Transactions form, you will review the GL transaction generated on release of the payment. 
 
 #### System Preparation 
 
@@ -4628,7 +4634,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/10/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/10/2026_. 
 
 3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -4658,9 +4664,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Terms** : _310N30_     These credit terms indicate that if the invoice is paid within 10 days, the customer will receive a 3% cash     discount. If the invoice is paid within 30 days, the customer will pay the full amount. 
 
-- **Date** : _1/10/2025_ (the current business date, which is inserted by default) 
+- **Date** : _1/10/2026_ (the current business date, which is inserted by default) 
 
-- **Post Period** : _01-2025_ (inserted by default based on the selected date) 
+- **Post Period** : _01-2026_ (inserted by default based on the selected date) 
 
 - **Description** : Support services 
 
@@ -4674,17 +4680,15 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Category** : _TAXABLE_ 
 
-4. On the form toolbar, click **Save**. 
-
-5. On the **Taxes** tab, review the tax that has been added to the invoice.     The tax category specified for the invoice line is _TAXABLE_ , so a 7% VAT has been applied to the invoice line.     The taxable amount is $1,000 and the calculated total tax is $70. 
-
-6. In the Summary area, review the invoice amounts. 
-
 
 <!-- PAGE_BREAK -->
  Processing AR Documents with Value-Added Taxes | 104 
 
- The Detail Total of the invoice is $1,000. This is the amount of the provided services. The total invoice balance is $1,070, the tax total is $70, and the calculated cash discount on the taxable amount of the document is $30. 
+4. On the form toolbar, click **Save**. 
+
+5. On the **Taxes** tab, review the tax that has been added to the invoice.     The tax category specified for the invoice line is _TAXABLE_ , so a 7% VAT has been applied to the invoice line.     The taxable amount is $1,000 and the calculated tax amount is $70. 
+
+6. In the Summary area, review the invoice amounts.     The **Detail Total** of the invoice is $1,000. This is the amount of the provided services. The total invoice     balance is $1,070, the tax total is $70, and the calculated cash discount on the taxable amount of the     document is $30. 
 
  If on the Companies (CS101500) form, Document Amount was selected in the Cash Discount Base box on the Company Details tab, the cash discount amount would be calculated as follows: 
 
@@ -4714,7 +4718,7 @@ You can view any required tax-related information for a selected period or the d
 
  To create a payment for the taxable invoice with a cash discount, do the following: 
 
-1. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/14/2025_. 
+1. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/14/2026_. 
 
 2. On the _Invoices and Memos_ (AR301000) form, open the invoice that you created and released in Step 2. 
 
@@ -4724,15 +4728,15 @@ You can view any required tax-related information for a selected period or the d
 
  If on the Companies (CS101500) form, Document Amount was selected in the Cash Discount Base box on the Company Details tab, the amount of the payment within the cash discount period would be $ 1,037.90 ($1,070 – $32.10). 
 
+
+<!-- PAGE_BREAK -->
+ Processing AR Documents with Value-Added Taxes | 105 
+
 5. On the form toolbar, click **Remove Hold** and then click **Release** to release the payment. 
 
 #### Step 5: Reviewing the GL Transaction Generated on Payment Release 
 
  To review the GL transaction that was generated when the system released the payment, proceed as follows: 
-
-
-<!-- PAGE_BREAK -->
- Processing AR Documents with Value-Added Taxes | 105 
 
 1. While you are still viewing the payment on the _Payments and Applications_ (AR302000) form, on the **Financial**     tab, click the **Batch Nbr.** link. 
 
@@ -4750,7 +4754,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on January 30, 2025, SweetLife Fruits & Jams issued a $15 credit memo to EasyDiner Co. to give this customer a discount for the services purchased earlier. Acting as a SweetLife accountant, you need to create and process the $15 credit memo by applying it to an invoice issued for this customer. 
+ Suppose that on January 30, 2026, SweetLife Fruits & Jams issued a $15 credit memo to EasyDiner Co. to give this customer a discount for the services purchased earlier. Acting as a SweetLife accountant, you need to create and process the $15 credit memo by applying it to an invoice issued for this customer. 
 
 #### Configuration Overview 
 
@@ -4774,15 +4778,17 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
-
-3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
-
-4. As a prerequisite activity, in the company to which you are signed in, be sure you have configured a value     added tax as described in _Value-Added Taxes: To Create a General VAT and Exempt VAT_. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and 
 
 
 <!-- PAGE_BREAK -->
  Processing AR Documents with Value-Added Taxes | 106 
+
+ select 1/30/2026 from the calendar. For simplicity, you'll create and process all documents in this activity using this business date. 
+
+3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
+
+4. As a prerequisite activity, in the company to which you are signed in, be sure you have configured a value     added tax as described in _Value-Added Taxes: To Create a General VAT and Exempt VAT_. 
 
 5. As a prerequisite activity, in the company to which you are signed in, be sure that you have created an AR     invoice, as described in _AR Documents with VAT: To Process an AR Invoice_. 
 
@@ -4802,9 +4808,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Customer** : _EASYDINER_ 
 
-- **Date** : _1/30/2025_ (inserted by default) 
+- **Date** : _1/30/2026_ (inserted by default) 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Description** : $15 discount on services 
 
@@ -4832,13 +4838,13 @@ You can view any required tax-related information for a selected period or the d
 
 3. In the **Amount Paid** column, specify 16.05, which is the **Detail Total** plus the **Tax Total** of the credit memo.     Aer the credit memo is applied to the invoice, the invoice balance will be decreased by $16.05. The     resulting invoice balance ($4,996.45) is shown in the **Balance** column for the application. 
 
-4. On the form toolbar, click **Remove Hold** and click **Release** to release the credit memo and its application to     the invoice. 
-
-5. On the **Financial** tab, click the **Batch Nbr.** link; on the _Journal Transactions_ (GL301000) form, which opens,     review the transaction generated for the credit memo.     On release of the credit memo, the system generated the following entries: 
-
 
 <!-- PAGE_BREAK -->
  Processing AR Documents with Value-Added Taxes | 107 
+
+4. On the form toolbar, click **Remove Hold** and click **Release** to release the credit memo and its application to     the invoice. 
+
+5. On the **Financial** tab, click the **Batch Nbr.** link; on the _Journal Transactions_ (GL301000) form, which opens,     review the transaction generated for the credit memo.     On release of the credit memo, the system generated the following entries: 
 
 - The Accounts Receivable account of the customer ( _11000_ ) is credited in the total amount of the credit     memo (line amount plus tax amount) to decrease the customer's balance. 
 
@@ -5014,7 +5020,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on January 30, 2025, SweetLife Fruits & Jams received three hours of advertising and one hour of billboard installation services from MapleLeaf Ads Co. The advertising services are subject to VAT and the installation services are VAT-exempt. The needed VAT and VAT exempt taxes have been already created in the system. Acting as a SweetLife accountant, you need to process an AP bill in the system. 
+ Suppose that on January 30, 2026, SweetLife Fruits & Jams received three hours of advertising and one hour of billboard installation services from MapleLeaf Ads Co. The advertising services are subject to VAT and the installation services are VAT-exempt. The needed VAT and VAT exempt taxes have been already created in the system. Acting as a SweetLife accountant, you need to process an AP bill in the system. 
 
 #### Configuration Overview 
 
@@ -5046,7 +5052,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -5062,7 +5068,7 @@ You can view any required tax-related information for a selected period or the d
 
 2. In the **Vendor ID** box, select _MAPLELEAF_. 
 
-3. On the **Purchase Settings** tab, select _CANADA_ in the **Tax Zone** box. 
+3. On the **Purchase Settings** tab ( **Tax Settings** section), select _CANADA_ in the **Tax Zone** box. 
 
 4. On the form toolbar, click **Save**. 
 
@@ -5082,9 +5088,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Vendor** : _MAPLELEAF_ 
 
-- **Date** : _1/30/2025_ (inserted by default) 
+- **Date** : _1/30/2026_ (inserted by default) 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Description** : Advertisement 3 hours and support 1 hour 
 
@@ -5142,7 +5148,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on January 30, 2025, SweetLife Fruits & Jams received a $75 credit memo from Big Green Trucks Ltd, to which a VAT was applied. Acting as a SweetLife accountant, you need to create and process a $75 taxable debit adjustment. 
+ Suppose that on January 30, 2026, SweetLife Fruits & Jams received a $75 credit memo from Big Green Trucks Ltd, to which a VAT was applied. Acting as a SweetLife accountant, you need to create and process a $75 taxable debit adjustment. 
 
 #### Configuration Overview 
 
@@ -5172,7 +5178,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -5194,13 +5200,13 @@ You can view any required tax-related information for a selected period or the d
 
 - **Vendor** : _GREENTRUCK_ 
 
-- **Date** : _1/30/2025_ (inserted by default) 
+- **Date** : _1/30/2026_ (inserted by default) 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Description** : $75 credit memo from the vendor 
 
-4. On the **Financial** tab, in the **Vendor Tax Zone** box, select _CANADA_. 
+4. On the **Taxes** tab, in the **Vendor Tax Zone** box, select _CANADA_. 
 
 5. On table toolbar of the **Details** tab, click **Add Row** and specify the following settings for the added row: 
 
@@ -5284,7 +5290,7 @@ You can view any required tax-related information for a selected period or the d
 
  Enable/Disable Features (CS100000) The Standard Inventory , Inventory , and VAT Reporting features have been enabled. 
 
- Order Types (SO201000) The SO order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) The SO order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order Type. 
 
  Tax Zones (TX206000) The tax zone that will be used for the customer has been created, as described in Tax Zones and Categories: To Create a Tax Category and Tax Zone for VAT. 
 
@@ -5376,7 +5382,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on January 30, 2025, SweetLife Fruits & Jams sold eight juicers to the MINSTORE customer and delivered them to the customer's warehouse by using the company's own vehicle. Because the sold goods are taxable, the freight is taxable as well. Acting as a SweetLife accountant, you need to process a sales order, the shipment, and the sales invoice. 
+ Suppose that on January 30, 2026, SweetLife Fruits & Jams sold eight juicers to the MINSTORE customer and delivered them to the customer's warehouse by using the company's own vehicle. Because the sold goods are taxable, the freight is taxable as well. Acting as a SweetLife accountant, you need to process a sales order, the shipment, and the sales invoice. 
 
 #### Configuration Overview 
 
@@ -5404,7 +5410,7 @@ You can view any required tax-related information for a selected period or the d
 <!-- PAGE_BREAK -->
  Processing Taxable Sales with Freight Charges | 120 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the company and branch selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -5478,9 +5484,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Customer** : _MINTSTORE_ 
 
-- **Date** : _1/30/2025_ (inserted by default) 
+- **Date** : _1/30/2026_ (inserted by default) 
 
-- **Requested On** : _1/30/2025_ (inserted by default) 
+- **Requested On** : _1/30/2026_ (inserted by default) 
 
 - **Description** : 8 juicers + delivery 
 
@@ -5500,11 +5506,15 @@ You can view any required tax-related information for a selected period or the d
 
 4. On the form toolbar, click **Save**. 
 
-5. On the **Totals** tab, in the **Freight Tax Category** box, select _TAXABLE_. 
+5. On the **Shipping** tab ( **Freight Settings** section), in the **Freight Tax Category** box, select _TAXABLE_. 
 
 6. Click **Save** to save the changes. 
 
-7. On the **Taxes** tab, review the taxes calculated for the order.     The taxes were calculated for both the sold items and the freight charges. The rules of applying the taxes to     the sales order are the same as they are for AR invoices: The _VAT_ tax, which is assigned to both the _TAXABLE_     tax category and the _CANADA_ tax zone, is applied to the sales order line, and the same tax is applied to the     freight charges, which also belong to the _TAXABLE_ category. The taxable amount is $11,225 ($10,800 ( **Detail**     **Total** in the Summary area) + $425 ( **Freight Total** in the Summary area). The total tax calculated for the     document ( **Tax Total** in the Summary area) is $785.75. 
+7. On the **Taxes** tab, review the taxes calculated for the order.     The taxes were calculated for both the sold items and the freight charges. The rules of applying the taxes to     the sales order are the same as they are for AR invoices: 
+
+- The _VAT_ tax, which is assigned to both the _TAXABLE_ tax category and the _CANADA_ tax zone, is applied to     the sales order line. 
+
+- The same tax is applied to the freight charges, which also belong to the _TAXABLE_ category. The taxable amount is $11,225 ($10,800 ( **Detail Total** in the Summary area) + $425 ( **Freight Total** in the Summary area). The total tax calculated for the document ( **Tax Total** in the Summary area) is $785.75. 
 
 #### Step 3: Creating a Shipment 
 
@@ -5520,11 +5530,13 @@ You can view any required tax-related information for a selected period or the d
 
  To prepare a sales invoice that corresponds to the sale, do the following: 
 
-1. While you are still reviewing the shipment on the _Shipments_ (SO302000) form, on the form toolbar, click     **Prepare Invoice**.     The system prepares an invoice and displays it on the _Invoices_ (SO303000) form. 
+1. While you are still reviewing the shipment on the _Shipments_ (SO302000) form, on the form toolbar, click     **Prepare Invoice**. 
 
 
 <!-- PAGE_BREAK -->
  Processing Taxable Sales with Freight Charges | 122 
+
+ The system prepares an invoice and displays it on the Invoices (SO303000) form. 
 
 2. On the form toolbar, click **Release** to release the invoice. 
 
@@ -5610,7 +5622,7 @@ You can view any required tax-related information for a selected period or the d
 
  The following configuration should be performed for each tax agency for which you will pay the taxes directly: 
 
-1. On the _Credit Terms_ (CS206500) form, payment terms should be created for the tax agency (if these     terms have not already been created), and specified for the tax agency on the **General** tab of the _Vendors_     (AP303000) form. 
+1. On the _Credit Terms_ (CS206500) form, payment terms should be created for the tax agency (if these terms     have not already been created), and specified for the tax agency on the **Financial** tab of the _Vendors_     (AP303000) form. 
 
 2. On the _Taxes_ (TX205000) form, required taxes should be created and the **Direct-Entry Tax** check box should     be selected for each tax. In the **Tax Agency** box for the tax, the needed tax agency should be selected. For     details, see _Direct Tax Payment: To Create a Tax Bill for a Tax Agency_. 
 
@@ -5632,7 +5644,7 @@ You can view any required tax-related information for a selected period or the d
 <!-- PAGE_BREAK -->
  Paying Taxes Directly to the Tax Agency | 125 
 
- If the Net/Gross Entry Mode feature is enabled on the Enable/Disable Features (CS100000) form, the tax calculation mode selected for the bill on the Financial tab ( Tax section) of the Bills and Adjustments form does not affect the tax calculated for the line with a direct-entry tax. 
+ If the Net/Gross Entry Mode feature is enabled on the Enable/Disable Features (CS100000) form, the tax calculation mode selected for the bill on the Taxes tab ( Tax Info section) of the Bills and Adjustments form does not affect the tax calculated for the line with a direct-entry tax. 
 
  Direct-entry taxes cannot be applied to lines linked to a purchase order, subcontract or purchase receipt. A direct-entry tax can be applied only to a landed cost line with the None allocation method specified on the Landed Costs tab of the Landed Costs (PO303000) form. 
 
@@ -5774,9 +5786,9 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on 1/15/2025, the SweetLife Fruits & Jams company purchased office equipment in the amount of $750 from the Cartridge World Inc. company, which is located in Canada. Taxes on imported goods should be paid directly to a tax agency at the time of import; thus, the bill from the vendor does not include any taxes. 
+ Suppose that on 1/15/2026, the SweetLife Fruits & Jams company purchased office equipment in the amount of $750 from the Cartridge World Inc. company, which is located in Canada. Taxes on imported goods should be paid directly to a tax agency at the time of import; thus, the bill from the vendor does not include any taxes. 
 
- Further suppose that on 1/31/2025, SweetLife Fruits & Jams received a bill from the tax agency with a standardrated VAT on the imported goods when the goods were released from customs. 
+ Further suppose that on 1/31/2026, SweetLife Fruits & Jams received a bill from the tax agency with a standardrated VAT on the imported goods when the goods were released from customs. 
 
  Acting as a SweetLife accountant, you need to process the purchase of the office equipment, process the tax bill to pay this amount to the tax agency and record the claimable amount that you will later include in the tax report, and pay taxes on this purchase. 
 
@@ -5800,7 +5812,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _1/15/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _1/15/2026_. 
 
 3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -5862,9 +5874,9 @@ You can view any required tax-related information for a selected period or the d
 
 1. On the _Taxes_ (TX205000) form, create a new record. 
 
-2. On the **Tax Settings** tab, specify the following settings: 
+2. In the Summary area, specify the following settings: 
 
-- **Tax ID** : VATIM 
+- **Tax ID** : VATIMPORT 
 
 - **Description** : VAT on Imported Goods 
 
@@ -5880,13 +5892,13 @@ You can view any required tax-related information for a selected period or the d
 
 3. On the table toolbar of the **Tax Schedule** tab, click **Add Row** and specify the following settings for the added     row: 
 
-- **Start Date** : _1/1/2025_ 
+- **Start Date** : _1/1/2026_ 
 
 - **Tax Rate** : 10 
 
 - **Reporting Group** : _Taxable Purchases_ 
 
- Your company is allowed to reclaim the VAT paid on imported goods. Thus, you have selected the Taxable Purchases reporting group for the tax. The VATIM amount will update the Total Input Tax report line and will be included in the amount to be claimed from the tax agency. If your company is not allowed to reclaim taxes on imported goods, you have to create a separate reporting group that will not update the Tax Amount Payable report line. 
+ Your company is allowed to reclaim the VAT paid on imported goods. Thus, you have selected the Taxable Purchases reporting group for the tax. The VATIMPORT amount will update the Total Input Tax report line and will be included in the amount to be claimed from the tax agency. If your company is not allowed to reclaim taxes on imported goods, you have to create a separate reporting group that will not update the Tax Amount Payable report line. 
 
 4. On the table toolbar of the **Categories** tab, click **Add Row** and select _IMPORT_ in the **Tax Category** column. 
 
@@ -5906,9 +5918,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Vendor** : _CARTRIDGE_ 
 
-- **Date** : _1/15/2025_ 
+- **Date** : _1/15/2026_ 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Description** : Office equipment (imported) 
 
@@ -5928,19 +5940,19 @@ You can view any required tax-related information for a selected period or the d
 
 4. On the form toolbar, click **Save**. 
 
-5. On the **Financial** tab, review the **Vendor Tax Zone** box. The vendor is assigned to the _FOREIGN_ tax zone,     which has been copied to the bill. 
+5. On the **Taxes** tab, review the **Vendor Tax Zone** box. The vendor is assigned to the _FOREIGN_ tax zone, which     has been copied to the bill. 
 
-6. Review the **Taxes** tab. Although the document line is assigned to the _TAXABLE_ category and the vendor is     assigned to the _FOREIGN_ tax zone, no tax has been applied to the bill, because the _VATIM_ tax has the **Direct-**     **Entry Tax** check box selected. Consequently, this tax should not be paid to the goods supplier and is not     automatically applicable to the document. The tax will be calculated later, when the tax bill is processed for     the goods. 
+6. Review the **Taxes** tab.     Although the document line is assigned to the _TAXABLE_ category and the vendor is assigned to the _FOREIGN_     tax zone, no tax has been applied to the bill, because the _VATIMPORT_ tax has the **Direct-Entry Tax** check     box selected. Consequently, this tax should not be paid to the goods supplier and is not automatically     applicable to the document. The tax will be calculated later, when the tax bill is processed for the goods. 
 
 7. On the form toolbar, click **Remove Hold** and click **Release** to release the bill. 
-
-#### Step 6: Creating a Tax Bill 
-
- To create a tax bill, do the following: 
 
 
 <!-- PAGE_BREAK -->
  Paying Taxes Directly to the Tax Agency | 131 
+
+#### Step 6: Creating a Tax Bill 
+
+ To create a tax bill, do the following: 
 
 1. On the _Tax Bills and Adjustments_ (TX303000) form, create a new record. 
 
@@ -5950,9 +5962,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Vendor** : _VATTAX_ 
 
-- **Date** : _1/31/2025_ 
+- **Date** : _1/31/2026_ 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Description** : VAT paid on imported goods 
 
@@ -5962,7 +5974,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Orig. Doc. Number** : The reference number of the bill that you created in Step 5 
 
-- **Tax ID** : _VATIM_ The calculated tax amount is $75. 
+- **Tax ID** : _VATIMPORT_ The calculated tax amount is $75. 
 
 4. On the form toolbar, click **Save**. 
 
@@ -5974,7 +5986,7 @@ You can view any required tax-related information for a selected period or the d
 
 - The Tax Claimable account ( _17000_ ) is debited in the tax amount to be claimed from the tax agency. 
 
-7. On the **Apply Tax To** tab of the _Tax Bills and Adjustments_ form, click the **Orig. Doc. Number** link in the table     row to open the bill. On the _Bills and Adjustments_ (AP301000) form, which opens, review the **Taxes** tab.     Aer you have released the tax bill, the _VATIM_ tax has been applied to the bill. Notice that the bill's **Tax Total**     and **Amount** have not changed. 
+7. On the **Apply Tax To** tab of the _Tax Bills and Adjustments_ form, click the **Orig. Doc. Number** link in the table     row to open the bill. On the _Bills and Adjustments_ (AP301000) form, which opens, review the **Taxes** tab.     Aer you have released the tax bill, the _VATIMPORT_ tax has been applied to the bill. Notice that the bill's **Tax**     **Total** and **Amount** have not changed. 
 
 ### Direct Tax Payment: To Create an AP Bill with a Direct-Entry Tax 
 
@@ -5982,9 +5994,13 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on 1/20/2025, SweetLife Fruits & Jams purchased two juicers from Jalooza Inc. in a total amount of $4,000. On 1/30/2025, SweetLife received a tax bill from the freight company (Big Green Trucks Ltd.) that assisted SweetLife with importing the goods from Canada and is SweetLife's customs agent. The bill includes a taxable fee for the company's services ($55) and an import tax ($300). 
+ Suppose that on 1/20/2026, SweetLife Fruits & Jams purchased two juicers from Jalooza Inc. in a total amount of $4,000. On 1/30/2026, SweetLife received a tax bill from the freight company (Big Green Trucks Ltd.) that assisted SweetLife with importing the goods from Canada and is SweetLife's customs agent. The bill includes a taxable fee for the company's services ($55) and an import tax ($300). 
 
  Acting as a SweetLife accountant, you need to process two documents in the system—a purchase order for Jalooza, and an AP bill for Big Green Trucks, which includes both an expense line and a direct-entry tax. 
+
+
+<!-- PAGE_BREAK -->
+ Paying Taxes Directly to the Tax Agency | 132 
 
 #### Configuration Overview 
 
@@ -5993,10 +6009,6 @@ You can view any required tax-related information for a selected period or the d
 - On the _Enable/Disable Features_ (CS100000) form, the _VAT Reporting_ feature has been enabled. 
 
 - On the _Tax Categories_ (TX205500) form, the _TAXABLE_ tax category has been configured. 
-
-
-<!-- PAGE_BREAK -->
- Paying Taxes Directly to the Tax Agency | 132 
 
 - On the _Vendors_ (AP303000) form, the _JALOOZA_ and _GREENTRUCK_ vendor accounts have been configured. 
 
@@ -6012,7 +6024,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _1/20/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _1/20/2026_. 
 
 3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -6040,6 +6052,10 @@ You can view any required tax-related information for a selected period or the d
 
 7. On the form toolbar, click **Save**. 
 
+
+<!-- PAGE_BREAK -->
+ Paying Taxes Directly to the Tax Agency | 133 
+
 #### Step 2: Processing a Purchase Order for Jalooza 
 
  To process a purchase order for two juicers for Jalooza, do the following: 
@@ -6050,13 +6066,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Type** : _Normal_ 
 
-
-<!-- PAGE_BREAK -->
- Paying Taxes Directly to the Tax Agency | 133 
-
 - **Vendor** : _JALOOZA_ 
 
-- **Date** : _1/20/2025_ (inserted by default) 
+- **Date** : _1/20/2026_ (inserted by default) 
 
 - **Description** : Juicers 
 
@@ -6076,15 +6088,15 @@ You can view any required tax-related information for a selected period or the d
 
 4. On the form toolbar, click **Save**. 
 
-5. Review the **Taxes** tab. Because the document line is assigned to the _TAXABLE_ category and the vendor is     assigned to the _CANADA_ tax zone, the _VAT_ tax has been applied to the purchase order. 
+5. Review the **Taxes** tab.     Because the document line is assigned to the _TAXABLE_ category and the vendor is assigned to the _CANADA_     tax zone, the _VAT_ tax has been applied to the purchase order. 
 
-6. On the form toolbar, click **Remove Hold**. The purchase order is assigned the _Open_ status. 
+6. On the form toolbar, click **Remove Hold**.     The purchase order is assigned the _Open_ status. 
 
-7. On the form toolbar, click **Enter PO Receipt**. The system prepares the purchase receipt for the selected     purchase order and opens it on the _Purchase Receipts_ (PO302000) form. 
+7. On the form toolbar, click **Enter PO Receipt**.     The system prepares the purchase receipt for the selected purchase order and opens it on the _Purchase_     _Receipts_ (PO302000) form. 
 
 8. On the form toolbar, click **Save**. Review the details of the prepared purchase receipt. 
 
-9. In the Summary area, select the **Create Bill** check box. With this check box selected, the system will create     an AP bill automatically when the purchase receipt is released. 10.On the form toolbar, click **Release**. 11.On the **Billing** tab, click the link in the **Reference Nbr.** column to review the automatically prepared bill. 12.On the _Bills and Adjustments_ (AP301000) form, which is opened, review the created bill.     On the **Taxes** tab, notice that a 7% VAT in the amount of $280 has been applied to the bill. 
+9. In the Summary area, select the **Create Bill** check box.     With this check box selected, the system will create an AP bill automatically when the purchase receipt is     released. 10.On the form toolbar, click **Release**. 11.On the **Billing** tab, click the link in the **Reference Nbr.** column to review the automatically prepared bill. 12.On the _Bills and Adjustments_ (AP301000) form, which is opened, review the created bill.     On the **Taxes** tab, notice that a 7% VAT in the amount of $280 has been applied to the bill. 
 
 #### Step 3: Updating the Tax Zone Settings 
 
@@ -6098,6 +6110,10 @@ You can view any required tax-related information for a selected period or the d
 
 4. On the form toolbar, click **Save**. 
 
+
+<!-- PAGE_BREAK -->
+ Paying Taxes Directly to the Tax Agency | 134 
+
 #### Step 4: Creating an AP Bill for Big Green Trucks 
 
  In this step, you will create an AP bill, which will have an expense line and a direct-entry tax, for Big Green Trucks. Do the following: 
@@ -6110,15 +6126,11 @@ You can view any required tax-related information for a selected period or the d
 
 - **Vendor** : _GREENTRUCK_ 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Description** : Tax bill 
-
-
-<!-- PAGE_BREAK -->
- Paying Taxes Directly to the Tax Agency | 134 
 
 3. Click **Add Row** on the table toolbar of the **Details** tab, and specify the following settings for the added row: 
 
@@ -6150,11 +6162,9 @@ You can view any required tax-related information for a selected period or the d
 
 5. On the form toolbar, click **Save**. 
 
-6. On the **Financial** tab, review the **Vendor Tax Zone** box. The vendor is assigned to the _FOREIGN_ tax zone,     which has been copied to the bill. 
+6. On the **Taxes** tab, review the **Vendor Tax Zone** box.     The vendor is assigned to the _FOREIGN_ tax zone, which has been copied to the bill. 
 
-7. Review the **Taxes** tab. 
-
- Because the first document line is assigned to the TAXABLE category and the vendor is assigned to the FOREIGN tax zone, the VAT tax has been applied to the bill. The second document line is assigned to the IMPORT category, which is associated with the VATIM directentry tax. For this document line to which the VATIM direct-entry tax is applied, the full line amount is the Tax Amount , and the Taxable Amount is 0.00. 
+7. Review the **Taxes** tab.     Because the first document line is assigned to the _TAXABLE_ category and the vendor is assigned to the     _FOREIGN_ tax zone, the _VAT_ tax has been applied to the bill.     The second document line is assigned to the _IMPORT_ category, which is associated with the _VATIMPORT_     direct-entry tax. For this document line to which the _VATIMPORT_ direct-entry tax is applied, the full line     amount is the **Tax Amount** , and the **Taxable Amount** is _0.00_. 
 
 8. On the form toolbar, click **Remove Hold** and then click **Release** to release the bill. 
 
@@ -6164,11 +6174,15 @@ You can view any required tax-related information for a selected period or the d
 
 - The Other Expenses account of the first document line ( _81000_ ) is debited in the amount of the service fee     ($55). 
 
+
+<!-- PAGE_BREAK -->
+ Paying Taxes Directly to the Tax Agency | 135 
+
 - The Tax Claimable account ( _17000_ ) is debited in the total amount of the 7% VAT and the 10% of VAT on     import to be claimed from the tax agency ($303.85 = $53.85 + $300). 
 
 
 <!-- PAGE_BREAK -->
- Processing AP Bills with Withholding Taxes | 135 
+ Processing AP Bills with Withholding Taxes | 136 
 
 ## Processing AP Bills with Withholding Taxes 
 
@@ -6214,7 +6228,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Processing AP Bills with Withholding Taxes | 136 
+ Processing AP Bills with Withholding Taxes | 137 
 
 #### Implementation Checklist 
 
@@ -6234,7 +6248,7 @@ You can view any required tax-related information for a selected period or the d
 
  Taxes (TX205000) A withholding tax has been configured as described in Withholding Taxes: Implementation Activity. 
 
- Release Tax Report (TX502000) A tax report for the 01-2025 period has been released as described in Tax Report for VAT: Process Activity. 
+ Release Tax Report (TX502000) A tax report for the 01-2026 period has been released as described in Tax Report for VAT: Process Activity. 
 
 #### Other Settings That Affect the Workflow 
 
@@ -6256,7 +6270,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Processing AP Bills with Withholding Taxes | 137 
+ Processing AP Bills with Withholding Taxes | 138 
 
 #### Validation of Configuration 
 
@@ -6310,11 +6324,11 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Processing AP Bills with Withholding Taxes | 138 
+ Processing AP Bills with Withholding Taxes | 139 
 
 #### Story 
 
- Suppose that on January 31, 2025, the SweetLife Fruits & Jams company purchased consulting services from the MapleLeaf Ads Co. company, which is located in Canada. The payment made to the foreign vendor is subject to withholding tax. The 01-2025 tax period is currently closed, and you already have the tax report prepared and released for this period. You need to prepare another revision of the tax report to include the payment to the vendor in the report. (The Update Closed Tax Periods check box is selected for the tax agency on the Vendors (AP303000) form.) Acting as a SweetLife accountant, you need to process and pay an AP bill to which a withholding tax will be applied, and prepare a new revision of the tax report. 
+ Suppose that on January 31, 2026, the SweetLife Fruits & Jams company purchased consulting services from the MapleLeaf Ads Co. company, which is located in Canada. The payment made to the foreign vendor is subject to withholding tax. The 01-2026 tax period is currently closed, and you already have the tax report prepared and released for this period. You need to prepare another revision of the tax report to include the payment to the vendor in the report. (The Update Closed Tax Periods check box is selected for the tax agency on the Vendors (AP303000) form.) Acting as a SweetLife accountant, you need to process and pay an AP bill to which a withholding tax will be applied, and prepare a new revision of the tax report. 
 
 #### Configuration Overview 
 
@@ -6326,7 +6340,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Process Overview 
 
- In this activity, you will first update the settings of the vendor on the Vendors (AP303000) form. On the Bills and Adjustments (AP301000) form, you will create a bill for this vendor and review how the withholding tax is applied to the document. You will then release the bill and pay it on the Checks and Payments (AP302000) form. Aer you release the payment, you will review the GL transaction generated by the system on the Journal Transactions (GL301000) form. Finally, on the Prepare Tax Report (TX501000) form, you will prepare the second revision of the 01-2025 report to include the withholding tax in it. You will release the new revision of the tax report on the Release Tax Report (TX502000) form and make sure that a tax bill has been generated by the system. 
+ In this activity, you will first update the settings of the vendor on the Vendors (AP303000) form. On the Bills and Adjustments (AP301000) form, you will create a bill for this vendor and review how the withholding tax is applied to the document. You will then release the bill and pay it on the Checks and Payments (AP302000) form. Aer you release the payment, you will review the GL transaction generated by the system on the Journal Transactions (GL301000) form. Finally, on the Prepare Tax Report (TX501000) form, you will prepare the second revision of the 01-2026 report to include the withholding tax in it. You will release the new revision of the tax report on the Release Tax Report (TX502000) form and make sure that a tax bill has been generated by the system. 
 
 #### System Preparation 
 
@@ -6334,7 +6348,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _1/31/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _1/31/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -6344,11 +6358,11 @@ You can view any required tax-related information for a selected period or the d
 
 6. As a prerequisite activity, be sure that you have created the _FOREIGN_ tax zone on the _Tax Zones_ (TX206000)     form as described in _Direct Tax Payment: To Create a Tax Bill for a Tax Agency_. 
 
-7. As a prerequisite activity, be sure that you have created the _WITHHOLD_ tax category on the _Tax Categories_     (TX205500) form as described in _Withholding Taxes: Implementation Activity_. 
+7. As a prerequisite activity, be sure that you have created the _WITHHOLDING_ tax category on the _Tax_     _Categories_ (TX205500) form as described in _Withholding Taxes: Implementation Activity_. 
 
 
 <!-- PAGE_BREAK -->
- Processing AP Bills with Withholding Taxes | 139 
+ Processing AP Bills with Withholding Taxes | 140 
 
 #### Step 1: Updating the Vendor's Settings 
 
@@ -6376,9 +6390,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Vendor** : _MAPLELEAF_ 
 
-- **Date** : _1/31/2025_ (inserted by default) 
+- **Date** : _1/31/2026_ (inserted by default) 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Description** : Consulting services 
 
@@ -6392,11 +6406,11 @@ You can view any required tax-related information for a selected period or the d
 
 - **Account** : _81000_ 
 
-- **Tax Category** : _WITHHOLD_ (inserted by default) 
+- **Tax Category** : _WITHHOLDING_ (inserted by default) 
 
 4. On the form toolbar, click **Save**. 
 
-5. On the **Taxes** tab, review the tax that has been applied to the document.     The taxable amount is equal to the **Detail Total** of the bill. The system has calculated the $75 withholding     tax as 15% of the taxable amount, which is $500; the tax amount is already included in the amount of the     bill. 
+5. On the **Taxes** tab, review the tax that has been applied to the document.     The taxable amount is equal to the **Detail Total** of the bill. The system has calculated the $75 withholding     tax as 15% of the taxable amount, which is $500. The tax amount is already included in the amount of the     bill. 
 
 6. On the form toolbar, click **Remove Hold** and then click **Release** to release the bill. 
 
@@ -6408,7 +6422,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Processing AP Bills with Withholding Taxes | 140 
+ Processing AP Bills with Withholding Taxes | 141 
 
 #### Step 3: Creating a Payment for the Bill 
 
@@ -6422,9 +6436,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Cash Account** : _10200WH_ 
 
-- **Application Date** : _1/31/2025_ 
+- **Application Date** : _1/31/2026_ 
 
-- **Application Period** : _01-2025_ 
+- **Application Period** : _01-2026_ 
 
 3. On the form toolbar, click **Save**. 
 
@@ -6442,7 +6456,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Step 4: Preparing a New Revision of the Tax Report 
 
- To prepare the second revision of the tax report for 01-2025, do the following: 
+ To prepare the second revision of the tax report for 01-2026, do the following: 
 
 1. Open the _Prepare Tax Report_ (TX501000) form. 
 
@@ -6452,25 +6466,29 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _VATTAX_ 
 
-- **Tax Period** : _01-2025_ 
+- **Tax Period** : _01-2026_ 
 
-3. Review the tax report preview for the 01-2025 period. The withholding tax amount to be paid is reported. 
+3. Review the tax report preview for the 01-2026 period. The withholding tax amount to be paid is reported. 
 
 4. On the form toolbar, click **Prepare Tax Report**. The _Release Tax Report_ (TX502000) form opens. 
 
-5. Review the prepared report. Notice that the report includes all the amounts that were processed in the     01-2025 period. The _Tax Amount Payable_ line now includes the withholding tax to be paid. The **Revision** box     shows the number of the prepared tax report revision ( _2_ ). If needed, you can select a previous revision of the     tax report and review it. You can also review only the difference between the current and previous revision.     To do this, select the **Show Difference** check box. 
+5. Review the prepared report.     Notice that the report includes all the amounts that were processed in the 01-2026 period. The _Tax Amount_     _Payable_ line now includes the withholding tax to be paid. The **Revision** box shows the number of the     prepared tax report revision ( _2_ ). If needed, you can select a previous revision of the tax report and review it. 
 
 
 <!-- PAGE_BREAK -->
- Processing AP Bills with Withholding Taxes | 141 
+ Processing AP Bills with Withholding Taxes | 142 
+
+ You can review only the difference between the current and previous revision. To do this, select the Show Difference check box. 
 
 6. On the form toolbar, click **Release** to release the new revision of the prepared tax report. 
 
-7. Review the **AP Documents** tab. The system has generated one more bill on paying the $75 withholding tax     to the agency. 
+7. Review the **AP Documents** tab. 
+
+ The system has generated one more bill on paying the $75 withholding tax to the agency. 
 
 
 <!-- PAGE_BREAK -->
- Adjusting VAT for Early Payments | 142 
+ Adjusting VAT for Early Payments | 143 
 
 ## Adjusting VAT for Early Payments 
 
@@ -6500,13 +6518,13 @@ You can view any required tax-related information for a selected period or the d
 
 #### Using VAT for Accounts Receivable 
 
- In Acumatica ERP, when you initially enter a document (such as an invoice or credit memo), the system shows the VAT amount calculated on the full document amount, because when you enter an invoice, you may not know whether the discount will be taken. However, in the document, you specify the appropriate cash discount terms (in the Terms box), so the system calculates the discounted taxable amount and tax amount that can be applied if the terms are met. You can view these discounted amounts ( Tax on Discounted Price and Discounted Taxable Total ) in the Cash Discount Info section on the Financial tab of the Invoices and Memos (AR301000) form, or on the Totals tab of the Invoices (SO303000) form. 
+ In Acumatica ERP, when you initially enter a document (such as an invoice or credit memo), the system shows the VAT amount calculated on the full document amount, because when you enter an invoice, you may not know whether the discount will be taken. However, in the document, you specify the appropriate cash discount terms (in the Terms box), so the system calculates the discounted taxable amount and tax amount that can be applied if the terms are met. You can view these discounted amounts ( Tax on Discounted Price and Discounted Taxable Total ) in the Tax Totals section on the Taxes tab of the Invoices and Memos (AR301000) form, or on the Totals tab of the Invoices (SO303000) form. 
 
  If the invoice or credit memo is fully paid within the cash discount period—that is, if the payment for the document is released on the Payments and Applications (AR301000) form—then the cash discount is to be applied to that document. In this case, the system leaves the status of the document as Open and makes its balance equal to the appropriate cash discount amount (which has been specified in the Cash Discount box). This document appears in the list of documents on the Generate AR Tax Adjustments (AR504500) form. On this form, you should generate the credit memo or debit memo for the invoice in which the corresponding cash discount amount is specified. This tax adjustment will be automatically applied to the invoice, and aer that, this invoice will be Closed. 
 
 
 <!-- PAGE_BREAK -->
- Adjusting VAT for Early Payments | 143 
+ Adjusting VAT for Early Payments | 144 
 
  Aer you have generated a tax adjustment, the invoice will be closed automatically only if the Automatically Release Tax Adjustments check box is selected in the VAT Recalculation Settings section on the Accounts Receivable Preferences (AR101000) form. Otherwise, you need to release the tax adjustment on the Release AR Documents (AR501000) form manually. 
 
@@ -6524,7 +6542,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Adjusting VAT for Early Payments | 144 
+ Adjusting VAT for Early Payments | 145 
 
  Figure: Applying discounts for early payments 
 
@@ -6546,7 +6564,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Adjusting VAT for Early Payments | 145 
+ Adjusting VAT for Early Payments | 146 
 
  Depending on whether you clear or select the Consolidate Tax Adjustments by Customer check box on the Generate AR Tax Adjustments form before processing, you can generate a debit memo for each particular document or one credit memo for a group of documents with similar properties, such as branch, customer, customer location, currency, AR account (and AR subaccount, if applicable), and tax zone. 
 
@@ -6582,7 +6600,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Adjusting VAT for Early Payments | 146 
+ Adjusting VAT for Early Payments | 147 
 
  Form Criteria to Check 
 
@@ -6622,7 +6640,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Adjusting VAT for Early Payments | 147 
+ Adjusting VAT for Early Payments | 148 
 
  Account Source of Account Debit Credit 
 
@@ -6690,7 +6708,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Adjusting VAT for Early Payments | 148 
+ Adjusting VAT for Early Payments | 149 
 
 ### VAT for Early Payments: To Process a Payment with a Cash Discount 
 
@@ -6698,7 +6716,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that SweetLife Fruits & Jams provided four hours of training to Lake Cafe on January 15, 2025. On 1/17/2025, Lake Cafe paid the invoice in full and received a cash discount. Acting as a SweetLife accountant, you need to record an AR invoice, process a payment with a cash discount, and generate a VAT credit memo. 
+ Suppose that SweetLife Fruits & Jams provided four hours of training to Lake Cafe on January 15, 2026. On 1/17/2026, Lake Cafe paid the invoice in full and received a cash discount. Acting as a SweetLife accountant, you need to record an AR invoice, process a payment with a cash discount, and generate a VAT credit memo. 
 
 #### Configuration Overview 
 
@@ -6724,7 +6742,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _1/15/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _1/15/2026_. 
 
 3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -6736,7 +6754,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Adjusting VAT for Early Payments | 149 
+ Adjusting VAT for Early Payments | 150 
 
 #### Step 1: Updating the Settings of VAT 
 
@@ -6800,7 +6818,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Adjusting VAT for Early Payments | 150 
+ Adjusting VAT for Early Payments | 151 
 
 #### Step 6: Creating an AR Invoice 
 
@@ -6814,7 +6832,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Customer** : _LAKECAFE_ 
 
-- **Date** : _1/15/2025_ (inserted by default) 
+- **Date** : _1/15/2026_ (inserted by default) 
 
 - **Description** : Training (4 hours) 
 
@@ -6830,9 +6848,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Category** : _TAXABLE_ 
 
-4. Review the **Taxes** tab. The tax is applied to the full **Detail Total** amount. That is, the taxable amount of the     invoice is $700, and the calculated tax is $49. 
+4. Review the **Taxes** tab.     The tax is applied to the full **Detail Total** amount. That is, the taxable amount of the invoice is $700, and the     calculated tax is $49. 
 
-5. Go to the **Financial** tab and review the **Cash Discount Info** section. If the invoice is paid within the cash     discount period (10 days), the discounted taxable total for the document will be $679. The tax calculated on     this amount is $47.53. The document total with taxes will be $726.53. 
+5. Review the **Tax Totals** section on the **Taxes** tab.     If the invoice is paid within the cash discount period (10 days), the discounted taxable total for the     document will be $679. The tax calculated on this amount is $47.53. The document total with taxes will be     $726.53. 
 
 6. On the form toolbar, click **Remove Hold** and click **Release** to release the invoice. 
 
@@ -6854,7 +6872,7 @@ You can view any required tax-related information for a selected period or the d
 
 3. In the Summary area, specify the following settings: 
 
-- **Application Date** : _1/17/2025_ 
+- **Application Date** : _1/17/2026_ 
 
 - **Description** : Payment with discount 
 
@@ -6862,19 +6880,17 @@ You can view any required tax-related information for a selected period or the d
 
 - **Doc. Type** : _Invoice_ 
 
-- **Reference Nbr.** : The reference number of the invoice that you created in Step 6 
-
 
 <!-- PAGE_BREAK -->
- Adjusting VAT for Early Payments | 151 
+ Adjusting VAT for Early Payments | 152 
 
- The payment is within the cash discount period, so the Cash Discount Taken column shows the cash discount amount that will be taken by the customer for this invoice ($22.47). 
+- **Reference Nbr.** : The reference number of the invoice that you created in Step 6 The payment is within the cash discount period, so the **Cash Discount Taken** column shows the cash discount amount that will be taken by the customer for this invoice ($22.47). 
 
 5. On the form toolbar, click **Remove Hold** and click **Release** to release the payment. 
 
-6. In the table on the **Application History** tab, click the column header of the first column to open the **Column**     **Configuration** dialog box. In the dialog box, add the **Subject to Tax Adjustment** and **Tax Adjustment**     columns to the **Selected Columns** list, and click **OK**. 
+6. In the table on the **Application History** tab, click the column header of the first column to open the Column     Configuration dialog box. In the dialog box, select the **Subject to Tax Adjustment** and **Tax Adjustment**     check boxes to add these columns to the table and click **OK**. 
 
-7. Review the only line in the table. The selected check box in the **Subject to Tax Adjustment** column means     that the invoice specified in this line is subject to VAT adjustment, but the credit memo has not yet been     generated for the invoice, so the **Tax Adjustment** column is empty. 
+7. Review the only line in the table.     The selected check box in the **Subject to Tax Adjustment** column means that the invoice specified in this     line is subject to VAT adjustment, but the credit memo has not yet been generated for the invoice, so the **Tax**     **Adjustment** column is empty. 
 
 8. Click the link in the **Batch Number** column and review the generated GL transaction on the _Journal_     _Transactions_ (GL301000) form, which opens.     On release of the payment, the system generated the following entries: 
 
@@ -6892,7 +6908,7 @@ You can view any required tax-related information for a selected period or the d
 
 2. In the Summary area, specify the following settings: 
 
-- **Date** : _1/31/2025_ 
+- **Date** : _1/31/2026_ 
 
 - **Branch** : _HEADOFFICE_ (inserted by default) In the table, the system loads the invoice that you created in Step 6. 
 
@@ -6900,19 +6916,19 @@ You can view any required tax-related information for a selected period or the d
 
 4. Open the _Invoices and Memos_ (AR301000) form and open the invoice that you created in Step 6. 
 
-5. In the Summary area, review the invoice balance and on the **Applications** tab, review the list of documents     applied to the invoice. The invoice balance is now $0. The adjusting credit memo in the amount of $22.47     was automatically applied to the invoice and closed, because the **Automatically Release Tax Adjustments**     check box is selected on the _Accounts Receivable Preferences_ (AR101000) form. 
+5. In the Summary area, review the invoice balance and on the **Applications** tab, review the list of documents     applied to the invoice.     The invoice balance is now $0. The adjusting credit memo in the amount of $22.47 was automatically     applied to the invoice and closed, because the **Automatically Release Tax Adjustments** check box is     selected on the _Accounts Receivable Preferences_ (AR101000) form. 
 
 6. In the **Type** box of the Summary area, select _Credit Memo_ and open the adjusting credit memo. 
 
-7. Review the credit memo summary and the **Financial** tab. In the generated credit memo, the **Taxable Total**     (in the **VAT Totals** section) is $21, and the tax calculated on this amount is $1.47, which is shown in the **Tax**     **Total** box of the Summary area. This is the difference between the full tax amount posted on the release of     the invoice ($49) and the tax amount calculated on the discounted invoice amount ($47.53), which is shown     on the **Financial** tab of the _Invoices and Memos_ form for the invoice. 
-
-8. On the **Financial** tab, click the **Batch Nbr.** link and on the _Journal Transactions_ (GL301000) form, which     opens, review the generated GL transaction. 
+7. Review the credit memo summary and the **Financial** tab.     In the generated credit memo, the **Taxable Total** on the **Taxes** tab is $21. The tax calculated on this amount     is $1.47, which is shown in the **Tax Total** box. This is the difference between the full tax amount posted on 
 
 
 <!-- PAGE_BREAK -->
- Adjusting VAT for Early Payments | 152 
+ Adjusting VAT for Early Payments | 153 
 
- On release of the credit memo, the system generated the following entries: 
+ the release of the invoice ($49) and the tax amount calculated on the discounted invoice amount ($47.53), which is shown on the Financial tab of the Invoices and Memos form for the invoice. 
+
+8. On the **Financial** tab, click the **Batch Nbr.** link and on the _Journal Transactions_ (GL301000) form, which     opens, review the generated GL transaction.     On release of the credit memo, the system generated the following entries: 
 
 - The Accounts Receivable account of the customer ( _11000_ ) is credited in the amount of the given discount,     to close the invoice. 
 
@@ -6920,7 +6936,7 @@ You can view any required tax-related information for a selected period or the d
 
 - To decrease the accumulated output tax, the Tax Payable account ( _24100_ ) is debited in the amount of the     difference between the full tax amount posted on the release of the invoice and the tax calculated on the     discounted amount ($1.47 = $49 – $47.53). 
 
-9. On the _Payments and Applications_ (AR302000) form, open the payment that you have applied to the invoice. 10.Review the **Application History** tab. The **Tax Adjustment** column now shows the reference number of the     adjusting credit memo that was generated for the payment application. 
+9. On the _Payments and Applications_ (AR302000) form, open the payment that you have applied to the invoice. 10.Review the **Application History** tab.     The **Tax Adjustment** column now shows the reference number of the adjusting credit memo that was     generated for the payment application. 
 
 ### VAT for Early Payments: To Prepare a New Revision of VAT Tax Report 
 
@@ -6928,7 +6944,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that the SweetLife company has already prepared a VAT tax report for the 01-2025 period. Aer a company accountant has processed a payment of a taxable invoice with a cash discount, a VAT credit memo was generated, and the amount of the output VAT has changed. Acting as the SweetLife accountant, you need to prepare a new revision of the tax report for the 01-2025 period, which will include the amounts of the documents related to the payment of the invoice. 
+ Suppose that the SweetLife company has already prepared a VAT tax report for the 01-2026 period. Aer a company accountant has processed a payment of a taxable invoice with a cash discount, a VAT credit memo was generated, and the amount of the output VAT has changed. Acting as the SweetLife accountant, you need to prepare a new revision of the tax report for the 01-2026 period, which will include the amounts of the documents related to the payment of the invoice. 
 
 #### Configuration Overview 
 
@@ -6948,27 +6964,27 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _1/31/2025_. 
+
+<!-- PAGE_BREAK -->
+ Adjusting VAT for Early Payments | 154 
+
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _1/31/2026_. 
 
 3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
 4. As a prerequisite activity, be sure that you have created the _CANADA_ tax zone on the _Tax Zones_ (TX206000)     form as described in _Tax Zones and Categories: To Create a Tax Category and Tax Zone for VAT_. 
 
-
-<!-- PAGE_BREAK -->
- Adjusting VAT for Early Payments | 153 
-
 5. As a prerequisite activity, in the company to which you are signed in, be sure you have configured the _VATTAX_     tax agency as described in _Tax Agency: To Set Up a Tax Agency for VAT_. 
 
 6. As a prerequisite activity, be sure you have configured VAT on the _Taxes_ (TX205000) form as described in     _Value-Added Taxes: To Create a General VAT and Exempt VAT_. 
 
-7. As a prerequisite activity, in the company to which you are signed in, be sure that you have prepared and     released a VAT tax report for the _01-2025_ period as described in _Tax Report for VAT: Process Activity_. The     **Update Closed Tax Periods** check box is selected for the tax agency on the _Vendors_ form. 
+7. As a prerequisite activity, in the company to which you are signed in, be sure that you have prepared and     released a VAT tax report for the _01-2026_ period as described in _Tax Report for VAT: Process Activity_. The     **Update Closed Tax Periods** check box is selected for the tax agency on the _Vendors_ form. 
 
 8. As a prerequisite activity, in the company to which you are signed in, be sure that you have processed a     payment of an AR invoice and generated a VAT credit memo as described in _VAT for Early Payments: To_     _Process a Payment with a Cash Discount_. 
 
 #### Step 1: Preparing a VAT Tax Report 
 
- To prepare a VAT tax report for the 01-2025 period, do the following: 
+ To prepare a VAT tax report for the 01-2026 period, do the following: 
 
 1. Open the _Prepare Tax Report_ (TX501000) form. 
 
@@ -6978,7 +6994,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _VATTAX_ 
 
-- **Tax Period** : _01-2025_ Notice that some of the report lines now display the amounts of the taxable sales and the tax applied to it. 
+- **Tax Period** : _01-2026_ Notice that some of the report lines now display the amounts of the taxable sales and the tax applied to it. 
 
 3. On the form toolbar, click **Prepare Tax Report**. 
 
@@ -6996,7 +7012,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Sales Taxes | 154 
+ Preparing a Tax Report for Sales Taxes | 155 
 
 ## Preparing a Tax Report for Sales Taxes 
 
@@ -7022,7 +7038,7 @@ You can view any required tax-related information for a selected period or the d
 
  If your tenant contains multiple companies (and if a company type is With Branches Requiring Balancing ), you can prepare a tax report for each particular company or for a particular branch if you file taxes by branch—that is, if the File Taxes by Branch check box is selected for the company on the Companies (CS101500) form. If you report taxes by branches for a company, you need to prepare tax reports for all branches of the company and then close the tax period for the company. 
 
- To prepare a tax report for an open reporting period, on the Prepare Tax Report (TX501000) form, you should select the required company and branch (if you report taxes by branches), the tax agency, and the reporting period. You can select a period on this form if the Update Closed Tax Periods check box is selected for the tax agency on the Tax Agency Settings tab of the Vendors (AP303000) form. If the check box is cleared, the first open tax period is selected automatically by the system and disabled. 
+ To prepare a tax report for an open reporting period, on the Prepare Tax Report (TX501000) form, you should select the required company and branch (if you report taxes by branches), the tax agency, and the reporting period. You can select a period on this form if the Update Closed Tax Periods check box is selected for the tax agency on the Tax Agency tab of the Vendors (AP303000) form. If the check box is cleared, the first open tax period is selected automatically by the system and disabled. 
 
  All previous reporting periods must be closed. 
 
@@ -7032,7 +7048,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Sales Taxes | 155 
+ Preparing a Tax Report for Sales Taxes | 156 
 
  When you prepare the report for the first period of the tax year, the system generates periods with the Open status for this year. On the Tax Periods (TX207000) form, you can review the periods that have been generated by the process (or that will be generated if you select an upcoming year on the form). 
 
@@ -7058,13 +7074,13 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Sales Taxes | 156 
+ Preparing a Tax Report for Sales Taxes | 157 
 
 **_Figure: Tax reporting process_** 
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Sales Taxes | 157 
+ Preparing a Tax Report for Sales Taxes | 158 
 
 ### Tax Report Preparation: Tax Report for a Closed Period 
 
@@ -7100,7 +7116,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Sales Taxes | 158 
+ Preparing a Tax Report for Sales Taxes | 159 
 
 ### Tax Report Preparation: Process Activity 
 
@@ -7108,7 +7124,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that you, as an accountant of SweetLife Fruits & Jams, have to prepare and review a tax report for the 02-2025 tax period, and you will later release the report. 
+ Suppose that you, as an accountant of SweetLife Fruits & Jams, have to prepare and review a tax report for the 02-2026 tax period, and you will later release the report. 
 
 #### Configuration Overview 
 
@@ -7134,7 +7150,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/28/2025_. If a different date is displayed, click the Business Date     menu button and select _2/28/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/28/2026_. If a different date is displayed, click the Business Date     menu button and select _2/28/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -7152,11 +7168,11 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Sales Taxes | 159 
+ Preparing a Tax Report for Sales Taxes | 160 
 
- The table displays the report lines you have configured earlier, and the amounts accumulated for each report line in the current tax period ( 02-2025 ). The system displays a warning next to the Tax Period box that one or more tax transactions from the previous periods will be reported in the current period. This can happen if you create a taxable document with a document date that belongs to a closed tax period. The taxes calculated for the document will be included in the tax report for the current period because the tax agency to which you are reporting taxes has the Update Closed Tax Period check box cleared on the Tax Agency Settings tab of the Vendors (AP303000) form. 
+ The table displays the report lines you have configured earlier, and the amounts accumulated for each report line in the current tax period ( 02-2026 ). The system displays a warning next to the Tax Period box that one or more tax transactions from the previous periods will be reported in the current period. This can happen if you create a taxable document with a document date that belongs to a closed tax period. The taxes calculated for the document will be included in the tax report for the current period because the tax agency to which you are reporting taxes has the Update Closed Tax Period check box cleared on the Tax Agency Settings tab of the Vendors (AP303000) form. 
 
-3. On the form toolbar, click **Prepare Tax Report**.     The _02-2025_ tax period is assigned the _Prepared_ status (if necessary, you can review it in the **Status** column     on the _Tax Periods_ (TX207000) form). The system opens the _Release Tax Report_ (TX502000) form with the     prepared report. Before you release the report, you will review the documents that relate to different lines in     this tax report. 
+3. On the form toolbar, click **Prepare Tax Report**.     The _02-2026_ tax period is assigned the _Prepared_ status. (If necessary, you can review it in the **Status** column     on the _Tax Periods_ (TX207000) form). The system opens the _Release Tax Report_ (TX502000) form with the     prepared report. Before you release the report, you will review the documents that relate to different lines in     this tax report. 
 
 #### Step 2: Reviewing the Documents in the Report Lines 
 
@@ -7164,7 +7180,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. While you are still viewing the report on the _Release Tax Report_ (TX502000) form, click the link in the     **Amount** column of the _Taxable Sales_ row to review the amounts that have been included in this line.     The _Tax Report Details_ (TX502010) form opens. 
 
-2. On this form, review the documents shown in the table.     This tax report shows the documents of the SweetLife company, including taxable amounts and tax     amounts. On the form, you can see the taxable sale documents of the SweetLife company included in the     tax report for February 2025. For each document, you can review the tax and taxable amounts. 
+2. On this form, review the documents shown in the table.     This tax report shows the documents of the SweetLife company, including taxable amounts and tax     amounts. On the form, you can see the taxable sale documents of the SweetLife company included in the     tax report for February 2026. For each document, you can review the tax and taxable amounts. 
 
  You will not release this report at this time. 
 
@@ -7184,7 +7200,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Sales Taxes | 160 
+ Preparing a Tax Report for Sales Taxes | 161 
 
 ### Tax Report Preparation: To Prepare a Tax Report for a Closed Tax Period 
 
@@ -7222,7 +7238,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Voiding a Tax Report for Sales Taxes | 161 
+ Voiding a Tax Report for Sales Taxes | 162 
 
 ## Voiding a Tax Report for Sales Taxes 
 
@@ -7270,7 +7286,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Voiding a Tax Report for Sales Taxes | 162 
+ Voiding a Tax Report for Sales Taxes | 163 
 
 ### Voiding of a Sales Tax Report: Process Activity 
 
@@ -7278,7 +7294,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that while reviewing the prepared tax report (which you had not yet released), you realize that the report is missing one invoice for Morning Cafe, which has to be dated February 28, 2025. 
+ Suppose that while reviewing the prepared tax report (which you had not yet released), you realize that the report is missing one invoice for Morning Cafe, which has to be dated February 28, 2026. 
 
  To report its tax amount, acting as a SweetLife accountant, you need to void the tax report, process the needed invoice, and again prepare the tax report. 
 
@@ -7300,7 +7316,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Process Overview 
 
- In this activity, on the Release Tax Report (TX502000) form, you will void the tax report that has been prepared for 02-2025 but has not been released. On the Invoices and Memos (AR301000) form, you will create and release an AR invoice that should update the tax report. You then prepare the tax report for the 02-2025 period again on the Prepare Tax Report (TX501000) form. 
+ In this activity, on the Release Tax Report (TX502000) form, you will void the tax report that has been prepared for 02-2026 but has not been released. On the Invoices and Memos (AR301000) form, you will create and release an AR invoice that should update the tax report. You then prepare the tax report for the 02-2026 period again on the Prepare Tax Report (TX501000) form. 
 
 #### System Preparation 
 
@@ -7308,7 +7324,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/28/2025_. If a different date is displayed, click the Business Date     menu button and select _2/28/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/28/2026_. If a different date is displayed, click the Business Date     menu button and select _2/28/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -7316,7 +7332,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Voiding a Tax Report for Sales Taxes | 163 
+ Voiding a Tax Report for Sales Taxes | 164 
 
 #### Step 1: Updating the Tax Zone 
 
@@ -7328,9 +7344,11 @@ You can view any required tax-related information for a selected period or the d
 
 3. On the **Applicable Taxes** tab, remove _NYINCTAX_ from the table as you no longer need it. 
 
-4. Click **Add Row** and add the _NYSTATETAX_ tax. Then, add a row with the _NYNOTAX_ tax. 
+4. Click **Add Row** and add the _NYSTATETAX_ tax. 
 
-5. On the form toolbar, click **Save** to save your changes. 
+5. Click **Add Row** again and add a row with the _NYNOTAX_ tax. 
+
+6. On the form toolbar, click **Save** to save your changes. 
 
 #### Step 2: Voiding the Tax Report 
 
@@ -7344,9 +7362,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _NYTAXDEP_ 
 
-- **Tax Period** : _02-2025_ 
+- **Tax Period** : _02-2026_ 
 
-3. On the form toolbar, click **Void Report**.     The system voids the prepared tax report for the _02-2025_ period, so that the tax period becomes open again,     and the _Prepare Tax Report_ (TX501000) form opens. (If necessary, you can review the status of the tax period     in the **Status** column on the _Tax Periods_ (TX207000) form.) 
+3. On the form toolbar, click **Void Report**.     The system voids the prepared tax report for the _02-2026_ period, so that the tax period becomes open again,     and the _Prepare Tax Report_ (TX501000) form opens. (If necessary, you can review the status of the tax period     in the **Status** column on the _Tax Periods_ (TX207000) form.) 
 
 #### Step 3: Creating an Invoice with a Sales Tax 
 
@@ -7356,19 +7374,19 @@ You can view any required tax-related information for a selected period or the d
 
  To open the form for creating a new record, type the form ID in the Search box, and on the Search form, point at the form title and click New right of the title. 
 
-2. On the form toolbar, click **Add New Record** , and specify the following settings in the Summary area: 
+2. On the form toolbar, click **Add New Record** and specify the following settings in the Summary area: 
 
 - **Type** : _Invoice_ 
 
 - **Customer** : _MORNINGCAF_ 
 
-- **Date** : _2/28/2025_ (inserted by default) 
+- **Date** : _2/28/2026_ (inserted by default) 
 
-- **Post Period** : _02-2025_ (inserted by default) 
+- **Post Period** : _02-2026_ (inserted by default) 
 
 - **Description** : Online training 
 
-3. On the **Details** tab, click **Add Row** , and specify the following settings for the added row: 
+3. On the **Details** tab, click **Add Row** and specify the following settings for the added row: 
 
 - **Branch** : _HEADOFFICE_ 
 
@@ -7380,9 +7398,9 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Voiding a Tax Report for Sales Taxes | 164 
+ Voiding a Tax Report for Sales Taxes | 165 
 
-4. On the form toolbar, click **Remove Hold** to give the invoice the _Balanced_ status, then click **Release** to     release the invoice. 
+4. On the form toolbar, click **Remove Hold** to give the invoice the _Balanced_ status and then click **Release** to     release the invoice. 
 
 5. Review the **Taxes** tab. Notice that the _NYSTATETAX_ has been applied to the invoice. 
 
@@ -7398,9 +7416,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _NYTAXDEP_ Notice that the report amounts have been updated by the invoice. 
 
-3. On the form toolbar, click **Prepare Tax Report** to again prepare the report for the _02-2025_ period. The     _02-2025_ tax period is again assigned the _Prepared_ status, and the system opens the _Release Tax Report_     (TX502000) form with the prepared report. (If necessary, you can review the tax period status in the **Status**     column on the _Tax Periods_ (TX207000) form.) 
+3. On the form toolbar, click **Prepare Tax Report** to again prepare the report for the _02-2026_ period.     The _02-2026_ tax period is again assigned the _Prepared_ status, and the system opens the _Release Tax Report_     (TX502000) form with the prepared report. (If necessary, you can review the tax period status in the **Status**     column on the _Tax Periods_ (TX207000) form.) 
 
-4. While you are viewing the report on this form, click the link in the **Amount** column of the _Tax Total_ row to     review the documents that updated this line in _02-2025_. The invoice to Morning Cafe that you created in     Step 3 is now shown in the table. 
+4. While you are viewing the report on this form, click the link in the **Amount** column of the _Tax Total_ row to     review the documents that updated this line in _02-2026_. The invoice to Morning Cafe that you created in     Step 3 is now shown in the table. 
 
 ### Voiding of a Sales Tax Report: Related Reports and Inquiries 
 
@@ -7418,7 +7436,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Creating Sales Tax Adjustments | 165 
+ Creating Sales Tax Adjustments | 166 
 
 ## Creating Sales Tax Adjustments 
 
@@ -7458,7 +7476,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Creating Sales Tax Adjustments | 166 
+ Creating Sales Tax Adjustments | 167 
 
 - _Adjust Output_ : With this type of document, you can adjust the tax and taxable amounts for taxes with the     _Output_ type (for example, a sales tax). For details about the creation of such a tax, see _Sales Taxes: To Create_     _a Sales Tax for Use in AR_. 
 
@@ -7492,7 +7510,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Creating Sales Tax Adjustments | 167 
+ Creating Sales Tax Adjustments | 168 
 
 ### Sales Tax Adjustments: Generated Transactions 
 
@@ -7518,7 +7536,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that the chief accountant of SweetLife Fruits & Jams has found out that the Candyy Cafe company was liquidated and has become unable to pay the $167.87 invoice dated February 13, 2025. The managers of SweetLife have decided to write off this invoice as uncollectible. 
+ Suppose that the chief accountant of SweetLife Fruits & Jams has found out that the Candyy Cafe company was liquidated and has become unable to pay the $167.87 invoice dated February 13, 2026. The managers of SweetLife have decided to write off this invoice as uncollectible. 
 
  Aer the bad debt expense is reported, you need to make a tax adjustment to deduct the tax on this invoice from the prepared tax report. 
 
@@ -7542,7 +7560,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Creating Sales Tax Adjustments | 168 
+ Creating Sales Tax Adjustments | 169 
 
  As a prerequisite to this activity, a tax report has been prepared, but not released, as described in Tax Report Preparation: Process Activity. 
 
@@ -7576,19 +7594,19 @@ You can view any required tax-related information for a selected period or the d
 
 1. Sign in to the company with the _U100_ dataset as an accountant by using the _johnson_ username and the _123_     password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/28/2025_. If a different date is displayed, click the Business Date     menu button and select _2/28/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/28/2026_. If a different date is displayed, click the Business Date     menu button and select _2/28/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 3. Open the _Write Off Balances and Credits_ (AR505000) form. 
 
-4. In the Summary area of the form, specify the following settings: 
+4. In the Summary area, specify the following settings: 
 
 - **Type** : _Balance WO_ 
 
-- **Doc. Date** : _2/28/2025_ (inserted by default) 
+- **Doc. Date** : _2/28/2026_ (inserted by default) 
 
 - **Company/Branch** : _HEADOFFICE_ (inserted by default) 
 
-- **Post Period** : _02-2025_ (inserted by default) 
+- **Post Period** : _02-2026_ (inserted by default) 
 
 - **Customer** : _CANDYY_ 
 
@@ -7598,7 +7616,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Creating Sales Tax Adjustments | 169 
+ Creating Sales Tax Adjustments | 170 
 
  The invoice whose amount you have to write off appears in the table. Notice the reference number of the invoice; you will need it later. 
 
@@ -7630,13 +7648,13 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _NYTAXDEP_ 
 
-- **Tax Period** : _02-2025_ (inserted automatically) 
+- **Tax Period** : _02-2026_ (inserted automatically) 
 
-- **Date** : _2/28/2025_ (inserted automatically) 
+- **Date** : _2/28/2026_ (inserted automatically) 
 
-- **Description** : 02-2025 adjusted (bad debt tax deduction) 
+- **Description** : 02-2026 adjusted (bad debt tax deduction) 
 
-3. On the **Details** tab, click **Add Row** , and specify the following settings for two rows: 
+3. On the **Details** tab, click **Add Row** and specify the following settings for two rows: 
 
  Tax ID Taxable Amount 
 
@@ -7652,13 +7670,13 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Creating Sales Tax Adjustments | 170 
+ Creating Sales Tax Adjustments | 171 
 
 5. On the **Financial** tab, select _81010 - Bad Debts_ in the **Adjustment Account** box.     By default, the adjustment account is copied from the **Expense Account** settings specified for the tax agency     account on the _Vendors_ (AP303000) form. You override the default value for the account in this particular tax     adjustment to record the amounts to the bad debt deduction account. 
 
 6. In the **Amount** box in the Summary area, enter -12.87. 
 
-7. On the form toolbar, click **Remove Hold** , then click **Release** to release the tax adjustment. 
+7. On the form toolbar, click **Remove Hold** and then click **Release** to release the tax adjustment. 
 
 8. On the **Financial** tab, click the link in the **Batch Nbr.** box to review the transaction generated by the tax     adjustment on the _Journal Transactions_ (GL301000) form, which opens.     The transaction updates accounts as follows: 
 
@@ -7678,7 +7696,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _NYTAXDEP_ 
 
-- **Tax Period** : _02-2025_ (inserted by default) 
+- **Tax Period** : _02-2026_ (inserted by default) 
 
 3. Review the tax report. Notice that the tax report was updated automatically, so that you did not need to     void and regenerate it. Also notice the following updates: 
 
@@ -7700,7 +7718,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Creating Sales Tax Adjustments | 171 
+ Creating Sales Tax Adjustments | 172 
 
 #### Viewing the Details of a Tax Report 
 
@@ -7728,7 +7746,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Releasing a Sales Tax Report | 172 
+ Releasing a Sales Tax Report | 173 
 
 ## Releasing a Sales Tax Report 
 
@@ -7764,7 +7782,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Releasing a Sales Tax Report | 173 
+ Releasing a Sales Tax Report | 174 
 
 #### Generation of an AP Bill with a Cash Discount 
 
@@ -7812,7 +7830,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Releasing a Sales Tax Report | 174 
+ Releasing a Sales Tax Report | 175 
 
 ### Release of Sales Tax Report: Process Activity 
 
@@ -7820,7 +7838,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that you, as an accountant of SweetLife Fruits & Jams, have to release the tax report prepared for the 02-2025 tax period and generate an AP bill to be paid to the New York State Department of Revenue. 
+ Suppose that you, as an accountant of SweetLife Fruits & Jams, have to release the tax report prepared for the 02-2026 tax period and generate an AP bill to be paid to the New York State Department of Revenue. 
 
 #### Configuration Overview 
 
@@ -7846,7 +7864,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/28/2025_. If a different date is displayed, click the Business Date     menu button and select _2/28/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/28/2026_. If a different date is displayed, click the Business Date     menu button and select _2/28/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -7858,7 +7876,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Releasing a Sales Tax Report | 175 
+ Releasing a Sales Tax Report | 176 
 
 1. Open the _Release Tax Report_ (TX502000) form. 
 
@@ -7868,7 +7886,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _NYTAXDEP_ 
 
-- **Tax Period** : _02-2025_ (inserted automatically by the system) 
+- **Tax Period** : _02-2026_ (inserted automatically by the system) 
 
 3. On the form toolbar, click **Release**.     With the release of the tax report, the system closes the corresponding reporting period and generates an     AP bill, which contains the total tax amount that you must pay to the tax agency specified in the tax report.     The generated AP bill appears on the **AP Documents** tab. 
 
@@ -7888,9 +7906,9 @@ You can view any required tax-related information for a selected period or the d
 
 2. In the **Tax Agency** box, select _NYTAXDEP_. 
 
-3. Review the _02-2025_ tax period.     Notice that the tax period has the _Closed_ status, and the **Net Tax Amount** column shows the amount     accumulated in the line for which the **Net Tax** check box is selected on the **Report Lines** tab of the _Reporting_     _Settings_ (TX205100) form. 
+3. Review the _02-2026_ tax period.     Notice that the tax period has the _Closed_ status, and the **Net Tax Amount** column shows the amount     accumulated in the line for which the **Net Tax** check box is selected on the **Report Lines** tab of the _Reporting_     _Settings_ (TX205100) form. 
 
-4. Click the link in the **Net Tax Amount** column in the row with the _02-2025_ tax period and review the _Tax_     _Report Details_ (TX502010) form, which opens.     The amounts in the **Report Tax Amount** column add up to the **Net Tax Amount** on the _Tax Periods_ form. 
+4. Click the link in the **Net Tax Amount** column in the row with the _02-2026_ tax period and review the _Tax_     _Report Details_ (TX502010) form, which opens.     The amounts in the **Report Tax Amount** column add up to the **Net Tax Amount** on the _Tax Periods_ form. 
 
 #### Step 3: Reviewing the Tax Report Lines for the Closed Period 
 
@@ -7904,13 +7922,13 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _NYTAXDEP_ 
 
-- **Tax Period** : _02-2025_ 
+- **Tax Period** : _02-2026_ 
 
 3. On the form toolbar, click **Run Report** and review the generated report. 
 
 
 <!-- PAGE_BREAK -->
- Releasing a Sales Tax Report | 176 
+ Releasing a Sales Tax Report | 177 
 
 ### Release of Sales Tax Report: Related Reports and Inquiries 
 
@@ -7934,7 +7952,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Value-Added Taxes | 177 
+ Preparing a Tax Report for Value-Added Taxes | 178 
 
 ## Preparing a Tax Report for Value-Added Taxes 
 
@@ -7964,7 +7982,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Value-Added Taxes | 178 
+ Preparing a Tax Report for Value-Added Taxes | 179 
 
 #### Preparation of a Tax Report for an Open Reporting Period 
 
@@ -7974,11 +7992,11 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Value-Added Taxes | 179 
+ Preparing a Tax Report for Value-Added Taxes | 180 
 
  If your tenant contains multiple companies (and if a company type is With Branches Requiring Balancing ), you can prepare a tax report for each particular company or for a particular branch if you file taxes by branch—that is, if the File Taxes by Branch check box is selected for the company on the Companies (CS101500) form. If you report taxes by branches for a company, you need to prepare tax reports for all branches of the company and then close the tax period for the company. 
 
- To prepare a tax report for an open reporting period, on the Prepare Tax Report (TX501000) form, you should select the required company and branch (if you report taxes by branches), the tax agency, and the reporting period. You can select a period on this form if the Update Closed Tax Periods check box is selected for the tax agency on the Tax Agency Settings tab of the Vendors (AP303000) form. If the check box is cleared, the first open tax period is selected automatically by the system and disabled. 
+ To prepare a tax report for an open reporting period, on the Prepare Tax Report (TX501000) form, you should select the required company and branch (if you report taxes by branches), the tax agency, and the reporting period. You can select a period on this form if the Update Closed Tax Periods check box is selected for the tax agency on the Tax Agency tab of the Vendors (AP303000) form. If the check box is cleared, the first open tax period is selected automatically by the system and disabled. 
 
  All previous reporting periods must be closed. 
 
@@ -8008,7 +8026,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Value-Added Taxes | 180 
+ Preparing a Tax Report for Value-Added Taxes | 181 
 
  selected for the tax agency on the Tax Agency tab of the Vendors (AP303000) form, the system will generate AP bills when a tax report is released. 
 
@@ -8044,7 +8062,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Value-Added Taxes | 181 
+ Preparing a Tax Report for Value-Added Taxes | 182 
 
  Form Criteria to Check 
 
@@ -8094,7 +8112,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Value-Added Taxes | 182 
+ Preparing a Tax Report for Value-Added Taxes | 183 
 
 #### Validation of Configuration 
 
@@ -8134,7 +8152,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that at the end of January, 2025, SweetLife Fruits & Jams has to prepare a tax report and send it to the tax agency. When reporting VATs, the SweetLife company needs to pay to the tax authority the difference between the tax amount paid to vendors ( Input taxes) and the tax amount collected from customers ( Output taxes). The resulting amount should be specified in the AP bill generated for the tax agency. Acting as a SweetLife accountant, you need to prepare the tax report and release the report to close the 01-2025 tax period. 
+ Suppose that at the end of January, 2026, SweetLife Fruits & Jams has to prepare a tax report and send it to the tax agency. When reporting VATs, the SweetLife company needs to pay to the tax authority the difference between the tax amount paid to vendors ( Input taxes) and the tax amount collected from customers ( Output taxes). The resulting amount should be specified in the AP bill generated for the tax agency. Acting as a SweetLife accountant, you need to prepare the tax report and release the report to close the 01-2026 tax period. 
 
 #### Configuration Overview 
 
@@ -8146,13 +8164,13 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Value-Added Taxes | 183 
+ Preparing a Tax Report for Value-Added Taxes | 184 
 
 - On the _Tax Zones_ (TX206000) form, the _CANADA_ tax zone has been configured. 
 
 #### Process Overview 
 
- In this activity, you will first prepare a tax report for the 01-2025 period on the Prepare Tax Report (TX501000) form. On the Release Tax Report (TX502000) form, you will release the tax report and review its details on the Tax Report Details (TX502010) form. Finally, on the Bills and Adjustments (AP301000) form, you will review the bill generated for the tax agency and review the generated GL transaction on the Journal Transactions (GL301000) form. 
+ In this activity, you will first prepare a tax report for the 01-2026 period on the Prepare Tax Report (TX501000) form. On the Release Tax Report (TX502000) form, you will release the tax report and review its details on the Tax Report Details (TX502010) form. Finally, on the Bills and Adjustments (AP301000) form, you will review the bill generated for the tax agency and review the generated GL transaction on the Journal Transactions (GL301000) form. 
 
 #### System Preparation 
 
@@ -8160,7 +8178,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2025_. If a different date is displayed, click the Business Date     menu button and select _1/31/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2026_. If a different date is displayed, click the Business Date     menu button and select _1/31/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu button to view the list of branches that you have access to, and then     click _SweetLife Head Office and Wholesale Center_. 
 
@@ -8170,11 +8188,11 @@ You can view any required tax-related information for a selected period or the d
 
 6. As a prerequisite activity, in the company to which you are signed in, be sure you have configured a value     added tax as described in _Value-Added Taxes: To Create a General VAT and Exempt VAT_. 
 
-7. As a prerequisite activity, in the company to which you are signed in, be sure that you have created taxable     documents for 01-2025, as described in _AR Documents with VAT: To Process an AR Invoice_ , _AR Documents_     _with VAT: To Process a Credit Memo_ , _AP Documents with VAT: To Process an AP Bill_ , _AP Documents with VAT:_     _To Process a Debit Adjustment_ , _Cash Entries with Taxes: To Process a Cash Entry with VAT_ , _Taxable Sales with_     _Freight Charges: Process Activity_ , _Tax Entry from GL: Process Activity_ , _Direct Tax Payment: To Create a Tax Bill_     _for a Tax Agency_ , and _Direct Tax Payment: To Create an AP Bill with a Direct-Entry Tax_. 
+7. As a prerequisite activity, in the company to which you are signed in, be sure that you have created taxable     documents for 01-2026, as described in _AR Documents with VAT: To Process an AR Invoice_ , _AR Documents_     _with VAT: To Process a Credit Memo_ , _AP Documents with VAT: To Process an AP Bill_ , _AP Documents with VAT:_     _To Process a Debit Adjustment_ , _Cash Entries with Taxes: To Process a Cash Entry with VAT_ , _Taxable Sales with_     _Freight Charges: Process Activity_ , _Tax Entry from GL: Process Activity_ , _Direct Tax Payment: To Create a Tax Bill_     _for a Tax Agency_ , and _Direct Tax Payment: To Create an AP Bill with a Direct-Entry Tax_. 
 
 #### Step 1: Preparing a Tax Report 
 
- To prepare a tax report for January 2025, do the following: 
+ To prepare a tax report for January 2026, do the following: 
 
 1. Open the _Prepare Tax Report_ (TX501000) form. 
 
@@ -8182,13 +8200,13 @@ You can view any required tax-related information for a selected period or the d
 
 - **Company** : _SWEETLIFE_ 
 
-- **Tax Agency** : _VATTAX_ The table displays the report lines you have configured earlier, and the amounts accumulated for each report line in the current tax period ( _01-2025_ ). The tax amount that must be paid to the tax agency in the 01-2025 tax period is calculated as the _Total Output Tax_ minus the _Total Input Tax_ , and is reflected in the _Tax Amount Payable_ report line ($418.17). 
+- **Tax Agency** : _VATTAX_ The table displays the report lines you have configured earlier, and the amounts accumulated for each report line in the current tax period ( _01-2026_ ). The tax amount that must be paid to the tax agency in the 01-2026 tax period is calculated as the _Total Output Tax_ minus the _Total Input Tax_ , and is reflected in the _Tax Amount Payable_ report line ($418.17). 
 
-3. On the form toolbar, click **Prepare Tax Report**.     The _01-2025_ tax period is assigned the _Prepared_ status (if necessary, you can review it in the **Status** column     on the _Tax Periods_ (TX207000) form). The system opens the _Release Tax Report_ (TX502000) form with the 
+3. On the form toolbar, click **Prepare Tax Report**.     The _01-2026_ tax period is assigned the _Prepared_ status (if necessary, you can review it in the **Status** column     on the _Tax Periods_ (TX207000) form). The system opens the _Release Tax Report_ (TX502000) form with the 
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Value-Added Taxes | 184 
+ Preparing a Tax Report for Value-Added Taxes | 185 
 
  prepared report. Before you release the report, you will review the documents that relate to different lines in this tax report. 
 
@@ -8196,7 +8214,7 @@ You can view any required tax-related information for a selected period or the d
 
 5. On this form, review the documents shown in the table. The table lists the document lines to which output     taxes were applied. Notice that the credit memo that reduced the tax and taxable amounts is shown as well. 
 
-6. In the **Report Line** box, select _6 - Total Purchases_ , and review the documents.     The table lists the lines of the documents (bills, a debit adjustment, and a cash entry) processed in the     _01-2025_ period to which input taxes were applied. 
+6. In the **Report Line** box, select _6 - Total Purchases_ , and review the documents.     The table lists the lines of the documents (bills, a debit adjustment, and a cash entry) processed in the     _01-2026_ period to which input taxes were applied. 
 
 #### Step 2: Releasing the Tax Report and Closing the Tax Period 
 
@@ -8214,17 +8232,17 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _VATTAX_ 
 
-- **Tax Year** : _2025_ 
+- **Tax Year** : _2026_ 
 
-5. Review the _01-2025_ tax period.     The _01-2025_ tax period becomes closed and the **Net Tax Amount** column shows the amount accumulated     in the line for which the **Net Tax** check box is selected on the **Report Lines** tab of the _Reporting Settings_     (TX205100) form. 
+5. Review the _01-2026_ tax period.     The _01-2026_ tax period becomes closed and the **Net Tax Amount** column shows the amount accumulated     in the line for which the **Net Tax** check box is selected on the **Report Lines** tab of the _Reporting Settings_     (TX205100) form. 
 
- Tax amounts posted to the closed tax period will be reported in the next open period—in this case, in 02-2025. If you select the Update Closed Tax Periods check box for the tax agency on the Tax Agency tab of the Vendors (AP303000) form, then you will be able to prepare another revision of the tax report for the closed tax period. 
+ Tax amounts posted to the closed tax period will be reported in the next open period—in this case, in 02-2026. If you select the Update Closed Tax Periods check box for the tax agency on the Tax Agency tab of the Vendors (AP303000) form, then you will be able to prepare another revision of the tax report for the closed tax period. 
 
 6. Click the link in the **Net Tax Amount** column, and review the _Tax Report Details_ (TX502010) form.     The amounts in the **Report Tax Amount** column constitute the **Net Tax Amount** payable ($418.17). 
 
 7. Open the _Release Tax Report_ form again and review the **AP Documents** tab.     The table lists two AP bills: The first one is the manually created bill that pays the VAT on imported goods to     the tax agency (for details, see _Direct Tax Payment: To Create a Tax Bill for a Tax Agency_ ), and the second bill     is the bill generated on release of the tax report. 
 
-8. Click the link in the **Reference Nbr.** column of the second row, and review the bill generated to the tax     agency on release of the tax report.     The bill reports the taxes to be paid to and claimed from the tax agency. The accumulated output VAT is     $1,117.20 and the input VAT to be claimed is $699.03. The total amount to be paid in _01-2025_ is $418.17. 
+8. Click the link in the **Reference Nbr.** column of the second row, and review the bill generated to the tax     agency on release of the tax report.     The bill reports the taxes to be paid to and claimed from the tax agency. The accumulated output VAT is     $1,117.20 and the input VAT to be claimed is $699.03. The total amount to be paid in _01-2026_ is $418.17. 
 
 9. On the **Financial** tab, click the **Batch Nbr.** link and on the _Journal Transactions_ (GL301000) form, which     opens, review the generated GL transaction.     On release of the AP bill, the system generated the following entries: 
 
@@ -8234,7 +8252,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Preparing a Tax Report for Value-Added Taxes | 185 
+ Preparing a Tax Report for Value-Added Taxes | 186 
 
 - The Tax Payable account of the taxes ( _24100_ ) is debited in the accumulated output tax amount, so that     the balance of the account becomes $0.00 at the start of the next tax period. 
 
@@ -8258,7 +8276,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Deductible VAT | 186 
+ Applying a Deductible VAT | 187 
 
 ## Applying a Deductible VAT 
 
@@ -8294,7 +8312,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Deductible VAT | 187 
+ Applying a Deductible VAT | 188 
 
 ### Applying Deductible VAT: Implementation Checklist 
 
@@ -8334,7 +8352,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Deductible VAT | 188 
+ Applying a Deductible VAT | 189 
 
 - The following accounts payable settings should be specified on the **General** tab of the _Accounts Payable_     _Preferences_ (AP101000) form: 
 
@@ -8386,7 +8404,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Deductible VAT | 189 
+ Applying a Deductible VAT | 190 
 
 #### Transaction Generated for an AP Document (Expense Account) 
 
@@ -8422,7 +8440,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on February 1, 2025, SweetLife Fruits & Jams purchased office supplies to be used in the company's office. Further suppose that the company is allowed to deduct 40% of the taxes paid on these kinds of purchases from the tax amount paid to the tax authority. Acting as a SweetLife accountant, you need to process an AP bill and prepare a tax report for the 02-2025 period. 
+ Suppose that on February 1, 2026, SweetLife Fruits & Jams purchased office supplies to be used in the company's office. Further suppose that the company is allowed to deduct 40% of the taxes paid on these kinds of purchases from the tax amount paid to the tax authority. Acting as a SweetLife accountant, you need to process an AP bill and prepare a tax report for the 02-2026 period. 
 
 #### Configuration Overview 
 
@@ -8434,11 +8452,11 @@ You can view any required tax-related information for a selected period or the d
 
 #### Process Overview 
 
- In this activity, on the Vendors (AP303000) form, you will update the vendor's tax zone. On the Bills and Adjustments (AP301000) form, you will process an AP bill with a partially deductible VAT applied to it. Finally, on the Prepare Tax Report (TX501000) form, you will prepare a tax report for the 02-2025 period and review the prepared report on the Release Tax Report (TX502000) form. 
+ In this activity, on the Vendors (AP303000) form, you will update the vendor's tax zone. On the Bills and Adjustments (AP301000) form, you will process an AP bill with a partially deductible VAT applied to it. Finally, on the Prepare Tax Report (TX501000) form, you will prepare a tax report for the 02-2026 period and review the prepared report on the Release Tax Report (TX502000) form. 
 
 
 <!-- PAGE_BREAK -->
- Applying a Deductible VAT | 190 
+ Applying a Deductible VAT | 191 
 
 #### System Preparation 
 
@@ -8446,7 +8464,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _2/1/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _2/1/2026_. 
 
 3. On the company and branch selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -8484,9 +8502,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Vendor** : _CARTRIDGE_ 
 
-- **Date** : _2/1/2025_ (inserted by default) 
+- **Date** : _2/1/2026_ (inserted by default) 
 
-- **Post Period** : _02-2025_ 
+- **Post Period** : _02-2026_ 
 
 - **Description** : Office supplies 
 
@@ -8500,15 +8518,15 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Deductible VAT | 191 
+ Applying a Deductible VAT | 192 
 
-- **Tax Category** : _DEDUCT_ 
+- **Tax Category** : _DEDUCTIBLE_ 
 
 4. On the form toolbar, click **Save**. 
 
-5. On the **Financial** tab, review the **Vendor Tax Zone** box, which contains _CANADA_. 
+5. On the **Taxes** tab, review the **Vendor Tax Zone** box, which contains _CANADA_. 
 
-6. Review the **Taxes** tab. The total tax amount calculated by the specified tax rate is $52.50 ($350 * 0.15).     The **Tax Amount** of $21, which is 40% of the **Tax Total** , is to be claimed from the tax agency. The **Expense**     **Amount** of $31.50 is the non-deductible part of the VAT that is posted to the Tax Expense account. 
+6. Review the **Taxes** tab.     The total tax amount calculated by the specified tax rate is $52.50 ($350 * 0.15). The **Tax Amount** of $21,     which is 40% of the **Tax Total** , is to be claimed from the tax agency. The **Expense Amount** of $31.50 is the     non-deductible part of the VAT that is posted to the Tax Expense account. 
 
 7. On the form toolbar, click **Remove Hold** and click **Release** to release the bill. 
 
@@ -8524,7 +8542,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Step 3: Preparing a Tax Report 
 
- To prepare a tax report for the 02-2025 period, do the following: 
+ To prepare a tax report for the 02-2026 period, do the following: 
 
 1. Open the _Prepare Tax Report_ (TX501000) form. 
 
@@ -8534,7 +8552,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _VATVAR_ 
 
-- **Tax Period** : _02-2025_ (selected automatically) 
+- **Tax Period** : _02-2026_ (selected automatically) 
 
 3. On the form toolbar, click **Prepare Tax Report**. 
 
@@ -8544,7 +8562,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Reverse VAT | 192 
+ Applying a Reverse VAT | 193 
 
 ## Applying a Reverse VAT 
 
@@ -8586,7 +8604,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Reverse VAT | 193 
+ Applying a Reverse VAT | 194 
 
  Form Criteria to Check 
 
@@ -8626,7 +8644,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Reverse VAT | 194 
+ Applying a Reverse VAT | 195 
 
 ### Applying Reverse VAT: Generated Transactions 
 
@@ -8666,9 +8684,9 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on February 1, 2025, SweetLife Fruits & Jams purchased office supplies to be used in the company's office from Cartridge World Inc. Further suppose that the vendor is not registered with tax authorities for paying VAT. SweetLife Fruits & Jams will pay the VAT on the purchase and will later claim it from the tax agency. 
+ Suppose that on February 1, 2026, SweetLife Fruits & Jams purchased office supplies to be used in the company's office from Cartridge World Inc. Further suppose that the vendor is not registered with tax authorities for paying VAT. SweetLife Fruits & Jams will pay the VAT on the purchase and will later claim it from the tax agency. 
 
- Acting as a SweetLife accountant, you need to process an AP bill to which a reverse VAT is applied and prepare a tax report for the 02-2025 period to make sure that these amounts are reflected there correctly. 
+ Acting as a SweetLife accountant, you need to process an AP bill to which a reverse VAT is applied and prepare a tax report for the 02-2026 period to make sure that these amounts are reflected there correctly. 
 
 #### Configuration Overview 
 
@@ -8680,11 +8698,11 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Reverse VAT | 195 
+ Applying a Reverse VAT | 196 
 
 #### Process Overview 
 
- In this activity, on the Bills and Adjustments (AP301000) form, you will process an AP bill with a reverse VAT applied to it. On the Prepare Tax Report (TX501000) form, you will prepare a tax report for the 02-2025 period and review the prepared report on the Release Tax Report (TX502000) form. 
+ In this activity, on the Bills and Adjustments (AP301000) form, you will process an AP bill with a reverse VAT applied to it. On the Prepare Tax Report (TX501000) form, you will prepare a tax report for the 02-2026 period and review the prepared report on the Release Tax Report (TX502000) form. 
 
 #### System Preparation 
 
@@ -8692,7 +8710,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _2/1/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _2/1/2026_. 
 
 3. On the company and branch selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -8720,9 +8738,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Vendor** : _CARTRIDGE_ 
 
-- **Date** : _2/1/2025_ (inserted by default) 
+- **Date** : _2/1/2026_ (inserted by default) 
 
-- **Post Period** : _02-2025_ 
+- **Post Period** : _02-2026_ 
 
 - **Description** : Office supplies 
 
@@ -8734,15 +8752,15 @@ You can view any required tax-related information for a selected period or the d
 
 - **Account** : _81000 - Other Expenses_ 
 
-- **Tax Category** : _REVERSE_ 
+- **Tax Category** : _REVERSEVAT_ 
 
 
 <!-- PAGE_BREAK -->
- Applying a Reverse VAT | 196 
+ Applying a Reverse VAT | 197 
 
 4. On the form toolbar, click **Save**. 
 
-5. Review the **Taxes** tab. The applicable taxes with the same tax rate belong to groups of different types     ( _GVAT_ to the _Input_ group and _REVVAT_ to the _Output_ group), so the calculated tax amounts offset each other.     Thus, the document balance is not changed, and no tax is paid to the vendor. The recorded tax and taxable     amounts will be included in the tax report. The _REVVAT_ tax will later be paid to the tax authority and the _GVAT_     tax can be claimed, if this is allowed. 
+5. Review the **Taxes** tab.     The applicable taxes with the same tax rate belong to groups of different types ( _GENERALVAT_ to the _Input_     group and _REVERSEVAT_ to the _Output_ group), so the calculated tax amounts offset each other. Thus,     the document balance is not changed, and no tax is paid to the vendor. The recorded tax and taxable     amounts will be included in the tax report. The _REVERSEVAT_ tax will later be paid to the tax authority and the     _GENERALVAT_ tax can be claimed, if this is allowed. 
 
 6. On the form toolbar, click **Remove Hold** and click **Release** to release the bill. 
 
@@ -8752,13 +8770,13 @@ You can view any required tax-related information for a selected period or the d
 
 - The expense account specified in the document line ( _81000_ ) is debited in the amount of the line to record     the expenses. 
 
-- The Tax Claimable account specified for the input tax ( _17000_ ) is debited in the amount of the input tax     ( _GVAT_ ). 
+- The Tax Claimable account specified for the input tax ( _17000_ ) is debited in the amount of the input tax     ( _GENERALVAT_ ). 
 
-- The Tax Payable account specified for the output tax ( _24100_ ) is credited in the amount of the output tax     ( _REVVAT_ ). 
+- The Tax Payable account specified for the output tax ( _24100_ ) is credited in the amount of the output tax     ( _REVERSEVAT_ ). 
 
 #### Step 2: Preparing a Tax Report 
 
- To prepare a tax report for the 02-2025 period, do the following: 
+ To prepare a tax report for the 02-2026 period, do the following: 
 
 1. Open the _Prepare Tax Report_ (TX501000) form. 
 
@@ -8768,7 +8786,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _VATVAR_ 
 
-- **Tax Period** : _02-2025_ (selected automatically) 
+- **Tax Period** : _02-2026_ (selected automatically) 
 
 3. On the form toolbar, click **Prepare Tax Report**. 
 
@@ -8778,7 +8796,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Pending VAT | 197 
+ Applying a Pending VAT | 198 
 
 ## Applying a Pending VAT 
 
@@ -8822,7 +8840,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Pending VAT | 198 
+ Applying a Pending VAT | 199 
 
 - _On Payments_ : With this recognition method, the tax amount is recognized only when a payment is applied     to a document. The tax amount can be recognized fully or partially, depending on whether the applied     payment fully or partially covers the document amount. The partial tax amount to be recognized, if     applicable, is calculated proportionally to the payment applied to a document. You load the released     applications on the _Recognize Output VAT_ or _Recognize Input VAT_ form, and then initiate the recognition     process for one application or multiple applications. Each tax amount is recognized on the date when the     payment has been applied to document. 
 
@@ -8858,7 +8876,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Pending VAT | 199 
+ Applying a Pending VAT | 200 
 
 #### Recognition of Pending VAT on Payments 
 
@@ -8896,7 +8914,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Pending VAT | 200 
+ Applying a Pending VAT | 201 
 
 #### Workflow of the Pending VAT Recognition in AP 
 
@@ -8928,7 +8946,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Pending VAT | 201 
+ Applying a Pending VAT | 202 
 
  a. Creates a GL transaction for the original invoice and assigns the Closed status to the invoice. In the GL transaction, the pending VAT amount is credited to the Pending VAT Payable account. b. Creates a child AR invoice for each installment of the multiple-installment credit terms specified for the original invoice in the Terms box on the Invoices and Memos form. c. Releases the child AR invoices and for each child invoice creates a GL transaction with the amount of each installment. 
 
@@ -8962,7 +8980,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Pending VAT | 202 
+ Applying a Pending VAT | 203 
 
  Form Criteria to Check 
 
@@ -8998,7 +9016,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Pending VAT | 203 
+ Applying a Pending VAT | 204 
 
 ### Applying a Pending VAT: Generated Transactions 
 
@@ -9054,7 +9072,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Pending VAT | 204 
+ Applying a Pending VAT | 205 
 
  Table: Pending Output VAT 
 
@@ -9088,21 +9106,21 @@ You can view any required tax-related information for a selected period or the d
 
  This section provides an example of the GL transactions that the system generates when it processes an AR invoice that is subject to pending VAT. 
 
- Suppose your company issues a $1,000 invoice dated 01/01/2025 for services. The services are subject to a 7% VAT. When this invoice is released in the system, the system creates the following entries in the general ledger. 
+ Suppose your company issues a $1,000 invoice dated 01/01/2026 for services. The services are subject to a 7% VAT. When this invoice is released in the system, the system creates the following entries in the general ledger. 
 
-**Account** (^) **Date Debit Credit** Accounts Receivable account 01/01/2025 1,070.00 0.00 Sales account 01/01/2025 0.00 1,000.00 Pending Tax Payable account 01/01/2025 0.00 70.00 On 01/31/2025, you run the VAT recognition process. The system generates the following GL transaction once the VAT recognition is completed. **Account** (^) **Date Debit Credit** Pending Tax Payable account 01/31/2025 70.00 0.00 Tax Payable account 01/31/2025 0.00 70.00 You can view the generated GL transactions on the _Journal Transactions_ (GL301000) form by using the **Batch Number** link available in the table. The amounts posted to the Tax Payable or Tax Claimable account will be included in the tax report, which you create it on the _Prepare Tax Report_ (TX501000) form. 
+**Account** (^) **Date Debit Credit** Accounts Receivable account 01/01/2026 1,070.00 0.00 Sales account 01/01/2026 0.00 1,000.00 Pending Tax Payable account 01/01/2026 0.00 70.00 On 01/31/2026, you run the VAT recognition process. The system generates the following GL transaction once the VAT recognition is completed. **Account** (^) **Date Debit Credit** Pending Tax Payable account 01/31/2026 70.00 0.00 Tax Payable account 01/31/2026 0.00 70.00 You can view the generated GL transactions on the _Journal Transactions_ (GL301000) form by using the **Batch Number** link available in the table. The amounts posted to the Tax Payable or Tax Claimable account will be included in the tax report, which you create it on the _Prepare Tax Report_ (TX501000) form. 
 
 
 <!-- PAGE_BREAK -->
- Applying a Pending VAT | 205 
+ Applying a Pending VAT | 206 
 
 #### Example of GL Transactions Generated When Partial Payment Has Been Applied 
 
  This section provides an example of the GL transactions that the system generates when a partial payment has been applied and recognized. 
 
- Suppose your company issues a $1,000 invoice dated 01/01/2025 for services. The services are subject to a 7% VAT, which should be recognized aer the payment is received. When this invoice is recorded in the system, the system creates the following entries in the general ledger. 
+ Suppose your company issues a $1,000 invoice dated 01/01/2026 for services. The services are subject to a 7% VAT, which should be recognized aer the payment is received. When this invoice is recorded in the system, the system creates the following entries in the general ledger. 
 
-**Account** (^) **Date Debit Credit** Accounts Receivable account 01/01/2025 1,070.00 0.00 Pending Tax Payable account 01/01/2025 0.00 70.00 Services account 01/01/2025 0.00 1,000.00 On 01/20/2025, the customer pays $535, which is half of the amount it must pay for the services plus the $35 VAT amount (7% of $500). This VAT amount must be recognized and posted to the general ledger once this payment is processed. As a result, the system creates the following entries in the general ledger. **Account** (^) **Date Debit Credit** Pending Tax Payable account 01/20/2025 35.00 0.00 Tax Payable account 01/20/2025 0.00 35.00 The tax report that is generated at the end of the period, on 01/31/2025, will include $35 of output VAT and $535 of taxable sales. If the _Multicurrency Accounting_ feature is enabled on the _Enable/Disable Features_ (CS100000) form, the system generates recognition entries in the currency of the document being paid by using the document's exchange rate. 
+**Account** (^) **Date Debit Credit** Accounts Receivable account 01/01/2026 1,070.00 0.00 Pending Tax Payable account 01/01/2026 0.00 70.00 Services account 01/01/2026 0.00 1,000.00 On 01/20/2026, the customer pays $535, which is half of the amount it must pay for the services plus the $35 VAT amount (7% of $500). This VAT amount must be recognized and posted to the general ledger once this payment is processed. As a result, the system creates the following entries in the general ledger. **Account** (^) **Date Debit Credit** Pending Tax Payable account 01/20/2026 35.00 0.00 Tax Payable account 01/20/2026 0.00 35.00 The tax report that is generated at the end of the period, on 01/31/2026, will include $35 of output VAT and $535 of taxable sales. If the _Multicurrency Accounting_ feature is enabled on the _Enable/Disable Features_ (CS100000) form, the system generates recognition entries in the currency of the document being paid by using the document's exchange rate. 
 
 ### Applying a Pending VAT: To Apply a Pending VAT to an AR Invoice 
 
@@ -9110,13 +9128,13 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on February 25, 2025, SweetLife Fruits & Jams issued an invoice for 10 hours of training ($1,750 total) to Mint Store Inc. Then the customer provided two partial payments for this invoice: $350 on March 1, 2025 and $600 on March 12, 2025. The tax amount calculated on this invoice needs to be recognized on the payment dates, based on the payment amounts. 
+ Suppose that on February 25, 2026, SweetLife Fruits & Jams issued an invoice for 10 hours of training ($1,750 total) to Mint Store Inc. Then the customer provided two partial payments for this invoice: $350 on March 1, 2026 and $600 on March 12, 2026. The tax amount calculated on this invoice needs to be recognized on the payment dates, based on the payment amounts. 
 
- Acting as a SweetLife accountant, you need to process an AR invoice, prepare and release a tax report for February 2025, create the two partial payments for this invoice, recognize the VAT amounts, and reconcile the balance of the Pending Tax Payable account. 
+ Acting as a SweetLife accountant, you need to process an AR invoice, prepare and release a tax report for February 2026, create the two partial payments for this invoice, recognize the VAT amounts, and reconcile the balance of the Pending Tax Payable account. 
 
 
 <!-- PAGE_BREAK -->
- Applying a Pending VAT | 206 
+ Applying a Pending VAT | 207 
 
 #### Configuration Overview 
 
@@ -9130,7 +9148,7 @@ You can view any required tax-related information for a selected period or the d
 
 #### Process Overview 
 
- In this activity, on the Invoices and Memos (AR301000) form, you will create an AR invoice with a pending VAT. On the Prepare Tax Report (TX501000) form, you will prepare a tax report for the 02-2025 period and make sure that the pending VAT amount is not shown in the tax report. On the Payments and Applications (AR302000) form, you will create two partial payments for the invoice in the 03-2025 period. On the Recognize Output VAT (TX503000) form, you will recognize the pending output VAT for the 03-2025 and review the generated transactions on the Journal Transactions (GL301000) form. On the Prepare Tax Report form, you will prepare a tax report for the 03-2025 tax period and review the pending VAT amount on this report. You will release the tax report on the Release Tax Report (TX502000) form. Finally, you will reconcile the balance of the Pending Tax Payable account by comparing the amounts on the Account Summary (GL401000) form and in the report that you will run on the VAT Pending Recognition (TX631000) form. 
+ In this activity, on the Invoices and Memos (AR301000) form, you will create an AR invoice with a pending VAT. On the Prepare Tax Report (TX501000) form, you will prepare a tax report for the 02-2026 period and make sure that the pending VAT amount is not shown in the tax report. On the Payments and Applications (AR302000) form, you will create two partial payments for the invoice in the 03-2026 period. On the Recognize Output VAT (TX503000) form, you will recognize the pending output VAT for the 03-2026 and review the generated transactions on the Journal Transactions (GL301000) form. On the Prepare Tax Report form, you will prepare a tax report for the 03-2026 tax period and review the pending VAT amount on this report. You will release the tax report on the Release Tax Report (TX502000) form. Finally, you will reconcile the balance of the Pending Tax Payable account by comparing the amounts on the Account Summary (GL401000) form and in the report that you will run on the VAT Pending Recognition (TX631000) form. 
 
 #### System Preparation 
 
@@ -9138,7 +9156,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _2/25/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _2/25/2026_. 
 
 3. On the company and branch selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -9160,7 +9178,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Applying a Pending VAT | 207 
+ Applying a Pending VAT | 208 
 
  To open the form for creating a new record, type the form ID in the Search box, and on the Search form, point at the form title and click New right of the title. 
 
@@ -9170,9 +9188,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Vendor** : _MINTSTORE_ 
 
-- **Date** : _2/25/2025_ (inserted by default) 
+- **Date** : _2/25/2026_ (inserted by default) 
 
-- **Post Period** : _02-2025_ 
+- **Post Period** : _02-2026_ 
 
 - **Description** : Training 
 
@@ -9190,13 +9208,13 @@ You can view any required tax-related information for a selected period or the d
 
 4. On the form toolbar, click **Save**. 
 
-5. On the **Financial** tab, review the **Customer Tax Zone** box. The _CANADA_ tax zone to which the customer is     assigned is specified in the document. 
+5. On the **Taxes** tab, review the **Customer Tax Zone** box. The _CANADA_ tax zone to which the customer is     assigned is specified in the document. 
 
-6. Review the **Taxes** tab. The calculated pending VAT is $122.50. This tax amount will be posted to the Pending     Tax Payable account on release of the invoice. 
+6. Review the table on the **Taxes** tab.     The calculated pending VAT is $122.50. This tax amount will be posted to the Pending Tax Payable account     on release of the invoice. 
 
 7. On the form toolbar, click **Remove Hold** and click **Release** to release the invoice. 
 
-8. On the **Financial** tab, click the **Batch Nbr.** link and on the _Journal Transactions_ (GL301000) form, which     opens, review the generated GL transaction. On release of the invoice, the system generated the following     entries: 
+8. On the **Financial** tab, click the **Batch Nbr.** link and on the _Journal Transactions_ (GL301000) form, which     opens, review the generated GL transaction.     On release of the invoice, the system generated the following entries: 
 
 - The Accounts Receivable account of the customer ( _11000_ ) is debited in the total amount of the invoice     (the line amount plus the calculated taxes). 
 
@@ -9204,9 +9222,9 @@ You can view any required tax-related information for a selected period or the d
 
 - The Pending Tax Payable account ( _24200_ ) is credited in the calculated tax amount. 
 
-#### Step 2: Preparing and Releasing a Tax Report for the 02-2025 Period 
+#### Step 2: Preparing and Releasing a Tax Report for the 02-2026 Period 
 
- To prepare and release a tax report for 02-2025 , do the following: 
+ To prepare and release a tax report for 02-2026 , do the following: 
 
 1. Open the _Prepare Tax Report_ (TX501000) form. 
 
@@ -9216,21 +9234,19 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _VATVAR_ 
 
-- **Tax Period** : _02-2025_ (selected automatically) 
+- **Tax Period** : _02-2026_ (selected automatically) 
 
 3. On the form toolbar, click **Prepare Tax Report**. 
 
-4. On the _Release Tax Report_ (TX502000) form, which opens, review the prepared tax report. The pending VAT     amount has not yet been recognized, and thus is not displayed in the tax report. 
+4. On the _Release Tax Report_ (TX502000) form, which opens, review the prepared tax report.     The pending VAT amount has not yet been recognized, and thus is not displayed in the tax report. 
 
-5. On the form toolbar, click **Release** to release the tax report and close the _02-2025_ tax period. The customer     will pay the invoice in the _03-2025_ period, so the pending VAT should be recognized in the next month. No     more taxable documents need to be processed in this tax period. 
-
-6. On the **AP Documents** tab, click the link in the **Reference Nbr.** column in the only line, and on the _Bills_     _and Adjustments_ (AP301000) form, which opens, review the generated document. On release of the tax 
+5. On the form toolbar, click **Release** to release the tax report and close the _02-2026_ tax period.     The customer will pay the invoice in the _03-2026_ period, so the pending VAT should be recognized in the next     month. No more taxable documents need to be processed in this tax period. 
 
 
 <!-- PAGE_BREAK -->
- Applying a Pending VAT | 208 
+ Applying a Pending VAT | 209 
 
- report, the system created the debit adjustment because the Tax Claimable amount exceeds the Tax Payable amount by $21, which has to be returned to SweetLife. 
+6. On the **AP Documents** tab, click the link in the **Reference Nbr.** column in the only line, and on the _Bills and_     _Adjustments_ (AP301000) form, which opens, review the generated document.     On release of the tax report, the system created a debit adjustment because the Tax Claimable amount     exceeds the Tax Payable amount by $21, which has to be returned to SweetLife. 
 
 #### Step 3: Creating Partial Payments for the Invoice 
 
@@ -9244,9 +9260,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Customer** : _MINTSTORE_ 
 
-- **Application Date** : _3/1/2025_ 
+- **Application Date** : _3/1/2026_ 
 
-- **Application Period** : _03-2025_ 
+- **Application Period** : _03-2026_ 
 
 - **Payment Method** : _WIRE_ 
 
@@ -9268,9 +9284,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Customer** : _MINTSTORE_ 
 
-- **Application Date** : _3/12/2025_ 
+- **Application Date** : _3/12/2026_ 
 
-- **Application Period** : _03-2025_ 
+- **Application Period** : _03-2026_ 
 
 - **Payment Method** : _WIRE_ 
 
@@ -9288,17 +9304,17 @@ You can view any required tax-related information for a selected period or the d
 
 1. Open the _Recognize Output VAT_ (TX503000) form. 
 
-2. In the Summary area, specify the following settings: 
-
 
 <!-- PAGE_BREAK -->
- Applying a Pending VAT | 209 
+ Applying a Pending VAT | 210 
 
-- **Date** : _3/31/2025_ 
+2. In the Summary area, specify the following settings: 
+
+- **Date** : _3/31/2026_ 
 
 - **Company/Branch** : _SWEETLIFE_ 
 
-- **Tax Agency** : _VATVAR_ The payment applications to invoices subject to pending output VAT with an application date not later than 3/31/2025 are loaded to the form. Both payments applied to the invoice that you have processed earlier are listed on the form. The **Tax Amount** column shows the amounts that can be recognized: 
+- **Tax Agency** : _VATVAR_ The payment applications to invoices subject to pending output VAT with an application date not later than 3/31/2026 are loaded to the form. Both payments applied to the invoice that you have processed earlier are listed on the form. The **Tax Amount** column shows the amounts that can be recognized: 
 
 - The amount of the first payment applied to the invoice is $350. This amount includes the tax, so the     taxable amount is $327.10 and the pending tax amount to be recognized is $22.90. 
 
@@ -9308,15 +9324,15 @@ You can view any required tax-related information for a selected period or the d
 
 4. On the form toolbar, click **Process** to recognize the taxes for the selected documents. 
 
-5. In the **Processing** dialog box, click the links in the **Batch Number** column and review the generated GL     transactions on the _Journal Transactions_ (GL301000) form. When the pending VAT was recognized, the     system generated two GL transactions with the following entries: 
+5. In the **Processing** dialog box, click the links in the **Batch Number** column and review the generated GL     transactions on the _Journal Transactions_ (GL301000) form.     When the pending VAT was recognized, the system generated two GL transactions with the following entries: 
 
 - The Pending Tax Payable account ( _24200_ ) is debited in the recognized tax amount to decrease the     pending VAT. 
 
 - The Tax Payable account ( _24100_ ) is credited in the recognized tax amount to increase the tax amount to     be paid to the agency. 
 
-#### Step 5: Preparing and Releasing a Tax Report for the 03-2025 Period 
+#### Step 5: Preparing and Releasing a Tax Report for the 03-2026 Period 
 
- To prepare and release the tax report for the 03-2025 period, do the following: 
+ To prepare and release the tax report for the 03-2026 period, do the following: 
 
 1. Open the _Prepare Tax Report_ (TX501000) form. 
 
@@ -9326,23 +9342,23 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _VATVAR_ 
 
-- **Tax Period** : _03-2025_ (selected automatically) 
+- **Tax Period** : _03-2026_ (selected automatically) 
 
 3. On the form toolbar, click **Prepare Tax Report**. 
 
-4. On the _Release Tax Report_ (TX502000) form, which opens, review the prepared tax report. The amount of     the pending VAT that had been recognized is reported in the _03-2025_ period. 
+4. On the _Release Tax Report_ (TX502000) form, which opens, review the prepared tax report.     The amount of the pending VAT that had been recognized is reported in the _03-2026_ period. 
 
-5. Click the link in the _5 - Pending Output VAT_ line, and on the _Tax Report Details_ (TX502010) form, review     the documents that updated this report line: These are the GL transactions that were generated by the     recognition process on the _Recognize Output VAT_ (TX503000) form. The **Tran. Date** column shows the     payment dates; the **Ref. Nbr.** column shows the reference numbers of the appropriate payments, based on     the _VATVAR_ tax agency settings. 
+5. Click the link in the _5 - Pending Output VAT_ line, and on the _Tax Report Details_ (TX502010) form, review     the documents that updated this report line: These are the GL transactions that were generated by the     recognition process on the _Recognize Output VAT_ (TX503000) form.     The **Tran. Date** column shows the payment dates. The **Ref. Nbr.** column shows the reference numbers of     the appropriate payments, based on the _VATVAR_ tax agency settings. 
 
  Pending taxes are reported in the period in which they are recognized, not in the period when the taxable document was processed. You have reported only part of the invoice tax amount. The rest of the pending VATs will be recognized when any other payment or payments are applied to the invoice. 
+
+
+<!-- PAGE_BREAK -->
+ Applying a Pending VAT | 211 
 
 #### Step 6: Reconciling the Balance of the Pending Tax Payable Account 
 
  To reconcile the balance of the Pending Tax Payable account in the general ledger and the taxes subledger, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Applying a Pending VAT | 210 
 
 1. Open the _Account Summary_ (GL401000) form. 
 
@@ -9352,7 +9368,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Ledger** : _ACTUAL_ 
 
-- **Period** : _03-2025_ The Pending Tax Payable account ( _24200_ ) has a beginning balance of $122.50 (this is the total pending VAT amount for the invoice that you have processed) and an ending balance of $60.35, which is the amount of pending VAT that was not yet recognized. 
+- **Period** : _03-2026_ The Pending Tax Payable account ( _24200_ ) has a beginning balance of $122.50 (this is the total pending VAT amount for the invoice that you have processed) and an ending balance of $60.35, which is the amount of pending VAT that was not yet recognized. 
 
 3. Open the _VAT Pending Recognition_ (TX631000) form. 
 
@@ -9362,9 +9378,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Company/Branch** : _SWEETLIFE_ 
 
-- **Financial Period** : _03-2025_ 
+- **Financial Period** : _03-2026_ 
 
-5. On the form toolbar, click **Run Report**.     For the _24200_ account, the report displays the only invoice that has an unrecognized output VAT amount     (of $60.35) at the end of the specified period. At the end of the _03-2025_ period, the total amount of     unrecognized taxes for the invoices subject to pending output VAT equals the ending balance of the Pending     Tax Payable account ( _24200_ ) in the general ledger; thus, the balances for the _03-2025_ financial period are     reconciled. 
+5. On the form toolbar, click **Run Report**.     For the _24200_ account, the report displays the only invoice that has an unrecognized output VAT amount     (of $60.35) at the end of the specified period. At the end of the _03-2026_ period, the total amount of     unrecognized taxes for the invoices subject to pending output VAT equals the ending balance of the Pending     Tax Payable account ( _24200_ ) in the general ledger. Thus, the balances for the _03-2026_ financial period are     reconciled. 
 
 ### Applying a Pending VAT: To Apply a Pending VAT to an AP Bill with Multiple 
 
@@ -9374,13 +9390,17 @@ You can view any required tax-related information for a selected period or the d
 
 #### Story 
 
- Suppose that on March 10, 2025, SweetLife Fruits & Jams purchased advertising services from MapleLeaf Ads. Co for the total amount of $4,800, excluding a pending VAT. The vendor agreed to be paid in three equal installments. A SweetLife accountant created an original bill for the total amount of $5,136. On March 17, SweetLife paid one child bill for the amount of $1,712 and on March 24, the company paid the second child bill for the amount of $1,712. The tax amounts calculated on these bills need to be recognized on the payment dates, based on the payment amounts. 
+ Suppose that on March 10, 2026, SweetLife Fruits & Jams purchased advertising services from MapleLeaf Ads. Co for the total amount of $4,800, excluding a pending VAT. The vendor agreed to be paid in three equal installments. A SweetLife accountant created an original bill for the total amount of $5,136. On March 17, SweetLife paid one child bill for the amount of $1,712 and on March 24, the company paid the second child bill for the amount of $1,712. The tax amounts calculated on these bills need to be recognized on the payment dates, based on the payment amounts. 
 
- Acting as a SweetLife accountant, you need to create the original bill that will produce three child bills aer its release, create the two payments for the child bills, recognize the VAT amounts, and prepare and release a tax report for March 2025. 
+ Acting as a SweetLife accountant, you need to create the original bill that will produce three child bills aer its release, create the two payments for the child bills, recognize the VAT amounts, and prepare and release a tax report for March 2026. 
 
 #### Configuration Overview 
 
  In the U100 dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed: 
+
+
+<!-- PAGE_BREAK -->
+ Applying a Pending VAT | 212 
 
 - On the _Enable/Disable Features_ (CS100000) form, the _VAT Reporting_ feature has been enabled. 
 
@@ -9388,15 +9408,11 @@ You can view any required tax-related information for a selected period or the d
 
 - On the _Credit Terms_ (CS206500) form, the _Multiple Installments_ credit terms has been configured. 
 
-
-<!-- PAGE_BREAK -->
- Applying a Pending VAT | 211 
-
 - On the _General Ledger Preferences_ (GL102000) form, the **Require Ref. Numbers for GL Documents with**     **Taxes** check box has been selected. 
 
 #### Process Overview 
 
- In this activity, you will first update the settings of the needed vendor on the Vendors (AP303000) form. On the Bills and Adjustments (AP301000) form, you will process the original AP bill with multiple-installment credit terms and make sure that three child bills are generated by the system. On the Checks and Payments (AP302000) form, you will pay two child bills. On the Recognize Input VAT (TX503500) form, you will recognize the pending input VAT for the 03-2025 period and review the generated transactions on the Journal Transactions (GL301000) form. On the Prepare Tax Report form, you will prepare a tax report for the 03-2025 tax period and review the pending VAT amount on this report. You will then release the tax report on the Release Tax Report (TX502000) form. Finally, you will reconcile the balances of the Pending Tax Claimable account in the general ledger and the taxes subledger by running the VAT Pending Recognition (TX631000) report. 
+ In this activity, you will first update the settings of the needed vendor on the Vendors (AP303000) form. On the Bills and Adjustments (AP301000) form, you will process the original AP bill with multiple-installment credit terms and make sure that three child bills are generated by the system. On the Checks and Payments (AP302000) form, you will pay two child bills. On the Recognize Input VAT (TX503500) form, you will recognize the pending input VAT for the 03-2026 period and review the generated transactions on the Journal Transactions (GL301000) form. On the Prepare Tax Report form, you will prepare a tax report for the 03-2026 tax period and review the pending VAT amount on this report. You will then release the tax report on the Release Tax Report (TX502000) form. Finally, you will reconcile the balances of the Pending Tax Claimable account in the general ledger and the taxes subledger by running the VAT Pending Recognition (TX631000) report. 
 
 #### System Preparation 
 
@@ -9404,7 +9420,7 @@ You can view any required tax-related information for a selected period or the d
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _3/10/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     in your system to _3/10/2026_. 
 
 3. On the company and branch selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -9432,23 +9448,23 @@ You can view any required tax-related information for a selected period or the d
 
  To create and release an AP bill with multiple installments to which the pending VAT is applied, do the following: 
 
+
+<!-- PAGE_BREAK -->
+ Applying a Pending VAT | 213 
+
 1. On the _Bills and Adjustments_ (AP301000) form, add a new record. 
 
 2. In the Summary area, specify the following settings: 
 
 - **Type** : _Bill_ 
 
-
-<!-- PAGE_BREAK -->
- Applying a Pending VAT | 212 
-
 - **Vendor** : _MAPLELEAF_ 
 
 - **Terms** : _MULTINST_ (inserted by default) 
 
-- **Date** : _3/10/2025_ (inserted by default) 
+- **Date** : _3/10/2026_ (inserted by default) 
 
-- **Post Period** : _03-2025_ 
+- **Post Period** : _03-2026_ 
 
 - **Description** : Advertising services 
 
@@ -9470,7 +9486,7 @@ You can view any required tax-related information for a selected period or the d
 
 6. On the form toolbar, click **Remove Hold** and click **Release** to release the bill. 
 
-7. On the **Financial** tab, click the **Batch Nbr.** link and on the _Journal Transactions_ (GL301000) form, which     opens, review the generated GL transaction. On release of the bill, the system generated the following     entries: 
+7. On the **Financial** tab, click the **Batch Nbr.** link and on the _Journal Transactions_ (GL301000) form, which     opens, review the generated GL transaction.     On release of the bill, the system generated the following entries: 
 
 - The Accounts Payable account of the vendor ( _20000_ ) is credited in the total amount of the bill (the line     amount plus the calculated tax). 
 
@@ -9492,9 +9508,9 @@ You can view any required tax-related information for a selected period or the d
 
 - **Vendor** : _MAPLELEAF_ 
 
-- **Application Date** : _3/17/2025_ 
+- **Application Date** : _3/17/2026_ 
 
-- **Application Period** : _03-2025_ 
+- **Application Period** : _03-2026_ 
 
 - **Payment Method** : _WIRE_ 
 
@@ -9508,21 +9524,21 @@ You can view any required tax-related information for a selected period or the d
 
 - **Document Type** : _Bill_ 
 
-- **Reference Nbr.** : The reference number of a $1,712 bill with the **Due Date** of _3/17/2025_ 
+
+<!-- PAGE_BREAK -->
+ Applying a Pending VAT | 214 
+
+- **Reference Nbr.** : The reference number of a $1,712 bill with the **Due Date** of _3/17/2026_ 
 
 4. On the form toolbar, click **Remove Hold** and click **Release** to release the payment. 
 
-5. On the _Bills and Adjustments_ (AP301000) form, open the second $1,712 bill. The bill should have the     _3/24/2025_ due date. 
-
-
-<!-- PAGE_BREAK -->
- Applying a Pending VAT | 213 
+5. On the _Bills and Adjustments_ (AP301000) form, open the second $1,712 bill. The bill should have the     _3/24/2026_ due date. 
 
 6. On the form toolbar, click **Pay**. 
 
 7. On the _Checks and Payments_ form, which opens, update the settings in the Summary area as follows: 
 
-- **Application Date** : _3/24/2025_ 
+- **Application Date** : _3/24/2026_ 
 
 - **Payment Method** : _WIRE_ 
 
@@ -9530,7 +9546,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Description** : Second installment 
 
-8. On the form toolbar, click **Remove Hold** and click **Release** to release the second child bill. 
+8. On the form toolbar, click **Remove Hold** and click **Release** to release the second payment of the child bill. 
 
 #### Step 4: Recognizing the Pending Input VAT 
 
@@ -9540,11 +9556,11 @@ You can view any required tax-related information for a selected period or the d
 
 2. In the Summary area, specify the following settings: 
 
-- **Date** : _3/31/2025_ 
+- **Date** : _3/31/2026_ 
 
 - **Company/Branch** : _SWEETLIFE_ 
 
-- **Tax Agency** : _VATVAR_ The payment applications to bills subject to pending input VAT with an application date not later than _3/31/2025_ are loaded to the form. Both payments of child bills that you have processed earlier are listed on the form. The **Tax Amount** column shows the amounts that can be recognized: 
+- **Tax Agency** : _VATVAR_ The payment applications to bills subject to pending input VAT with an application date not later than _3/31/2026_ are loaded to the form. Both payments of child bills that you have processed earlier are listed on the form. The **Tax Amount** column shows the amounts that can be recognized: 
 
 - The amount of the first payment applied to the bill is $1,712. This amount includes the tax, so the taxable     amount is $1,600 and the pending tax amount to be recognized is $112. 
 
@@ -9556,31 +9572,31 @@ You can view any required tax-related information for a selected period or the d
 
 5. On the form toolbar, click **Process** to recognize the taxes for the selected documents. 
 
-6. In the **Processing** dialog box, click the links in the **Batch Number** column and review the generated GL     transactions on the _Journal Transactions_ (GL301000) form. When the pending VAT was recognized, the     system generated two GL transactions with the following entries: 
+6. In the **Processing** dialog box, click the links in the **Batch Number** column and review the generated GL     transactions on the _Journal Transactions_ (GL301000) form.     When the pending VAT was recognized, the system generated two GL transactions with the following entries: 
 
 - The Pending Tax Claimable account ( _17500_ ) is credited in the recognized tax amount to increase the     pending VAT. 
 
 - The Tax Claimable account ( _17000_ ) is debited in the recognized tax amount to decrease the tax amount     to be paid to the agency. 
 
-#### Step 5: Preparing and Releasing a Tax Report for the 03-2025 Period 
+#### Step 5: Preparing and Releasing a Tax Report for the 03-2026 Period 
 
- Before you can prepare and release a tax report for 03-2025 , you have to void the previously released tax report for 03-2025. Do the following: 
+ Before you can prepare and release a tax report for 03-2026 , you have to void the previously released tax report for 03-2026. Do the following: 
 
 1. Open the _Release Tax Report_ (TX502000) form. 
 
 2. In the Summary area, specify the following settings: 
 
+
+<!-- PAGE_BREAK -->
+ Applying a Pending VAT | 215 
+
 - **Company** : _SWEETLIFE_ 
 
 - **Tax Agency** : _VATVAR_ 
 
-- **Tax Period** : _03-2025_ (selected automatically) 
+- **Tax Period** : _03-2026_ (selected automatically) 
 
 3. On the form toolbar, click **Void Report**. The system voids the report and opens the _Prepare Tax Report_     (TX501000) form. 
-
-
-<!-- PAGE_BREAK -->
- Applying a Pending VAT | 214 
 
 4. In the Summary area, make sure that the following settings are specified: 
 
@@ -9588,15 +9604,15 @@ You can view any required tax-related information for a selected period or the d
 
 - **Tax Agency** : _VATVAR_ 
 
-- **Tax Period** : _03-2025_ 
+- **Tax Period** : _03-2026_ 
 
 5. On the form toolbar, click **Prepare Tax Report**. 
 
-6. On the _Release Tax Report_ form, which opens, review the prepared tax report. The pending VAT amount that     has been recognized is displayed in the tax report in the _Pending Input VAT_ line. 
+6. On the _Release Tax Report_ form, which opens, review the prepared tax report.     The pending VAT amount that has been recognized is displayed in the tax report in the _Pending Input VAT_     line. 
 
-7. On the form toolbar, click **Release** to release the tax report for _03-2025_. 
+7. On the form toolbar, click **Release** to release the tax report for _03-2026_. 
 
-8. On the **AP Documents** tab, click the link in the **Reference Nbr.** column in the line with the $161.85 amount.     On the _Bills and Adjustments_ (AP301000) form, which opens, review the generated document. On release of     the tax report, the system created the debit adjustment because the Tax Claimable amount exceeds the Tax     Payable amount by $161.85, which has to be returned to SweetLife. 
+8. On the **AP Documents** tab, click the link in the **Reference Nbr.** column in the line with the $161.85 amount.     On the _Bills and Adjustments_ (AP301000) form, which opens, review the generated document.     On release of the tax report, the system created the debit adjustment because the Tax Claimable amount     exceeds the Tax Payable amount by $161.85, which has to be returned to SweetLife. 
 
 #### Step 6: Reconciling the Balance of the Pending Tax Claimable Account 
 
@@ -9610,7 +9626,7 @@ You can view any required tax-related information for a selected period or the d
 
 - **Ledger** : _ACTUAL_ 
 
-- **Period** : _03-2025_ The Pending Tax Claimable account ( _17500_ ) has a beginning balance of $0 and an ending balance of $112, which is the amount of pending VAT that has not been recognized. 
+- **Period** : _03-2026_ The Pending Tax Claimable account ( _17500_ ) has a beginning balance of $0 and an ending balance of $112, which is the amount of pending VAT that has not been recognized. 
 
 3. Open the _VAT Pending Recognition_ (TX631000) form. 
 
@@ -9620,9 +9636,13 @@ You can view any required tax-related information for a selected period or the d
 
 - **Company/Branch** : _SWEETLIFE_ 
 
-- **Financial Period** : _03-2025_ 
+- **Financial Period** : _03-2026_ 
 
-5. On the form toolbar, click **Run Report**.     For the _17500_ account, the report displays the only bill that has an unrecognized input VAT amount (of $112)     at the end of the specified period. At the end of the _03-2025_ period, the total amount of unrecognized taxes     for the bills subject to pending input VAT equals the ending balance of the Pending Tax Claimable account     ( _17500_ ) in the general ledger; thus, the balances for the _03-2025_ financial period are reconciled. 
+5. On the form toolbar, click **Run Report**.     For the _17500_ account, the report displays the only bill that has an unrecognized input VAT amount (of $112)     at the end of the specified period. At the end of the _03-2026_ period, the total amount of unrecognized taxes     for the bills subject to pending input VAT equals the ending balance of the Pending Tax Claimable account     ( _17500_ ) in the general ledger. Thus, the balances for the _03-2026_ financial period are reconciled. 
+
+
+<!-- PAGE_BREAK -->
+ Applying a Pending VAT | 216 
 
 ### Applying a Pending VAT: Related Report and Inquiry Forms 
 
@@ -9630,17 +9650,13 @@ You can view any required tax-related information for a selected period or the d
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
 
-
-<!-- PAGE_BREAK -->
- Applying a Pending VAT | 215 
-
 #### Reviewing VAT Pending Recognition 
 
  You can review the amounts of pending output VAT and pending input VAT for a specific period by running a report on the VAT Pending Recognition (TX631000) form. By using this report, you can reconcile the documents that have unrecognized VAT amounts with the balances of the Pending Tax Payable and Pending Tax Claimable accounts. 
 
 
 <!-- PAGE_BREAK -->
- Configuring Support for Making Tax Digital (MTD) | 216 
+ Configuring Support for Making Tax Digital (MTD) | 217 
 
 ## Configuring Support for Making Tax Digital (MTD) 
 
@@ -9690,7 +9706,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Configuring Support for Making Tax Digital (MTD) | 217 
+ Configuring Support for Making Tax Digital (MTD) | 218 
 
 #### To Create the Connection to HMRC 
 
@@ -9740,7 +9756,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Configuring Support for Making Tax Digital (MTD) | 218 
+ Configuring Support for Making Tax Digital (MTD) | 219 
 
  An external application can be selected in this box only once in the instance, on either the Companies or Branches form. The lookup table that opens when you click the magnifying button in the MTD External Application box shows only external applications that have not been yet selected for a company or a branch. 
 
@@ -9762,7 +9778,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Configuring Support for Making Tax Digital (MTD) | 219 
+ Configuring Support for Making Tax Digital (MTD) | 220 
 
  Figure: The Reporting Groups tab for a tax report 
 
@@ -9782,7 +9798,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Configuring Support for Making Tax Digital (MTD) | 220 
+ Configuring Support for Making Tax Digital (MTD) | 221 
 
 2. The prepared tax report has been released on the _Release Tax Report_ (TX502000) form. 
 
@@ -9810,7 +9826,7 @@ You can view any required tax-related information for a selected period or the d
 
 
 <!-- PAGE_BREAK -->
- Appendix | 221 
+ Appendix | 222 
 
 ## Appendix 
 
@@ -9850,37 +9866,105 @@ You can view any required tax-related information for a selected period or the d
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 222 
+ Appendix | 223 
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 224 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 225 
 
 #### Report Toolbar 
 
@@ -9889,12 +9973,6 @@ You can view any required tax-related information for a selected period or the d
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 223 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -9920,25 +9998,77 @@ You can view any required tax-related information for a selected period or the d
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 224 
+ Appendix | 226 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 227 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -9956,91 +10086,45 @@ You can view any required tax-related information for a selected period or the d
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 225 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 226 
+ Appendix | 228 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -10059,6 +10143,12 @@ You can view any required tax-related information for a selected period or the d
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 229 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -10082,10 +10172,6 @@ You can view any required tax-related information for a selected period or the d
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 227 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -10100,13 +10186,19 @@ You can view any required tax-related information for a selected period or the d
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 230 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -10124,10 +10216,6 @@ You can view any required tax-related information for a selected period or the d
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 228 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -10142,6 +10230,10 @@ You can view any required tax-related information for a selected period or the d
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 231 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -10150,11 +10242,7 @@ You can view any required tax-related information for a selected period or the d
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 229 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -10180,6 +10268,12 @@ You can view any required tax-related information for a selected period or the d
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 232 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -10187,12 +10281,6 @@ You can view any required tax-related information for a selected period or the d
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 230 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -10220,19 +10308,19 @@ You can view any required tax-related information for a selected period or the d
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 233 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 231 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -10242,13 +10330,15 @@ You can view any required tax-related information for a selected period or the d
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 234 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -10259,10 +10349,6 @@ You can view any required tax-related information for a selected period or the d
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 232 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -10276,6 +10362,10 @@ You can view any required tax-related information for a selected period or the d
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 235 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -10286,11 +10376,11 @@ You can view any required tax-related information for a selected period or the d
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 233 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 236 
 
 #### Unavailable Commands on the More Menu 
 
@@ -10302,17 +10392,13 @@ You can view any required tax-related information for a selected period or the d
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 234 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 235 
+ Appendix | 237 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -10324,7 +10410,11 @@ You can view any required tax-related information for a selected period or the d
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 238 
 
  Figure: Table toolbar 
 
@@ -10344,17 +10434,17 @@ You can view any required tax-related information for a selected period or the d
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 236 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 239 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -10384,13 +10474,13 @@ You can view any required tax-related information for a selected period or the d
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 237 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 240 
 
  Element Description 
 
@@ -10434,15 +10524,15 @@ You can view any required tax-related information for a selected period or the d
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 238 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 241 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

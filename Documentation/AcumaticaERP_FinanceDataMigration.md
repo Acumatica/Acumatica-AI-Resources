@@ -2,7 +2,7 @@
 
 # Finance Data Migration 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -38,13 +38,13 @@
 
  Migration of Master Records: To Import Master Records...............................................................................21 
 
- Migrating Financial Documents..............................................................................................................27 
+ Migrating Financial Documents..............................................................................................................26 
 
- Migration of Financial Documents: General Information.............................................................................. 27 
+ Migration of Financial Documents: General Information.............................................................................. 26 
 
- Migration of Financial Documents: To Import AP Documents...................................................................... 28 
+ Migration of Financial Documents: To Import AP Documents...................................................................... 27 
 
- Migration of Financial Documents: To Import AR Documents...................................................................... 34 
+ Migration of Financial Documents: To Import AR Documents...................................................................... 33 
 
  Importing Trial Balances....................................................................................................................... 39 
 
@@ -70,11 +70,11 @@
 
  Report Form............................................................................................................................................ 57 
 
- Report......................................................................................................................................................62 
+ Report......................................................................................................................................................64 
 
- Form Toolbar and More Menu.........................................................................................................................64 
+ Form Toolbar and More Menu.........................................................................................................................65 
 
- Table Toolbar................................................................................................................................................... 71 
+ Table Toolbar................................................................................................................................................... 72 
 
 
 <!-- PAGE_BREAK -->
@@ -96,9 +96,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -212,7 +212,7 @@
 
 #### Migration of Project Balances 
 
- If migration mode is activated for projects, you can import pro forma invoices and the corresponding project transactions—along with their balances, original amounts, and dates—without affecting the general ledger. Also, you must link these pro forma invoices and project transactions to the AR documents that correspond to them. Then you need to release the migrated pro forma invoices and project transactions. 
+ If migration mode is activated for projects on the Projects Preferences (PM101000) form, you can import pro forma invoices and the corresponding project transactions—along with their balances, original amounts, and dates— without affecting the general ledger. Also, you must link these pro forma invoices and project transactions to the AR documents that correspond to them. Then you need to release the migrated pro forma invoices and project transactions. 
 
 
 <!-- PAGE_BREAK -->
@@ -223,6 +223,8 @@
  If the migrated pro forma invoice is linked to the corresponding AR document, a line with this pro forma invoice and AR invoice appears in the related project on the Invoices tab of the Projects (PM301000) form. The system shows a line for each pro forma invoice that corresponds to the project, along with the corresponding AR document, which is shown in the same row. Also, on the Revenue Budget tab of this form, project budget values will be calculated based on the imported data. 
 
  To indicate that a pro forma invoice has been migrated, the system selects the Migrated check box on the Financial tab of the Pro Forma Invoices (PM307000) form. 
+
+ If in migration mode, some incorrect project transactions with the AR source were uploaded to the system, you can reverse these transactions by clicking Reverse on the form toolbar of the Project Transactions (PM304000) form. The system creates and releases the reversal transaction and inserts the number of the original transaction in the Orig. Doc. Nbr. box. 
 
 #### Known Limitations 
 
@@ -240,17 +242,15 @@
 
  To save time on entering documents from your legacy system into Acumatica ERP, you can use the import scenarios that are supplied with the system. 
 
-#### Overview of the Predefined Import Scenarios 
-
- Predefined import scenarios are designed to help you prepare for the migration of financial data from a legacy system. You can use them as they are supplied or customize them to suit your implementation needs. 
-
- The table below lists the predefined import scenarios that are available on the Import Scenarios (SM206025) form for creating an import scenario and on the Import by Scenario (SM206036) form for importing the data based on the 
-
 
 <!-- PAGE_BREAK -->
  Migrating Documents to Acumatica ERP | 8 
 
- selected scenario. Each of these scenarios can be used to import data to a specific Acumatica ERP form, which is listed in the second column. 
+#### Overview of the Predefined Import Scenarios 
+
+ Predefined import scenarios are designed to help you prepare for the migration of financial data from a legacy system. You can use them as they are supplied or customize them to suit your implementation needs. 
+
+ The table below lists the predefined import scenarios that are available on the Import Scenarios (SM206025) form for creating an import scenario and on the Import by Scenario (SM206036) form for importing the data based on the selected scenario. Each of these scenarios can be used to import data to a specific Acumatica ERP form, which is listed in the second column. 
 
  Table: Predefined Import Scenarios for Migrating Financial Data 
 
@@ -292,15 +292,15 @@
 
  The predefined import scenarios listed in the table are inactive by default. That is, by default, for each of them, the Active check box is cleared on the Import Scenarios form. Before you can use any of these scenarios for data import on the Import by Scenario form, the Active check box must be selected on the Import Scenarios form. 
 
+
+<!-- PAGE_BREAK -->
+ Migrating Documents to Acumatica ERP | 9 
+
 #### Import Templates 
 
  Because the structure of the uploaded data file must match the structure that is defined in the data provider and used in the import scenario, a data template is provided for each of the predefined import scenarios. 
 
  You can download the data template, populate it with the data to be migrated, and then use the prepared file on the Import by Scenario (SM206036) form with the corresponding import scenario. The file names of the data templates correspond to the names of the predefined import scenarios with which they are intended to be used. 
-
-
-<!-- PAGE_BREAK -->
- Migrating Documents to Acumatica ERP | 9 
 
  To download the data template, you first select the required import scenario on the Import Scenarios (SM206025) or Import by Scenario form and then click Files on the title bar. In the Files dialog box, which opens, you click the template file to be downloaded and then save it to the needed location. 
 
@@ -326,6 +326,10 @@
 
  You use the ACU Import AP Cash Purchases import scenario to migrate information about historical cash purchases to the Cash Purchases (AP304000) form. 
 
+
+<!-- PAGE_BREAK -->
+ Migrating Documents to Acumatica ERP | 10 
+
 #### ACU Import Vendor Locations 
 
  The ACU Import Vendor Locations import scenario is used to import vendor locations to the Vendor Locations (AP303010) form. 
@@ -335,10 +339,6 @@
 #### ACU Import Vendors 
 
  You use the ACU Import Vendors import scenario to import vendor records to the Vendors (AP303000) form. 
-
-
-<!-- PAGE_BREAK -->
- Migrating Documents to Acumatica ERP | 10 
 
  Vendor locations are excluded from the data template provided for this import scenario. We strongly recommend that you import vendor locations separately from the main vendor data by using the ACU Import Vendor Locations import scenario. 
 
@@ -366,13 +366,13 @@
 
  When migration mode is turned on, documents are migrated with their outstanding balances. Be sure that you specify the outstanding balance in the relevant column of the import source file; otherwise, the documents will be migrated with zero open balances and will have the Closed status on release. 
 
-#### ACU Import AR Payments 
-
- You use ACU Import AR Payments import scenario to migrate AR payments, including balances that have not yet been applied to AR documents, to the Payments and Applications (AR302000) form. Payments with available balances are imported when migration mode is turned on—that is, when the Activate Migration Mode check box is selected on the Accounts Receivable Preferences (AR101000) form. Be sure to specify the available balances in the relevant column of the import source file; otherwise, the AR payments will be migrated with zero available balances and will have the Closed status on release. 
-
 
 <!-- PAGE_BREAK -->
  Migrating Documents to Acumatica ERP | 11 
+
+#### ACU Import AR Payments 
+
+ You use ACU Import AR Payments import scenario to migrate AR payments, including balances that have not yet been applied to AR documents, to the Payments and Applications (AR302000) form. Payments with available balances are imported when migration mode is turned on—that is, when the Activate Migration Mode check box is selected on the Accounts Receivable Preferences (AR101000) form. Be sure to specify the available balances in the relevant column of the import source file; otherwise, the AR payments will be migrated with zero available balances and will have the Closed status on release. 
 
 #### ACU Import AR Payments with Applications 
 
@@ -572,11 +572,11 @@ Preparing System to Migrating Data | **15**
 
 1. Open the _Master Financial Calendar_ (GL201000) form. 
 
-2. In the **Financial Year** box in the Summary area, select _2024_. Review the periods in the table and make sure     that the following periods have been generated and now have the _Open_ status: 
+2. In the **Financial Year** box in the Summary area, select _2025_. Review the periods in the table and make sure     that the following periods have been generated and now have the _Open_ status: 
 
-- The periods from 01-2024 to 11-2024, which are the periods to which the data will be migrated 
+- The periods from 01-2025 to 11-2025, which are the periods to which the data will be migrated 
 
-- The 12-2024 financial period, which is the first period in which the company will start operating in     Acumatica ERP 
+- The 12-2025 financial period, which is the first period in which the company will start operating in     Acumatica ERP 
 
 #### Step 2: Reviewing the Cash Account Settings 
 
@@ -854,7 +854,7 @@ Preparing System to Migrating Data | **15**
 <!-- PAGE_BREAK -->
  Migrating Master Records | 23 
 
- the system was unable to import, the Processed check box is cleared, and the system shows an exception in the Error column. 
+ the system could not import, the Processed check box is cleared, and an error icon appears in the lemost column. 
 
 6. To correct errors in the prepared data in the table, do the following: 
 
@@ -870,17 +870,17 @@ Preparing System to Migrating Data | **15**
 
 8. Save your changes. 
 
-9. On the form toolbar, click **Import** to retry the import. 
+9. On the form toolbar, click **Import** to rerun the import. 
 
- The system will upload the rest of the records that have not been processed yet (that is, those with the Active check box selected and the Processed check box cleared). 
+ The system will upload the remaining records that have not been processed yet (that is, those with the Active check box selected and the Processed check box cleared). 
 
 10.On the Vendors (AP3030PL) list of records, review the list of the uploaded vendor records. Make sure that the table footer indicates that 22 vendor records are available in the table, which means that all vendors have been imported successfully. The vendors have been imported with their IDs from the legacy system (as shown in the following screenshot). 
+
+ Figure: The imported vendors 
 
 
 <!-- PAGE_BREAK -->
  Migrating Master Records | 24 
-
- Figure: The imported vendors 
 
  The vendors' balances have not yet been initialized in the system. The first vendor document that you create or import into the system for each vendor initializes the vendor balance, and aer that, the vendor appears on inquiries and in reports. 
 
@@ -900,13 +900,13 @@ Preparing System to Migrating Data | **15**
 
 6. On the Customers (AR3030PL) list of records, review the list of uploaded customer records. Make sure     that the table footer indicates that 22 customer records are available in the table, which means that all     customers have been imported successfully. The customer have been imported with their IDs from the     legacy system (as shown in the following screenshot). 
 
-
-<!-- PAGE_BREAK -->
- Migrating Master Records | 25 
-
  Figure: The imported customers 
 
  The customers' balances have not yet been initialized in the system. The first customer document that you create or import into the system for each customer initializes the customer balance, and aer that, the customer appears on inquiries and in reports. 
+
+
+<!-- PAGE_BREAK -->
+ Migrating Master Records | 25 
 
 #### Step 3: Importing Non-Stock Items 
 
@@ -922,21 +922,15 @@ Preparing System to Migrating Data | **15**
 
 5. On the form toolbar, click **Import** to import the non-stock item records from the table on the **Prepared Data**     tab into the system. The system will upload all the records. For the imported rows, on the **Prepared Data**     tab, the system selects the check box in the **Processed** column. 
 
-6. On the Non-Stock Items (IN2020PL) list of records, review the list of uploaded non-stock item records and     make sure that all items have been imported. Make sure that the table footer shows that 29 records are 
-
-
-<!-- PAGE_BREAK -->
- Migrating Master Records | 26 
-
- available in the table, which means that all non-stock items have been imported successfully. The non-stock items have been imported with their IDs from the legacy system (as shown in the following screenshot). 
+6. On the Non-Stock Items (IN2020PL) list of records, review the list of uploaded non-stock item records and     make sure that all items have been imported. Make sure that the table footer shows that 29 records are     available in the table, which means that all non-stock items have been imported successfully. The non-stock     items have been imported with their IDs from the legacy system (as shown in the following screenshot). 
 
  Figure: The imported non-stock items 
 
-You have finished importing master records. 
+ You have finished importing master records. 
 
 
 <!-- PAGE_BREAK -->
- Migrating Financial Documents | 27 
+ Migrating Financial Documents | 26 
 
 ## Migrating Financial Documents 
 
@@ -976,7 +970,7 @@ You have finished importing master records.
 
 
 <!-- PAGE_BREAK -->
- Migrating Financial Documents | 28 
+ Migrating Financial Documents | 27 
 
  In migration mode, you import the needed documents with the Balanced status. The following types of accounts receivable documents can be entered in migration mode: 
 
@@ -1008,7 +1002,7 @@ You have finished importing master records.
 
 
 <!-- PAGE_BREAK -->
- Migrating Financial Documents | 29 
+ Migrating Financial Documents | 28 
 
 #### Story 
 
@@ -1036,17 +1030,15 @@ You have finished importing master records.
 
  To prepare to perform the instructions of this activity, do the following: 
 
-1. Download the SweetLifeAPDocumentLines.xlsx and SweetLifeAPPrepayments.xlsx files     provided with the course. 
+1. Download the SweetLifeAPDocumentLines2025.xlsx and     SweetLifeAPPrepayments2025.xlsx files provided with the course. 
 
 2. As a prerequisite activity, complete _Migration of Master Records: To Import Master Records_ to import non-     stock items and vendors into the system. 
 
-3. In the **Posting Settings** section on the **General** tab of the _Accounts Payable Preferences_ (AP101000) form,     select the **Activate Migration Mode** check box. 
+3. On the **General** tab ( **Posting Settings** section) of the _Accounts Payable Preferences_ (AP101000) form, select     the **Activate Migration Mode** check box, and save changes. 
 
 4. In the **Data Entry Settings** section on the same tab, make sure that the **Validate Document Totals on Entry**     check box is cleared. 
 
  This check box is generally selected to minimize errors during manual data entry of the documents received from vendors. You do not need to verify the control totals when importing the documents by using import scenarios. 
-
-5. Save your changes. 
 
 #### Step 1: Migrating AP Bills 
 
@@ -1054,41 +1046,41 @@ You have finished importing master records.
 
 
 <!-- PAGE_BREAK -->
- Migrating Financial Documents | 30 
+ Migrating Financial Documents | 29 
 
-1. Open and review the SweetLifeAPDocumentLines.xlsx file, which contains the AP documents to     be imported. The file has one spreadsheet with the bill information required for the import scenario, which     includes the document type, vendor ID, date and post period of the document, document description, and     inventory ID (if applicable). Notice that the line amount is specified in the **Amount** column, while the open     balance is specified in the **Balance** column. The documents that have an open balance of _0_ will be closed on     release. 
+1. Open and review the SweetLifeAPDocumentLines2025.xlsx file, which contains the AP documents     to be imported. The file has one spreadsheet with the bill information required for the import scenario,     which includes the document type, vendor ID, date and post period of the document, document     description, and inventory ID (if applicable). Notice that the line amount is specified in the **Amount** column,     while the open balance is specified in the **Balance** column. The documents that have an open balance of _0_     will be closed on release. 
 
 2. On the _Import by Scenario_ (SM206036) form, select the _ACU Import AP Bills_ scenario. 
 
 3. On the More menu, click **Upload File Version**. The **Upload New Revision** dialog box opens. 
 
-4. In the dialog box, click **Choose File** , select the SweetLifeAPDocumentLines.xlsx file and click     **Upload**. The system uploads the file and closes the dialog box. 
+4. In the dialog box, click **Choose File** , select the SweetLifeAPDocumentLines2025.xlsx file and click     **Upload**. The system uploads the file and closes the dialog box. 
 
 5. On the form toolbar, click **Prepare** to upload the data from the file. 
 
 6. On the form toolbar, click **Import** to import the document data listed on the **Prepared Data** tab into the     system; wait until the processing completes. On the Bills and Adjustments (AP3010PL) list of records, review     the uploaded records. Ensure that the table footer indicates that 69 records have been imported. 
 
-7. On the _Bills and Adjustments_ (AP301000) form, open the imported bill with the _000042_ reference number and     review its details. The bill has the _Balanced_ status (see the screenshot below). The total amount of the bill     lines before deductions ($1,568.33) is shown in the **Detail Total** box of the Summary area. The open balance     of the bill is $0, which means that the bill will be closed on release. 
+7. On the _Bills and Adjustments_ (AP301000) form, open the imported bill with the _000042_ reference number     and review its details. The bill has the _Balanced_ status. The total amount of the bill lines before deductions     ($1,568.33) is shown in the **Detail Total** box (Item 1 in the screenshot below) of the Summary area. The     balance of the bill is $0 (Item 2), which means that the bill will be closed on release. 
 
  You can review the amount of the document aer application of taxes and discounts in the Amount column on the Bills and Adjustments (AP3010PL) list of records. This amount will appear in the Summary area of the Bills and Adjustments (AP301000) form aer the bill release. 
 
- On the Financial tab, notice that the system has inserted the default payment method and cash account that are specified for the vendor selected in the bill (the CHECK payment method and the 10200WH cash account). Also, on the same tab, notice that MIGRATED is specified in the Batch Nbr. box, indicating that this document has been imported in migration mode. 
+ On the Financial tab, notice that the system has inserted the default payment method and cash account (Item 3) that are specified for the vendor selected in the bill (the CHECK payment method and the 10200WH cash account). Also, on the same tab, notice that MIGRATED (Item 4) is specified in the Batch Nbr. box, indicating that this document has been imported in migration mode. 
 
 
 <!-- PAGE_BREAK -->
- Migrating Financial Documents | 31 
+ Migrating Financial Documents | 30 
 
  Figure: The imported bill 
 
 8. On the same form, open the bill with the _000068_ reference number and review its details. The **Detail Total** is     $1,255.00, while the open balance of the bill is $750.00. 
 
-9. On the form toolbar, click **Release**. On release of the bill, the system assigns it the _Open_ status, as shown in     the following screenshot. On the **Applications** tab, review the application that the system has created to     record the partial payment of the bill. The amount of _505.00_ has been paid, while the balance of _750.00_ is     still open. On release of the bill, the system has updated the vendor balance without producing any general     ledger transactions. 
+9. On the form toolbar, click **Release**. On release of the bill, the system assigns it the _Open_ status. On the     **Applications** tab, review the application that the system has created to record the partial payment of the     bill. The amount of _505.00_ has been paid, while the balance of _750.00_ is still open. On release of the bill, the     system has updated the vendor balance without producing any general ledger transactions. 
 
  Figure: The imported bill with the partially paid balance 
 
 
 <!-- PAGE_BREAK -->
- Migrating Financial Documents | 32 
+ Migrating Financial Documents | 31 
 
  The open balance of the imported bill is also shown in the Migrated Balance box on the Financial tab of the form. 
 
@@ -1106,17 +1098,17 @@ You have finished importing master records.
 
 3. On the More menu, click **Upload File Version**. The **Upload New Revision** dialog box opens. 
 
-4. In the dialog box, click **Choose File** , select the SweetLifeAPPrepayments.xlsx file, and click **Upload**.     The system uploads the file and closes the dialog box. 
+4. In the dialog box, click **Choose File** , select the SweetLifeAPPrepayments2025.xlsx file, and click     **Upload**. The system uploads the file and closes the dialog box. 
 
 5. On the form toolbar, click **Prepare** to upload the data from the file. 
 
 6. On the form toolbar, click **Import** to import the document data from the **Prepared Data** tab into the system;     wait until the processing completes. You have imported six documents. 
 
-7. On the _Checks and Payments_ (AP302000) form, open the imported prepayment with the _000003_ reference     number, and review its details. (See the following screenshot.) The prepayment has the _Balanced_ status.     Notice that on the **Financial** tab, _MIGRATED_ is shown in the **Batch Nbr.** box, which indicates that this     document has been imported in migration mode. In the Summary area, the **Unapplied Balance** box shows     the open balance of the prepayment, which is $300.50. The **Payment Amount** box shows the total amount     of the prepayment, which is $1,300.50. 
+7. On the _Checks and Payments_ (AP302000) form, open the imported prepayment with the _000003_ reference     number, and review its details. The prepayment has the _Balanced_ status. Notice that on the **Financial** tab,     _MIGRATED_ is shown in the **Batch Nbr.** box (Item 1 in the following screenshot), which indicates that this     document has been imported in migration mode. In the Summary area, the **Unapplied Balance** box shows     the open balance of the prepayment, which is $300.50. The **Payment Amount** box shows the total amount     of the prepayment, which is $1,300.50 (Item 2). 
 
 
 <!-- PAGE_BREAK -->
- Migrating Financial Documents | 33 
+ Migrating Financial Documents | 32 
 
  Figure: The imported prepayment 
 
@@ -1126,13 +1118,13 @@ You have finished importing master records.
 
  To review how imported documents affected vendor balances, do the following: 
 
-1. On the _Vendor Summary_ (AP401000) inquiry form, clear the **Vendors with Balance Only** check box, select     the 11-2024 financial period and review the list of vendors. The vendor balances have been initialized for     the vendors for which you have imported documents, as the **Ending Balance** and **Prepayment Balance**     columns indicate. In the Selection area, make sure that the total amount of the imported prepayments is     –$2,970.55 and the total vendor balance is $5,921.55. 
-
- Figure: Vendor balances in the 11-2024 period 
+1. On the _Vendor Summary_ (AP401000) inquiry form, clear the **Vendors with Balance Only** check box, select     the 11-2025 financial period and review the list of vendors. The vendor balances have been initialized for     the vendors for which you have imported documents, as the **Ending Balance** and **Prepayment Balance**     columns indicate. In the Selection area, make sure that the total amount of the imported prepayments is     –$2,970.55 and the total vendor balance is $5,921.55. 
 
 
 <!-- PAGE_BREAK -->
- Migrating Financial Documents | 34 
+ Migrating Financial Documents | 33 
+
+ Figure: Vendor balances in the 11-2025 period 
 
 2. On the _Accounts Payable Preferences_ (AP101000) form, clear the **Activate Migration Mode** check box. You     are done migrating AP documents, so this mode no longer needs to be used. 
 
@@ -1152,7 +1144,13 @@ You have finished importing master records.
 
  Suppose that you are an implementation consultant of the SweetLife Fruits & Jams company, and you are performing data migration from the legacy ERP system to Acumatica ERP. You have imported the following master records: customers, vendors, and non-stock items. 
 
- Now you need to import accounts receivable documents: open and closed invoices, along with open and closed AR payments. Also suppose that you have decided to import all AR invoices with their original reference numbers and then continue numbering new invoices starting with the reference number that follows the number of the last imported document. 
+ Now you need to import accounts receivable documents: open and closed invoices, along with open and closed AR payments. Also suppose that you have decided to import all AR invoices with their original reference numbers 
+
+
+<!-- PAGE_BREAK -->
+ Migrating Financial Documents | 34 
+
+ and then continue numbering new invoices starting with the reference number that follows the number of the last imported document. 
 
 #### Configuration Overview 
 
@@ -1170,59 +1168,63 @@ You have finished importing master records.
 
  Aer that, you will review the Excel file with the payments to be imported. You will import open and closed payments on the Import by Scenario form. You will release the imported payments on the Release AR Documents forms. Aer all documents are imported, you will review imported customer balances on the Customer Summary (AR401000) inquiry form. Finally, you will deactivate migration mode for the AR subledger on the Accounts Receivable Preferences form. 
 
-
-<!-- PAGE_BREAK -->
- Migrating Financial Documents | 35 
-
 #### System Preparation 
 
  To prepare to perform the instructions of this activity, do the following: 
 
-1. Download the SweetLifeARInvoiceLines.xlsx and SweetLifeARPayments.xlsx files     provided with the course. 
+1. Download the SweetLifeARInvoiceLines2025.xlsx and SweetLifeARPayments2025.xlsx     files provided with the course. 
 
 2. As a prerequisite activity, complete _Migration of Master Records: To Import Master Records_ to import non-     stock items and customers into the system. 
 
-3. On the _Accounts Receivable Preferences_ (AR101000) form, select the **Activate Migration Mode** check box. 
+3. On the _Accounts Receivable Preferences_ (AR101000) form, select the **Activate Migration Mode** check box,     and save this change. 
 
-4. Save your changes. 
+4. On the _Numbering Sequences_ (CS201010) form, do the following: 
 
-5. On the _Numbering Sequences_ (CS201010) form, select the _ARINVOICE_ numbering sequence.     The _ARINVOICE_ numbering sequence is specified for the auto-numbering of invoices on the _Accounts_     _Receivable Preferences_ form. 
+- Select the **Manual Numbering** check box for the _ARINVOICE_ numbering sequence.     The _ARINVOICE_ numbering sequence is specified for the auto-numbering of invoices on the _Accounts_     _Receivable Preferences_ form. 
 
-6. In the Summary area, select the **Manual Numbering** check box. 
+- In the table, delete the only row with the subsequence from the table. 
 
-7. In the table, delete the only row with the subsequence from the table. 
-
-8. Save your changes. With these settings, the documents will be imported with the reference number from     the legacy system. 
+- Save your changes. With these settings, the documents will be imported with the reference number from     the legacy system. 
 
 #### Step 1: Migrating AR Invoices 
 
  To import AR invoices into the system, do the following: 
 
-1. Open and review the SweetLifeARInvoiceLines.xlsx file, which contains the AR documents to     be imported. The file has one spreadsheet with the invoice information that is required for the import     scenario, which includes the document type, customer ID, date and post period of the document, document     description, and inventory ID (if applicable). Notice that the line amount is specified in the **Ext. Price**     column, while the open balance of the document is specified in the **Balance** column. The documents that     have an open balance of _0_ will be closed on release. 
+1. Open and review the SweetLifeARInvoiceLines2025.xlsx file, which contains the AR documents     to be imported. The file has one spreadsheet with the invoice information that is required for the import     scenario, which includes the document type, customer ID, date and post period of the document, document     description, and inventory ID (if applicable). Notice that the line amount is specified in the **Ext. Price** 
+
+
+<!-- PAGE_BREAK -->
+ Migrating Financial Documents | 35 
+
+ column, while the open balance of the document is specified in the Balance column. The documents that have an open balance of 0 will be closed on release. 
 
 2. On the _Import by Scenario_ (SM206036) form, select the _ACU Import AR Invoices_ scenario. 
 
 3. On the form toolbar, click **Upload File Version**. The **Upload New Revision** dialog box opens. 
 
-4. In the dialog box, click **Choose File** , select the SweetLifeARInvoiceLines.xlsx file and click     **Upload**. The system uploads the file and closes the dialog box. 
+4. In the dialog box, click **Choose File** , select the SweetLifeARInvoiceLines2025.xlsx file and click     **Upload**. The system uploads the file and closes the dialog box. 
 
 5. On the form toolbar, click **Prepare** to upload the data from the file. 
 
 6. On the form toolbar, click **Import** to import the documents listed on the **Prepared Data** tab into the system.     You have imported 33 invoices. 
 
-7. On the _Invoices and Memos_ (AR301000) form, open the imported invoice with the _INV000006_ reference     number and review its details. (See the following screenshot.) The invoice has the _Balanced_ status. The total     amount of the invoice lines before deductions ($18,900.00) is shown in the **Detail Total** box of the Summary     area. The open balance of the invoice is $0, which means that the invoice will be closed when it is released.     Notice that on the **Financial** tab, _MIGRATED_ is shown in the **Batch Nbr.** box, which indicates that this     document has been imported in migration mode. 
-
-
-<!-- PAGE_BREAK -->
- Migrating Financial Documents | 36 
+7. On the _Invoices and Memos_ (AR301000) form, open the imported invoice with the _INV000006_ reference     number and review its details. The invoice has the _Balanced_ status. The total amount of the invoice     lines before deductions ($18,900.00) is shown in the **Detail Total** box of the Summary area (Item 1 in the     following screenshot). The open balance of the invoice is $0 (Item 2), which means that the invoice will be     closed when it is released.     Notice that on the **Financial** tab, _MIGRATED_ is shown in the **Batch Nbr.** box (Item 3), which indicates that this     document has been imported in migration mode. 
 
  Figure: The imported AR invoice 
 
 8. On the same form, open the invoice with the _INV000033_ reference number and review its details. The total     amount of the invoice in the **Detail Total** box of the Summary area is $23,400.00, while the open balance     of the invoice is $2,400. On release of the invoice, the system will assign it the _Open_ status and update the     customer balance without producing any general ledger transactions. 
 
-9. On the form toolbar of the _Release AR Documents_ (AR501000) form, click **Release All** to release all the     imported documents at once.     You have finished importing invoices, so now you need to enable the auto-numbering of new invoices     starting from _INV000034_. 10.On the _Numbering Sequences_ (CS201010) form, select the _ARINVOICE_ numbering sequence. 11.In the table, add a row for a subsequence, and specify the following settings in the row: 
+9. On the form toolbar of the _Release AR Documents_ (AR501000) form, click **Release All** to release all the     imported documents at once. 
+
+
+<!-- PAGE_BREAK -->
+ Migrating Financial Documents | 36 
+
+ You have finished importing invoices, so now you need to enable the auto-numbering of new invoices starting from INV000034. 10.On the Numbering Sequences (CS201010) form, select the ARINVOICE numbering sequence. 11.In the table, add a row for a subsequence, and specify the following settings in the row: 
 
 - **Start Number** : INV000001 
+
+- **End Number** : INV999999 
 
 - **Last Number** : INV000033     The last number is the reference number of the last imported invoice. 12.In the Summary area, clear the **Manual Numbering** check box to enable auto-numbering. 13.Save your changes. 14.On the _Invoices and Memos_ form, click **Add New Row**. Make sure that _<NEW>_ is displayed in the **Reference Nbr.** box. This indicates that the next invoice will be automatically assigned a number based on the _ARINVOICE_ numbering sequence that you have configured. 
 
@@ -1230,25 +1232,23 @@ You have finished importing master records.
 
  To import the accounts receivable payments with open balances, proceed as follows: 
 
-1. Open and review the SweetLifeARPayments.xlsx file, which contains the open and closed AR     payments to be imported. The file has one spreadsheet with the payment information that is required for     the import scenario, including the payment reference number, customer, payment method, cash account, 
-
-
-<!-- PAGE_BREAK -->
- Migrating Financial Documents | 37 
-
- and payment date and period. Notice that the full payment amount is specified in the Payment Amount column, while the open payment balance is specified in the Available Balance column. 
+1. Open and review the SweetLifeARPayments.xlsx file, which contains the open and closed AR     payments to be imported. The file has one spreadsheet with the payment information that is required for     the import scenario, including the payment reference number, customer, payment method, cash account,     and payment date and period. Notice that the full payment amount is specified in the **Payment Amount**     column, while the open payment balance is specified in the **Available Balance** column. 
 
 2. On the _Import by Scenario_ (SM206036) form, select the _ACU Import AR Payments_ scenario. 
 
 3. On the form toolbar, click **Upload File Version**. The **Upload New Revision** dialog box opens. 
 
-4. In the dialog box, click **Choose File** , select the SweetLifeARPayments.xlsx file, and click **Upload**. The     system uploads the file and closes the dialog box. 
+4. In the dialog box, click **Choose File** , select the SweetLifeARPayments2025.xlsx file, and click     **Upload**. The system uploads the file and closes the dialog box. 
 
 5. On the form toolbar, click **Prepare** to upload the data from the file. 
 
 6. On the form toolbar, click **Import** to import the documents from the **Prepared Data** tab into the system. You     have imported 28 payments. 
 
-7. On the _Payments and Applications_ (AR302000) form, open the payment with the _000026_ reference number     and review its details. (See the following screenshot.) The payment has the _Balanced_ status. The unapplied     balance of the payment in the **Available Balance** box of the Summary area is $0, which means that the     payment will be closed on release. The total amount of the payment ($13,000) is shown in the **Payment**     **Amount** box.     Notice that on the **Financial** tab, _MIGRATED_ is shown in the **Batch Nbr.** box, which indicates that this     document has been imported in migration mode. 
+7. On the _Payments and Applications_ (AR302000) form, open the payment with the _000026_ reference number     and review its details. The payment has the _Balanced_ status. The unapplied balance of the payment in the     **Available Balance** box of the Summary area is $0 (Item 1 in the following screenshot), which means that     the payment will be closed on release. The total amount of the payment ($13,000) is shown in the **Payment**     **Amount** box (Item 2).     Notice that on the **Financial** tab, _MIGRATED_ is shown in the **Batch Nbr.** box (Item 3), which indicates that this     document has been imported in migration mode. 
+
+
+<!-- PAGE_BREAK -->
+ Migrating Financial Documents | 37 
 
  Figure: The imported payment 
 
@@ -1258,7 +1258,7 @@ You have finished importing master records.
 
  To review how imported documents affected customer balances, do the following: 
 
-1. On the _Customer Summary_ (AR401000) inquiry form, select the 11-2024 financial period, clear the     **Customers with Balance Only** check box, and review the list of customers and customer balances that have     been initialized aer you imported the documents. In the Selection area, make sure that the total customer     balance is $18,200, as shown in the following screenshot. 
+1. On the _Customer Summary_ (AR401000) inquiry form, select the 11-2025 financial period, clear the     **Customers with Balance Only** check box, and review the list of customers and customer balances that have     been initialized aer you imported the documents. In the Selection area, make sure that the total customer     balance is $18,200, as shown in the following screenshot. 
 
 
 <!-- PAGE_BREAK -->
@@ -1302,7 +1302,7 @@ You have finished importing AR documents.
 
 #### System Configuration Before Import of the Trial Balance 
 
- Before importing the trial balance, you need to choose the period to start keeping records in Acumatica ERP and decide for which periods you want to import the history of balances. We recommend that you import trial balances for at least a year to be able to produce comparative financial statements for the company later. For example, if you start using Acumatica ERP in 01-2025 , you should import the trial balance for the 2024 financial year. In the legacy system, you should prepare the data to be imported—that is, run the trial balance report for each period that you are going to import. 
+ Before importing the trial balance, you need to choose the period to start keeping records in Acumatica ERP and decide for which periods you want to import the history of balances. We recommend that you import trial balances for at least a year to be able to produce comparative financial statements for the company later. For example, if you start using Acumatica ERP in 01-2026 , you should import the trial balance for the 2025 financial year. In the legacy system, you should prepare the data to be imported—that is, run the trial balance report for each period that you are going to import. 
 
  Depending on the way the account balances are presented in the legacy system, you select the Sign of the Trial Balance option on the General Ledger Preferences (GL102000) form as follows: 
 
@@ -1402,7 +1402,7 @@ You have finished importing AR documents.
 
  Suppose that you are an implementation consultant who is performing data migration from the legacy system to Acumatica ERP. You have imported master records and historical documents. 
 
- Now you need to upload the actual balances of the general ledger accounts to the system. You have decided to upload the trial balances for the last two financial periods in which the company has operated in the legacy system (October and November 2024). 
+ Now you need to upload the actual balances of the general ledger accounts to the system. You have decided to upload the trial balances for the last two financial periods in which the company has operated in the legacy system (October and November 2025). 
 
 #### Configuration Overview 
 
@@ -1424,47 +1424,47 @@ You have finished importing AR documents.
 
 1. As a prerequisite activity, complete _Migration of Financial Documents: To Import AR Documents_ and _Migration_     _of Financial Documents: To Import AP Documents_. 
 
-2. Download the SweetLife_TrialBalance.xlsx file with the trial balances provided with the course. 
+2. Download the SweetLife_TrialBalance2025.xlsx file with the trial balances provided with the     course. 
 
 3. On the _General Ledger Preferences_ (GL102000) form, in the **Chart of Accounts Settings** section, make sure     the **Sign of the Trial Balance** option is set to _Normal_. 
-
- If the sign of the trial balance does not correspond to the option that is selected on the General Ledger Preferences form, aer you validate the trial balance, the Credit Total box will contain the value in the Debit Total box, but with the opposite sign. In this case, you need to change the Sign of the Trial Balance option value and upload the trial balance again. 
 
 
 <!-- PAGE_BREAK -->
  Importing Trial Balances | 43 
 
+ If the sign of the trial balance does not correspond to the option that is selected on the General Ledger Preferences form, aer you validate the trial balance, the Credit Total box will contain the value in the Debit Total box, but with the opposite sign. In this case, you need to change the Sign of the Trial Balance option value and upload the trial balance again. 
+
 #### Step 1: Importing the First Trial Balance 
 
- Import the trial balance for October 2024 by doing the following: 
+ Import the trial balance for October 2025 by doing the following: 
 
 1. On the _Trial Balance_ (GL303010) form, create a trial balance import entry and specify the following settings     in the Summary area: 
 
-- **Import Date** : _10/31/2024_ 
+- **Import Date** : _10/31/2025_ 
 
-- **Period** : _10-2024_ 
+- **Period** : _10-2025_ 
 
-- **Description:** TB import 10-2024 
+- **Description:** TB import 10-2025 
 
 2. On the table toolbar of the **Transaction Details** tab, click **Load Records from File**. 
 
-3. In the **File Upload** dialog box, which opens, click **Choose File** and select the     SweetLife_TrialBalance.xlsx file. Click **Upload**. 
+3. In the **Import Data** dialog box, which opens, click **Upload File** and select the     SweetLife_TrialBalance2025.xlsx file. Leave the default settings and click **Next**. 
 
-4. In the **Common Settings** dialog box, which opens, leave the default settings, and click **OK**. 
+4. In the **Step 2 of 3: Specify Common Settings** dialog box, click **Next**. 
 
-5. In the **Columns** dialog box, map the source columns to the destination columns as follows: 
+5. In the **Step 3 of 3: Map Properties to Columns** dialog box, map the source columns to the destination     columns as follows: 
 
 - **Account** to **Account** 
 
 - **YTD Balance October** to **YTD Balance** 
 
-6. Click **OK**. The system uploads the data from the file to the table. 
+6. Click **Finish**. The system uploads the data from the file to the table. 
 
-7. On the table toolbar of the **Transaction Details** tab, make sure that the _Validate_ action is selected, and click     **Process All** to validate all records at once. 
+7. On the table toolbar of the **Transaction Details** tab, select the unlabeled check box to select all records in     the table. 
 
-8. Find the line with an error, which has _Error_ in the **Status** column, and change the _44030_ account to _40300_.     Save your changes. 
+8. Click **Validate**. 
 
-9. Click **Process All** on the table toolbar to validate all records again. Aer all records have been validated     successfully, the **Debit Total** in the Summary area must be the same as the **Credit Total** ($1,041,106.86) so     that the trial balance can be released. 10.On the form toolbar, click **Remove Hold** to remove the trial balance entry from hold and then **Release** to     release the trial balance.     On release of the trial balance, the system generates a batch of general ledger transactions and opens it on     the _Journal Transactions_ (GL301000) form. The credit and debit totals, which are the totals of debit and credit     amounts for all transactions in the batch, are $1,041,106.86 (as shown in the following screenshot). 
+9. Find the line, which has _Error_ in the **Status** column, and change the _44030_ account to _40300_. Save your     changes. 10.Again click **Validate** on the table toolbar. Aer all records have been validated successfully, the **Debit Total**     in the Summary area must be the same as the **Credit Total** ($1,041,106.86) so that the trial balance can be     released. 11.On the form toolbar, click **Remove Hold** to remove the trial balance entry from hold and then **Release** to     release the trial balance.     On release of the trial balance, the system generates a batch of general ledger transactions and opens it on     the _Journal Transactions_ (GL301000) form. The credit and debit totals, which are the totals of debit and credit     amounts for all transactions in the batch, are $1,041,106.86 (as shown in the following screenshot). 
 
 
 <!-- PAGE_BREAK -->
@@ -1472,45 +1472,45 @@ You have finished importing AR documents.
 
  Figure: General ledger transaction generated for the first trial balance 
 
- 11.On the form toolbar, click Release to release the batch of GL transactions. 
+ 12.On the form toolbar, click Release to release the batch of GL transactions. 
 
 #### Step 2: Importing the Second Trial Balance 
 
- Now you need to import the trial balance for November 2024 by doing the following: 
+ Now you need to import the trial balance for November 2025 by doing the following: 
 
 1. On the _Trial Balance_ (GL303010) form, create a trial balance entry and specify the following settings in the     Summary area: 
 
-- **Import Date** : _11/30/2024_ 
+- **Import Date** : _11/30/2025_ 
 
-- **Period** : _11-2024_ 
+- **Period** : _11-2025_ 
 
-- **Description:** TB import 11-2024 
+- **Description:** TB import 11-2025 
 
 2. On the table toolbar of the **Transaction Details** tab, click **Load Records from File**. 
 
-3. In the **File Upload** dialog box, again upload the SweetLife_TrialBalance.xlsx file and map the     source columns to the destination columns as follows: 
+3. In the **Import Data** dialog box, again upload the SweetLife_TrialBalance2025.xlsx file and map     the source columns to the destination columns as follows: 
 
 - **Account** to **Account** 
 
 - **YTD Balance November** to **YTD Balance** 
 
-4. In the line with the incorrect account, change the _44030_ account to _40300_. Save your changes. 
-
-5. On the table toolbar of the **Transaction Details** tab, make sure that the _Validate_ action is selected and     click **Process All** to validate all records at once. Aer all records have been validated, the **Debit Total** in     the Summary area must be the same as the **Credit Total** ($1,087,746.29) so that the trial balance can be     released.     On the **Exceptions** tab, notice that there are no lines. This means that all accounts that have a nonzero     balance in the system for the period are listed on the **Transaction Details** tab for import. 
+4. Select all records in the table and click **Validate**. 
 
 
 <!-- PAGE_BREAK -->
  Importing Trial Balances | 45 
 
-6. On the form toolbar, click **Remove Hold** to remove the trial balance from hold and then **Release** to release     the trial balance. 
+5. In the line with the incorrect account, change the _44030_ account to _40300_. Save your changes. 
 
-7. On the _Journal Transactions_ (GL301000) form that opens, review the batch generated on release of the trial     balance entry. Make sure that **Debit Total** and **Credit Total** in the Summary area contain _95,274.68_. Notice     that the debit and credit total of the generated batch are not equal to the debit and credit total of the trial     balance. For each account, the system calculates the difference between the balance in the system and     the balance being imported and debits or credits the account based on the sign of the difference and the     account type. 
+6. Again validate the records in the table. Aer all records have been validated, the **Debit Total** in the Summary     area must be the same as the **Credit Total** ($1,087,746.29) so that the trial balance can be released.     On the **Exceptions** tab, notice that there are no lines. This means that all accounts that have a nonzero     balance in the system for the period are listed on the **Transaction Details** tab for import. 
 
-8. On the form toolbar, click **Release** to release the GL transaction. 
+7. On the form toolbar, click **Remove Hold** to remove the trial balance from hold and then **Release** to release     the trial balance. 
 
-9. On the _Trial Balance Detailed_ (GL632500) report form, specify _11-2024_ in the **From Period** and **To Period**     boxes. 10.On the report form toolbar, click **Run Report**.     The generated report (see the following screenshot) shows the normal balance representation of accounts.     The trial balance shows the balance of the _33000 (Net Income)_ account, which has been calculated based on     the imported data and is $275,011.60. The total YTD Net Income is included in the **Liability Total** ; therefore,     the **Assets Total** is equal to the **Liability Total** in the report. 
+8. On the _Journal Transactions_ (GL301000) form that opens, review the batch generated on release of the trial     balance entry. Make sure that **Debit Total** and **Credit Total** in the Summary area contain _95,274.68_. Notice     that the debit and credit total of the generated batch are not equal to the debit and credit total of the trial     balance. For each account, the system calculates the difference between the balance in the system and     the balance being imported and debits or credits the account based on the sign of the difference and the     account type. 
 
- Figure: Trial Balance Detailed report for 11-2024 
+9. On the form toolbar, click **Release** to release the GL transaction. 10.On the _Trial Balance Detailed_ (GL632500) report form, specify _11-2025_ in the **From Period** and **To Period**     boxes. 11.On the report form toolbar, click **Run Report**.     The generated report (see the following screenshot) shows the normal balance representation of accounts.     The trial balance shows the balance of the _33000 (Net Income)_ account, which has been calculated based on     the imported data and is $275,011.60. The total YTD Net Income is included in the **Liability Total** ; therefore,     the **Assets Total** is equal to the **Liability Total** in the report. 
+
+ Figure: Trial Balance Detailed report for 11-2025 
 
 You have finished the import of trial balances into the system. 
 
@@ -1596,9 +1596,9 @@ You have finished the import of trial balances into the system.
 
 - **Ledger:** _ACTUAL_ 
 
-- **From Period** : _11-2024_ 
+- **From Period** : _11-2025_ 
 
-- **To Period** : _11-2024_ 
+- **To Period** : _11-2025_ 
 
 2. On the report form toolbar, click **Run Report**. 
 
@@ -1608,17 +1608,17 @@ You have finished the import of trial balances into the system.
 
  In the report, review the ending balances of the 13200 (Deposit to Vendor) and 20000 (Accounts Payable) accounts. The ending balance of the 20000 (Accounts Payable) account for the period is $5,921.55. The ending balance of the 13200 (Deposit to Vendor) account for the period is $2,970.55, as shown in the following screenshot. 
 
- Figure: AP account balances in the trial balance for 11-2024 
+ Figure: AP account balances in the trial balance for 11-2025 
 
 3. On the _AP Balance by GL Account_ (AP632000) report form, specify the following parameters: 
 
 - **Report Format** : _Account Summary_ 
 
-- **Financial Period** : _11-2024_ 
+- **Financial Period** : _11-2025_ 
 
 4. On the report form toolbar, click **Run Report**.     In the report, review the total balance of the open accounts payable documents that you have imported.     The total balance of the open documents posted to the _20000 (Accounts Payable)_ account for the period     is $5,921.55; the total balance of open documents posted to the _13200 (Deposit to Vendor)_ account for the     period is –$2,970.55. (See the following screenshot.) 
 
- Figure: The total balance of open AP bills and prepayments for 11-2024 
+ Figure: The total balance of open AP bills and prepayments for 11-2025 
 
  The balances are equal to the balances of the accounts in the general ledger, and thus are reconciled. 
 
@@ -1634,23 +1634,23 @@ You have finished the import of trial balances into the system.
 
 - **Ledger:** _ACTUAL_ 
 
-- **From Period** : _11-2024_ 
+- **From Period** : _11-2025_ 
 
-- **To Period** : _11-2024_ 
+- **To Period** : _11-2025_ 
 
 2. On the report form toolbar, click **Run Report**.     In the report, review the balance of the _11000 (Accounts Receivable)_ account. The ending balance of this     account is $18,200.00. (See the following screenshot.) 
 
- Figure: AR account balances in the trial balance for 11-2024 
+ Figure: AR account balances in the trial balance for 11-2025 
 
 3. On the _AR Balance by GL Account_ (AR632000) report form, specify the following parameters: 
 
 - **Report Format** : _Account Summary_ 
 
-- **Financial Period** : _11-2024_ 
+- **Financial Period** : _11-2025_ 
 
 4. On the report form toolbar, click **Run Report**.     Review the total of open accounts receivable documents posted to the _11000 (Accounts Receivable)_ account.     This total balance is $18,200.00. (See the following screenshot.) 
 
- Figure: The total balance of open AR documents for 11-2024 
+ Figure: The total balance of open AR documents for 11-2025 
 
  The balance is equal to the balance of the account in the general ledger, and thus the balances are reconciled. 
 
@@ -1742,9 +1742,9 @@ Aer you import the cash account balances and outstanding payments, you perfor
 
 #### Story 
 
- Suppose that on 11/30/2024, the accountant received a bank statement with an ending balance of $288,416.25 for the 10200WH checking account. The ending balance of the checking account for 11-2024 is $284,416.25. Aer the review of the bank statement dated 11/30/2024 , the accountant realized that the amounts of three outstanding checks are not included in the bank statement and that a deposit in transit has not yet arrived at the bank account. They will appear in the next bank statement, which the accountant will receive on 12/31/2024. 
+ Suppose that on 11/30/2025, the accountant received a bank statement with an ending balance of $288,416.25 for the 10200WH checking account. The ending balance of the checking account for 11-2025 is $284,416.25. Aer the review of the bank statement dated 11/30/2025 , the accountant realized that the amounts of three outstanding checks are not included in the bank statement and that a deposit in transit has not yet arrived at the bank account. They will appear in the next bank statement, which the accountant will receive on 12/31/2025. 
 
- You need to create the transactions for currently unreconciled documents in the 10200WH cash account in the system and create the first reconciliation statement corresponding to the bank statement dated 11/30/2024. 
+ You need to create the transactions for currently unreconciled documents in the 10200WH cash account in the system and create the first reconciliation statement corresponding to the bank statement dated 11/30/2025. 
 
 #### Configuration Overview 
 
@@ -1770,7 +1770,7 @@ Aer you import the cash account balances and outstanding payments, you perfor
 <!-- PAGE_BREAK -->
  Importing Unreconciled Payments | 53 
 
-2. Download the SweetLifeUnreconciledTransactions.xlsx file with the list of unreconciled     transactions provided with the course. 
+2. Download the SweetLifeUnreconciledTransactions2025.xlsx file with the list of unreconciled     transactions provided with the course. 
 
 #### Step 1: Importing Outstanding Checks and Deposits 
 
@@ -1780,13 +1780,13 @@ Aer you import the cash account balances and outstanding payments, you perfor
 
 - **Module** : _GL_ 
 
-- **Transaction Date:** _11/30/2024_ 
+- **Transaction Date:** _11/30/2025_ 
 
-- **Post Period:** _11-2024_ 
+- **Post Period:** _11-2025_ 
 
-- **Description:** Unreconciled transactions for 10200WH as of 11/30/2024 
+- **Description:** Unreconciled transactions for 10200WH as of 11/30/2025 
 
-2. On the table toolbar, click **Load Records From File** and upload the transactions from the     SweetLifeUnreconciledTransactions.xlsx file. Make sure that the batch has the rows shown in     the following screenshot. 
+2. On the table toolbar, click **Load Records From File** and upload the transactions from the     SweetLifeUnreconciledTransactions2025.xlsx file. In the **Import Data** dialog box, leave the     default settings, and click **Next** , **Next** , and **Finish**.     Make sure that the batch has the rows shown in the following screenshot. 
 
  Figure: GL batch with unreconciled transactions 
 
@@ -1794,7 +1794,7 @@ Aer you import the cash account balances and outstanding payments, you perfor
 
 4. On the form toolbar, click **Remove Hold** and then **Release**. 
 
-5. On the _Cash Account Details_ (CA303000) form, select the _10200WH_ cash account, and specify start and end     dates of _11/1/2024_ and _11/30/2024_ , respectively. Review the transactions for the cash account and the date     range. (See the following screenshot.) 
+5. On the _Cash Account Details_ (CA303000) form, select the _10200WH_ cash account, and specify start and end     dates of _11/1/2025_ and _11/30/2025_ , respectively. Review the transactions for the cash account and the date     range. (See the following screenshot.) 
 
 
 <!-- PAGE_BREAK -->
@@ -1812,23 +1812,23 @@ Aer you import the cash account balances and outstanding payments, you perfor
 
 - **Cash Account** : _10200WH_ 
 
-- **Reconciliation Date** : _11/30/2024_ 
+- **Reconciliation Date** : _11/30/2025_ 
 
-- **Load Documents Up To** : _11/30/2024_ 
+- **Load Documents Up To** : _11/30/2025_ 
 
-- **Statement Balance** : 288,416.25 On this form, you reconcile the total amount of the transactions in the cash account in the system with the balance shown in the bank statement for this period. By selecting a transaction or multiple transactions in the table, you reconcile the total amount of the transactions for the _10200WH_ cash account in the system with the balance of the bank statement for 11/30/2024. 
+- **Statement Balance** : 288,416.25 On this form, you reconcile the total amount of the transactions in the cash account in the system with the balance shown in the bank statement for this period. By selecting a transaction or multiple transactions in the table, you reconcile the total amount of the transactions for the _10200WH_ cash account in the system with the balance of the bank statement for 11/30/2025. 
 
 2. In the table, select the **Reconciled** check box for the following rows: 
 
-- The row with the 10/31/2024 date and the 235,205.51 amount in the **Receipt** column. This is the result of     the trial balance import for 10-2024. 
+- The row with the 10/31/2025 date and the 235,205.51 amount in the **Receipt** column. This is the result of     the trial balance import for 10-2025. 
 
-- The row with the 11/30/2024 date and the 49,210.74 amount in the **Receipt** column. This is the result of     the trial balance import for 11-2024. 
+- The row with the 11/30/2025 date and the 49,210.74 amount in the **Receipt** column. This is the result of     the trial balance import for 11-2025. 
 
-- The row with the 11/30/2024 date and the 284,416.25 amount in the **Disbursement** column. This is     the offset entry for the bank statement balance for 11-2024, which you have imported with the list of     unreconciled transactions. 
+- The row with the 11/30/2025 date and the 284,416.25 amount in the **Disbursement** column. This is     the offset entry for the bank statement balance for 11-2025, which you have imported with the list of     unreconciled transactions. 
 
-- The row with the 11/30/2024 date and the 288,416.25 amount in the **Receipt** column. This is the bank     statement balance for 11-2024, which you have imported with the list of unreconciled transactions. 
+- The row with the 11/30/2025 date and the 288,416.25 amount in the **Receipt** column. This is the bank     statement balance for 11-2025, which you have imported with the list of unreconciled transactions. 
 
-3. Make sure the **Cleared** check box is cleared for the other listed transactions (see the following screenshot).     These transactions are the outstanding checks and the deposit in transit that you have imported; they will     probably be available for reconciliation with the bank statement for December 2024. 
+3. Make sure the **Cleared** check box is cleared for the other listed transactions (see the following screenshot).     These transactions are the outstanding checks and the deposit in transit that you have imported; they will     probably be available for reconciliation with the bank statement for December 2025. 
 
 
 <!-- PAGE_BREAK -->
@@ -1846,7 +1846,7 @@ Aer you import the cash account balances and outstanding payments, you perfor
 
 7. Click **Run Report** on the report form toolbar. 
 
- As the following screenshot shows, the reconciled balance of the 10200WH cash account for the 11-2024 period is $284,416.25; this balance is the same as the account’s balance in the general ledger. Four GL transactions for the outstanding checks and deposits in transit that have not shown up in the bank statement (with the balance difference of –$4,000) still remain unreconciled and will most likely appear in the bank statement for the next period. 
+ As the following screenshot shows, the reconciled balance of the 10200WH cash account for the 11-2025 period is $284,416.25; this balance is the same as the account’s balance in the general ledger. Four GL transactions related to outstanding checks and deposits in transit have not yet appeared in the bank statement and remain unreconciled. The balance difference is –$4,000. These transactions will most likely show up in the bank statement for the next period. 
 
 
 <!-- PAGE_BREAK -->
@@ -1898,7 +1898,11 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
@@ -1906,29 +1910,93 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 59 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 60 
 
 #### Report Toolbar 
 
@@ -1937,12 +2005,6 @@ You have imported unreconciled transactions for the cash account and reconciled 
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 59 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -1968,25 +2030,77 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 60 
+ Appendix | 61 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 62 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -2004,91 +2118,45 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 61 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 62 
+ Appendix | 63 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -2107,6 +2175,12 @@ You have imported unreconciled transactions for the cash account and reconciled 
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 64 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -2130,10 +2204,6 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 63 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -2148,13 +2218,19 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 65 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -2172,10 +2248,6 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 64 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -2190,6 +2262,10 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 66 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -2198,11 +2274,7 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 65 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -2228,6 +2300,12 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 67 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -2235,12 +2313,6 @@ You have imported unreconciled transactions for the cash account and reconciled 
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 66 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -2268,19 +2340,19 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 68 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 67 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -2290,13 +2362,15 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 69 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -2307,10 +2381,6 @@ You have imported unreconciled transactions for the cash account and reconciled 
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 68 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -2324,6 +2394,10 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 70 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -2334,11 +2408,11 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 69 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 71 
 
 #### Unavailable Commands on the More Menu 
 
@@ -2350,17 +2424,13 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 70 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 71 
+ Appendix | 72 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -2372,7 +2442,11 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 73 
 
  Figure: Table toolbar 
 
@@ -2392,17 +2466,17 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 72 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 74 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -2432,13 +2506,13 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 73 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 75 
 
  Element Description 
 
@@ -2482,15 +2556,15 @@ You have imported unreconciled transactions for the cash account and reconciled 
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 74 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 76 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

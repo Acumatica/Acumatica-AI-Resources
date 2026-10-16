@@ -2,7 +2,7 @@
 
 # Distribution Edition 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -222,9 +222,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -2410,7 +2410,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Make sure that all necessary settings related to sales orders and purchase orders have been specified as described in Configuration of Order Management: Implementation Activity. 
 
- Order Types (SO201000) Make sure that the SO order type is active and has been configured as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) Make sure that the SO order type is active and has been configured as described in Sales Order Types: To Activate the SO Order Type. 
 
  Vendors (AP303000) Make sure that all needed vendors have been configured as described in Vendors: Implementation Activity. 
 
@@ -2654,7 +2654,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  You can affect the workflow of processing purchases with prepayments by specifying additional settings as follows: 
 
-- To reduce input errors when users enter orders, set up the validation of order totals by selecting the **For**     **Normal and Standard Orders** check box in the **Validate Total on Entry** section of the _Purchase Orders_     _Preferences_ (PO101000) form ( **General Settings** tab). If this check box is selected, when a user creates a new     purchase order on the _Purchase Orders_ (PO301000) form, to take the order off hold, the user must enter the     order total in the **Control Total** box aer verifying the order details. 
+- To reduce input errors when users enter orders, set up the validation of order totals by selecting the **For**     **Normal and Standard Orders** check box in the **Validate Total on Entry** section of the _Purchase Orders_     _Preferences_ (PO101000) form ( **General** tab). If this check box is selected, when a user creates a new     purchase order on the _Purchase Orders_ (PO301000) form, to take the order off hold, the user must enter the     order total in the **Control Total** box aer verifying the order details. 
 
 - To cause an accounts payable bill to be created automatically on release of a purchase receipt by default,     select the **Create Bill on Receipt Release** check box on the _Purchase Orders Preferences_ form. In this case,     when a user creates a purchase receipt on the _Purchase Receipts_ (PO302000) form, the system automatically     selects the **Create Bill** check box. (The user can clear this check box for a particular bill.) 
 
@@ -2704,7 +2704,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
 #### Testing of Settings 
 
- To make sure that all settings are configured correctly, we recommend that you process a purchase return at the original cost, as described in the Purchase Returns at the Original CostPurchase ReturnsPurchase Returns at the Original Cost: Process ActivityTo Process a Return at the Original CostProcess Activity. 
+ To make sure that all settings are configured correctly, we recommend that you process a purchase return at the original cost, as described in the Purchase Returns at the Original Cost: Process Activity. 
 
 ### Purchase Returns at the Calculated Cost: Implementation Checklist 
 
@@ -2740,7 +2740,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
 #### Testing of Settings 
 
- To make sure that all settings are configured correctly, we recommend that you process a purchase return at the system-calculated cost, as described in the Purchase Returns at the Calculated CostPurchase Returns: Process ActivityTo Process a Return at the Calculated Cost. 
+ To make sure that all settings are configured correctly, we recommend that you process a purchase return at the system-calculated cost, as described in the Purchase Returns at the Calculated Cost: Process Activity. 
 
 ### Purchases for Sale: Implementation Checklist 
 
@@ -2764,7 +2764,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Form Criteria to Check 
 
- Order Types (SO201000) Make sure that the SO order type is active and has been configured as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) Make sure that the SO order type is active and has been configured as described in Sales Order Types: To Activate the SO Order Type. 
 
  Vendors (AP303000) Make sure that all needed vendors have been configured as described in Vendors: Implementation Activity. 
 
@@ -2964,7 +2964,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Warehouses (IN204000) form Make sure that all warehouses have been configured, as described in Warehouses: Implementation Activity. 
 
- Order Types (SO201000) form Make sure that the SO and TR order types are active. The configuration and activation of these types is described in Sales Order Types: To Activate the SO Order TypeImplementation Activity and Sales Order TypesSales from Multiple Warehouses: Implementation ActivityTo Activate the TR Order Type. 
+ Order Types (SO201000) form Make sure that the SO and TR order types are active. The configuration and activation of these types is described in Sales Order Types: To Activate the SO Order Type and Sales Order Types: To Activate the TR Order Type. 
 
  Customers (AR303000) form Make sure that all needed customers have been defined in the system, as described in Customers: Implementation Activity. 
 
@@ -2974,11 +2974,11 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  You can affect the workflow of processing sales from multiple warehouses by specifying additional settings as follows: 
 
+- To cause shipments to be created with the _On Hold_ status (so that the user can verify them before     processing them further), select the **Hold Shipments on Entry** check box on the _Sales Orders Preferences_     (SO101000) form. 
+
 
 <!-- PAGE_BREAK -->
  Order Management | 79 
-
-- To cause shipments to be created with the _On Hold_ status (so that the user can verify them before     processing them further), select the **Hold Shipments on Entry** check box on the _Sales Orders Preferences_     (SO101000) form. 
 
 - To cause inventory transfers to be automatically released when a user releases a transfer order, select the     **Automatically Release IN Documents** check box on the _Sales Orders Preferences_ (SO101000) form. 
 
@@ -3006,19 +3006,19 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Make sure that all necessary settings related to sales orders and inventory have been specified, as described in Configuration of Order Management: General Information. 
 
- Order Types (SO201000) form Make sure that the SO and SA order types are active and have been configured, as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) form Make sure that the SO and SA order types are active and have been configured, as described in Sales Order Types: To Activate the SO Order Type. 
 
  Customers (AR303000) form Make sure that all needed customers have been defined in the system, as described in Customers: Implementation Activity. 
 
  Stock Items (IN202500) form Make sure that all stock items have been defined in the system, as described in Stock Items: Implementation Activity. 
 
-
-<!-- PAGE_BREAK -->
- Order Management | 80 
-
 #### Other Settings That Affect the Workflow 
 
  You can affect the workflow of processing inventory sales by specifying additional settings as follows: 
+
+
+<!-- PAGE_BREAK -->
+ Order Management | 80 
 
 - To cause shipments to be created with the _On Hold_ status (so that the user can verify them before     processing them further), select the **Hold Shipments on Entry** check box on the _Sales Orders Preferences_     (SO101000) form. 
 
@@ -3112,7 +3112,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Enable/Disable Features (CS100000) form The Inventory feature is enabled. 
 
- Order Types (SO201000) form The SO order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) form The SO order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order Type. 
 
  To streamline the sales process and avoid small discrepancies between the payment amount applied to a sales order and the amount of the sales invoice created for this sales order (for example, as a result of the system recalculating the applicable taxes in the sales invoice), select the Auto Write-Off check box. For more information on the configuration of automatic write-offs, see Configuration of Automatic Write-Offs in Invoices. 
 
@@ -3150,7 +3150,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Enable/Disable Features (CS100000) Make sure that the Inventory feature is enabled. 
 
- Order Types (SO201000) Make sure that the SO order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) Make sure that the SO order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order Type. 
 
  Customers (AR303000) Make sure that all needed customers have been defined in the system, as described in Customers: Implementation Activity. 
 
@@ -3188,7 +3188,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Sales Orders Preferences (SO101000) Make sure that all necessary settings related to sales orders have been specified, as described in Order Management Basic Configuration: General Information. 
 
- Order Types (SO201000) Make sure that the SO or IN order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. (If needed, you can set up and activate both of these order types.) 
+ Order Types (SO201000) Make sure that the SO or IN order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order Type. (If needed, you can set up and activate both of these order types.) 
 
  Customers (AR303000) Make sure that all needed customers have been defined in the system, as described in Customers: Implementation Activity. 
 
@@ -3222,7 +3222,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Make sure that all necessary settings related to sales orders and purchase orders have been specified as described in Configuration of Order Management: Implementation Activity. 
 
- Order Types (SO201000) Make sure that the SO order type is active and has been configured as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) Make sure that the SO order type is active and has been configured as described in Sales Order Types: To Activate the SO Order Type. 
 
  Vendors (AP303000) Make sure that all needed vendors have been configured as described in Vendors: Implementation Activity. 
 
@@ -3274,7 +3274,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Make sure that all necessary settings related to sales orders and inventory have been specified, as described in Configuration of Order Management: General Information. 
 
- Order Types (SO201000) form Make sure that the SO order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) form Make sure that the SO order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order Type. 
 
 
 <!-- PAGE_BREAK -->
@@ -3600,9 +3600,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Element State Description 
 
- Default Warehouse from User Profile 
-
- Selected With this check box selected, the system copies the warehouse to be used in receipts from the profile of the signed-in user. 
+ Use Warehouse from User Profile Selected With this check box selected, the system copies the warehouse to be used in receipts from the profile of the signed-in user. 
 
 ### Item and Storage Lookup: Implementation Checklist 
 
@@ -3700,7 +3698,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Short Shipment Confirmation Forbid With the Forbid value selected, a user cannot confirm the picking of the shipment if not all items have been picked. 
 
- Explicit Line Confirmation Cleared With this check box cleared, the system does not request user confirmation for each line when the user is performing automated operations in Pick mode and Pack mode. 
+ Use Explicit Line Confirmation Cleared With this check box cleared, the system does not request user confirmation for each line when the user is performing automated operations in Pick mode and Pack mode. 
 
  Confirm Weight for Each Package Cleared With this check box cleared, the user confirms a package, and the system calculates the package weight automatically. 
 
@@ -3794,7 +3792,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Short Shipment Configuration Forbid With the Forbid value selected, the system does not allow a user to confirm a shipment that is not packed in full. 
 
- Explicit Line Confirmation Cleared With this check box cleared, the system does not request user confirmation for each line when the user is performing automated operations in Pack mode. 
+ Use Explicit Line Confirmation Cleared With this check box cleared, the system does not request user confirmation for each line when the user is performing automated operations in Pack mode. 
 
 
 <!-- PAGE_BREAK -->
@@ -3904,7 +3902,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Display the Scan Log Tab Selected With this check box selected, the system will display the Scan Log tab on the Receive and Put Away (PO302020) form; on this tab, a user can review the list of operations that have been performed during the past two weeks. 
 
- Explicit Line Confirmation Cleared With this check box cleared, the system does not request user confirmation for each line when the user is performing automated operations in Receive mode and Put Away mode. 
+ Use Explicit Line Confirmation Cleared With this check box cleared, the system does not request user confirmation for each line when the user is performing automated operations in Receive mode and Put Away mode. 
 
  Use Single Receiving Location Selected With this check box selected, the system asks for the receiving location only once for each purchase receipt being processed; all items of this purchase receipt are received to this location. 
 
@@ -3934,19 +3932,19 @@ _Accounts Receivable Preferences_ (AR101000) form
 
 - To speed up the entry of quantities in the lines being processed, select the **Use Default Quantity** check     box. When this check box is selected, the **Set Qty** button on the form toolbar of the _Receive and Put Away_     (PO302020) form becomes available before you scan the barcode of an item. You click this button to specify     the default quantity of the item. Aer the default quantity is specified, the system inserts it in the **Received**     **Qty.** or **Put Away Qty.** column each time you scan the barcode of the item. 
 
-- To make the system automatically specify the default receiving location of a warehouse for all receipt     documents being processed, select the **Default Receiving Location** check box. 
+- To make the system automatically specify the default receiving location of a warehouse for all receipt     documents being processed, select the **Use Default Receiving Location** check box. 
 
-- To make the system request the receiving location for each item being processed in Receive mode, clear the     **Use Single Receiving Location** check box, and select the **Request Location for Each Item on Receiving**     check box.     To make the system request the location to which each item must be put away in Put Away mode, clear     the **Use Single Receiving Location** check box, and select the **Request Location for Each Item on Putting**     **Away** check box. 
+- To make the system request the receiving location for each item being processed in Receive mode, clear the     **Use Single Receiving Location** check box, and select the **Request Location for Each Item on Receiving**     check box.     To make the system request the location to which each item must be put away in Put Away mode, clear     the **Use Single Receiving Location** check box, and select the **Request Location for Each Item on Putting**     **Away** check box.     If you have specified the default putaway location for the item, the system suggests this location in the     prompt. You can specify it on the following forms: 
+
+- For a stock item: In the **Default Putaway To** box on the _Item Warehouse Details_ (IN204500) or _Stock Items_     (IN202500) form 
+
+- For a non-stock item: In the **Non-Stock Item Location** box on the _Warehouses_ (IN204000) form. 
 
 - To give users the ability to perform additional verification of a purchase receipt to ensure the correctness of     its item quantities, select the **Verify Receipts Before Release** check box. When this check box is selected,     a user can confirm a purchase receipt on the _Receive and Put Away_ form but cannot release it. A user can     release the receipt on the _Purchase Receipts_ (PO302000) form.     When the **Verify Receipts Before Release** check box is selected, the **Keep Zero Lines on Receipt**     **Confirmation** check box becomes available for selection. With this check box selected, the system will     keep lines with a receipt quantity of 0 in a purchase receipt on the _Purchase Receipts_ form aer a user has     confirmed the receipt of items. 
 
 #### Known Process Limitations 
 
- The following limitations apply to the automated receiving and putting away of items: 
-
-- Non-stock items cannot be processed on the _Receive and Put Away_ (PO302020) form. If you need to     receive a non-stock item, you create and process a separate receipt for this item on the _Purchase Receipts_     (PO302000) form. 
-
-- Multiple users cannot simultaneously process unreleased transfer receipts with partial item quantities on     the _Receive and Put Away_ form. However, if you have created and released a transfer receipt with a partial     item quantity, the remaining quantity can be received in another transfer receipt. 
+ Multiple users cannot simultaneously process unreleased transfer receipts with partial item quantities on the Receive and Put Away form. However, if you have created and released a transfer receipt with a partial item quantity, the remaining quantity can be received in another transfer receipt. 
 
 ### Wave Picking: Implementation Checklist 
 
@@ -4106,7 +4104,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  You can affect the workflow of wave picking by specifying the following additional settings: 
 
-- To make the system generate lot or serial numbers for processed serialized items automatically, select the     **Default Auto-Generated Lot/Serial Nbr.** check box on the _Purchase Orders Preferences_ (PO101000) form. 
+- To make the system generate lot or serial numbers for processed serialized items automatically, select the     **Use Default Auto-Generated Lot/Serial Nbr.** check box on the _Purchase Orders Preferences_ (PO101000)     form. 
 
 - To make the system generate expiration dates for processed serialized items automatically, select the     **Default Expiration Date** on the _Purchase Orders Preferences_ form. 
 

@@ -2,7 +2,7 @@
 
 # Installation Guide 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -46,93 +46,93 @@
 
  Acumatica ERP Installation in a Data Center: To Install Acumatica ERP on Amazon EC2............................37 
 
- Deploying Acumatica ERP Instances....................................................................................................... 40 
+ Deploying Acumatica ERP Instances....................................................................................................... 41 
 
- Instance Deployment: General Information...................................................................................................40 
+ Instance Deployment: General Information...................................................................................................41 
 
- Instance Deployment: Creation of an Instance..............................................................................................43 
+ Instance Deployment: Creation of an Instance..............................................................................................44 
 
  Instance Deployment: Accessing an Instance for the First Time...................................................................48 
 
  Instance Deployment: To Deploy an Out-of-the-Box Instance...................................................................... 49 
 
- Instance Deployment: Feature Activation and Licensing.............................................................................. 56 
+ Instance Deployment: Feature Activation and Licensing.............................................................................. 57 
 
- Instance Deployment: To Enable Features and Activate the License........................................................... 59 
+ Instance Deployment: To Enable Features and Activate the License........................................................... 60 
 
- Instance Deployment: To Deploy an Instance with Demo Data.................................................................... 62 
+ Instance Deployment: To Deploy an Instance with Demo Data.................................................................... 63 
 
- Instance Deployment: Deploying the Acumatica Self-Service Portal........................................................... 65 
+ Instance Deployment: Deploying the Acumatica Self-Service Portal........................................................... 66 
 
- Instance Deployment: To Deploy a Self-Service Portal Instance...................................................................65 
+ Instance Deployment: To Deploy a Self-Service Portal Instance...................................................................66 
 
- Instance Deployment: To Specify the Tenant Available for Self-Service Portal Users..................................67 
+ Instance Deployment: To Specify the Tenant Available for Self-Service Portal Users..................................68 
 
- Instance Deployment: To Set Up a Group of Self-Service Portal Instances.................................................. 67 
+ Instance Deployment: To Set Up a Group of Self-Service Portal Instances.................................................. 69 
 
- Maintaining Tenants............................................................................................................................. 70 
+ Maintaining Tenants............................................................................................................................. 71 
 
- Tenant Maintenance: General Information.................................................................................................... 70 
+ Tenant Maintenance: General Information.................................................................................................... 71 
 
- Tenant Maintenance: To Create an Additional Tenant.................................................................................. 72 
+ Tenant Maintenance: To Create an Additional Tenant.................................................................................. 73 
 
 
 <!-- PAGE_BREAK -->
  Contents | 3 
 
- Tenant Maintenance: To Deploy an Instance with Multiple Tenants............................................................ 74 
+ Tenant Maintenance: To Deploy an Instance with Multiple Tenants............................................................ 75 
 
- Tenant Maintenance: To Change Tenant Visibility.........................................................................................79 
+ Tenant Maintenance: To Change Tenant Visibility.........................................................................................81 
 
- Tenant Maintenance: To Explore Tenant Visibility......................................................................................... 80 
+ Tenant Maintenance: To Explore Tenant Visibility......................................................................................... 82 
 
- Tenant Maintenance: To Delete a Tenant.......................................................................................................82 
+ Tenant Maintenance: To Delete a Tenant.......................................................................................................83 
 
-**Maintaining Instances........................................................................................................................... 84** 
+**Maintaining Instances........................................................................................................................... 85** 
 
- Instance Maintenance: General Information..................................................................................................84 
+ Instance Maintenance: General Information..................................................................................................85 
 
- Instance Maintenance: Possible Update Statuses of an Instance................................................................. 85 
+ Instance Maintenance: Possible Update Statuses of an Instance................................................................. 86 
 
- Instance Maintenance: To View the Settings of an Instance..........................................................................86 
+ Instance Maintenance: To View the Settings of an Instance..........................................................................87 
 
- Instance Maintenance: To Change the Database of an Instance...................................................................88 
+ Instance Maintenance: To Change the Database of an Instance...................................................................89 
 
-**Upgrading Acumatica ERP..................................................................................................................... 91** 
+**Upgrading Acumatica ERP..................................................................................................................... 92** 
 
- Upgrading of Acumatica ERP: General Information...................................................................................... 91 
+ Upgrading of Acumatica ERP: General Information...................................................................................... 92 
 
- Upgrading of Acumatica ERP: To Update an Instance...................................................................................93 
+ Upgrading of Acumatica ERP: To Update an Instance...................................................................................94 
 
- Upgrading of Acumatica ERP: To Schedule the System Lockout..................................................................95 
+ Upgrading of Acumatica ERP: To Schedule the System Lockout..................................................................96 
 
- Upgrading of Acumatica ERP: To Update the Database of an Acumatica ERP Instance.............................. 95 
+ Upgrading of Acumatica ERP: To Update the Database of an Acumatica ERP Instance.............................. 96 
 
- Upgrading of Acumatica ERP: To Update an Acumatica ERP Site................................................................ 96 
+ Upgrading of Acumatica ERP: To Update an Acumatica ERP Site................................................................ 97 
 
- Upgrading of Acumatica ERP: To Unlock an Acumatica ERP Instance......................................................... 97 
+ Upgrading of Acumatica ERP: To Unlock an Acumatica ERP Instance......................................................... 98 
 
-**Using the Acumatica ERP Command-Line Tool........................................................................................ 99** 
+**Using the Acumatica ERP Command-Line Tool...................................................................................... 100** 
 
- Acumatica ERP Command-Line Tool: General Information.......................................................................... 99 
+ Acumatica ERP Command-Line Tool: General Information........................................................................ 100 
 
- Acumatica ERP Command-Line Tool: Possible Parameters and Values..................................................... 101 
+ Acumatica ERP Command-Line Tool: Possible Parameters and Values..................................................... 102 
 
- Acumatica ERP Command-Line Tool: To Deploy an Instance by Using the Configuration File..................108 
+ Acumatica ERP Command-Line Tool: To Deploy an Instance by Using the Configuration File..................109 
 
-**Using the Acumatica ERP PatchTool utility............................................................................................110** 
+**Using the Acumatica ERP PatchTool utility............................................................................................111** 
 
- Acumatica ERP PatchTool: General Information..........................................................................................110 
+ Acumatica ERP PatchTool: General Information..........................................................................................111 
 
- Acumatica ERP PatchTool: Parameters and Values..................................................................................... 112 
+ Acumatica ERP PatchTool: Parameters and Values..................................................................................... 113 
 
- Acumatica ERP PatchTool: To Apply Patches...............................................................................................113 
+ Acumatica ERP PatchTool: To Apply Patches...............................................................................................115 
 
-**Uninstalling Acumatica ERP................................................................................................................. 115** 
+**Uninstalling Acumatica ERP................................................................................................................. 117** 
 
- Uninstalling of Acumatica ERP: General Information..................................................................................115 
+ Uninstalling of Acumatica ERP: General Information..................................................................................117 
 
- Uninstalling of Acumatica ERP: To Delete an Instance................................................................................ 116 
+ Uninstalling of Acumatica ERP: To Delete an Instance................................................................................ 118 
 
 
 <!-- PAGE_BREAK -->
@@ -154,9 +154,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -210,7 +210,7 @@
 
  Apple Safari 17 or later 
 
- Google Chrome 120 or later 
+ Google Chrome 126 or later 
 
 #### Server Environment 
 
@@ -238,7 +238,7 @@
 
  You must set Enable 32-bit Applications to False in the IIS settings. 
 
- Acumatica ERP 2025 R1 supports only the Integrated mode of the application pool. Classic mode is not supported. If you try to upgrade an earlier version of Acumatica ERP with Classic mode of the application pool to 2025 R1, the upgrade will not be performed, and a corresponding error message will be displayed. 
+ Acumatica ERP 2025 R2 supports only the Integrated mode of the application pool. Classic mode is not supported. If you try to upgrade an earlier version of Acumatica ERP with Classic mode of the application pool to 2025 R2, the upgrade will not be performed, and a corresponding error message will be displayed. 
 
  Memory 16 GB RAM 
 
@@ -828,23 +828,21 @@ The following diagram shows a configuration where one server hosts both the appl
 
 4. Go to **Internet Information Services > Web Management Tools**. 
 
-5. Select the **IIS Management Console** check box, as shown in the following screenshot. 
-
- If the check box is already selected, go to Step 2. 
+5. Select the **IIS Management Console** check box. 
 
  Figure: The IIS Management Console feature 
-
-
-<!-- PAGE_BREAK -->
- Preparing for Installing Acumatica ERP | 19 
 
 #### Step 2: Enabling World Wide Web Services Features 
 
  To enable various features that are included in the World Wide Web Services group of features, do the following: 
 
+
+<!-- PAGE_BREAK -->
+ Preparing for Installing Acumatica ERP | 19 
+
 1. While you are still viewing the **Windows Features** dialog box, go to **Internet Information Services > World**     **Wide Web Services > Application Development Features**. 
 
-2. Select the following check boxes (as shown in the screenshot below): 
+2. Select the following check boxes: 
 
 - **.NET Extensibility 4.8** 
 
@@ -860,7 +858,7 @@ The following diagram shows a configuration where one server hosts both the appl
 
 3. Go to **Internet Information Services > World Wide Web Services > Common HTTP Features**. 
 
-4. Select the following check boxes (as shown in the screenshot below): 
+4. Select the following check boxes: 
 
 - **Default Document** 
 
@@ -874,7 +872,7 @@ The following diagram shows a configuration where one server hosts both the appl
 
 5. Go to **Internet Information Services > World Wide Web Services > Performance Features**. 
 
-6. Select the following check boxes (as shown in the screenshot below): 
+6. Select the following check boxes: 
 
 - **Dynamic Content Compression** 
 
@@ -888,7 +886,7 @@ The following diagram shows a configuration where one server hosts both the appl
 
 7. Go to **Internet Information Services > World Wide Web Services > Security**. 
 
-8. Select the **Request Filtering** check box (as shown in the following screenshot). 
+8. Select the **Request Filtering** check box. 
 
  Figure: Enabling of the Request Filtering feature 
 
@@ -928,7 +926,7 @@ The following diagram shows a configuration where one server hosts both the appl
 
 6. While the **DefaultAppPool** application pool is selected in the middle pane, in the right **Actions** pane, click     **Advanced Settings**. 
 
-7. In the **Advanced Settings** dialog box, which opens, make sure that _False_ is selected as the value of the     **Enable 32-Bit Applications** setting (as shown in the following screenshot). 
+7. In the **Advanced Settings** dialog box, which opens, make sure that _False_ is selected as the value of the     **Enable 32-Bit Applications** setting. 
 
  Figure: Advanced Settings of the DefaultAppPool 
 
@@ -1048,7 +1046,7 @@ The following diagram shows a configuration where one server hosts both the appl
 
 #### Story 
 
- Suppose that you, as the system administrator of the SweetLife Fruits & Jams company, need to download the Acumatica ERP 2025 R1 GA version and install the Acumatica ERP Configuration wizard for this version. 
+ Suppose that you, as the system administrator of the SweetLife Fruits & Jams company, need to download the Acumatica ERP 2025 R2 GA version and install the Acumatica ERP Configuration wizard for this version. 
 
 #### Process Overview 
 
@@ -1060,19 +1058,19 @@ The following diagram shows a configuration where one server hosts both the appl
 
 #### Step 1: Obtaining an Installation Package for a Specific Acumatica ERP Version 
 
- In this step, you will find the build for the Acumatica ERP 2025 R1 GA version and download it. 
+ In this step, you will find the build for the Acumatica ERP 2025 R2 GA version and download it. 
 
  To find and download the needed Acumatica ERP build, do the following: 
 
 1. Open the _Acumatica Community_ website.     You will need your partner username and password to access the site. 
 
-2. On the **Product** menu on top of the page, click **2025 R1**.     The Acumatica ERP 2025 R1 Downloads and Release Notes page opens. On this page, you can find the latest     release and prior releases of the selected version; you can also read the release notes. 
+2. On the **Product** menu on top of the page, click **2025 R2**.     The Acumatica ERP 2025 R2 Downloads and Release Notes page opens. On this page, you can find the latest     release and prior releases of the selected version; you can also read the release notes. 
 
 3. Click the _Show Content_ link in the **Prior Releases** section. 
 
-4. Click the _Acumatica 2025 R1 GA Build ХХ.ХХХ.ХХХХ_ link.     The page with the release opens. 
+4. Click the _Acumatica 2025 R2 GA Build ХХ.ХХХ.ХХХХ_ link.     The page with the release opens. 
 
-5. In the **Download Links** section, click the _Acumatica ERP 2025 R1 GA_ link to download the     AcumaticaERPInstall.msi Windows installer package.     Wait until the package is downloaded to your computer. 
+5. In the **Download Links** section, click the _Acumatica ERP 2025 R2 GA_ link to download the     AcumaticaERPInstall.msi Windows installer package.     Wait until the package is downloaded to your computer. 
 
 #### Step 2: Installing Acumatica ERP 
 
@@ -1148,13 +1146,13 @@ To install the Acumatica ERP Configuration wizard, do the following:
 
 1. On the Start menu, click **Settings > Apps > Installed apps**. 
 
-2. In the list of installed applications, find Acumatica ERP 2025 R1, and click the **Modify** button, as shown in     the following screenshot, which uses the Windows 11 interface as an example. 
+2. In the list of installed applications, find Acumatica ERP 2025 R2, and click the **Modify** button. 
 
  Figure: The Apps & features page 
 
-3. On the Welcome page of the Acumatica ERP 2025 R1 Setup wizard, which opens, click **Next**. 
+3. On the Welcome page of the Acumatica ERP 2025 R2 Setup wizard, which opens, click **Next**. 
 
-4. On the Change, Repair, or Remove installation page, click **Change** (see the following screenshot). 
+4. On the Change, Repair, or Remove installation page, click **Change**. 
 
 
 <!-- PAGE_BREAK -->
@@ -1162,7 +1160,7 @@ To install the Acumatica ERP Configuration wizard, do the following:
 
  Figure: The Change, Repair, or Remove installation page 
 
-5. On the Main Soware Configuration page, select any of the following check boxes for the Acumatica ERP     tool installation (see the screenshot below): 
+5. On the Main Soware Configuration page, select any of the following check boxes for the Acumatica ERP     tool installation: 
 
 - **Install Debugger Tools** : Select this check box to install Debugger Tools. 
 
@@ -1178,17 +1176,17 @@ To install the Acumatica ERP Configuration wizard, do the following:
 
 6. Click **Next**. 
 
-7. On the Destination Folder page, specify the location where you want to install Acumatica ERP Tools, and     then click **Next** , as shown in the following screenshot. 
+7. On the Destination Folder page, specify the location where you want to install Acumatica ERP Tools, and     then click **Next**. 
 
  Figure: The Destination Folder page 
 
-8. On the Ready to Change Acumatica ERP 2025 R1 page, click **Change** (see the following screenshot). 
+8. On the Ready to Change Acumatica ERP 2025 R2 page, click **Change**. 
 
 
 <!-- PAGE_BREAK -->
  Installing Acumatica ERP On-Premises | 32 
 
- Figure: The Ready to Change Acumatica ERP 2025 R1 page 
+ Figure: The Ready to Change Acumatica ERP 2025 R2 page 
 
 9. Aer the tool installation has been completed, click **Finish**. 
 
@@ -1438,29 +1436,59 @@ To install the Acumatica ERP Configuration wizard, do the following:
 <!-- PAGE_BREAK -->
  Installing Acumatica ERP in a Data Center | 39 
 
-8. On the Database Configuration page, specify the following settings:     a. **Create a New Database** : Selected     b. **New Database's Name** : AcumaticaAWS 
+8. On the Database Configuration page, specify the following settings: 
 
-9. Click **Next**. 10.On the Tenant Setup page, review the new tenant that the wizard creates by default with no data preloaded;     it has the default name _Company_ in the **Tenant Name** column. 
+ a. Create a New Database : Selected b. New Database's Name : AcumaticaAWS 
+
+9. Click **Next**. 
+
+10.On the Tenant Setup page, review the new tenant that the wizard creates by default with no data preloaded; it has the default name _Company_ in the **Tenant Name** column. 
 
  The name specified in this column is displayed on the Sign-In page of the application instance and in the instance’s user interface. 
 
- You can also configure the tenant, add more tenants, or restrict the list of tenants a user can see on the SignIn page. For more information, see Maintaining Tenants. 11.Click Next. 12.On the Database Connection page, set up the authentication method that this instance of Acumatica ERP will use to connect to the database by specifying the following settings: a. SQL Server Authentication : Selected b. Use Existing Login Credentials : Selected 
+ You can also configure the tenant, add more tenants, or restrict the list of tenants a user can see on the SignIn page. For more information, see Maintaining Tenants. 
+
+11.Click **Next**. 
+
+12.On the Database Connection page, set up the authentication method that this instance of Acumatica ERP will use to connect to the database by specifying the following settings: a. **SQL Server Authentication** : Selected b. **Use Existing Login Credentials** : Selected 
 
 - **Login** : _Admin_ 
 
-- **Password** : The password that you have created for the Amazon RDS database instance 13.Click **Next**. 14.On the Instance Configuration page, specify the following settings: 
+- **Password** : The password that you have created for the Amazon RDS database instance 
+
+13.Click **Next**. 
+
+14.On the Instance Configuration page, specify the following settings: 
 
 - **Instance Name** : AcumaticaAWS 
 
 - **Create Acumatica ERP Site** : Selected 
 
-- **Local Path to the Instance** : The path on the local computer where you run the web service to this     application instance 15.Click **Next**. 16.On the Website Configuration page, specify the following settings: a. **Available Websites** : _Default Web Site_ b. **Create Virtual Directory** : Selected c. **Virtual Directory Name** : AcumaticaAWS d. **Compile the Site** : Selected e. **Install RabbitMQ** : Selected f. **Install NodeJS** : Selected g. **Enable Modern UI** : Cleared h. **Use Existing Application Pool** : Selected j. **Available Application Pools** : _DefaultAppPool_ 17.Click **Next**. 18.On the Confirmation of Configuration page, check the configuration settings you have specified, and click **Finish** to deploy this Acumatica ERP instance. 19.Click **OK** in the dialog box aer the installation is complete; the system returns you to the Welcome page of the Acumatica ERP Configuration wizard. 
+- **Local Path to the Instance** : The path on the local computer where you run the web service to this     application instance 
+
+15.Click **Next**. 
+
+16.On the Website Configuration page, specify the following settings: 
+
+ a. Available Websites : Default Web Site b. Create Virtual Directory : Selected c. Virtual Directory Name : AcumaticaAWS d. Compile the Site : Selected e. Install Node.js : Selected f. Use Modern UI as Default : Selected g. Use Existing Application Pool : Selected h. Available Application Pools : DefaultAppPool 
+
+17.Click **Next**. 
+
+18.On the RabbitMQ Configuration page, make sure the **Set up RabbitMQ on this server automatically** option is selected and then click **Next**. 
+
+19.On the Confirmation of Configuration page, check the configuration settings you have specified, and click **Finish** to deploy this Acumatica ERP instance. 
+
+20.Click **OK** in the dialog box aer the installation is complete; the system returns you to the Welcome page of the Acumatica ERP Configuration wizard. 
+
+
+<!-- PAGE_BREAK -->
+ Installing Acumatica ERP in a Data Center | 40 
 
 The new Acumatica ERP instance is created on the Awazon EC2 instance, and now you can access it for the first time. For details, see _Instance Deployment: Accessing an Instance for the First Time_ and _Instance Deployment: To Deploy an Out-of-the-Box Instance_. 
 
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 40 
+ Deploying Acumatica ERP Instances | 41 
 
 ## Deploying Acumatica ERP Instances 
 
@@ -1512,7 +1540,7 @@ The new Acumatica ERP instance is created on the Awazon EC2 instance, and now yo
 
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 41 
+ Deploying Acumatica ERP Instances | 42 
 
 The following diagram shows an architecture with multiple application instances. Each instance has multiple tenants, and each tenant has its own database. 
 
@@ -1520,39 +1548,39 @@ The following diagram shows an architecture with one application instance that h
 
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 42 
+ Deploying Acumatica ERP Instances | 43 
 
 The following diagram shows an application instance with one database, where multiple tenants use the same database with completely isolated data. Although the application looks identical to all tenants, each tenant has exclusive access to only its own data. 
 
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 43 
+ Deploying Acumatica ERP Instances | 44 
 
  You can deploy an instance with a tenant that does not contain any predefined data and represents an out-ofthe-box company. You can also deploy a tenant that contains demo data that you can use for training purposes. For details, see Instance Deployment: To Deploy an Out-of-the-Box Instance and Instance Deployment: To Deploy an Instance with Demo Data. 
 
 ### Instance Deployment: Creation of an Instance 
 
- You can create a new Acumatica ERP instance by using the Acumatica ERP Configuration wizard, which you have installed on your computer. The procedure for creating an instance is described below. 
+ You can create a new Acumatica ERP instance by using the Acumatica ERP Configuration wizard, which you have installed on your computer: 
 
- You can start creating an instance by running the Acumatica ERP Configuration wizard, which you can find on your computer in any of the following ways: 
+1. Run the Acumatica ERP Configuration wizard in any of the following ways: 
 
 - By clicking **Start > Acumatica > Acumatica ERP Configuration** 
 
 - By clicking **Search > Acumatica ERP Configuration** 
 
-- By opening the folder in which you have installed Acumatica ERP Configuration wizard. By default, the     address of the folder is C:\Program Files\Acumatica ERP\. In the C:\Program Files     \Acumatica ERP\Data folder, you can find and run the AcumaticaConfig.exe file. The Welcome page of the Acumatica ERP Configuration wizard will open. 
+- By opening the folder in which you have installed Acumatica ERP Configuration wizard. By default, the     address of the folder is C:\Program Files\Acumatica ERP\. In the C:\Program Files     \Acumatica ERP\Data folder, you can find and run the AcumaticaConfig.exe file. 
 
- You can start the deployment of a new instance in one of the following ways: 
+2. On the Welcome page of the Acumatica ERP Configuration wizard, which opens, start the deployment of a     new instance: 
 
 - By clicking **Deploy a New Acumatica ERP Instance**. 
 
 - By clicking **Perform Application Maintenance**.     On the Application Maintenance page, which opens, you then click **Create** to proceed. 
 
+ You can use this way if at least one Acumatica ERP instance has already been deployed. 
+
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 44 
-
- You can use this way if at least one Acumatica ERP instance has already been deployed. 
+ Deploying Acumatica ERP Instances | 45 
 
  The following sections provide an overview of the settings that you need to specify on the pages of the Acumatica ERP Configuration wizard to deploy a new instance. 
 
@@ -1590,17 +1618,17 @@ The following diagram shows an application instance with one database, where mul
 
  If you are creating the Acumatica Self-Service Portal for an existing Acumatica ERP instance, you should connect to the database that is used by this instance. Depending on the database you have selected, you can also select the relevant check box to update or repair the database, if required. If you want to shrink data aer the database maintenance, select the Shrink Data Aer Update or Shrink Data Aer Repair check box, respectively. 
 
-
-<!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 45 
-
 #### Tenant Setup Page 
 
  On this page, you can specify the following settings for the tenant: 
 
+
+<!-- PAGE_BREAK -->
+ Deploying Acumatica ERP Instances | 46 
+
 - **Tenant Name** : The name of the tenant. The default tenant name is _Company_. If you want to change it, you     should double-click the name in the column, type a new tenant name, and press Enter. 
 
- This name is used only when multiple tenants are present; otherwise, the Sign-In page will not display a tenant selection box. Due to integration with OData, the name cannot contain the following special symbols: ,,;,:, +, =, ?, ^, <, >, /, \, {, }, [, ], |, #, $, %, &, and @. 
+ This name is used only when multiple tenants are present; otherwise, the Sign-In page will not display a tenant selection box. Due to integration with OData, the name cannot contain the following special symbols: ,;:+=?^<>/\{}[]|#$%&@. 
 
 - **Insert Data** : The demo data that is used for this tenant. By default, a new tenant does not contain demo     data. If you want to fill the database with demo data, you should select _SalesDemo_ in the column. 
 
@@ -1630,15 +1658,15 @@ The following diagram shows an application instance with one database, where mul
 
 - **Use Existing Login Credentials** : Select this option if you want to use an existing username and     password. 
 
-
-<!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 46 
-
  The specified username must have the following minimum rights within the database server: 
 
 - For a Microso SQL server, _read_ , _write_ , _execute_ , and _ddl_admin_ 
 
 - For a MySQL server, _create_ , _alter_ , _drop_ , _select_ , _delete_ , _insert_ , _update_ , _create temporary_     _tables_ , and _execute_ 
+
+
+<!-- PAGE_BREAK -->
+ Deploying Acumatica ERP Instances | 47 
 
 #### Instance Configuration Page 
 
@@ -1666,27 +1694,33 @@ The following diagram shows an application instance with one database, where mul
 
 - **Compile the Site** : Select this check box if you want to allow the system to load the website faster for the first     time. 
 
-- **Install RabbitMQ** : Select this check box if you want to install RabbitMQ (if it is not already installed) to     support push notification functionality. 
+- **Install Node.js** : Select this check box if you want to install the needed version of Node.js for the compilation     of the customization code. 
 
- If you clear the Install RabbitMQ check box, the Acumatica ERP Configuration wizard configures the Acumatica ERP instance to use Microso Message Queuing (MSMQ) for push notifications. 
+ If you want to use the version of Node.js that has already been installed in your system, you can clear the Install Node.js check box and add the following key to the appSettings section of the Web.config file of your instance: <add key="NodeJs:NodeJsPath" value="C:\Program Files\NodeJs"/>, where value specifies the path to the location where Node.js has been installed. 
 
-- **Install NodeJS** : Select this check box if you want to install the needed version of Node.js for the compilation     of the customization code. 
-
-
-<!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 47 
-
- If you want to use the version of Node.js that has already been installed in your system, you can clear the Install NodeJS check box and add the following key to the appSettings section of the Web.config file of your instance: <add key="NodeJs:NodeJsPath" value="C:\Program Files\NodeJs"/>, where value specifies the path to the location where Node.js has been installed. 
-
- You may want to use a dedicated application pool to better isolate instances and fine-tune resources that are allocated for the instance by IIS. To specify the dedicated application pool, select one of the following options in the Application Pool Settings section: 
+- **Use Modern UI as Default** : Select this check box if you want to use the Modern UI as the default user     interface. You may want to use a dedicated application pool to better isolate instances and fine-tune resources that are allocated for the instance by IIS. To specify the dedicated application pool, select one of the following options in the **Application Pool Settings** section: 
 
 - **Create New Application Pool** : Select this option button if you want to create a new application pool. You     should also type the application pool name in the **Application Pool Name** box. 
 
 - **Use Existing Application Pool** : Select this option button if you want to use an existing application pool. You     should select the name of this application pool in the list of available application pools.     The list of application pools includes all the application pools you can use to install Acumatica ERP from the     list of pools configured in the IIS web server. You can select an application pool that uses either the classic     or integrated model of request processing through the web server. 
 
+
+<!-- PAGE_BREAK -->
+ Deploying Acumatica ERP Instances | 48 
+
  Acumatica ERP employs the application pools that use one of the supported .NET Framework versions. For the list of supported .NET Framework versions, see System Requirements for the Acumatica ERP Installation. 
 
  For a production instance, we recommend that you create a new application pool for production deployment. 
+
+#### RabbitMQ Configuration Page 
+
+ Suppose that you are deploying a new instance of Acumatica ERP on a new machine. In this case, you would also need to install the RabbitMQ message broker. On the other side, when you are upgrading Acumatica ERP or have an already installed RabbitMQ message broker, you would need to specify the broker connection parameters instead of installing a new one. 
+
+ When you’re deploying or upgrading an Acumatica ERP instance by using the Acumatica ERP Configuration wizard, the RabbitMQ Confiuration page prompts you to do one of the following: 
+
+- Install a new instance of the RabbitMQ message broker. This is ideal for initial setup. 
+
+- Connect to an existing RabbitMQ message broker. This option works well if you already have RabbitMQ     installed and configured on your local machine or a remote server. 
 
 #### Confirmation of Configuration Page 
 
@@ -1706,13 +1740,13 @@ The following diagram shows an application instance with one database, where mul
 
  For more details about using logs, see Using Logs. 
 
-
-<!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 48 
-
 ### Instance Deployment: Accessing an Instance for the First Time 
 
  When you finish deploying an Acumatica ERP application instance, you need to access it initially to proceed with further configuration. 
+
+
+<!-- PAGE_BREAK -->
+ Deploying Acumatica ERP Instances | 49 
 
 #### Opening a Newly Created Instance 
 
@@ -1748,13 +1782,13 @@ The following diagram shows an application instance with one database, where mul
 
  Aer that, you can click the Sign In button on the Sign-In page. The home page of the Acumatica ERP instance opens. 
 
-
-<!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 49 
-
 ### Instance Deployment: To Deploy an Out-of-the-Box Instance 
 
  In this activity, you will learn how to deploy an Acumatica ERP out-of-the-box application instance (that is, the instance without demo data) and sign in to it for the first time. 
+
+
+<!-- PAGE_BREAK -->
+ Deploying Acumatica ERP Instances | 50 
 
 #### Story 
 
@@ -1782,11 +1816,11 @@ The following diagram shows an application instance with one database, where mul
 
  Figure: The Welcome page of the Acumatica ERP Configuration wizard 
 
+3. On the Database Server Connection page, which opens, specify the following settings, and then click **Next** :     a. **Server Type** : _Microso SQL Server_     b. **Server Name** : (local) 
+
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 50 
-
-3. On the Database Server Connection page, which opens, specify the following settings, and then click **Next**     (see the screenshot below):     a. **Server Type** : _Microso SQL Server_     b. **Server Name** : (local) 
+ Deploying Acumatica ERP Instances | 51 
 
  If you are using the Microso SQL Server Express edition, enter LOCALHOST \SQLEXPRESS. 
 
@@ -1794,13 +1828,13 @@ The following diagram shows an application instance with one database, where mul
 
  Figure: The Database Server Connection page 
 
-4. On the Database Configuration page, which opens, enter the following settings to create a new database,     and then click **Next** (see the following screenshot):     a. **Create a New Database** : Selected     b. **New Database's Name** : AcumaticaS100. 
+4. On the Database Configuration page, which opens, enter the following settings to create a new database,     and then click **Next** :     a. **Create a New Database** : Selected     b. **New Database's Name** : AcumaticaS100. 
+
+ Figure: The Database Configuration page 
 
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 51 
-
- Figure: The Database Configuration page 
+ Deploying Acumatica ERP Instances | 52 
 
  The Tenant Setup page opens. By default, the wizard creates a new tenant with no data preloaded and with the default name Company in the Tenant Name column. The name specified in this column is displayed on the Sign-in page of the application instance and in the instance’s user interface. 
 
@@ -1808,27 +1842,25 @@ The following diagram shows an application instance with one database, where mul
 
  Figure: The Tenant Setup page 
 
-6. On the Database Connection page, which opens, leave the default **Windows Authentication** option     selected, as shown in the following screenshot, and click **Next**. 
-
-
-<!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 52 
+6. On the Database Connection page, which opens, leave the default **Windows Authentication** option     selected, and click **Next**. 
 
  Figure: The Database Connection page 
 
  The default anonymous user account used by Internet Information Services, which is ApplicationPoolIdentity , will be used to connect to the database. 
 
-7. On the Instance Configuration page, which opens, enter the following settings, and then click **Next** : 
-
- a. Instance Name : AcumaticaS100. By default, this is the name that you have specified for the database. You can change it. b. Create Acumatica ERP Site : Selected. c. Local Path to the Instance : The path on the local computer to the application instance being created. By default, this is the folder with the instance name, which is located in the folder where the Acumatica ERP Configuration wizard has been installed. The path should have the following format: %Program Files%\Acumatica ERP\AcumaticaS100, as shown in the following screenshot. 
-
 
 <!-- PAGE_BREAK -->
  Deploying Acumatica ERP Instances | 53 
 
+7. On the Instance Configuration page, which opens, enter the following settings, and then click **Next** : 
+
+ a. Instance Name : AcumaticaS100. By default, this is the name that you have specified for the database. You can change it. b. Create Acumatica ERP Site : Selected. c. Local Path to the Instance : The path on the local computer to the application instance being created. By default, this is the folder with the instance name, which is located in the folder where the Acumatica ERP Configuration wizard has been installed. The path should have the following format: %Program Files%\Acumatica ERP\AcumaticaS100, as shown in the following screenshot. 
+
  Figure: The Instance Configuration page 
 
-8. On the Website Configuration page, which opens, specify the following settings, and then click **Next** (see the     screenshot below):     a. **Available Websites** : _Default Web Site_     b. **Create Virtual Directory** : Selected     c. **Virtual Directory Name** : Name of the virtual directory, which matches the instance name     d. **Compile the Site** : Selected     e. **Install RabbitMQ** : Selected     f. **Install NodeJS** : Selected     g. **Enable Modern UI** : Cleared     h. **Use Existing Application Pool** : Selected     j. **Available Application Pools** : _DefaultAppPool_ 
+8. On the Website Configuration page, which opens, specify the following settings, and then click **Next** : 
+
+ a. Available Websites : Default Web Site b. Create Virtual Directory : Selected c. Virtual Directory Name : Name of the virtual directory, which matches the instance name d. Compile the Site : Selected e. Install Node.js : Selected f. Use Modern UI as Default : Selected g. Use Existing Application Pool : Selected h. Available Application Pools : DefaultAppPool 
 
 
 <!-- PAGE_BREAK -->
@@ -1836,11 +1868,19 @@ The following diagram shows an application instance with one database, where mul
 
  Figure: The Website Configuration page 
 
- The Confirmation of Configuration page opens, as shown in the following screenshot. 
+9. On the RabbitMQ Configuration page, which opens, make sure the **Set up RabbitMQ on this server**     **automatically** option is selected and then click **Next**. 
+
+ Figure: The RabbitMQ Configuration page 
+
+10.On the Confirmation of Configuration page, click **Finish** , and wait while the installation process completes. 
+
+
+<!-- PAGE_BREAK -->
+ Deploying Acumatica ERP Instances | 55 
 
  Figure: The settings of the instance to be created 
 
-9. Click **Finish** , and wait while the installation process completes. 10.Click **OK** in the dialog box aer the installation is complete; the system returns you to the Welcome page of     the Acumatica ERP Configuration wizard. 
+ 11.Click OK in the dialog box aer the installation is complete; the system returns you to the Welcome page of the Acumatica ERP Configuration wizard. 
 
  The new Acumatica ERP instance is created, and now you can access it for the first time. 
 
@@ -1848,13 +1888,13 @@ The following diagram shows an application instance with one database, where mul
 
  To access the AcumaticaS100 application instance for the first time, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 55 
-
 1. While you are viewing the Welcome page of the Acumatica ERP Configuration wizard, click **Perform**     **Application Maintenance**. 
 
 2. On the Application Maintenance page, which opens, in the list of installed sites, click the _AcumaticaS100_     instance, and then click the **Launch** button, as shown in the following screenshot. 
+
+
+<!-- PAGE_BREAK -->
+ Deploying Acumatica ERP Instances | 56 
 
  Figure: The list of the Acumatica ERP installed sites 
 
@@ -1886,7 +1926,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 56 
+ Deploying Acumatica ERP Instances | 57 
 
  Figure: Creation of a new password to an application instance 
 
@@ -1910,13 +1950,13 @@ The following diagram shows an application instance with one database, where mul
 
 - **Contract ID** : You can find this ID on your Acumatica ERP sales invoice. Aer your license request is processed, you will receive a license key. Acumatica uses a licensing server to validate licenses. If the server where you installed the Acumatica ERP instance has no access to the internet, because of the Acumatica security policy, you may request a license file instead of the key. 
 
- You apply the key to your instance by clicking Enter License Key on the form toolbar of the Activate License (SM201510) form, enter the license key in the Activate New License dialog box, and click OK. The system contacts the licensing server and validates the license online. Each license can be used to activate a predetermined number of instances. If you reach the limit for your license, you generally will not be able to use this license. Alternatively, 
+ You apply the key to your instance by clicking Enter License Key on the form toolbar of the Activate License (SM201510) form, enter the license key in the Activate New License dialog box, and click OK. The system contacts the licensing server and validates the license online. Each license can be used to activate a predetermined number 
 
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 57 
+ Deploying Acumatica ERP Instances | 58 
 
- depending on your license settings, the system may bring up a prompt asking if you want to deactivate the license from the oldest instance. 
+ of instances. If you reach the limit for your license, you generally will not be able to use this license. Alternatively, depending on your license settings, the system may bring up a prompt asking if you want to deactivate the license from the oldest instance. 
 
  To validate your license, the licensing server requires that port 443 be open on the computer that is running the Acumatica ERP instance where you enter the key. You may have to open port 443 if the computer has a firewall enabled. 
 
@@ -1948,11 +1988,11 @@ The following diagram shows an application instance with one database, where mul
 
 - Only two conventional users can concurrently use the system. 
 
- Conventional users are users who can sign in by using their usernames and passwords on the Acumatica ERP Sign-In page, through the mobile application, or via the single sign-on page if SSO with Google or Microso Account has been set up. 
-
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 58 
+ Deploying Acumatica ERP Instances | 59 
+
+ Conventional users are users who can sign in by using their usernames and passwords on the Acumatica ERP Sign-In page, through the mobile application, or via the single sign-on page if SSO with Google or Microso Account has been set up. 
 
  Each time a third conventional user signs in to Acumatica ERP, one of the current users is forcibly signed out. The following message is displayed at the bottom of each form: Your product is in trial mode. Only two concurrent users are allowed. The message is followed by the Activate link, which you can click to activate a license. 
 
@@ -1976,11 +2016,11 @@ The following diagram shows an application instance with one database, where mul
 
  <membership defaultProvider="PXActiveDirectorySyncMembershipProvider"> <providers> <remove name="PXActiveDirectorySyncMembershipProvider"/> <remove name="MySQLMembershipProvider" /> <add name="PXActiveDirectorySyncMembershipProvider" type="PX.Data.PXActiveDirectorySyncMembershipProvider, PX.Data" mainProviderType="PX.Data.PXDatabaseMembershipProvider"... concurrentUserMode="true"/> </providers> </membership> 
 
- If the <concurrentUserMode> parameter is set to false (the default setting), the system allows multiple user sessions under the same username or names. For example, the same user or different users can sign in as admin in 10 user sessions, and all of them are counted to comply with the concurrent user limit. 
-
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 59 
+ Deploying Acumatica ERP Instances | 60 
+
+ If the <concurrentUserMode> parameter is set to false (the default setting), the system allows multiple user sessions under the same username or names. For example, the same user or different users can sign in as admin in 10 user sessions, and all of them are counted to comply with the concurrent user limit. 
 
  If <concurrentUserMode> is set to true , the system allows only one user session under each username. If anyone tries to sign in the system with a username that is already signed in, the system will forcibly sign out the first user that is signed in with this username. 
 
@@ -2022,7 +2062,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 60 
+ Deploying Acumatica ERP Instances | 61 
 
  Figure: Activation status of initial features 
 
@@ -2036,11 +2076,11 @@ The following diagram shows an application instance with one database, where mul
 
  Before you proceed with license activation on a real website, make sure that all Acumatica ERP users have saved their work and signed out of the system. During license activation, the Acumatica ERP instance will be restarted, and any unsaved work will be lost. 
 
-1. Open the _Activate License_ (SM201510) form and do the following:     a. On the form toolbar, click **Enter License Key**.     b. In the **Activate New License** dialog box, enter the 918B-A728-0569-7FC6-D058 license key, as        shown in the following screenshot. 
+1. Open the _Activate License_ (SM201510) form and do the following:     a. On the form toolbar, click **Enter License Key**.     b. In the **Activate New License** dialog box, enter the 918B-A728-0569-7FC6-D058 license key, as        shown below. 
 
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 61 
+ Deploying Acumatica ERP Instances | 62 
 
  Figure: The license key 
 
@@ -2058,7 +2098,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 62 
+ Deploying Acumatica ERP Instances | 63 
 
  You can use the filter for the Activated column to filter the activated features. 
 
@@ -2098,7 +2138,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 63 
+ Deploying Acumatica ERP Instances | 64 
 
 #### Story 
 
@@ -2140,7 +2180,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 64 
+ Deploying Acumatica ERP Instances | 65 
 
  Figure: Selection of a dataset for a new tenant 
 
@@ -2164,29 +2204,37 @@ The following diagram shows an application instance with one database, where mul
 
 - **Virtual Directory Name** : AcumaticaT100 
 
+- **Compile the Site** : Selected 
+
+- **Install Node.js** : Selected 
+
+- **Use Modern UI as Default** : Selected 
+
 - **Use Existing Application Pool** : Selected 
 
 - **Available Application Pools** : _DefaultAppPool_ Leave the other settings without changes. 
 
-11.On the Confirmation of Configuration page, review the settings, and click **Finish**. Wait while the new application instance is created. 
+11.On the RabbitMQ Configuration page, which opens, make sure the **Set up RabbitMQ on this server automatically** option is selected and then click **Next**. 
 
-12.Aer the installation is completed, click **OK** in the dialog box to return to the Acumatica ERP Configuration wizard. 
+12.On the Confirmation of Configuration page, review the settings, and click **Finish**. Wait while the new application instance is created. 
 
-13.Click **Perform Application Maintenance**. 
+13.Aer the installation is completed, click **OK** in the dialog box to return to the Acumatica ERP Configuration wizard. 
 
-14.Click the row with _AcumaticaT100_ instance, and then click **Launch**. 
+14.Click **Perform Application Maintenance**. 
+
+15.Click the row with _AcumaticaT100_ instance, and then click **Launch**. 
 
  The instance opens in a new tab of your default browser. 
 
-15.Use the _admin_ username and the _setup_ password to sign in to the instance for the first time, and change the default password. 
-
 
 <!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 65 
+ Deploying Acumatica ERP Instances | 66 
+
+ 16.Use the admin username and the setup password to sign in to the instance for the first time, and change the default password. 
 
  By default, a password must be at least eight characters and contain characters from three of the following four categories: English uppercase characters ( A through Z ), English lowercase characters ( a through z ), numerals ( 0 through 9 ), and special characters (such as! , $ , # , and % ). For details, see Preparing an Instance: System-Wide Security Policy. 
 
- The home page of the Acumatica ERP instance opens. 16.To verify that the demo data has been inserted, open the Employees (EP203000) form, and make sure that there are six employees (Michael Andrews, Maxwell Baker, Layla Beauvoir, Joseph Becher, Martin Bernia, and Todd Bloom). These employees do not come in the out-of-the-box tenant; they have appeared in the instance because you directed the wizard to insert the demo data. 
+ The home page of the Acumatica ERP instance opens. 17.To verify that the demo data has been inserted, open the Employees (EP203000) form, and make sure that there are six employees (Michael Andrews, Maxwell Baker, Layla Beauvoir, Joseph Becher, Martin Bernia, and Todd Bloom). These employees do not come in the out-of-the-box tenant; they have appeared in the instance because you directed the wizard to insert the demo data. 
 
 ### Instance Deployment: Deploying the Acumatica Self-Service Portal 
 
@@ -2208,13 +2256,13 @@ The following diagram shows an application instance with one database, where mul
 
  In this activity, you will learn how to deploy the Self-Service Portal instance and connect it to the database used by the existing Acumatica ERP instance. 
 
+
+<!-- PAGE_BREAK -->
+ Deploying Acumatica ERP Instances | 67 
+
 #### Story 
 
  Suppose that you are the system administrator of your company, need to deploy the Self-Service Portal instance to provide access to your Acumatica ERP instance for the customers. 
-
-
-<!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 66 
 
 #### Process Overview 
 
@@ -2252,7 +2300,13 @@ The following diagram shows an application instance with one database, where mul
 
  By default, the path looks like C:\Program Files\Acumatica ERP\<instance name>. You can change it, if needed. 
 
-9. Click **Next**. 10.On the Website Configuration page, specify the following settings, and then click **Next** to proceed to the next     page: 
+9. Click **Next**. 
+
+
+<!-- PAGE_BREAK -->
+ Deploying Acumatica ERP Instances | 68 
+
+ 10.On the Website Configuration page, specify the following settings, and then click Next to proceed to the next page: 
 
 - **Website Settings** : _Default Web Site_ 
 
@@ -2260,13 +2314,9 @@ The following diagram shows an application instance with one database, where mul
 
 - **Virtual Directory Name** : The name of the virtual directory for the Acumatica ERP instance 
 
-
-<!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 67 
-
 - **Use Existing Application Pool** : Selected 
 
-- List of existing application pools: _DefaultAppPool_ Leave the other settings without changes. 11.On the Confirmation of Configuration page, do the following: a. Check the configuration settings that you have specified. b. If you want to save the configuration settings in an XML file on your computer, click **Save Configuration**. c. Click **Finish** to deploy this Self-Service Portal instance. 
+- List of existing application pools: _DefaultAppPool_ Leave the other settings without changes. 11.On the RabbitMQ Configuration page, which opens, make sure the **Set up RabbitMQ on this server automatically** option is selected and then click **Next**. 12.On the Confirmation of Configuration page, do the following: a. Check the configuration settings that you have specified. b. If you want to save the configuration settings in an XML file on your computer, click **Save Configuration**. c. Click **Finish** to deploy this Self-Service Portal instance. 
 
 ### Instance Deployment: To Specify the Tenant Available for Self-Service Portal Users 
 
@@ -2298,6 +2348,10 @@ The following diagram shows an application instance with one database, where mul
 
  companyID=" x " 
 
+
+<!-- PAGE_BREAK -->
+ Deploying Acumatica ERP Instances | 69 
+
  x is the ID of the tenant that you want to make available to Self-Service Portal users. 
 
 4. Save the web.config file; this automatically restarts the website. 
@@ -2305,10 +2359,6 @@ The following diagram shows an application instance with one database, where mul
 ### Instance Deployment: To Set Up a Group of Self-Service Portal Instances 
 
  In this activity, you will learn how to create a group of Self-Service Portal instances. 
-
-
-<!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 68 
 
 #### Story 
 
@@ -2348,15 +2398,17 @@ The following diagram shows an application instance with one database, where mul
 
 7. Click **Next**. 
 
-8. On the Instance Configuration page, specify the following settings:     a. **Instance Name** : Portal1     b. **Create Self-Service Portal** : Selected     c. **Local Path to the Instance** : The path on the local computer to this application instance 
+8. On the Instance Configuration page, specify the following settings:     a. **Instance Name** : Portal1     b. **Create Self-Service Portal** : Selected 
+
+
+<!-- PAGE_BREAK -->
+ Deploying Acumatica ERP Instances | 70 
+
+ c. Local Path to the Instance : The path on the local computer to this application instance 
 
  The path looks like C:\Program Files\Acumatica ERP\Portal1. 
 
 9. Click **Next**. 10.On the Website Configuration page, verify the following settings, and then click **Next** to proceed to the next     page: 
-
-
-<!-- PAGE_BREAK -->
- Deploying Acumatica ERP Instances | 69 
 
 - **Website Settings** : _Default Web Site_ 
 
@@ -2390,7 +2442,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Tenants | 70 
+ Maintaining Tenants | 71 
 
 ## Maintaining Tenants 
 
@@ -2440,7 +2492,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Tenants | 71 
+ Maintaining Tenants | 72 
 
  When you create a new tenant, its parent tenant must be selected; the System tenant is inserted as a parent by default. If you create a new tenant by using the Acumatica ERP Configuration wizard, you can select any parent tenant for each of the child tenants by specifying its ID in the Parent Tenant ID column. If you create a tenant on the Tenants (SM203520) form, the System tenant is assigned as its parent automatically and you cannot change it. For details, see Managing Tenants by Using the Web Interface. 
 
@@ -2474,7 +2526,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Tenants | 72 
+ Maintaining Tenants | 73 
 
 - A user who has access to only one tenant will be automatically signed in to that tenant aer entering their     username and password. 
 
@@ -2514,7 +2566,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Tenants | 73 
+ Maintaining Tenants | 74 
 
 #### Step: Creating an Additional Tenant 
 
@@ -2534,7 +2586,7 @@ The following diagram shows an application instance with one database, where mul
 
 7. To rename the tenant, double-click the tenant name in the **Tenant Name** column, type a new tenant name,     and press Enter. 
 
- This name is used only when multiple tenants are present; otherwise, the Sign-In page will not display a tenant selection box. Due to integration with OData, the name cannot contain the following special symbols: ,,;,:, +, =, ?, ^, <, >, /, \, {, }, [, ], |, #, $, %, &, and @. 
+ This name is used only when multiple tenants are present; otherwise, the Sign-In page will not display a tenant selection box. Due to integration with OData, the name cannot contain the following special symbols: ,;:+=?^<>/\{}[]|#$%&@. 
 
 8. If you want to fill the database with demo data, select _SalesDemo_ in the **Insert Data** column. 
 
@@ -2556,7 +2608,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Tenants | 74 
+ Maintaining Tenants | 75 
 
  c. Click Finish to deploy the new tenant. 
 
@@ -2612,7 +2664,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Tenants | 75 
+ Maintaining Tenants | 76 
 
 - For a tenant with an _ID_ of _4_ : Company3 b. In the first tenant in the list (the _Company_ tenant), double-click in the **Parent Tenant ID** column. Notice that you can select only the default parent tenant (the _System_ tenant, which has an **ID** of _1_ ). c. Select the **Advanced Settings** check box below the table. Now the wizard also displays the _System_ tenant in the table. Notice that the **Visible** check box for this tenant is cleared, meaning that users do not see it. d. In the row with the _Company_ tenant, clear the **Visible** check box. e. In the row with the _Company3_ tenant, double-click in the **Parent Tenant ID** column and select _2_ , as shown in the screenshot below. This makes _Company3_ the child of _Company_. In this configuration, users will be able to sign in to only _Company2_ and _Company3_ , because these tenants do not have children. 
 
@@ -2644,9 +2696,9 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Tenants | 76 
+ Maintaining Tenants | 77 
 
-9. On the Confirmation of Configuration page, click **Finish** , and wait while the new application instance is     created. 10.Aer the installation is completed, click **OK** in the dialog box to return to the Acumatica ERP Configuration     wizard. 11.Click **Perform Application Maintenance**. 12.Click the row with the _AcumaticaMultitenant_ instance, and then click **Launch**.     The instance opens in a new tab of your default browser. Notice that the instance’s Sign-In page has the     tenant selection box above the **Sign In** button with the _Company2_ and _Company3_ tenants you have created     in this step, as shown in the following screenshot. 
+9. On the RabbitMQ Configuration page, which opens, make sure the **Set up RabbitMQ on this server**     **automatically** option is selected and then click **Next**. 10.On the Confirmation of Configuration page, click **Finish** , and wait while the new application instance is     created. 11.Aer the installation is completed, click **OK** in the dialog box to return to the Acumatica ERP Configuration     wizard. 12.Click **Perform Application Maintenance**. 13.Click the row with the _AcumaticaMultitenant_ instance, and then click **Launch**.     The instance opens in a new tab of your default browser. Notice that the instance’s Sign-In page has the     tenant selection box above the **Sign In** button with the _Company2_ and _Company3_ tenants you have created     in this step, as shown in the following screenshot. 
 
  Figure: The Sign-In page with the tenant selection box 
 
@@ -2668,7 +2720,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Tenants | 77 
+ Maintaining Tenants | 78 
 
  Figure: The restriction of tenant visibility on the Sign-In page 
 
@@ -2686,13 +2738,13 @@ The following diagram shows an application instance with one database, where mul
 
  Because the admin user has access to all the tenants you have created, the tenant selection box is displayed for the user. Notice that only Company2 and Company4 are available for signing in, as shown in the following screenshot. 
 
+
+<!-- PAGE_BREAK -->
+ Maintaining Tenants | 79 
+
  Figure: The tenant selection box on the Sign-In page 
 
 13.Select the _Company2_ tenant in the tenant selection box and click **Sign In**. 
-
-
-<!-- PAGE_BREAK -->
- Maintaining Tenants | 78 
 
  The Sign-In page refreshes and shows the read-only tenant selection box with the selected Company2 tenant. The system prompts you to enter a new password and confirm it, as shown in the following screenshot. 
 
@@ -2710,15 +2762,13 @@ The following diagram shows an application instance with one database, where mul
 
 18.On the Sign-In page, enter the default username and password for the application instance ( _admin_ and _setup_ , respectively) to access the _Company4_ tenant. Since the _admin_ user has access to all the tenants you have created, the system prompts you to change the default password for the _Company4_ tenant, as shown in the following screenshot. Notice that because you have entered the default password, the tenant selection box for the remaining _Company4_ tenant does not appear. 
 
- Figure: Creation of a new password for another tenant in a multitenant instance 
-
-19.Change the password and click **Next**. 
-
- You have signed in to the AcumaticaMultitenant instance. Now you can work within the Company4 tenant. You can also switch to the Company2 tenant in the user menu, as shown in the following screenshot. 
-
 
 <!-- PAGE_BREAK -->
- Maintaining Tenants | 79 
+ Maintaining Tenants | 80 
+
+ Figure: Creation of a new password for another tenant in a multitenant instance 
+
+ 19.Change the password and click Next. You have signed in to the AcumaticaMultitenant instance. Now you can work within the Company4 tenant. You can also switch to the Company2 tenant in the user menu, as shown in the following screenshot. 
 
  Figure: Access to multiple tenants 
 
@@ -2740,7 +2790,13 @@ The following diagram shows an application instance with one database, where mul
 
 7. Click **Next**. 
 
-8. On the Confirmation of Configuration page, do the following:     a. Check the configuration settings you have specified.     b. Click **Finish** to delete the tenant. 
+8. On the Confirmation of Configuration page, do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Maintaining Tenants | 81 
+
+ a. Check the configuration settings you have specified. b. Click Finish to delete the tenant. 
 
 ### Tenant Maintenance: To Change Tenant Visibility 
 
@@ -2753,10 +2809,6 @@ The following diagram shows an application instance with one database, where mul
 #### Process Overview 
 
  In this activity, you will change the visibility of a tenant in an existing instance. 
-
-
-<!-- PAGE_BREAK -->
- Maintaining Tenants | 80 
 
 #### System Preparation 
 
@@ -2784,6 +2836,10 @@ The following diagram shows an application instance with one database, where mul
 
 7. On the Confirmation of Configuration page, do the following:     a. Check the configuration settings you have specified.     b. If you want to save the configuration settings in an XML file on your computer, click **Save Configuration**.     c. Click **Finish**. 
 
+
+<!-- PAGE_BREAK -->
+ Maintaining Tenants | 82 
+
 ### Tenant Maintenance: To Explore Tenant Visibility 
 
  The following activity will walk you through the process of exploring how tenant visibility affects the existing Acumatica ERP application instance. 
@@ -2799,10 +2855,6 @@ The following diagram shows an application instance with one database, where mul
 #### System Preparation 
 
  Before you begin performing the step of this activity, make sure that you have performed the following prerequisite activity: Instance Deployment: To Deploy an Instance with Demo Data. 
-
-
-<!-- PAGE_BREAK -->
- Maintaining Tenants | 81 
 
 #### Step: Exploring the Capabilities of Tenant Visibility 
 
@@ -2824,11 +2876,13 @@ The following diagram shows an application instance with one database, where mul
 
 7. In the warning dialog box, click **OK**. 
 
-8. On the Tenant Setup page, to which you return, do the following:     a. Click **Create** below the list of tenants to add one more tenant.     b. For the new tenant, select _2_ in the **Parent Tenant ID** column.     c. Select the **Visible** check box in the row with the _Company_ tenant.     d. Click **Next**.     The system displays an error message informing you that you cannot continue because only an invisible     tenant can be specified as a parent of another tenant, as shown in the following screenshot. 
+8. On the Tenant Setup page, to which you return, do the following:     a. Click **Create** below the list of tenants to add one more tenant.     b. For the new tenant, select _2_ in the **Parent Tenant ID** column.     c. Select the **Visible** check box in the row with the _Company_ tenant.     d. Click **Next**. 
 
 
 <!-- PAGE_BREAK -->
- Maintaining Tenants | 82 
+ Maintaining Tenants | 83 
+
+ The system displays an error message informing you that you cannot continue because only an invisible tenant can be specified as a parent of another tenant, as shown in the following screenshot. 
 
  Figure: The error message 
 
@@ -2852,7 +2906,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Tenants | 83 
+ Maintaining Tenants | 84 
 
 #### Step: Deleting a Tenant 
 
@@ -2878,7 +2932,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Instances | 84 
+ Maintaining Instances | 85 
 
 ## Maintaining Instances 
 
@@ -2938,7 +2992,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Instances | 85 
+ Maintaining Instances | 86 
 
 3. Select the row with the instance whose settings you wish to review. 
 
@@ -2966,7 +3020,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Instances | 86 
+ Maintaining Instances | 87 
 
 - _Yellow triangle with exclamation point_ : The instance and the instance database are outdated. (That is, the     version of the application instance is the same as the version of the database and is older than the version     of the installed Acumatica ERP Configuration wizard.) The application instance will still work, even if the     instance and database are out of date. 
 
@@ -3006,7 +3060,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Instances | 87 
+ Maintaining Instances | 88 
 
 #### Step: Changing the Settings of an Application Instance 
 
@@ -3036,7 +3090,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Instances | 88 
+ Maintaining Instances | 89 
 
  Figure: The updated URL of the instance 
 
@@ -3072,7 +3126,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Instances | 89 
+ Maintaining Instances | 90 
 
 - **Server Name** : _(local)_ 
 
@@ -3094,7 +3148,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Maintaining Instances | 90 
+ Maintaining Instances | 91 
 
  Figure: The changed database 
 
@@ -3106,7 +3160,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Upgrading Acumatica ERP | 91 
+ Upgrading Acumatica ERP | 92 
 
 ## Upgrading Acumatica ERP 
 
@@ -3154,7 +3208,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Upgrading Acumatica ERP | 92 
+ Upgrading Acumatica ERP | 93 
 
 #### Upgrading Process 
 
@@ -3170,7 +3224,7 @@ The following diagram shows an application instance with one database, where mul
 
 2. Obtain the needed Acumatica ERP build in the _Acumatica Community_ website. You need to use your partner's     username and password to access the site. Download an installation package, and run it to upgrade or     update the Acumatica ERP Configuration wizard.     The procedure is the same as the procedure for installing Acumatica ERP Configuration wizard. For details,     see _Acumatica ERP Installation On-Premises: General Information_. 
 
-3. Start upgrading or updating the database and the site of your application instance. The system will     automatically perform the following actions:     a. For instances that contain published customization projects, validating the compatibility of the currently        published customization code with the code of the new product version. If the validation is successful,        the system upgrade or update the database and the site. If the validation fails, the **Validation Failed**        window opens to display the list of the executed checks and the discovered errors, and the upgrade        process is interrupted. To resolve any issues that were discovered, see _To Resolve an Issue Discovered_        _During the Validation_.     b. Upgrading or updating the database and site of the instance.     If you need to upgrade or update the database without upgrading or updating the site or to upgrade or     update only the site (without the database), see the next section in this topic. 
+3. Start upgrading or updating the database and the site of your application instance. The system will     automatically perform the following actions:     a. For instances that contain published customization projects, validating the compatibility of the currently        published customization code with the code of the new product version. If the validation is successful,        the system upgrade or update the database and the site. If the validation fails, the **Validation Failed**        window opens to display the list of the executed checks and the discovered errors, and the upgrade        process is interrupted. To resolve any issues that were discovered, contact your Acumatica support        provider.     b. Upgrading or updating the database and site of the instance.     If you need to upgrade or update the database without upgrading or updating the site or to upgrade or     update only the site (without the database), see the next section in this topic. 
 
  We strongly recommend that you use the common procedure described in this section for a usual upgrade or update of your Acumatica ERP application instance. 
 
@@ -3186,13 +3240,13 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Upgrading Acumatica ERP | 93 
+ Upgrading Acumatica ERP | 94 
 
  If you need to upgrade or update the Acumatica ERP application instance and the Self-Service Portal instance that is connected to the database of the Acumatica ERP application instance, you can first upgrade or update the Acumatica ERP application instance (that is, the website and the database) and then the site of the Self-Service Portal. You can also upgrade or update the Self-Service Portal with its database and then upgrade or update only the site of the Acumatica ERP application instance. 
 
  To do the divided upgrade or update, you can use the Upgrade Only Website and Upgrade Only Database commands, which you can find in the drop-down list to the right of the Upgrade button on the Application Maintenance page of the Acumatica ERP Configuration wizard. For details, see Upgrading of Acumatica ERP: To Update the Database of an Acumatica ERP Instance and Upgrading of Acumatica ERP: To Update an Acumatica ERP Site. 
 
- When you upgrade or update your Acumatica ERP instance by using the Upgrade Only Website or Upgrade Only Database commands, the system does not validate the customization compatibility. If you have published customization projects in your Acumatica ERP instance, the instance may stop working aer an upgrade or update because of incompatible customization code. For details, see To Resolve Issues While Upgrading a Customized Website. 
+ When you upgrade or update your Acumatica ERP instance by using the Upgrade Only Website or Upgrade Only Database commands, the system does not validate the customization compatibility. If you have published customization projects in your Acumatica ERP instance, the instance may stop working aer an upgrade or update because of incompatible customization code. For details, see Validating Customization Projects. 
 
 ### Upgrading of Acumatica ERP: To Update an Instance 
 
@@ -3216,17 +3270,17 @@ The following diagram shows an application instance with one database, where mul
 
 1. Open the _Acumatica Community_ website.     You will need your partner's username and password to access the site. 
 
-2. On the **Product** menu at the top of the page, click **2025 R1**.     The Acumatica ERP 2025 R1 Downloads and Release Notes page opens. On this page, you can find the latest     release and prior releases of the selected version and read the release notes. 
+2. On the **Product** menu at the top of the page, click **2025 R2**.     The Acumatica ERP 2025 R2 Downloads and Release Notes page opens. On this page, you can find the latest     release and prior releases of the selected version and read the release notes. 
 
-3. To download the Acumatica 2025 R1 Update 1, click the _Show content_ link in the **Prior Releases** section. 
+3. To download the Acumatica 2025 R2 Update 1, click the _Show content_ link in the **Prior Releases** section. 
 
-4. Click the _Acumatica 2025 R1 Update 1 Build ХХ.ХХХ.ХХХХ_ link.     The page with the release opens. 
+4. Click the _Acumatica 2025 R2 Update 1 Build ХХ.ХХХ.ХХХХ_ link.     The page with the release opens. 
 
 
 <!-- PAGE_BREAK -->
- Upgrading Acumatica ERP | 94 
+ Upgrading Acumatica ERP | 95 
 
-5. In the **Download Links** section, click the _Acumatica ERP 2025 R1 Update 1_ link to download the     AcumaticaERPInstall.msi Windows installer package. 
+5. In the **Download Links** section, click the _Acumatica ERP 2025 R2 Update 1_ link to download the     AcumaticaERPInstall.msi Windows installer package. 
 
 6. Install the newer version of the Acumatica ERP Configuration wizard, as described in _Acumatica ERP_     _Installation On-Premises: To Install the Acumatica ERP Configuration Wizard_. 
 
@@ -3252,7 +3306,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Upgrading Acumatica ERP | 95 
+ Upgrading Acumatica ERP | 96 
 
 ### Upgrading of Acumatica ERP: To Schedule the System Lockout 
 
@@ -3278,7 +3332,7 @@ The following diagram shows an application instance with one database, where mul
 
 2. Open the _Apply Updates_ (SM203510) form. 
 
-3. On the form toolbar, click **Schedule Lockout**. 
+3. On the form toolbar, click **Schedule Maintenance**. 
 
 4. In the **Schedule Lockout** dialog box, specify the date and time when the system will be locked out and the     reason for the lockout. 
 
@@ -3302,7 +3356,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Upgrading Acumatica ERP | 96 
+ Upgrading Acumatica ERP | 97 
 
 #### Process Overview 
 
@@ -3346,7 +3400,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Upgrading Acumatica ERP | 97 
+ Upgrading Acumatica ERP | 98 
 
 #### Process Overview 
 
@@ -3396,13 +3450,13 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Upgrading Acumatica ERP | 98 
+ Upgrading Acumatica ERP | 99 
 
-3. On the form toolbar, click **Stop Lockout** to unlock the system. 
+3. On the form toolbar, click **Stop Maintenance** to unlock the system. 
 
 
 <!-- PAGE_BREAK -->
- Using the Acumatica ERP Command-Line Tool | 99 
+ Using the Acumatica ERP Command-Line Tool | 100 
 
 ## Using the Acumatica ERP Command-Line Tool 
 
@@ -3442,7 +3496,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Using the Acumatica ERP Command-Line Tool | 100 
+ Using the Acumatica ERP Command-Line Tool | 101 
 
  [-it|-trumbprint:"X.509 thumbprint"][-w|-swebsite:"Web site name"] [-v|-svirtdir:"virtual directory"] [-po|-spool:"application pool"] [-a|-sactions:"AnonymousUser|SelectedUser"] [-k|-suser:"username"] [-m|-spass:"user password"] [-dw|-dbwinauth:"True or False"] [-dn|-dbnewuser:"True|False"] [-du|-dbuser:"username"] [-dp|-dbpass:"user password"] [-cs|-securemode:"True|False"] [-c|-company:"[ci|CompanyID=company ID]; [cp|ParentID=parent company ID] [cv|Visible=True];[ct|CompanyType=True]; [cn|LoginName:username]; [cd|Delete:True]"] [-op|-output:"Normal|Quiet|Forced"] 
 
@@ -3472,7 +3526,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Using the Acumatica ERP Command-Line Tool | 101 
+ Using the Acumatica ERP Command-Line Tool | 102 
 
  ac.exe -configmode:"DBMaint" -dbsrvname:"SM" -dbnew:"False" -dbname:"DotNet4" -dbupdate:"True" 
 
@@ -3552,7 +3606,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Using the Acumatica ERP Command-Line Tool | 102 
+ Using the Acumatica ERP Command-Line Tool | 103 
 
 **Parameter Values Description** 
 
@@ -3630,7 +3684,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Using the Acumatica ERP Command-Line Tool | 103 
+ Using the Acumatica ERP Command-Line Tool | 104 
 
 **Parameter Values Description** 
 
@@ -3678,7 +3732,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Using the Acumatica ERP Command-Line Tool | 104 
+ Using the Acumatica ERP Command-Line Tool | 105 
 
 **Parameter Values Description** 
 
@@ -3746,7 +3800,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Using the Acumatica ERP Command-Line Tool | 105 
+ Using the Acumatica ERP Command-Line Tool | 106 
 
 **Parameter Values Description** 
 
@@ -3810,7 +3864,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Using the Acumatica ERP Command-Line Tool | 106 
+ Using the Acumatica ERP Command-Line Tool | 107 
 
 **Parameter Values Description** 
 
@@ -3850,7 +3904,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Using the Acumatica ERP Command-Line Tool | 107 
+ Using the Acumatica ERP Command-Line Tool | 108 
 
 **Parameter Values Description** 
 
@@ -3914,23 +3968,15 @@ The following diagram shows an application instance with one database, where mul
 
  Specifies whether the Modern UI is enabled in Acumatica ERP by adding the EnableSiteMapSwitchUI parameter with one of the following values to the web.config file: 
 
-- _True_ : Enables the Modern UI 
+- _True_ (default): Enables the Modern UI 
 
-- _False_ (default): Disables the Modern UI 
+- _False_ : Disables the Modern UI 
 
 
 <!-- PAGE_BREAK -->
- Using the Acumatica ERP Command-Line Tool | 108 
+ Using the Acumatica ERP Command-Line Tool | 109 
 
  Parameter Values Description 
-
- -skiprabbit or -rb 
-
-- _True_ 
-
-- _False_ 
-
- Specifies whether the Skip RabbitMQ Installation command should be applied to an instance during the deployment. The default value of this parameter is False , meaning that the command should not be applied. To apply the Skip RabbitMQ Installation command, add this parameter and specify True. 
 
  -skipcompile or -sc 
 
@@ -3966,15 +4012,15 @@ The following diagram shows an application instance with one database, where mul
 
  Before you begin performing the step of this activity, you should do the following: 
 
-
-<!-- PAGE_BREAK -->
- Using the Acumatica ERP Command-Line Tool | 109 
-
 - Make sure that you have completed the _Acumatica ERP Installation On-Premises: To Install the Acumatica_     _ERP Configuration Wizard_ prerequisite activity. 
 
 - Make sure that a command-line utility has been installed on your computer. 
 
  You can use Command Prompt, the built-in command-line utility for Microso Windows. 
+
+
+<!-- PAGE_BREAK -->
+ Using the Acumatica ERP Command-Line Tool | 110 
 
 #### Step 1: Creating the Configuration File by Using the Acumatica ERP Configuration Wizard 
 
@@ -4014,7 +4060,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Using the Acumatica ERP PatchTool utility | 110 
+ Using the Acumatica ERP PatchTool utility | 111 
 
 ## Using the Acumatica ERP PatchTool utility 
 
@@ -4026,9 +4072,11 @@ The following diagram shows an application instance with one database, where mul
 
 - Applying or rolling back a patch replaces files in the instance and restarts its website. Either     lock out the system (see _Upgrading of Acumatica ERP: To Schedule the System Lockout_ ) or     make sure that all users know about the restart so that they can save their work. 
 
-- PatchTool needs internet access to check for and download patches. If necessary, configure     your firewall to allow this. 
+- PatchTool requires internet access to check for and download patches. It uses port 443     (the standard port for secure web traffic) to connect to the URL specified in the BaseUrl     setting. This setting is found in the appsettings.json file, which is in the same folder as     PatchTool.exe. By default, the BaseUrl is https://update.acumatica.com/     rest. Please ensure your firewall allows this connection. 
 
 - Run PatchTool with administrator privileges, as these are necessary to modify files in the     Acumatica ERP application instance folder. 
+
+- If there are several Acumatica ERP application instances installed, each instance should be     patched or rolled back separately. 
 
 #### Learning Objectives 
 
@@ -4048,13 +4096,17 @@ The following diagram shows an application instance with one database, where mul
 
 #### Using PatchTool 
 
- The PatchTool command-line utility is an executable file named PatchTool.exe. By default, the file is located in the %Program Files%\Acumatica ERP\Data\ folder on the computer with Acumatica ERP installed. 
+ The PatchTool command-line utility is an executable file named PatchTool.exe. By default, the file is located in the %Program Files%\Acumatica ERP\Data\PatchUtility\ folder on the computer with Acumatica ERP installed. 
 
- Alternatively, you can download the utility from the Acumatica website: https://update.acumatica.com/rest/api/patch/ tool. 
+ Before using the PatchTool utility, we recommend downloading its latest version from the Acumatica website: https://update.acumatica.com/rest/api/patch/tool. 
 
  When you run PatchTool.exe, you specify: 
 
-- An action name (check, patch, or rollback) 
+- An action name (check, patch, download, or rollback) 
+
+
+<!-- PAGE_BREAK -->
+ Using the Acumatica ERP PatchTool utility | 112 
 
 - A set of command-line parameters, with each presented in the following format 
 
@@ -4062,13 +4114,7 @@ The following diagram shows an application instance with one database, where mul
 
  When you pass a command-line command to PatchTool, use the following syntax. 
 
- PatchTool.exe check|patch|rollback 
-
-
-<!-- PAGE_BREAK -->
- Using the Acumatica ERP PatchTool utility | 111 
-
- -p|--path "path to the instance folder" [-z|--zip "path to the backup archive"] [-a|--archive "path to the local patch archive"] 
+ PatchTool.exe check|patch|download|rollback -p|--path "path to the instance folder" [-z|--zip "path to the backup archive"] [-a|--archive "path to the local patch archive"] [-b|--build "the build number (in XX.XXX.XXXX format) of the instance to be patched"] 
 
 - Parameter values are case-sensitive and must be in quotation marks. 
 
@@ -4086,7 +4132,7 @@ The following diagram shows an application instance with one database, where mul
 
  PatchTool returns the following: 
 
-- If it finds a patch: A new patch found: < _VERSION_ > P< _X_ >. _VERSION_ is the version number of the     Acumatica ERP application instance, and _X_ is the patch number. 
+- If it finds a patch: A new patch found: < _Build_Number_ >. 
 
 - If no patches are available: No patches are available for download. 
 
@@ -4096,21 +4142,37 @@ The following diagram shows an application instance with one database, where mul
 
  PatchTool.exe patch --path "path to the instance folder" [--zip "path to the backup archive"] 
 
- If the machine where your Acumatica ERP instance is installed doesn’t have internet access, contact the Acumatica support team to get the patch as a .zip archive. Copy the patch archive to the machine where your Acumatica ERP instance is installed locally and then use the following command. 
+ If the machine where your Acumatica ERP instance is installed doesn’t have internet access, you can download the patch archive on another machine (as described in the next section). Copy the patch archive to the machine where your Acumatica ERP instance is installed locally and then use the following command. 
 
  PatchTool.exe patch --path "path to the instance folder" --archive "path to the local patch archive" [--zip "path to the backup archive"] 
 
  The -z|--zip parameter is optional. If you omit it, PatchTool creates a .zip archive with backup files in the default backup folder. The folder’s location (typically, %Program Files%\Acumatica ERP\BackUp\Sites \<instance name>) is defined by the BackupFolder parameter of the instance's web.config file. In the folder’s name, <instance name> is the name of the application instance website. 
 
+
+<!-- PAGE_BREAK -->
+ Using the Acumatica ERP PatchTool utility | 113 
+
  PatchTool returns the following: 
 
-- On successful application: The patch with the < _VERSION_ > P< _X_ > version has been     applied. _VERSION_ is the version number of the Acumatica ERP application instance, and _X_ is the patch     number. 
+- On successful application: The patch with the < _Build_Number_ > version has been applied. 
 
 - When no patches are available: No patches are available for download. 
 
+#### Downloading Patches 
 
-<!-- PAGE_BREAK -->
- Using the Acumatica ERP PatchTool utility | 112 
+ You can use the PatchTool utility to retrieve the patch as a .zip archive. This could be useful, for example, to copy patches to machines without internet access. To download the patch, use the following command. 
+
+ PatchTool.exe download --archive "path where to save the patch archive" --build "the build number (in the XX.XXX.XXXX format) of the instance to be patched" 
+
+ If you launch PatchTool on the same machine where the Acumatica ERP application instance is installed, you can use an alternative syntax: 
+
+ PatchTool.exe download --archive "path where to save the patch archive" --path "path to the instance folder" 
+
+ PatchTool returns the following: 
+
+- On successful download: Download completed successfully. File saved to < _path_ >. 
+
+- When no patches are available: No patches are available for download for the     < _Build_Number_ > version. 
 
 #### Uninstalling Patches 
 
@@ -4124,33 +4186,33 @@ The following diagram shows an application instance with one database, where mul
 
 - On successful rollback: Rollback completed. 
 
-- When no patch had been applied: Nothing to roll back. The site has not been     patched. 
+- When no patch had been applied: Nothing to roll back. The site has not been     patched. You may roll back the Acumatica ERP instance as many times as patches have been applied. Each rollback restores the instance to its prior state. 
 
 ### Acumatica ERP PatchTool: Parameters and Values 
 
  The following table lists the command-line parameters you can use in the PatchTool command-line utility. You'll find the full and short names, values, and description of each parameter. 
 
- Parameter Values Description 
 
- Command name • check 
+<!-- PAGE_BREAK -->
+ Using the Acumatica ERP PatchTool utility | 114 
+
+**Parameter Values Description** 
+
+Command name • _check_ 
 
 - _patch_ 
+
+- _download_ 
 
 - _rollback_ 
 
  The action that PatchTool should perform. 
 
- --path or -p The path to the instance folder The path to the Acumatica ERP application instance folder or to the Acumatica ERP installer folder. 
+--path or -p The path to the instance folder The path to the Acumatica ERP application instance folder or to the Acumatica ERP installer folder. 
 
  Example: --path "C:\Program Files\Acumatica ERP\MyInstance" 
 
-
-<!-- PAGE_BREAK -->
- Using the Acumatica ERP PatchTool utility | 113 
-
- Parameter Values Description 
-
- --zip or -z The path to the backup archive file The path to the .zip archive with backup files. 
+--zip or -z The path to the backup archive file The path to the .zip archive with backup files. 
 
  When applying a patch, the utility creates the backup archive file at the specified location. When uninstalling a patch, the utility loads the backup archive file from the specified location. 
 
@@ -4158,11 +4220,25 @@ The following diagram shows an application instance with one database, where mul
 
  Example: --zip "C:\Backup\archive.zip" 
 
- --archive or -a The path to the patch archive file. Specifies the path to the .zip archive with patch files. 
+--archive or -a The path to the patch archive file. Specifies the path to the .zip archive with patch files. 
 
- Use this parameter to apply a patch when the machine where your Acumatica ERP instance is installed does not have internet access and cannot download the patch file. 
+ Use this parameter to download the patch on one machine and then copy it to the machine where your Acumatica ERP instance is installed. 
 
  Example: --archive "C:\Patches\patch2025p4.zip" 
+
+
+<!-- PAGE_BREAK -->
+ Using the Acumatica ERP PatchTool utility | 115 
+
+ Parameter Values Description 
+
+ --build or -b The build number (in the XX.XXX.XXXX format) of the instance to be patched. 
+
+ Specifies the build number of the Acumatica ERP instance you want to download the patch for. 
+
+ Use this parameter to download the patch on one machine and then copy it to the machine where your Acumatica ERP instance is installed. 
+
+ Example: --build "25.200.0000" 
 
 ### Acumatica ERP PatchTool: To Apply Patches 
 
@@ -4176,17 +4252,13 @@ The following diagram shows an application instance with one database, where mul
 
  In this activity, you will use PatchTool to check for available patches for your Acumatica ERP instance. If new patches are found, PatchTool automatically downloads them and applies them to your instance. 
 
-
-<!-- PAGE_BREAK -->
- Using the Acumatica ERP PatchTool utility | 114 
-
 #### System Preparation 
 
  Before you begin performing the step of this activity, you should do the following: 
 
 1. Make sure that you’ve completed the _Instance Deployment: To Deploy an Out-of-the-Box Instance_ prerequisite     activity. 
 
-2. Make sure that PatchTool has been installed on your computer. 
+2. Make sure that the latest version of the PatchTool has been installed on your computer. 
 
 3. Either lock out the system (see _Upgrading of Acumatica ERP: To Schedule the System Lockout_ ) or make sure     that all users know about the restart so that they can save their work. This is necessary because applying or     rolling back a patch replaces the files in the instance and restarts its website. 
 
@@ -4200,13 +4272,17 @@ The following diagram shows an application instance with one database, where mul
 
 2. At the command prompt, enter a command to navigate to the folder where PatchTool is installed and     PatchTool.exe is stored. 
 
- cd C:\Program Files\Acumatica ERP\Data\ 
+
+<!-- PAGE_BREAK -->
+ Using the Acumatica ERP PatchTool utility | 116 
+
+ cd C:\Program Files\Acumatica ERP\Data\PatchUtility\ 
 
 3. At the command prompt, enter PatchTool.exe patch --path "path to the instance     folder" to start the execution of the configuration file and the deployment of the instance. [path to     the instance folder] is the path to the Acumatica ERP application instance folder, which is specified     in the following format. 
 
  PatchTool.exe patch --path "C:\Program Files\Acumatica ERP\AcumaticaS100" 
 
- PatchTool checks the Acumatica website to see if any patches are available for the specified Acumatica ERP instance: 
+PatchTool checks the Acumatica website to see if any patches are available for the specified Acumatica ERP instance: 
 
 - **When no patches are available** , PatchTool returns No patches are available for download. 
 
@@ -4220,11 +4296,11 @@ The following diagram shows an application instance with one database, where mul
 
 - Restarts the instance. 
 
-- Returns The patch with the < _VERSION_ > P< _X_ > version has been applied, where     _VERSION_ is a version number of the Acumatica ERP application instance and _X_ is the patch number. 
+- Returns The patch with the < _Build_Number_ > version has been applied. 
 
 
 <!-- PAGE_BREAK -->
- Uninstalling Acumatica ERP | 115 
+ Uninstalling Acumatica ERP | 117 
 
 ## Uninstalling Acumatica ERP 
 
@@ -4268,7 +4344,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Uninstalling Acumatica ERP | 116 
+ Uninstalling Acumatica ERP | 118 
 
  Acumatica ERP installer package. All the instances, databases, and customization projects that exist are kept intact and functional. 
 
@@ -4320,7 +4396,7 @@ The following diagram shows an application instance with one database, where mul
 
 
 <!-- PAGE_BREAK -->
- Uninstalling Acumatica ERP | 117 
+ Uninstalling Acumatica ERP | 119 
 
 The application created under the default site in Internet Information Services (IIS) when Acumatica ERP was installed has been deleted. 
 

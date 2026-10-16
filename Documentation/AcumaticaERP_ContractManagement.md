@@ -2,7 +2,7 @@
 
 # Contract Management 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -18,9 +18,9 @@
 
  Contract Functionality Implementation: Configuration Prerequisites........................................................... 9 
 
- Contract Functionality Implementation: Implementation Activity...............................................................10 
+ Contract Functionality Implementation: Implementation Activity...............................................................11 
 
- Contract Functionality Implementation: Discount Application to a Contract..............................................12 
+ Contract Functionality Implementation: Discount Application to a Contract..............................................13 
 
  Creating Contract Items........................................................................................................................ 14 
 
@@ -60,67 +60,67 @@
 
  Contract Setup and Activation: To Create and Activate an Empty Consulting Contract Dra..................... 52 
 
- Contract Setup and Activation: To Create and Activate an Empty Support Contract Dra .........................56 
+ Contract Setup and Activation: To Create and Activate an Empty Support Contract Dra .........................55 
 
  Contract Setup and Activation: To Create and Activate a Deposit Contract.................................................58 
 
- Managing Contracts.............................................................................................................................. 62 
+ Managing Contracts.............................................................................................................................. 61 
 
- Contract Management: General Information................................................................................................. 62 
+ Contract Management: General Information................................................................................................. 61 
 
- Contract Management: Implementation Checklist........................................................................................64 
+ Contract Management: Implementation Checklist........................................................................................63 
 
- Contract Management: Fixed-Price Contracts............................................................................................... 64 
+ Contract Management: Fixed-Price Contracts............................................................................................... 63 
 
- Contract Management: Contract Upgrade..................................................................................................... 65 
+ Contract Management: Contract Upgrade..................................................................................................... 64 
 
- Contract Management: To Upgrade a Contract............................................................................................. 66 
+ Contract Management: To Upgrade a Contract............................................................................................. 65 
 
- Contract Management: Last Action Cancellation.......................................................................................... 70 
+ Contract Management: Last Action Cancellation.......................................................................................... 69 
 
 
 <!-- PAGE_BREAK -->
  Contents | 3 
 
- Contract Management: To Cancel the Last Action.........................................................................................71 
+ Contract Management: To Cancel the Last Action.........................................................................................70 
 
  Contract Management: Contract Renewal..................................................................................................... 73 
 
- Contract Management: To Renew a Contract................................................................................................ 75 
+ Contract Management: To Renew a Contract................................................................................................ 74 
 
  Contract Management: To Terminate a Contract.......................................................................................... 78 
 
- Contract Management: Related Reports and Inquiries................................................................................. 83 
+ Contract Management: Related Reports and Inquiries................................................................................. 82 
 
-**Tracking Contract Usage....................................................................................................................... 85** 
+**Tracking Contract Usage....................................................................................................................... 84** 
 
- Contract Usage: General Information.............................................................................................................85 
+ Contract Usage: General Information.............................................................................................................84 
 
- Contract Usage: Contract Usage..................................................................................................................... 86 
+ Contract Usage: Contract Usage..................................................................................................................... 85 
 
- Contract Usage: To Create Case Usage (Support Contract).......................................................................... 88 
+ Contract Usage: To Create Case Usage (Support Contract).......................................................................... 87 
 
- Contract Usage: Labor Items for Billing Contracts........................................................................................ 91 
+ Contract Usage: Labor Items for Billing Contracts........................................................................................ 90 
 
- Contract Usage: To Create Employee Activity Usage (Consulting Contract)................................................ 92 
+ Contract Usage: To Create Employee Activity Usage (Consulting Contract)................................................ 91 
 
  Contract Usage: To Create Usage (Deposit Contract).................................................................................... 96 
 
-**Billing Contracts................................................................................................................................... 99** 
+**Billing Contracts................................................................................................................................... 98** 
 
- Contract Billing: General Information............................................................................................................ 99 
+ Contract Billing: General Information............................................................................................................ 98 
 
- Contract Billing: Contract Examples.............................................................................................................100 
+ Contract Billing: Contract Examples...............................................................................................................99 
 
- Contract Billing: Mass-Processing.................................................................................................................101 
+ Contract Billing: Mass-Processing.................................................................................................................100 
 
- Contract Billing: To Bill a Regular Contract on a Schedule......................................................................... 102 
+ Contract Billing: To Bill a Regular Contract on a Schedule......................................................................... 101 
 
- Contract Billing: To Bill a Consulting Contract by Employee Activity Usage.............................................. 104 
+ Contract Billing: To Bill a Consulting Contract by Employee Activity Usage.............................................. 103 
 
- Contract Billing: To Bill a Support Contract by Case Usage........................................................................ 106 
+ Contract Billing: To Bill a Support Contract by Case Usage........................................................................ 105 
 
- Contract Billing: To Bill a Deposit Contract by Usage Entered Manually....................................................108 
+ Contract Billing: To Bill a Deposit Contract by Usage Entered Manually....................................................107 
 
 **Appendix............................................................................................................................................ 113** 
 
@@ -128,11 +128,11 @@
 
  Report Form.......................................................................................................................................... 113 
 
- Report....................................................................................................................................................118 
+ Report....................................................................................................................................................120 
 
- Form Toolbar and More Menu.......................................................................................................................120 
+ Form Toolbar and More Menu.......................................................................................................................121 
 
- Table Toolbar................................................................................................................................................. 127 
+ Table Toolbar................................................................................................................................................. 128 
 
 
 <!-- PAGE_BREAK -->
@@ -154,9 +154,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -220,17 +220,17 @@
 
 
 <!-- PAGE_BREAK -->
- Implementing the Contract Functionality | 7 
-
-Aer you have created a dra of the contract with appropriate conditions, you set up and activate the contract. These actions trigger the contract fulfillment process. 
+Implementing the Contract Functionality | **7** 
 
 
 <!-- PAGE_BREAK -->
  Implementing the Contract Functionality | 8 
 
-The fulfillment process of the contract includes mandatory and optional steps. 
+#### Fulfillment of the Contract 
 
-The following steps are mandatory: 
+ Aer you have created a dra of the contract with appropriate conditions, you set up and activate the contract. These actions trigger the contract fulfillment process. 
+
+ The fulfillment process of the contract includes mandatory steps: 
 
 - Contract setup and contract activation: Depending on the business processes of your company, the system     gives you the opportunity to start the contract fulfillment process in either of the following ways: 
 
@@ -240,27 +240,41 @@ The following steps are mandatory:
 
 - Contract fulfillment: During this stage, the customer obtains the services described in the contract, and     billing is performed according to the terms defined in the contract and the contract items. For details, see     _Contract Billing: General Information_ and _Contract Usage: Contract Usage_. 
 
-The following steps are optional: 
+#### Contract Upgrade and Renewal 
 
-- Contract upgrade: You or the customer may want to change (upgrade or downgrade) the set of services     within the scope of an active contract. Contract upgrading has two steps: preparation and activation. During     preparation, contract billing and service provision are done according to the initial settings of the contract.     For details, see _Contract Management: Contract Upgrade_. 
+ The contract upgrade and renewal processes let you modify or extend existing contracts. These processes are optional. This section outlines how the Renewable , Expiring , and Unlimited contract types behaves during contract fulfillment. 
 
-- Contract renewal: The renewal scenario depends on the type of the expired contract, which is determined     by the contract template.     The three types of contracts are _Renewable_ , _Expiring_ , and _Unlimited_ : 
+ Contract upgrade: You or the customer may want to change (upgrade or downgrade) the set of services within the scope of an active contract. Contract upgrading has two steps: preparation and activation. During preparation, contract billing and service provision are done according to the initial settings of the contract. For details, see Contract Management: Contract Upgrade. 
 
-- A contract of the _Renewable_ type can be prolonged (its expiration date will be moved to the future) if it     is renewed within the grace period. Aer renewal, the contract has the _Active_ status. If the grace period     has been finished, the renewal process creates a copy of the contract with the _Dra_ status. You need to     activate the copied contract to start the provision of services. During the renewal process, the system     changes the expiration date of the contract and generates an invoice for the renewal fee, if any. Aer     renewal is completed, the contract is again in the fulfillment stage. For details about renewing contracts,     see _Contract Management: Contract Renewal_. 
+ Contract renewal: The renewal scenario depends on the type of the expired contract, which is determined by the contract template. 
 
-- A contract of the _Expiring_ type cannot be prolonged; the renewal process creates a new contract as a     copy of an existing contract. A contract of this type expires at the end of its duration, but it is available     for a renewal operation—manual or automatic. When this contract is renewed, a copy of the expired     contract is created with the _Dra_ status, and you need to activate the copied contract to start the     provision of services 
+ The three types of contracts are Renewable , Expiring , and Unlimited : 
 
-- A contract of the _Unlimited_ type has no expiration date and can end only when it is terminated For more information, see _Contract Management: Contract Renewal_. 
+- A contract of the _Renewable_ type can be prolonged (its expiration date will be moved to the future) if it is     renewed within the grace period. Aer renewal, the contract has the _Active_ status. If the grace period has     been finished, the renewal process creates a copy of the contract with the _Dra_ status. You need to activate     the copied contract to start the provision of services. During the renewal process, the system changes     the expiration date of the contract and generates an invoice for the renewal fee, if any. Aer renewal is     completed, the contract is again in the fulfillment stage. For details about renewing contracts, see _Contract_     _Management: Contract Renewal_. 
 
-- Contract expiration: Each time you run the contract billing process, it checks whether the next billing date is     later than or the same as the contract expiration date. If it is, the contract billing process sets the next billing     day to be the same as the contract expiration date. The next time you run the contract billing process, the     system generates an invoice for the rendered service or contract usage and changes the contract status to     _Expired_. You can not record any contract usage for an expired contract. 
+- A contract of the _Expiring_ type cannot be prolonged; the renewal process creates a new contract as a copy of     an existing contract. A contract of this type expires at the end of its duration, but it is available for a renewal     operation—manual or automatic. When this contract is renewed, a copy of the expired contract is created     with the _Dra_ status, and you need to activate the copied contract to start the provision of services. 
 
-- Contract termination: Contract termination may be done at any point in the contract lifecycle if you or     the customer decide to discontinue the relationship between the parties defined by the contract. You can     terminate an expired contract if you are not going to renew it. When you initiate the contract termination,     the system gathers information on the unbilled usage and unfulfilled services of the contract and generates     an invoice or a credit memo, if needed. 
+- A contract of the _Unlimited_ type has no expiration date and can end only when it is terminated.     For more information, see _Contract Management: Contract Renewal_. 
 
 
 <!-- PAGE_BREAK -->
  Implementing the Contract Functionality | 9 
 
- The termination date must be within the current billing period (between the last and the next billing date). You can check these dates on the Summary tab of the Customer Contracts (CT301000) form ( Billing Schedule section). For more information, see Contract Management: General Information. If the contract termination date is within the refund period specified in the Refund Period box on the Summary tab of the Contract Templates (CT202000) form and the contract termination date is earlier than or the same as the contract expiration date, the system will generate a credit memo for any refundable items. When the termination operation completes successfully, the status of the contract is Canceled. 
+#### Contract Expiration and Termination 
+
+ The contract expiration and termination processes define how contracts end—either automatically at expiration or manually through termination. Expiration occurs when a contract reaches its end date, while termination can happen at any time when the parties decide to discontinue the agreement. These processes are optional. 
+
+ This section explains how the system handles billing, status changes, and refunds during contract expiration and termination. 
+
+ Each time you run the contract billing process, it checks whether the next billing date is later than or the same as the contract expiration date. If it is, the contract billing process sets the next billing day to be the same as the contract expiration date. The next time you run the contract billing process, the system generates an invoice for the rendered service or contract usage and changes the contract status to Expired. You can not record any contract usage for an expired contract. 
+
+ Contract termination may be done at any point in the contract lifecycle if you or the customer decide to discontinue the relationship between the parties defined by the contract. You can terminate an expired contract if you are not going to renew it. When you initiate the contract termination, the system gathers information on the unbilled usage and unfulfilled services of the contract and generates an invoice or a credit memo, if needed. 
+
+ The termination date must be within the current billing period (between the last and the next billing date). You can check these dates on the Summary tab of the Customer Contracts (CT301000) form ( Billing Schedule section). For more information, see Contract Management: General Information. 
+
+ If the contract termination date is within the refund period specified in the Refund Period box on the Summary tab of the Contract Templates (CT202000) form and the contract termination date is earlier than or the same as the contract expiration date, the system will generate a credit memo for any refundable items. 
+
+ When the termination operation completes successfully, the status of the contract is Canceled. 
 
 ### Contract Functionality Implementation: Configuration Prerequisites 
 
@@ -278,6 +292,10 @@ The following steps are optional:
 
  You need to make sure the following tasks have been performed in Acumatica ERP before you begin to create contracts: 
 
+
+<!-- PAGE_BREAK -->
+ Implementing the Contract Functionality | 10 
+
 - On the _Companies_ (CS101500) form, you need to make sure that the companies of the organization have     been configured. For more information, see _Company Without Branches: To Configure a Company Without_     _Branches_. 
 
 - On the _Accounts Receivable Preferences_ (AR101000) form, you need to make sure that the account     receivable functionality has been configured. 
@@ -288,13 +306,7 @@ The following steps are optional:
 
  As a part of the preparation for contract creation, you need to develop a strategy for assigning identifiers to contracts. A segmented key , which is defined on the Segmented Keys (CS202000) form, defines the structure of identifiers for a certain entity and then serves as a template when a user creates an identifier for a new record of the type. You can either configure the segmented key to be auto-numerated, so that the system will generate the new numbers automatically, or make the segmented key manually numbered, if you want to have some meaningful titles for the contracts. 
 
- Contract identifiers are based on the CONTRACT segmented key, which inherits its structure from the PROJECT segmented key. If you are using the same structure for both segmented keys, and auto-numbering is disabled for them, you will not be able to create contracts with the identifiers that are already used in existing projects 
-
-
-<!-- PAGE_BREAK -->
- Implementing the Contract Functionality | 10 
-
- or project templates. Also, you cannot use the identifier that is specified as the non-project code on the Projects Preferences (PM101000) form as an identifier of a contract. 
+ Contract identifiers are based on the CONTRACT segmented key, which inherits its structure from the PROJECT segmented key. If you are using the same structure for both segmented keys, and auto-numbering is disabled for them, you will not be able to create contracts with the identifiers that are already used in existing projects or project templates. Also, you cannot use the identifier that is specified as the non-project code on the Projects Preferences (PM101000) form as an identifier of a contract. 
 
  If both Contract Management and Projects features are in use in the system, a number of entry forms have a Project/Contract element (box or column) in which you select the project or contract that is related to a record on the form (such as an invoice or credit memo) or a detail line of a record (such as a line of an expense claim). In a lookup table that opens for such UI element, and both projects and contracts are listed. If you want to provide the users the ability to distinguish between projects and contracts in these lookup tables, you need to reserve one segment of the key for a value that designates whether the identifier belongs to projects or contracts. You can use one of the following approaches to defining the keys: 
 
@@ -308,7 +320,13 @@ The following steps are optional:
 
 - Customer accounts and locations: The customers you will specify in contracts must be created on the     _Customers_ (AR303000) form. Also, the needed customer locations must be created on the _Customer_     _Locations_ (AR303020) form, which is available if the _Business Account Locations_ feature is enabled on the     _Enable/Disable Features_ (CS100000) form. When you create a contract on the _Customer Contracts_ (CT301000)     form and select a customer account, the system fills in the applicable billing settings that have been     specified for the customer. 
 
-- Discount: If you want to give any customer a discount for services provided recurrently through the contract,     you should create the needed discount code, which determines the discount rate, the application rules,     and the non-stock items it is applied to. You will specify this discount code when you create a contract. You     create each needed discount code on the _Discount Codes_ (AR209000) form and the discount sequences     of each discount code on the _Discounts_ (AR209500) form. For details on creating discounts, see _Customer_     _Discounts: General Information_. 
+- Discount: If you want to give any customer a discount for services provided recurrently through the contract,     you should create the needed discount code, which determines the discount rate, the application rules,     and the non-stock items it is applied to. You will specify this discount code when you create a contract. You     create each needed discount code on the _Discount Codes_ (AR209000) form and the discount sequences 
+
+
+<!-- PAGE_BREAK -->
+ Implementing the Contract Functionality | 11 
+
+ of each discount code on the Discounts (AR209500) form. For details on creating discounts, see Customer Discounts: General Information. 
 
 - Contract template: A contract is based on a contract template, which provides the default settings of the     contract. For each type of contract (such as a service agreement or support plan) your company has with its     customers, you can create a contract template. Then when you create a contract, you select the appropriate     contract template, which causes the default settings of the contract to be filled in. A contract template     may also provide a list of products and services that you want to sell. These services and products are     represented by contract items, which you create separately. 
 
@@ -316,11 +334,7 @@ The following steps are optional:
 
  In this implementation activity, you will learn how to enable the Contract Management feature and review the basic contract management settings. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-
-<!-- PAGE_BREAK -->
- Implementing the Contract Functionality | 11 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -352,6 +366,10 @@ The following steps are optional:
 
 3. Under the _Advanced Financials_ group of features, select the **Contract Management** check box. 
 
+
+<!-- PAGE_BREAK -->
+ Implementing the Contract Functionality | 12 
+
  The Contract Management feature provides support for contracts, including contract billing, in Acumatica ERP. It makes available forms related to contract processing and provides integration with accounts receivable and the tracking of time and expenses. 
 
 4. On the form toolbar, click **Enable**. 
@@ -366,27 +384,29 @@ The following steps are optional:
 
  The step is optional. You may perform it during your activities in the case you want the system issues invoices in the Balanced status. You can then release invoices in bulk from the Release AR Documents (AR501000) form. 
 
-
-<!-- PAGE_BREAK -->
- Implementing the Contract Functionality | 12 
-
 #### Step 3: Enabling Auto-Numbering for Contracts 
 
  In Acumatica ERP, contract identifiers are created based on the CONTRACT segmented key. To configure the system to assign automatically numbered identifiers to contracts, do the following: 
 
 1. In the **Segmented Key ID** box of the _Segmented Keys_ (CS202000) form (the Summary area), select     _CONTRACT_. 
 
-2. Click **Edit** to the right of the **Numbering ID** box to view the configuration of the _CONTRACT_ numbering     sequence on the _Numbering Sequences_ (CS201010) form. This predefined numbering sequence is used in     the _CONTRACT_ segmented key by default. 
+2. In the **Numbering ID** box, click _CONTRACT_. 
 
-3. Close the _Numbering Sequences_ form. 
+3. In the _Numbering Sequences_ (CS201010) form, which opens, view the configuration of the numbering     sequence. This predefined numbering sequence is used in the _CONTRACT_ segmented key by default. 
 
-4. In the table on the _Segmented Keys_ form, select the **Auto Number** check box for the only row, which     contains the settings of the single segment included in the segmented key (see the following screenshot). 
+4. Close the _Numbering Sequences_ form. 
+
+5. In the table of the _Segmented Keys_ form, select the **Auto Number** check box for the only row, which     contains the settings of the single segment included in the segmented key (see the following screenshot). 
 
  Figure: Settings of the CONTRACT segmented key 
 
+
+<!-- PAGE_BREAK -->
+ Implementing the Contract Functionality | 13 
+
  Contract identifiers can be defined to include multiple segments. However, automatic numbering can be enabled for only one segment. Note that the length of the auto-numbered segment must match the length of the numbering sequence specified in the Numbering ID box. 
 
-5. On the form toolbar, click **Save**. 
+6. On the form toolbar, click **Save**. 
 
 ### Contract Functionality Implementation: Discount Application to a Contract 
 
@@ -399,10 +419,6 @@ The following steps are optional:
  To apply a discount to a contract, open the Details tab on the Customer Contracts (CT301000) form, and select a discount code in the lookup table for the Promo Code box. 
 
  The system forms the list of discount codes in the lookup table as follows: 
-
-
-<!-- PAGE_BREAK -->
- Implementing the Contract Functionality | 13 
 
 1. The system selects all discount codes with the _Line_ type that have at least one active discount sequence. 
 
@@ -420,11 +436,11 @@ The following steps are optional:
 
 3. For each discount code that has not been excluded in Step 2, if an applicable discount sequence of the     discount code is marked as promotional, the discount code will be listed in the lookup table only if the     contract start date is in the promotional range. 
 
-If you do not specify a discount code for a contract, the system will apply the best active line discount when you run the contract billing process. If you specify a discount code for a contract, the system will apply the specified discount, even if a better discount is available. 
+ If you do not specify a discount code for a contract, the system will apply the best active line discount when you run the contract billing process. If you specify a discount code for a contract, the system will apply the specified discount, even if a better discount is available. 
 
-The system applies the specified discount to only the non-stock items used in contract items. If you record the contract usage of a non-stock item that is not included in the contract, the system will apply the best available discount for this non-stock item. 
+ The system applies the specified discount to only the non-stock items used in contract items. If you record the contract usage of a non-stock item that is not included in the contract, the system will apply the best available discount for this non-stock item. 
 
-For more information, see _Customer Discounts: General Information_. 
+ For more information, see Customer Discounts: General Information. 
 
 
 <!-- PAGE_BREAK -->
@@ -456,11 +472,11 @@ For more information, see _Customer Discounts: General Information_.
 
  The key settings of a contract item are specified on the Price Options tab of the form. They cover the following parts of contract fulfillment, and a contract item can have settings specified for any or all of the parts: 
 
-- Setup: In the **Setup and Renewal** section of the **Price Options** tab, you specify the setup item, which is the     non-stock item that you want to provide during contract setup, and specify the pricing policy to be used to     calculate the setup price. Also, you can use these settings to create the deposit contract item that is used in     deposit contracts. For details on creating deposit contract, see _Contract Configuration: Deposit Contracts_. 
+- Setup: In the **Setup and Renewal** section, you specify the setup item, which is the non-stock item that you     want to provide during contract setup, and specify the pricing policy to be used to calculate the setup price.     Also, you can use these settings to create the deposit contract item that is used in deposit contracts. For     details on creating deposit contract, see _Contract Configuration: Deposit Contracts_. 
 
-- Renewal: The renewal settings of the contract item are also specified in the **Setup and Renewal** section of     the **Price Options** tab. You specify the renewal item, which is the non-stock item that you want to provide     during contract renewal, and specify the pricing policy to be used to calculate the renewal price. You can     define the renewal price to be dependent on the setup price. 
+- Renewal: The renewal settings of the contract item are also specified in the **Setup and Renewal** section. You     specify the renewal item, which is the non-stock item that you want to provide during contract renewal, and     specify the pricing policy to be used to calculate the renewal price. You can define the renewal price to be     dependent on the setup price. 
 
-- Recurring: In the **Recurring Billing** settings of the **Price Options** tab, you define the policy for the recurring     billing, specify the non-stock item you want to provide recurrently, and define the pricing policy to be     used to calculate the recurring price. For items that are provided recurrently, you can specify a price for     extra usage, which is the usage that exceeds the included usage; thus, the extra quantity can be billed at     a different price. You can set up both the recurring price and the extra usage price to be dependent on the     setup price. 
+- Recurring: In the **Recurring Billing** settings, you define the policy for the recurring billing, specify the     non-stock item you want to provide recurrently, and define the pricing policy to be used to calculate the     recurring price. For items that are provided recurrently, you can specify a price for extra usage, which is the     usage that exceeds the included usage; thus, the extra quantity can be billed at a different price. You can set     up both the recurring price and the extra usage price to be dependent on the setup price. 
 
 
 <!-- PAGE_BREAK -->
@@ -480,11 +496,11 @@ For more information, see _Customer Discounts: General Information_.
 
  In this activity, you will learn how to create a contract item for a regular contract. You will later use this contract item for creating a contract template. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the SweetLife Fruits & Jams company supplies its Unifruit LLC customer with a piece of equipment for juice production and provides deployment service for the purchased equipment. A regular deployment fixedprice contract includes the deployment of equipment, a maintenance support service, and monthly consulting. In a fixed-price contract, payment amounts are constant and do not change depending on the costs incurred by SweetLife during the fulfillment of the contract. The start date of the contract is 3/1/2025. The contract should span two months, with the possibility of renewal. 
+ Suppose that the SweetLife Fruits & Jams company supplies its Unifruit LLC customer with a piece of equipment for juice production and provides deployment service for the purchased equipment. A regular deployment fixedprice contract includes the deployment of equipment, a maintenance support service, and monthly consulting. In a fixed-price contract, payment amounts are constant and do not change depending on the costs incurred by SweetLife during the fulfillment of the contract. The start date of the contract is 3/1/2026. The contract should span two months, with the possibility of renewal. 
 
  According to the terms of the contract, the customer will be billed in the amount of $500 for the juicer deployment service and the initial actions when contract setup takes place. In addition, the customer will be billed a fixed amount of $75, which is 15% of the deployment fee for a juicer maintenance at the moment of contract activation or on contract renewal. The customer will also be billed monthly in the amount of $300 at the beginning of each scheduled billing period for the consulting service that is to be provided during the duration of the contract. 
 
@@ -658,7 +674,7 @@ _- Deployment of equipment_ ), and the _40800_ ( _Contracts - Trainings_ ) sales
 
  In this activity, you will learn how to create a deposit contract item. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -666,11 +682,11 @@ _- Deployment of equipment_ ), and the _40800_ ( _Contracts - Trainings_ ) sales
 
  According to the terms of the contract, SweetLife will receive an advance payment from the Citrus Store customer in the amount of $5,000. SweetLife's employees will provide consulting services in total on 50 support hours by discounted price in the amount of $100 per hour. All support hours beyond the included hours will be billed at a higher price in the amount of $120 per hour. 
 
+ Acting as a sales manager to create a deposit contract, you need to create two contract items: a contract item marked as a deposit, and a contract item for a standard support service. 
+
 
 <!-- PAGE_BREAK -->
  Creating Contract Items | 20 
-
- Acting as a sales manager to create a deposit contract, you need to create two contract items: a contract item marked as a deposit, and a contract item for a standard support service. 
 
 #### Configuration Overview 
 
@@ -748,7 +764,7 @@ _- Deployment of equipment_ ), and the _40800_ ( _Contracts - Trainings_ ) sales
 
 - **Default Quantity** : 1     Because you have specified the same minimum and maximum allowed quantity ( _1_ ), you will be able to     include only one deposit item in a contract. 
 
-4. In the **Setup and Renewal** section of this tab, do the following:     a. In the **Setup Item** box, select _CTDEPOSIT_ , which is the non-stock item you configured earlier with a        designated liability account specified as the sales account in its GL account settings. Deposit-related        transactions will be posted to this account.     b. In the **Setup Pricing** box, select _Enter Manually_ because you want to be able to specify a contract-specific        deposit amount.     c. In the **Item Price/Percent** box, type 5000.     d. Select the **Deposit** check box to mark this contract item as a deposit.        When you select this check box, the UI elements related to a renewal item and those in the **Recurring**        **Billing** section become hidden (see the following screenshot). 
+4. In the **Setup and Renewal** section of this tab, do the following:     a. In the **Setup Item** box, select _CTDEPOSIT_ , which is the non-stock item you configured earlier with a        designated liability account specified as the sales account in its GL account settings. Deposit-related        transactions will be posted to this account.     b. In the **Setup Pricing** box, select _Enter Manually_ because you want to be able to specify a contract-specific        deposit amount.     c. In the **Item Price/Percent** box, type 5000.     d. Select the **Deposit** check box to mark this contract item as a deposit.        When you select this check box, the UI elements related to a renewal item and those in the **Recurring**        **Billing** section become hidden. 
 
 
 <!-- PAGE_BREAK -->
@@ -778,13 +794,13 @@ _- Deployment of equipment_ ), and the _40800_ ( _Contracts - Trainings_ ) sales
 
 8. In the **Extra Usage Pricing** box, select _Enter Manually_. 
 
-9. In the **Item Price/Percent** box, type 120.     Thus, all support hours beyond the included hours will be billed at a higher price. 
+9. In the **Item Price/Percent** box, type 120. 
 
 
 <!-- PAGE_BREAK -->
  Creating Contract Items | 23 
 
- 10.In the Deposit Item box, select contract item with description Deposit to indicate the deposit from which the price of usage will be deducted (as shown in the following screenshot). 
+ Thus, all support hours beyond the included hours will be billed at a higher price. 10.In the Deposit Item box, select contract item with description Deposit to indicate the deposit from which the price of usage will be deducted (as shown in the following screenshot). 
 
  Figure: Support hours contract item 
 
@@ -822,7 +838,7 @@ You have created the deposit non-stock item, deposit contract item, and support 
 
  In this activity, you will learn how to create a contract template for a regular contract. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
@@ -834,7 +850,7 @@ You have created the deposit non-stock item, deposit contract item, and support 
 
  A typical deployment fixed-price contract includes the deployment of equipment, a maintenance support service, and consulting. In a fixed-price contract, payment amounts are constant and do not change depending on the costs incurred by SweetLife during the fulfillment of the contract. 
 
- Suppose that on 3/1/2025 , Unifruit asks the company to deploy juicers in the newly opened restaurant. Because the contract agreement is standard, the deployment contract will be created based on the data included in the template, which holds as many settings as are necessary for a typical contract. Regular deployment contract includes such terms as a two-month contract span, the activation date as the starting point of billing schedule, a monthly billing period, renewability, a 10-day grace period, and the CI00000001 (Deployment of juicers) contract item. 
+ Suppose that on 3/1/2026 , Unifruit asks the company to deploy juicers in the newly opened restaurant. Because the contract agreement is standard, the deployment contract will be created based on the data included in the template, which holds as many settings as are necessary for a typical contract. Regular deployment contract includes such terms as a two-month contract span, the activation date as the starting point of billing schedule, a monthly billing period, renewability, a 10-day grace period, and the CI00000001 (Deployment of juicers) contract item. 
 
  Acting as a sales manager, you will create a contract template for a regular contract containing all the above terms. When you create a contract and select a contract template, the contract item or items specified for the template will be copied to the contract, along with other settings. 
 
@@ -892,19 +908,21 @@ You have created the deposit non-stock item, deposit contract item, and support 
 
  Figure: Settings of the contract template 
 
-7. To add the contract item to the contract template, on the **Details** tab, do the following:     a. On the table toolbar, click **Add Row**.     b. In the **Item Code** column, select _CI00000001 (Deployment of juicers)_. The system inserts the settings of the        contract item in the corresponding columns (as shown in the following screenshot). You can change the        item description and quantity within the allowed limits. 
+7. To add the contract item to the contract template, on the **Details** tab, do the following: 
+
+ a. On the table toolbar, click Add Row. b. In the Item Code column, select CI00000001 (Deployment of juicers). The system inserts the settings of the contract item in the corresponding columns (as shown in the following screenshot). You can change the item description and quantity within the allowed limits. 
 
  Figure: Contract item added to the contract template 
 
 8. In the Summary area, make sure the **Active** check box is selected. This indicates that contracts can be     created based on the template. 
 
-9. On the form toolbar, click **Save**. 
-
-You have created the contract template for a regular contract and now you can proceed to contract preparation. 
-
 
 <!-- PAGE_BREAK -->
  Creating Contract Templates | 28 
+
+9. On the form toolbar, click **Save**. 
+
+ You have created the contract template for a regular contract and now you can proceed to contract preparation. 
 
 ### Contract Template Creation: To Create an Empty Consulting Contract Template 
 
@@ -912,13 +930,13 @@ You have created the contract template for a regular contract and now you can pr
 
  This contract and the template it is based on will be empty, containing no contract items, although other settings are specified for them. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that aer purchasing the juicers, the Healthy Drink Alley customer needs a consulting contract to teach employees about the proper use of juicers and related equipment. This service is provided by the SweetLife Fruits & Jams company's consultants of different qualifications: senior consultants, whose services cost $120 per hour, and regular consultants, whose services cost $100 per hour. 
 
- According to the terms of the contract, in April 2025, the customer obtains consulting in the amount of 20 hours from the senior consultant William Perkins, and in the amount of 4 hours from the consultant David Chubb for a total amount of $2,800. The billing of the contract will be performed on demand and on a per-activity basis. 
+ According to the terms of the contract, in April 2026, the customer obtains consulting in the amount of 20 hours from the senior consultant William Perkins, and in the amount of 4 hours from the consultant David Chubb for a total amount of $2,800. The billing of the contract will be performed on demand and on a per-activity basis. 
 
  Acting as a sales manager, you will create an empty contract template. 
 
@@ -942,15 +960,15 @@ You have created the contract template for a regular contract and now you can pr
 
 2. To prepare to perform the instructions of this activity, launch the Acumatica ERP website with the _U100_     dataset preloaded, and sign in as the sales manager David Chubb using the _chubb_ username and the _123_     password. 
 
+
+<!-- PAGE_BREAK -->
+ Creating Contract Templates | 29 
+
 #### Step: Creating an Empty Contract Template 
 
  To create an empty contract template, do the following: 
 
 1. On the _Contract Templates_ (CT202000) form, add a new record. 
-
-
-<!-- PAGE_BREAK -->
- Creating Contract Templates | 29 
 
 2. In the **Contract Template** box of the Summary area, type CONSULTING. 
 
@@ -962,27 +980,27 @@ You have created the contract template for a regular contract and now you can pr
 
  Figure: Template for the consulting contract 
 
+
+<!-- PAGE_BREAK -->
+ Creating Contract Templates | 30 
+
 6. In the Summary area, make sure the **Active** check box is selected so that contracts can be created based on     the template. 
 
 7. On the form toolbar, click **Save**. 
 
-You have created the empty contract template with billing on demand and on per-activity base for consulting contracts and now you can proceed to a contract preparation. 
-
-
-<!-- PAGE_BREAK -->
- Creating Contract Templates | 30 
+ You have created the empty contract template with billing on demand and on per-activity base for consulting contracts and now you can proceed to a contract preparation. 
 
 ### Contract Template Creation: To Create an Empty Support Contract Template 
 
  In this activity, you will learn how to create an empty template for a support contract. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the SweetLife Fruits & Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On 3/8/2025 , the support contract was signed by both parties. 
+ Suppose that the SweetLife Fruits & Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On 3/8/2026 , the support contract was signed by both parties. 
 
- According to the terms of the contract, it has the Expiring type, and the contract span is three months. On 3/10/2025 , the service under the contract was provided by one regular specialist for four hours for a total sum of $480. This service was reflected in the system in a separate case. 
+ According to the terms of the contract, it has the Expiring type, and the contract span is three months. On 3/10/2026 , the service under the contract was provided by one regular specialist for four hours for a total sum of $480. This service was reflected in the system in a separate case. 
 
  The service of maintenance specialists costs $120 per hour, and the price is not dependent on the skills and position of the employee performing the service. The billing of the contract will be performed monthly and on a per-case basis. 
 
@@ -1008,6 +1026,10 @@ You have created the empty contract template with billing on demand and on per-a
 
 2. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as the sales manager David     Chubb by using the _chubb_ username and the _123_ password. 
 
+
+<!-- PAGE_BREAK -->
+ Creating Contract Templates | 31 
+
 #### Step: Creating an Empty Contract Template 
 
  Now you need to create an empty contract template and specify the default settings for a support contract. 
@@ -1016,21 +1038,13 @@ You have created the empty contract template with billing on demand and on per-a
 
 1. Add a new record. 
 
-
-<!-- PAGE_BREAK -->
- Creating Contract Templates | 31 
-
 2. In the **Contract Template** box of the Summary area, type REGULARSUP. 
 
 3. In the **Description** box, type Regular support services. 
 
-4. In the **Contract Settings** section of the **Summary** tab, do the following: 
+4. In the **Contract Settings** section of the **Summary** tab, do the following:     a. In the **Contract Type** box, select _Expiring_.     b. In the **Duration** boxes, enter 1 , and select _Quarter_.     c. Leave the **Refundable** and **Enable Template Item Override** check boxes cleared. 
 
- a. In the Contract Type box, select Expiring. b. In the Duration boxes, enter 1 , and select Quarter. c. Leave the Refundable and Enable Template Item Override check boxes cleared. 
-
-5. In the **Billing Settings** section, do the following: 
-
- a. In the Billing Period box, leave Month to define the time period into which the contract billing schedule should be divided. b. In the Bill To box, leave Customer Account to indicate that by default, a contract based on this template is to be billed to the customer account specified for the contract. c. In the Billing Schedule Starts On box, leave Activation Date to specify the starting point of the contract billing schedule. (In this lesson, it does not matter which value you select in this box, because you will activate the contract of this type by using the Set Up and Activate command, and the setup date will be the same as the activation date.) d. In the Billing Format box, select Detail to define the format of an invoice generated when a contract based on this template is billed. Each occurrence of contract usage (that is, each case) will be shown as a separate line in the resulting invoice. You can change the billing format of this template at any time, and this change will affect the format of the invoices generated aerward for any existing contracts based on the template. 
+5. In the **Billing Settings** section, do the following:     a. In the **Billing Period** box, leave _Month_ to define the time period into which the contract billing schedule        should be divided.     b. In the **Bill To** box, leave _Customer Account_ to indicate that by default, a contract based on this template is        to be billed to the customer account specified for the contract.     c. In the **Billing Schedule Starts On** box, leave _Activation Date_ to specify the starting point of the contract        billing schedule. (In this lesson, it does not matter which value you select in this box, because you will        activate the contract of this type by using the **Set Up and Activate** command, and the setup date will be        the same as the activation date.)     d. In the **Billing Format** box, select _Detail_ to define the format of an invoice generated when a contract        based on this template is billed. Each occurrence of contract usage (that is, each case) will be shown as a        separate line in the resulting invoice. You can change the billing format of this template at any time, and        this change will affect the format of the invoices generated aerward for any existing contracts based on        the template. 
 
  By editing the Line Description formula, you can modify the descriptions shown in the invoices issued for the contracts. 
 
@@ -1050,7 +1064,7 @@ You have created the empty contract template with billing on demand and on per-a
 
  In this activity, you will learn how to create deposit contract template. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1060,15 +1074,15 @@ You have created the empty contract template with billing on demand and on per-a
 
  Acting as a sales manager, you will create a deposit contract template. 
 
-
-<!-- PAGE_BREAK -->
- Creating Contract Templates | 33 
-
 #### Configuration Overview 
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
 - On the _Enable/Disable Features_ (CS100000) form, the _Contract Management_ feature has been enabled. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Contract Templates | 33 
 
 - On the _Customers_ (AR303000) form, the _CITRUS (Citrus Store)_ customer has been created. 
 
@@ -1096,7 +1110,7 @@ You have created the empty contract template with billing on demand and on per-a
 
 4. On the **Summary** tab, do the following:     a. In the **Contract Type** box, select _Unlimited_.        A contract of this type has no expiration date, and you can terminate the contract at any time.     b. Select the **Automatically Release AR Documents** check box so that the invoices and credit memos are        automatically released when the contract is billed.     c. In the **Billing Period** box, select _On Demand_ , which indicates that billing is not scheduled for the        contracts based on this template, and you will be able to run contract billing whenever you need to bill        the customer for the services you have provided. 
 
-5. On the **Details** tab, add a row, and select the contract item with description _Support hours_.     When you add a contract item to a contract template, the system checks whether the contract item is     associated with a deposit. If this association exists but the deposit is not yet included in the contract     template, the deposit contract item( _CI00000003 (Deposit)_ contract item) is added automatically (as shown in     the following screenshot). 
+5. On the **Details** tab, add a row, and select the contract item with description _Support hours_.     When you add a contract item to a contract template, the system checks whether the contract item is     associated with a deposit. If this association exists but the deposit is not yet included in the contract     template, the deposit contract item( _CI00000003 (Deposit)_ contract item) is added automatically. 
 
 
 <!-- PAGE_BREAK -->
@@ -1166,11 +1180,11 @@ You have created the deposit contract template you will use to create and activa
 
  In this activity, you will learn how to create a dra of a regular contract. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the SweetLife Fruits & Jams company supplies its customers with a piece of equipment for juice production and provides deployment, maintenance, and consulting services. On 3/1/2025 , the Unifruit LLC customer asks the company to deploy juicers in a newly opened restaurant. 
+ Suppose that the SweetLife Fruits & Jams company supplies its customers with a piece of equipment for juice production and provides deployment, maintenance, and consulting services. On 3/1/2026 , the Unifruit LLC customer asks the company to deploy juicers in a newly opened restaurant. 
 
  Because the contract agreement is standard, a fixed-price contract dra for deployment will be created based on the data included in the template. A regular fixed-price contract for deployment includes such terms as a twomonth contract span, the activation date as the starting point of the billing schedule, a monthly billing period, the ability to renew the contract, a 10-day grace period, and the CI00000001 (Deployment of juicers) contract item. In a fixed-price contract, payment amounts are constant and do not change depending on the costs incurred by SweetLife during the fulfillment of the contract. 
 
@@ -1202,7 +1216,7 @@ You have created the deposit contract template you will use to create and activa
 
 2. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as the sales manager David     Chubb by using the _chubb_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/1/2025_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/1/2026_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 #### Step: Creating a Contract Dra 
 
@@ -1218,11 +1232,11 @@ You have created the deposit contract template you will use to create and activa
 
 4. In the **Description** box, type Unifruit - deployment of juicers. 
 
-5. In the **Contract Settings** section of the **Summary** tab, specify the following settings (as shown in the     screenshot below): 
+5. In the **Contract Settings** section of the **Summary** tab, specify the following settings (see the screenshot     below): 
 
-- **Setup Date** : _3/1/2025_ 
+- **Setup Date** : _3/1/2026_ 
 
-- **Activation Date** : _3/1/2025_     You can change these dates when you click the **Set Up Contract** or **Activate Contract** commands on the     More menu (under **Processing** ). The **Setup Date** and **Activation Date** boxes become read-only aer the     respective command has been performed. 
+- **Activation Date** : _3/1/2026_     You can change these dates when you click the **Set Up Contract** or **Activate Contract** commands on the     More menu (under **Processing** ). The **Setup Date** and **Activation Date** boxes become read-only aer the     respective command has been performed. 
 
 
 <!-- PAGE_BREAK -->
@@ -1250,13 +1264,13 @@ You have created the deposit contract template you will use to create and activa
 
  In this activity, you will learn how to create labor items and a case class for an empty contract template that will be used for a consulting contract. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that aer purchasing the juicers, the Healthy Drink Alley customer needs a consulting contract to teach employees about the proper use of juicers and related equipment. This service is provided by the SweetLife Fruits & Jams company's consultants of different qualifications: senior consultants, whose services cost $120 per hour, and other regular consultants, whose services cost $100 per hour. 
 
- According to the terms of the contract, in April 2025, the customer obtains 20 hours of consulting from the senior consultant William Perkins, and 4 hours from the consultant David Chubb for the total amount of $2,800. The billing of the contract will be performed on demand and on a per-activity basis. 
+ According to the terms of the contract, in April 2026, the customer obtains 20 hours of consulting from the senior consultant William Perkins, and 4 hours from the consultant David Chubb for the total amount of $2,800. The billing of the contract will be performed on demand and on a per-activity basis. 
 
  Acting as a sales manager, you will create a contract for which prices depend on the skills and position of the consulting specialist, who can be a regular or a senior consultant. 
 
@@ -1372,19 +1386,19 @@ You have created the deposit contract template you will use to create and activa
 
  In this activity, you will learn how to create a labor non-stock item and a case class of the Per Case billing mode to create an empty template for a support contract. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-#### Story 
-
- Suppose that the SweetLife Fruits & Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On 3/8/2025 , the support contract was signed by both parties. 
-
- According to the terms of the contract, it has the Expiring type, and the contract span is three months. The service of maintenance specialists costs $120 per hour, and the price is not dependent on the skills and position of the employee who performs this service. The billing of the contract will be performed on a per-case basis. On 3/10/2025 , the service under the contract was provided by one regular specialist for hours for a total sum of $480. 
-
- Acting as an accountant, you will add a new GL account to the chart of accounts. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
  Configuring Contracts | 43 
+
+#### Story 
+
+ Suppose that the SweetLife Fruits & Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On 3/8/2026 , the support contract was signed by both parties. 
+
+ According to the terms of the contract, it has the Expiring type, and the contract span is three months. The service of maintenance specialists costs $120 per hour, and the price is not dependent on the skills and position of the employee who performs this service. The billing of the contract will be performed on a per-case basis. On 3/10/2026 , the service under the contract was provided by one regular specialist for hours for a total sum of $480. 
+
+ Acting as an accountant, you will add a new GL account to the chart of accounts. 
 
  Then acting as a sales manager, you will create a non-stock labor item and a case class to be used in an empty contract template for a support contract. 
 
@@ -1424,6 +1438,10 @@ You have created the deposit contract template you will use to create and activa
 
  Now you need to create a labor non-stock item and specify the default price of the item. Do the following: 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Contracts | 44 
+
 1. Sign in to the system as a sales manager by using the _chubb_ username and the _123_ password. 
 
 2. Create the non-stock labor item for the support service as follows:     a. On the _Non-Stock Items_ (IN202000) form, add a new record.     b. Specify the following settings in the Summary area: 
@@ -1437,10 +1455,6 @@ You have created the deposit contract template you will use to create and activa
 - **Posting Class** : _NONSTOCK_ 
 
 - **Tax Category** : _EXEMPT_ 
-
-
-<!-- PAGE_BREAK -->
- Configuring Contracts | 44 
 
 - **Require Receipt** : Cleared 
 
@@ -1482,7 +1496,13 @@ You have created the deposit contract template you will use to create and activa
 
 - **Labor Item** : _CTSUPPORT_ 
 
-- **Overtime Labor Item** : _CTSUPPORT_     In the **Labor Item** and **Overtime Labor Item** boxes, you have selected non-stock items of the _Labor_ type.     These items will be used as the sources of prices for billing. 
+- **Overtime Labor Item** : _CTSUPPORT_ 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Contracts | 45 
+
+ In the Labor Item and Overtime Labor Item boxes, you have selected non-stock items of the Labor type. These items will be used as the sources of prices for billing. 
 
 - On the **Commitments** tab, specify the resolution time for cases with different priority levels, as shown in     the table below. (The settings in the first row, for example, mean that a case with the _Urgent_ severity level     should be updated by SweetLife's employee within half an hour aer the case has been submitted.) You     specify these settings for informational purposes. The system does not enforce them. 
 
@@ -1493,14 +1513,6 @@ You have created the deposit contract template you will use to create and activa
  Urgent Selected 000d 00h 30m 
 
  High Selected 000d 01h 00m 
-
-
-<!-- PAGE_BREAK -->
- Configuring Contracts | 45 
-
- Severity Enable^ (with the^ Target Resolution Time Tooltip) Check Box 
-
- Target Resolution Time 
 
  Medium Selected 000d 08h 00m 
 
@@ -1558,13 +1570,13 @@ In this activity, you have created the labor item and a case class you will use 
 
  In this activity, you will learn how to set up and activate a contract. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the SweetLife Fruits & Jams company supplies its customer, Unifruit LLC, with equipment for juice production and provides deployment services for the purchased equipment. A typical deployment fixed-price contract includes the deployment of equipment, a maintenance support service, and consulting. In a fixed-price contract, payment amounts are constant and do not change depending on the costs incurred by the SweetLife Fruits & Jams company during the fulfillment of the contract. 
 
- The setup date of the contract is 3/1/2025 , and the activation date of the contract is 3/8/2025 because the SweetLife Fruits & Jams company will provide the services starting on this date. The contract should span two months, with the possibility of renewal. 
+ The setup date of the contract is 3/1/2026 , and the activation date of the contract is 3/8/2026 because the SweetLife Fruits & Jams company will provide the services starting on this date. The contract should span two months, with the possibility of renewal. 
 
  According to the terms of the contract, the customer will be billed in the amount of $500 for the juicer deployment service and the initial actions when contract setup takes place. In addition, the customer will be billed a fixed amount of $75, which is 15% of the deployment fee for a juicer maintenance at the moment of contract activation or on contract renewal. The customer will also be billed monthly in the amount of $300 at the beginning of each scheduled billing period for the consulting service that is to be provided during the duration of the contract. 
 
@@ -1596,7 +1608,7 @@ In this activity, you have created the labor item and a case class you will use 
 <!-- PAGE_BREAK -->
  Setting Up and Activating Contracts | 48 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/1/2025_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/1/2026_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 #### Step 1: Setting Up the Contract 
 
@@ -1606,11 +1618,11 @@ In this activity, you have created the labor item and a case class you will use 
 
 2. On the form toolbar, click **Set Up Contract**.     The **Set Up Contract** dialog box opens. 
 
-3. In the **Setup Date** box, make sure that _3/1/2025_ is specified, and then click **OK**.     Notice the following changes on the form: 
+3. In the **Setup Date** box, make sure that _3/1/2026_ is specified, and then click **OK**.     Notice the following changes on the form: 
 
 - The contract has the _Pending Activation_ status. 
 
-- On the **Summary** tab, the setup date is unavailable for editing (also shown in the screenshot). 
+- On the **Summary** tab, the setup date is unavailable for editing. 
 
  Figure: Settings of a contract aer setup 
 
@@ -1628,15 +1640,11 @@ In this activity, you have created the labor item and a case class you will use 
 
  Because you have cleared the Hold Documents on Entry check box on the Accounts Receivable Preferences (AR101000) form, the status of the generated invoice depends on whether the Automatically Release AR Documents check box is selected for the contract template on the Contract Templates (CT202000) form. For the DEPLOYMENT contract template, this check box is cleared, so the generated invoice has the Balanced status. 
 
-2. Click the link in the **Reference Nbr.** column to open the setup invoice on the _Invoices and Memos_ (AR301000)     form.     Review the invoice, which is shown in the following screenshot. 
+2. Click the link in the **Reference Nbr.** column to open the setup invoice on the _Invoices and Memos_ (AR301000)     form. Review the invoice. 
 
  Figure: Setup invoice 
 
  The invoice includes only one line, whose settings have been copied from the CTDEPLOY non-stock item. The invoice date, which is displayed in the Date box of the Summary area, matches the setup date of the related contract, whose identifier and description are displayed in the Project/Contract box. 
-
-
-<!-- PAGE_BREAK -->
- Setting Up and Activating Contracts | 50 
 
 #### Step 3: Activating the Contract 
 
@@ -1644,13 +1652,17 @@ In this activity, you have created the labor item and a case class you will use 
 
 1. On the form toolbar, click **Activate Contract**. 
 
-2. In the **Activation Date** box of the **Activate Contract** dialog box, which opens, specify _3/8/2025_ , and then     click **OK**. Notice the following changes on the form (as shown in the screenshot below): 
+2. In the **Activation Date** box of the **Activate Contract** dialog box, which opens, specify _3/8/2026_ , and then     click **OK**. Notice the following changes on the form (see below): 
+
+
+<!-- PAGE_BREAK -->
+ Setting Up and Activating Contracts | 50 
 
 - The contract has the _Active_ status. 
 
 - The activation date is unavailable for editing. 
 
-- The **Expiration Date** is set to _5/7/2025_ , and the **Billing Schedule** section has been populated with the     appropriate details. 
+- The **Expiration Date** is set to _5/7/2026_ , and the **Billing Schedule** section has been populated with the     appropriate details. 
 
  Figure: Settings of the successfully activated contract 
 
@@ -1668,7 +1680,7 @@ In this activity, you have created the labor item and a case class you will use 
 
 2. Click the **Reference Nbr.** link in the second row to open the invoice for review on the _Invoices and Memos_     (AR301000) form (shown in the screenshot below), and make sure of the following: 
 
-- The invoice date, which is displayed in the **Date** box, matches the activation date of the related contract     ( _3/8/2025_ ). 
+- The invoice date, which is displayed in the **Date** box, matches the activation date of the related contract     ( _3/8/2026_ ). 
 
 - The invoice amount is $375. Notice that the invoice also includes the **Activate/Renew** fee, which is     generated on contract activation.     The **Activate/Renew** fee is set for the _CTMAINT_ non-stock item in the **Renewal Price** box of the _Contract_     _Items_ (CT201000) form ( **Price Options** tab), and calculated as 15% of the setup item price ($500 * 0.15 =     $75). 
 
@@ -1678,11 +1690,11 @@ In this activity, you have created the labor item and a case class you will use 
 
 - The line with the _CTCONS_ item, which represents a recurring item, the amount of recurring fees for     consulting ($300) 
 
+ Figure: The activation invoice 
+
 
 <!-- PAGE_BREAK -->
  Setting Up and Activating Contracts | 52 
-
- Figure: The activation invoice 
 
  You have set up and activated the contract with the Dra status and now the contract has an Active status. Now you can proceed with billing the contract. 
 
@@ -1692,23 +1704,19 @@ In this activity, you have created the labor item and a case class you will use 
 
  In this activity, you will learn how to create an empty contract dra for consulting contract and activate it. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that aer purchasing the juicers, the Healthy Drink Alley customer needs a consulting contract to teach employees about the proper use of juicers and related equipment. This service is provided by the SweetLife Fruits & Jams company's consultants of different qualifications: senior consultants, whose services cost $120 per hour, and regular consultants, whose services cost $100 per hour. 
 
- According to the terms of the contract, in April 2025, the customer obtains consulting in the amount of 20 hours from the senior consultant William Perkins, and in the amount of 4 hours from the consultant David Chubb for the total amount of $2,800. The billing of the contract will be performed on demand and on per-activity basis. 
+ According to the terms of the contract, in April 2026, the customer obtains consulting in the amount of 20 hours from the senior consultant William Perkins, and in the amount of 4 hours from the consultant David Chubb for the total amount of $2,800. The billing of the contract will be performed on demand and on per-activity basis. 
 
  Acting as a sales manager, you will create an empty contract whose terms determine prices depending on the skills and position of the consulting specialist, who can be a regular specialist or a senior consultant. Then you will activate the contract. 
 
 #### Process Overview 
 
  In this activity, on the Segmented Keys (CS202000) form, you will first configure the system to assign automatically numbered identifiers to contracts. On the Accounts Receivable Preferences (AR101000) form, you will configure the settings of the accounts receivable functionality.Then on the Customer Contracts (CT301000) form, you will create an empty consulting contract with Dra status. Then you will set up and activate the contract simultaneously. 
-
-
-<!-- PAGE_BREAK -->
- Setting Up and Activating Contracts | 53 
 
 #### Configuration Overview 
 
@@ -1726,7 +1734,11 @@ In this activity, you have created the labor item and a case class you will use 
 
 2. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and for Step 1 and Step 2 sign in to     the system as a system administrator Kimberly Gibbs by using the _gibbs_ username and the _123_ password.     For Step 3 and Step 4 sign in as the sales manager David Chubb by using the _chubb_ username and the _123_     password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/1/2025_. 
+
+<!-- PAGE_BREAK -->
+ Setting Up and Activating Contracts | 53 
+
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/1/2026_. 
 
 #### Step 1: Enabling Auto-Numbering for Contracts 
 
@@ -1754,19 +1766,17 @@ In this activity, you have created the labor item and a case class you will use 
 
  To create an empty contract dra for consulting contract, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Setting Up and Activating Contracts | 54 
-
 1. Sign in to the system as a sales manager by using the _chubb_ username and the _123_ password. 
 
 2. On the _Customer Contracts_ (CT301000) form, add a new record. 
 
-3. In the Summary area, specify the contract settings as follows: 
-
- a. In the Contract Template box, select CONSULTING. b. In the Customer box, select HDALLEY. c. In the Description box, type Hdalley Consulting services by employee rates. 
+3. In the Summary area, specify the contract settings as follows:     a. In the **Contract Template** box, select _CONSULTING_.     b. In the **Customer** box, select _HDALLEY_.     c. In the **Description** box, type Hdalley - Consulting services by employee rates. 
 
 4. On the **Employees Overrides** tab, add two rows to the table to specify the relations between the earning     types, labor items, and employees. In the rows, enter the settings in the following table (as shown in the     following screenshot). A relation determines which labor item will be used as the source of the service price     and the sales accounts for recording the contract usage. 
+
+
+<!-- PAGE_BREAK -->
+ Setting Up and Activating Contracts | 54 
 
  Earning Type Labor Item Employee 
 
@@ -1780,10 +1790,6 @@ In this activity, you have created the labor item and a case class you will use 
 
 5. On the form toolbar, click **Save**. 
 
-
-<!-- PAGE_BREAK -->
- Setting Up and Activating Contracts | 55 
-
 #### Step 4: Setting Up and Activating the Contract Simultaneously 
 
  To set up and activate the consulting contract simultaneously, do the following: 
@@ -1792,7 +1798,7 @@ In this activity, you have created the labor item and a case class you will use 
 
 2. On the More menu (under **Processing** ), click **Set Up and Activate Contract** to activate the contract. 
 
-3. In the **Activation Date** box of the **Activate Contract** dialog box, which opens, leave _4/1/2025_ in the     **Activation Date** box, and then click **OK**.     Aer the contract is set up and activated, notice the following (see the screenshot below): 
+3. In the **Activation Date** box of the **Activate Contract** dialog box, which opens, leave _4/1/2026_ in the     **Activation Date** box, and then click **OK**.     Aer the contract is set up and activated, notice the following (see the screenshot below): 
 
 - The contract now has the _Active_ status. 
 
@@ -1804,15 +1810,15 @@ In this activity, you have created the labor item and a case class you will use 
 
 - The boxes in the **Billing Schedule** section have been populated based on the template settings and the     activation date that you have specified. 
 
+
+<!-- PAGE_BREAK -->
+ Setting Up and Activating Contracts | 55 
+
 - No invoice has been generated on initiation of an empty contract, so the table on the **AR History** tab of     the form is still empty. 
 
  Figure: The activated consulting contract 
 
  You have created the empty consulting contract and activated it. 
-
-
-<!-- PAGE_BREAK -->
- Setting Up and Activating Contracts | 56 
 
 ### Contract Setup and Activation: To Create and Activate an Empty Support Contract 
 
@@ -1820,17 +1826,21 @@ In this activity, you have created the labor item and a case class you will use 
 
  In this activity, you will learn how to create an empty contract dra for a support contract and activate it. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the SweetLife Fruits & Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On 3/8/2025 , the support contract was signed by both parties. 
+ Suppose that the SweetLife Fruits & Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On 3/8/2026 , the support contract was signed by both parties. 
 
- According to the terms of the contract, it has the Expiring type, and the contract span is three months. On 3/10/2025 , the service under the contract was provided by one regular specialist for four hours for a total sum of $480. This service was reflected in the system in a separate case. 
+ According to the terms of the contract, it has the Expiring type, and the contract span is three months. On 3/10/2026 , the service under the contract was provided by one regular specialist for four hours for a total sum of $480. This service was reflected in the system in a separate case. 
 
  The service of maintenance specialists costs $120 per hour, and the price is not dependent on the skills and position of the employee. The billing of the contract will be performed monthly and on a per-case basis. 
 
  Acting as a sales manager, you will create an empty contract dra for a support contract and activate it. 
+
+
+<!-- PAGE_BREAK -->
+ Setting Up and Activating Contracts | 56 
 
 #### Process Overview 
 
@@ -1852,11 +1862,7 @@ In this activity, you have created the labor item and a case class you will use 
 
 2. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and for Step 1 and Step 2 sign in to     the system as a system administrator Kimberly Gibbs by using the _gibbs_ username and the _123_ password.     For Step 3 and Step 4 sign in as the sales manager David Chubb by using the _chubb_ username and the _123_     password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/8/2025_. 
-
-
-<!-- PAGE_BREAK -->
- Setting Up and Activating Contracts | 57 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/8/2026_. 
 
 #### Step 1: Enabling Auto-Numbering for Contracts 
 
@@ -1875,6 +1881,10 @@ In this activity, you have created the labor item and a case class you will use 
 #### Step 2: Configuring the Settings of the Accounts Receivable Functionality 
 
  To be able to use the needed accounts receivable functionality, on the Accounts Receivable Preferences (AR101000) form, do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Setting Up and Activating Contracts | 57 
 
 1. On the **General** tab, clear the **Hold Documents on Entry** check box.     With this check box cleared, any invoice issued when a contract is billed will have the _Balanced_ status. 
 
@@ -1900,21 +1910,21 @@ In this activity, you have created the labor item and a case class you will use 
 
 2. On the More menu (under **Processing** ), click **Set Up and Activate Contract** to activate the contract. 
 
-3. In the **Activation Date** box of the **Activate Contract** dialog box, which opens, leave _3/8/2025_ , and then click     **OK** (see the screenshot below). Aer the contract is set up and activated, notice the following: 
-
-
-<!-- PAGE_BREAK -->
- Setting Up and Activating Contracts | 58 
+3. In the **Activation Date** box of the **Activate Contract** dialog box, which opens, leave _3/8/2026_ , and then click     **OK** (see the screenshot below). Aer the contract is set up and activated, notice the following: 
 
 - The contract now has the _Active_ status. 
 
 - The setup and activation dates have become unavailable for editing. 
 
-- The **Expiration Date** is _6/7/2025_ and the boxes in the **Billing Schedule** section have been populated     based on the template settings and the activation date that you have specified. 
+- The **Expiration Date** is _6/7/2026_ and the boxes in the **Billing Schedule** section have been populated     based on the template settings and the activation date that you have specified. 
 
-- The next billing date is _4/8/2025_. 
+- The next billing date is _4/8/2026_. 
 
 - No invoice has been generated on the initiation of an empty contract, so the table on the **AR History** tab     of the form is still empty. 
+
+
+<!-- PAGE_BREAK -->
+ Setting Up and Activating Contracts | 58 
 
  Figure: The activated support contract 
 
@@ -1924,23 +1934,23 @@ In this activity, you have created the labor item and a case class you will use 
 
  In this activity, you will learn how to create deposit contract dra and activate it. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-
-<!-- PAGE_BREAK -->
- Setting Up and Activating Contracts | 59 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the Citrus Store customer wants to purchase a fixed number of support hours in advance, for which the SweetLife Fruits & Jams company offers a discount. According to the terms of the deposit contract, the customer pays a deposit in advance for work that will be performed later, and the total price of the provided service will be deducted from the deposit in parts upon completion of service. 
 
- According to the terms of the contract, SweetLife will receive an advance payment from the Citrus Store customer in the amount of $5,000. In May 2025, SweetLife's employees will provide consulting services in total on 50 support hours by discounted price in the amount of $100 per hour. All support hours beyond the included hours will be billed at a higher price in the amount of $120 per hour. 
+ According to the terms of the contract, SweetLife will receive an advance payment from the Citrus Store customer in the amount of $5,000. In May 2026, SweetLife's employees will provide consulting services in total on 50 support hours by discounted price in the amount of $100 per hour. All support hours beyond the included hours will be billed at a higher price in the amount of $120 per hour. 
 
  Acting as a sales manager, you will create a deposit contract and activate it. 
 
 #### Configuration Overview 
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
+
+
+<!-- PAGE_BREAK -->
+ Setting Up and Activating Contracts | 59 
 
 - On the _Enable/Disable Features_ (CS100000) form, the _Contract Management_ feature has been enabled. 
 
@@ -1958,7 +1968,7 @@ In this activity, you have created the labor item and a case class you will use 
 
 2. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and for Step 1 and Step 2 sign in to     the system as a system administrator Kimberly Gibbs by using the _gibbs_ username and the _123_ password.     For Step 3 and Step 4 sign in as the sales manager David Chubb by using the _chubb_ username and the _123_     password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _5/1/2025_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _5/1/2026_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 #### Step 1: Enabling Auto-Numbering for Contracts 
 
@@ -1970,13 +1980,7 @@ In this activity, you have created the labor item and a case class you will use 
 
 3. Close the _Numbering Sequences_ form. 
 
-4. In the table on the _Segmented Keys_ form, select the **Auto Number** check box for the only row, which     contains the settings of the single segment included in the segmented key. 
-
-
-<!-- PAGE_BREAK -->
- Setting Up and Activating Contracts | 60 
-
- Contract identifiers can be defined to include multiple segments. However, automatic numbering can be enabled for only one segment. Note that the length of the auto-numbered segment must match the length of the numbering sequence specified in the Numbering ID box. 
+4. In the table on the _Segmented Keys_ form, select the **Auto Number** check box for the only row, which     contains the settings of the single segment included in the segmented key.     Contract identifiers can be defined to include multiple segments. However, automatic numbering can be     enabled for only one segment. Note that the length of the auto-numbered segment must match the length     of the numbering sequence specified in the **Numbering ID** box. 
 
 5. On the form toolbar, click **Save**. 
 
@@ -1987,6 +1991,10 @@ In this activity, you have created the labor item and a case class you will use 
 1. On the **General** tab, clear the **Hold Documents on Entry** check box.     With this check box cleared, any invoice issued when a contract is billed will have the _Balanced_ status. 
 
 2. On the form toolbar, click **Save**. 
+
+
+<!-- PAGE_BREAK -->
+ Setting Up and Activating Contracts | 60 
 
 #### Step 3: Creating a Deposit Contract Dra 
 
@@ -2012,21 +2020,17 @@ In this activity, you have created the labor item and a case class you will use 
 
 1. On the More menu (under **Processing** ), click **Set Up and Activate Contract**. 
 
-2. In the **Activate Contract** dialog box, which opens, leave _5/1/2025_ in the **Activation Date** box, and then click     **OK**. The contract is assigned the _Active_ status, and the setup and activation dates become unavailable for     editing on the **Summary** tab. Also, when the contract is activated, the system generates and releases an     invoice for the deposit. 
+2. In the **Activate Contract** dialog box, which opens, leave _5/1/2026_ in the **Activation Date** box, and then click     **OK**. The contract is assigned the _Active_ status, and the setup and activation dates become unavailable for     editing on the **Summary** tab. Also, when the contract is activated, the system generates and releases an     invoice for the deposit. 
 
-3. On the **AR History** tab, click the **Reference Nbr.** link in the only row of the table to open and review the     invoice on the _Invoices and Memos_ (AR301000) form. The deposit fee has been posted to the _Customer_     _Deposits_ liability account (see the following screenshot). 
-
-
-<!-- PAGE_BREAK -->
- Setting Up and Activating Contracts | 61 
+3. On the **AR History** tab, click the **Reference Nbr.** link in the only row of the table to open and review the     invoice on the _Invoices and Memos_ (AR301000) form. The deposit fee has been posted to the _Customer_     _Deposits_ liability account. 
 
  Figure: Invoice for the deposit contract 
 
-You have created and activated the deposit contract. Now you can proceed to the creating manual contract usage. 
+ You have created and activated the deposit contract. Now you can proceed to the creating manual contract usage. 
 
 
 <!-- PAGE_BREAK -->
- Managing Contracts | 62 
+ Managing Contracts | 61 
 
 ## Managing Contracts 
 
@@ -2074,7 +2078,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 
 <!-- PAGE_BREAK -->
- Managing Contracts | 63 
+ Managing Contracts | 62 
 
  contract will be billed according to the settings that became effective before the upgrade. The new settings do not apply until you click the Activate Upgrade command. 
 
@@ -2106,7 +2110,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 
 <!-- PAGE_BREAK -->
- Managing Contracts | 64 
+ Managing Contracts | 63 
 
 - If the check box is selected, the credit terms are copied from the customer's settings. 
 
@@ -2148,7 +2152,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 
 <!-- PAGE_BREAK -->
- Managing Contracts | 65 
+ Managing Contracts | 64 
 
  the service (or products) costs in the future. You generally collect such a fee on a schedule—for example, once a year or on a monthly basis. 
 
@@ -2192,7 +2196,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 
 <!-- PAGE_BREAK -->
- Managing Contracts | 66 
+ Managing Contracts | 65 
 
  Once you have finished making the needed changes to the contract, you click Activate Upgrade on the More menu (under Processing ). 
 
@@ -2214,19 +2218,19 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
  In this activity, you will learn how to modify terms of the contract and activate the contract upgrade. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that on 3/1/2025 , the Unifruit LLC customer asks the SweetLife Fruits & Jams company to deploy juicers in the newly opened restaurant. SweetLife supplies Unifruit with equipment for a juice production and provides deployment, maintenance support service, and consulting. A regular deployment contract includes such terms as a two–month contract span, the activation date as the starting point of the billing schedule, a monthly billing period, a recurring billing amount of $300, the ability to be renewed, a 10-day grace period, and the CI00000001 (Deployment of juicers) contract item. 
+ Suppose that on 3/1/2026 , the Unifruit LLC customer asks the SweetLife Fruits & Jams company to deploy juicers in the newly opened restaurant. SweetLife supplies Unifruit with equipment for a juice production and provides deployment, maintenance support service, and consulting. A regular deployment contract includes such terms as a two–month contract span, the activation date as the starting point of the billing schedule, a monthly billing period, a recurring billing amount of $300, the ability to be renewed, a 10-day grace period, and the CI00000001 (Deployment of juicers) contract item. 
 
- In the end of March 2025, during the fulfillment of the contract, Unifruit asked SweetLife to change the terms of the contract, add an additional consulting service to the contract, and define 4/2/2025 as the date when the additional consulting service begins. 
+ In the end of March 2026, during the fulfillment of the contract, Unifruit asked SweetLife to change the terms of the contract, add an additional consulting service to the contract, and define 4/2/2026 as the date when the additional consulting service begins. 
 
  According to the upgraded terms of the contract, when the contract is upgraded, the customer will obtain a supplementary consulting service in addition to the service, which the parties stipulated in the primary terms of the contract. According to the terms of the modified contract, it will be billed for consulting services in the amount of $700 ($300 + $400) aer the contract upgrade. 
 
 
 <!-- PAGE_BREAK -->
- Managing Contracts | 67 
+ Managing Contracts | 66 
 
  Acting as a sales manager, first you will create a new non-stock item and a contract item for the additional consulting service to define new terms of the contract. Then you will activate the contract upgrade. 
 
@@ -2254,7 +2258,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 2. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as the sales manager David     Chubb by using the _chubb_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/2/2025_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/2/2026_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 #### Step 1: Creating a Non-Stock Item 
 
@@ -2286,7 +2290,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 
 <!-- PAGE_BREAK -->
- Managing Contracts | 68 
+ Managing Contracts | 67 
 
 - **Base Unit** : _ITEM_ 
 
@@ -2336,11 +2340,11 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 3. On the **Details** tab, add a new row to the table, and in the **Item Code** column, select _CI00000002 (Additional_     _consulting service)_. 
 
-4. In the **Effective From** box, specify _4/2/2025_. This is the date when your company is going to start providing     the additional services (see the following screenshot). 
+4. In the **Effective From** box, specify _4/2/2026_. This is the date when your company is going to start providing     the additional services (see the following screenshot). 
 
 
 <!-- PAGE_BREAK -->
- Managing Contracts | 69 
+ Managing Contracts | 68 
 
  Figure: Details tab during the upgrade procedure 
 
@@ -2358,17 +2362,19 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 2. On the form toolbar, click **Activate Upgrade**. 
 
-3. In the **Activation Date** box of the **Activate Contract** dialog box, which opens, leave _4/2/2025_ , and then click     **OK**. The contract is assigned the _Active_ status.     Starting on the upgrade activation date, the new terms will be used for contract billing. 
+3. In the **Activation Date** box of the **Activate Contract** dialog box, which opens, leave _4/2/2026_ , and then click     **OK**. The contract is assigned the _Active_ status.     Starting on the upgrade activation date, the new terms will be used for contract billing. 
 
-4. On the **AR History** tab, click the **Reference Nbr.** link of the invoice in the last row in the table. The system     opens the _Invoices and Memos_ (AR301000) form with the invoice that was generated when the contract     upgrade was activated.     The details of this invoice (see the screenshot below) include a newly added service in the amount of $400.     In the Summary area of the invoice, review the value in the **Detail Total** box, which is $77.42 because the     company has rendered an additional service to the Unifruit LLC customer from _4/2/2025_ through _4/8/2025_     aer activation of the upgrade. 
+4. On the **AR History** tab, click the **Reference Nbr.** link of the invoice in the last row in the table. The system     opens the _Invoices and Memos_ (AR301000) form with the invoice that was generated when the contract     upgrade was activated.     The details of this invoice (see below) include a newly added service in the amount of $400. In the Summary     area of the invoice, review the value in the **Detail Total** box, which is $77.42 because the company has 
 
 
 <!-- PAGE_BREAK -->
- Managing Contracts | 70 
+ Managing Contracts | 69 
+
+ rendered an additional service to the Unifruit LLC customer from 4/2/2026 through 4/8/2026 aer activation of the upgrade. 
 
  Figure: Invoice generated aer activating of the contract upgrade 
 
- Starting on the next billing date ( 4/8/2025 ), recurring invoices will be issued according to the contract billing schedule for upgraded services in the amount of $700 ($300 + $400). 
+ Starting on the next billing date ( 4/8/2026 ), recurring invoices will be issued according to the contract billing schedule for upgraded services in the amount of $700 ($300 + $400). 
 
  You have modified the contract terms and activated the contract upgrade. Now you can proceed with billing the contract on new terms, renewing, or terminating it. 
 
@@ -2384,17 +2390,17 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 - You cannot cancel an action aer the release of an invoice that has been issued as a result of that action.     However, if you reverse the released invoice, you can then cancel the action. Also, you can cancel an action     if the invoice or credit memo resulting from the action has the _On Hold_ or _Balanced_ status—that is, if the     invoice has not yet been released. In this case, if you click **Undo Last Action** , the system deletes the invoice     or credit memo. 
 
- You can view the log of actions that have been performed on the selected contract on the Contract History tab of the Customer Contracts form. To see the most recent changes on the Contract History tab, you can press Esc to refresh the form. 
-
 
 <!-- PAGE_BREAK -->
- Managing Contracts | 71 
+ Managing Contracts | 70 
+
+ You can view the log of actions that have been performed on the selected contract on the Contract History tab of the Customer Contracts form. To see the most recent changes on the Contract History tab, you can press F5 to refresh the form. 
 
 ### Contract Management: To Cancel the Last Action 
 
  In this activity, you will learn how to cancel the last action. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2402,9 +2408,9 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
  According to the terms of the contract, the customer will be billed in the amount of $500 for the juicer deployment service and for the initial actions when contract setup takes place. In addition, the customer will be billed a fixed amount of $75, which is 15% of the deployment fee for a juicer maintenance at the moment of contract activation or on contract renewal. The customer will also be billed monthly in the amount of $300 at the beginning of each scheduled billing period for the consulting service that is to be provided during the duration of the contract. 
 
- Suppose that the contract was set up and activated in the beginning of March, 2025. On 4/1/2025 , an accountant has billed the customer for the consulting service and released the $300 invoice. 
+ Suppose that the contract was set up and activated in the beginning of March, 2026. On 4/1/2026 , an accountant has billed the customer for the consulting service and released the $300 invoice. 
 
- Meanwhile, during the fulfillment of the contract, the Unifruit LLC customer asked SweetLife to change the terms of the contract, add an additional consulting service to the contract, and define 4/2/2025 as the date when the additional consulting service begins. SweetLife's accountant should cancel the previous billing, change the terms of the contract (upgrade it), and then bill the customer using the new terms of the contract for both services. 
+ Meanwhile, during the fulfillment of the contract, the Unifruit LLC customer asked SweetLife to change the terms of the contract, add an additional consulting service to the contract, and define 4/2/2026 as the date when the additional consulting service begins. SweetLife's accountant should cancel the previous billing, change the terms of the contract (upgrade it), and then bill the customer using the new terms of the contract for both services. 
 
  Acting as an accountant, you need to cancel the most recent billing (which was the last action performed on the contract) and reverse the invoice. 
 
@@ -2422,19 +2428,19 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
  In this activity, on the Invoices and Memos (AR301000) form, you will reverse the invoice and create the credit memo. Then on the Customer Contracts (CT301000) form, you will cancel the last action (billing). 
 
+
+<!-- PAGE_BREAK -->
+ Managing Contracts | 71 
+
 #### System Preparation 
 
  To prepare to perform the instructions of this activity, do the following: 
 
 1. As a prerequisite to this activity, the contract has been billed once and the invoice has been released, as     described in Step 1 and Step 2 of the _Contract Billing: To Bill a Regular Contract on a Schedule_ activity. 
 
-
-<!-- PAGE_BREAK -->
- Managing Contracts | 72 
-
 2. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as the accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/2/2025_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/2/2026_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 #### Step 1: Reverse the Released Invoice 
 
@@ -2454,15 +2460,15 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
  Figure: The credit memo during the reversal of the invoice 
 
+
+<!-- PAGE_BREAK -->
+ Managing Contracts | 72 
+
 6. Save the credit memo. 
 
 7. On the form toolbar, click **Release** to release the credit memo. Now the credit memo has the _Closed_ status     and the released invoice has been reversed. 
 
  Now you can proceed to the cancellation of the latest action, which was the billing. 
-
-
-<!-- PAGE_BREAK -->
- Managing Contracts | 73 
 
 #### Step 2: Cancel the Last Action 
 
@@ -2470,25 +2476,25 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 1. On the _Customer Contracts_ (CT301000) form, again open the _0000000001 (Unifruit - deployment of juicers)_     contract. 
 
-2. On the **AR History** tab, click **Refresh** in the le corner of the table toolbar to refresh the data in the table.     Now the credit memo that reverses the invoice is also listed in the table, as you can see in the screenshot     below. Both the invoice and the credit memo have the _Closed_ status, because you have released the     application of the credit memo to the invoice. 
+2. On the **AR History** tab, click **Refresh** in the le corner of the table toolbar to refresh the data in the table.     Now the credit memo that reverses the invoice is also listed in the table (see below). Both the invoice and     the credit memo have the _Closed_ status, because you have released the application of the credit memo to     the invoice. 
 
-3. Press Esc to refresh the form. In the Summary area of the _Customer Contracts_ form, review the contract     balance, which is $0 now because you have reversed the released invoice. 
+3. Press F5 to refresh the form. In the Summary area of the _Customer Contracts_ form, review the contract     balance, which is $0 now because you have reversed the released invoice. 
 
  Figure: The closed credit memo and invoice aer reversal of the released invoice 
 
-4. On the More menu (under **Processing** ), click **Undo Last Action**.     On the **Contract History** tab, notice that the bottom record (with the _Bill_ action) has disappeared. However,     the credit memo and the invoice remain listed in the table on the **AR History** tab.     In the **Billing Schedule** section of the **Summary** tab, notice the date of the next billing, which is _4/8/2025_. 
+4. On the More menu (under **Processing** ), click **Undo Last Action**.     On the **Contract History** tab, notice that the bottom record (with the _Bill_ action) has disappeared. However,     the credit memo and the invoice remain listed in the table on the **AR History** tab.     In the **Billing Schedule** section of the **Summary** tab, notice the date of the next billing, which is _4/8/2026_. 
 
  You have canceled the last billing, which resulted in the released invoice, and now you can proceed with other contract actions. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Contracts | 73 
 
 ### Contract Management: Contract Renewal 
 
  When a contract has been expired or is about to expire, your company and your customer may want to continue the relationship under the same terms. In this case, you can renew the contract to avoid the provision of services being interrupted. 
 
  In this topic, you will read about the details of renewing a contract. 
-
-
-<!-- PAGE_BREAK -->
- Managing Contracts | 74 
 
 #### Setup of Contract Renewal 
 
@@ -2518,17 +2524,19 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 - The contract is in the last billing period before expiration. If a contract meets these criteria, the **Renew Contract** button and command are available for the contract on the _Customer Contracts_ (CT301000) form. 
 
- You should specify the renewal date for a contract in the Renew Contract dialog box before you run the renewal process. The system uses this date to define whether the contract grace period has ended and to generate the invoice for a renewal fee that is specified in the Setup and Renewal section of the Price Options tab of the Contract Items (CT201000) form. Also, this date is used to record the renewal action on the Contract History tab of the Customer Contracts form. 
+ You should specify the renewal date for a contract in the Renew Contract dialog box before you run the renewal process. The system uses this date to define whether the contract grace period has ended and to generate the invoice for a renewal fee that is specified in the Setup and Renewal section of the Price Options tab of the Contract 
+
+
+<!-- PAGE_BREAK -->
+ Managing Contracts | 74 
+
+ Items (CT201000) form. Also, this date is used to record the renewal action on the Contract History tab of the Customer Contracts form. 
 
  If the renewal date is earlier than or the same as the end date of the grace period, the system does the following: 
 
 - Shis the expiration date of the contract by the contract duration 
 
 - Bills the renewal fee, if one is configured, and generates the renewal invoice on the renewal date When you renew a contract of the _Renewable_ type, the system compares the renewal date to the end date of the contract grace period. 
-
-
-<!-- PAGE_BREAK -->
- Managing Contracts | 75 
 
  Aer the renewal is completed, contract fulfillment can continue, and the recurring billing is performed according to the schedule defined on the Summary tab of the Customer Contracts form. 
 
@@ -2564,19 +2572,17 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
  In this activity, you will learn how to renew a contract of the Renewable type. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+
+<!-- PAGE_BREAK -->
+ Managing Contracts | 75 
+
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the SweetLife Fruits & Jams company supplies its Unifruit LLC customer with juicers and provides deployment, maintenance support, and consulting services. The contract span of the regular contract is two months, and the starting date of the contract is 3/1/2025. Before signing the contract during contract negotiations, 
+ Suppose that the SweetLife Fruits & Jams company supplies its Unifruit LLC customer with juicers and provides deployment, maintenance support, and consulting services. The contract span of the regular contract is two months, and the starting date of the contract is 3/1/2026. Before signing the contract during contract negotiations, the customer asked to add to the contract the capability to renew the contract under the same terms and to specify 5/8/2026 as the contract renewal date. 
 
-
-<!-- PAGE_BREAK -->
- Managing Contracts | 76 
-
- the customer asked to add to the contract the capability to renew the contract under the same terms and to specify 5/8/2025 as the contract renewal date. 
-
- According to the terms of the contract, when contract renewal occurs, the customer will be billed a fixed amount of $75, which is calculated from the amount of the deployment fee ($500 * 15% = $75). On 4/2/2025 , the contract was upgraded, so the recurring fee for consulting services increased from $300 to $700. 
+ According to the terms of the contract, when contract renewal occurs, the customer will be billed a fixed amount of $75, which is calculated from the amount of the deployment fee ($500 * 15% = $75). On 4/2/2026 , the contract was upgraded, so the recurring fee for consulting services increased from $300 to $700. 
 
  Acting as an accountant, you will first bill the contract for the consulting services until the contract obtains an Expired status. 
 
@@ -2606,23 +2612,23 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 2. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as the accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/8/2025_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/8/2026_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 #### Step 1: Billing the Contracts 
 
  On the Run Contract Billing (CT501000) mass-processing form, you can bill multiple contracts at the same time (or just one contract). 
 
- To bill the contract by using a mass-processing form, do the following: 
+
+<!-- PAGE_BREAK -->
+ Managing Contracts | 76 
+
+To bill the contract by using a mass-processing form, do the following: 
 
 1. Open the _Run Contract Billing_ (CT501000) form. 
 
-2. In the **Billing Date** box, select _4/8/2025_.     The system displays a list of contracts whose next billing date is earlier than the billing date or the same as     it. 
+2. In the **Billing Date** box, select _4/8/2026_.     The system displays a list of contracts whose next billing date is earlier than the billing date or the same as     it. 
 
 3. In the table, select the unlabeled check box for the _0000000001 (Unifruit - deployment of juicers (upgrade))_     contract, as shown in the following screenshot. 
-
-
-<!-- PAGE_BREAK -->
- Managing Contracts | 77 
 
  Figure: Mass-processing billing 
 
@@ -2630,19 +2636,19 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 5. In the **Processing** dialog box, which opens, review the results of the processing and click **Close** to close the     dialog box. 
 
-6. On the _Customer Contracts_ (CT301000) form, open the _0000000001 (Unifruit - deployment of juicers (upgrade))_     contract. Notice the next billing date ( _5/7/2025_ ) in the **Next Billing Date** box on the **Summary** tab. 
+6. On the _Customer Contracts_ (CT301000) form, open the _0000000001 (Unifruit - deployment of juicers (upgrade))_     contract. Notice the next billing date ( _5/7/2026_ ) in the **Next Billing Date** box on the **Summary** tab. 
 
-7. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, select the business     date 5/7/2025. 
+7. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, select the business     date 5/7/2026. 
 
 8. On the form toolbar, click **Run Contract Billing**. 
 
-9. Notice that the contract now has the _Expired_ status, and no invoice has been issued because _5/7/2025_ is the     final billing date of the contract. According to the terms of the modified contract, on the _4/8/2025_ , it was     billed for consulting services in the amount of $700 ($300 + $400) aer the contract upgrade. 
-
- Figure: The expired contract 
+9. Notice that the contract now has the _Expired_ status, and no invoice has been issued because _5/7/2026_ is the     final billing date of the contract. According to the terms of the modified contract, on the _4/8/2026_ , it was     billed for consulting services in the amount of $700 ($300 + $400) aer the contract upgrade. 
 
 
 <!-- PAGE_BREAK -->
- Managing Contracts | 78 
+ Managing Contracts | 77 
+
+ Figure: The expired contract 
 
  You have billed the regular contract twice, and now it has the Expired status. Now you can proceed with renewing the contract to a new period. 
 
@@ -2652,15 +2658,19 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 1. Sign in to the system as a sales manager by using the _chubb_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _5/8/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _5/8/2026_. 
 
 3. On the _Customer Contracts_ (CT301000) form, in the **Contract ID** box, select _0000000001 (Unifruit - deployment_     _of juicers (upgrade))_. 
 
 4. On the form toolbar, click **Renew Contract**. 
 
-5. In the **Renewal Date** box of the **Renew Contract** dialog box, which opens, leave _5/8/2025_ , and then click **OK**.     Aer the operation has completed, the system sets the expiration date of the contract to _7/7/2025_ because     on the _Contract Templates_ (CT202000) form, you specified the duration of the deployment contract to be two     months. Also, the contract's status changes to _Active_ , and the renewal fee of $75 is billed. 
+5. In the **Renewal Date** box of the **Renew Contract** dialog box, which opens, leave _5/8/2026_ , and then click **OK**.     Aer the operation has completed, the system sets the expiration date of the contract to _7/7/2026_ because     on the _Contract Templates_ (CT202000) form, you specified the duration of the deployment contract to be two     months. Also, the contract's status changes to _Active_ , and the renewal fee of $75 is billed. 
 
-6. On the **AR History** tab of the form, click the **Reference Nbr.** link in the last row to review the last generated     invoice in the amount of $75 on the _Invoices and Memos_ (AR301000) form.     In the invoice, the _CTMAINT_ non-stock item is listed on the **Details** tab, because this non-stock item has     been specified as a renewal item on the **Price Options** tab of the _Contract Items_ (CT201000) form ( **Setup and**     **Renewal** section). The unit price for the _CI00000001 (Deployment of juicers)_ contract item is calculated as     15% of the setup item price ($500 * 0.15 = $75). The invoice date ( _5/8/2025_ ) matches the date of the contract     renewal. 
+6. On the **AR History** tab of the form, click the **Reference Nbr.** link in the last row to review the last generated     invoice in the amount of $75 on the _Invoices and Memos_ (AR301000) form.     In the invoice, the _CTMAINT_ non-stock item is listed on the **Details** tab, because this non-stock item has     been specified as a renewal item on the **Price Options** tab of the _Contract Items_ (CT201000) form ( **Setup and**     **Renewal** section). The unit price for the _CI00000001 (Deployment of juicers)_ contract item is calculated as     15% of the setup item price ($500 * 0.15 = $75). The invoice date ( _5/8/2026_ ) matches the date of the contract     renewal. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Contracts | 78 
 
  Figure: Invoice aer the renewal of the contract 
 
@@ -2670,27 +2680,27 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
  In this activity, you will learn how to terminate a contract. 
 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
+
+#### Story 
+
+ Suppose that the SweetLife Fruits & Jams company supplies its Unifruit LLC customer with juicers and provides deployment services for the purchased equipment. A typical regular deployment contract includes deployment, maintenance support, and consulting services. The start date of the contract is 3/1/2026. The contract should span two months, with the possibility of renewal. 
+
+ According to the terms of the contract, the customer will be billed once in the amount of $500 for the juicer deployment service and initial actions when contract setup takes place. Also, the customer will be billed a fixed amount of $75, which is 15% of the deployment fee for juicer maintenance at the moment of contract activation or on contract renewal. In addition, the customer will be billed monthly for $700 at the beginning of each scheduled billing period for the consulting service that is to be provided during the duration of the contract. 
+
+ The parties have started to perform the contract in March 2026, and on 5/7/2026 , SweetLife Fruits & Jams has completed the billing of the contract, causing the contract to be assigned the Expired status. Because at the moment of concluding of the contract, the parties determined that they would renew the contract, it was renewed on 5/8/2026 on the same terms. 
+
+ However, on 6/2/2026 , Unifruit urgently informed SweetLife that the service under the contract is no longer required and asked to terminate the contract as of 6/7/2026. 
+
+ SweetLife and Unifruit agreed to terminate the contract starting on this date. 
+
 
 <!-- PAGE_BREAK -->
  Managing Contracts | 79 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-#### Story 
-
- Suppose that the SweetLife Fruits & Jams company supplies its Unifruit LLC customer with juicers and provides deployment services for the purchased equipment. A typical regular deployment contract includes deployment, maintenance support, and consulting services. The start date of the contract is 3/1/2025. The contract should span two months, with the possibility of renewal. 
-
- According to the terms of the contract, the customer will be billed once in the amount of $500 for the juicer deployment service and initial actions when contract setup takes place. Also, the customer will be billed a fixed amount of $75, which is 15% of the deployment fee for juicer maintenance at the moment of contract activation or on contract renewal. In addition, the customer will be billed monthly for $700 at the beginning of each scheduled billing period for the consulting service that is to be provided during the duration of the contract. 
-
- The parties have started to perform the contract in March 2025, and on 5/7/2025 , SweetLife Fruits & Jams has completed the billing of the contract, causing the contract to be assigned the Expired status. Because at the moment of concluding of the contract, the parties determined that they would renew the contract, it was renewed on 5/8/2025 on the same terms. 
-
- However, on 6/2/2025 , Unifruit urgently informed SweetLife that the service under the contract is no longer required and asked to terminate the contract as of 6/7/2025. 
-
- SweetLife and Unifruit agreed to terminate the contract starting on this date. 
-
  Acting as an accountant, you will first bill the renewed contract by the schedule for the consulting service rendered before termination of the contract. 
 
- Then acting as a sales manager, you will terminate the contract since 6/7/2025. 
+ Then acting as a sales manager, you will terminate the contract since 6/7/2026. 
 
 #### Configuration Overview 
 
@@ -2714,21 +2724,17 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 1. As a prerequisite to this activity, make sure that the contract has been renewed, as described in _Contract_     _Management: To Renew a Contract_ activity. 
 
-
-<!-- PAGE_BREAK -->
- Managing Contracts | 80 
-
 2. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as the accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _5/8/2025_. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _5/8/2026_. 
 
 #### Step 1: Billing the Contract 
 
  To bill the contract, do the following: 
 
-1. On the _Customer Contracts_ (CT301000) form, open the _0000000001 (Unifruit - deployment of juicers (upgrade))_     contract. Notice the next billing date ( _5/8/2025_ ) in the **Next Billing Date** box on the **Summary** tab. 
+1. On the _Customer Contracts_ (CT301000) form, open the _0000000001 (Unifruit - deployment of juicers (upgrade))_     contract. Notice the next billing date ( _5/8/2026_ ) in the **Next Billing Date** box on the **Summary** tab. 
 
-2. On the form toolbar, click **Run Contract Billing** to perform billing for consulting services. Notice the next     billing date ( _6/8/2025_ ) on the **Summary** tab. 
+2. On the form toolbar, click **Run Contract Billing** to perform billing for consulting services. Notice the next     billing date ( _6/8/2026_ ) on the **Summary** tab. 
 
  Now you can proceed with the releasing the invoice. 
 
@@ -2738,13 +2744,13 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 1. While you are still viewing the contract on the _Customer Contracts_ (CT301000) form, on the **AR History** tab,     click the **Reference Nbr.** link to open the invoice that you have created in Step 1. Notice that the invoice has     the _Balanced_ status. 
 
-2. On the form toolbar of the _Invoices and Memos_ (AR301000) form, click **Release**. The system generates and     releases a batch in the general ledger. You can see the batch on the **Financial** tab ( **Link to GL** section) of the     _Invoices and Memos_ form. 
-
-3. On the _Customer Contracts_ (CT301000) form, open the _0000000001 (Unifruit - deployment of juicers (upgrade))_     contract. Press Esc to refresh the form.     On the **AR History** form, notice that the invoice now has the _Open_ status. Review the contract balance     ($700), which is calculated as the sum of the balances of open invoices associated with the contract (as     shown in the following screenshot). 
-
 
 <!-- PAGE_BREAK -->
- Managing Contracts | 81 
+ Managing Contracts | 80 
+
+2. On the form toolbar of the _Invoices and Memos_ (AR301000) form, click **Release**. The system generates and     releases a batch in the general ledger. You can see the batch on the **Financial** tab ( **Link to GL** section) of the     _Invoices and Memos_ form. 
+
+3. On the _Customer Contracts_ (CT301000) form, open the _0000000001 (Unifruit - deployment of juicers (upgrade))_     contract. Press F5 to refresh the form.     On the **AR History** tab, notice that the invoice now has the _Open_ status. Review the contract balance ($700),     which is calculated as the sum of the balances of open invoices associated with the contract. 
 
  Figure: AR History tab aer the releasing of the invoice 
 
@@ -2756,15 +2762,15 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 1. Sign in to the system as a sales manager by using the _chubb_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _6/7/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _6/7/2026_. 
 
 3. On the _Customer Contracts_ (CT301000) form, open the _0000000001 (Unifruit - deployment of juicers (upgrade))_     contract. 
 
-4. On the More menu (under **Processing** ), click **Terminate Contract**. In the **Terminate Contract** dialog box,     which opens, leave _6/7/2025_ in the **Termination Date** box, and then click **OK**.     When the termination operation completes successfully, the status of the contract is _Canceled_.     Notice that the balance of the contract is $700. At the moment of contract termination, if the contract     has any unbilled usage or prepaid refundable items, the system generates an invoice or a credit memo,     respectively. In our example, for the _0000000001 (Unifruit - deployment of juicers)_ contract, the system     has generated a credit memo in the amount of $22.58, which you can see on the **AR History** tab (see the     following screenshot). 
+4. On the More menu (under **Processing** ), click **Terminate Contract**. In the **Terminate Contract** dialog box,     which opens, leave _6/7/2026_ in the **Termination Date** box, and then click **OK**.     When the termination operation completes successfully, the status of the contract is _Canceled_.     Notice that the balance of the contract is $700. At the moment of contract termination, if the contract     has any unbilled usage or prepaid refundable items, the system generates an invoice or a credit memo,     respectively. In our example, for the _0000000001 (Unifruit - deployment of juicers)_ contract, the system has     generated a credit memo in the amount of $22.58, which you can see on the **AR History** tab. 
 
 
 <!-- PAGE_BREAK -->
- Managing Contracts | 82 
+ Managing Contracts | 81 
 
  Figure: Credit memo on the AR History tab aer termination of the contract 
 
@@ -2774,7 +2780,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 1. Sign in to the system as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _6/7/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _6/7/2026_. 
 
 3. On the _Customer Contracts_ (CT301000) form, open the _0000000001 (Unifruit - deployment of juicers (upgrade))_     contract. 
 
@@ -2782,11 +2788,11 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 5. On the form toolbar, click **Release**. The system generates and releases a batch in the general ledger. You can     see the batch on the **Financial** tab ( **Link to GL** section) of the _Invoices and Memos_ form. 
 
-6. On the _Customer Contracts_ (CT301000) form, open the _0000000001 (Unifruit - deployment of juicers))_ contract.     Press Esc to refresh the form.     Notice that on the **AR History** form, the credit memo now has the _Open_ status. Review the contract balance     ($677.42), which is the sum of the services rendered to the customer until the moment of the contract     termination (as shown in the following screenshot). 
+6. On the _Customer Contracts_ (CT301000) form, open the _0000000001 (Unifruit - deployment of juicers))_ contract.     Press F5 to refresh the form.     Notice that on the **AR History** tab, the credit memo now has the _Open_ status. Review the contract balance     ($677.42), which is the sum of the services rendered to the customer until the moment of the contract     termination. 
 
 
 <!-- PAGE_BREAK -->
- Managing Contracts | 83 
+ Managing Contracts | 82 
 
  Figure: The AR History tab with the released credit memo 
 
@@ -2804,13 +2810,15 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
  On this form, you can view auto-renewable contracts that will expire during the specified date range by clicking Show Contracts Available for Mass Renewal in the Selection area. A contract can be renewed automatically if it has the Mass Renewal check box selected on the Summary tab ( Contract Settings section) of the Customer Contracts (CT301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Managing Contracts | 84 
-
 #### Reviewing Customer Documents 
 
- You can review a customer's documents at any time on the Customer Details (AR402000) form. The form shows the detailed balance and the list of documents for the selected customer. If you select the customer and no other selection criteria, the form shows all the customer's open documents. You can also run this inquiry by clicking Customer Details (under Inquiries ) on the More menu of the Customers (AR303000) form. 
+ You can review a customer's documents at any time on the Customer Details (AR402000) form. The form shows the detailed balance and the list of documents for the selected customer. If you select the customer and no other 
+
+
+<!-- PAGE_BREAK -->
+ Managing Contracts | 83 
+
+ selection criteria, the form shows all the customer's open documents. You can also run this inquiry by clicking Customer Details (under Inquiries ) on the More menu of the Customers (AR303000) form. 
 
  To review the customer documents that have been released (documents with the Open , Closed , and Reserved statuses), you run the AR Register (AR621500) report. You can also run this inquiry by clicking AR Register (under Reports ) on the More menu of the Customers form. 
 
@@ -2824,7 +2832,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 
 <!-- PAGE_BREAK -->
- Tracking Contract Usage | 85 
+ Tracking Contract Usage | 84 
 
 ## Tracking Contract Usage 
 
@@ -2880,7 +2888,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 
 <!-- PAGE_BREAK -->
- Tracking Contract Usage | 86 
+ Tracking Contract Usage | 85 
 
 - By directly entering a usage transaction on the _Contract Usage_ (CT303000) form with a particular non-stock     item specified (usage entered manually) You use the _Contract Usage_ form to view all usage transactions associated with a contract. To view the usage of contract items provided recurrently, you use the _Customer Contracts_ (CT301000) form. 
 
@@ -2910,7 +2918,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 
 <!-- PAGE_BREAK -->
- Tracking Contract Usage | 87 
+ Tracking Contract Usage | 86 
 
  Recurring Summary tab of the Customer Contracts (CT301000) form. Here you can view the usage of each of these contract items, which is the sum of the used units of the non-stock item provided recurrently. 
 
@@ -2938,7 +2946,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 
 <!-- PAGE_BREAK -->
- Tracking Contract Usage | 88 
+ Tracking Contract Usage | 87 
 
 - The first 10 cases for free: You might offer a contract for annual support with the first 10 cases free and     additional cases billed at $100 per case. The contract is billed monthly. 
 
@@ -3024,17 +3032,17 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
  In this activity, you will learn how to create case usage for a support contract. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Tracking Contract Usage | 89 
+ Tracking Contract Usage | 88 
 
 #### Story 
 
- Suppose that the SweetLife Fruits & Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On 3/8/2025 , the support contract was signed by both parties. 
+ Suppose that the SweetLife Fruits & Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On 3/8/2026 , the support contract was signed by both parties. 
 
- According to the terms of the contract, it has the Expiring type, and the contract span is three months. On 3/10/2025 , the service under the contract was provided by one regular specialist for four hours for a total sum of $480. This service was reflected in the system in a separate case. 
+ According to the terms of the contract, it has the Expiring type, and the contract span is three months. On 3/10/2026 , the service under the contract was provided by one regular specialist for four hours for a total sum of $480. This service was reflected in the system in a separate case. 
 
  The service of maintenance specialists costs $120 per hour, and the price is not dependent on the skills and position of the employee. The billing of the contract will be performed monthly and on a per-case basis. 
 
@@ -3060,7 +3068,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 2. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as the sales manager David     Chubb by using the _chubb_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/10/2025_. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/10/2026_. 
 
 #### Step 1: Entering a Case 
 
@@ -3080,13 +3088,13 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 
 <!-- PAGE_BREAK -->
- Tracking Contract Usage | 90 
+ Tracking Contract Usage | 89 
 
 3. On the **Details** tab, in the text area, type the following description of the request or issue that pertained to     the case:     The customer wants the company to clean, wash, and sterilize the juicer. 
 
-4. On the **CRM Info** tab, in the **Contract** box, make sure that the contract with description _Unifruit - Regular_     _support services_ has been specified (as shown in the screenshot below). 
+4. On the **Additional Info** tab, in the **Contract** box, make sure that the contract with description _Unifruit -_     _Regular support services_ has been specified (see the screenshot below). 
 
-5. On the form toolbar, click **Save**.     When you save the case, the system fills in the read-only **Resolution Due** box in the Summary area     ( **Documents** tab). This box is also shown on the **CRM Info** tab, as you can see in the screenshot. The inserted     time is based on the settings of the _REGULARSUP_ case class, which indicate that cases with medium severity     should be resolved within eight hours aer the case was initially saved. 
+5. On the form toolbar, click **Save**.     When you save the case, the system fills in the read-only **Resolution Due** box in the Summary area. This box     is also shown on the **Additional Info** tab, as you can see in the screenshot. The inserted time is based on the     settings of the _REGULARSUP_ case class, which indicate that cases with medium severity should be resolved     within eight hours aer the case was initially saved. 
 
  Figure: Case created for the support contract 
 
@@ -3098,19 +3106,17 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
  While remaining on the Cases (CR306000) form viewing the case you have created, do the following to resolve the case: 
 
-1. On the **CRM Info** tab, select the **Manual Override** check box, and in the **Billable Time** box, type 4h 00m,     which is the number of hours it has taken the specialist to resolve the case. 
+1. On the **Additional Info** tab, select the **Manual Override** check box, and in the **Billable Time** box, type 4h     00m, which is the number of hours it has taken the specialist to resolve the case. 
 
 2. On the form toolbar, click **Close** to mark the case as resolved (because only resolved and closed cases can     be released for billing). 
 
 3. In the **Close** dialog box, leave _Resolved_ in the **Reason** box, and click **OK**. Notice that the case now has the     _Closed_ status.     As a result, the case becomes resolved, and most of the boxes on the form become unavailable for editing. 
 
-4. On the form toolbar, click **Release** to release the case. 
-
 
 <!-- PAGE_BREAK -->
- Tracking Contract Usage | 91 
+ Tracking Contract Usage | 90 
 
- The status of the case has changed to Released. The released case creates contract usage of the contract, so if you bill the contract now, the resulting invoice will contain information about the case. 
+4. On the form toolbar, click **Release** to release the case.     The status of the case has changed to _Released_. The released case creates contract usage of the contract, so     if you bill the contract now, the resulting invoice will contain information about the case. 
 
 #### Step 3: Reviewing the Contract Usage 
 
@@ -3144,11 +3150,11 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 1. The system checks the list of earning types that are defined on the **Labor Items** tab of the _Case Classes_     (CR206000) form for the case class associated with the activity. The system uses the earning type as a key to     find the labor item to be used in the usage transaction. If the system finds the particular earning type, the     system uses the labor item listed for it to create the usage transaction and does not search any further. 
 
- The Labor Items tab is available only if the Per Activity billing mode has been selected on the Details tab of the Case Classes form. 
-
 
 <!-- PAGE_BREAK -->
- Tracking Contract Usage | 92 
+ Tracking Contract Usage | 91 
+
+ The Labor Items tab is available only if the Per Activity billing mode has been selected on the Details tab of the Case Classes form. 
 
 2. The system checks the contract associated with the case class on the **Employee Overrides** tab of the     _Customer Contracts_ (CT301000) form in two stages:     a. The system checks the list on this tab by using the earning type and employee ID as the keys. If a listed        combination includes the particular earning type and employee ID, the system uses the labor item from        this row to create the usage transaction and does not search any further.     b. The system again checks the list on the tab by using as the keys the earning type and _All Employees_ as the        employee ID. If a listed combination includes the particular earning type and _All Employees_ , the system        uses the labor item from this row to create the usage transaction and does not search any further. 
 
@@ -3178,15 +3184,15 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 
 <!-- PAGE_BREAK -->
- Tracking Contract Usage | 93 
+ Tracking Contract Usage | 92 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that aer purchasing the juicers, the Healthy Drink Alley customer needs a consulting contract to teach employees about the proper use of juicers and related equipment. This service is provided by the SweetLife Fruits & Jams company's consultants of different qualifications: senior consultants, whose services cost $120 per hour, and consultants, whose services cost $100 per hour. 
 
- According to the terms of the contract, on 4/10/2025 the customer obtains consulting in the amount of 20 hours from the senior consultant William Perkins, and in the amount of 4 hours from the consultant David Chubb in the total amount of $2,800. The billing of the contract will be performed on demand and on per-activity basis. 
+ According to the terms of the contract, on 4/10/2026 the customer obtains consulting in the amount of 20 hours from the senior consultant William Perkins, and in the amount of 4 hours from the consultant David Chubb in the total amount of $2,800. The billing of the contract will be performed on demand and on per-activity basis. 
 
  Acting as a sales manager, you have created an empty contract whose terms determine prices depending on the skills and position of the consulting specialist, who can be a regular specialist or a senior consultant. You will create contract usage to reflect rendering services in the system. 
 
@@ -3210,7 +3216,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 2. To prepare to perform the instructions of this activity, launch the Acumatica ERP website with the _U100_     dataset preloaded, and sign in as the sales manager David Chubb using the _chubb_ username and the _123_     password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/10/2025_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/10/2026_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 #### Step 1: Creating a Case 
 
@@ -3224,7 +3230,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 
 <!-- PAGE_BREAK -->
- Tracking Contract Usage | 94 
+ Tracking Contract Usage | 93 
 
 - **Business Account** : _HDALLEY_ 
 
@@ -3234,7 +3240,7 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 4. In the **Open** dialog box, make sure _In Process_ is selected in the **Reason** box, and click **OK**. Notice that the     system has assigned the _Open_ status to the case. 
 
-5. On the **CRM Info** tab, make sure that the contract with description _Hdalley - Consulting services by employee_     _rates_ is selected in the **Contract** box. The system selects the contract automatically because it is the only     contract associated with the selected customer (see the following screenshot). 
+5. On the **Additional Info** tab, make sure that the contract with description _Hdalley - Consulting services by_     _employee rates_ is selected in the **Contract** box. The system selects the contract automatically because it is     the only contract associated with the selected customer. 
 
  Figure: Created case for the consulting contract 
 
@@ -3248,13 +3254,11 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 2. On the table toolbar, click **Create Activity > Create Work Item**. 
 
-3. On the _Activity_ (CR306010) form, which opens, specify the following settings (as shown in the following     screenshot): 
+3. On the _Activity_ (CR306010) form, which opens, specify the following settings: 
 
 - **Summary** : Consultation: Initial steps for juicer troubleshooting     (identification and elimination) 
 
-- **Start Date** : _4/10/2025_ 
-
-- **Owner** : _William Perkins_ 
+- **Start Date** : _4/10/2026_ 
 
 - **Project** : _X - Non-Project Code_ 
 
@@ -3262,23 +3266,25 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 - **Billable Time** : _20:00_ 
 
+4. In the **Owner** box of the **Details** tab, specify _William Perkins_. 
+
 
 <!-- PAGE_BREAK -->
- Tracking Contract Usage | 95 
+ Tracking Contract Usage | 94 
 
  Figure: Created case activity for the consulting contract 
 
-4. On the form toolbar, click **Save** and then click **Complete** to complete the activity.     The system closes the window with the form and returns you to the _Cases_ form. 
+5. On the form toolbar, click **Save** and then click **Complete** to complete the activity. 
 
-5. On the table toolbar of the **Activities** tab, click **Create Activity > Create Work Item**. 
+ The system closes the window with the form and returns you to the Cases form. 
 
-6. On the _Activity_ form, which opens, specify the following settings: 
+6. On the table toolbar of the **Activities** tab, click **Create Activity > Create Work Item**. 
+
+7. On the _Activity_ form, which opens, specify the following settings: 
 
 - **Summary** : Consultation: Preventative maintenance for juicers 
 
-- **Start Date** : _4/10/2025_ 
-
-- **Owner** : _David Chubb_ 
+- **Start Date** : _4/10/2026_ 
 
 - **Project** : _X - Non-Project Code_ 
 
@@ -3286,17 +3292,21 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 - **Billable Time** : _04:00_ 
 
-7. On the form toolbar, click **Save** and then click **Complete** on the form toolbar, to complete the activity. The     system closes the window with the form and returns you to the _Cases_ form.     Notice that both activities are listed on the **Activities** tab. 
+8. In the **Owner** box of the **Details** tab, specify _David Chubb_. 
+
+9. On the form toolbar, click **Save** and then click **Complete** to complete the activity. The system closes the     window with the form and returns you to the _Cases_ form.     Notice that both activities are listed on the **Activities** tab. 
+
+
+<!-- PAGE_BREAK -->
+ Tracking Contract Usage | 95 
+
+ Figure: Created case activities for the consulting contract 
 
 #### Step 3: Releasing Case Activities 
 
  To release the case activities for a future billing, do the following: 
 
 1. Open the _Release Time Activities_ (EP507020) form. 
-
-
-<!-- PAGE_BREAK -->
- Tracking Contract Usage | 96 
 
 2. In the Summary area, in the **Contract** box, select the contract with description _Hdalley - Consulting services_     _by employee rates_. The list now shows activities for only this contract. Select the check boxes for both case     activities in the table as shown in the following screenshot. 
 
@@ -3312,6 +3322,10 @@ You have created and activated the deposit contract. Now you can proceed to the 
 
 _- Consulting services by employee rates_. 
 
+
+<!-- PAGE_BREAK -->
+ Tracking Contract Usage | 96 
+
 2. On the **Unbilled** tab, review the details about both of the released activities. This tab displays information     about both accumulated unbilled usages for the selected contract. 
 
  You have created employee activities usage for the consulting contract and now you can proceed to billing the contract by per-activity basic. 
@@ -3320,19 +3334,15 @@ _- Consulting services by employee rates_.
 
  In the following implementation activity, you will learn how to manually create contract usage for a deposit contract. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the Citrus Store customer wants to purchase a fixed number of support hours in advance, for which the SweetLife Fruits & Jams company offers a discount. According to the terms of the deposit contract, the customer pays a deposit in advance for work that will be performed later, and the total price of the provided service will be deducted from the deposit in parts upon the completion of each service. 
 
- According to the terms of the contract, SweetLife will receive an advance payment from the Citrus Store in the amount of $5,000. In May 2025, SweetLife's employees will provide consulting services for a total of 50 support hours at a discounted price of $100 per hour. All support hours beyond the included hours will be billed at a higher price of $120 per hour. 
+ According to the terms of the contract, SweetLife will receive an advance payment from the Citrus Store in the amount of $5,000. In May 2026, SweetLife's employees will provide consulting services for a total of 50 support hours at a discounted price of $100 per hour. All support hours beyond the included hours will be billed at a higher price of $120 per hour. 
 
  Acting as a sales manager, you will manually create contract usage in the amount of 40 hours for a deposit contract. 
-
-
-<!-- PAGE_BREAK -->
- Tracking Contract Usage | 97 
 
 #### Configuration Overview 
 
@@ -3354,7 +3364,11 @@ _- Consulting services by employee rates_.
 
 2. To prepare to perform the instructions of this activity, launch the Acumatica ERP website with the _U100_     dataset preloaded, and sign in as the sales manager David Chubb using the _chubb_ username and the _123_     password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _5/1/2025_. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _5/1/2026_. 
+
+
+<!-- PAGE_BREAK -->
+ Tracking Contract Usage | 97 
 
 #### Step: Manual Creating of a Contract Usage 
 
@@ -3372,21 +3386,17 @@ _- Consulting services by employee rates_.
 
 - **Quantity** : 40 
 
-- **Date** : _5/1/2025_ 
+- **Date** : _5/1/2026_ 
 
  Figure: Manual contract usage for the deposit contract 
 
-
-<!-- PAGE_BREAK -->
- Tracking Contract Usage | 98 
-
 4. Click **Save** on the form toolbar. 
 
-You have created the contract usage manually for the deposit contract. Now you can proceed to the billing of the contract. 
+ You have created the contract usage manually for the deposit contract. Now you can proceed to the billing of the contract. 
 
 
 <!-- PAGE_BREAK -->
- Billing Contracts | 99 
+ Billing Contracts | 98 
 
 ## Billing Contracts 
 
@@ -3428,7 +3438,7 @@ You have created the contract usage manually for the deposit contract. Now you c
 
 
 <!-- PAGE_BREAK -->
- Billing Contracts | 100 
+ Billing Contracts | 99 
 
 #### Billing Scenarios 
 
@@ -3456,7 +3466,7 @@ You have created the contract usage manually for the deposit contract. Now you c
 
 
 <!-- PAGE_BREAK -->
- Billing Contracts | 101 
+ Billing Contracts | 100 
 
 #### Contracts with Recurring Billing 
 
@@ -3494,23 +3504,23 @@ You have created the contract usage manually for the deposit contract. Now you c
 
 
 <!-- PAGE_BREAK -->
- Billing Contracts | 102 
+ Billing Contracts | 101 
 
 ### Contract Billing: To Bill a Regular Contract on a Schedule 
 
  In this activity, you will learn how to bill a regular contract by using a schedule. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the SweetLife Fruits & Jams company supplies its customer Unifruit LLC with equipment for juice production and provides deployment services for the purchased equipment. 
 
- A typical regular deployment contract includes the deployment of equipment, a maintenance support service, and consulting. The start date of the contract is 3/1/2025 , and the contract should span two months, with the possibility of renewal. 
+ A typical regular deployment contract includes the deployment of equipment, a maintenance support service, and consulting. The start date of the contract is 3/1/2026 , and the contract should span two months, with the possibility of renewal. 
 
  According to the terms of the contract, the customer will be billed in the amount of $500 for the juicer deployment service and the initial actions when contract setup takes place. In addition, the customer will be billed a fixed amount of $75, which is 15% of the deployment fee for a juicer maintenance at the moment of contract activation or on contract renewal. The customer will also be billed monthly in the amount of $300 at the beginning of each scheduled billing period for the consulting service that is to be provided during the duration of the contract. 
 
- Acting as an accountant, 4/1/2025 you need to bill the contract by using a schedule. 
+ Acting as an accountant, 4/1/2026 you need to bill the contract by using a schedule. 
 
 #### Process Overview 
 
@@ -3534,25 +3544,25 @@ You have created the contract usage manually for the deposit contract. Now you c
 
 2. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as the accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/1/2025_. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/1/2026_. 
 
 
 <!-- PAGE_BREAK -->
- Billing Contracts | 103 
+ Billing Contracts | 102 
 
 #### Step 1: Running Contract Billing for a Particular Contract 
 
  To initiate contract billing, on the Customer Contracts (CT301000) form, do the following: 
 
-1. In the **Contract ID** box, select _0000000001 (Unifruit - deployment of juicers)_.     Notice the next billing date ( _4/8/2025_ ) in the **Next Billing Date** box on the **Summary** tab. 
+1. In the **Contract ID** box, select _0000000001 (Unifruit - deployment of juicers)_.     Notice the next billing date ( _4/8/2026_ ) in the **Next Billing Date** box on the **Summary** tab. 
 
 2. On the form toolbar, click **Run Contract Billing**. 
 
-3. On the **AR History** tab, click the **Reference Nbr.** link of the last generated invoice to open it for review on the     _Invoices and Memos_ (AR301000) form (see the following screenshot). 
+3. On the **AR History** tab, click the **Reference Nbr.** link of the last generated invoice to open it for review on the     _Invoices and Memos_ (AR301000) form. 
 
  Figure: Invoice aer scheduled billing 
 
- The invoice date ( 4/8/2025 ) matches the date of the contract billing. The invoice includes the recurring part of the contract item, which in the current example consists of only the CTCONS non-stock item. This item's default price has been used as the unit price for billing in the amount of $300. The default price is set for the CTCONS non-stock item on the Price Cost tab of the Non-Stock Items (IN202000) form, in the Default Price box. 
+ The invoice date ( 4/8/2026 ) matches the date of the contract billing. The invoice includes the recurring part of the contract item, which in the current example consists of only the CTCONS non-stock item. This item's default price has been used as the unit price for billing in the amount of $300. The default price is set for the CTCONS non-stock item on the Price Cost tab of the Non-Stock Items (IN202000) form, in the Default Price box. 
 
  You have billed the regular contract once by using a schedule for the consulting service. Now you can proceed with releasing the invoice. 
 
@@ -3564,11 +3574,11 @@ You have created the contract usage manually for the deposit contract. Now you c
 
 2. On the form toolbar, click **Release**. The system generates and releases a batch in the general ledger. You can     see the batch number on the **Financial** tab ( **Link to GL** section) of the _Invoices and Memos_ (AR301000) form. 
 
-3. On the _Customer Contracts_ (CT301000) form, open the _0000000001 (Unifruit - deployment of juicers)_ contract.     Press Esc to refresh the form.     Notice that on the **AR History** form, the invoice now has the _Open_ status. Review the contract balance     ($300), which is calculated as the sum of the balances of open invoices associated with the contract (see the     following screenshot). 
+3. On the _Customer Contracts_ (CT301000) form, open the _0000000001 (Unifruit - deployment of juicers)_ contract.     Press F5 to refresh the form.     Notice that on the **AR History** tab, the invoice now has the _Open_ status. Review the contract balance ($300),     which is calculated as the sum of the balances of open invoices associated with the contract. 
 
 
 <!-- PAGE_BREAK -->
- Billing Contracts | 104 
+ Billing Contracts | 103 
 
  Figure: AR History tab aer releasing of the invoice 
 
@@ -3578,17 +3588,21 @@ You have created the contract usage manually for the deposit contract. Now you c
 
  In this activity, you will learn how to bill the contract by employee activity usage. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that aer purchasing the juicers, the Healthy Drink Alley customer needs a consulting contract to teach employees about the proper use of juicers and related equipment. This service is provided by the SweetLife Fruits & Jams company's consultants of different qualifications: senior consultants, whose services cost $120 per hour, and regular consultants, whose services cost $100 per hour. 
 
- According to the terms of the contract, on 4/10/2025 , the customer obtains consulting in the amount of 20 hours from the senior consultant William Perkins, and in the amount of 4 hours from the consultant David Chubb for the total amount of $2,800. The billing of the contract will be performed on demand and on per-activity basis. 
+ According to the terms of the contract, on 4/10/2026 , the customer obtains consulting in the amount of 20 hours from the senior consultant William Perkins, and in the amount of 4 hours from the consultant David Chubb for the total amount of $2,800. The billing of the contract will be performed on demand and on per-activity basis. 
 
  Earlier you have created an empty contract whose terms determine prices depending on the skills and position of the consulting specialist, who can be a regular specialist or a senior consultant, and have created contract usage to reflect rendering services in the system. 
 
- Acting as an accountant, you will bill the contract by employee activities usage on 4/20/2025. 
+ Acting as an accountant, you will bill the contract by employee activities usage on 4/20/2026. 
+
+
+<!-- PAGE_BREAK -->
+ Billing Contracts | 104 
 
 #### Process Overview 
 
@@ -3597,10 +3611,6 @@ You have created the contract usage manually for the deposit contract. Now you c
 #### Configuration Overview 
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
-
-
-<!-- PAGE_BREAK -->
- Billing Contracts | 105 
 
 - On the _Enable/Disable Features_ (CS100000) form, the _Contract Management_ feature has been enabled. 
 
@@ -3614,7 +3624,7 @@ You have created the contract usage manually for the deposit contract. Now you c
 
 2. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as the accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/20/2025_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/20/2026_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 #### Step 1: Billing the Contract 
 
@@ -3624,15 +3634,15 @@ You have created the contract usage manually for the deposit contract. Now you c
 
 2. On the form toolbar, select **Run Contract Billing**. 
 
-3. In the **Billing On Demand** dialog box (which opens), leave _4/20/2025_ in the **Billing Date** box, and click **OK**. 
+3. In the **Billing On Demand** dialog box (which opens), leave _4/20/2026_ in the **Billing Date** box, and click **OK**. 
 
 4. Review the **AR History** tab. Aer the billing operation completed successfully, the system issued an invoice     for the billed contract usage and automatically released the invoice.     Note that now the invoice has the _Open_ status because you have selected the **Automatically Release AR**     **Documents** check box on the **Summary** tab of the _Contract Templates_ (CT202000) form, so that the invoices     and credit memos are automatically released when the contract is billed. 
 
-5. In the only row in the table, click the **Reference Nbr.** link to open and review the invoice on the _Invoices and_     _Memos_ (AR301000) form, as shown in the screenshot below. On the **Details** tab, each activity is shown in     a separate line. The date of the invoice matches the billing date. The default prices of the non-stock items     that are specified as labor items in the corresponding case class are used as unit prices in the invoice. In the     Summary area note that the **Detail total** is $2,800, that is the sum of services performed by employees. 
+5. In the only row in the table, click the **Reference Nbr.** link to open and review the invoice on the _Invoices and_     _Memos_ (AR301000) form. On the **Details** tab, each activity is shown in a separate line. The date of the invoice     matches the billing date. The default prices of the non-stock items that are specified as labor items in the     corresponding case class are used as unit prices in the invoice. In the Summary area note that the **Detail**     **total** is $2,800, that is the sum of services performed by employees. 
 
 
 <!-- PAGE_BREAK -->
- Billing Contracts | 106 
+ Billing Contracts | 105 
 
  Figure: Invoice for the consulting contract 
 
@@ -3652,21 +3662,21 @@ _- Consulting services by employee rates_ contract.
 
  In this activity, you will learn how to bill support contract by case usage. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the SweetLife Fruits & Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On 3/8/2025 , the support contract was signed by both parties. 
+ Suppose that the SweetLife Fruits & Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On 3/8/2026 , the support contract was signed by both parties. 
 
- According to the terms of the contract, it has the Expiring type, and the contract span is three months. On 3/10/2025 , the service under the contract was provided by one regular specialist for four hours for a total sum of $480. This service was reflected in the system in a separate case. 
+ According to the terms of the contract, it has the Expiring type, and the contract span is three months. On 3/10/2026 , the service under the contract was provided by one regular specialist for four hours for a total sum of $480. This service was reflected in the system in a separate case. 
 
  The service of maintenance specialists costs $120 per hour, and the price is not dependent on the skills and position of the employee performing the service. Now you have the released case for the support contract in the system. The billing of the contract will be performed monthly and on a per-case basis. 
 
- Acting as an accountant, on 4/8/2025 , you will bill support contract by case usage. 
-
 
 <!-- PAGE_BREAK -->
- Billing Contracts | 107 
+ Billing Contracts | 106 
+
+ Acting as an accountant, on 4/8/2026 , you will bill support contract by case usage. 
 
 #### Configuration Overview 
 
@@ -3690,15 +3700,15 @@ _- Consulting services by employee rates_ contract.
 
 2. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as the accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/8/2025_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _4/8/2026_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 #### Step 1: Billing the Contract Usage 
 
  To initiate contract billing, do the following: 
 
-1. On the _Customer Contracts_ (CT301000) form, open the contract with description _Unifruit - Regular support_     _services_. Notice that on the **Summary** tab, the **Next Billing Date** is set to _4/8/2025_. 
+1. On the _Customer Contracts_ (CT301000) form, open the contract with description _Unifruit - Regular support_     _services_. Notice that on the **Summary** tab, the **Next Billing Date** is set to _4/8/2026_. 
 
-2. On the form toolbar, click **Run Contract Billing**.     When the billing operation has completed successfully, the **Next Billing Date** is set to _5/8/2025_ , and the     system has generated the invoice in the amount of $480 for the billed contract usage. You can see the     invoice on the **AR History** tab. The invoice has the _Balanced_ status. 
+2. On the form toolbar, click **Run Contract Billing**.     When the billing operation has completed successfully, the **Next Billing Date** is set to _5/8/2026_ , and the     system has generated the invoice in the amount of $480 for the billed contract usage. You can see the     invoice on the **AR History** tab. The invoice has the _Balanced_ status. 
 
 #### Step 2: Releasing the Invoice 
 
@@ -3708,7 +3718,7 @@ _- Consulting services by employee rates_ contract.
 
 
 <!-- PAGE_BREAK -->
- Billing Contracts | 108 
+ Billing Contracts | 107 
 
  Figure: Invoice for the support contract 
 
@@ -3716,7 +3726,7 @@ _- Consulting services by employee rates_ contract.
 
 2. On the form toolbar, click **Release**. The system generates and releases a batch in the general ledger. You can     see the batch on the **Financial** tab of the _Invoices and Memos_ form ( **Link to GL** section). 
 
-3. On the _Customer Contracts_ (CT301000) form, open the contract with description _Unifruit - Regular support_     _services_. Press Esc to refresh the form, and review the contract balance ($480), which is calculated as the     sum of the balances of open invoices associated with the contract. 
+3. On the _Customer Contracts_ (CT301000) form, open the contract with description _Unifruit - Regular support_     _services_. Press F5 to refresh the form, and review the contract balance ($480), which is calculated as the sum     of the balances of open invoices associated with the contract. 
 
 4. Open the **AR History** tab on the _Customer Contracts_ (CT301000) form, and note that the invoice in the     amount of $480 now has the _Open_ status. 
 
@@ -3726,19 +3736,19 @@ _- Consulting services by employee rates_ contract.
 
  In the following implementation activity, you will learn how to bill a deposit contract by usage entered manually for regular and extra hours. You will also learn how the system warns you that the deposit has been fully used. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the Citrus Store customer wants to purchase a fixed number of support hours in advance, for which the SweetLife Fruits & Jams company offers a discount. According to the terms of the deposit contract, the customer pays a deposit in advance for work that will be performed later, and the total price of the provided service will be deducted from the deposit in parts upon completion of each service. 
 
- According to the terms of the contract, the SweetLife Fruits & Jams company will receive an advance payment from the Citrus Store customer in the amount of $5,000. In May 2025, SweetLife's employees will provide consulting services for a total of 50 support hours at a discounted price of $100 per hour. All support hours beyond the included hours will be billed at a higher price of $120 per hour. 
-
- Acting as an accountant, you will bill a deposit contract by usage entered manually for regular and extra hours. 
+ According to the terms of the contract, the SweetLife Fruits & Jams company will receive an advance payment from the Citrus Store customer in the amount of $5,000. In May 2026, SweetLife's employees will provide consulting services for a total of 50 support hours at a discounted price of $100 per hour. All support hours beyond the included hours will be billed at a higher price of $120 per hour. 
 
 
 <!-- PAGE_BREAK -->
- Billing Contracts | 109 
+ Billing Contracts | 108 
+
+ Acting as an accountant, you will bill a deposit contract by usage entered manually for regular and extra hours. 
 
 #### Configuration Overview 
 
@@ -3762,7 +3772,7 @@ _- Consulting services by employee rates_ contract.
 
 2. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as the accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _5/1/2025_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _5/1/2026_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 #### Step 1: Billing the Deposit Contract 
 
@@ -3772,19 +3782,25 @@ _- Consulting services by employee rates_ contract.
 
 2. On the form toolbar, click **Run Contract Billing**. 
 
-3. In the **Billing On Demand** dialog box, which opens, leave _5/1/2025_ the **Billing Date** box, and then click **OK**. 
+3. In the **Billing On Demand** dialog box, which opens, leave _5/1/2026_ the **Billing Date** box, and then click **OK**. 
 
 4. On the **Recurring Summary** tab, view the total quantity of the included items (see the screenshot below).     The **Unbilled** column shows the total quantity of each included item that has been used but has not yet     been billed. The **Used Total** column shows the total quantity of the recurring item, both billed and unbilled,     that has been used since contract activation. For the deposit, the system displays the total amount that has     been spent on the related recurring items. It may exceed the deposit and include the price of extra usage.     For the deposit item, the system updates the value in the **Used Total** column only aer the contract has     been billed. 
 
 
 <!-- PAGE_BREAK -->
- Billing Contracts | 110 
+ Billing Contracts | 109 
 
  Figure: Recurring Summary tab for the deposit contract 
 
-5. On the **AR History** tab, click the **Reference Nbr.** link in the second row to open the invoice for review on the     _Invoices and Memos_ (AR301000) form. In the invoice, the provided service and the retainer are displayed as     separate lines (as shown in the screenshot below).     The customer is billed for the service usage according to the pricing policy specified in the **Recurring**     **Pricing** box of the _Contract Items_ (CT201000) form for the contract item. The invoice has zero amount     because the fee for the support has been deducted from the deposit paid and the Customer Deposits     account (24400) has been debited on the amount of the fee. 
+5. On the **AR History** tab, click the **Reference Nbr.** link in the second row to open the invoice for review on the     _Invoices and Memos_ (AR301000) form. In the invoice, the provided service and the retainer are displayed as     separate lines. 
 
  Figure: Invoice for the deposit contract 
+
+ The customer is billed for the service usage according to the pricing policy specified in the Recurring Pricing box of the Contract Items (CT201000) form for the contract item. The invoice has zero amount because the fee for the support has been deducted from the deposit paid and the Customer Deposits account (24400) has been debited on the amount of the fee. 
+
+
+<!-- PAGE_BREAK -->
+ Billing Contracts | 110 
 
 #### Step 2: Creating an Additional Manual Contract Usage 
 
@@ -3792,11 +3808,7 @@ _- Consulting services by employee rates_ contract.
 
 2. On the More menu (under **Other** ), click **Contract Usage**. The _Contract Usage_ form opens with the _Citrus -_     _Deposit contracts_ contract selected. 
 
-
-<!-- PAGE_BREAK -->
- Billing Contracts | 111 
-
-3. On the **Billed** tab, review the list of records of the billed usage accumulated since contract activation (see     the following screenshot). 
+3. On the **Billed** tab, review the list of records of the billed usage accumulated since contract activation. 
 
  Figure: Billed manual contract usage for the deposit contract 
 
@@ -3808,7 +3820,7 @@ _- Consulting services by employee rates_ contract.
 
 - **Quantity** : 20 
 
-- **Date** : _5/1/2025_ 
+- **Date** : _5/1/2026_ 
 
 5. Click **Save** on the form toolbar.     As a result, the included 50 hours of services and the deposit were provided, and 10 hours will be billed as     extra usage. 
 
@@ -3816,19 +3828,23 @@ _- Consulting services by employee rates_ contract.
 
 1. On the _Customer Contracts_ (CT301000) form, open the the contract with description _Citrus - Deposit contracts_     contract. On the form toolbar, click **Run Contract Billing**. 
 
-2. In the **Billing On Demand** dialog box, which opens, leave _5/1/2025_ in the **Billing Date** box, and then click     **OK**. 
+2. In the **Billing On Demand** dialog box, which opens, leave _5/1/2026_ in the **Billing Date** box, and then click     **OK**. 
 
 3. On the **Recurring Summary** tab, view the total quantity of the included items (see the following     screenshot). On this tab, the system shows a warning icon on the le side of the line with the deposit item,     indicating that the deposit has been fully used. 
 
 
 <!-- PAGE_BREAK -->
- Billing Contracts | 112 
+ Billing Contracts | 111 
 
  Figure: Recurring Summary tab for the deposit contract for extra hours 
 
 4. On the **AR History** tab, click the **Reference Nbr.** link in the last row of the table to review the details of the     generated invoice on the _Invoices and Memos_ (AR301000) form, shown in the screenshot below.     Because the deposit has been completely spent, the customer is being billed for the extra 10 hours,     according to the pricing policy specified in the **Extra Usage Pricing** box of the _Contract Items_ (CT201000)     form ( **Price Options** tab) of the recurring contract item. So the overused amount is $1,200. 
 
  Figure: Invoice for the overused contract deposit 
+
+
+<!-- PAGE_BREAK -->
+ Billing Contracts | 112 
 
 You have created the manual contract usage and performed the contract billing for the deposit contract by usage entered manually for regular and extra hours. 
 
@@ -3874,7 +3890,11 @@ You have created the manual contract usage and performed the contract billing fo
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
@@ -3882,29 +3902,93 @@ You have created the manual contract usage and performed the contract billing fo
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 115 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 116 
 
 #### Report Toolbar 
 
@@ -3913,12 +3997,6 @@ You have created the manual contract usage and performed the contract billing fo
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 115 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -3944,25 +4022,77 @@ You have created the manual contract usage and performed the contract billing fo
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 116 
+ Appendix | 117 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 118 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -3980,91 +4110,45 @@ You have created the manual contract usage and performed the contract billing fo
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 117 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 118 
+ Appendix | 119 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -4083,6 +4167,12 @@ You have created the manual contract usage and performed the contract billing fo
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 120 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -4106,10 +4196,6 @@ You have created the manual contract usage and performed the contract billing fo
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 119 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -4124,13 +4210,19 @@ You have created the manual contract usage and performed the contract billing fo
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 121 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -4148,10 +4240,6 @@ You have created the manual contract usage and performed the contract billing fo
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 120 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -4166,6 +4254,10 @@ You have created the manual contract usage and performed the contract billing fo
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 122 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -4174,11 +4266,7 @@ You have created the manual contract usage and performed the contract billing fo
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 121 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -4204,6 +4292,12 @@ You have created the manual contract usage and performed the contract billing fo
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 123 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -4211,12 +4305,6 @@ You have created the manual contract usage and performed the contract billing fo
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 122 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -4244,19 +4332,19 @@ You have created the manual contract usage and performed the contract billing fo
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 124 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 123 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -4266,13 +4354,15 @@ You have created the manual contract usage and performed the contract billing fo
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 125 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -4283,10 +4373,6 @@ You have created the manual contract usage and performed the contract billing fo
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 124 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -4300,6 +4386,10 @@ You have created the manual contract usage and performed the contract billing fo
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 126 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -4310,11 +4400,11 @@ You have created the manual contract usage and performed the contract billing fo
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 125 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 127 
 
 #### Unavailable Commands on the More Menu 
 
@@ -4326,17 +4416,13 @@ You have created the manual contract usage and performed the contract billing fo
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 126 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 127 
+ Appendix | 128 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -4348,7 +4434,11 @@ You have created the manual contract usage and performed the contract billing fo
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 129 
 
  Figure: Table toolbar 
 
@@ -4368,17 +4458,17 @@ You have created the manual contract usage and performed the contract billing fo
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 128 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 130 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -4408,13 +4498,13 @@ You have created the manual contract usage and performed the contract billing fo
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 129 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 131 
 
  Element Description 
 
@@ -4458,15 +4548,15 @@ You have created the manual contract usage and performed the contract billing fo
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 130 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 132 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

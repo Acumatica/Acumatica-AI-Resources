@@ -2,7 +2,7 @@
 
 # Manufacturing Edition 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -200,9 +200,9 @@ Engineering Change Control: Implementation Checklist............................
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -2500,7 +2500,7 @@ With these settings specified, users in your company can record and process docu
 
 #### Testing of Settings 
 
- To make sure that all settings are configured correctly, we recommend that you process a purchase return at the original cost, as described in the Purchase Returns at the Original CostPurchase ReturnsPurchase Returns at the Original Cost: Process ActivityTo Process a Return at the Original CostProcess Activity. 
+ To make sure that all settings are configured correctly, we recommend that you process a purchase return at the original cost, as described in the Purchase Returns at the Original Cost: Process Activity. 
 
 
 <!-- PAGE_BREAK -->
@@ -2534,7 +2534,7 @@ With these settings specified, users in your company can record and process docu
 
 #### Testing of Settings 
 
- To make sure that all settings are configured correctly, we recommend that you process a purchase return at the system-calculated cost, as described in the Purchase Returns at the Calculated CostPurchase Returns: Process ActivityTo Process a Return at the Calculated Cost. 
+ To make sure that all settings are configured correctly, we recommend that you process a purchase return at the system-calculated cost, as described in the Purchase Returns at the Calculated Cost: Process Activity. 
 
 
 <!-- PAGE_BREAK -->
@@ -2630,7 +2630,7 @@ With these settings specified, users in your company can record and process docu
 
  Make sure that all necessary settings related to sales orders and inventory have been specified, as described in Configuration of Order Management: General Information. 
 
- Order Types (SO201000) form Make sure that the SO and SA order types are active and have been configured, as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) form Make sure that the SO and SA order types are active and have been configured, as described in Sales Order Types: To Activate the SO Order Type. 
 
  Customers (AR303000) form Make sure that all needed customers have been defined in the system, as described in Customers: Implementation Activity. 
 
@@ -3366,7 +3366,7 @@ _Shifts_ (AM205000) At least one shi has been created. If the shi describe
 
 #### Other Settings That Affect the Workflow 
 
- If you want the system to regard scrapped items as completed items and mark the operations of a production order as completed when the sum of completed items and scrapped items equals the quantity to produce of the production order, you select the Include Scrap in Completions check box on the Production Preferences (AM102000) form. For more information, see Configuration of Scrap, Waste, and By-Products in Production: General InformationConfiguration of Scrap and Waste in Production: General Information. 
+ If you want the system to regard scrapped items as completed items and mark the operations of a production order as completed when the sum of completed items and scrapped items equals the quantity to produce of the production order, you select the Include Scrap in Completions check box on the Production Preferences (AM102000) form. For more information, see Configuration of Scrap, Waste, and By-Products in Production: General Information. 
 
 #### Validation of Configuration 
 
@@ -3448,7 +3448,7 @@ _Shifts_ (AM205000) At least one shi has been created. If the shi describe
 
 8 Build and test the configuration You use the _Configuration Maintenance_ (AM207500) from to define configurations. You add features, modify the list of options as required, add attributes, pricing rules, and add rules. Once built, you can test the configuration directly from the form. When your satisfied, you make the configuration and its revision active and add the configuration ID on the _Stock Items_ and _Item Warehouse Details_ forms. 
 
-10 Configure the Order Types You must select the **Allow Configuration Entry** and **Allow Production Orders** check boxes for a sales order type on the _Order Types_ (SO201000) form for which you will use the product configurator and create production orders. For information on printing the configuration options selected on sales order forms, see _Product Configurator: Adding Configuration Data to Forms_. 
+10 Configure the Order Types You must select the **Allow Configuration Entry** and **Enable Linking to Production Orders** check boxes and specify sales order statuses that permit linking to production in the **Linkable Sales Order Statuses** list on the _Order Types_ (SO201000) form for a sales order type for which you will use the product configurator and create production orders. For information on printing the configuration options selected on sales order forms, see _Product Configurator: Adding Configuration Data to Forms_. 
 
 11 Configure the CRM Preferences On the _Customer Management Preferences_ (CR101000) form, select the **Allow Configuration Entry** check box for opportunities. 
 
@@ -3492,7 +3492,7 @@ _Shifts_ (AM205000) At least one shi has been created. If the shi describe
 
  Form Criteria to Check 
 
- Order Types (SO201000) The Allow Production Orders Approved and Allow Production Orders Hold check boxes have been selected in the Manufacturing Settings section of the General tab for the sales order type for which projected dates should be calculated. 
+ Order Types (SO201000) The Enable Linking to Production Orders check box has been selected and all the order statuses have been specified in the Linkable Sales Order Statuses list on the General tab for the sales order type for which projected dates should be calculated. 
 
 #### Validation of Configuration 
 

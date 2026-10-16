@@ -2,7 +2,7 @@
 
 # Commerce Edition 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -206,9 +206,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -2324,7 +2324,7 @@ With these settings specified, users in your company can record and process docu
 
  Make sure that all necessary settings related to sales orders and purchase orders have been specified as described in Configuration of Order Management: Implementation Activity. 
 
- Order Types (SO201000) Make sure that the SO order type is active and has been configured as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) Make sure that the SO order type is active and has been configured as described in Sales Order Types: To Activate the SO Order Type. 
 
  Vendors (AP303000) Make sure that all needed vendors have been configured as described in Vendors: Implementation Activity. 
 
@@ -2568,7 +2568,7 @@ With these settings specified, users in your company can record and process docu
 
  You can affect the workflow of processing purchases with prepayments by specifying additional settings as follows: 
 
-- To reduce input errors when users enter orders, set up the validation of order totals by selecting the **For**     **Normal and Standard Orders** check box in the **Validate Total on Entry** section of the _Purchase Orders_     _Preferences_ (PO101000) form ( **General Settings** tab). If this check box is selected, when a user creates a new     purchase order on the _Purchase Orders_ (PO301000) form, to take the order off hold, the user must enter the     order total in the **Control Total** box aer verifying the order details. 
+- To reduce input errors when users enter orders, set up the validation of order totals by selecting the **For**     **Normal and Standard Orders** check box in the **Validate Total on Entry** section of the _Purchase Orders_     _Preferences_ (PO101000) form ( **General** tab). If this check box is selected, when a user creates a new     purchase order on the _Purchase Orders_ (PO301000) form, to take the order off hold, the user must enter the     order total in the **Control Total** box aer verifying the order details. 
 
 - To cause an accounts payable bill to be created automatically on release of a purchase receipt by default,     select the **Create Bill on Receipt Release** check box on the _Purchase Orders Preferences_ form. In this case,     when a user creates a purchase receipt on the _Purchase Receipts_ (PO302000) form, the system automatically     selects the **Create Bill** check box. (The user can clear this check box for a particular bill.) 
 
@@ -2618,7 +2618,7 @@ With these settings specified, users in your company can record and process docu
 
 #### Testing of Settings 
 
- To make sure that all settings are configured correctly, we recommend that you process a purchase return at the original cost, as described in the Purchase Returns at the Original CostPurchase ReturnsPurchase Returns at the Original Cost: Process ActivityTo Process a Return at the Original CostProcess Activity. 
+ To make sure that all settings are configured correctly, we recommend that you process a purchase return at the original cost, as described in the Purchase Returns at the Original Cost: Process Activity. 
 
 ### Purchase Returns at the Calculated Cost: Implementation Checklist 
 
@@ -2654,7 +2654,7 @@ With these settings specified, users in your company can record and process docu
 
 #### Testing of Settings 
 
- To make sure that all settings are configured correctly, we recommend that you process a purchase return at the system-calculated cost, as described in the Purchase Returns at the Calculated CostPurchase Returns: Process ActivityTo Process a Return at the Calculated Cost. 
+ To make sure that all settings are configured correctly, we recommend that you process a purchase return at the system-calculated cost, as described in the Purchase Returns at the Calculated Cost: Process Activity. 
 
 ### Purchases for Sale: Implementation Checklist 
 
@@ -2678,7 +2678,7 @@ With these settings specified, users in your company can record and process docu
 
  Form Criteria to Check 
 
- Order Types (SO201000) Make sure that the SO order type is active and has been configured as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) Make sure that the SO order type is active and has been configured as described in Sales Order Types: To Activate the SO Order Type. 
 
  Vendors (AP303000) Make sure that all needed vendors have been configured as described in Vendors: Implementation Activity. 
 
@@ -2878,7 +2878,7 @@ With these settings specified, users in your company can record and process docu
 
  Warehouses (IN204000) form Make sure that all warehouses have been configured, as described in Warehouses: Implementation Activity. 
 
- Order Types (SO201000) form Make sure that the SO and TR order types are active. The configuration and activation of these types is described in Sales Order Types: To Activate the SO Order TypeImplementation Activity and Sales Order TypesSales from Multiple Warehouses: Implementation ActivityTo Activate the TR Order Type. 
+ Order Types (SO201000) form Make sure that the SO and TR order types are active. The configuration and activation of these types is described in Sales Order Types: To Activate the SO Order Type and Sales Order Types: To Activate the TR Order Type. 
 
  Customers (AR303000) form Make sure that all needed customers have been defined in the system, as described in Customers: Implementation Activity. 
 
@@ -2888,11 +2888,11 @@ With these settings specified, users in your company can record and process docu
 
  You can affect the workflow of processing sales from multiple warehouses by specifying additional settings as follows: 
 
+- To cause shipments to be created with the _On Hold_ status (so that the user can verify them before     processing them further), select the **Hold Shipments on Entry** check box on the _Sales Orders Preferences_     (SO101000) form. 
+
 
 <!-- PAGE_BREAK -->
  Order Management | 77 
-
-- To cause shipments to be created with the _On Hold_ status (so that the user can verify them before     processing them further), select the **Hold Shipments on Entry** check box on the _Sales Orders Preferences_     (SO101000) form. 
 
 - To cause inventory transfers to be automatically released when a user releases a transfer order, select the     **Automatically Release IN Documents** check box on the _Sales Orders Preferences_ (SO101000) form. 
 
@@ -2920,19 +2920,19 @@ With these settings specified, users in your company can record and process docu
 
  Make sure that all necessary settings related to sales orders and inventory have been specified, as described in Configuration of Order Management: General Information. 
 
- Order Types (SO201000) form Make sure that the SO and SA order types are active and have been configured, as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) form Make sure that the SO and SA order types are active and have been configured, as described in Sales Order Types: To Activate the SO Order Type. 
 
  Customers (AR303000) form Make sure that all needed customers have been defined in the system, as described in Customers: Implementation Activity. 
 
  Stock Items (IN202500) form Make sure that all stock items have been defined in the system, as described in Stock Items: Implementation Activity. 
 
-
-<!-- PAGE_BREAK -->
- Order Management | 78 
-
 #### Other Settings That Affect the Workflow 
 
  You can affect the workflow of processing inventory sales by specifying additional settings as follows: 
+
+
+<!-- PAGE_BREAK -->
+ Order Management | 78 
 
 - To cause shipments to be created with the _On Hold_ status (so that the user can verify them before     processing them further), select the **Hold Shipments on Entry** check box on the _Sales Orders Preferences_     (SO101000) form. 
 
@@ -3026,7 +3026,7 @@ With these settings specified, users in your company can record and process docu
 
  Enable/Disable Features (CS100000) form The Inventory feature is enabled. 
 
- Order Types (SO201000) form The SO order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) form The SO order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order Type. 
 
  To streamline the sales process and avoid small discrepancies between the payment amount applied to a sales order and the amount of the sales invoice created for this sales order (for example, as a result of the system recalculating the applicable taxes in the sales invoice), select the Auto Write-Off check box. For more information on the configuration of automatic write-offs, see Configuration of Automatic Write-Offs in Invoices. 
 
@@ -3064,7 +3064,7 @@ With these settings specified, users in your company can record and process docu
 
  Enable/Disable Features (CS100000) Make sure that the Inventory feature is enabled. 
 
- Order Types (SO201000) Make sure that the SO order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) Make sure that the SO order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order Type. 
 
  Customers (AR303000) Make sure that all needed customers have been defined in the system, as described in Customers: Implementation Activity. 
 
@@ -3102,7 +3102,7 @@ With these settings specified, users in your company can record and process docu
 
  Sales Orders Preferences (SO101000) Make sure that all necessary settings related to sales orders have been specified, as described in Order Management Basic Configuration: General Information. 
 
- Order Types (SO201000) Make sure that the SO or IN order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. (If needed, you can set up and activate both of these order types.) 
+ Order Types (SO201000) Make sure that the SO or IN order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order Type. (If needed, you can set up and activate both of these order types.) 
 
  Customers (AR303000) Make sure that all needed customers have been defined in the system, as described in Customers: Implementation Activity. 
 
@@ -3136,7 +3136,7 @@ With these settings specified, users in your company can record and process docu
 
  Make sure that all necessary settings related to sales orders and purchase orders have been specified as described in Configuration of Order Management: Implementation Activity. 
 
- Order Types (SO201000) Make sure that the SO order type is active and has been configured as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) Make sure that the SO order type is active and has been configured as described in Sales Order Types: To Activate the SO Order Type. 
 
  Vendors (AP303000) Make sure that all needed vendors have been configured as described in Vendors: Implementation Activity. 
 
@@ -3188,7 +3188,7 @@ With these settings specified, users in your company can record and process docu
 
  Make sure that all necessary settings related to sales orders and inventory have been specified, as described in Configuration of Order Management: General Information. 
 
- Order Types (SO201000) form Make sure that the SO order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order TypeImplementation Activity. 
+ Order Types (SO201000) form Make sure that the SO order type is active and has been configured, as described in Sales Order Types: To Activate the SO Order Type. 
 
 
 <!-- PAGE_BREAK -->
@@ -3376,7 +3376,7 @@ With these settings specified, users in your company can record and process docu
 
  Required Information Description 
 
- Store Admin Path The permanent URL of the ecommerce store followed by /manage. 
+ Store Admin URL The permanent URL of the ecommerce store followed by /manage. 
 
  This path is used for navigating to BigCommerce pages from the Sync History (BC301000) and Process Data (BC501500) forms. 
 

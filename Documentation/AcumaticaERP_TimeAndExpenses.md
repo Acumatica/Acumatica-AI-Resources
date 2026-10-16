@@ -2,7 +2,7 @@
 
 # Time and Expenses 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -44,7 +44,7 @@
 
  Expense Receipts with Corporate Cards: To Reconcile Bank Statement...................................................... 29 
 
- Expense Receipts with Corporate Cards: Related Reports and Forms..........................................................31 
+ Expense Receipts with Corporate Cards: Related Reports and Forms..........................................................32 
 
  Expense Receipts with Corporate Cards: Mass-Processing of Documents................................................... 32 
 
@@ -92,37 +92,41 @@
 
  Employee Time Entry: Time Activities............................................................................................................61 
 
- Employee Time Entry: To Create a Time Activity...........................................................................................62 
+ Employee Time Entry: Creation of Time Activities from Project Time Logs.................................................63 
 
- Employee Time Entry: Time Cards................................................................................................................. 64 
+ Employee Time Entry: Time Zones in Time Activities................................................................................... 64 
 
- Employee Time Entry: To Create a Time Card............................................................................................... 66 
+ Employee Time Entry: To Create a Time Activity...........................................................................................66 
 
- Employee Time Entry: Time Card Approval................................................................................................... 67 
+ Employee Time Entry: Time Cards................................................................................................................. 68 
 
- Employee Time Entry: To Approve a Time Card............................................................................................ 68 
+ Employee Time Entry: To Create a Time Card............................................................................................... 70 
 
- Employee Time Entry: Crew Time.................................................................................................................. 70 
+ Employee Time Entry: Time Card Approval................................................................................................... 72 
 
- Employee Time Entry: To Create a Crew Time Activity................................................................................. 71 
+ Employee Time Entry: To Approve a Time Card............................................................................................ 73 
 
-**Creating Shi Codes............................................................................................................................. 74** 
+ Employee Time Entry: Crew Time.................................................................................................................. 74 
 
- Shi Codes: General Information................................................................................................................... 74 
+ Employee Time Entry: To Create a Crew Time Activity................................................................................. 75 
 
- Shi Codes: Implementation Activity.............................................................................................................75 
+**Creating Shi Codes............................................................................................................................. 78** 
 
-**Appendix..............................................................................................................................................77** 
+ Shi Codes: General Information................................................................................................................... 78 
 
- Reports............................................................................................................................................................. 77 
+ Shi Codes: Implementation Activity.............................................................................................................79 
 
- Report Form............................................................................................................................................ 77 
+**Appendix..............................................................................................................................................81** 
 
- Report......................................................................................................................................................82 
+ Reports............................................................................................................................................................. 81 
 
- Form Toolbar and More Menu.........................................................................................................................84 
+ Report Form............................................................................................................................................ 81 
 
- Table Toolbar................................................................................................................................................... 91 
+ Report......................................................................................................................................................88 
+
+ Form Toolbar and More Menu.........................................................................................................................89 
+
+ Table Toolbar................................................................................................................................................... 96 
 
 
 <!-- PAGE_BREAK -->
@@ -144,9 +148,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -274,7 +278,7 @@
 
  The following activity will walk you through the process of creating an expense receipt. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -350,7 +354,7 @@
 
  The following activity will walk you through the process of creating an expense receipt by using the Acumatica mobile app. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
@@ -472,7 +476,7 @@
 
  The following activity will walk you through the process of approving expense receipts. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -704,7 +708,7 @@
 
 - In the **Ref. Nbr.** box, you enter the reference number that usually matches the number of the original     receipt. 
 
-- In the **Project/Contract** , **Project Task** , and **Cost Code** box, you enter the contract, or the project budget     key, if the incurred expenses are related to a particular project or contract. 
+- In the **Project/Contract** , **Project Task** , and **Cost Code** boxes, you enter the contract, or the project budget     key, if the incurred expenses are related to a particular project or contract. 
 
 #### Claiming of Expense Receipts Paid with Corporate Cards 
 
@@ -808,7 +812,7 @@
 <!-- PAGE_BREAK -->
  Processing Expense Receipts with Corporate Cards | 22 
 
- Jon Waite, a SweetLife employee, worked in the customer's restaurant installing a juicer on January 29, 2025, and realized that there was not enough electric cable. Jon went to a construction store and bought 20 meters of electric cable for $27, which he paid for with a company corporate card. He also bought a cup of coffee in a cafe near the store and paid $6 for it by using the same corporate credit card. Then Jon took a taxi, for which he paid $10 in cash, to return to SweetLife. The next day, January 30, another SweetLife employee, Alberto Jimenez, went to a meeting with the customer to discuss the project. He took a taxi and paid $25 by using a corporate card. 
+ Jon Waite, a SweetLife employee, worked in the customer's restaurant installing a juicer on January 29, 2026, and realized that there was not enough electric cable. Jon went to a construction store and bought 20 meters of electric cable for $27, which he paid for with a company corporate card. He also bought a cup of coffee in a cafe near the store and paid $6 for it by using the same corporate credit card. Then Jon took a taxi, for which he paid $10 in cash, to return to SweetLife. The next day, January 30, another SweetLife employee, Alberto Jimenez, went to a meeting with the customer to discuss the project. He took a taxi and paid $25 by using a corporate card. 
 
  Acting as Jon Waite, you will enter all related expenses into the system and file a claim for the reimbursement of expenses. 
 
@@ -836,7 +840,7 @@
 
 2. Launch the Acumatica ERP website, and sign in as Jon Waite by using the _waite_ username and the _123_     password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/29/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/29/2025_ from the calendar. For simplicity, in this activity, you will create and process all     documents in the system during this business date. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/29/2026_. If a different date is displayed, click the Business Date menu     button, and select _1/29/2026_ from the calendar. For simplicity, in this activity, you will create and process all     documents in the system during this business date. 
 
 #### Step 1: Creating the First Expense Receipt 
 
@@ -848,7 +852,7 @@
 
 3. In the Summary area, select _CABLE_ in the **Expense Item** box. 
 
-4. Make sure that the expense date is _1/29/2025_ and _EP00000003 - Jon Waite_ is selected in the **Claimed by** box. 
+4. Make sure that the expense date is _1/29/2026_ and _EP00000003 - Jon Waite_ is selected in the **Claimed by** box. 
 
 5. On the **Details** tab, specify the following settings: 
 
@@ -870,7 +874,9 @@
 
 - **Corporate Card** : _000001 - USD Corporate Card_ (inserted automatically) 
 
-6. Save the receipt, and notice that it has the _Open_ status. 
+6. Save the receipt. 
+
+7. On the form toolbar, click **Submit**. Notice that the receipt has the _Open_ status. 
 
 #### Step 2: Processing an Expense Claim for the Expense Receipt 
 
@@ -878,9 +884,9 @@
 
 1. While you are still viewing the expense receipt on the _Expense Receipt_ (EP301020) form, on the form toolbar,     click **Claim**.     The _Expense Claim_ (EP301000) form opens. On the **Details** tab, notice the line for the electric cable. 
 
-2. On the table toolbar of the **Details** tab, click **Add Row** , and specify the following settings in the new row (see     the screenshot below): 
+2. On the table toolbar of the **Details** tab, click **Add Row** , and specify the following settings in the new row (see     below): 
 
-- **Date** : _1/29/2025_ 
+- **Date** : _1/29/2026_ 
 
 - **Expense Item** : _MEAL_ 
 
@@ -896,7 +902,7 @@
 
 3. Click **Add Row** , and specify the following settings in the new row: 
 
-- **Date** : _1/29/2025_ 
+- **Date** : _1/29/2026_ 
 
 - **Expense Item** : _TAXI_ 
 
@@ -924,15 +930,25 @@
 
 5. Save the expense claim. 
 
-6. On the form toolbar, click **Submit**.     The system assigns the _Approved_ status to the claim. 
+6. In the **Receipt Number** column on the **Details** tab, click the link to the expense receipt that has the _MEAL_     expense item. 
 
-7. On the form toolbar, click **Release**.     The system assigns the _Released_ status to the claim.     In the **Link to AP** table on the **Financial** tab, review the documents that the system has generated for the     claim: a $27 cash purchase for the cable, a $6 debit adjustment for the coffee, and a $10 bill for the taxi. 
+7. On the _Expense Receipt_ form, which opens, click **Submit** on the form toolbar. 
+
+8. Click Back in the browser tab to return to the _Expense Claim_ form with the claim open. 
+
+9. In the **Receipt Number** column on the **Details** tab, click the link to the expense receipt that has the _TAXI_     expense item. 10.On the _Expense Receipt_ form, which opens, click **Submit** on the form toolbar. 11.Click Back in the browser tab to return to the _Expense Claim_ form with the claim open. 12.On the form toolbar, click **Submit**.     The system assigns the _Approved_ status to the claim. 13.On the form toolbar, click **Release**.     The system assigns the _Released_ status to the claim.     In the **Link to AP** table on the **Financial** tab, review the documents that the system has generated for the     claim: 
+
+- A $27 cash purchase for the cable 
+
+- A $6 debit adjustment for the coffee 
+
+- A $10 bill for the taxi 
 
 #### Step 3: Creating the Second Expense Receipt 
 
  To create an expense receipt to enter the amount spent on the taxi by Alberto Jimenez, do the following: 
 
-1. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2025_. 
+1. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2026_. 
 
 2. Open the _Expense Receipts_ (EP301010) form, and on the form toolbar, click **Add New Record**.     The system opens the _Expense Receipt_ (EP301020) form. 
 
@@ -943,6 +959,10 @@
 - **Claimed by** : _EP00000004 - Alberto Jimenez_ 
 
 4. On the **Details** tab, specify the following settings: 
+
+
+<!-- PAGE_BREAK -->
+ Processing Expense Receipts with Corporate Cards | 25 
 
 - **Description** : Taxi to the customer's site 
 
@@ -966,10 +986,6 @@
 
 - The line with the _TAXI_ item has an actual amount of _10.00_ 
 
-
-<!-- PAGE_BREAK -->
- Processing Expense Receipts with Corporate Cards | 25 
-
  You have recorded corporate card expenses to the project budget. 
 
 ### Expense Receipts with Corporate Cards: Generated Transactions 
@@ -991,6 +1007,10 @@
  You can view the details of the batch associated with the release of a cash purchase by clicking the link in the Batch Nbr. box on the Financial tab ( GL Link section) of the Cash Purchases (AP304000) form. The system opens the batch on the Journal Transactions (GL301000) form. 
 
  If a cash purchase line is related to a project, on release of the cash purchase, the system generates a batch of the general ledger transactions shown in the table below. 
+
+
+<!-- PAGE_BREAK -->
+ Processing Expense Receipts with Corporate Cards | 26 
 
  Account Source of Account Project Budget Key 
 
@@ -1015,10 +1035,6 @@
  The expense account The inventory item Amount 0.00 
 
  The liability account The AP bill 0.00 Amount 
-
-
-<!-- PAGE_BREAK -->
- Processing Expense Receipts with Corporate Cards | 26 
 
  If an accounts payable bill line is related to a project, on release of the bill, the system generates a batch of the general ledger transactions shown in the table below. 
 
@@ -1046,6 +1062,12 @@
 
  Amount 0.00 
 
+
+<!-- PAGE_BREAK -->
+ Processing Expense Receipts with Corporate Cards | 27 
+
+ Account Source of Account Debit Credit 
+
  The liability account The cash account of the corporate card 
 
  0.00 Amount 
@@ -1070,10 +1092,6 @@
 
  You can view the details of the batch associated with the release of a debit adjustment by clicking the link in the Batch Nbr. box on the Financial tab ( Link to GL section) of the Bills and Adjustments (AP301000) form. The system opens the batch on the Journal Transactions (GL301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Processing Expense Receipts with Corporate Cards | 27 
-
 #### Project Transactions Generated on Release of the GL Batch 
 
  If a cash purchase line or bill line is related to a project, on release of this cash purchase or AP bill, in addition to the creation of a batch of general ledger transactions, the system also generates a batch of the project transactions shown in the following table. 
@@ -1094,6 +1112,10 @@
 
  You can maintain internal control over corporate credit cards by performing regular reconciliations of the cash account configured for corporate cards. Generally, the goal of reconciliation is to find discrepancies between account balances tracked by different means, locate any errors, and make needed corrections or adjustments. Reconciliation is usually done at the end of each period or more frequently. For more information on the reconciliation process, see Bank Reconciliation: General Information. 
 
+
+<!-- PAGE_BREAK -->
+ Processing Expense Receipts with Corporate Cards | 28 
+
 #### Learning Objectives 
 
  In this topic, you will learn how to do the following: 
@@ -1111,10 +1133,6 @@
 #### Processing of Imported Bank Transactions 
 
  On the Process Bank Transactions (CA306000) form, for the selected liability cash account configured for corporate cards, you match an uploaded bank statement record to an existing payment, AP bill, or expense receipt, as well as create a cash transaction if such a transaction has not been found in the system. For details about matching bank transactions, see Processing Imported Transactions. 
-
-
-<!-- PAGE_BREAK -->
- Processing Expense Receipts with Corporate Cards | 28 
 
  When you click Auto-Match on the form toolbar, the system uses the available information about imported transactions for calculating the relevance rate, which is a measure of how closely a document matches the selected transaction and for searching for matching documents with the following priority: 
 
@@ -1136,7 +1154,13 @@
 
 2. If multiple documents have the same highest match relevance, the system selects the first document it finds     by using the following priority: a payment, an AP document, and an expense receipt. 
 
-3. If no documents have a match relevance greater than 0.75, the best match is a document whose match     relevance is greater than or equal to 0.2.     For example, if the match relevance of one document is 0.25 and the match relevance of another document     is 0.5, the system selects the document with a match relevance of 0.5.     If more than one document satisfies this condition, the system selects the first document it finds by using     the following priority: a payment, an AP document, and an expense receipt. 
+3. If no documents have a match relevance greater than 0.75, the best match is a document whose match     relevance is greater than or equal to 0.2. 
+
+
+<!-- PAGE_BREAK -->
+ Processing Expense Receipts with Corporate Cards | 29 
+
+ For example, if the match relevance of one document is 0.25 and the match relevance of another document is 0.5, the system selects the document with a match relevance of 0.5. If more than one document satisfies this condition, the system selects the first document it finds by using the following priority: a payment, an AP document, and an expense receipt. 
 
 4. If only one document is found, it is the best match if its match relevance is greater than or equal to 0.2. 
 
@@ -1150,13 +1174,7 @@
 
 - If you match a bank transaction to an expense receipt in a different currency with an amount that is within     the amount difference threshold, release the corresponding claim, and the cash transaction is posted, and     then you unmatch the bank transaction from the expense receipt, the cash transaction will not appear as a     candidate for matching because the amounts differ. 
 
-- If a cash transaction originates from an expense claim, the cash transaction date in the system is the     same as the expense claim date. There can be a significant delay between the date of the bank statement 
-
-
-<!-- PAGE_BREAK -->
- Processing Expense Receipts with Corporate Cards | 29 
-
- transaction and the date of the cash transaction in the system, which should be considered in the filter of dates in the Transaction Match Settings dialog box. 
+- If a cash transaction originates from an expense claim, the cash transaction date in the system is the     same as the expense claim date. There can be a significant delay between the date of the bank statement     transaction and the date of the cash transaction in the system, which should be considered in the filter of     dates in the **Transaction Match Settings** dialog box. 
 
 #### Calculation of the Relevance Rate for Expense Receipts 
 
@@ -1180,11 +1198,15 @@
 
  This activity will walk you through the process of reconciliation of a bank statement. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+
+<!-- PAGE_BREAK -->
+ Processing Expense Receipts with Corporate Cards | 30 
+
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that employees of the SweetLife Fruits & Jams company used a corporate card related to the New York Bank. At the end of January, 2025, the New York Bank sent a monthly statement. Acting as SweetLife's accountant, you will reconcile this statement and process a bill for the bank in the system. 
+ Suppose that employees of the SweetLife Fruits & Jams company used a corporate card related to the New York Bank. At the end of January, 2026, the New York Bank sent a monthly statement. Acting as SweetLife's accountant, you will reconcile this statement and process a bill for the bank in the system. 
 
 #### Configuration Overview 
 
@@ -1200,10 +1222,6 @@
 
 - On the _Entry Types_ (CA203000) form, the _BANKFEE_ and _INTEREST_ entry types have been created. 
 
-
-<!-- PAGE_BREAK -->
- Processing Expense Receipts with Corporate Cards | 30 
-
 #### Process Overview 
 
  To reconcile a bank statement, you will first import bank transactions on the Import Bank Transactions (CA306500) form. You will match the bank transactions with the transactions in the system on the Process Bank Transactions (CA306000) form. You then will reconcile the bank statement on the Reconciliation Statements (CA302000) form. Finally, you will create a bill to pay the outstanding balance to the bank on the Bills and Adjustments (AP301000) form. 
@@ -1218,7 +1236,7 @@
 
 3. Launch the Acumatica ERP website, and sign in as Pam Brawner by using the _brawner_ username and the _123_     password. 
 
-4. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/31/2025_ from the calendar. For simplicity, in this activity, you will create and process all     documents in the system during this business date. 
+4. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2026_. If a different date is displayed, click the Business Date menu     button, and select _1/31/2026_ from the calendar. For simplicity, in this activity, you will create and process all     documents in the system during this business date. 
 
 #### Step 1: Importing Bank Transactions 
 
@@ -1230,9 +1248,13 @@
 
 - **Cash Account** : _29000 - Corporate Credit Card_ 
 
-- **Start Balance Date** : _1/1/2025_ 
+- **Start Balance Date** : _1/1/2026_ 
 
-- **End Balance Date** : _1/31/2025_ Make sure that _1/31/2025_ is selected in the **Statement Date** box. 
+
+<!-- PAGE_BREAK -->
+ Processing Expense Receipts with Corporate Cards | 31 
+
+- **End Balance Date** : _1/31/2026_ Make sure that _1/31/2026_ is selected in the **Statement Date** box. 
 
 3. On the form toolbar, click **Load Records from File** ( ). 
 
@@ -1253,10 +1275,6 @@
 1. Open the _Process Bank Transactions_ (CA306000) form. 
 
 2. In the Summary area, select _29000 - Corporate Credit Card_ in the **Cash Account** box. 
-
-
-<!-- PAGE_BREAK -->
- Processing Expense Receipts with Corporate Cards | 31 
 
 3. On the form toolbar, click **Auto-Match**.     Notice that the system has found documents with transactions that match the bank statement transactions. 
 
@@ -1288,9 +1306,13 @@
 
 - In the **Vendor** box, select _NYBANK_. 
 
-- In the **Description** box, type _Bank account settlement_. Make sure that the bill date is _1/31/2025_. 
+- In the **Description** box, type _Bank account settlement_. Make sure that the bill date is _1/31/2026_. 
 
 3. On the **Details** tab, add a row with the following settings: 
+
+
+<!-- PAGE_BREAK -->
+ Processing Expense Receipts with Corporate Cards | 32 
 
 - **Branch** : _HEADOFFICE_ 
 
@@ -1307,10 +1329,6 @@
  In the following sections, you can find details about the reports and forms you may want to review to gather information about expense claims. 
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
-
-
-<!-- PAGE_BREAK -->
- Processing Expense Receipts with Corporate Cards | 32 
 
 #### Printing Expense Claims 
 
@@ -1334,7 +1352,13 @@
 
 #### Mass-Claiming Expense Receipts 
 
- Expense receipts can be mass-claimed. To claim multiple expense receipts at a time, you open the To Be Claimed tab of the Expense Receipts (EP301010) form, select the unlabeled check boxes in the rows of the expense receipts to be claimed, and click Claim on the form toolbar. The system creates expense claims for the selected expense receipts. 
+ Expense receipts can be mass-claimed. To claim multiple expense receipts at a time, you open the To Be Claimed tab of the Expense Receipts (EP301010) form, select the unlabeled check boxes in the rows of the expense receipts 
+
+
+<!-- PAGE_BREAK -->
+ Processing Expense Receipts with Corporate Cards | 33 
+
+ to be claimed, and click Claim on the form toolbar. The system creates expense claims for the selected expense receipts. 
 
  To create expense claims for all the expense receipts listed on this tab, you click Claim All on the form toolbar. 
 
@@ -1348,11 +1372,7 @@
 
  Customers can be mass-billed for claimed expenses. To create invoices for all the approved expense claims of particular customers at a time, you open the Bill Expense Claims (EP502000) form, select the unlabeled check boxes in the rows of the customers to be billed, and click Process on the form toolbar. The system releases the corresponding expense claims of the selected customers and creates invoices. 
 
-
-<!-- PAGE_BREAK -->
- Processing Expense Receipts with Corporate Cards | 33 
-
-To bill all the customers listed in the table on this form for claimed expenses, you click **Process All** on the form toolbar. The system releases the corresponding expense claims of all the customers listed in the table and creates invoices. 
+ To bill all the customers listed in the table on this form for claimed expenses, you click Process All on the form toolbar. The system releases the corresponding expense claims of all the customers listed in the table and creates invoices. 
 
 
 <!-- PAGE_BREAK -->
@@ -1478,7 +1498,7 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
  The following activity will walk you through the process of creating an expense claim. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1582,7 +1602,7 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
  The following activity will walk you through the process of mass-generating expense claims. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
@@ -1782,7 +1802,7 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
  The following activity will walk you through the process of approving expense claims. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1904,7 +1924,7 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
  The following activity will walk you through the process of releasing an expense claim. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2222,7 +2242,7 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
  This activity will walk you through the process of creating the necessary entities for the processing of expenses for construction projects with corporate credit cards. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2354,7 +2374,7 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
 #### Story 
 
- Suppose that the ToadGreen Building Group company is building a hotel for the Equity Group Investors customer. A ToadGreen project manager, Ellen Watson, has planned a business trip to the customer office, which is located in another state. On January 30, 2025, she bought airplane tickets for this visit, which was scheduled in mid-March. Then on February 20, 2025, the customer asked Ellen to cancel the visit, so she needs to return the tickets and return funds to the corporate card. 
+ Suppose that the ToadGreen Building Group company is building a hotel for the Equity Group Investors customer. A ToadGreen project manager, Ellen Watson, has planned a business trip to the customer office, which is located in another state. On January 30, 2026, she bought airplane tickets for this visit, which was scheduled in mid-March. Then on February 20, 2026, the customer asked Ellen to cancel the visit, so she needs to return the tickets and return funds to the corporate card. 
 
  Acting as this employee, you will process the needed documents in the system to enter the travel expenses related to a project and then record a return of expenses to corporate card. 
 
@@ -2382,13 +2402,13 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
 2. Launch the Acumatica ERP website, and sign in as Ellen Watson by using the _ewatson_ username and the _123_     password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu 
+3. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and 
 
 
 <!-- PAGE_BREAK -->
  Processing Expense Returns to Corporate Cards | 58 
 
- button and select 1/30/2025 on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date. 
+ select 1/30/2026 from the calendar. For simplicity, you'll create and process all documents in this activity using this business date. 
 
 #### Step 1: Processing Expenses 
 
@@ -2428,7 +2448,7 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
  To process a return of expenses paid with a corporate card, you will do the following: 
 
-1. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _2/20/2025_. 
+1. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _2/20/2026_. 
 
 2. On the _Expense Receipt_ (EP301020) form, click **Add New Record**. 
 
@@ -2512,7 +2532,7 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
  In Acumatica ERP, you can enter and track employee time spent on working activities by using the following functionality: 
 
-- Time activities: A time activity represents the amount of time an employee has spent on a specific task     or activity. Employees enter their time for these activities on the _Activity_ (CR306010) or _Email Activity_     (CR306015) form. These activities can be marked as billable and associated with projects or tasks, for     accurate cost tracking and billing management. For details, see _Employee Time Entry: Time Activities_. 
+- Time activities: A time activity represents the amount of time an employee has spent on a specific task or     activity. Employees enter their time for these activities on such forms as the _Activity_ (CR306010) or _Email_     _Activity_ (CR306015) form. These activities can be marked as billable and associated with projects or tasks, for     accurate cost tracking and billing management. For details, see _Employee Time Entry: Time Activities_. 
 
 - Time cards: A time card represents a weekly report of the time an employee spent on different activities.     Employees can enter, edit, and submit time cards on the _Employee Time Cards_ (EP305000) form. Time cards     assist with payroll calculations, billing, and project cost estimation. For details, see _Employee Time Entry:_     _Time Cards_.     Additionally, time cards can be used alongside time activities: When an employee reports time through time     activities, the data is automatically synchronized with their time card. 
 
@@ -2521,6 +2541,22 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
 <!-- PAGE_BREAK -->
  Entering Employee Time | 61 
+
+#### Employee Time Zone 
+
+ When an employee creates a time activity and enters the date and time, the system stores this information in UTC along with the employee's current time zone. On most forms where activities can be created, UI elements display the date and time in both of these: 
+
+- The time zone the system determines as your current one, whether you or another employee created the     activity. 
+
+- The original time zone—that is, the time zone in which the creator reported the time. The system     determined this time zone at the moment of creation. If you’re viewing the activity in the same time zone in which it was created, the system displays identical values for the date and time in the relevant UI elements. 
+
+ The time activity can be opened in time zones other than the one in which it was created. This situation may occur in the following cases: 
+
+- You’re the employee who created the activity. Now you’re on a business trip or you’ve relocated, so your     current time zone is different than the one in which you created the activity. 
+
+- You’re viewing another employee’s time activity for review, approval, or release—and this employee created     it in a different time zone. In these cases, the system displays the date and time in your current time zone. However, the original date, time, and time zone remain visible in the time activity for reference. 
+
+ For details, see Employee Time Entry: Time Zones in Time Activities. 
 
 ### Employee Time Entry: Earning Types 
 
@@ -2540,49 +2576,241 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
 ### Employee Time Entry: Time Activities 
 
- Acumatica ERP provides the ability to report the time employees spent on each activity. This functionality is available if the Time Management feature is enabled on the Enable/Disable Features (CS100000) form. 
-
-#### Entering Time Activities 
-
- You can enter the time an employee has spent on an activity if the Track Time and Costs check box is selected on either of the following forms: 
-
-- _Activity_ (CR306010): You start the creation of a time activity from the **Activities** tab of the data entry form     where you are viewing the applicable record. For example, you might do this while viewing a case on the     _Cases_ (CR306000) or a project on the _Projects_ (PM301000) form. On the table toolbar of the tab, you click     **Create Activity** and select the menu command for the type of activity you want to create. The system opens     the _Activity_ form so that you can create an activity of the selected type.     For the list of the forms with the **Activities** tab, see _Emails and Activities: Activities_. 
-
-- _Email Activity_ (CR306015): Here, too, you initiate the creation of a time activity from the **Activities** tab of the     data entry form where you are viewing the record for which you are entering time. On the table toolbar of     the tab, you click **Create Email**. This opens the _Email Activity_ form so that you can create a new email. With the **Track Time and Costs** check box selected, a group of elements appears on the _Activity_ or _Email Activity_ form, including the following: 
-
-- The **Time Spent** box: Specify the amount of time spent on the activity. 
-
-- The **Billable** check box: Select the check box to make the activity billable. 
-
-- The **Billable Time** box: Specify the amount of billable time spent on the activity. 
-
-- The **Earning Type** box: In this box, select the earning type of the activity. For more information, see the next     section. 
+ A time activity is a record that is created in Acumatica ERP to report time that you or another employee spent on a work activity. This functionality is available if the Time Management feature is enabled on the Enable/Disable Features (CS100000) form. 
 
 
 <!-- PAGE_BREAK -->
  Entering Employee Time | 62 
 
- If you want the Track Time and Costs check box to be selected by default for activities of particular types, you need to select the corresponding check boxes in the Track Time and Costs column on the Activity Types (CR102000) form. The default state of the check box can be overridden. 
+#### Creating Time Activities 
+
+ You can create a time activity in multiple ways: 
+
+- From the **Activities** tab on a data entry form, such as _Cases_ (CR306000) or _Projects_ (PM301000). To do this:     a. On the table toolbar, click **Create Email** ; alternatively, click **Create Activity** and select the menu        command that corresponds to the type of activity you want to create. The system opens the _Email Activity_        (CR306015) or _Activity_ (CR306010) form, depending on the button you clicked.     b. On the form that’s opened, select the **Track Time and Costs** check box. Now you can create a time        activity and fill in the additional UI elements on the form. 
+
+- From the **Details** tab of the _Employee Time Cards_ (EP305000) form. Click the **Create Activity** button to     create an activity of the selected type and report work time for this activity, as described above. 
+
+- From the **Labor Time and Activities** tab of the _Daily Field Report_ (PJ304000) form. Use this form to enter     time spent on a project for a specific day. 
+
+- From the **Log** tab of the _Appointments_ (FS300200) form to record the time spent on appointments. 
+
+- From the _Create Labor Time Activities_ (AM513000) form for the time spent on production and entered on the     _Labor_ (AM301000) form. 
+
+- From the **Summary** tab of the _Employee Time Cards_ (EP305000) form. Click the **Load from Time Log** button     on the table toolbar. The system creates time activities based on the time logs it has generated for time     employees have tracked for a project task by using the timer. For details, see _Employee Time Entry: Creation_     _of Time Activities from Project Time Logs_. 
+
+ The Load from Time Log button is available if: 
+
+- The form is in the Modern UI. 
+
+- The _Clock In and Clock Out_ feature in the _Experimental_ group of features is enabled on the     _Enable/Disable Features_ (CS100000) form. 
+
+- The **Time Log** tab has at least one time log entry. 
+
+- The time card has the _Open_ status. 
+
+- On the **Details** tab of the _Employee Time Activities_ form, by clicking **Add Row** on the table toolbar. 
+
+- Via the time entry API. When you release a time activity related to a project, the system may create a transaction to update the project cost budget, depending on the option selected in the **Posting Option for Non-Payroll Employees** box of the _Time and Expenses Preferences_ (EP101000). If the _Payroll_ feature is enabled on the _Enable/Disable Features_ (CS100000) form, you can select the time posting option on the _Payroll Preferences_ (PR101000) form. 
 
 #### Approving Time Activities 
 
  If an activity is associated with a project that requires approval—either at the project level or at the project task level—a billable time activity must be approved before it can be released for billing. You can approve the time activity if you are the project task approver or the time activity approver. 
 
- To approve time activities, you use the Approve Time Activities (EP507010) form if the Project Accounting feature is enabled on the Enable/Disable Features (CS100000) form. If time cards are used, you can approve time activities in groups by approving the time card summaries on the Approve Time Activity Summaries (EP507030) form. 
+ To approve time activities, you use the Approve Time Activities (EP507010) form if the Project feature is enabled on the Enable/Disable Features (CS100000) form. If time cards are used, you can approve time activities in groups by approving the time card summaries on the Approve Time Activity Summaries (EP507030) form. 
 
  Once activities have been released, the system tracks the costs related to specific customers, cases, contracts, or projects. It also generates the corresponding project transactions or customer invoices. 
+
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 63 
+
+### Employee Time Entry: Creation of Time Activities from Project Time Logs 
+
+ If you work on a project task and track time by using the timer on the Project Tasks (PM302000) form, the system records a time log every time you stop the timer. 
+
+ The full functionality is available only in the Modern UI if: 
+
+- The new _Clock In and Clock Out_ feature in the _Experimental_ group of features is enabled on the     _Enable/Disable Features_ (CS100000) form. 
+
+- On the _Users_ (SM201010) form, your user account is linked to an employee record. 
+
+ You can review and update the logged time on the Time Log tab of the Employee Time Cards (EP305000) form and then create time activities based on the time logs, as described below. 
+
+ You can save the time card if the Time Log tab has at least one time log. 
+
+#### Updating the Time Log 
+
+ For each time log entry on the Employee Time Cards (EP305000) form for which no time activity has been created yet, you can change: 
+
+- The time type 
+
+ A time type must be specified in the time log for the system to create a time activity for it. 
+
+- The logged hours 
+
+- Entry descriptions 
+
+- Start and end times You cannot change: 
+
+- The linked project and project task 
+
+- The time zone where the time entry was recorded If a time activity created based on the time log entry already exists, you must delete it before you make changes to the time log entry. 
+
+#### Creating Time Activities 
+
+ Once you have reviewed an employee’s time logs, you can create time activities based on the time log entries, as follows: 
+
+1. Open the _Employee Time Cards_ (EP305000) form. 
+
+2. Go to the **Summary** tab. 
+
+3. On the table toolbar, click **Load from Time Log** button. The system creates time activities based on the time     logs. 
+
+ When you create time activities from time logs, the system fills in the following columns on the Summary tab of the Employee Time Cards form based on each time log: 
+
+- **Project** 
+
+- **Project Task** 
+
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 64 
+
+- **Cost Code** If the system has le these columns empty, you need to populate them manually to be able to save the time card. The columns could be le empty in either or both of the following cases: 
+
+- Access to the project is restricted for employees, and the employee who ran the timer hasn't been added to     the **Employees** tab of the _Projects_ (PM301000) form. 
+
+- Time tracking is turned off for the project or project task—that is, the **Time Entries** check box is cleared on     the **Summary** tab of the _Projects_ or _Project Tasks_ (PM302000) form. To confirm that a time activity is linked to a time log, you can review the **Time Log** check box on the **Details** tab of the _Employee Time Cards_ form. If it's selected, then the time activity has a link to the time log. A single time log can be linked to multiple time activities, but a time activity can be linked to only one time log. 
+
+### Employee Time Entry: Time Zones in Time Activities 
+
+ A time zone reflects the local time for a specific geographic area. In Acumatica ERP, the system determines your current time zone and uses this time zone to display the date and time in a time activity you’re viewing. This is true of time activities created on the following forms: 
+
+- _Employee Time Cards_ (EP305000) 
+
+- _Employee Time Activities_ (EP307000) 
+
+- _Activity_ (CR306010) 
+
+- _Email Activity_ (CR306015) 
+
+- _Daily Field Report_ (PJ304000) 
+
+- _Weekly Crew Time Entry_ (EP307100) 
+
+- _Appointments_ (FS300200) 
+
+- _Create Labor Time Activities_ (AM513000) 
+
+#### Determination of the Time Zone 
+
+ When you're viewing a time activity—whether it's one you're creating, one you've created in the past, or one created by another employee—the system fills the Date and Time UI elements by using your current time zone. To determine your current time zone, it checks the following forms and applies the first one it finds: 
+
+1. _User Profile_ (SM203010): The time zone you’ve specified for your user account. 
+
+ You can enter or change this time zone at any time. 
+
+2. _Work Calendar_ (SC209000): The time zone of the calendar specified for your employee account, if one has     been associated with your user account. 
+
+3. _Site Preferences_ (SM200505) form: The system-wide default time zone that has been set by a system     administrator. 
+
+ If no time zone is found, the system uses UTC+0. 
+
+ UTC (which means Universal Time Coordinated , also referred to as Coordinated Universal Time ) is a precise global time standard used as a point of reference for time zones. UTC represents the current time without regard to daylight saving time or geographic location, ensuring consistency across time zones. Every time zone is defined by its difference from UTC, which is known as its UTC offset. 
+
+ If you're creating the activity, the system determines the time zone by using this algorithm. Then it saves the time zone it has selected and stores the date and time in UTC. 
+
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 65 
+
+#### Time-Related Data 
+
+ While viewing a time activity on most forms, you’ll see the date and time in both your current time zone and the zone where the activity was entered. The system displays the following columns: 
+
+- **Date** and **Time** : The values in your current time zone. If your time zone changes, these values will reflect the     current time zone. 
+
+- **Reported On** and **Reported At** : The date and time in the original time zone, as recorded when the time     activity was created. 
+
+- **Reported in Time Zone** : The time zone used at the time of entry. 
+
+ These columns are read-only and hidden by default. You can make them visible by using the Column Configuration dialog box. 
+
+ You can view these columns on the following forms: 
+
+- _Employee Time Cards_ (EP305000): **Details** tab 
+
+- _Employee Time Activities_ (EP307000): **Details** tab 
+
+- _Daily Field Report_ (PJ304000): **Labor Time and Activities** tab 
+
+- _Weekly Crew Time Entry_ (EP307100): **Time Activities** tab 
+
+- _Approve Time Activities_ (EP507010): **Details** tab 
+
+- _Release Time Activities_ (EP507020): **Details** tab When you review time activities on the _Employee Time Cards_ , _Employee Time Activities_ , and _Weekly Crew Time Entry_ forms, the system shows the particular time activities if their **Reported On** date falls within the specified week or week range. 
+
+#### Example: Time Zone Changes in Action 
+
+ Suppose that you’ve specified the GMT+1 (Belgrade) time zone for your user account on the User Profile (SM203010) form. 
+
+ When you create a time activity on the Employee Time Activities (EP307000) form: 
+
+- The **Date** and **Time** columns display the date and time in your user account's time zone _(GMT+1)_. 
+
+- The **Reported On** date and **Reported At** time match the **Date** and **Time** (as shown below) because you’re     viewing the activity in the same time zone it was reported in. 
+
+- The **Reported in Time Zone** column confirms that the system has correctly saved your time zone as _(GMT_     _+1)_. 
+
+ Figure: The date and time in the original time zone 
+
+ Later, while traveling for business, you manually change your time zone on the User Profile form to GMT-8 (Pacific Time US & Canada). When you open the same time activity again, the system displays (as shown below): 
+
+- **Date** and **Time** in your current time zone _(GMT-8)_ 
+
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 66 
+
+- The **Reported On** date and **Reported At** time in the original time zone _(GMT+1)_ 
+
+ Figure: The date and time in the current and original time zones 
+
+ This ensures that your reported time always reflects the correct date and time, even if you are in a different time zone. 
+
+#### Changes to Reported Data 
+
+ In some cases, you may need to update the values in either the Reported On or Reported At columns of a time activity (or both of them)—for example, to ensure that the correct date is reflected in a project transaction. To do this, update the Date and Time columns of the time activity. 
+
+ If your current time zone differs from the original time zone, when you update Date and Time , the system also updates the value in the Reported in Time Zone column based on your current time zone. 
+
+ Consider this example: A time activity was originally reported with the D1 date and the T1 time in the TZ1 time zone. If you edit the date and time while working in the TZ2 time zone, the system updates the values as follows: 
+
+- **Date** : D2 
+
+- **Time** : T2 
+
+- **Reported On** : D2 
+
+- **Reported At** : T2 
+
+- **Reported in Time Zone** : TZ2 
 
 ### Employee Time Entry: To Create a Time Activity 
 
  The following activity will walk you through the process of creating a time activity. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that David Chubb, an employee of the sales department at the SweetLife Fruits & Jams company, prepared an email about the purchase of new juicers for the Blue Cafe customer. This took about 20 minutes, and David needs to record this time in the system and then complete the time activity. 
 
  Acting as David Chubb, you will create an email, record the time spent on it, and complete the created time activity. 
+
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 67 
 
 #### Configuration Overview 
 
@@ -2601,10 +2829,6 @@ To bill all the customers listed in the table on this form for claimed expenses,
  To sign in to the system and prepare to perform the instructions of the activity, do the following: 
 
 - Launch the Acumatica ERP website, and sign in as David Chubb by using the _chubb_ username and the _123_     password. 
-
-
-<!-- PAGE_BREAK -->
- Entering Employee Time | 63 
 
 - In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to today’s date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
 
@@ -2630,6 +2854,10 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
 6. On the form toolbar, click **Save**. 
 
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 68 
+
 #### Step 2: Entering a Time Activity 
 
  To record the time David Chubb spent preparing the email for Blue Cafe, do the following: 
@@ -2654,33 +2882,35 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
 2. Clear the **Hold** check box for the row with the time activity.     The system takes the time activity off hold and changes its status to _Completed_. 
 
-
-<!-- PAGE_BREAK -->
- Entering Employee Time | 64 
-
 3. On the form toolbar, click **Save**. 
 
  You have created the time activity and completed it. 
 
 ### Employee Time Entry: Time Cards 
 
- Acumatica ERP provides time card functionality to assists you with efficient billing, payroll calculation, and project cost estimation. 
+ Acumatica ERP provides time card functionality to assist you with efficient billing, payroll calculation, and project cost estimation. 
+
+ The time card functionality is available if the Advanced Financials feature is enabled on the Enable/ Disable Features (CS100000) form. 
 
 #### Creating Time Cards 
 
- In Acumatica ERP, a time card is a weekly report on the time an employee has spent on each activity. You can create and work with time cards on the Employee Time Cards (EP305000) form if the Advanced Financials check box is selected on the Enable/Disable Features (CS100000) form. 
+ In Acumatica ERP, a time card is a weekly report on the time an employee has spent on each activity. You can create time cards on the Employee Time Cards (EP305000) form: 
 
- If time cards are mandatory in your company, you can make them required on a per-employee basis by selecting the Time Card is Required check box on the Employees (EP203000) form. 
+- Manually, by entering all their settings. 
 
- When preparing a time card, you report working time by adding separate rows on the Summary tab of the Employee Time Cards form for the following activities: 
+- By clicking the **Preload from Previous Time Card** button on the **Summary** tab. The system copies all rows     from the most recently submitted time card for the selected employee prior to the selected week, excluding     rows with earning types used for holidays or vacations. You can create a time card for any week in the past or future, as long as no time card already exists for the selected employee for that week. By default, when you create a new time card, the system inserts the current week number in the **Week** box if the selected employee has no time card for this week. If a time card for the current week already exists, the system inserts the number of the next available week, based on the most recent existing time card. 
+
+ When preparing a time card, you report working time by adding rows on the Summary tab of the Employee Time Cards form. You must add a separate row for each of the following cases: 
+
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 69 
 
 - Activities associated with different projects or project tasks 
 
 - Activities related to different earning types 
 
-- Billable and non-billable activities Time cards are always generated successively, which means that you cannot generate a successive time card for a particular week if no time card has been generated for the preceding week. If there is a gap in time card generation for an employee and you need to resume generation without creating entries for the missed period, you can generate multiple empty time cards for the intervening interval. You do this by selecting your employee identifier on the _Employees_ form and clicking **Generate Time Cards** on the More menu. 
-
- Aer you have created a time card, you can review it, along with other time cards, on the Employee Time Cards form if the username you are signed in with is associated with the employee selected on the form. That is, the username must be specified in the Employee Login box on the General tab of the Employees form for this employee. This form lists the following time cards: 
+- Billable and non-billable activities Aer you have created a time card, you can review it, along with other time cards, on the _Employee Time Cards_ form if the username you are signed in with is associated with the employee selected on the form. That is, the username must be specified in the **Employee Login** box on the **General** tab of the _Employees_ form for this employee. This form lists the following time cards: 
 
 - Yours 
 
@@ -2691,6 +2921,8 @@ To bill all the customers listed in the table on this form for claimed expenses,
  For more information about the company tree, see Company Tree and Workgroups. 
 
  If you create a time card for an employee other than the one associated with your signed-in username, that employee must also have a username specified in the Employee Login box on the General tab of the Employees form. 
+
+ If time cards are mandatory in your company, you can make them required on a per-employee basis by selecting the Time Card is Required check box on the Employees (EP203000) form. 
 
 #### Viewing the Statuses of Time Cards 
 
@@ -2703,10 +2935,6 @@ To bill all the customers listed in the table on this form for claimed expenses,
 - _Approved_ : The time card has been approved. 
 
 - _Rejected_ : The time card has been rejected. 
-
-
-<!-- PAGE_BREAK -->
- Entering Employee Time | 65 
 
 - _Released_ : The time card has been released. If any of the activities from the time card is associated with a     specific project, at least one project transaction has been generated; for more information, see _Employee_     _Time Billing: General Information_. If any of the activities is associated with contracts (through cases), the     contract usage data has been updated; for more information, see _Contract Usage: Contract Usage._ 
 
@@ -2724,13 +2952,17 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
 - Those assigned to the members of the workgroups at lower levels in the company tree than your workgroup 
 
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 70 
+
  If the Time Management feature is enabled on the Enable/Disable Features (CS100000) form, you cannot approve or release a time card unless all the activities included in the time card have been approved (if required). For more information, see Employee Time Entry: Time Activities. 
 
 #### Using Corrective Time Cards 
 
  If a released time card does not reflect the actual time that you have spent (or another employee has spent) on work activities during the week, you can create a corrective time card. To do this, open the released time card on the Employee Time Cards (EP305000) form and click Correct on the More menu. 
 
- As a result, the system creates a new time card with Correction in the Type box and with the original time card’s reference number in the Orig. Reg. Nbr. box. The data from the original time card is copied to this new time card. On the Summary tab, you can adjust the data of the corrective time card as needed before submitting it for approval (if required). Aer that, the original time card is no longer listed on the Employee Time Cards (EP406000) inquiry form because it has been replaced by the corrective time card. 
+ As a result, the system creates a new time card with Correction in the Type box and with the original time card’s reference number in the Orig. Reg. Nbr. box. The data from the original time card, including the original time zone in which the time card was created, is copied to this new time card. On the Summary tab, you can adjust the data of the corrective time card as needed before submitting it for approval (if required). Aer that, the original time card is no longer listed on the Employee Time Cards (EP406000) inquiry form because it has been replaced by the corrective time card. 
 
  When a corrective time card is released, new transactions are generated for only the difference in the reported hours on this card as compared to the original time card. 
 
@@ -2744,23 +2976,23 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
  A time card can be approved only if all the activities associated with the time card have been approved. When the time card is released, the associated activities are released automatically. An activity cannot be released on its own if it is associated with a time card. 
 
- The system may create a project transaction during time card release if any of the activities included in the time card is associated with a project. (Alternatively, the same project transaction may be generated if the activity is 
-
-
-<!-- PAGE_BREAK -->
- Entering Employee Time | 66 
-
- associated with a billable case that is billed directly to the customer before the time card is released. For details about direct case billing, see Managing Cases .) These transactions can be used for tracking the project costs. 
+ The system may create a project transaction during time card release if any activity included in the time card is associated with a project. (Alternatively, the same project transaction may be generated if the activity is associated with a billable case that is billed directly to the customer before the time card is released. For details about direct case billing, see Managing Cases .) These transactions can be used for tracking the project costs. 
 
 ### Employee Time Entry: To Create a Time Card 
 
  The following activity will walk you through the process of creating a time card. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that Bill Owen, an employee of the marketing department at the SweetLife Fruits & Jams company, attended a marketing conference. The conference lasted 16 hours (8 hours on Monday, January 27, 2025, and 8 hours on Tuesday, January 28). Aer the conference, Bill participated in a three-day training on new marketing approaches in purchasing. The training lasted 4 hours per day from January 29 to January 31, for a total of 12 training hours. 
+ Suppose that Bill Owen, an employee of the marketing department at the SweetLife Fruits & Jams company, attended a marketing conference. The conference lasted 16 hours (8 hours on Monday, January 27, 2026, and 8 hours on Tuesday, January 28). Aer the conference, Bill participated in a three-day training on new marketing 
+
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 71 
+
+ approaches in purchasing. The training lasted 4 hours per day from January 29 to January 31, for a total of 12 training hours. 
 
  Acting as Bill Owen, you will create a time card to log the work time for both the conference and the training. 
 
@@ -2790,10 +3022,6 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
  To enter Bill Owen's working hours for the conference and the training by creating an employee time card, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Entering Employee Time | 67 
-
 1. On the form toolbar of the _Employee Time Cards_ (EP406000) form, click **Add New Timecard** to create a new     time card. The system opens the _Employee Time Cards_ (EP305000) form with the new time card created for     the employee who is currently signed in (Bill Owen). 
 
 2. In the Summary area, specify the current week in the **Week** box. This is the work week when Bill attended     the conference and the training. 
@@ -2821,6 +3049,10 @@ To bill all the customers listed in the table on this form for claimed expenses,
 - **Billable** : Cleared 
 
 - **Description** : Attending the conference and the training 
+
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 72 
 
 - **Approval Status** : _Not Required_ (inserted automatically) 
 
@@ -2850,10 +3082,6 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
 - It is assigned to the members of the workgroups at lower levels in the company tree than your workgroup You can also mass-approve the following time cards on the _Approvals_ (EP503010) form: 
 
-
-<!-- PAGE_BREAK -->
- Entering Employee Time | 68 
-
 - Those assigned to you 
 
 - Those assigned to other members in your workgroup 
@@ -2868,11 +3096,15 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
  Once a time card is approved, it is assigned the Approved status and can be released. 
 
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 73 
+
 ### Employee Time Entry: To Approve a Time Card 
 
  The following activity will walk you through the process of approving a time card. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2894,10 +3126,6 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
 - On the _Time and Expenses Preferences_ (EP101000) form, the _Employee Time Cards_ approval map has been     selected in the **Time Card Approval Map** box. 
 
-
-<!-- PAGE_BREAK -->
- Entering Employee Time | 69 
-
 #### Process Overview 
 
  You will create a time card for David Chubb on the Employee Time Cards (EP406000) form. Then you will approve the time card on the Approvals (EP503010) form. 
@@ -2913,6 +3141,10 @@ To bill all the customers listed in the table on this form for claimed expenses,
 #### Step 1: Creating a Time Card 
 
  To enter David Chubb's working hours, do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 74 
 
 1. On the form toolbar of the _Employee Time Cards_ (EP406000) form, click **Add New Timecard** to create a new     time card. The system opens the _Employee Time Cards_ (EP305000) form with the new time card created for     the employee who is currently signed in (David Chubb). 
 
@@ -2958,10 +3190,6 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
 2. Open the _Approvals_ (EP503010) form. 
 
-
-<!-- PAGE_BREAK -->
- Entering Employee Time | 70 
-
 3. On the **My Approvals** tab, review David Chubb's time card, which you have created in Step 1, and select the     unlabeled check box for the row. 
 
 4. On the form toolbar, click **Approve**. 
@@ -2975,6 +3203,10 @@ To bill all the customers listed in the table on this form for claimed expenses,
 ### Employee Time Entry: Crew Time 
 
  In Acumatica ERP, if the Time Management feature is enabled on the Enable/Disable Features (CS100000) form, any group of employees (which can be referred to as a crew ) can be defined as a workgroup and used for group entry, approval, and release of time activities. 
+
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 75 
 
 #### Managing Crews 
 
@@ -2996,10 +3228,6 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
  On the Crew Members tab of the Weekly Crew Time Entry form, you can review the reported work hours of the crew members, including ad hoc members, broken down by the days of the week. The Workgroup Members counter shows the total number of the crew members, including ad hoc members. The Members with Activities counter shows the total number of crew members who have time activities reported for the selected week. 
 
-
-<!-- PAGE_BREAK -->
- Entering Employee Time | 71 
-
 #### Processing Crew Time Activities 
 
  Aer time activities have been mass-created for crew members, they can be processed as other time activities are. 
@@ -3014,7 +3242,11 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
  The following activity will walk you through the process of creating a crew time activity. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 76 
+
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3042,10 +3274,6 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
  To enter group time activities for members of the Product Sales workgroup, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Entering Employee Time | 72 
-
 1. On the _Weekly Crew Time Entry_ (EP307100) form, add a new record. 
 
 2. In the Summary area, specify the following settings: 
@@ -3065,6 +3293,12 @@ To bill all the customers listed in the table on this form for claimed expenses,
  02/17/2025 08:00 Preparing a juicer presentation for customers 
 
  Cleared 
+
+
+<!-- PAGE_BREAK -->
+ Entering Employee Time | 77 
+
+ Date Time Spent Summary Billable 
 
  02/18/2025 08:00 Preparing a juicer presentation for customers 
 
@@ -3086,17 +3320,13 @@ To bill all the customers listed in the table on this form for claimed expenses,
 
 1. On the _Release Time Activities_ (EP507020) form, click the header of the **Workgroup** column of the table and     add a filter for the _Product Sales_ workgroup. Six time activities should be shown in the table. 
 
-
-<!-- PAGE_BREAK -->
- Entering Employee Time | 73 
-
 2. On the form toolbar, click **Release All**. The system releases the time activities. 
 
-You have created and released the time activities for the crew. 
+ You have created and released the time activities for the crew. 
 
 
 <!-- PAGE_BREAK -->
- Creating Shi Codes | 74 
+ Creating Shi Codes | 78 
 
 ## Creating Shi Codes 
 
@@ -3138,7 +3368,7 @@ You have created and released the time activities for the crew.
 
 
 <!-- PAGE_BREAK -->
- Creating Shi Codes | 75 
+ Creating Shi Codes | 79 
 
 - In the **Wage Amount** column, specify the amount to be added to the pay rate used for earning entries in     payroll documents 
 
@@ -3184,11 +3414,9 @@ You have created and released the time activities for the crew.
 
 
 <!-- PAGE_BREAK -->
- Creating Shi Codes | 76 
+ Creating Shi Codes | 80 
 
 - Password: _123_ As a prerequisite activity, in the company to which you are signed in, be sure you have completed the _Time Tracking: Implementation Activity_. 
-
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
 
 #### Step 1: Enabling the Shi Differential Feature 
 
@@ -3244,7 +3472,7 @@ You have created and released the time activities for the crew.
 
 
 <!-- PAGE_BREAK -->
- Appendix | 77 
+ Appendix | 81 
 
 ## Appendix 
 
@@ -3284,37 +3512,105 @@ You have created and released the time activities for the crew.
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 78 
+ Appendix | 82 
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 83 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 84 
 
 #### Report Toolbar 
 
@@ -3323,12 +3619,6 @@ You have created and released the time activities for the crew.
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 79 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -3354,25 +3644,77 @@ You have created and released the time activities for the crew.
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 80 
+ Appendix | 85 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 86 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -3390,91 +3732,45 @@ You have created and released the time activities for the crew.
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 81 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 82 
+ Appendix | 87 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -3493,6 +3789,12 @@ You have created and released the time activities for the crew.
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 88 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -3516,10 +3818,6 @@ You have created and released the time activities for the crew.
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 83 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -3534,13 +3832,19 @@ You have created and released the time activities for the crew.
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 89 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -3558,10 +3862,6 @@ You have created and released the time activities for the crew.
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 84 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -3576,6 +3876,10 @@ You have created and released the time activities for the crew.
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 90 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -3584,11 +3888,7 @@ You have created and released the time activities for the crew.
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 85 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -3614,6 +3914,12 @@ You have created and released the time activities for the crew.
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 91 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -3621,12 +3927,6 @@ You have created and released the time activities for the crew.
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 86 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -3654,19 +3954,19 @@ You have created and released the time activities for the crew.
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 92 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 87 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -3676,13 +3976,15 @@ You have created and released the time activities for the crew.
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 93 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -3693,10 +3995,6 @@ You have created and released the time activities for the crew.
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 88 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -3710,6 +4008,10 @@ You have created and released the time activities for the crew.
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 94 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -3720,11 +4022,11 @@ You have created and released the time activities for the crew.
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 89 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 95 
 
 #### Unavailable Commands on the More Menu 
 
@@ -3736,17 +4038,13 @@ You have created and released the time activities for the crew.
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 90 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 91 
+ Appendix | 96 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -3758,7 +4056,11 @@ You have created and released the time activities for the crew.
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 97 
 
  Figure: Table toolbar 
 
@@ -3778,17 +4080,17 @@ You have created and released the time activities for the crew.
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 92 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 98 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -3818,13 +4120,13 @@ You have created and released the time activities for the crew.
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 93 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 99 
 
  Element Description 
 
@@ -3868,15 +4170,15 @@ You have created and released the time activities for the crew.
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 94 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 100 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

@@ -2,7 +2,7 @@
 
 # Workflow UI 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -30,13 +30,13 @@
 
  Workflow Creation: Configuration of States...................................................................................................13 
 
- Workflow Creation: To Add States.................................................................................................................. 14 
+ Workflow Creation: To Add States.................................................................................................................. 13 
 
  Configuring Workflow Elements.............................................................................................................17 
 
  Workflow Elements: General Information......................................................................................................17 
 
- Workflow Elements: To Modify Field Settings................................................................................................21 
+ Workflow Elements: To Modify Field Settings................................................................................................22 
 
  Workflow Elements: To Add a Dialog Box...................................................................................................... 23 
 
@@ -60,91 +60,91 @@
 
  Conditions and Transitions: General Information......................................................................................... 41 
 
- Conditions and Transitions: To Add Conditions............................................................................................ 46 
+ Conditions and Transitions: To Add Conditions............................................................................................ 45 
 
  Conditions and Transitions: To Add Transitions............................................................................................ 47 
 
- Testing the Customization..................................................................................................................... 52 
+ Testing the Customization..................................................................................................................... 51 
 
- Testing of the Customization Project: General Information..........................................................................52 
+ Testing of the Customization Project: General Information..........................................................................51 
 
- Testing of the Customization Project: To Test a Custom Workflow.............................................................. 52 
+ Testing of the Customization Project: To Test a Custom Workflow.............................................................. 51 
 
- Working with Inherited Workflows.........................................................................................................56 
+ Working with Inherited Workflows.........................................................................................................54 
 
- Inherited Workflows: General Information.....................................................................................................56 
+ Inherited Workflows: General Information.....................................................................................................54 
 
- Inherited Workflows: Planning the Customization of a Workflow................................................................ 57 
+ Inherited Workflows: Planning the Customization of a Workflow................................................................ 55 
 
- Inherited Workflows: To Create an Inherited Workflow................................................................................ 59 
+ Inherited Workflows: To Create an Inherited Workflow................................................................................ 57 
 
 
 <!-- PAGE_BREAK -->
  Contents | 3 
 
-**Customizing Workflows with the Diagram View...................................................................................... 62** 
+**Customizing Workflows with the Diagram View...................................................................................... 60** 
 
- Diagram View: General Information............................................................................................................... 62 
+ Diagram View: General Information............................................................................................................... 60 
 
- Diagram View: To Add a New State................................................................................................................ 63 
+ Diagram View: To Add a New State................................................................................................................ 61 
 
- Diagram View: To Add New Actions and Transitions..................................................................................... 64 
+ Diagram View: To Add New Actions and Transitions..................................................................................... 62 
 
- Diagram View: To Add the Auto-Run Action...................................................................................................66 
+ Diagram View: To Add the Auto-Run Action...................................................................................................64 
 
- Diagram View: To Specify Combo Box Values for States............................................................................... 69 
+ Diagram View: To Specify Combo Box Values for States............................................................................... 67 
 
- Diagram View: To Add Dialog Boxes............................................................................................................... 71 
+ Diagram View: To Add Dialog Boxes............................................................................................................... 69 
 
- Diagram View: To Modify the Added Actions................................................................................................. 74 
+ Diagram View: To Modify the Added Actions................................................................................................. 72 
 
- Diagram View: To Remove Unneeded Parts of the Workflow........................................................................77 
+ Diagram View: To Remove Unneeded Parts of the Workflow........................................................................75 
 
- Diagram View: To Adjust the System State.................................................................................................... 78 
+ Diagram View: To Adjust the System State.................................................................................................... 76 
 
- Diagram View: To Test the Inherited Workflow..............................................................................................79 
+ Diagram View: To Test the Inherited Workflow..............................................................................................77 
 
-**Using Composite States.........................................................................................................................81** 
+**Using Composite States.........................................................................................................................80** 
 
- Composite States: General Information......................................................................................................... 81 
+ Composite States: General Information......................................................................................................... 80 
 
  Composite States: To Modify a Workflow with a Composite State............................................................... 82 
 
-**Configuring Event Handlers...................................................................................................................88** 
+**Configuring Event Handlers...................................................................................................................87** 
 
- Event Handlers: General Information.............................................................................................................88 
+ Event Handlers: General Information.............................................................................................................87 
 
- Event Handlers: To Invoke Events Triggered by Field Changes.....................................................................90 
+ Event Handlers: To Invoke Events Triggered by Field Changes.....................................................................89 
 
-**Customizing Workflows with a Workflow-Identifying Field...................................................................... 93** 
+**Customizing Workflows with a Workflow-Identifying Field...................................................................... 92** 
 
- Workflow-Identifying Fields: General Information........................................................................................ 93 
+ Workflow-Identifying Fields: General Information........................................................................................ 92 
 
- Workflow-Identifying Fields: Planning Customization of a Workflow.......................................................... 94 
+ Workflow-Identifying Fields: Planning Customization of a Workflow.......................................................... 93 
 
  Workflow-Identifying Fields: To Create an Inherited Workflow.................................................................... 95 
 
- Workflow-Identifying Fields: To Add Conditions with User-Defined Fields.................................................. 97 
+ Workflow-Identifying Fields: To Add Conditions with User-Defined Fields.................................................. 96 
 
- Workflow-Identifying Fields: To Automate Transitions by Using Conditions (in the Tree View)................102 
+ Workflow-Identifying Fields: To Automate Transitions by Using Conditions (in the Tree View)................101 
 
- Workflow-Identifying Fields: To Automate Transitions by Using Conditions (in the Diagram View)......... 106 
+ Workflow-Identifying Fields: To Automate Transitions by Using Conditions (in the Diagram View)......... 105 
 
- Workflow-Identifying Fields: To Make System Actions Modify Custom Fields............................................110 
+ Workflow-Identifying Fields: To Make System Actions Modify Custom Fields............................................109 
 
- Workflow-Identifying Fields: To Test the Inherited Workflow with a Workflow-Identifying Field............. 112 
+ Workflow-Identifying Fields: To Test the Inherited Workflow with a Workflow-Identifying Field............. 111 
 
-**Using Workflow-Identifying Fields of the Second Level.......................................................................... 115** 
+**Using Workflow-Identifying Fields of the Second Level.......................................................................... 114** 
 
- Workflow-Identifying Fields of the Second Level: General Information.....................................................115 
+ Workflow-Identifying Fields of the Second Level: General Information.....................................................114 
 
- Workflow-Identifying Fields of the Second Level: Process Activity............................................................ 118 
+ Workflow-Identifying Fields of the Second Level: Process Activity............................................................ 117 
 
-**Upgrading Workflows..........................................................................................................................123** 
+**Upgrading Workflows..........................................................................................................................122** 
 
- Upgrade of Workflows: General Information............................................................................................... 123 
+ Upgrade of Workflows: General Information............................................................................................... 122 
 
- Upgrade of Workflows: To Upgrade a Customization Project That Contains an Inherited Workflow........124 
+ Upgrade of Workflows: To Upgrade a Customization Project That Contains an Inherited Workflow........123 
 
 
 <!-- PAGE_BREAK -->
@@ -166,9 +166,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -274,7 +274,7 @@
 
  The process of creating a workflow does not require coding. Instead, you can use pages of the Customization Project Editor, which make it easy to work with the workflow and its components. 
 
- Before you can add a workflow, the screen corresponding to the form must be added to the list of customized screens on the Customized Screens page. To define a workflow, you use the pages organized under the Screens node in the navigation pane of the Customization Project Editor for a particular form. 
+ Before you can add a workflow, the screen corresponding to the form must be added to the list of customized screens on the Screens page. To define a workflow, you use the pages organized under the Screens node in the navigation pane of the Customization Project Editor for a particular form. 
 
  The term screen is generally used to describe what you are creating or customizing in the Customization Project Editor. This term distinguishes the entity you work with here from the resulting form that will be used in Acumatica ERP. However, a form and its corresponding screen are essentially the same thing. 
 
@@ -320,7 +320,7 @@
 
 #### Primary Pages for Workflow Creation and Editing 
 
- For any screen that has been added to the Customized Screens page, you can use the Workflows page to view the workflows and their general settings. (The table on the page is empty if no workflows have been defined for the screen.) To open this page, in the navigation pane of the Customization Project Editor, you click Workflows under the form ID. 
+ For any screen that has been added to the Screens page, you can use the Workflows page to view the workflows and their general settings. (The table on the page is empty if no workflows have been defined for the screen.) To open this page, in the navigation pane of the Customization Project Editor, you click Workflows under the form ID. 
 
  You can click Add Workflow on the page toolbar, which opens the Workflow (Tree View) page. This page, which is sometimes called the Workflow Editor , is the primary page that you will use when you are developing or modifying a workflow. By clicking Diagram View on the page toolbar, you can work with the Workflow (Diagram View) page. The diagram view is also referred to as the Workflow Visual Editor. 
 
@@ -410,7 +410,7 @@
 
  Open Processing if the value in the Completion (%) box is not 0 
 
- Further suppose that you want to implement the following changes to the Task form: 
+ Further suppose that you want to implement the following changes to the Task (CR306020) form: 
 
 - When a user creates a new task, by default, the task's status should be _Dra_ , the **Start Date** should be the     current date, and the **Completion (%)** box should be unavailable. 
 
@@ -418,19 +418,13 @@
 
 - If a task has the _Processing_ status and the user specifies _100_ in the **Completion (%)** box, the status of the     task automatically changes to _Completed_. 
 
-- If the status of a task changes from _Completed_ to _Open_ , the user must specify a new value in the **Completion**     **(%)** box. As a result, the workflow should look like the one shown in the following diagram. 
-
- Figure: The planned task workflow 
+- If the status of a task changes from _Completed_ to _Open_ , the user must specify a new value in the **Completion**     **(%)** box. 
 
 ### Workflow Creation: To Add a Workflow 
 
  The following activity will walk you through the process of adding the screen associated with the Task (CR306020) form to the list of customized screens and adding a workflow for the screen. 
 
-
-<!-- PAGE_BREAK -->
- Creating Workflows | 12 
-
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -440,11 +434,15 @@
 
  In this activity, you will do the following to begin the customization of the Task (CR306020) form and add its workflow: 
 
-1. By using the _Customization Projects_ (SM204505) form as a starting point, add the _Task_ (CR306020) form to     the list of customized screens on the _Customized Screens_ page of the Customization Project Editor. 
+1. By using the _Customization Projects_ (SM204505) form as a starting point, add the _Task_ (CR306020) form to     the list of customized screens on the _Screens_ page of the Customization Project Editor. 
 
 2. Create a workflow for this form on the _Workflows_ page. 
 
 3. Navigate to the _Workflow (Tree View)_ page to view the workflow. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Workflows | 12 
 
 #### System Preparation 
 
@@ -464,7 +462,7 @@
 
 2. In the navigation pane of the Customization Project Editor, click **Screens**. 
 
-3. On the page toolbar of the _Customized Screens_ page, which is opened, click **Customize Existing Screen**. 
+3. On the page toolbar of the _Screens_ page, which is opened, click **Customize Existing Screen**. 
 
 4. In the **Customize Existing Screen** dialog box, which is opened, select _Task (CR306020)_. 
 
@@ -474,17 +472,11 @@
 
  Create a new workflow for the added screen as follows: 
 
-1. In the navigation pane, click **Screens > CR306020 > Workflows**. 
-
-
-<!-- PAGE_BREAK -->
- Creating Workflows | 13 
-
- The CR306020 (Task) Workflows page opens. (This is the name that appears for the Workflows page.) Notice that it does not contain any workflows. 
+1. In the navigation pane, click **Screens > CR306020 > Workflows**.     The CR306020 (Task) Workflows page opens. (This is the name that appears for the _Workflows_ page.) Notice     that it does not contain any workflows. 
 
 2. In the **State Identifier** box, select _Status_.     This is the field that will define the status of the applicable record created on the form. 
 
-3. Save your changes. 
+3. On the page toolbar, click **Save**. 
 
 4. On the page toolbar, click **Add Workflow**. 
 
@@ -496,13 +488,19 @@
 
 - **Workflow Name** : Task 
 
-6. Click **OK** to close the dialog box.     A row for the workflow appears in the table on the page. Notice that the workflow’s status is _New_ , which     means that this workflow is a custom workflow that is not based on any predefined workflow. 
+6. Click **Add** to close the dialog box.     A row for the workflow appears in the table on the page. Notice that the workflow’s status is _New_ , which     means that this workflow is a custom workflow that is not based on any predefined workflow. 
 
 7. In the row with the workflow you have created, select the **Active** check box. 
 
 8. On the page toolbar, click **Save**. 
 
-9. In the row with the created workflow, click the link in the **Workflow Name** column.     The CR306020 (Task) State Diagram: Task page opens. (This is the _Workflow (Tree View)_ page.) Notice that the     **States and Transitions** pane of the page does not contain any states or transitions. 
+9. In the row with the created workflow, click the link in the **Workflow Name** column. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Workflows | 13 
+
+ The CR306020 (Task) State Diagram: Task page opens. (This is the Workflow (Tree View) page.) Notice that the States and Transitions pane of the page does not contain any states or transitions. 
 
 ### Workflow Creation: Configuration of States 
 
@@ -520,15 +518,15 @@
 
  The following screenshot shows the states on the States and Transitions pane for the opportunity workflow. 
 
-
-<!-- PAGE_BREAK -->
- Creating Workflows | 14 
-
  Figure: States on the State and Transitions pane 
 
 ### Workflow Creation: To Add States 
 
  The following activity will walk you through the process of adding new and predefined states to the workflow. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Workflows | 14 
 
 #### Story 
 
@@ -556,10 +554,6 @@
 
 2. Make sure that you have completed the _Workflow Creation: To Add a Workflow_ activity. 
 
-
-<!-- PAGE_BREAK -->
- Creating Workflows | 15 
-
 #### Step 1: Adding the Predefined States to Your Workflow 
 
  To add the predefined states to your workflow, in the Customization Project Editor for the TaskWorkflow project, do the following: 
@@ -570,13 +564,17 @@
 
 3. In the **Add Predefined State** dialog box, which opens, select _Dra_ in the **State** box. Leave the **Parent State**     box empty. 
 
-4. Click **OK** to close the dialog box.     The Draft state is added to the **States and Transitions** pane. Notice that the Draft state has a two-     character identifier on the **State Properties** tab. 
+4. Click **Add** to close the dialog box.     The Draft state is added to the **States and Transitions** pane. Notice that the Draft state has a two-     character identifier on the **State Properties** tab. 
 
 5. By using instructions that are similar to Instructions 2–4, add the Processing, Completed, and Open     predefined states to the workflow.     Each state will be added to the **States and Transitions** pane below the previous state and will have a two-     character identifier on the **State Properties** tab. 
 
 6. In the **States and Transitions** pane, click the Draft state, and on the **State Properties** tab, make sure that     the **Initial State of the Workflow** check box is selected.     This state will be the initial state in the workflow. That is, when a user creates a new task, this task will have     the _Dra_ status. 
 
 7. On the page toolbar, click **Save**. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Workflows | 15 
 
 #### Step 2: Adding a New State to Your Workflow 
 
@@ -594,21 +592,19 @@
 
  Figure: The Add State dialog box 
 
-3. Click **OK** to close the dialog box and add the new state to the **States and Transitions** pane. 
+3. Click **Add** to close the dialog box and add the new state to the **States and Transitions** pane. 
 
 4. On the page toolbar, click **Save**. 
 
-
-<!-- PAGE_BREAK -->
- Creating Workflows | 16 
-
-5. In the navigation pane, click **Screens > CR306020 > Fields**. 
-
- The CR306020 (Task) Fields page opens. Notice that the table contains a row with the UIStatus field, which is the state-identifying field specified for the screen on the Workflows page (see Item 1 in the screenshot below). 
+5. In the navigation pane, click **Screens > CR306020 > Fields**.     The CR306020 (Task) Fields page opens. Notice that the table contains a row with the UISTATUS field,     which is the state-identifying field specified for the screen on the _Workflows_ page, as Item 1 below shows. 
 
 6. On the page toolbar, click **Combo Box Values**. 
 
 7. In the **Combo Box Values** dialog box, which is opened, notice that the new value ( _Postponed_ ) has been     added to it (Item 2). When a new state is added to a workflow, for the state-identifying field, the system adds     a value with the same name. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Workflows | 16 
 
  Figure: The Fields page with the added field 
 
@@ -666,15 +662,15 @@
 
  You configure dialog boxes on the Dialog Boxes page of the Customization Project Editor for a particular screen. You can add new dialog boxes and modify existing ones. For each dialog box, you specify the name that a dialog box will have when the system displays it to the user. You also specify all fields that represent elements in which the user will need to specify data. You can then specify default values for the added fields and mark the fields as required or hidden. 
 
- Aer you specify the needed settings for the dialog box, you can preview it by clicking Preview Dialog Box on the page toolbar or More menu of the page (see Item 1 in the following screenshot). The screenshot also shows the settings of the Details dialog box, which opens when a user opens a case on the Cases (CR306000) form (Item 2). Notice that the Dialog Boxes page also lists two more dialog boxes associated with the screen (Item 3). The first one opens when the user clicks Pending Customer ; the second one opens when the user clicks Close. 
+ Aer you specify the needed settings for the dialog box, you can preview it by clicking Preview Dialog Box on the page toolbar or More menu of the page (see Item 1 below). The screenshot also shows the settings of the Open dialog box, which opens when a user opens a case on the Cases (CR306000) form (Item 2). Notice that the Dialog Boxes page also lists two more dialog boxes associated with the screen (Item 3). The first one opens when the user clicks Pending Customer ; the second one opens when the user clicks Close. 
 
  Figure: The CR306000 (Cases) Dialog Boxes page 
-
- In the page name, Dialog Boxes is preceded by the form ID and then the form name in parentheses, so you can always see at a glance which form’s dialog box you are customizing. 
 
 
 <!-- PAGE_BREAK -->
  Configuring Workflow Elements | 19 
+
+ In the page name, Dialog Boxes is preceded by the form ID and then the form name in parentheses, so you can always see at a glance which form’s dialog box you are customizing. 
 
 #### Hiding of the Fields of a Dialog Box 
 
@@ -696,13 +692,13 @@
 
  If a required field is also marked as hidden and is empty, this field will be displayed in the dialog box (that is, it will not be hidden despite the setting). 
 
-#### Values for a Drop-Down List in a Dialog Box 
-
- In a dialog box that the system displays when you invoke particular actions on a form, you can select the source of the values that will be available in a drop-down list. Instead of specifying drop-down values explicitly for multiple dialog boxes, you can indicate that these values should be the same as in the target state or source state of the transition. By using this functionality, you can use only one dialog box for all actions in a workflow. 
-
 
 <!-- PAGE_BREAK -->
  Configuring Workflow Elements | 20 
+
+#### Values for a Drop-Down List in a Dialog Box 
+
+ In a dialog box that the system displays when you invoke particular actions on a form, you can select the source of the values that will be available in a drop-down list. Instead of specifying drop-down values explicitly for multiple dialog boxes, you can indicate that these values should be the same as in the target state or source state of the transition. By using this functionality, you can use only one dialog box for all actions in a workflow. 
 
  You select the source of the values of a drop-down list in the Combo Box Values dialog box, which you open when you are viewing the Dialog Boxes page for a custom or customized workflow. To open this dialog box, you click a particular field in the Dialog Box Fields table and then clicking Combo Box Values on the table toolbar. 
 
@@ -724,19 +720,25 @@
 
  You might want to require users to enter certain text in elements in the dialog boxes that are opened when the status of a record on a form changes. You might also want to give the users the ability to enter text in all formats supported by a rich text editor. 
 
- To add to a dialog box a field with rich text editor support, in the Dialog Box Fields table on the Dialog Boxes page, you select [RichTextEdit] in the Schema Field column. The following screenshot shows the settings to add the ClosureNotes field (which corresponds to the box with the same name) to the dialog box that the system displays when the user closes a case. 
+ To add to a dialog box a field with rich text editor support, in the Dialog Box Fields table on the Dialog Boxes page, you select [RichTextEdit] in the Schema Field column. The following screenshot shows the settings to add 
 
 
 <!-- PAGE_BREAK -->
  Configuring Workflow Elements | 21 
 
- Figure: Selection of a rich text editor field 
+the ClosureNotes field (which corresponds to the box with the same name) to the dialog box that the system displays when the user closes a case. 
 
- When the user clicks Close on the More menu (under Processing ) on the Cases (CR306000) form to close a case, they can enter a comment in the text area. They can then use the buttons on the formatting toolbar to format the text and to insert images, links, and tables (see the following screenshot). 
+**_Figure: Selection of a rich text editor field_** 
 
- Figure: Formatting of the comment in the dialog box 
+When the user clicks **Close** on the More menu (under **Processing** ) on the _Cases_ (CR306000) form to close a case, they can enter a comment in the text area. They can then use the buttons on the formatting toolbar to format the text and to insert images, links, and tables (see the following screenshot). 
+
+**_Figure: Formatting of the comment in the dialog box_** 
 
  The text area always spans the dialog box; therefore, the Column Span and Control Size settings are not available for fields of the [RichTextEdit] type. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Workflow Elements | 22 
 
 ### Workflow Elements: To Modify Field Settings 
 
@@ -745,10 +747,6 @@
 #### Story 
 
  Acting as the technical specialist, you need to modify the field settings for the workflow states you have added in Workflow Creation: To Add States. With the modified settings, when a task is created, the value in the Start Date box will be the current date, and the Completion (%) box will be unavailable for editing. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Workflow Elements | 22 
 
 #### Process Overview 
 
@@ -782,13 +780,17 @@
 
 - **Default Value** : _@Today_ 
 
-4. Save your changes. 
+4. On the page toolbar, click **Save**. 
 
 #### Step 2: Making the Field Unavailable for Editing 
 
  To make the Completion (%) field unavailable for editing in the Draft state, while you are still on the Workflow (Tree View) page with the Task workflow displayed, do the following: 
 
 1. In the **States and Transitions** pane, click the Draft state. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Workflow Elements | 23 
 
 2. On the **Fields** tab of the **State Properties** tab, click **Add Row** on the table toolbar again, and specify the     following settings in the added row: 
 
@@ -798,11 +800,7 @@
 
 - **Disabled** : Selected 
 
-3. Save your changes. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Workflow Elements | 23 
+3. On the page toolbar, click **Save**. 
 
 #### Step 3: Making the Field Required—Self-Guided Exercise 
 
@@ -838,11 +836,15 @@
 
 2. On the pane toolbar of the **Dialog Boxes** pane, click the button with the plus sign. 
 
-3. In the **New Dialog Box** dialog box, which opens, type FormReopen as the name, and click **OK**. 
+3. In the **New Dialog Box** dialog box, which opens, type FormReopen as the name, and click **Save**. 
 
 4. On the **Dialog Boxes** pane, click the name of the added dialog box. 
 
 5. In the **Title** box on the right pane, enter Details. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Workflow Elements | 24 
 
 6. In the **Dialog Box Fields** table, click **Add Row** on the table toolbar, and specify the following settings in the     added row: 
 
@@ -852,10 +854,6 @@
 
 - **Title** : _Completion (%)_ (specified automatically) 
 
-
-<!-- PAGE_BREAK -->
- Configuring Workflow Elements | 24 
-
 - **From Schema** : Selected 
 
 - **Default Value** : 0 
@@ -864,7 +862,7 @@
 
 - **Column Span** : 1 
 
-7. Save your changes. 
+7. On the page toolbar, click **Save**. 
 
 8. On the page toolbar, click **Preview Dialog Box**. 
 
@@ -906,9 +904,9 @@
 
  Actions are associated with buttons or commands (or both) in the user interface. When a user clicks a button or a command, the system may change the status of the record on the form according to the workflow settings. That is, these actions trigger transitions from one workflow state to another. You can use the same action to trigger transitions from a particular state to different states. 
 
- You configure actions for a particular screen. Therefore, before you start configuring actions, you need to make sure that the corresponding screen has been added to the customization project on the Customized Screens page. 
+ You configure actions for a particular screen. Therefore, before you start configuring actions, you need to make sure that the corresponding screen has been added to the customization project on the Screens page. 
 
- You configure workflow actions by using the Actions page (sometimes described as the Action Editor ) of the Customization Project Editor. Actions added in the predefined workflow are automatically displayed on the page, and you can modify the properties of these actions. 
+ You configure workflow actions by using the Actions page of the Customization Project Editor. Actions added in the predefined workflow are automatically displayed on the page, and you can modify the properties of these actions. 
 
  To understand which of the listed actions are from the predefined workflow and which are new, you review the Status column for each action. Actions from the predefined workflow have the Inherited status, and all actions that you have added to the Actions page (including existing graph actions) have the New status. If you have modified an action from the predefined workflow, its status changes to Modified (see the following screenshot). 
 
@@ -996,9 +994,9 @@
 
 - **Hidden** : _True_     This setting indicates that this action will be hidden in all states of the workflow. 
 
-4. Click **OK** to close the dialog box and save your changes. 
+4. Click **Save** to close the dialog box and save your changes. 
 
-5. By using instructions that are similar to the previous three instructions, add the Complete and Complete     & Follow-Up actions and mark them as hidden. 
+5. By using instructions that are similar to the previous three instructions, add the Complete and Complete     & Follow Up actions and mark them as hidden. 
 
 ### Action Configuration: To Add a Category to the More Menu 
 
@@ -1056,15 +1054,17 @@
 
  Acting as a technical specialist, you need to create Open, Postpone, StartWork, and Resolve actions for the Task (CR306020) form. These actions will be workflow actions, which move a task from one state of the workflow of the form to another state. 
 
- You need to add the new actions to the following states: 
+ You need to add the new actions to the states as follows. 
 
-- The Draft state should contain the Open and Postpone actions. 
+ State Actions to Add 
 
-- The Processing state should contain the Resolve and Postpone actions. 
+ Draft Open, Postpone 
 
-- The Open state should contain the StartWork, Resolve, and Postpone actions. 
+ Processing Resolve, Postpone 
 
-- The Postponed state should contain the Open action. 
+ Open StartWork, Resolve, and Postpone 
+
+ Postponed Open 
 
 #### Process Overview 
 
@@ -1086,6 +1086,10 @@
 
 1. In the navigation pane, click **Screens > CR306020 > Actions**.     The CR306020 (Task) Actions page opens. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Actions | 30 
+
 2. On the page toolbar, click **Add New Action**. 
 
 3. In the **Action Properties** dialog box, which is opened, specify the following settings: 
@@ -1094,17 +1098,13 @@
 
 - **Display Name** : Open 
 
-
-<!-- PAGE_BREAK -->
- Configuring Actions | 30 
-
 - **Action Type** : _Workflow_ 
 
 - **Category** : _Processing_ 
 
 - **Display on Toolbar** : _If Available_ (selected automatically)     This setting indicates that this action will be displayed as a button on the form toolbar and as a     command under a category ( **Processing** ) on the More menu if the action is available for a record based     on its state. 
 
-4. Click **OK** to close the dialog box and save your changes. 
+4. Click **Save** to close the dialog box and save your changes. 
 
 5. By using instructions (and settings, except for the action and display names) that are similar to the previous     three instructions, create the actions listed in the following table. 
 
@@ -1142,7 +1142,11 @@
 
 - **Duplicate on Toolbar** : Cleared 
 
-5. Save your changes. 
+5. On the page toolbar, click **Save**. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Actions | 31 
 
 #### Step 3: Adding the Actions to the Processing State 
 
@@ -1151,10 +1155,6 @@
 1. In the **States and Transitions** pane, click the Processing state. 
 
 2. On the **Actions** tab, click **Add Row** on the table toolbar, and specify the following settings in the added row: 
-
-
-<!-- PAGE_BREAK -->
- Configuring Actions | 31 
 
 - **Active** : Selected 
 
@@ -1172,7 +1172,7 @@
 
 - **Duplicate on Toolbar** : Cleared 
 
-4. Save your changes. 
+4. On the page toolbar, click **Save**. 
 
 #### Step 4: Adding the Actions to the Open State 
 
@@ -1206,7 +1206,7 @@
 
 - **Duplicate on Toolbar** : Cleared 
 
-5. Save your changes. 
+5. On the page toolbar, click **Save**. 
 
 #### Step 5: Adding the Action to the Postponed State 
 
@@ -1218,15 +1218,15 @@
 
 - **Active** : Selected 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Actions | 32 
+
 - **Action** : _Open (Open)_ 
 
 - **Duplicate on Toolbar** : Cleared 
 
-3. Save your changes. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Actions | 32 
+3. On the page toolbar, click **Save**. 
 
 ### Action Configuration: To Create a Workflow Action That Displays a Dialog Box 
 
@@ -1272,19 +1272,19 @@
 
 - **Category** : _Processing_ 
 
-4. Click **OK** to close the dialog box and save your changes. 
-
-#### Step 2: Adding the New Action to the Completed State 
-
- To add the Reopen action to the Completed state, do the following: 
+4. Click **Save** to close the dialog box and save your changes. 
 
 
 <!-- PAGE_BREAK -->
  Configuring Actions | 33 
 
+#### Step 2: Adding the New Action to the Completed State 
+
+ To add the Reopen action to the Completed state, do the following: 
+
 1. In the navigation pane, click **Screens > CR306020 > Workflows > Task**.     The CR306020 (Task) State Diagram: Task page opens. 
 
-2. In the **States and Transitions** pane, click the _Completed_ state. 
+2. In the **States and Transitions** pane, click the Completed state. 
 
 3. On the **Actions** tab, click **Add Row** on the table toolbar, and specify the following settings in the added row: 
 
@@ -1294,7 +1294,7 @@
 
 - **Duplicate on Toolbar** : Cleared 
 
-4. Save your changes. 
+4. On the page toolbar, click **Save**. 
 
 ### Action Configuration: Action Sequences 
 
@@ -1326,15 +1326,13 @@
 
  If a user clicks a button (or invokes a command) that has an underlying action with subscribers, the system proceeds as follows: 
 
-1. If a dialog box is specified for this action, the system displays it and updates the fields as specified on the     **Field Update** tab of the **Action Properties** dialog box of the _Actions_ page for the action. 
-
-2. The system performs all other steps in the workflow. Specifically, the system does the following by using the     settings on the _Actions_ page for the workflow state: 
-
 
 <!-- PAGE_BREAK -->
  Configuring Actions | 34 
 
- a. Updates the specified fields (on the Fields , Fields to Update on Entry , and Fields to Update on Exit tabs). b. Performs the transitions. c. Updates the specified post-transition fields (in the Fields to Update Aer Transition table). 
+1. If a dialog box is specified for this action, the system displays it and updates the fields as specified on the     **Field Update** tab of the **Action Properties** dialog box of the _Actions_ page for the action. 
+
+2. The system performs all other steps in the workflow. Specifically, the system does the following by using the     settings on the _Actions_ page for the workflow state:     a. Updates the specified fields (on the **Fields** , **Fields to Update on Entry** , and **Fields to Update on Exit**        tabs).     b. Performs the transitions.     c. Updates the specified post-transition fields (in the **Fields to Update Aer Transition** table). 
 
 3. If the action has been executed successfully, the system then executes its subscribers.     If a dialog box is specified for a subscriber action, the system does not display this dialog box to the user;     instead, the system uses the specified dialog box values. 
 
@@ -1354,11 +1352,11 @@
 
  You can instead specify that the system should execute the subscriber action only if a particular condition is met, by selecting this condition in the Condition column. 
 
- By default, the system executes all actions in a sequence even if any of these actions fails. If needed, you can make the system stop the execution of subscribers if a triggering action fails by selecting the Stop on Error check box (Item 3). 
-
 
 <!-- PAGE_BREAK -->
  Configuring Actions | 35 
+
+ By default, the system executes all actions in a sequence even if any of these actions fails. If needed, you can make the system stop the execution of subscribers if a triggering action fails by selecting the Stop on Error check box (Item 3). 
 
  Figure: The subscribers of the Close action 
 
@@ -1368,11 +1366,11 @@
 
  Figure: The subscribers of the Close action 
 
- Note that aer you have added the Release action as a subscriber on the Actions Executed on Success tab for the Close action, the Close action automatically appears on the Triggering Actions tab in the Action Properties dialog box for the Release action. 
-
 
 <!-- PAGE_BREAK -->
  Configuring Actions | 36 
+
+ Note that aer you have added the Release action as a subscriber on the Actions Executed on Success tab for the Close action, the Close action automatically appears on the Triggering Actions tab in the Action Properties dialog box for the Release action. 
 
 #### Editing of Dialog Boxes of Subscriber or Triggering Actions 
 
@@ -1392,11 +1390,11 @@
 
 - Aer a user takes a case, the status of this case should change from _New_ to _Open_. As a reason for the change,     the system should specify the _In Process_ value. 
 
-- If a user closes a billable case, the system should release this case. That is, the status of this case should     change from _Closed_ to _Released_. Aer that, the system should display the invoice for the case—that is,     invoke the **View Invoice** command. 
-
 
 <!-- PAGE_BREAK -->
  Configuring Actions | 37 
+
+- If a user closes a billable case, the system should release this case. That is, the status of this case should     change from _Closed_ to _Released_. Aer that, the system should display the invoice for the case—that is,     invoke the **View Invoice** command. 
 
 #### Process Overview 
 
@@ -1442,13 +1440,13 @@
 
 3. In the **Conditions Properties** dialog box, which opens, type IsBillable as the condition name. 
 
-4. Click **Add Row** on the table toolbar, and specify the following settings in the added row: 
-
-- **Field Name** : _Billable_ 
-
 
 <!-- PAGE_BREAK -->
  Configuring Actions | 38 
+
+4. Click **Add Row** on the table toolbar, and specify the following settings in the added row: 
+
+- **Field Name** : _Billable_ 
 
 - **Condition** : _Equals_ 
 
@@ -1494,11 +1492,11 @@
 
 2. In the table, click the _Close_ link in the **Action Name** column.     The **Action Properties** dialog box opens. 
 
-3. On the **Actions Executed on Success** tab, click **Add Row** on the table toolbar, and specify the following     settings in the added row: 
-
 
 <!-- PAGE_BREAK -->
  Configuring Actions | 39 
+
+3. On the **Actions Executed on Success** tab, click **Add Row** on the table toolbar, and specify the following     settings in the added row: 
 
 - **Active** : Selected 
 
@@ -1552,11 +1550,13 @@
 
 4. Click **OK** to close the dialog box. 
 
-5. In the Summary area, notice that the value in the **Reason** box is _In Process_.     The system did not display the **Details** dialog box when the status of the case changed from _New_ to _Open_.     Instead, the system used the value ( _In Process_ ) that you have specified in the **Dialog Box Values** dialog box     for the Open action. 
+5. In the Summary area, notice that the value in the **Reason** box is _In Process_. 
 
 
 <!-- PAGE_BREAK -->
  Configuring Actions | 40 
+
+ The system did not display the Details dialog box when the status of the case changed from New to Open. Instead, the system used the value ( In Process ) that you have specified in the Dialog Box Values dialog box for the Open action. 
 
 #### Step 7: Testing the Close Action 
 
@@ -1662,21 +1662,17 @@ If you have specified the fields to be updated aer the transition or the fiel
 
  The following screenshot shows the Conditions page for the Opportunities (CR304000) form with the Condition Properties dialog box opened for the ClassID condition. 
 
+ Figure: The Condition Properties dialog box 
+
 
 <!-- PAGE_BREAK -->
  Configuring Conditions and Transitions | 45 
 
-**_Figure: The Condition Properties dialog box_** 
-
  In the name that appears on the Conditions page, Conditions: is followed by the form ID and then the form name in parentheses, so you can always see at a glance which form you are customizing. Notice that the page name shown in the screenshot is Conditions: CR304000 (Opportunities). 
 
-You configure transitions by using the _Workflow (Tree View)_ page of the workflow. The added transitions are displayed on the **States and Transitions** pane of this page. You can change the order in which the transitions are displayed on this pane, if needed. 
+ You configure transitions by using the Workflow (Tree View) page of the workflow. The added transitions are displayed on the States and Transitions pane of this page. You can change the order in which the transitions are displayed on this pane, if needed. 
 
-The following screenshot shows transitions on the **States and Transitions** pane for the opportunity workflow. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Conditions and Transitions | 46 
+ The following screenshot shows transitions on the States and Transitions pane for the opportunity workflow. 
 
  Figure: The State and Transitions pane 
 
@@ -1694,6 +1690,10 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
  You will use the Conditions page to add conditions that you will later use to modify the Resolve and Open actions. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Conditions and Transitions | 46 
+
 #### System Preparation 
 
  Before you begin adding conditions, do the following: 
@@ -1703,10 +1703,6 @@ The following screenshot shows transitions on the **States and Transitions** pan
  The gibbs user is assigned the Administrator role, which has sufficient access rights to customize workflows. 
 
 2. Make sure that you have completed the _Action Configuration: To Create Workflow Actions and Add Them to the_     _Workflow States_ activity. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Conditions and Transitions | 47 
 
 #### Step 1: Adding the Completed Condition 
 
@@ -1730,7 +1726,7 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 5. Make sure that the **Active** check box is selected for the added row. 
 
-6. Click **OK** to save your changes and close the dialog box.     The added condition appears in the list of conditions on the Conditions: CR306020 (Task) page. You will use     this condition to automatically change the status of a task to _Completed_ when the condition is met. 
+6. Click **Save** to save your changes and close the dialog box.     The added condition appears in the list of conditions on the Conditions: CR306020 (Task) page. You will use     this condition to automatically change the status of a task to _Completed_ when the condition is met. 
 
 #### Step 2: Adding the NotStarted Condition 
 
@@ -1752,7 +1748,13 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 4. Make sure that the **Active** check box is selected for the added row. 
 
-5. Click **OK** to save your changes and close the dialog box.     The added condition appears in the list of conditions on the Conditions: CR306020 (Task) page. You will use     this condition to change the status of a task from _Postponed_ to _Open_ when the condition is met. 
+5. Click **Save** to save your changes and close the dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Conditions and Transitions | 47 
+
+ The added condition appears in the list of conditions on the Conditions: CR306020 (Task) page. You will use this condition to change the status of a task from Postponed to Open when the condition is met. 
 
 ### Conditions and Transitions: To Add Transitions 
 
@@ -1760,13 +1762,7 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 #### Story 
 
- You can use the same action to trigger transitions from one state to different states. To do so, you need to use conditions for these transitions. If a condition is fulfilled, the system performs the transition that is first in the list of transitions from the current state. (This list is displayed on the States and Transitions pane of the Workflow 
-
-
-<!-- PAGE_BREAK -->
- Configuring Conditions and Transitions | 48 
-
- (Tree View) page.) If the condition is not fulfilled, the system switches to the next transition in the list and checks its condition. 
+ You can use the same action to trigger transitions from one state to different states. To do so, you need to use conditions for these transitions. If a condition is fulfilled, the system performs the transition that is first in the list of transitions from the current state. (This list is displayed on the States and Transitions pane of the Workflow (Tree View) page.) If the condition is not fulfilled, the system switches to the next transition in the list and checks its condition. 
 
  When a record is in the Postponed state, you will use the same action (Open) to trigger transitions to the Open state or to the Processing state, depending on the percent of the task completion as follows: 
 
@@ -1794,75 +1790,73 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 1. In the navigation pane, click **Screens > CR306020 > Workflows > Task**.     The CR306020 (Task) Workflows page opens. 
 
-2. Add the transition from the Draft state to the Open state as follows:     a. In the **States and Transitions** pane, click the Draft state.     b. On the page toolbar, click **Add Transition**.     c. In the **Add Transition** dialog box, which is opened, select the following settings: 
-
-- **Trigger Name** : _Open (Open)_ 
-
-- **Target State** : _Open_ d. Click **OK** to close the dialog box. Notice that the transition has appeared in the **States and Transitions** pane, in the **Transitions** node below the Draft state. e. Save your changes. 
-
-3. Add the transition from the Draft state to the Postponed state as follows:     a. In the **States and Transitions** pane, click the Draft state again.     b. On the page toolbar, click **Add Transition**. 
+2. Add the transition from the Draft state to the Open state as follows:     a. In the **States and Transitions** pane, click the Draft state. 
 
 
 <!-- PAGE_BREAK -->
- Configuring Conditions and Transitions | 49 
+ Configuring Conditions and Transitions | 48 
 
- c. In the Add Transition dialog box, which is opened, specify the following settings: 
+ b. On the More menu, click Add Transition. c. In the Add Transition dialog box, which is opened, select the following settings: 
+
+- **Trigger Name** : _Open (Open)_ 
+
+- **Target State** : _Open_ d. Click **Add** to close the dialog box. Notice that the transition has appeared in the **States and Transitions** pane, in the **Transitions** node below the Draft state. e. On the page toolbar, click **Save**. 
+
+3. Add the transition from the Draft state to the Postponed state as follows:     a. In the **States and Transitions** pane, click the Draft state again.     b. On the More menu, click **Add Transition**.     c. In the **Add Transition** dialog box, which is opened, specify the following settings: 
 
 - **Trigger Name** : _Postpone (Postpone)_ 
 
-- **Target State** : _Postponed_ d. Click **OK** to close the dialog box. e. Save your changes. 
+- **Target State** : _Postponed_ d. Click **Add** to close the dialog box. e. On the page toolbar, click **Save**. 
 
 #### Step 2: Adding the Simple Transitions (for the Open State) 
 
  In this step, you will add the transitions from the Open state to the Processing state, the Postponed state, and the Completed state. While you are still in the tree view of the CR306020 (Task) State Diagram: Task page, perform the following instructions: 
 
-1. Add the transition from the Open state to the Processing state as follows:     a. In the **States and Transitions** pane, click the Open state.     b. On the page toolbar, click **Add Transition**.     c. In the **Add Transition** dialog box, which is opened, select the following settings: 
+1. Add the transition from the Open state to the Processing state as follows:     a. In the **States and Transitions** pane, click the Open state.     b. On the More menu, click **Add Transition**.     c. In the **Add Transition** dialog box, which is opened, select the following settings: 
 
 - **Trigger Name** : _Start Work (StartWork)_ 
 
-- **Target State** : _Processing_ d. Click **OK** to close the dialog box. Notice that the transition has appeared in the **States and Transitions** pane, in the **Transitions** node below the Open state. 
+- **Target State** : _Processing_ d. Click **Add** to close the dialog box. Notice that the transition has appeared in the **States and Transitions** pane, in the **Transitions** node below the Open state. 
 
-2. Add the transition from the Open state to the Postponed state as follows:     a. In the **States and Transitions** pane, click the Open state again.     b. On the page toolbar, click **Add Transition**.     c. In the **Add Transition** dialog box, which is opened, select the following settings: 
+2. Add the transition from the Open state to the Postponed state as follows:     a. In the **States and Transitions** pane, click the Open state again.     b. On the More menu, click **Add Transition**.     c. In the **Add Transition** dialog box, which is opened, select the following settings: 
 
 - **Trigger Name** : _Postpone (Postpone)_ 
 
-- **Target State** : _Postponed_ d. Click **OK** to close the dialog box. 
+- **Target State** : _Postponed_ d. Click **Add** to close the dialog box. 
 
-3. Add the transition from the Open state to the Completed state as follows:     a. In the **States and Transitions** pane, click the Open state again.     b. On the page toolbar, click **Add Transition**.     c. In the **Add Transition** dialog box, which is opened, select the following settings: 
+3. Add the transition from the Open state to the Completed state as follows:     a. In the **States and Transitions** pane, click the Open state again.     b. On the More menu, click **Add Transition**.     c. In the **Add Transition** dialog box, which is opened, select the following settings: 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Conditions and Transitions | 49 
 
 - **Trigger Name** : _Resolve (Resolve)_ 
 
-- **Target State** : _Completed_ d. Click **OK** to close the dialog box. 
+- **Target State** : _Completed_ d. Click **Add** to close the dialog box. 
 
-4. Save your changes. 
+4. On the page toolbar, click **Save**. 
 
 #### Step 3: Adding the Auto-Run Transitions (for the Processing State) 
 
  To add the transitions from the Processing state to the Completed state and the Postponed state, while you are still in the tree view of the CR306020 (Task) State Diagram: Task page, perform the following instructions: 
 
-1. Add the transition from the Processing state to the Postponed state as follows:     a. In the **States and Transitions** pane, click the Processing state.     b. On the page toolbar, click **Add Transition**. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Conditions and Transitions | 50 
-
- c. In the Add Transition dialog box, which is opened, select the following settings: 
+1. Add the transition from the Processing state to the Postponed state as follows:     a. In the **States and Transitions** pane, click the Processing state.     b. On the More menu, click **Add Transition**.     c. In the **Add Transition** dialog box, which is opened, select the following settings: 
 
 - **Trigger Name** : _Postpone (Postpone)_ 
 
-- **Target State** : _Postponed_ d. Click **OK** to close the dialog box. Notice that the transition is added to the **States and Transitions** pane, to the **Transitions** node below the **Processing** node. 
+- **Target State** : _Postponed_ d. Click **Add** to close the dialog box. Notice that the transition is added to the **States and Transitions** pane, to the **Transitions** node below the **Processing** node. 
 
-2. Add the transition from the Processing state to the Completed state as follows:     a. In the **States and Transitions** pane, click the Processing state again.     b. On the page toolbar, click **Add Transition**.     c. In the **Add Transition** dialog box, which is opened, select the following settings: 
+2. Add the transition from the Processing state to the Completed state as follows:     a. In the **States and Transitions** pane, click the Processing state again.     b. On the More menu, click **Add Transition**.     c. In the **Add Transition** dialog box, which is opened, select the following settings: 
 
 - **Trigger Name** : _Resolve (Resolve)_ 
 
-- **Target State** : _Completed_ d. Click **OK** to close the dialog box. 
+- **Target State** : _Completed_ d. Click **Add** to close the dialog box. 
 
 3. In the **States and Transitions** pane, click the Processing state again. 
 
 4. On the **Actions** tab, in the row with the Resolve (Resolve) action, select _Completed_ in the **Auto-Run**     **Condition** column.     This setting indicates that the system will perform this action automatically if the Completed condition is     fulfilled. 
 
-5. Save your changes. 
+5. On the page toolbar, click **Save**. 
 
 #### Step 4: Adding the Transitions That Depend on a Condition (for the Postponed State) 
 
@@ -1870,7 +1864,7 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 1. In the **States and Transitions** pane, click the Postponed state. 
 
-2. On the page toolbar, click **Add Transition**. 
+2. On the More menu, click **Add Transition**. 
 
 3. In the **Add Transition** dialog box, which is opened, select the following settings: 
 
@@ -1880,11 +1874,15 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 - **Target State** : _Open_ 
 
-4. Click **OK** to close the dialog box. 
+4. Click **Add** to close the dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Conditions and Transitions | 50 
 
 5. In the **States and Transitions** pane, click the Postponed state again. 
 
-6. On the page toolbar, click **Add Transition**. 
+6. On the More menu, click **Add Transition**. 
 
 7. In the **Add Transition** dialog box, which is opened, select the following settings: 
 
@@ -1892,13 +1890,9 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 - **Target State** : _Processing_ 
 
-8. Click **OK** to close the dialog box.     The system will perform this transition if the condition for the first transition (that is, the NotStarted     condition) is not fulfilled. 
+8. Click **Add** to close the dialog box.     The system will perform this transition if the condition for the first transition (that is, the NotStarted     condition) is not fulfilled. 
 
-9. Save your changes. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Conditions and Transitions | 51 
+9. On the page toolbar, click **Save**. 
 
 #### Step 5: Adding a Transition That Causes Update of a Field Aer the Transition (for the Completed 
 
@@ -1908,7 +1902,7 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 1. In the **States and Transitions** pane, click the Completed state. 
 
-2. On the page toolbar, click **Add Transition**. 
+2. On the More menu, click **Add Transition**. 
 
 3. In the **Add Transition** dialog box, which is opened, specify the following settings: 
 
@@ -1916,7 +1910,7 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 - **Target State** : _Open_ 
 
-4. Click **OK** to close the dialog box. 
+4. Click **Add** to close the dialog box. 
 
 5. In the **Transitions** node of the **States and Transitions** pane, click the added transition. 
 
@@ -1928,11 +1922,11 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 - **New Value** : _[FormReopen.Completion]_ The last setting indicates that the Completion (%) field will be updated with the value that the user has specified in the **Details** dialog box. (You have created this dialog box in _Workflow Elements: To Add a Dialog Box_ .) 
 
-7. Save your changes. 
+7. On the page toolbar, click **Save**. 
 
 
 <!-- PAGE_BREAK -->
- Testing the Customization | 52 
+ Testing the Customization | 51 
 
 ## Testing the Customization 
 
@@ -1978,7 +1972,7 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 
 <!-- PAGE_BREAK -->
- Testing the Customization | 53 
+ Testing the Customization | 52 
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as system administrator by     using the _gibbs_ username and the _123_ password. 
 
@@ -1996,9 +1990,9 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 3. Aer the system finishes updating the required data, click **Close Compilation Pane** in the **Compilation**     pane. 
 
-#### Step 2: Testing the Dra State and State Diagram Dialog Box 
+#### Step 2: Testing the Dra State 
 
- In Acumatica ERP, test the Draft state and the State Diagram dialog box as follows: 
+ In Acumatica ERP, test the Draft state as follows: 
 
 1. On the form toolbar of the Tasks (EP4040PL) list of records, click **New Record**. 
 
@@ -2014,33 +2008,31 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 - On the form toolbar, the **Open** button is highlighted in green. 
 
-3. On the form title bar, click **Customization > Show State Diagram**.     The **State Diagram** dialog box opens. The diagram should look like the one shown in the following     screenshot. 
-
-
-<!-- PAGE_BREAK -->
- Testing the Customization | 54 
-
- Figure: The State Diagram dialog box 
-
-4. Close the dialog box. 
-
 #### Step 3: Testing the Open State 
 
  While you are still on the Task (CR306020) form, test the Open state as follows: 
 
-1. In the **Summary** box, enter Process customer request, and save your changes. 
+1. In the **Summary** box, enter Process customer request. 
 
-2. On the form toolbar, click **Open**.     The status of the task changes to _Open_. 
+2. In the **Owner** box of the **Details** tab, select _Kimberly Gibbs_. 
 
-3. Clear the **Owner** box, and try to save your changes.     The system displays an error for this box. 
+3. On the form toolbar, click **Save**. 
 
-4. In the **Owner** box, select _Kimberly Gibbs_ , and save your changes. 
+4. On the form toolbar, click **Open**.     The status of the task changes to _Open_. 
 
-5. On the form, notice the following: 
+5. Clear the **Owner** box, and try to save your changes.     The system displays an error for this box. 
+
+6. In the **Owner** box, select _Kimberly Gibbs_ , and save your changes. 
+
+7. On the form, notice the following: 
 
 - On the More menu, three commands are available: **Start Work** , **Resolve** , and **Postpone**. 
 
 - On the form toolbar, the **Start Work** button is highlighted in green. 
+
+
+<!-- PAGE_BREAK -->
+ Testing the Customization | 53 
 
 #### Step 4: Testing the Processing State and the Resolve Action 
 
@@ -2062,10 +2054,6 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 - The status of the task is _Completed_. 
 
-
-<!-- PAGE_BREAK -->
- Testing the Customization | 55 
-
 - On the More menu, only one command is available: **Reopen**. 
 
 #### Step 5: Testing the Reopen Action and the Completed Condition 
@@ -2074,7 +2062,7 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 1. On the form toolbar, click **Reopen**. 
 
-2. In the **Details** dialog box, which is opened, enter 10 in the **Completion (%)** box. 
+2. In the **Details** dialog box, which opens, enter 10 in the **Completion (%)** box. 
 
 3. Click **OK** to close the dialog box.     The status of the task changes to _Open_ , and the value in the **Completion (%)** box is _10_. 
 
@@ -2088,7 +2076,7 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 
 <!-- PAGE_BREAK -->
- Working with Inherited Workflows | 56 
+ Working with Inherited Workflows | 54 
 
 ## Working with Inherited Workflows 
 
@@ -2096,7 +2084,7 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 ### Inherited Workflows: General Information 
 
- Some Acumatica ERP forms have at least one predefined workflow, which is a workflow that has been developed for a form in the out-of-the-box version of Acumatica ERP. If you want to make changes to a predefined workflow, you create an inherited workflow, which is based on the predefined one, and modify it as needed. 
+ Some Acumatica ERP forms have at least one predefined workflow, which is a workflow that has been developed for a form in the out-of-the-box version of the system. If you want to make changes to a predefined workflow, you create an inherited workflow, which is based on the predefined one, and modify it as needed. 
 
 #### Learning Objectives 
 
@@ -2116,7 +2104,7 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 
 <!-- PAGE_BREAK -->
- Working with Inherited Workflows | 57 
+ Working with Inherited Workflows | 55 
 
  Figure: The tree view of the Workflow page with the predefined workflow 
 
@@ -2134,9 +2122,11 @@ The following screenshot shows transitions on the **States and Transitions** pan
 
 
 <!-- PAGE_BREAK -->
- Working with Inherited Workflows | 58 
+ Working with Inherited Workflows | 56 
 
 **_Figure: The predefined workflow for opportunities_** 
+
+ The diagram view of the workflow shown above is available in only the Classic UI. 
 
 Suppose that in your customization efforts, you need to incorporate a process of assigning a new opportunity before giving it the _Open_ status. You need a new status, _Assigned_ , for opportunities. A user should be able to do the following: 
 
@@ -2154,7 +2144,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 
 <!-- PAGE_BREAK -->
- Working with Inherited Workflows | 59 
+ Working with Inherited Workflows | 57 
 
  Figure: The modified workflow for opportunities 
 
@@ -2162,7 +2152,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
  The following activity will walk you through the process of adding an inherited workflow for a form based on a predefined one. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2170,7 +2160,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 #### Process Overview 
 
- You will add the Opportunities (CR304000) form to the list of customized screens on the Customized Screens page of the Customization Project Editor. You will then use the Opportunities form as a starting point to create an inherited workflow for this form on the Workflows page. From this page, you will open the Workflow (Diagram View) page for the inherited workflow. 
+ You will add the Opportunities (CR304000) form to the list of customized screens on the Screens page of the Customization Project Editor. You will then use the Opportunities form as a starting point to create an inherited workflow for this form on the Workflows page. From this page, you will open the Workflow (Diagram View) page for the inherited workflow. 
 
 #### System Preparation 
 
@@ -2180,7 +2170,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 
 <!-- PAGE_BREAK -->
- Working with Inherited Workflows | 60 
+ Working with Inherited Workflows | 58 
 
  The gibbs user is assigned the Administrator role, which has sufficient access rights to customize workflows. 
 
@@ -2192,15 +2182,17 @@ The modified workflow would look like the one shown in the following screenshot.
 
  Add the Opportunities (CR304000) form to the list of customized screens as follows: 
 
-1. Open the _Opportunities_ form. 
+1. On the _Customization Projects_ (SM204505) form, click the link with the _Opportunities_ customization project. 
 
-2. On the form title bar, click **Customization > Show State Diagram**. 
+2. In the navigation pane of the Customization Project Editor, click **Screens**. 
 
-3. In the **State Diagram** dialog box, which opens, notice the predefined workflow of the form, which is shown.     Click **Customize Workflow**. 
+3. On the page toolbar of the _Screens_ page, which is opened, click **Customize Existing Screen**. 
 
-4. In the **Select Customization Project** dialog box, which opens, select the _Opportunities_ customization     project. 
+4. In the **Customize Existing Screen** dialog box, which is opened, select _Opportunities (CR304000)_. 
 
-5. Click **OK** to close the dialog box.     The CR304000 (Opportunities) Workflows page of the Customization Project Editor opens with the list     of workflows for this screen. Notice that the list contains one workflow: _Default Workflow_. This is the     predefined workflow of the form. 
+5. Click **OK** to close the dialog box.     The screen with the _CR304000_ screen ID and the _Opportunities_ title is added to the list of customized     screens. 
+
+6. In the navigation pane, click **Screens > CR304000 > Workflows**.     The CR304000 (Opportunities) Workflows page of the Customization Project Editor opens with the list     of workflows for this screen. Notice that the list contains one workflow: _Default Workflow_. This is the     predefined workflow of the form. 
 
 #### Step 2: Creating a Customized Workflow 
 
@@ -2218,13 +2210,13 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **Workflow Name** : OpportunitiesAssigned (the name of the workflow that will be displayed in the     UI) 
 
-3. Click **OK** to close the dialog box.     A row for the workflow appears in the table on the Workflows page. Notice that the workflow’s status is     _Inherited_. 
+3. Click **Add** to close the dialog box.     A row for the workflow appears in the table on the Workflows page. Notice that the workflow’s status is     _Inherited_. 
 
 4. Select the **Active** check box for the created workflow. 
 
 
 <!-- PAGE_BREAK -->
- Working with Inherited Workflows | 61 
+ Working with Inherited Workflows | 59 
 
  Notice that the Active check box has been cleared automatically for the predefined workflow ( Default Workflow ). This means that the system will not use this workflow for the form anymore, aer the customization project is published. 
 
@@ -2232,13 +2224,17 @@ The modified workflow would look like the one shown in the following screenshot.
 
 6. In the table, click the link in the **Workflow Name** column for the created workflow. The tree view of the     CR304000 (Opportunities) State Diagram: OpportunitiesAssigned page opens. 
 
-7. On the page toolbar, click **Diagram View**. 
+7. On the page title bar, click **Settings > Switch to Classic UI** , and in the **Confirm Action** dialog box, which     opens, click **Yes**.     In this lesson, you will use the Workflow page in the Classic UI. 
+
+ You can switch between the Modern UI and Classic UI on the Site Map (SM2005020) form. In the UI column, select the needed setting, save your changes, and reload the Customization Project Editor. 
+
+8. On the page toolbar, click **Diagram View**. 
 
  In future activities, you will use the diagram view of the workflow to customize the workflow that you have created. 
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 62 
+ Customizing Workflows with the Diagram View | 60 
 
 ## Customizing Workflows with the Diagram View 
 
@@ -2248,7 +2244,9 @@ The modified workflow would look like the one shown in the following screenshot.
 
  In addition to using the Workflow (Tree View) page, you can use the Workflow (Diagram View) page (also referred to as the Workflow Visual Editor ) to work with a particular workflow. 
 
- For a workflow with composite states, the diagram view is not available—that is, the Diagram View button is not displayed on the More menu of the Workflow (Tree View) page (see Composite States: General Information for details). 
+ For a workflow with composite states, the diagram view is not available—that is, the Diagram View button is not displayed on the More menu of the Workflow (Tree View) page. For details, see Composite States: General Information. 
+
+ Also, the diagram view is available in only the Classic UI. 
 
 #### Learning Objectives 
 
@@ -2274,7 +2272,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 63 
+ Customizing Workflows with the Diagram View | 61 
 
  Figure: The Workflow (Diagram View) page 
 
@@ -2302,7 +2300,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 64 
+ Customizing Workflows with the Diagram View | 62 
 
  The gibbs user is assigned the Administrator role, which has sufficient access rights to customize workflows. 
 
@@ -2330,7 +2328,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 5. Click **OK** to close the dialog box.     A box with the new state is added to the diagram. Notice that there are no transitions between this state and     the predefined states. 
 
-6. Click **Save** on the page toolbar to save your changes. 
+6. On the page toolbar, click **Save**. 
 
  You have added a new state to the workflow. 
 
@@ -2354,7 +2352,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 65 
+ Customizing Workflows with the Diagram View | 63 
 
 #### System Preparation 
 
@@ -2392,7 +2390,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 7. In the **Target State** box of the **Add Transition** dialog box, make sure _Open_ is selected, and click **OK** to close     the dialog box.     Notice that a label with the Accept action name has appeared in the box with the Assigned state. Also,     an arrow that represents the transition from the Assigned state to the Open state has appeared in the     diagram. 
 
-8. Save your changes. 
+8. On the page toolbar, click **Save**. 
 
 #### Step 2: Adding a Transition from the Assigned State to the New State 
 
@@ -2408,7 +2406,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 66 
+ Customizing Workflows with the Diagram View | 64 
 
 - **Display Name** : Reject 
 
@@ -2420,7 +2418,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 6. Click **OK** to close the dialog box. 
 
-7. Save your changes. 
+7. On the page toolbar, click **Save**. 
 
  Notice that the new transition and action have appeared in the diagram. 
 
@@ -2446,7 +2444,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 6. Click **OK** to close the dialog box. 
 
-7. Save your changes. 
+7. On the page toolbar, click **Save**. 
 
  Notice that the new transition and action have appeared in the diagram. 
 
@@ -2468,7 +2466,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 67 
+ Customizing Workflows with the Diagram View | 65 
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as system administrator by     using the _gibbs_ username and the _123_ password. 
 
@@ -2484,6 +2482,8 @@ The modified workflow would look like the one shown in the following screenshot.
 
 1. In the navigation pane, click **Screens > CR304000 > Conditions**. The Conditions: CR304000 (Opportunities)     page opens. 
 
+ This page is displayed in the Modern UI by default. You can switch it to the Classic UI by clicking Settings > Switch to Classic UI on the page title bar. 
+
 2. On the page toolbar, click **Add New Record**. 
 
 3. In the **Condition Properties** dialog box, which opens, enter OwnerSpecified as the **Condition Name**. 
@@ -2494,7 +2494,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **Condition** : _Is Not Empty_ 
 
-5. Click **OK** to save your changes and close the dialog box.     The added condition appears in the table with the conditions on the page. 
+5. Click **Save** to save your changes and close the dialog box.     The added condition appears in the table with the conditions on the page. 
 
 #### Step 2: Adding a New Transition Between States 
 
@@ -2520,11 +2520,11 @@ The modified workflow would look like the one shown in the following screenshot.
 
 8. Click **OK** to close the dialog box. 
 
-9. Save your changes. 
+9. On the page toolbar, click **Save**. 
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 68 
+ Customizing Workflows with the Diagram View | 66 
 
 #### Step 3: Modifying the Created Action 
 
@@ -2536,15 +2536,17 @@ The modified workflow would look like the one shown in the following screenshot.
 
 3. Click **OK** to close the dialog box. 
 
-4. Save your changes to the workflow. 
+4. On the page toolbar, click **Save**. 
 
 5. In the navigation pane of the Customization Project Editor, click **Screens > CR304000 > Actions**.     The CR304000 (Opportunities) Actions page opens. 
+
+ This page is displayed in the Modern UI by default. 
 
 6. In the table, click the _AutoAssign_ link. 
 
 7. In the **Hidden** box of the **Action Properties** dialog box, which opens, select _True_. 
 
-8. Click **OK** to save your changes and close the dialog box. 
+8. Click **Save** to save your changes and close the dialog box. 
 
  Aer you have performed these instructions and returned to the diagram view of the workflow, the diagram should look similar to the one in the following diagram. (The results may look slightly different on different devices.) 
 
@@ -2552,7 +2554,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 69 
+ Customizing Workflows with the Diagram View | 67 
 
 ### Diagram View: To Specify Combo Box Values for States 
 
@@ -2584,23 +2586,25 @@ The modified workflow would look like the one shown in the following screenshot.
 
 1. In the navigation pane, click **Screens > CR304000 > Fields**.     The CR304000 (Opportunities) Fields page opens. 
 
-2. On the page, notice that the table contains the Status field.     The system added this field automatically when you created the Assigned state in _Diagram View: To Add a_     _New State_. 
+ This page is displayed in the Modern UI by default. 
+
+2. On the page, notice that the table contains the STATUS field.     The system added this field automatically when you created the Assigned state in _Diagram View: To Add a_     _New State_. 
 
 3. On the page toolbar, click **Add New Record**. 
 
-4. In the **Add Field** dialog box, which is opened, specify the following settings:     a. **Container** : _Opportunity (Opportunity Summary)_     b. **DAC** : _PX.Objects.CR.CROpportunity (Opportunity)_ (specified automatically)     c. **Field Name** : _Reason_ 
-
-5. Select the unlabeled check box in the added row. 
-
-6. Click **Add & Close** to save your changes and close the dialog box. 
+4. In the **Add Field** dialog box, which is opened, specify the following settings:     a. **Container** : _Opportunity (Opportunity Summary)_     b. **DAC** : _PX.Objects.CR.CROpportunity (Opportunity)_ (specified automatically) 
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 70 
+ Customizing Workflows with the Diagram View | 68 
 
- The added field appears in the table on the CR304000 (Opportunities) Fields page. 
+ c. Field Name : Reason 
 
-7. Save your changes. 
+5. Select the unlabeled check box in the added row. 
+
+6. Click **Add & Close** to save your changes and close the dialog box.     The added field appears in the table on the CR304000 (Opportunities) Fields page. 
+
+7. On the page toolbar, click **Save**. 
 
 #### Step 2: Adding Combo Box Values 
 
@@ -2624,9 +2628,9 @@ The modified workflow would look like the one shown in the following screenshot.
 
 5. Make sure the **Active** check box is selected in both of the rows you have added. 
 
-6. Click **OK** to close the dialog box. 
+6. Click **Save** to close the dialog box. 
 
-7. Save your changes. 
+7. On the page toolbar, click **Save**. 
 
 #### Step 3: Specifying the Combo Box Values for the Open State 
 
@@ -2646,7 +2650,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 7. Click **OK** in the **State** dialog box. 
 
-8. Save your changes. 
+8. On the page toolbar, click **Save**. 
 
 #### Step 4: Specifying the Combo Box Values for the New State 
 
@@ -2656,17 +2660,17 @@ The modified workflow would look like the one shown in the following screenshot.
 
 2. On the **Fields** tab of the **State** dialog box, which opens, click the row with the Reason field name. 
 
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with the Diagram View | 69 
+
 3. On the table toolbar, click **Combo Box Values**. 
 
 4. Select the **Active** check box in the row with the _DD_ value, and click **OK** to close the dialog box. 
 
 5. Click **OK** in the **State** dialog box. 
 
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 71 
-
-6. Save your changes. 
+6. On the page toolbar, click **Save**. 
 
 ### Diagram View: To Add Dialog Boxes 
 
@@ -2704,19 +2708,21 @@ The modified workflow would look like the one shown in the following screenshot.
 
 1. In the navigation pane, click **Screens > CR304000 > Dialog Boxes**. 
 
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with the Diagram View | 70 
+
 2. On the **Dialog Boxes** pane of the CR304000 (Opportunities) Dialog Boxes page, which opens, click the plus     button. The system opens a dialog box, **New Dialog Box** , so that you can specify the name of the dialog box. 
 
-3. In the **Dialog Box Name** box of the dialog box, type FormAccept, and click **OK**. 
+ The page is displayed in the Modern UI by default. 
+
+3. In the **Dialog Box Name** box of the dialog box, type FormAccept, and click **Save**. 
 
 4. On the **Dialog Boxes** pane, click the name of the added dialog box. 
 
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 72 
-
 5. In the **Title** box on the right pane, enter Details. 
 
-6. Save your changes. 
+6. On the page toolbar, click **Save**. 
 
 #### Step 2: Adding Fields to the Dialog Box for the Accept Action 
 
@@ -2738,9 +2744,9 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **Column Span** : 1 
 
-2. Save your changes. 
+2. On the page toolbar, click **Save**. 
 
-3. Specify the combo box values for the field as follows:     a. On the table toolbar, click **Combo Box Values**.     b. In the **Combo Box Values** dialog box, which opens, select _Specify Explicitly_ in the **Source of Values** box.     c. In the table, which appears in the dialog box, select the check boxes in the **Active** column for the _IP_ ( _In_        _Process_ ) and _SV_ ( _Service_ ) values.     d. Click **OK** to close the dialog box.     e. Save your changes. 
+3. Specify the combo box values for the field as follows:     a. On the table toolbar, click **Combo Box Values**.     b. In the **Combo Box Values** dialog box, which opens, select _Specify Explicitly_ in the **Source of Values** box.     c. In the table, which appears in the dialog box, select the check boxes in the **Active** column for the _IP_ ( _In_        _Process_ ) and _SV_ ( _Service_ ) values.     d. Click **Save** to close the dialog box.     e. On the page toolbar, click **Save**. 
 
 4. In the **Dialog Box Fields** table, click **Add Row** on the table toolbar again, and specify the following settings     in the added row: 
 
@@ -2758,13 +2764,15 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **Column Span** : 1 
 
-5. Save your changes. 
+5. On the page toolbar, click **Save**. 
 
-6. On the page toolbar, click **Preview Dialog Box**.     The dialog box should look as shown in the following screenshot. 
+6. On the page toolbar, click **Preview Dialog Box**. 
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 73 
+ Customizing Workflows with the Diagram View | 71 
+
+ The dialog box should look as shown in the following screenshot. 
 
  Figure: The Details dialog box for the Accept action 
 
@@ -2806,15 +2814,15 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **Column Span** : 1 The dialog box should look as shown in the following screenshot. 
 
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with the Diagram View | 72 
+
  Figure: The Details dialog box for the Reject action 
 
 #### Step 4: Creating a Dialog Box for the Assign Action—Self-Guided Exercise 
 
  In this self-guided exercise, you will add a dialog box for the Assign action with the FormAssign name and the Details title. 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 74 
 
  You need to add to the dialog box the Owner field of the PX.Objects.CR.CROpportunity.OwnerID schema field, which is required in the dialog box. That is, when a user clicks the button or command corresponding to the Assign action, the user will need to select the owner of the opportunity in this dialog box. 
 
@@ -2836,6 +2844,10 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - While assigning the opportunity, select the owner of the opportunity Acting as the technical specialist, you need to add the dialog boxes that prompt users for this information to the Accept, Reject, and Assign actions and modify the actions so that they use the information specified in the dialog boxes. You also need to display the actions on the _Update Opportunities_ (CR503120) form for mass-processing of opportunities. You need to make the buttons that correspond to the Assign and Accept actions be displayed on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with the Diagram View | 73 
+
 #### Process Overview 
 
  In the Workflow (Diagram View) page, you will make the button that corresponds to Assign action be displayed on the page toolbar. On the Actions page, for each of the Reject, Accept, and Assign actions, you will add a dialog box. You will also add the action to the list of actions available for mass-processing of opportunities. You will then define how the action should use the values specified in the dialog box. 
@@ -2849,10 +2861,6 @@ The modified workflow would look like the one shown in the following screenshot.
  The gibbs user is assigned the Administrator role, which has sufficient access rights to customize workflows. 
 
 2. Make sure that you have learned how to add actions, as described in _Action Configuration: General_     _Information_. 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 75 
 
 3. Make sure that you have completed the _Diagram View: To Add Dialog Boxes_ activity. 
 
@@ -2868,7 +2876,11 @@ The modified workflow would look like the one shown in the following screenshot.
 
 4. Modify the Accept action as follows:     a. In the diagram, double-click the Assigned state.     b. On the **Actions** tab of the **State** dialog box, which opens, in the row with the Accept action, select the        check box in the **Duplicate on Toolbar** column.        This will make the button associated with the Accept action be displayed on the form toolbar of the        _Opportunities_ (CR304000) form when an opportunity has the _Assigned_ status.     c. Click **OK** to close the dialog box. 
 
-5. Save your changes. 
+5. On the page toolbar, click **Save**. 
+
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with the Diagram View | 74 
 
 #### Step 2: Making the Reject Action Work with the Dialog Box 
 
@@ -2896,10 +2908,6 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **Field** : _Details_ 
 
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 76 
-
 - **From Schema** : Cleared 
 
 - **New Value** : _[FormReject.Details]_ 
@@ -2912,7 +2920,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **New Value** : =Null The **New Value** setting is required to clear the **Owner** box when the status of an opportunity changes to _New_. 
 
-8. Click **OK** to save your changes and close the dialog box. 
+8. Click **Save** to save your changes and close the dialog box. 
 
 #### Step 3: Making the Accept Action Work with the Dialog Box—Self-Guided Exercise 
 
@@ -2938,6 +2946,10 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **From Schema** : Cleared 
 
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with the Diagram View | 75 
+
 - **New Value** : _[FormAccept.Stage]_ 
 
 #### Step 4: Making the Assign Action Work with the Dialog Box—Self-Guided Exercise 
@@ -2957,10 +2969,6 @@ The modified workflow would look like the one shown in the following screenshot.
 - **From Schema** : Cleared 
 
 - **New Value** : _[FormAssign.Owner]_ 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 77 
 
 ### Diagram View: To Remove Unneeded Parts of the Workflow 
 
@@ -2988,7 +2996,13 @@ The modified workflow would look like the one shown in the following screenshot.
 
  In this step, you will remove the transition from the New state to the Open state. In the Customization Project Editor for the Opportunities customization project, perform the following instructions: 
 
-1. In the navigation pane, click **Screens > CR304000 > Workflows > OpportunitiesAssigned**.     The CR304000 (Opportunities) State Diagram: OpportunitiesAssigned page opens. 
+1. In the navigation pane, click **Screens > CR304000 > Workflows > OpportunitiesAssigned**. 
+
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with the Diagram View | 76 
+
+ The CR304000 (Opportunities) State Diagram: OpportunitiesAssigned page opens. 
 
 2. On the page toolbar, click **Diagram View** to switch to the diagram view of the workflow. 
 
@@ -3006,17 +3020,13 @@ The modified workflow would look like the one shown in the following screenshot.
 
 1. In the diagram, click the More button in the box with the New state, and click **Edit State** on the More menu. 
 
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 78 
-
 2. On the **Actions** tab of the **State** dialog box, which opens, clear the check box in the **Active** column in the row     with the Open action. 
 
  You cannot delete the Open action because it is a system action; therefore, you need to deactivate it. 
 
 3. Click **OK** to close the dialog box. 
 
-4. Save your changes. 
+4. On the page toolbar, click **Save**. 
 
 ### Diagram View: To Adjust the System State 
 
@@ -3038,6 +3048,10 @@ The modified workflow would look like the one shown in the following screenshot.
 
  The gibbs user is assigned the Administrator role, which has sufficient access rights to customize workflows. 
 
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with the Diagram View | 77 
+
 2. Make sure that you have completed the _Diagram View: To Remove Unneeded Parts of the Workflow_ activity. 
 
 #### Step: Updating the System State 
@@ -3056,15 +3070,11 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **Field Name** : _Owner_ 
 
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 79 
-
 - **Required** : Selected 
 
 5. Click **OK** to close the dialog box. 
 
-6. Save your changes. 
+6. On the page toolbar, click **Save**. 
 
 ### Diagram View: To Test the Inherited Workflow 
 
@@ -3090,6 +3100,10 @@ The modified workflow would look like the one shown in the following screenshot.
 
 3. Make sure that you have completed the _Diagram View: To Adjust the System State_ activity. 
 
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with the Diagram View | 78 
+
 #### Step 1: Publishing the Customization Project 
 
  Publish your customization project as follows: 
@@ -3109,10 +3123,6 @@ The modified workflow would look like the one shown in the following screenshot.
  In Acumatica ERP, test your changes as follows: 
 
 1. Open the _Opportunities_ (CR304000) form. If you already have the form open, refresh it. 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with the Diagram View | 80 
 
 2. Create an opportunity with the following settings: 
 
@@ -3156,13 +3166,19 @@ The modified workflow would look like the one shown in the following screenshot.
 
 3. On the More menu (under **Actions** ), click **Reject**. 
 
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with the Diagram View | 79 
+
 4. In the **Details** dialog box, which opens, specify the reason for rejection in the **Reason** box ( _Delivery Date_ ) and     any text in the **Details** box, such as Delivery has been delayed. 
 
-5. Click **OK** to save your changes and close the dialog box.     Notice that the status of the opportunity has changed to _New_ , and the **Owner** box has become empty again. 
+5. Click **OK** to save your changes and close the dialog box. 
+
+ Notice that the status of the opportunity has changed to New , and the Owner box has become empty again. 
 
 
 <!-- PAGE_BREAK -->
- Using Composite States | 81 
+ Using Composite States | 80 
 
 ## Using Composite States 
 
@@ -3204,7 +3220,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 
 <!-- PAGE_BREAK -->
- Using Composite States | 82 
+ Using Composite States | 81 
 
  If no skip condition is specified, the system uses the configuration for this workflow state. This means that the transitions are triggered only by actions or event handlers, and the system does not check the skip condition again while the workflow for the record remains in this state. 
 
@@ -3220,15 +3236,15 @@ The modified workflow would look like the one shown in the following screenshot.
 
  For a workflow with composite states, the diagram view of the page is not available, and the Diagram View button is not displayed on the More menu of the Workflow (Tree View) page. 
 
+
+<!-- PAGE_BREAK -->
+ Using Composite States | 82 
+
 ### Composite States: To Modify a Workflow with a Composite State 
 
  The following activity will walk you through the process of modifying a composite state in the invoice workflow. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-
-<!-- PAGE_BREAK -->
- Using Composite States | 83 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3258,6 +3274,10 @@ The modified workflow would look like the one shown in the following screenshot.
 
 4. On the _Customization Projects_ (SM204505) form, create a customization project named _Invoices_. 
 
+
+<!-- PAGE_BREAK -->
+ Using Composite States | 83 
+
 #### Step 1: Adding a Form to the List of Customized Screens 
 
  Add the Invoices (SO303000) form to the list of customized screens as follows: 
@@ -3272,11 +3292,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 5. In the **Customize Existing Screen** dialog box, which is opened, select _Invoices_. 
 
-
-<!-- PAGE_BREAK -->
- Using Composite States | 84 
-
-6. Click **OK** to close the dialog box.     The Screen Editor: SO303000 (Invoices) page of the Customization Project Editor opens. 
+6. Click **OK** to close the dialog box. 
 
 #### Step 2: Creating an Inherited Workflow for the Form 
 
@@ -3296,7 +3312,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **Workflow Name** : Invoices (the name of the workflow that will be displayed on the Workflow page) 
 
-4. Click **OK** to close the dialog box.     A row for the workflow appears in the table on the Workflows page. Notice that the workflow’s status is     _Inherited_ , which means that this workflow is based on a predefined workflow. 
+4. Click **Add** to close the dialog box.     A row for the workflow appears in the table on the Workflows page. Notice that the workflow’s status is     _Inherited_ , which means that this workflow is based on a predefined workflow. 
 
 5. Select the **Active** check box for the created workflow.     Notice that the **Active** check box has been cleared automatically for the predefined workflow ( _Default_     _Workflow_ ). This means that the system will not use this workflow for the form anymore. 
 
@@ -3316,6 +3332,10 @@ The modified workflow would look like the one shown in the following screenshot.
 
 4. On the table toolbar, add a row with the following settings: 
 
+
+<!-- PAGE_BREAK -->
+ Using Composite States | 84 
+
 - **Field Name** : _Discount Total (OrderDiscTotal)_ 
 
 - **Condition** : _Equals_ 
@@ -3326,11 +3346,7 @@ The modified workflow would look like the one shown in the following screenshot.
 
 5. Make sure the **Active** check box is selected for the added row. 
 
-6. Click **OK** to save your changes and close the dialog box.     The added condition appears in the list of conditions on the Conditions: SO303000 (Invoices) page. 
-
-
-<!-- PAGE_BREAK -->
- Using Composite States | 85 
+6. Click **Save** to save your changes and close the dialog box.     The added condition appears in the list of conditions on the Conditions: SO303000 (Invoices) page. 
 
 #### Step 4: Adding a Nested State 
 
@@ -3348,13 +3364,13 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **Parent State** : _H->B_ 
 
-4. Click **OK** to close the dialog box.     In the **States and Transitions** pane, the system adds the Postponed state aer the last nested state     (Balanced in this case). 
+4. Click **Add** to close the dialog box.     In the **States and Transitions** pane, the system adds the Postponed state aer the last nested state     (Balanced in this case). 
 
 5. With Postponed selected in the pane, use the arrows on the pane toolbar to move the added state aer     the Credit Hold state. 
 
 6. With the Postponed state still selected, select _DiscountEmpty_ in the **Skip Condition** box of the **State**     **Properties** tab.     If the condition is fulfilled (that is, if the value in the **Cash Discount** box is _0_ ) and a document is ready to     enter the Postponed state, it then skips this state and automatically moves to the next state (Pending     Print in this case). 
 
-7. Save your changes. 
+7. On the page toolbar, click **Save**. 
 
 #### Step 5: Adding a Transition 
 
@@ -3374,11 +3390,17 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **Category** : _Processing_ 
 
-5. Click **OK** to close the **New Action** dialog box. 
+5. Click **Save** to close the **New Action** dialog box. 
 
-6. In the **Target State** box of the **Add Transition** dialog box, select _@Next_.     This setting indicates that the transition will lead to the next state in the sequence (Pending Print in     this case). 
+6. In the **Target State** box of the **Add Transition** dialog box, select _@Next_. 
 
-7. Click **OK** to close the dialog box.     The system adds the transition to the **Transitions** node of the Postponed state. 
+
+<!-- PAGE_BREAK -->
+ Using Composite States | 85 
+
+ This setting indicates that the transition will lead to the next state in the sequence (Pending Print in this case). 
+
+7. Click **Add** to close the dialog box.     The system adds the transition to the **Transitions** node of the Postponed state. 
 
 8. In the **States and Transitions** pane, click the Postponed state. 
 
@@ -3386,15 +3408,11 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **Active** : Selected 
 
-
-<!-- PAGE_BREAK -->
- Using Composite States | 86 
-
 - **Field Name** : _Cash Discount Date_ 
 
 - **From Schema** : Cleared 
 
-- **New Value** : =Now() Each time a document leaves the Postponed state, the value of the Cash Discount Date field changes to the business date. This happens when the document moves to another state because the transition has been triggered by the Discount Approved action. 10.Save your changes. 
+- **New Value** : =Now() Each time a document leaves the Postponed state, the value of the Cash Discount Date field changes to the business date. This happens when the document moves to another state because the transition has been triggered by the Discount Approved action. 10.On the page toolbar, click **Save**. 
 
 #### Step 6: Publishing the Customization Project 
 
@@ -3424,7 +3442,13 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **Quantity** : 20 c. On the form toolbar, click **Save**. d. In the **Document Discounts** box of the Summary area of the form, enter 5. e. On the form toolbar, click **Remove Hold**. The status of the invoice changes to _Postponed_. f. On the More menu, click **Discount Approved**. The status of the invoice changes to _Balanced_ , and the value in the **Cash Discount Date** box is the business date. 
 
-3. Test the workflow for an invoice that does not require discount approval:     a. Create another invoice for the customer with the _GROCERIEX_ ID.     b. On the tab toolbar of the **Details** tab, click **Add Row** , and specify the following settings in the added row: 
+
+<!-- PAGE_BREAK -->
+ Using Composite States | 86 
+
+3. Test the workflow for an invoice that does not require discount approval: 
+
+ a. Create another invoice for the customer with the GROCERIEX ID. b. On the tab toolbar of the Details tab, click Add Row , and specify the following settings in the added row: 
 
 - **Branch** : _HEADOFFICE_ (specified automatically) 
 
@@ -3434,21 +3458,11 @@ The modified workflow would look like the one shown in the following screenshot.
 
 - **Location** : _Main_ 
 
-- **Quantity** : 7 
+- **Quantity** : 7 c. On the form toolbar, click **Save**. d. On the form toolbar, click **Remove Hold**. The status of the invoice changes to _Balanced_. Because you have not specified any value in the **Document Discounts** box, the system skipped the Postponed state and moved the invoice to the next state in the composite state (Balanced in this case). 
 
 
 <!-- PAGE_BREAK -->
- Using Composite States | 87 
-
-c. On the form toolbar, click **Save**. 
-
-d. On the form toolbar, click **Remove Hold**. 
-
- The status of the invoice changes to Balanced. Because you have not specified any value in the Document Discounts box, the system skipped the Postponed state and moved the invoice to the next state in the composite state (Balanced in this case). 
-
-
-<!-- PAGE_BREAK -->
- Configuring Event Handlers | 88 
+ Configuring Event Handlers | 87 
 
 ## Configuring Event Handlers 
 
@@ -3476,7 +3490,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 
 <!-- PAGE_BREAK -->
- Configuring Event Handlers | 89 
+ Configuring Event Handlers | 88 
 
  Figure: The Event Handler Properties dialog box 
 
@@ -3498,7 +3512,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 
 <!-- PAGE_BREAK -->
- Configuring Event Handlers | 90 
+ Configuring Event Handlers | 89 
 
 ### Event Handlers: To Invoke Events Triggered by Field Changes 
 
@@ -3542,7 +3556,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 
 <!-- PAGE_BREAK -->
- Configuring Event Handlers | 91 
+ Configuring Event Handlers | 90 
 
  The Screen Editor (CR306000) Cases page of the Customization Project Editor opens. Notice that the system has added the screen to this page. 
 
@@ -3592,7 +3606,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 
 <!-- PAGE_BREAK -->
- Configuring Event Handlers | 92 
+ Configuring Event Handlers | 91 
 
 #### Step 4: Adding a Transition 
 
@@ -3644,7 +3658,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 93 
+ Customizing Workflows with a Workflow-Identifying Field | 92 
 
 ## Customizing Workflows with a Workflow-Identifying Field 
 
@@ -3680,7 +3694,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 94 
+ Customizing Workflows with a Workflow-Identifying Field | 93 
 
  The Type Identifier box is unavailable for the forms that contain active workflows that use the option in this box as the workflow type. 
 
@@ -3700,27 +3714,29 @@ d. On the form toolbar, click **Remove Hold**.
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 95 
+ Customizing Workflows with a Workflow-Identifying Field | 94 
 
- Figure: The Workflows page 
+**_Figure: The Workflows page_** 
 
- Suppose that in your customization efforts, you need to implement the following changes to the workflow of sales orders on the Sales Orders form: 
+Suppose that in your customization efforts, you need to implement the following changes to the workflow of sales orders on the _Sales Orders_ form: 
 
 - The system should release a new sales order from hold automatically if the **Order Total** is less than $800. 
 
 - The system should put a sales order with any status on hold if the **Order Total** is greater than or equal to     $800. 
 
-- If a sales order with the **Order Total** greater than or equal to $800 has been manually removed from hold     once, it should not be possible to put this sales order on hold again, even if its **Order Total** has been     increased. To implement these changes, you need to customize the workflow of the _SO_ workflow type for the _Sales Orders_ form. Because the system does not store information about whether the sales order has been reviewed or whether it has been put on hold manually, you need to create user-defined fields for the workflow of sales orders with the _SO_ type. One field will be used to check if a sales order has been put on hold manually, and another to check whether it has already been removed from hold. You need to implement conditions that use these user-defined fields and automate transitions by using these conditions. You also need to modify system actions so that they can change the values of these custom fields. 
+- If a sales order with the **Order Total** greater than or equal to $800 has been manually removed from hold     once, it should not be possible to put this sales order on hold again, even if its **Order Total** has been     increased. 
+
+To implement these changes, you need to customize the workflow of the _SO_ workflow type for the _Sales Orders_ form. Because the system does not store information about whether the sales order has been reviewed or whether it has been put on hold manually, you need to create user-defined fields for the workflow of sales orders with the _SO_ type. One field will be used to check if a sales order has been put on hold manually, and another to check whether it has already been removed from hold. You need to implement conditions that use these user-defined fields and automate transitions by using these conditions. You also need to modify system actions so that they can change the values of these custom fields. 
+
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 95 
 
 ### Workflow-Identifying Fields: To Create an Inherited Workflow 
 
  The following activity will walk you through the process of creating an inherited workflow for the Sales Orders (SO301000) form based on a predefined one. You will modify this workflow in other activities of this chapter to fit the company's preferred workflow for sales orders. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 96 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3728,7 +3744,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 #### Process Overview 
 
- By using the Customized Screens page, you will add the Sales Orders (SO301000) form to the list of customized screens. You will then create a customized workflow for it based on a predefined one by using the Workflows page. 
+ By using the Screens page, you will add the Sales Orders (SO301000) form to the list of customized screens. You will then create a customized workflow for it based on a predefined one by using the Workflows page. 
 
 #### System Preparation 
 
@@ -3742,31 +3758,33 @@ d. On the form toolbar, click **Remove Hold**.
 
 3. On the _Customization Projects_ form, create a customization project named _SalesOrdersCheckHold_. 
 
-4. Open the _Order Types_ (SO201000) form, and do the following:     a. Select the _SO_ order type.     b. On the **General** tab, select the **Hold Orders on Entry** check box.     c. Save your changes. 
+4. Open the _Order Types_ (SO201000) form, and do the following:     a. Select the _SO_ order type.     b. On the **General** tab, select the **Hold Orders on Entry** check box.     c. On the form toolbar, click **Save**. 
 
 #### Step 1: Adding a Screen to the List of Customized Screens 
 
  You will add the screen corresponding to the Sales Orders (SO301000) form to the list of customized screens as follows: 
 
-1. Open the _Sales Orders_ form, and on the form title bar, click **Customization > Show State Diagram**. 
+1. On the _Customization Projects_ (SM204505) form, click the link with the _SalesOrdersCheckHold_ customization     project. 
 
-2. In the **State Diagram** dialog box, which opens, click **Customize Workflow**. 
+2. In the navigation pane of the Customization Project Editor, click **Screens**. 
 
-3. In the **Select Customization Project** dialog box, which opens, select the _SalesOrdersCheckHold_     customization project. 
 
-4. Click **OK** to close the dialog box.     The SO301000 (Sales Orders) Workflows page of the Customization Project Editor opens. Notice that the     table on the page contains multiple predefined workflows. 
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 96 
+
+3. On the page toolbar of the _Screens_ page, which is opened, click **Customize Existing Screen**. 
+
+4. In the **Customize Existing Screen** dialog box, which is opened, select _Sales Orders (SO301000)_. 
+
+5. Click **OK** to close the dialog box.     The screen with the _SO301000_ screen ID and the _Sales Orders_ title is added to the list of customized screens. 
+
+6. In the navigation pane, click **Screens > SO301000 > Workflows**.     The SO301000 (Sales Orders) Workflows page of the Customization Project Editor opens. Notice that the     table on the page contains multiple predefined workflows 
 
 #### Step 2: Creating an Inherited Workflow for the Form 
 
  Create an inherited workflow for the Sales Orders (SO301000) form as follows: 
 
-1. While you are still on the SO301000 (Sales Orders) Workflows page, notice that the option in the **Type**     **Identifier** box is _Behavior_. 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 97 
-
- This box is unavailable because the Sales Orders form contains active workflows that use the option in this box as the workflow type. 
+1. While you are still on the SO301000 (Sales Orders) Workflows page, notice that the option in the **Type**     **Identifier** box is _Behavior_.     This box is unavailable because the _Sales Orders_ form contains active workflows that use the option in this     box as the workflow type. 
 
 2. On the page toolbar, click **Add Workflow**. 
 
@@ -3782,7 +3800,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 - **Workflow Name** : Sales Order 
 
-4. Click **OK** to close the dialog box.     A row for the workflow appears in the table on the Workflows page. Notice that the workflow status is     _Inherited_ , and that in the **Base System Workflow** column, _SO Workflow_ is specified for it. 
+4. Click **Add** to close the dialog box.     A row for the workflow appears in the table on the Workflows page. Notice that the workflow status is     _Inherited_ , and that in the **Base System Workflow** column, _SO Workflow_ is specified for it. 
 
 5. Select the **Active** check box in the row of the workflow you created.     Notice that the **Active** check box is still selected for the predefined workflow ( _SO Workflow_ ). 
 
@@ -3792,11 +3810,19 @@ d. On the form toolbar, click **Remove Hold**.
 
 8. In the table, click the link in the **Workflow Name** column for the created workflow.     The SO301000 (Sales Orders) State Diagram: Sales Order page opens. 
 
+9. On the page title bar, click **Settings > Switch to Classic UI** , and in the **Confirm Action** dialog box, which     opens, click **Yes**.     In this activity, you will use the Workflow page in the Classic UI. 
+
 ### Workflow-Identifying Fields: To Add Conditions with User-Defined Fields 
 
  The following activity will walk you through the process of creating workflow conditions with user-defined fields. 
 
- User-defined fields are fields an organization can add directly to the Acumatica ERP data entry forms to gather information that is important to the organization but does not already appear on the form. The fields can be displayed on the User-Defined Fields tab if the user should enter their values, or they can be hidden if they will be used internally. These fields are based on predefined and site-specific attributes that have been defined in the system. For details on user-defined fields, see Managing Attributes and User-Defined Fields. 
+ User-defined fields are fields an organization can add directly to the Acumatica ERP data entry forms to gather information that is important to the organization but does not already appear on the form. The fields can be 
+
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 97 
+
+ displayed on the User-Defined Fields tab if the user should enter their values, or they can be hidden if they will be used internally. These fields are based on predefined and site-specific attributes that have been defined in the system. For details on user-defined fields, see Managing Attributes and User-Defined Fields. 
 
 #### Story 
 
@@ -3805,10 +3831,6 @@ d. On the form toolbar, click **Remove Hold**.
 - _TotalMoreThan800_ , which will be used to automatically put a sales order on hold if its **Order Total** is greater     than $800 and the sales order has not been yet reviewed 
 
 - _TotalLessThan800_ , which will be used to automatically remove a sales order from hold if its **Order Total** is     less than $800 and it has not been put on hold manually The system does not store information about whether the sales order has been reviewed or whether it has been put on hold manually. Therefore, you need to create user-defined fields for the workflow of sales orders with the _SO_ order type. One user-defined field will be used to check if a sales order has been put on hold manually, and another will be used to check whether it has already been removed from hold. Because these fields will be used only internally, you will define them to be hidden. 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 98 
 
 #### Process Overview 
 
@@ -3840,7 +3862,13 @@ d. On the form toolbar, click **Remove Hold**.
 
 - **Description** : SO On Hold 
 
-- **Control Type** : _Checkbox_ You will use this attribute to check whether a sales order has been put on hold manually, and to keep the sales order on hold if its **Order Total** is less than $800. 
+- **Control Type** : _Checkbox_ 
+
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 98 
+
+ You will use this attribute to check whether a sales order has been put on hold manually, and to keep the sales order on hold if its Order Total is less than $800. 
 
 2. On the form toolbar, click **Save**. 
 
@@ -3860,31 +3888,41 @@ d. On the form toolbar, click **Remove Hold**.
 
 1. Open the _Sales Orders_ (SO301000) form. 
 
+2. On the form title bar, click **Settings > Screen Configuration**. 
+
+3. In the Form Configuration pane, click **Manage User-Defined Fields**.     The **Manage User-Defined Field Fields** dialog box opens. 
+
+4. On the table toolbar of the **Added User-Defined Fields** pane, click **Add Row**. 
+
+5. In the lookup table for the added row, select _SOONHOLD_. 
+
+6. On the table toolbar, click **Add Row** again, and select _SOREVIEW_ in the added row. 
+
+7. Click **Apply** to close the dialog box. 
+
+8. Click the Settings button in the top-right corner of the group of elements with the **Customer** box.     The **Section Configuration** dialog box opens 
+
+9. In the **Available Elements** section, click the **SO On Hold** field under the **User-Defined Fields** node, and     then click the arrow button to add the field to the **Selected Elements** pane. 10.Repeat the instructions for the **SO Reviewed** field. 11.Click **Apply**. 12.On the form title bar, click **Apply to All**. 13.In the **Apply to All** dialog box, which opens, click **Overwrite Personal Configuration**.     The new fields are added to the Summary area of the form. 
+
+ For specified types of sales orders, you can control whether each added user-defined field is required, whether it is hidden, and whether its default value should be used. To do so, you use the Properties pane of the Manage User-Defined Field Fields dialog box. In the table on this pane, you select any of the following check boxes for each field for the needed sales order type: Required , Hidden , and Default Value. 
+
+#### Step 3 (Optional): Adding the Form Configuration to the Customization Project 
+
+ As an optional step, you can add the form configuration (which contains the user-defined fields) to your customization project. In this case, it will be possible to export the customization project and then import and publish it on another instance without the need to create and add user-defined fields on this instance manually. Do the following: 
+
 
 <!-- PAGE_BREAK -->
  Customizing Workflows with a Workflow-Identifying Field | 99 
 
-2. On the form title bar, click **Customization > Manage User-Defined Fields**. 
-
-3. On the _Edit User-Defined Fields_ (CS205020) form, which opens, add user-defined fields for the created     attributes as follows:     a. On the form toolbar, click **Add User-Defined Field**.     b. In the **Attribute ID** box of the **User-Defined Field Parameters** dialog box, which opens, select        _SOONHOLD_.     c. Click **OK** to save your changes and close the dialog box.     d. On the form toolbar, click **Add User-Defined Field** again.     e. In the **Attribute ID** box of the **User-Defined Field Parameters** dialog box, select _SOREVIEW_.     f. Click **OK** to save your changes and close the dialog box. 
-
-4. Click the back arrow to save the added fields and return to the _Sales Orders_ form. 
-
- For specified types of sales orders, you can control whether each added user-defined field is disabled, whether it is required, and whether it is hidden. To do so, you use the Properties tab of the Edit UserDefined Fields (CS205020) form. On the tab, you select the needed sales order type in the Order Type box. In the table with the user-defined fields, you can then select any of the following check boxes for each field: Required , Hidden , and Disabled. 
-
-#### Step 3 (Optional): Adding the User-Defined Fields to the Customization Project 
-
- As an optional step, you can add the user-defined fields you have created to your customization project. In this case, it will be possible to export the customization project and then import and publish it on another instance without the need to create user-defined fields on this instance manually. To add the fields to the customization project, do the following: 
-
 1. For the _SalesOrdersCheckHold_ customization project, in which you have created a customized workflow in     _Workflow-Identifying Fields: To Create an Inherited Workflow_ , open the Customization Project Editor. 
 
-2. In the navigation pane, click **User-Defined Fields**.     The _User-Defined Fields_ page opens. 
+2. In the navigation pane, click **Screen Configurations**.     The _Screen Configurations_ page opens. 
 
 3. On the page toolbar, click **Add New Record**. 
 
-4. In the **Add User-Defined Fields** dialog box, which opens, select the unlabeled check boxes in the rows with     the SOONHOLD and SOREVIEW attribute IDs. 
+4. In the **Add Screen Configurations** dialog box, which opens, select the unlabeled check box in the row with     the SO301000 screen ID. 
 
-5. Click **Save** to close the dialog box and save your changes.     The selected user-defined fields have been added to the customization project. 
+5. Click **Save** to close the dialog box and save your changes.     The selected form configuration is added to the customization project. 
 
 #### Step 4: Hiding the User-Defined Fields from the Form 
 
@@ -3899,10 +3937,6 @@ d. On the form toolbar, click **Remove Hold**.
 - **Container** : _Document (Order Summary)_ 
 
 - **DAC** : _PX.Objects.SO.SOOrder (Sales Order)_ (specified automatically) 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 100 
 
 - **Field Name** : _SO On Hold_ 
 
@@ -3928,6 +3962,10 @@ d. On the form toolbar, click **Remove Hold**.
 
  10.Save your changes. The SO30100 (Sales Orders) Fields page with the added fields should look as shown in the following screenshot. 
 
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 100 
+
  Figure: The SO30100 (Sales Orders) Fields page 
 
 #### Step 5: Adding Conditions 
@@ -3942,10 +3980,6 @@ d. On the form toolbar, click **Remove Hold**.
 
 4. Add two rows with the following settings. 
 
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 101 
-
  Field Name Condition From Schema Value Operator 
 
  Order Total Is Greater Than or Equal To Selected 800 And 
@@ -3954,9 +3988,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 5. Make sure that the **Active** check box is selected for the added rows. 
 
-6. Click **OK** to save your changes and close the dialog box. 
-
- The added condition appears in the list of conditions on the Conditions: SO30100 (Sales Orders) page. 
+6. Click **Save** to save your changes and close the dialog box.     The added condition appears in the list of conditions on the Conditions: SO30100 (Sales Orders) page. 
 
 7. By using instructions that are similar to Instructions 2 through 6, add the TotalLessThan800 condition     to check whether the **Order Total** is less than $800. Specify the following settings in the rows of the     **Conditions Properties** for this condition. 
 
@@ -3968,11 +4000,11 @@ d. On the form toolbar, click **Remove Hold**.
 
  The condition should look as shown in the following screenshot. 
 
- Figure: The TotalLessThan800 condition 
-
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 102 
+ Customizing Workflows with a Workflow-Identifying Field | 101 
+
+ Figure: The TotalLessThan800 condition 
 
 ### Workflow-Identifying Fields: To Automate Transitions by Using Conditions (in the 
 
@@ -3998,6 +4030,10 @@ d. On the form toolbar, click **Remove Hold**.
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as system administrator by     using the _gibbs_ username and the _123_ password. 
 
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 102 
+
  The gibbs user is assigned the Administrator role, which has sufficient access rights to customize workflows. 
 
 2. Make sure that you have learned how to add actions and transitions, as described in _Action Configuration:_     _General Information_ and _Conditions and Transitions: General Information_. 
@@ -4012,10 +4048,6 @@ d. On the form toolbar, click **Remove Hold**.
 
 2. In the **States and Transition** pane, click the On Hold state. 
 
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 103 
-
 3. On the page toolbar, click **Add Transition**. 
 
 4. In the **Add Transition** dialog box, which opens, click **Create** to the right of the **Trigger Name** box to add a     new action. 
@@ -4026,19 +4058,23 @@ d. On the form toolbar, click **Remove Hold**.
 
 - **Display Name** : Total Less Than 800 
 
-6. Click **OK** to close the dialog box. 
+6. Click **Save** to close the dialog box. 
 
 7. In the **Target State** box of the **Add Transition** dialog box, select _Open_ , and make sure that the action you     have created is specified in the **Trigger Name** box. 
 
-8. Click **OK** to close the dialog box.     Notice that the new transition is added to the On Hold state and is now listed in the **States and**     **Transitions** pane below the other transitions from this state. Also notice that on the **Actions** tab of the On     Hold state, the Total Less Than 800 action that you have created is added to the table below the     other actions of this state. 
+8. Click **Add** to close the dialog box.     Notice that the new transition is added to the On Hold state and is now listed in the **States and**     **Transitions** pane below the other transitions from this state. Also notice that on the **Actions** tab of the On     Hold state, the Total Less Than 800 action that you have created is added to the table below the     other actions of this state. 
 
-9. Save your changes. 
+9. On the page toolbar, click **Save**. 
 
  Instead of using the existing Remove Hold action, you have added the Total Less Than 800 action to distinguish between the following cases: 
 
 - A sales order has been reviewed and removed from hold manually.     In this case, the system selects the **SO Reviewed** check box on the _Sales Orders_ (SO301000) form for the     sales order. 
 
 - A sales order has been removed from hold automatically because its **Order Total** is less than $800 and it has     never been put on hold manually.     The system does not select the **SO Reviewed** check box on the _Sales Orders_ (SO301000) form in this case;     instead, it performs the added Total Less Than 800 action. You added the Total Less Than 800 action because when the system performs the existing Remove Hold action, you want it to select the **SO Reviewed** check box so that it does not put a sales order on hold again. (This is the first case from the list above.) When the status of a sales order changes to _Open_ automatically (which is the second case from the list), you want the system to leave this check box cleared. 
+
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 103 
 
 #### Step 2: Duplicating Settings of the Predefined Transition in the Added Transition 
 
@@ -4056,13 +4092,9 @@ d. On the form toolbar, click **Remove Hold**.
 
 - **New Value** : Selected 
 
-4. Save your changes. 
+4. On the page toolbar, click **Save**. 
 
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 104 
-
- The custom transition from the On Hold state to the Open state should have the same settings as the respective transition triggered by the predefined Remove Hold action. Thus, you have adjusted the new transition by duplicating the settings of the respective transition triggered by the predefined action. 
+ The custom transition from the On Hold state to the Open state should have the same settings as the respective transition triggered by the predefined Remove Hold action. 
 
 #### Step 3: Duplicating the Settings of the Predefined Action in the Added Action 
 
@@ -4088,11 +4120,11 @@ d. On the form toolbar, click **Remove Hold**.
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 105 
+ Customizing Workflows with a Workflow-Identifying Field | 104 
 
  Figure: The Action Properties dialog box 
 
-4. Click **OK** to close the dialog box. 
+4. Click **Save** to close the dialog box. 
 
 #### Step 4: Automating the Action Execution 
 
@@ -4106,9 +4138,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 3. On the **Actions** tab, click the row with the Total Less Than 800 action, and select _TotalLessThan800_ in     the **Auto-Run Condition** column. 
 
-4. Save your changes. 
-
- If you switch to the diagram view of the SO301000 (Sales Orders) State Diagram: Sales Order page, you can notice that the added transition from the On Hold state to the Open state (which is triggered by the Total Less Than 800 action) has a lightning rod displayed above it. This symbol indicates that the action that triggers this transition contains an auto-run condition. 
+4. On the page toolbar, click **Save**. 
 
 #### Step 5: Adding a Transition from the On Hold State to the Pending Processing State 
 
@@ -4116,7 +4146,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 
 <!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 106 
+ Customizing Workflows with a Workflow-Identifying Field | 105 
 
 1. In the **States and Transitions** pane, click the On Hold state. 
 
@@ -4130,9 +4160,9 @@ d. On the form toolbar, click **Remove Hold**.
 
 - **Target State** : _Pending Processing_ 
 
-4. Click **OK** to close the dialog box. 
+4. Click **Add** to close the dialog box. 
 
-5. Save your changes. 
+5. On the page toolbar, click **Save**. 
 
  The transition from the On Hold state to the Pending Processing state should have the same properties as the respective transition triggered by the predefined Remove Hold action. Thus, you have added this transition by duplicating the respective transition triggered by this predefined action. 
 
@@ -4152,9 +4182,9 @@ d. On the form toolbar, click **Remove Hold**.
 
 - **Target State** : _Awaiting Payment_ 
 
-4. Click **OK** to close the dialog box. 
+4. Click **Add** to close the dialog box. 
 
-5. Save your changes. 
+5. On the page toolbar, click **Save**. 
 
  The transition from the On Hold state to the Awaiting Payment state should have the same properties as the respective transition triggered by the predefined Remove Hold action. Thus, you have added this transition by duplicating the respective transition triggered by this predefined action. 
 
@@ -4164,6 +4194,12 @@ d. On the form toolbar, click **Remove Hold**.
 
  The following activity will walk you through the process of adding to the workflow new transitions that are performed automatically when conditions are met. You will use the Workflow (Diagram View) page to perform this activity. 
 
+ The diagram view is available in only the Classic UI. 
+
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 106 
+
 #### Story 
 
  In the predefined sales order workflow, when a user clicks Hold on the form toolbar or More menu of the Sales Orders (SO301000) form, the Hold (putOnHold) action triggers transitions to the On Hold state from any of the following states: 
@@ -4171,10 +4207,6 @@ d. On the form toolbar, click **Remove Hold**.
 - Credit Hold 
 
 - Pending Processing 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 107 
 
 - Awaiting Payment 
 
@@ -4206,29 +4238,31 @@ d. On the form toolbar, click **Remove Hold**.
 
 1. In the navigation pane, click **Screens > SO301000 > Workflows > Sales Order**.     The SO301000 (Sales Orders) State Diagram: Sales Order page opens. 
 
-2. On the page toolbar, click **Diagram View**. 
+2. On the page title bar, click **Settings > Switch to Classic UI** , and in the **Confirm Action** dialog box, which     opens, click **Yes**.     In this activity, you will use the Workflow page in the Classic UI. 
 
-3. In the box with the Open state, click and hold the plus button, and draw a line from the box with the Open     state to the box with the On Hold state. 
 
-4. In the **Add Transition** dialog box, which opens, click **Create** to the right of the **Trigger Name** box to add a     new action. 
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 107 
 
-5. In the **New Action** dialog box, which opens, specify the following settings: 
+3. On the page toolbar, click **Diagram View**. 
+
+4. In the box with the Open state, click and hold the plus button, and draw a line from the box with the Open     state to the box with the On Hold state. 
+
+5. In the **Add Transition** dialog box, which opens, click **Create** to the right of the **Trigger Name** box to add a     new action. 
+
+6. In the **New Action** dialog box, which opens, specify the following settings: 
 
 - **Action Name** : putOnHoldAuto 
 
 - **Display Name** : putOnHoldAuto (specified automatically) 
 
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 108 
-
  You do not need to specify the display name for the action because this action will not be displayed in the UI. 
 
-6. Click **OK** to close the dialog box. 
+7. Click **OK** to close the dialog box. 
 
-7. In the **Target State** box of the **Add Transition** dialog box, make sure that _On Hold_ is selected, and click **OK** ,     which closes the dialog box.     Notice that a label with the putOnHoldAuto action name has appeared in the box with the Open state.     Also, an arrow, which represents the transition from the Open state to the On Hold state, has appeared in     the diagram. 
+8. In the **Target State** box of the **Add Transition** dialog box, make sure that _On Hold_ is selected, and click **OK** ,     which closes the dialog box.     Notice that a label with the putOnHoldAuto action name has appeared in the box with the Open state.     Also, an arrow, which represents the transition from the Open state to the On Hold state, has appeared in     the diagram. 
 
-8. Save your changes. 
+9. On the page toolbar, click **Save**. 
 
 #### Step 2: Adding New Transitions Between Other States and the On Hold state 
 
@@ -4244,7 +4278,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 3. Click **OK** to close the dialog box. 
 
-4. Save your changes. 
+4. On the page toolbar, click **Save**. 
 
 5. Repeat Instructions 1 through 4 for each of the following states: Awaiting Payment, Credit Hold,     and Back Order. 
 
@@ -4254,19 +4288,17 @@ d. On the form toolbar, click **Remove Hold**.
 
 1. Modify the transition from the Open state to the On Hold state as follows:     a. Click the transition from the Open state to the On Hold state that is initiated by the putOnHoldAuto        action, and on the context menu that is displayed, click the Edit button.        The **Transition** dialog box opens.     b. In the **Fields to Update Aer Transition** table of the dialog box, click **Add Row** on the table toolbar, and        specify the following settings in the added row: 
 
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 108 
+
 - **Field Name** : _InclCustOpenOrders_ 
 
 - **From Schema** : Selected 
 
-- **New Value** : Cleared c. Click **OK** to close the dialog box. d. Save your changes. 
+- **New Value** : Cleared c. Click **OK** to close the dialog box. d. On the page toolbar, click **Save**. 
 
-2. Modify the transition from the Back Order state to the On Hold state as follows:     a. Click the transition from the Back Order state to the On Hold state that is initiated by the        putOnHoldAuto action, and on the context menu that is displayed, click the Edit button. 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 109 
-
- The Transition dialog box opens. b. In the Fields to Update Aer Transition table of the dialog box, click Add Row on the table toolbar, and specify the following settings in the added row: 
+2. Modify the transition from the Back Order state to the On Hold state as follows:     a. Click the transition from the Back Order state to the On Hold state that is initiated by the        putOnHoldAuto action, and on the context menu that is displayed, click the Edit button.        The **Transition** dialog box opens.     b. In the **Fields to Update Aer Transition** table of the dialog box, click **Add Row** on the table toolbar, and        specify the following settings in the added row: 
 
 - **Field Name** : _BackOrdered_ 
 
@@ -4278,7 +4310,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 - **From Schema** : Selected 
 
-- **New Value** : Cleared d. Click **OK** to close the dialog box. e. Save your changes. 
+- **New Value** : Cleared d. Click **OK** to close the dialog box. e. On the page toolbar, click **Save**. 
 
 3. Modify the transition from the Credit Hold state to the On Hold state as follows:     a. Click the transition from the Credit Hold state to the On Hold state that is initiated by the        putOnHoldAuto action, and on the context menu that is displayed, click the Edit button.        The **Transition** dialog box opens.     b. In the **Fields to Update Aer Transition** table of the dialog box, click **Add Row** on the table toolbar, and        specify the following settings in the added row: 
 
@@ -4286,7 +4318,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 - **From Schema** : Selected 
 
-- **New Value** : Cleared c. Click **OK** to close the dialog box. d. Save your changes. 
+- **New Value** : Cleared c. Click **OK** to close the dialog box. d. On the page toolbar, click **Save**. 
 
  You do not modify the settings of the transitions from the Awaiting Payment and Pending Processing states to the On Hold state because the corresponding predefined transitions do not update any fields aer the transition is completed. 
 
@@ -4295,6 +4327,10 @@ d. On the form toolbar, click **Remove Hold**.
  Because the putOnHoldAuto action should put a sales order on hold, the Hold field should be set to True when this action is performed, as is the case in the predefined putOnHold action. Also, this action should not be visible to users, because it is an auxiliary action that the system uses to automatically put the sales order on hold on the Sales Orders (SO301000) form if it has an Order Total of greater than $800 and it has not been put on hold manually. To implement these settings, perform the following instructions: 
 
 1. In the navigation pane of the Customization Project Editor, click **Screens > SO301000 > Actions**.     The SO301000 (Sales Orders) Actions page opens. 
+
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 109 
 
 2. In the table, click the _putOnHoldAuto_ link. 
 
@@ -4305,10 +4341,6 @@ d. On the form toolbar, click **Remove Hold**.
 - **Field** : _Hold_ 
 
 - **From Schema** : Selected 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 110 
 
 - **New Value** : Selected c. Click **Add Row** on the table toolbar again, and specify the following settings in the added row: 
 
@@ -4322,7 +4354,7 @@ d. On the form toolbar, click **Remove Hold**.
 
  You can ensure that the predefined putOnHold action has the same settings on the Field Update tab. 
 
-4. Click **OK** to close the dialog box and save your changes. 
+4. Click **Save** to close the dialog box and save your changes. 
 
 #### Step 5: Automating the Execution of Actions 
 
@@ -4340,7 +4372,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 5. Click **OK** to close the dialog box. 
 
-6. Save your changes. 
+6. On the page toolbar, click **Save**. 
 
 7. By using instructions that are similar to the last four instructions, add the TotalMoreThan800 condition     for the putOnHoldAuto action in the Pending Processing, Awaiting Payment, Credit Hold,     and Back Order states. 
 
@@ -4348,13 +4380,13 @@ d. On the form toolbar, click **Remove Hold**.
 
  The following activity will walk you through the process of making system actions modify custom fields. 
 
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 110 
+
 #### Story 
 
  In the inherited workflow, if a sales order has been manually removed from hold once, it should not be possible to put this sales order on hold again, even if its Order Total has been increased. Therefore, when a user clicks the Hold or Remove Hold button on the Sales Orders (SO301000) form, you need to indicate to the system that the sales order has been manually put on hold or removed from hold, respectively. To save this information, you will use the custom fields that you have added in Workflow-Identifying Fields: To Add Conditions with User-Defined Fields. The system actions should update the values of these fields. 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 111 
 
 #### Process Overview 
 
@@ -4390,17 +4422,17 @@ d. On the form toolbar, click **Remove Hold**.
 
 - **New Value** : =IIf( [CuryOrderTotal]>=800, True, False)     These settings will prevent the system from putting a sales order on hold again if the **Order Total** is     greater than or equal to $800. (The formula makes the system set the flag to _True_ only if the **Order Total**     is greater than $800 when the sales order is removed from hold.) 
 
-4. Click **OK** to save your changes and close the dialog box. 
+4. Click **Save** to save your changes and close the dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 111 
 
  For details on how to use formulas, see Functions and Operators. 
 
 #### Step 2: Modifying the Hold Action 
 
  The Hold system action is used to put a sales order on hold manually. You need to set the SO Reviewed flag to False (that is, clear the SO Reviewed check box) for the sales order in this case, because the system will set the flag to True when the sales order is removed from hold. You also need to set the SO On Hold flag to True for the sales order to indicate that it has been put on hold manually. 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 112 
 
  To modify the Hold system action, while you are still working on the SO301000 (Sales Orders) Actions page of the Customization Project Editor, perform the following instructions: 
 
@@ -4422,7 +4454,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 - **New Value** : Selected These settings indicate that a sales order has been put on hold manually. 
 
-4. Click **OK** to save your changes and close the dialog box. 
+4. Click **Save** to save your changes and close the dialog box. 
 
 ### Workflow-Identifying Fields: To Test the Inherited Workflow with a Workflow
 
@@ -4444,15 +4476,15 @@ d. On the form toolbar, click **Remove Hold**.
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as system administrator by     using the _gibbs_ username and the _123_ password. 
 
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 112 
+
  The gibbs user is assigned the Administrator role, which has sufficient access rights to customize workflows. 
 
 2. Make sure that you have learned how to test a customization, as described in _Testing of the Customization_     _Project: General Information_. 
 
 3. Make sure that you have completed the _Workflow-Identifying Fields: To Make System Actions Modify Custom_     _Fields_ activity. 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 113 
 
 #### Step 1: Publishing the Customization Project 
 
@@ -4500,19 +4532,17 @@ d. On the form toolbar, click **Remove Hold**.
 
 2. On the form toolbar, click **Hold**.     You have manually changed the status to _On Hold_. 
 
+
+<!-- PAGE_BREAK -->
+ Customizing Workflows with a Workflow-Identifying Field | 113 
+
 3. On the **Details** tab, in the row with _BLADE12_ inventory item, change the quantity to 9. 
 
 4. On the form toolbar, click **Remove Hold**.     You have manually changed the status to _Open_. 
 
 5. On the **Details** tab, in the row with the _BLADE12_ inventory item, change the quantity to 10. 
 
-6. Save your changes. 
-
-
-<!-- PAGE_BREAK -->
- Customizing Workflows with a Workflow-Identifying Field | 114 
-
- Make sure that the status has not changed to On Hold because the sales order was already removed from hold manually when the amount was greater than $800. 
+6. Save your changes.     Make sure that the status has not changed to _On Hold_ because the sales order was already removed from     hold manually when the amount was greater than $800. 
 
 #### Step 4: Making Sure That the Workflow Is Applied Only to Sales Orders 
 
@@ -4536,7 +4566,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 
 <!-- PAGE_BREAK -->
- Using Workflow-Identifying Fields of the Second Level | 115 
+ Using Workflow-Identifying Fields of the Second Level | 114 
 
 ## Using Workflow-Identifying Fields of the Second Level 
 
@@ -4586,7 +4616,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 
 <!-- PAGE_BREAK -->
- Using Workflow-Identifying Fields of the Second Level | 116 
+ Using Workflow-Identifying Fields of the Second Level | 115 
 
 - _Sales Orders_ (SO30100) 
 
@@ -4612,7 +4642,7 @@ d. On the form toolbar, click **Remove Hold**.
 
 
 <!-- PAGE_BREAK -->
- Using Workflow-Identifying Fields of the Second Level | 117 
+ Using Workflow-Identifying Fields of the Second Level | 116 
 
 **_Figure: Selection of the workflow's subtype identifier_** 
 
@@ -4626,7 +4656,7 @@ Then in the **Add Workflow** dialog box, which opens when you click the **Add Wo
 
 
 <!-- PAGE_BREAK -->
- Using Workflow-Identifying Fields of the Second Level | 118 
+ Using Workflow-Identifying Fields of the Second Level | 117 
 
  You then can define both created workflows as active by selecting the Active check box (see the following screenshot). Note that the base workflow ( SO Workflow in this case) remains active as well. The system will use this workflow for sales orders that are based on other order types and that have the Sales Order automation behavior— that is, sales orders of the eCommerce Order , Sales Order with Allocation , and Sales Order types. 
 
@@ -4644,11 +4674,11 @@ Then in the **Add Workflow** dialog box, which opens when you click the **Add Wo
 
  The following activity will walk you through the process of creating workflows for custom order types. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Using Workflow-Identifying Fields of the Second Level | 119 
+ Using Workflow-Identifying Fields of the Second Level | 118 
 
 #### Story 
 
@@ -4710,7 +4740,7 @@ Then in the **Add Workflow** dialog box, which opens when you click the **Add Wo
 
 
 <!-- PAGE_BREAK -->
- Using Workflow-Identifying Fields of the Second Level | 120 
+ Using Workflow-Identifying Fields of the Second Level | 119 
 
 - **Freight Account** ( **Posting Settings** section): _40010 (Sales – Freight)_ 
 
@@ -4760,7 +4790,7 @@ Then in the **Add Workflow** dialog box, which opens when you click the **Add Wo
 
 
 <!-- PAGE_BREAK -->
- Using Workflow-Identifying Fields of the Second Level | 121 
+ Using Workflow-Identifying Fields of the Second Level | 120 
 
 - **Workflow Type** : _SO_ 
 
@@ -4812,7 +4842,7 @@ Then in the **Add Workflow** dialog box, which opens when you click the **Add Wo
 
 
 <!-- PAGE_BREAK -->
- Using Workflow-Identifying Fields of the Second Level | 122 
+ Using Workflow-Identifying Fields of the Second Level | 121 
 
 - **Action Name** : Confirm 
 
@@ -4872,7 +4902,7 @@ Then in the **Add Workflow** dialog box, which opens when you click the **Add Wo
 
 
 <!-- PAGE_BREAK -->
- Upgrading Workflows | 123 
+ Upgrading Workflows | 122 
 
 ## Upgrading Workflows 
 
@@ -4902,7 +4932,7 @@ Then in the **Add Workflow** dialog box, which opens when you click the **Add Wo
 
 
 <!-- PAGE_BREAK -->
- Upgrading Workflows | 124 
+ Upgrading Workflows | 123 
 
  This upgrade merges the changes in the inherited workflow in the customization project and the changes in the predefined workflow that is available in the system. If any conflicts occur, a pop-up window appears that contains detailed information about the conflicts. You can review the conflicts and either continue the upgrade with the changes suggested by the system or cancel the upgrade of the predefined workflow. 
 
@@ -4938,7 +4968,7 @@ Then in the **Add Workflow** dialog box, which opens when you click the **Add Wo
 
 
 <!-- PAGE_BREAK -->
- Upgrading Workflows | 125 
+ Upgrading Workflows | 124 
 
  c. In the Open Package dialog box, which is opened, click Choose File , and select the OpportunitySystemWorkflowChanges.zip file. d. In the Open Package dialog box, click Upload. The OpportunitySystemWorkflowChanges customization project is added to the list on the Customization Projects form. e. Select the unlabeled check box in the row with the OpportunitySystemWorkflowChanges customization project. f. On the form toolbar, click Publish. 
 
@@ -4948,7 +4978,7 @@ Then in the **Add Workflow** dialog box, which opens when you click the **Add Wo
 
 1. On the _Customization Projects_ (SM204505) form, click the link with the _Opportunities_ customization project.     The Customization Project Editor opens for the _Opportunities_ customization project. 
 
-2. In the table on the Customized Screens page, notice that the system displays a warning icon in the **Screen**     **ID** column. 
+2. In the table on the _Screens_ page, notice that the system displays a warning icon in the **Screen ID** column. 
 
 3. In the navigation pane, click **Screens > CR304000 > Workflows**.     The CR304000 (Opportunities) Workflows page opens. Notice that the system displays a warning icon for the     **State Identifier** box. 
 
@@ -4962,7 +4992,7 @@ Then in the **Add Workflow** dialog box, which opens when you click the **Add Wo
 
 
 <!-- PAGE_BREAK -->
- Upgrading Workflows | 126 
+ Upgrading Workflows | 125 
 
 The CR304000 (Opportunities) State Diagram: OpportunitiesAssigned page opens. The customized workflow should look as shown in the following screenshot. Notice that the Review state, which has been added in the modified predefined workflow, is marked as inherited. 
 

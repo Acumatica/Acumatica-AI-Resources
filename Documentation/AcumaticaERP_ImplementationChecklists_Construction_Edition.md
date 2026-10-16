@@ -2,7 +2,7 @@
 
 # Construction Edition 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -240,9 +240,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -2394,11 +2394,11 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting , Change Orders , and Change Requests features are enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects , Change Orders , and Change Requests features are enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
- Also, make sure that the default markups are specified on the General tab ( Markups section). For more information about configuring markups, see Change RequestsTwo-Tier Change Management: Configuration of Markups. 
+ Also, make sure that the default markups are specified on the General tab ( Markups section). For more information about configuring markups, see Change Requests: Configuration of Markups. 
 
  Change Order Classes (PM203000) form Make sure that all needed change order classes have been configured and the Two-Tier Change Management check box has been selected for these classes in the Summary area. 
 
@@ -2438,7 +2438,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
 #### Validation of Configuration 
 
- To make sure that all configuration has been performed correctly, we recommend that you process a change request by performing instructions similar to those described in Change RequestsTwo-Tier Change Management: Process Activity. 
+ To make sure that all configuration has been performed correctly, we recommend that you process a change request by performing instructions similar to those described in Change Requests: Process Activity. 
 
 ### Employee Time Billing: Implementation Checklist 
 
@@ -2554,7 +2554,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Form Validation of Settings 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting check box is selected. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects check box is selected. 
 
 
 <!-- PAGE_BREAK -->
@@ -2628,7 +2628,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -2714,7 +2714,7 @@ _Accounts Receivable Preferences_ (AR101000) form
 
 _Enable/Disable Features_ (CS100000) form 
 
- Make sure that the Project Accounting feature is enabled. 
+ Make sure that the Projects feature is enabled. 
 
 _Projects Preferences_ (PM101000) form 
 
@@ -2772,7 +2772,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting and Budget Forecast features are enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects and Budget Forecast features are enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -2792,19 +2792,17 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Criteria to Check 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about the configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
  Accounts Payable Preferences (AP101000) Make sure that the Allow Bill Reclassification check box is selected. With this setting, the reclassification of bills can be performed in the system. 
 
+ User Roles (SM201005) Make sure that each user that will perform bill reclassification is assigned at least one of the following predefined roles: Financial Supervisor or Project Accountant. 
+
 
 <!-- PAGE_BREAK -->
  Project Accounting | 75 
-
- Form Criteria to Check 
-
- User Roles (SM201005) Make sure that each user that will perform bill reclassification is assigned at least one of the following predefined roles: Financial Supervisor or Project Accountant. 
 
 #### Other Settings That Affect the Workflow 
 
@@ -2826,7 +2824,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
 - _Inventory_ 
 
-- _Project Accounting_ 
+- _Projects_ 
 
 - _Project-Specific Inventory_ 
 
@@ -2868,15 +2866,15 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
 3. Assigning all existing projects the _Track by Location_ inventory tracking mode and linking them to particular     warehouse locations. 
 
- Once the feature is disabled, the system will continue tracking inventory for projects using the only Track by Location mode. For more information, see Project Inventory Tracking by Warehouse Location: General InformationPurchase of Materials and Services: Inventory Tracking by Warehouse Location. 
-
-
-<!-- PAGE_BREAK -->
- Project Accounting | 77 
+ Once the feature is disabled, the system will continue tracking inventory for projects using the only Track by Location mode. For more information, see Project Inventory Tracking by Warehouse Location: General Information. 
 
 #### Other Settings That Affect the Workflow 
 
  You can affect the workflow of sales and purchases of items for projects by specifying additional settings as follows: 
+
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 77 
 
 - To cause the system to automatically select a project task when a particular project is selected during the     creation of a purchase order, select the **Default** check box on the **Tasks** tab of the _Projects_ (PM301000) form     for one of the tasks of the project. 
 
@@ -2894,7 +2892,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Criteria to Check 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Account Groups (PM201000) form Make sure that all needed account groups have been configured. For more information about account groups, see Account Groups: General Information. 
 
@@ -2968,7 +2966,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting and Project Quotes features are enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects and Project Quotes features are enabled. 
 
 
 <!-- PAGE_BREAK -->
@@ -3014,7 +3012,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
 #### Validation of Configuration 
 
- To make sure that all configuration has been performed correctly, we recommend that in your system, you process a project quote by performing instructions similar to those described in Project Quotes: To Process a Project Quote Based on an OpportunityProject Quotes: To Create a Project Quote Based on an Opportunity. 
+ To make sure that all configuration has been performed correctly, we recommend that in your system, you process a project quote by performing instructions similar to those described in Project Quotes: To Process a Project Quote Based on an Opportunity. 
 
 ### Project Templates and Common Tasks: Implementation Checklist 
 
@@ -3022,7 +3020,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Task to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting check box is selected. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects check box is selected. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings of project accounting have been specified. 
 
@@ -3084,7 +3082,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Criteria to Check 
 
- Enable/Disable Features (CS100000) form Make sure that the Inventory and Order Management , Inventory and Project Accounting features are enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Inventory and Order Management , Inventory and Projects features are enabled. 
 
  Multiple forms Make sure that all necessary settings related to order management have been specified, as described in Configuration of Order Management: Implementation Activity. 
 
@@ -3154,7 +3152,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Criteria to Check 
 
- Enable/Disable Features (CS100000) form Make sure that the Inventory and Order Management , Inventory , and Project Accounting features are enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Inventory and Order Management , Inventory , and Projects features are enabled. 
 
  Multiple forms Make sure that all necessary settings related to order management have been specified, as described in Configuration of Order Management: Implementation Activity. 
 
@@ -3228,7 +3226,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -3240,13 +3238,13 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  For more information about labor items, non-stock items, and services, see Labor Items: General Information , Non-Stock Items: General Information , and Service Items: General Information , respectively. 
 
+ Account Groups (PM201000) form Make sure that all needed account groups have been configured. Also, make sure that the expense accounts of the inventory items specified in the Expense Account box on the GL Accounts tab of the Non-Stock Items form are mapped to the account groups. For more information about account groups, see Account Groups: General Information. 
+
 
 <!-- PAGE_BREAK -->
  Project Accounting | 88 
 
  Form Tasks to Perform 
-
- Account Groups (PM201000) form Make sure that all needed account groups have been configured. Also, make sure that the expense accounts of the inventory items specified in the Expense Account box on the GL Accounts tab of the Non-Stock Items form are mapped to the account groups. For more information about account groups, see Account Groups: General Information. 
 
  Vendors (AP303000) form Make sure that all needed vendors have been defined in the system, as described in Vendors: General Information. 
 
@@ -3276,7 +3274,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Enable/Disable Features (CS100000) form 
 
- Make sure that the Project Accounting and Change Orders features are enabled. 
+ Make sure that the Projects and Change Orders features are enabled. 
 
 
 <!-- PAGE_BREAK -->
@@ -3396,7 +3394,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Criteria to Check 
 
- Enable/Disable Features (CS100000) form Make sure the Standard Financials and Project Accounting features have been enabled. 
+ Enable/Disable Features (CS100000) form Make sure the Standard Financials and Projects features have been enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about the configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -3478,7 +3476,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -3514,7 +3512,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -3524,13 +3522,13 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Allocation Rules (PM207500) form Make sure that an allocation rule is configured as described in WIP Labor Costs in Fixed-Price Projects: General Information. 
 
+ Billing Rules (PM207000) form Make sure that all the needed billing rules have been configured to process allocation transactions posted to the WIP account group. For details on configuring billing rules, see Billing Rules: General Information. 
+
 
 <!-- PAGE_BREAK -->
  Project Accounting | 96 
 
  Form Tasks to Perform 
-
- Billing Rules (PM207000) form Make sure that all the needed billing rules have been configured to process allocation transactions posted to the WIP account group. For details on configuring billing rules, see Billing Rules: General Information. 
 
  Projects (PM301000) Make sure that the project has been created, as described in Project Creation and Processing: General Information. 
 
@@ -3710,7 +3708,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Enable/Disable Features (CS100000) form Make sure that the Construction feature is enabled. 
 
- Compliance Preferences (CL301000) form Make sure that the necessary attributes have been specified on the Custom Attributes tab, as described in Compliance Documents: To Configure Attributes for Compliance Documents. 
+ Compliance Preferences (CL301000) form Make sure that the necessary attributes have been specified on the Custom Attributes tab, as described in Compliance Documents: To Create Attributes for Compliance Documents. 
 
  Projects (PM301000) form Make sure that the projects for which compliance should be tracked have been created. 
 
@@ -3734,7 +3732,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) Make sure that the Construction and Project Accounting features are enabled. 
+ Enable/Disable Features (CS100000) Make sure that the Construction and Projects features are enabled. 
 
  Projects Preferences (PM101000) Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -4070,7 +4068,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -4254,7 +4252,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
 - The percent of the amount of an invoice issued for     the project that is retained by the customer is spec-     ified in the **Retainage (%)** box. 
 
-- The contract cap (maximum retainage amount held     for the project) is specified in the **Cap (%)** box. 
+- The contract cap (maximum retainage percentage     and amount held for the project) is specified in the     **Cap (%)** and **Cap Amount** boxes. 
 
 #### Other Settings That Affect the Workflow 
 
@@ -4398,7 +4396,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Criteria to Check 
 
- Enable/Disable Features (CS100000) Make sure that the Project Accounting and Construction features are enabled. 
+ Enable/Disable Features (CS100000) Make sure that the Projects and Construction features are enabled. 
 
  Multiple forms Make sure that all necessary settings related to project accounting have been specified, as described in Basic Project Configuration: General Information. 
 

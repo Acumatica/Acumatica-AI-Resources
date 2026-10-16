@@ -2,7 +2,7 @@
 
 # Deferred Revenue 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -52,11 +52,11 @@
 
  Report Form............................................................................................................................................ 29 
 
- Report......................................................................................................................................................34 
+ Report......................................................................................................................................................36 
 
- Form Toolbar and More Menu.........................................................................................................................36 
+ Form Toolbar and More Menu.........................................................................................................................37 
 
- Table Toolbar................................................................................................................................................... 43 
+ Table Toolbar................................................................................................................................................... 44 
 
 
 <!-- PAGE_BREAK -->
@@ -78,9 +78,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -156,7 +156,7 @@
 
 - **Schedule Settings** , **Every x Period(s)** : The frequency of generating the recognition transactions. 
 
-- **Document Date Selection** ( **Start of Financial Period** , **End of Financial Period** , **Fixed Day of Financial**     **Period** ): The exact day when the documents for a recognition transaction will be generated. 
+- **Schedule Options** ( **On Start of Financial Period** , **On End of Financial Period** , or **On Fixed Day of**     **Financial Period** ): The exact day when the documents for a recognition transaction will be generated. 
 
 
 <!-- PAGE_BREAK -->
@@ -212,13 +212,13 @@
 <!-- PAGE_BREAK -->
  Setting Up the Recognition Process | 7 
 
-- **Schedule Settings** : _Every 1 Period(s)_ With this recognition method, the document amount ($1,500) is divided evenly among six periods: January, February, March, April, May, and June; each portion is equal to $250. 
+- **Recognize Deferrals** : _Every 1 Period(s)_ With this recognition method, the document amount ($1,500) is divided evenly among six periods: January, February, March, April, May, and June; each portion is equal to $250. 
 
  In this example, the recognition period is equal to the financial period because we set the recognition schedule to Every 1 Period(s). If we had set it to Every 2 Period(s) , the recognition period would be equal to two financial periods, which means that the recognition process would be performed once every two months. 
 
 #### Evenly by Periods, Prorate by Days 
 
- With the Evenly by Periods, Prorate by Days method, the amount to be recognized is distributed evenly among recognition periods. The number of the recongnition periods is defined by the value specified in the Occurrences box on the Deferral Codes (DR202000) form. The first and last periods are counted together as one recognition period and the amount to be recognized for each is proportional to the number of days in each period. 
+ With the Evenly by Periods, Prorate by Days method, the amount to be recognized is distributed evenly among recognition periods. The number of the recognition periods is defined by the value specified in the Occurrences box on the Deferral Codes (DR202000) form. The first and last periods are counted together as one recognition period and the amount to be recognized for each is proportional to the number of days in each period. 
 
  An occurrence is a recognition event. The frequency of occurrences depends on the number (of financial periods) you select in the Every X Period(s) box. The installment amounts for the first and last periods are calculated based on a full-period amount that is proportional to the number of days each installment should cover. 
 
@@ -230,7 +230,7 @@
 
 - **Occurrences** : _6_ 
 
-- **Schedule Settings** : _Every 1 Period(s)_ With this recognition method, the document amount is divided evenly among five full periods, with each portion equal to $300. Four of these periods are February, March, April, and May. The fih $300 portion is divided into two parts, each of which is proportional to the number of days included in the recognition time interval in January (20 days, so $193.55) and in June (11 days, so $106.45). 
+- **Recognize Deferrals** : _Every 1 Period(s)_ With this recognition method, the document amount is divided evenly among five full periods, with each portion equal to $300. Four of these periods are February, March, April, and May. The fih $300 portion is divided into two parts, each of which is proportional to the number of days included in the recognition time interval in January (20 days, so $193.55) and in June (11 days, so $106.45). 
 
  The amounts are rounded according to the base currency precision, which is set to 2. 
 
@@ -248,7 +248,7 @@
 
 - **Occurrences** : _6_ 
 
-- **Schedule Settings** : _Every 1 Period(s)_ 
+- **Recognize Deferrals** : _Every 1 Period(s)_ 
 
 
 <!-- PAGE_BREAK -->
@@ -282,7 +282,7 @@
 
 - **Recognition Method** : _Flexible by Periods, Prorate by Days_ 
 
-- **Schedule Settings** : _Every 1 Period(s)_ 
+- **Recognize Deferrals** : _Every 1 Period(s)_ 
 
 - **Allow Recognition in Previous Periods** : Selected With this recognition method, the document amount is distributed over the date range that starts on February 15 ( **Term Start Date** ) and ends on June 21 ( **Term End Date** ). The date range covers 14 days of February, three full periods (March, April and May), and 21 days of June. The 14 days of February is 0.5 period (14 days / 28 days = 0.5). The 21 days of June is 0.7 period (21 days / 30 days = 0.7). Thus, February and June together makes 1.2 periods. So that, the revenue amount should be distributed across 4.2 periods, which is 3 periods of March, April and May + 1.2 periods of February and June. The amount recognized in each of the three full periods (March, April, and May) is $1,500 / 4.2 = $357.14. The amount recognized in February is 0.5 * $357.14 = $178.57, and the amount recognized in June is 0.7 * $357.14 = $250.01. Thus, the document amounts are allocated as follows: 
 
@@ -316,7 +316,7 @@
 
 - **Recognition Method** : _Flexible by Days in Period_ 
 
-- **Schedule Settings** : _Every 1 Period(s)_ 
+- **Recognize Deferrals** : _Every 1 Period(s)_ 
 
 - **Allow Recognition in Previous Periods** : Selected With this recognition method, the document amount is spread over the 127 days, with a proportional division by days. Thus, the document amounts are allocated as follows: 
 
@@ -466,7 +466,7 @@
 
 #### Recognizing Deferred Revenue in Previous Periods 
 
- For documents (such as AR invoices and cash sales) that require revenue recognition in previous periods, you can use deferral codes with the Flexible by Periods, Prorate by Days , or Flexible by Days in Period recognition method specified. The period of the recognition start date can be earlier than the period of the document date. When these deferral codes are specified in a document line, the additional Term Start Date and Term End Date columns appear in the table on the Document Details tab on the document entry form, such as Invoices and Memos (AR301000). In these columns, you can define the required start date and end date of the recognition process for each document line with such a deferral code specified. 
+ For documents (such as AR invoices and cash sales) that require revenue recognition in previous periods, you can use deferral codes with the Flexible by Periods, Prorate by Days , or Flexible by Days in Period recognition method specified. The period of the recognition start date can be earlier than the period of the document date. When these deferral codes are specified in a document line, the additional Term Start Date and Term End Date columns appear in the table on the Details tab on the document entry form, such as Invoices and Memos (AR301000). In these columns, you can define the required start date and end date of the recognition process for each document line with such a deferral code specified. 
 
  The date and posting period of the recognition transactions depend on whether the Allow Recognition in Previous Periods check box is selected for the deferral code on the Deferral Codes (DR202000) form: 
 
@@ -476,7 +476,7 @@
 <!-- PAGE_BREAK -->
  Processing Deferrals | 13 
 
- transactions are generated based on the Document Date Selection setting specified for the deferral code on the Deferral Codes form. 
+ transactions are generated based on the Recognize Deferrals settings specified for the deferral code on the Deferral Codes form. 
 
 - If the check box is cleared and the period of the recognition date is earlier than the document date, the     recognition date of the generated transactions is equal to the document date, and the financial period is the     period to which the document date belongs. 
 
@@ -1182,7 +1182,11 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
@@ -1190,29 +1194,93 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 31 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 32 
 
 #### Report Toolbar 
 
@@ -1221,12 +1289,6 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 31 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -1252,25 +1314,77 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 32 
+ Appendix | 33 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 34 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -1288,91 +1402,45 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 33 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 34 
+ Appendix | 35 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -1391,6 +1459,12 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 36 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -1414,10 +1488,6 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 35 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -1432,13 +1502,19 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 37 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -1456,10 +1532,6 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 36 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -1474,6 +1546,10 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 38 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -1482,11 +1558,7 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 37 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -1512,6 +1584,12 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 39 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -1519,12 +1597,6 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 38 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -1552,19 +1624,19 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 40 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 39 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -1574,13 +1646,15 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 41 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -1591,10 +1665,6 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 40 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -1608,6 +1678,10 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 42 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -1618,11 +1692,11 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 41 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 43 
 
 #### Unavailable Commands on the More Menu 
 
@@ -1634,17 +1708,13 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 42 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 43 
+ Appendix | 44 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -1656,7 +1726,11 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 45 
 
  Figure: Table toolbar 
 
@@ -1676,17 +1750,17 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 44 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 46 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -1716,13 +1790,13 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 45 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 47 
 
  Element Description 
 
@@ -1766,15 +1840,15 @@ The _Component1_ amount will be posted to the deferred account. The _Component2_
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 46 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 48 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

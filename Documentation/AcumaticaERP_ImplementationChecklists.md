@@ -2,7 +2,7 @@
 
 # System Implementation 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -118,7 +118,7 @@
 
  Configuring CRM Functionality: Implementation Checklist.......................................................................... 63 
 
- Duplicate Validation: Implementation Checklist........................................................................................... 65 
+ Duplicate Validation: Implementation Checklist........................................................................................... 64 
 
  Emails and Activities: Implementation Checklist.......................................................................................... 66 
 
@@ -134,9 +134,9 @@
 
  Lead Qualification by Marketing Teams: Implementation Checklist............................................................ 76 
 
- Lead Qualification by Sales Teams: Implementation Checklist.................................................................... 77 
+ Lead Qualification by Sales Teams: Implementation Checklist.................................................................... 76 
 
- Record Validation for Duplicates: Implementation Checklist....................................................................... 78 
+ Record Validation for Duplicates: Implementation Checklist....................................................................... 77 
 
 **Customers and Vendors.........................................................................................................................79** 
 
@@ -270,9 +270,9 @@
 
  Vendor Payments for a Project: Implementation Checklist........................................................................ 144 
 
- WIP Labor Costs in Cost-Plus Projects: Implementation Checklist.............................................................146 
+ WIP Labor Costs in Cost-Plus Projects: Implementation Checklist.............................................................145 
 
- WIP Labor Costs in Fixed-Price Projects: Implementation Checklist.......................................................... 147 
+ WIP Labor Costs in Fixed-Price Projects: Implementation Checklist.......................................................... 146 
 
 **Route Management............................................................................................................................. 149** 
 
@@ -334,9 +334,9 @@ Voiding of a Sales Tax Report: Implementation Checklist.........................
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -2416,17 +2416,11 @@ Multiple forms If your company uses subaccounts, the subaccounts have to be conf
 
  Enable/Disable Features (CS100000) The Customer Management feature has been enabled. This feature provides the customer relationship management functionality, including lead and customer tracking, as well as the handling of sales opportunities, contacts, marketing lists, and marketing campaigns. 
 
- Customer Management Preferences (CR101000) 
-
- The predefined settings in the Numbering Sequences section of the General tab have been saved. 
+ Table: Recommended Configuration To give users the abilities to validate leads, contacts, and business accounts for duplicates, use the automatic processing of documents, use the integration with web map services, and group records that share common characteristics, you should specify and save the recommended settings listed in the following table. 
 
 
 <!-- PAGE_BREAK -->
  Customer Relationship Management | 64 
-
-**_Table: Recommended Configuration_** 
-
-To give users the abilities to validate leads, contacts, and business accounts for duplicates, use the automatic processing of documents, use the integration with web map services, and group records that share common characteristics, you should specify and save the recommended settings listed in the following table. 
 
  Form Criteria to Check 
 
@@ -2452,15 +2446,15 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
  Customer Management Preferences (CR101000) 
 
- On the General tab ( Data Entry Settings ) section, numbering sequences have been saved and classes with the necessary settings have been specified. 
-
-
-<!-- PAGE_BREAK -->
- Customer Relationship Management | 65 
+ On the General tab ( Numbering Sequences ) section, numbering sequences have been saved and classes with the necessary settings have been specified. 
 
 ### Duplicate Validation: Implementation Checklist 
 
  The following sections provide details you can use to ensure that the system is configured properly for duplicate validation in Acumatica ERP, and to understand (and change, if needed) the settings that affect the processing workflow. 
+
+
+<!-- PAGE_BREAK -->
+ Customer Relationship Management | 65 
 
 #### Mandatory Configuration 
 
@@ -2476,7 +2470,11 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
  Customer Management Preferences (CR101000) The numbering sequence settings have been specified and saved to the system, as described in Basic Customer Relationship Management. 
 
- Duplicate Validation (CR103000) The duplicate validation settings have been specified. 
+ Duplicate Validation (CR103000) Duplicate validation settings have been specified as follows: 
+
+- For the pair of records selected in the **Comparison** pane, at     least one matching field with the score weight, transforma-     tion rule, and action created on entry is specified. 
+
+- The **Validation Score Threshold** box has a value. 
 
 #### Recommended Configuration 
 
@@ -2492,17 +2490,19 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
 - To cause the system to perform duplicate validation processing more quickly—validating records and     calculating grams is handled in parallel mode and may be a time-consuming process—add the following key     to the web.config file located in the website folder. 
 
+ <add key="ParallelProcessingDisabled" value="False" /> 
+
+- To cause the system to validate the field values of each new lead, contact, or business account—such as an     email address or phone number—for duplication as soon as a user specifies these settings on the data entry 
+
 
 <!-- PAGE_BREAK -->
  Customer Relationship Management | 66 
 
- <add key="ParallelProcessingDisabled" value="False" /> 
+ form and tries to save the record for the first time, select the Warn option for these fields in the Create on Entry column of the Duplicate Validation (CR103000) form. 
 
-- To cause the system to validate the field values of each new lead, contact, or business account—such as     an email address or phone number—for duplication as soon as a user specifies these settings on the _Leads_     (CR301000), _Contacts_ (CR302000), or _Business Accounts_ (CR303000) form and tries to save the record for the     first time, select the _Warn_ option for these fields in the **Create on Entry** column of the _Duplicate Validation_     (CR103000) form. 
+- To cause the system to prevent the creation of duplicate records on the corresponding data entry form,     select the _Block_ option for each needed field in the **Create on Entry** column of the corresponding table on     the _Duplicate Validation_ form. 
 
-- To cause the system to prevent the creation of duplicate leads on the _Leads_ form, duplicate contacts on     the _Contacts_ form, or duplicate business accounts on the _Business Accounts_ form, select the _Block_ option     for each needed field in the **Create on Entry** column of the corresponding table on the _Duplicate Validation_     form. 
-
-- To cause the system to calculate validation scores according to the duplicate validation rules specified for     the pairs of records on the _Duplicate Validation_ form and to keep the missing scores for empty fields, clear     the **Normalize Validation Scores** check box on the **General** tab ( **Miscellaneous Settings** section) of the     _Customer Management Preferences_ (CR101000) form. 
+- To make the system calculate validation scores strictly according to the duplicate validation rules—without     adjusting score weights for missing (empty) fields—clear the **Normalize Validation Scores** check box on the     _Duplicate Validation_ form. 
 
 #### Validation of Configuration 
 
@@ -2528,15 +2528,15 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
  Employees (EP203000) Employee records have been created in the system. 
 
+ Users (SM201010) Users have been created for employees. 
+
+ Email Accounts (SM204002) A system email account has been configured. 
+
 
 <!-- PAGE_BREAK -->
  Customer Relationship Management | 67 
 
  Form Criteria to Check 
-
- Users (SM201010) Users have been created for employees. 
-
- Email Accounts (SM204002) A system email account has been configured. 
 
  Event Setup (EP204070) The system-wide settings have been specified to prepare the system to send automatic notifications by using the built-in notification capabilities 
 
@@ -2648,7 +2648,7 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
 - If your company’s customer support processes include the approval of cases, configure an approval map, as     described in _Approval Configuration: Approval Maps_. 
 
-- If you want to associate activities with projects and project tasks, enable the _Project Accounting_ feature     on the _Enable/Disable Features_ (CS100000) form and configure the project accounting functionality, as     described in _Basic Project Accounting_. 
+- If you want to associate activities with projects and project tasks, enable the _Projects_ feature on the _Enable/_     _Disable Features_ (CS100000) form and configure the project accounting functionality, as described in _Basic_     _Project Accounting_. 
 
 #### Validation of Configuration 
 
@@ -2852,7 +2852,7 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
 #### Other Settings That Affect the Workflow of Campaign Management 
 
- You can affect the workflow of campaign management by specifying additional settings as follows: If the Project Accounting feature is enabled on the Enable/Disable Features (CS100000) form, you can use the project accounting functionality to track expenses and revenue related to a marketing campaign. The system can regard a marketing campaign as a project and use the project budget tracking mechanism for tracking the campaign budget. For more information about project budgets, see Managing the Project Budget. A project can be associated with a marketing campaign through the Project Accounting Integration section on the Campaign Details tab of the Marketing Campaigns (CR202000) form. If needed, multiple campaigns may be associated with a single project. (For details, see Marketing Campaigns: Project Accounting for Campaigns .) 
+ You can affect the workflow of campaign management by specifying additional settings as follows: If the Projects feature is enabled on the Enable/Disable Features (CS100000) form, you can use the project accounting functionality to track expenses and revenue related to a marketing campaign. The system can regard a marketing campaign as a project and use the project budget tracking mechanism for tracking the campaign budget. For more information about project budgets, see Managing the Project Budget. A project can be associated with a marketing campaign through the Project Accounting Integration section on the Campaign Details tab of the Marketing Campaigns (CR202000) form. If needed, multiple campaigns may be associated with a single project. (For details, see Marketing Campaigns: Project Accounting for Campaigns .) 
 
 
 <!-- PAGE_BREAK -->
@@ -2918,21 +2918,9 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
  Opportunity Classes (CR209000) Opportunity classes with the necessary settings and attributes have been created. 
 
-#### Other Settings That Affect the Lead Qualification Workflow 
-
- You can affect the lead qualification workflow by specifying additional settings as follows: 
-
-- On the _Contact Classes_ (CR205000) form ( **Conversion Settings** section of the **Details** tab), define classes     with the necessary settings and attributes. When a user creates a contact—which can be done directly on     the _Contacts_ (CR302000) form or for a particular lead or business account in the **Create Contact** dialog box     of the _Leads_ (CR301000) or _Business Accounts_ (CR303000) form, respectively—the user selects a class, and     the system fills in the default settings of the contact based on the settings of the class. 
-
-- On the _Business Account Classes_ (CR208000) form ( **Conversion Settings** section of the **Details** tab), specify     classes with the necessary settings and attributes. When a user creates a business account—which can be     done directly on the _Business Accounts_ form or for a particular lead or contact in the **Create Account** dialog     box of the _Leads_ or _Contacts_ form, respectively—the user selects a class, and the system fills in the default     settings of the contact based on the settings of the class. 
-
 #### Validation of Configuration 
 
  To make sure that all configuration has been performed correctly, we recommend that in your system, you perform instructions similar to those described in Lead Qualification by Marketing Teams: To Disqualify a Lead. 
-
-
-<!-- PAGE_BREAK -->
- Customer Relationship Management | 77 
 
 ### Lead Qualification by Sales Teams: Implementation Checklist 
 
@@ -2941,6 +2929,10 @@ To give users the abilities to validate leads, contacts, and business accounts f
 #### Implementation Checklist 
 
  We recommend that before you start qualifying leads, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist. 
+
+
+<!-- PAGE_BREAK -->
+ Customer Relationship Management | 77 
 
  Form Criteria to Check 
 
@@ -2952,14 +2944,6 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
  Opportunity Classes (CR209000) Opportunity classes with the necessary settings and attributes have been created. 
 
-#### Other Settings That Affect the Lead Qualification Workflow 
-
- You can affect the lead qualification workflow by specifying additional settings as follows: 
-
-- On the _Contact Classes_ (CR205000) form ( **Conversion Settings** section of the **Details** tab), define classes     with the necessary settings and attributes. When a user creates a lead, contact, or business account on the     _Contacts_ (CR302000) form, the system will use classes specified on the _Contact Classes_ form. 
-
-- On the _Business Account Classes_ (CR208000) form ( **Conversion Settings** section of the **Details** tab), specify     classes with the necessary settings and attributes. When a user creates a lead, contact, or business account     on the _Business Accounts_ (CR303000) form, the system will use classes specified on the _Business Account_     _Classes_ form. 
-
 #### Validation of Configuration 
 
  To make sure that all configuration has been performed correctly, we recommend that in your system, you perform instructions similar to those described in the following topics: 
@@ -2967,10 +2951,6 @@ To give users the abilities to validate leads, contacts, and business accounts f
 - _Lead Qualification by Sales Teams: To Convert a Lead to an Opportunity_ 
 
 - _Lead Qualification by Sales Teams: To Disqualify a Lead_ 
-
-
-<!-- PAGE_BREAK -->
- Customer Relationship Management | 78 
 
 ### Record Validation for Duplicates: Implementation Checklist 
 
@@ -2987,6 +2967,12 @@ To give users the abilities to validate leads, contacts, and business accounts f
 - _Customer Management_ : This feature provides the customer     relationship management (CRM) functionality, including     lead and customer tracking, as well as the handling of sales     opportunities, contacts, marketing lists, and campaigns 
 
 - _Duplicate Validation_ in the _Customer Management_ group of     features: This feature provides the duplicate validation func-     tionality, which you can use to set up and perform automat-     ic validation of lead and contact records for duplicates 
+
+
+<!-- PAGE_BREAK -->
+ Customer Relationship Management | 78 
+
+ Form Criteria to Check 
 
  Duplicate Validation (CR103000) All necessary settings have been specified and saved to the system, as described in Duplicate Validation. 
 
@@ -4524,11 +4510,11 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting , Change Orders , and Change Requests features are enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects , Change Orders , and Change Requests features are enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
- Also, make sure that the default markups are specified on the General tab ( Markups section). For more information about configuring markups, see Change RequestsTwo-Tier Change Management: Configuration of Markups. 
+ Also, make sure that the default markups are specified on the General tab ( Markups section). For more information about configuring markups, see Change Requests: Configuration of Markups. 
 
  Change Order Classes (PM203000) form Make sure that all needed change order classes have been configured and the Two-Tier Change Management check box has been selected for these classes in the Summary area. 
 
@@ -4568,7 +4554,7 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
 #### Validation of Configuration 
 
- To make sure that all configuration has been performed correctly, we recommend that you process a change request by performing instructions similar to those described in Change RequestsTwo-Tier Change Management: Process Activity. 
+ To make sure that all configuration has been performed correctly, we recommend that you process a change request by performing instructions similar to those described in Change Requests: Process Activity. 
 
 ### Employee Time Billing: Implementation Checklist 
 
@@ -4692,7 +4678,7 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -4718,13 +4704,15 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
  We recommend that before you initially process pro forma invoices, you make sure the needed settings have been specified and entities have been created, as summarized in the following checklist. 
 
+ Form Criteria to Check 
+
+ Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
+
 
 <!-- PAGE_BREAK -->
  Project Accounting | 127 
 
  Form Criteria to Check 
-
- Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
  Billing Rules (PM207000) form Make sure that all needed billing rules have been configured in the system. For more information about billing rules, see Billing Rules: General Information. 
 
@@ -4750,11 +4738,11 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
 - To cause the system to automatically post general ledger transactions generated on release of all accounts     receivable invoices, select the **Automatically Post on Release** check box on the **General** tab ( **Posting**     **Settings** section) of the _Accounts Receivable Preferences_ form. 
 
+- To cause the system to post every accounts receivable document as an individual batch to the general     ledger, clear the **Generate Consolidated Batches** check box in the **Posting Settings** section of the _General_     _Ledger Preferences_ (GL102000) form. With these settings specified, users in your company can process pro forma invoices quickly and accurately with a minimum of manual actions. 
+
 
 <!-- PAGE_BREAK -->
  Project Accounting | 128 
-
-- To cause the system to post every accounts receivable document as an individual batch to the general     ledger, clear the **Generate Consolidated Batches** check box in the **Posting Settings** section of the _General_     _Ledger Preferences_ (GL102000) form. With these settings specified, users in your company can process pro forma invoices quickly and accurately with a minimum of manual actions. 
 
 #### Validation of Configuration 
 
@@ -4770,7 +4758,7 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting and Project Quotes features are enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects and Project Quotes features are enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -4784,13 +4772,15 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
  If you want to use the functionality of opportunities to create project quotes, make sure that the needed features have been enabled and settings have been specified, as summarized in the following checklist. 
 
+ Form Criteria to Check 
+
+ Enable/Disable Features (CS100000) form Make sure that the Customer Management feature is enabled. 
+
 
 <!-- PAGE_BREAK -->
  Project Accounting | 129 
 
  Form Criteria to Check 
-
- Enable/Disable Features (CS100000) form Make sure that the Customer Management feature is enabled. 
 
  Customer Management Preferences (CR101000) form Make sure that all necessary settings related to customer management have been specified. 
 
@@ -4808,7 +4798,7 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
 #### Validation of Configuration 
 
- To make sure that all configuration has been performed correctly, we recommend that in your system, you process a project quote by performing instructions similar to those described in Project Quotes: To Process a Project Quote Based on an OpportunityProject Quotes: To Create a Project Quote Based on an Opportunity. 
+ To make sure that all configuration has been performed correctly, we recommend that in your system, you process a project quote by performing instructions similar to those described in Project Quotes: To Process a Project Quote Based on an Opportunity. 
 
 ### Project Budget: Implementation Checklist 
 
@@ -4818,15 +4808,17 @@ To give users the abilities to validate leads, contacts, and business accounts f
 
  We recommend that before you initially manage project budgets, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist. 
 
+ Form Tasks to Perform Notes 
+
+ Enable/Disable Features (CS100000) form 
+
+ Make sure that the Projects feature is enabled. 
+
 
 <!-- PAGE_BREAK -->
  Project Accounting | 130 
 
 **Form Tasks to Perform Notes** 
-
-_Enable/Disable Features_ (CS100000) form 
-
- Make sure that the Project Accounting feature is enabled. 
 
 _Projects Preferences_ (PM101000) form 
 
@@ -4884,7 +4876,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting and Budget Forecast features are enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects and Budget Forecast features are enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -4900,7 +4892,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Task to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting check box is selected. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects check box is selected. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings of project accounting have been specified. 
 
@@ -4910,13 +4902,13 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  The following sections provide details that you can use to ensure that the system is configured properly for processing project transactions, and to understand (and change, if needed) the settings that affect the processing workflow. 
 
-
-<!-- PAGE_BREAK -->
- Project Accounting | 133 
-
 #### Implementation Checklist 
 
  We recommend that before you initially process project transactions, you make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist. 
+
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 133 
 
  Form Tasks to Perform 
 
@@ -4940,13 +4932,11 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
 - To cause the system to post every document you enter as an individual batch to the general ledger, clear     the **Generate Consolidated Batches** check box in the **Posting Settings** section of the _General Ledger_     _Preferences_ (GL102000) form. 
 
-- To make the system automatically associate additional project transactions that are generated (such as     discounts or freight charges) with specific project tasks, map specific general ledger accounts to these 
+- To make the system automatically associate additional project transactions that are generated (such as     discounts or freight charges) with specific project tasks, map specific general ledger accounts to these     project tasks within the project in the **Default Task for GL Account** section on the **Defaults** tab of the     _Projects_ form. For more information, see _Default Project Tasks in Record Lines_. 
 
 
 <!-- PAGE_BREAK -->
  Project Accounting | 134 
-
- project tasks within the project in the Default Task for GL Account section on the Defaults tab of the Projects form. For more information, see Default Project Tasks in Record Lines. 
 
 #### Validation of Configuration 
 
@@ -4962,7 +4952,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Form Criteria to Check 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Account Groups (PM201000) form Make sure that all needed account groups have been configured. For more information about account groups, see Account Groups: General Information. 
 
@@ -4970,15 +4960,13 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Projects (PM301000) Make sure that the necessary project and project tasks have been created. In the project settings, Track by Location needs to be selected in the Inventory Tracking box on the Summary tab. For more information on creating a project, see Project Creation and Processing: General Information. 
 
-
-<!-- PAGE_BREAK -->
- Project Accounting | 135 
-
- Form Criteria to Check 
-
  Warehouses (IN204000) form Make sure that a separate location is created and associated with each project task for which you need to receive inventory items in a warehouse. (For a location associated with a project task, the Cost Separately check box is selected automatically.) 
 
  We also recommend that you specify a higher Pick Priority value for project locations than for other locations, to avoid issuing project materials for other projects or to customers outside of projects. 
+
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 135 
 
 #### Inventory and Order Management Checklist 
 
@@ -5002,17 +4990,15 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  We recommend that you not map the inventory accrual account (which is an account of the Asset type) to an account group. If you need to track stock items purchased for the project in the project cost budget, we recommend that you use the commitment tracking functionality. For more information, see Tracking Cost Commitments. 
 
-
-<!-- PAGE_BREAK -->
- Project Accounting | 136 
-
- Form Tasks to Perform 
-
  Non-Stock Items (IN202000) form Make sure that all non-stock items have been defined, as described in Non-Stock Items: General Information. Also, make sure that the expense account of the items is mapped to the appropriate account group. 
 
  Make sure that Purchases is selected in the Post Cost to Expenses box on the Price/Cost tab; otherwise, the expenses related to the non-stock item will not be recorded to the cost budget of the applicable project. 
 
  Vendors (AP303000) form Make sure that all needed vendors have been defined in the system, as described in Vendors: General Information. 
+
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 136 
 
 #### Other Settings That Affect the Workflow 
 
@@ -5034,17 +5020,19 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  We recommend that before you initially process purchases for projects with AP bills, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist. 
 
+ Form Tasks to Perform 
+
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
+
+ Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
+
+ Projects (PM301000) form Make sure that the project has been created, as described in Project Creation and Processing: General Information. 
+
 
 <!-- PAGE_BREAK -->
  Project Accounting | 137 
 
  Form Tasks to Perform 
-
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
-
- Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
-
- Projects (PM301000) form Make sure that the project has been created, as described in Project Creation and Processing: General Information. 
 
  Non-Stock Items (IN202000) form Make sure that all needed labor items, non-stock items, and services have been defined. Make sure that the Require Receipt check box is cleared in the Item Defaults section on the General tab. 
 
@@ -5064,15 +5052,15 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
 - To cause the system to create accounts payable bills with the _Balanced_ status, clear the **Hold Documents**     **on Entry** check box on the **General** tab ( **Data Entry Settings** section) of the _Accounts Payable Preferences_     (AP101000) form. 
 
-
-<!-- PAGE_BREAK -->
- Project Accounting | 138 
-
 - To cause the system to automatically post general ledger batches generated during processing account     payable documents, select the **Automatically Post on Release** check box in the **Posting Settings** section     on the _General Ledger Preferences_ (GL102000) form. With these settings specified, users in your company can process purchases for projects with AP bills quickly and accurately with a minimum of manual actions. 
 
 #### Validation of Configuration 
 
  To make sure that all configuration has been performed correctly, we recommend that you perform instructions similar to those described in Purchasing Services for Projects: Process Activity. 
+
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 138 
 
 ### Single-Tier Change Management: Implementation Checklist 
 
@@ -5086,7 +5074,7 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Enable/Disable Features (CS100000) form 
 
- Make sure that the Project Accounting and Change Orders features are enabled. 
+ Make sure that the Projects and Change Orders features are enabled. 
 
  Projects Preferences (PM101000) form 
 
@@ -5095,12 +5083,6 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
  Change Order Classes (PM203000) form 
 
  Make sure that all needed change order classes have been configured, as described in Change Orders for Commitments: To Create a Change Order Class. 
-
-
-<!-- PAGE_BREAK -->
- Project Accounting | 139 
-
- Form Tasks to Perform Notes 
 
  Projects (PM301000) form Make sure that the project has been created, as described in Project Creation and Processing: General Information. 
 
@@ -5111,6 +5093,10 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 #### Checklist for Project Commitments 
 
  If you want to use the functionality of change orders to manage changes in commitments, make sure that all the needed features have been enabled and settings have been specified, as described in Committed Costs: Implementation Checklist. 
+
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 139 
 
 #### Other Settings That Affect the Workflow 
 
@@ -5130,10 +5116,6 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  The following sections provide details that you can use to ensure that the system is configured properly for calculating tax in project-related documents, and to understand (and change, if needed) the settings that affect the processing workflow. 
 
-
-<!-- PAGE_BREAK -->
- Project Accounting | 140 
-
 #### General Setting Checklist 
 
  To ensure that the system is configured properly for creating project-related documents with taxes applied automatically, make sure that the criteria listed in the table have been met in the system as described. 
@@ -5143,6 +5125,12 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
  Tax Zones (TX206000) All needed tax zones have been defined to include the applicable taxes in the location that corresponds to each tax zone. 
 
  For details, see Tax Zones and Categories: To Review Tax Categories and Create a Tax Zone for Sales Taxes. 
+
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 140 
+
+ Form Criteria to Check 
 
  Tax Categories (TX205500) The needed tax categories have been created for all goods and services (which are represented as stock items and nonstock items in Acumatica ERP) that your company buys or sells. For each tax category, you should add all taxes that are applied to the corresponding category of goods and services in all geographical locations where your company conducts business. 
 
@@ -5164,12 +5152,6 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Projects Preferences (PM101000) The Calculate Project-Specific Taxes check box is selected on the General tab. 
 
-
-<!-- PAGE_BREAK -->
- Project Accounting | 141 
-
- Form Criteria to Check 
-
  Projects (PM301000) In the Tax Settings section of the Addresses tab of the form, the following project-specific tax zones have been specified: 
 
 - **Cost Tax Zone** : The tax zone to be used in the cost     documents (such as bills, purchase orders, and     subcontracts) related to the project instead of the     vendor tax zone 
@@ -5179,6 +5161,10 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 #### Sales Tax Checklist 
 
  To ensure that the system is configured properly for creating project-related documents with a sales tax applied automatically, make sure that the criteria listed in the table have been met in the system as described. 
+
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 141 
 
  This table lists only project-specific part of configuring the system for application of sales taxes. For a detailed description on configuring sales taxes, see Sales Taxes. 
 
@@ -5202,10 +5188,6 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  For details, see Sales Taxes: To Configure a Sales Tax for Use in AP. 
 
-
-<!-- PAGE_BREAK -->
- Project Accounting | 142 
-
 #### Use Tax Checklist 
 
  To ensure that the system is configured properly for creating project-related documents with a use tax applied automatically, make sure that the criteria listed in the table have been met in the system as described. 
@@ -5221,6 +5203,12 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 - The Tax Expense account that will be used to record tax     adjustments and expenses for the tax agency 
 
 - The tax rounding gains and losses accounts 
+
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 142 
+
+ Form Criteria to Check 
 
  Account Groups (PM201000) form An account group of the Expense type has been configured and the Tax Expense account has been mapped to this account group. For details, see Account Groups: To Create an Expense Account Group. 
 
@@ -5240,10 +5228,6 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  To ensure that the prerequisite configuration has been implemented properly, make sure that the necessary entities have been defined,and settings have been specified, as described in the following checklist. 
 
-
-<!-- PAGE_BREAK -->
- Project Accounting | 143 
-
  Form Criteria to Check 
 
  Multiple forms The minimum company settings have been specified, as described in Company Without Branches: General Information. 
@@ -5253,6 +5237,10 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
  Employees (EP203000) All employees for whom time will be tracked have been defined. For details, see Employee Settings. 
 
  Activity Types (CR102000) form Activity types have been defined, if needed, in addition to those that are predefined in the system 
+
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 143 
 
 #### Configuration of Reporting Time with Time Cards 
 
@@ -5272,10 +5260,6 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Labor Rates (PM209900) Labor cost rates for employees have been defined, as illustrated in Labor Items: To Define Labor Cost Rates. 
 
-
-<!-- PAGE_BREAK -->
- Project Accounting | 144 
-
 #### Configuration of Reporting Time with Time Activities 
 
  To ensure that the employees will be able to log time with time activities, make sure that the necessary features have been enabled and settings have been specified, as described in the following checklist. 
@@ -5289,6 +5273,10 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 #### Other Settings That Affect the Workflow 
 
  You can affect the workflow of time reporting by specifying additional settings as follows: 
+
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 144 
 
 - To cause the system to require a particular employee to enter time cards, select the **Time Card is Required**     check box on the _Employees_ (EP203000) form. If the reporting of time with time activities is configured, the     selection of this check box means that time activities can be released only within a time card. 
 
@@ -5312,12 +5300,6 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Accounts Payable Preferences (AP101000) Make sure that the accounts payable settings have been configured as described in Accounts Payable: To Specify Accounts Payable Preferences. 
 
-
-<!-- PAGE_BREAK -->
- Project Accounting | 145 
-
- Form Criteria to Check 
-
  Vendors (AR303000) Verify the existence of the vendor accounts for the vendors whose bills you will pay. For details, see Vendors: Implementation Activity. 
 
  Cash Accounts (CA202000) Make sure that the cash account to be used in the payments has been configured as described in Cash Management: To Create Cash Accounts. 
@@ -5325,6 +5307,10 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
  Payment Methods (CA204000) Make sure that the payment method you will use has been configured as described in Cash Management: To Create Cash Accounts. 
 
  Projects (PM301000) Make sure that the necessary project (that is, the project for which the vendor performed the billed work) has been created and necessary project tasks of this project are active. 
+
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 145 
 
 #### Payment by Line Checklist 
 
@@ -5350,10 +5336,6 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
 - To make the system consolidate into one batch all generated transactions posted to the same period for all     documents being released, select the **Generate Consolidated Batches** check box on the _General Ledger_     _Preferences_ form. 
 
-
-<!-- PAGE_BREAK -->
- Project Accounting | 146 
-
 #### Validation of Configuration 
 
  To make sure that all configuration has been performed correctly, we recommend that in your system, you perform instructions similar to those described in Vendor Payments for a Project: To Process a Payment for Multiple Bills and Vendor Payments for a Project: To Process a Payment of Bill Lines. 
@@ -5366,9 +5348,13 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  We recommend that before you initially bill a cost-plus projects with WIP costs, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist. 
 
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 146 
+
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -5382,10 +5368,6 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  Projects (PM301000) Make sure that the project has been created, as described in Project Creation and Processing: General Information. 
 
-
-<!-- PAGE_BREAK -->
- Project Accounting | 147 
-
 #### Other Settings That Affect the Workflow 
 
  To cause the system to automatically release allocation transactions, including allocation reversal transactions, select the Automatically Release Allocations check box on the General tab ( General Settings section) of the Projects Preferences (PM101000) form. 
@@ -5398,13 +5380,17 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 
  The following sections provide details you can use to ensure that the system is configured properly for billing a cost-plus projects with WIP costs, and to understand (and change, if needed) the settings that affect the processing workflow. 
 
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 147 
+
 #### Implementation Checklist 
 
  We recommend that before you initially bill a cost-plus projects with WIP costs, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist. 
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -5413,12 +5399,6 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
  Account Groups (PM201000) form Make sure that an account group of the Asset type for work in progress has been created and the WIP account has been added to the account group. For details on configuring account groups, see Account Groups: General Information. 
 
  Allocation Rules (PM207500) form Make sure that an allocation rule is configured as described in WIP Labor Costs in Fixed-Price Projects: General Information. 
-
-
-<!-- PAGE_BREAK -->
- Project Accounting | 148 
-
- Form Tasks to Perform 
 
  Billing Rules (PM207000) form Make sure that all the needed billing rules have been configured to process allocation transactions posted to the WIP account group. For details on configuring billing rules, see Billing Rules: General Information. 
 
@@ -5429,6 +5409,10 @@ _Non-Stock Items_ (IN202000) form Make sure that all needed labor items, non-sto
 #### Other Settings That Affect the Workflow 
 
  To cause the system to automatically release allocation transactions, including allocation reversal transactions, select the Automatically Release Allocations check box on the General tab ( General Settings section) of the Projects Preferences (PM101000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Project Accounting | 148 
 
 #### Validation of Configuration 
 

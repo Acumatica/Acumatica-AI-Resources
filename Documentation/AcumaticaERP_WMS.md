@@ -2,7 +2,7 @@
 
 # Automated Warehouse Operations 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -56,7 +56,7 @@
 
  Item and Storage Lookup: Process Activity....................................................................................................44 
 
- Item and Storage Lookup: Process Activity (Mobile)..................................................................................... 47 
+ Item and Storage Lookup: Process Activity (Mobile)..................................................................................... 46 
 
  Automated Picking and Packing Operations........................................................................................... 49 
 
@@ -94,7 +94,7 @@
 
  Receiving and Putting Away Operations: To Receive and Put Away Items...................................................83 
 
- Receiving and Putting Away Operations: To Receive and Put Away Items (Mobile).................................... 86 
+ Receiving and Putting Away Operations: To Receive and Put Away Items (Mobile).................................... 87 
 
  Receiving and Putting Away Operations: Receipt Verification...................................................................... 89 
 
@@ -132,53 +132,53 @@
 
  Paperless Picking: To Process Wave Pick Lists.............................................................................................160 
 
-**Automated Operations with Lotand Serial-Tracked Items..................................................................... 167** 
+**Automated Operations with Lotand Serial-Tracked Items..................................................................... 166** 
 
- Automated Operations with Lotand Serial-Tracked Items: General Information.................................... 167 
+ Automated Operations with Lotand Serial-Tracked Items: General Information.................................... 166 
 
- Automated Operations with Lotand Serial-Tracked Items: Implementation Checklist........................... 169 
+ Automated Operations with Lotand Serial-Tracked Items: Implementation Checklist........................... 168 
 
- Automated Operations with Lotand Serial-Tracked Items: Picking and Packing Items...........................170 
+ Automated Operations with Lotand Serial-Tracked Items: Picking and Packing Items...........................169 
 
- Automated Operations with Lotand Serial-Tracked Items: Receiving and Putting Away Items.............. 175 
+ Automated Operations with Lotand Serial-Tracked Items: Receiving and Putting Away Items.............. 174 
 
- Automated Operations with Lotand Serial-Tracked Items: Transferring Items........................................180 
+ Automated Operations with Lotand Serial-Tracked Items: Transferring Items........................................179 
 
- Automated Operations with Lotand Serial-Tracked Items: To Process Purchase and Sales Orders, and Transfers......................................................................................................................................................... 183 
+ Automated Operations with Lotand Serial-Tracked Items: To Process Purchase and Sales Orders, and Transfers......................................................................................................................................................... 182 
 
- Automated Operations with Lotand Serial-Tracked Items: Counting Items in Physical Inventory......... 189 
+ Automated Operations with Lotand Serial-Tracked Items: Counting Items in Physical Inventory......... 188 
 
- Automated Operations with Lotand Serial-Tracked Items: To Count Items in Physical Inventory..........191 
+ Automated Operations with Lotand Serial-Tracked Items: To Count Items in Physical Inventory..........190 
 
- Automated Operations with Lotand Serial-Tracked Items: Issuing Items................................................ 194 
+ Automated Operations with Lotand Serial-Tracked Items: Issuing Items................................................ 193 
 
 
 <!-- PAGE_BREAK -->
  Contents | 4 
 
- Automated Operations with Lotand Serial-Tracked Items: To Issue Items.............................................. 196 
+ Automated Operations with Lotand Serial-Tracked Items: To Issue Items.............................................. 195 
 
- Automated Operations with Lotand Serial-Tracked Items: Receiving Items............................................ 199 
+ Automated Operations with Lotand Serial-Tracked Items: Receiving Items............................................ 198 
 
-**Cart Tracking in Warehouse Operations................................................................................................ 202** 
+**Cart Tracking in Warehouse Operations................................................................................................ 201** 
 
-**Working Modes and Supported Commands........................................................................................... 204** 
+**Working Modes and Supported Commands........................................................................................... 203** 
 
-**Supported Barcode Types and Mobile Devices.......................................................................................209** 
+**Supported Barcode Types and Mobile Devices.......................................................................................216** 
 
-**GS1 Barcodes in Acumatica ERP........................................................................................................... 211** 
+**GS1 Barcodes in Acumatica ERP........................................................................................................... 218** 
 
-**Appendix............................................................................................................................................ 214** 
+**Appendix............................................................................................................................................ 221** 
 
- Reports........................................................................................................................................................... 214 
+ Reports........................................................................................................................................................... 221 
 
- Report Form.......................................................................................................................................... 214 
+ Report Form.......................................................................................................................................... 221 
 
- Report....................................................................................................................................................219 
+ Report....................................................................................................................................................228 
 
- Form Toolbar and More Menu.......................................................................................................................221 
+ Form Toolbar and More Menu.......................................................................................................................229 
 
- Table Toolbar................................................................................................................................................. 228 
+ Table Toolbar................................................................................................................................................. 236 
 
 
 <!-- PAGE_BREAK -->
@@ -200,9 +200,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -416,7 +416,7 @@ To transfer items (and use Scan and Transfer mode), you perform the following st
 
  In the following activity, you will learn how to transfer stock items between locations of the same warehouse in a single step by using the Scan and Transfer (IN304020) form. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -548,7 +548,7 @@ To transfer items (and use Scan and Transfer mode), you perform the following st
 
 2. On the form toolbar, click **Release**. The system releases the transfer. 
 
-3. Click the Edit button next to the **Reference Nbr.** box. 
+3. Click the link in the **Reference Nbr.** box. 
 
 4. On the _Transfers_ (IN304000) form, which opens, review the inventory transfer transaction. Make sure it     includes the needed lines and is assigned the _Released_ status, as shown in the following screenshot. 
 
@@ -670,7 +670,7 @@ To count inventory items (and use Scan and Count mode), you perform the followin
 
  In this activity, you will learn how to perform automated counting during physical inventory on the Scan and Count (IN305020) form. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -730,7 +730,7 @@ To count inventory items (and use Scan and Count mode), you perform the followin
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a warehouse worker with the _perkins_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 
 <!-- PAGE_BREAK -->
@@ -820,7 +820,7 @@ To count inventory items (and use Scan and Count mode), you perform the followin
 
  In this activity, we use the Acumatica mobile app for Android devices. The appearance and functionality of the mobile app for iOS devices may differ somewhat. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1078,7 +1078,7 @@ To issue items by using a barcode scanner or a mobile device with a scanning opt
 
  In the following activity, you will learn how to issue stock items by using the Scan and Issue (IN302020) form. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1170,7 +1170,7 @@ To issue items by using a barcode scanner or a mobile device with a scanning opt
 
 2. On the form toolbar, click **Release** to release the inventory issue. 
 
-3. Click the Edit button next to the **Reference Nbr.** box, and on the _Issues_ (IN302000) form, which opens,     review the inventory issue. Make sure that it includes the needed lines and is assigned the _Released_ status,     as shown in the following screenshot. 
+3. Click the link in the **Reference Nbr.** box, and on the _Issues_ (IN302000) form, which opens, review the     inventory issue. Make sure that it includes the needed lines and is assigned the _Released_ status, as shown in     the following screenshot. 
 
  Figure: The released inventory issue 
 
@@ -1296,15 +1296,13 @@ To receive items by using a barcode scanner or a mobile device with a scanning o
 
  Element State Description 
 
- Default Warehouse from User Profile 
-
- Selected With this check box selected, the system copies the warehouse to be used in receipts from the profile of the signed-in user. 
+ Use Warehouse from User Profile Selected With this check box selected, the system copies the warehouse to be used in receipts from the profile of the signed-in user. 
 
 ### Processing of Inventory Receipts: Process Activity 
 
  In the following activity, you will learn how to receive stock items by using the Scan and Receive (IN301020) form. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1406,7 +1404,7 @@ To receive items by using a barcode scanner or a mobile device with a scanning o
 
 2. On the form toolbar, click **Release** to release the inventory receipt. 
 
-3. Click the Edit button next to the **Reference Nbr.** box, and on the _Receipts_ (IN301000) form, which opens,     review the inventory receipt document. Make sure it includes the needed lines and is assigned the _Released_     status, as shown in the following screenshot. 
+3. Click the link in the **Reference Nbr.** box, and on the _Receipts_ (IN301000) form, which opens, review the     inventory receipt document. Make sure it includes the needed lines and is assigned the _Released_ status, as     shown in the following screenshot. 
 
  Figure: The released inventory receipt 
 
@@ -1502,7 +1500,7 @@ To receive items by using a barcode scanner or a mobile device with a scanning o
 
  In this activity, you will learn how to search for information about stock items by using the Item Lookup (IN202520) form and for information about items stored in a particular location by using the Storage Lookup (IN409020) form. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1554,13 +1552,15 @@ To receive items by using a barcode scanner or a mobile device with a scanning o
 
 3. In the table on the **Item** tab, notice that the item is stored in the following locations: _MAIN_ , _L1R3S2_ , _L2R3S2_ ,     and _L3R3S2_ , as shown in the following screenshot. 
 
+ Figure: Reviewing the locations with apple jam 
+
+ You know the box did not come from the MAIN location because it is a receiving location, and you first need to make sure that the box was not taken from any of the racks with sorted items. Because you know that the box you found contains 10 jars, this box could have been taken from the L1R3S2 or L3R3S2 locations, 
+
 
 <!-- PAGE_BREAK -->
  Automated Item and Storage Lookup | 46 
 
- Figure: Reviewing the locations with apple jam 
-
- You know the box did not come from the MAIN location because it is a receiving location, and you first need to make sure that the box was not taken from any of the racks with sorted items. Because you know that the box you found contains 10 jars, this box could have been taken from the L1R3S2 or L3R3S2 locations, as shown in the previous screenshot. (The L2R3S2 location contains only 8 jars of this item, so the box definitely is not from this shelf.) 
+ as shown in the previous screenshot. (The L2R3S2 location contains only 8 jars of this item, so the box definitely is not from this shelf.) 
 
  Now you need to find out if the L1R3S2 or L3R3S2 locations contain less jam than the quantity that is recorded in the system. 
 
@@ -1578,17 +1578,13 @@ To receive items by using a barcode scanner or a mobile device with a scanning o
 
 5. In the table on the **Storage** tab, you can see that the on-hand quantity of the _APJAM32_ item is _26_ , which     corresponds to two boxes of 10 jars each and 6 separate jars. You have found only one box on this shelf, so     the box you have found on the floor should be placed on this shelf. 
 
-
-<!-- PAGE_BREAK -->
- Automated Item and Storage Lookup | 47 
-
 ### Item and Storage Lookup: Process Activity (Mobile) 
 
  In the following activity, by using the Acumatica mobile app, you will learn how to search for information about stock items on the Item Lookup screen, which corresponds to the Item Lookup (IN202520) form of Acumatica ERP, and for information about items stored in a particular location on the Storage Lookup screen, which corresponds to the Storage Lookup (IN409020) form of Acumatica ERP. 
 
  In this activity, we use the Acumatica mobile app for Android devices. The appearance and functionality of the mobile app for iOS devices may differ somewhat. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1603,6 +1599,10 @@ To receive items by using a barcode scanner or a mobile device with a scanning o
 - _Multiple Warehouse Locations_ 
 
 - _Warehouse Management_ 
+
+
+<!-- PAGE_BREAK -->
+ Automated Item and Storage Lookup | 47 
 
 - _Inventory Operations_ 
 
@@ -1621,10 +1621,6 @@ To receive items by using a barcode scanner or a mobile device with a scanning o
 #### System Preparation 
 
  Before you start looking up items, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Automated Item and Storage Lookup | 48 
 
 1. Make sure that you have installed the Acumatica mobile app on your mobile device. 
 
@@ -1646,7 +1642,21 @@ To receive items by using a barcode scanner or a mobile device with a scanning o
 
 2. Scan the AJ32B item barcode (which is the barcode affixed to the box). 
 
-3. At the bottom of the screen, tap **Review**. The Inventory Summary screen is opened. (This screen     corresponds to the _Inventory Summary_ (IN401000) form in Acumatica ERP.)     On this screen, you can see that the item is stored in the following locations: _MAIN_ , _L1R3S2_ , _L2R3S2_ , and     _L3R3S2_. The _MAIN_ location is the receiving location far from the place where you found the box. Most likely,     the box was taken from the racks with sorted items. You know that the box contains 10 jars, so this box can     be stored in either the _L1R3S2_ location or the _L3R3S2_ location. As you can see on the screen, the _L2R3S2_     location contains only 8 jars of this item, so the box definitely is not from this location. 
+3. At the bottom of the screen, tap **Review**. The Inventory Summary screen is opened. (This screen     corresponds to the _Inventory Summary_ (IN401000) form in Acumatica ERP.) 
+
+ On this screen, you can see that the item is stored in the following locations: MAIN , L1R3S2 , L2R3S2 , and L3R3S2. 
+
+- _L1R3S2_ : Line 1, rack 3, shelf 2 
+
+- _L2R3S2_ : Line 2, rack 3, shelf 2 
+
+- _L3R3S2_ : Line 3, rack 3, shelf 2 
+
+
+<!-- PAGE_BREAK -->
+ Automated Item and Storage Lookup | 48 
+
+- _MAIN_ : Main (receiving) location The _MAIN_ location is the receiving location far from the place where you found the box. Most likely, the box was taken from the racks with sorted items. You know that the box contains 10 jars, so this box can be stored in either the _L1R3S2_ location or the _L3R3S2_ location. As you can see on the screen, the _L2R3S2_ location contains only 8 jars of this item, so the box definitely is not from this location. 
 
  Now you need to find out which of the locations ( L1R3S2 or L3R3S2 ) contains less jam than the quantity that is recorded in the system. 
 
@@ -1664,7 +1674,7 @@ To receive items by using a barcode scanner or a mobile device with a scanning o
 
 5. Scan the L3R3S2 location barcode. 
 
-6. At the bottom of the screen, tap **Review**. On the Storage Summary screen, you can see that the on-hand     quantity of the _APJAM32_ item is 26, which corresponds to two boxes of 10 jars each and 6 separate jars. You     see only one box in this location, so the box you have found should be placed in this location. 
+6. At the bottom of the screen, tap **Review**.     On the Storage Summary screen, you can see that the on-hand quantity of the _APJAM32_ item is 26, which     corresponds to two boxes of 10 jars each and 6 separate jars. You see only one box in this location, so the     box you have found should be placed in this location. 
 
 
 <!-- PAGE_BREAK -->
@@ -1862,7 +1872,7 @@ To process the packing of items (and use Pack mode) aer picking them, you per
 
  Short Shipment Confirmation Forbid With the Forbid value selected, a user cannot confirm the picking of the shipment if not all items have been picked. 
 
- Explicit Line Confirmation Cleared With this check box cleared, the system does not request user confirmation for each line when the user is performing automated operations in Pick mode and Pack mode. 
+ Use Explicit Line Confirmation Cleared With this check box cleared, the system does not request user confirmation for each line when the user is performing automated operations in Pick mode and Pack mode. 
 
  Confirm Weight for Each Package Cleared With this check box cleared, the user confirms a package, and the system calculates the package weight automatically. 
 
@@ -1900,7 +1910,7 @@ To process the packing of items (and use Pack mode) aer picking them, you per
 
  In the following activity, you will learn how to perform the picking and packing of items for a shipment by using the Pick, Pack, and Ship (SO302020) form. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2016,9 +2026,9 @@ To process the packing of items (and use Pack mode) aer picking them, you per
 
  To review the result and make sure that the shipment has been confirmed, do the following: 
 
-1. While you are still viewing the _000029_ shipment on the _Pick, Pack, and Ship_ (SO302020) form, click the     Edit button next to the **Shipment Nbr.** box. On the _Shipments_ (SO302000) form, which opens, review the     shipment that you have processed earlier. It is now assigned the _Confirmed_ status. 
+1. While you are still viewing the _000029_ shipment on the _Pick, Pack, and Ship_ (SO302020) form, click the link     in the **Shipment Nbr.** box. On the _Shipments_ (SO302000) form, which opens, review the shipment that you     have processed earlier. It is now assigned the _Confirmed_ status (Item 1 below). 
 
-2. Review the **Packages** tab. Notice that one _MEDIUM_ box is shown in the upper table, and the **Contents of**     **Selected Package** table shows the items that you have packed into this box, as shown in the following     screenshot. 
+2. Review the **Packages** tab. Notice that one _MEDIUM_ box (Item 2) is shown in the upper table, and the     **Contents of Selected Package** table shows the items (Item 3) that you have packed into this box. 
 
  Figure: Confirmed shipment 
 
@@ -2030,15 +2040,17 @@ To process the packing of items (and use Pack mode) aer picking them, you per
 
  In this activity, we use the Acumatica mobile app for Android devices. The appearance and functionality of the mobile app for iOS devices may differ somewhat. 
 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
+
+#### Story 
+
+ Suppose that you are a warehouse worker of the wholesale warehouse of the SweetLife Fruits & Jams company. Your warehouse manager gives you a task to prepare a shipment with the help of the Acumatica mobile app. In 
+
 
 <!-- PAGE_BREAK -->
  Automated Picking and Packing Operations | 60 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-#### Story 
-
- Suppose that you are a warehouse worker of the wholesale warehouse of the SweetLife Fruits & Jams company. Your warehouse manager gives you a task to prepare a shipment with the help of the Acumatica mobile app. In your organization, the pick and pack workflow is used, which means that you go through the warehouse locations and pick the items listed in the shipment pick list. Then you go to the packing line and pack the picked items into boxes. 
+ your organization, the pick and pack workflow is used, which means that you go through the warehouse locations and pick the items listed in the shipment pick list. Then you go to the packing line and pack the picked items into boxes. 
 
 #### Configuration Overview 
 
@@ -2078,15 +2090,15 @@ To process the packing of items (and use Pack mode) aer picking them, you per
 
 3. Enter the URL and optional name of the Acumatica ERP instance with the _U100_ dataset preloaded (for     example, _https://your.acumatica.site.com_ ), and tap **Next**. 
 
-
-<!-- PAGE_BREAK -->
- Automated Picking and Packing Operations | 61 
-
 4. Enter the credentials of the user account you will use in this activity: the _perkins_ username and the _123_     password. 
 
 5. Tap **Sign In** to enter the site. 
 
  The instructions in the activity steps below may slightly differ in the Acumatica mobile app depending on whether the device is running iOS or Android. 
+
+
+<!-- PAGE_BREAK -->
+ Automated Picking and Packing Operations | 61 
 
 #### Step 1: Picking Items for Shipping 
 
@@ -2122,23 +2134,23 @@ To process the packing of items (and use Pack mode) aer picking them, you per
 
 2. Scan the MEDIUM barcode to select the box for packaging the shipment. 
 
+3. Scan the AJ08 barcode to select the item being packed. 
+
+4. Set the quantity of the item to 12 as follows:     a. At the bottom of the screen, tap **Set Qty** to change the quantity of the current line.     b. Enter 12. The system specifies _12_ as the **Picked Quantity**. 
+
+5. Scan the OJ32 barcode to select the item being picked. 
+
 
 <!-- PAGE_BREAK -->
  Automated Picking and Packing Operations | 62 
 
-3. Scan the AJ08 barcode to select the item being packed. 
+6. Set the quantity of the item to 6. The system specifies _6_ as the **Packed Quantity** and displays a message in     the notification area indicating that the shipment is packed in full. 
 
-4. Set the quantity of the item to 12 as follows:     a. At the bottom of the screen, tap **Set Qty** to change the quantity of the current line.     b. Enter 12. The system specifies _12_ as the **Picked Quantity**.     c. To review the entered quantity, tap **Review** , tap _MEDIUM_ , and then tap the document line with the _Apple_        _jam 8 oz._ item. 
+7. To review the packed quantities of items, do the following:     a. Tap **Review**.     b. Tap _MEDIUM_.     c. Tap the icon to the right of the **Box ID** box. 
 
-5. Go back to the Pick, Pack, and Ship screen. 
+8. Go back to the Pick, Pack, and Ship screen. 
 
-6. Scan the OJ32 barcode to select the item being picked. 
-
-7. Set the quantity of the item to 6. The system specifies _6_ as the **Packed Quantity** and displays a message in     the notification area indicating that the shipment is packed in full. 
-
-8. To review the packed quantities of items, do the following:     a. Tap **Review**.     b. Tap _MEDIUM_.     c. Tap the document line with the _Apple jam 8 oz._ item, review the document, and close the Package        Content screen.     d. Tap the document line with the _Orange jam 8 oz._ item, review the document, and close the Package        Content screen. 
-
-9. Go back to the Pick, Pack, and Ship screen. 10.In the top right corner of the screen, tap **More > Confirm Package** to confirm the package. 11.In the top right corner of the screen, tap **More > Confirm Shipment** to confirm the shipment. 
+9. In the top right corner of the screen, tap **More > Confirm Package** to confirm the package. 10.In the top right corner of the screen, tap **More > Confirm Shipment** to confirm the shipment. 
 
  You have successfully picked and packed the items of the shipment. 
 
@@ -2172,15 +2184,15 @@ To process the packing of items (and use Pack mode) aer picking them, you per
 
 - The picking worksheet for a batch pick list 
 
-
-<!-- PAGE_BREAK -->
- Automated Picking and Packing Operations | 63 
-
-- The overall efficiency in Pick and Pack modes or in Pack-only mode of shipment processing on the _Pick,_     _Pack, and Ship_ (SO302020) form.     The overall efficiency is calculated as the number of useful operations divided by the number of minutes of     the actual time. To review the picking and packing statistics, you need to specify at least the first date of the period for which the statistics are required in the **Start Date** box of the Selection area. By default, the inquiry shows combined information on picking and packing operations in separate lines. You can view the statistics for all warehouses or narrow the inquiry results to a specific warehouse by selecting it in the **Warehouse** box in the Selection area. 
+- The overall efficiency in Pick and Pack modes or in Pack-only mode of shipment processing on the _Pick,_     _Pack, and Ship_ (SO302020) form.     The overall efficiency is calculated as the number of useful operations divided by the number of minutes of     the actual time. To review the picking and packing statistics, you need to specify at least the first date of the period for which the statistics are required in the **Date Range** box of the Selection area. By default, the inquiry shows combined information on picking and packing operations in separate lines. You can view the statistics for all warehouses or narrow the inquiry results to a specific warehouse by selecting it in the **Warehouse** box in the Selection area. 
 
  You can expand the inquiry data by selecting any of the following check boxes in the Selection area of the form: 
 
 - **Expand by User** : If this check box is selected, the table displays a separate row for each user within the     specified period. When this check box is selected, you can also narrow the inquiry results to a single user by     specifying a username in the **User** box. 
+
+
+<!-- PAGE_BREAK -->
+ Automated Picking and Packing Operations | 63 
 
 - **Expand by Pick List** : If this check box is selected, the table shows a separate row for each pick list within the     specified period. When this check box is selected, you can also narrow the inquiry results as follows: 
 
@@ -2362,7 +2374,7 @@ To process the packing of items (and use Pack mode) without picking them, you pe
 
  Short Shipment Configuration Forbid With the Forbid value selected, the system does not allow a user to confirm a shipment that is not packed in full. 
 
- Explicit Line Confirmation Cleared With this check box cleared, the system does not request user confirmation for each line when the user is performing automated operations in Pack mode. 
+ Use Explicit Line Confirmation Cleared With this check box cleared, the system does not request user confirmation for each line when the user is performing automated operations in Pack mode. 
 
  Confirm Weight for Each Package Cleared With this check box cleared, the user confirms a package, and the system calculates the package weight automatically. 
 
@@ -2400,7 +2412,7 @@ To process the packing of items (and use Pack mode) without picking them, you pe
 
  In the following activity, you will learn how to perform the packing of items for a shipment by using the Pick, Pack, and Ship (SO302020) form. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2490,9 +2502,9 @@ To process the packing of items (and use Pack mode) without picking them, you pe
 
  To review the result and make sure that the shipment has been confirmed, do the following: 
 
-1. While you are still viewing the shipment on the _Pick, Pack, and Ship_ (SO302020) form, click the Edit button     next to the **Shipment Nbr.** box. On the _Shipments_ (SO302000) form, which opens, review the shipment that     you have processed in the previous step. It is now assigned the _Confirmed_ status. 
+1. While you are still viewing the shipment on the _Pick, Pack, and Ship_ (SO302020) form, click the link in the     **Shipment Nbr.** box. On the _Shipments_ (SO302000) form, which opens, review the shipment that you have     processed in the previous step. It is now assigned the _Confirmed_ status (Item 1 below). 
 
-2. Review the **Packages** tab. Notice that one _MEDIUM_ box is shown in the upper table, and the **Contents of**     **Selected Package** table shows the items that you have packed into this box, as shown in the following     screenshot. 
+2. Review the **Packages** tab. Notice that one _MEDIUM_ box (Item 2) is shown in the upper table, and the     **Contents of Selected Package** table shows the items (Item 3) that you have packed into this box, as shown     in the following screenshot. 
 
 
 <!-- PAGE_BREAK -->
@@ -2560,9 +2572,9 @@ To process the packing of items (and use Pack mode) without picking them, you pe
 
 ### Receiving and Putting Away Operations: General Information 
 
- If the Receiving feature is enabled on the Enable/Disable Features (CS100000) form, you can perform the automated receiving and putting away of inventory items by using a barcode scanner or a mobile device with a scanning option. 
+ If the Receiving feature is enabled on the Enable/Disable Features (CS100000) form, you can perform the automated receiving and putting away of stock and non-stock items by using a barcode scanner or a mobile device with a scanning option. 
 
- In this topic, you will read about the workflow for the automated receiving and putting away of inventory items in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in Receiving and Putting Away Operations: Implementation Checklist. 
+ In this topic, you will read about the workflow for the automated receiving and putting away of these items in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in Receiving and Putting Away Operations: Implementation Checklist. 
 
 #### Learning Objectives 
 
@@ -2582,7 +2594,7 @@ To process the packing of items (and use Pack mode) without picking them, you pe
 
 #### Applicable Scenario 
 
- You can perform the automated receiving and putting away of inventory items if in your company's warehouses, all purchased items are received to a dedicated location. A warehouse worker receives items from a purchase receipt to this location. Then the warehouse worker puts away the received items in the locations where the items will be stored. To track the operations as they are being performed, the worker scans the appropriate barcodes by using a barcode scanner or mobile device. 
+ You can perform the automated receiving and putting away of stock and non-stock items if in your company's warehouses, all purchased items are received to a dedicated location. A warehouse worker receives items from a purchase receipt to this location. Then the warehouse worker puts away the received items in the locations where the items will be stored. To track the operations as they are being performed, the worker scans the appropriate barcodes by using a barcode scanner or mobile device. 
 
  You can perform automated receiving of items for purchase orders with the Open status, and purchase receipts with the Balanced status. You can perform the automated putting away of items for purchase receipts with the Released status. 
 
@@ -2662,17 +2674,23 @@ To process the putting away of items by using Put Away mode, you perform the fol
 
 8. _Complete the process of putting items away_.     When you have finished the operation of putting away items, you scan the *release barcode or click the     **Release Transfer** button. The system releases the inventory transfer document that was prepared during     the automated operation; the items are moved to the destination locations. 
 
+ Putaway of non-stock items is currently supported only in automated warehouse operations. You should note the following details: 
+
+- You can’t create a transfer of a non-stock item directly on the _Transfers_ (IN304000) form. 
+
+- Putaway of a non-stock item doesn’t generate inventory or GL transactions because the item     has already been expensed at receipt release, and inventory isn’t tracked for it. 
+
 ### Receiving and Putting Away Operations: Implementation Checklist 
 
  This topic provides details you can use to ensure that the system is configured properly for the automated receiving and putting away of items. 
 
-#### Prerequisites 
-
- Before you start configuring automated warehouse operations, you should make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist. 
-
 
 <!-- PAGE_BREAK -->
  Automated Receiving and Putting Away Operations | 81 
+
+#### Prerequisites 
+
+ Before you start configuring automated warehouse operations, you should make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist. 
 
  Form Criteria to Check 
 
@@ -2718,13 +2736,13 @@ To process the putting away of items by using Put Away mode, you perform the fol
 
  Make sure that the barcodes have been specified for each item. 
 
-#### Recommended Workflow Settings 
-
- We recommend that you configure the workflow for the automated receiving and putting away items by specifying the following settings on the Warehouse Management tab of the Purchase Orders Preferences (PO101000) form. 
-
 
 <!-- PAGE_BREAK -->
  Automated Receiving and Putting Away Operations | 82 
+
+#### Recommended Workflow Settings 
+
+ We recommend that you configure the workflow for the automated receiving and putting away items by specifying the following settings on the Warehouse Management tab of the Purchase Orders Preferences (PO101000) form. 
 
  Element State Description 
 
@@ -2736,7 +2754,7 @@ To process the putting away of items by using Put Away mode, you perform the fol
 
  Display the Scan Log Tab Selected With this check box selected, the system will display the Scan Log tab on the Receive and Put Away (PO302020) form; on this tab, a user can review the list of operations that have been performed during the past two weeks. 
 
- Explicit Line Confirmation Cleared With this check box cleared, the system does not request user confirmation for each line when the user is performing automated operations in Receive mode and Put Away mode. 
+ Use Explicit Line Confirmation Cleared With this check box cleared, the system does not request user confirmation for each line when the user is performing automated operations in Receive mode and Put Away mode. 
 
  Use Single Receiving Location Selected With this check box selected, the system asks for the receiving location only once for each purchase receipt being processed; all items of this purchase receipt are received to this location. 
 
@@ -2750,13 +2768,15 @@ To process the putting away of items by using Put Away mode, you perform the fol
 
  Selected With this check box selected, the system automatically prints the inventory label for the purchase receipt being processed. 
 
- Print Purchase Receipts Automatically 
-
- Selected With this check box selected, the system automatically prints the processed purchase receipts. 
-
 
 <!-- PAGE_BREAK -->
  Automated Receiving and Putting Away Operations | 83 
+
+ Element State Description 
+
+ Print Purchase Receipts Automatically 
+
+ Selected With this check box selected, the system automatically prints the processed purchase receipts. 
 
 #### Other Settings That Affect the Workflow 
 
@@ -2764,35 +2784,33 @@ To process the putting away of items by using Put Away mode, you perform the fol
 
 - To speed up the entry of quantities in the lines being processed, select the **Use Default Quantity** check     box. When this check box is selected, the **Set Qty** button on the form toolbar of the _Receive and Put Away_     (PO302020) form becomes available before you scan the barcode of an item. You click this button to specify     the default quantity of the item. Aer the default quantity is specified, the system inserts it in the **Received**     **Qty.** or **Put Away Qty.** column each time you scan the barcode of the item. 
 
-- To make the system automatically specify the default receiving location of a warehouse for all receipt     documents being processed, select the **Default Receiving Location** check box. 
+- To make the system automatically specify the default receiving location of a warehouse for all receipt     documents being processed, select the **Use Default Receiving Location** check box. 
 
-- To make the system request the receiving location for each item being processed in Receive mode, clear the     **Use Single Receiving Location** check box, and select the **Request Location for Each Item on Receiving**     check box.     To make the system request the location to which each item must be put away in Put Away mode, clear     the **Use Single Receiving Location** check box, and select the **Request Location for Each Item on Putting**     **Away** check box. 
+- To make the system request the receiving location for each item being processed in Receive mode, clear the     **Use Single Receiving Location** check box, and select the **Request Location for Each Item on Receiving**     check box.     To make the system request the location to which each item must be put away in Put Away mode, clear     the **Use Single Receiving Location** check box, and select the **Request Location for Each Item on Putting**     **Away** check box.     If you have specified the default putaway location for the item, the system suggests this location in the     prompt. You can specify it on the following forms: 
+
+- For a stock item: In the **Default Putaway To** box on the _Item Warehouse Details_ (IN204500) or _Stock Items_     (IN202500) form 
+
+- For a non-stock item: In the **Non-Stock Item Location** box on the _Warehouses_ (IN204000) form. 
 
 - To give users the ability to perform additional verification of a purchase receipt to ensure the correctness of     its item quantities, select the **Verify Receipts Before Release** check box. When this check box is selected,     a user can confirm a purchase receipt on the _Receive and Put Away_ form but cannot release it. A user can     release the receipt on the _Purchase Receipts_ (PO302000) form.     When the **Verify Receipts Before Release** check box is selected, the **Keep Zero Lines on Receipt**     **Confirmation** check box becomes available for selection. With this check box selected, the system will     keep lines with a receipt quantity of 0 in a purchase receipt on the _Purchase Receipts_ form aer a user has     confirmed the receipt of items. 
 
 #### Known Process Limitations 
 
- The following limitations apply to the automated receiving and putting away of items: 
-
-- Non-stock items cannot be processed on the _Receive and Put Away_ (PO302020) form. If you need to     receive a non-stock item, you create and process a separate receipt for this item on the _Purchase Receipts_     (PO302000) form. 
-
-- Multiple users cannot simultaneously process unreleased transfer receipts with partial item quantities on     the _Receive and Put Away_ form. However, if you have created and released a transfer receipt with a partial     item quantity, the remaining quantity can be received in another transfer receipt. 
+ Multiple users cannot simultaneously process unreleased transfer receipts with partial item quantities on the Receive and Put Away form. However, if you have created and released a transfer receipt with a partial item quantity, the remaining quantity can be received in another transfer receipt. 
 
 ### Receiving and Putting Away Operations: To Receive and Put Away Items 
 
  In the following activity, you will learn how to perform the receiving and putting away of items by using the Receive and Put Away (PO302020) form. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-#### Story 
-
- Suppose that you are a warehouse worker in the wholesale warehouse of the SweetLife Fruits & Jams company. Your warehouse manager gives you a task to receive the purchased fruits (80 pounds of apples and 60 pounds of 
-
 
 <!-- PAGE_BREAK -->
  Automated Receiving and Putting Away Operations | 84 
 
- oranges) in the warehouse. In your organization, the receive and put away workflow is used, which means that you receive the purchased items at a receiving location of the warehouse, and then go through the warehouse locations and put away the items in the locations where the fruits are stored. Also suppose that you are putting away the apples and part of the oranges in one fruit location, and the rest of the oranges in another fruit location. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
+
+#### Story 
+
+ Suppose that you are a warehouse worker in the wholesale warehouse of the SweetLife Fruits & Jams company. Your warehouse manager gives you a task to receive the purchased fruits (80 pounds of apples and 60 pounds of oranges) in the warehouse. In your organization, the receive and put away workflow is used, which means that you receive the purchased items at a receiving location of the warehouse, and then go through the warehouse locations and put away the items in the locations where the fruits are stored. Also suppose that you are putting away the apples and part of the oranges in one fruit location, and the rest of the oranges in another fruit location. 
 
 #### Configuration Overview 
 
@@ -2832,15 +2850,15 @@ To process the putting away of items by using Put Away mode, you perform the fol
 
 3. Open the _Transfers_ (IN304000) form and review the generated transfer document. 
 
+
+<!-- PAGE_BREAK -->
+ Automated Receiving and Putting Away Operations | 85 
+
  In any working mode, you enter a command or barcode by typing it in the Scan box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them. 
 
 #### System Preparation 
 
  Before you start the automated receiving and putting away operations, you need to perform the following instructions: 
-
-
-<!-- PAGE_BREAK -->
- Automated Receiving and Putting Away Operations | 85 
 
 1. Sign in to a company with the _U100_ dataset preloaded as a warehouse worker with the _perkins_ username     and the _123_ password. 
 
@@ -2852,13 +2870,13 @@ To process the putting away of items by using Put Away mode, you perform the fol
 
 1. Open the _Receive and Put Away_ (PO302020) form and make sure the **Receive** tab is opened. 
 
-2. In the **Scan** box, enter 000018 , which is the reference number of the purchase receipt for which you are     receiving and putting away items. Press Enter. The system loads the purchase receipt lines to the table, and     shows the reference number of the purchase receipt that is currently being processed in the **Receipt Nbr.**     box of the Summary area. 
+2. In the **Scan** box, enter 000018 , which is the reference number of the purchase receipt for which you are     receiving and putting away items. Press Enter. The system loads the purchase receipt lines to the table and     shows the reference number of the purchase receipt that is currently being processed in the **Receipt Nbr.**     box of the Summary area. 
 
 3. Enter MAIN to select the location in which you are receiving the items. 
 
 4. Enter AP1LB to select the item being received. ( _AP1LB_ is the barcode for _APPLES_ , one pound of apples,     which is included in the _000018_ receipt.)     The system highlights the first line of the purchase receipt in bold and sets the **Received Qty.** to _1_. 
 
-5. Set the quantity of the item to 80 as follows:     a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity.     b. In the **Scan** box, enter 80. The system highlights the first line of the purchase receipt in green sets the        **Received Qty.** to _80_. 
+5. Set the quantity of the item to 80 as follows:     a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity.     b. In the **Scan** box, enter 80. The system highlights the first line of the purchase receipt in green and sets        the **Received Qty.** to _80_. 
 
 6. Enter OR1LB to select the item being received. ( _OR1LB_ is the barcode for _ORANGES_ , one pound of oranges,     which is included in the _000018_ receipt.)     The system highlights the second line of the purchase receipt in bold and sets the **Received Qty.** to _1_. 
 
@@ -2876,15 +2894,13 @@ To process the putting away of items by using Put Away mode, you perform the fol
 
 2. Enter F1S2 to select the location to which the items are being put away. 
 
-3. Enter AP1LB to select the item to be put away in this location. The system highlights the first line of the     purchase receipt in bold and specifies _1_ as the **Put Away Qty.** In the Summary area, the **Transfer Ref. Nbr.**     box shows the reference number of the inventory transfer transaction that the system automatically creates     to record the movement of items from the receiving location to the storage locations. 
-
-4. Set the quantity of the item to 80 as follows:     a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity.     b. In the **Scan** box, enter 80. 
-
 
 <!-- PAGE_BREAK -->
  Automated Receiving and Putting Away Operations | 86 
 
- The system highlights the first line of the purchase receipt in green and specifies 80 as the Put Away Qty. , indicating that 80 pounds of apples have been put away on the second shelf of the first refrigerator location. 
+3. Enter AP1LB to select the item to be put away in this location. The system highlights the first line of the     purchase receipt in bold and specifies _1_ as the **Putaway Qty.** In the Summary area, the **Transfer Ref. Nbr.**     box shows the reference number of the inventory transfer transaction that the system automatically creates     to record the movement of items from the receiving location to the storage locations. 
+
+4. Set the quantity of the item to 80 as follows:     a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity.     b. In the **Scan** box, enter 80.     The system highlights the first line of the purchase receipt in green and specifies _80_ as the **Putaway Qty.** ,     indicating that 80 pounds of apples have been put away on the second shelf of the first refrigerator location. 
 
 5. Enter OR1LB to select the item being put away. 
 
@@ -2892,7 +2908,7 @@ To process the putting away of items by using Put Away mode, you perform the fol
 
 7. Enter F2S2 to select another location to which the rest of the oranges is being put away. 
 
-8. Enter OR1LB to select the item being put away.     The system shows _<SPLIT>_ in the **To Location ID** column, indicating that the received quantity of the item     has been distributed over multiple locations during the put-away process. 
+8. Enter OR1LB to select the item being put away.     The system shows _<SPLIT>_ in the **To Location ID** column, indicating that the received quantity of the item     has been distributed over multiple locations during the putaway process. 
 
 9. Set the quantity to 20 , indicating that 20 pounds of oranges have been put away on the second shelf of the     second refrigerator location. Now all items from the purchase receipt have been put away in the appropriate     storage locations, and these actions have been reflected in the system. 10.On the form toolbar, click **Release Transfer**. 
 
@@ -2906,17 +2922,17 @@ To process the putting away of items by using Put Away mode, you perform the fol
 
  Figure: The released inventory transfer 
 
+
+<!-- PAGE_BREAK -->
+ Automated Receiving and Putting Away Operations | 87 
+
 ### Receiving and Putting Away Operations: To Receive and Put Away Items (Mobile) 
 
  In the following activity, you will learn how to perform the receiving and putting away of items on the Receive and Put Away screen of the Acumatica mobile app, which corresponds to the Receive and Put Away (PO302020) form in Acumatica ERP. 
 
  In this activity, we use the Acumatica mobile app for Android devices. The appearance and functionality of the mobile app for iOS devices may differ somewhat. 
 
-
-<!-- PAGE_BREAK -->
- Automated Receiving and Putting Away Operations | 87 
-
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2948,6 +2964,10 @@ To process the putting away of items by using Put Away mode, you perform the fol
 
  In this activity, you will open the Receive and Put Away screen in the Acumatica mobile app, switch to Receive mode, and scan the number of the purchase order. Then you will receive the items and scan their barcodes and quantities. Aer you finish receiving the items, you will switch to Put Away mode on the same form, scan the barcodes of the warehouse locations to which the items are being put away, scan the item barcodes, and correct the quantities. Aer you finish putting away items, you will release the transfer receipt. 
 
+
+<!-- PAGE_BREAK -->
+ Automated Receiving and Putting Away Operations | 88 
+
  In any working mode, you enter a command or barcode by typing it in the Scan box and tapping Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them. 
 
 #### System Preparation 
@@ -2959,10 +2979,6 @@ To process the putting away of items by using Put Away mode, you perform the fol
 2. Make sure that you have installed the Acumatica mobile app on your mobile device. 
 
 3. Launch the app. 
-
-
-<!-- PAGE_BREAK -->
- Automated Receiving and Putting Away Operations | 88 
 
 4. Enter the URL and optional name of the Acumatica ERP instance with the _U100_ dataset preloaded (for     example, _https://your.acumatica.site.com_ ), and tap **Next**. 
 
@@ -2994,7 +3010,13 @@ To process the putting away of items by using Put Away mode, you perform the fol
 
 8. Set the quantity of the item to 50. The system inserts _50_ as the received quantity. 
 
-9. At the bottom of the screen, tap **Review** to view the items that have been added to the receipt. 10.Go back to the previous screen. 11.In the top right corner of the screen, tap **More > Release Receipt**. The system releases the purchase receipt     and generates the inventory receipt transaction to record the receipt of items to the _MAIN_ location of the     warehouse. 
+9. At the bottom of the screen, tap **Review** to view the items that have been added to the receipt. 10.Go back to the previous screen. 
+
+
+<!-- PAGE_BREAK -->
+ Automated Receiving and Putting Away Operations | 89 
+
+ 11.In the top right corner of the screen, tap More > Release Receipt. The system releases the purchase receipt and generates the inventory receipt transaction to record the receipt of items to the MAIN location of the warehouse. 
 
  You have received the items for the purchase receipt, and now you can proceed with putting away the received items in the storage locations. 
 
@@ -3005,10 +3027,6 @@ To process the putting away of items by using Put Away mode, you perform the fol
 1. While you are still viewing the Receive and Put Away screen on your mobile device, at the bottom of the     screen, tap **Change Mode > Put Away** to switch to Put Away mode. 
 
 2. Scan the F1S2 barcode to select the location to which the items are being put away. 
-
-
-<!-- PAGE_BREAK -->
- Automated Receiving and Putting Away Operations | 89 
 
 3. Scan the AP1LB barcode to select the item to be put away in this location. The system specifies _1_ as the put     away quantity. On the top pane, the **Transfer Nbr.** box shows the reference number of the inventory transfer     transaction that the system automatically created to record the movement of items from the receiving     location to the storage locations. 
 
@@ -3028,15 +3046,15 @@ To process the putting away of items by using Put Away mode, you perform the fol
 
 ### Receiving and Putting Away Operations: Receipt Verification 
 
- If the Receiving feature is enabled on the Enable/Disable Features (CS100000) form, during the automated receiving of inventory items, you can perform additional verification of a purchase receipt to ensure the correctness of its items and item quantities. When the Verify Receipts Before Release check box is selected on the Purchase Orders Preferences (PO101000) form, a warehouse worker can no longer release a purchase receipt on the Receive and Put Away (PO302020) form. Instead, the warehouse worker confirms the received quantities, which causes the receipt to be assigned the Received status. Then the warehouse manager (or another user responsible for the verification) verifies and releases the purchase receipt on the Purchase Receipts (PO302000) form. 
-
- If the Keep Zero Lines on Receipt Confirmation check box is selected on the Purchase Orders Preferences form and the received quantity of an item is 0, the receipt on the Purchase Receipts form will contain this line. When the warehouse manager verifies the purchase receipt, they will need to manually delete the lines with a quantity of 0 upon verification or adjust the quantity; the purchase receipt cannot be released if it contains any lines with a quantity of 0. 
-
- In this topic, you will read about the workflow for the automated receiving of inventory items with the additional step of purchase receipt verification in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in Receiving and Putting Away Operations: Implementation Checklist. 
+ If the Receiving feature is enabled on the Enable/Disable Features (CS100000) form, during the automated receiving of stock and non-stock items, you can perform additional verification of a purchase receipt to ensure the correctness of its items and item quantities. When the Verify Receipts Before Release check box is selected on the Purchase Orders Preferences (PO101000) form, a warehouse worker can no longer release a purchase receipt on the Receive and Put Away (PO302020) form. Instead, the warehouse worker confirms the received quantities, which causes the receipt to be assigned the Received status. Then the warehouse manager (or another user responsible for the verification) verifies and releases the purchase receipt on the Purchase Receipts (PO302000) form. 
 
 
 <!-- PAGE_BREAK -->
  Automated Receiving and Putting Away Operations | 90 
+
+ If the Keep Zero Lines on Receipt Confirmation check box is selected on the Purchase Orders Preferences form and the received quantity of an item is 0, the receipt on the Purchase Receipts form will contain this line. When the warehouse manager verifies the purchase receipt, they will need to manually delete the lines with a quantity of 0 upon verification or adjust the quantity; the purchase receipt cannot be released if it contains any lines with a quantity of 0. 
+
+ In this topic, you will read about the workflow for the automated receiving of inventory items with the additional step of purchase receipt verification in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in Receiving and Putting Away Operations: Implementation Checklist. 
 
 #### Workflow for the Automated Receipt of Items with Receipt Verification 
 
@@ -3082,7 +3100,7 @@ To process the receipt of items (and to use Receive mode), the warehouse employe
 
  In the following activity, you will learn how to perform the receiving of items by using the Receive and Put Away (PO302020) form and verify the receipt by using the Purchase Receipts (PO302000) form. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3122,7 +3140,7 @@ To process the receipt of items (and to use Receive mode), the warehouse employe
 
 - _KIWIJAM08_ , which has the _KWJ08_ barcode 
 
-- On the _Purchase Orders_ (PO301000) form, the _000051_ purchase order to the _ALLFRUITS_ vendor has been     created. (The order is dated 1/29/2025 and has 25 units of the _MANJAM08_ stock item, 50 units of the     _STRAWJAM08_ stock item, and 10 units of the _KIWIJAM08_ stock item.) 
+- On the _Purchase Orders_ (PO301000) form, the _000051_ purchase order to the _ALLFRUITS_ vendor has been     created. (The order is dated 1/29/2026 and has 25 units of the _MANJAM08_ stock item, 50 units of the     _STRAWJAM08_ stock item, and 10 units of the _KIWIJAM08_ stock item.) 
 
 
 <!-- PAGE_BREAK -->
@@ -3280,7 +3298,7 @@ To receive transferred items in Receive Transfer mode, you perform the following
 
 ### Receiving and Putting Away Operations: Purchase Return Processing 
 
- If the Receiving feature is enabled on the Enable/Disable Features (CS100000) form, you can process the automated purchase return of inventory items to the vendor by using a barcode scanner or a mobile device with a scanning option. A purchase return is a purchase receipt of the Return type created on the Purchase Receipts (PO302000) form. 
+ If the Receiving feature is enabled on the Enable/Disable Features (CS100000) form, you can process the automated purchase return of stock and non-stock items to the vendor by using a barcode scanner or a mobile device with a scanning option. A purchase return is a purchase receipt of the Return type created on the Purchase Receipts (PO302000) form. 
 
  In this topic, you will read about the workflow for the automated purchase returns of inventory items in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in Receiving and Putting Away Operations: Implementation Checklist. 
 
@@ -3402,7 +3420,7 @@ Processing a wave includes the following processes performed by the following pe
 
  To prepare a wave picking worksheet, the warehouse manager performs the following steps: 
 
-1. _Selects the type of picking worksheet to be prepared._     The warehouse manager opens the _Create Pick Lists_ (SO503050) form and selects the _Create Wave Pick List_     action. 
+1. _Selects the type of picking worksheet to be prepared._     The warehouse manager opens the _Create Pick Lists_ (SO503050) form and selects the _Create Wave Pick Lists_     action. 
 
 2. _Specifies the number of pickers._     To specify the maximum number of pickers who are currently available to be assigned to a wave, the     manager enters the value in the **Max. Number of Pickers** box. 
 
@@ -3566,7 +3584,7 @@ To pack the items for a shipment, the packer performs the following steps:
 
  In the following activity, you will learn how to process shipments in a wave by using the Pick, Pack, and Ship (SO302020) form. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3632,7 +3650,7 @@ To pack the items for a shipment, the packer performs the following steps:
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded using the     _angelo_ username and the _123_ password. You are initially signing in as the warehouse manager to prepare     the wave picking worksheet. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the **Warehouse Management** tab of the _Sales Orders Preferences_ (SO101000) form, make sure that the     **Display the Pick Tab** and **Display the Pack Tab** check boxes are selected. 
 
@@ -3644,7 +3662,7 @@ To pack the items for a shipment, the packer performs the following steps:
 
 2. In the **Warehouse ID** box, select _WHOLESALE_. 
 
-3. In the **End Date** box, make sure _1/30/2025_ is specified. 
+3. In the **End Date** box, make sure _1/30/2026_ is specified. 
 
 4. Specify 4 as the **Max. Number of Pickers**. 
 
@@ -3666,17 +3684,15 @@ To pack the items for a shipment, the packer performs the following steps:
 
 10.Open the **Pickers** tab, and notice that the wave will be picked by three pickers. (Although you have entered _4_ as the maximum number of pickers, the system has found the optimal workflow and determined that three pickers are enough for picking the wave.) 
 
-11.Click the first line in the table (which corresponds to the first picker), and on the table toolbar, click **View Shipments**. In the **Assigned Shipments** dialog box, which opens, review the shipments assigned to the first picker and the items that the picker will pick for these shipments (see the following screenshot). 
+11.Click the first line in the table (which corresponds to the first picker), and on the table toolbar, click **View Shipments** (Item 1 below). In the **Assigned Shipments** dialog box, which opens, review the shipments assigned to the first picker (Item 2) and the items that the picker will pick for these shipments (Item 3). 
 
  Figure: Shipments assigned to the picker 
-
-12.Close the **Assigned Shipments** dialog box. 
 
 
 <!-- PAGE_BREAK -->
  Automated Fulfillment of Orders with Wave Picking | 116 
 
- 13.On the form toolbar, click Print Pick Lists. The system opens the Worksheet Pick List (SO644006) report with generated printable pick lists and packing slips. For each pick list, notice the Pick List Nbr. number; you will load the pick lists for processing by using these numbers. In the production system, you would print the pick lists and packing slips and distribute them to the three pickers. Each picker would put pick lists and packing slips to totes assigned to shipments. 14.Sign out of the system. 
+ 12.Close the Assigned Shipments dialog box. 13.On the form toolbar, click Print Pick Lists. The system opens the Worksheet Pick List (SO644006) report with generated printable pick lists and packing slips. For each pick list, notice the Pick List Nbr. number; you will load the pick lists for processing by using these numbers. In the production system, you would print the pick lists and packing slips and distribute them to the three pickers. Each picker would put pick lists and packing slips to totes assigned to shipments. 14.Sign out of the system. 
 
 #### Step 2a: Picking Items in a Wave (Picker 1) 
 
@@ -3690,11 +3706,13 @@ To pack the items for a shipment, the packer performs the following steps:
 
 4. Assign totes to the shipments you will be picking by doing the following:     a. Enter T1. The system assigns the tote to the shipment _000034_ , and shows the tote ID in the **Tote ID**        column of all lines of this shipment.     b. Enter T2. The system assigns the tote to the shipment _000035_.     c. Enter T3. The system assigns the tote to the shipment _000036_.     d. Enter T4. The system assigns the tote to the shipment _000038_.     Now you have assigned the totes to shipments, and you can start picking items. 
 
-5. Pick the items from the first location by doing the following:     a. Enter L1R1S1 to select the location from which you are currently picking items.     b. Enter OJ32 to pick the item. ( _OJ32_ is the barcode for _ORJAM32_ , the 32-ounce jar of orange jam.)        The system highlights the line in bold and specifies _1_ as the **Picked Quantity**.     c. Set the quantity of the item to 11 as follows:        a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity.        b. In the **Scan** box, enter 11. This indicates that eleven 32-ounce jars of orange jam have been picked           from the location and placed in the _T3_ tote.        You are continuing to pick items for different shipments from the same location, so you do not need to        scan the location barcode again.     d. Enter AJ08 to pick the item. ( _AJ08_ is the barcode for _APJAM08_ , the 8-ounce jar of apple jam.)     e. Set the quantity to 12.     f. Enter AJ08 to pick the item.     g. Set the quantity to 10.     h. Enter OJ32 to pick the item.     j. Set the quantity to 8.     k. Enter OJ32 to pick the item.     l. Set the quantity to 3.        You have finished picking items from this location, so you will proceed to picking items from another        location. 
+5. Pick the items from the first location by doing the following:     a. Enter L1R1S1 to select the location from which you are currently picking items.     b. Enter OJ32 to pick the item. ( _OJ32_ is the barcode for _ORJAM32_ , the 32-ounce jar of orange jam.)        The system highlights the line in bold and specifies _1_ as the **Picked Quantity**.     c. Set the quantity of the item to 11 as follows:        a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity.        b. In the **Scan** box, enter 11. This indicates that eleven 32-ounce jars of orange jam have been picked           from the location and placed in the _T3_ tote.        You are continuing to pick items for different shipments from the same location, so you do not need to        scan the location barcode again.     d. Enter AJ08 to pick the item. ( _AJ08_ is the barcode for _APJAM08_ , the 8-ounce jar of apple jam.)     e. Set the quantity to 12.     f. Enter AJ08 to pick the item.     g. Set the quantity to 10.     h. Enter OJ32 to pick the item.     j. Set the quantity to 8.     k. Enter OJ32 to pick the item.     l. Set the quantity to 3. 
 
 
 <!-- PAGE_BREAK -->
  Automated Fulfillment of Orders with Wave Picking | 117 
+
+ You have finished picking items from this location, so you will proceed to picking items from another location. 
 
 6. Pick the items from the second location by doing the following:     a. Enter L1R1S2 to select the location from which you are currently picking items.     b. Enter AJ08 to pick the item.     c. Set the quantity to 6.        You have finished picking items from this location, so you proceed to picking items from another        location. 
 
@@ -3716,13 +3734,13 @@ To pack the items for a shipment, the packer performs the following steps:
 
 4. Assign totes to the shipments you will be picking by doing the following:     a. Enter T5. The system assigns the tote to the _000037_ shipment, and shows the tote ID in the **Tote ID**        column of all lines of this shipment.     b. Enter T6. The system assigns the tote to the _000041_ shipment.     c. Enter T7. The system assigns the tote to the _000044_ shipment.     d. Enter T8. The system assigns the tote to the _000045_ shipment.     Now you have assigned the totes to shipments, and you can start picking items. 
 
-5. Pick the items from the first location by doing the following:     a. Enter L1R2S1 to select the location from which you are currently picking items.     b. Enter AJ08 to pick the item.        The system highlights the line in bold and specifies _1_ as the **Picked Quantity**. 
+5. Pick the items from the first location by doing the following:     a. Enter L1R2S1 to select the location from which you are currently picking items. 
 
 
 <!-- PAGE_BREAK -->
  Automated Fulfillment of Orders with Wave Picking | 118 
 
- c. Set the quantity of the item to 11 as follows: a. On the form toolbar, click Set Qty. The system prompts you to enter the item quantity. b. In the Scan box, enter 11. This indicates that eleven 8-ounce jars of apple jam have been picked from the location and placed in the T5 tote. You are continuing to pick items for different shipments from the same location, so you do not need to scan the location barcode again. d. Enter OJ32 to pick the item. e. Set the quantity of the item to 14. f. Enter OJ32 to pick the item. g. Set the quantity of the item to 4. You have finished picking items from this location, so you will proceed to picking items from another location. 
+ b. Enter AJ08 to pick the item. The system highlights the line in bold and specifies 1 as the Picked Quantity. c. Set the quantity of the item to 11 as follows: a. On the form toolbar, click Set Qty. The system prompts you to enter the item quantity. b. In the Scan box, enter 11. This indicates that eleven 8-ounce jars of apple jam have been picked from the location and placed in the T5 tote. You are continuing to pick items for different shipments from the same location, so you do not need to scan the location barcode again. d. Enter OJ32 to pick the item. e. Set the quantity of the item to 14. f. Enter OJ32 to pick the item. g. Set the quantity of the item to 4. You have finished picking items from this location, so you will proceed to picking items from another location. 
 
 6. Pick the items from the second location by doing the following:     a. Enter L1R2S2 to select the location from which you are currently picking items.     b. Enter LJ96 to pick the item.     c. Enter LJ96 one more time to add second unit of the item to the current line. 
 
@@ -3742,31 +3760,45 @@ To pack the items for a shipment, the packer performs the following steps:
 
 4. Assign totes to the shipments you will be picking by doing the following:     a. Enter T9. The system assign the tote to the shipment _000039_ , and shows the tote ID in the **Tote ID** column        of all lines of this shipment.     b. Enter T10. The system assigns the tote to the shipment _000040_.     c. Enter T11. The system assigns the tote to the shipment _000042_.     d. Enter T12. The system assigns the tote to the shipment _000043_.     You have assigned the totes to the shipments, and you can start picking items. 
 
-5. Pick the items from the first location by doing the following:     a. Enter L1R1S1 to select the location from which you are currently picking items.     b. Enter OJ32 to pick the item.        The system highlights the line in bold and specifies _1_ as the **Picked Quantity**.     c. Set the quantity of the item to 5 as follows:        a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity. 
+5. Pick the items from the first location by doing the following:     a. Enter L1R1S1 to select the location from which you are currently picking items.     b. Enter OJ32 to pick the item.        The system highlights the line in bold and specifies _1_ as the **Picked Quantity**. 
 
 
 <!-- PAGE_BREAK -->
  Automated Fulfillment of Orders with Wave Picking | 119 
 
- b. In the Scan box, enter 5. This indicates that five 32-ounce jars of orange jam have been picked from the location and placed in the T9 tote. You are continuing to pick items for different shipments from the same location, so you do not need to scan the location barcode again. d. Enter OJ32 to pick the item from the same location for one more line. You have finished picking of items in the location, so you proceed to picking of items from another location. 
+ c. Set the quantity of the item to 5 as follows: a. On the form toolbar, click Set Qty. The system prompts you to enter the item quantity. b. In the Scan box, enter 5. This indicates that five 32-ounce jars of orange jam have been picked from the location and placed in the T9 tote. You are continuing to pick items for different shipments from the same location, so you do not need to scan the location barcode again. d. Enter OJ32 to pick the item from the same location for one more line. You have finished picking of items in the location, so you proceed to picking of items from another location. 
 
-6. Pick the items from the second location by doing the following:     a. Enter L1R1S2 to select the location from which you are currently picking items.     b. Enter OJ32 to pick the item.     c. Set the quantity of the item to 5. 
+6. Pick the items from the second location by doing the following: 
 
-7. Pick the items from the third location by doing the following:     a. Enter L1R2S1 to select the location from which you are currently picking items.     b. Enter OJ32 to pick this item.     c. Set the quantity of the item to 10.     d. Enter AJ08 to pick the item.     e. Enter AJ08 one more time to add second unit to the current line.     f. Enter OJ32 to pick the item.     g. Enter OJ32 one more time to add second unit to the current line. 
+ a. Enter L1R1S2 to select the location from which you are currently picking items. b. Enter OJ32 to pick the item. c. Set the quantity of the item to 5. 
 
-8. Pick the items from the fourth location by doing the following:     a. Enter L1R2S2 to select the location from which you are currently picking items.     b. Enter LJ96 to pick this item.     c. Set the quantity of the item to 3.     d. Enter AJ08 to pick the item.     e. Set the quantity of the item to 5. 
+7. Pick the items from the third location by doing the following: 
 
-9. Pick the items from the last location by doing the following:     a. Enter L2R2S1 to select the location from which you are currently picking items.     b. Enter AJ08 to pick this item.     c. Set the quantity of this item to 6.     d. Enter AJ08 to pick this item.     e. Set the quantity of the item to 3.     f. Enter AJ08 to pick the item.     g. Enter AJ08 one more time to add second unit to the current line. 10.On the form toolbar, click **Confirm Pick List** to confirm that picking is finished.     As the third picker, you have finished picking the items. 11.Sign out of the system. 
+ a. Enter L1R2S1 to select the location from which you are currently picking items. b. Enter OJ32 to pick this item. c. Set the quantity of the item to 10. d. Enter AJ08 to pick the item. e. Enter AJ08 one more time to add second unit to the current line. f. Enter OJ32 to pick the item. g. Enter OJ32 one more time to add second unit to the current line. 
+
+8. Pick the items from the fourth location by doing the following: 
+
+ a. Enter L1R2S2 to select the location from which you are currently picking items. b. Enter LJ96 to pick this item. c. Set the quantity of the item to 3. d. Enter AJ08 to pick the item. e. Set the quantity of the item to 5. 
+
+9. Pick the items from the last location by doing the following: 
+
+ a. Enter L2R2S1 to select the location from which you are currently picking items. b. Enter AJ08 to pick this item. c. Set the quantity of this item to 6. d. Enter AJ08 to pick this item. e. Set the quantity of the item to 3. f. Enter AJ08 to pick the item. g. Enter AJ08 one more time to add second unit to the current line. 
+
+10.On the form toolbar, click **Confirm Pick List** to confirm that picking is finished. 
+
+ As the third picker, you have finished picking the items. 
+
+11.Sign out of the system. 
+
+
+<!-- PAGE_BREAK -->
+ Automated Fulfillment of Orders with Wave Picking | 120 
 
 #### Step 3: Reviewing the Worksheet Status 
 
  As the pack line operator, you will review the progress of three pickers who picked the items. Do the following: 
 
 1. Sign in to the system as the pack line operator by using the _rueb_ username and the _123_ password. 
-
-
-<!-- PAGE_BREAK -->
- Automated Fulfillment of Orders with Wave Picking | 120 
 
 2. On the _Picking Worksheets_ (SO302500) form, open the wave picking worksheet, and review the **Pickers** tab     (see the following screenshot). The usernames of the workers who performed the picking operations are     shown in the **User** column; the selected check boxes in each line of the **Confirmed** column indicate that     each picker has confirmed the completion of the picking. 
 
@@ -3800,21 +3832,19 @@ To pack the items for a shipment, the packer performs the following steps:
 
 7. Set the quantity of the item to 10 as follows:     a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity.     b. In the **Scan** box, enter 10. The system highlights the first line of the shipment in green and specifies _10_ as        the **Packed Quantity**. 
 
+8. Enter OJ32 to select the next item being packed in the same box. 
+
+9. Set the quantity of this item to 8. 10.On the form toolbar, click **Confirm Package** to confirm the package. 
+
 
 <!-- PAGE_BREAK -->
  Automated Fulfillment of Orders with Wave Picking | 122 
-
-8. Enter OJ32 to select the next item being packed in the same box. 
-
-9. Set the quantity of this item to 8. 
-
-10.On the form toolbar, click **Confirm Package** to confirm the package. 
 
 11.On the form toolbar, click **Confirm Shipment**. 
 
 12.Sign out of the system, and sign in again as a warehouse manager by using the _angelo_ username and the _123_ password. 
 
-13.On the _Shipments_ (SO302000) form, open the shipment with the _000034_ reference number that you have packed, which is now assigned the _Confirmed_ status. On the **Packages** tab, the box in which the items were packed is listed, and the items packed into this box are listed in the **Contents of Selected Package** table, as shown in the following screenshot. 
+13.On the _Shipments_ (SO302000) form, open the shipment with the _000034_ reference number that you have packed, which is now assigned the _Confirmed_ status (Item 1 below). On the **Packages** tab, the box in which the items were packed is listed (Item 2), and the items packed into this box are listed in the **Contents of Selected Package** table (Item 3). 
 
  Figure: Packing details for the shipment 
 
@@ -4048,7 +4078,7 @@ To pack the items for shipping, the packer performs the following steps:
 
  In the following activity, you will learn how to process shipments in a batch by using the Pick, Pack, and Ship (SO302020) form. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -4108,7 +4138,7 @@ To pack the items for shipping, the packer performs the following steps:
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a warehouse manager with the _angelo_ username and _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 
 <!-- PAGE_BREAK -->
@@ -4124,7 +4154,7 @@ To pack the items for shipping, the packer performs the following steps:
 
 2. In the **Warehouse ID** , select _WHOLESALE_. 
 
-3. In the **End Date** box, make sure _1/30/2025_ is specified. 
+3. In the **End Date** box, make sure _1/30/2026_ is specified. 
 
 4. In the **Max. Number of Pickers** box, type 4. 
 
@@ -4136,9 +4166,9 @@ To pack the items for shipping, the packer performs the following steps:
 
  Figure: Items to be picked for all the shipments included in the worksheet 
 
-8. Review the **Pickers** tab. The system has calculated the optimal path and determined that the appropriate     number of pickers is four (see the following screenshot). 
+8. Review the **Pickers** tab. The system has calculated the optimal path and determined that the appropriate     number of pickers is four (see Item 1). 
 
-9. Click the first line in the table, and click **View Pick List** on the table toolbar to review the items included in     the pick list for the first picker. 
+9. Click the first line in the table, and click **View Pick List** (Item 2) on the table toolbar to review the items     included in the pick list for the first picker (Item 3). 
 
 
 <!-- PAGE_BREAK -->
@@ -4162,15 +4192,13 @@ To pack the items for shipping, the packer performs the following steps:
 
 5. Pick the second line by doing the following:     a. Enter L1R2S2 to select the location from which you are picking items.     b. Enter LJ96 to pick the item. ( _LJ96_ is the barcode for _LEMJAM96_ , the 96-ounce jar of lemon jam.)     c. Set the quantity of the item to 9. 
 
-6. Pick the third line by doing the following: 
+6. Pick the third line by doing the following:     a. Enter L1R2S3 to select the location from which you are picking items.     b. Enter LJ96 to pick the item.     c. Set the quantity to 4. 
+
+7. On the form toolbar, click **Confirm Pick List**. 
 
 
 <!-- PAGE_BREAK -->
  Automated Fulfillment of Orders with Batch Picking | 138 
-
- a. Enter L1R2S3 to select the location from which you are picking items. b. Enter LJ96 to pick the item. c. Set the quantity to 4. 
-
-7. On the form toolbar, click **Confirm Pick List**. 
 
 8. In the **Scan** box, enter SORT to specify the sorting location to which you have transferred the picked items.     As the first picker, you have finished picking the items. 
 
@@ -4206,15 +4234,13 @@ To pack the items for shipping, the packer performs the following steps:
 
 3. In the **Scan** box, enter 000001/3, which is the reference number of the pick list for the third picker. 
 
-4. Pick the first line by doing the following:     a. Enter L2R2S1 to select the location from which you are picking items.     b. Enter AJ08 to pick the item. ( _AJ08_ is the barcode for _APJAM08_ , the 8-ounce jar of apple jam.) 
+4. Pick the first line by doing the following:     a. Enter L2R2S1 to select the location from which you are picking items.     b. Enter AJ08 to pick the item. ( _AJ08_ is the barcode for _APJAM08_ , the 8-ounce jar of apple jam.)        The system highlights the line in bold and specifies _1_ as the **Picked Quantity**.     c. Set the quantity of the item to 16 as follows: 
+
+- On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity. 
 
 
 <!-- PAGE_BREAK -->
  Automated Fulfillment of Orders with Batch Picking | 139 
-
- The system highlights the line in bold and specifies 1 as the Picked Quantity. c. Set the quantity of the item to 16 as follows: 
-
-- On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity. 
 
 - In the **Scan** box, enter 16. The system highlights the line in green and inserts _24_ as the **Picked**     **Quantity**. 
 
@@ -4248,13 +4274,11 @@ To pack the items for shipping, the packer performs the following steps:
 
 6. Pick the third line by doing the following:     a. Enter L3R2S1 to select the location from which you are picking items.     b. Enter OJ32 to pick the item.     c. Set the quantity of this item to 12. 
 
-7. Pick the last line by doing the following: 
+7. Pick the last line by doing the following:     a. Enter L3R2S2 to select the location from which you are picking items.     b. Enter AJ08 to pick the item.     c. Set the quantity of this item to 4. 
 
 
 <!-- PAGE_BREAK -->
  Automated Fulfillment of Orders with Batch Picking | 140 
-
- a. Enter L3R2S2 to select the location from which you are picking items. b. Enter AJ08 to pick the item. c. Set the quantity of this item to 4. 
 
 8. On the form toolbar, click **Confirm Pick List**. 
 
@@ -4268,7 +4292,7 @@ To pack the items for shipping, the packer performs the following steps:
 
 1. Sign in to the system as a pack line operator by using the _rueb_ username and the _123_ password. 
 
-2. On the _Picking Worksheets_ (SO302500) form, open the batch picking worksheet, and review the **Pickers**     tab (see the following screenshot). The usernames of the workers who performed the picking operations     are shown in the **User** column; the selected check boxes in each line of the **Confirmed** column indicate     that each picker has confirmed the completion of the picking. The values in the **Sorting Location** column     indicate that the pickers have finished the picking and taken the picked items to the sorting location. 
+2. On the _Picking Worksheets_ (SO302500) form, open the batch picking worksheet, and review the **Pickers** tab.     The usernames of the workers who performed the picking operations are shown in the **User** column (Item     1 below); the selected check boxes in each line of the **Confirmed** (Item 2) column indicate that each picker     has confirmed the completion of the picking. The values in the **Sorting Location** column (Item 3) indicate     that the pickers have finished the picking and taken the picked items to the sorting location. 
 
  Figure: The users who confirmed the picking of the batch 
 
@@ -4300,15 +4324,13 @@ To pack the items for shipping, the packer performs the following steps:
 
 5. Enter AJ08 to select the item being packed. The system highlights the first line of the shipment in bold and     specifies _1_ as the **Packed Quantity**. 
 
-6. Set the quantity of this item to 4 as follows:     a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity. 
+6. Set the quantity of this item to 4 as follows:     a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity.     b. In the **Scan** box, enter 4. The system highlights the first line of the shipment in green and inserts 4 as the        **Packed Quantity** , indicating that four 8-ounce jars of apple jam have been packed into the selected box. 
+
+7. Enter LJ96 to select another item being packed to the current box 
 
 
 <!-- PAGE_BREAK -->
  Automated Fulfillment of Orders with Batch Picking | 142 
-
- b. In the Scan box, enter 4. The system highlights the first line of the shipment in green and inserts 4 as the Packed Quantity , indicating that four 8-ounce jars of apple jam have been packed into the selected box. 
-
-7. Enter LJ96 to select another item being packed to the current box 
 
 8. Enter LJ96 again to pack one more unit of this item. 
 
@@ -4538,7 +4560,7 @@ To pack the items for a shipment, the packer performs the following steps:
 
  In the following implementation activity, you will learn how to enable the Paperless Picking feature. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -4574,7 +4596,7 @@ To pack the items for a shipment, the packer performs the following steps:
 
  In the following activity, you will learn how to process a single-shipment pick list. That is, you will prepare, pick, and pack a pick list of the Single-Shipment type in the paperless picking workflow. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -4634,7 +4656,7 @@ To pack the items for a shipment, the packer performs the following steps:
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as the warehouse manager by using the _angelo_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the **Warehouse Management** tab of the _Sales Orders Preferences_ (SO101000) form, make sure that the     **Display the Pick Tab** and **Display the Pack Tab** check boxes are selected. 
 
@@ -4648,7 +4670,7 @@ To pack the items for a shipment, the packer performs the following steps:
 
 3. In the **Warehouse** box, select _WHOLESALE_. 
 
-4. In the **End Date** box, make sure _1/30/2025_ is specified. 
+4. In the **End Date** box, make sure _1/30/2026_ is specified. 
 
 5. In the table, select the unlabeled check boxes next to the shipments with reference numbers from _000059_     through _000061_. 
 
@@ -4682,15 +4704,11 @@ To pack the items for a shipment, the packer performs the following steps:
 
 1. While you are still viewing the pick lists on the _Manage Picking Queue_ (SO503075) form, in the **Action** box,     select _Assign Pick Lists_. 
 
-2. In the **Warehouse** box, make sure that _WHOLESALE_ is selected. 
+2. In the table, select the unlabeled check boxes next to the shipments with the _000059_ and _000060_ reference     numbers. 
 
-3. In the **End Date** box, make sure that _1/30/2025_ is specified. 
+3. In the Selection area, select _hardin_ in the **Assign to Picker** box. 
 
-4. In the table, select the unlabeled check boxes next to the shipments with the _000059_ and _000060_ reference     numbers. 
-
-5. In the Selection area, select _hardin_ in the **Assign to Picker** box. 
-
-6. On the form toolbar, click **Process**. Close the **Processing** dialog box aer processing completes. 
+4. On the form toolbar, click **Process**. Close the **Processing** dialog box aer processing completes. 
 
  Notice that the Assigned Picker column for the pick lists with reference numbers 000059 and 000060 has the hardin value. 
 
@@ -4700,11 +4718,9 @@ To pack the items for a shipment, the packer performs the following steps:
 
 1. While you are still viewing the pick lists on the _Manage Picking Queue_ (SO503075) form, in the **Action** box,     select _Send to Picking Queue_. 
 
-2. In the **Warehouse** box, make sure that _WHOLESALE_ is selected. 
+2. On the form toolbar, click **Process All**. Close the **Processing** dialog box aer processing completes. 
 
-3. On the form toolbar, click **Process All**. Close the **Processing** dialog box aer processing completes. 
-
-4. Sign out of the system. 
+3. Sign out of the system. 
 
 #### Step 5: Picking Items in the First Urgent Pick List 
 
@@ -4718,15 +4734,15 @@ To pack the items for a shipment, the packer performs the following steps:
 
 4. In the **Scan** box, enter L3R3S1. The system loads the _000060_ pick list which is assigned to you and has the     closest location. 
 
-5. Enter T14 to assign a tote to the pick list you will be picking.     The system assigns the tote to the _000060_ pick list and shows the tote ID in the **Tote ID** column for the only     line of the pick list. 
+5. Enter T14 to assign a tote to the pick list you will be picking.     The system assigns the tote to the _000060_ pick list and shows the tote ID in the **Tote ID** column for the only     line of the pick list.     You have assigned the tote to the pick list, and you can start picking the items. 
+
+6. Follow the instructions of the system to pick the items:     a. Enter L3R3S2 to select the location from which you are currently picking items. 
 
 
 <!-- PAGE_BREAK -->
  Paperless Fulfillment of Orders | 158 
 
- You have assigned the tote to the pick list, and you can start picking the items. 
-
-6. Follow the instructions of the system to pick the items:     a. Enter L3R3S2 to select the location from which you are currently picking items.     b. Enter OJ96 to pick the item. ( _OJ96_ is the barcode for _ORJAM96_ , the 96-ounce jar of orange jam, which is        included in the _000060_ shipment.)        The system highlights the line in bold and specifies _1_ as the **Picked Quantity**.     c. Set the quantity of the item to 5 as follows:        a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity.        b. In the **Scan** box, enter 5. This indicates that five 96-ounce jars of orange jam have been picked from           the location and placed in the _T14_ tote. 
+ b. Enter OJ96 to pick the item. ( OJ96 is the barcode for ORJAM96 , the 96-ounce jar of orange jam, which is included in the 000060 shipment.) The system highlights the line in bold and specifies 1 as the Picked Quantity. c. Set the quantity of the item to 5 as follows: a. On the form toolbar, click Set Qty. The system prompts you to enter the item quantity. b. In the Scan box, enter 5. This indicates that five 96-ounce jars of orange jam have been picked from the location and placed in the T14 tote. 
 
  The system indicates that you have finished picking items in the first urgent pick list. In the next step, you will learn how to start picking another pick list. 
 
@@ -4770,19 +4786,19 @@ To pack the items for a shipment, the packer performs the following steps:
 
 8. On the form toolbar, click **Confirm Shipment**. 
 
-9. Sign out of the system. 10.Sign in again as a warehouse manager by using the _angelo_ username and the _123_ password. 11.On the _Shipments_ (SO302000) form, open the shipment with the _000060_ reference number that you have     packed, which is now assigned the _Confirmed_ status. On the **Packages** tab (see the following screenshot),     the box in which the items were packed is listed, and the items packed into this box are listed in the     **Contents of the Selected Package** table. 
+9. Sign out of the system. 10.Sign in again as a warehouse manager by using the _angelo_ username and the _123_ password. 11.On the _Shipments_ (SO302000) form, open the shipment with the _000060_ reference number that you have     packed, which is now assigned the _Confirmed_ status (Item 1 below). On the **Packages** tab, the box in     which the items were packed is listed (Item 2), and the items packed into this box (Item 3) are listed in the     **Contents of the Selected Package** table. 
+
+ Figure: Packing details for the shipment 
 
 
 <!-- PAGE_BREAK -->
  Paperless Fulfillment of Orders | 160 
 
- Figure: Packing details for the shipment 
-
 ### Paperless Picking: To Process Wave Pick Lists 
 
  In the following activity, you will learn how to process a wave pick list. That is, you will prepare, pick, and pack a pick list of the Wave type in the paperless picking workflow. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -4797,10 +4813,6 @@ To pack the items for a shipment, the packer performs the following steps:
 - On the _Enable/Disable Features_ (CS100000) form, the following features have been enabled in the _Inventory_     _and Order Management_ group of features: 
 
 - _Warehouse Management_ 
-
-
-<!-- PAGE_BREAK -->
- Paperless Fulfillment of Orders | 161 
 
 - _Fulfillment_ 
 
@@ -4832,6 +4844,10 @@ To pack the items for a shipment, the packer performs the following steps:
 
  In this activity, you will do the following: 
 
+
+<!-- PAGE_BREAK -->
+ Paperless Fulfillment of Orders | 161 
+
 1. Acting as the warehouse manager, you will create wave pick lists and send them to the picking queue by     using the _Create Pick Lists_ (SO503050) form. Then you will review the created pick lists on the _Picking Queue_     (SO503080) form. 
 
 2. Acting as pickers, you will do the following by using the _Pick, Pack, and Ship_ (SO302020) form:     a. Pick items in a wave pick list     b. Pick items in another wave pick list 
@@ -4846,13 +4862,9 @@ To pack the items for a shipment, the packer performs the following steps:
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as the warehouse manager by using the _angelo_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. As a prerequisite, perform _Paperless Picking: Implementation Activity_ to enable the _Paperless Picking_ feature. 
-
-
-<!-- PAGE_BREAK -->
- Paperless Fulfillment of Orders | 162 
 
 4. On the **Warehouse Management** tab of the _Sales Orders Preferences_ (SO101000) form, make sure that     the **Display the Pick Tab** , **Display the Pack Tab** , and **Add Totes to Shipments on the Fly** check boxes are     selected. 
 
@@ -4866,7 +4878,7 @@ To pack the items for a shipment, the packer performs the following steps:
 
 3. In the **Warehouse** box, select _WHOLESALE_. 
 
-4. In the **End Date** box, make sure that _1/30/2025_ is specified. 
+4. In the **End Date** box, make sure that _1/30/2026_ is specified. 
 
 5. Enter 3 as the **Max. Number of Pickers**. 
 
@@ -4876,7 +4888,13 @@ To pack the items for a shipment, the packer performs the following steps:
 
 8. In the table, select the unlabeled check boxes in the rows of the shipments with reference numbers from     _000062_ through _000065_. 
 
-9. On the form toolbar, click **Process**. Close the **Processing** dialog box aer the processing is completed.     The system has created the wave pick lists and sent them to the picking queue. 10.Open the _Picking Queue_ (SO503080) form. 11.In the **Warehouse** box, select _WHOLESALE_.     The system shows the wave pick lists that you created in the table on the **Pick** tab. Notice that only two     wave pick lists have been created. (Although you have entered _3_ as the maximum number of pickers, the     system has found the optimal workflow and determined that two pickers are enough for picking the wave.)     Both rows with pick lists have the _Added to Queue_ status, which means that pickers can start picking the     items in these pick lists. 12.Sign out of the system. 
+9. On the form toolbar, click **Process**. Close the **Processing** dialog box aer the processing is completed.     The system has created the wave pick lists and sent them to the picking queue. 10.Open the _Picking Queue_ (SO503080) form. 11.In the **Warehouse** box, select _WHOLESALE_. 12.In the **Pick List Type** box, select _Wave_.     The system shows the wave pick lists that you created in the table on the **Pick** tab. Notice that only two     wave pick lists have been created. (Although you have entered _3_ as the maximum number of pickers, the 
+
+
+<!-- PAGE_BREAK -->
+ Paperless Fulfillment of Orders | 162 
+
+ system has found the optimal workflow and determined that two pickers are enough for picking the wave.) Both rows with pick lists have the Added to Queue status, which means that pickers can start picking the items in these pick lists. 13.Sign out of the system. 
 
 #### Step 2a: Picking Items in a Wave (Picker 1) 
 
@@ -4892,19 +4910,19 @@ To pack the items for a shipment, the packer performs the following steps:
 
 5. Assign totes to the shipments that you will be picking by doing the following:     a. Enter T16. The system assigns this tote to the _000064_ shipment and inserts the tote ID in the **Tote ID**        column of all lines of this shipment.     b. Enter T17. The system assigns this tote to the _000065_ shipment.     You have assigned the totes to shipments, and now you can start picking items. 
 
-6. Pick the items from the first location by doing the following:     a. Enter LJ32 to pick the item. ( _LJ32_ is the barcode for _LEMJAM32_ , the 32-ounce jar of lemon jam, which is        included in the _000065_ shipment.) 
-
-
-<!-- PAGE_BREAK -->
- Paperless Fulfillment of Orders | 163 
-
- b. Set the quantity of the item to 15 as follows: a. On the form toolbar, click Set Qty. The system prompts you to enter the item quantity. b. Enter 15. You have indicated to the system that fieen 32-ounce jars of lemon jam have been picked from the location and placed in the T17 tote, which is assigned to the 000065 shipment. 
+6. Pick the items from the first location by doing the following:     a. Enter LJ32 to pick the item. ( _LJ32_ is the barcode for _LEMJAM32_ , the 32-ounce jar of lemon jam, which is        included in the _000065_ shipment.)     b. Set the quantity of the item to 15 as follows:        a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity.        b. Enter 15. You have indicated to the system that fieen 32-ounce jars of lemon jam have been picked           from the location and placed in the _T17_ tote, which is assigned to the _000065_ shipment. 
 
 7. Start picking the items from the second location by doing the following:     a. Enter L2R1S1 to select the location from which you are currently picking items.     b. Enter KJ32 to pick the item. ( _KJ32_ is the barcode for _KIWIJAM32_ , the 32-ounce jar of kiwi jam, which is        included in the _000064_ shipment.)        Suppose that you have started picking items from the second location and realized that _T16_ will not be        spacious enough to fit the entire quantities of the _KIWIJAM32_ and _LEMJAM96_ items.     c. Set the quantity to 15 , which is the quantity that will fit in the _T16_ tote. 
 
 8. Click **Add Tote** on the form toolbar to add a tote for the _000064_ shipment. 
 
-9. Enter T18. The system assigns this tote to the _000064_ shipment and inserts the tote ID in the **Tote ID** column     of all lines of this shipment that have not been picked yet. 10.Continue picking the items from the second location by doing the following:     a. Enter KJ32 to pick the item.     b. Enter T18 to select the tote to which you want to pick the remaining items.     c. Set the quantity to 5. 11.Pick the items from the third location by doing the following:     a. Enter L1R1S1 to select the location from which you are currently picking items.     b. Enter LJ96 to pick the item. ( _LJ96_ is the barcode for _LEMJAM96,_ the 96-ounce jar of lemon jam, which is        included in the _000064_ shipment.)     c. Enter T18 to select the tote to which you want to pick the ten 96-ounce jars of lemon jam.     d. Set the quantity to 10. 12.On the form toolbar, click **Confirm Pick List** to confirm that picking is finished.     You have finished picking the items for one of the pick lists. 13.Sign out of the system. 
+9. Enter T18. The system assigns this tote to the _000064_ shipment and inserts the tote ID in the **Tote ID** column     of all lines of this shipment that have not been picked yet. 10.Continue picking the items from the second location by doing the following:     a. Enter KJ32 to pick the item.     b. Enter T18 to select the tote to which you want to pick the remaining items.     c. Set the quantity to 5. 11.Pick the items from the third location by doing the following:     a. Enter L1R1S1 to select the location from which you are currently picking items. 
+
+
+<!-- PAGE_BREAK -->
+ Paperless Fulfillment of Orders | 163 
+
+ b. Enter LJ96 to pick the item. ( LJ96 is the barcode for LEMJAM96, the 96-ounce jar of lemon jam, which is included in the 000064 shipment.) c. Enter T18 to select the tote to which you want to pick the ten 96-ounce jars of lemon jam. d. Set the quantity to 10. 12.On the form toolbar, click Confirm Pick List to confirm that picking is finished. You have finished picking the items for one of the pick lists. 13.Sign out of the system. 
 
 #### Step 2b: Picking Items in a Wave (Picker 2) 
 
@@ -4920,15 +4938,17 @@ To pack the items for a shipment, the packer performs the following steps:
 
 5. Assign totes to the shipments that you will be picking by doing the following:     a. Enter T19. The system assigns the tote to the _000062_ shipment and inserts the tote ID in the **Tote ID**        column of all lines of this shipment.     b. Enter T20. The system assigns the tote to the _000063_ shipment.     You have assigned the totes to shipments, and now you can start picking items. 
 
-
-<!-- PAGE_BREAK -->
- Paperless Fulfillment of Orders | 164 
-
 6. Pick the items from the first location by doing the following:     a. Enter AJ96 to pick the item. ( _AJ96_ is the barcode for _APJAM96_ the 96-ounce jar of apple jam, which is        included in the _000062_ shipment.)     b. Set the quantity of the item to 10 as follows:        a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity.        b. Enter 10. You have indicated to the system that ten 96-ounce jars of apple jam have been picked from           the location and placed in the _T19_ tote, which is assigned to the _000062_ shipment.        You are continuing to pick items for different shipments from the same location, so you do not need to        scan the location barcode again.     c. Do the following:        a. Enter LJ96 ( _LJ96_ is the barcode for _LEMJAM96_ , the 96-ounce jar of apple jam, which is included in the           _000063_ shipment.)        b. Set the quantity to 10. 
 
 7. To proceed to picking items from the second location, do the following:     a. Enter L3R1S3 to select the location from which you are currently picking items.     b. Enter LJ08 to pick the item. _LJ08_ is the barcode for _LEMJAM08_ , the 8-ounce jar of lemon jam, which is        included in the _000063_ shipment.     c. Set the quantity of the item to 5. 
 
-8. Pick the items from the third location by doing the following:     a. Enter L3R3S2 to select the location from which you are currently picking items.     b. Enter PJ32 to pick the item. ( _PJ32_ is the barcode for _PLUMJAM32_ , the 32-ounce jar of plum jam, which is        included in the _000062_ shipment.)     c. Set the quantity of the item to 5. 
+8. Pick the items from the third location by doing the following:     a. Enter L3R3S2 to select the location from which you are currently picking items. 
+
+
+<!-- PAGE_BREAK -->
+ Paperless Fulfillment of Orders | 164 
+
+ b. Enter PJ32 to pick the item. ( PJ32 is the barcode for PLUMJAM32 , the 32-ounce jar of plum jam, which is included in the 000062 shipment.) c. Set the quantity of the item to 5. 
 
 9. On the form toolbar, click **Confirm Pick List** to confirm that picking is finished.     You have finished picking the items in both pick lists. 10.Sign out of the system. 
 
@@ -4948,53 +4968,25 @@ To pack the items for a shipment, the packer performs the following steps:
 
 6. Enter LJ96 to select the item being packed. The system highlights the first line of the shipment in bold and     inserts _1_ as the **Packed Quantity** ; it also adds a line with this item to the **Package Content** tab.     While packing, you find out that the selected box can hold only seven 96-ounce jars of the jam. 
 
+7. Set the quantity of the item to 7 as follows:     a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity.     b. Enter 7. The system inserts _7_ as the **Packed Quantity**. 
+
+8. On the form toolbar, click **Confirm Package** to confirm the package. 
+
+9. Enter LARGE to select the box in which you are now packing the items. 10.Enter LJ96 to select the item being packed. 11.Set the quantity of this item to 3. The system highlights the first line of the shipment in green to indicate     that all 96-ounce jars of lemon jam have been packed. 12.Enter KJ32 to select the next item being packed in the same box.     While packing the second box, you find out that the selected box can hold only three 96-ounce jars of lemon     jam and ten 32-ounce jars of kiwi jam. 13.Set the quantity of the KJ32 item to 10. 14.On the form toolbar, click **Confirm Package** to confirm the package. 15.Enter MEDIUM to select the box in which you are packing the rest of the items. 16.Enter KJ32 to select the item being packed in the last box. 17.Set the quantity of this item to 10. 18.On the form toolbar, click **Confirm Package** to confirm the last package for the _000064_ shipment. 19.On the form toolbar, click **Confirm Shipment**. 
+
 
 <!-- PAGE_BREAK -->
  Paperless Fulfillment of Orders | 165 
 
-7. Set the quantity of the item to 7 as follows: 
-
- a. On the form toolbar, click Set Qty. The system prompts you to enter the item quantity. b. Enter 7. The system inserts 7 as the Packed Quantity. 
-
-8. On the form toolbar, click **Confirm Package** to confirm the package. 
-
-9. Enter LARGE to select the box in which you are now packing the items. 
-
-10.Enter LJ96 to select the item being packed. 
-
-11.Set the quantity of this item to 3. The system highlights the first line of the shipment in green to indicate that all 96-ounce jars of lemon jam have been packed. 
-
-12.Enter KJ32 to select the next item being packed in the same box. 
-
- While packing the second box, you find out that the selected box can hold only three 96-ounce jars of lemon jam and ten 32-ounce jars of kiwi jam. 
-
-13.Set the quantity of the KJ32 item to 10. 
-
-14.On the form toolbar, click **Confirm Package** to confirm the package. 
-
-15.Enter MEDIUM to select the box in which you are packing the rest of the items. 
-
-16.Enter KJ32 to select the item being packed in the last box. 
-
-17.Set the quantity of this item to 10. 
-
-18.On the form toolbar, click **Confirm Package** to confirm the last package for the _000064_ shipment. 
-
-19.On the form toolbar, click **Confirm Shipment**. 
-
 20.Sign out of the system, and sign in again as a warehouse manager by using the _angelo_ username and the _123_ password. 
 
-21.On the _Shipments_ (SO302000) form, open the _000064_ shipment, which you packed. Notice that it is now assigned the _Confirmed_ status. The **Packages** tab lists each box in which the items were packed. For the box whose row is selected in this table, the items packed into this box are listed in the **Contents of Selected Package** table. 
+21.On the _Shipments_ (SO302000) form, open the _000064_ shipment, which you packed. Notice that it is now assigned the _Confirmed_ status (Item 1 below). The **Packages** tab lists each box in which the items were packed (Item 2). For the box whose row is selected in this table, the items packed into this box (Item 3) are listed in the **Contents of Selected Package** table. 
+
+ Figure: Packing details for the shipment 
 
 
 <!-- PAGE_BREAK -->
- Paperless Fulfillment of Orders | 166 
-
-**_Figure: Packing details for the shipment_** 
-
-
-<!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 167 
+ Automated Operations with Lotand Serial-Tracked Items | 166 
 
 ## Automated Operations with Lotand Serial-Tracked Items 
 
@@ -5046,7 +5038,7 @@ To pack the items for a shipment, the packer performs the following steps:
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 168 
+ Automated Operations with Lotand Serial-Tracked Items | 167 
 
  When you process the packing of items in Pack mode, for each item to be packed in a selected box, you scan the item barcode and lot or serial number; optionally, you also scan the expiration date (which must be the same as the expiration date in the shipment). 
 
@@ -5078,7 +5070,7 @@ To pack the items for a shipment, the packer performs the following steps:
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 169 
+ Automated Operations with Lotand Serial-Tracked Items | 168 
 
 #### Processing Inventory Issues with Lotand Serial-Tracked Items 
 
@@ -5124,7 +5116,7 @@ To pack the items for a shipment, the packer performs the following steps:
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 170 
+ Automated Operations with Lotand Serial-Tracked Items | 169 
 
  Form Criteria to Check 
 
@@ -5140,7 +5132,7 @@ To pack the items for a shipment, the packer performs the following steps:
 
  You can affect the workflow of wave picking by specifying the following additional settings: 
 
-- To make the system generate lot or serial numbers for processed serialized items automatically, select the     **Default Auto-Generated Lot/Serial Nbr.** check box on the _Purchase Orders Preferences_ (PO101000) form. 
+- To make the system generate lot or serial numbers for processed serialized items automatically, select the     **Use Default Auto-Generated Lot/Serial Nbr.** check box on the _Purchase Orders Preferences_ (PO101000)     form. 
 
 - To make the system generate expiration dates for processed serialized items automatically, select the     **Default Expiration Date** on the _Purchase Orders Preferences_ form. 
 
@@ -5162,7 +5154,7 @@ To pack the items for a shipment, the packer performs the following steps:
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 171 
+ Automated Operations with Lotand Serial-Tracked Items | 170 
 
 To process the picking of lotor serial-tracked items in Pick mode, you perform the following steps: 
 
@@ -5172,7 +5164,7 @@ To process the picking of lotor serial-tracked items in Pick mode, you perform t
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 172 
+ Automated Operations with Lotand Serial-Tracked Items | 171 
 
  To start the automated processing, you scan the reference number of the shipment to be processed. The system displays the lines of the scanned document in the table and inserts the reference number of the document that is currently selected for processing in the Shipment Nbr. box. 
 
@@ -5181,8 +5173,6 @@ To process the picking of lotor serial-tracked items in Pick mode, you perform t
 4. _Scan the item barcode_.     When you scan the item barcode of the picked item, the system searches for the item in the lines of the     currently selected document. 
 
 5. _Scan the lot or serial number of the item_.     You scan the lot or serial number of the item being picked. The system displays the picked quantity in the     **Picked Quantity** column and highlights the line (in bold if the line has been picked partially, or in green     if the line has been picked in full). If the UOM defined by the barcode of the scanned item corresponds to     a non-base unit of measure, the system converts the item quantity defined by this barcode to the picked     quantity in the base unit of measure for this item.     You can scan all lot or serial numbers of an item one by one. 
-
- If the Default Auto-Generated Lot/Serial Nbr. check box is selected on the Sales Orders Preferences (SO101000) form, the system specifies the lot or serial number for the item automatically. 
 
 6. Optional: _Scan the item quantity_.     To change the picked quantity in the line that is currently being processed, you switch to Quantity Editing     mode by scanning or entering the *qty barcode, and manually enter the quantity in the UOM defined by     the barcode of the scanned item. 
 
@@ -5198,11 +5188,11 @@ To process the picking of lotor serial-tracked items in Pick mode, you perform t
 
 
 <!-- PAGE_BREAK -->
-Automated Operations with Lotand Serial-Tracked Items | **173** 
+Automated Operations with Lotand Serial-Tracked Items | **172** 
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 174 
+ Automated Operations with Lotand Serial-Tracked Items | 173 
 
 To process the packing of lotor serial-tracked items in Pack mode, you perform the following steps: 
 
@@ -5232,7 +5222,7 @@ To process the packing of lotor serial-tracked items in Pack mode, you perform t
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 175 
+ Automated Operations with Lotand Serial-Tracked Items | 174 
 
  This step is performed automatically for the shipments that are being packed in a single box that the system has suggested automatically. 
 
@@ -5254,7 +5244,7 @@ To process the packing of lotor serial-tracked items in Pack mode, you perform t
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 176 
+ Automated Operations with Lotand Serial-Tracked Items | 175 
 
 To process the receipt of lotor serial-tracked items in Receive mode, you perform the following steps: 
 
@@ -5262,7 +5252,7 @@ To process the receipt of lotor serial-tracked items in Receive mode, you perfor
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 177 
+ Automated Operations with Lotand Serial-Tracked Items | 176 
 
  You open the Receive and Put Away (PO302020) form (or the corresponding screen in the Acumatica mobile app) and switch to Receive mode by scanning or entering the @receive barcode. 
 
@@ -5282,13 +5272,13 @@ To process the receipt of lotor serial-tracked items in Receive mode, you perfor
 
  You scan the lot or serial number of the item being received. 
 
- If the Default Auto-Generated Lot/Serial Nbr. check box is selected on the Purchase Orders Preferences (PO101000) form, the system assigns and inserts the lot or serial number for the item automatically. 
+ If the Use Default Auto-Generated Lot/Serial Nbr. check box is selected on the Purchase Orders Preferences (PO101000) form, the system assigns and inserts the lot or serial number for the item automatically. 
 
 6. _Scan or enter the expiration date of the item_. 
 
  You scan the expiration date of the item being received. The system highlights the processed line in bold. If the UOM defined by the barcode of the scanned item corresponds to a non-base unit of measure, the system converts the item quantity defined by this barcode to the received quantity in the base unit of measure for this item. If the scanned item barcode corresponds to a non-base unit of measure, the system converts this quantity to the received quantity in the base unit of measure for this item. You can scan all lot or serial numbers of an item one by one. 
 
- If the Default Expiration Date check box is selected on the Purchase Orders Preferences form, the system fills in the expiration date for the item automatically. 
+ If the Use Default Expiration Date check box is selected on the Purchase Orders Preferences form, the system fills in the expiration date for the item automatically. 
 
 7. Optional: _Scan the item quantity_. 
 
@@ -5308,7 +5298,7 @@ To process the receipt of lotor serial-tracked items in Receive mode, you perfor
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 178 
+ Automated Operations with Lotand Serial-Tracked Items | 177 
 
 #### Workflow for the Automated Putting Away of Items 
 
@@ -5316,13 +5306,13 @@ To process the receipt of lotor serial-tracked items in Receive mode, you perfor
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 179 
+ Automated Operations with Lotand Serial-Tracked Items | 178 
 
 To process the putting away of lotor serial-tracked items in Put Away mode, you perform the following steps: 
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 180 
+ Automated Operations with Lotand Serial-Tracked Items | 179 
 
 1. _Switch to Put Away mode_.     You open the _Receive and Put Away_ (PO302020) form (or the corresponding screen in the Acumatica mobile     app) and switch to Put Away mode by scanning or entering _@putaway_ barcode. 
 
@@ -5348,7 +5338,7 @@ To process the putting away of lotor serial-tracked items in Put Away mode, you 
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 181 
+ Automated Operations with Lotand Serial-Tracked Items | 180 
 
  items by using the Scan and Transfer (IN304020) form or the corresponding screen in the Acumatica mobile app, the system may prompt you to enter the lot or serial number during this process. 
 
@@ -5360,7 +5350,7 @@ To process the putting away of lotor serial-tracked items in Put Away mode, you 
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 182 
+ Automated Operations with Lotand Serial-Tracked Items | 181 
 
 To transfer items by using a barcode scanner or a mobile device with a scanning option, you perform the following steps: 
 
@@ -5368,7 +5358,7 @@ To transfer items by using a barcode scanner or a mobile device with a scanning 
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 183 
+ Automated Operations with Lotand Serial-Tracked Items | 182 
 
  You open the Scan and Transfer form (or the corresponding screen in the Acumatica mobile app). 
 
@@ -5398,15 +5388,15 @@ To transfer items by using a barcode scanner or a mobile device with a scanning 
 
  In the following activity, you will learn how to process purchase and sales orders, and transfers with lot-tracked stock items in automated mode. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 184 
+ Automated Operations with Lotand Serial-Tracked Items | 183 
 
 #### Story 
 
- Suppose that on 1/27/2025, the purchasing manager of the wholesale warehouse of the SweetLife Fruits & Jams company entered a purchase order for 30 pounds of pears (three boxes of 10 pounds each, and the boxes can have different expiration dates) from the Glory Fruit Case vendor. The vendor supplies each box with a lot number that must be used for tracking the enclosed items in the Wholesale warehouse. Then, on 1/29/2025, the sales manager entered a sales order for 12 pounds of pears being sold to GoodFood One Restaurant. 
+ Suppose that on 1/27/2026, the purchasing manager of the wholesale warehouse of the SweetLife Fruits & Jams company entered a purchase order for 30 pounds of pears (three boxes of 10 pounds each, and the boxes can have different expiration dates) from the Glory Fruit Case vendor. The vendor supplies each box with a lot number that must be used for tracking the enclosed items in the Wholesale warehouse. Then, on 1/29/2026, the sales manager entered a sales order for 12 pounds of pears being sold to GoodFood One Restaurant. 
 
  As the warehouse worker, you will receive the items in the purchase order and put them away in the fruit locations. Then you will pick and pack the items for the sales order. Finally, at the request of the warehouse manager, you will move the remaining items (those not included in the sales order) from one location to another. 
 
@@ -5452,7 +5442,7 @@ To transfer items by using a barcode scanner or a mobile device with a scanning 
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 185 
+ Automated Operations with Lotand Serial-Tracked Items | 184 
 
 #### System Preparation 
 
@@ -5460,7 +5450,7 @@ To transfer items by using a barcode scanner or a mobile device with a scanning 
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as warehouse worker with the _perkins_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the _Enable/Disable Features_ (CS100000) form, enable the _Lot and Serial Tracking_ feature. 
 
@@ -5478,17 +5468,17 @@ To transfer items by using a barcode scanner or a mobile device with a scanning 
 
 5. Enter FR000762 to specify the lot number of the first and second boxes of pears. (These boxes have the     same lot number.) 
 
-6. Enter _02/20/2025_ to specify the expiration date of these boxes, which have the same expiration date. The     system highlights the purchase receipt line in bold, and specifies _1_ as the **Received Qty.** The two boxes with     the lot number and expiration date you have specified contain 20 pounds, so the quantity of the line should     be 20. 
+6. Enter _02/20/2026_ to specify the expiration date of these boxes, which have the same expiration date. The     system highlights the purchase receipt line in bold, and specifies _1_ as the **Received Qty.** The two boxes with     the lot number and expiration date you have specified contain 20 pounds, so the quantity of the line should     be 20. 
 
 7. Set the quantity of the current line to 20 as follows:     a. On the form toolbar, click **Set Qty**. The system prompts you to enter the item quantity.     b. In the **Scan** box, type 20. 
 
 8. Enter PE1LB to select the item being received. You are now processing the third box of 10 pounds of pears,     which has a different lot number and expiration date than the first two boxes had. 
 
-9. Enter FR000782 to specify the lot number of the third box of pears. 10.Enter _02/13/2025_ to specify the expiration date of this box. The system splits the line, and specifies 1 as     the **Received Quantity** in the newly added line. The box with the lot number and expiration date you just     entered contains 10 pounds, so the quantity of the line should be 10. 11.Set the quantity of the current line to 10. On the **Receive** tab, the system highlights both lines in green,     indicating that these lines have been received in full. 12.On the form toolbar, click **Release Receipt**. The system releases the purchase receipt and generates a     corresponding inventory receipt transaction to record the receipt of the items to the _MAIN_ location of the     warehouse. 
+9. Enter FR000782 to specify the lot number of the third box of pears. 10.Enter _02/13/2026_ to specify the expiration date of this box. The system splits the line, and specifies 1 as     the **Received Quantity** in the newly added line. The box with the lot number and expiration date you just     entered contains 10 pounds, so the quantity of the line should be 10. 11.Set the quantity of the current line to 10. On the **Receive** tab, the system highlights both lines in green,     indicating that these lines have been received in full. 12.On the form toolbar, click **Release Receipt**. The system releases the purchase receipt and generates a     corresponding inventory receipt transaction to record the receipt of the items to the _MAIN_ location of the     warehouse. 
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 186 
+ Automated Operations with Lotand Serial-Tracked Items | 185 
 
  13.Enter @putaway to switch to Put Away mode. Notice that the purchase receipt is still selected and its reference number is shown in the Receipt Nbr. box of the Summary area. 14.Enter F1S2 to select the location to which the items (the 20 pounds of pears in the first two boxes) are being put away. 15.Enter PE1LB to select the item to be put away to this location. 16.Enter FR000762 to specify the lot number of the first and second box of pears. 17.Set the quantity to 20. 18.Enter F2S1 to select the location to which the rest of the items (the remaining 10 pounds of pears, which are in the third box) are being put away. 19.Enter PE1LB to select the item to be put away to this location. 20.Enter FR000782 to specify the lot number of the third box of pears. 21.Set the quantity to 10. 22.On the form toolbar, click Release Transfer. 23.On the Transfers tab, click the reference number in the Reference Nbr. column. 24.On the Transfers (IN304000) form, which opens in a pop-up window, make sure that the generated transfer has the Released status shown in the Status box, and make sure that the lot number and expiration date have been assigned to the lines, as shown in the screenshot. 
 
@@ -5498,15 +5488,15 @@ To transfer items by using a barcode scanner or a mobile device with a scanning 
 
  To create a shipment for some of the pears that have been received and put away, do the following: 
 
-1. On the _Sales Orders_ (SO301000) form, open a sales order to _GOODFOOD_ dated 1/29/2025, and make sure it     has a line with the _PEARS_ item and quantity _12_. 
+1. On the _Sales Orders_ (SO301000) form, open a sales order to _GOODFOOD_ dated 1/29/2026, and make sure it     has a line with the _PEARS_ item and quantity _12_. 
 
 2. On the form toolbar, click **Create Shipment** to prepare a shipment. 
 
-3. In the **Specify Shipment Parameters** dialog box, which opens, make sure that the _1/30/2025_ date and     the _WHOLESALE_ warehouse are selected, and click **OK**. The system creates a shipment and opens it on the 
+3. In the **Specify Shipment Parameters** dialog box, which opens, make sure that the _1/30/2026_ date and     the _WHOLESALE_ warehouse are selected, and click **OK**. The system creates a shipment and opens it on the 
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 187 
+ Automated Operations with Lotand Serial-Tracked Items | 186 
 
  Shipments (SO302000) form. In the Shipment Nbr. , box, notice the reference number of the shipment; you will need it in the next step. 
 
@@ -5540,7 +5530,7 @@ To transfer items by using a barcode scanner or a mobile device with a scanning 
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 188 
+ Automated Operations with Lotand Serial-Tracked Items | 187 
 
 2. Review the **Packages** tab. Notice that one box with the _MEDIUM_ identifier is shown in the upper table, and     the **Contents of Selected Package** table shows the items that have been packed into this box, as shown in     the following screenshot. 
 
@@ -5564,7 +5554,7 @@ To transfer items by using a barcode scanner or a mobile device with a scanning 
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 189 
+ Automated Operations with Lotand Serial-Tracked Items | 188 
 
  b. In the Scan box, enter 18. 
 
@@ -5592,7 +5582,7 @@ To transfer items by using a barcode scanner or a mobile device with a scanning 
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 190 
+ Automated Operations with Lotand Serial-Tracked Items | 189 
 
 To count inventory items (and use Scan and Count mode), you perform the following steps: 
 
@@ -5602,7 +5592,7 @@ To count inventory items (and use Scan and Count mode), you perform the followin
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 191 
+ Automated Operations with Lotand Serial-Tracked Items | 190 
 
 3. _Scan the location barcode_.     You scan the barcode of the location where the items to be counted are stored. All items that you scan aer     scanning the location barcode will be assigned to this location. 
 
@@ -5624,7 +5614,7 @@ To count inventory items (and use Scan and Count mode), you perform the followin
 
  In this activity, you will learn how to perform automated counting of lot-tracked items during a physical inventory. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -5642,7 +5632,7 @@ To count inventory items (and use Scan and Count mode), you perform the followin
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 192 
+ Automated Operations with Lotand Serial-Tracked Items | 191 
 
 - _Advanced Physical Count_ 
 
@@ -5694,7 +5684,7 @@ To count inventory items (and use Scan and Count mode), you perform the followin
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 193 
+ Automated Operations with Lotand Serial-Tracked Items | 192 
 
  Suppose that in this location, you find one box of coconuts. 
 
@@ -5726,7 +5716,7 @@ To count inventory items (and use Scan and Count mode), you perform the followin
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 194 
+ Automated Operations with Lotand Serial-Tracked Items | 193 
 
 ### Automated Operations with Lotand Serial-Tracked Items: Issuing Items 
 
@@ -5740,7 +5730,7 @@ To count inventory items (and use Scan and Count mode), you perform the followin
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 195 
+ Automated Operations with Lotand Serial-Tracked Items | 194 
 
 To issue items by using a barcode scanner or a mobile device with a scanning option, you perform the following steps: 
 
@@ -5748,7 +5738,7 @@ To issue items by using a barcode scanner or a mobile device with a scanning opt
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 196 
+ Automated Operations with Lotand Serial-Tracked Items | 195 
 
 2. _Scan the location barcode_.     You scan the barcode of the warehouse location where the items to be issued are stored. 
 
@@ -5770,7 +5760,7 @@ To issue items by using a barcode scanner or a mobile device with a scanning opt
 
  In this activity, you will learn how to perform automated issuing of lot-tracked items. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -5778,7 +5768,7 @@ To issue items by using a barcode scanner or a mobile device with a scanning opt
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 197 
+ Automated Operations with Lotand Serial-Tracked Items | 196 
 
 #### Configuration Overview 
 
@@ -5830,7 +5820,7 @@ To issue items by using a barcode scanner or a mobile device with a scanning opt
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 198 
+ Automated Operations with Lotand Serial-Tracked Items | 197 
 
 7. Enter F3S2, which is the barcode of the location where the second box of bananas is stored. 
 
@@ -5850,11 +5840,11 @@ To issue items by using a barcode scanner or a mobile device with a scanning opt
 
  Location Quantity UOM 
 
-##### BANANAS FR200384 2/3/2025 F2S2 1 BBOX 
+##### BANANAS FR200384 2/3/2026 F2S2 1 BBOX 
 
-##### BANANAS FR200401 2/6/2025 F2S2 1 BBOX 
+##### BANANAS FR200401 2/6/2026 F2S2 1 BBOX 
 
-##### BANANAS FR200335 2/4/2025 F3S2 2 BBOX 
+##### BANANAS FR200335 2/4/2026 F3S2 2 BBOX 
 
 2. On the form toolbar, click **Release** to release the inventory issue. 
 
@@ -5862,7 +5852,7 @@ To issue items by using a barcode scanner or a mobile device with a scanning opt
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 199 
+ Automated Operations with Lotand Serial-Tracked Items | 198 
 
  Figure: Inventory issue transaction 
 
@@ -5880,11 +5870,11 @@ To issue items by using a barcode scanner or a mobile device with a scanning opt
 
 
 <!-- PAGE_BREAK -->
-Automated Operations with Lotand Serial-Tracked Items | **200** 
+Automated Operations with Lotand Serial-Tracked Items | **199** 
 
 
 <!-- PAGE_BREAK -->
- Automated Operations with Lotand Serial-Tracked Items | 201 
+ Automated Operations with Lotand Serial-Tracked Items | 200 
 
 To receive items by using a barcode scanner or a mobile device with a scanning option, you perform the following steps: 
 
@@ -5910,7 +5900,7 @@ To receive items by using a barcode scanner or a mobile device with a scanning o
 
 
 <!-- PAGE_BREAK -->
- Cart Tracking in Warehouse Operations | 202 
+ Cart Tracking in Warehouse Operations | 201 
 
 ## Cart Tracking in Warehouse Operations 
 
@@ -5942,7 +5932,7 @@ To receive items by using a barcode scanner or a mobile device with a scanning o
 
 
 <!-- PAGE_BREAK -->
- Cart Tracking in Warehouse Operations | 203 
+ Cart Tracking in Warehouse Operations | 202 
 
 items that you are placing in the cart; the system shows this quantity in the **Cart Qty.** column for each line, thus indicating items that have been placed in the currently selected cart. To indicate the putting away of each item from the cart, you use the *cart*out command to enter Cart Unloading mode, and scan the item barcode, the location barcode, and the quantity; the system reduces the **Cart Qty.** to indicate the quantity of the item being put away. Aer all the items for the current document are put away from the cart, you release the transfer document, and the processing is completed. For more information about the workflows associated with receiving items and putting them away, see _Automated Receiving and Putting Away Operations_. 
 
@@ -5954,7 +5944,7 @@ items that you are placing in the cart; the system shows this quantity in the **
 
 
 <!-- PAGE_BREAK -->
- Working Modes and Supported Commands | 204 
+ Working Modes and Supported Commands | 203 
 
 ## Working Modes and Supported Commands 
 
@@ -5962,21 +5952,29 @@ items that you are placing in the cart; the system shows this quantity in the **
 
  The listed commands can be used on the following forms: 
 
-- _Item Lookup_ (IN202520) 
-
-- _Pick, Pack, and Ship_ (SO302020) 
-
-- _Receive and Put Away_ (PO302020) 
-
-- _Scan and Count_ (IN305020) 
-
-- _Scan and Issue_ (IN302020) 
+- _Scan Warehouse Path_ (IN204025) 
 
 - _Scan and Receive_ (IN301020) 
 
 - _Scan and Transfer_ (IN304020) 
 
-- _Storage Lookup_ (IN409020) Some commands can be used on any form, while other commands are restricted to a specific form. The applicable forms are specified in the description of each table. 
+- _Scan and Issue_ (IN302020) 
+
+- _Receive and Put Away_ (PO302020) 
+
+- _Pick, Pack, and Ship_ (SO302020) 
+
+- _Scan and Count_ (IN305020) 
+
+- _Item Lookup_ (IN202520) 
+
+- _Storage Lookup_ (IN409020) 
+
+- _Scan Labor_ (AM302020) 
+
+- _Scan Materials_ (AM300030) 
+
+- _Scan Move_ (AM302010) Some commands can be used on any form or in any mode, while other commands are restricted to a specific form or mode. The applicable forms are specified in the description of each table. 
 
  In any working mode, you enter a command or barcode by typing it in the Scan box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them. 
 
@@ -5984,43 +5982,73 @@ items that you are placing in the cart; the system shows this quantity in the **
 
  In the Acumatica mobile app, the use of these commands is restricted to switching modes within one screen. Navigation between screens is not supported. 
 
- Command Description of Performed Operation 
+ Command Description of Performed Operation Barcode 
 
- @receive Opens the Receive and Put Away (PO302020) form and switches to Receive mode. 
+ @count Opens the Scan and Count (IN305020) form and switches to Scan and Count mode. 
 
- This command cannot be used if the Display the Receive Tab check box is cleared on the Warehouse Management tab ( Receiving Workflow section) of the Purchase Orders Preferences (PO101000) form. 
 
- @putaway Opens the Receive and Put Away form and switches to Put Away mode. 
+<!-- PAGE_BREAK -->
+ Working Modes and Supported Commands | 204 
 
- This command cannot be used if the Display the Put Away Tab check box is cleared on the Warehouse Management tab ( Receiving Workflow section) of the Purchase Orders Preferences form. 
+**Command Description of Performed Operation Barcode** 
+
+@inissue Opens the _Scan and Issue_ (IN302020) form and switches to Scan and Issue mode. 
+
+@inreceive Opens the _Scan and Receive_ (IN301020) form and switches to Scan and Receive mode. 
+
+@intransfer Opens the _Scan and Transfer_ (IN304020) form and switches to Scan and Transfer mode. 
+
+@item Opens the _Item Lookup_ (IN202520) form and switches to Item Lookup mode. 
 
 
 <!-- PAGE_BREAK -->
  Working Modes and Supported Commands | 205 
 
- Command Description of Performed Operation 
+**Command Description of Performed Operation Barcode** 
 
- @pick Opens the Pick, Pack, and Ship (PO302020) form and switches to Pick mode. 
-
- This command cannot be used if the Display the Pick Tab check box is cleared on the Warehouse Management tab ( Fulfillment Workflow section) of the Sales Orders Preferences (SO101000) form. 
-
- @pack Opens the Pick, Pack, and Ship form and switches to Pack mode. 
+@pack Opens the _Pick, Pack, and Ship_ form and switches to Pack mode. 
 
  This command cannot be used if the Display the Pack Tab check box is cleared on the Warehouse Management tab ( Fulfillment Workflow section) of the Sales Orders Preferences form. 
 
- @ship Opens the Pick, Pack, and Ship form and switches to Ship mode. This mode is not available in the Acumatica mobile app. 
+@pick Opens the _Pick, Pack, and Ship_ (PO302020) form and switches to Pick mode. 
+
+ This command cannot be used if the Display the Pick Tab check box is cleared on the Warehouse Management tab ( Fulfillment Workflow section) of the Sales Orders Preferences (SO101000) form. 
+
+@poreturn Opens the _Receive and Put Away_ (PO302020) form and switches to Return mode. 
+
+ This command cannot be used if the Display the Return Tab check box is cleared on the Warehouse Management tab ( Receiving Workflow section) of the Purchase Orders Preferences (PO101000) form. 
+
+@potransfer Opens the _Receive and Put Away_ (PO302020) form and switches to Receive Transfer mode. 
+
+ This command cannot be used if the Display the Receive Transfer Tab check box is cleared on the Warehouse Management tab ( Receiving Workflow section) of the Purchase Orders Preferences (PO101000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Working Modes and Supported Commands | 206 
+
+**Command Description of Performed Operation Barcode** 
+
+@putaway Opens the _Receive and Put Away_ form and switches to Put Away mode. 
+
+ This command cannot be used if the Display the Put Away Tab check box is cleared on the Warehouse Management tab ( Receiving Workflow section) of the Purchase Orders Preferences form. 
+
+@receive Opens the _Receive and Put Away_ (PO302020) form and switches to Receive mode. 
+
+ This command cannot be used if the Display the Receive Tab check box is cleared on the Warehouse Management tab ( Receiving Workflow section) of the Purchase Orders Preferences (PO101000) form. 
+
+@ship Opens the _Pick, Pack, and Ship_ form and switches to Ship mode. This mode is not available in the Acumatica mobile app. 
 
  This command cannot be used if the Display the Ship Tab check box is cleared on the Warehouse Management tab ( Fulfillment Workflow section) of the Sales Orders Preferences form. 
 
- @inissue Opens the Scan and Issue (IN302020) form and switches to Scan and Issue mode. 
+@soreturn Opens the _Pick, Pack, and Ship_ form and switches to Return mode. 
 
- @inreceive Opens the Scan and Receive (IN301020) form and switches to Scan and Receive mode. 
+ This command cannot be used if the Display the Return Tab check box is cleared on the Warehouse Management tab ( Fulfillment Workflow section) of the Sales Orders Preferences (SO101000) form. 
 
- @intransfer Opens the Scan and Transfer (IN304020) form and switches to Scan and Transfer mode. 
 
- @count Opens the Scan and Count (IN305020) form and switches to Scan and Count mode. 
+<!-- PAGE_BREAK -->
+ Working Modes and Supported Commands | 207 
 
- @item Opens the Item Lookup (IN202520) form and switches to Item Lookup mode. 
+ Command Description of Performed Operation Barcode 
 
  @storage Opens the Storage Lookup (IN202520) form and switches to Storage Lookup mode. 
 
@@ -6028,179 +6056,279 @@ items that you are placing in the cart; the system shows this quantity in the **
 
 These commands, which can be used in any mode and on any form listed in the topic, give you the ability to perform processing actions. 
 
- Command Description of Performed Operation 
+ Command Description of Performed Operation Barcode 
 
- *cancel Clears the unconfirmed lines and returns to the initial step of the mode (such as scanning a document number or a warehouse). 
-
-
-<!-- PAGE_BREAK -->
- Working Modes and Supported Commands | 206 
-
- Command Description of Performed Operation 
-
- *ok Confirms the line that is currently being processed or confirms your selections in a dialog box. 
-
- *qty Enables Quantity Editing mode for a confirmed line. 
-
- *remove Activates Remove mode, in which the user removes items. 
+ *ok Confirms the entered data or the current operation. 
 
  *reset Clears the unconfirmed lines and returns to the first step in the mode, keeping the current document selected. 
-
- *save Saves your progress on the current operation. 
-
-**_Table: Receive Mode Commands_** 
-
-These commands, which can be used in Receive mode, give you the ability to perform actions specific to receiving on the _Receive and Put Away_ (PO302020) form. 
-
- Command Description of Performed Operation 
-
- *release Releases the currently processed purchase receipt. 
-
- *complete*polines Releases the purchased receipt that is being processed and completes all its lines, regardless of whether they were received in full. 
-
-**_Table: Put Away Mode Commands_** 
-
-This command, which can be used in Put Away mode, gives you the ability to release an inventory transfer on the _Receive and Put Away_ (PO302020) form. 
-
- Command Description of Performed Operation 
-
- *release Releases the inventory transfer that has been prepared for the operation of putting away items. 
-
-**_Table: Commands Specific to Pick and Pack Mode_** 
-
-These commands, which can be used in Pick and Pack mode, give you the ability to perform actions specific to picking and packing on the _Pick, Pack, and Ship_ (SO302020) form. 
-
- Mode Command Description of Performed Operation 
-
- Pick 
-
- Automated picking 
-
- *confirm*pick Marks as picked the shipment which is currently being processed. 
-
- Pick 
-
- Wave, batch, paperless picking 
-
- *confirm*pick Confirms the pick list which is currently being processed. 
-
-
-<!-- PAGE_BREAK -->
- Working Modes and Supported Commands | 207 
-
- Mode Command Description of Performed Operation 
-
- Pick and Pack 
-
- Wave, batch, paperless picking 
-
- *confirm*shipment Confirms the shipment which is currently being processed. 
-
- Pick 
-
- Paperless picking 
-
- *next*picklist Suggests another pick list. 
-
- The system uses the last scanned location as the current location of the picker to suggest the nearest pick list. 
-
- Pick 
-
- Paperless picking 
-
- *confirm*pick*and*next Confirms the current pick list and suggests another pick list. 
-
- The system uses the last scanned location as the current location of the picker to suggest the nearest pick list. 
-
- Pick 
-
- Paperless picking 
-
- *confirm*line*qty The system confirms the line with an incomplete quantity. You can return to this line later to pick the remaining quantity. 
-
- Pack 
-
- Wave, batch, paperless packing 
-
- *package*confirm Confirms the package. This command is equal to the *ok command. 
-
- Pack 
-
- Wave, batch, paperless packing 
-
- *pack*all*into*box Moves all items that are not packed yet to the current box. 
-
- Pack -only 
-
- Paperless packing 
-
- *confirm*pack Confirms the package in the paperless pack-only workflow. 
-
- Pack -only 
-
- Paperless packing 
-
- *confirm*pack*and*next Confirms the package in the paperless pack-only workflow and suggests the next pick list. 
-
-**_Table: Commands Specific to Ship Mode_** 
-
-These commands, which can be used in Ship mode, give you the ability to perform actions specific to shipping on the _Pick, Pack, and Ship_ (SO302020) form. 
-
- Command Description of Performed Operation 
-
- *get*labels Gets the return labels. 
-
- *refresh*rates Refreshes rates of carriers. 
-
-**_Table: Cart Tracking Commands_** 
-
-These commands, which can be used in any mode, give you the ability to perform actions specific to cart tracking on the _Pick, Pack, and Ship_ (SO302020) and _Receive and Put Away_ (PO302020) forms. 
 
 
 <!-- PAGE_BREAK -->
  Working Modes and Supported Commands | 208 
 
- Command Description of Performed Operation 
+**Command Description of Performed Operation Barcode** 
 
- *cart*in Enables Cart Loading mode. 
+*cancel Clears the unconfirmed lines and returns to the initial step of the mode (such as scanning a document number or a warehouse). 
 
- *cart*out Enables Cart Unloading mode. 
+*save Saves your progress on the current operation. On most of the forms, either you do not need to save changes or the system saves the changes automatically. 
 
-**_Table: Command Specific to Scan and Issue Mode_** 
+*qty Enables Quantity Editing mode for a confirmed line. 
 
-This command, which can be used in Scan and Issue mode, gives you the ability to release the inventory issue on the _Scan and Issue_ (IN302020) form. 
+ This command is not available on the following forms: 
 
- Command Description of Performed Operation 
+- _Scan Warehouse Path_     (IN204025) 
 
- *release Releases the inventory issue document that has been prepared for the operation that has been performed. 
+- _Item Lookup_ (IN202520) 
 
-**_Table: Command Specific to Scan and Receive Mode_** 
-
-This command, which can be used in Scan and Receive mode, gives you the ability to release the inventory receipt document on the _Scan and Receive_ (IN301020) form. 
-
- Command Description of Performed Operation 
-
- *release Releases the inventory receipt document that has been prepared for the operation that has been performed. 
-
-**_Table: Command Specific to Scan and Transfer Mode_** 
-
-This command, which can be used in Scan and Transfer mode, gives you the ability to release the inventory transfer document on the _Scan and Transfer_ (IN304020) form. 
-
- Command Description of Performed Operation 
-
- *release Releases the inventory transfer document that has been prepared for the operation that has been performed. 
-
-**_Table: Command Specific to Scan and Count Mode_** 
-
-This command, which can be used in Scan and Count mode, gives you the ability to confirm the physical inventory document on the _Scan and Count_ (IN305020) form. 
-
- Command Description of Performed Operation 
-
- *confirm Confirms the physical inventory document prepared for the operation being performed. 
+- _Storage Lookup_ (IN409020) 
 
 
 <!-- PAGE_BREAK -->
- Supported Barcode Types and Mobile Devices | 209 
+ Working Modes and Supported Commands | 209 
+
+ Command Description of Performed Operation Barcode 
+
+ *remove Activates Remove mode, in which the user reduces the scanned quantity of an item. 
+
+ This command is not available on the following forms: 
+
+- _Scan Warehouse Path_     (IN204025) 
+
+- _Item Lookup_ (IN202520) 
+
+- _Storage Lookup_ (IN409020) 
+
+**_Table: Command Specific to Scan Warehouse Path Form_** 
+
+This command gives you the ability to enter the path value to assign to the next scanned warehouse location on the _Scan Warehouse Path_ (IN204025) form. 
+
+ Command Description of Performed Operation Barcode 
+
+ *next Lets you enter the path value to assign to the next scanned warehouse location. 
+
+**_Table: Commands Specific to Receive and Putaway Form_** 
+
+These commands give you the ability to perform actions specific to receipts, returns, and transfers on the _Receive and Put Away_ (PO302020) form. 
+
+
+<!-- PAGE_BREAK -->
+ Working Modes and Supported Commands | 210 
+
+ Mode Command and Barcode Description of Performed Operation 
+
+- **Receive** 
+
+- **Return** 
+
+- **Receive Transfer** 
+
+- **Putaway** 
+
+ *release Releases the following documents and transactions: 
+
+- Purchase receipt with the _Receipt_ type in Re-     ceive mode 
+
+- Purchase receipt with the _Transfer Receipt_     type in Receive Transfer mode 
+
+- Purchase receipt with the _Return_ type in Re-     turn mode 
+
+- Inventory transfer related to the currently     processed purchase receipt in Putaway mode 
+
+- **Receive** 
+
+- **Receive Transfer** 
+
+ *confirm Changes the status of the purchase receipt to Received. If you use this command, you can release the purchase receipt only on the Purchase Receipts (PO302000) form. 
+
+ Receive *complete*polines Releases the purchased receipt and completes all lines of the related purchase order, regardless of whether they were received in full. 
+
+**_Table: Commands Specific to Pick, Pack, and Ship Form_** 
+
+These commands give you the ability to perform actions specific to picking, packing, and returning on the _Pick, Pack, and Ship_ (SO302020) form. 
+
+
+<!-- PAGE_BREAK -->
+ Working Modes and Supported Commands | 211 
+
+**Mode Command and Barcode Description of Performed Operation** 
+
+**Pick** 
+
+Paper-based: Single shipment 
+
+ *confirm*pick Marks as picked the shipment which is currently being processed. 
+
+**Pick** 
+
+- Paper-based:     Wave and Batch     pick lists 
+
+- Paperless: All 
+
+ *confirm*pick Confirms the pick list which is currently being processed. 
+
+**Pick** and **Pack** 
+
+- Paper-based: Sin-     gle shipments 
+
+- Paperless: _Sin-_     _gle-Shipment_ pick     lists 
+
+**Return** and **Ship** 
+
+Paper-based: Single shipments 
+
+ *confirm*shipment Confirms the shipment which is currently being processed. 
+
+**Pick** 
+
+Paperless picking: All 
+
+ *next*picklist Suggests another pick list. 
+
+ The system uses the last scanned location as the current location of the picker to suggest the nearest pick list. 
+
+**Pick** 
+
+Paperless picking: All 
+
+ *confirm*pick*and*next Confirms the current pick list and suggests another pick list. 
+
+ The system uses the last scanned location as the current location of the picker to suggest the nearest pick list. 
+
+
+<!-- PAGE_BREAK -->
+ Working Modes and Supported Commands | 212 
+
+**Mode Command and Barcode Description of Performed Operation** 
+
+**Pick** 
+
+Paperless picking: All 
+
+ *confirm*line*qty The system confirms the line with an incomplete quantity. You can return to this line later to pick the remaining quantity. 
+
+**Pick** 
+
+- Paper-based:     Wave pick lists 
+
+- Paperless picking:     _Single-Shipment_     and _Wave_ ship-     ments and pick     lists 
+
+ *add*tote Adds a tote to a pick list. 
+
+**Pack** 
+
+- Paper-based: Sin-     gle shipments 
+
+- Paperless: _Sin-_     _gle-Shipment_ pick     lists 
+
+ *package*confirm Confirms the package. 
+
+**Pack** 
+
+- Paper-based: Sin-     gle shipments 
+
+- Paperless: _Sin-_     _gle-Shipment_ pick     lists 
+
+ *pack*all*into*box Moves all items that are not packed yet to the scanned package. 
+
+**Pack** -only 
+
+Paperless: _Single-Shipment_ pick lists 
+
+ *confirm*pack Confirms the package in the paperless pack-only workflow. 
+
+
+<!-- PAGE_BREAK -->
+ Working Modes and Supported Commands | 213 
+
+ Mode Command and Barcode Description of Performed Operation 
+
+ Pack -only 
+
+ Paperless: Single-Shipment pick lists 
+
+ *confirm*pack*and*next Confirms the package in the paperless pack-only workflow and suggests the next pick list. 
+
+ Ship Mode 
+
+ Paper-based: Single shipments 
+
+ *get*labels Gets the return labels. 
+
+ Ship Mode 
+
+ Paper-based: Single shipments 
+
+ *refresh*rates Refreshes rates of carriers. 
+
+**_Table: Cart Tracking Commands_** 
+
+These commands give you the ability to perform actions specific to cart tracking on the _Pick, Pack, and Ship_ (SO302020) and _Receive and Put Away_ (PO302020) forms. 
+
+ Command Description of Performed Operation Barcode 
+
+ *cart*in Enables Cart Loading mode. 
+
+
+<!-- PAGE_BREAK -->
+ Working Modes and Supported Commands | 214 
+
+ Command Description of Performed Operation Barcode 
+
+ *cart*out Enables Cart Unloading mode. 
+
+**_Table: Command Specific to Inventory WMS Forms_** 
+
+This command gives you the ability to release the inventory transaction on the following forms: 
+
+- _Scan and Issue_ (IN302020) 
+
+- _Scan and Receive_ (IN301020) 
+
+- _Scan and Transfer_ (IN304020) 
+
+. 
+
+ Command Description of Performed Operation Barcode 
+
+ *release Releases the inventory transaction that is being processed. 
+
+**_Table: Command Specific to Manufacturing WMS Forms_** 
+
+This command gives you the ability to release a production transaction on the following forms: 
+
+- _Scan Labor_ (AM302020) 
+
+- _Scan Move_ (AM302010) 
+
+- _Scan Materials_ (AM300030) 
+
+
+<!-- PAGE_BREAK -->
+ Working Modes and Supported Commands | 215 
+
+ Command Description of Performed Operation Barcode 
+
+ *release Releases the production transaction that is being processed. 
+
+**_Table: Command Specific to Scan and Count Form_** 
+
+This command gives you the ability to confirm physical inventory documents on the _Scan and Count_ (IN305020) form. 
+
+ Command Description of Performed Operation Barcode 
+
+ *confirm Confirms a physical inventory document. 
+
+**_Table: Command Specific to Storage Lookup Form_** 
+
+This command gives you the ability to change the set of columns on the _Storage Lookup_ (IN409020) form. 
+
+ Command Description of Performed Operation Barcode 
+
+ *switch*ls Displays or hides the Lot/Serial Nbr. and Expiration Date columns on the Storage tab of the Storage Lookup (IN409020) form. When you enable the display of lot or serial numbers, the system shows each lot or serial number in a separate line. 
+
+
+<!-- PAGE_BREAK -->
+ Supported Barcode Types and Mobile Devices | 216 
 
 ## Supported Barcode Types and Mobile Devices 
 
@@ -6264,7 +6392,7 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
 
 <!-- PAGE_BREAK -->
- Supported Barcode Types and Mobile Devices | 210 
+ Supported Barcode Types and Mobile Devices | 217 
 
  Format Barcode Type 
 
@@ -6294,7 +6422,7 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
 
 <!-- PAGE_BREAK -->
- GS1 Barcodes in Acumatica ERP | 211 
+ GS1 Barcodes in Acumatica ERP | 218 
 
 ## GS1 Barcodes in Acumatica ERP 
 
@@ -6330,7 +6458,7 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
 
 <!-- PAGE_BREAK -->
- GS1 Barcodes in Acumatica ERP | 212 
+ GS1 Barcodes in Acumatica ERP | 219 
 
  Table: AIs Effective in Acumatica ERP 
 
@@ -6380,7 +6508,7 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
 
 <!-- PAGE_BREAK -->
- GS1 Barcodes in Acumatica ERP | 213 
+ GS1 Barcodes in Acumatica ERP | 220 
 
  GS1 barcode that contains document lines with quantities in this unit of measure, the system converts the scanned value to the quantity and unit of measure specified on the Units of Measure form. 
 
@@ -6396,7 +6524,7 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
 
 <!-- PAGE_BREAK -->
- Appendix | 214 
+ Appendix | 221 
 
 ## Appendix 
 
@@ -6436,37 +6564,105 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 215 
+ Appendix | 222 
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 223 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 224 
 
 #### Report Toolbar 
 
@@ -6475,12 +6671,6 @@ This command, which can be used in Scan and Count mode, gives you the ability to
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 216 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -6506,25 +6696,77 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 217 
+ Appendix | 225 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 226 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -6542,91 +6784,45 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 218 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 219 
+ Appendix | 227 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -6645,6 +6841,12 @@ This command, which can be used in Scan and Count mode, gives you the ability to
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 228 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -6668,10 +6870,6 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 220 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -6686,13 +6884,19 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 229 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -6710,10 +6914,6 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 221 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -6728,6 +6928,10 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 230 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -6736,11 +6940,7 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 222 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -6766,6 +6966,12 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 231 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -6773,12 +6979,6 @@ This command, which can be used in Scan and Count mode, gives you the ability to
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 223 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -6806,19 +7006,19 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 232 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 224 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -6828,13 +7028,15 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 233 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -6845,10 +7047,6 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 225 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -6862,6 +7060,10 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 234 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -6872,11 +7074,11 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 226 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 235 
 
 #### Unavailable Commands on the More Menu 
 
@@ -6888,17 +7090,13 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 227 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 228 
+ Appendix | 236 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -6910,7 +7108,11 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 237 
 
  Figure: Table toolbar 
 
@@ -6930,17 +7132,17 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 229 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 238 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -6970,13 +7172,13 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 230 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 239 
 
  Element Description 
 
@@ -7020,15 +7222,15 @@ This command, which can be used in Scan and Count mode, gives you the ability to
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 231 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 240 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

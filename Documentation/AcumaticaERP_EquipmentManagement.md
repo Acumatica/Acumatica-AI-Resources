@@ -2,7 +2,7 @@
 
 # Equipment Management 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -28,29 +28,29 @@
 
  Model Equipment............................................................................................................................................ 14 
 
- Configuring Stock Items to Be Tracked Post-Sale.....................................................................................17 
+ Configuring Stock Items to Be Tracked Post-Sale.....................................................................................16 
 
- Stock Items to Be Tracked Post-Sale: General Information.......................................................................... 17 
+ Stock Items to Be Tracked Post-Sale: General Information.......................................................................... 16 
 
- Stock Items to Be Tracked Post-Sale: To Create a Stock Item with No Components................................... 18 
+ Stock Items to Be Tracked Post-Sale: To Create a Stock Item with No Components................................... 17 
 
- Stock Items to Be Tracked Post-Sale: To Create Components...................................................................... 20 
+ Stock Items to Be Tracked Post-Sale: To Create Components...................................................................... 19 
 
- Stock Items to Be Tracked Post-Sale: To Create Stock Items with Components..........................................23 
+ Stock Items to Be Tracked Post-Sale: To Create Stock Items with Components..........................................22 
 
- Stock Items to Be Tracked Post-Sale: To Record the Receipt of Stock Items................................................27 
+ Stock Items to Be Tracked Post-Sale: To Record the Receipt of Stock Items................................................26 
 
- Creating Target Equipment....................................................................................................................30 
+ Creating Target Equipment....................................................................................................................29 
 
- Target Equipment: General Information........................................................................................................ 30 
+ Target Equipment: General Information........................................................................................................ 29 
 
  Target Equipment: To Sell a Stock Item as Target Equipment......................................................................31 
 
- Target Equipment: To Manually Create Equipment.......................................................................................35 
+ Target Equipment: To Manually Create Equipment.......................................................................................34 
 
  Target Equipment: To Create a Service Appointment................................................................................... 37 
 
- Target Equipment: Related Report and Inquiry Forms................................................................................. 39 
+ Target Equipment: Related Report and Inquiry Forms................................................................................. 38 
 
  Selling a Piece of Equipment and an Optional Component....................................................................... 40 
 
@@ -90,17 +90,17 @@
 
  Service Contracts: General Information......................................................................................................... 67 
 
- Service Contracts: Billing Type Setup.............................................................................................................70 
+ Service Contracts: Billing Type Setup.............................................................................................................69 
 
- Service Contracts: To Create and Process a Service Contract Billed at Time of Service.............................. 73 
+ Service Contracts: To Create and Process a Service Contract Billed at Time of Service.............................. 72 
 
- Service Contracts: To Create and Process an End-Period Billing Service Contract (Appointment with No Overage Items)................................................................................................................................................. 76 
+ Service Contracts: To Create and Process an End-Period Billing Service Contract (Appointment with No Overage Items)................................................................................................................................................. 75 
 
  Service Contracts with End-Period Billing: To Bill a Period with No Appointments.................................... 80 
 
  Service Contracts: To Create and Process a Service Contract with Beginning-Period Fixed Billing............ 82 
 
- To Activate the Next Period for the End-Period Billing Contracts................................................................. 86 
+ To Activate the Next Period for the End-Period Billing Contracts................................................................. 87 
 
  Service Contracts: Activation, Cancellation, and Suspension of a Contract................................................ 87 
 
@@ -132,33 +132,33 @@
 
  Manufacturers: To Create a Manufacturer....................................................................................................105 
 
-**Equipment Management Use Cases...................................................................................................... 107** 
+**Equipment Management Use Cases...................................................................................................... 106** 
 
- Selling Model Equipment.............................................................................................................................. 107 
+ Selling Model Equipment.............................................................................................................................. 106 
 
- Selling a Model Equipment Entity and Optional Component.....................................................................110 
+ Selling a Model Equipment Entity and Optional Component.....................................................................109 
 
- Selling an Optional Component of Target Equipment................................................................................ 113 
+ Selling an Optional Component of Target Equipment................................................................................ 112 
 
- Upgrading a Default Component of Model Equipment to Be Sold............................................................. 116 
+ Upgrading a Default Component of Model Equipment to Be Sold............................................................. 115 
 
- Replacing Target Equipment.........................................................................................................................119 
+ Replacing Target Equipment.........................................................................................................................118 
 
- Replacing a Component of Target Equipment.............................................................................................122 
+ Replacing a Component of Target Equipment.............................................................................................121 
 
- Selling a Stock Item that Does Not Require Record in Equipment Management.......................................125 
+ Selling a Stock Item that Does Not Require Record in Equipment Management.......................................124 
 
-**Appendix............................................................................................................................................ 129** 
+**Appendix............................................................................................................................................ 128** 
 
- Reports........................................................................................................................................................... 129 
+ Reports........................................................................................................................................................... 128 
 
 
 <!-- PAGE_BREAK -->
  Contents | 4 
 
- Report Form.......................................................................................................................................... 129 
+ Report Form.......................................................................................................................................... 128 
 
- Report....................................................................................................................................................134 
+ Report....................................................................................................................................................135 
 
 Form Toolbar and More Menu.......................................................................................................................136 
 
@@ -184,9 +184,9 @@ Table Toolbar...................................................................
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -316,13 +316,13 @@ In Acumatica ERP, you can track the serial numbers of equipment aer it is sol
 
  You can view information about equipment in the system on multiple forms. For details, see Target Equipment: Related Report and Inquiry Forms. 
 
-#### Specification of Attributes 
+#### Managing Equipment Attributes 
 
- To give users the ability to specify additional information for a piece of equipment so that your company can track this information, attributes have to be defined for the related equipment type on the Equipment Types (FS200800) form. 
+ To let users record additional details for a piece of equipment and help your company track that information, you can define attributes for the related equipment type on the Equipment Types (FS200800) form. 
 
- When you create a piece of equipment on the Equipment (FS205000) form and select its equipment type, the system populates the Attributes tab with the attributes (and any default values) defined for the equipment type on the Equipment Types form. You can specify or modify equipment attribute values in the Values column. If the Required check box is selected for an attribute, the value has to be specified before you save the new equipment you are creating. 
+ When you create a piece of equipment on the Equipment (FS205000) form and select its equipment type, the system populates the Attributes tab with the attributes (and any default values) defined for that equipment type. You can then enter or update attribute values in the Value column. If the Required check box is selected for an attribute, you must specify a value before saving the new equipment record. 
 
- Also on the Attributes tab of the Equipment form are the Image set of elements, which you can use to attach an image of the piece of equipment. 
+ The Attributes tab of the Equipment form also includes the Image area, which you can use to attach an image of the equipment. 
 
 
 <!-- PAGE_BREAK -->
@@ -416,21 +416,23 @@ In Acumatica ERP, you can track the serial numbers of equipment aer it is sol
 
  You can view the components that are defined in the system and their warranty information on the Component Summary (FS400700) form. 
 
-#### Specification of Attributes 
+#### Managing Equipment Attributes 
 
- To give users the ability to specify additional information for a piece of equipment so that your company can track this information, attributes have to be defined for the related equipment type on the Equipment Types (FS200800) form. 
+ To let users record additional details for a piece of equipment and help your company track that information, you can define attributes for the related equipment type on the Equipment Types (FS200800) form. 
 
- When you create a piece of equipment on the Equipment (FS205000) form and select its equipment type, the system populates the Attributes tab with the attributes (and any default values) defined for the equipment type on the Equipment Types form. You can specify or modify equipment attribute values in the Values column. If the Required check box is selected for an attribute, the value has to be specified before you save the new equipment you are creating. 
+ When you create a piece of equipment on the Equipment (FS205000) form and select its equipment type, the system populates the Attributes tab with the attributes (and any default values) defined for that equipment type. You can then enter or update attribute values in the Value column. If the Required check box is selected for an attribute, you must specify a value before saving the new equipment record. 
 
- Also on the Attributes tab of the Equipment form are the Image set of elements, which you can use to attach an image of the piece of equipment. 
+ The Attributes tab of the Equipment form also includes the Image area, which you can use to attach an image of the equipment. 
+
+#### Assigning Target Equipment and Components to Services 
+
+ You can assign the necessary target equipment to the services of a service order on the Service Orders (FS300100) form or to the services of an appointment on the Appointments (FS300200) form. On the Details tab of either form, 
 
 
 <!-- PAGE_BREAK -->
  Managing Equipment | 14 
 
-#### Assigning Target Equipment and Components to Services 
-
- You can assign the necessary target equipment to the services of a service order on the Service Orders (FS300100) form or to the services of an appointment on the Appointments (FS300200) form. On the Details tab of either form, in the in the Target Equipment ID column of the row for each service that is performed on equipment, you select the identifier of the target equipment entity from the list. 
+ in the in the Target Equipment ID column of the row for each service that is performed on equipment, you select the identifier of the target equipment entity from the list. 
 
  You can also assign target equipment to a schedule of a service contract in the Equipment ID column on the Details tab of the Service Contract Schedules (FS305100) form. Aer you have done this, when you generate service orders or appointments for the contract, the service orders will already contain the target equipment assigned to the schedule of the applicable contract. Similarly, you can assign components to schedules. 
 
@@ -466,13 +468,15 @@ In Acumatica ERP, you can track the serial numbers of equipment aer it is sol
 
 4. You create a piece of model equipment on the _Stock Items_ form. 
 
+#### Defining Components and Warranties 
+
+ If components are defined for a model equipment item class on the Item Classes (IN201000) form, the system adds the components with the default settings when you create a model equipment entity on the Stock Items (IN202500) 
+
 
 <!-- PAGE_BREAK -->
  Managing Equipment | 15 
 
-#### Defining Components and Warranties 
-
- If components are defined for a model equipment item class on the Item Classes (IN201000) form, the system adds the components with the default settings when you create a model equipment entity on the Stock Items (IN202500) form and select this item class. In the Components table of the Service Management tab, you can view the details of the components and change them if necessary. 
+ form and select this item class. In the Components table of the Service Management tab, you can view the details of the components and change them if necessary. 
 
  You can add only components that are defined for the model equipment item class. 
 
@@ -504,17 +508,13 @@ In Acumatica ERP, you can track the serial numbers of equipment aer it is sol
 
 - Selling a piece of equipment (for details, see _Target Equipment: To Sell a Stock Item as Target Equipment_ ) 
 
-
-<!-- PAGE_BREAK -->
- Managing Equipment | 16 
-
 - Selling equipment and optional component for it (for details, see _Selling a Piece of Equipment and an_     _Optional Component: Process Activity_ ) 
 
 - Selling an equipment with a replaced default component (as described in _Upgrading a Default Component of_     _Equipment to Be Sold: Process Activity_ ) 
 
 
 <!-- PAGE_BREAK -->
- Configuring Stock Items to Be Tracked Post-Sale | 17 
+ Configuring Stock Items to Be Tracked Post-Sale | 16 
 
 ## Configuring Stock Items to Be Tracked Post-Sale 
 
@@ -556,11 +556,11 @@ In Acumatica ERP, you can track the serial numbers of equipment aer it is sol
 
  In Acumatica ERP, item classes are used to group stock or non-stock items with similar properties and to provide default settings for new items. When you create a new stock or non-stock item, you select the appropriate item class, and the item’s settings are populated with those defined by the item class. 
 
- For an item class intended for equipment to be tracked aer the sale, you select one of the following option buttons (see Item 2 in the following screenshot) on the Service Management tab (Item 1) of the Item Classes form: 
+ For an item class intended for equipment to be tracked aer the sale, you select one of the following option buttons (see Item 2 in the screenshot below) on the Service Management tab (Item 1) of the Item Classes form: 
 
 
 <!-- PAGE_BREAK -->
- Configuring Stock Items to Be Tracked Post-Sale | 18 
+ Configuring Stock Items to Be Tracked Post-Sale | 17 
 
 - **Part or Other Inventory** (default): Stock items are either equipment parts without warranty and     maintenance tracking or stock items not related to equipment records. 
 
@@ -584,13 +584,11 @@ In Acumatica ERP, you can track the serial numbers of equipment aer it is sol
 
 ### Stock Items to Be Tracked Post-Sale: To Create a Stock Item with No Components 
 
- In this activity, you will create a stock item with no components that will be tracked aer the item is sold. To do this, you will first create an item class with the Model Equipment equipment class specified, which indicates that the 
+ In this activity, you will create a stock item with no components that will be tracked aer the item is sold. To do this, you will first create an item class with the Model Equipment equipment class specified, which indicates that the stock items of this class will be tracked post-sale. Then you will create a piece of equipment—a stock item of an equipment class designed for model equipment without components—based on the newly created item class. 
 
 
 <!-- PAGE_BREAK -->
- Configuring Stock Items to Be Tracked Post-Sale | 19 
-
- stock items of this class will be tracked post-sale. Then you will create a piece of equipment—a stock item of an equipment class designed for model equipment without components—based on the newly created item class. 
+ Configuring Stock Items to Be Tracked Post-Sale | 18 
 
 #### Story 
 
@@ -610,7 +608,7 @@ In Acumatica ERP, you can track the serial numbers of equipment aer it is sol
 
  To create an item class, do the following: 
 
-1. On the _Item Classes_ (IN201000) form, add a new record and specify the following settings in the Summary     area: 
+1. On the _Item Classes_ (IN201000) form, click **Add New Record** , and specify the following settings in the     Summary area: 
 
 - **Class ID** : CENTRIFJUC 
 
@@ -638,17 +636,17 @@ In Acumatica ERP, you can track the serial numbers of equipment aer it is sol
 
 - **Purchase Unit** : _ITEM_ 
 
-4. On the **Service Management** tab, select **Model Equipment** under **Equipment Class**. A stock item of the     _CENTRIFJUC_ item class will be tracked aer it is sold. 
+4. On the **Service Management** tab, select **Model Equipment** under **Equipment Class**. Stock items of the     _CENTRIFJUC_ item class will be tracked aer they are sold. 
 
 5. On the form toolbar, click **Save**. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Stock Items to Be Tracked Post-Sale | 20 
 
 #### Step 2: Creating a Stock Item with No Components 
 
  To create a stock item with no components that will be tracked aer it is sold, do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Stock Items to Be Tracked Post-Sale | 19 
 
 1. On the _Stock Items_ (IN202500) form, add a new record and specify the following settings in the Summary     area: 
 
@@ -684,10 +682,6 @@ In Acumatica ERP, you can track the serial numbers of equipment aer it is sol
 
  To create an item class for components, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Configuring Stock Items to Be Tracked Post-Sale | 21 
-
 1. On the _Item Classes_ (IN201000) form, add a new record and specify the following settings in the Summary     area: 
 
 - **Class ID** : CPRESSCOMP 
@@ -695,6 +689,10 @@ In Acumatica ERP, you can track the serial numbers of equipment aer it is sol
 - **Description** : Cold press juicer components 
 
 2. On the **General** tab ( **General Settings** section), specify the following settings: 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Stock Items to Be Tracked Post-Sale | 20 
 
 - **Stock Item** : Selected 
 
@@ -754,17 +752,19 @@ In Acumatica ERP, you can track the serial numbers of equipment aer it is sol
 
 2. On the **General** tab, in the **Item Class** box ( **Item Defaults** section), select _CPRESSCOMP_.     The **Type** , **Tax Category** , **Posting Class** , and **Default Warehouse** boxes, as well as those in the **Unit of**     **Measure** section, have been populated with the values from the selected item class. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Stock Items to Be Tracked Post-Sale | 22 
-
 3. On the **Price/Cost** tab, set the **Default Price** to 50. 
 
 4. On the **Service Management** tab, do the following: 
 
 - In the **Manufacturer** box, select _JUICEAPP_. 
 
-- In the **Equipment General Warranty** section, set **Company Warranty** to 6 _Months_ and **Vendor Warranty**     to 3 _Months_.     Notice that the **Component** option button (under **Equipment Class** ) has been selected based on the     settings of the item class you selected, and you cannot change this setting. 
+- In the **Equipment General Warranty** section, set **Company Warranty** to 6 _Months_ and **Vendor Warranty**     to 3 _Months_. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Stock Items to Be Tracked Post-Sale | 21 
+
+ Notice that the Component option button (under Equipment Class ) has been selected based on the settings of the item class you selected, and you cannot change this setting. 
 
 5. On the form toolbar, click **Save**. 
 
@@ -830,15 +830,21 @@ In Acumatica ERP, you can track the serial numbers of equipment aer it is sol
 
 21.On the form toolbar, click **Add New Record** to create a new component, and specify the following settings: 
 
-
-<!-- PAGE_BREAK -->
- Configuring Stock Items to Be Tracked Post-Sale | 23 
-
 - **Inventory ID** : AUGERH30J 
 
 - **Item Status** : _Active_ 
 
-- **Description** : Auger H30J 22.On the **General** tab, select _CPRESSCOMP_ as the **Item Class**. 23.On the **Price/Cost** tab, set the **Default Price** to 70. 24.On the **Service Management** tab, do the following: 
+- **Description** : Auger H30J 
+
+22.On the **General** tab, select _CPRESSCOMP_ as the **Item Class**. 
+
+23.On the **Price/Cost** tab, set the **Default Price** to 70. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Stock Items to Be Tracked Post-Sale | 22 
+
+ 24.On the Service Management tab, do the following: 
 
 - In the **Manufacturer** box, select _JUICEAPP_. 
 
@@ -868,10 +874,6 @@ In Acumatica ERP, you can track the serial numbers of equipment aer it is sol
 
 _- Commercial Cold Press Juicers_ item class for model equipment; this class is specifically designed to manage equipment with components. Next, you will create the _CPRESS30J - Cold Press Juicer H30J_ stock item based on this item class and define the components included with this piece of equipment. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Stock Items to Be Tracked Post-Sale | 24 
-
 #### Process Overview 
 
  On the Item Classes (IN201000) form, you will create an item class with the Model Equipment setting and specify the necessary components for this class. Then on the Stock Items (IN202500) form, you will create a piece of equipment with components based on the newly created item class. 
@@ -880,9 +882,13 @@ _- Commercial Cold Press Juicers_ item class for model equipment; this class is 
 
  Before you begin performing the steps of this lesson, do the following: 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Stock Items to Be Tracked Post-Sale | 23 
+
 1. On the Acumatica ERP website, sign in to a company with the _U100_ dataset preloaded. You should sign in as     a system administrator by using the _gibbs_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
 
 3. To perform this activity, make sure that you have performed the following prerequisite activity: _Stock Items_     _to Be Tracked Post-Sale: To Create Components_. 
 
@@ -936,10 +942,6 @@ _- Commercial Cold Press Juicers_ item class for model equipment; this class is 
 
 - **Item Class ID** : _CPRESSCOMP_ 
 
-
-<!-- PAGE_BREAK -->
- Configuring Stock Items to Be Tracked Post-Sale | 25 
-
 7. On the table toolbar, click **Add Row** again, and specify the following settings in the added row to add     another component to the item class: 
 
 - **Component ID** : HOPPER 
@@ -953,6 +955,10 @@ _- Commercial Cold Press Juicers_ item class for model equipment; this class is 
 - **Description** : Hopper 
 
 - **Item Class ID** : _CPRESSCOMP_ 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Stock Items to Be Tracked Post-Sale | 24 
 
 8. On the table toolbar, click **Add Row** again, and specify the following settings in the added row to add the     third component to the item class: 
 
@@ -1016,7 +1022,7 @@ _- Commercial Cold Press Juicers_ item class for model equipment; this class is 
 
 
 <!-- PAGE_BREAK -->
- Configuring Stock Items to Be Tracked Post-Sale | 26 
+ Configuring Stock Items to Be Tracked Post-Sale | 25 
 
  Figure: The item class with components 
 
@@ -1050,15 +1056,15 @@ _- Commercial Cold Press Juicers_ item class for model equipment; this class is 
 
 - _DRUMH30J_ in the row with the _DRUM_ component 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Stock Items to Be Tracked Post-Sale | 26 
+
 - _HOPPERH3_ in the row with the _HOPPER_ component 
 
 - _30HOPPERJK_ in the row with the _HOPPER_O_ component 
 
 - _CUPH300J_ in the row with the _JUICECUP_ component 
-
-
-<!-- PAGE_BREAK -->
- Configuring Stock Items to Be Tracked Post-Sale | 27 
 
 - _PLUNGERH30J_ in the row with the _PLUNGER_ component Notice that as you select the inventory IDs, the system updates the warranty settings. 
 
@@ -1074,6 +1080,10 @@ _- Commercial Cold Press Juicers_ item class for model equipment; this class is 
 
  When new stock items are created in Acumatica ERP, you enter a purchase order (optional) and a receipt to record the items in the warehouse, making them available for further processing and sale. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Stock Items to Be Tracked Post-Sale | 27 
+
 #### Story 
 
  Suppose that the SweetLife Service and Equipment Sales Center purchased equipment from the vendor and needs to register the purchase in the system so that the items will be reflected in the warehouse. 
@@ -1084,17 +1094,13 @@ _- Commercial Cold Press Juicers_ item class for model equipment; this class is 
 
  On the Receipts (IN301000) form, you will create and release a receipt listing purchased items so that the items are available in your warehouse. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Stock Items to Be Tracked Post-Sale | 28 
-
 #### System Preparation 
 
  Before you begin performing the steps of this lesson, do the following: 
 
 1. On the Acumatica ERP website, sign in to a company with the _U100_ dataset preloaded. You should sign in as     a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
 
 3. To perform this activity, make sure that you have performed the following prerequisite activities: _Stock_     _Items to Be Tracked Post-Sale: To Create a Stock Item with No Components_ , _Stock Items to Be Tracked_     _Post-Sale: To Create Components_ , and _Stock Items to Be Tracked Post-Sale: To Create Stock Items with_     _Components_. 
 
@@ -1136,6 +1142,10 @@ _- Commercial Cold Press Juicers_ item class for model equipment; this class is 
 
 - **Unit Cost** : 40 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Stock Items to Be Tracked Post-Sale | 28 
+
 6. Click **Add Row** again, and specify the following settings in the row: 
 
 - **Inventory ID** : _30HOPPERJK_ 
@@ -1158,10 +1168,6 @@ _- Commercial Cold Press Juicers_ item class for model equipment; this class is 
 
 - **Quantity** : 20 
 
-
-<!-- PAGE_BREAK -->
- Configuring Stock Items to Be Tracked Post-Sale | 29 
-
 - **Unit Cost** : 70 
 
 9. Click **Add Row** once again, and specify the following settings in the row: 
@@ -1180,7 +1186,7 @@ Now you can proceed to creating a sales order for equipment.
 
 
 <!-- PAGE_BREAK -->
- Creating Target Equipment | 30 
+ Creating Target Equipment | 29 
 
 ## Creating Target Equipment 
 
@@ -1222,21 +1228,31 @@ Now you can proceed to creating a sales order for equipment.
 
 #### Workflow of Sales Order Processing 
 
- The steps involved in the sale of a piece of model equipment are shown in the diagram below. 
+ The diagram illustrates the end-to-end workflow for selling model equipment through a sales order. As a result of this process, when the sales invoice is released, the system automatically creates the corresponding target equipment for the sold stock item on the Equipment (FS205000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Target Equipment | 30 
+
+**_Figure: Selling a piece of model equipment from a sales order_** 
+
+The service manager initiates the process by creating a sales order for the model equipment on the _Sales Orders_ (SO301000) form. In the sales order, they specify the inventory item, select the _Selling Model Equipment_ action, and enter the required item quantity. 
+
+Then, they create a shipment from the sales order on the _Sales Orders_ form. The shipment is assigned the _Open_ status, and the sales order status changes to _Shipping_. 
+
+The warehouse manager confirms the shipment on the _Shipments_ (SO302000) form to finalize the shipment and move the sales order to the _Completed_ status. The shipment status changes to _Confirmed_. 
 
 
 <!-- PAGE_BREAK -->
  Creating Target Equipment | 31 
 
- Figure: Selling a piece of model equipment from a sales order 
+ Aer the shipment is confirmed, the service manager prepares an invoice on the Shipments form and then releases it on the Invoices (SO303000) form. 
+
+ When the sale is finalized, the system automatically generates a corresponding target equipment record on the Equipment (FS205000) form. 
 
 ### Target Equipment: To Sell a Stock Item as Target Equipment 
 
  The following activity will walk you through the process of selling two stock items with the Model Equipment equipment class. When you release the invoice for the sale, the system will automatically create a target equipment record. You will then verify that the stock items sold to the customer are listed as target equipment owned by this customer. 
-
-
-<!-- PAGE_BREAK -->
- Creating Target Equipment | 32 
 
 #### Story 
 
@@ -1254,7 +1270,7 @@ Now you can proceed to creating a sales order for equipment.
 
 1. On the Acumatica ERP website, sign in to a company with the _U100_ dataset preloaded. You should sign in as     a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
 
 #### Step 1: Creating a Sales Order for Equipment 
 
@@ -1276,6 +1292,10 @@ Now you can proceed to creating a sales order for equipment.
 
 - **Quantity** : 1.00 
 
+
+<!-- PAGE_BREAK -->
+ Creating Target Equipment | 32 
+
 - **Unit Price** : 700.0000 
 
 4. On the table toolbar, again click **Add Row** , and specify the following settings in the row to add another piece     of model equipment to the sales order: 
@@ -1292,11 +1312,7 @@ Now you can proceed to creating a sales order for equipment.
 
 6. On the form toolbar, click **Create Shipment**. 
 
-
-<!-- PAGE_BREAK -->
- Creating Target Equipment | 33 
-
-7. In the **Specify Shipment Parameters** dialog box, click **OK** to create a shipment for the business date     ( _1/30/2025_ ) and the default warehouse of your branch location (which is _EQUIPHOUSE_ ).     The system has opened the _Shipments_ (SO302000) form with the details copied from the corresponding     sales order. 
+7. In the **Specify Shipment Parameters** dialog box, click **OK** to create a shipment for the business date     ( _1/30/2026_ ) and the default warehouse of your branch location (which is _EQUIPHOUSE_ ).     The system has opened the _Shipments_ (SO302000) form with the details copied from the corresponding     sales order. 
 
 8. On the form toolbar, click **Confirm Shipment** to change the shipment’s status to _Confirmed_. 
 
@@ -1308,33 +1324,35 @@ Now you can proceed to creating a sales order for equipment.
 
  To verify that the equipment has been created, perform the following instructions: 
 
-1. Open the _Equipment Summary_ (FS400200) form.     This form shows you all the equipment that has been created in the system. Notice that the **Target**     **Equipment** check boxes are selected for the pieces of equipment you have created in the previous step,     meaning that your company expects to service this equipment. In the **Model Equipment** column, you can     view the inventory ID of the stock item corresponding to the target equipment.     Notice that the **Customer ID** column displays _GOODFOOD_ for both pieces of equipment. 
-
-2. In the table row with _Multifruit Centrifugal Juicer J22C_ , click the _FSE00010_ link in the **Equipment Nbr.**     column.     The _Equipment_ (FS205000) form has been opened in a new window with this target equipment selected. 
-
-3. On the **General** tab, notice that the **Installation Date** box has been filled with the date of the sales invoice     (as shown in the following screenshot). 
+1. Open the _Equipment Summary_ (FS400200) form.     This form shows you all the equipment that has been created in the system. Notice that the **Target**     **Equipment** check boxes are selected for the pieces of equipment you have created in the previous step,     meaning that your company expects to service this equipment. In the **Model Equipment** column, you can     view the inventory ID of the stock item corresponding to the target equipment. 
 
 
 <!-- PAGE_BREAK -->
- Creating Target Equipment | 34 
+ Creating Target Equipment | 33 
+
+ Notice that the Customer ID column displays GOODFOOD for both pieces of equipment. 
+
+2. In the table row with _Multifruit Centrifugal Juicer J22C_ , click the equipment link in the **Equipment Nbr.**     column.     The _Equipment_ (FS205000) form has been opened in a new window with this target equipment selected. 
+
+3. On the **General** tab, notice that the **Installation Date** box has been filled with the date of the sales invoice     (as shown in the following screenshot). 
 
  Figure: Settings of the target equipment 
 
-4. On the **Components and Warranties** tab, verify that no settings have been filled in. This is because this     target equipment has no parts or warranties. 
+4. On the **Components** and **Warranties** tabs, verify that no settings have been filled in. This is because this     target equipment has no parts or warranties. 
 
 5. On the **Source** tab, verify that the **Document Ref. Nbr.** and **Sales Order Nbr.** boxes contain links to the     documents, which confirm the purchase of this equipment by the customer. 
 
 6. Close the window with the _Equipment_ form. 
 
-7. On the _Equipment Summary_ form, for the row with _Cold Press Juicer H30J_ , click the _FSE00011_ link in the     **Equipment Nbr.** column. 
+7. On the _Equipment Summary_ form, for the row with _Cold Press Juicer H30J_ , click the equipment link in the     **Equipment Nbr.** column. 
 
-8. On the _Equipment_ form, which the system has opened, click the **Components and Warranties** tab. 
+8. On the _Equipment_ form, which the system has opened, click the **Components** tab. 
 
- Notice that the components of the Cold Press Juicer H30J equipment are listed on this tab, as shown in the following screenshot. The warranty end dates for the components that have warranties are automatically calculated based on the equipment invoice date and the warranty duration that you defined for the corresponding model equipment. You entered these components and their warranty durations in Lesson 1.2. 
+ Notice that the components of the Cold Press Juicer H30J equipment are listed on this tab, as shown below. On the Warranties tab, the warranty end dates for the components that have warranties are automatically calculated based on the equipment invoice date and the warranty duration that you defined for the corresponding model equipment. You entered these components and their warranty duration in Lesson 1.2. 
 
 
 <!-- PAGE_BREAK -->
- Creating Target Equipment | 35 
+ Creating Target Equipment | 34 
 
  Figure: Components and warranties of the equipment 
 
@@ -1358,45 +1376,49 @@ Now you can proceed to creating a sales order for equipment.
 
 1. On the Acumatica ERP website, sign in to a company with the _U100_ dataset preloaded. You should sign in as     a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Target Equipment | 35 
 
 #### Step: Creating Target Equipment 
 
  To create this piece of target equipment, perform the following instructions: 
 
+1. On the _Equipment_ (FS205000) form, add a new record and specify the following settings in the Summary     area (Item 1 in the following screenshot): 
+
+- **Description** : Multifruit Centrifugal Juicer J22C 
+
+- **Target Equipment** : Selected 
+
+2. Under **Owner Type** , select **Customer** , and in the **Customer** box, select _HMBAKERY - HM's Bakery & Cafe_ (Item     2). 
+
+3. Under **Location Type** , in the **Customer** box, select _HMBAKERY - HM's Bakery & Cafe_. 
+
+4. On the **General** tab ( **Installation Info** section), in the **Installation Date** box (Item 3), select the current     business date ( _1/30/2026_ ). 
+
+5. In the **Model Equipment** box ( **Inventory Info** section), select _JUICE_J22C_ (Item 4). 
+
+6. On the form toolbar, click **Save**. 
+
 
 <!-- PAGE_BREAK -->
  Creating Target Equipment | 36 
 
-1. On the _Equipment_ (FS205000) form, add a new record and specify the following settings in the Summary     area: 
-
-- **Description** : Multifruit Centrifugal Juicer J22C (see Item 1 in the following screenshot) 
-
-- **Target Equipment** : Selected (Item 2) 
-
-2. Under **Owner** , select the **Customer** option button, and in the **Customer** box, select _HMBAKERY - HM's Bakery_     _& Cafe_ (Item 3). 
-
-3. Under **Location** , in the **Customer** box, select _HMBAKERY - HM's Bakery & Cafe_ (Item 4). 
-
-4. On the **General** tab ( **Installation Info** section), in the **Installation Date** box (Item 5), select the current     business date ( _1/30/2025_ ). 
-
-5. In the **Model Equipment** box of the **Inventory Info** section, select _JUICE_J22C_ (Item 6). 
-
  Figure: Manual creation of target equipment 
-
-6. On the form toolbar, click **Save**. 
 
 7. On the _Equipment Summary_ (FS400200) form, in the **Customer** box of the Summary area, select _HMBAKERY_. 
 
 8. In the table, make sure the _FSE00012_ equipment record is listed, as shown in the screenshot below. 
 
-
-<!-- PAGE_BREAK -->
- Creating Target Equipment | 37 
-
  Figure: The created target equipment 
 
  If you click the FSE00012 link in the Equipment Nbr. column, the system will open the Equipment form, where you just created the target equipment. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Target Equipment | 37 
 
 ### Target Equipment: To Create a Service Appointment 
 
@@ -1416,7 +1438,7 @@ Now you can proceed to creating a sales order for equipment.
 
 1. On the Acumatica ERP website, sign in to a company with the _U100_ dataset preloaded. You should sign in as     a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
 
 #### Step: Creating an Appointment for the Servicing of Target Equipment 
 
@@ -1428,11 +1450,7 @@ Now you can proceed to creating a sales order for equipment.
 
 - **Service Order Type** : _INST_ 
 
-- **Customer** : _GOODFOOD (GoodFood One Restaurant)_ 
-
-
-<!-- PAGE_BREAK -->
- Creating Target Equipment | 38 
+- **Customer** : _GOODFOOD - GoodFood One Restaurant_ 
 
 - **Description** : Installation and training services 
 
@@ -1454,49 +1472,27 @@ Now you can proceed to creating a sales order for equipment.
 
 7. On the form toolbar, click **Save**. 
 
+
+<!-- PAGE_BREAK -->
+ Creating Target Equipment | 38 
+
 8. On the **Staff** tab, click **Add Row** , and in the **Staff Member** column, select _EP00000003 - Jon Waite_. This staff     member has the _INSTALLING - Juicer installation skills_ and _REPAIRING - Repair of juicers_ skills assigned on the     **Skills** tab on the _Employees_ (EP203000) form. 
 
-9. On the form toolbar, click **Save**. 
-
-10.On the form toolbar, click **Start**. In this instruction, you are acting as Jon Waite arriving at the appointment. 
-
-11.On the **Details** tab, click the _FSE00010_ link in the **Target Equipment ID** column. 
-
- The system has opened the Equipment (FS205000) form, where the staff member attending the appointment can view the settings of the equipment scheduled for service. 
-
-12.On the More menu (under **Inquiries** ), click **Target Equipment History**. 
-
- The system opens the Appointment Details (FS400500) form. You can see the appointment created for the selected piece of equipment. (See the following screenshot.) 
+9. On the form toolbar, click **Save**. 10.On the form toolbar, click **Start**. In this instruction, you are acting as Jon Waite arriving at the appointment. 11.On the **Details** tab, click the _FSE00010_ link in the **Target Equipment ID** column.     The system has opened the _Equipment_ (FS205000) form, where the staff member attending the appointment     can view the settings of the equipment scheduled for service. 12.On the More menu (under **Inquiries** ), click **Target Equipment History**.     The system opens the _Appointment Details_ (FS400500) form. You can see the appointment created for the     selected piece of equipment. (See the following screenshot.) 
 
  Figure: Appointment history for the target equipment 
 
-13.Return to the _Appointments_ (FS300200) form. 
-
-14.On the **Details** tab, click the _FSE00011_ link in the **Target Equipment ID** column to view the settings of the _Cold Press Juicer H30J_ to be assembled. 
-
-15.On the _Equipment_ form, which the system opens, click the **Components and Warranties** tab. 
-
-16.In the **Serial Nbr.** column of the components table, enter 12345 for the _DRUM_ component (which has a warning indicating that the serial number is missing). 
-
-17.On the form toolbar, click **Save**. 
-
-18.Close the window with the _Equipment_ form and return to the _Appointments_ form. 
-
-19.On the **Settings** tab, in the **Actual Date and Time** section, enter the actual start and end times (for simplicity in this training, set them to match the scheduled start and end times). Select the **Finished** check box. 
-
-20.On the form toolbar, click **Complete** and then **Close**. 
-
- Now an accountant can run billing for the appointment. 
-
-
-<!-- PAGE_BREAK -->
- Creating Target Equipment | 39 
+ 13.Return to the Appointments (FS300200) form. 14.On the Details tab, click the FSE00011 link in the Target Equipment ID column to view the settings of the Cold Press Juicer H30J to be assembled. 15.On the Equipment form, which the system opens, click the Components tab. 16.In the Serial Nbr. column of the components table, enter 12345 for the DRUM component (which has a warning indicating that the serial number is missing). 17.On the form toolbar, click Save. 18.Close the window with the Equipment form and return to the Appointments form. 19.On the Settings tab, in the Actual Date and Time section, enter the actual start and end times (for simplicity in this training, set them to match the scheduled start and end times). Select the Finished check box. 20.On the form toolbar, click Complete and then Close. Now an accountant can run billing for the appointment. 
 
 ### Target Equipment: Related Report and Inquiry Forms 
 
  In Acumatica ERP, you can easily view the needed details of the equipment that your company services and the appointments in which the equipment was involved. 
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Target Equipment | 39 
 
 #### Viewing Equipment-Related Stock Items 
 
@@ -1594,7 +1590,7 @@ Now you can proceed to creating a sales order for equipment.
 
 1. On the Acumatica ERP website, sign in to a company with the _U100_ dataset preloaded. You should sign in as     a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
 
 
 <!-- PAGE_BREAK -->
@@ -1678,7 +1674,7 @@ Now you can proceed to creating a sales order for equipment.
 
 17.In the **Target Equipment ID** column, click the equipment reference number link to open the _Equipment_ (FS205000) form. 
 
-18.On the **Components and Warranties** tab (see Item 1 in the following screenshot), verify that the system has added the additional component of the model equipment record that has been sold within the same order (Item 2). 
+18.On the **Components** tab (see Item 1 in the following screenshot), verify that the system has added the additional component of the model equipment record that has been sold within the same order (Item 2). 
 
 
 <!-- PAGE_BREAK -->
@@ -1750,7 +1746,7 @@ On the _Appointments_ (FS300200) form, the service manager adds the general sett
 
 1. On the Acumatica ERP website, sign in to a company with the _U100_ dataset preloaded. You should sign in as     a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
 
 3. To perform this activity, make sure that you have performed the following prerequisite activities: _Stock_     _Items to Be Tracked Post-Sale: To Create Components_ and _Stock Items to Be Tracked Post-Sale: To Create_     _Stock Items with Components_. 
 
@@ -1768,7 +1764,7 @@ On the _Appointments_ (FS300200) form, the service manager adds the general sett
 
 - **Customer** : _TOMYUM - Thai Food Restaurant_ 
 
-- **Description** : Selling optional component 
+- **Description** : Selling an optional component 
 
 3. On the form toolbar, click **Save**. 
 
@@ -1784,7 +1780,7 @@ On the _Appointments_ (FS300200) form, the service manager adds the general sett
 
 - **Equipment Action** : _Selling Optional Component_ 
 
-- **Target Equipment ID** : _FSE00013_ ( _Cold Press Juicer H30J_ ) 
+- **Target Equipment ID** : _Cold Press Juicer H30J_ 
 
 - **Component ID** : _HOPPER_O_ 
 
@@ -1806,6 +1802,8 @@ On the _Appointments_ (FS300200) form, the service manager adds the general sett
 
 11.On the form toolbar, click **Complete**. 
 
+ As you perform the remaining instructions in this step, you are now acting as an accountant. 
+
 12.On the form toolbar, click **Close**. 
 
 13.On the form toolbar, click **Quick Process**. 
@@ -1818,13 +1816,13 @@ On the _Appointments_ (FS300200) form, the service manager adds the general sett
 
 - **Release Invoice** 
 
-15.Click **OK**. Once the billing process has completed, the billing document reference numbers appear in the **Processing Results** dialog box. Close the dialog box, and notice that the appointment now has the _Billed_ status. 
+15.Click **OK**. Once the billing process has completed, the billing document reference numbers appear in the Processing Results dialog box. Close the dialog box, and notice that the appointment now has the _Billed_ status. 
 
 16.On the **Billing Documents** tab, review the list of generated documents, and click the reference number of the sales invoice in the **Reference Nbr.** column. The system opens the _Invoices_ (SO303000) form. Review the details of the generated invoice. Notice that the invoice has been released and has the _Open_ status, which means that the target equipment record has been updated. 
 
 17.In the **Target Equipment** column, click the reference number link of the equipment to open the _Equipment_ (FS205000) form. 
 
-18.Click the **Components and Warranties** tab to verify that the system has added the optional component to the target equipment record (see the following screenshot). 
+18.Click the **Components** tab to verify that the system has added the optional component to the target equipment record (see the following screenshot). 
 
 
 <!-- PAGE_BREAK -->
@@ -1906,7 +1904,7 @@ _- Hopper H30J metallic_ component instead of the _HOPPERH3 - Hopper for cold pr
 
 1. On the Acumatica ERP website, sign in to a company with the _U100_ dataset preloaded. You should sign in as     a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
 
 3. To perform this activity, make sure that you have performed the following prerequisite activities: _Stock_     _Items to Be Tracked Post-Sale: To Create Components_ and _Stock Items to Be Tracked Post-Sale: To Create_     _Stock Items with Components_. 
 
@@ -1970,7 +1968,7 @@ Perform the following instructions:
 
 8. On the form toolbar, click **Save**. 
 
-9. On the **Staff** tab, click **Add Row** and specify _EP00000003 - Jon Waite_ as the **Staff Member**. 10.On the form toolbar, click **Save**. 11.On the form toolbar, click **Start**.     As you perform this instruction and the next two instructions, you are acting as Jon Waite at the     appointment. 12.On the **Settings** tab, in the **Actual Date and Time** section, enter the actual start and end times (for     simplicity in this training, set them to match the scheduled start and end times). Select the **Finished** check     box. 13.Click **Complete**. 14.Click **Close**.     As you perform this instruction and the remaining instructions of the activity, you are now acting as an     accountant. 15.On the form toolbar, click **Quick Process**.     In the **Process Appointment** dialog box, which opens, ensure that the following check boxes are selected: 
+9. On the **Staff** tab, click **Add Row** and specify _EP00000003 - Jon Waite_ as the **Staff Member**. 10.On the form toolbar, click **Save**. 11.On the form toolbar, click **Start**.     As you perform this instruction and the next two instructions, you are acting as Jon Waite at the     appointment. 12.On the **Settings** tab, in the **Actual Date and Time** section, enter the actual start and end times (for     simplicity in this training, set them to match the scheduled start and end times). Select the **Finished** check     box. 13.Click **Complete**.     As you perform the remaining instructions in this step, you are now acting as an accountant. 14.Click **Close**. 15.On the form toolbar, click **Quick Process**.     In the **Process Appointment** dialog box, which opens, ensure that the following check boxes are selected: 
 
 
 <!-- PAGE_BREAK -->
@@ -1988,7 +1986,7 @@ Perform the following instructions:
 
 18.In the **Target Equipment** column, click the reference number (which is also a link) of the equipment to open the _Equipment_ (FS205000) form. 
 
-19.On the **Components and Warranties** tab, verify that the system has replaced the default hopper with the component ( _30HOPPERJK Hopper H30J metallic_ ) that you selected when you created the appointment (see the following screenshot). 
+19.On the **Components** tab, verify that the system has replaced the default hopper with the component ( _30HOPPERJK Hopper H30J metallic_ ) that you selected when you created the appointment (see the following screenshot). 
 
  Figure: The equipment record with the non-default component 
 
@@ -2056,7 +2054,7 @@ On the _Appointments_ (FS300200) form, the service manager enters the general se
 
 1. On the Acumatica ERP website, sign in to a company with the _U100_ dataset preloaded. You should sign in as     a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
 
 3. To perform this activity, make sure that you have performed the following prerequisite activities: _Stock_     _Items to Be Tracked Post-Sale: To Create a Stock Item with No Components_ , _Stock Items to Be Tracked_     _Post-Sale: To Create Components_ , and _Stock Items to Be Tracked Post-Sale: To Create Stock Items with_     _Components_. 
 
@@ -2090,7 +2088,7 @@ On the _Appointments_ (FS300200) form, the service manager enters the general se
 
 - **Equipment Action** : _Replacing Target Equipment_ 
 
-- **Target Equipment ID** : _FSE00012_ ( _Multifruit Centrifugal Juicer J22C_ ) 
+- **Target Equipment ID** : _Multifruit Centrifugal Juicer J22C_ 
 
 - **Estimated Quantity** : 1.00 
 
@@ -2112,9 +2110,9 @@ On the _Appointments_ (FS300200) form, the service manager enters the general se
 
 10.On the form toolbar, click **Complete**. 
 
-11.On the form toolbar, click **Close**. 
+ As you perform the remaining instructions in this step, you are now acting as an accountant. 
 
- As you perform this instruction and the remaining instructions of the activity, you are now acting as an accountant. 
+11.On the form toolbar, click **Close**. 
 
 12.On the form toolbar, click **Quick Process**. 
 
@@ -2128,19 +2126,27 @@ On the _Appointments_ (FS300200) form, the service manager enters the general se
 
  Once the billing process is completed, the reference number of the invoice appears in the Processing Results dialog box. Notice that the appointment now has the Billed status. 
 
-14.In the **Processing Results** dialog box, click the reference number of the invoice. The _Invoices_ (SO303000) form opens. Notice that the invoice has been released and has the _Open_ status, which means that the target equipment record has been assigned the _Disposed_ status and the new equipment has been created. 
+14.In the Processing Results dialog box, click the reference number of the created document. The _Invoices_ (SO303000) form opens. Notice that the invoice has been released and has the _Open_ status, which means that the target equipment record has been assigned the _Disposed_ status and the new equipment has been created. 
 
-15.On the _Invoices_ form, in the **Suspended Target Equipment ID** column, click the reference number of the equipment (which is a link) to open the _Equipment_ (FS205000) form. 
-
-16.Verify that the status of the equipment is _Disposed_ (see the following screenshot). 
+15.On the _Invoices_ form, in the **Suspended Target Equipment ID** column (see below), click the reference number of the equipment (which is a link) to open the _Equipment_ (FS205000) form. 
 
 
 <!-- PAGE_BREAK -->
  Replacing Target Equipment | 60 
 
+ Figure: The Suspended Target Equipment ID column 
+
+ If you don't see the Suspended Target Equipment ID column, you can add it by using the configuration dialog, which opens when you click the Settings icon in the lemost column of the table on the Details tab. 
+
+16.Verify that the status of the equipment is _Disposed_ (see the following screenshot). 
+
  Figure: Disposed equipment 
 
 17.Close the _Equipment_ form. 
+
+
+<!-- PAGE_BREAK -->
+ Replacing Target Equipment | 61 
 
 18.On the _Invoices_ form, click the equipment reference number in the **Target Equipment ID** column. 
 
@@ -2148,11 +2154,7 @@ On the _Appointments_ (FS300200) form, the service manager enters the general se
 
 20.Go to the **Source** tab (see Item 1 in the following screenshot). In the **Equipment Replaced** box (Item 2), you can find the reference number of the equipment that was replaced with the current one. 
 
-
-<!-- PAGE_BREAK -->
- Replacing Target Equipment | 61 
-
-**_Figure: Settings related to the replaced equipment_** 
+ Figure: Settings related to the replaced equipment 
 
 
 <!-- PAGE_BREAK -->
@@ -2220,7 +2222,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
 1. On the Acumatica ERP website, sign in to a company with the _U100_ dataset preloaded. You should sign in as     a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the system on this     business date. 
 
 3. To perform this activity, make sure that you have performed the following prerequisite activity: _Stock Items_     _to Be Tracked Post-Sale: To Create Components_ , _Stock Items to Be Tracked Post-Sale: To Create Stock Items_     _with Components_. 
 
@@ -2302,13 +2304,13 @@ The remainder of the process of target equipment being replaced is identical to 
 
  Once the billing process is completed, the reference number of the invoice appears in the Processing Results dialog box. Notice that the appointment now has the Billed status. 
 
-16.In the **Processing Results** dialog box, click the reference number of the invoice. The _Invoices_ (SO303000) form opens. Notice the invoice has been released and has the _Open_ status, which means that the target equipment record has been updated. 
+16.In the Processing Results dialog box, click the reference number of the created document. The _Invoices_ (SO303000) form opens. Notice the invoice has been released and has the _Open_ status, which means that the target equipment record has been updated. 
 
 17.In the **Target Equipment** column on the **Details** tab, click the equipment reference number (which is a link) to open the _Equipment_ (FS205000) form. 
 
-18.On the **Components and Warranties** tab, verify that the status of the _00005_ line is _Disposed_ (see the following screenshot). It has been replaced with line _00006_. 
+18.On the **Components** tab, verify that the status of the _00005_ line is _Disposed_ (see the following screenshot). It has been replaced with line _00006_. 
 
- You can also replace a component of a piece of target equipment by clicking the Replace Component button on the table toolbar of the Components and Warranties tab on the Equipment form. In the dialog box that opens, you can manually select the installation and sales dates of the component being replaced. 
+ You can also replace a component of a piece of target equipment by clicking the Replace Component button on the table toolbar of the Components tab on the Equipment form. In the dialog box that opens, you can manually select the installation and sales dates of the component being replaced. 
 
 
 <!-- PAGE_BREAK -->
@@ -2330,7 +2332,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
 ### Service Contracts: General Information 
 
- Service Contracts: Billing Type Setup In Acumatica ERP, you can create and process contracts for the services requested by your company's customers. A service contract is a document that contains information about the customer, the services to be provided, and the schedule or schedules determining when your service staff will perform these services. You can use service contracts for creating appointment schedules for a piece of target equipment and generating periodic appointments. 
+ In Acumatica ERP, you can create and process contracts for the services requested by your company's customers. A service contract is a document that contains information about the customer, the services to be provided, and the schedule or schedules determining when your service staff will perform these services. You can use service contracts for creating appointment schedules for a piece of target equipment and generating periodic appointments. 
 
  In Acumatica ERP, you can create service contracts with different billing options, which you set up depending on the company's needs. 
 
@@ -2350,7 +2352,19 @@ The remainder of the process of target equipment being replaced is identical to 
 
 #### Processing Workflow 
 
- The following steps and optional steps are involved in the creation and processing of a service contract: 
+ This diagram represents the lifecycle of a service contract in service management. It illustrates the key steps—from creating and activating a contract to generating service orders and billing—as well as the possible contract status changes. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Service Contracts | 68 
+
+**_Figure: Processing a service contract billed at the time of service_** 
+
+The following steps and optional steps are involved in the creation and processing of a service contract: 
+
+
+<!-- PAGE_BREAK -->
+ Creating Service Contracts | 69 
 
 1. Creating the service contract: On the _Service Contracts_ (FS305700) form, a service manager enters the     service contract. 
 
@@ -2362,23 +2376,9 @@ The remainder of the process of target equipment being replaced is identical to 
 
 5. Generating and processing billing documents: An accountant approves the service orders or appointments     of the service contract for the generation of billing documents. The accountant then generates billing     documents for the service documents and processes them in the system. 
 
-
-<!-- PAGE_BREAK -->
- Creating Service Contracts | 68 
-
 6. Suspending the contract (optional): If it is necessary to pause the service delivery and billing for the contract     temporarily, the service manager can suspend the contract. 
 
 7. Canceling the contract (optional): If the service manager has activated the contract but the services for     the contract will no longer be provided for some reason, the contract can be canceled. This step can be     performed before or aer your company has started to provide services according to the contract. 
-
-
-<!-- PAGE_BREAK -->
- Creating Service Contracts | 69 
-
-**_Figure: Processing a service contract billed at the time of service_** 
-
-
-<!-- PAGE_BREAK -->
- Creating Service Contracts | 70 
 
 #### Service Contract Billing Types 
 
@@ -2402,6 +2402,10 @@ The remainder of the process of target equipment being replaced is identical to 
 
  You can create service contracts to be billed at the time of service, and perform the contract billing based on what was done in appointments when each particular appointment took place, or based on what was estimated in the service order. For this type of a service contract, on the Summary tab of the Service Contracts (FS305700) form, you select At Time of Service in the Billing Type box. 
 
+
+<!-- PAGE_BREAK -->
+ Creating Service Contracts | 70 
+
  When creating a service contract, you define either appointments or service orders will be generated for the service contract. In the Schedule Generation Type box of the Summary tab on the Service Contracts form, you specify one of the following options: 
 
 - _Appointments_. You select this option if you know the date and time when the visit to a customer should     occur. Aer the system generates an appointment, the date and time can be changed. 
@@ -2411,10 +2415,6 @@ The remainder of the process of target equipment being replaced is identical to 
 - _Contract_. When you select this option, the system copies the rows from the **Details** tab of the _Service_     _Contract Schedules_ form to the **Prices** tab of the _Service Contracts_ form. On this tab, you can manually     specify the price for each item in the contract, and save your changes to the contract. 
 
 - _Regular Price_. When you select this option, the system uses the prices according to the rules of automatic     price selection, that is the prices specified form a service or inventory item in the **Default Price** box of the     _Non-Stock Items_ (IN202000) or _Stock Items_ (IN202500) form, or in the price list on the _Sales Prices_ (AR202000)     form at the date when an appointment or a service order is created. 
-
-
-<!-- PAGE_BREAK -->
- Creating Service Contracts | 71 
 
  The prices agreed by the service contract will only be applied to the line items added to the Details tab on the Service Contract Schedules form. If an additional item is added manually to the service order or appointment when it has been already generated, the system will use the price selected according to the standard rules of automatic price selection. 
 
@@ -2430,7 +2430,13 @@ The remainder of the process of target equipment being replaced is identical to 
 
  On the Services per Period tab of the Service Contracts form, you add a line for each service to be provided during each billing period. In each line, you select a service or non-stock item. For each item, you specify the quantity in the Value column, and the price that is paid for the specified quantity of the items in the Recurring Item Price column. You also specify the price to be used when the specified quantity has been exceeded during the period in the Overage Item Price column. 
 
- On the Schedules tab, you create a schedule for generating appointments or service orders. On the table toolbar, you click Add Schedule , the system opens the Service Contract Schedules (FS305100) form. On the Details tab of this form, you specify the services or inventory items (or both) to be included in the appointments or service orders, and on the Recurrence tab, you set up schedule settings. Then, you save the schedule and close the form. The system returns you on the Service Contracts form, and adds a line with the created schedule on the Schedules tab. 
+ On the Schedules tab, you create a schedule for generating appointments or service orders. On the table toolbar, you click Add Schedule , the system opens the Service Contract Schedules (FS305100) form. On the Details tab of this form, you specify the services or inventory items (or both) to be included in the appointments or service orders, and on the Recurrence tab, you set up schedule settings. Then, you save the schedule and close the form. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Service Contracts | 71 
+
+ The system returns you on the Service Contracts form, and adds a line with the created schedule on the Schedules tab. 
 
  Besides appointments and service orders generated from a schedule or schedules, a service order or an appointment can also be created on the fly, and assigned to the service contract. 
 
@@ -2438,13 +2444,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
 #### Service Contracts with Beginning-Period Fixed Billing 
 
- You can create and manage service contracts with fixed billing at the beginning of the billing period. This billing type assumes that at the beginning of the billing period, for a service contract, you generate an invoice that includes a fixed price specified in the contract. This fixed price covers all services and inventory items listed in the contract, and provided to the customer during the billing period. If any additional services or materials are used in appointments (that is, are added to service documents) during the billing period, these items are not billed— once you have run billing for an appointment or a service order, the generated invoice will have a zero total amount specified. For this type of a service contract, on the Summary tab of the Service Contracts (FS305700) form, you select Beginning-Period Fixed in the Billing Type box, and specify the billing period ( Week , Month , Quarter , Half a Year , or Year ) in the Period box. On the Services per Period tab of the form, for each service to be provided during 
-
-
-<!-- PAGE_BREAK -->
- Creating Service Contracts | 72 
-
- each period, you add an item (for example, a non-stock item that represents a contract deposit) and specify the flat-rate price that has to be paid at the beginning of each billing period. 
+ You can create and manage service contracts with fixed billing at the beginning of the billing period. This billing type assumes that at the beginning of the billing period, for a service contract, you generate an invoice that includes a fixed price specified in the contract. This fixed price covers all services and inventory items listed in the contract, and provided to the customer during the billing period. If any additional services or materials are used in appointments (that is, are added to service documents) during the billing period, these items are not billed— once you have run billing for an appointment or a service order, the generated invoice will have a zero total amount specified. For this type of a service contract, on the Summary tab of the Service Contracts (FS305700) form, you select Beginning-Period Fixed in the Billing Type box, and specify the billing period ( Week , Month , Quarter , Half a Year , or Year ) in the Period box. On the Services per Period tab of the form, for each service to be provided during each period, you add an item (for example, a non-stock item that represents a contract deposit) and specify the flat-rate price that has to be paid at the beginning of each billing period. 
 
  On the Schedules tab, you create a schedule for generating appointments or service orders. On the table toolbar, you click Add Schedule , the system opens the Service Contract Schedules (FS305100) form. On the Details tab of this form, you specify the services or inventory items (or both) to be included in the appointments or service orders, and on the Recurrence tab, you set up schedule settings. Then, you save the schedule and close the form. The system returns you on the Service Contracts form, and adds a line with the created schedule on the Schedules tab. 
 
@@ -2460,7 +2460,13 @@ The remainder of the process of target equipment being replaced is identical to 
 
 #### Service Contracts with Beginning-Period Plus Billing 
 
- You can create and manage service contracts with fixed billing at the beginning of the billing period for the items specified in the service contract only. This billing type assumes that at the beginning of the billing period, for a service contract, you generate an invoice, which includes a fixed price specified in the contract. This fixed price covers all services and inventory items listed in the contract, and provided to the customer during the billing period. If any additional items (those that are not included in the service contract) have been used in appointments (that is, have been added to the service document) during the billing period, these items are billed separately. 
+ You can create and manage service contracts with fixed billing at the beginning of the billing period for the items specified in the service contract only. This billing type assumes that at the beginning of the billing period, for a service contract, you generate an invoice, which includes a fixed price specified in the contract. This fixed price covers all services and inventory items listed in the contract, and provided to the customer during the billing 
+
+
+<!-- PAGE_BREAK -->
+ Creating Service Contracts | 72 
+
+ period. If any additional items (those that are not included in the service contract) have been used in appointments (that is, have been added to the service document) during the billing period, these items are billed separately. 
 
  For this type of a service contract, on the Service Contracts (FS305700) form, you specify the Beginning-Period Plus option in the Billing Type box. On the Services per Period tab, you add an item (for example, a non-stock item that represents a contract deposit), and specify its flat-rate price that have to be paid at the beginning of each billing period. On the Billing Type Settings section of the Summary tab, you specify the length of the billing period. 
 
@@ -2470,10 +2476,6 @@ The remainder of the process of target equipment being replaced is identical to 
 
  You can set up the deferral of the invoice amount by specifying the code in the Deferral Code column so that aer the service contract invoice has been released, the system creates a deferral schedule. 
 
-
-<!-- PAGE_BREAK -->
- Creating Service Contracts | 73 
-
  At the beginning of the billing period, on the Run Service Contract Billing (FS501300) form, you generate an invoice that contains the fixed contract price. During the billing period, for an appointment or a service order (depending on the option specified in the Schedule Generation Type box on the Service Contracts box), you generate additional billing document. 
 
 ### Service Contracts: To Create and Process a Service Contract Billed at Time of 
@@ -2482,7 +2484,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
  In this activity, you will create and process a service contract that is billed aer each appointment has taken place based on what was done during the appointment. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2493,6 +2495,10 @@ The remainder of the process of target equipment being replaced is identical to 
 #### Configuration Overview 
 
  In the U100 dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed: 
+
+
+<!-- PAGE_BREAK -->
+ Creating Service Contracts | 73 
 
 - On the _Enable/Disable Features_ (CS100000) form, the _Equipment Management_ feature (under _Service_     _Management_ ) has been enabled. 
 
@@ -2512,10 +2518,6 @@ The remainder of the process of target equipment being replaced is identical to 
 
 - On the _Equipment_ (FS205000) form, the _FSE00007 (Commercial citrus juicer with a production rate of 1.5 litres_     _per minute)_ target equipment has been defined. 
 
-
-<!-- PAGE_BREAK -->
- Creating Service Contracts | 74 
-
 - On the _Employees_ (EP203000) form, _EP00000040 (Maia Davis)_ has been created, and the **Staff Member in**     **Service Management** check box has been selected on the **General Info** tab. 
 
 - On the _User Profile_ (SM203010) form, the _SWEETEQUIP_ default branch and _WEST BRIGHTON_ default branch     location have been specified for _Maia Davis_. 
@@ -2534,11 +2536,11 @@ The remainder of the process of target equipment being replaced is identical to 
 
 - **Customer** : _GOODFOOD - GoodFood One Restaurant_ 
 
-- **Description** : Cleaning contract 
+- **Description** : Scheduled cleaning services agreement 
 
 3. On the **Summary** tab ( **Contract Settings** section), specify the following settings for the contract: 
 
-- **Start Date** : 1/30/2025 
+- **Start Date** : 1/30/2026 
 
 - **Expiration Type** : _Expiring_ 
 
@@ -2549,6 +2551,10 @@ The remainder of the process of target equipment being replaced is identical to 
 4. In the **Billing Type** box of the **Billing Settings** section, make sure that _At Time of Service_ is selected. This     setting means that the service contract will be billed aer an appointment generated for it has taken place,     based on what was done during the appointment. 
 
 5. On the form toolbar, click **Save**. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Service Contracts | 74 
 
 #### Step 2: Creating an Appointment Schedule and Activating the Contract 
 
@@ -2566,7 +2572,9 @@ The remainder of the process of target equipment being replaced is identical to 
 
 - **Target Equipment ID** : _FSE00007_ 
 
-5. On the **Recurrence** tab, in the **Frequency** box, select **Weekly** and do the following in the **Weekly Settings**     section: 
+5. On the **Recurrence** tab, do the following: 
+
+- In the **Frequency** box, select **Weekly**. 
 
 - Leave **Every** _1_ **Week(s)**. 
 
@@ -2574,13 +2582,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
 - Leave the check boxes cleared for the remaining days of the week. 
 
-6. Save your changes and close the pop-up window. 
-
-
-<!-- PAGE_BREAK -->
- Creating Service Contracts | 75 
-
- The system has created the schedule and added it to the Schedules tab of the Service Contracts form. 
+6. Save your changes and close the pop-up window.     The system has created the schedule and added it to the **Schedules** tab of the _Service Contracts_ form. 
 
 7. On the _Service Contracts_ form (to which you returned when you closed the window with the _Service Contract_     _Schedules_ form), on the More menu, click **Activate**.     The system changes the status of the contract from _Dra_ to _Active_. 
 
@@ -2594,7 +2596,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
 - **Customer** : _GOODFOOD - GoodFood One Restaurant_ 
 
-- **Generate Up To** : _2/13/2025_ 
+- **Generate Up To** : _2/13/2026_ 
 
 3. In the table, select the check box in the row with the schedule that you have created in the previous step. 
 
@@ -2602,27 +2604,27 @@ The remainder of the process of target equipment being replaced is identical to 
 
 5. Aer the processing has successfully completed, in the **Processing** dialog box, click **Close**. 
 
- The appointments have been generated for the service contract until 2/13/2025. 
+ The appointments have been generated for the service contract until 2/13/2026. 
 
 #### Step 4: Reviewing the Appointments Generated for the Service Contract 
 
  Review the appointments that have been generated for the service contract as follows: 
 
-1. On the _Service Contracts_ (FS305700) form, open the service contract that you created in the previous step. 
+1. Return to the service contract that you created in the previous step on the _Service Contracts_ (FS305700)     form. 
 
 2. On the More menu (under **Inquiries** ), click **Appointment History**. 
 
 3. On the _Appointment Summary_ (FS400100) form, which opens, clear the **Staff Member** box in the Selection     area. 
 
-4. In the **To Scheduled Date** box, select _2/13/2025_.     The list of appointments generated for the selected service contract is displayed in the table (see the     following screenshot). 
+
+<!-- PAGE_BREAK -->
+ Creating Service Contracts | 75 
+
+4. In the **To Scheduled Date** box, select _2/13/2026_.     The list of appointments generated for the selected service contract is displayed in the table (see the     following screenshot). 
 
  Figure: The appointments generated for the service contract 
 
-5. Click an appointment reference number in the **Appointment Nbr.** column. The system opens the     _Appointments_ (FS300200) form. On the **Details** tab, confirm that the system has added the line from the     **Details** tab of the _Service Contract Schedules_ (FS305100) form. On the **Other** tab, notice that the reference     numbers of the source service contract and source schedule are specified. 
-
-
-<!-- PAGE_BREAK -->
- Creating Service Contracts | 76 
+5. Click the reference number of any appointment in the **Appointment Nbr.** column. The system opens the     _Appointments_ (FS300200) form. On the **Details** tab, confirm that the system has added the line from the     **Details** tab of the _Service Contract Schedules_ (FS305100) form. On the **Settings** tab, notice that the reference     numbers of the source service contract and source schedule are specified in the **Source Info** section. 
 
 ### Service Contracts: To Create and Process an End-Period Billing Service Contract 
 
@@ -2634,13 +2636,17 @@ The remainder of the process of target equipment being replaced is identical to 
 
 - An overage number of services (or inventory items) that has been added to the service document during the     billing period but was not covered by the service contract You will also create a schedule for this service contract and generate appointments from the schedule. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the HM's Bakery and Cafe customer has agreed to enter into a contract with the SweetLife Service and Equipment Sales Center for one hour of cleaning a juicer every week. The contract states that one hour of service is paid every week at a price of $70; for overage cleaning services (which are occasionally required), a price of $85 per hour should be paid. The customer will pay at the end of each week based on the prices that are defined in the contract. 
 
  The appointment schedule needs to be specified for the contract, and an appointment for the next week should be generated. You will perform the needed actions in the system, acting as the service manager, Maia Davis. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Service Contracts | 76 
 
 #### Configuration Overview 
 
@@ -2664,10 +2670,6 @@ The remainder of the process of target equipment being replaced is identical to 
 
 - On the _User Profile_ (SM203010) form, the _SWEETEQUIP_ default branch and _WEST BRIGHTON_ default branch     location have been specified for _Maia Davis_. 
 
-
-<!-- PAGE_BREAK -->
- Creating Service Contracts | 77 
-
 - On the _Non-Stock Items_ (IN202000) form, the _CLEANING_ non-stock item has been created. For this item, the     _Service_ is selected in the **Type** box on the **General** tab, and _Time_ is selected in the **Billing Rule** box on the     **Price/Cost** tab. 
 
 - On the _Equipment_ (FS205000) form, the _FSE00006 (Commercial citrus juicer with a production rate of 1.5 liters_     _per minute)_ target equipment has been defined. 
@@ -2682,7 +2684,11 @@ The remainder of the process of target equipment being replaced is identical to 
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username, and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select the 1/30/2025 date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select the 1/30/2026 date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Service Contracts | 77 
 
 #### Step 1: Creating a Service Contract with End-Period Billing 
 
@@ -2694,11 +2700,11 @@ The remainder of the process of target equipment being replaced is identical to 
 
 - **Customer** : _HMBAKERY - HM's Bakery and Cafe_ 
 
-- **Description** : Cleaning contract 
+- **Description** : Scheduled cleaning services agreement 
 
 3. On the **Summary** tab ( **Contract Settings** section), specify the following settings for the contract: 
 
-- **Start Date** : 1/30/2025 
+- **Start Date** : 1/30/2026 
 
 - **Expiration Type** : _Expiring_ 
 
@@ -2726,13 +2732,13 @@ The remainder of the process of target equipment being replaced is identical to 
 
 8. On the form toolbar, click **Save**. 
 
+9. On the More menu (under **Processing** ), click **Activate**.     The first billing period (1/30/2026 - 02/05/2026) has been activated during contract activation, as the     following screenshot shows. 
+
+ Figure: The service contract 
+
 
 <!-- PAGE_BREAK -->
  Creating Service Contracts | 78 
-
-9. On the More menu (under **Processing** ), click **Activate**.     The first billing period (1/30/2025 - 02/05/2025) has been activated during contract activation, as the     following screenshot shows. 
-
- Figure: The service contract 
 
 #### Step 2: Creating a Contract Schedule and Generating Appointments from the Schedule 
 
@@ -2754,9 +2760,11 @@ The remainder of the process of target equipment being replaced is identical to 
 
 - **Target Equipment ID** : _FSE00006_ 
 
-4. On the **Recurrence** tab, in the **Frequency** box, select **Weekly** and do the following in the **Weekly Settings**     section: 
+4. On the **Recurrence** tab, do the following: 
 
-- Specify **Every** _1_ **Weeks**. 
+- In the **Frequency** box, select **Weekly**. 
+
+- Leave **Every** _1_ **Weeks**. 
 
 - Select the **Tuesday** check box. Clear **Sunday**. 
 
@@ -2766,17 +2774,15 @@ The remainder of the process of target equipment being replaced is identical to 
 
 6. On the form toolbar, click **Generate from Service Contracts**.     The _Generate Maintenance from Contract Schedules_ (FS500300) form opens. 
 
-7. In the **Generate Up To** box of the Summary area, select _2/12/2025_. 
+7. In the **Generate Up To** box of the Summary area, select _2/12/2026_. 
 
-8. In the table, select the unlabeled check box in the row with the schedule you have created. 
+8. In the table, select the unlabeled check box in the row with the schedule you have created (for the     _HMBAKERY - HM's Bakery and Cafe_ customer). 
 
-9. On the form toolbar, click **Process**.     The system opens the **Processing** dialog box, in which you can see the status of the processing. 10.Aer the processing has successfully completed, in the **Processing** dialog box, click **Close**. 11.Close the _Generate Maintenance from Contract Schedules_ (FS500300) form. 
+9. On the form toolbar, click **Process**.     The system opens the **Processing** dialog box, in which you can see the status of the processing. 10.Aer the processing has successfully completed, in the **Processing** dialog box, click **Close**. 11.Close the _Generate Maintenance from Contract Schedules_ (FS500300) form. 12.Close the _Service Contract Schedules_ (FS305100) form. 13.On the **Services Per Period** tab of the _Service Contracts_ (FS305700) form, notice that the **Scheduled Period**     **Value** is now _1 h 00 m_ (as the following screenshot shows). This means that 1 hour of services has been     scheduled for the selected billing period. 
 
 
 <!-- PAGE_BREAK -->
  Creating Service Contracts | 79 
-
- 12.Close the Service Contract Schedules (FS305100) form. 13.On the Services Per Period tab of the Service Contracts (FS305700) form, notice that the Scheduled Period Value is now 1 h 00 m (as the following screenshot shows). This means that 1 hour of services has been scheduled for the selected billing period. 
 
  Figure: One hour of service scheduled for the billing period 
 
@@ -2788,9 +2794,9 @@ The remainder of the process of target equipment being replaced is identical to 
 
 2. Clear the **Staff Member** box in the Selection area. 
 
-3. In the **From Scheduled Date** box, ensure that 1/30/2025 is selected. 
+3. In the **From Scheduled Date** box, ensure that 1/30/2026 is selected. 
 
-4. In the **To Scheduled Date** box, select _2/12/2025_.     The form displays the appointments generated from the service contract. Notice that the appointment     generated for the active billing period has the _Not Started_ status, and the appointment generated for the     future billing period has the _Awaiting_ status (see the following screenshot). 
+4. In the **To Scheduled Date** box, select _2/12/2026_.     The form displays the appointments generated from the service contract. Notice that the appointment     generated for the active billing period has the _Not Started_ status, and the appointment generated for the     future billing period has the _Awaiting_ status (see the following screenshot). 
 
  Figure: The appointments generated from the contract schedule 
 
@@ -2800,11 +2806,11 @@ The remainder of the process of target equipment being replaced is identical to 
 
 1. On the _Appointment Summary_ (FS400100) form, click the reference number of the appointment with the _Not_     _Started_ status. The _Appointments_ (FS300200) form opens. 
 
-2. On the form toolbar, click **Start**.     (As you perform this instruction and the next two instructions, you are acting as a staff member at the     appointment.) 
-
 
 <!-- PAGE_BREAK -->
  Creating Service Contracts | 80 
+
+2. On the form toolbar, click **Start**.     (As you perform this instruction and the next two instructions, you are acting as a staff member at the     appointment.) 
 
 3. On the **Settings** tab, in the **Actual Date and Time** section, enter the actual start and end times (for     simplicity in this training, set them to match the scheduled start and end times). Select **Finished**. 
 
@@ -2814,11 +2820,11 @@ The remainder of the process of target equipment being replaced is identical to 
 
 6. Open the _Run Service Contract Billing_ (FS501300) form. 
 
-7. In the **Up to Date** box, specify _2/12/2025_. 
+7. In the **Up to Date** box, specify _2/12/2026_. 
 
-8. In the list, select a service contract related to an appointment that you have completed, and click **Process**     on the form toolbar. 
+8. In the list, select a service contract related to an appointment that you have completed (with the 1/30/2026 -     02/05/2026 billing period specified), and click **Process** on the form toolbar. 
 
-9. Once the billing process is completed, in the **Processing** dialog box, click the reference number in the **Batch**     **Nbr.** column. The _Service Contract Billing Batches_ (FS306100) form opens in a pop-up window. 10.In the **Document Nbr.** column, click the reference number link. The _Invoices and Memos_ (AR301000) form     opens, and you can review the generated invoice. Notice that the line in the invoice is for the service covered     by the contract. It includes a fixed number of hours at a predefined price, and the number of hours defined     in the service contract has not been exceeded, so the invoice amount is equal to the contract's predefined     price. 
+9. Once the billing process is completed, in the **Processing** dialog box, click the reference number in the **Batch**     **Nbr.** column. The _Service Contract Billing Batches_ (FS306100) form opens in a pop-up window. 10.In the **Document Nbr.** column, click the reference number link. The _Invoices and Memos_ (AR301000) form     opens, and you can review the generated invoice.     Notice that the line in the invoice is for the service covered by the contract. It includes a fixed number of     hours at a predefined price, and the number of hours defined in the service contract has not been exceeded,     so the invoice amount is equal to the contract's predefined price ($70.00). 
 
 ### Service Contracts with End-Period Billing: To Bill a Period with No Appointments 
 
@@ -2826,7 +2832,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
 #### Story 
 
- Suppose that the second billing period (February 6, 2025 through February 12, 2025) of the contract with the HM's Bakery and Cafe customer has passed. No appointments have been scheduled because it was canceled by the customer. The accountant of Service Equipment and Sales Center (Yona Jones) is generating an invoice for the second billing period. Acting as Yona Jones, you will perform the needed actions in the system. 
+ Suppose that the second billing period (February 6, 2026 through February 12, 2026) of the contract with the HM's Bakery and Cafe customer has passed. No appointments have been scheduled because it was canceled by the customer. The accountant of Service Equipment and Sales Center (Yona Jones) is generating an invoice for the second billing period. Acting as Yona Jones, you will perform the needed actions in the system. 
 
 #### Configuration Overview 
 
@@ -2844,17 +2850,17 @@ The remainder of the process of target equipment being replaced is identical to 
 
 - On the _Customers_ (AR303000) form, the _HMBAKERY (HM's Bakery and Cafe)_ customer has been configured. 
 
-- On the _Employees_ (EP203000) form, _EP00000040 (Maia Davis)_ has been configured, and the **Staff Member in**     **Service Management** check box has been selected on the **General Info** tab. 
-
-- On the _User Profile_ (SM203010) form, the _SWEETEQUIP_ default branch, and _WEST BRIGHTON_ default branch     location has been specified for _Maia Davis_. 
-
 
 <!-- PAGE_BREAK -->
  Creating Service Contracts | 81 
 
+- On the _Employees_ (EP203000) form, _EP00000040 (Maia Davis)_ has been configured, and the **Staff Member in**     **Service Management** check box has been selected on the **General Info** tab. 
+
+- On the _User Profile_ (SM203010) form, the _SWEETEQUIP_ default branch, and _WEST BRIGHTON_ default branch     location has been specified for _Maia Davis_. 
+
 - On the _Employees_ (EP203000) form, the _EP00000012 - Yona Jones_ employee has been configured. 
 
-- A service contract has been created according to _Service Contracts: To Create and Process an End-Period_     _Billing Service Contract (Appointment with No Overage Items)_. For the service contract, the schedule has been     created, and two appointments have been generated (for the next two weeks) according to the schedule.     Then the appointment for _2/7/2025_ has been canceled. 
+- A service contract has been created according to _Service Contracts: To Create and Process an End-Period_     _Billing Service Contract (Appointment with No Overage Items)_. For the service contract, the schedule has been     created, and two appointments have been generated (for the next two weeks) according to the schedule.     Then the appointment for _2/7/2026_ has been canceled. 
 
 #### Process Overview 
 
@@ -2866,7 +2872,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _jones_ username, and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select the _2/13/2025_ date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select the _2/13/2026_ date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, select the     _Service and Equipment Sales Center_ branch under the _SweetLife Fruits & Jams_ company. 
 
@@ -2880,9 +2886,9 @@ The remainder of the process of target equipment being replaced is identical to 
 
 3. In the **Service Contract ID** box, select _FCT00000002_. 
 
-4. In the **From Scheduled Date** box, select _2/6/2025._ 
+4. In the **From Scheduled Date** box, select _2/6/2026._ 
 
-5. In the **To Scheduled Date** box, select _2/12/2025._ 
+5. In the **To Scheduled Date** box, select _2/12/2026._ 
 
 6. Make sure the **Staff Member** box is cleared.     Notice that only an appointment with _Canceled_ status is in the list. It was generated according to contract     schedule, but later it was canceled. 
 
@@ -2894,17 +2900,19 @@ The remainder of the process of target equipment being replaced is identical to 
 
 2. In the **Billing Customer** box of the Selection area, select _HMBAKERY (HM's Bakery and Cafe)_. 
 
-3. In the **Up To Date** box, select 02/12/2025. 
+3. In the **Up To Date** box, select 02/12/2026. 
 
 4. In the table, select the unlabeled check box in the row with the service contract. 
 
-5. On the form toolbar, click **Process**.     The system opens the **Processing** pop-up window, in which you can see the status of the process. 
-
-6. Aer the processing has successfully completed, click the **Processed** card.     The system displays a table in the dialog box with the processed record. 
+5. On the form toolbar, click **Process**. 
 
 
 <!-- PAGE_BREAK -->
  Creating Service Contracts | 82 
+
+ The system opens the Processing pop-up window, in which you can see the status of the process. 
+
+6. Aer the processing has successfully completed, click the **Processed** card.     The system displays a table in the dialog box with the processed record. 
 
 7. Click the link in the **Batch Nbr.** column in the row with the processed record.     The _Service Contract Billing Batches_ (FS306100) form opens with the details of the selected batch. 
 
@@ -2912,7 +2920,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
  Figure: The invoice for the second billing period of the service contract 
 
-9. On the form toolbar, click **Remove Hold** , and then **Release**. 10.On the _Service Contracts_ form, select the contract. On the **Billing Documents** tab, review the reference     number of the invoice. On the **Service Per Period** tab, in the **Billing Period** box, click the lookup icon.     Review that the status of the _02/06/2025 - 02/12/2025_ period is _Invoiced_ , and the next billing period is     automatically created and set as _Active_. 
+9. On the form toolbar, click **Remove Hold** , and then **Release**. 10.On the _Service Contracts_ form, select the contract. On the **Billing Documents** tab, review the reference     number of the invoice. On the **Service Per Period** tab, in the **Billing Period** box, click the lookup icon.     Review that the status of the _02/06/2026 - 02/12/2026_ period is _Invoiced_ , and the next billing period is     automatically created and set as _Active_. 
 
 ### Service Contracts: To Create and Process a Service Contract with Beginning-Period 
 
@@ -2920,7 +2928,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
  In this activity, you will create a service contract with fixed billing at the beginning of the period, and you will generate appointments for the service contract. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2970,7 +2978,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username, and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select the 1/30/2025 date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select the 1/30/2026 date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
 
 
 <!-- PAGE_BREAK -->
@@ -2986,11 +2994,11 @@ The remainder of the process of target equipment being replaced is identical to 
 
 - **Customer** : _GOODFOOD - GoodFood One Restaurant_ 
 
-- **Description** : Juicer cleaning contract 
+- **Description** : Juicer Cleaning Service Contract 
 
 3. On the **Summary** tab ( **Contract Settings** section), specify the following settings for the contract: 
 
-- **Start Date** : 1/30/2025 
+- **Start Date** : 1/30/2026 
 
 - **Expiration Type** : _Expiring_ 
 
@@ -3014,9 +3022,13 @@ The remainder of the process of target equipment being replaced is identical to 
 
 8. On the More menu (under **Processing** ), click **Activate**.     The system changes the status of the contract from _Dra_ to _Active_. 
 
- The first billing period for the contract is 1/30/2025 – 2/27/2025 , as the following screenshot shows. 
+ The first billing period for the contract is 1/30/2026 – 2/27/2026 , as the following screenshot shows. 
 
  Figure: The active billing period 
+
+
+<!-- PAGE_BREAK -->
+ Creating Service Contracts | 85 
 
 #### Step 2: Creating an Appointment Schedule for the Cleaning Service and Generating 
 
@@ -3025,10 +3037,6 @@ The remainder of the process of target equipment being replaced is identical to 
  To add a schedule for the cleaning service to the contract and generate an appointment for the first billing period, do the following: 
 
 1. While you are still viewing the service contract on the _Service Contracts_ (FS305700) form, on the **Schedules**     tab, click **Add Schedule**.     The _Service Contract Schedules_ (FS305100) form opens. 
-
-
-<!-- PAGE_BREAK -->
- Creating Service Contracts | 85 
 
 2. In the Summary area, do the following: 
 
@@ -3042,7 +3050,9 @@ The remainder of the process of target equipment being replaced is identical to 
 
 - **Target Equipment ID** : _FSE00007_ 
 
-4. On the **Recurrence** tab, in the **Frequency** box, select **Weekly** , and do the following in the **Weekly Settings**     section: 
+4. On the **Recurrence** tab, do the following: 
+
+- In the **Frequency** box, select **Weekly**. 
 
 - Leave **Every** _1_ **Weeks**. 
 
@@ -3056,9 +3066,9 @@ The remainder of the process of target equipment being replaced is identical to 
 
 7. In the **Customer** box of the Summary area, select _GOODFOOD - GoodFood One Restaurant_. 
 
-8. In the **Generate Up To** box, select _2/27/2025_. 
+8. In the **Generate Up To** box, select _2/27/2026_. 
 
-9. In the table, select the check box in the row with the schedule you have created (with the _Juicer cleaning_     _contract_ description). 10.On the form toolbar, click **Process**.     The system opens the **Processing** dialog box, in which you can see the status of the processing. 11.Aer the processing has successfully completed, in the **Processing** dialog box, click **Close**. 12.Close the _Generate Maintenance from Contract Schedules_ form and the _Service Contract Schedules_ form. 
+9. In the table, select the check box in the row with the schedule you have created (with the _Juicer Cleaning_     _Service Contract_ description). 10.On the form toolbar, click **Process**.     The system opens the **Processing** dialog box, in which you can see the status of the processing. 11.Aer the processing has successfully completed, in the **Processing** dialog box, click **Close**. 12.Close the _Generate Maintenance from Contract Schedules_ form and the _Service Contract Schedules_ form. 
 
  The system has created a schedule and added it to the Schedules tab of the Service Contracts form. 
 
@@ -3072,21 +3082,23 @@ The remainder of the process of target equipment being replaced is identical to 
 
 - **Staff Member** : Cleared 
 
-- **To Scheduled Date** : _2/27/2025_ The list of appointments generated for the selected service contract is shown in the table. The appointments for the cleaning services are generated to be performed each week on Tuesday and Friday during the billing period ( _1/30/2025_ – _2/27/2025_ ). Open the first appointment by clicking its reference number in the **Appointment Nbr.** column. The _Appointments_ (FS300200) form opens. In the appointment, notice that the _CLEANING_ service has been added on the **Details** tab and the **Free Item** check box is selected for it, indicating that this service is covered by the service contract. Notice that in the **Summary** area, the appointment total is set to _0_. 
-
-#### Step 4: Running the Service Contract Billing 
-
- To run service contract billing at the beginning of the contract period, do the following: 
+- **To Scheduled Date** : _2/27/2026_ The list of appointments generated for the selected service contract is shown in the table. The appointments for the cleaning services are generated to be performed each week on Tuesday and Friday 
 
 
 <!-- PAGE_BREAK -->
  Creating Service Contracts | 86 
 
+ during the billing period ( 1/30/2026 – 2/27/2026 ). Open the first appointment by clicking its reference number in the Appointment Nbr. column. The Appointments (FS300200) form opens. In the appointment, notice that the CLEANING service has been added on the Details tab and the Free Item check box is selected for it, indicating that this service is covered by the service contract. Notice that in the Summary area, the appointment total is set to 0. 
+
+#### Step 4: Running Service Contract Billing 
+
+ To run service contract billing at the beginning of the contract period, do the following: 
+
 1. On the _Run Service Contract Billing_ (FS501300) form, in the **Billing Customer** box, select _GOODFOOD -_     _GoodFood One Restaurant_. 
 
-2. In the **Up to Date** box of the Summary area, select _1/30/2025_. 
+2. In the **Up to Date** box of the Summary area, select _1/30/2026_. 
 
-3. Select the unlabeled check box next to the _Juicer cleaning contract_ you have just created. 
+3. Select the unlabeled check box next to the _Juicer Cleaning Service Contract_ you have just created. 
 
 4. On the form toolbar, click **Process**. 
 
@@ -3098,7 +3110,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
 8. Close the _Invoices and Memos_ and _Service Contracts_ forms. 
 
-#### Step 5: To Run Billing for the First Appointment of the Billing Period 
+#### Step 5: Running Billing for the First Appointment of the Billing Period 
 
  In this step, you will run billing for the first appointment of the billing period and review the generated billing documents. Do the following: 
 
@@ -3112,9 +3124,9 @@ The remainder of the process of target equipment being replaced is identical to 
 
 - **Staff Member** : Cleared 
 
-- **To Scheduled Date** : _2/4/2025_ 
+- **To Scheduled Date** : _2/4/2026_ 
 
-3. In the **Appointment Nbr.** column, click the link of the appointment in the list (the appointment scheduled     for _1/31/2025_ ).     The appointment opens on the _Appointments_ (FS300200) form. 
+3. In the **Appointment Nbr.** column, click the link of the appointment in the list (the appointment scheduled     for _1/30/2026_ ).     The appointment opens on the _Appointments_ (FS300200) form. 
 
 4. On the form toolbar, click **Start**. 
 
@@ -3126,15 +3138,17 @@ The remainder of the process of target equipment being replaced is identical to 
 
 8. On the form toolbar, click **Close**. (You perform this instruction and the remaining instructions on behalf of     an accountant.) 
 
-9. On the form toolbar, click **Run Billing**. 10.On the _Invoices_ (SO303000) form, which opens, notice that the total of the invoice is _0_. Close the form. 
-
-### To Activate the Next Period for the End-Period Billing Contracts 
-
- You can activate the next billing period for a contract billed at the end of the billing period. 
+9. On the form toolbar, click **Run Billing**. 
 
 
 <!-- PAGE_BREAK -->
  Creating Service Contracts | 87 
+
+ 10.On the Invoices (SO303000) form, which opens, notice that the total of the invoice is 0 because the service in the appointment is covered by the service contract and the appointment line is marked as Free Item. 
+
+### To Activate the Next Period for the End-Period Billing Contracts 
+
+ You can activate the next billing period for a contract billed at the end of the billing period. 
 
 #### To Activate the Next Period for a Particular Contract 
 
@@ -3174,15 +3188,15 @@ The remainder of the process of target equipment being replaced is identical to 
 
  In Acumatica ERP, you can activate, cancel, or suspend a service contract. 
 
+
+<!-- PAGE_BREAK -->
+ Creating Service Contracts | 88 
+
 #### Activating a Service Contract with the Dra Status 
 
  When you create a service contract in the system, the contract is automatically assigned the Dra status. When you finish entering the necessary information for the contract, you should activate the contract so that you can generate service orders, appointments, or invoices for it. 
 
  You activate the contract on the Service Contracts (FS305700) form by clicking Activate on the More menu (under Processing ). The system changes the status of the service contract to Active. 
-
-
-<!-- PAGE_BREAK -->
- Creating Service Contracts | 88 
 
 #### Activating a Service Contract with the Suspended Status 
 
@@ -3206,13 +3220,13 @@ The remainder of the process of target equipment being replaced is identical to 
 
  In Acumatica ERP, you can suspend an active contract so that it is no longer active during the time it is suspended. When you suspend the contract, the system deletes any documents that were generated on the suspension date or the dates that are aer it. You cannot generate service orders, appointments, or invoices from contracts with the Suspended status. The suspended contract can then be activated again or canceled. 
 
- To suspend the contract, you open the necessary contract on the Service Contracts (FS305700) form, and on the More menu, click Suspend. The system opens the Suspend Contract dialog box, where you specify the date since which the contract has to be suspended. 
-
- If this date is later than the current date, when you click OK in the dialog box to close the dialog box and return to the form, the system inserts Suspended into the Upcoming Status box and the suspension date into the Effective Until Date box (indicating that the current status is effective until the suspension date). If the suspension date is the same as the current date, when you click OK in the dialog box, the system assigns the Suspended status to the service contract. 
-
 
 <!-- PAGE_BREAK -->
  Creating Service Contracts | 89 
+
+ To suspend the contract, you open the necessary contract on the Service Contracts (FS305700) form, and on the More menu, click Suspend. The system opens the Suspend Contract dialog box, where you specify the date since which the contract has to be suspended. 
+
+ If this date is later than the current date, when you click OK in the dialog box to close the dialog box and return to the form, the system inserts Suspended into the Upcoming Status box and the suspension date into the Effective Until Date box (indicating that the current status is effective until the suspension date). If the suspension date is the same as the current date, when you click OK in the dialog box, the system assigns the Suspended status to the service contract. 
 
 ### Service Contracts: Status Update 
 
@@ -3236,13 +3250,13 @@ The remainder of the process of target equipment being replaced is identical to 
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
 
-#### Searching for a Billing Document 
-
- On the Service Contract Billing Batches (FS306100) form, you can find the list of billing documents generated for the service contracts with the following billing options: End-Period Plus , Beginning-Period Plus and Beginning-Period Fixed. These options are specified in the Billing Type box on the Summary tab of the Service Contracts (FS305700) or Route Service Contracts (FS300800) form. 
-
 
 <!-- PAGE_BREAK -->
  Creating Service Contracts | 90 
+
+#### Searching for a Billing Document 
+
+ On the Service Contract Billing Batches (FS306100) form, you can find the list of billing documents generated for the service contracts with the following billing options: End-Period Plus , Beginning-Period Plus and Beginning-Period Fixed. These options are specified in the Billing Type box on the Summary tab of the Service Contracts (FS305700) or Route Service Contracts (FS300800) form. 
 
 #### Reviewing Appointments Generated from a Service Contract 
 
@@ -3272,11 +3286,11 @@ The remainder of the process of target equipment being replaced is identical to 
 
  The quote report can be emailed immediately aer generation or at any later time. 
 
- For service contracts with billing type settings other than the At Time of Service billing type and the Contract option selected in the Take Prices From box on the Summary tab of the Service Contracts ( Route Service Contracts ) form, for the quote report, the system uses the prices specified on the Stock Items (IN202500) or Non-Stock Items (IN202000) form, in the Default Price box of the Price/Cost tab. Thus, the prices in the quote reports may vary during the contract duration. 
-
 
 <!-- PAGE_BREAK -->
  Creating Service Contracts | 91 
+
+ For service contracts with billing type settings other than the At Time of Service billing type and the Contract option selected in the Take Prices From box on the Summary tab of the Service Contracts ( Route Service Contracts ) form, for the quote report, the system uses the prices specified on the Stock Items (IN202500) or Non-Stock Items (IN202000) form, in the Default Price box of the Price/Cost tab. Thus, the prices in the quote reports may vary during the contract duration. 
 
 #### Viewing Customer's Contract Schedules 
 
@@ -3336,7 +3350,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
  The following activity will walk you through the process of renewing a service contract. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3380,7 +3394,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username, and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select the 1/30/2025 date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select the 1/30/2026 date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
 
 #### Step 1: Creating a Renewable Service Contract 
 
@@ -3396,7 +3410,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
 3. On the **Summary** tab ( **Contract Settings** section), specify the following settings for the contract: 
 
-- **Start Date** : _1/30/2025_ 
+- **Start Date** : _1/30/2026_ 
 
 - **Expiration Type** : _Renewable_ 
 
@@ -3410,13 +3424,13 @@ The remainder of the process of target equipment being replaced is identical to 
 
 6. On the form toolbar, click **Save**. 
 
-7. On the More menu, click **Activate**. The system has inserted _1/30/2025_ in the **Effective From Date** box of the     Summary area. 
+7. On the form toolbar, click **Activate**. The system has inserted _1/30/2026_ in the **Effective From Date** box of the     Summary area. 
 
 #### Step 2: Renewing the Service Contract 
 
  Assume that one year has passed since contract activation, the contract expiration date has come, and you, acting as a service manager, are renewing the service contract. Do the following: 
 
-1. While you are still viewing the service contract, on the More menu, click **Renew**.     The system has updated the dates in the **Renewal Date** and **Expiration Date** boxes. The system has     inserted _1/30/2026_ in the **Renewal Date** box; this is the day aer the previous expiration date. It has also     inserted _1/29/2027_ in the **Expiration Date** box—the date calculated based on the new renewal date and the     period specified in the **Duration** box. 
+1. While you are still viewing the service contract, on the More menu, click **Renew**.     The system has updated the dates in the **Renewal Date** and **Expiration Date** boxes. The system has     inserted _1/30/2027_ in the **Renewal Date** box; this is the day aer the previous expiration date. It has also     inserted _1/29/2028_ in the **Expiration Date** box—the date calculated based on the new renewal date and the     period specified in the **Duration** box. 
 
 2. On the **History** tab, review the list of actions that have been performed with the service contract (see the     following screenshot). 
 
@@ -3430,13 +3444,13 @@ The remainder of the process of target equipment being replaced is identical to 
 
  Suppose that once two years have passed, the customer does not want to prolong the service contract. Thus, you need to mark the contract status as Expired in the system. In the Summary area of the Service Contracts (FS305700) form, notice that the upcoming status of the contract is Expired. To update the status of the contract manually, do the following: 
 
-1. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/29/2027_ ; this is the contract expiration date. 
+1. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date     to _1/29/2028_ ; this is the contract expiration date. 
 
 2. Open the _Process Service Contracts_ (FS501200) form. 
 
 3. In the **Action** box of the Selection area, select _Update to Upcoming Status_. 
 
-4. In the table, select the unlabeled check box in the row of the contract to be updated. 
+4. In the table, select the unlabeled check box in the row of the contract to be updated (the last _Maintenance_     _Contract_ you've created). 
 
 5. Click **Process** on the form toolbar. 
 
@@ -3502,7 +3516,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
  The following activity will walk you through the process of copying a service contract. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3544,7 +3558,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as service manager by using the _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, ensure the     _Service and Equipment Sales Center_ branch under the _SweetLife Fruits & Jams_ company is selected. 
 
@@ -3558,7 +3572,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
 3. On the More menu (under **Other** ), click **Copy**. 
 
-4. In the **Copy** dialog box that opens, specify the start date for the new service contract _02/01/2025_ , and click     **OK**.     The system has opened a new service contract with the _Dra_ status assigned. The system copied     the settings of the original service contract including the summary information (such as a customer,     description, and project), the schedule generated for the contract added on the **Schedules** tab, and the     service included in the contract on the **Services per Period** tab. 
+4. In the **Copy** dialog box that opens, specify the start date for the new service contract _02/01/2026_ , and click     **OK**.     The system has opened a new service contract with the _Dra_ status assigned. The system copied     the settings of the original service contract including the summary information (such as a customer,     description, and project), the schedule generated for the contract added on the **Schedules** tab, and the     service included in the contract on the **Services per Period** tab. 
 
 #### Step 2: Modifying the Settings in the Copied Service Contract 
 
@@ -3582,7 +3596,7 @@ The remainder of the process of target equipment being replaced is identical to 
 
 1. While you are viewing the service contract on the _Service Contracts_ (FS305700) form, on the More menu,     click **Forecast & Print Quote**.     The **Contract Quote** dialog box opens. 
 
-2. In the dialog box, specify the start and end dates for the quote report as _2/2/2025_ for the start date, and     _1/2/2026_ for the end date, and click **OK**.     The system has generated and opened the quote report in the printed view (as the following screenshot     shows). 
+2. In the dialog box, specify the start and end dates for the quote report as _2/2/2026_ for the start date, and     _1/2/2027_ for the end date, and click **OK**.     The system has generated and opened the quote report in the printed view (as the following screenshot     shows). 
 
  Figure: Service Contract Quote report 
 
@@ -3736,25 +3750,25 @@ The remainder of the process of target equipment being replaced is identical to 
 
  To create a manufacturer, do the following: 
 
-1. On the _Manufacturers_ (FS204400) form, add a new record and specify the following settings: 
+1. On the _Manufacturers_ (FS204400) form, click **New Record** and specify the following settings: 
 
-- **Manufacturer ID** : JuiceApp (see Item 1 in the following screenshot) 
+- Summary area (Item 1 in the screenshot below): 
 
-- **Description** : Juice Appliances Co. (Item 2) 
+- **Manufacturer ID** : JuiceApp 
 
-- **Country** (in the **Main Address** section): _US_ (Item 3) 
+- **Description** : Juice Appliances Co. 
 
+- **Main Address** section (Item 2): 
 
-<!-- PAGE_BREAK -->
- Managing Manufacturers | 106 
+- **Address Line 1** : 2150 Lexington Avenue 
 
- Figure: Creation of a manufacturer 
+- **Country** : _US - United States_ 
 
 2. On the form toolbar, click **Save**. 
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 107 
+ Equipment Management Use Cases | 106 
 
 ## Equipment Management Use Cases 
 
@@ -3784,11 +3798,11 @@ The remainder of the process of target equipment being replaced is identical to 
 
 
 <!-- PAGE_BREAK -->
-Equipment Management Use Cases | **108** 
+Equipment Management Use Cases | **107** 
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 109 
+ Equipment Management Use Cases | 108 
 
  In the following sections, you will read about each step of the process. 
 
@@ -3822,7 +3836,7 @@ Equipment Management Use Cases | **108**
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 110 
+ Equipment Management Use Cases | 109 
 
  When the invoice related to the service order is released, the sold model equipment converts to a target equipment, and the system adds a record for the new target equipment entity with the Active status on the Equipment (FS205000) form. 
 
@@ -3848,11 +3862,11 @@ Equipment Management Use Cases | **108**
 
 
 <!-- PAGE_BREAK -->
-Equipment Management Use Cases | **111** 
+Equipment Management Use Cases | **110** 
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 112 
+ Equipment Management Use Cases | 111 
 
  In the following sections, you will read about each step of the process. 
 
@@ -3888,7 +3902,7 @@ Equipment Management Use Cases | **111**
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 113 
+ Equipment Management Use Cases | 112 
 
  The accountant then prepares the invoice (7) by using the Sales Orders (SO301000) form, and processes and releases the invoice on the Invoices (SO303000) form (8). 
 
@@ -3916,13 +3930,13 @@ Equipment Management Use Cases | **111**
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 114 
+ Equipment Management Use Cases | 113 
 
 **_Figure: Selling an optional component of target equipment within a service order_** 
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 115 
+ Equipment Management Use Cases | 114 
 
  In the following sections, you will read about each step of the process. 
 
@@ -3956,7 +3970,7 @@ Equipment Management Use Cases | **111**
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 116 
+ Equipment Management Use Cases | 115 
 
  When the invoices related to the service order is released, the system automatically adds a component with the Active status to the target equipment record on the Components and Warranties tab of the Equipment (FS205000) form. 
 
@@ -3982,7 +3996,7 @@ Equipment Management Use Cases | **111**
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 117 
+ Equipment Management Use Cases | 116 
 
 **_Figure: Selling model equipment and upgrading a default component within a service order_** 
 
@@ -3990,7 +4004,7 @@ In the following sections, you will read about each step of the process.
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 118 
+ Equipment Management Use Cases | 117 
 
 #### Entering an Order 
 
@@ -4024,7 +4038,7 @@ In the following sections, you will read about each step of the process.
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 119 
+ Equipment Management Use Cases | 118 
 
  The accountant then prepares the invoice (7) by using the Sales Orders (SO301000) form, and processes and releases the invoice on the Invoices (SO303000) form (8). 
 
@@ -4052,11 +4066,11 @@ In the following sections, you will read about each step of the process.
 
 
 <!-- PAGE_BREAK -->
-Equipment Management Use Cases | **120** 
+Equipment Management Use Cases | **119** 
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 121 
+ Equipment Management Use Cases | 120 
 
  In the following sections, you will read about each step of the process. 
 
@@ -4090,7 +4104,7 @@ Equipment Management Use Cases | **120**
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 122 
+ Equipment Management Use Cases | 121 
 
  When the invoice related to the service order is released, the system adds a record for the new target equipment entity on the Equipment (FS205000) form and changes the status of replaced target equipment entity to Disposed on the same form. 
 
@@ -4116,13 +4130,13 @@ Equipment Management Use Cases | **120**
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 123 
+ Equipment Management Use Cases | 122 
 
 **_Figure: Replacing a component of target equipment_** 
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 124 
+ Equipment Management Use Cases | 123 
 
  In the following sections, you will read about each step of the process. 
 
@@ -4156,7 +4170,7 @@ Equipment Management Use Cases | **120**
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 125 
+ Equipment Management Use Cases | 124 
 
  When the invoice related to the service order is released, the system modifies a record for the target equipment entity on the Equipment (FS205000) form. That is, the system changes the status of replaced component to Disposed and adds a record for a new component on the Components and Warranties tab. 
 
@@ -4182,13 +4196,13 @@ Equipment Management Use Cases | **120**
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 126 
+ Equipment Management Use Cases | 125 
 
 **_Figure: Selling a stock item that do not require recording in Equipment Management_** 
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 127 
+ Equipment Management Use Cases | 126 
 
  In the following sections, you will read about each step of the process 
 
@@ -4224,13 +4238,13 @@ Equipment Management Use Cases | **120**
 
 
 <!-- PAGE_BREAK -->
- Equipment Management Use Cases | 128 
+ Equipment Management Use Cases | 127 
 
 When the invoice related to the service order is released, the system does not add any records on the _Equipment_ (FS205000) form. 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 129 
+ Appendix | 128 
 
 ## Appendix 
 
@@ -4270,37 +4284,105 @@ When the invoice related to the service order is released, the system does not a
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 129 
+
+ Figure: Report form 
+
+ Switching reports to the Modern UI will be available in a future release. 
+
+#### Report Form Toolbar and More Menu 
+
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
+
+ Element Description 
+
+ Cancel Clears any changes you have made on the report form and restores the default settings. 
+
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
+ Run Report Initiates data collection for the report and displays the generated report. 
+
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
+
+ Save Template As 
+
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
 
 <!-- PAGE_BREAK -->
  Appendix | 130 
 
- Figure: Report form 
+ Element Description 
 
-1. Report form toolbar 
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
 
-2. Selection area 
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
 
-3. Details area 
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
 
-#### Report Form Toolbar 
+**_Table: The Save Template Dialog Box_** 
 
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
 
- Button Description 
+ Element Description 
 
- Cancel Clears any changes you have made on the report form and restores the default settings. 
+ Template The name of the template. 
 
- Run Report Initiates data collection for the report and displays the generated report. 
+ Default A check box that you select to mark the template as the default one for you. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Shared A check box that you select to indicate that the template is shared with other users. 
 
- Remove Template 
+ Shared templates are marked with the Group icon to help you identify them quickly. 
 
- Removes the previously saved template. 
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
 
- This button is available only when a template is specified on the report form. 
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 131 
 
 #### Report Toolbar 
 
@@ -4309,12 +4391,6 @@ When the invoice related to the service order is released, the system does not a
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 131 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -4340,25 +4416,77 @@ When the invoice related to the service order is released, the system does not a
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
  Appendix | 132 
 
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
+
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 133 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -4376,91 +4504,45 @@ When the invoice related to the service order is released, the system does not a
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 133 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
  Appendix | 134 
 
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
+
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -4479,6 +4561,12 @@ When the invoice related to the service order is released, the system does not a
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 135 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -4502,10 +4590,6 @@ When the invoice related to the service order is released, the system does not a
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 135 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -4520,13 +4604,19 @@ When the invoice related to the service order is released, the system does not a
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 136 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -4544,10 +4634,6 @@ When the invoice related to the service order is released, the system does not a
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 136 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -4562,6 +4648,10 @@ When the invoice related to the service order is released, the system does not a
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 137 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -4570,11 +4660,7 @@ When the invoice related to the service order is released, the system does not a
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 137 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -4600,6 +4686,12 @@ When the invoice related to the service order is released, the system does not a
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 138 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -4607,12 +4699,6 @@ When the invoice related to the service order is released, the system does not a
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 138 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -4640,19 +4726,19 @@ When the invoice related to the service order is released, the system does not a
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 139 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 139 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -4662,13 +4748,15 @@ When the invoice related to the service order is released, the system does not a
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 140 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -4679,10 +4767,6 @@ When the invoice related to the service order is released, the system does not a
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 140 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -4696,6 +4780,10 @@ When the invoice related to the service order is released, the system does not a
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 141 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -4706,11 +4794,11 @@ When the invoice related to the service order is released, the system does not a
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 141 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 142 
 
 #### Unavailable Commands on the More Menu 
 
@@ -4722,17 +4810,13 @@ When the invoice related to the service order is released, the system does not a
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 142 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
  Appendix | 143 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -4744,7 +4828,11 @@ When the invoice related to the service order is released, the system does not a
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 144 
 
  Figure: Table toolbar 
 
@@ -4764,17 +4852,17 @@ When the invoice related to the service order is released, the system does not a
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 144 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 145 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -4804,13 +4892,13 @@ When the invoice related to the service order is released, the system does not a
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 145 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 146 
 
  Element Description 
 
@@ -4854,15 +4942,15 @@ When the invoice related to the service order is released, the system does not a
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 146 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 147 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

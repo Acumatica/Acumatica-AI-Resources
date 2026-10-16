@@ -2,7 +2,7 @@
 
 # Accounts Receivable 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -58,11 +58,11 @@
 
  Mailings for Customers: Implementation Checklist.......................................................................................41 
 
- Mailings for Customers: Mass Processing.......................................................................................................41 
+ Mailings for Customers: Mass Processing.......................................................................................................42 
 
  Mailings for Customers: To Set Up a Mailing for a Customer Class...............................................................42 
 
- Mailings for Customers: To Set Up a Mailing for a Customer........................................................................ 44 
+ Mailings for Customers: To Set Up a Mailing for a Customer........................................................................ 45 
 
  To Set Up a Mailing About Credit Card Expiration......................................................................................... 47 
 
@@ -238,201 +238,203 @@
 
  Prepayment Invoices: Correction of Prepayment Invoices......................................................................... 167 
 
- Prepayment Invoices: Generated Transactions........................................................................................... 168 
+ Prepayment Invoices: Effortless Refunds.....................................................................................................168 
 
- Prepayment Invoices: Related Reports and Inquiry Forms.........................................................................170 
+ Prepayment Invoices: Generated Transactions........................................................................................... 173 
 
-**Processing Refunds............................................................................................................................. 172** 
+ Prepayment Invoices: Related Reports and Inquiry Forms.........................................................................175 
 
- Refunds: General Information.......................................................................................................................172 
+**Processing Refunds............................................................................................................................. 177** 
 
- Refunds: Payment Receipts...........................................................................................................................175 
+ Refunds: General Information.......................................................................................................................177 
 
- Refunds: Implementation Checklist............................................................................................................. 177 
+ Refunds: Payment Receipts...........................................................................................................................180 
 
- Refunds: Generated Transactions.................................................................................................................178 
+ Refunds: Implementation Checklist............................................................................................................. 182 
 
- Refunds: To Create a Refund and Apply a Credit Memo to It...................................................................... 178 
+ Refunds: Generated Transactions.................................................................................................................183 
 
- Refunds: To Void a Refund............................................................................................................................ 181 
+ Refunds: To Create a Refund and Apply a Credit Memo to It...................................................................... 183 
 
- Refunds: To Create and Partially Apply a Refund........................................................................................ 182 
+ Refunds: To Void a Refund............................................................................................................................ 186 
 
- Refunds: Related Reports and Forms........................................................................................................... 185 
+ Refunds: To Create and Partially Apply a Refund........................................................................................ 187 
 
-**Processing Credit Card Refunds........................................................................................................... 187** 
+ Refunds: Related Reports and Forms........................................................................................................... 190 
 
- Credit Card Refunds: General Information...................................................................................................187 
+**Processing Credit Card Refunds........................................................................................................... 192** 
 
- Credit Card Refunds: Implementation Checklist......................................................................................... 190 
+ Credit Card Refunds: General Information...................................................................................................192 
 
- Credit Card Refunds: Generated Transactions.............................................................................................192 
+ Credit Card Refunds: Implementation Checklist......................................................................................... 195 
 
- Credit Card Refunds: Process Activity.......................................................................................................... 192 
+ Credit Card Refunds: Generated Transactions.............................................................................................197 
 
- Credit Card Refunds: Related Report and Forms.........................................................................................194 
+ Credit Card Refunds: Process Activity.......................................................................................................... 197 
 
-**Auto-Applying Payments to Documents................................................................................................ 196** 
+ Credit Card Refunds: Related Report and Forms.........................................................................................199 
 
- Auto-Applying Payments: General Information........................................................................................... 196 
+**Auto-Applying Payments to Documents................................................................................................ 201** 
 
- Auto-Applying Payments: Auto-Application to Documents of Child Accounts...........................................198 
+ Auto-Applying Payments: General Information........................................................................................... 201 
 
- Auto-Applying Payments: Implementation Checklist..................................................................................198 
+ Auto-Applying Payments: Auto-Application to Documents of Child Accounts...........................................203 
 
- Auto-Applying Payments: Process Activity...................................................................................................199 
+ Auto-Applying Payments: Implementation Checklist..................................................................................203 
 
-**Processing AR Documents with Retainage.............................................................................................203** 
+ Auto-Applying Payments: Process Activity...................................................................................................204 
 
- Configuration of the Default Retainage Settings in the Accounts Receivable Subledger...........................203 
+**Processing AR Documents with Retainage.............................................................................................208** 
 
- Processing Flow of AR Documents with Retainage......................................................................................205 
+ Configuration of the Default Retainage Settings in the Accounts Receivable Subledger...........................208 
 
- Consolidated Retainage Documents............................................................................................................ 207 
+ Processing Flow of AR Documents with Retainage......................................................................................210 
 
- Examples of Processing Invoices with Retainage........................................................................................ 209 
+ Consolidated Retainage Documents............................................................................................................ 212 
 
- AR Retainage Adjustment Cases................................................................................................................... 212 
+ Examples of Processing Invoices with Retainage........................................................................................ 214 
 
- To Enter an Invoice with Retainage (with Items' Quantities and Unit Costs)............................................. 218 
+ AR Retainage Adjustment Cases................................................................................................................... 217 
 
- To Enter an Invoice with Retainage (with Line Totals).................................................................................219 
+ To Enter an Invoice with Retainage (with Items' Quantities and Unit Costs)............................................. 223 
 
- To Enter a Credit Memo with Retainage.......................................................................................................221 
+ To Enter an Invoice with Retainage (with Line Totals).................................................................................224 
 
- To Create a Retainage Document (Release Retainage)................................................................................222 
+ To Enter a Credit Memo with Retainage.......................................................................................................226 
 
- To Create Multiple Retainage Documents (Release Retainage for Multiple Documents)...........................223 
+ To Create a Retainage Document (Release Retainage)................................................................................227 
 
- To Release Retainage by the Same Percent for Multiple Lines................................................................... 224 
+ To Create Multiple Retainage Documents (Release Retainage for Multiple Documents)...........................228 
 
 
 <!-- PAGE_BREAK -->
  Contents | 6 
 
-**Applying Payments to Particular Lines of AR Documents........................................................................226** 
+ To Release Retainage by the Same Percent for Multiple Lines................................................................... 229 
 
- Applying AR Payments to Particular Lines: General Information................................................................226 
+**Applying Payments to Particular Lines of AR Documents........................................................................231** 
 
- Applying AR Payments to Particular Lines: Implementation Checklist...................................................... 228 
+ Applying AR Payments to Particular Lines: General Information................................................................231 
 
- Applying AR Payments to Particular Lines: Generated Transactions.......................................................... 230 
+ Applying AR Payments to Particular Lines: Implementation Checklist...................................................... 233 
 
- Applying AR Payments to Particular Lines: Process Activity....................................................................... 231 
+ Applying AR Payments to Particular Lines: Generated Transactions.......................................................... 235 
 
- To Enter an Invoice with Retainage that Can Be Paid by Line.....................................................................234 
+ Applying AR Payments to Particular Lines: Process Activity....................................................................... 236 
 
- To Apply a Credit Memo Paid by Line to an Invoice.................................................................................... 235 
+ To Enter an Invoice with Retainage that Can Be Paid by Line.....................................................................239 
 
-**Processing Interbranch Invoices Without Balancing...............................................................................237** 
+ To Apply a Credit Memo Paid by Line to an Invoice.................................................................................... 240 
 
- Interbranch Invoices Without Balancing: General Information.................................................................. 237 
+**Processing Interbranch Invoices Without Balancing...............................................................................242** 
 
- Interbranch Invoices Without Balancing: Implementation Checklist......................................................... 237 
+ Interbranch Invoices Without Balancing: General Information.................................................................. 242 
 
- Interbranch Invoices Without Balancing: Generated Transactions.............................................................239 
+ Interbranch Invoices Without Balancing: Implementation Checklist......................................................... 242 
 
- Interbranch Invoices Without Balancing: Process Activity.......................................................................... 240 
+ Interbranch Invoices Without Balancing: Generated Transactions.............................................................244 
 
- Interbranch Invoices Without Balancing: Reports and Inquiries................................................................ 243 
+ Interbranch Invoices Without Balancing: Process Activity.......................................................................... 245 
 
-**Processing Interbranch Invoices with Balancing.................................................................................... 245** 
+ Interbranch Invoices Without Balancing: Reports and Inquiries................................................................ 248 
 
- Interbranch Invoices with Balancing: General Information........................................................................ 245 
+**Processing Interbranch Invoices with Balancing.................................................................................... 250** 
 
- Interbranch Invoices with Balancing: Implementation Checklist............................................................... 245 
+ Interbranch Invoices with Balancing: General Information........................................................................ 250 
 
- Interbranch Invoices with Balancing: Generated Transactions...................................................................247 
+ Interbranch Invoices with Balancing: Implementation Checklist............................................................... 250 
 
- Interbranch Invoices with Balancing: Process Activity................................................................................ 248 
+ Interbranch Invoices with Balancing: Generated Transactions...................................................................252 
 
- Interbranch Invoices with Balancing: Reports and Inquiries...................................................................... 251 
+ Interbranch Invoices with Balancing: Process Activity................................................................................ 253 
 
-**Processing an Invoice with Combined Subaccounts............................................................................... 253** 
+ Interbranch Invoices with Balancing: Reports and Inquiries...................................................................... 256 
 
- Invoice with Combined Subaccounts: General Information....................................................................... 253 
+**Processing an Invoice with Combined Subaccounts............................................................................... 258** 
 
- Invoice with Combined Subaccounts: Implementation Checklist.............................................................. 253 
+ Invoice with Combined Subaccounts: General Information....................................................................... 258 
 
- Invoice with Combined Subaccounts: Generated Transactions..................................................................255 
+ Invoice with Combined Subaccounts: Implementation Checklist.............................................................. 258 
 
- Invoice with Combined Subaccounts: Process Activity............................................................................... 255 
+ Invoice with Combined Subaccounts: Generated Transactions..................................................................260 
 
- Invoice with Combined Subaccounts: Related Reports and Inquiries........................................................257 
+ Invoice with Combined Subaccounts: Process Activity............................................................................... 260 
 
-**Processing Intercompany Sales............................................................................................................259** 
+ Invoice with Combined Subaccounts: Related Reports and Inquiries........................................................262 
 
- Intercompany Sales: General Information................................................................................................... 259 
+**Processing Intercompany Sales............................................................................................................264** 
 
- Intercompany Sales: Implementation Checklist..........................................................................................262 
+ Intercompany Sales: General Information................................................................................................... 264 
 
- Intercompany Sales: Generated Transactions............................................................................................. 263 
+ Intercompany Sales: Implementation Checklist..........................................................................................267 
 
- Intercompany Sales: To Process an Intercompany Invoice......................................................................... 264 
+ Intercompany Sales: Generated Transactions............................................................................................. 268 
 
- Intercompany Sales: To Pay an Intercompany Bill...................................................................................... 267 
+ Intercompany Sales: To Process an Intercompany Invoice......................................................................... 269 
 
- Intercompany Sales: To Pay an Intercompany Invoice................................................................................269 
+ Intercompany Sales: To Pay an Intercompany Bill...................................................................................... 272 
 
- Intercompany Sales: Mass Processing..........................................................................................................270 
+ Intercompany Sales: To Pay an Intercompany Invoice................................................................................274 
 
-**Processing Credit Card Payments.........................................................................................................272** 
+ Intercompany Sales: Mass Processing..........................................................................................................275 
 
- Card Payments............................................................................................................................................... 272 
+**Processing Credit Card Payments.........................................................................................................277** 
 
- Automatic Payment Collection..................................................................................................................... 277 
+ Card Payments............................................................................................................................................... 277 
 
 
 <!-- PAGE_BREAK -->
  Contents | 7 
 
- Credit Card Synchronization with Acumatica Payments.............................................................................280 
+ Automatic Payment Collection..................................................................................................................... 282 
 
- Import of Credit Card Refunds......................................................................................................................281 
+ Credit Card Synchronization with Acumatica Payments.............................................................................285 
 
- To Charge Customers for Invoices................................................................................................................ 282 
+ Import of Credit Card Refunds......................................................................................................................286 
 
- To Enter a Payment from a New Credit Card............................................................................................... 284 
+ To Charge Customers for Invoices................................................................................................................ 287 
 
- To Synchronize Credit Cards from Acumatica Payments to Acumatica ERP.............................................. 284 
+ To Enter a Payment from a New Credit Card............................................................................................... 289 
 
- To Schedule Automatic Loading of Card Data from External Processing Centers......................................285 
+ To Synchronize Credit Cards from Acumatica Payments to Acumatica ERP.............................................. 289 
 
- To Schedule Validation of Card Payments................................................................................................... 287 
+ To Schedule Automatic Loading of Card Data from External Processing Centers......................................290 
 
- To Process a Transaction Held for Review by the Processing Center......................................................... 289 
+ To Schedule Validation of Card Payments................................................................................................... 292 
 
- To Deactivate Expired Credit Cards.............................................................................................................. 289 
+ To Process a Transaction Held for Review by the Processing Center......................................................... 294 
 
-**Managing Commissions....................................................................................................................... 291** 
+ To Deactivate Expired Credit Cards.............................................................................................................. 294 
 
- Managing Commissions: General Information.............................................................................................291 
+**Managing Commissions....................................................................................................................... 296** 
 
- Managing Commissions: Implementation Checklist................................................................................... 293 
+ Managing Commissions: General Information.............................................................................................296 
 
- Managing Commissions: Process Activity.................................................................................................... 294 
+ Managing Commissions: Implementation Checklist................................................................................... 298 
 
- Managing Commissions: Related Inquiry Form........................................................................................... 298 
+ Managing Commissions: Process Activity.................................................................................................... 299 
 
-**Performing Period-End Procedures...................................................................................................... 299** 
+ Managing Commissions: Related Inquiry Form........................................................................................... 303 
 
- Period-End Procedures: General Information..............................................................................................299 
+**Performing Period-End Procedures...................................................................................................... 304** 
 
- Period-End Procedures: Process Activity..................................................................................................... 299 
+ Period-End Procedures: General Information..............................................................................................304 
 
- To Reopen a Financial Period in Accounts Receivable................................................................................ 301 
+ Period-End Procedures: Process Activity..................................................................................................... 304 
 
-**Appendix............................................................................................................................................ 303** 
+ To Reopen a Financial Period in Accounts Receivable................................................................................ 306 
 
- Reports........................................................................................................................................................... 303 
+**Appendix............................................................................................................................................ 308** 
 
- Report Form.......................................................................................................................................... 303 
+ Reports........................................................................................................................................................... 308 
 
- Report....................................................................................................................................................308 
+ Report Form.......................................................................................................................................... 308 
 
- Form Toolbar and More Menu.......................................................................................................................310 
+ Report....................................................................................................................................................315 
 
- Table Toolbar................................................................................................................................................. 317 
+ Form Toolbar and More Menu.......................................................................................................................316 
+
+ Table Toolbar................................................................................................................................................. 323 
 
 
 <!-- PAGE_BREAK -->
@@ -454,9 +456,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -874,11 +876,11 @@
 <!-- PAGE_BREAK -->
  Creating a Customer | 20 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -912,21 +914,23 @@
 
 - **Customer ID** : PRIME 
 
+- **Account Name** : Prime Cafe 
+
+ The Legal Name box is filled in by default with the same value. 
+
 - **Customer Status** : _Active_ (selected automatically) 
 
-- **Customer Class** : _DEFAULT_ (selected automatically) 
-
-3. In the **Account Info** section on the **General** tab, specify Prime Cafe in the **Account Name** box. 
+3. On the **General** tab, make sure that **Customer Class** is set to _DEFAULT_. 
 
 4. On the form toolbar, click **Save**. 
-
-#### Step 2: Specifying Contact Information and Address 
-
- To specify contact information and address for the customer, do the following: 
 
 
 <!-- PAGE_BREAK -->
  Creating a Customer | 21 
+
+#### Step 2: Specifying Contact Information and Address 
+
+ To specify contact information and address for the customer, do the following: 
 
 1. On the **General** tab, specify the following settings in the **Primary Contact** section: 
 
@@ -948,23 +952,17 @@
 
 3. On the form toolbar, click **Save**. 
 
-#### Step 3: Reviewing the Statement Cycle Settings 
+#### Step 3: Reviewing the Statement Cycle 
 
- To review the customer's statement cycle settings, do the following: 
+ To review the customer's statement cycle, do the following: 
 
 1. In the **Financial Settings** section on the **Financial** tab, in the **Terms** box, make sure that _30D_ is selected. 
 
-2. In the **Statement Cycle ID** box, make sure that _EOM_ (End of Month) is selected. 
+2. In the **Statement Cycle ID** box, make sure that _EOM - End of Month_ is selected. 
 
-3. Click the Edit button next to the **Statement Cycle ID** box. The _Statement Cycles_ (AR202800) form opens in a     pop-up window. 
+3. In the **Credit Verification Rules** section, select _Disabled_ in the **Credit Verification** box. 
 
-4. Review the statement cycle settings for the customer on the _Statement Cycles_ form. 
-
-5. Close the pop-up window with the _Statement Cycles_ form. 
-
-6. On the _Customers_ (AR303000) form, in the **Credit Verification** box ( **Credit Verification Rules** section), select     _Disabled_. 
-
-7. On the form toolbar, click **Save**. 
+4. On the form toolbar, click **Save**. 
 
 #### Step 4: Reviewing the Default Customer Information 
 
@@ -982,11 +980,11 @@
 
  This topic describes the reports, inquiries, and forms you may review to gather information about customers. 
 
+ If you do not see a report or inquiry, this could mean that you have signed in to the system with a user account that does not have access rights to the form. Sign in as the admin user, or contact your system administrator. 
+
 
 <!-- PAGE_BREAK -->
  Creating a Customer | 22 
-
- If you do not see a report or inquiry, this could mean that you have signed in to the system with a user account that does not have access rights to the form. Sign in as the admin user, or contact your system administrator. 
 
 #### Reviewing Customer Documents 
 
@@ -1364,13 +1362,13 @@
 
  The following activity will walk you through the process of setting up the parent-child relationship between three existing customer accounts. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that Food Clever, one of SweetLife customers, has acquired Blue Cafe and Cafe French Bun, which are also SweetLife customers. That is, Food Clever is now the parent company and Blue Cafe and Cafe French Bun are its subsidies. The companies have a consolidated balance and need to receive consolidated customer statements from SweetLife, but they do not share a credit policy. 
 
- Further suppose that Blue Cafe and Cafe French Bun bought training courses from SweetLife in January 2025. In February, Food Clever made a payment for both training courses. 
+ Further suppose that Blue Cafe and Cafe French Bun bought training courses from SweetLife in January 2026. In February, Food Clever made a payment for both training courses. 
 
  Acting as the chief accountant of SweetLife Fruits & Jams, you need to update the settings of the customer accounts in the system, create the invoices for the child accounts, enter a payment from the parent account, and generate a consolidated report. 
 
@@ -1404,7 +1402,7 @@
 <!-- PAGE_BREAK -->
  Managing Parent-Child Relationships | 33 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -1468,7 +1466,7 @@
 <!-- PAGE_BREAK -->
  Managing Parent-Child Relationships | 34 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
 - **Customer** : _BLUECAFE_ 
 
@@ -1488,7 +1486,7 @@
 
 - **Type** : _Invoice_ 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
 - **Customer** : _FRBUN_ 
 
@@ -1516,7 +1514,7 @@
 
 - **Customer** : _FOODCLVR_ 
 
-- **Application Date** : _2/13/2025_ 
+- **Application Date** : _2/13/2026_ 
 
 - **Description** : Training courses 
 
@@ -1550,7 +1548,7 @@
 
 - **Company/Branch** : _HEADOFFICE_ 
 
-- **Financial Period** : _01-2025_ 
+- **Financial Period** : _01-2026_ 
 
 - **Customer** : _FOODCLVR_ 
 
@@ -1736,6 +1734,10 @@
 
  INVOICE To send customer invoices To generate emails about multiple invoices and memos, use the Print/Email AR Documents (AR508000) form. To send a particular invoice or a memo, use the Invoices and Memos (AR301000) form. 
 
+ INVOICE MULTIPLE To send multiple invoices in one email 
+
+ To create one email per customer with multiple invoices attached, select the Send Documents in One Email check box on the Print/ Email AR Documents form. 
+
  STATEMENT To inform customers about their balances with your organization 
 
  To generate emails for multiple statements or a single statement, use the Print Statements (AR503500) form. 
@@ -1744,15 +1746,15 @@
 
  To generate emails for multiple statements or a single statement in multicurrency format, use the Print Statements form. 
 
- DUNNINGLETTER To inform customers and your employees (users) about past due balances of customers 
-
- To generate emails with dunning letters, use the Print/Release Dunning Letters (AR522000) form. 
-
 
 <!-- PAGE_BREAK -->
  Configuring Predefined Mailings for Customers | 40 
 
  Mailing Purpose Usage 
+
+ DUNNINGLETTER To inform customers and your employees (users) about past due balances of customers 
+
+ To generate emails with dunning letters, use the Print/Release Dunning Letters (AR522000) form. 
 
  PAYMENTNOTICE To inform vendors after generating electronic funds transfer (EFT) files. 
 
@@ -1770,9 +1772,7 @@ The following mailings are available for configuration on the **Mailing & Printi
 
  For multiple orders, to generate the emails, use the Print/Email Orders (SO502000) form. To generate an email for a specific order, use the Sales Orders Preferences (SO101000) form. 
 
-##### COMMERCIAL IN
-
-##### VOICE 
+ COMMERCIAL INVOICE 
 
  To inform customers about commercial invoices 
 
@@ -1786,13 +1786,23 @@ The following mailings are available for configuration on the **Mailing & Printi
 
  To generate the emails for multiple quotes, use the Print/Email Orders form. To generate an email for a particular quote, use the Sales Orders (SO301000) form. 
 
+ QUOTE MULTIPLE To send multiple quotes in one email 
+
+ To create one email per customer with multiple quotes attached, select the Send Documents in One Email check box on the Print/Email Orders form. 
+
  SALES ORDER To inform customers about open sales orders 
 
- To generate the emails for multiple orders, use the Print/Email Orders (SO502000) form. To generate an email for a specific order, use the Sales Orders form. 
+ To generate the emails for multiple orders, use the Print/Email Orders form. To generate an email for a specific order, use the Sales Orders form. 
 
-##### SALES ORDER PAY 
+##### SALES ORDER 
 
-##### LINK 
+##### MULTIPLE 
+
+ To send multiple sales orders in one email 
+
+ To create one email per customer with multiple sales orders attached, select the Send Documents in One Email check box on the Print/Email Orders form. 
+
+ SALES ORDER PAY LINK 
 
  To send customers an email message with the link that can be used to make a payment. 
 
@@ -1802,13 +1812,21 @@ The following mailings are available for configuration on the **Mailing & Printi
 
  To email one or more shipment confirmations, use the Process Shipments form. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Predefined Mailings for Customers | 41 
+
+ Mailing Purpose Usage 
+
  SO INVOICE To inform customers that their invoices are ready for release 
 
  To generate the emails for multiple sales invoices, use the Process Invoices and Memos (SO505000) form. To generate an email for a particular invoice or a memo, use the Sales Orders form. 
 
+ SO INVOICE MULTIPLE 
 
-<!-- PAGE_BREAK -->
- Configuring Predefined Mailings for Customers | 41 
+ To send multiple SO invoices in one email 
+
+ To create one email per customer with multiple SO invoices attached, select the Send Documents in One Email check box on the Process Invoices and Memos form. 
 
 ### Mailings for Customers: Implementation Checklist 
 
@@ -1842,17 +1860,15 @@ The following mailings are available for configuration on the **Mailing & Printi
 
  To make sure that all configuration has been performed correctly, we recommend that in your system, you perform instructions similar to those described in Mailings for Customers: To Set Up a Mailing for a Customer Class and Mailings for Customers: To Set Up a Mailing for a Customer. 
 
-### Mailings for Customers: Mass Processing 
-
- You can specify how the customer prefers to receive invoices and statements—printed and sent through postal mail, or sent electronically by email. Customer media type preferences also affect documents' availability for mass processing. By using the Customer Classes (AR201000) form, you can specify these preferences on the customer class level, which provides default settings for customers of the class, as the following steps describe. (You can override these default settings for each customer individually.) 
-
- If a document has already been printed or emailed, it is not listed on the mass processing forms. The system checks the values of the Printed and Emailed attributes for a document when it builds the list for mass processing, and the document is considered printed or emailed if the corresponding check box is selected. You can view the current 
-
 
 <!-- PAGE_BREAK -->
  Configuring Predefined Mailings for Customers | 42 
 
- values of these attributes on the Financial tab of an invoice, in the Print and Email Options area. Attributes are affected only by respective actions performed on the Print/Email AR Documents (AR508000) form. 
+### Mailings for Customers: Mass Processing 
+
+ You can specify how the customer prefers to receive invoices and statements—printed and sent through postal mail, or sent electronically by email. Customer media type preferences also affect documents' availability for mass processing. By using the Customer Classes (AR201000) form, you can specify these preferences on the customer class level, which provides default settings for customers of the class, as the following steps describe. (You can override these default settings for each customer individually.) 
+
+ If a document has already been printed or emailed, it is not listed on the mass processing forms. The system checks the values of the Printed and Emailed attributes for a document when it builds the list for mass processing, and the document is considered printed or emailed if the corresponding check box is selected. You can view the current values of these attributes on the Financial tab of an invoice, in the Print and Email Options area. Attributes are affected only by respective actions performed on the Print/Email AR Documents (AR508000) form. 
 
  You use the Print/Email AR Documents form to email multiple invoices, memos, and other AR documents at a time. On this form, you select Email in the Action box, select the dates and other needed settings, and click Process or Process All on the form toolbar. 
 
@@ -1860,7 +1876,7 @@ The following mailings are available for configuration on the **Mailing & Printi
 
  The following activity will walk you through the process of setting up a mailing for a customer class. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1880,7 +1896,13 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 #### Process Overview 
 
- In this activity, you will first review the settings on the Mailing & Printing tab of the Sales Orders Preferences (SO101000) form. On the Customer Classes (AR201000) form, you will set up a mailing for customers of a particular customer class. On the Sales Orders (SO301000) form, you will create and email a sales order. Finally, on the Email Activity (CR306016) form, you will review the email that was automatically generated by the system based on the specified mailing settings. 
+ In this activity, you will first review the settings on the Mailing & Printing tab of the Sales Orders Preferences (SO101000) form. On the Customer Classes (AR201000) form, you will set up a mailing for customers of a particular customer class. On the Sales Orders (SO301000) form, you will create and email a sales order. Finally, on the Email 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Predefined Mailings for Customers | 43 
+
+ Activity (CR306016) form, you will review the email that was automatically generated by the system based on the specified mailing settings. 
 
 #### System Preparation 
 
@@ -1889,10 +1911,6 @@ The following mailings are available for configuration on the **Mailing & Printi
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as Kimberly Gibbs by using     the _gibbs_ username and the _123_ password. 
 
 2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to today’s date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Predefined Mailings for Customers | 43 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -1936,6 +1954,10 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 - **Contact Type** : _Account Email_ 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Predefined Mailings for Customers | 44 
+
 - **Format** : _PDF_ (inserted by default) 
 
 - **Add To** : _To_ (inserted by default) 
@@ -1953,10 +1975,6 @@ The following mailings are available for configuration on the **Mailing & Printi
 - **Add To** : _To_ (inserted by default) 
 
 8. On the form toolbar, click **Save**. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Predefined Mailings for Customers | 44 
 
 #### Step 3: Creating a Sales Order 
 
@@ -2002,17 +2020,17 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 3. Review the email that has been generated based on the _SalesOrderNotification_ template, which you selected     for the customer class in Step 2. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Predefined Mailings for Customers | 45 
+
  In a production environment, to process the email, you would select Process on the More menu of the Email Activity form and then click Send. 
 
 ### Mailings for Customers: To Set Up a Mailing for a Customer 
 
  The following activity will walk you through the process of setting up a mailing for a particular customer. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Predefined Mailings for Customers | 45 
-
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2048,6 +2066,10 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 1. Open the _Accounts Receivable Preferences_ (AR101000) form. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Predefined Mailings for Customers | 46 
+
 2. On the **Mailing & Printing** tab, make sure that the **Active** check box is selected for the _INVOICE_ mailing ID.     This indicates that emails can be sent for the mailing. 
 
 #### Step 2: Setting Up a Mailing for a Customer 
@@ -2057,10 +2079,6 @@ The following mailings are available for configuration on the **Mailing & Printi
 1. Open the _Customers_ (AR303000) form. 
 
 2. In the **Customer ID** box, select _CAKEADO_. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Predefined Mailings for Customers | 46 
 
 3. On the **Billing** tab, select the **Send Invoices by Email** check box. 
 
@@ -2124,6 +2142,10 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 - **Ext. Price** : 189 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Predefined Mailings for Customers | 47 
+
 4. On the form toolbar, click **Save** to save your changes. 
 
 5. On the form toolbar, click **Remove Hold** and then click **Release** to release the invoice. 
@@ -2133,10 +2155,6 @@ The following mailings are available for configuration on the **Mailing & Printi
 #### Step 4: Reviewing the Email Generated by the System 
 
  To review the email that has been generated by the system for the AR invoice, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Configuring Predefined Mailings for Customers | 47 
 
 1. While you are still on the _Invoices and Memos_ (AR301000) form with the invoice opened, click **Activities** on     the form title bar. 
 
@@ -2168,13 +2186,15 @@ The following mailings are available for configuration on the **Mailing & Printi
 
  The Branch column is read-only. If a branch was selected for the mailing on the Accounts Receivable Preferences (AR101000) form, this branch is associated with the mailing for this customer. 
 
- c. In the Email Account column, select the email account the mailing is to be sent from. d. In the Notification Template column, select the CCARDEXPIRATION notification template, which will be used for mailing body. e. Select the Active check box for the mailing. 
-
-4. In the **Recipients** table, add the types of contacts to receive notifications about card expiration. The system     automatically loads an actual email address that corresponds to the added contact type. Make sure the     contact for mailing is active, and specify whether the contact should receive a blind carbon copy of the     emails that will be generated for this mailing. 
+ c. In the Email Account column, select the email account the mailing is to be sent from. 
 
 
 <!-- PAGE_BREAK -->
  Configuring Predefined Mailings for Customers | 48 
+
+ d. In the Notification Template column, select the CCARDEXPIRATION notification template, which will be used for mailing body. e. Select the Active check box for the mailing. 
+
+4. In the **Recipients** table, add the types of contacts to receive notifications about card expiration. The system     automatically loads an actual email address that corresponds to the added contact type. Make sure the     contact for mailing is active, and specify whether the contact should receive a blind carbon copy of the     emails that will be generated for this mailing. 
 
  You are configuring the list of recipients for the currently selected mailing. Check that the respective mailing row is highlighted when you are configuring the list of recipients. 
 
@@ -2458,17 +2478,17 @@ The following mailings are available for configuration on the **Mailing & Printi
 
  The following activity will walk you through the process of creating a new non-stock item. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
 #### Story 
 
- Suppose that SweetLife Fruits & Jams company pays rent for its office facilities, which is a fixed amount paid every month. The amount the company pays is $4,800 a month starting from 1/30/2025. To make creation of documents easier for accountants, a new non-stock item for rent should be available in the system. 
+ Suppose that SweetLife Fruits & Jams company pays rent for its office facilities, which is a fixed amount paid every month. The amount the company pays is $4,800 a month starting from 1/30/2026. To make creation of documents easier for accountants, a new non-stock item for rent should be available in the system. 
 
  Acting as a SweetLife accountant, you need to create the new non-stock item and specify the needed settings. 
 
@@ -2534,11 +2554,11 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 - **Pending Cost** : 4800 
 
-- **Pending Cost Date** : _1/30/2025_ 
+- **Pending Cost Date** : _1/30/2026_ 
 
 2. On the form toolbar, click **Save**. 
 
-3. On the More menu (under **Other** ), click **Update Cost**.     The cost you have specified is now effective and is displayed in the **Current Cost** box and its effective date     has been set to 1/30/2025. 
+3. On the More menu (under **Other** ), click **Update Cost**.     The cost you have specified is now effective and is displayed in the **Current Cost** box and its effective date     has been set to 1/30/2026. 
 
 ### Non-Stock Item: Related Forms 
 
@@ -2754,11 +2774,11 @@ The following mailings are available for configuration on the **Mailing & Printi
 
  The following activity will walk you through the process of recording a cash sale and a cash return. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that on 1/30/2025, Allen's Bakery decided to buy $100 gi certificates for its employees from SweetLife Fruits & Jams. The company's representative bought the certificates at the SweetLife store and paid $ 1,200 by cash. Further suppose that on 2/3/2025, Allen's Bakery returned one gi certificate. 
+ Suppose that on 1/30/2026, Allen's Bakery decided to buy $100 gi certificates for its employees from SweetLife Fruits & Jams. The company's representative bought the certificates at the SweetLife store and paid $ 1,200 by cash. Further suppose that on 2/3/2026, Allen's Bakery returned one gi certificate. 
 
  Acting as SweetLife's accountant, you need to record the cash sale in the system, and then record a cash return for one certificate. 
 
@@ -2796,7 +2816,7 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as Ann Johnson by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Store_ branch. 
 
@@ -2810,7 +2830,7 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 - **Type** : _Cash Sale_ 
 
-- **Date** : _1/30/2025_ (inserted automatically) 
+- **Date** : _1/30/2026_ (inserted automatically) 
 
 - **Customer** : _ABAKERY_ 
 
@@ -2850,7 +2870,7 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 - **Type** : _Cash Return_ 
 
-- **Date** : _2/3/2025_ 
+- **Date** : _2/3/2026_ 
 
 - **Customer** : _ABAKERY_ 
 
@@ -3022,7 +3042,7 @@ The following mailings are available for configuration on the **Mailing & Printi
 
  The following activity will walk you through the process of setting up and using the rounding of document amounts in AR documents. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3058,13 +3078,13 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as Anna Johnson by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and 
 
 
 <!-- PAGE_BREAK -->
  Rounding of AR Document Amounts | 69 
 
- button and select 1/30/2025 on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date. 
+ select 1/30/2026 from the calendar. For simplicity, you'll create and process all documents in this activity using this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -3118,7 +3138,7 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 - **Type** : _Invoice_ 
 
-- **Date** : _1/30/2025_ (inserted automatically) 
+- **Date** : _1/30/2026_ (inserted automatically) 
 
 - **Customer** : _COFFEESHOP_ 
 
@@ -3380,11 +3400,11 @@ The following mailings are available for configuration on the **Mailing & Printi
 
  The following activity will walk you through the process of setting up and running schedules for recurring AR documents. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that SweetLife Fruits & Jams provides online training courses in the amount of $1,470 to Cafe French Bun for 2025. The trainings should be paid monthly in equal installments of $490. Acting a SweetLife accountant, you need to create a recurring AR invoice to be used as a template, create a schedule for the invoice, and run the schedule to generate a document for January 2025. 
+ Suppose that SweetLife Fruits & Jams provides online training courses in the amount of $1,470 to Cafe French Bun for 2026. The trainings should be paid monthly in equal installments of $490. Acting a SweetLife accountant, you need to create a recurring AR invoice to be used as a template, create a schedule for the invoice, and run the schedule to generate a document for January 2026. 
 
 #### Configuration Overview 
 
@@ -3416,7 +3436,7 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as Anna Johnson by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -3430,7 +3450,7 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 - **Type** : _Invoice_ 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
 - **Customer** : _FOODCLVR_ 
 
@@ -3456,7 +3476,7 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 2. Configure a schedule to repeat the invoice three times, on the last day of each month starting from January,     by specifying the following settings: 
 
-- **Start Date** : _1/30/2025_ (or any date that is not aer the first date when you need to execute the schedule) 
+- **Start Date** : _1/30/2026_ (or any date that is not aer the first date when you need to execute the schedule) 
 
 - **Execution Limit (Times)** : 3 
 
@@ -3482,7 +3502,7 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 2. In the Summary area, specify the following settings: 
 
-- **Execution Date** : _1/30/2025_ 
+- **Execution Date** : _1/30/2026_ 
 
 - **Stop Aer Number of Executions** : Selected, 1 
 
@@ -3672,7 +3692,7 @@ The following mailings are available for configuration on the **Mailing & Printi
 
 - Billing of a contract, as described in _Contract Billing: General Information_ 
 
-- Billing of a project, as described in _Project Billing PreparationBilling with a Direct AR Invoice: General_     _Information_ 
+- Billing of a project, as described in _Project Billing Preparation: General Information_ 
 
 - Processing of a sales invoice, as described in _Processing Sales of Stock Items_ 
 
@@ -4122,11 +4142,11 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
  The following activity will walk you through the process of creating and releasing an AR invoice. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -4164,7 +4184,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - Login: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date     menu button and select _1/30/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date     menu button and select _1/30/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -4184,9 +4204,9 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - **Terms** : _30D_ (inserted by default based on the selected customer) 
 
-- **Date** : _1/30/2025_ (the current business date, which is inserted by default) 
+- **Date** : _1/30/2026_ (the current business date, which is inserted by default) 
 
-- **Post Period** : _01-2025_ (inserted by default based on the selected date) 
+- **Post Period** : _01-2026_ (inserted by default based on the selected date) 
 
 - **Description** : On-site training 4 hours 
 
@@ -4226,11 +4246,11 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
  The following activity will walk you through the process of creating an AR invoice, applying a payment to it, and releasing the invoice and its application. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -4240,7 +4260,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 #### Story 
 
- Suppose that on January 26, 2025, Cakeado Cafe made a payment of $429 to SweetLife Fruits & Jams for a training course that its employees were going to take on January 30, 2025. Acting as a SweetLife accountant, you need to create an AR invoice for the customer, apply the payment to it, and release the invoice and the payment application. 
+ Suppose that on January 26, 2026, Cakeado Cafe made a payment of $429 to SweetLife Fruits & Jams for a training course that its employees were going to take on January 30, 2026. Acting as a SweetLife accountant, you need to create an AR invoice for the customer, apply the payment to it, and release the invoice and the payment application. 
 
 #### Configuration Overview 
 
@@ -4262,7 +4282,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as Anna Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -4288,9 +4308,9 @@ Commission amounts are visible for the invoice, but commission-related transacti
 <!-- PAGE_BREAK -->
  Processing AR Invoices | 98 
 
-- **Date** : _1/30/2025_ (the current business date, which is inserted by default) 
+- **Date** : _1/30/2026_ (the current business date, which is inserted by default) 
 
-- **Post Period** : _01-2025_ (inserted by default based on the selected date) 
+- **Post Period** : _01-2026_ (inserted by default based on the selected date) 
 
 - **Description** : On-site training 
 
@@ -4318,7 +4338,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - **Doc. Type** : _Payment_ 
 
-- **Reference Nbr.** : A payment for $429 dated 1/26/2025 
+- **Reference Nbr.** : A payment for $429 dated 1/26/2026 
 
 - **Amount Paid** : 429 
 
@@ -4344,7 +4364,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 ### AR Invoices: Mass Processing of Documents 
 
- This topic explains how to release multiple AR invoices and what rules the system uses to group the prepared documents. 
+ This topic explains how to release, print, and email multiple AR invoices and what rules the system uses to group the prepared documents. 
 
 #### Mass Release of AR Invoices 
 
@@ -4352,13 +4372,33 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
  The system creates a consolidated GL batch for all the released invoices if the Generate Consolidated Batches check box is selected on the General Ledger Preferences (GL102000) form. 
 
-#### Printing of Invoices 
+#### Mass Printing of Invoices 
 
  You can print selected invoices by selecting Print Invoice/Memo in the Action box on the Print/Email AR Documents (AR508000) form and clicking Process on the form toolbar 
+
+#### Mass Emailing of Invoices 
+
+ You can send multiple invoices to each customer in a single email. To do this, select Email Invoices in the Action box on the Print/Email AR Documents (AR508000) form, along with any selection criteria to narrow the list of invoices. 
+
+ Then select the Send Documents in One Email check box. If you also select the Combine into One File check box, the system will combine each customer’s processed invoices into a single PDF file and attach it to the email. 
+
+- You can include up to 100 documents in a single email or combine up to 100 documents into     one file. 
+
+- If you select more than 100 documents, the system creates multiple emails, each within this     limitation. 
+
+ To send emails with invoices, do one of the following: 
+
+- To email only particular invoices, select the unlabeled check boxes in the rows of the invoices you want to     email. Then click **Process** on the form toolbar. 
+
+- To email all the listed invoices, click **Process All**. 
 
 ### AR Invoices: To Mass-Print Invoices 
 
  You use the Print/Email AR Documents (AR508000) form to print AR invoices. 
+
+
+<!-- PAGE_BREAK -->
+ Processing AR Invoices | 100 
 
 #### To Print Invoices 
 
@@ -4378,10 +4418,6 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 7. For each document to be printed, do the following:     a. On the form toolbar, click **Print** ; the browser opens the **Print** dialog box.     b. Select the appropriate options, and then click **OK**. The selected pages will be printed. 
 
-
-<!-- PAGE_BREAK -->
- Processing AR Invoices | 100 
-
 ### AR Invoices: Related Reports and Inquiry Forms 
 
  This topic describes the reports, inquiries, and forms you may want to review to gather information about AR invoices. 
@@ -4400,6 +4436,10 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
  When you run this report directly from the report form, you specify the needed report parameters and can view a list of released invoices based on these parameters. 
 
+
+<!-- PAGE_BREAK -->
+ Processing AR Invoices | 101 
+
 #### Reviewing a Customer's Balance 
 
  Aer an invoice has been released, you can review the customer's balance on the AR Balance by Customer (AR632500) report. On this report form, you select Open Documents in the Report Format box and specify the needed financial period. 
@@ -4409,10 +4449,6 @@ Commission amounts are visible for the invoice, but commission-related transacti
 #### Reviewing a Customer's Information 
 
  You can review the balances of a specific customer on the Customer Details (AR402000) form. When you open this inquiry from the Invoices and Memos (AR301000) form by clicking Customer Details on the More menu (under Inquiries ), the Customer Details form shows the outstanding balances of the selected customer and a list of this customer’s documents that have the Open status. You can select the Show All Documents and Include Unreleased Documents check boxes in the Selection area of the form to expand the range of the listed documents. 
-
-
-<!-- PAGE_BREAK -->
- Processing AR Invoices | 101 
 
 #### Printing an Invoice 
 
@@ -4644,17 +4680,17 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
  The following activity will walk you through the process of creating a credit memo and applying it to an invoice. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
 #### Story 
 
- Suppose that on January 16, 2025, the SweetLife Fruits & Jams company sold five days of online training to one of its customers, GoodFood One Restaurant, in the amount of $225. An AR clerk created an invoice for five days of training for GoodFood One Restaurant. The actual number of training days turned out to be four, and now SweetLife needs to reduce the customer balance of GoodFood One Restaurant by $45. 
+ Suppose that on January 16, 2026, the SweetLife Fruits & Jams company sold five days of online training to one of its customers, GoodFood One Restaurant, in the amount of $225. An AR clerk created an invoice for five days of training for GoodFood One Restaurant. The actual number of training days turned out to be four, and now SweetLife needs to reduce the customer balance of GoodFood One Restaurant by $45. 
 
  Acting as a SweetLife accountant, you have to create a credit memo and apply it to the open invoice to reduce the customer balance by $45. 
 
@@ -4668,11 +4704,11 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - _Multicompany Support_ , which supports multiple companies within one tenant On the _Accounts Receivable Preferences_ (AR101000) form, the **Hold Documents on Entry** check box has been selected in the **Data Entry Settings** section. 
 
- On the Customers (AR303000) form, the GOODFOOD (GoodFood One Restaurant) customer has been configured. 
-
 
 <!-- PAGE_BREAK -->
  Correcting AR Invoices | 109 
+
+ On the Customers (AR303000) form, the GOODFOOD (GoodFood One Restaurant) customer has been configured. 
 
 #### Process Overview 
 
@@ -4688,7 +4724,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button and select _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -4706,9 +4742,9 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - **Customer** : _GOODFOOD_ 
 
-- **Date** : _1/30/2025_ (the current business date, which is inserted by default) 
+- **Date** : _1/30/2026_ (the current business date, which is inserted by default) 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Description** : Service undelivered by invoice 000076 
 
@@ -4728,15 +4764,13 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
  To apply the credit memo to the invoice, do the following: 
 
-1. While you are still on the _Invoices and Memos_ (AR301000) form, on the form toolbar click **Apply**. 
-
 
 <!-- PAGE_BREAK -->
  Correcting AR Invoices | 110 
 
- The system opens the Payments and Applications (AR302000) form, with a document of the Credit Memo type. 
+1. While you are still on the _Invoices and Memos_ (AR301000) form, on the form toolbar click **Apply**.     The system opens the _Payments and Applications_ (AR302000) form, with a document of the _Credit Memo_     type. 
 
-2. In the **Application Date** box, make sure that _1/30/2025_ is displayed, and in the **Application Period** box,     make sure that _01-2025_ is selected. 
+2. In the **Application Date** box, make sure that _1/30/2026_ is displayed, and in the **Application Period** box,     make sure that _01-2026_ is selected. 
 
 3. On the **Documents to Apply** tab, click **Add Row** , and in the **Reference Nbr.** column of the row, select     _000076_. 
 
@@ -4752,11 +4786,11 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
  The following activity will walk you through the process of creating a debit memo and applying a payment to it. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -4764,11 +4798,11 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
  Suppose that an invoice sent by SweetLife Fruits & Jams company to FourStar Coffee & Sweets Shop for a three-day training in the amount of $135 undercharged the customer, because the number of trainees was higher than the agreed-on number. The amount to be additionally charged from the customer for this training is $67.50. 
 
- Acting as a SweetLife accountant, you need to create a debit memo in the amount of $67.50 and process the customer's payment of the debit memo. 
-
 
 <!-- PAGE_BREAK -->
  Correcting AR Invoices | 111 
+
+ Acting as a SweetLife accountant, you need to create a debit memo in the amount of $67.50 and process the customer's payment of the debit memo. 
 
 #### Configuration Overview 
 
@@ -4796,7 +4830,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button and select _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -4814,15 +4848,15 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - **Customer** : _COFFEESHOP_ 
 
-- **Date** : _1/30/2025_ (the current business date, which is inserted by default) 
+- **Date** : _1/30/2026_ (the current business date, which is inserted by default) 
 
-- **Post Period** : _01-2025_ 
-
-- **Description** : Additional charge for offline training 
+- **Post Period** : _01-2026_ 
 
 
 <!-- PAGE_BREAK -->
  Correcting AR Invoices | 112 
+
+- **Description** : Additional charge for offline training 
 
 3. On the **Details** tab, click **Add Row** , and specify the following settings in the added row: 
 
@@ -4842,7 +4876,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 1. While you are still on the _Invoices and Memos_ (AR301000) form, on the form toolbar, click **Pay**.     The system opens the _Payments and Applications_ (AR302000) form, where you create a new payment and     apply it to the debit memo. 
 
-2. In the **Application Date** box, make sure that _1/30/2025_ is displayed, and in the **Application Period** box,     make sure that _01-2025_ is selected. 
+2. In the **Application Date** box, make sure that _1/30/2026_ is displayed, and in the **Application Period** box,     make sure that _01-2026_ is selected. 
 
 3. In the Summary area, review the value in the **Payment Method** box and make sure that the **Payment**     **Amount** is _67.50_. 
 
@@ -4864,7 +4898,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 <!-- PAGE_BREAK -->
  Correcting AR Invoices | 113 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -4888,7 +4922,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -4906,9 +4940,9 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - **Customer** : _MORNINGCAF_ 
 
-- **Date** : _1/30/2025_ (the current business date, which is inserted by default) 
+- **Date** : _1/30/2026_ (the current business date, which is inserted by default) 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 
 <!-- PAGE_BREAK -->
@@ -5308,7 +5342,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - If **Payment Amount** is nonzero, the payment amount is applied to the documents sequentially, starting     with the first document displayed, and the **Amount Paid** of the listed document becomes equal to the     lesser of the following: the document balance (in the **Balance** column of the row) and the available     balance of the payment (in the **Available Balance** box of the Summary area). 
 
-- If the check box was cleared, the system does not fill in the **Amount Paid** column. You can apply the payment amount to the documents added to the **Documents to Apply** tab automatically by clicking **Auto Apply** on the table toolbar. The system applies the payment amount to the documents as follows: 
+- If the check box was cleared, the system does not fill in the **Amount Paid** column. You can apply the payment amount to the documents added to the **Documents to Apply** tab automatically by clicking **Auto-Apply** on the table toolbar. The system applies the payment amount to the documents as follows: 
 
 1. The system applies the available payment balance to the first document in the list. 
 
@@ -5720,19 +5754,19 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
  The following activity will walk you through the process of creating a payment and applying it to an invoice. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
 #### Story 
 
- Suppose that on January 30, 2025, the SweetLife Fruits & Jams company received a check for $300 from one of its customers, which had purchased an offline training course on January 9, 2025. 
+ Suppose that on January 30, 2026, the SweetLife Fruits & Jams company received a check for $300 from one of its customers, which had purchased an offline training course on January 9, 2026. 
 
- Acting as a SweetLife accountant, you need to create the payment in the system and apply it to the $300 invoice dated 1/9/2025. 
+ Acting as a SweetLife accountant, you need to create the payment in the system and apply it to the $300 invoice dated 1/9/2026. 
 
 #### Process Overview 
 
@@ -5752,7 +5786,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_. For simplicity, in this exercise, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button and select _1/30/2026_. For simplicity, in this exercise, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -5762,15 +5796,15 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 1. Open the _Invoices and Memos_ (AR301000) form. 
 
-2. Find the $300 invoice for the _COFFEESHOP_ customer, which is dated 1/9/2025, and open it. 
+2. Find the $300 invoice for the _COFFEESHOP_ customer, which is dated 1/9/2026, and open it. 
 
-3. On the form toolbar, click **Pay**.     When you click this button, the system navigates to the _Payments and Applications_ (AR302000) form, creates     a new payment in the amount of the invoice's open balance, and inserts the information from the invoice     into the payment. You can change this default payment information in the payment before release. 
+3. On the form toolbar, click **Pay**.     When you click this button, the system opens the _Payments and Applications_ (AR302000) form, creates a new     payment in the amount of the invoice's open balance, and inserts the information from the invoice into the     payment. You can change this default payment information in the payment before release. 
 
-4. In the Summary area, make sure the following information is displayed: 
+4. In the Summary area, make sure that the following information is displayed: 
 
-- **Application Date** : _1/30/2025_ 
+- **Application Date** : _1/30/2026_ 
 
-- **Application Period** : _01-2025_ 
+- **Application Period** : _01-2026_ 
 
 - **Description** : _Offline training_ 
 
@@ -5800,15 +5834,15 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
  In this activity, you will explore how the system loads AR documents for payment application and how payment amounts can be automatically applied to multiple documents. You will also review how multiple payments can be automatically applied to an AR document. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- On January 30, 2025, you received a $135 payment from the CoffeeShop company. Acting as a SweetLife accountant, you need to enter it in Acumatica ERP and apply it to the corresponding invoice. 
+ On January 30, 2026, you received a $135 payment from the CoffeeShop company. Acting as a SweetLife accountant, you need to enter it in Acumatica ERP and apply it to the corresponding invoice. 
 
  You have also received a $425 payment from the Good Food company for two of the outstanding invoices of the customer (in the amounts of $200 and $225, respectively). You need to enter the payment and apply it to the invoices. 
 
- CoffeeShop's accountant has asked you to use a $1800 prepayment to settle invoices issued to the CoffeeShop company between January 1, 2025 and January 14, 2025. You need to identify the relevant invoices and apply the prepayment to them. 
+ CoffeeShop's accountant has asked you to use a $1800 prepayment to settle invoices issued to the CoffeeShop company between January 1, 2026 and January 14, 2026. You need to identify the relevant invoices and apply the prepayment to them. 
 
  The CoffeeShop company has bought another offline course from SweetLife. For this purchase, you need to apply an invoice, a credit memo, and the remainder of the prepayment. 
 
@@ -5838,7 +5872,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_. For simplicity, in this lesson, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button and select _1/30/2026_. For simplicity, in this lesson, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu button to view the list of branches that you have access to, and then     click _SweetLife Head Office and Wholesale Center_. 
 
@@ -5850,9 +5884,9 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 2. On the form toolbar, click **Add New Record**. 
 
-3. In the Summary area of the form, select the _Payment_ document type and the _COFFEESHOP_ customer. Do not     specify the payment amount yet.     On the **Documents to Apply** tab, notice that a list of AR documents is now displayed in the table.     The system has added all AR documents created for the _COFFEESHOP_ customer that have not been closed     and that have no unreleased payment applications. Also notice that the credit memo dated _1/23/2025_ is     displayed in the first row of the table. If there are any credit memos for the selected customer, the system     always displays them at the top of the list. 
+3. In the Summary area of the form, select the _Payment_ document type and the _COFFEESHOP_ customer. Do not     specify the payment amount yet.     On the **Documents to Apply** tab, notice that a list of AR documents is now displayed in the table.     The system has added all AR documents created for the _COFFEESHOP_ customer that have not been closed     and that have no unreleased payment applications. Also notice that the credit memo dated _1/23/2026_ is     displayed in the first row of the table. If there are any credit memos for the selected customer, the system     always displays them at the top of the list. 
 
-4. In the list of loaded documents, find the $135 invoice dated _1/10/2025_ , and in the row of the invoice, select     the unlabeled check box to select the invoice for payment application.     Notice that when you selected the check box, the outstanding invoice balance (that is, the value in the     **Balance** column) became _0_ , and the applied payment amount (that is, the amount in the **Amount Paid**     column) changed to _135_. This means that the applied amount fully covered the outstanding amount of the     invoice (that is, the invoice has been paid in full). 
+4. In the list of loaded documents, find the $135 invoice dated _1/10/2026_ , and in the row of the invoice, select     the unlabeled check box to select the invoice for payment application.     Notice that when you selected the check box, the outstanding invoice balance (that is, the value in the     **Balance** column) became _0_ , and the applied payment amount (that is, the amount in the **Amount Paid**     column) changed to _135_. This means that the applied amount fully covered the outstanding amount of the     invoice (that is, the invoice has been paid in full). 
 
 5. In the Summary area of the form, click the Refresh button right of the **Payment Amount** box.     The amount in the **Payment Amount** box has now been updated to reflect the amount of the selected     invoice. 
 
@@ -5874,13 +5908,13 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - **Type** : _Payment_ 
 
-- **Application Date** : _1/30/2025_ (selected by default) 
+- **Application Date** : _1/30/2026_ (selected by default) 
 
 - **Customer** : _GOODFOOD_ 
 
 - **Payment Amount** : 425 On the **Documents to Apply** tab, notice that the system has added multiple invoices to which this payment can be applied. 
 
-3. On the table toolbar of the **Documents to Apply** tab, click **Auto Apply**.     In the Summary area, notice that the **Available Balance** of the payment has become _0_ , and the **Applied to**     **Documents** amount is now _425_ , as shown in the following screenshot. 
+3. On the table toolbar of the **Documents to Apply** tab, click **Auto-Apply**.     In the Summary area, notice that the **Available Balance** of the payment has become _0_ , and the **Applied to**     **Documents** amount is now _425_ , as shown in the following screenshot. 
 
  Figure: Payment auto-application to invoices 
 
@@ -5888,7 +5922,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - The outstanding balances of two invoices with the earliest due dates are now _0_ (as indicated in the     **Balance** box), which means that the invoices have been paid in full. 
 
-- The third invoice, for _201.74_ and dated _1/25/2025_ , has been paid only in part. The payment balance     available aer the application to the first two invoices ( _45_ ) has been applied to the third invoice. The system applies the payment balance to the documents in the table starting with the document having the earliest due date. If aer applying the payment to the first document, there is still available balance, the system applies it to the document whose due date is the earliest one among the rest. This process continues until the available payment balance becomes zero or until there are no more documents to which the payment can be applied. 
+- The third invoice, for _201.74_ and dated _1/25/2026_ , has been paid only in part. The payment balance     available aer the application to the first two invoices ( _45_ ) has been applied to the third invoice. The system applies the payment balance to the documents in the table starting with the document having the earliest due date. If aer applying the payment to the first document, there is still available balance, the system applies it to the document whose due date is the earliest one among the rest. This process continues until the available payment balance becomes zero or until there are no more documents to which the payment can be applied. 
 
  The system always auto-applies the available payment balance to the documents in the table starting with the document whose due date is the earliest. 
 
@@ -5898,7 +5932,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 <!-- PAGE_BREAK -->
  Paying AR Invoices | 141 
 
-5. On the table toolbar, click **Auto Apply**.     Notice that the system has reapplied the payment amount ($425) to the three invoices in the table, and now     the first two invoices are paid in full, as shown in the following screenshot. 
+5. On the table toolbar, click **Auto-Apply**.     Notice that the system has reapplied the payment amount ($425) to the three invoices in the table, and now     the first two invoices are paid in full, as shown in the following screenshot. 
 
  Figure: Payment auto-application aer an invoice has been removed 
 
@@ -5920,9 +5954,9 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 5. In the **Load Options** dialog box, which opens, specify the following selection criteria: 
 
-- **From Date** : _1/1/2025_ 
+- **From Date** : _1/1/2026_ 
 
-- **To Date** : _1/14/2025_ 
+- **To Date** : _1/14/2026_ 
 
 6. Click **Load**. 
 
@@ -5956,7 +5990,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - **Customer** : _COFFEESHOP_ 
 
-- **Date** : _1/30/2025_ (selected by default) 
+- **Date** : _1/30/2026_ (selected by default) 
 
 3. On the **Details** tab, click **Add Row** on the table toolbar, and specify the following settings in the added row: 
 
@@ -5978,7 +6012,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 5. Select the unlabeled check box in the rows of the credit memo and the prepayment, and save the invoice.     Notice that the system displays an error. When you select the unlabeled check box in the row of a payment,     the payment's available amount is fully applied to the current AR document. In this case, the amount of the     prepayment ($1140) is greater than the outstanding amount of the invoice ($75). 
 
-6. On the table toolbar, click **Auto Apply**.     Notice that the **Amount Paid** in the row of the prepayment has changed from _1140_ to _75_. Now the total of     the applied amounts of the credit memo and the prepayment is equal to the invoice amount, as shown in     the following screenshot. 
+6. On the table toolbar, click **Auto-Apply**.     Notice that the **Amount Paid** in the row of the prepayment has changed from _1140_ to _75_. Now the total of     the applied amounts of the credit memo and the prepayment is equal to the invoice amount, as shown in     the following screenshot. 
 
  Figure: An invoice applied to multiple payments 
 
@@ -6018,7 +6052,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - In the row for each document, you specify the payment amount to be applied in the **Amount Paid**     column. 
 
-- On the table toolbar, you click **Auto Apply** , and the system applies the payment amount to the added     documents, starting from the first document displayed in the list (even if the list has been sorted     or filtered) until the payment is applied to all documents or until the payment's available balance     ( **Available Balance** in the Summary area for the payment) becomes zero. 
+- On the table toolbar, you click **Auto-Apply** , and the system applies the payment amount to the added     documents, starting from the first document displayed in the list (even if the list has been sorted     or filtered) until the payment is applied to all documents or until the payment's available balance     ( **Available Balance** in the Summary area for the payment) becomes zero. 
 
 3. You save or release the payment.     Once you have specified the amount to be applied to each document that you want to pay, you can release     or save the payment. When the payment is released or saved with the _On Hold_ or _Balanced_ status, the 
 
@@ -6038,7 +6072,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 - You specify the amount to be applied in the **Amount Paid** column for each listed payment that you want     to apply. 
 
-- You click **Auto Apply** on the table toolbar. The system then applies the loaded payments to the     document starting with the first payment displayed in the table (even if the rows have been sorted or     filtered) until the document balance is paid in full or until there is no more payment balance available. 
+- You click **Auto-Apply** on the table toolbar. The system then applies the loaded payments to the     document starting with the first payment displayed in the table (even if the rows have been sorted or     filtered) until the document balance is paid in full or until there is no more payment balance available. 
 
 3. You save or release the invoice.     Once you have applied payments to the invoice, you can save or release it. When the invoice is released or     saved, the system removes from the table the payments that were loaded to the **Applications** tab but have     not been applied to the invoice; only payments that were applied are kept. 
 
@@ -6052,7 +6086,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
  You can review the balance of a specific customer by running the AR Balance by Customer (AR632500) report. To review payment applications along with documents, select the Open + Current Period report format and select the Include Applications check box on the Report Parameters tab. Document applications are listed under each document in the report. The Applied column shows the period to which the application was posted. The Closed column displays the period in which the document was closed. For open documents, the Closed column is empty. 
 
- For the COFFEESHOP customer, the report would show the payment applied to the invoice in the 01-2025 period. 
+ For the COFFEESHOP customer, the report would show the payment applied to the invoice in the 01-2026 period. 
 
  If all the documents have been paid within a financial period, the customer's balance will be zero at the end of this period. 
 
@@ -6096,7 +6130,7 @@ Commission amounts are visible for the invoice, but commission-related transacti
 
 8. Apply the payment amount to the documents in the table and adjust the application amounts, if necessary,     by doing any of the following: 
 
-- Click **Auto Apply** on the table toolbar to apply the payment to the listed documents automatically. The     system applies the payment amount, starting with the first document displayed in the table. 
+- Click **Auto-Apply** on the table toolbar to apply the payment to the listed documents automatically. The     system applies the payment amount, starting with the first document displayed in the table. 
 
 - Select the unlabeled check box in the row of the document. The system updates the **Amount Paid**     column with the document balance (that is, the value in the **Balance** column of the row.) 
 
@@ -6504,11 +6538,11 @@ The following diagram illustrates the workflow of processing a prepayment.
 
  In this activity, you will learn how to create a prepayment and apply it to an invoice. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the SweetLife Fruits & Jams company received a prepayment of $2,300 from one of its customers, Morning Cafe ( MORNINGCAF ) on January 12, 2025. On January 31, SweetLife sold a juicer to Morning Cafe and an invoice for $2,300 was entered in the system. 
+ Suppose that the SweetLife Fruits & Jams company received a prepayment of $2,300 from one of its customers, Morning Cafe ( MORNINGCAF ) on January 12, 2026. On January 31, SweetLife sold a juicer to Morning Cafe and an invoice for $2,300 was entered in the system. 
 
  Acting as a SweetLife accountant, you need to create and release a prepayment, and later, apply this prepayment to the customer's invoice, and then release the prepayment application. 
 
@@ -6544,7 +6578,7 @@ The following diagram illustrates the workflow of processing a prepayment.
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/12/2025_. If a different date is displayed, click the Business Date menu     button and select _1/12/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/12/2026_. If a different date is displayed, click the Business Date menu     button and select _1/12/2026_. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -6562,13 +6596,13 @@ The following diagram illustrates the workflow of processing a prepayment.
 
 - **Customer** : _MORNINGCAF_ 
 
-- **Application Date** : _1/12/2025_ (inserted by default) 
+- **Application Date** : _1/12/2026_ (inserted by default) 
 
 - **Payment Amount** : 2300 
 
 - **Description** : Juicer 15 When you create a new prepayment on the current form, as soon as you select the customer in the Summary area, the system forms the list of the customer's outstanding documents on the **Documents to Apply** tab. The system loads only open documents of the _Invoice_ , _Debit Memo_ , _Credit Memo_ , and _Overdue Charge_ type that do not have unreleased applications. 
 
-3. On the form toolbar, click **Remove Hold** , and then click **Release** to release the prepayment. 
+3. On the form toolbar, click **Remove Hold** and then click **Release** to release the prepayment. 
 
 4. On the **Financial** tab, click the link in the **Batch Nbr.** box. 
 
@@ -6584,7 +6618,7 @@ The following diagram illustrates the workflow of processing a prepayment.
 
  To apply the prepayment to an invoice, do the following: 
 
-1. In the info area, click the Business Date menu button and select _1/31/2025_. 
+1. In the info area, click the Business Date menu button and select _1/31/2026_. 
 
 2. While you are still on the _Payments and Applications_ (AR302000) form with the prepayment opened, on the     **Documents to Apply** tab, click **Add Row** on the table toolbar. 
 
@@ -6592,7 +6626,7 @@ The following diagram illustrates the workflow of processing a prepayment.
 
 - **Doc. Type** : _Invoice_ 
 
-- **Reference Nbr.** : The invoice dated _1/31/2025_ for the amount of $2,300 
+- **Reference Nbr.** : The invoice dated _1/31/2026_ for the amount of $2,300 
 
 - **Amount Paid** : _2300_ (inserted automatically by the system) Notice that the system has automatically selected the unlabeled check box for the added row. 
 
@@ -6620,11 +6654,11 @@ The following diagram illustrates the workflow of processing a prepayment.
 
  The following activity will walk you through the process of reversing a prepayment application to the wrong invoice. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the SweetLife Fruits & Jams company received a prepayment from its customer (FourStar Coffee & Sweets Shop) in the amount of $660 for consulting services and an AR clerk applied the prepayment to the wrong invoice on January 21, 2025. 
+ Suppose that the SweetLife Fruits & Jams company received a prepayment from its customer (FourStar Coffee & Sweets Shop) in the amount of $660 for consulting services and an AR clerk applied the prepayment to the wrong invoice on January 21, 2026. 
 
  Acting as a SweetLife accountant, you have to find this mistakenly applied application of $660 in the system and reverse it. 
 
@@ -6652,7 +6686,7 @@ The following diagram illustrates the workflow of processing a prepayment.
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button and select _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the 
 
@@ -6668,17 +6702,17 @@ The following diagram illustrates the workflow of processing a prepayment.
 
 1. Open the Payments and Applications (AR3020PL) list of records. 
 
-2. If you applied any filters before on this form, click the **Filter Settings** button in the filtering area, click     **Delete Row** in the dialog box that opens, and click **Apply** to close the dialog box. 
+2. If you applied any filters before on this form, remove them by clearing the quick filters. 
 
 3. Find a prepayment in the amount of $660 for the _COFFEESHOP_ customer as follows:     a. In the table, click the **Customer** column header, and in the dialog box that opens, specify the following        settings: 
 
 - **Equals** : Selected 
 
-- Filter Value (the unlabeled box at the bottom of the dialog box): _COFFEESHOP_ Click **OK** to close the dialog box. b. Click the **Payment Amount** column header, and in the dialog box that opens, specify the following settings: 
+- Filter Value (the unlabeled box at the bottom of the dialog box): _COFFEESHOP_ Click **Apply** to close the dialog box. b. Click the **Payment Amount** column header, and in the dialog box that opens, specify the following settings: 
 
 - **Equals** : Selected 
 
-- **Value** : 660 Click **OK** to close the dialog box. 
+- **Value** : 660 Click **Apply** to close the dialog box. 
 
 4. Click the link in the **Reference Nbr.** column to open the prepayment on the _Payments and Applications_     (AR302000) form. 
 
@@ -6720,7 +6754,7 @@ The following diagram illustrates the workflow of processing a prepayment.
 
  You can review the balance of a specific customer by running the AR Balance by Customer (AR632500) report. To review payment applications along with documents, select the Open + Current Period report format and select the Include Applications check box on the Report Parameters tab. Document applications are listed under each document in the report. The Applied column shows the period to which the application was posted. The Closed column displays the period in which the document was closed. For open documents, the Closed column is empty. 
 
- For the COFFEESHOP customer, the report would show the payment applied to the invoice in the 01-2025 period. 
+ For the COFFEESHOP customer, the report would show the payment applied to the invoice in the 01-2026 period. 
 
  If all the documents have been paid within a financial period, the customer's balance will be zero at the end of this period. 
 
@@ -6732,7 +6766,7 @@ The following diagram illustrates the workflow of processing a prepayment.
 
  In some countries, prepayments are subject to tax reporting requirements. When a company receives a prepayment from a customer, it is typically required to report taxes on that prepayment in its tax return for the period in which the prepayment was received. This means that the company must account for the prepayment tax as part of its overall tax obligations. 
 
- Additionally, in certain countries,a company must issue a document to a client (prior to issuing an invoice) upon which a prepayment for the ordered items will be made. 
+ Additionally, in certain countries, a company must issue a document to a client (prior to issuing an invoice) upon which a prepayment for the ordered items will be made. 
 
  To help companies meet these requirements, Acumatica ERP offers the prepayment invoice functionality. With this functionality, you can create prepayment invoices for the items and services ordered. The system calculates taxes on each prepayment invoice. Once the prepayment invoice is paid, your company can report the taxes in the reporting period in which the prepayment was received. Later, you create an AR invoice for the items or services provided, and the prepayment invoice can be used as a payment for the sales invoice. 
 
@@ -6836,6 +6870,134 @@ When the prepayment invoice has been fully paid, it can be applied to any number
 
  You cannot reverse the application of the credit memo that was created during the write-off of the unpaid balance of a prepayment invoice. 
 
+### Prepayment Invoices: Effortless Refunds 
+
+ In Acumatica ERP, you can quickly issue refunds for unapplied or partly applied prepayment invoices, whether you're dealing with partial or full refunds. This ensures accurate financial records, simplifies workflows, and provides greater control over accounting processes. 
+
+ This functionality is available only if the VAT Recognition on Prepayments feature is enabled on the Enable/Disable Features (CS100000) form. 
+
+#### Key Capabilities 
+
+- Issue a full refund for a prepayment invoice that hasn’t been applied to any invoice or debit memo 
+
+- Issue a partial refund: 
+
+- For a portion of the unapplied balance of the prepayment invoice 
+
+- For the remaining unapplied balance of the prepayment invoice that was applied to an invoice or debit     memo 
+
+- Void a refund that was applied to a prepayment invoice and released 
+
+#### How to Issue a Refund 
+
+ Due to unforeseen circumstances, a customer may cancel an order before goods are shipped or services are provided, requiring a refund of the prepayment invoice they paid. Similarly, if the prepayment invoice amount exceeds the final invoice amount, the remaining unapplied balance can be refunded. In both cases, you can issue a refund for the prepayment invoice. 
+
+ Ways to initiate a refund: You can initiate the refund in one of the following ways: 
+
+- Open the prepayment invoice on the _Invoices and Memos_ (AR301000) form and click **Refund** on the More     menu (see below). 
+
+
+<!-- PAGE_BREAK -->
+ Processing Prepayment Invoices | 169 
+
+ This command is available only if the prepayment invoice has the Unapplied status. 
+
+ Figure: The Refund command on the Invoices and Memos form 
+
+- Open the prepayment invoice on the _Payments and Applications_ (AR302000) form and click **Refund** on the     More menu (see below). 
+
+ Figure: The Refund command on the Payments and Applications form 
+
+**Refund application workflow:** When you click **Refund** , the system opens the _Payments and Applications_ form with a new document of the _Refund_ type (Item 1 below). You’ll find the prepayment invoice listed on the **Documents to Apply** tab (Item 2). 
+
+
+<!-- PAGE_BREAK -->
+ Processing Prepayment Invoices | 170 
+
+**_Figure: The refund application to the prepayment invoice_** 
+
+In the **Payment Amount** box in the Summary area of the _Payments and Applications_ (AR302000) form, the system automatically inserts the unapplied balance of the prepayment invoice. To refund the full amount, leave it unchanged and release the refund application. 
+
+**GL transactions on release of the refund application:** When you release the refund application, the system generates the GL transactions shown below on the _Journal Transactions_ (GL301000) form. You can view this batch by clicking its number on the **Financial** tab of the _Payments and Applications_ form. 
+
+**_Figure: GL transactions generated on release of the refund application_** 
+
+These GL transactions are explained in the following table. 
+
+
+<!-- PAGE_BREAK -->
+ Processing Prepayment Invoices | 171 
+
+ Account Debit Credit Description of the transaction 
+
+ Company Checking: 
+
+ This account is specified in the refund document. You’ll find it in the Cash Account box on the Payments and Applications form. 
+
+ Application amount 
+
+ Reflects the cash paid to the customer, reducing the company's cash balance 
+
+ Customer Deposit: 
+
+ This account is specified in the prepayment invoice. You’ll find it in the Prepayment Account box of the Invoices and Memos form ( Financial tab). 
+
+ Application amount 
+
+ Reduces the amount of customer prepayment, reflecting the refunded amount 
+
+ Tax Payable: 
+
+ This account is specified in the Tax Payable Account box on the Taxes (TX205000) form for the tax applied in the prepayment invoice. 
+
+ Tax amount Reflects the reversal of VAT liability because the company no longer needs to remit the tax to the authorities 
+
+ Tax on AR Prepayments: 
+
+ This account is specified in the Tax on AR Prepayment Account box of the Taxes form for the tax applied in the prepayment invoice. 
+
+ Tax amount Reverses the tax portion originally posted to this account when the prepayment invoice was paid 
+
+ Aer the refund is released: When the refund is released, the status of the prepayment invoice changes to Closed because the available balance of the prepayment invoice has been fully refunded. 
+
+ You can refund a portion of the unapplied balance of a prepayment invoice. To do this, in the refund application on the Payments and Applications form, specify a refund amount less than the unapplied balance of the prepayment invoice. On release, the prepayment invoice will keep the Unapplied status and the Refund application will have the Closed status. 
+
+ You can issue a refund for a prepayment invoice that either has not been applied to any invoice or has been applied to an invoice but still has an unapplied balance. 
+
+ You can create multiple refund applications for the same prepayment invoice, if needed. 
+
+#### Voiding a Refund 
+
+ If a refund was mistakenly issued, you can void the refund. To do so, open the document of the Refund type on the Payments and Applications (AR302000) form. On the form toolbar, click Void (see below). 
+
+
+<!-- PAGE_BREAK -->
+ Processing Prepayment Invoices | 172 
+
+**_Figure: The Void button_** 
+
+When you click **Void** , the system opens a new document of the _Voided Refund_ type (Item 1 below) on the current form with the prepayment invoice listed on the **Documents to Apply** tab. In the **Amount Paid** column, the refunded amount appears with the opposite sign (Item 2). 
+
+**_Figure: The document of the Voided Refund type_** 
+
+On release of the voided refund, the system posts GL transactions that reverse those posted when the refund was applied to the prepayment invoice and released. 
+
+Below is an example of a prepayment invoice with the list of documents applied to the prepayment invoice shown on the **Applications** tab of the _Invoices and Memos_ form. Notice that the payment was applied to the prepayment invoice (Item 1 below). Then a partial refund was applied (Item 2). Assume the refund was recorded mistakenly; it was voided (Item 3), and the balance of the prepayment invoice remained as it was initially (Item 4). 
+
+
+<!-- PAGE_BREAK -->
+ Processing Prepayment Invoices | 173 
+
+ Figure: The history of prepayment invoice applications 
+
+#### Multicurrency Refunds 
+
+ If a prepayment invoice is issued in a foreign currency and the refund is processed in the base currency, the system generates two GL batches: 
+
+- One in the refund currency for the application amount 
+
+- Another in the prepayment invoice currency to reverse the taxes 
+
 ### Prepayment Invoices: Generated Transactions 
 
  As you process a prepayment invoice, you start by creating and releasing this prepayment invoice. Then you apply a payment to the prepayment invoice, and finally, you apply the prepayment invoice to the AR invoice. To track the movements of invoice balances, including taxes, the system generates the GL transactions described in the following section. 
@@ -6850,17 +7012,19 @@ When the prepayment invoice has been fully paid, it can be applied to any number
 
  Amount 
 
+
+<!-- PAGE_BREAK -->
+ Processing Prepayment Invoices | 174 
+
+ Account Source of Account Debit Credit 
+
  Prepayment account Specified in the prepayment invoice in the Prepayment Account box of the Financial tab on the Invoices and Memos form 
 
  Amount 
 
- You can view the reference number of the GL batch in the prepayment invoice on the Financial tab of the Invoices and Memos form. 
+You can view the reference number of the GL batch in the prepayment invoice on the **Financial** tab of the _Invoices and Memos_ form. 
 
- When you apply a payment to the prepayment invoice and release the application, the system generates the following general ledger transactions. 
-
-
-<!-- PAGE_BREAK -->
- Processing Prepayment Invoices | 169 
+When you apply a payment to the prepayment invoice and release the application, the system generates the following general ledger transactions. 
 
  Account Source of Account Debit Credit 
 
@@ -6884,6 +7048,10 @@ You can view the reference number of the GL batch in the payment document on the
 
 When you apply the prepayment invoice to an AR invoice and release the application, the system generates the following general ledger transactions. 
 
+
+<!-- PAGE_BREAK -->
+ Processing Prepayment Invoices | 175 
+
  Account Source of Account Debit Credit 
 
  Prepayment account Specified in the prepayment invoice in the Prepayment Account box of the Financial tab on the Invoices and Memos form 
@@ -6893,12 +7061,6 @@ When you apply the prepayment invoice to an AR invoice and release the applicati
  AR account Specified in the AR invoice in the AR Account box of the Financial tab on the Invoices and Memos form 
 
  Application amount 
-
-
-<!-- PAGE_BREAK -->
- Processing Prepayment Invoices | 170 
-
- Account Source of Account Debit Credit 
 
  Tax Payable account For an applicable tax, specified in the Tax Payable Account box of the GL Accounts tab on the Taxes form 
 
@@ -6926,15 +7088,15 @@ When you apply the prepayment invoice to an AR invoice and release the applicati
 
  The AR Account and AR Subaccount columns are visible only if the VAT Recognition on Prepayments feature is enabled on the Enable/Disable Features (CS100000) form. 
 
+
+<!-- PAGE_BREAK -->
+ Processing Prepayment Invoices | 176 
+
 #### Reviewing the Accounts Receivable Details 
 
  In the AR Register Detailed (AR622000) report, you can view the details of all transactions related to accounts receivable that have been posted on the release of prepayment invoices. You open this report by clicking AR Register Detailed in the prepayment invoice on the More menu of the Invoices and Memos (AR301000) or Payments and Applications (AR302000) form. 
 
  In the AR Edit Detailed (AR610500) report, you can view the details of accounts receivable documents that have been entered into the system but not released. You open this report by clicking AR Edit Detailed in the prepayment invoice on the More menu of the Invoices and Memos (AR301000) form. 
-
-
-<!-- PAGE_BREAK -->
- Processing Prepayment Invoices | 171 
 
 #### Printing a Prepayment Invoice 
 
@@ -6964,7 +7126,7 @@ When you apply the prepayment invoice to an AR invoice and release the applicati
 
 
 <!-- PAGE_BREAK -->
- Processing Refunds | 172 
+ Processing Refunds | 177 
 
 ## Processing Refunds 
 
@@ -7006,7 +7168,7 @@ When you apply the prepayment invoice to an AR invoice and release the applicati
 
 
 <!-- PAGE_BREAK -->
- Processing Refunds | 173 
+ Processing Refunds | 178 
 
  If you release a refund that is fully applied to a document, the status of the refund is changed to Closed because its amount was fully applied. The balances of refunds with the Refund and Voided Refund types affect the customer’s balance as a payment with a reverse sign. 
 
@@ -7046,7 +7208,7 @@ When you apply the prepayment invoice to an AR invoice and release the applicati
 
 
 <!-- PAGE_BREAK -->
- Processing Refunds | 174 
+ Processing Refunds | 179 
 
 **_Figure: Workflow of creating a refund and applying a credit memo to it in full_** 
 
@@ -7054,7 +7216,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Refunds | 175 
+ Processing Refunds | 180 
 
  Figure: Workflow of creating a refund and partially applying it to a prepayment 
 
@@ -7068,7 +7230,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Refunds | 176 
+ Processing Refunds | 181 
 
 - The payment has been created with the _Credit Card_ , _POS_ , or _EFT_ payment method, and has been captured     and released. 
 
@@ -7104,7 +7266,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Refunds | 177 
+ Processing Refunds | 182 
 
 #### Manual Generation of Receipts 
 
@@ -7140,7 +7302,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Refunds | 178 
+ Processing Refunds | 183 
 
 - Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section.     This setting indicates that AR invoices and credit memos will be automatically posted to the general     ledger once they are released. 
 
@@ -7174,15 +7336,17 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
  In this activity, you will learn how to create a refund and apply a credit memo in full to it. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the 
 
 
 <!-- PAGE_BREAK -->
- Processing Refunds | 179 
+ Processing Refunds | 184 
+
+ instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -7218,7 +7382,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button and select _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu button to view the list of branches that you have access to, and then     click _SweetLife Head Office and Wholesale Center_. 
 
@@ -7230,7 +7394,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Refunds | 180 
+ Processing Refunds | 185 
 
  To open the form for creating a new record, type the form ID in the Search box, and on the Search form, point at the form title and click New right of the title. 
 
@@ -7244,7 +7408,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - **Cash Account** : _10200WH (Wholesale Checking)_ 
 
-- **Application Date** : _1/30/2025_ (inserted by default) 
+- **Application Date** : _1/30/2026_ (inserted by default) 
 
 - **Description** : Refund for damaged goods 
 
@@ -7272,11 +7436,11 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
  To release the refund and its application, do the following: 
 
-1. While you are still viewing the refund on the _Payments and Applications_ (AR302000) form, on the form     toolbar, click **Remove Hold** , and then click **Release**. 
+1. While you are still viewing the refund on the _Payments and Applications_ (AR302000) form, on the form     toolbar, click **Remove Hold** and then click **Release**. 
 
 
 <!-- PAGE_BREAK -->
- Processing Refunds | 181 
+ Processing Refunds | 186 
 
 2. On the **Application History** tab, click the link in the **Batch Number** column to review the created batch on     the _Journal Transactions_ (GL301000) form. 
 
@@ -7318,13 +7482,13 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button and select _1/30/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu button to view the list of branches that you have access to, and then     click _SweetLife Head Office and Wholesale Center_. 
 
 
 <!-- PAGE_BREAK -->
- Processing Refunds | 182 
+ Processing Refunds | 187 
 
 4. Make sure that you have created a refund as described in _Refunds: To Create a Refund and Apply a Credit_     _Memo to It_. 
 
@@ -7346,7 +7510,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - Creates a document with the _Voided Refund_ type that has the same reference number as the refund has.     (You will use this document in the remaining instructions of this activity.) 
 
-5. In the **Application Date** box of the Summary area, change the date of the voided refund to _1/31/2025_.     The date specified in this box should be the date when the voided refund is released ( **Payment Date** ) and     when the related batch was created ( **Transaction Date** ). 
+5. In the **Application Date** box of the Summary area, change the date of the voided refund to _1/31/2026_.     The date specified in this box should be the date when the voided refund is released ( **Payment Date** ) and     when the related batch was created ( **Transaction Date** ). 
 
 #### Step 2: Releasing the Voided Refund 
 
@@ -7364,19 +7528,19 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Refunds | 183 
+ Processing Refunds | 188 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
 #### Story 
 
- Suppose that in January 2025, one of the customers of SweetLife Fruits & Jams, Food Clever, returned goods for the amount of $70. A credit memo has not been processed in the system yet, but SweetLife needs to refund the money. (Later, when a credit memo for this amount is created, this refund can be applied to this credit memo.) Also, the company had made a prepayment of $400 for services, but the overpaid amount of $50 needs to be refunded as well. 
+ Suppose that in January 2026, one of the customers of SweetLife Fruits & Jams, Food Clever, returned goods for the amount of $70. A credit memo has not been processed in the system yet, but SweetLife needs to refund the money. (Later, when a credit memo for this amount is created, this refund can be applied to this credit memo.) Also, the company had made a prepayment of $400 for services, but the overpaid amount of $50 needs to be refunded as well. 
 
  Acting as a SweetLife accountant, you need to create and release a refund for $120, and apply $50 of this refund to the $400 prepayment. 
 
@@ -7402,11 +7566,11 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 
 <!-- PAGE_BREAK -->
- Processing Refunds | 184 
+ Processing Refunds | 189 
 
 3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -7428,7 +7592,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - **Cash Account** : _10200WH (Wholesale Checking)_ 
 
-- **Application Date** : _1/30/2025_ (inserted by default) 
+- **Application Date** : _1/30/2026_ (inserted by default) 
 
 - **Description** : Returned goods 
 
@@ -7460,7 +7624,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Refunds | 185 
+ Processing Refunds | 190 
 
  Figure: A refund partially applied to a prepayment 
 
@@ -7486,13 +7650,15 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
  If you do not see a report or inquiry, this could mean that you have signed in to the system with a user account that does not have access rights to the form. Sign in as the admin user, or contact your system administrator. 
 
-
-<!-- PAGE_BREAK -->
- Processing Refunds | 186 
-
 #### Reviewing a Customer Balance and Documents 
 
- You can review the balance and documents of a particular customer by clicking Customer Details (under Inquiries ) on the More menu of the Payments and Applications (AR302000) form with the refund selected on it. The system navigates to the Customer Details (AR402000) form, where the balance of documents with the Refund and Voided Refund types affects the customer's balance as a payment with a reverse sign. 
+ You can review the balance and documents of a particular customer by clicking Customer Details (under Inquiries ) on the More menu of the Payments and Applications (AR302000) form with the refund selected on it. The system 
+
+
+<!-- PAGE_BREAK -->
+ Processing Refunds | 191 
+
+ navigates to the Customer Details (AR402000) form, where the balance of documents with the Refund and Voided Refund types affects the customer's balance as a payment with a reverse sign. 
 
 #### Reviewing a Refund 
 
@@ -7500,7 +7666,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Refunds | 187 
+ Processing Credit Card Refunds | 192 
 
 ## Processing Credit Card Refunds 
 
@@ -7546,7 +7712,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Refunds | 188 
+ Processing Credit Card Refunds | 193 
 
  UI element Description 
 
@@ -7598,7 +7764,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Refunds | 189 
+ Processing Credit Card Refunds | 194 
 
  UI element Description 
 
@@ -7618,7 +7784,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Refunds | 190 
+ Processing Credit Card Refunds | 195 
 
  Figure: The workflow of processing credit card refunds 
 
@@ -7628,7 +7794,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Refunds | 191 
+ Processing Credit Card Refunds | 196 
 
 #### Implementation Checklist 
 
@@ -7668,7 +7834,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Refunds | 192 
+ Processing Credit Card Refunds | 197 
 
 ### Credit Card Refunds: Generated Transactions 
 
@@ -7694,7 +7860,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
  The following activity will walk you through the process of processing a refund for a credit card payment. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -7712,7 +7878,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Refunds | 193 
+ Processing Credit Card Refunds | 198 
 
 #### Process Overview 
 
@@ -7724,7 +7890,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as Anna Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -7746,7 +7912,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 1. Open the _Payments and Applications_ (AR302000) form. 
 
-2. In the **Reference Nbr.** box, select a payment of the _HMBAKERY_ customer dated _1/20/2025_ in the amount of     $490.     Notice that the payment has the **Available Balance** of $21. 
+2. In the **Reference Nbr.** box, select a payment of the _HMBAKERY_ customer dated _1/20/2026_ in the amount of     $490.     Notice that the payment has the **Available Balance** of $21. 
 
 3. On the **Application History** tab, review the document applied to this payment. An invoice in the amount of     $469 has been applied to the payment. 
 
@@ -7758,7 +7924,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Refunds | 194 
+ Processing Credit Card Refunds | 199 
 
  Figure: Refund with the payment applied to it 
 
@@ -7778,7 +7944,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Refunds | 195 
+ Processing Credit Card Refunds | 200 
 
 #### Reviewing a Refund 
 
@@ -7786,7 +7952,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Auto-Applying Payments to Documents | 196 
+ Auto-Applying Payments to Documents | 201 
 
 ## Auto-Applying Payments to Documents 
 
@@ -7828,7 +7994,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Auto-Applying Payments to Documents | 197 
+ Auto-Applying Payments to Documents | 202 
 
 1. If the customer account has open documents of the _Credit Memo_ type, the system adds them at the top of     the list. The balances of the open credit memos increase the balance that can be applied to outstanding     documents. 
 
@@ -7860,7 +8026,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Auto-Applying Payments to Documents | 198 
+ Auto-Applying Payments to Documents | 203 
 
  If the Automatically Post on Release check box is selected on the Accounts Receivable Preferences form, the system also posts the released batches. 
 
@@ -7892,7 +8058,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Auto-Applying Payments to Documents | 199 
+ Auto-Applying Payments to Documents | 204 
 
  Form Criteria to Check 
 
@@ -7920,7 +8086,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
  The following activity will walk you through the process of configuring autoapplication of open payments and prepayments to documents, and of including credit memos to the autoapplication. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -7928,7 +8094,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Auto-Applying Payments to Documents | 200 
+ Auto-Applying Payments to Documents | 205 
 
  Acting as a SweetLife accountant, you want to set up the automatic application of the open payments and prepayments from the customers of the EOM statement cycle to open documents, and also include credit memos in the autoapplication process. 
 
@@ -7956,7 +8122,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/28/2025_. If a different date is displayed, click the Business Date menu     button and select _2/28/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/28/2026_. If a different date is displayed, click the Business Date menu     button and select _2/28/2026_. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -7968,7 +8134,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 2. In the Selection area, specify the following parameters: 
 
-- **Application Date** : _2/28/2025_ (inserted by default) 
+- **Application Date** : _2/28/2026_ (inserted by default) 
 
 - **Apply Credit Memos** : Selected 
 
@@ -7980,7 +8146,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Auto-Applying Payments to Documents | 201 
+ Auto-Applying Payments to Documents | 206 
 
 #### Step 2: Reviewing the List of Applications 
 
@@ -8012,11 +8178,11 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 3. Click the link in the **Reference Nbr.** column for the $1,700 prepayment to open it on the _Payments and_     _Applications_ (AR302000) form.     Notice that the prepayment's status has changed to _Closed_. 
 
-4. On the **Application History** tab, review the application of the prepayment to the invoices, also shown in the     following screenshot. 
-
 
 <!-- PAGE_BREAK -->
- Auto-Applying Payments to Documents | 202 
+ Auto-Applying Payments to Documents | 207 
+
+4. On the **Application History** tab, review the application of the prepayment to the invoices, also shown in the     following screenshot. 
 
  Figure: Applications to the prepayment, which have been released 
 
@@ -8028,7 +8194,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 203 
+ Processing AR Documents with Retainage | 208 
 
 ## Processing AR Documents with Retainage 
 
@@ -8062,7 +8228,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 204 
+ Processing AR Documents with Retainage | 209 
 
 #### Configuration of Particular Customers 
 
@@ -8090,7 +8256,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 205 
+ Processing AR Documents with Retainage | 210 
 
 ### Processing Flow of AR Documents with Retainage 
 
@@ -8114,7 +8280,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 206 
+ Processing AR Documents with Retainage | 211 
 
 5. Receiving a payment for the retainage invoice: The accountant enters a payment in the system for the     retainage invoice, and then processes and releases the payment. The system reduces the balance of the     retainage invoice by the amount paid. The balance of the customer is reduced by the paid amount and the     GL accounts are updated.     If the full retained amount has been released and paid, the invoice with retainage is assigned the _Closed_     status, and its unreleased and unpaid retainage amounts equal zero.     If a part of the retained amount has been released and paid, the invoice with retainage keeps the _Open_     status. The system reduces the invoice's unreleased and unpaid retainage amounts by the retainage     released and the retainage paid, respectively. 
 
@@ -8140,7 +8306,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 207 
+ Processing AR Documents with Retainage | 212 
 
 #### Migrating AR Invoices or Credit Memos with Retainage 
 
@@ -8172,7 +8338,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 208 
+ Processing AR Documents with Retainage | 213 
 
 #### Creation of Consolidated Retainage Documents 
 
@@ -8230,7 +8396,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 209 
+ Processing AR Documents with Retainage | 214 
 
  If the Payment Application by Line feature is enabled on the Enable/Disable Features form and only one document is selected on the Release AR Retainage form, a non-consolidated retainage document will be created. That is, for a line related to an original document with the Pay by Line check box cleared on the Invoices and Memos form, the retainage document will also have the Pay by Line check box cleared. Thus, in some cases, an original document can have both consolidated and non-consolidated retainage documents. 
 
@@ -8264,7 +8430,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 210 
+ Processing AR Documents with Retainage | 215 
 
  On June 12, 2017, the customer pays $40,000 for the invoice with retainage. A batch with the following journal entries is created when the payment is released. 
 
@@ -8310,7 +8476,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 211 
+ Processing AR Documents with Retainage | 216 
 
  Account Debit Credit 
 
@@ -8356,7 +8522,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 212 
+ Processing AR Documents with Retainage | 217 
 
  Account Debit Credit 
 
@@ -8414,7 +8580,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 213 
+ Processing AR Documents with Retainage | 218 
 
  should be corrected as follows: the invoice amount should be decreased to $850, the retainage amount should be increased to $150, and the total amount is the same ($1,000). 
 
@@ -8478,7 +8644,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 214 
+ Processing AR Documents with Retainage | 219 
 
  Aer you have performed the instructions, the system will generate the following documents: 
 
@@ -8544,7 +8710,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 215 
+ Processing AR Documents with Retainage | 220 
 
  Alternatively, you can perform the following steps (scenario 2): 
 
@@ -8614,7 +8780,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 216 
+ Processing AR Documents with Retainage | 221 
 
 1. On the _Invoices and Memos_ (AR301000) form, you reverse the incorrect retainage document of $60 by     clicking **Reverse and Apply to Memo** on the More menu. 
 
@@ -8678,7 +8844,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 217 
+ Processing AR Documents with Retainage | 222 
 
  Actions to Be Taken 
 
@@ -8746,7 +8912,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 218 
+ Processing AR Documents with Retainage | 223 
 
 - **Balance** : _0_ 
 
@@ -8782,7 +8948,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 219 
+ Processing AR Documents with Retainage | 224 
 
  12.On the form toolbar, click Save. 
 
@@ -8796,7 +8962,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - The **Location** box appears on the form and is required only if the _Business Account Location_ feature is     enabled on the _Enable/Disable Features_ (CS100000) form. 
 
-- The **Project/Contract** box appears on the form only if the _Project Accounting_ feature is enabled on the     _Enable/Disable Features_ form. 
+- The **Project/Contract** box appears on the form only if the _Projects_ feature is enabled on the _Enable/Disable_     _Features_ form. 
 
 - The **Amount** box appears on the form and is required only if the **Validate Document Totals on Entry** check     box is selected on the _Accounts Receivable Preferences_ (AR101000) form. Note the following about the **Details** tab: 
 
@@ -8808,7 +8974,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - In the **Subaccount** column, the system inserts the subaccount generated in accordance with the rule in the     **Combine Expense Sub. from** box on the _Accounts Receivable Preferences_ form. You can manually change     the subaccount if necessary. 
 
-- The **Project Task** column appears only if the _Project Accounting_ feature is enabled on the _Enable/Disable_     _Features_ form. For details on attaching scanned images of the supporting documents, see _To Attach a File to a Record_. For details on entering an invoice with retainage, which can be paid by line, see _To Enter an Invoice with Retainage that Can Be Paid by Line_. 
+- The **Project Task** column appears only if the _Projects_ feature is enabled on the _Enable/Disable Features_     form. For details on attaching scanned images of the supporting documents, see _To Attach a File to a Record_. For details on entering an invoice with retainage, which can be paid by line, see _To Enter an Invoice with Retainage that Can Be Paid by Line_. 
 
 ### To Enter an Invoice with Retainage (with Line Totals) 
 
@@ -8828,7 +8994,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 220 
+ Processing AR Documents with Retainage | 225 
 
 5. In the **Customer** box, select the customer associated with the document.     The system fills in the following boxes automatically with the default settings of the selected customer:     **Location** , **Terms** , **Due Date** , **Cash Discount Date** , **Apply Retainage** , and **Default Retainage Percent**.     Review these settings, and make any needed changes. 
 
@@ -8850,7 +9016,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - The **Location** box appears on the form and is required only if the _Business Account Location_ feature is     enabled on the _Enable/Disable Features_ (CS100000) form. 
 
-- The **Project** box appears on the form only if the _Project Accounting_ feature is enabled on the _Enable/Disable_     _Features_ form. 
+- The **Project** box appears on the form only if the _Projects_ feature is enabled on the _Enable/Disable Features_     form. 
 
 - The **Amount** box appears on the form and is required only if the **Validate Document Totals on Entry** check     box is selected on the _Accounts Receivable Preferences_ (AR101000) form. Note the following about the **Details** tab: 
 
@@ -8860,11 +9026,13 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - In the **Subaccount** column, the system inserts the subaccount generated in accordance with the rule in the     **Combine Expense Sub. from** box on the _Accounts Receivable Preferences_ form. You can manually change     the subaccount if necessary. 
 
+- The **Project** column appears only if the _Projects_ feature is enabled on the _Enable/Disable Features_ form. 
+
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 221 
+ Processing AR Documents with Retainage | 226 
 
-- The **Project** column appears only if the _Project Accounting_ feature is enabled on the _Enable/Disable Features_     form. For details on attaching scanned images of the supporting documents, see _To Attach a File to a Record_. 
+ For details on attaching scanned images of the supporting documents, see To Attach a File to a Record. 
 
 ### To Enter a Credit Memo with Retainage 
 
@@ -8892,21 +9060,21 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 9. Optional: In the **Description** box, add a brief description of the credit memo. 10.On the **Details** tab, for each detail line of the credit memo, click **Add Row** on the table toolbar, and do the     following:     a. In the **Branch** column (if it appears), ensure that the system has specified the correct branch. Specify        another branch, if needed.     b. In the **Ext. Price** column, enter the total amount (including retainage and before the line discounts) for        the line.     c. Check the **Retainage Percent** and **Retainage Amount** columns, and change the value in one of the        columns if necessary. (The system will automatically change the value in the other column based on the        value you specify.)     d. In the **Account** column, ensure that specified account is correct.     e. In the **Subaccount** column (if it appears), ensure that the specified subaccount is correct. 11.If you want to save the document with the _On Hold_ status, click **Hold** on the form toolbar. 12.If you want to save the document with the _Balanced_ status, click **Remove Hold** on the form toolbar. 13.On the form toolbar, click **Save**. 14.To release the credit memo, click **Release** on the form toolbar. 
 
-
-<!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 222 
-
 #### Notes About the Procedure 
 
  The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes. 
 
  Note the following about the Summary area of the form: 
 
+
+<!-- PAGE_BREAK -->
+ Processing AR Documents with Retainage | 227 
+
 - The system fills in the **Post Period** box automatically, based on the specified document date. 
 
 - The **Location** box appears on the form and is required only if the _Business Account Location_ feature is     enabled on the _Enable/Disable Features_ (CS100000) form. 
 
-- The **Project** box appears on the form only if the _Project Accounting_ feature is enabled on the _Enable/Disable_     _Features_ form. Note the following about the **Details** tab: 
+- The **Project** box appears on the form only if the _Projects_ feature is enabled on the _Enable/Disable Features_     form. Note the following about the **Details** tab: 
 
 - The **Branch** column appears only if the _Multibranch Support_ feature is enabled on the _Enable/Disable_     _Features_ form. 
 
@@ -8914,7 +9082,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - In the **Subaccount** column, the system inserts the subaccount generated in accordance with the rule in     the **Combine Expense Sub. from** box on the _Accounts Receivable Preferences_ (AR101000) form. You can     manually change the subaccount if necessary. 
 
-- The **Project Task** column appears only if the _Project Accounting_ feature is enabled on the _Enable/Disable_     _Features_ form. 
+- The **Project Task** column appears only if the _Projects_ feature is enabled on the _Enable/Disable Features_     form. 
 
 ### To Create a Retainage Document (Release Retainage) 
 
@@ -8936,13 +9104,11 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 5. On the _Release AR Retainage_ (AR510000) form, which opens, for the only row in the table, check the values     in the **Retainage to Release** and **Percent to Release** columns. If necessary, change the value in one of the     columns; the system automatically recalculates the value in the other one. 
 
-6. Select the Included check box for the row and click **Process** on the form toolbar. 
+6. Select the Included check box for the row and click **Process** on the form toolbar.     The system creates a retainage invoice or a retainage credit memo on the _Invoices and Memos_ form     and opens the document. Notice that for the created document, the **Transaction Descr.** column on the     **Document Details** tab specifies that this is a retainage for a credit memo or for an invoice. 
 
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 223 
-
- The system creates a retainage invoice or a retainage credit memo on the Invoices and Memos form and opens the document. Notice that for the created document, the Transaction Descr. column on the Document Details tab specifies that this is a retainage for a credit memo or for an invoice. 
+ Processing AR Documents with Retainage | 228 
 
 ### To Create Multiple Retainage Documents (Release Retainage for Multiple 
 
@@ -8982,11 +9148,11 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 1. Open the _Release AR Retainage_ (AR510000) form. 
 
+2. In the Selection area, in the **Date** box, select the date for which you want to create a consolidated retainage     document.     The system fills in the **Post Period** box with the period of the selected date. You can change it, if necessary. 
+
 
 <!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 224 
-
-2. In the Selection area, in the **Date** box, select the date for which you want to create a consolidated retainage     document.     The system fills in the **Post Period** box with the period of the selected date. You can change it, if necessary. 
+ Processing AR Documents with Retainage | 229 
 
 3. In the **Company/Branch** box, ensure that the system has specified the correct branch. By default, the     system fills in the current branch. Specify another branch, company, company group, or clear the box to     view documents with retainage for all companies, if needed. 
 
@@ -9016,15 +9182,17 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
  Make sure that the Payment Application by Line feature has been enabled on the Enable/Disable Features (CS100000) form. 
 
-
-<!-- PAGE_BREAK -->
- Processing AR Documents with Retainage | 225 
-
 #### To Release Retainage with the Same Percent for Multiple Lines 
 
 1. Open the _Release AR Retainage_ (AR510000) form. 
 
-2. In the Selection area, in the **Date** box, select the date for which you want to create the retainage documents.     The system fills in the **Post Period** box with the period of the selected date. You can change it, if necessary. 
+
+<!-- PAGE_BREAK -->
+ Processing AR Documents with Retainage | 230 
+
+2. In the Selection area, in the **Date** box, select the date for which you want to create the retainage documents. 
+
+ The system fills in the Post Period box with the period of the selected date. You can change it, if necessary. 
 
 3. In the **Branch** box, ensure that the system has specified the branch for which you want document lines or     documents to be listed. By default, the system fills in the current branch. Specify another branch, or clear     the box to view documents with retainage for all branches, if needed. 
 
@@ -9046,11 +9214,13 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 6. In the **Retainage Percent** box in the Selection area, specify the retainage percent to be released for each     line or document included in the processing.     Notice that the system automatically inserts the total amount to be released in the **Retainage to Release**     box in the Selection area. 
 
-7. Do one of the following:     a. To release retainage for all lines in the table by using the specified retainage percent, click **Process All** on        the form toolbar.     b. To release retainage for only particular lines or documents in the table by using the specified retainage        percent, click the Included check box for each line or document for which you want to release retainage.        Click **Process** on the form toolbar.     The system has generated retainage invoices or credit memos with the specified retainage percent for each     original invoice or credit memo with lines included in processing. 
+7. Do one of the following: 
+
+ a. To release retainage for all lines in the table by using the specified retainage percent, click Process All on the form toolbar. b. To release retainage for only particular lines or documents in the table by using the specified retainage percent, click the Included check box for each line or document for which you want to release retainage. Click Process on the form toolbar. The system has generated retainage invoices or credit memos with the specified retainage percent for each original invoice or credit memo with lines included in processing. 
 
 
 <!-- PAGE_BREAK -->
- Applying Payments to Particular Lines of AR Documents | 226 
+ Applying Payments to Particular Lines of AR Documents | 231 
 
 ## Applying Payments to Particular Lines of AR Documents 
 
@@ -9090,7 +9260,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Applying Payments to Particular Lines of AR Documents | 227 
+ Applying Payments to Particular Lines of AR Documents | 232 
 
  individual lines of the AR documents of this customer. If a customer with this check box selected is specified for an invoice, the Pay by Line check box is selected by default on the Invoices and Memos (AR301000) form. You can turn on the ability to pay documents by line for any customer class and any customer both during initial configuration and at any time thereaer. You can also turn off this capability for any class or customer, if needed. 
 
@@ -9124,7 +9294,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Applying Payments to Particular Lines of AR Documents | 228 
+ Applying Payments to Particular Lines of AR Documents | 233 
 
  The system supports cash discounts for AR invoices that have lines with negative amounts. 
 
@@ -9160,7 +9330,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Applying Payments to Particular Lines of AR Documents | 229 
+ Applying Payments to Particular Lines of AR Documents | 234 
 
 #### Implementation Checklist 
 
@@ -9206,7 +9376,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Applying Payments to Particular Lines of AR Documents | 230 
+ Applying Payments to Particular Lines of AR Documents | 235 
 
  the Pay by Line check box is always cleared, regardless of the customer's settings, which means that payments can be applied to such documents on the document level, but not on the line level. 
 
@@ -9252,7 +9422,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Applying Payments to Particular Lines of AR Documents | 231 
+ Applying Payments to Particular Lines of AR Documents | 236 
 
  Account Source of Account Debit Credit 
 
@@ -9284,11 +9454,11 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
  The following activity will walk you through the process of creating an AR invoice to be paid by line and partially paying some of its lines. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that on 1/30/2025, the SweetLife Fruits & Jams company provided services to Allen's Bakery for $2,600. SweetLife wants the customer to pay $1,200 for consulting services first. The other invoice lines can be paid later. On 2/1/2025, Allen's Bakery partially paid the invoice in the amount of $1,200. 
+ Suppose that on 1/30/2026, the SweetLife Fruits & Jams company provided services to Allen's Bakery for $2,600. SweetLife wants the customer to pay $1,200 for consulting services first. The other invoice lines can be paid later. On 2/1/2026, Allen's Bakery partially paid the invoice in the amount of $1,200. 
 
  Acting as a SweetLife accountant, you need to create the AR invoice and enter a partial AR payment for one of its lines. 
 
@@ -9300,7 +9470,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Applying Payments to Particular Lines of AR Documents | 232 
+ Applying Payments to Particular Lines of AR Documents | 237 
 
 - _Standard Financials_ , which provides the standard financial functionality 
 
@@ -9322,7 +9492,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as Anna Johnson by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -9338,9 +9508,9 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - **Customer** : _ABAKERY_ 
 
-- **Date** : _1/30/2025_ (inserted automatically) 
+- **Date** : _1/30/2026_ (inserted automatically) 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Pay by Line** : Selected 
 
@@ -9362,7 +9532,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Applying Payments to Particular Lines of AR Documents | 233 
+ Applying Payments to Particular Lines of AR Documents | 238 
 
 - **Account** : _40000 - Sales Revenue_ (inserted automatically) 
 
@@ -9394,9 +9564,9 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - **Customer** : _ABAKERY_ 
 
-- **Application Date** : _2/1/2025_ 
+- **Application Date** : _2/1/2026_ 
 
-- **Application Period** : _02-2025_ (inserted automatically) 
+- **Application Period** : _02-2026_ (inserted automatically) 
 
 - **Payment Method** : _CHECK_ (inserted automatically) 
 
@@ -9424,7 +9594,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Applying Payments to Particular Lines of AR Documents | 234 
+ Applying Payments to Particular Lines of AR Documents | 239 
 
 ### To Enter an Invoice with Retainage that Can Be Paid by Line 
 
@@ -9454,7 +9624,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Applying Payments to Particular Lines of AR Documents | 235 
+ Applying Payments to Particular Lines of AR Documents | 240 
 
  13.If you want to save the document with the Balanced status, if the Amount box of the Summary area is available on the form, enter the total amount minus the retained amount of the invoice in this box. On the form toolbar, click Remove Hold. 14.On the form toolbar, click Save. 
 
@@ -9468,7 +9638,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - The **Location** box appears on the form and is required only if the _Business Account Location_ feature is     enabled on the _Enable/Disable Features_ (CS100000) form. 
 
-- The **Project/Contract** box appears on the form only if the _Project Accounting_ feature is enabled on the     _Enable/Disable Features_ form. 
+- The **Project/Contract** box appears on the form only if the _Projects_ feature is enabled on the _Enable/Disable_     _Features_ form. 
 
 - The **Amount** box appears on the form and is required only if the **Validate Document Totals on Entry** check     box is selected on the _Accounts Receivable Preferences_ (AR101000) form. Note the following about the **Details** tab: 
 
@@ -9480,7 +9650,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - In the **Subaccount** column, the system inserts the subaccount generated in accordance with the rule in the     **Combine Expense Sub. from** box on the _Accounts Receivable Preferences_ form. You can manually change     the subaccount if necessary. 
 
-- The **Project Task** column appears only if the _Project Accounting_ feature is enabled on the _Enable/Disable_     _Features_ form. For details on attaching scanned images of the supporting documents, see _To Attach a File to a Record_. 
+- The **Project Task** column appears only if the _Projects_ feature is enabled on the _Enable/Disable Features_     form. For details on attaching scanned images of the supporting documents, see _To Attach a File to a Record_. 
 
 ### To Apply a Credit Memo Paid by Line to an Invoice 
 
@@ -9502,7 +9672,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Applying Payments to Particular Lines of AR Documents | 236 
+ Applying Payments to Particular Lines of AR Documents | 241 
 
 - Optional: In the **Description** box, enter the payment description. 
 
@@ -9518,7 +9688,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices Without Balancing | 237 
+ Processing Interbranch Invoices Without Balancing | 242 
 
 ## Processing Interbranch Invoices Without Balancing 
 
@@ -9566,7 +9736,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices Without Balancing | 238 
+ Processing Interbranch Invoices Without Balancing | 243 
 
  Form Settings to Check Notes 
 
@@ -9602,7 +9772,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices Without Balancing | 239 
+ Processing Interbranch Invoices Without Balancing | 244 
 
 ### Interbranch Invoices Without Balancing: Generated Transactions 
 
@@ -9638,17 +9808,17 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices Without Balancing | 240 
+ Processing Interbranch Invoices Without Balancing | 245 
 
 ### Interbranch Invoices Without Balancing: Process Activity 
 
  In this activity, you will learn how to create and process an invoice for items provided by multiple branches not requiring balancing and review account balances. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- On March 1, 2025, the SweetLife Fruits & Jams company issued an invoice to the FourStar Coffee & Sweets Shop customer in the amount of $290 for goods and services delivered to the customer by two branches that do not require balancing. The SweetLife Head Office and Wholesale Center branch has provided home canning training in the amount of $90, and the SweetLife Store branch has provided fruits and berries in the amount of $200. 
+ On March 1, 2026, the SweetLife Fruits & Jams company issued an invoice to the FourStar Coffee & Sweets Shop customer in the amount of $290 for goods and services delivered to the customer by two branches that do not require balancing. The SweetLife Head Office and Wholesale Center branch has provided home canning training in the amount of $90, and the SweetLife Store branch has provided fruits and berries in the amount of $200. 
 
  Acting as a SweetLife accountant, you need to create an invoice in the system and then release it, which causes a batch to be generated for it. 
 
@@ -9678,13 +9848,13 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Nenad     Pasic by using the _pasic_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/1/2025_. If a different date is displayed, click the Business Date menu     button and select _3/1/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/1/2026_. If a different date is displayed, click the Business Date menu     button and select _3/1/2026_. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company 
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices Without Balancing | 241 
+ Processing Interbranch Invoices Without Balancing | 246 
 
  and Branch Selection menu to view the list of branches that you have access to, and then click SweetLife Head Office and Wholesale Center. 
 
@@ -9702,7 +9872,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - **Customer** : _COFFEESHOP_ 
 
-- **Date** : _3/1/2025_ (inserted by default) 
+- **Date** : _3/1/2026_ (inserted by default) 
 
 - **Description** : Fruit Delivery and Home Canning Training 
 
@@ -9732,15 +9902,15 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices Without Balancing | 242 
+ Processing Interbranch Invoices Without Balancing | 247 
 
- Figure: GL transactions posted to different branches 
+ Figure: GL entries posted to different branches 
 
  In the next step, you will check the balances of these accounts. 
 
 #### Step 2: Reviewing the Account Balances 
 
- To review the account balances for the branches in the 03-2025 financial period, do the following: 
+ To review the account balances for the branches in the 03-2026 financial period, do the following: 
 
 1. Open the _Account Summary_ (GL401000) form. 
 
@@ -9750,7 +9920,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - **Ledger** : _ACTUAL_ 
 
-- **Period** : _03-2025_ 
+- **Period** : _03-2026_ 
 
 3. In the table, review the account balances. Notice the amount in the **Credit Total** column for the _40000 - Sales_     _Revenue_ account is $90.00. 
 
@@ -9762,7 +9932,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 #### Step 3 (Optional): Reviewing the Balances for the Financial Period 
 
- To review the balances for the 03-2025 financial period, do the following: 
+ To review the balances for the 03-2026 financial period, do the following: 
 
 1. Open the _Trial Balance Summary_ (GL632000) report form. 
 
@@ -9772,9 +9942,9 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - **Ledger** : _ACTUAL_ 
 
-- **From Period** : _03-2025_ 
+- **From Period** : _03-2026_ 
 
-- **To Period** : _03-2025_ 
+- **To Period** : _03-2026_ 
 
 - **Suppress Zero Balances** : Selected 
 
@@ -9782,7 +9952,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices Without Balancing | 243 
+ Processing Interbranch Invoices Without Balancing | 248 
 
 4. In the generated report, review the account balances. As you can see in the following screenshot, the     amount in the **Debit** column for the _11000 - Accounts Receivable_ account equals the amount in the **Credit**     column for the _40000 - Sales Revenue_ account. 
 
@@ -9806,7 +9976,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices Without Balancing | 244 
+ Processing Interbranch Invoices Without Balancing | 249 
 
  can review the GL batch the system created when releasing the invoice and the accounts that have been updated by the transaction. 
 
@@ -9830,7 +10000,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices with Balancing | 245 
+ Processing Interbranch Invoices with Balancing | 250 
 
 ## Processing Interbranch Invoices with Balancing 
 
@@ -9864,7 +10034,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices with Balancing | 246 
+ Processing Interbranch Invoices with Balancing | 251 
 
  Form Settings to Check Notes 
 
@@ -9916,7 +10086,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices with Balancing | 247 
+ Processing Interbranch Invoices with Balancing | 252 
 
  each invoice is created with the Pending Print status. If this check box is cleared, you can release the invoice without printing. 
 
@@ -9952,7 +10122,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices with Balancing | 248 
+ Processing Interbranch Invoices with Balancing | 253 
 
  Branch Account Debit Credit 
 
@@ -9974,11 +10144,11 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
  In this activity, you will learn how to process an invoice for items provided by multiple branches that require balancing; you will then review account balances. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- On March 1, 2025, the Muffins & Cakes company issued an invoice to the GoodFood One Restaurant customer in the amount of $600 for baking-related goods and services delivered to the customer by both branches. (Transactions for these branches require balancing.) The Muffins Head Office & Wholesale Center branch has provided baking classes in the amount of $100, and the Muffins Retail Shop branch has provided ingredients for baking in the amount of $500. 
+ On March 1, 2026, the Muffins & Cakes company issued an invoice to the GoodFood One Restaurant customer in the amount of $600 for baking-related goods and services delivered to the customer by both branches. (Transactions for these branches require balancing.) The Muffins Head Office & Wholesale Center branch has provided baking classes in the amount of $100, and the Muffins Retail Shop branch has provided ingredients for baking in the amount of $500. 
 
  Acting as a Muffins accountant, you need to create an invoice in the system and then release the invoice, which causes a batch to be generated for it. 
 
@@ -9998,7 +10168,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices with Balancing | 249 
+ Processing Interbranch Invoices with Balancing | 254 
 
 - On the _Inter-Branch Account Mapping_ (GL101010) form, the account mapping rules between the Muffins &     Cakes head office branch ( _MHEAD_ ) and the Muffins & Cakes retail store branch ( _MRETAIL_ ) have been defined. 
 
@@ -10014,7 +10184,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Nenad     Pasic by using the _pasic_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/1/2025_. If a different date is displayed, click the Business Date menu     button and select _3/1/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/1/2026_. If a different date is displayed, click the Business Date menu     button and select _3/1/2026_. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _MHEAD - Muffins Head Office & Wholesale Center_ branch. 
 
@@ -10032,7 +10202,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - **Customer** : _GOODFOOD_ 
 
-- **Date** : _3/1/2025_ (inserted by default) 
+- **Date** : _3/1/2026_ (inserted by default) 
 
 - **Description** : Baking product delivery 
 
@@ -10058,7 +10228,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices with Balancing | 250 
+ Processing Interbranch Invoices with Balancing | 255 
 
 7. On the **Financial** tab, notice the originating branch of the invoice is _MHEAD_ , which is specified in the **Branch**     box. The system has filled in the **Branch** box automatically with the branch to which you are signed in. Also,     notice _11000 - Accounts Receivable_ is specified in the **AR Account** box. 
 
@@ -10070,7 +10240,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 #### Step 2: Reviewing the Account Balances 
 
- To review the account balances for the branches in the 03-2025 financial period, do the following: 
+ To review the account balances for the branches in the 03-2026 financial period, do the following: 
 
 1. Open the _Account Summary_ (GL401000) form. 
 
@@ -10080,7 +10250,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - **Ledger** : _MACTUAL_ 
 
-- **Period** : _03-2025_ 
+- **Period** : _03-2026_ 
 
 3. In the table, review the account balances. Notice the amount in the **Debit Total** column for the _11000 -_     _Accounts Receivable_ account ($600). Notice the amount in the **Credit Total** column for the _19000 - Due from_     _Related Entity_ account ($500) and the _40000 - Sales Revenue_ account ($100). 
 
@@ -10088,15 +10258,15 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 5. In the table, review the account balances. Notice the amount in the **Credit Total** column for the _40000 -_     _Sales Revenue_ account ($500) and the amount in the **Debit Total** column for the _26000 - Due to Related Entity_     account ($500). 
 
- Now you will review the balances for the financial period for the company as a whole. 
-
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices with Balancing | 251 
+ Processing Interbranch Invoices with Balancing | 256 
+
+ Now you will review the balances for the financial period for the company as a whole. 
 
 #### Step 3 (Optional): Reviewing the Balances for the Financial Period 
 
- To review the balances for the 03-2025 financial period, do the following: 
+ To review the balances for the 03-2026 financial period, do the following: 
 
 1. Open the _Trial Balance Summary_ (GL632000) report form. 
 
@@ -10106,9 +10276,9 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - **Ledger** : _MACTUAL_ 
 
-- **From Period** : _03-2025_ 
+- **From Period** : _03-2026_ 
 
-- **To Period** : _03-2025_ 
+- **To Period** : _03-2026_ 
 
 - **Suppress Zero Balances** : Selected 
 
@@ -10134,7 +10304,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Interbranch Invoices with Balancing | 252 
+ Processing Interbranch Invoices with Balancing | 257 
 
  can review what GL batch the system will create when you release the invoice, which accounts will be updated by the transaction, and how the customer's balance will be affected. 
 
@@ -10164,7 +10334,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing an Invoice with Combined Subaccounts | 253 
+ Processing an Invoice with Combined Subaccounts | 258 
 
 ## Processing an Invoice with Combined Subaccounts 
 
@@ -10198,7 +10368,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing an Invoice with Combined Subaccounts | 254 
+ Processing an Invoice with Combined Subaccounts | 259 
 
  Form Criteria to Check Notes 
 
@@ -10238,7 +10408,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing an Invoice with Combined Subaccounts | 255 
+ Processing an Invoice with Combined Subaccounts | 260 
 
 - Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section.     This setting causes AR invoices to be automatically posted to the general ledger once they are released. With these settings specified, users in your company can record and process documents in Acumatica ERP quickly and accurately, with a minimum of manual actions. 
 
@@ -10268,7 +10438,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
  The following activity will walk you through the process of creating and releasing an AR invoice that contains combined subaccounts. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -10280,7 +10450,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing an Invoice with Combined Subaccounts | 256 
+ Processing an Invoice with Combined Subaccounts | 261 
 
  When the invoice is ready, you will release it by clicking Release on the form toolbar. You will then review the updated amounts of the accounts involved in the documents in the Trial Balance Detailed (GL632500) report. 
 
@@ -10298,7 +10468,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - Password: _123_ 
 
-4. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date     menu button and select _1/30/2025_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
+4. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date     menu button and select _1/30/2026_. For simplicity, in this process activity, you will create and process all     documents in the system on this business date. 
 
 5. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -10316,9 +10486,9 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - **Terms** : _30D_ (inserted by default based on the selected customer) 
 
-- **Date** : _1/30/2025_ (the current business date, which is inserted by default) 
+- **Date** : _1/30/2026_ (the current business date, which is inserted by default) 
 
-- **Post Period** : _01-2025_ (inserted by default based on the selected date) 
+- **Post Period** : _01-2026_ (inserted by default based on the selected date) 
 
 - **Description** : On-site training 4 hours 
 
@@ -10332,7 +10502,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing an Invoice with Combined Subaccounts | 257 
+ Processing an Invoice with Combined Subaccounts | 262 
 
 4. On the **Details** tab, click **Add Row** again, and specify the following settings for the added row: 
 
@@ -10364,7 +10534,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - **Ledger** : _Actual_ 
 
-- **Financial Period** : _01-2025_ 
+- **Financial Period** : _01-2026_ 
 
 3. On the form toolbar, click **Run Report**. 
 
@@ -10382,7 +10552,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing an Invoice with Combined Subaccounts | 258 
+ Processing an Invoice with Combined Subaccounts | 263 
 
  can review what GL batch the system will create when you release the invoice, which accounts will be updated by the transaction, and how the customer's balance will be affected. 
 
@@ -10412,7 +10582,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Intercompany Sales | 259 
+ Processing Intercompany Sales | 264 
 
 ## Processing Intercompany Sales 
 
@@ -10456,7 +10626,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Intercompany Sales | 260 
+ Processing Intercompany Sales | 265 
 
 - The document has no related AP document. That is, the **Related AP Document** box is empty on the     **Financial** tab ( **Intercompany Invoicing** section) of the _Invoices and Memos_ form. 
 
@@ -10472,13 +10642,13 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Intercompany Sales | 261 
+ Processing Intercompany Sales | 266 
 
 **_Figure: Intercompany sales process_** 
 
 
 <!-- PAGE_BREAK -->
- Processing Intercompany Sales | 262 
+ Processing Intercompany Sales | 267 
 
 ### Intercompany Sales: Implementation Checklist 
 
@@ -10520,7 +10690,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Intercompany Sales | 263 
+ Processing Intercompany Sales | 268 
 
 - To cause the system to insert a sales account from the customer location to an AR invoice, in the **Use**     **Intercompany Sales Account From** box, select _Customer Location_. If _Inventory Item_ is selected in this box,     the system will insert the sales account specified in the **Sales Account** box on the **GL Accounts** tab of the     _Non-Stock Items_ (IN202000) form for non-stock items. 
 
@@ -10562,7 +10732,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Intercompany Sales | 264 
+ Processing Intercompany Sales | 269 
 
 #### Transaction Generated for an AP Bill 
 
@@ -10612,7 +10782,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Intercompany Sales | 265 
+ Processing Intercompany Sales | 270 
 
 #### Story 
 
@@ -10652,7 +10822,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Nenad     Pasic by using the _pasic_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SWEETEQUIP - Service and Equipment Sales Center_ branch. 
 
@@ -10666,7 +10836,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 
 <!-- PAGE_BREAK -->
- Processing Intercompany Sales | 266 
+ Processing Intercompany Sales | 271 
 
  To open the form for creating a new record, type the form ID in the Search box, and on the Search form, point at the form title and click New right of the title. 
 
@@ -10674,7 +10844,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - **Type** : _Invoice_ 
 
-- **Date** : _1/30/2025_ (inserted by default) 
+- **Date** : _1/30/2026_ (inserted by default) 
 
 - **Customer** : _MHEAD_     This is the _MHEAD_ branch of Muffins & Cakes that has been extended as a customer and to which     _SWEETEQUIP_ —the current branch, which has been extended as a vendor—provides services. 
 
@@ -10714,13 +10884,13 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 5. On the form toolbar, click **Release** to release the AP bill. 
 
-6. On the **Financial** tab, click the Edit button to the right of the **Related AR Document** box ( **Intercompany**     **Invoicing** section), and review the invoice that opens on the _Invoices and Memos_ form. 
+6. On the **Financial** tab, click link in the **Related AR Document** box ( **Intercompany Invoicing** section), and     review the invoice that opens on the _Invoices and Memos_ form. 
 
 7. On the **Financial** tab, review the link to the AP bill that the system has inserted in the **Related AP Document**     box ( **Intercompany Invoicing** section), as shown in the following screenshot. 
 
 
 <!-- PAGE_BREAK -->
- Processing Intercompany Sales | 267 
+ Processing Intercompany Sales | 272 
 
  Figure: Link to the AP bill automatically created based on the AR invoice 
 
@@ -10730,7 +10900,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 #### Story 
 
- Suppose that the Head Office of the Muffins & Cakes company ( MHEAD ) that purchased juicer installation services from the SWEETEQIUP branch of SweetLife Fruits & Jams decided to pay for the services on February 15, 2025. 
+ Suppose that the Head Office of the Muffins & Cakes company ( MHEAD ) that purchased juicer installation services from the SWEETEQIUP branch of SweetLife Fruits & Jams decided to pay for the services on February 15, 2026. 
 
  Acting as an accountant of Muffins & Cakes, you have to pay the previously created bill in the amount of $250. 
 
@@ -10750,13 +10920,13 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 - _Inter-Branch Transactions_ 
 
-
-<!-- PAGE_BREAK -->
- Processing Intercompany Sales | 268 
-
 - On the _Companies_ (CS101500) form, the _MUFFINS_ and _SWEETLIFE_ companies have been defined. 
 
 - On the _Branches_ (CS102000) form, the _SWEETEQUIP_ and _MHEAD_ branches have been defined. 
+
+
+<!-- PAGE_BREAK -->
+ Processing Intercompany Sales | 273 
 
 #### Process Overview 
 
@@ -10768,7 +10938,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Nenad     Pasic by using the _pasic_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/15/2025_. If a different date is displayed, click the Business Date menu     button, and select _2/15/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/15/2026_. If a different date is displayed, click the Business Date menu     button, and select _2/15/2026_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _Muffins Head Office & Wholesale Center_ branch. 
 
@@ -10796,13 +10966,13 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 8. Review the details of the payment selected in the row with the unlabeled check box selected for it. 
 
-9. On the form toolbar, click **Process**.     A separate browser tab is opened showing the printable version of the payment. 10.Review the printable version of the payment and close the browser tab. (For the purposes of this activity,     you do not need to actually print the check.) 
+9. On the form toolbar, click **Process**.     A separate browser tab is opened showing the printable version of the payment. 10.Review the printable version of the payment and close the browser tab. (For the purposes of this activity,     you do not need to actually print the check.) 11.On the _Release Payments_ (AP505200) form, which the system has opened, review the details of the payment     you are going to release. 12.On the form toolbar, click **Process**. 
 
 
 <!-- PAGE_BREAK -->
- Processing Intercompany Sales | 269 
+ Processing Intercompany Sales | 274 
 
- 11.On the Release Payments (AP505200) form, which the system has opened, review the details of the payment you are going to release. 12.On the form toolbar, click Process. 13.Open the Checks and Payments (AP3020PL) list of records. 14.Open the payment you have just released. (It should be the top record in the table and have the Closed status.) 15.On the Financial tab, click the link in the Batch Nbr. column to review the batch generated by the system. 16.On the Journal Transactions (GL301000) form that the system opens, review the batch details. When the payment was released, the GL account associated with the cash account of the MHEAD branch ( 10200 Company Checking Account ) was credited in the amount of the payment. The 26010 Accounts Payable Related Company account specified in the bill was debited in the total amount of the bill. 
+ 13.Open the Checks and Payments (AP3020PL) list of records. 14.Open the payment you have just released. (It should be the top record in the table and have the Closed status.) 15.On the Financial tab, click the link in the Batch Nbr. column to review the batch generated by the system. 16.On the Journal Transactions (GL301000) form that the system opens, review the batch details. When the payment was released, the GL account associated with the cash account of the MHEAD branch ( 10200 Company Checking Account ) was credited in the amount of the payment. The 26010 Accounts Payable Related Company account specified in the bill was debited in the total amount of the bill. 
 
 ### Intercompany Sales: To Pay an Intercompany Invoice 
 
@@ -10810,7 +10980,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 #### Story 
 
- Suppose that on February 15, 2025, the Head Office of the Muffins & Cakes ( MHEAD ) branch paid for the juicer installation services that it purchased from the Service and Equipment Sales Center ( SWEETEQUIP ) branch, and on February 18, 2025, the SWEETEQUIP branch received this payment. 
+ Suppose that on February 15, 2026, the Head Office of the Muffins & Cakes ( MHEAD ) branch paid for the juicer installation services that it purchased from the Service and Equipment Sales Center ( SWEETEQUIP ) branch, and on February 18, 2026, the SWEETEQUIP branch received this payment. 
 
  Acting as an accountant of the SWEETEQUIP branch, you need to create an AR payment in the system to record this payment to the branch's cash account. 
 
@@ -10842,13 +11012,15 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
  Before you begin performing the steps of this activity, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Processing Intercompany Sales | 270 
-
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Nenad     Pasic by using the _pasic_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/18/2025_. If a different date is displayed, click the Business Date menu     button, and select _2/18/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/18/2026_. If a different date is displayed, click the Business Date menu 
+
+
+<!-- PAGE_BREAK -->
+ Processing Intercompany Sales | 275 
+
+ button, and select 2/18/2026 on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _Service and Equipment Sales Center_ branch. 
 
@@ -10870,7 +11042,7 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
 4. On the _Payments and Applications_ (AR302000) form, which opens, make sure that the following settings are     specified in the Summary area: 
 
-- **Application Date** : _2/18/2025_ 
+- **Application Date** : _2/18/2026_ 
 
 - **Customer** : _MHEAD_ 
 
@@ -10894,11 +11066,11 @@ The following diagram illustrates the workflow of creating a refund and partiall
 
  You use the Generate Intercompany Documents (AP503500) form for the mass generation of AP documents based on AR documents from the selling company. 
 
+ In the boxes of the Selection area of the form, you specify the selection criteria for the documents to be loaded in the table. You can also manage the process of generating AP documents by using the following check boxes: 
+
 
 <!-- PAGE_BREAK -->
- Processing Intercompany Sales | 271 
-
-In the boxes of the Selection area of the form, you specify the selection criteria for the documents to be loaded in the table. You can also manage the process of generating AP documents by using the following check boxes: 
+ Processing Intercompany Sales | 276 
 
 - **Create AP Documents on Hold** : If this check box is selected, AP documents will be created with the _On_     _Hold_ status. If it is cleared, AP documents will be created with the _Balanced_ or _Pending Approval_ status,     depending on whether approvals have been configured for accounts payable documents. 
 
@@ -10910,7 +11082,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 272 
+ Processing Credit Card Payments | 277 
 
 ## Processing Credit Card Payments 
 
@@ -10944,7 +11116,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 273 
+ Processing Credit Card Payments | 278 
 
  When you need to accept a payment from a customer's credit card that is not stored in Acumatica ERP, the processing of the payment occurs as follows: 
 
@@ -10990,7 +11162,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 274 
+ Processing Credit Card Payments | 279 
 
  transaction disappears from the table, and the transaction should be further processed as described earlier in this section. 
 
@@ -11026,7 +11198,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 275 
+ Processing Credit Card Payments | 280 
 
 - For a document with a transaction held for review, you review the transaction in the processing center and     validate the document in the system by clicking **Validate Card Payment** on the More menu of the _Payments_     _and Applications_ or _Cash Sales_ form. 
 
@@ -11070,7 +11242,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 276 
+ Processing Credit Card Payments | 281 
 
 3. On the _Customer Classes_ form, select the customer class for which you want to configure optional saving of     customer payment methods. 
 
@@ -11112,7 +11284,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 277 
+ Processing Credit Card Payments | 282 
 
 1. On the _Payments and Applications_ (AR302000) form, create a document of the _Refund_ type for a customer. 
 
@@ -11154,7 +11326,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 278 
+ Processing Credit Card Payments | 283 
 
  With the Integrated Card Processing feature disabled, you can create documents with payment methods that have Credit Card selected in the Means of Payment box on the Payment Methods (CA204000) form. Documents associated with credit card payment methods will not require integrated processing. 
 
@@ -11208,7 +11380,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 279 
+ Processing Credit Card Payments | 284 
 
 #### Collecting Payments 
 
@@ -11250,7 +11422,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 280 
+ Processing Credit Card Payments | 285 
 
 #### Maintaining Valid Card Information 
 
@@ -11282,7 +11454,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 281 
+ Processing Credit Card Payments | 286 
 
 #### Automatic Processing 
 
@@ -11314,7 +11486,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 282 
+ Processing Credit Card Payments | 287 
 
 #### The Import of a Refund with a Void Transaction 
 
@@ -11348,7 +11520,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 283 
+ Processing Credit Card Payments | 288 
 
  First, on the Generate Payments form, you create payment documents for invoices, as described in the To Generate Payment Documents section of this document. Aer payment documents are created, you process them by using the Capture Payments form (see the To Perform Mass Payment Collection section). 
 
@@ -11398,7 +11570,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 284 
+ Processing Credit Card Payments | 289 
 
 ### To Enter a Payment from a New Credit Card 
 
@@ -11436,7 +11608,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 285 
+ Processing Credit Card Payments | 290 
 
 #### Before You Proceed 
 
@@ -11480,17 +11652,17 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 5. In the **Action Name** box, select the _Process All_ action.     The schedule will invoke the _Load Card Data_ action. 
 
-6. On the **Details** tab, specify the additional settings of the schedule:     a. Optional: In the **Starts On** box of the **Details** tab, select the start date. By default, the schedule execution        starts on the current business date.     b. Optional: If you need to specify an expiration date for the schedule, clear the **No Expiration Date** check        box, and specify the expiration date in the **Expires On** box. 
+6. On the **Details** tab, specify the additional settings of the schedule:     a. Optional: In the **Starts On** box, select the start date. By default, the schedule execution starts on the        current business date.     b. Optional: If you need to specify an expiration date for the schedule, clear the **No Expiration Date** check        box and specify the expiration date in the **Expires On** box. 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 286 
+ Processing Credit Card Payments | 291 
 
  c. Do one of the following: 
 
 - If you want to limit the number of executions, in the **Execution Limit** box, specify the number of times     the schedule should be executed. 
 
-- If you do not need to limit the number of executions, select the **No Execution Limit** check box. d. Optional: In the **Process with Branch** box, select the branch under which the schedule should be processed. For example, if documents are created by this schedule, the system creates these documents and specifies the selected branch for each document. e. Optional: Change the time zone in which the schedule will operate. By default, the time zone specified on the _User Profile_ (SM203010) form for the currently signed-in user is selected. 
+- If you do not need to limit the number of executions, select the **No Execution Limit** check box. d. Optional: In the **Process with Branch** box, select the branch under which the schedule should be processed. For example, if documents are created by this schedule, the system creates these documents and specifies the selected branch for each document. e. Optional: Change the time zone the schedule uses. By default, the time zone specified on the _User Profile_ (SM203010) form for the currently signed-in user is selected. 
 
 7. On the **Schedule** tab, specify the execution dates and time as follows: 
 
@@ -11506,7 +11678,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 287 
+ Processing Credit Card Payments | 292 
 
  b. If you want the processing to be stopped at specific time or you want the processing to be repeated multiple times a day, in the Stops On box, select the hour and minute when the first execution of the schedule should stop. c. If execution of the schedule should be repeated multiple times a day, in the Every box, select the interval between successive executions of the schedule. d. In the Next Execution Date box, make sure the next execution time is correct. e. If you want the system to execute the schedule at exactly the time specified in the Next Execution Time box, select the Exact Time check box. If the check box is cleared, the system may shi the next execution time of the schedule by multiple minutes. 
 
@@ -11542,7 +11714,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 5. In the **Action Name** box, make sure that the _Validate All_ action is selected. 
 
-6. On the **Details** tab, specify the additional settings of the schedule:     a. Optional: In the **Starts On** box of the **Details** tab, select the start date. By default, the schedule execution        starts on the current business date.     b. Optional: If you need to specify an expiration date for the schedule, clear the **No Expiration Date** check        box, and specify the expiration date in the **Expires On** box.     c. Do one of the following: 
+6. On the **Details** tab, specify the additional settings of the schedule:     a. Optional: In the **Starts On** box, select the start date. By default, the schedule execution starts on the        current business date.     b. Optional: If you need to specify an expiration date for the schedule, clear the **No Expiration Date** check        box and specify the expiration date in the **Expires On** box.     c. Do one of the following: 
 
 - If you want to limit the number of executions, in the **Execution Limit** box, specify the number of times     the schedule should be executed. 
 
@@ -11550,9 +11722,9 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 288 
+ Processing Credit Card Payments | 293 
 
- e. Optional: Change the time zone in which the schedule will operate. By default, the time zone specified on the User Profile (SM203010) form for the currently signed-in user is selected. 
+ e. Optional: Change the time zone the schedule uses. By default, the time zone specified on the User Profile (SM203010) form for the currently signed-in user is selected. 
 
 7. On the **Schedule** tab, specify the execution dates and time as follows: 
 
@@ -11568,7 +11740,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 289 
+ Processing Credit Card Payments | 294 
 
  e. If you want the system to execute the schedule at exactly the time specified in the Next Execution Time box, select the Exact Time check box. If the check box is cleared, the system may shi the next execution time of the schedule by multiple minutes. 
 
@@ -11612,7 +11784,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Credit Card Payments | 290 
+ Processing Credit Card Payments | 295 
 
 #### To Deactivate Expired Cards 
 
@@ -11636,7 +11808,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Managing Commissions | 291 
+ Managing Commissions | 296 
 
 ## Managing Commissions 
 
@@ -11678,7 +11850,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Managing Commissions | 292 
+ Managing Commissions | 297 
 
  Some businesses pay commissions calculated on invoice amounts, while other businesses pay commissions only aer customer payments have been received. In Acumatica ERP, you can select the option that fits your company’s policy on the Accounts Receivable Preferences form, in the Salesperson Commission By box. The following options of commission calculation are available: 
 
@@ -11714,7 +11886,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Managing Commissions | 293 
+ Managing Commissions | 298 
 
  If commissions are calculated by payments, payment documents with the Balance Write-Off and Voided Balance Write-Off types are not included in the commission calculation. For example, if the invoice total is $1,000, $990 was paid, and $10 was written off, the $10 amount will be excluded from commission calculation. 
 
@@ -11750,7 +11922,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Managing Commissions | 294 
+ Managing Commissions | 299 
 
  Form Criteria to Check 
 
@@ -11790,15 +11962,15 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Managing Commissions | 295 
+ Managing Commissions | 300 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the management of SweetLife Fruits & Jams has decided to introduce commission payments to its salespeople. According to the company's commission plan, each salesperson will earn a monthly 10% commission on every sale. Commissions should be calculated on each invoice amount. 
 
- Further suppose that aer the plan became effective, Grace Norman sold training courses to one of the customers, Allen's Bakery, on 1/30/2025. 
+ Further suppose that aer the plan became effective, Grace Norman sold training courses to one of the customers, Allen's Bakery, on 1/30/2026. 
 
  Acting as the SweetLife chief accountant, you need to set up commissions in the system, create an invoice with Grace Norman specified as a salesperson for it, and calculate this salesperson's commission for January. 
 
@@ -11842,13 +12014,13 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as Anna Johnson by using     the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and 
 
 
 <!-- PAGE_BREAK -->
- Managing Commissions | 296 
+ Managing Commissions | 301 
 
- button and select 1/30/2025 on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date. 
+ select 1/30/2026 from the calendar. For simplicity, you'll create and process all documents in this activity using this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Head Office and Wholesale Center_ branch. 
 
@@ -11904,7 +12076,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Managing Commissions | 297 
+ Managing Commissions | 302 
 
 #### Step 4: Updating the Customer's Settings 
 
@@ -11926,7 +12098,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 - **Type** : _Invoice_ 
 
-- **Date** : _1/30/2025_ (inserted automatically) 
+- **Date** : _1/30/2026_ (inserted automatically) 
 
 - **Customer** : _ABAKERY_ 
 
@@ -11948,7 +12120,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 1. Open the _Calculate Commissions_ (AR505500) form. 
 
-2. In the **Commission Period** box, make sure that _01-2025_ is selected.     In the **Status** box, the status of the _01-2025_ commission period is _Open_. It means that commissions can be     prepared for this period. 
+2. In the **Commission Period** box, make sure that _01-2026_ is selected.     In the **Status** box, the status of the _01-2026_ commission period is _Open_. It means that commissions can be     prepared for this period. 
 
 3. Make sure that a record for Grace Norman is displayed in the table. On the table toolbar, click **Process All**. 
 
@@ -11956,15 +12128,15 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 #### Step 7: Closing the Commission Period 
 
- To close the 01-2025 commission period, do the following: 
+ To close the 01-2026 commission period, do the following: 
 
 1. Open the _Close Commission Period_ (AR506500) form. 
 
-2. Make sure that _01-2025_ is displayed in the **Commission Period** box. 
+2. Make sure that _01-2026_ is displayed in the **Commission Period** box. 
 
 
 <!-- PAGE_BREAK -->
- Managing Commissions | 298 
+ Managing Commissions | 303 
 
 3. Make sure that the **Status** box contains _Prepared_. You can close the commission period only if it has this     status. 
 
@@ -11984,7 +12156,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Performing Period-End Procedures | 299 
+ Performing Period-End Procedures | 304 
 
 ## Performing Period-End Procedures 
 
@@ -12018,17 +12190,17 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  The following activity will walk you through the process of closing a financial period in accounts receivable. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Performing Period-End Procedures | 300 
+ Performing Period-End Procedures | 305 
 
 #### Story 
 
- Suppose that it is the end of March 2024, all the documents of the SweetLife Fruits & Jams company have been posted, and the financial period has to be closed to prevent system users from posting to this period. 
+ Suppose that it is the end of March 2025, all the documents of the SweetLife Fruits & Jams company have been posted, and the financial period has to be closed to prevent system users from posting to this period. 
 
- Acting as the SweetLife accountant, you need to close the 03-2024 financial period in the accounts receivable subledger. 
+ Acting as the SweetLife accountant, you need to close the 03-2025 financial period in the accounts receivable subledger. 
 
 #### Configuration Overview 
 
@@ -12058,7 +12230,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 #### Step: Closing the Financial Period in the AR Subledger 
 
- To close the 03-2024 financial period in the accounts receivable subledger, do the following: 
+ To close the 03-2025 financial period in the accounts receivable subledger, do the following: 
 
 1. Open the _Close Financial Periods_ (AR506000) form. 
 
@@ -12068,13 +12240,13 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 - **Action** : _Close_ 
 
-- **To Year** : _2024_ 
+- **To Year** : _2025_ 
 
-3. In the table, click the unlabeled check box in the row with the _03-2024_ period.     The check boxes for all the preceding periods are selected automatically and the periods will be closed as     well, as shown in the following screenshot. 
+3. In the table, click the unlabeled check box in the row with the _03-2025_ period.     The check boxes for all the preceding periods are selected automatically and the periods will be closed as     well, as shown in the following screenshot. 
 
 
 <!-- PAGE_BREAK -->
- Performing Period-End Procedures | 301 
+ Performing Period-End Procedures | 306 
 
  Figure: The periods selected for closing in AR 
 
@@ -12082,7 +12254,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 5. Review the documents in the report (if it has been opened), and release them or reassign them to another     financial period. 
 
-6. Return to the _Close Financial Periods_ form. On the form toolbar, click **Process**. In the **Processing** pop-up     window, which is opened, click **Close**.     The _03-2024_ period and all the preceding periods have been closed in the system. 
+6. Return to the _Close Financial Periods_ form. On the form toolbar, click **Process**. In the **Processing** pop-up     window, which is opened, click **Close**.     The _03-2025_ period and all the preceding periods have been closed in the system. 
 
 ### To Reopen a Financial Period in Accounts Receivable 
 
@@ -12096,7 +12268,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Performing Period-End Procedures | 302 
+ Performing Period-End Procedures | 307 
 
  This box appears on the form if your organization does not use centralized management of financial periods —that is, the Centralized Period Management feature is disabled on the Enable/Disable Features (CS100000) form. 
 
@@ -12112,7 +12284,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 303 
+ Appendix | 308 
 
 ## Appendix 
 
@@ -12152,37 +12324,105 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 304 
+ Appendix | 309 
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 310 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 311 
 
 #### Report Toolbar 
 
@@ -12191,12 +12431,6 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 305 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -12222,25 +12456,77 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 306 
+ Appendix | 312 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 313 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -12258,91 +12544,45 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 307 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 308 
+ Appendix | 314 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -12361,6 +12601,12 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 315 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -12384,10 +12630,6 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 309 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -12402,13 +12644,19 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 316 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -12426,10 +12674,6 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 310 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -12444,6 +12688,10 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 317 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -12452,11 +12700,7 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 311 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -12482,6 +12726,12 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 318 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -12489,12 +12739,6 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 312 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -12522,19 +12766,19 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 319 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 313 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -12544,13 +12788,15 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 320 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -12561,10 +12807,6 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 314 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -12578,6 +12820,10 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 321 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -12588,11 +12834,11 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 315 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 322 
 
 #### Unavailable Commands on the More Menu 
 
@@ -12604,17 +12850,13 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 316 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 317 
+ Appendix | 323 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -12626,7 +12868,11 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 324 
 
  Figure: Table toolbar 
 
@@ -12646,17 +12892,17 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 318 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 325 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -12686,13 +12932,13 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 319 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 326 
 
  Element Description 
 
@@ -12736,15 +12982,15 @@ By default, full access rights to this form have been granted to the _AP Admin_ 
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 320 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 327 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

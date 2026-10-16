@@ -2,7 +2,7 @@
 
 # Payroll 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -46,35 +46,35 @@
 
  Work Locations: Implementation Activity...................................................................................................... 23 
 
- Setting Up Taxes...................................................................................................................................25 
+ Setting Up Taxes...................................................................................................................................24 
 
- Taxes: General Information............................................................................................................................. 25 
+ Taxes: General Information............................................................................................................................. 24 
 
  Taxes: Configuration Prerequisites................................................................................................................. 26 
 
  Taxes: Implementation Activity.......................................................................................................................26 
 
- Defining Earning Types......................................................................................................................... 29 
+ Defining Earning Types......................................................................................................................... 28 
 
- Earning Types: General Information...............................................................................................................29 
+ Earning Types: General Information...............................................................................................................28 
 
- Earning Types: Configuration Prerequisites...................................................................................................30 
+ Earning Types: Configuration Prerequisites...................................................................................................29 
 
- Earning Types: Implementation Activity........................................................................................................ 30 
+ Earning Types: Implementation Activity........................................................................................................ 29 
 
- Creating Workers' Compensation Codes................................................................................................. 34 
+ Creating Workers' Compensation Codes................................................................................................. 33 
 
- Workers' Compensation Codes: General Information................................................................................... 34 
+ Workers' Compensation Codes: General Information................................................................................... 33 
 
- Workers' Compensation Codes: Configuration Prerequisites....................................................................... 35 
+ Workers' Compensation Codes: Configuration Prerequisites....................................................................... 34 
 
- Workers' Compensation Codes: Implementation Activity............................................................................ 35 
+ Workers' Compensation Codes: Implementation Activity............................................................................ 34 
 
- Configuring Deductions and Benefits..................................................................................................... 37 
+ Configuring Deductions and Benefits..................................................................................................... 36 
 
- Deduction and Benefit Codes: General Information..................................................................................... 37 
+ Deduction and Benefit Codes: General Information..................................................................................... 36 
 
- Deduction and Benefit Codes: Configuration Prerequisites......................................................................... 40 
+ Deduction and Benefit Codes: Configuration Prerequisites......................................................................... 39 
 
  Deduction and Benefit Codes: Implementation Activity............................................................................... 40 
 
@@ -82,123 +82,123 @@
 <!-- PAGE_BREAK -->
  Contents | 3 
 
-**Creating Unions....................................................................................................................................45** 
+**Creating Unions....................................................................................................................................44** 
 
- Unions: General Information...........................................................................................................................45 
+ Unions: General Information...........................................................................................................................44 
 
- Unions: Configuration Prerequisites...............................................................................................................45 
+ Unions: Configuration Prerequisites...............................................................................................................44 
 
- Unions: Implementation Activity.................................................................................................................... 46 
+ Unions: Implementation Activity.................................................................................................................... 45 
 
-**Configuring Certified Projects................................................................................................................48** 
+**Configuring Certified Projects................................................................................................................47** 
 
- Certified Projects: General Information......................................................................................................... 48 
+ Certified Projects: General Information......................................................................................................... 47 
 
- Certified Projects: Deductions and Benefits.................................................................................................. 50 
+ Certified Projects: Deductions and Benefits.................................................................................................. 49 
 
- Certified Projects: Fringe Benefits.................................................................................................................. 50 
+ Certified Projects: Fringe Benefits.................................................................................................................. 49 
 
-**Configuring Overtime Rules...................................................................................................................52** 
+**Configuring Overtime Rules...................................................................................................................51** 
 
- Overtime Rules: General Information.............................................................................................................52 
+ Overtime Rules: General Information.............................................................................................................51 
 
- Overtime Rules: Configuration Prerequisites.................................................................................................54 
+ Overtime Rules: Configuration Prerequisites.................................................................................................53 
 
- Overtime Rules: Implementation Activity...................................................................................................... 54 
+ Overtime Rules: Implementation Activity...................................................................................................... 53 
 
-**Defining Pay Groups, Payroll Calendars, and Pay Periods........................................................................ 56** 
+**Defining Pay Groups, Payroll Calendars, and Pay Periods........................................................................ 55** 
 
- Pay Groups, Payroll Calendars, and Pay Periods: General Information........................................................56 
+ Pay Groups, Payroll Calendars, and Pay Periods: General Information........................................................55 
 
- Pay Groups, Payroll Calendars, and Pay Periods: Configuration Prerequisites............................................57 
+ Pay Groups, Payroll Calendars, and Pay Periods: Configuration Prerequisites............................................56 
 
- Pay Groups, Payroll Calendars, and Pay Periods: Implementation Activity................................................. 58 
+ Pay Groups, Payroll Calendars, and Pay Periods: Implementation Activity................................................. 57 
 
-**Configuring Government Reporting....................................................................................................... 61** 
+**Configuring Government Reporting....................................................................................................... 60** 
 
- Government Reporting: General Information................................................................................................ 61 
+ Government Reporting: General Information................................................................................................ 60 
 
- Government Reporting: Affordable Care Act (ACA) Reporting...................................................................... 61 
+ Government Reporting: Affordable Care Act (ACA) Reporting...................................................................... 60 
 
- Government Reporting: Implementation Activity......................................................................................... 62 
+ Government Reporting: Implementation Activity......................................................................................... 61 
 
-**Creating Employee Payroll Classes.........................................................................................................64** 
+**Creating Employee Payroll Classes.........................................................................................................63** 
 
- Employee Payroll Classes: General Information............................................................................................ 64 
+ Employee Payroll Classes: General Information............................................................................................ 63 
 
- Employee Payroll Classes: Configuration Prerequisites................................................................................ 65 
+ Employee Payroll Classes: Configuration Prerequisites................................................................................ 64 
 
- Employee Payroll Classes: Implementation Activity..................................................................................... 66 
+ Employee Payroll Classes: Implementation Activity..................................................................................... 65 
 
-**Configuring Paid Time Off..................................................................................................................... 68** 
+**Configuring Paid Time Off..................................................................................................................... 67** 
 
- Paid Time Off: General Information................................................................................................................68 
+ Paid Time Off: General Information................................................................................................................67 
 
- Paid Time Off: Configuration Prerequisites....................................................................................................71 
+ Paid Time Off: Configuration Prerequisites....................................................................................................70 
 
- Paid Time Off: Implementation Activity......................................................................................................... 72 
+ Paid Time Off: Implementation Activity......................................................................................................... 71 
 
-**Specifying Employee Payroll Settings.................................................................................................... 75** 
+**Specifying Employee Payroll Settings.................................................................................................... 73** 
 
- Employee Payroll Settings: General Information...........................................................................................75 
+ Employee Payroll Settings: General Information...........................................................................................73 
 
- Employee Payroll Settings: Configuration Prerequisites...............................................................................76 
+ Employee Payroll Settings: Configuration Prerequisites...............................................................................74 
 
- Employee Payroll Settings: Implementation Activity.................................................................................... 77 
+ Employee Payroll Settings: Implementation Activity.................................................................................... 75 
 
-**Processing Payroll Batches....................................................................................................................81** 
+**Processing Payroll Batches....................................................................................................................79** 
 
- Payroll Batches: General Information............................................................................................................ 81 
+ Payroll Batches: General Information............................................................................................................ 79 
 
-**Calculating Paychecks...........................................................................................................................84** 
+**Calculating Paychecks...........................................................................................................................82** 
 
- Paychecks: General Information..................................................................................................................... 84 
+ Paychecks: General Information..................................................................................................................... 82 
 
 
 <!-- PAGE_BREAK -->
  Contents | 4 
 
- Paychecks: Related Reports and Inquiry Forms............................................................................................ 86 
+ Paychecks: Related Reports and Inquiry Forms............................................................................................ 84 
 
-**Processing Payments............................................................................................................................ 87** 
+**Processing Payments............................................................................................................................ 85** 
 
- Payroll Payments: General Information......................................................................................................... 87 
+ Payroll Payments: General Information......................................................................................................... 85 
 
- Payroll Payments: Related Reports and Inquiry Forms.................................................................................88 
+ Payroll Payments: Related Reports and Inquiry Forms.................................................................................86 
 
-**Creating Liability Bills...........................................................................................................................91** 
+**Creating Liability Bills...........................................................................................................................89** 
 
- Liability Bills: General Information................................................................................................................. 91 
+ Liability Bills: General Information................................................................................................................. 89 
 
-**Correcting Payroll Documents............................................................................................................... 92** 
+**Correcting Payroll Documents............................................................................................................... 90** 
 
- Corrections: General Information................................................................................................................... 92 
+ Corrections: General Information................................................................................................................... 90 
 
- Corrections: Related Reports and Inquiry Forms.......................................................................................... 94 
+ Corrections: Related Reports and Inquiry Forms.......................................................................................... 92 
 
-**Preparing Government Reports............................................................................................................. 96** 
+**Preparing Government Reports............................................................................................................. 94** 
 
- Preparing Government Reports: General Information.................................................................................. 96 
+ Preparing Government Reports: General Information.................................................................................. 94 
 
- Preparing Government Reports: Records of Employment............................................................................ 96 
+ Preparing Government Reports: Records of Employment............................................................................ 94 
 
- Preparing Government Reports: Canadian Tax Forms.................................................................................. 97 
+ Preparing Government Reports: Canadian Tax Forms.................................................................................. 95 
 
-**Terminating Employment......................................................................................................................99** 
+**Terminating Employment......................................................................................................................97** 
 
- Employment Termination: General Information........................................................................................... 99 
+ Employment Termination: General Information........................................................................................... 97 
 
-**Appendix............................................................................................................................................ 101** 
+**Appendix..............................................................................................................................................99** 
 
- Reports........................................................................................................................................................... 101 
+ Reports............................................................................................................................................................. 99 
 
- Report Form.......................................................................................................................................... 101 
+ Report Form............................................................................................................................................ 99 
 
  Report....................................................................................................................................................106 
 
- Form Toolbar and More Menu.......................................................................................................................108 
+ Form Toolbar and More Menu.......................................................................................................................107 
 
- Table Toolbar................................................................................................................................................. 115 
+ Table Toolbar................................................................................................................................................. 114 
 
 
 <!-- PAGE_BREAK -->
@@ -220,9 +220,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -332,7 +332,7 @@
 
 6. On the _Work Locations_ (PR101040) form, for each location where work is to be performed, you enter all the     address information through the postal code. For an example, see _Work Locations: Implementation Activity_. 
 
-7. On the _Tax Maintenance_ (PR208000) form, you download the latest tax information from the Tax Symmetry     engine so that the system will create tax codes related to all employee addresses and work locations stored     in the system. On the **Tax Codes** tab of the form, for each tax, you specify a vendor (tax agency), default     attribute settings, and general ledger accounts. On the **Company Tax** tab, you specify the settings linked to     the taxes at the company level. For details, see _Taxes: Implementation Activity_. 
+7. On the _Tax Maintenance_ (PR208000) form, you download the latest tax information from the Symmetry tax     engine so that the system will create tax codes related to all employee addresses and work locations stored     in the system. On the **Tax Codes** tab of the form, for each tax, you specify a vendor (tax agency), default     attribute settings, and general ledger accounts. On the **Global Tax Settings** tab, you specify the settings     linked to the taxes at the company level. For details, see _Taxes: Implementation Activity_. 
 
 8. On the _Earning Type Codes_ (PR102000) form, you set up earning types. For the predefined earning types, you     need to make sure that the settings are specified in the way that suits your organization's needs. Also, if you     want a particular earning type to be always assigned to a specific project, you can set it up on this form. For     details, see _Earning Types: Implementation Activity_. 
 
@@ -458,19 +458,19 @@
 
  c. New Number Symbol : <NEW> 
 
-3. In the table, add a row with the following settings:     a. **Start Number** : PR000000     b. **End Number** : PR999999     The system prefills the rest of the settings, which you can leave as-is. 
+3. In the table, add a row with the following settings:     a. **Start Number** : PR000000     b. **End Number** : PR999999 (inserted automatically)     The system prefills the rest of the settings, which you can leave as-is. 
 
 4. On the form toolbar, click **Save** and then click **Add New Record**. 
 
 5. In the Summary area of the form, specify the following settings:     a. **Numbering ID** : PRTRANSAC     b. **Description** : PR Transactions     c. **New Number Symbol** : <NEW> 
 
-6. In the table, add a row with the following settings:     a. **Start Number** : 000000     b. **End Number** : 999999 
+6. In the table, add a row with the following settings:     a. **Start Number** : 000000     b. **End Number** : 999999 (inserted automatically) 
 
 7. On the form toolbar, click **Save** and then click **Add New Record**. 
 
 8. In the Summary area of the form, specify the following settings:     a. **Numbering ID** : PRBATCH     b. **Description** : Payroll Batch Numbering     c. **New Number Symbol** : <NEW> 
 
-9. In the table, add a row with the following settings:     a. **Start Number** : 000000     b. **End Number** : 999999 10.On the form toolbar, click **Save** and then click **Add New Record**. 11.In the Summary area of the form, specify the following settings:     a. **Numbering ID** : PRPTOADJ     b. **Description** : Payroll PTO Adjustments     c. **New Number Symbol** : <NEW> 12.In the table, add a row with the following settings:     a. **Start Number** : PRP0000000     b. **End Number** : PRP9999999 13.On the form toolbar, click **Save**. 
+9. In the table, add a row with the following settings:     a. **Start Number** : 000000     b. **End Number** : 999999 (inserted automatically) 10.On the form toolbar, click **Save** and then click **Add New Record**. 11.In the Summary area of the form, specify the following settings:     a. **Numbering ID** : PRPTOADJ     b. **Description** : Payroll PTO Adjustments     c. **New Number Symbol** : <NEW> 12.In the table, add a row with the following settings:     a. **Start Number** : PRP0000000     b. **End Number** : PRP9999999 (inserted automatically) 13.On the form toolbar, click **Save**. 
 
 #### Step 3: Specifying the Payroll Preferences 
 
@@ -660,7 +660,7 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 1. On the _Cash Accounts_ (CA202000) form, open the _10200WH_ cash account. 
 
-2. On the **Payment Methods** tab , for the _CHECK_ payment method, select the **Use in PR** check box. 
+2. On the **Payment Methods** tab, for the _CHECK_ payment method, select the **Use in PR** check box. 
 
 3. On the form toolbar, click **Save**. 
 
@@ -691,8 +691,6 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 <!-- PAGE_BREAK -->
  Setting Up Payment Methods | 18 
-
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
 
 #### Step 1: Defining a Direct Deposit Payment Method 
 
@@ -754,11 +752,11 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
  Selected 0 ^\d{1,1}$ 
 
+6. On the form toolbar, click **Save**. 
+
 
 <!-- PAGE_BREAK -->
  Setting Up Payment Methods | 19 
-
-6. On the form toolbar, click **Save**. 
 
 #### Step 2: Updating Remittance Settings of the Cash Account 
 
@@ -860,8 +858,6 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - Password: _123_ As a prerequisite activity, in the company to which you are signed in, be sure you have completed the _Payment Methods: To Define a Direct Deposit Payment Method_. 
 
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
-
 #### Step: Reviewing the Basic Configuration for Time Reporting 
 
  Make sure the minimum required configuration for time reporting has been performed by doing the following: 
@@ -938,8 +934,6 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - Password: _123_ As a prerequisite activity, in the company to which you are signed in, be sure you have completed the _Shift Codes: Implementation Activity_. 
 
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
-
 #### Step: Creating a Work Location 
 
  To create a work location, do the following: 
@@ -956,7 +950,7 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - **Use Address from Branch ID** : _HEADOFFICE_ 
 
-3. Notice that the system has inserted the following information in the address lines: 
+3. Notice that the system has inserted the following information in the address lines that are read-only: 
 
 - **Address Line 1** : 69 Main St, Flushing 
 
@@ -968,15 +962,11 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - **Postal Code** : 11367 
 
-
-<!-- PAGE_BREAK -->
- Creating Work Locations | 24 
-
 4. On the form toolbar, click **Save**. 
 
 
 <!-- PAGE_BREAK -->
- Setting Up Taxes | 25 
+ Setting Up Taxes | 24 
 
 ## Setting Up Taxes 
 
@@ -996,19 +986,45 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 #### Setting Up Taxes 
 
- By clicking Update Taxes on the form toolbar of the Tax Maintenance (PR208000) form, you download the latest tax details from the Tax Symmetry engine, and then the system creates tax codes related to all employee addresses and work locations stored in the system. As a result, the Tax Codes tab on that form becomes populated with data. You need to perform this operation during the initial configuration of taxes in the system and then each time new tax information becomes available in the Tax Symmetry engine—you will see a warning on the Paychecks and Adjustments (PR302000) and Payroll Batches (PR301000) forms if tax information needs to be updated in the system. 
+ By clicking Update Taxes on the form toolbar of the Tax Maintenance (PR208000) form, you download the latest tax details from the Symmetry tax engine, and then the system creates tax codes related to all employee addresses and work locations stored in the system. As a result, the Tax Codes tab on that form becomes populated with data. You need to perform this operation during the initial configuration of taxes in the system and then each time new tax information becomes available in the Symmetry tax engine—you will see a warning on the Paychecks and Adjustments (PR302000) and Payroll Batches (PR301000) forms if tax information needs to be updated in the system. 
 
- On the Tax Codes tab of the Tax Maintenance form, all available taxes are listed in the table. In the row of each tax code whose settings need to be updated or reviewed, a warning or an error icon is displayed, depending on whether the setting is marked as required. The settings of the selected tax code are displayed in the Tax Settings table. By clicking View Tax Details on the table toolbar, you can open the Tax Details dialog box, which displays the details of the selected tax, such as the government-issued identification code for the employer and information from the tax engine. 
+ On the Tax Codes tab of the Tax Maintenance form, all available taxes are listed in the table. When you select a tax in the Tax Codes table, its settings appear in the Tax Settings table. In the row of each tax code whose settings need to be updated or reviewed, a warning or an error icon is displayed, depending on whether the setting is marked as required. By clicking Tax Details on the toolbar of the Tax Codes table, you can open the Tax Details dialog box, which displays the details of the selected tax, such as the government-issued identification code for the employer and information from the tax engine. 
 
- On the Company Tax tab of the Tax Maintenance form, you can review and edit details for various employee attributes used for taxation. The list of attributes is loaded from the Tax Symmetry engine and updated when you click Update Taxes on the form toolbar. 
+ On the Global Tax Settings tab of the Tax Maintenance form, you can review and edit details for various employee settings used for taxation. The list of tax settings is loaded from the Symmetry tax engine and updated when you click Update Taxes on the form toolbar. 
 
- Aer the taxes have been created and reviewed, you can click Assign Taxes to Employees on the form toolbar. As a result, the system assigns the relevant taxes to all employees based on their work locations and resident addresses, which are specified on the General tab of the Employee Payroll Settings (PR203000) form. (For more information about work locations, see Work Locations: General Information .) 
+ In the Tax Settings table on the Tax Codes tab (for a tax selected in the Tax Codes table) and on the Global Tax Settings tab, you assign values for tax settings. For each setting, you specify a default value in the Default Value column. You can also choose the level at which to apply this value by selecting one of the following options in the Setting Level column: 
 
- To assign taxes to an individual employee, you need to click the Import Taxes button on the Taxes tab of the Employee Payroll Settings form. As a result, the system fills in the table in the le pane of the tab with the relevant taxes based on the work locations and the address specified for the employee. 
+- _Global_ : The system assigns the same default value to all employees. It cannot be overridden. This option is     the default one for most tax settings. 
+
+- _Company_ : The system assigns the same default to employees of all companies, which can be overridden at     the company level. 
 
 
 <!-- PAGE_BREAK -->
- Setting Up Taxes | 26 
+ Setting Up Taxes | 25 
+
+- _Branch_ : The system assigns the same default to employees of all branches, which can be overridden at the     branch level. 
+
+- _Employee_ : The system assigns the same default to all employees, which can be overridden at the employee     level. 
+
+- _EIN_ : The system assigns the same default to all employees, which can be overridden at the EIN level. 
+
+ The EIN option is available for only the following settings and taxes: 
+
+- The _Rate_ setting of the FUTA tax 
+
+- The _Rate_ , _Withholding Tax Agency_ , and _Unemployment Tax Agency_ settings of the SUTA tax     _EIN_ is also the only option available for these SUTA settings. 
+
+ To override the default value for a setting of the Company , Branch , Employee , or EIN level, you click the row with the tax setting and then click Configure Tax Settings on the table toolbar. In the Configure Tax Settings dialog box, you can set individual values for each company, branch, employee, or EIN defined in the system that you have access rights to. 
+
+ For a tax setting of the Employee level, you can also directly override the setting value for an employee on the Tax Settings and Taxes tabs of the Employee Payroll Settings (PR203000) form. 
+
+ The system assigns a value of a tax setting defined on the Tax Maintenance form to employees on the Employee Payroll Settings form based on how the value is specified on the Tax Maintenance form: 
+
+- If you change the default value or the setting level, the system replaces all previously specified individual     values with the new default. This default value is assigned to all employees when you save the changes on     the _Tax Maintenance_ form. 
+
+- If you override the default value for a specific employee, company, branch, or EIN using the **Configure Tax**     **Settings** dialog box, the system assigns the specified value when you click **Save & Close** in the dialog box.     For a company, branch, or EIN, the value is applied to all employees associated with the entity. Aer the taxes have been created and reviewed, you can click **Assign Taxes to Employees** on the form toolbar. As a result, the system assigns the relevant taxes to all employees based on their work locations and resident addresses, which are specified on the **General** tab of the _Employee Payroll Settings_ form. (For more information about work locations, see _Work Locations: General Information_ .) 
+
+ To assign taxes to an individual employee, you need to click the Import Taxes button on the Taxes tab of the Employee Payroll Settings form. As a result, the system fills in the table in the le pane of the tab with the relevant taxes based on the work locations and the address specified for the employee. 
 
 #### Using Custom Notes 
 
@@ -1020,9 +1036,13 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - The **Tax Settings** table on the **Tax Codes** tab of the _Tax Maintenance_ form. A note added through this table     is displayed for the same tax attribute in the **Company Notes** column of the **Tax Settings** table on the **Taxes**     tab of the _Employee Payroll Settings_ (PR203000) form 
 
-- The table on the **Company Tax** tab of the _Tax Maintenance_ form. A note added through this table is     displayed for the same tax attribute in the **Company Notes** column of the table on the **Tax Settings** tab of     the _Employee Payroll Settings_ form 
+- The table on the **Global Tax Settings** tab of the _Tax Maintenance_ form. A note added through this table is     displayed for the same tax attribute in the **Company Notes** column of the table on the **Tax Settings** tab of     the _Employee Payroll Settings_ form 
 
 - The table on the **Tax Settings** tab of the _Employee Payroll Settings_ form 
+
+
+<!-- PAGE_BREAK -->
+ Setting Up Taxes | 26 
 
 - The **Tax Settings** table on the **Taxes** tab of the _Employee Payroll Settings_ form 
 
@@ -1056,17 +1076,17 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - On the _Tax Categories_ (TX205500) form, the _TAXABLE_ and _EXEMPT_ tax categories have been configured. 
 
-
-<!-- PAGE_BREAK -->
- Setting Up Taxes | 27 
-
 - On the _Chart of Accounts_ (GL202500) form, all GL accounts that you will use for tax reporting purposes,     including _24100 (Tax Payable)_ and _65100 (Other Tax Expenses)_ , have been added.     The _24100_ liability account will be used for accumulating the tax amounts to be paid to the tax agency in     a tax period. The _65100_ expense account will be used to record tax adjustments and expenses for the tax     agency. 
 
 - On the _Vendors_ (AP303000) form, the _IRS_ and _NYTAXDEP_ tax agencies have been configured. 
 
 #### Process Overview 
 
- You download the latest tax details from the Tax Symmetry engine by clicking Update Taxes on the form toolbar of the Tax Maintenance (PR208000) form and then you enter missing required settings on the Tax Codes tab of that form. 
+ You download the latest tax details from the Symmetry tax engine by clicking Update Taxes on the form toolbar of the Tax Maintenance (PR208000) form and then you enter missing required settings on the Tax Codes tab of that form. 
+
+
+<!-- PAGE_BREAK -->
+ Setting Up Taxes | 27 
 
 #### System Preparation 
 
@@ -1076,15 +1096,13 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - Password: _123_ As a prerequisite activity, in the company to which you are signed in, be sure you have completed the _Work Locations: Implementation Activity_. 
 
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
-
 #### Step 1: Creating Taxes 
 
  To download tax details from the tax engine and create all necessary taxes in the system, do the following: 
 
-1. On the form toolbar of the _Tax Maintenance_ (PR208000) form, click **Update Taxes**.     Wait until the update process is completed. As a result, the **Tax Codes** tab of the form becomes populated     with tax data. 
+1. On the form toolbar of the _Tax Maintenance_ (PR208000) form, click **Update Taxes**.     Wait until the update process is completed. As a result, the **Tax Codes** and **Global Tax Settings** tabs of the     form become populated with tax data. 
 
-2. Review the data downloaded from the tax engine and the error messages about missing tax settings. 
+2. Review the data downloaded from the tax engine on the **Tax Codes** tab and the error messages about     missing tax settings. 
 
 #### Step 2: Specifying Missing Settings 
 
@@ -1102,23 +1120,21 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - For all taxes of the _Employer Tax_ category, select _65100_ in the **Expense Account** column. 
 
-2. On the **Tax Codes** tab, for each tax that has an error message displayed in the **Tax Codes** table, specify     appropriate values for the required settings in the **Tax Settings** table. Click rows with the following taxes in     the **Tax Codes** table, and enter the corresponding values for the _Rate_ setting in the **Value** column in the **Tax**     **Settings** table: 
+2. On the **Tax Codes** tab, for each tax that has an error message displayed in the **Tax Codes** table, specify     appropriate default values for the required settings in the **Tax Settings** table. While updating default values,     in the **Update Default Value** dialog box that the system shows, click **Yes**.     Click rows with the following taxes in the **Tax Codes** table, and enter the corresponding values in the **Tax**     **Settings** table for the _Rate_ setting in the **Default Value** column: 
 
 - _ER FUTA_ : 6.2 
 
 - _NY ER SUTA_ : 3.2 
 
+- _NY ER SUTA SC_ : 0.5 
 
-<!-- PAGE_BREAK -->
- Setting Up Taxes | 28 
+3. On the **Tax Codes** tab, update the _New York City Tax_ as follows:     a. In the **Tax Codes** table, click a row with the _NY CITY 975772_ code.     b. In the **Tax Settings** table, in the row with the _Employee is a resident of the state or location_ setting, select        _Employee_ in the **Setting Level** column.        This will allow overriding the default value of this setting of the _New York City Tax_ at the employee level.     c. In the **Change Setting Level** dialog box, which opens, click **Yes**. 
 
-##### • NY ER SUTA SC : 0.5 
-
-3. On the form toolbar, click **Save**. 
+4. On the form toolbar, click **Save**. 
 
 
 <!-- PAGE_BREAK -->
- Defining Earning Types | 29 
+ Defining Earning Types | 28 
 
 ## Defining Earning Types 
 
@@ -1152,7 +1168,7 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 
 <!-- PAGE_BREAK -->
- Defining Earning Types | 30 
+ Defining Earning Types | 29 
 
 #### Predefined Earning Types 
 
@@ -1202,7 +1218,7 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 
 <!-- PAGE_BREAK -->
- Defining Earning Types | 31 
+ Defining Earning Types | 30 
 
  updated correspondingly. Acting as a system administrator, you need to create and define the needed earning type codes. 
 
@@ -1221,8 +1237,6 @@ You have configured the basic payroll functionality. Now you can proceed with se
 - Username: _gibbs_ 
 
 - Password: _123_ As a prerequisite activity, in the company to which you are signed in, be sure you have completed the _Taxes: Implementation Activity_. 
-
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
 
 #### Step 1: Creating an Earning Type Code for Bonuses 
 
@@ -1264,13 +1278,13 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - **Code** : DT 
 
-
-<!-- PAGE_BREAK -->
- Defining Earning Types | 32 
-
 - **Description** : Double Time 
 
 - **Earning Type Category** : _Overtime_ 
+
+
+<!-- PAGE_BREAK -->
+ Defining Earning Types | 31 
 
 - **Multiplier** : 2.00 
 
@@ -1342,11 +1356,11 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - **Contributes to WCC Calculation** : Selected (the default value) 
 
+3. On the **US Tax and Reporting** tab, select _TIPS_ in the **Wage Type** box. 
+
 
 <!-- PAGE_BREAK -->
- Defining Earning Types | 33 
-
-3. On the **US Tax and Reporting** tab, select _TIPS_ in the **Wage Type** box. 
+ Defining Earning Types | 32 
 
 4. Review the following settings on the **US Tax and Reporting** tab that the system inserted by default: 
 
@@ -1372,7 +1386,7 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 
 <!-- PAGE_BREAK -->
- Creating Workers' Compensation Codes | 34 
+ Creating Workers' Compensation Codes | 33 
 
 ## Creating Workers' Compensation Codes 
 
@@ -1410,7 +1424,7 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 
 <!-- PAGE_BREAK -->
- Creating Workers' Compensation Codes | 35 
+ Creating Workers' Compensation Codes | 34 
 
  time activity by using the Employee Time Activities (EP307000), Employee Time Cards (EP305000), or Weekly Crew Time Entry (EP307100) form. 
 
@@ -1462,11 +1476,9 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 
 <!-- PAGE_BREAK -->
- Creating Workers' Compensation Codes | 36 
+ Creating Workers' Compensation Codes | 35 
 
 - Password: _123_ As a prerequisite activity, in the company to which you are signed in, be sure you have completed the _Earning Types: Implementation Activity_. 
-
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
 
 #### Step: Creating Workers' Compensation Codes 
 
@@ -1490,7 +1502,7 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 
 <!-- PAGE_BREAK -->
- Configuring Deductions and Benefits | 37 
+ Configuring Deductions and Benefits | 36 
 
 ## Configuring Deductions and Benefits 
 
@@ -1540,17 +1552,23 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 
 <!-- PAGE_BREAK -->
- Configuring Deductions and Benefits | 38 
+ Configuring Deductions and Benefits | 37 
 
 - _Percent of Net_ : The deduction is calculated by multiplying the net wages (the total of all earning types that     contribute to net wages) by the percentage specified in the **Percent** box on the same tab. 
 
-- _Amount per Hour_ : The deduction is calculated by multiplying the total hours for all earning types (typically     hours, but could be piecework, miles, or another unit) by the amount specified in the **Amount** box on the     same tab. In the **Applicable Earnings** box on these tabs, you can specify what earning types can be used in the calculation of employee deductions or employer contributions based on the categories of those earning types. The category of each earning type code is specified in the Summary area of the _Earning Type Codes_ (PR102000) form. 
+- _Amount per Hour_ : The deduction is calculated by multiplying the total hours for all earning types (typically     hours, but could be piecework, miles, or another unit) by the amount specified in the **Amount** box on the     same tab. 
+
+In the **Applicable Earnings** box on these tabs, you can specify what earning types can be used in the calculation of employee deductions or employer contributions based on the categories of those earning types. The category of each earning type code is specified in the Summary area of the _Earning Type Codes_ (PR102000) form. 
 
 - _Total Earnings_ : Earning types of the _Wage_ , _Overtime_ , _Amount-Based_ , and _Time Off_ categories can be used in     the calculation.     This option appears in the drop-down list only if the _Percent of Gross_ , _Percent of Custom_ , or _Amount per Hour_     calculation method is selected on this tab. 
 
+- _Total Earnings and Paid Fringe Amount_ : Earning types of the _Wage_ , _Overtime_ , _Amount-Based_ , and _Time Off_     categories, as well as paid fringe amounts, can be used in the calculation.     This option appears in the drop-down list only if the _Percent of Gross_ calculation method is selected on this     tab. 
+
 - _Regular Earnings_ : Only _Wage_ earnings can be used for the calculation.     This option appears in the drop-down list only if the _Percent of Gross_ or _Amount per Hour_ calculation method     is selected on this tab. 
 
-- _Regular and Overtime Earnings_ : Earning types of the _Wage_ and _Overtime_ categories can be used in the     calculation.     This option appears in the drop-down list only if the _Percent of Gross_ or _Amount per Hour_ calculation method     is selected on this tab. 
+- _Regular and OT Earnings_ : Earning types of the _Wage_ and _Overtime_ categories can be used in the calculation.     This option appears in the drop-down list only if the _Percent of Gross_ or _Amount per Hour_ calculation method     is selected on this tab. 
+
+- _Regular and OT Earnings with Time Off_ : Earning types of the _Wage_ , _Overtime_ , and _Time Off_ categories can be     used in the calculation.     This option appears in the drop-down list only if the _Percent of Gross_ calculation method is selected on this     tab. 
 
 - _Straight Time Earnings_ : If the _Percent of Gross_ calculation method is selected on this tab, earning types of the     _Wage_ and _Overtime_ categories can be used in the calculation. If the _Percent of Custom_ calculation method is     selected on this tab, earning types of any category can be used in the calculation.     During the calculation, the system will not apply the overtime multiplier (if any), using overtime earnings     as if they are regular time earnings—that is, for an overtime earning type, the system will use only the     employee’s standard pay rate, which is based on the earning type specified in the **Regular Time Type Code**     box on the _Earning Type Codes_ (PR102000), without the overtime multiplier applied to it.     This option appears in the drop-down list only for the _Percent of Gross_ and _Percent of Custom_ calculation     methods. 
 
@@ -1558,15 +1576,17 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - _Total Earnings with Multiplier Applied to Overtime_ : Earning types of the _Wage_ , _Overtime_ , and _Time Off_     categories can be used in the calculation. For an earning type of the _Overtime_ category, the overtime     multiplier, which is specified in the settings of the earning type, is applied to the number of worked hours.     This option appears in the drop-down list only if the _Amount per Hour_ calculation method is specified on this     tab. 
 
-- _Regular and Overtime Earnings with Multiplier Applied to Overtime_ : Earning types of the _Wage_ and _Overtime_     categories can be used in the calculation. For an earning type of the _Overtime_ category, the overtime     multiplier, which is specified in the settings of the earning type, is applied to the number of worked hours.     This option appears in the drop-down list only if the _Amount per Hour_ calculation method is specified on this     tab. 
+- _Regular and Overtime Earnings with Multiplier Applied to Overtime_ : Earning types of the _Wage_ and _Overtime_     categories can be used in the calculation. For an earning type of the _Overtime_ category, the overtime     multiplier, which is specified in the settings of the earning type, is applied to the number of worked hours. 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Deductions and Benefits | 38 
+
+ This option appears in the drop-down list only if the Amount per Hour calculation method is specified on this tab. 
 
 #### Deduction and Benefit Code Source 
 
  Each deduction and benefit code can be associated with only one source: employee settings, certified projects, unions, or workers’ compensation codes. You can select a source in the Associated With box on the Deduction and Benefit Codes (PR101060) form. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Deductions and Benefits | 39 
 
  With this capability, correct YTD, QTD, and MTD amounts of deductions and benefits associated with a particular union or certified project can be calculated for reports. 
 
@@ -1596,17 +1616,17 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
  The No Financial Transaction check box is not available if in the Summary area of the form, the Payable Benefit check box is selected or the Workers' Compensation option is specified in the Associated With box. 
 
- The deduction and benefit code with this check box selected is calculated and displayed on the Deduction tab of the Paychecks and Adjustments (PR302000) form for the related document, but this code is not displayed in the Benefit Details dialog box, which you can open by clicking Benefit Details on the table toolbar of that tab. Also, the system does not use the calculated amount of the benefit when verifying that the summary amount equals the details total. The system does not create a liability bill for this benefit, and when the document is released, the system does not create any record for the deduction and benefit code in the GL batch, but the benefit is included in the pay stub. 
-
- You do not need to specify GL accounts for the benefit when setting up the deduction and benefit code. 
-
- If the deduction and benefit code is associated with a certified project, the system uses this code in calculations for the certified project. Also, if a certified reporting type is specified for the deduction and benefit code, this code is 
+ The deduction and benefit code with this check box selected is calculated and displayed on the Deduction tab of the Paychecks and Adjustments (PR302000) form for the related document, but this code is not displayed in the 
 
 
 <!-- PAGE_BREAK -->
- Configuring Deductions and Benefits | 40 
+ Configuring Deductions and Benefits | 39 
 
- available for selection in the Benefits Reducing the Rate table on the Fringe Benefits tab of the Certified Projects (PR209900) form. 
+ Benefit Details dialog box, which you can open by clicking Benefit Details on the table toolbar of that tab. Also, the system does not use the calculated amount of the benefit when verifying that the summary amount equals the details total. The system does not create a liability bill for this benefit, and when the document is released, the system does not create any record for the deduction and benefit code in the GL batch, but the benefit is included in the pay stub. 
+
+ You do not need to specify GL accounts for the benefit when setting up the deduction and benefit code. 
+
+ If the deduction and benefit code is associated with a certified project, the system uses this code in calculations for the certified project. Also, if a certified reporting type is specified for the deduction and benefit code, this code is available for selection in the Benefits Reducing the Rate table on the Fringe Benefits tab of the Certified Projects (PR209900) form. 
 
 #### Payable Benefits 
 
@@ -1646,15 +1666,15 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - On the _Earning Type Codes_ (PR102000) form, necessary earning types have been defined. 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Deductions and Benefits | 40 
+
 - On the _Workers' Compensation Codes_ (PR209800) form, all needed WCC codes have been created. 
 
 ### Deduction and Benefit Codes: Implementation Activity 
 
  In the following implementation activity, you will learn how to create and set up deduction and benefit codes. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Deductions and Benefits | 41 
 
 #### Story 
 
@@ -1688,8 +1708,6 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - Password: _123_ As a prerequisite activity, in the company to which you are signed in, be sure you have completed the _Payment Methods: To Define a Direct Deposit Payment Method_. 
 
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
-
 #### Step 1: Creating a Deduction and Benefit Code for the 401(k) Retirement Plan 
 
  To create a deduction and benefit code for the 401(k) retirement plan, do the following: 
@@ -1710,13 +1728,13 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - **Invoice Description Source** : _Code + Code Name_ 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Deductions and Benefits | 41 
+
 - **Active** : Selected 
 
 - **Affects Tax Calculation** : Selected Make sure that the remaining check boxes in the Summary area are cleared. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Deductions and Benefits | 42 
 
 3. On the **US Tax Settings** tab, specify the following settings: 
 
@@ -1790,15 +1808,15 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 4. Review the following settings on the **Employer Contribution** tab that the system inserted by default: 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Deductions and Benefits | 42 
+
 - **Applicable Earnings** : _Total Earnings_ 
 
 - **Reporting Type** : _NORMAL_ 
 
 5. On the **WCC Code** tab, in the Summary area, in the **State** box, select _NY_. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Deductions and Benefits | 43 
 
 6. On the form toolbar, click **Save**. 
 
@@ -1860,13 +1878,13 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - **Reporting Type** : _NORMAL_ (the default value) 
 
+
+<!-- PAGE_BREAK -->
+ Configuring Deductions and Benefits | 43 
+
 4. On the **GL Accounts** tab, in the **Deduction Liability Account** box, select _20300_. 
 
 5. On the form toolbar, click **Save**. 
-
-
-<!-- PAGE_BREAK -->
- Configuring Deductions and Benefits | 44 
 
 #### Step 4: Creating a Deduction and Benefit Code for Union Dues 
 
@@ -1910,7 +1928,7 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 
 <!-- PAGE_BREAK -->
- Creating Unions | 45 
+ Creating Unions | 44 
 
 ## Creating Unions 
 
@@ -1950,7 +1968,7 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 
 <!-- PAGE_BREAK -->
- Creating Unions | 46 
+ Creating Unions | 45 
 
 #### Enabling the Needed Features 
 
@@ -1996,15 +2014,13 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 - Password: _123_ As a prerequisite activity, in the company to which you are signed in, be sure you have completed the _Deduction and Benefit Codes: Implementation Activity_. 
 
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
-
-
-<!-- PAGE_BREAK -->
- Creating Unions | 47 
-
 #### Step: Creating a Union 
 
  To create a union, do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Creating Unions | 46 
 
 1. On the _Union Locals_ (PR209700) form, add a new record. 
 
@@ -2036,7 +2052,7 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 
 <!-- PAGE_BREAK -->
- Configuring Certified Projects | 48 
+ Configuring Certified Projects | 47 
 
 ## Configuring Certified Projects 
 
@@ -2086,7 +2102,7 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 
 <!-- PAGE_BREAK -->
- Configuring Certified Projects | 49 
+ Configuring Certified Projects | 48 
 
  Projects (PM301000) form; this check box becomes available on the form only aer the Construction feature has been enabled on the Enable/Disable Features (CS100000) form. 
 
@@ -2126,7 +2142,7 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 
 <!-- PAGE_BREAK -->
- Configuring Certified Projects | 50 
+ Configuring Certified Projects | 49 
 
 ### Certified Projects: Deductions and Benefits 
 
@@ -2158,7 +2174,7 @@ You have configured the basic payroll functionality. Now you can proceed with se
 
 
 <!-- PAGE_BREAK -->
- Configuring Certified Projects | 51 
+ Configuring Certified Projects | 50 
 
 A benefit rate is annualized if the **Annualization Exception** check box is cleared for the benefit in the **Benefits Reducing the Rate** table on the **Fringe Benefits** tab of the _Certified Projects_ (PR209900) form. 
 
@@ -2168,7 +2184,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Configuring Overtime Rules | 52 
+ Configuring Overtime Rules | 51 
 
 ## Configuring Overtime Rules 
 
@@ -2198,7 +2214,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Configuring Overtime Rules | 53 
+ Configuring Overtime Rules | 52 
 
  Disbursing Earning Type 
 
@@ -2236,7 +2252,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Configuring Overtime Rules | 54 
+ Configuring Overtime Rules | 53 
 
  An overtime rule of the Consecutive type is not applicable if the employee reported no working hours for any day of the specified number of consecutive days starting from the first day of the workweek. 
 
@@ -2280,11 +2296,9 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 - Password: _123_ As a prerequisite activity, in the company to which you are signed in, be sure you have completed the _Unions: Implementation Activity_. 
 
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
-
 
 <!-- PAGE_BREAK -->
- Configuring Overtime Rules | 55 
+ Configuring Overtime Rules | 54 
 
 #### Step: Configuring Overtime Rules 
 
@@ -2326,7 +2340,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Defining Pay Groups, Payroll Calendars, and Pay Periods | 56 
+ Defining Pay Groups, Payroll Calendars, and Pay Periods | 55 
 
 ## Defining Pay Groups, Payroll Calendars, and Pay Periods 
 
@@ -2366,7 +2380,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Defining Pay Groups, Payroll Calendars, and Pay Periods | 57 
+ Defining Pay Groups, Payroll Calendars, and Pay Periods | 56 
 
 #### Payroll Calendars 
 
@@ -2408,7 +2422,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Defining Pay Groups, Payroll Calendars, and Pay Periods | 58 
+ Defining Pay Groups, Payroll Calendars, and Pay Periods | 57 
 
 ### Pay Groups, Payroll Calendars, and Pay Periods: Implementation Activity 
 
@@ -2438,8 +2452,6 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 - Password: _123_ As a prerequisite activity, in the company to which you are signed in, be sure you have completed the _Overtime Rules: Implementation Activity_. 
 
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
-
 #### Step 1: Creating a Monthly Pay Group 
 
  To create a monthly pay group, do the following: 
@@ -2456,13 +2468,13 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 - **Deduction Liability Account** : _20300_ 
 
-
-<!-- PAGE_BREAK -->
- Defining Pay Groups, Payroll Calendars, and Pay Periods | 59 
-
 - **Benefit Expense Account** : _69600_ 
 
 - **Benefit Liability Account** : _20300_ 
+
+
+<!-- PAGE_BREAK -->
+ Defining Pay Groups, Payroll Calendars, and Pay Periods | 58 
 
 - **Tax Expense Account** : _65100_ 
 
@@ -2526,7 +2538,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Defining Pay Groups, Payroll Calendars, and Pay Periods | 60 
+ Defining Pay Groups, Payroll Calendars, and Pay Periods | 59 
 
 #### Step 5: Generate Pay Periods for the Monthly Pay Group 
 
@@ -2558,7 +2570,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Configuring Government Reporting | 61 
+ Configuring Government Reporting | 60 
 
 ## Configuring Government Reporting 
 
@@ -2598,7 +2610,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Configuring Government Reporting | 62 
+ Configuring Government Reporting | 61 
 
 1. In the Summary area of the form, you select the **ACA Applicable** check box. 
 
@@ -2644,7 +2656,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Configuring Government Reporting | 63 
+ Configuring Government Reporting | 62 
 
 #### Story 
 
@@ -2665,8 +2677,6 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 - Username: _gibbs_ 
 
 - Password: _123_ As a prerequisite activity, in the company to which you are signed in, be sure you have completed the _Paid Time Off: Implementation Activity_. 
-
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
 
 #### Step 1: Specifying the Company's Employer Identification Number 
 
@@ -2694,7 +2704,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Creating Employee Payroll Classes | 64 
+ Creating Employee Payroll Classes | 63 
 
 ## Creating Employee Payroll Classes 
 
@@ -2744,7 +2754,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Creating Employee Payroll Classes | 65 
+ Creating Employee Payroll Classes | 64 
 
 - A workers' compensation code to be used as the default code when a transaction is generated if no other     specific code is specified in the payroll batch or paycheck. You use the _Workers' Compensation Codes_     (PR209800) form to define the workers' compensation codes. 
 
@@ -2786,7 +2796,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Creating Employee Payroll Classes | 66 
+ Creating Employee Payroll Classes | 65 
 
 ### Employee Payroll Classes: Implementation Activity 
 
@@ -2812,8 +2822,6 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 - Password: _123_ As a prerequisite activity, in the company to which you are signed in, be sure you have completed the _Government Reporting: Implementation Activity_. 
 
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
-
 #### Step 1: Creating a Payroll Class for Hourly Employees 
 
  To create an employee payroll class for hourly employees, do the following: 
@@ -2838,11 +2846,11 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 4. In the **Work Locations** table, add a new row, and in the added row select _HEADOFFICE_ in the **Location**     column.     For the rest of the settings on this tab, leave the default values. 
 
+5. On the form toolbar, click **Save**. 
+
 
 <!-- PAGE_BREAK -->
- Creating Employee Payroll Classes | 67 
-
-5. On the form toolbar, click **Save**. 
+ Creating Employee Payroll Classes | 66 
 
 #### Step 2: Creating a Payroll Class for Salaried Employees 
 
@@ -2874,7 +2882,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Configuring Paid Time Off | 68 
+ Configuring Paid Time Off | 67 
 
 ## Configuring Paid Time Off 
 
@@ -2914,13 +2922,13 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Configuring Paid Time Off | 69 
+ Configuring Paid Time Off | 68 
 
  If the number of periods for a particular year is different from the usual number (for example, 53 against 52 for a weekly pay group), you can select the Override check box on the Pay Periods form and specify the usual number of periods (that would be 52 in our example) that will be used in the calculation of PTO hours accrued within one pay period; as a result, there will be no fluctuations in the numbers of accrued hours from period to period and year to year. 
 
 - _Front Loading_ : Front-loading hours are added to the PTO balance of an employee on the transfer date. You     specify this number in the **Front-Loading Hours** column on the **Employee Classes** tab. 
 
-- _Front Loading and Percentage_ and _Front Loading and Hours per Year_ : Paid time off is accrued with a     combination of the _Front Loading_ and _Percentage_ or _Front Loading_ and _Hours Per Year_ accrual methods,     respectively. In the **Transfer Date Type** box, you select the _Anniversary Date_ option to use the individual employee's hire date as the transfer date; alternatively, you can select _Specific Date_ and use the **Transfer Date** group of elements, which appears, to specify the month and day of a custom-defined transfer date. The transfer date is the date when the PTO bank resets. Depending on the selected accrual method, the system may use this date to add front-loading hours to the PTO balance. In most common scenarios, custom-defined transfer dates align with the start of the calendar or fiscal year. 
+- _Front Loading and Percentage_ and _Front Loading and Hours per Year_ : Paid time off is accrued with a     combination of the _Front Loading_ and _Percentage_ or _Front Loading_ and _Hours Per Year_ accrual methods,     respectively. In the **Transfer Date Type** box, you select the _Anniversary Date_ option to use the individual employee's hire date as the transfer date; alternatively, you can select _Specific Date_ and use the **Start Date** group of elements, which appears, to specify the month and day of a custom-defined transfer date. The transfer date is the date when the PTO bank resets. Depending on the selected accrual method, the system may use this date to add front-loading hours to the PTO balance. In most common scenarios, custom-defined transfer dates align with the start of the calendar or fiscal year. 
 
  The system also uses the transfer date of the PTO bank to carry over accruals from one year to the next. The carryover rules are determined by the option selected in the Carryover Type box, which may be one of the following: 
 
@@ -2956,7 +2964,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Configuring Paid Time Off | 70 
+ Configuring Paid Time Off | 69 
 
 - **Carryover Hours** : The number of hours the system carries over to the following year on the transfer date. 
 
@@ -2994,7 +3002,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Configuring Paid Time Off | 71 
+ Configuring Paid Time Off | 70 
 
 #### Paid Time Off in Employee Payroll Settings 
 
@@ -3032,7 +3040,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Configuring Paid Time Off | 72 
+ Configuring Paid Time Off | 71 
 
 - On the _Payroll Preferences_ (PR101000) form, the numbering sequences have been specified and saved to the     system. 
 
@@ -3060,8 +3068,6 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 - Password: _123_ As a prerequisite activity, in the company to which you are signed in, be sure you have completed the _Pay Groups, Payroll Calendars, and Pay Periods: Implementation Activity_. 
 
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
-
 #### Step 1: Creating a Personal Time PTO Bank 
 
  To create a PTO bank to accrue hours of personal time, do the following: 
@@ -3084,7 +3090,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 - **Transfer Date Type** : _Specific Date_ 
 
-- **Transfer Date** : _January_ 1 
+- **Start Date** : _January_ 1 
 
 - **Carryover Type** : _None_ 
 
@@ -3092,13 +3098,13 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 4. On the **Employee Classes** tab, add a row and specify the following settings in the added row: 
 
-
-<!-- PAGE_BREAK -->
- Configuring Paid Time Off | 73 
-
 - **Active** : Selected 
 
 - **Employee Class** : _SALARIED_ 
+
+
+<!-- PAGE_BREAK -->
+ Configuring Paid Time Off | 72 
 
 - **Effective Date** : _1/1/2021_ 
 
@@ -3138,7 +3144,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 - **Transfer Date Type** : _Specific Date_ 
 
-- **Transfer Date** : _January_ 1 
+- **Start Date** : _January_ 1 
 
 - **Carryover Type** : _Total_ 
 
@@ -3162,15 +3168,11 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 5. On the **Applicable Earning Types** tab, in the **Accrue Time Off Based On** box in the Summary area, select     the _All Earning Types Except Selected_ option. Leave the table empty so that the system will use all the     earning types configured in the system on the _Earning Type Codes_ (PR102000) form to accrue time off for the     PTO bank. 
 
-
-<!-- PAGE_BREAK -->
- Configuring Paid Time Off | 74 
-
 6. On the form toolbar, click **Save**. 
 
 
 <!-- PAGE_BREAK -->
- Specifying Employee Payroll Settings | 75 
+ Specifying Employee Payroll Settings | 73 
 
 ## Specifying Employee Payroll Settings 
 
@@ -3220,7 +3222,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Specifying Employee Payroll Settings | 76 
+ Specifying Employee Payroll Settings | 74 
 
 - On the **General** tab, if you need to change the default values that have been set up for the employee class,     clear the **Use Class Default Value** check box next to each box you need to change and then make your     change. On this tab, you also can modify the settings copied from the employee record. 
 
@@ -3262,7 +3264,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Specifying Employee Payroll Settings | 77 
+ Specifying Employee Payroll Settings | 75 
 
 - On the _Payroll Preferences_ (PR101000) form, the numbering sequences have been specified and saved to the     system. 
 
@@ -3310,17 +3312,15 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 - Password: _123_ As a prerequisite activity, in the company to which you are signed in, be sure you have completed the _Employee Payroll Classes: Implementation Activity_. 
 
- As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course. 
-
-
-<!-- PAGE_BREAK -->
- Specifying Employee Payroll Settings | 78 
-
 #### Step 1: Creating a Payroll Employee 
 
  To perform a step, do the following: 
 
 1. On the _Employees_ (EP203000) form, open the _EP00000013_ ( _Anna Johnson_ ) employee. 
+
+
+<!-- PAGE_BREAK -->
+ Specifying Employee Payroll Settings | 76 
 
 2. On the **History** tab, add a row and specify the following settings in the added row: 
 
@@ -3376,10 +3376,6 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 1. On the **General** tab, in the **Address Info** section, specify the following information: 
 
-
-<!-- PAGE_BREAK -->
- Specifying Employee Payroll Settings | 79 
-
 - **Address Line 1** : 90 1ST Ave 
 
 - **City** : New York 
@@ -3390,6 +3386,10 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 - **Postal Code** : 10009 
 
+
+<!-- PAGE_BREAK -->
+ Specifying Employee Payroll Settings | 77 
+
 2. On the form toolbar, click **Save**. 
 
 #### Step 4: Importing Taxes 
@@ -3398,7 +3398,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 1. On the **Taxes** tab, click **Import Taxes** on the toolbar of the le table.     As a result, the table becomes populated with the relevant tax details. 
 
-2. In the le table, click the row with the _New York City Tax_. 
+2. In the le table, click the row with the _New York City Tax_ name. 
 
 3. In the right **Tax Settings** table, select the check box in the **Value** column for the _Employee is a resident of the_     _state or location_ setting. 
 
@@ -3446,15 +3446,15 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 3. While the second row is selected in the table, click **Garnishment Details** on the table toolbar. 
 
-
-<!-- PAGE_BREAK -->
- Specifying Employee Payroll Settings | 80 
-
 4. In the **Garnishment Details** dialog box, which opens, specify the following information: 
 
 - **Vendor** : Empty     The system will use the vendor specified for the deduction code on the _Deduction and Benefit Codes_     (PR101060) form. 
 
 - **Court Name** : Washington Labor Court 
+
+
+<!-- PAGE_BREAK -->
+ Specifying Employee Payroll Settings | 78 
 
 - **Document ID** : 00003578 
 
@@ -3496,7 +3496,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Processing Payroll Batches | 81 
+ Processing Payroll Batches | 79 
 
 ## Processing Payroll Batches 
 
@@ -3544,7 +3544,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Processing Payroll Batches | 82 
+ Processing Payroll Batches | 80 
 
 #### Adding Employees 
 
@@ -3580,7 +3580,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Processing Payroll Batches | 83 
+ Processing Payroll Batches | 81 
 
  Earning Details on the table toolbar of the Employee tab, or by using the Earning tab. If you insert overtime hours for a salaried exempt employee or import time activities that include overtime hours for such an employee, an error message will be displayed until you delete the overtime record or change the employee type. 
 
@@ -3596,7 +3596,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Calculating Paychecks | 84 
+ Calculating Paychecks | 82 
 
 ## Calculating Paychecks 
 
@@ -3632,7 +3632,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Calculating Paychecks | 85 
+ Calculating Paychecks | 83 
 
 #### Paycheck Calculation Logic 
 
@@ -3668,7 +3668,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Calculating Paychecks | 86 
+ Calculating Paychecks | 84 
 
 - _Added to Payment Batch_ : The paycheck has been processed and an associated payment batch has been     created.     You can make changes to a paycheck with this status, although you cannot modify the specified payment     method and cash account. Aer the changes are saved, the status of the paycheck changes to _Pending_     _Calculation_ , and then, aer the calculation, the information is correspondingly updated in the associated     payment batch and the status of the paycheck changes again to _Added to Payment Batch_. 
 
@@ -3696,7 +3696,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Processing Payments | 87 
+ Processing Payments | 85 
 
 ## Processing Payments 
 
@@ -3740,7 +3740,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Processing Payments | 88 
+ Processing Payments | 86 
 
 #### Paychecks in a Payment Batch 
 
@@ -3772,7 +3772,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Processing Payments | 89 
+ Processing Payments | 87 
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
 
@@ -3810,7 +3810,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Processing Payments | 90 
+ Processing Payments | 88 
 
 #### Printing Documents 
 
@@ -3820,7 +3820,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Creating Liability Bills | 91 
+ Creating Liability Bills | 89 
 
 ## Creating Liability Bills 
 
@@ -3854,7 +3854,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Correcting Payroll Documents | 92 
+ Correcting Payroll Documents | 90 
 
 ## Correcting Payroll Documents 
 
@@ -3906,7 +3906,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Correcting Payroll Documents | 93 
+ Correcting Payroll Documents | 91 
 
  you must select a reason for the PTO adjustment, which can be one of the following: Initial Balance Correction , Bonus or Incentive Allocation , Accrual Modification , Time Card Usage Correction , Accrual Earned Correction , Data Entry Correction , Carryover Correction , Maximum Accrual Correction , or Other. If you select the Other adjustment reason, the Reason Details column becomes editable for custom input. In the Initial Balance , New Balance , and Balance Limit read-only columns, the system displays the PTO balance before the adjustment, the adjusted balance, and the established balance limit for the PTO bank, respectively. 
 
@@ -3942,7 +3942,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Correcting Payroll Documents | 94 
+ Correcting Payroll Documents | 92 
 
  You can void only a released paycheck—that is, a paycheck with the Released , Liability Partially Paid , or Closed status. If the pay group of the employee has changed since a paycheck was released, you still can void the paycheck. 
 
@@ -3976,7 +3976,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Correcting Payroll Documents | 95 
+ Correcting Payroll Documents | 93 
 
 #### Reviewing Information About PTO Balances 
 
@@ -3984,7 +3984,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Preparing Government Reports | 96 
+ Preparing Government Reports | 94 
 
 ## Preparing Government Reports 
 
@@ -4004,7 +4004,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 #### Preparation of Government Reports 
 
- In the Selection area of the Government Reporting (PR504000) form, you can select the company or branch on which you want to report, and then you can sort the forms shown in the table by state and reporting period or choose to show only federal forms. 
+ In the Selection area of the Government Reporting (PR504000) form, you can select the EIN on which you want to report, and then you can sort the forms shown in the table by state and reporting period or choose to show only federal forms. 
 
  When you select a report, the Aatrix website opens in a pop-up panel and asks you for the necessary information to launch the form in Aatrix depending on the reporting period. 
 
@@ -4022,7 +4022,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Preparing Government Reports | 97 
+ Preparing Government Reports | 95 
 
 #### Configuring Records of Employment 
 
@@ -4072,7 +4072,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Preparing Government Reports | 98 
+ Preparing Government Reports | 96 
 
  By using the Prepare Tax Forms form, you can do the following: 
 
@@ -4098,7 +4098,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Terminating Employment | 99 
+ Terminating Employment | 97 
 
 ## Terminating Employment 
 
@@ -4144,7 +4144,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Terminating Employment | 100 
+ Terminating Employment | 98 
 
  Final paychecks can be processed in the same way as other paychecks can. You can release a final paycheck only if the employee has no released paychecks for pay periods that follow the pay period of the final paycheck. If the employee has such released paychecks, you first need to void all these paychecks to be able to release the final paycheck. 
 
@@ -4164,7 +4164,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 
 <!-- PAGE_BREAK -->
- Appendix | 101 
+ Appendix | 99 
 
 ## Appendix 
 
@@ -4204,37 +4204,105 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 100 
+
+ Figure: Report form 
+
+ Switching reports to the Modern UI will be available in a future release. 
+
+#### Report Form Toolbar and More Menu 
+
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
+
+ Element Description 
+
+ Cancel Clears any changes you have made on the report form and restores the default settings. 
+
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
+ Run Report Initiates data collection for the report and displays the generated report. 
+
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
+
+ Save Template As 
+
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 101 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
 
 
 <!-- PAGE_BREAK -->
  Appendix | 102 
-
- Figure: Report form 
-
-1. Report form toolbar 
-
-2. Selection area 
-
-3. Details area 
-
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
-
- Cancel Clears any changes you have made on the report form and restores the default settings. 
-
- Run Report Initiates data collection for the report and displays the generated report. 
-
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
-
- Remove Template 
-
- Removes the previously saved template. 
-
- This button is available only when a template is specified on the report form. 
 
 #### Report Toolbar 
 
@@ -4243,12 +4311,6 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 103 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -4274,25 +4336,77 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
- The elements of this area, which are available for all reports, are described in the following table. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 103 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
 
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
 
 
 <!-- PAGE_BREAK -->
  Appendix | 104 
 
+ Table: Mailing Section 
+
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -4310,91 +4424,45 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 105 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 106 
+ Appendix | 105 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -4413,6 +4481,12 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 106 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -4436,10 +4510,6 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 107 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -4454,13 +4524,19 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 107 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -4478,10 +4554,6 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 108 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -4496,6 +4568,10 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 108 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -4504,11 +4580,7 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 109 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -4534,6 +4606,12 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 109 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -4541,12 +4619,6 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 110 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -4574,19 +4646,19 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 110 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 111 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -4596,13 +4668,15 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 111 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -4613,10 +4687,6 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 112 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -4630,6 +4700,10 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 112 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -4640,11 +4714,11 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
  Appendix | 113 
-
- Figure: The highlighted command and the corresponding status 
 
 #### Unavailable Commands on the More Menu 
 
@@ -4656,17 +4730,13 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
+ Figure: The form toolbar and More menu on a wide screen 
+
 
 <!-- PAGE_BREAK -->
  Appendix | 114 
 
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 115 
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -4678,7 +4748,11 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 115 
 
  Figure: Table toolbar 
 
@@ -4698,17 +4772,17 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 116 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 116 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -4738,13 +4812,13 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 117 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 117 
 
  Element Description 
 
@@ -4788,15 +4862,15 @@ Also, you can annualize the excess pay rate by clearing the **Excess Pay Rate An
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
+ The dialog box has the following buttons. 
+
+ OK Closes the dialog box and imports the selected file. 
+
 
 <!-- PAGE_BREAK -->
  Appendix | 118 
 
  Element Description 
-
- The dialog box has the following buttons. 
-
- OK Closes the dialog box and imports the selected file. 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

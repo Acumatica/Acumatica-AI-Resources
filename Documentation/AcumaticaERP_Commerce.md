@@ -2,7 +2,7 @@
 
 # Commerce 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -66,11 +66,11 @@
 
  Automated Synchronization: To Turn On Real-Time Synchronization ............................................... 69 
 
- Automated Synchronization: Business Events for Aborted Records................................................... 71 
+ Automated Synchronization: Business Events for Aborted Records................................................... 70 
 
- Automated Synchronization: To Activate a Predefined Business Event..............................................72 
+ Automated Synchronization: To Activate a Predefined Business Event..............................................71 
 
- Synchronizing Customers................................................................................................................................74 
+ Synchronizing Customers................................................................................................................................73 
 
  Synchronizing Customers: General Information...................................................................................74 
 
@@ -128,453 +128,479 @@ Synchronizing Product Availability..............................................
 
  Product Availability: General Information.......................................................................................... 125 
 
- Product Availability: Calculation of Available Quantities...................................................................127 
+ Product Availability: Calculation of Available Quantities...................................................................128 
 
- Product Availability: To Export Product Availability Data.................................................................. 128 
+ Product Availability: To Export Product Availability Data.................................................................. 129 
 
-Synchronizing Orders.................................................................................................................................... 134 
+Synchronizing Orders.................................................................................................................................... 135 
 
- Order Synchronization: General Information..................................................................................... 134 
+ Order Synchronization: General Information..................................................................................... 135 
 
- Order Synchronization: Non-Card Payments......................................................................................138 
+ Order Synchronization: Non-Card Payments......................................................................................139 
 
- Order Synchronization: Card Payments.............................................................................................. 139 
+ Order Synchronization: Card Payments.............................................................................................. 140 
 
- Order Synchronization: To Configure and Import Authorize.Net Payments..................................... 143 
+ Order Synchronization: To Configure and Import Authorize.Net Payments..................................... 144 
 
- Order Synchronization: Orders with Gi Wrapping............................................................................148 
+ Order Synchronization: Orders with Gi Wrapping............................................................................149 
 
-Importing Orders with Taxes.........................................................................................................................149 
+Importing Orders with Taxes.........................................................................................................................150 
 
- Import of Taxes: General Information................................................................................................. 149 
+ Import of Taxes: General Information................................................................................................. 150 
 
- Import of Taxes: External Tax Provider................................................................................................152 
+ Import of Taxes: External Tax Provider................................................................................................153 
 
- Import of Taxes: Substitution Lists......................................................................................................153 
+ Import of Taxes: Substitution Lists......................................................................................................154 
 
- Import of Taxes: Process Activity.........................................................................................................154 
+ Import of Taxes: Process Activity.........................................................................................................155 
 
 
 <!-- PAGE_BREAK -->
  Contents | 4 
 
-Importing Orders with Discounts..................................................................................................................160 
+Importing Orders with Discounts..................................................................................................................161 
 
- Import of Orders with Discounts: General Information......................................................................160 
+ Import of Orders with Discounts: General Information......................................................................161 
 
- Import of Orders with Discounts: Process Activity............................................................................. 161 
+ Import of Orders with Discounts: Process Activity............................................................................. 162 
 
-Importing Orders with Freight Charges........................................................................................................166 
+Importing Orders with Freight Charges........................................................................................................167 
 
- Importing an Order with Freight Charges: General Information........................................................166 
+ Importing an Order with Freight Charges: General Information........................................................167 
 
- Importing an Order with Freight Charges: Activity.............................................................................167 
+ Importing an Order with Freight Charges: Activity.............................................................................168 
 
-Importing Non-Card Refunds........................................................................................................................171 
+Importing Non-Card Refunds........................................................................................................................172 
 
- Importing Non-Card Refunds: General Information...........................................................................171 
+ Importing Non-Card Refunds: General Information...........................................................................172 
 
- Importing Non-Card Refunds: Implementation Activity.................................................................... 172 
+ Importing Non-Card Refunds: Implementation Activity.................................................................... 174 
 
- Importing Non-Card Refunds: Implementation Checklist..................................................................174 
+ Importing Non-Card Refunds: Implementation Checklist..................................................................176 
 
- Importing Non-Card Refunds: Order-Level Refunds...........................................................................175 
+ Importing Non-Card Refunds: Order-Level Refunds...........................................................................177 
 
- Importing Non-Card Refunds: Item-Level Refunds............................................................................ 177 
+ Importing Non-Card Refunds: Item-Level Refunds............................................................................ 179 
 
- Importing Non-Card Refunds: To Process a Refund for a Not-Yet-Shipped Order............................ 179 
+ Importing Non-Card Refunds: To Process a Refund for a Not-Yet-Shipped Order............................ 181 
 
- Importing Non-Card Refunds: To Process a Refund for a Shipped Order..........................................184 
+ Importing Non-Card Refunds: To Process a Refund for a Shipped Order..........................................186 
 
-Importing Card Refunds................................................................................................................................ 191 
+Importing Card Refunds................................................................................................................................ 193 
 
- Importing Card Refunds: General Information................................................................................... 191 
+ Importing Card Refunds: General Information................................................................................... 193 
 
- Importing Card Refunds: Implementation Checklist..........................................................................192 
+ Importing Card Refunds: Implementation Checklist..........................................................................194 
 
- Importing Card Refunds: Order-Level Refunds...................................................................................193 
+ Importing Card Refunds: Order-Level Refunds...................................................................................195 
 
- Importing Card Refunds: Item-Level Refunds.....................................................................................195 
+ Importing Card Refunds: Item-Level Refunds.....................................................................................197 
 
-Selling and Accepting Gi Certificates......................................................................................................... 197 
+Selling and Accepting Gi Certificates......................................................................................................... 199 
 
- Gi Certificates: General Information................................................................................................. 197 
+ Gi Certificates: General Information................................................................................................. 199 
 
- Gi Certificates: Process Activity......................................................................................................... 198 
+ Gi Certificates: Process Activity......................................................................................................... 200 
 
-Importing Products with Variants.................................................................................................................204 
+Importing Products with Variants.................................................................................................................206 
 
- Import of Products with Variants: General Information.....................................................................204 
+ Import of Products with Variants: General Information.....................................................................206 
 
- Import of Products with Variants: Settings of Imported Items.......................................................... 207 
+ Import of Products with Variants: Settings of Imported Items.......................................................... 209 
 
-Selling Matrix Items in a BigCommerce Store..............................................................................................210 
+Selling Matrix Items in a BigCommerce Store..............................................................................................213 
 
- Selling Matrix Items: General Information.......................................................................................... 211 
+ Selling Matrix Items: General Information.......................................................................................... 214 
 
- Selling Matrix Items: To Export Matrix Items...................................................................................... 213 
+ Selling Matrix Items: To Export Matrix Items...................................................................................... 216 
 
- Selling Matrix Items: Export of Product Images..................................................................................217 
+ Selling Matrix Items: Export of Product Images..................................................................................220 
 
- Selling Matrix Items: To Export Product Images................................................................................. 218 
+ Selling Matrix Items: To Export Product Images................................................................................. 221 
 
- Selling Matrix Items: Export of Product Availability Data...................................................................222 
+ Selling Matrix Items: Export of Product Availability Data...................................................................225 
 
- Selling Matrix Items: To Export Product Availability Data.................................................................. 224 
+ Selling Matrix Items: To Export Product Availability Data.................................................................. 227 
 
- Selling Matrix Items: Export of Item Prices......................................................................................... 227 
+ Selling Matrix Items: Export of Item Prices......................................................................................... 230 
 
- Selling Matrix Items: To Export Base Prices........................................................................................ 229 
+ Selling Matrix Items: To Export Base Prices........................................................................................ 232 
 
- Selling Matrix Items: Import of Orders with Matrix Items.................................................................. 231 
+ Selling Matrix Items: Import of Orders with Matrix Items.................................................................. 234 
 
- Selling Matrix Items: To Import an Order with Matrix Items.............................................................. 232 
+ Selling Matrix Items: To Import an Order with Matrix Items.............................................................. 235 
 
 
 <!-- PAGE_BREAK -->
  Contents | 5 
 
-**Integration with Shopify..................................................................................................................... 235** 
+**Integration with Shopify..................................................................................................................... 238** 
 
- Initial Configuration of a Shopify Store........................................................................................................235 
+ Initial Configuration of a Shopify Store........................................................................................................238 
 
- Initial Configuration: General Information..........................................................................................235 
+ Initial Configuration: General Information..........................................................................................238 
 
- Initial Configuration: Implementation Checklist................................................................................ 238 
+ Initial Configuration: Implementation Checklist................................................................................ 241 
 
- Initial Configuration: Setting Up a Shopify Store............................................................................... 241 
+ Initial Configuration: Setting Up a Shopify Store............................................................................... 244 
 
- Initial Configuration: To Set Up a Shopify Store................................................................................. 242 
+ Initial Configuration: To Set Up a Shopify Store................................................................................. 245 
 
- Initial Configuration: To Establish the Store Connection with a Custom App................................... 245 
+ Initial Configuration: To Establish the Store Connection with a Custom App................................... 248 
 
- Initial Configuration: To Establish the Store Connection with a Public App..................................... 247 
+ Initial Configuration: To Establish the Store Connection with a Public App..................................... 250 
 
- Initial Configuration: To Prepare the Acumatica ERP Instance.......................................................... 248 
+ Initial Configuration: To Prepare the Acumatica ERP Instance.......................................................... 252 
 
- Initial Configuration: To Configure the Store Connection..................................................................251 
+ Initial Configuration: To Configure the Store Connection..................................................................254 
 
- Overview of Data Synchronization............................................................................................................... 254 
+ Overview of Data Synchronization............................................................................................................... 257 
 
- Data Synchronization: General Information....................................................................................... 254 
+ Data Synchronization: General Information....................................................................................... 257 
 
- Data Synchronization: Synchronization Statuses...............................................................................259 
+ Data Synchronization: Synchronization Statuses...............................................................................262 
 
- Data Synchronization: Manual Synchronization.................................................................................259 
+ Data Synchronization: Manual Synchronization.................................................................................262 
 
- Data Synchronization: To Perform the First Synchronization............................................................260 
+ Data Synchronization: To Perform the First Synchronization............................................................263 
 
- Preparing Entities for Synchronization........................................................................................................ 269 
+ Preparing Entities for Synchronization........................................................................................................ 273 
 
- Preparing Entities for Synchronization: General Information............................................................269 
+ Preparing Entities for Synchronization: General Information............................................................273 
 
- Preparing Entities for Synchronization: Updating Product Details................................................... 271 
+ Preparing Entities for Synchronization: Updating Product Details................................................... 275 
 
- Preparing Entities for Synchronization: Filtering............................................................................... 272 
+ Preparing Entities for Synchronization: Filtering............................................................................... 276 
 
- Preparing Entities for Synchronization: Field Mapping......................................................................274 
+ Preparing Entities for Synchronization: Field Mapping......................................................................278 
 
- Preparing Entities for Synchronization: Shopify Metafields...............................................................277 
+ Preparing Entities for Synchronization: Shopify Metafields...............................................................280 
 
- Automating Synchronization........................................................................................................................ 278 
+ Automating Synchronization........................................................................................................................ 282 
 
- Automated Synchronization: General Information............................................................................ 278 
+ Automated Synchronization: General Information............................................................................ 282 
 
- Automated Synchronization: Scheduled Synchronization................................................................ 279 
+ Automated Synchronization: Scheduled Synchronization................................................................ 283 
 
- Automated Synchronization: Real-Time Synchronization................................................................. 281 
+ Automated Synchronization: Real-Time Synchronization................................................................. 285 
 
- Automated Synchronization: Recommended Setup.......................................................................... 283 
+ Automated Synchronization: Recommended Setup.......................................................................... 286 
 
- Automated Synchronization: To Activate a Predefined Automation Schedule.................................284 
+ Automated Synchronization: To Activate a Predefined Automation Schedule.................................287 
 
- Automated Synchronization: To Configure a New Automation Schedule.........................................286 
+ Automated Synchronization: To Configure a New Automation Schedule.........................................289 
 
- Automated Synchronization: To Turn On Real-Time Synchronization.............................................. 288 
+ Automated Synchronization: To Turn On Real-Time Synchronization.............................................. 292 
 
- Automated Synchronization: Business Events for Aborted Records................................................. 290 
+ Automated Synchronization: Business Events for Aborted Records................................................. 293 
 
- Automated Synchronization: To Activate a Predefined Business Event............................................291 
+ Automated Synchronization: To Activate a Predefined Business Event............................................294 
 
- Synchronizing Individual and Business Customers.....................................................................................293 
+ Synchronizing Individual and Business Customers.....................................................................................296 
 
- Customer Synchronization: General Information...............................................................................293 
+ Customer Synchronization: General Information...............................................................................296 
 
- Customer Synchronization: Default Settings...................................................................................... 294 
+ Customer Synchronization: Default Settings...................................................................................... 297 
 
- Customer Synchronization: Individual Customers............................................................................. 295 
+ Customer Synchronization: Individual Customers............................................................................. 298 
 
- Customer Synchronization: Business Customers............................................................................... 300 
+ Customer Synchronization: Business Customers............................................................................... 303 
 
 
 <!-- PAGE_BREAK -->
  Contents | 6 
 
- Customer Synchronization: To Synchronize Customers with Multiple Locations.............................301 
+ Customer Synchronization: To Synchronize Customers with Multiple Locations.............................306 
 
-Synchronizing Products.................................................................................................................................307 
+Synchronizing Products.................................................................................................................................311 
 
- Product Synchronization: General Information..................................................................................307 
+ Product Synchronization: General Information..................................................................................311 
 
- Product Synchronization: Default Store Settings............................................................................... 308 
+ Product Synchronization: Default Store Settings............................................................................... 313 
 
- Product Synchronization: Settings of Individual Items......................................................................309 
+ Product Synchronization: Settings of Individual Items......................................................................314 
 
- Product Synchronization: Product Images......................................................................................... 310 
+ Product Synchronization: Product Images......................................................................................... 315 
 
- Product Synchronization: To Sync Product Images........................................................................... 311 
+ Product Synchronization: To Sync Product Images........................................................................... 316 
 
-Importing Products........................................................................................................................................315 
+Importing Products........................................................................................................................................320 
 
- Product Import: General Information................................................................................................. 315 
+ Product Import: General Information................................................................................................. 320 
 
- Product Import: Settings of Imported Items...................................................................................... 317 
+ Product Import: Settings of Imported Items...................................................................................... 322 
 
- Product Import: To Import Stock Items.............................................................................................. 319 
+ Product Import: To Import Stock Items.............................................................................................. 324 
 
-Synchronizing Product Availability...............................................................................................................323 
+Synchronizing Product Availability...............................................................................................................328 
 
- Product Availability: General Information.......................................................................................... 323 
+ Product Availability: General Information.......................................................................................... 328 
 
- Product Availability: Calculation of Available Quantities...................................................................325 
+ Product Availability: Calculation of Available Quantities...................................................................330 
 
- Product Availability: To Export Product Availability Data.................................................................. 327 
+ Product Availability: To Export Product Availability Data.................................................................. 331 
 
-Synchronizing Sales Price Lists.....................................................................................................................330 
+Synchronizing Sales Price Lists.....................................................................................................................335 
 
- Sales Price Lists: General Information.................................................................................................330 
+ Sales Price Lists: General Information.................................................................................................335 
 
-Synchronizing Orders.................................................................................................................................... 333 
+Synchronizing Orders.................................................................................................................................... 338 
 
- Order Synchronization: General Information..................................................................................... 333 
+ Order Synchronization: General Information..................................................................................... 338 
 
- Order Synchronization: Implementation Checklist............................................................................ 339 
+ Order Synchronization: Implementation Checklist............................................................................ 343 
 
- Order Synchronization: Card Payments.............................................................................................. 340 
+ Order Synchronization: Card Payments.............................................................................................. 344 
 
- Order Synchronization: To Configure and Import Shopify Payments............................................... 344 
+ Order Synchronization: To Configure and Import Shopify Payments............................................... 349 
 
- Order Synchronization: Import of Payment Terms.............................................................................352 
+ Order Synchronization: Import of Payment Terms.............................................................................357 
 
- Order Synchronization: Export of Orders to the Shopify Store..........................................................353 
+ Order Synchronization: Export of Orders to the Shopify Store..........................................................358 
 
- Order Synchronization: Orders for Companies...................................................................................354 
+ Order Synchronization: Orders for Companies...................................................................................359 
 
- Order Synchronization: Import of Order Risk Information................................................................ 355 
+ Order Synchronization: Multicurrency Accounting.............................................................................360 
 
- Order Synchronization: Import of POS Orders................................................................................... 356 
+ Order Synchronization: Import of Order Risk Information................................................................ 362 
 
- Order Synchronization: Import of POS Exchanges............................................................................. 357 
+ Order Synchronization: Import of POS Orders................................................................................... 363 
 
-Importing Orders with Taxes.........................................................................................................................359 
+ Order Synchronization: Import of POS Exchanges............................................................................. 363 
 
- Import of Taxes: General Information................................................................................................. 359 
+Importing Orders with Taxes.........................................................................................................................365 
 
- Import of Taxes: Manual Tax Setup..................................................................................................... 359 
+ Import of Taxes: General Information................................................................................................. 365 
 
- Import of Taxes: External Tax Provider................................................................................................361 
+ Import of Taxes: Manual Tax Setup..................................................................................................... 366 
 
- Import of Taxes: Substitution Lists......................................................................................................363 
+ Import of Taxes: External Tax Provider................................................................................................367 
 
- Import of Taxes: Tax Calculation Mode............................................................................................... 364 
+ Import of Taxes: Substitution Lists......................................................................................................369 
 
- Import of Taxes: To Set Up Tax Synchronization................................................................................ 364 
+ Import of Taxes: Tax Calculation Mode............................................................................................... 370 
 
-Importing Orders with Discounts..................................................................................................................371 
+ Import of Taxes: To Set Up Tax Synchronization................................................................................ 370 
 
 
 <!-- PAGE_BREAK -->
  Contents | 7 
 
- Import of Orders with Discounts: General Information......................................................................371 
+Importing Orders with Discounts..................................................................................................................377 
 
- Import of Orders with Discounts: Process Activity............................................................................. 371 
+ Import of Orders with Discounts: General Information......................................................................377 
 
- Importing Non-Card Refunds........................................................................................................................375 
+ Import of Orders with Discounts: Process Activity............................................................................. 377 
 
- Importing Non-Card Refunds: General Information...........................................................................375 
+Importing Non-Card Refunds........................................................................................................................381 
 
- Importing Non-Card Refunds: Implementation Activity.................................................................... 377 
+ Importing Non-Card Refunds: General Information...........................................................................381 
 
- Importing Non-Card Refunds: Implementation Checklist..................................................................379 
+ Importing Non-Card Refunds: Implementation Activity.................................................................... 383 
 
- Importing Non-Card Refunds: Order-Level Refunds...........................................................................380 
+ Importing Non-Card Refunds: Implementation Checklist..................................................................385 
 
- Importing Non-Card Refunds: Item-Level Refunds............................................................................ 382 
+ Importing Non-Card Refunds: Order-Level Refunds...........................................................................386 
 
- Importing Non-Card Refunds: To Process a Refund for a Not-Yet-Shipped Order............................ 384 
+ Importing Non-Card Refunds: Item-Level Refunds............................................................................ 388 
 
- Importing Non-Card Refunds: To Process a Refund for a Shipped Order..........................................389 
+ Importing Non-Card Refunds: To Process a Refund for a Not-Yet-Shipped Order............................ 390 
 
- Importing Card Refunds................................................................................................................................ 394 
+ Importing Non-Card Refunds: To Process a Refund for a Shipped Order..........................................395 
 
- Importing Card Refunds: General Information................................................................................... 394 
+Importing Card Refunds................................................................................................................................ 400 
 
- Importing Card Refunds: Implementation Activity.............................................................................396 
+ Importing Card Refunds: General Information................................................................................... 400 
 
- Importing Card Refunds: Implementation Checklist..........................................................................398 
+ Importing Card Refunds: Implementation Activity.............................................................................402 
 
- Importing Card Refunds: Order-Level Refunds...................................................................................399 
+ Importing Card Refunds: Implementation Checklist..........................................................................404 
 
- Importing Card Refunds: Item-Level Refunds.....................................................................................401 
+ Importing Card Refunds: Order-Level Refunds...................................................................................405 
 
- Importing Card Refunds: To Process a Refund for a Not-Yet-Shipped Order.................................... 404 
+ Importing Card Refunds: Item-Level Refunds.....................................................................................407 
 
- Importing Card Refunds: To Process a Refund for a Shipped Order..................................................409 
+ Importing Card Refunds: To Process a Refund for a Not-Yet-Shipped Order.................................... 410 
 
- Selling and Accepting Gi Cards...................................................................................................................416 
+ Importing Card Refunds: To Process a Refund for a Shipped Order..................................................415 
 
- Gi Cards: General Information...........................................................................................................416 
+Synchronizing Dra Orders........................................................................................................................... 422 
 
- Gi Cards: Process Activity.................................................................................................................. 417 
+ Dra Order Synchronization: General Information............................................................................ 422 
 
- Importing Products with Variants.................................................................................................................423 
+Selling and Accepting Gi Cards...................................................................................................................423 
 
- Import of Products with Variants: General Information.....................................................................423 
+ Gi Cards: General Information...........................................................................................................423 
 
- Import of Products with Variants: Settings of Imported Items.......................................................... 426 
+ Gi Cards: Process Activity.................................................................................................................. 424 
 
- Selling Matrix Items in a Shopify Store........................................................................................................ 428 
+Importing Products with Variants.................................................................................................................430 
 
- Sale of Matrix Items: General Information.......................................................................................... 428 
+ Import of Products with Variants: General Information.....................................................................431 
 
- Sale of Matrix Items: To Export Matrix Items...................................................................................... 430 
+ Import of Products with Variants: Settings of Imported Items.......................................................... 434 
 
- Sale of Matrix Items: Export of Product Images..................................................................................434 
+Selling Matrix Items in a Shopify Store........................................................................................................ 436 
 
- Sale of Matrix Items: To Export Product Images.................................................................................435 
+ Sale of Matrix Items: General Information.......................................................................................... 436 
 
- Sale of Matrix Items: Export of Product Availability Data...................................................................439 
+ Sale of Matrix Items: To Export Matrix Items...................................................................................... 439 
 
- Sale of Matrix Items: To Export Product Availability Data.................................................................. 440 
+ Sale of Matrix Items: Export of Product Images..................................................................................442 
 
- Sale of Matrix Items: Import of Orders with Matrix Items.................................................................. 444 
+ Sale of Matrix Items: To Export Product Images.................................................................................444 
 
- Sale of Matrix Items: To Import an Order with Matrix Items.............................................................. 445 
+ Sale of Matrix Items: Export of Product Availability Data...................................................................447 
 
-**Integration with Amazon..................................................................................................................... 448** 
+ Sale of Matrix Items: To Export Product Availability Data.................................................................. 448 
 
- Initial Configuration of an Amazon Store.....................................................................................................448 
+ Sale of Matrix Items: Import of Orders with Matrix Items.................................................................. 453 
 
- Initial Configuration: General Information..........................................................................................448 
+ Sale of Matrix Items: To Import an Order with Matrix Items.............................................................. 453 
 
 
 <!-- PAGE_BREAK -->
  Contents | 8 
 
- Overview of Data Synchronization............................................................................................................... 450 
+**Integration with Amazon..................................................................................................................... 457** 
 
- Data Synchronization: General Information....................................................................................... 450 
+ Initial Configuration of an Amazon Store.....................................................................................................457 
 
- Data Synchronization: Synchronization Statuses...............................................................................455 
+ Initial Configuration: General Information..........................................................................................457 
 
- Data Synchronization: Manual Synchronization.................................................................................455 
+ Overview of Data Synchronization............................................................................................................... 459 
 
- Synchronizing Product Availability...............................................................................................................456 
+ Data Synchronization: General Information....................................................................................... 459 
 
- Product Availability: General Information.......................................................................................... 457 
+ Data Synchronization: Synchronization Statuses...............................................................................464 
 
- Synchronizing Orders.................................................................................................................................... 459 
+ Data Synchronization: Manual Synchronization.................................................................................464 
 
- Order Synchronization: General Information..................................................................................... 459 
+ Synchronizing Product Availability...............................................................................................................465 
 
- Order Synchronization: Seller-Fulfilled Orders...................................................................................460 
+ Product Availability: General Information.......................................................................................... 466 
 
- Order Synchronization: Marketplace-Fulfilled Orders........................................................................462 
+ Synchronizing Orders.................................................................................................................................... 468 
 
- Order Synchronization: Import of Payments...................................................................................... 464 
+ Order Synchronization: General Information..................................................................................... 468 
 
- Order Synchronization: Import of Returns..........................................................................................465 
+ Order Synchronization: Seller-Fulfilled Orders...................................................................................469 
 
- Order Synchronization: Import of Taxes............................................................................................. 466 
+ Order Synchronization: Marketplace-Fulfilled Orders........................................................................471 
 
- Order Synchronization: Non-Order Fees............................................................................................. 467 
+ Order Synchronization: Import of Payments...................................................................................... 473 
 
- Order Synchronization: Protection of Personal Data......................................................................... 468 
+ Order Synchronization: Import of Returns..........................................................................................474 
 
- Synchronizing Inbound Shipments.............................................................................................................. 468 
+ Order Synchronization: Import of Taxes............................................................................................. 477 
 
- Inbound Shipments: General Information.......................................................................................... 469 
+ Order Synchronization: Non-Order Fees............................................................................................. 477 
 
-**Retail Edition Form Reference..............................................................................................................474** 
+ Order Synchronization: Protection of Personal Data......................................................................... 478 
 
- BigCommerce Stores..................................................................................................................................... 474 
+ Synchronizing Inbound Shipments.............................................................................................................. 479 
 
- Shopify Stores................................................................................................................................................ 493 
+ Inbound Shipments: General Information.......................................................................................... 479 
 
- Amazon Stores............................................................................................................................................... 511 
+ Importing Settlement Reports...................................................................................................................... 484 
 
- Entities............................................................................................................................................................522 
+ Settlement Reports: General Information...........................................................................................484 
 
- Attribute Mapping for Template Item Import.............................................................................................. 528 
+**Retail Edition Form Reference..............................................................................................................487** 
 
- Prepare Data.................................................................................................................................................. 530 
+ BigCommerce Stores..................................................................................................................................... 487 
 
- Process Data...................................................................................................................................................534 
+ Shopify Stores................................................................................................................................................ 505 
 
- Sync History................................................................................................................................................... 540 
+ Amazon Stores............................................................................................................................................... 526 
 
- Protect Personal Data....................................................................................................................................548 
+ Entities............................................................................................................................................................538 
 
-**Retail Edition Entity Reference............................................................................................................ 552** 
+ Attribute Mapping for Template Item Import.............................................................................................. 544 
 
- BigCommerce Mapping Reference................................................................................................................552 
+ Prepare Data.................................................................................................................................................. 546 
 
- Customer Entity.................................................................................................................................... 552 
+ Process Data...................................................................................................................................................550 
 
- Customer Location Entity.................................................................................................................... 557 
+ Sync History................................................................................................................................................... 556 
 
- Sales Category Entity........................................................................................................................... 562 
+ Protect Personal Data....................................................................................................................................564 
 
- Stock Item Entity.................................................................................................................................. 562 
+**Retail Edition Entity Reference............................................................................................................ 568** 
 
- Non-Stock Item Entity.......................................................................................................................... 569 
+ BigCommerce Mapping Reference................................................................................................................568 
 
- Template Item Entity............................................................................................................................573 
+ Customer Entity.................................................................................................................................... 568 
 
- Product Availability Entity................................................................................................................... 579 
+ Customer Location Entity.................................................................................................................... 573 
 
 
 <!-- PAGE_BREAK -->
  Contents | 9 
 
- Sales Order Entity.................................................................................................................................581 
+ Sales Category Entity........................................................................................................................... 578 
 
- Shipment Entity....................................................................................................................................592 
+ Stock Item Entity.................................................................................................................................. 578 
 
- Payment Entity..................................................................................................................................... 593 
+ Non-Stock Item Entity.......................................................................................................................... 585 
 
- Shopify Mapping Reference.......................................................................................................................... 596 
+ Template Item Entity............................................................................................................................589 
 
- Customer Entity.................................................................................................................................... 596 
+ Product Availability Entity................................................................................................................... 595 
 
- Customer Location Entity.................................................................................................................... 600 
+ Sales Order Entity.................................................................................................................................597 
 
- Stock Item Entity.................................................................................................................................. 603 
+ Shipment Entity....................................................................................................................................608 
 
- Non-Stock Item Entity.......................................................................................................................... 608 
+ Payment Entity..................................................................................................................................... 609 
 
- Template Item Entity............................................................................................................................612 
+ Shopify Mapping Reference.......................................................................................................................... 612 
 
- Product Availability Entity................................................................................................................... 617 
+ Customer Entity.................................................................................................................................... 612 
 
- Sales Order Entity.................................................................................................................................619 
+ Customer Location Entity.................................................................................................................... 616 
 
- Shipment Entity....................................................................................................................................627 
+ Stock Item Entity.................................................................................................................................. 620 
 
- Payment Entity..................................................................................................................................... 628 
+ Non-Stock Item Entity.......................................................................................................................... 625 
 
-**Appendix............................................................................................................................................ 632** 
+ Template Item Entity............................................................................................................................628 
 
- Reports........................................................................................................................................................... 632 
+ Product Availability Entity................................................................................................................... 633 
 
- Report Form.......................................................................................................................................... 632 
+ Sales Order Entity.................................................................................................................................635 
 
- Report....................................................................................................................................................637 
+ Shipment Entity....................................................................................................................................643 
 
- Form Toolbar and More Menu.......................................................................................................................639 
+ Payment Entity..................................................................................................................................... 644 
 
- Table Toolbar................................................................................................................................................. 646 
+ Shopify GraphQL Mapping............................................................................................................................ 647 
+
+ Customer Entity.................................................................................................................................... 647 
+
+ Customer Location Entity.................................................................................................................... 648 
+
+ Product-Related Entities...................................................................................................................... 649 
+
+ Sales Order and Refund Entities..........................................................................................................651 
+
+ Payment Entity..................................................................................................................................... 658 
+
+ Shipment Entity....................................................................................................................................659 
+
+ Store and Webhook Data..................................................................................................................... 659 
+
+**Appendix............................................................................................................................................ 661** 
+
+ Reports........................................................................................................................................................... 661 
+
+ Report Form.......................................................................................................................................... 661 
+
+ Report....................................................................................................................................................668 
+
+ Form Toolbar and More Menu.......................................................................................................................669 
+
+ Table Toolbar................................................................................................................................................. 676 
 
 
 <!-- PAGE_BREAK -->
@@ -596,9 +622,9 @@ Importing Orders with Discounts.................................................
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -648,7 +674,7 @@ Importing Orders with Discounts.................................................
 
  When you create a BigCommerce store in Acumatica ERP, you need to specify the following details: 
 
-- Store admin path, which is the URL of the BigCommerce store followed by _/manage_ 
+- Store admin URL, which is the URL of the BigCommerce store followed by _/manage_ 
 
 - API credentials (API path, client ID, and access token) 
 
@@ -782,7 +808,7 @@ Importing Orders with Discounts.................................................
 
  Required Information Description 
 
- Store Admin Path The permanent URL of the ecommerce store followed by /manage. 
+ Store Admin URL The permanent URL of the ecommerce store followed by /manage. 
 
  This path is used for navigating to BigCommerce pages from the Sync History (BC301000) and Process Data (BC501500) forms. 
 
@@ -970,7 +996,7 @@ _Ship via Codes_ (CS207500) The ship via codes for the delivery services that th
 
 #### Setting Up Currencies and Payment Methods 
 
- You set up the currencies that your store’s customers will see and can be charged in on the Currencies page. To access the page, you click Settings in the le pane, and on the Settings page, in the Setup section, you click Currencies. 
+ You set up the currencies that your store's customers will see and can be charged in on the Currencies page. To access the page, you click Settings in the le pane, and on the Settings page, in the Setup section, you click Currencies. 
 
  You can configure multiple currencies to be used as display currencies and transaction currencies in your store. The default currency is determined based on the store's general settings; however, it can be changed. For each currency that you want to use as a transactional currency in your store, at least one acceptable payment method must be configured. 
 
@@ -1206,7 +1232,7 @@ _Ship via Codes_ (CS207500) The ship via codes for the delivery services that th
 
  In this activity, you will go through the settings that need to be specified in the Acumatica ERP instance before you set up the connection to the BigCommerce store. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1346,7 +1372,7 @@ _Ship via Codes_ (CS207500) The ship via codes for the delivery services that th
 
  Before you can start setting up a connection to the BigCommerce store in Acumatica ERP, you need to obtain the following BigCommerce connection information: 
 
-- The store admin path, which is the URL of the BigCommerce store followed by _/manage_ 
+- The store admin URL, which is the URL of the BigCommerce store followed by _/manage_ 
 
 - The API credentials (API path, client ID, and access token) In this activity, you will learn where to find the listed information. 
 
@@ -1472,7 +1498,7 @@ _Ship via Codes_ (CS207500) The ship via codes for the delivery services that th
 
 3. On the **General** tab ( **Connection** section), use the information that you have captured while completing     _Initial Configuration: To Capture Store Connection Information_ to specify the settings as follows: 
 
-- In the **Store Admin Path** box, enter the URL of your BigCommerce store.     Notice that the system automatically appends _/manage_ to the store URL. 
+- In the **Store Admin URL** box, enter the URL of your BigCommerce store.     Notice that the system automatically appends _/manage_ to the store URL. 
 
 - Specify **API Path**.     Notice that the system automatically removes the API version at the end of the API path. 
 
@@ -1880,9 +1906,11 @@ The following diagram shows the process of preparing data for synchronization.
 
  To review the results of the preparation of data for synchronization, do the following: 
 
-1. While you are still viewing the _Prepare Data_ (BC501000) form, click the link in the **Total Records** in the row of     the _Stock Item_ entity. The _Sync History_ (BC301000) form opens in a new browser tab with the _SweetStore - BC_     store and the _Stock Item_ entity selected in the Summary area.     On the **Filtered** filter tab, notice that all synchronization records on this tab have the _Filtered_ status. These     are the stock items that were excluded from synchronization based on the filtering conditions that you     specified for stock items on the _Entities_ (BC202000) form. 
+1. While you are still viewing the _Prepare Data_ (BC501000) form, click the link in the **Total Records** in the row of     the _Stock Item_ entity. The _Sync History_ (BC301000) form opens in a new browser tab with the _SweetStore - BC_     store and the _Stock Item_ entity selected in the Summary area. 
 
-2. Go to the **Ready to Process** filter tab.     Notice that the table is displaying the list of stock item synchronization records with the _Prepared_ status,     as shown in the screenshot below. This status means that the data for these items has been prepared and     the items are now ready to be processed. The **Ready to Process** filter tab shows only the items with the _JAM_     item class.     For each of these items, the **ERP ID** column displays a link with the item description that you can click to     open the item on the _Stock Items_ (IN202500) form. Notice that the **External ID** column currently does not     display any values because the stock items have not yet been exported to the BigCommerce store. 
+2. In the Filter List drop-down menu above the table, select _Filtered_. In the table, notice that all     synchronization records on this tab have the _Filtered_ status. These are the stock items that were excluded     from synchronization based on the filtering conditions that you specified for stock items on the _Entities_     (BC202000) form. 
+
+3. In the Filter List drop-down menu, select _Ready to Process_.     Notice that the table is displaying the list of stock item synchronization records with the _Prepared_ status,     as shown in the screenshot below. This status means that the data for these items has been prepared and     the items are now ready to be processed. The **Ready to Process** filter tab shows only the items with the _JAM_     item class.     For each of these items, the **ERP ID** column displays a link with the item description that you can click to     open the item on the _Stock Items_ (IN202500) form. Notice that the **External ID** column currently does not     display any values because the stock items have not yet been exported to the BigCommerce store. 
 
 
 <!-- PAGE_BREAK -->
@@ -1914,7 +1942,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 - **Entity** : _Stock Item_ 
 
-2. Go to the **Processed** filter tab.     The tab shows the list of items that have been synchronized with the BigCommerce store. For each item,     there is now a product identifier in the **External ID** column. In the table, the **Last Operation** value has     changed to _Inserted Externally_ and the time stamp in the **Last Attempt** column has changed to the date and     time when you ran data processing on the _Process Data_ (BC501500) form. 
+2. In the Filter List drop-down menu above the table, select _Processed_.     The table shows the list of items that have been synchronized with the BigCommerce store. For each item,     there is now a product identifier in the **External ID** column. In the table, the **Last Operation** value has     changed to _Inserted Externally_ and the time stamp in the **Last Attempt** column has changed to the date and     time when you ran data processing on the _Process Data_ (BC501500) form. 
 
 #### Step 7: Viewing an Exported Product in the BigCommerce Store 
 
@@ -2020,7 +2048,9 @@ The following diagram shows the process of preparing data for synchronization.
 
 - **Store** : _SweetStore - BC_ 
 
-- **Entity** : Leave empty In the table on the **Processed** filter tab, review the synchronization records that were created during the import of the sales order (shown in the following screenshot). 
+- **Entity** : Leave empty 
+
+2. In the Filter List drop-down menu above the table, select _Processed_.     In the table, review the synchronization records that were created during the import of the sales order     (shown in the following screenshot). 
 
 
 <!-- PAGE_BREAK -->
@@ -2076,11 +2106,11 @@ The following diagram shows the process of preparing data for synchronization.
 
 3. On the form toolbar, click **Confirm Shipment**.     The shipment is assigned the _Confirmed_ status. The sales order is assigned the _Completed_ status. 
 
-4. Close the pop-up window with the _Shipments_ form. 
-
 
 <!-- PAGE_BREAK -->
  Integration with BigCommerce | 47 
+
+4. Close the pop-up window with the _Shipments_ form. 
 
 #### Step 13: Synchronizing the Shipment with the BigCommerce Store 
 
@@ -2114,7 +2144,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 - **Entity** : _Shipment_ 
 
-2. On the **Processed** tab, notice that the synchronization record of the shipment is now displayed in the only     row of the table. The **External ID** column displays the identifier of the shipment in BigCommerce, which     consists of two parts—the identifier of the order and the identifier of the shipment. 
+2. In the Filter List drop-down menu above the table, select _Processed_.     Notice that the synchronization record of the shipment is now displayed in the only row of the table. The     **External ID** column displays the identifier of the shipment in BigCommerce, which consists of two parts—     the identifier of the order and the identifier of the shipment. 
 
 3. Click the link in the **External ID** column.     The order page of the BigCommerce store opens in a new browser tab. Notice that the status of the order     has changed to _Shipped_. The rightmost column now displays the summary information about the shipment. 
 
@@ -3040,23 +3070,15 @@ The following diagram shows the process of preparing data for synchronization.
 
 3. On the form toolbar, click **Schedules > Add** to open the _Automation Schedules_ (SM205020) form. 
 
-4. In the **Description** box, type Prepare Customers.     In the Summary area, the system has inserted _Prepare Data_ in the **Screen ID** box and _Prepare All_ in the     **Action Name** box. Notice that the **Active** check box has been selected.     On the **Filter Values** tab, the system has added the settings summarized in the following table, which     correspond to the selections you have made in the Selection area of the _Prepare Data_ form earlier in this     step. 
+4. In the Summary area, in the **Description** box, type Prepare Customers.     In the Summary area, the system has inserted _Prepare Data_ in the **Screen ID** box and _Prepare All_ in the     **Action Name** box. Notice that the **Active** check box has been selected.     On the **Filter to Apply** tab, the system has added the settings summarized in the following table, which     correspond to the selections you have made in the Selection area of the _Prepare Data_ form earlier in this     step. 
 
  Field Name Value 
 
  Store SweetStore BC 
 
+ Entity Customer 
+
  Prepare Mode Incremental 
-
- On the Conditions tab, the system has added the conditions summarized in the following table, which also correspond to the settings you have made on the Prepare Data form. The action specified in the Action Name box of the Summary area of the Automation Schedules form will be executed for the entities on the Prepare Data form that meet these conditions. 
-
- Field Name Condition Value 
-
- Connector Equals BigCommerce 
-
- Store Equals SweetStore BC 
-
- Entity Equals Customer 
 
 5. On the **Details** tab, specify the additional settings of the schedule as follows: 
 
@@ -3072,10 +3094,6 @@ The following diagram shows the process of preparing data for synchronization.
 
 - In the **Execution Time** section, in the **Starts Time** box, select _11:30 PM_. With these settings, the schedule execution will be started every day at 11:30 PM. 
 
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 69 
-
 7. On the form toolbar, click **Save & Close** to save the changes to the automation schedule. 
 
 #### Step 2: Scheduling of the Automatic Data Processing for Customers 
@@ -3090,7 +3108,11 @@ The following diagram shows the process of preparing data for synchronization.
 
 2. On the form toolbar, click **Schedules > Add** to open the _Automation Schedules_ (SM205020) form. 
 
-3. In the **Description** box, enter Process Customers.     In the Summary area, the system has inserted _Process Data_ in the **Screen ID** box and _Process All_ in the     **Action Name** box. Notice that the **Active** check box has been selected.     On the **Filter Values** tab, the system has added the settings summarized in the following table, which     correspond to the selections you have made on the _Process Data_ form earlier in this step. 
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 69 
+
+3. In the Summary area, in the **Description** box, enter Process Customers.     In the Summary area, the system has inserted _Process Data_ in the **Screen ID** box and _Process All_ in the     **Action Name** box. Notice that the **Active** check box has been selected.     On the **Filter Values** tab, the system has added the settings summarized in the following table, which     correspond to the selections you have made on the _Process Data_ form earlier in this step. 
 
  Field Name Value 
 
@@ -3122,15 +3144,15 @@ The following diagram shows the process of preparing data for synchronization.
 
  In this activity, you will learn how to turn on real-time synchronization for an entity. 
 
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 70 
-
  The following activity is based on the U100 dataset. 
 
 #### Story 
 
  Suppose that as an implementation consultant helping SweetLife to set up integration with BigCommerce, you want to configure continuous synchronization of particular entities. As part of the setup, you need to turn on realtime synchronization of shipments so that they are exported to the BigCommerce store as soon as they are created or updated in Acumatica ERP. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 70 
 
 #### Process Overview 
 
@@ -3168,13 +3190,15 @@ The following diagram shows the process of preparing data for synchronization.
 
  We recommend that you test the configuration by creating a new shipment for a sales order imported from the SweetStore BC store to Acumatica ERP, and then reviewing the corresponding shipment in the SweetStore BC store. If for some reason the changes have not been synchronized, review the corresponding synchronization record on the Sync History (BC301000) form. 
 
+### Automated Synchronization: Business Events for Aborted Records 
+
+ Acumatica ERP provides a set of predefined business events that can be activated to trigger the sending of an email notification to the administrator of an online store about aborted synchronization records. Each of the predefined business events is defined for one of the following entities: Sales Order , Payment , Shipment , or Refund. The notification is sent when the commerce connector fails to process a synchronization record related to the entity if the maximum allowed number of failed attempts has been exceeded. The administrator specifies the maximum 
+
 
 <!-- PAGE_BREAK -->
  Integration with BigCommerce | 71 
 
-### Automated Synchronization: Business Events for Aborted Records 
-
- Acumatica ERP provides a set of predefined business events that can be activated to trigger the sending of an email notification to the administrator of an online store about aborted synchronization records. Each of the predefined business events is defined for one of the following entities: Sales Order , Payment , Shipment , or Refund. The notification is sent when the commerce connector fails to process a synchronization record related to the entity if the maximum allowed number of failed attempts has been exceeded. The administrator specifies the maximum allowed number of failed attempts for each entity on the Entities (BC202000) form or on the BigCommerce Stores (BC201000) form. 
+ allowed number of failed attempts for each entity on the Entities (BC202000) form or on the BigCommerce Stores (BC201000) form. 
 
  To cause any of the predefined business events to start triggering email notifications about aborted synchronization records of the entity whose synchronization records are monitored by the business event, you need to perform the following general steps: 
 
@@ -3210,10 +3234,6 @@ The following diagram shows the process of preparing data for synchronization.
 
  For information about email notifications that are triggered by business events, see Business Events: Subscribers. 
 
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 72 
-
 ### Automated Synchronization: To Activate a Predefined Business Event 
 
  The following activity will walk you through the process of configuring a business event that sends an email notification to the store administrator when the synchronization of an order placed in the ecommerce system is aborted. 
@@ -3222,7 +3242,13 @@ The following diagram shows the process of preparing data for synchronization.
 
 #### Story 
 
- Suppose that you have configured the automated import of sales orders from the ecommerce store and want Jerald Stevens, an ecommerce manager of SweetLife, to be notified when the system has failed to process a synchronization record of a sales order too many times (based on the setting specified in the system) and has set its status to Aborted , which excludes the record from synchronization. To make the system send a notification to the ecommerce manager, Jerald Stevens, every time the synchronization of a sales order is aborted, you need to activate a predefined business event that will trigger the sending of an email message to the store administrator every time the status of a synchronization record of a sales order changes to Aborted. You also want to review the notification template to make sure it is sent to the correct recipient and contains the necessary data about the aborted records. 
+ Suppose that you have configured the automated import of sales orders from the ecommerce store and want Jerald Stevens, an ecommerce manager of SweetLife, to be notified when the system has failed to process a 
+
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 72 
+
+ synchronization record of a sales order too many times (based on the setting specified in the system) and has set its status to Aborted , which excludes the record from synchronization. To make the system send a notification to the ecommerce manager, Jerald Stevens, every time the synchronization of a sales order is aborted, you need to activate a predefined business event that will trigger the sending of an email message to the store administrator every time the status of a synchronization record of a sales order changes to Aborted. You also want to review the notification template to make sure it is sent to the correct recipient and contains the necessary data about the aborted records. 
 
 #### Configuration Overview 
 
@@ -3248,10 +3274,6 @@ The following diagram shows the process of preparing data for synchronization.
 
 1. Make sure that the following prerequisites have been met:     a. The BigCommerce store has been created and configured, as described in _Initial Configuration: To Set Up_        _a BigCommerce Store_.     b. The connection to the BigCommerce store has been established and the initial configuration has been        performed, as described in _Initial Configuration: To Establish and Configure the Store Connection_. 
 
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 73 
-
 2. Sign in to Acumatica ERP by using the following credentials: 
 
 - **Username** : _gibbs_ 
@@ -3267,6 +3289,10 @@ The following diagram shows the process of preparing data for synchronization.
 2. On the **General** tab, in the **Administrator** box (the **Miscellaneous** section), select _stevens_.     The user you select in this box will become the recipient of email notifications sent by the business event     that you will activate in the next step. 
 
 3. On the form toolbar, click **Save**. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 73 
 
 #### Step 2: Activating the Business Event 
 
@@ -3288,15 +3314,15 @@ The following diagram shows the process of preparing data for synchronization.
 
 2. On the _Email Templates_ (SM204003) form, which opens in a new tab, review the details of the template.     In the **To** box, notice that instead of a specific user name or email address, a variable is used. So emails are     sent to whoever is specified as the administrator of the store to which the aborted synchronization record     belongs.     On the **Message** tab, review the details of the aborted synchronization record. The information includes the     store name, the entity type, the local and external identifiers of the record, the last operation, and the last     error. The email body also contains the link to the _Sync History_ (BC301000) form, on which you can review     the status of all synchronization records and resynchronize them aer the issues are resolved. 
 
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 74 
-
  In this activity, you have activated the predefined business event that will trigger the sending of an email to the store administrator about aborted synchronization of sales orders. 
 
 ### Synchronizing Customers 
 
  In the topics of this chapter, you will read about customer synchronization between Acumatica ERP and the BigCommerce store. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 74 
 
 ### Synchronizing Customers: General Information 
 
@@ -3324,13 +3350,13 @@ The following diagram shows the process of preparing data for synchronization.
 
 - **Customer Class** : The customer class that is assigned to new customers imported to Acumatica ERP from     the BigCommerce store and thus used to provide their default settings. For information about creating a     customer class, see _Accounts Receivable: Customer Classes_ and _Customers: Customer Class Settings_.     If the _Multiple Base Currencies_ feature is enabled on the _Enable/Disable Features_ (CS100000) form, the     **Restrict Visibility To** value of the customer class on the _Customer Classes_ (AR201000) form should be set to     the branch selected in the **Branch** box on the **Orders** tab of the _BigCommerce Stores_ (BC201000) form or to     the company this branch belongs to. 
 
-- **Customer Numbering Template** (available for editing only if the _CUSTOMER_ segmented key has more than     one segment): The template that is used to provide the identifiers of new customers imported to Acumatica     ERP from the BigCommerce store. This character string, such as _____-____-######_ , initially shows the     number and length of segments in the _CUSTOMER_ segmented key, which is configured on the _Segmented_ 
+- **Customer Numbering Template** (available for editing only if the _CUSTOMER_ segmented key has more than     one segment): The template that is used to provide the identifiers of new customers imported to Acumatica     ERP from the BigCommerce store. This character string, such as _____-____-######_ , initially shows the     number and length of segments in the _CUSTOMER_ segmented key, which is configured on the _Segmented_     _Keys_ (CS202000) form and defines the structure of the identifiers used for customers in Acumatica ERP.     The groups of underscores represent the constant segments, and the number signs represent the auto-     numbered segment.     You replace the underscores with the values of the constant segments to be used in the identifiers of the     customers imported from the BigCommerce store, as shown in the following example: _ECUS-RET1-######_.     With this setting, the identifiers of all customers imported from BigCommerce to Acumatica ERP would     start with _ECUS-RET1_ , for easy identification, and the system would automatically assign the numerical part     of the identifier according to the numbering sequence selected in the **Customer Numbering Sequence** 
 
 
 <!-- PAGE_BREAK -->
  Integration with BigCommerce | 75 
 
- Keys (CS202000) form and defines the structure of the identifiers used for customers in Acumatica ERP. The groups of underscores represent the constant segments, and the number signs represent the autonumbered segment. You replace the underscores with the values of the constant segments to be used in the identifiers of the customers imported from the BigCommerce store, as shown in the following example: ECUS-RET1-######. With this setting, the identifiers of all customers imported from BigCommerce to Acumatica ERP would start with ECUS-RET1 , for easy identification, and the system would automatically assign the numerical part of the identifier according to the numbering sequence selected in the Customer Numbering Sequence box. These settings do not affect the assignment of identifiers to other customers in the system (those that already exist or those that are created directly in Acumatica ERP). 
+ box. These settings do not affect the assignment of identifiers to other customers in the system (those that already exist or those that are created directly in Acumatica ERP). 
 
 - **Customer Numbering Sequence** : The numbering sequence that the system uses to automatically generate     identifiers for customers imported from the BigCommerce store.     If the _CUSTOMER_ segmented key consists of more than one segment, the numbering sequence that you     select in this box applies to the automatically numbered segment (a group of number signs in the **Customer**     **Numbering Template** box). The length of the numbering sequence must match the length of the auto-     numbered segment.     Selecting a numbering sequence in this box does not change the **Numbering ID** setting of the _CUSTOMER_     segmented key on the _Segmented Keys_ form. The selected numbering sequence applies only to customers     that are imported from the BigCommerce store and does not affect the assignment of identifiers to other     customers in the system (those that already exist or those that are created directly in Acumatica ERP).     For more information about segmented keys and numbering sequences, see _Managing Segmented Keys_. 
 
@@ -3344,13 +3370,11 @@ The following diagram shows the process of preparing data for synchronization.
 
  Before you can start synchronizing customer records along with customer location (address) records between Acumatica ERP and the BigCommerce store, you need to activate the Customer Location entity for the store. To do this, on the BigCommerce Stores (BC201000) form, you select the store, and on the Entities tab, you select the Active check box for the Customer Location entity. Then on the Customers tab, you need to also fill in the following boxes: 
 
-- **Location Numbering Template** (available for editing only if the _LOCATION_ segmented key has more than     one segment): The template that is used to provide the identifiers of new customer locations imported to     Acumatica ERP from the BigCommerce store. This character string, such as _____-____-######_ , initially shows     the number and length of segments in the _LOCATION_ segmented key, which is configured on the _Segmented_     _Keys_ form and defines the structure of the identifiers used for customer locations in Acumatica ERP. The     underscores represent the constant segments, and the number signs represent the automatically numbered     segment.     You replace the underscores with values of the constant segments to be used in the identifiers of the     customer locations imported from the BigCommerce store, as shown in the following example: _ECOM-RET1-_     _######_. With this setting, the identifiers of all customer locations imported from BigCommerce to Acumatica 
+- **Location Numbering Template** (available for editing only if the _LOCATION_ segmented key has more than     one segment): The template that is used to provide the identifiers of new customer locations imported to     Acumatica ERP from the BigCommerce store. This character string, such as _____-____-######_ , initially shows     the number and length of segments in the _LOCATION_ segmented key, which is configured on the _Segmented_     _Keys_ form and defines the structure of the identifiers used for customer locations in Acumatica ERP. The     underscores represent the constant segments, and the number signs represent the automatically numbered     segment.     You replace the underscores with values of the constant segments to be used in the identifiers of the     customer locations imported from the BigCommerce store, as shown in the following example: _ECOM-RET1-_     _######_. With this setting, the identifiers of all customer locations imported from BigCommerce to Acumatica     ERP would start with _ECOM-RET1_ , for easy identification, and the system would automatically assign the     numerical part of the identifier according to the numbering sequence selected in the **Location Numbering**     **Sequence** box. These settings do not affect the assignment of identifiers to other customer locations in the     system (those that already exist or those that are created directly in Acumatica ERP).     If you will be importing customer locations from an online store, one of the segments of the _LOCATION_     segmented key must be automatically numbered. 
 
 
 <!-- PAGE_BREAK -->
  Integration with BigCommerce | 76 
-
- ERP would start with ECOM-RET1 , for easy identification, and the system would automatically assign the numerical part of the identifier according to the numbering sequence selected in the Location Numbering Sequence box. These settings do not affect the assignment of identifiers to other customer locations in the system (those that already exist or those that are created directly in Acumatica ERP). If you will be importing customer locations from an online store, one of the segments of the LOCATION segmented key must be automatically numbered. 
 
 - **Location Numbering Sequence** : The numbering sequence that the system uses to automatically generate     identifiers for customer locations imported from the BigCommerce store.     If the _LOCATION_ segmented key consists of more than one segment, the numbering sequence that you     select in this box applies to the automatically numbered segment (a group of number signs in the **Location**     **Numbering Template** box). The length of the numbering sequence must match the length of the auto-     numbered segment.     Selecting a numbering sequence in this box does not change the **Numbering ID** setting of the _LOCATION_     segmented key on the _Segmented Keys_ form. The selected numbering sequence applies only to customer     locations that are imported from the BigCommerce store and does not affect the assignment of identifiers     to other customer locations in the system (those that already exist or those that are created directly in     Acumatica ERP).     For more information about segmented keys and numbering sequences, see _Managing Segmented Keys_. When the _Customer_ entity is synchronized between the BigCommerce store and Acumatica ERP, customer location (address) data is copied from one system to the other along with the customer data. The remaining sections of this topic describe what happens during the synchronization if a customer was created without an address or if an address was created, updated, or deleted in either system. 
 
@@ -3364,13 +3388,13 @@ The following diagram shows the process of preparing data for synchronization.
 
  Figure: Synchronization of customers created without an address 
 
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 77 
-
 #### Creation of a Customer Address 
 
  If the Customer and Customer Location entities are activated on the BigCommerce Stores (BC201000) form and a new address was created for a customer in the BigCommerce store, during the import of the Customer entity, the ecommerce connector does one of the following: 
+
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 77 
 
 - If the default _MAIN_ location has empty address lines, the new address is used to populate the elements of     the _MAIN_ location. 
 
@@ -3388,15 +3412,15 @@ The following diagram shows the process of preparing data for synchronization.
 
  If an existing customer location is edited in Acumatica ERP, during the export of the Customer entity, the ecommerce connector does one of the following: 
 
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 78 
-
 1. If the customer location is active—that is, if the **Active** check box is selected for it on the _Customer Locations_     (AR303020) form—the corresponding customer address in the BigCommerce store is updated based on the     changes to the customer location. 
 
 2. If the customer location is inactive (that is, if the **Active** check box is cleared for it), the synchronization     proceeds as follows: 
 
 - If the location's synchronization record has a status other than _Deleted_ , the corresponding customer     address in the BigCommerce store is updated based on the changes to the customer location. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 78 
 
 - If the location's synchronization record has the _Deleted_ status or the location has not been synchronized     previously, the location is not synchronized with the BigCommerce store. 
 
@@ -3670,7 +3694,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 - **Entity** : _Customer_ 
 
-2. Go to the **Processed** tab.     The tab shows the items that have been synchronized with the _SweetStore - BC_ store (see the following     screenshot). For each customer of the _COMMERCEBB_ customer class that you processed, the system     displays an identifier in the **External ID** column. In the table, the **Last Operation** column is set to _Inserted_     _Externally_ and the time stamp in the **Last Attempt** column now shows the date and time when you ran data     processing on the _Process Data_ (BC501500) form. 
+2. In the Filter List drop-down menu above the table, select _Processed_.     The table shows the items that have been synchronized with the _SweetStore - BC_ store (see the following     screenshot). For each customer of the _COMMERCEBB_ customer class that you processed, the system displays     an identifier in the **External ID** column. The **Last Operation** column is set to _Inserted Externally_ and the     time stamp in the **Last Attempt** column now shows the date and time when you ran data processing on the     _Process Data_ (BC501500) form. 
 
  Figure: Synchronization records for processed customer entities 
 
@@ -3684,7 +3708,7 @@ The following diagram shows the process of preparing data for synchronization.
 <!-- PAGE_BREAK -->
  Integration with BigCommerce | 85 
 
- Notice that the details that have been filled in for the customer based on the information from the General tab of the Customers (AR303000) form. The name from the Primary Contact section has been imported as the customer's first name and last name ( Colleen and Plunkett , respectively). The Email and Phone boxes have been filled in with the email address and the phone number from the Additional Account Info section of the same tab. 
+ Notice that the details that have been filled in for the customer based on the information from the General tab of the Customers (AR303000) form. The name from the Primary Contact section has been imported as the customer's first name and last name ( Colleen and Plunkett , respectively). The Email and Phone boxes have been filled in with the email address and the phone number from the Additional Contact Information section of the same tab. The Company name box has been filled in with the account name from the Summary area. 
 
 2. Go to the **Customer address book** tab.     Notice that no addresses have been added for the customer. Because the _Customer Location_ entity was not     activated on the **Entities** tab of the _BigCommerce Stores_ (BC201000) form, the location information has     not been imported to the BigCommerce store for this customer and other customers synchronized in the     previous steps of this activity. 
 
@@ -3692,7 +3716,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 4. On the **View customers** page, which opens, review the list of customers that have been exported.     Because you have configured the filtering condition so that the system exports from Acumatica ERP only     the customers of the _COMMERCEBB_ customer class, only the customers of that customer class and the     customers created directly in the BigCommerce store are displayed on the **View Customers** page. 
 
-5. Click the row of _Fruitico Coffee and Cakes_.     The **Edit customer** page opens. Because the **Name** box of the **Primary Contact** section was empty for this     customer on the _Customers_ (AR303000) form, the **First name** and **Last name** boxes on the **Customer details**     tab have been filled in with the information from the **Account Name** box of the **Account Info** section on the     _Customers_ form ( _Fruitico_ and _Coffee and Cakes_ , respectively) because the **Name** box of the **Primary Contact**     section is empty for this customer. 
+5. Click the row of _Fruitico Coffee and Cakes_.     The **Edit customer** page opens. Because the **Name** box of the **Primary Contact** section was empty for this     customer on the _Customers_ (AR303000) form, the **First name** and **Last name** boxes on the **Customer details**     tab have been filled in with the information from the **Legal Name** box of the **Account Information** section     on the _Customers_ form ( _Fruitico_ and _Coffee and Cakes_ , respectively). 
 
 ### Synchronizing Customers: To Synchronize Customers with Multiple Locations 
 
@@ -3922,13 +3946,13 @@ The following diagram shows the process of preparing data for synchronization.
 
  Figure: Customer locations imported from the store 
 
-4. Click the _MAIN_ link in the **Location ID** column.     On the _Customer Locations_ (AR303020) form, which the system has opened in a pop-up window, on the     **General** tab, review the location details that have been imported from the BigCommerce store.     Notice that the **Company Name** value from the address in BigCommerce has been imported as the     **Location Name** of the **Location Info** section and the **Account Name** box of the **Additional Location Info**     section.     The address lines, city, state, country, and postal code have been imported to the appropriate boxes of the     **Location Address** section. 
+4. Click the _MAIN_ link in the **Location ID** column.     On the _Customer Locations_ (AR303020) form, which the system has opened in a pop-up window, on the     **General** tab, review the location details that have been imported from the BigCommerce store.     Notice that the **Company Name** value from the address in BigCommerce has been imported as the     **Location Name** of the **Location Info** section and the **Account Name** box of the **Additional Location Info**     section. 
 
 
 <!-- PAGE_BREAK -->
  Integration with BigCommerce | 90 
 
- The first and last name of the address in BigCommerce have been imported to the Attention box of the Additional Location Info section. 
+ The address lines, city, state, country, and postal code have been imported to the appropriate boxes of the Location Address section. The first and last name of the address in BigCommerce have been imported to the Attention box of the Additional Location Info section. 
 
 #### Step 7: Updating the Customer Location 
 
@@ -3950,7 +3974,9 @@ The following diagram shows the process of preparing data for synchronization.
 
 - **Entity** : _Customer Location_ 
 
-2. On the **Processed** tab, select the unlabeled check box in the row of the _MAIN, Hoppy Place Coffee and Cakes_     location, and on the form toolbar, click **Sync**. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
+
+3. In the table, select the unlabeled check box in the row of the _MAIN, Hoppy Place Coffee and Cakes_ location,     and on the form toolbar, click **Sync**. 
 
  When you change a location of a customer, the ecommerce connector recognizes the customer record as having been modified as well. So in this step, you could have selected the synchronization record for the Hoppy Place Coffee and Cakes customer and clicked Sync , and the updated customer location would have been synchronized as part of the customer synchronization process. Alternatively, you could have prepared the Customer entity for synchronization on the Prepare Data (BC501000) form and then processed the prepared synchronization records on the Process Data (BC501500) form. 
 
@@ -3958,7 +3984,7 @@ The following diagram shows the process of preparing data for synchronization.
 
  To review the updated customer address in the BigCommerce store, do the following: 
 
-1. While you are still viewing the _Sync History_ (BC301000) form, in the row of the _MAIN, Hoppy Place Coffee and_     _Cakes_ , click the link in the **External ID** column.     The **Edit customer address** page of the control panel of the BigCommerce store opens for the     corresponding address of the _Hoppy Place Coffee and Cakes_ customer. 
+1. While you are still viewing the _Sync History_ (BC301000) form, in the row of the _MAIN, Hoppy Place Coffee and_     _Cakes_ , click the link in the **External ID** column.     The **Edit address** page of the control panel of the BigCommerce store opens for the corresponding address     of the _Hoppy Place Coffee and Cakes_ customer. 
 
  If you are not signed in to the control panel of the BigCommerce store in the same browser, you will need to enter your sign-in credentials. 
 
@@ -4202,7 +4228,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 1. On the _Non-Stock Items_ (IN202000) form, select the _ONLCOURSE_ item. 
 
-2. On the **Attributes** tab, in the row of the **Attributes** table with the _Pre-Order Release Date_ attribute, set **Value**     to _1/1/2026_. 
+2. On the **Attributes** tab, in the row of the **Attributes** table with the _Pre-Order Release Date_ attribute, set **Value**     to _1/1/2027_. 
 
 3. On the **eCommerce** tab, in the **Availability** box, select _Set as Pre-Order_. 
 
@@ -4290,15 +4316,17 @@ The following diagram shows the process of preparing data for synchronization.
 
 - **Store** : _SweetStore - BC_ 
 
-- **Entity** : _Non-Stock Item_ On the **Processed** tab, notice that the synchronization record of the _ONLCOURSE, Home canning courses online (website session)_ item is displayed in the only row of the table. The **External ID** column displays the identifier of the item in BigCommerce. 
+- **Entity** : _Non-Stock Item_ 
 
-2. Click the link in the **External ID** column to open the product in the BigCommerce control panel. 
+2. In the Filter List drop-down menu above the table, select _Processed_.     Notice that the synchronization record of the _ONLCOURSE, Home canning courses online (website session)_     item is displayed in the only row of the table. The **External ID** column displays the identifier of the item in     BigCommerce. 
+
+3. Click the link in the **External ID** column to open the product in the BigCommerce control panel. 
 
  If you are not signed in to the control panel of the BigCommerce store in the same browser, you will need to enter your sign-in credentials. 
 
-3. On the **View products** page, which opens for the _Home canning courses online (website session)_ product,     review the details of the exported item. This item corresponds to the _ONLCOURSE_ non-stock item in     Acumatica ERP.     Notice that in the **Purchasability** section, the **This product is coming soon but I want to take pre-orders**     option button is selected, and in the **Release Date** box, the pre-order release date that you specified for the     _ONLCOURSE_ non-stock item has been inserted ( _2026 Jan 1_ ). 
+4. On the **View products** page, which opens for the _Home canning courses online (website session)_ product,     review the details of the exported item. This item corresponds to the _ONLCOURSE_ non-stock item in     Acumatica ERP.     Notice that in the **Purchasability** section, the **This product is coming soon but I want to take pre-orders**     option button is selected, and in the **Release Date** box, the pre-order release date that you specified for the     _ONLCOURSE_ non-stock item has been inserted ( _2027 Jan 1_ ). 
 
-4. At the top of the page, next to the product name, click **View on Storefront**.     The storefront page for the _Home canning courses online (website session)_ product opens. Notice that the     product is only available for pre-order, and that the message to customers indicates that the product will be     available starting _2026 Jan 1st_. This date was specified as an attribute value in Acumatica ERP and exported     during the synchronization of the _Non-Stock Item_ entity. 
+5. At the top of the page, next to the product name, click **View on Storefront**.     The storefront page for the _Home canning courses online (website session)_ product opens. Notice that the     product is only available for pre-order, and that the message to customers indicates that the product will be     available starting _2027 Jan 1st_. This date was specified as an attribute value in Acumatica ERP and exported     during the synchronization of the _Non-Stock Item_ entity. 
 
  Figure: The custom attribute shown on the storefront 
 
@@ -4468,17 +4496,21 @@ The following diagram shows the process of preparing data for synchronization.
 
 - **Entity** : _Stock Item_ 
 
-2. In the row of the _CHERJAM96, Cherry jam 96 oz_ item, click the link in the **External ID** column. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
+
+3. In the row of the _CHERJAM96, Cherry jam 96 oz_ item, click the link in the **External ID** column. 
 
  If you are not signed in to the control panel of the BigCommerce store in the same browser, you will need to enter your sign-in credentials. 
 
-3. On the **View products** page, which opens for the _Cherry jam 96 oz_ product in the BigCommerce control     panel, review the details of the exported item.     Notice that in the **Custom Fields** section, the _Sugar Level_ custom field has been created and set to _Sugar-_     _free_. 
+4. On the **View products** page, which opens for the _Cherry jam 96 oz_ product in the BigCommerce control     panel, review the details of the exported item.     Notice that in the **Custom Fields** section, the _Sugar Level_ custom field has been created and set to _Sugar-_     _free_. 
 
-4. At the top of the page, next to the product name, click **View on Storefront**.     The storefront page for the _Cherry jam 96 oz_ product opens. Notice that the name of the custom field ( **Sugar**     **Level** ) and the assigned value ( _Sugar-free_ ) are displayed, as shown in the following screenshot. 
+5. At the top of the page, next to the product name, click **View on Storefront**. 
 
 
 <!-- PAGE_BREAK -->
  Integration with BigCommerce | 102 
+
+ The storefront page for the Cherry jam 96 oz product opens. Notice that the name of the custom field ( Sugar Level ) and the assigned value ( Sugar-free ) are displayed, as shown in the following screenshot. 
 
  Figure: The custom attribute shown on the storefront 
 
@@ -4500,7 +4532,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 #### Export of Images Attached to an Item 
 
- You can save product images on the Attributes tab of the Stock Items (IN202500) and Non-Stock Items (IN202000) forms. Images that have been attached to an item are exported to the BigCommerce store during the synchronization of the Product Image entity. When you activate the Product Image entity on the Entities tab of the BigCommerce Stores (BC201000) form, you need to specify the WebDAV credentials that the system will use to export images to the BigCommerce store. On the General tab of the BigCommerce Stores form, you enter the WebDAV path, username, and password for the BigCommerce store. For information about obtaining the WebDAV credentials, see File Access (WebDAV) in the BigCommerce documentation. 
+ You can save product images on the Description tab of the Stock Items (IN202500) and Non-Stock Items (IN202000) forms. Images that have been attached to an item are exported to the BigCommerce store during the synchronization of the Product Image entity. When you activate the Product Image entity on the Entities tab of the BigCommerce Stores (BC201000) form, you need to specify the WebDAV credentials that the system will use to export images to the BigCommerce store. On the General tab of the BigCommerce Stores form, you enter the WebDAV path, username, and password for the BigCommerce store. For information about obtaining the WebDAV credentials, see File Access (WebDAV) in the BigCommerce documentation. 
 
 
 <!-- PAGE_BREAK -->
@@ -4604,7 +4636,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 1. On the _Stock Items_ (IN202500) form, select the _APJAM08_ stock item. 
 
-2. On the **Attributes** tab, drag the files you downloaded to the Image area. 
+2. On the **Description** tab, drag the files you downloaded to the Image area. 
 
 
 <!-- PAGE_BREAK -->
@@ -4652,7 +4684,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 - **Entity** : _Product Image_ 
 
-2. Go to the **Processed** tab. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
 
 
 <!-- PAGE_BREAK -->
@@ -4666,7 +4698,7 @@ The following diagram shows the process of preparing data for synchronization.
 
  If you are not signed in to the control panel of the BigCommerce store in the same browser, you will need to enter your sign-in credentials. 
 
- Notice that the Images section (under Images & Videos ) now contains two images that you uploaded in this activity. The main product image (for which the Thumbnail option button is selected) is the image that is visible in the Image area of the Attributes tab. 
+ Notice that the Images section (under Images & Videos ) now contains two images that you uploaded in this activity. The main product image (for which the Thumbnail option button is selected) is the image that is visible in the Image area of the Description tab. 
 
 4. At the top of the page, next to the product name, click **View on Storefront**.     The storefront page for the _Apple jam 8 oz._ product opens. Notice that a thumbnail image is displayed for     this product, and review how the other image is displayed. 
 
@@ -4990,7 +5022,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 2. In the **Import Settings** section, specify the following settings: 
 
-- **Inventory Numbering Sequence** : Empty (the default value)     Based on this setting, when assigning each inventory ID of an item imported to Acumatica ERP, the     system uses the stock-keeping unit (SKU) of the corresponding product in the Acumatica ERP store. 
+- **Inventory Numbering Sequence** : Empty (the default value)     Based on this setting, when assigning each inventory ID of an item imported to Acumatica ERP, the     system uses the stock keeping unit (SKU) of the corresponding product in the Acumatica ERP store. 
 
 - **Item Class for Stock Items** : _JAM_     This is the item class based on which stock item records will be created in Acumatica ERP for products     imported from the online store. 
 
@@ -5046,7 +5078,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 3. On the **Processed** tab, in the row with the _Blueberry Jam 8 oz_ external description, click the link in the **ERP**     **ID** column to review the imported stock item. The system opens the _Stock Items_ (IN202500) form in a pop-up     window with the item selected.     In the Summary area, notice that the system has inserted the product's SKU, _BLJAM08_ , as the item's     identifier and that the _Blueberry Jam 8 oz_ item description matches the product title in the external system.     On the **General** tab, notice that the system has assigned the item the _JAM_ item class based on the item class     you have specified for import settings in Step 3. 
 
-4. Click the **Price/Cost** tab.     Notice that the system has assigned the item the _4.15_ default price based on the product’s price. 
+4. Click the **Price/Cost** tab.     Notice that the system has assigned the item the _4.15_ default price based on the product's price. 
 
 5. Click the **Cross-Reference** tab. 
 
@@ -5124,7 +5156,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 - _UOM-specific prices_ : In Acumatica ERP, if the _Multiple Units of Measure_ feature is enabled on the _Enable/_     _Disable Features_ (CS100000) form, you can define a sales price of an item for each of the units of measure     in which your company sells this item. However, only prices defined for the sales UOM can be exported to     BigCommerce. 
 
-- _Warehouse-specific prices_ : If the _Multiple Warehouses_ feature is enabled on the _Enable/Disable Features_ form,     prices that are defined to apply only when products are sold from a particular warehouse—that is, when a     specific warehouse ID is selected in the **Warehouse** column for a particular price—are not exported to the     BigCommerce store. 
+- _Warehouse-specific prices_ : If the _Multiple Warehouses_ feature is enabled on the _Enable/Disable Features_ form,     prices that are defined to apply only when products are sold from a particular warehouse—that is, when     a specific warehouse is selected in the **Warehouse** column for a particular price—are not exported to the     BigCommerce store. 
 
 
 <!-- PAGE_BREAK -->
@@ -5162,7 +5194,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 <!-- PAGE_BREAK -->
  Integration with BigCommerce | 118 
 
-- More than 9 pieces: $40 The new prices are effective as of July 1, 2024. 
+- More than 9 pieces: $40 The new prices are effective as of July 1, 2025. 
 
  As an implementation consultant, you want to export the effective sales prices for the jams from Acumatica ERP to the BigCommerce store. 
 
@@ -5230,7 +5262,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 - **Price Type** : _Base_ 
 
-- **Inventory ID** : _PEARJAM96_ In the table, notice that there is one effective price of the _Base_ type for this stock item ( _$45.00_ ), which is effective for all customers starting from 7/1/2024. 
+- **Inventory ID** : _PEARJAM96_ In the table, notice that there is one effective price of the _Base_ type for this stock item ( _$45.00_ ), which is effective for all customers starting from 7/1/2025. 
 
 2. In the **Inventory ID** box of the Selection area, select _BANJAM96_.     Notice that for the _BANJAM96_ stock item, the table contains three different prices of the _Base_ type, which     depend on the value in the **Break Qty** column. When a customer buys 1 to 4 jars of banana jam, each jar will     cost $45; for the purchase of 5 to 9 jars, the effective price will be $43, and if a customer buys 10 or more jars,     each will cost $40. 
 
@@ -5568,6 +5600,34 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 3. Determine the stock items for which available quantities should be exported. For more information, see the     _Tracking Available Quantities of Exported Stock Items_ section below. 
 
+#### Selection of the Warehouse Mode 
+
+ You also select whether quantity calculations should include available quantities from all warehouses or from only the specified warehouses or warehouse locations. To do so, in the Warehouse Mode box on the Inventory tab of the BigCommerce Stores (BC201000) form, you select one of the following options: 
+
+- _All Warehouses_ : To calculate the available quantity of the item in the BigCommerce store based on the     quantity of the item in all warehouses. If _All Warehouses_ warehouse mode is selected and multiple locations     exist in the BigCommerce store, the available quantities of items are synchronized with the default location,     which is also the first location created in the BigCommerce store. 
+
+- _Specific Warehouses_ : To calculate the available quantity of the item based on the quantity in the selected     warehouses and warehouse locations.     When you select this option, the **Warehouse Mapping for Inventory Export** table appears on the **Inventory**     tab. In this table, you specify a list of warehouses and warehouse locations to be used for the calculation     of item availability. If multiple warehouse locations have been created in the BigCommerce store, you     can specify which BigCommerce location should be updated with the availability data from a particular     warehouse or warehouse location from Acumatica ERP.     The **Warehouse Mapping for Inventory Export** table contains the following columns: 
+
+- **Warehouse** (required): A warehouse from Acumatica ERP that holds inventory items whose availability     data should be exported to the BigCommerce store. You can select a warehouse from the list of all active     warehouses that have been created on the _Warehouses_ (IN204000) form. 
+
+- **Location ID** (optional): A warehouse location from Acumatica ERP that contains inventory items whose     availability data should be exported to the BigCommerce store. You can select a warehouse location     from the list, which contains the active locations that have been created on the _Warehouses_ form for the     warehouse selected in the **Warehouse** column of the row. 
+
+- **Shopify Location** (required): The BigCommerce warehouse location to which the system will export     availability data for inventory items from Acumatica ERP. You select a location from the list, which     contains all the warehouse locations created in the BigCommerce store. Keep in mind the following mapping rules: 
+
+- A BigCommerce location can be linked to more than one Acumatica ERP warehouse–location pair. This     BigCommerce location will reflect the combined stock from all these locations. 
+
+- Each Acumatica ERP warehouse–location pair can only be linked to only one BigCommerce location. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 127 
+
+- An Acumatica ERP warehouse can be assigned to a BigCommerce location without selecting an Acumatica     ERP location. This BigCommerce location will then represent all the stock in every location within that     warehouse. But you won't be able to use this warehouse for any other mappings. 
+
+ Multiple warehouses and warehouse locations require that the Multiple Warehouses and Multiple Warehouse Locations features be enabled on the Enable/Disable Features (CS100000) form. 
+
+ If you have synchronized the Product Availability entity, when you modify any of the settings described in this section, the system resets the availability synchronization status for all synchronized items in the BigCommerce store, and you need to perform the full synchronization of the Product Availability entity again. 
+
 #### Tracking Available Quantities of Exported Stock Items 
 
  You can track available quantities of stock items exported to a BigCommerce store and make them available for purchase via the storefront only when they are in stock. You can also determine how the system should handle items that go out of stock. 
@@ -5588,15 +5648,13 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 #### Synchronization of Availability Settings 
 
- The availability (purchasability) settings of a stock item in the BigCommerce store are updated as part of the synchronization of the Stock Item entity. During the synchronization, the system updates the purchasability 
+ The availability (purchasability) settings of a stock item in the BigCommerce store are updated as part of the synchronization of the Stock Item entity. During the synchronization, the system updates the purchasability settings of each item exported to BigCommerce based on the option selected in the Availability box on the eCommerce tab of the Stock Items (IN202500) form. 
+
+ For stock items whose quantities are tracked and have been synchronized with the BigCommerce store, during the synchronization of the Stock Item entity, the system also checks if the item is in stock (See the Synchronization of Available Quantities section below). If the item has no available quantity (that is, its calculated quantity is less than or equal to zero), the system also updates the item's purchasability settings according to the When Qty. Unavailable setting specified on the eCommerce tab of the Stock Items form. 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 127 
-
- settings of each item exported to BigCommerce based on the option selected in the Availability box on the eCommerce tab of the Stock Items (IN202500) form. 
-
- For stock items whose quantities are tracked and have been synchronized with the BigCommerce store, during the synchronization of the Stock Item entity, the system also checks if the item is in stock (See the Synchronization of Available Quantities section below). If the item has no available quantity (that is, its calculated quantity is less than or equal to zero), the system also updates the item's purchasability settings according to the When Qty. Unavailable setting specified on the eCommerce tab of the Stock Items form. 
+ Integration with BigCommerce | 128 
 
 #### Synchronization of Available Quantities 
 
@@ -5626,11 +5684,13 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 - _Available for Shipping_ : The system synchronizes the quantity available for shipping. 
 
+- _Available_ : The system synchronizes the available quantity. You can configure the way the available quantity     is calculated by using an availability calculation rule. For more information, see _Availability Calculation Rules: General Information_. 
+
+ The connector exports product quantities only from regular cost layers. Quantities from special orders and projectrelated cost layers are excluded from the product availability export. For more information about cost layers, see Tracking of Costs at Warehouses and Locations. 
+
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 128 
-
-- _Available_ : The system synchronizes the available quantity. You can configure the way the available quantity     is calculated by using an availability calculation rule. For more information, see _Availability Calculation Rules: General Information_. 
+ Integration with BigCommerce | 129 
 
 #### Selection of the Warehouse Mode 
 
@@ -5662,17 +5722,19 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 - Banana jams ( _BANJAM96_ and _BANJAM08_ ) should always be available for purchase, regardless of the quantity     in stock. 
 
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 129 
-
 - Pear jams ( _PEARJAM96_ and _PEARJAM08_ ) should be available for purchase only if there is a sufficient quantity     in stock. If there is no quantity in stock, the item is unavailable for purchase. 
 
-- Plum jams ( _PLUMJAM96_ and _PLUMJAM08_ ) should be available for purchase when there is a sufficient     quantity in stock. If there is no quantity in stock, the availability of the item for purchase should be     determined by the settings specified for the item on the product management page in the BigCommerce     store. 
+- Plum jams ( _PLUMJAM96_ and _PLUMJAM08_ ) should be available for purchase when there is a sufficient     quantity in stock. If there is no quantity in stock, the availability of the item for purchase should be 
+
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 130 
+
+ determined by the settings specified for the item on the product management page in the BigCommerce store. 
 
 - Cherry jam in 96-ounce jars ( _CHERJAM96_ ) is currently unavailable for purchase. You expect it to be restocked     soon and want to accept orders for it regardless of its available quantities. Item quantities are available for purchase in the online store only if they are available for shipping from the _JS1_ location in the _RETAIL_ warehouse. 
 
- Acting as an implementation consultant helping SweetLife to set up the integration of Acumatica ERP with the BigCommerce store, you need to configure the system so that the items' availability will be tracked according to the company’s preferences. 
+ Acting as an implementation consultant helping SweetLife to set up the integration of Acumatica ERP with the BigCommerce store, you need to configure the system so that the items' availability will be tracked according to the company's preferences. 
 
 #### Configuration Overview 
 
@@ -5712,13 +5774,13 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 2. On the _Storage Details by Item Warehouse Location_ (IN408055) form, review the quantities of stock items     available in the _RETAIL_ warehouse. 
 
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 130 
-
 3. On the _Prepare Data_ (BC501000) form, prepare the product availability data for synchronization, and on the     _Process Data_ (BC501500) form, process the prepared product availability data. 
 
 4. In the BigCommerce store, review the availability settings and quantities of the exported stock items. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 131 
 
 #### System Preparation 
 
@@ -5758,11 +5820,13 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 - **Warehouse Mode** : _Specific Warehouses_ 
 
-2. In the **Warehouse Settings** table, add a new row and specify the following settings: 
+2. In the **Warehouse Mapping for Inventory Export** table, add a new row and specify the following settings: 
 
 - **Warehouse** : _RETAIL_ 
 
-- **Location ID** : _JS1_ For each item, only its quantity available for shipping at the _JS1_ location in the _RETAIL_ warehouse is synchronized with the BigCommerce store. 
+- **Location ID** : _JS1_ 
+
+- **BigCommerce Location** : _Default location_ For each item, only its quantity available for shipping at the _JS1_ location in the _RETAIL_ warehouse is synchronized with the default location of the BigCommerce store. 
 
 3. On the form toolbar, click **Save** to save the settings. 
 
@@ -5770,11 +5834,13 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
  To review the availability quantity of the stock items, do the following: 
 
+1. In the Selection area of the _Storage Details by Item Warehouse Location_ (IN408055) form, select the _RETAIL_     warehouse. 
+
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 131 
+ Integration with BigCommerce | 132 
 
-1. In the Selection area of the _Storage Details by Item Warehouse Location_ (IN408055) form, select the _RETAIL_     warehouse.     The system displays the quantities of all items stored in the _RETAIL_ warehouse. 
+ The system displays the quantities of all items stored in the RETAIL warehouse. 
 
 2. Click the header of the **Location ID** column, and in the dialog box that opens, select _Equals_ , type JS1 in the     box below, and click **OK**.     The system now displays only the items that are stored in the _JS1_ warehouse location. Because you have     set the **Availability Mode** setting to _Available for Shipping_ , the quantities of the items displayed in the     **Qty. Available for Shipping in Location** column (which is shown in the following screenshot) will be     synchronized with the BigCommerce store. Notice that the _BANJAM96_ , _CHERJAM96_ , _PEARJAM96_ , and     _PLUMJAM96_ stock items are available at the _JS1_ location (a nonzero quantity is displayed for each of these     items in the **Qty. Available for Shipping in Location** column), whereas the _BANJAM08_ , _PEARJAM08_ , and     _PLUMJAM08_ stock items have quantities of 0. 
 
@@ -5802,19 +5868,23 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 7. In the **Processing** dialog box, which opens, click **Close** to close the dialog box. 
 
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 132 
-
 #### Step 4: Reviewing the Synchronized Data 
 
  To review the synchronized availability data in the BigCommerce store, do the following: 
 
 1. In the le pane of the control panel, click **Products > All products**. 
 
-2. On the **View products** page, which opens, review the _BANJAM96_ and _BANJAM08_ products.     In the **Current Stock** column, notice that for the _BANJAM96_ product, the current stock quantity is _40_. That     indicates that the product's quantity is tracked and the product is in stock. For _BANJAM08_ , the column     contains _—_ , meaning that the product's quantity is not tracked.     Considering the available quantities of the items (40 for _BANJAM96_ , and 0 for _BANJAM08_ ), the system has     specified the inventory and purchasability settings for both products based on the following availability     settings specified at the store level on the **Inventory** tab of the _BigCommerce Stores_ (BC201000): _Set as_     _Available (Track Qty.)_ if the item is available and _Set as Pre-Order_ if it is unavailable.     The system used the store-level settings based on the item-level visibility, which was set to _Store Default_ for     both items on the **eCommerce** tab of the _Stock Items_ (IN202500) form. 
 
-3. To review the _BANJAM96_ product, do the following:     a. Click the _Banana jam 96 oz._ link in the **Name** column.        On the **View products** page, which opens for the _Banana jam 96 oz._ product, notice the following        settings, which have been assigned to the product based on the availability setting because its available        quantity is greater than 0: 
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 133 
+
+2. On the **View products** page, which opens, review the _BANJAM96_ and _BANJAM08_ products. 
+
+ In the Current Stock column, notice that for the BANJAM96 product, the current stock quantity is 40. That indicates that the product's quantity is tracked and the product is in stock. For BANJAM08 , the column contains — , meaning that the product's quantity is not tracked. Considering the available quantities of the items (40 for BANJAM96 , and 0 for BANJAM08 ), the system has specified the inventory and purchasability settings for both products based on the following availability settings specified at the store level on the Inventory tab of the BigCommerce Stores (BC201000): Set as Available (Track Qty.) if the item is available and Set as Pre-Order if it is unavailable. The system used the store-level settings based on the item-level visibility, which was set to Store Default for both items on the eCommerce tab of the Stock Items (IN202500) form. 
+
+3. To review the _BANJAM96_ product, do the following: 
+
+ a. Click the Banana jam 96 oz. link in the Name column. On the View products page, which opens for the Banana jam 96 oz. product, notice the following settings, which have been assigned to the product based on the availability setting because its available quantity is greater than 0: 
 
 - In the **Inventory** section, the **Track inventory** check box is selected. 
 
@@ -5822,27 +5892,33 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 - In the **Purchasability** section, the **This product can be purchased in my online store** option button     is selected. b. In the le pane of the control panel, click **Products > All products**. 
 
-4. On the **View products** page, to which you return, do the following to review the _BANJAM08_ product:     a. Click the _Banana jam 8 oz._ link in the **Name** column.        On the **View products** page, which opens for the _Banana jam 8 oz._ product, notice the following settings,        which have been assigned to the product based on the unavailability setting because its available        quantity is 0: 
+4. On the **View products** page, to which you return, do the following to review the _BANJAM08_ product: 
+
+ a. Click the Banana jam 8 oz. link in the Name column. On the View products page, which opens for the Banana jam 8 oz. product, notice the following settings, which have been assigned to the product based on the unavailability setting because its available quantity is 0: 
 
 - In the **Inventory** section, the **Track inventory** check box is cleared. 
 
 - In the **Purchasability** section, the **This product is coming soon but I want to take pre-orders** option     button is selected. b. In the le pane of the control panel, click **Products > All products**. 
 
-5. On the **View products** page, to which you return, review the _PEARJAM96_ and _PEARJAM08_ products.     In the **Current Stock** column, notice that for the _PEARJAM96_ product, the current stock quantity is _35_. That     indicates that the product's quantity is tracked and the product is in stock. For _PEARJAM08_ , the current stock     quantity is _0_ and a red dot is shown le to the quantity. That means that the product's quantity is tracked     and the item is currently out of stock.     Considering the available quantities of the items (35 for _PEARJAM96_ , and 0 for _PEARJAM08_ ), the system has     specified the inventory and purchasability settings for both products based on the following availability     settings specified at the item level on the **eCommerce** tab of the _Stock Items_ form: _Set as Available (Track_     _Qty.)_ if the item is available and _Set as Unavailable_ if it is unavailable. 
+5. On the **View products** page, to which you return, review the _PEARJAM96_ and _PEARJAM08_ products. 
 
-6. To review the _PEARJAM96_ product, do the following:     a. Click the _Pear jam 96 oz._ link in the **Name** column. 
+ In the Current Stock column, notice that for the PEARJAM96 product, the current stock quantity is 35. That indicates that the product's quantity is tracked and the product is in stock. For PEARJAM08 , the current stock quantity is 0 and a red dot is shown le to the quantity. That means that the product's quantity is tracked and the item is currently out of stock. Considering the available quantities of the items (35 for PEARJAM96 , and 0 for PEARJAM08 ), the system has specified the inventory and purchasability settings for both products based on the following availability settings specified at the item level on the eCommerce tab of the Stock Items form: Set as Available (Track Qty.) if the item is available and Set as Unavailable if it is unavailable. 
 
+6. To review the _PEARJAM96_ product, do the following: 
 
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 133 
-
- On the View products page, which opens for the Pear jam 96 oz. product, notice the following settings, which have been assigned to the product based on the availability setting because its available quantity is greater than 0: 
+ a. Click the Pear jam 96 oz. link in the Name column. On the View products page, which opens for the Pear jam 96 oz. product, notice the following settings, which have been assigned to the product based on the availability setting because its available quantity is greater than 0: 
 
 - In the **Inventory** section, the **Track inventory** check box is selected. 
 
 - The current stock quantity, which is tracked on the product level, is _35_. 
 
-- In the **Purchasability** section, the **This product can be purchased in my online store** option button     is selected. b. In the le pane of the control panel, click **Products > All products**. 
+- In the **Purchasability** section, the **This product can be purchased in my online store** option button     is selected. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 134 
+
+ b. In the le pane of the control panel, click Products > All products. 
 
 7. On the **View products** page, to which you return, do the following to review the _PEARJAM08_ product: 
 
@@ -5858,29 +5934,31 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
  In the Current Stock column, notice that for the PLUMJAM96 product, the current stock quantity is 42. That indicates that the product's quantity is tracked and the product is in stock. For PLUMJAM08 , the current stock quantity is 0 and a red dot is shown le to the quantity. That means that the product's quantity is tracked and the item is currently out of stock. The system has specified the inventory and purchasability settings for both products based on the availability settings ( Set as Available (Track Qty.) if the item is available, and Do Nothing if it is unavailable) specified at the item level on the eCommerce tab of the Stock Items form. The system did not change the inventory and purchasability settings depending on the available quantity because of the Do Nothing setting for unavailable items. 
 
-9. To review the _PLUMJAM96_ product, do the following: 
+9. To review the _PLUMJAM08_ product, do the following: 
 
- a. Click the Plum jam 96 oz. link in the Name column. On the View products page, which opens for the Plum jam 96 oz. product, notice the following settings, which have been assigned to the product based on the availability setting: 
+ a. Click the Plum jam 8 oz. link in the Name column. On the View products page, which opens for the Plum jam 8 oz. product, notice the following settings, which have been assigned to the product based on the availability setting: 
 
 - In the **Inventory** section, the **Track inventory** check box is selected. 
 
-- The current stock quantity, which is tracked on the product level, is _42_. 
+- The current stock quantity, which is tracked on the product level, is _0_. 
 
-- In the **Purchasability** section, the **This product can be purchased in my online store** option button     is selected. Despite the _Pear jam 8 oz._ product being out of stock, the product can still be purchased. b. In the le pane of the control panel, click **Products > All products**. The _Plum jam 8 oz._ product, which is out of stock, has the same inventory and purchasability settings as _Plum jam 96 oz._ because for these products, the settings do not rely on the available quantity. 
+- In the **Purchasability** section, the **This product can be purchased in my online store** option button     is selected. Despite the _Plum jam 8 oz._ product being out of stock, the product can still be purchased. b. In the le pane of the control panel, click **Products > All products**. The _Plum jam 8 oz._ product, which is out of stock, has the same inventory and purchasability settings as _Plum jam 96 oz._ because for these products, the settings do not rely on the available quantity. 
 
 10.On the **View products** page, to which you return, review the _CHERJAM96_ product. 
 
  In the Current Stock column, notice the — option, meaning that the product's quantity is not tracked. The system has specified the inventory and purchasability settings for the product based on the availability settings ( Set as Pre-Order if the item is available, and Set as Pre-Order if it is unavailable). The system does not consider the available quantity because of these availability settings, and Cherry jam 96 oz. can be preordered regardless of the available quantity. 
 
+11.Click the _Cherry jam 96 oz._ link in the **Name** column. 
 
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 134 
-
- 11.Click the Cherry jam 96 oz. link in the Name column. On the View products page, which opens for the Cherry jam 96 oz. product, notice the following settings, which have been assigned to the product based on the availability setting: 
+ On the View products page, which opens for the Cherry jam 96 oz. product, notice the following settings, which have been assigned to the product based on the availability setting: 
 
 - In the **Inventory** section, the **Track inventory** check box is cleared. 
 
 - In the **Purchasability** section, the **This product is coming soon but I want to take pre-orders** option     button is selected. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 135 
 
  You have now configured the synchronization of product availability data and exported the items' availability settings and available quantities to the BigCommerce store. 
 
@@ -5918,13 +5996,11 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 - _Stock Item_ and _Non-Stock Item_ : You specify the settings for the synchronization of stock and non-stock items     on the **Inventory** tab. For details, see _Product Synchronization: General Information_. 
 
-- _Sales Order_ : On the **Orders** tab, in the **Branch** box, you specify the branch the system will insert in imported     sales orders. In the **Order Type for Import** box, you specify the order type that will be assigned to and     provide the default settings for the imported sales orders. In the **Refund Amount Item** box, you specify     a non-stock item to represent refund amounts in imported sales orders. On the **Shipping** tab, you map 
+- _Sales Order_ : On the **Orders** tab, in the **Branch** box, you specify the branch the system will insert in imported     sales orders. In the **Order Type for Import** box, you specify the order type that will be assigned to and     provide the default settings for the imported sales orders. In the **Refund Amount Item** box, you specify     a non-stock item to represent refund amounts in imported sales orders. On the **Shipping** tab, you map     each shipping option (which is a combination of a shipping zone and shipping method) defined in the     BigCommerce store with the ship via code and, optionally, shipping zone and shipping terms defined in     Acumatica ERP. If shipments created and processed in Acumatica ERP for the imported order should be synchronized with the BigCommerce store, you need to activate the _Shipment_ entity. 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 135 
-
- each shipping option (which is a combination of a shipping zone and shipping method) defined in the BigCommerce store with the ship via code and, optionally, shipping zone and shipping terms defined in Acumatica ERP. If shipments created and processed in Acumatica ERP for the imported order should be synchronized with the BigCommerce store, you need to activate the Shipment entity. 
+ Integration with BigCommerce | 136 
 
 #### Import of Orders Without Customers 
 
@@ -5952,13 +6028,11 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 #### Mapping of Shipping Options 
 
- You define the mapping of each shipping option (which is a combination of a shipping zone and shipping method) defined in BigCommerce to the ship via code, and optionally, shipping zone and shipping terms defined in Acumatica ERP the table on the Shipping tab of the BigCommerce Stores (BC201000) form. The Store Shipping 
+ You define the mapping of each shipping option (which is a combination of a shipping zone and shipping method) defined in BigCommerce to the ship via code, and optionally, shipping zone and shipping terms defined in Acumatica ERP the table on the Shipping tab of the BigCommerce Stores (BC201000) form. The Store Shipping Zone and Store Shipping Method columns of the table are populated with the settings from BigCommerce automatically for shipping options defined in the BigCommerce store. 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 136 
-
- Zone and Store Shipping Method columns of the table are populated with the settings from BigCommerce automatically for shipping options defined in the BigCommerce store. 
+ Integration with BigCommerce | 137 
 
 #### Synchronization of Sales Orders and Payments 
 
@@ -5980,7 +6054,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 137 
+ Integration with BigCommerce | 138 
 
 #### Use of the Guest Customer Account 
 
@@ -5988,7 +6062,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 138 
+ Integration with BigCommerce | 139 
 
  Customer Settings tab of the BigCommerce Stores (BC201000) form. This customer account appears on imported sales orders that have been placed in the BigCommerce store without customer details. 
 
@@ -6022,7 +6096,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 139 
+ Integration with BigCommerce | 140 
 
 #### Synchronization of Payments 
 
@@ -6060,7 +6134,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 140 
+ Integration with BigCommerce | 141 
 
 - **Process Refunds** : A check box that indicates (if selected) that refunds made to the payment method should     be imported to Acumatica ERP. This check box is selected and unavailable for card payment methods for     which a processing center is specified, which indicates that all refunds made to such payment methods     must be imported to Acumatica ERP. 
 
@@ -6100,7 +6174,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 141 
+ Integration with BigCommerce | 142 
 
 - **Processing Status** : The processing status of the credit card transaction. Depending on the last successful     operation with the transaction, the processing status can be one of the following: 
 
@@ -6126,7 +6200,7 @@ The following diagram illustrates the workflow of importing a sales order to Acu
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 142 
+ Integration with BigCommerce | 143 
 
 #### Deferred Processing of Imported Credit Card Payments 
 
@@ -6140,7 +6214,7 @@ The following diagram illustrates the workflow of importing a sales order to Acu
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 143 
+ Integration with BigCommerce | 144 
 
  External credit card transactions that require validation are displayed on the Deferred Processing Required tab of the Validate Card Payments (AR513000) form and have the Load Payment Profile check box selected. 
 
@@ -6182,7 +6256,7 @@ The following diagram illustrates the workflow of importing a sales order to Acu
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 144 
+ Integration with BigCommerce | 145 
 
 - On the _Payment Methods_ (CA204000) form, the _ONLINE_ payment method has been set up to be used with the     _10250ST_ cash account. 
 
@@ -6232,19 +6306,19 @@ The following diagram illustrates the workflow of importing a sales order to Acu
 
 2. On the **Settings** page, in the **Setup** section, click **Payments**. 
 
-3. On the **Payment Methods** page, which opens, in the **Show payment methods for** box, make sure _USD (US_     _Dollar)_ is selected. 
+3. On the **Payment Methods** page, which opens, on the **Payment Configuration** tab, in the **Show payment**     **methods for** box, make sure _USD (US Dollar)_ is selected. 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 145 
+ Integration with BigCommerce | 146 
 
  The system displays the Checkout Payment Settings tab and a tab for each payment method activated for the selected currency. 
 
-4. On the **Checkout Payment Settings** tab, under **Additional providers** , expand the **Online Payment**     **Methods** group. 
+4. Under **Additional providers** , expand the **Online Payment Methods** group. 
 
 5. In the row of _Authorize.Net_ , click **Set up**. 
 
-6. On the **Authorize.Net Settings** tab, which appears, specify the following settings: 
+6. On the **Authorize.Net** tab, which appears, specify the following settings: 
 
 - **API Login ID** : The API Login ID of your Authorize.Net sandbox account 
 
@@ -6294,11 +6368,11 @@ The following diagram illustrates the workflow of importing a sales order to Acu
 
 - **Last Name** : Keys 
 
+- **Address** : 3402 Angus Road 
+
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 146 
-
-- **Address** : 3402 Angus Road 
+ Integration with BigCommerce | 147 
 
 - **City** : New York 
 
@@ -6314,7 +6388,7 @@ The following diagram illustrates the workflow of importing a sales order to Acu
 
 - **Credit Card Number** : 4111 1111 1111 1111 
 
-- **Expiration** : 12/25 
+- **Expiration** : 12/27 
 
 - **Name on Card** : Melody Keys 
 
@@ -6352,35 +6426,37 @@ The following diagram illustrates the workflow of importing a sales order to Acu
 
  To review the settings of the imported sales order, do the following: 
 
+1. On the _Sync History_ (BC301000) form, specify the following settings in the Summary area: 
+
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 147 
-
-1. On the _Sync History_ (BC301000) form, specify the following settings in the Summary area: 
+ Integration with BigCommerce | 148 
 
 - **Store** : _SweetStore - BC_ 
 
 - **Entity** : _Sales Order_ 
 
-2. On the **Processed** tab, in the row of the sales order that you have just imported (which you can locate by its     external ID), click the link in the **ERP ID** column. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
 
-3. On the _Sales Orders_ (SO301000) form, which opens for the imported order in a pop-up window, review the     settings of the order.     In the Summary area, notice that the **External Reference** and **Description** boxes include the order number     from BigCommerce. In the **Customer** box, the system has inserted the ID of the generic guest customer that     you have selected on the _BigCommerce Stores_ (BC201000) form. 
+3. In the table, in the row of the sales order that you have just imported (which you can locate by its external     ID), click the link in the **ERP ID** column. 
 
-4. On the **Payments** tab, review the details of the created payment document.     Notice that the payment document has the _Prepayment_ type. It includes the external credit card transaction     associated with the purchase. The number of the transaction is displayed in the **Payment Ref.** column. 
+4. On the _Sales Orders_ (SO301000) form, which opens for the imported order in a pop-up window, review the     settings of the order.     In the Summary area, notice that the **External Reference** and **Description** boxes include the order number     from BigCommerce. In the **Customer** box, the system has inserted the ID of the generic guest customer that     you have selected on the _BigCommerce Stores_ (BC201000) form. 
+
+5. On the **Payments** tab, review the details of the created payment document.     Notice that the payment document has the _Prepayment_ type. It includes the external credit card transaction     associated with the purchase. The number of the transaction is displayed in the **Payment Ref.** column. 
 
  Figure: The prepayment applied to the order 
 
-5. Click the link in the **Reference Nbr.** column to open the payment. 
+6. Click the link in the **Reference Nbr.** column to open the payment. 
 
-6. On the _Payments and Applications_ (AR302000) form, which opens in a pop-up window, review the payment     details.     Notice that in the **Payment Ref.** box of the Summary area, the payment identifier assigned to the payment     in the BigCommerce store is displayed. The **Description** box contains the store payment method, the order     number, and the payment ID.     The prepayment has the _Balanced_ status because the **Release Payments and Refunds** check box was     cleared for the _AUTHORIZENET (CREDIT_CARD)_ payment method in the mapping table on the **Payments** tab     of the _BigCommerce Stores_ (BC201000) form. 
+7. On the _Payments and Applications_ (AR302000) form, which opens in a pop-up window, review the payment     details.     Notice that in the **Payment Ref.** box of the Summary area, the payment identifier assigned to the payment     in the BigCommerce store is displayed. The **Description** box contains the store payment method, the order     number, and the payment ID.     The prepayment has the _Balanced_ status because the **Release Payments and Refunds** check box was     cleared for the _AUTHORIZENET (CREDIT_CARD)_ payment method in the mapping table on the **Payments** tab     of the _BigCommerce Stores_ (BC201000) form. 
 
-7. Close the pup-up windows with the _Payments and Applications_ and _Sales Orders_ forms. 
+8. Close the pup-up windows with the _Payments and Applications_ and _Sales Orders_ forms. 
 
 Next you would proceed to create and confirm the related shipment, prepare the related invoice, release the payment, and synchronize the shipment back to the BigCommerce store. For the purposes of this activity, you do not have to perform any of these operations. 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 148 
+ Integration with BigCommerce | 149 
 
 ### Order Synchronization: Orders with Gi Wrapping 
 
@@ -6418,7 +6494,7 @@ Next you would proceed to create and confirm the related shipment, prepare the r
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 149 
+ Integration with BigCommerce | 150 
 
 ### Importing Orders with Taxes 
 
@@ -6454,7 +6530,7 @@ Next you would proceed to create and confirm the related shipment, prepare the r
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 150 
+ Integration with BigCommerce | 151 
 
 - **Default Tax Zone** : The tax zone that the system will assign to the order if no tax zone has been identified     during the order import. 
 
@@ -6474,7 +6550,7 @@ This process is illustrated in the following diagram.
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 151 
+ Integration with BigCommerce | 152 
 
  Figure: Determining the tax zone for tax calculation 
 
@@ -6486,7 +6562,7 @@ This process is illustrated in the following diagram.
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 152 
+ Integration with BigCommerce | 153 
 
 - If there is a hyphen in the tax ID, the tax ID is processed as follows: 
 
@@ -6530,11 +6606,11 @@ This process is illustrated in the following diagram.
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 153 
+ Integration with BigCommerce | 154 
 
  the taxes in the imported order do not yet exist in Acumatica ERP, the system creates them on the Taxes (TX205000) form. 
 
-3. In the **Substitution Lists** section, specify the substitution list that contains the mapping of tax categories in     Acumatica ERP with tax classes in the BigCommerce store in the **Tax Category List** box.     For information about the use of substitution lists for the synchronization of taxes, see _Import of Taxes:_     _Substitution Lists_. 
+3. In the **Substitution Lists** section, specify the substitution list that contains the mapping of tax categories in     Acumatica ERP with tax classes in the BigCommerce store in the **Tax Categories** box.     For information about the use of substitution lists for the synchronization of taxes, see _Import of Taxes:_     _Substitution Lists_. 
 
 ### Import of Taxes: Substitution Lists 
 
@@ -6546,7 +6622,7 @@ This process is illustrated in the following diagram.
 
 - On the _Substitution Lists_ (SM206026) form, you specify tax IDs from the external system in the **Original Value**     column. For each external tax ID, you add a corresponding tax ID from Acumatica ERP in the **Substitution**     **Value** column. 
 
-- On the _BigCommerce Stores_ (BC201000) form ( **Orders** tab), you specify the substitution list in the **Tax List**     box. When an order containing taxes is being imported to Acumatica ERP, for each tax that has been added to the order in the store, the system searches for a matching tax in Acumatica ERP as follows: 
+- On the _BigCommerce Stores_ (BC201000) form ( **Orders** tab), you specify the substitution list in the **Taxes** box. When an order containing taxes is being imported to Acumatica ERP, for each tax that has been added to the order in the store, the system searches for a matching tax in Acumatica ERP as follows: 
 
 1. Searches for the tax on the _Taxes_ form. 
 
@@ -6560,15 +6636,15 @@ This process is illustrated in the following diagram.
 
 1. On the _Substitution Lists_ (SM206026) form, you create a substitution list. In the **Original Value** column, you     add Acumatica ERP tax categories, and in the **Substitution Value** column, you add a tax class from the     BigCommerce store for each of the tax categories. 
 
-2. On the _BigCommerce Stores_ (BC201000) form ( **Orders** tab), you select the substitution list in the **Tax**     **Category List** box. 
+2. On the _BigCommerce Stores_ (BC201000) form ( **Orders** tab), you select the substitution list in the **Tax**     **Categories** box. 
 
  When a stock or non-stock item is synchronized with the BigCommerce store, a tax class is assigned to the item in the BigCommerce store based on the tax category assigned to the item on the Non-Stock Items (IN202000) or Stock Items (IN202500) form, and the substitution value specified for the tax category in the substitution list on the Substitution Lists form. 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 154 
+ Integration with BigCommerce | 155 
 
- The substitution list specified in the Tax Category List box is used only for the export of items. The tax category that is shown for an item in an imported order is copied from the item's settings on the Non-Stock Items or Stock Items form and is not imported from the BigCommerce store. To avoid discrepancies between the tax amount calculated in the BigCommerce store when an order is placed and the tax amount calculated in Acumatica ERP when an invoice is generated for the imported order, make sure that the item's tax category is in sync between the two systems before the order is created. 
+ The substitution list specified in the Tax Categories box is used only for the export of items. The tax category that is shown for an item in an imported order is copied from the item's settings on the Non-Stock Items or Stock Items form and is not imported from the BigCommerce store. To avoid discrepancies between the tax amount calculated in the BigCommerce store when an order is placed and the tax amount calculated in Acumatica ERP when an invoice is generated for the imported order, make sure that the item's tax category is in sync between the two systems before the order is created. 
 
 ### Import of Taxes: Process Activity 
 
@@ -6608,7 +6684,7 @@ This process is illustrated in the following diagram.
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 155 
+ Integration with BigCommerce | 156 
 
 7. On the _Prepare Data_ (BC501000) form, prepare the stock item data for synchronization; on the _Process Data_     (BC501500) form, process the prepared data. 
 
@@ -6666,7 +6742,7 @@ This process is illustrated in the following diagram.
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 156 
+ Integration with BigCommerce | 157 
 
 - **% for products marked as "Non-Taxable"** : 0 
 
@@ -6686,7 +6762,7 @@ This process is illustrated in the following diagram.
 
 3. On the **Applicable Taxes** tab, in the row of _NYSTATETAX_ , click the link in the **Tax ID** column.     The system opens the _Taxes_ (TX205000) form in a pop-up window. Review the settings of the _NYSTATETAX_ tax     and notice the following: 
 
-- On the **Tax Schedule** tab, the current tax rate (effective starting _1/1/2025_ ) is _8.875_. 
+- On the **Tax Schedule** tab, the current tax rate (effective starting _1/1/2026_ ) is _8.875_. 
 
 - On the **Categories** tab, the _TAXABLE_ category has been added for this tax. 
 
@@ -6716,7 +6792,7 @@ This process is illustrated in the following diagram.
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 157 
+ Integration with BigCommerce | 158 
 
 1. On the _Substitution Lists_ (SM206026) form, select the _BCCTAXCLASSES_ substitution list.     Notice that the table contains the only row with **Original Value** set to _TAXABLE_ and **Substitution Value** set     to _Default Tax Class_. 
 
@@ -6768,7 +6844,7 @@ This process is illustrated in the following diagram.
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 158 
+ Integration with BigCommerce | 159 
 
  To avoid discrepancies between the tax amount calculated in the BigCommerce store when an order is placed and the tax amount calculated in Acumatica ERP when an invoice is generated for an imported order, make sure that product data (which includes the information about the product's tax category) is in sync between the two systems before the order is created. 
 
@@ -6800,7 +6876,7 @@ This process is illustrated in the following diagram.
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 159 
+ Integration with BigCommerce | 160 
 
  b. In the Payment section, select the Manual payment payment method. c. In the lower right, click Save & process payment. 
 
@@ -6838,19 +6914,21 @@ This process is illustrated in the following diagram.
 
 - **Entity** : _Sales Order_ 
 
-2. On the **Processed** tab, in the row of the sales order that you have just imported (which you can locate by its     external ID), click the link in the **ERP ID** column. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
 
-3. On the _Sales Orders_ (SO301000) form, which opens in a pop-up window, review the order that have been     imported.     In the Summary area, notice that the **Tax Total** amount matches the tax amount of the order in the     BigCommerce store ($20.04), as shown in the following screenshot. On the **Taxes** tab, which lists all taxes     applied to individual order lines, notice that the _NYSTATETAX_ is displayed. 
+3. In the table, in the row of the sales order that you have just imported (which you can locate by its external     ID), click the link in the **ERP ID** column. 
+
+4. On the _Sales Orders_ (SO301000) form, which opens in a pop-up window, review the order that have been     imported.     In the Summary area, notice that the **Tax Total** amount matches the tax amount of the order in the     BigCommerce store ($20.04), as shown in the following screenshot. On the **Taxes** tab, which lists all taxes     applied to individual order lines, notice that the _NYSTATETAX_ is displayed. 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 160 
+ Integration with BigCommerce | 161 
 
  Figure: Sales order with calculated taxes 
 
  On the Details tab, notice that for the only line with the KIWIJAM96 item, Tax Category is set to TAXABLE. The tax category that appears in the sales order is copied from the Tax Category box of the General tab of the Stock Items (IN202500) form and is not imported from the tax class assigned to the item in the BigCommerce store. 
 
-4. Close the pop-up window with the _Sales Orders_ form. 
+5. Close the pop-up window with the _Sales Orders_ form. 
 
 ### Importing Orders with Discounts 
 
@@ -6868,15 +6946,13 @@ This process is illustrated in the following diagram.
 
  You specify the level at which discounts should be displayed in imported orders if the Customer Discounts feature is enabled on the Enable/Disable Features (CS100000) form. 
 
-#### Displaying of Discounts in Imported Orders 
-
- If the Customer Discounts feature is enabled on the Enable/Disable Features (CS100000) form, when you configure the order synchronization settings, you have the option to select the level at which discounts that have been 
-
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 161 
+ Integration with BigCommerce | 162 
 
- applied to an online sales order will be displayed in the order aer it is imported to Acumatica ERP from the BigCommerce store. On the Orders tab of the BigCommerce Stores (BC201000) form, you can select in the Show Discounts As box one of the following options: 
+#### Displaying of Discounts in Imported Orders 
+
+ If the Customer Discounts feature is enabled on the Enable/Disable Features (CS100000) form, when you configure the order synchronization settings, you have the option to select the level at which discounts that have been applied to an online sales order will be displayed in the order aer it is imported to Acumatica ERP from the BigCommerce store. On the Orders tab of the BigCommerce Stores (BC201000) form, you can select in the Show Discounts As box one of the following options: 
 
 - _Line Discounts_ : Discounts applied to the order are distributed between the sales order lines and appear in     the **Discount Amount** column on the **Details** tab of the _Sales Orders_ (SO301000) form. 
 
@@ -6916,15 +6992,15 @@ This process is illustrated in the following diagram.
 
 5. On the _Sales Orders_ (SO301000) form, review the imported sales order and applied discounts. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 163 
+
 #### System Preparation 
 
  Before you complete the instructions in this activity, do the following: 
 
 1. Make sure that the following prerequisite activities have been performed: 
-
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 162 
 
 - _Initial Configuration: To Establish and Configure the Store Connection_ 
 
@@ -6974,6 +7050,10 @@ This process is illustrated in the following diagram.
 
 - **If the customer** : _Buys Products_ 
 
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 164 
+
 - **Reaching a** : _Quantity_ 1 products 
 
 - **Including products** : _Individual Products Banana jam 96 oz_ 
@@ -6983,10 +7063,6 @@ This process is illustrated in the following diagram.
 - **Include** : 1 _Banana jam 96 oz_ in the customer's cart for free. 
 
 8. In the lower right, click **Add rule to promotion** to save the rule and return to the **Create Promotion** page. 
-
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 163 
 
 9. In the lower right, click **Create promotion**. 
 
@@ -7044,15 +7120,15 @@ This process is illustrated in the following diagram.
 
 - **Then reward** : _Discount on order sub-total Once_ per cart 
 
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 165 
+
 - **Discounting by a** : _Percentage_ 5 from the order sub-total 
 
 7. In the lower right, click **Add rule to promotion** to save the rule and return to the **Create Promotion** page. 
 
 8. In the lower right, click **Create promotion**. 
-
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 164 
 
 #### Step 5: Creating a Sales Order 
 
@@ -7068,11 +7144,11 @@ This process is illustrated in the following diagram.
 
 5. On the **Add an order > Payment** page, do the following:     a. Review the information in the **Customer billing details** , **Fulfillment Details** , and **Summary** sections,        and make sure that the order grand total aer applying all discounts is _$119.50_ and the discount amount        is _$15.80_.     b. In the **Payment** section, select the _Manual payment_ payment method.     c. In the lower right, click **Save & process payment**. 
 
-6. On the **View orders** page, which opens, make a note of the reference number of the created order. 
-
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 165 
+ Integration with BigCommerce | 166 
+
+6. On the **View orders** page, which opens, make a note of the reference number of the created order. 
 
 #### Step 6: Importing the Sales Order 
 
@@ -7108,17 +7184,19 @@ This process is illustrated in the following diagram.
 
 - **Entity** : _Sales Order_ 
 
-2. On the **Processed** tab, in the row of the sales order that you have just imported (which you can locate by its     external ID), click the link in the **ERP ID** column. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
 
-3. On the _Sales Orders_ (SO301000) form, which opens, review the settings of the order.     On the **Details** tab, notice that for the free item, _Banana jam 96 oz_ , a separate line has been created with     the **Free Item** check box selected. In the **Discount Amount** and **Discount Percent** column, the system has     inserted zeros in all lines.     On the **Discounts** tab, notice that one line has been created for all discounts applied to the order in     the BigCommerce store (as shown in the following screenshot). The text in the **Type** column ( _External_     _Document_ ) reflects the fact that the discounts were not applied in Acumatica ERP but were instead imported     from an external system. The amount in the **Discount Amt.** column corresponds to the **Discount** value of     the order in the BigCommerce store ($15.80). 
+3. In the table, in the row of the sales order that you have just imported (which you can locate by its external     ID), click the link in the **ERP ID** column. 
+
+4. On the _Sales Orders_ (SO301000) form, which opens, review the settings of the order.     On the **Details** tab, notice that for the free item, _Banana jam 96 oz_ , a separate line has been created with the     _0_ extended price. In the **Discount Amount** and **Discount Percent** column, the system has inserted zeros in     all lines.     On the **Discounts** tab, notice that one line has been created for all discounts applied to the order in     the BigCommerce store (as shown in the following screenshot). The text in the **Type** column ( _External_     _Document_ ) reflects the fact that the discounts were not applied in Acumatica ERP but were instead imported     from an external system. The amount in the **Discount Amt.** column corresponds to the **Discount** value of     the order in the BigCommerce store ($15.80). 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 166 
+ Integration with BigCommerce | 167 
 
  Figure: The discounts imported from the store 
 
-4. Close the pop-up window with the _Sales Orders_ form. 
+5. Close the pop-up window with the _Sales Orders_ form. 
 
  You have created automatic discounts of different types in the BigCommerce store, explored how they are applied to an order in the store, and reviewed how they are displayed on the order aer it has been imported to Acumatica ERP. If you were to continue processing the order, you would also notice that the document-level discounts are posted to a separate expense account specified for the customer in the Discount Account box on the GL Accounts tab of the Customers (AR303000) form. 
 
@@ -7138,13 +7216,13 @@ This process is illustrated in the following diagram.
 
  When you provide delivery service to customers of your organization, you need to calculate the freight prices to charge customers. When a sales order is placed in the BigCommerce store, the freight price, which is calculated based on the shipping rules configured in the store, is added to the sales order. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 168 
+
 #### Learning Objectives 
 
  In this chapter, you will learn how to configure shipping rules to charge customers for freight and how freight fees are represented in sales orders imported from BigCommerce to Acumatica ERP for fulfillment. 
-
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 167 
 
 #### Freight Charges in Imported Orders 
 
@@ -7164,15 +7242,13 @@ This process is illustrated in the following diagram.
 
  The following activity is based on the U100 dataset. 
 
-#### Story 
-
- Suppose that you are an implementation consultant helping the SweetLife Fruits & Jams company to configure the integration with the BigCommerce store. As part of the implementation process, you want to explore how freight 
-
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 168 
+ Integration with BigCommerce | 169 
 
- charges added to an online order in the BigCommerce store are imported to Acumatica ERP. For testing purposes, you need to configure a shipping zone that will correspond to Manhattan, where SweetLife's head office and main warehouse are also located. For shipments to this area, you will charge a small handling fee of $5. You need to create at least one shipping method for the shipping zone. For simplicity, you will charge a $30 shipping fee per order. Before processing an order placed with the shipping method, you need to map it to the ship via code and shipping terms defined in Acumatica ERP. 
+#### Story 
+
+ Suppose that you are an implementation consultant helping the SweetLife Fruits & Jams company to configure the integration with the BigCommerce store. As part of the implementation process, you want to explore how freight charges added to an online order in the BigCommerce store are imported to Acumatica ERP. For testing purposes, you need to configure a shipping zone that will correspond to Manhattan, where SweetLife's head office and main warehouse are also located. For shipments to this area, you will charge a small handling fee of $5. You need to create at least one shipping method for the shipping zone. For simplicity, you will charge a $30 shipping fee per order. Before processing an order placed with the shipping method, you need to map it to the ship via code and shipping terms defined in Acumatica ERP. 
 
  To test the configuration, you need to create a BigCommerce order that requires shipment; you will then synchronize it with Acumatica ERP and review the details of the imported order. For training purposes, you will process a purchase of a cherry jam for the GoodFood One Restaurant customer. GoodFood is located in Manhattan and the shipping option corresponding to the created shipping rule will be available to this customer in the cart and at checkout. 
 
@@ -7212,15 +7288,15 @@ This process is illustrated in the following diagram.
 
  To configure a shipping rule in the BigCommerce store, do the following: 
 
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 170 
+
 1. In the le menu of the control panel, click **Store Setup > Shipping**. 
 
 2. On the **Shipping Manager** page, which opens, in the **Checkout Shipping Options** section, click **Add**     **shipping zone > Add a custom zone**. 
 
 3. On the **Zone** tab of the **Add custom zone** dialog box, which opens, specify the following settings: 
-
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 169 
 
 - **Name** : _New York, Manhattan_ 
 
@@ -7268,13 +7344,13 @@ This process is illustrated in the following diagram.
 
 1. In the le menu of the control panel of the BigCommerce store, click **Orders > Add**. 
 
-2. On the **Add an Order - Customer Info** page, complete the order as follows:     a. In the **Customer Information** section, set **Order for** to _Existing Customer_.     b. In the **Search** box, start typing the customer name, GOODFOOD, and select the _GoodFood One Restaurant_        customer from the list of search results.     c. In the **Transactional Currency** section, make sure that _US Dollar - USD_ is selected in the **Currency** box. 
+2. On the **Add an Order - Customer Info** page, complete the order as follows: 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 170 
+ Integration with BigCommerce | 171 
 
- d. In the Billing Information section, click Use this address right of the address boxes to use the existing customer address as a billing address. The billing address elements are filled with the settings from the previously saved customer's address. e. At the bottom of the page, click Next. 
+ a. In the Customer Information section, set Order for to Existing Customer. b. In the Search box, start typing the customer name, GOODFOOD, and select the GoodFood One Restaurant customer from the list of search results. c. In the Transactional Currency section, make sure that US Dollar USD is selected in the Currency box. d. In the Billing Information section, click Use this address right of the address boxes to use the existing customer address as a billing address. The billing address elements are filled with the settings from the previously saved customer's address. e. At the bottom of the page, click Next. 
 
 3. On the **Add an Order - Items** page, under **Add Products** , do the following:     a. In the **Search** box, start typing Cherry, and from the list of search results, select _Cherry jam 96 oz_.     b. In the only row for _Cherry jam 96 oz_ , in the **Qty** column, type 30.        Notice that in the **Item Price** column, the price of the product is $45.15, which is the default price of the        _CHERJAM96_ stock item that was imported from Acumatica ERP.     c. At the bottom of the page, click **Next**. 
 
@@ -7316,15 +7392,15 @@ This process is illustrated in the following diagram.
 
 7. On the _Process Data_ (BC501500) form, on the form toolbar, click **Process All** to process all out-of-sync     synchronization records. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 172 
+
 8. In the **Processing** dialog box, which opens, review the results of the processing, and click **Close** to close the     dialog box. 
 
 #### Step 5: Reviewing the Imported Sales Order 
 
  To review how the freight charges are displayed in the imported sales order, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 171 
 
 1. Open the Sales Orders (SO3010PL) form. 
 
@@ -7362,15 +7438,15 @@ This process is illustrated in the following diagram.
 
  To configure the import of refunds from a BigCommerce store to Acumatica ERP, you perform the following general steps: 
 
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 173 
+
 1. Define a return order type.     On the _Order Types_ (SO201000) form, you define an order type to be used for return orders created during     the import of refunds from the BigCommerce store to Acumatica ERP. A return order type should be created     with the following settings selected on the **Template** tab: 
 
 - **Automation Behavior** : _RMA Order_ 
 
 - **Default Operation** : _Receipt_ 
-
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 172 
 
 - **AR Document Type** : _Credit Memo_ 
 
@@ -7408,13 +7484,13 @@ This process is illustrated in the following diagram.
 
 - The payment for the original sales order to which the refund pertains has been imported and released. For information about the synchronization process, see _Data Synchronization: General Information_. For information about the import of various types of refunds, see _Importing Non-Card Refunds: Order-Level Refunds_ and _Importing Non-Card Refunds: Item-Level Refunds_. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 174 
+
 ### Importing Non-Card Refunds: Implementation Activity 
 
  The following activity will walk you through the configuration of refund import so that you can import to Acumatica ERP refunds and returns issued to a customer in the BigCommerce store for orders paid with non-card payment methods. 
-
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 173 
 
  The following activity is based on the U100 dataset. 
 
@@ -7460,6 +7536,10 @@ This process is illustrated in the following diagram.
 
 - **Password** : _123_ 
 
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 175 
+
 #### Step 1: Activating the Refund Entity 
 
  Before you start importing refunds from the BigCommerce store to Acumatica ERP, you need to activate the Refund entity as follows: 
@@ -7468,13 +7548,7 @@ This process is illustrated in the following diagram.
 
 2. In the **Store Name** box of the Summary area, select _SweetStore - BC_. 
 
-3. On the **Entities** tab, make sure that the **Active** check box has been selected for the _Refund_ entity. 
-
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 174 
-
- You select the Active check box for an entity to indicate that the entity's data needs to be synchronized between Acumatica ERP and the BigCommerce store. 
+3. On the **Entities** tab, make sure that the **Active** check box has been selected for the _Refund_ entity.     You select the **Active** check box for an entity to indicate that the entity's data needs to be synchronized     between Acumatica ERP and the BigCommerce store. 
 
 4. On the form toolbar, click **Save** to save your changes. 
 
@@ -7522,15 +7596,15 @@ This process is illustrated in the following diagram.
 
 3. On the form toolbar, click **Save** to save your changes. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 176 
+
  You have now configured the import of refunds from the BigCommerce store to Acumatica ERP for payments made by using a non-card payment method ( Manual Payment ). 
 
 ### Importing Non-Card Refunds: Implementation Checklist 
 
  The following sections provide details you can use to ensure that the system is configured for importing refunds for non-card payment methods from the BigCommerce store to Acumatica ERP, and to understand (and change, if needed) the settings that affect the processing workflow. 
-
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 175 
 
 #### Implementation Checklist 
 
@@ -7568,6 +7642,10 @@ This process is illustrated in the following diagram.
 
  To make sure that all configuration has been performed correctly, we recommend that in your system, you import refunds from your BigCommerce store by performing instructions similar to those described in Importing Non-Card Refunds: To Process a Refund for a Not-Yet-Shipped Order and Importing Non-Card Refunds: To Process a Refund for a Shipped Order. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 177 
+
 ### Importing Non-Card Refunds: Order-Level Refunds 
 
  An order-level refund may be issued, for example, if a customer has been overcharged or is not content with the quality of the product or service and needs to be partially reimbursed. 
@@ -7576,27 +7654,25 @@ This process is illustrated in the following diagram.
 
 - On the _Payments and Applications_ (AR302000) form, creates a payment of the _Refund_ type in the refunded     amount and applies it to the original payment. 
 
+- In the original sales order, on the **Details** tab of the _Sales Orders_ form, inserts a line for the non-stock     item that was specified in the **Refund Amount Item** box on the **Orders** tab of the _BigCommerce Stores_     (BC201000) form. In the **Unit Price** and **Ext. Price** columns, the system inserts the reversed refund amount     (that is, the amount with the minus sign). In the **Reason Code** column, the system inserts the reason code     that was specified on the **Orders** tab of the _BigCommerce Stores_ form. The following diagram illustrates the processing of an order-level refund for a non-card payment method when the refund is issued before the sales order has been shipped. 
+
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 176 
-
-- In the original sales order, on the **Details** tab of the _Sales Orders_ form, inserts a line for the non-stock     item that was specified in the **Refund Amount Item** box on the **Orders** tab of the _BigCommerce Stores_     (BC201000) form. In the **Unit Price** and **Ext. Price** columns, the system inserts the reversed refund amount     (that is, the amount with the minus sign). In the **Reason Code** column, the system inserts the reason code     that was specified on the **Orders** tab of the _BigCommerce Stores_ form. 
-
-The following diagram illustrates the processing of an order-level refund for a non-card payment method when the refund is issued before the sales order has been shipped. 
+ Integration with BigCommerce | 178 
 
 If the original sales order has the _Completed_ status on the _Sales Orders_ form, the following actions are performed: 
 
 - On the _Sales Orders_ form, the system creates a return order of the type selected in the **Return Order Type**     box on the **Orders** tab of the _BigCommerce Stores_ form. In the **External Reference** box of the Summary     area, the system inserts the identifier of the refund that is used in the BigCommerce store. 
 
-- In the return order, on the **Details** tab of the _Sales Orders_ form, the system inserts a line with the non-stock     item that was specified in the **Refund Amount Item** box on the **Orders** tab of the _BigCommerce Stores_     form. In the **Unit Price** and **Ext. Price** columns, the system inserts the refund amount. In the **Reason Code** 
+- In the return order, on the **Details** tab of the _Sales Orders_ form, the system inserts a line with the non-stock     item that was specified in the **Refund Amount Item** box on the **Orders** tab of the _BigCommerce Stores_     form. In the **Unit Price** and **Ext. Price** columns, the system inserts the refund amount. In the **Reason Code**     column, the system inserts the reason code that was specified on the **Orders** tab of the _BigCommerce Stores_     form. 
+
+- On the _Payments and Applications_ (AR302000) form, creates a payment of the _Refund_ type in the refunded     amount and links it to the return order. 
+
+The following diagram illustrates the processing of an order-level refund for a non-card payment method when this refund is issued aer the sales order has been shipped. 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 177 
-
- column, the system inserts the reason code that was specified on the Orders tab of the BigCommerce Stores form. 
-
-- On the _Payments and Applications_ (AR302000) form, creates a payment of the _Refund_ type in the refunded     amount and links it to the return order. The following diagram illustrates the processing of an order-level refund for a non-card payment method when this refund is issued aer the sales order has been shipped. 
+ Integration with BigCommerce | 179 
 
  If the original sales order has a status other than Open , On Hold , or Completed on the Sales Orders form, the system displays an error message saying that the refund cannot be applied. 
 
@@ -7612,7 +7688,7 @@ If the original sales order has the _Completed_ status on the _Sales Orders_ for
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 178 
+ Integration with BigCommerce | 180 
 
 If the original sales order has the _Completed_ status on the _Sales Orders_ form, the following actions occur: 
 
@@ -7626,7 +7702,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 179 
+ Integration with BigCommerce | 181 
 
  If the original sales order has a status other than Open , On Hold , or Completed on the Sales Orders form, the system displays an error message saying that the refund cannot be applied. 
 
@@ -7642,7 +7718,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 180 
+ Integration with BigCommerce | 182 
 
 #### Configuration Overview 
 
@@ -7704,7 +7780,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 181 
+ Integration with BigCommerce | 183 
 
  b. In the Search box, start typing the customer name, GOODFOOD; select the GoodFood One Restaurant customer in the list of search results. c. Near the top of the Billing Information section, click Use this address to use the existing customer address as the billing address. The elements of the billing address are populated with the settings from the previously saved address of this customer. d. In the bottom right, click Next. 
 
@@ -7752,7 +7828,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 182 
+ Integration with BigCommerce | 184 
 
 8. On the _Process Data_ (BC501500) form, which opens with the _SweetStore - BC_ store and the _Sales Order_     entity selected in the Summary area, select the unlabeled check box in the row with the sales order that you     created in the previous step (which you can identify by its order number in the **External ID** column). 
 
@@ -7796,7 +7872,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 183 
+ Integration with BigCommerce | 185 
 
 5. On the **Confirm refund** page, which opens, in the **Refund method** section, select the **Refund customer**     **through third party provider** option button. 
 
@@ -7852,7 +7928,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 184 
+ Integration with BigCommerce | 186 
 
 #### Step 8: Reviewing and Releasing the Refund 
 
@@ -7892,7 +7968,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 185 
+ Integration with BigCommerce | 187 
 
 - The _ER_ order type on the _Order Types_ (SO201000) form 
 
@@ -7940,7 +8016,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 186 
+ Integration with BigCommerce | 188 
 
  The elements of the billing address are populated with the settings from the previously saved address of this customer. d. In the bottom right, click Next. 
 
@@ -7992,7 +8068,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 187 
+ Integration with BigCommerce | 189 
 
 #### Step 3: Reviewing the Imported Order 
 
@@ -8038,7 +8114,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 188 
+ Integration with BigCommerce | 190 
 
 - The _RETAIL_ warehouse is specified for the item. 
 
@@ -8098,7 +8174,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 189 
+ Integration with BigCommerce | 191 
 
 #### Step 9: Issuing a Partial Refund of the Order Amount 
 
@@ -8152,7 +8228,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 190 
+ Integration with BigCommerce | 192 
 
  d. Click OK to apply the filter. Notice that two orders of the ER type have been created for the WESTBBQ customer. Because the original sales order had the Completed status, return orders were created. The return orders have the ER type because this type was selected in the Return Order Type box on the Orders tab of the BigCommerce Stores (BC201000) form in Importing Non-Card Refunds: Implementation Activity. 
 
@@ -8182,7 +8258,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 191 
+ Integration with BigCommerce | 193 
 
  the Payment Ref. box and in the Description box), and the available balance (which reflects an order-level refund of $10 issued in the BigCommerce store). On the Sales Orders tab, notice that the refund has been linked to the second return order. 
 
@@ -8230,7 +8306,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 192 
+ Integration with BigCommerce | 194 
 
  On the Non-Stock Items (IN202000) form, you define a non-stock item that will represent imported refund amounts in sales orders and in return orders. This non-stock item should be defined with the following settings on the General tab: 
 
@@ -8276,7 +8352,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 193 
+ Integration with BigCommerce | 195 
 
  Form Criteria to Check 
 
@@ -8316,7 +8392,7 @@ The following diagram illustrates the processing of an item return for non-card 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 194 
+ Integration with BigCommerce | 196 
 
 If the original sales order has the _Completed_ status on the _Sales Orders_ form, the following actions are performed: 
 
@@ -8328,7 +8404,7 @@ If the original sales order has the _Completed_ status on the _Sales Orders_ for
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 195 
+ Integration with BigCommerce | 197 
 
  The following diagram illustrates the processing of an order-level refund for a card-based payment method that is issued aer the sales order has been shipped. 
 
@@ -8350,7 +8426,7 @@ If the original sales order has the _Completed_ status on the _Sales Orders_ for
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 196 
+ Integration with BigCommerce | 198 
 
 If the original sales order has the _Completed_ status, the following actions occur: 
 
@@ -8360,7 +8436,7 @@ If the original sales order has the _Completed_ status, the following actions oc
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 197 
+ Integration with BigCommerce | 199 
 
 - In the return order, on the **Details** tab of the _Sales Orders_ form, the system inserts a line with the non-stock     item that was specified in the **Refund Amount Item** box on the **Orders** tab of the _BigCommerce Stores_     form. In the **Unit Price** and **Ext. Price** columns, the system inserts the refund amount. In the **Reason Code**     column, the system inserts the reason code that was specified on the **Orders** tab of the _BigCommerce Stores_     form. 
 
@@ -8378,7 +8454,7 @@ If the original sales order has the _Completed_ status, the following actions oc
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 198 
+ Integration with BigCommerce | 200 
 
 #### Learning Objectives 
 
@@ -8422,7 +8498,7 @@ If the original sales order has the _Completed_ status, the following actions oc
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 199 
+ Integration with BigCommerce | 201 
 
  As an implementation consultant, you need to set up a non-stock item that will be used to record a sale of a gi certificate as well as a payment method that will be used to track payments made with gi certificates. 
 
@@ -8480,7 +8556,7 @@ If the original sales order has the _Completed_ status, the following actions oc
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 200 
+ Integration with BigCommerce | 202 
 
 2. On the **Orders** tab ( **Order** section), in the **Gi Certificate Item** box, select _GIFTCERT_.     All purchases of gi certificates in the online store will be recorded in Acumatica ERP as purchases of this     item. 
 
@@ -8546,7 +8622,7 @@ If the original sales order has the _Completed_ status, the following actions oc
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 201 
+ Integration with BigCommerce | 203 
 
 6. On the checkout page, complete the process of creating the order as follows:     a. In the **Customer** section, in the **Email** box, specify dheady@example.com, and click **Continue**.     b. In the **Billing** section, fill in the shipping address boxes as follows: 
 
@@ -8566,13 +8642,13 @@ If the original sales order has the _Completed_ status, the following actions oc
 
 - **Credit Card Number** : 4242 4242 4242 4242 
 
-- **Expiration** : 12/25 
+- **Expiration** : 12/27 
 
 - **Name on Card** : Danny Heady e. Click **Place Order** to place your order. Your order has been created, and on the confirmation page, the order number is displayed. Note the number because you will process the order with this number further in this activity. 
 
 7. Return to the control panel of the BigCommerce store, and in the le pane, click **Orders > All orders**. 
 
-8. On the **View orders** page, which opens, click the plus button next to the order of _Danny Heady_ that you have     just created and which number you have noted to expand the order details.     The order has the _$25.00_ value in the **Total** column and the **Status** of the order is set to _Completed_. An email     with the gi certificate code has been sent to the gi certificate recipient's email address ( **Recipient’s**     **Email** ) that you specified in the order with the certificate. 
+8. On the **View orders** page, which opens, click the plus button next to the order of _Danny Heady_ that you have     just created and which number you have noted to expand the order details.     The order has the _$25.00_ value in the **Total** column and the **Status** of the order is set to _Completed_. An email     with the gi certificate code has been sent to the gi certificate recipient's email address ( **Recipient's**     **Email** ) that you specified in the order with the certificate. 
 
 #### Step 4: Importing the Order with the Gi Certificate 
 
@@ -8598,9 +8674,9 @@ If the original sales order has the _Completed_ status, the following actions oc
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 202 
+ Integration with BigCommerce | 204 
 
-#### Step 6: Reviewing the Imported Order 
+#### Step 5: Reviewing the Imported Order 
 
  To review the details of the imported sales order in Acumatica ERP, do the following: 
 
@@ -8610,13 +8686,15 @@ If the original sales order has the _Completed_ status, the following actions oc
 
 - **Entity** : _Sales Order_ 
 
-2. On the **Processed** tab, in the row of the sales order that you have just imported (which you can locate by its     external ID), click the link in the **ERP ID** column. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
 
-3. On the _Sales Orders_ (SO301000) form, which opens with the imported order in a pop-up window, review the     order details.     On the **Details** tab, notice one line that corresponds to the _GIFTCERT_ non-stock item, which you specified     as the **Gi Certificate Item** box on the **Orders** tab of the _BigCommerce Stores_ (BC201000) form. The **Order**     **Total** in the Summary area is _25.00_. 
+3. In the table, in the row of the sales order that you have just imported (which you can locate by its external     ID), click the link in the **ERP ID** column. 
 
-4. Close the pup-up window with the _Sales Orders_ form. 
+4. On the _Sales Orders_ (SO301000) form, which opens with the imported order in a pop-up window, review the     order details.     On the **Details** tab, notice one line that corresponds to the _GIFTCERT_ non-stock item, which you specified     as the **Gi Certificate Item** box on the **Orders** tab of the _BigCommerce Stores_ (BC201000) form. The **Order**     **Total** in the Summary area is _25.00_. 
 
-#### Step 5: Paying for the Order with a Gi Certificate 
+5. Close the pup-up window with the _Sales Orders_ form. 
+
+#### Step 6: Paying for the Order with a Gi Certificate 
 
  To create an order and pay for part of it with the gi certificate, in the control panel of the BigCommerce store, do the following: 
 
@@ -8652,21 +8730,19 @@ If the original sales order has the _Completed_ status, the following actions oc
 
 - **Postal Code** : 10003 
 
-- **My billing address is the same as my shipping address** : Selected (default state) 
-
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 203 
+ Integration with BigCommerce | 205 
 
- c. In the Shipping Method section, make sure that the Free Shipping option is selected, and click Continue. 11.In the Payment Method section, select the Authorize.Net option button, and specify the following card settings: 
+- **My billing address is the same as my shipping address** : Selected (default state) c. In the **Shipping Method** section, make sure that the _Free Shipping_ option is selected, and click **Continue**. 11.In the **Payment Method** section, select the **Authorize.Net** option button, and specify the following card settings: 
 
 - **Credit Card Number** : 4111 1111 1111 1111 
 
-- **Expiration** : 12/25 
+- **Expiration** : 12/27 
 
 - **Name on Card** : _Melody Keys_ 12.Click **Place Order** to place your order. On the confirmation page, notice that the reference number of the created order. 
 
-#### Step 6: Importing the Sales Order Paid with the Gi Certificate 
+#### Step 7: Importing the Sales Order Paid with the Gi Certificate 
 
  To import the sales order, in Acumatica ERP, do the following: 
 
@@ -8688,7 +8764,7 @@ If the original sales order has the _Completed_ status, the following actions oc
 
 7. In the **Processing** dialog box, which opens, click **Close** to close the dialog box. 
 
-#### Step 7: Reviewing the Imported Sales Order 
+#### Step 8: Reviewing the Imported Sales Order 
 
  To review the settings of the imported sales order, do the following: 
 
@@ -8698,21 +8774,23 @@ If the original sales order has the _Completed_ status, the following actions oc
 
 - **Entity** : _Sales Order_ 
 
-2. On the **Processed** tab, in the row of the sales order that you have just imported (which you can locate by its     external ID), click the link in the **ERP ID** column. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
 
-3. On the _Sales Orders_ (SO301000) form, which opens in a pop-up window, review the settings of the order (as     shown in the screenshot below).     On the **Payments** tab, notice that two prepayments have been applied to the order: a credit card payment     (mapped to the _ONLINE_ payment method) and a gi card payment (mapped to the _GIFTCARDS_ payment     method). 
+3. In the table, in the row of the sales order that you have just imported (which you can locate by its external     ID), click the link in the **ERP ID** column. 
+
+4. On the _Sales Orders_ (SO301000) form, which opens in a pop-up window, review the settings of the order (as     shown in the screenshot below).     On the **Payments** tab, notice that two prepayments have been applied to the order: a credit card payment     (mapped to the _ONLINE_ payment method) and a gi card payment (mapped to the _GIFTCARDS_ payment     method). 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 204 
+ Integration with BigCommerce | 206 
 
  Figure: The prepayment and the gi certificate applied to the order 
 
-4. In the row of the gi card payment, which has an applied amount of $25, click the link in the **Reference Nbr.**     column. 
+5. In the row of the gi card payment, which has an applied amount of $25, click the link in the **Reference Nbr.**     column. 
 
-5. On the _Payments and Applications_ (AR302000) form, which opens in a pop-up window, review the payment     details.     Notice that in the **Payment Ref.** box of the Summary area, the payment identifier assigned to the payment     in the BigCommerce store is displayed. The **Description** box contains the store payment method, the code     of the gi certificate that was applied to the order, the order number, and the payment ID.     The prepayment has the _Balanced_ status because the **Release Payments and Refunds** check box was     cleared for the _GIFTCARDS_ payment method in the mapping table on the **Payments** tab of the _BigCommerce_     _Stores_ (BC201000) form. 
+6. On the _Payments and Applications_ (AR302000) form, which opens in a pop-up window, review the payment     details.     Notice that in the **Payment Ref.** box of the Summary area, the payment identifier assigned to the payment     in the BigCommerce store is displayed. The **Description** box contains the store payment method, the code     of the gi certificate that was applied to the order, the order number, and the payment ID.     The prepayment has the _Balanced_ status because the **Release Payments and Refunds** check box was     cleared for the _GIFTCARDS_ payment method in the mapping table on the **Payments** tab of the _BigCommerce_     _Stores_ (BC201000) form. 
 
-6. Close the pup-up windows with the _Payments and Applications_ and _Sales Orders_ form. 
+7. Close the pup-up windows with the _Payments and Applications_ and _Sales Orders_ form. 
 
 ### Importing Products with Variants 
 
@@ -8724,11 +8802,13 @@ If the original sales order has the _Completed_ status, the following actions oc
 
  Variants are versions of the product with different traits or attributes—which are also referred to in BigCommerce as options —such as color, scent, size, and material. 
 
- During the import of products with variants, the corresponding template items and matrix items are created in Acumatica ERP. A matrix item is a stock or non-stock item that corresponds to a product with a particular set of attributes. A template item is a high-level item that contains the default settings of a particular group of matrix items, such as the attributes in the matrix rows and columns. 
+ During the import of products with variants, the corresponding template items and matrix items are created in Acumatica ERP. A matrix item is a stock or non-stock item that corresponds to a product with a particular set of 
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 205 
+ Integration with BigCommerce | 207 
+
+ attributes. A template item is a high-level item that contains the default settings of a particular group of matrix items, such as the attributes in the matrix rows and columns. 
 
 #### Learning Objectives 
 
@@ -8750,7 +8830,7 @@ If the original sales order has the _Completed_ status, the following actions oc
 
 2. On the _Attributes_ (CS205000) form, you perform the following steps:     a. You make sure that Acumatica ERP has an attribute that corresponds to each of the product variants on        the product management page in the external system. To optimize auto-matching during the import,        specify an attribute description that matches the variant name on the product management page in the        external system.     b. You make sure that each attribute has the set of values that the variant in the external system has. In        the table, specify a description for each attribute value that matches the variant value on the product        management page in the external system. 
 
-3. On the _Item Classes_ (IN201000) form, you make sure that at least one item class has been defined for the     import of template and matrix items. In the right pane of the form, in the topmost table on the **Attributes**     tab, each item class must have the same number of attributes as the number of variant options of the     product. The attributes must have the following settings in the table: 
+3. On the _Item Classes_ (IN201000) form, you make sure that at least one item class has been defined for the     import of template and matrix items. In the right pane of the form, in the topmost table on the **Attributes**     tab, each item class must have the set of attributes with the following settings: 
 
 - **Active** : Selected 
 
@@ -8760,13 +8840,11 @@ If the original sales order has the _Completed_ status, the following actions oc
 
  The system imports products with variants from the BigCommerce store to Acumatica ERP while synchronizing the Template Item entity if the products have variants in the Variations section of the product management page in the BigCommerce store. To import products with variants, you perform the following general steps: 
 
-1. On the _Prepare Data_ (BC501000) form, you prepare the data of the _Template Item_ entity for import. 
-
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 206 
+ Integration with BigCommerce | 208 
 
- As a result, for the first import, the system creates mapping records for the product on the Attribute Mapping for Template Item Import (BC203000) form. The mapping has the product identifier, its description, and variants with values. 
+1. On the _Prepare Data_ (BC501000) form, you prepare the data of the _Template Item_ entity for import.     As a result, for the first import, the system creates mapping records for the product on the _Attribute Mapping_     _for Template Item Import_ (BC203000) form. The mapping has the product identifier, its description, and     variants with values. 
 
 2. On the _Attribute Mapping for Template Item Import_ form, for the mapping records prepared for the product,     you assign an item class and attributes with values as follows:     a. In the **ERP Item Class** column of each row, you specify an item class that has been defined on the _Item_        _Classes_ (IN201000) form and will be assigned to the imported items. The system uses the selected item        class to insert the settings of the template and matrix items during the creation. You select the item class        in one of the following ways: 
 
@@ -8780,19 +8858,21 @@ If the original sales order has the _Completed_ status, the following actions oc
 
 3. On the _Process Data_ (BC501500) form, you process the synchronization records prepared for the _Template_     _Item_ entity. 
 
- As a result, for each imported product with variants, the system creates a template item on the Template Items (IN203000) form. It also creates a matrix item for each combination of the variant and its value on the Stock Items (IN202500) or Non-Stock Items (IN202000) form, depending on whether the product is physical or not. That is, depending on the option selected in the Product Type box for the product on the product management page ( Basic Information section) of the BigCommerce store, the system imports the product variants as follows: 
+As a result, for each imported product with variants, the system creates a template item on the _Template Items_ (IN203000) form. It also creates a matrix item for each combination of the variant and its value on the _Stock Items_ (IN202500) or _Non-Stock Items_ (IN202000) form, depending on whether the product is physical or not. That is, depending on the option selected in the **Product Type** box for the product on the product management page ( **Basic Information** section) of the BigCommerce store, the system imports the product variants as follows: 
 
 - As stock items on the _Stock Items_ (IN202500) form if the _Physical_ option is selected 
 
-- As non-stock items on the _Non-Stock Items_ (IN202000) form if the _Digital_ option is selected During the import, some settings of the created template and matrix items are imported from the external system,while others are copied from the item class specified on the _Attribute Mapping for Template Item Import_ form. For more details on how the system inserts the settings of imported items, see _Import of Products with Variants: Settings of Imported Items_. 
+- As non-stock items on the _Non-Stock Items_ (IN202000) form if the _Digital_ option is selected 
+
+During the import, some settings of the created template and matrix items are imported from the external system,while others are copied from the item class specified on the _Attribute Mapping for Template Item Import_ form. Unused attributes of the item class appear as inactive for the imported template item on the **Attributes** tab of _Template Items_ form. For more details on how the system inserts the settings of imported items, see _Import of Products with Variants: Settings of Imported Items_. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 209 
 
 #### Product Synchronization 
 
  If a product with variants has been already imported to Acumatica ERP and any product settings have been changed in the external system, during the next import, the system updates the corresponding template and matrix items in Acumatica ERP. 
-
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 207 
 
  If a new variant value is added to an already-imported product, during the next import, the system uses the item class assigned to the corresponding template item to map the new variant value with one of the values of the corresponding attribute. If the mapping is successful, the system creates the matrix items. Otherwise, the import fails; in this case, you need to process the created mapping records on the Attribute Mapping for Template Item Import (BC203000) form manually and then repeat the synchronization. 
 
@@ -8822,27 +8902,47 @@ If the original sales order has the _Completed_ status, the following actions oc
 
 - Matrix items on the _Stock Items_ or _Non-Stock Items_ (IN202000) form, depending on whether the products     represent physical items 
 
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 210 
+
 #### Template Item Settings Imported from the External System 
 
  The following table shows the settings that are assigned to a template item on the Template Items (IN203000) form based on the corresponding settings of the source product from the product management page in the BigCommerce store. 
 
  Acumatica ERP Element BigCommerce Element Summary area 
 
-
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 208 
-
- Acumatica ERP Element BigCommerce Element Description Product name 
+ Description Product name 
 
  Price/Cost tab 
 
  Default Price Default Price 
 
- MSRP MSRP 
+##### MSRP MSRP 
 
  Description tab 
 
  Item description Description 
+
+ Attributes tab 
+
+ Each product option from the store that has been mapped to an attribute of the template item. Unused attributes of the item class appear in the table as inactive, with the Active check box cleared. 
+
+ Product options 
+
+ Configuration tab 
+
+ Default Column Attribute ID 
+
+ The template item is assigned the default column attribute of the corresponding item class. If the item class has no default column attribute specified, the connector uses the attribute mapped to the first product option. 
+
+ The first product option 
+
+ Default Row Attribute ID 
+
+ The template item is assigned the default row attribute of the corresponding item class. If the item class has no default row attribute specified, the connector uses the attribute mapped to the second product option. 
+
+ The second product option 
 
  eCommerce tab 
 
@@ -8856,7 +8956,11 @@ If the original sales order has the _Completed_ status, the following actions oc
 
  Visible on Storefront , Set as a Featured Product on my Storefront 
 
- Availability 
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 211 
+
+ Acumatica ERP Element BigCommerce Element Availability 
 
  The system inserts one of the following options, depending on the settings of the corresponding product: 
 
@@ -8880,27 +8984,27 @@ If the original sales order has the _Completed_ status, the following actions oc
 
  The following table shows the settings that are assigned to each matrix item created on the Stock Items (IN202500) or Non-Stock Items (IN202000) form when you import a product with variants. The system uses the settings of the template item that it has created for the product and the settings of the source product and product variants, which are specified on the product management page in the BigCommerce store. 
 
+ Acumatica ERP Element BigCommerce Element Summary area 
 
-<!-- PAGE_BREAK -->
- Integration with BigCommerce | 209 
+ Description 
 
-**Acumatica ERP Element BigCommerce Element** 
-
-Summary area 
-
-**Description** 
-
-The system composes the description of the matrix item as follows: _<SKU> (<Product name>)_. 
+ The system composes the description of the matrix item as follows: <SKU> (<Product name>). 
 
  SKU , Product name 
 
-**Price/Cost** tab 
+ Price/Cost tab 
 
-**Default Price Default Price** ( **Variants** section) 
+ Default Price Default Price ( Variants section) 
 
-**MSRP MSRP** ( **Variants** section) 
+ MSRP MSRP ( Variants section) 
 
-**Attributes** tab 
+ Attributes tab 
+
+
+<!-- PAGE_BREAK -->
+ Integration with BigCommerce | 212 
+
+**Acumatica ERP Element BigCommerce Element** 
 
 **Sales Categories** table. For each sales category of the product, the system adds a row to the table on the _Stock Items_ (IN202500) or _Non-Stock Items_ (IN202000) form and inserts the sales category defined on the _Item Sales Categories_ (IN204060) form that has a matching description. If there is no sales category on the _Item Sales Categories_ form with a matching description, the system creates a new one in addition to listing this category for the item. 
 
@@ -8932,7 +9036,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 210 
+ Integration with BigCommerce | 213 
 
  Acumatica ERP Element BigCommerce Element Availability. For a stock item, the system inserts one of the following options, depending on the settings of the corresponding product: 
 
@@ -8980,7 +9084,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 211 
+ Integration with BigCommerce | 214 
 
 ### Selling Matrix Items: General Information 
 
@@ -9022,7 +9126,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 212 
+ Integration with BigCommerce | 215 
 
 - The template item's status is _Active_ , _No Purchases_ , or _No Request_. 
 
@@ -9056,7 +9160,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 213 
+ Integration with BigCommerce | 216 
 
 #### Availability Settings of an Exported Matrix Item 
 
@@ -9104,7 +9208,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 214 
+ Integration with BigCommerce | 217 
 
  Inventory ID Description 
 
@@ -9162,7 +9266,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 215 
+ Integration with BigCommerce | 218 
 
  a. On the form toolbar, click Modify , and select the Matrix Items check box under Inventory and Order Management. b. On the form toolbar, click Enable. 
 
@@ -9212,7 +9316,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 216 
+ Integration with BigCommerce | 219 
 
 4. To create a filtering condition for template items, on the **Export Filtering** tab, click **Add Row** on the table     toolbar, and specify the following settings in the row: 
 
@@ -9268,7 +9372,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 217 
+ Integration with BigCommerce | 220 
 
 4. On the product management page of the _Juice_ product, review the exported settings.     In the **Product Options** section, notice that in the **Variant Options** section, the option names (which     correspond to the attributes that were configured and added for the template item in Acumatica ERP) and     their values are displayed.     In the **Variants** table, the variants of the _Juice_ product (which are the matrix items that were generated in     Acumatica ERP) are displayed. The **SKU** column of the table shows the identifiers of matrix items assigned     by Acumatica ERP. 
 
@@ -9304,7 +9408,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 218 
+ Integration with BigCommerce | 221 
 
  If you delete a link to an image or video from the Media URLs table, the image or video will also be deleted from the product page in the BigCommerce store during the next synchronization of the item. 
 
@@ -9334,7 +9438,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 219 
+ Integration with BigCommerce | 222 
 
 #### Configuration Overview 
 
@@ -9392,7 +9496,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 220 
+ Integration with BigCommerce | 223 
 
 1. Open the _Template Items_ (IN203000) form. 
 
@@ -9446,7 +9550,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 221 
+ Integration with BigCommerce | 224 
 
 #### Step 4: Reviewing the Synchronized Images 
 
@@ -9504,7 +9608,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 222 
+ Integration with BigCommerce | 225 
 
  On the product management page of the Juice product, which opens, notice that two more images have been added. The image you attached to the JUICE template item was added to the Images & Videos section, and the image you attached to the PCH-32OZ-GBT stock item was added to the Image column of the Variants table of the Variations section. 
 
@@ -9546,7 +9650,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 223 
+ Integration with BigCommerce | 226 
 
 - In the **Purchasability** section, the **This product can be purchased in my online store** option button is     selected. 
 
@@ -9572,7 +9676,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 224 
+ Integration with BigCommerce | 227 
 
 ### Selling Matrix Items: To Export Product Availability Data 
 
@@ -9618,7 +9722,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 225 
+ Integration with BigCommerce | 228 
 
 #### System Preparation 
 
@@ -9676,7 +9780,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 226 
+ Integration with BigCommerce | 229 
 
  With these settings specified, when you synchronize the Template Item entity with the BigCommerce store, the system will override the default settings specified for the store, and the quantities of matrix items based on the JUICE template item (product variants) will be tracked. If all juice variants are sold out, the JUICE product can no longer be purchased via the storefront of the BigCommerce store. 
 
@@ -9728,7 +9832,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 227 
+ Integration with BigCommerce | 230 
 
 7. On the _Process Data_ (BC501500) form, which opens with the _SweetStore - BC_ store and the _Template Item_     entity selected, select the check box in the row of the _Juice_ template item. 
 
@@ -9766,7 +9870,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 228 
+ Integration with BigCommerce | 231 
 
 #### Types of Prices that Can Be Synchronized for Matrix Items 
 
@@ -9792,7 +9896,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 229 
+ Integration with BigCommerce | 232 
 
 ### Selling Matrix Items: To Export Base Prices 
 
@@ -9842,7 +9946,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 230 
+ Integration with BigCommerce | 233 
 
 2. On the _BigCommerce Stores_ (BC201000) form, activate the _Base Sales Price_ entity. 
 
@@ -9874,9 +9978,9 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 1. Open the Sales Price Worksheets (AR2020PL) form. 
 
-2. In the row of the sale price worksheet with the description _Juices, January 2025_ , click the link in the     **Reference Nbr.** column. 
+2. In the row of the sale price worksheet with the description _Juices, January 2026_ , click the link in the     **Reference Nbr.** column. 
 
-3. On the _Sales Price Worksheets_ (AR202010) form, which opens, review the details of the worksheet and the     individual price records.     In the table, notice that each sales price has the _Base_ type and a nonzero value in the **Pending Price**     column.     In the Summary area, notice that **Effective Date** is set to _1/1/2025_ and there is no value in the **Expiration**     **Date** column. Only prices that are effective at the time of the synchronization are exported to the     BigCommerce store. 
+3. On the _Sales Price Worksheets_ (AR202010) form, which opens, review the details of the worksheet and the     individual price records.     In the table, notice that each sales price has the _Base_ type and a nonzero value in the **Pending Price**     column.     In the Summary area, notice that **Effective Date** is set to _1/1/2026_ and there is no value in the **Expiration**     **Date** column. Only prices that are effective at the time of the synchronization are exported to the     BigCommerce store. 
 
 4. On the form toolbar, click **Remove Hold** and then click **Release** to release the sales price worksheet. 
 
@@ -9896,7 +10000,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 231 
+ Integration with BigCommerce | 234 
 
 #### Step 3: Synchronizing the Base Sales Prices 
 
@@ -9950,7 +10054,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 232 
+ Integration with BigCommerce | 235 
 
  BigCommerce store. The Inventory ID column shows the identifier of a particular matrix item (that is, the identifier of the stock or non-stock item) and not the identifier of the template item that was used to generate the matrix item and that was synchronized with the BigCommerce store. 
 
@@ -9996,7 +10100,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 233 
+ Integration with BigCommerce | 236 
 
 #### Step 1: Creating an Order 
 
@@ -10028,7 +10132,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with BigCommerce | 234 
+ Integration with BigCommerce | 237 
 
 #### Step 2: Importing the Sales Order 
 
@@ -10076,7 +10180,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 235 
+ Integration with Shopify | 238 
 
 ## Integration with Shopify 
 
@@ -10124,7 +10228,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 236 
+ Integration with Shopify | 239 
 
 #### Establishing of the Connection to the Shopify Store 
 
@@ -10160,7 +10264,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 237 
+ Integration with Shopify | 240 
 
 2. _Specifying the settings that apply to the customer synchronization._ On the **Customers** tab, you specify the     settings related to the synchronization of customers and customer locations (addresses). For details, see     _Customer Synchronization: General Information_. 
 
@@ -10188,7 +10292,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 238 
+ Integration with Shopify | 241 
 
 #### Configuration of the Entities Enabled for Synchronization 
 
@@ -10224,7 +10328,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 239 
+ Integration with Shopify | 242 
 
  Required Settings Description 
 
@@ -10278,7 +10382,7 @@ The barcodes of the EAN and UPC types can have only numeric values of 8, 12, 13,
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 240 
+ Integration with Shopify | 243 
 
 **Form Criteria to Check Notes** 
 
@@ -10328,7 +10432,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 241 
+ Integration with Shopify | 244 
 
 ### Initial Configuration: Setting Up a Shopify Store 
 
@@ -10372,7 +10476,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 242 
+ Integration with Shopify | 245 
 
  system aer the synchronization. To set up the store time zone, in the Standards and formats section of the Store details settings page of the Shopify admin area, you select the needed time zone in the Time zone box. 
 
@@ -10418,7 +10522,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 243 
+ Integration with Shopify | 246 
 
 6. Review the storefront settings 
 
@@ -10428,15 +10532,15 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Create a Shopify trial account as follows: 
 
-1. On the _[http://www.shopify.com](http://www.shopify.com)_ webpage, click **Start free trial**. 
+1. On the _[http://www.shopify.com](http://www.shopify.com)_ webpage, click **Start for free**. 
 
-2. On the sign-up page, that opens, in the upper le, select _us United States_. 
+2. On the sign-up page, that opens, in the upper le, select _United States_. 
 
 3. Sign up using your email or account.     Make sure to memorize the password because you will need it to sign in to the store. 
 
-4. On the questionnaire page, which opens, in the lower le, click **I don't want help setting up** to skip the     personalization steps. 
+4. On the plan selection page requesting your credit card information, which opens, in the lower right, click     **Skip** to skip the plan selection. 
 
-5. On the plan selection page, which opens, in the lower right, click **Skip, I'll decide pater** to skip the plan     selection.     You will be signed in to the admin area of your Shopify store. 
+5. On the questionnaire page, which opens, in the lower le, click **Skip customized setup** to skip the     personalization steps.     You will be signed in to the admin area of your Shopify store.     In the lower right, pay attention to a notice that says you have 3 days le in your trial. 
 
  Add the link to the admin area of your Shopify store to your favorites to quickly access it. 
 
@@ -10454,7 +10558,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 5. In the **Store phone** box, enter 516 555 0150. 
 
-6. In the lower right, click **Save**. 
+6. In the lower right, click **Save** to save the currency and close the dialog box.. 
 
 #### Step 3: Specifying the Default Store Settings 
 
@@ -10462,15 +10566,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. While you are still viewing the **General** settings page, in the **Store defaults** section, set **Time zone** to     _(GMT-05:00) Eastern Time (US & Canada)_. 
 
-2. Notice that in the **Currency display** section, the store default currency is listed. If the currency is set to any     value other than _US Dollar (USD $)_ , change the currency as follows:     a. Click the More button next to the currency and then click **Change store currency**.     b. In the **Change store currency** dialog box, which opens, select _US Dollar (USD $)_ 
+2. Notice that in the **Currency display** section, the store default currency is listed. If the currency is set to any     value other than _US Dollar (USD $)_ , change the currency as follows:     a. Click the More button next to the currency and then click **Change store currency**. 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 244 
+ Integration with Shopify | 247 
 
- c. In the lower right, click Save to save the currency and close the dialog box. 
-
-3. In the lower right, click **Save** if you have made any changes. 
+ b. In the Change store currency dialog box, which opens, select US Dollar (USD $) c. In the lower right, click Save to save the currency and close the dialog box. 
 
 #### Step 4: Setting the Store Address 
 
@@ -10480,7 +10582,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. On the **Locations** page, in the **All locations** section, click the only listed default shop location with the _Shop_     _location_ name. 
 
-3. On the **Shop location** page, which opens, in the **Locations details** section, click **Add** right to **Address**. 
+3. On the **Shop location** page, which opens, in the **Locations details** section, click the pencil button right to     **Address**. 
 
 4. In the **Edit location address** dialog box, which opens, specify the following settings: 
 
@@ -10498,7 +10600,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 5. In the lower right, click **Save**.     The dialog box closes and you return to the **Shop location** page. 
 
-6. In the lower right, click **Save**.     The address you have entered is the default address of your store that will be used for calculation of     shipping rates. 
+6. At the top of the page, in the **Unsaved changes** bar, click **Save**.     The address you have entered is the default address of your store that will be used for calculation of     shipping rates. 
 
 #### Step 5: Reviewing the Default Shipping Options 
 
@@ -10522,7 +10624,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 245 
+ Integration with Shopify | 248 
 
 4. If no theme is installed, click **Install default theme**. 
 
@@ -10534,7 +10636,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  The following activity will walk you through the process of creating a custom Shopify app and connecting your Shopify store to your Acumatica ERP instance with the credentials of the custom app. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -10566,15 +10668,15 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 246 
+ Integration with Shopify | 249 
 
 3. In the top right, click **Develop apps**. 
 
-4. On the **App development** page, in the **Start developing apps on your store** section, click **Allow custom**     **app development**. 
+4. On the **App development** page, in the **Build legacy custom apps** section, click **Allow custom app**     **development**. 
 
 5. On the page that opens, click **Allow custom app development**. 
 
-6. On the **App development** page that opens, in the **Create a custom app** section, click **Create an app**. 
+6. On the **App development** page that opens, in the **Create a legacy custom app** section, click **Create a**     **legacy custom app**. 
 
 7. In the **Create an app** dialog box, which opens, specify the following settings: 
 
@@ -10612,13 +10714,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  In the API key and secret key section, notice the API secret key. You will use it along with the access token to connect the Shopify store to your Acumatica ERP instance. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 250 
+
 #### Step 4: Establishing the Store Connection 
 
  To establish a connection with the Shopify store, in your instance of Acumatica ERP, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 247 
 
 1. On the _Shopify Stores_ (BC201010) form, create a new record. 
 
@@ -10634,13 +10736,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 4. On the form toolbar, click **Save** to save your changes. 
 
-5. Click **Test Connection** on the form toolbar to verify that you have specified the connection settings     correctly.     If the connection test is successful, you can proceed to specifying the required settings for entities,     customers, inventory, orders, and payments. 
+5. Click **Test Connection** on the form toolbar to verify that you have specified the connection settings     correctly.     If the connection is successfully established, the system fills in the **Store Properties** section with the store     settings. You can proceed to specifying the required settings for entities, customers, inventory, orders, and     payments. 
 
 ### Initial Configuration: To Establish the Store Connection with a Public App 
 
  The following activity will walk you through the process of connecting your Shopify store to your Acumatica ERP instance. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -10658,15 +10760,15 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. You have set up a Shopify store, as described in _Initial Configuration: To Set Up a Shopify Store_. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 251 
+
 #### Step 1: Installing the Acumatica Cloud ERP App 
 
  To install the Acumatica Cloud ERP app, while you are signed in to your Shopify store, do the following: 
 
 1. In the le menu, click **Apps**. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 248 
 
 2. In the upper right of the **Apps** page, which opens, click **Customize your store**. 
 
@@ -10702,13 +10804,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 5. In the **Connect your Acumatica ERP Account** step, which now shows the question _Is this a sandbox?_ , click     **Yes**.     You have now connected your Acumatica ERP instance with the Shopify store.     In a production environment, you would need to answer **No** to the last question and provide additional     details about yourself and your business so that representatives of Acumatica Inc. could contact you and     help you get started. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 252 
+
 ### Initial Configuration: To Prepare the Acumatica ERP Instance 
 
  In this activity, you will go through the settings that need to be specified in the Acumatica ERP instance before you set up the connection to the Shopify store. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 249 
 
  The following activity is based on the U100 dataset. 
 
@@ -10752,6 +10854,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. Make sure that the following features are enabled: 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 253 
+
 - _Inventory_ 
 
 - _Business Account Locations_ 
@@ -10759,10 +10865,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - _Retail Commerce_ 
 
 - _Shopify Connector_ If any of these features is not enabled, click **Modify** on the form toolbar, select the check box that activates the feature, and click **Enable** on the form toolbar. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 250 
 
  Depending on the setup of your Shopify store and the inventory and order management processes in your company, you might need to enable additional features. For more information, see Initial Configuration: Implementation Checklist. 
 
@@ -10794,11 +10896,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. Open the _Order Types_ (SO201000) form. 
 
-2. In the **Order Type** box, select _EO - eCommerce Order_.     In the **Order Template** box notice that this order type is based on the _SO_ order template. In a subsequent     activity, you will configure the system to assign this order type to all orders imported from the Shopify store. 
+2. In the **Order Type** box, select _EO - eCommerce Order_. 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 251 
+ Integration with Shopify | 254 
+
+ In the Order Template box notice that this order type is based on the SO order template. In a subsequent activity, you will configure the system to assign this order type to all orders imported from the Shopify store. 
 
 #### Step 5: Reviewing the Shipping Settings 
 
@@ -10838,13 +10942,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - On the _Enable/Disable Features_ (CS100000) form, the _Retail Commerce_ and _Shopify Connector_ features have     been enabled. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 255 
+
 - On the _Customer Classes_ (AR201000) form, the _ECCUSTOMER_ customer class has been defined. 
 
 - On the _Numbering Sequences_ (CS201010) form, the _ECCUSTOMER_ numbering sequence has been defined, 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 252 
 
 - On the _Customers_ (AR303000) form, the _ECOMGUEST_ customer record has been created. 
 
@@ -10904,13 +11008,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  To specify the settings that will be used by default for importing customers from the Shopify store to Acumatica ERP, do the following: 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 256 
+
 1. While you are still viewing the _SweetStore - SP_ store on the _Shopify Stores_ (BC201010) form, open the     **Customers** tab. 
 
 2. In the **Customer** section, select the following values: 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 253 
 
 - **Customer Class** : _ECCUSTOMER_     This is the default customer class based on which customer records will be created in Acumatica ERP for     customers imported from the online store. 
 
@@ -10944,6 +11048,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. In the table of this tab, add a row, and in the added row, map the payment method set up in the Shopify     store with the payment method activated in Acumatica ERP as follows. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 257 
+
  Active Store Payment Method 
 
  Store Currency 
@@ -10956,13 +11064,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Selected MANUAL USD ONLINE 10250ST Cleared 
 
- With these settings, the payments for orders created with the manual payment method in the Shopify store will be imported to Acumatica ERP for further processing. In imported sales orders and payments made with 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 254 
-
- this payment method, the mapped payment method, ONLINE , will be displayed. For simplicity, you do not need to map any other payment methods at this time. 
+ With these settings, the payments for orders created with the manual payment method in the Shopify store will be imported to Acumatica ERP for further processing. In imported sales orders and payments made with this payment method, the mapped payment method, ONLINE , will be displayed. For simplicity, you do not need to map any other payment methods at this time. 
 
 3. On the form toolbar, click **Save** to save your changes. 
 
@@ -11000,6 +11102,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  In this chapter, you will learn how data synchronization works and how to synchronize data manually. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 258 
+
 #### Stages of the Synchronization Process 
 
  The process of the synchronization of data between Acumatica ERP and the ecommerce store consists of the following stages: 
@@ -11007,10 +11113,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - Preparing out-of-sync data for synchronization. For details, see the _Preparation of Out-of-Sync Data for_     _Synchronization_ section below. 
 
 - Processing out-of-sync data, as described in the _Processing of Out-of-Sync Data_ section below. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 255 
 
 #### Preparation of Out-of-Sync Data for Synchronization 
 
@@ -11032,13 +11134,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 256 
+ Integration with Shopify | 259 
 
 **_Figure: Preparing data for synchronization_** 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 257 
+ Integration with Shopify | 260 
 
 #### Processing of Out-of-Sync Data 
 
@@ -11070,7 +11172,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 258 
+ Integration with Shopify | 261 
 
  Figure: Processing prepared data 
 
@@ -11082,7 +11184,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 259 
+ Integration with Shopify | 262 
 
 - If the entity record was deleted only in the secondary system and then was modified in the primary system During the entity preparation, synchronization records that were never processed and were manually assigned the _Deleted_ status on the _Sync History_ form, are assigned the _Prepared_ status regardless of the changes to the entity records in either of the systems. 
 
@@ -11120,7 +11222,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 260 
+ Integration with Shopify | 263 
 
 1. You open the _Prepare Data_ (BC501000) form. 
 
@@ -11162,7 +11264,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 261 
+ Integration with Shopify | 264 
 
 #### Story 
 
@@ -11206,7 +11308,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 262 
+ Integration with Shopify | 265 
 
 - **Password** : _123_ 
 
@@ -11258,7 +11360,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 263 
+ Integration with Shopify | 266 
 
  This setting controls which data will be loaded. Incremental indicates that the system will load only the data that has been modified since the previous data synchronization. Because you start the data preparation process for the Stock Item for the first time, all stock item data will be prepared. 
 
@@ -11276,15 +11378,15 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. While you are still viewing the _Prepare Data_ (BC501000) form, click the link in the **Total Records** in the row of     the _Stock Item_ entity.     The _Sync History_ (BC301000) form opens in a new browser tab with the _SweetStore - SP_ store and the _Stock_     _Item_ entity selected in the Summary area. 
 
-2. On the **Filtered** tab, review the synchronization records.     Notice that all synchronization records on this tab have the _Filtered_ status. These are the stock items that     were excluded from synchronization based on the filtering conditions that you configured earlier. 
-
-3. Go to the **Ready to Process** tab.     Notice that the table is displaying only synchronization records with the _Prepared_ status, as shown in     the screenshot below. This status means that these records have been prepared and are now ready to be     processed.     For each of these items, the **ERP ID** column displays a link that you can click to open the item on the _Stock_     _Items_ (IN202500) form. Notice that the **External ID** column currently does not display any values because     the stock items have not yet been exported to the Shopify store. 
+2. Make sure that _Ready to Process_ is selected in the Filter List drop-down menu above the table.     Notice that the table is displaying only synchronization records with the _Prepared_ status, as shown in     the screenshot below. This status means that these records have been prepared and are now ready to be     processed.     For each of these items, the **ERP ID** column displays a link that you can click to open the item on the _Stock_     _Items_ (IN202500) form. Notice that the **External ID** column currently does not display any values because     the stock items have not yet been exported to the Shopify store. 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 264 
+ Integration with Shopify | 267 
 
  Figure: Data prepared for processing 
+
+3. In the Filter List drop-down menu, select _Filtered_.     Notice that the table is displaying only synchronization records with the _Filtered_ status. These are the stock     items that were excluded from synchronization based on the filtering conditions that you configured earlier. 
 
 #### Step 5: Processing the Prepared Product Data 
 
@@ -11310,17 +11412,17 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Entity** : _Stock Item_ 
 
-2. Go to the **Ready to Process** tab.     Notice that the table contains no records because you have already processed all the prepared records. 
+2. In the Filter List drop-down menu above the table, select _Ready to Process_.     Notice that the table contains no records because you have already processed all the prepared records. 
 
-3. Go to the **Processed** tab.     The tab shows the list of items that have been processed—that is, synchronized with the Shopify store. For     each item, there is now a product identifier in the **External ID** column. In the table, the **Last Operation**     value has changed to _Inserted Externally_ and the time stamp in the **Last Attempt** column has changed to the     date and time when you ran data processing on the _Process Data_ (BC501500) form. 
+3. In the Filter List drop-down menu, select _Processed_.     The table shows the list of items that have been processed—that is, synchronized with the Shopify store.     For each item, there is now a product identifier in the **External ID** column. In the table, the **Last Operation**     value has changed to _Inserted Externally_ and the time stamp in the **Last Attempt** column has changed to the     date and time when you ran data processing on the _Process Data_ (BC501500) form. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 268 
 
 #### Step 7: Viewing an Exported Product in the Shopify Store 
 
  To view the KIWIJAM96 stock item (which has the description Kiwi jam 96 oz ) in the Shopify store, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 265 
 
 1. While you are still viewing the _Sync History_ (BC301000) form, click the link in the **External ID** column in the     row of the synchronization record for the _Kiwi jam 96 oz_ item.     The product management page for the _Kiwi jam 96 oz_ product (which is a page in the admin area of the     Shopify store where you manage details of a particular product) opens in a new browser tab. 
 
@@ -11332,9 +11434,9 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - The product image in the **Media** section 
 
-- The default price ( _45.15_ ) in the **Price** box ( **Pricing** section) 
+- The default price ( _45.15_ ) in the **Price** section 
 
-- The item inventory ID ( _KIWIJAM96_ ) in the **SKU (Stock Keeping Unit)** box ( **Inventory** section) 
+- The item inventory ID ( _KIWIJAM96_ ) in the **SKU** box ( **Inventory** section) 
 
 - The item class ( _Jam_ ) in the **Type** box ( **Product organization** section) 
 
@@ -11354,7 +11456,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 6. In the **Customer** section, click in the search box and in the menu that opens, select **Create a new customer**. 
 
-7. In the **Create a new customer** pop-up window, which opens, fill in the boxes as follows: 
+7. In the **New customer** pop-up window, which opens, specify the following details in the **Customer overview**     section: 
 
 - **First name** : Larry 
 
@@ -11362,7 +11464,15 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Email** : larry@example.com 
 
-- **Country/region** : _United States_ 
+8. In the **Default address** section, click **Add address**. 
+
+9. In the **Add default address** pop-up window, which opens, fill in the boxes as follows: 
+
+- **Country/region** : _United States_ (inserted by default) 
+
+- **First name** : Larry (inserted by default based on the information specified in the customer overview     section) 
+
+- **Last name** : Coleman (inserted by default based on the information specified in the customer overview     section) 
 
 - **Address** : 1970 Duncan Avenue 
 
@@ -11372,13 +11482,11 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **ZIP code** : 10016 
 
-8. In the lower right, click **Save**. 
-
-9. In the **Payment** section, click **Collect payment > Mark as paid**. 10.In the **Mark as paid** dialog box, which appears, click **Create order**.     The system closes the **Mark as paid** dialog box and creates the order. At the top of the page, notice that the     system has assigned the order an order number, the _Paid_ payment status, and the _Unfulfilled_ fulfillment     status. 
-
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 266 
+ Integration with Shopify | 269 
+
+ 10.In the lower right, click Save to save the address. The system closes the pop-up window and adds the primary address for the customer. 11.In the upper right click Save. The system creates the customer and close the pop-up window. 12.In the Payment section of the Create order page, to which you return, click Mark as paid. 13.In the Mark as paid dialog box, which appears, click Create order. The system closes the Mark as paid dialog box and creates the order. At the top of the page, notice that the system has assigned the order an order number, the Paid payment status, and the Unfulfilled fulfillment status. 
 
  Shopify assigns each order an order number, which by default is represented by the prefix # and a numbering sequence. The order number is displayed at the top of the order page next to the order's payment status and fulfillment status. If needed, you can change the format of the order number on the General settings page in the Shopify admin area. 
 
@@ -11410,21 +11518,27 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 #### Step 10: Reviewing the Synchronization Status of the Imported Data 
 
- To review the synchronization status of the order you imported in the previous step, on the Sync History (BC301000) form, specify the following settings in the Summary area: 
+ To review the synchronization status of the order you imported in the previous step, do the following: 
+
+1. On the _Sync History_ (BC301000) form, specify the following settings in the Summary area: 
 
 - **Store** : _SweetStore - SP_ 
 
-- **Entity** : Leave empty In the table of the **Processed** tab, notice that three synchronization records were created when the sales order was processed (see the screenshot below): 
+- **Entity** : Leave empty 
 
-- _Sales Order_ : The sales order that you placed in the Shopify store. The **ERP ID** column displays the order type     ( _EO_ ) and the order ID. The order type is based on the value selected in the **Order Type for Import** box on the     **Orders** tab of the _Shopify Stores_ (BC201010) form. 
-
-- _Customer_ : The customer that you created in the Shopify store when placing the order. The **ERP ID** column     displays the customer ID and the name of the customer. The customer ID was assigned to the customer     record based on the numbering sequence specified in the **Customer Numbering Sequence** box on the     **Customers** tab of the _Shopify Stores_ form. The customer name was imported from the Shopify store. 
-
-- _Payment_ : The payment used to pay the order in the Shopify store. The **ERP ID** column displays the payment     type ( _Prepayment_ ) and the payment identifier.     The payment has been imported because the payment method you used to pay the order has been mapped     to an Acumatica ERP payment method and the mapping has been activated on the **Payments** tab of the     _Shopify Stores_ form. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 267 
+ Integration with Shopify | 270 
+
+ In the table, notice that three synchronization records were created when the sales order was processed (see the screenshot below): 
+
+- _Sales Order_ : The sales order that you placed in the Shopify store. The **ERP ID** column displays the order     type ( _EO_ ) and the order ID. The order type is based on the value selected in the **Order Type for Import**     box on the **Orders** tab of the _Shopify Stores_ (BC201010) form. 
+
+- _Customer_ : The customer that you created in the Shopify store when placing the order. The **ERP ID**     column displays the customer ID and the name of the customer. The customer ID was assigned to the     customer record based on the numbering sequence specified in the **Customer Numbering Sequence**     box on the **Customers** tab of the _Shopify Stores_ form. The customer name was imported from the Shopify     store. 
+
+- _Payment_ : The payment used to pay the order in the Shopify store. The **ERP ID** column displays the     payment type ( _Prepayment_ ) and the payment identifier.     The payment has been imported because the payment method you used to pay the order has been     mapped to an Acumatica ERP payment method and the mapping has been activated on the **Payments**     tab of the _Shopify Stores_ form. 
 
  Figure: The sales order, customer, and payment records imported from the Shopify store 
 
@@ -11438,6 +11552,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. On the _Sales Orders_ (SO301000) form, which opens in a pop-up window, review the details of the order     (which are shown in the following screenshot). 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 271 
+
  Figure: The sales order imported from the Shopify store 
 
  In the Summary area, notice the following: 
@@ -11447,10 +11565,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - In the **Customer Order Nbr.** box, the order number assigned to the order in the Shopify store is     displayed. 
 
 - In the **External Reference** box, the order identifier assigned to the order in the Shopify store and the     name of the store are displayed. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 268 
 
 - The **Date** of the sales order is the same as the date on which the order was created in the Shopify store. 
 
@@ -11470,7 +11584,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. In the **Specify Shipment Parameters** dialog box, which opens, make sure the current date and the _RETAIL_     warehouse are selected, and click **OK**. The system creates a shipment and opens it on the _Shipments_     (SO302000) form in the same pop-up window. 
 
-3. On the form toolbar, click **Confirm Shipment**.     The shipment is assigned the _Confirmed_ status; the sales order is assigned the _Completed_ status. 
+3. On the form toolbar, click **Confirm Shipment**. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 272 
+
+ The shipment is assigned the Confirmed status; the sales order is assigned the Completed status. 
 
 4. Close the pop-up window with the _Shipments_ form. 
 
@@ -11498,13 +11618,9 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 8. In the **Processing** dialog box, which opens, click **Close** to close the dialog box. 
 
-#### Step 15: Reviewing the Updated Order and Shipment in Shopify 
+#### Step 14: Reviewing the Updated Order and Shipment in Shopify 
 
  To check whether the shipment and the updated sales order have been exported to the Shopify store correctly, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 269 
 
 1. On the _Sync History_ (BC301000) form, specify the following settings in the Summary area: 
 
@@ -11512,7 +11628,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Entity** : _Shipment_ 
 
-2. On the **Processed** tab, notice that the synchronization record of the shipment is displayed in the only row of     the table. The **External ID** column displays the identifier of the shipment in Shopify, which consists of two     parts—the identifier of the order and the identifier of the shipment. 
+2. In the Filter List drop-down menu above the table, select _Processed_.     Notice that the synchronization record of the shipment is displayed in the only row of the table. The     **External ID** column displays the identifier of the shipment in Shopify, which consists of two parts—the     identifier of the order and the identifier of the shipment. 
 
 3. Click the link in the **External ID** column. 
 
@@ -11527,6 +11643,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - In the **Tags** section, two tags have been added to the order— _ERP_ and a tag with the sales order number     from Acumatica ERP. Both tags were created during the order synchronization in Step 9. 
 
  You have now performed the first manual synchronization of products, sales orders, and shipments. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 273 
 
 ### Preparing Entities for Synchronization 
 
@@ -11550,13 +11670,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  You might want to configure additional mapping if you have defined custom fields in Acumatica ERP, in the Shopify store, or in both systems, and you want these fields to be synchronized between the two systems. For example, you might want to define an extra field on the customer registration form in the online store and map this field to a user-defined field or an attribute in a customer record in Acumatica ERP. 
 
- Filtering is useful if you do not want to synchronize all data of a particular entity. For example, you might want to define a subset of items in Acumatica ERP (which are referred to as products in Shopify) that you want to export to 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 270 
-
- the online store, or exclude from export the customers that have incomplete information in Acumatica ERP (that is, the customers that have the On Hold status). 
+ Filtering is useful if you do not want to synchronize all data of a particular entity. For example, you might want to define a subset of items in Acumatica ERP (which are referred to as products in Shopify) that you want to export to the online store, or exclude from export the customers that have incomplete information in Acumatica ERP (that is, the customers that have the On Hold status). 
 
  You might want to update ecommerce-related information about items in Acumatica ERP if you want to override default inventory settings related to export that have been configured for the store on the Shopify Stores (BC201010) form or if you want to maintain all product data, ecommerce-related or otherwise, in one system. 
 
@@ -11569,6 +11683,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - The primary system. You indicate which of the systems, _ERP_ (that is, Acumatica ERP) or _External System_ (that     is, Shopify), should be used as the source of data if conflicts occur during the synchronization of a particular     entity. 
 
 - The real-time synchronization mode. You indicate whether the synchronization records for a particular     entity should be processed immediately aer the data is prepared by selecting either of the following     options: 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 274 
 
 - _Prepare_ : As soon as a push notification about a change to data is received, the corresponding     synchronization record is placed in the processing queue. 
 
@@ -11600,14 +11718,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Customer Yes Yes Yes Yes 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 271 
-
- Entity in Acumatica ERP 
-
- Import Mapping Import Filtering Export Mapping Export Filtering 
-
  Customer Location No Yes No Yes 
 
  Stock Item No No Yes Yes 
@@ -11628,6 +11738,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Refund No No No No 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 275 
+
  For information about standard mapping of entities, see Retail Edition Entity Reference. For details about filtering and mapping for the export and import processes, see Preparing Entities for Synchronization: Filtering and Preparing Entities for Synchronization: Field Mapping. 
 
 ### Preparing Entities for Synchronization: Updating Product Details 
@@ -11644,13 +11758,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Shopify does not support featuring products, so the third option, Featured , will make the product visible on the storefront (same as the Visible option). 
 
-- The availability assigned to the item when it is exported to the online store.     You define the availability of the item by selecting the needed option in the **Availability** box. You select     _Store Default_ to apply the availability option selected in the store settings to be used by default for exported     products. To make the product available and not track its quantity, you select _Set as Available (Don't Track_     _Qty.)_. If you want to make the product available for pre-order, you select _Set as Pre-Order_. To make the 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 272 
-
- product unavailable aer import, you select Set as Unavailable. For a stock item whose quantity you want to track, you select Set as Available (Track Qty.). For stock items whose availability is tracked (that is, for the items for which the Availability is set to Set as Available (Track Qty.) ), you can also specify what action should be performed if the item runs out of stock. To do this, you select in the When Qty. Unavailable box one of the following options: 
+- The availability assigned to the item when it is exported to the online store.     You define the availability of the item by selecting the needed option in the **Availability** box. You select     _Store Default_ to apply the availability option selected in the store settings to be used by default for exported     products. To make the product available and not track its quantity, you select _Set as Available (Don't Track_     _Qty.)_. If you want to make the product available for pre-order, you select _Set as Pre-Order_. To make the     product unavailable aer import, you select _Set as Unavailable_. For a stock item whose quantity you want to     track, you select _Set as Available (Track Qty.)_.     For stock items whose availability is tracked (that is, for the items for which the **Availability** is set to _Set as_     _Available (Track Qty.)_ ), you can also specify what action should be performed if the item runs out of stock. To     do this, you select in the **When Qty. Unavailable** box one of the following options: 
 
 - _Store Default_ : To apply the default value configured in the store settings 
 
@@ -11661,6 +11769,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - The title of the product page.     You can specify the title of the product page in the **Page Title** box. Aer the product is imported to the     Shopify store, the text you have specified in this box is copied into the **Page title** box in the **Search engine**     **listing preview** section of the product management page. This text is used in the <title> tag in the HTML     code of the product page. 
 
 - Meta description.     You specify the meta description in the **Meta Description** box. Aer the product is imported to the Shopify     store, the meta description you have specified in this box will be displayed in the **Description** box in the     **Search engine listing preview** section of the product management page. The meta description is included     in the <meta> tag in the HTML code of the product page. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 276 
 
 ### Preparing Entities for Synchronization: Filtering 
 
@@ -11686,10 +11798,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Export filtering by custom fields, which are fields added to a form as a result of publishing a customization project, is available for the Customer , Stock Item , Non-Stock Item , Template Item , and Sales Order entities. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 273 
-
  To use a custom field in a filtering condition, on the Export Filtering tab of the Entities (BC202000) form, you should type the name of the field in the Field Name column of the table. The system validates the field name against the API field list and displays an error if the field name cannot be found. 
 
  To avoid typing errors, you can copy the name of the needed field from the API Advanced list as follows: 
@@ -11699,6 +11807,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 2. In the **ERP Field / Value** column, click the down arrow, and then select and copy the needed     field name. 
 
  In some situations, a custom field used in a filtering condition may become unavailable during export, for example, if a customization project that added the field has been unpublished. In this case, the system will treat the value in the condition that contains the missing field as null. To avoid issues during the export, the Is Not Empty condition should be added to each filtering condition that includes custom fields. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 277 
 
 #### Export Filtering by Attributes 
 
@@ -11720,10 +11832,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Selected Item Class Equals NUTS Empty And 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 274 
-
 #### Example 2 
 
  Suppose that you use separate online stores for international and domestic sales, and you want to exclude international customers—that is, customers of any customer class that contains INTL in its ID—from the synchronization with your store. To configure the filter, you select the Customer entity in the Summary area of the Entities (BC202000) form, and on the Export Filtering tab, you specify the condition corresponding to the settings shown in the following table. 
@@ -11738,7 +11846,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 #### Example 3 
 
- Suppose that you sell some of the products through Instagram. These orders are fulfilled by a third-party logistic service provider, and you do not want to import them into Acumatica ERP. To exclude orders with the instagram source, you select the Sales Order entity in the Summary area of the Entities (BC202000) form, and on the Import Filtering tab, you specify the condition corresponding to the settings shown in the following table. 
+ Suppose that you sell some of the products through Instagram. These orders are fulfilled by a third-party logistic service provider, and you do not want to import them into Acumatica ERP. To exclude orders with the instagram 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 278 
+
+ source, you select the Sales Order entity in the Summary area of the Entities (BC202000) form, and on the Import Filtering tab, you specify the condition corresponding to the settings shown in the following table. 
 
  Active Brackets Field Name Condition Value Value 2 Brackets Operator 
 
@@ -11768,10 +11882,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **ERP Object** : The object in Acumatica ERP whose field's value is assigned to the external field on export.     The list of available options depends on the selected entity and the ecommerce connector. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 275 
-
 - **ERP Field / Value** : The field of the selected ERP object whose value is assigned to the external field on     export, or the expression to be executed on export to generate the value that is assigned to the external     field.     The list of available options depends on the selected entity and the ERP object. 
 
 #### Mapping of Fields for Import 
@@ -11782,7 +11892,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  To map two fields that will be processed during the import process, you specify values in the following columns: 
 
-- **ERP Object** : The object in Acumatica ERP whose field is set to the value of the external field or to a     calculated value on import.     The list of available options depends on the selected entity. 
+- **ERP Object** : The object in Acumatica ERP whose field is set to the value of the external field or to a     calculated value on import. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 279 
+
+ The list of available options depends on the selected entity. 
 
 - **ERP Field** : The field of the selected ERP object that is set to the value of the mapped external field or a to     calculated value on import.     The fields that are displayed in the list depend on the selected object. 
 
@@ -11806,10 +11922,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  When you define mappings between fields in Acumatica ERP and in the external system on the Entities (BC202000) form, you can use formulas to calculate the values to be displayed in the target fields. Formulas give you the ability to use advanced calculations and data transformation functions if some values are calculated or depend on the data from other sources. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 276 
-
  You can enter the formula directly in the External Field / Value column ( Import Mapping tab) or ERP Field / Value column ( Export Mapping ) or in the Formula Editor Dialog Box , which you invoke by clicking the Edit button in these columns. 
 
  Operators and functions that you can use in formulas on the Entities form are the same as the operators and functions that are used on the Import Scenarios (SM206025) and Export Scenarios (SM207025) forms. For more information about formulas, functions, and operators, see The Use of Formulas , Operators , and Functions. 
@@ -11819,6 +11931,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
  You can map the fields with information about the products included in an order in Shopify with the fields used in sales order detail lines in Acumatica ERP. 
 
  When you define the field mapping to be used for importing sales orders from an external system, you can use both predefined and custom Acumatica ERP fields of sales order detail lines—that is, fields that are used in sales order lines, which are displayed on the Details tab of the Sales Orders (SO301000) form. During order synchronization, details of the products in an order placed in Shopify is sent to the mapped fields in Acumatica ERP. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 280 
 
  To use a sales order detail field in import mapping, on the Import Mapping tab of the Entities (BC202000) form, you do the following: 
 
@@ -11844,10 +11960,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Suppose that you keep the information about template items along with their matrix items in Acumatica ERP and synchronize this information with the Shopify store. However, the information about the matrix items' weights is updated directly in the Shopify store. To avoid the override of the weights during the synchronization of the Template Item entity, you need to unmap the corresponding field. To do this, you select the Template Item entity in the Summary area of the Entities form, and on the Export Mapping tab, you specify the conditions corresponding to the settings shown in the following table. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 277 
-
  Active External Object External Field ERP Object ERP Field / Value 
 
  Selected Product → Product Variants 
@@ -11857,6 +11969,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 ### Preparing Entities for Synchronization: Shopify Metafields 
 
  Shopify customers can create custom fields in their stores to hold additional information about customers, products, orders, blog posts, or even the store itself. Data from metafields can be used for internal purposes (for example, for reporting and analysis) or added to the store's theme to customize the appearance of the storefront to show more information to customers. For example, you might want to display additional information about a product on a product page, to add information about a customer (which is or is not visible to the customer in their store account), or to add an additional box to the checkout page to request information about the urgency of the order fulfillment. For more information about metafields in Shopify, see the Shopify documentation. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 281 
 
 #### Using Shopify Metafields in Field Mapping 
 
@@ -11894,12 +12010,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Customer → Metafields 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 278 
-
- Entity Tab External Object 
-
  Sales Order Import Mapping Order Data Metafields 
 
  Order Data → Customer → Metafields 
@@ -11915,6 +12025,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
  When you are configuring an export mapping for the Stock Item , Non-Stock Item , Template Item , or Customer entity, to map an Acumatica ERP field with a Shopify metafield, you need to select the metafield object in the External Object column and type the metafield name in the External column in the following format: Namespace.Key. During the synchronization of the entity, the system will check whether the metafield with this name exists and do either of the following: 
 
 - If the metafield exists, update its value based on the settings of the **External Field / Value** column. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 282 
 
 - If the metafield does not exist, create it with the specified namespace and key, and assign it the value     according to the mapping settings for the particular object. You can also use metafields in formulas. When a metafield is used in a formula, its namespace and key should be enclosed in square brackets: [Namespace.Key]. 
 
@@ -11936,10 +12050,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - Configure automated synchronization for optimized performance 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 279 
-
 #### Applicable Scenarios 
 
  You automate the synchronization of entities aer you have configured and manually tested the synchronization between Acumatica ERP and the Shopify store to ensure that in your production environment, all needed data is exported and imported to the appropriate system in a timely manner. 
@@ -11951,6 +12061,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - You configure automation schedules for data preparation or data processing on the _Automation Schedules_     (SM205020) form. Data preparation or processing is started for the entity when the automation schedule     is executed. For information about scheduled synchronization, see _Automated Synchronization: Scheduled_     _Synchronization_. 
 
 - You turn on real-time synchronization for a particular entity on the _Entities_ (BC202000) form. When real-     time synchronization is on, Acumatica ERP attempts to prepare or prepare and process data as soon as a     change is made to the entity in Acumatica ERP or in the ecommerce system. To learn more about real-time     synchronization, see _Automated Synchronization: Real-Time Synchronization_. Scheduled synchronization and real-time synchronization do not interfere with each other or with manual synchronization and can be used together. For recommendations on the frequency of synchronization, see _Automated Synchronization: Recommended Setup_. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 283 
 
 ### Automated Synchronization: Scheduled Synchronization 
 
@@ -11976,12 +12090,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Process Non-Stock Items Daily, every hour 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 280 
-
- Schedule Description Execution Frequency 
-
  Process Stock Items Daily, every hour 
 
  Process Template Items Daily, every hour 
@@ -12003,6 +12111,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 2. You modify the schedule's settings as follows: 
 
 - On the **Filters** tab, add a filter condition to include the store for which the schedule should be executed. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 284 
 
 - On the **Schedule** tab, adjust the schedule execution frequency, if necessary. 
 
@@ -12028,10 +12140,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. In the table, you select the unlabeled check box for each entity that should be processed when the schedule     is executed. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 281 
-
 3. On the table toolbar, you click **Schedule > Add**.     The system opens the _Automation Schedules_ form in a pop-up window. The settings that you have specified     appear on the **Conditions** and **Filter Values** tabs of the form. 
 
 4. You specify a name and description for the schedule, as well as its frequency, expiration information,     execution dates and times, and other settings. 
@@ -12049,6 +12157,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 3. You specify a name and description for the schedule, as well as its frequency, expiration information,     execution dates and times, and other settings. 
 
 4. You activate and save the schedule. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 285 
 
  For detailed instructions on creating a schedule for preparing and processing data, see Automated Synchronization: To Configure a New Automation Schedule. 
 
@@ -12068,10 +12180,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  You can also specify the real-time mode for an entity on the Entities tab of the Shopify Stores (BC201010) form. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 282 
-
 #### Turning On of Real-Time Synchronization 
 
  To turn on real-time synchronization for an entity, on the Entities (BC202000) form, you select the store and the entity and then click Start Real-Time Sync on the form toolbar. Real-time synchronization is turned on for the direction specified in the Sync Direction box of the Summary area as follows: 
@@ -12090,6 +12198,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  For detailed instructions on how to enable real-time synchronization, see Automated Synchronization: To Turn On Real-Time Synchronization. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 286 
+
 #### Webhook URL for Real-Time Import 
 
  If the synchronization direction is set to Import or Bidirectional , when you click Start Real-Time Sync on the form toolbar of the Entities (BC202000) form, the system displays the Start Real-Time Sync dialog box. In the RealTime Webhook URL box of this dialog box, you can update the URL which Acumatica ERP will use for webhook notifications from the ecommerce system, if necessary. The webhook URL must be publicly accessible and have SSL/TLS encryption. If a webhook cannot be delivered to the webhook URL, real-time import will not work. When real-time synchronization is running, the URL that is currently used to receive webhooks for the entity is displayed in the Real-Time Webhook URL box of the Summary area. 
@@ -12103,10 +12215,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - The background process makes only one attempt to process each synchronization record placed in the     processing queue by the real-time synchronization process. If the attempt fails, processing continues for     other records in the queue. We recommend that you set up an automation schedule to regularly run data     processing to ensure that failed synchronization records are synchronized. 
 
 - In some cases, Acumatica ERP or an ecommerce system may generate multiple notifications for the same     record. For example, when a shipment is processed, Acumatica ERP generates multiple notifications about     updates to the sales order. For optimal performance, incoming notifications are processed with a delay of 15     to 20 seconds to ensure that all related notifications are processed simultaneously. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 283 
 
 ### Automated Synchronization: Recommended Setup 
 
@@ -12135,6 +12243,12 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
  Real-time mode: Prepare & Process 
 
  Daily, once a night Daily, once a night 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 287 
+
+ Entity Real-Time Synchronization Data Preparation Data Processing 
 
  Stock Item , Non-Stock Item , Template Item 
 
@@ -12166,12 +12280,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Stopped Daily, once a night Daily, every 60 minutes 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 284 
-
- Entity Real-Time Synchronization Data Preparation Data Processing 
-
  Product Availability Stopped Daily, every 60 minutes Daily, every 60 minutes 
 
  Other entities Stopped Daily, once a night Daily, once a night 
@@ -12185,6 +12293,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 #### Story 
 
  Suppose that as an implementation consultant helping SweetLife to set up integration with Shopify, you want to configure continuous synchronization of entities. As part of the setup, you need to configure the system to capture new and changed sales orders in Shopify every 10 minutes and import these changes to Acumatica ERP. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 288 
 
 #### Process Overview 
 
@@ -12214,13 +12326,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. Open the _Automation Schedules_ (SM205020) form. 
 
-2. In the **Schedule ID** box of the Summary area, select _Prepare Sales Orders_. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 285 
-
- On the Details tab, notice that the schedule does not have an expiration date or execution limit (that is, the No Expiration Date and No Execution Limit check boxes are selected). On the Schedule tab, the Daily schedule type is selected, and in the Execution Time section, Every is set to 00:10. 
+2. In the **Schedule ID** box of the Summary area, select _Prepare Sales Orders_.     On the **Details** tab, notice that the schedule does not have an expiration date or execution limit (that is,     the **No Expiration Date** and **No Execution Limit** check boxes are selected). On the **Schedule** tab, the **Daily**     schedule type is selected, and in the **Execution Time** section, **Every** is set to _00:10_. 
 
 3. On the **Schedule Details** tab, in the **Next Execution Date** box, make sure the current date (that is, today's     date) is specified. 
 
@@ -12237,6 +12343,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 #### Step 2: Activating and Setting Up the Second Synchronization Schedule 
 
  To set up and activate the second predefined synchronization schedule, which will start data processing for the prepared sales order data, do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 289 
 
 1. Open the _Automation Schedules_ (SM205020) form. 
 
@@ -12255,10 +12365,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 6. On the form toolbar, click **Save**.     The schedule will now start the processing of the prepared sales order data for the _SweetStore - SP_ store     every 10 minutes. 
 
  We recommend that you test the configured schedules by creating a new sales order or updating an existing one in the SweetStore SP store, waiting for 20 minutes to give the schedules enough time to be executed, and then reviewing the corresponding sales order in Acumatica ERP. If for some reason the changes have not been synchronized, review the corresponding synchronization record on the Sync History (BC301000) form. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 286 
 
 ### Automated Synchronization: To Configure a New Automation Schedule 
 
@@ -12279,6 +12385,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 2. On the _Automation Schedules_ (SM205020) form, create an automation schedule to start data preparation for     the _Customer_ entity once a day. 
 
 3. On the _Process Data_ (BC501500) form, define the conditions for processing the data of the _Customer_ entity. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 290 
 
 4. On the _Automation Schedules_ form, create an automation schedule to start the data processing for the     _Customer_ entity once a day. 
 
@@ -12304,10 +12414,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  To configure an automation schedule that will start the data preparation process for the Customer entity once every night, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 287 
-
 1. On the _Prepare Data_ (BC501000) form, specify the following settings in the Summary area: 
 
 - **Store** : _SweetStore - SP_ 
@@ -12318,23 +12424,15 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 3. On the form toolbar, click **Schedules > Add**. The dialog box with the _Automation Schedules_ (SM205020) form     opens. 
 
-4. In the **Description** box, enter Prepare Customers.     In the Summary area, the system has inserted _Prepare Data_ in the **Screen ID** box and _Prepare All_ in the     **Action Name** box. Notice that the **Active** check box has been selected.     On the **Filter Values** tab, the system has added the settings summarized in the following table, which     correspond to the settings you have made in the Selection area of the _Prepare Data_ form earlier in this step. 
+4. In the Summary area, enter Prepare Customers in the **Description** box.     In the Summary area, notice that the system has inserted _Prepare Data_ in the **Screen ID** box and _Prepare All_     in the **Action Name** box. The **Active** check box has been selected.     On the **Filter to Apply** tab, the system has added the settings summarized in the following table, which     correspond to the settings you have made in the Selection area of the _Prepare Data_ form earlier in this step. 
 
  Field Name Value 
 
  Store SweetStore SP 
 
+ Entity Customer 
+
  Prepare Mode Incremental 
-
- On the Conditions tab, the system has added the conditions summarized in the following table, which also correspond to the settings you have made on the Prepare Data form. The action specified in the Action Name box of the Summary area of the Automation Schedules form will be executed for the entities on the Prepare Data form that meet these conditions. 
-
- Field Name Condition Value 
-
- Connector Equals Shopify 
-
- Store Equals SweetStore SP 
-
- Entity Equals Customer 
 
 5. On the **Details** tab, specify the additional settings of the schedule as follows: 
 
@@ -12344,7 +12442,11 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 6. On the **Schedule** tab, specify the execution dates and times as follows: 
 
-- In the **Frequency** box (the **Execution Time** section), select _Daily_. 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 291 
+
+- In the **Frequency** box (the **Execution Date** section), select _Daily_. 
 
 - In the **Starts Time** box (the **Execution Time** section), select _11:30 PM_. With these settings, the schedule execution will be started every day at 11:30 PM. 
 
@@ -12356,17 +12458,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. On the _Process Data_ (BC501500) form, specify the following settings in the Summary area: 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 288 
-
 - **Store** : _SweetStore - SP_ 
 
 - **Entity** : _Customer_ 
 
 2. On the form toolbar, click **Schedules > Add**. The dialog box with the _Automation Schedules_ (SM205020) form     opens. 
 
-3. In the **Description** box, enter Process Customers.     In the Summary area, the system has inserted _Process Data_ in the **Screen ID** box and _Process All_ in the     **Action Name** box. Notice that the **Active** check box has been selected.     Also, on the **Filter Values** tab, the system has added the settings summarized in the following table, which     correspond to the selections you have made on the _Process Data_ form earlier in this step. 
+3. In the Summary area, enter Process Customers in the **Description** box.     In the Summary area, notice that the system has inserted _Process Data_ in the **Screen ID** box and _Process All_     in the **Action Name** box. The **Active** check box has been selected.     Also, on the **Filter to Apply** tab, the system has added the settings summarized in the following table, which     correspond to the selections you have made on the _Process Data_ form earlier in this step. 
 
  Field Name Value 
 
@@ -12384,13 +12482,17 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 5. On the **Schedule** tab, specify the execution dates and times as follows: 
 
-- In the **Frequency** box (the **Execution Time** section), select _Daily_. 
+- In the **Frequency** box (the **Execution Date** section), select _Daily_. 
 
 - In the **Starts Time** box (the **Execution Time** section), select _12:30 AM_. With these settings, the schedule execution will be started every day at 12:30 AM. 
 
 6. On the form toolbar, click **Save & Close** to save your changes to the automation schedule and close the     dialog box. 
 
  You have configured two automation schedules for the Customer entity. Now the first automation schedule will start the data preparation process every night at 11:30 PM to retrieve the changed customer data if any changes have occurred in Acumatica ERP, in the SweetStore SP store, or in both systems (depending on the synchronization direction set for the Customer entity) since the previous data preparation, and will place it in the processing queue. The second schedule will start the data processing for the Customer entity to process the synchronization records that are out of sync. During data processing, the system will also attempt to synchronize the customer synchronization records that could not be processed before (that is, the synchronization records that have the Failed status). 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 292 
 
 ### Automated Synchronization: To Turn On Real-Time Synchronization 
 
@@ -12400,13 +12502,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 #### Story 
 
- Suppose that as an implementation consultant helping SweetLife to set up integration with Shopify, you want to configure continuous synchronization of particular entities. As part of the setup, you need to turn on real-time 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 289 
-
- synchronization of shipments so that they are exported to the Shopify store as soon as they are created or updated in Acumatica ERP. 
+ Suppose that as an implementation consultant helping SweetLife to set up integration with Shopify, you want to configure continuous synchronization of particular entities. As part of the setup, you need to turn on real-time synchronization of shipments so that they are exported to the Shopify store as soon as they are created or updated in Acumatica ERP. 
 
 #### Process Overview 
 
@@ -12444,13 +12540,15 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 3. On the form toolbar, click **Save**. 
 
-4. On the form toolbar, click **Start Real-Time Sync**.     Starting real-time synchronization can take a few seconds. Aer the real-time synchronization is turned on,     **Real-Time Export** (the Summary area) is changed from _Stopped_ to _Running_. 
-
- We recommend that you test the configuration by creating a new shipment for a sales order imported from the SweetStore SP store to Acumatica ERP, and then reviewing the corresponding shipment in the SweetStore SP store. If for some reason the changes have not been synchronized, review the corresponding synchronization record on the Sync History (BC301000) form. 
+4. On the form toolbar, click **Start Real-Time Sync**. 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 290 
+ Integration with Shopify | 293 
+
+ Starting real-time synchronization can take a few seconds. Aer the real-time synchronization is turned on, Real-Time Export (the Summary area) is changed from Stopped to Running. 
+
+ We recommend that you test the configuration by creating a new shipment for a sales order imported from the SweetStore SP store to Acumatica ERP, and then reviewing the corresponding shipment in the SweetStore SP store. If for some reason the changes have not been synchronized, review the corresponding synchronization record on the Sync History (BC301000) form. 
 
 ### Automated Synchronization: Business Events for Aborted Records 
 
@@ -12480,15 +12578,17 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  BC-DB-AbortedRefunds Aborted Refund Notification 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 294 
+
+ Business Event ID Description Generic Inquiry Notification Template 
+
  BCAbortedShipment Triggers notifications for aborted synchronization records of the Shipment entity 
 
  BC-DB-AbortedShipments Aborted Shipment Notification 
 
  For information about email notifications that are triggered by business events, see Business Events: Subscribers. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 291 
 
 ### Automated Synchronization: To Activate a Predefined Business Event 
 
@@ -12522,13 +12622,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Before you perform the instructions of this activity, do the following: 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 295 
+
 1. Make sure that the following prerequisites have been met:     a. The Shopify store has been created and configured, as described in _Initial Configuration: To Set Up a_        _Shopify Store_.     b. The connection to the Shopify store has been established and the initial configuration has been        performed, as described in _Initial Configuration: To Configure the Store Connection_. 
 
 2. Sign in to an Acumatica ERP instance with the _U100_ dataset preloaded. You should sign in by using the     following credentials: 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 292 
 
 - **Username** : _gibbs_ 
 
@@ -12564,11 +12664,11 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. While you are still viewing the _BCAbortedOrder_ business event on the _Business Events_ (SM302050) form, on     the **Subscribers** tab, click the _Aborted Order Notification_ link in the **Subscriber ID** column. 
 
-2. On the _Email Templates_ (SM204003) form, which opens in a new tab, review the details of the template.     In the **To** box, notice that instead of a specific user name or email address, a variable is used. So emails are     sent to whoever is specified as the administrator of the store to which the aborted synchronization record     belongs.     On the **Message** tab, review the details of the aborted synchronization record. The information includes the     store name, the entity type, the local and external identifiers of the record, the last operation, and the last     error. The email body also contains the link to the _Sync History_ (BC301000) form, on which you can review     the status of all synchronization records and resynchronize them aer the issues are resolved. 
-
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 293 
+ Integration with Shopify | 296 
+
+2. On the _Email Templates_ (SM204003) form, which opens in a new tab, review the details of the template.     In the **To** box, notice that instead of a specific user name or email address, a variable is used. So emails are     sent to whoever is specified as the administrator of the store to which the aborted synchronization record     belongs.     On the **Message** tab, review the details of the aborted synchronization record. The information includes the     store name, the entity type, the local and external identifiers of the record, the last operation, and the last     error. The email body also contains the link to the _Sync History_ (BC301000) form, on which you can review     the status of all synchronization records and resynchronize them aer the issues are resolved. 
 
  In this activity, you have activated the predefined business event that will trigger the sending of an email to the store administrator about aborted synchronization of sales orders. 
 
@@ -12600,15 +12700,17 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 #### The Customer and Company Entities 
 
- In Acumatica ERP, individual customers are synchronized during the synchronization of the Customer entity, and business customers are synchronized during the synchronization of the Company entity. In the context of customer synchronization with Shopify, a business customer refers to a customer for which the Customer Category box is set to Organization on the Customers (AR303000) form or to a company in the Shopify store. 
+ In Acumatica ERP, individual customers are synchronized during the synchronization of the Customer entity, and business customers are synchronized during the synchronization of the Company entity. In the context of customer 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 297 
+
+ synchronization with Shopify, a business customer refers to a customer for which the Customer Category box is set to Organization on the Customers (AR303000) form or to a company in the Shopify store. 
 
  The synchronization of business customers is available if both the Shopify Connector feature and the Business-to-Business Entities feature are enabled on the Enable/Disable Features (CS100000) form. 
 
  When you activate either of these entities on the Entities tab of the Shopify Stores (BC201010) form, you must specify the default settings that will be applied to imported customers and customer locations. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 294 
 
  For information about the default settings of customers and customer locations, see Customer Synchronization: Default Settings. 
 
@@ -12626,11 +12728,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Customer Numbering Template** (available for editing only if the _CUSTOMER_ segmented key has more     than one segment): The template that is used to provide the identifiers of new customers imported to     Acumatica ERP from the Shopify store. This character string, such as _____-____-######_ , initially shows the     number and length of segments in the _CUSTOMER_ segmented key, which is configured on the _Segmented_     _Keys_ (CS202000) form and defines the structure of the identifiers used for customers in Acumatica ERP.     The groups of underscores represent the constant segments, and the number signs represent the auto-     numbered segment.     You replace the underscores with the values of the constant segments to be used in the identifiers of the     customers imported from the Shopify store, as shown in the following example: _ECUS-RET1-######_. With     this setting, the identifiers of all customers imported from Shopify to Acumatica ERP would start with _ECUS-_     _RET1_ , for easy identification, and the system would automatically assign the numerical part of the identifier     according to the numbering sequence selected in the **Customer Numbering Sequence** box. These settings     do not affect the assignment of identifiers to other customers in the system (those that already exist or     those that are created directly in Acumatica ERP). 
 
-- **Customer Numbering Sequence** : The numbering sequence that the system uses to automatically generate     identifiers for customers imported from the Shopify store.     If the _CUSTOMER_ segmented key consists of more than one segment, the numbering sequence that you     select in this box applies to the automatically numbered segment (a group of number signs in the **Customer**     **Numbering Template** box). The length of the numbering sequence must match the length of the auto-     numbered segment.     Selecting a numbering sequence in this box does not change the **Numbering ID** setting of the _CUSTOMER_     segmented key on the _Segmented Keys_ form. The selected numbering sequence applies only to customers     that are imported from the Shopify store and does not affect the assignment of identifiers to other     customers in the system (those that already exist or those that are created directly in Acumatica ERP).     For more information about segmented keys and numbering sequences, see _Managing Segmented Keys_. 
+- **Customer Numbering Sequence** : The numbering sequence that the system uses to automatically generate     identifiers for customers imported from the Shopify store.     If the _CUSTOMER_ segmented key consists of more than one segment, the numbering sequence that you     select in this box applies to the automatically numbered segment (a group of number signs in the **Customer**     **Numbering Template** box). The length of the numbering sequence must match the length of the auto-     numbered segment. 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 295 
+ Integration with Shopify | 298 
+
+ Selecting a numbering sequence in this box does not change the Numbering ID setting of the CUSTOMER segmented key on the Segmented Keys form. The selected numbering sequence applies only to customers that are imported from the Shopify store and does not affect the assignment of identifiers to other customers in the system (those that already exist or those that are created directly in Acumatica ERP). For more information about segmented keys and numbering sequences, see Managing Segmented Keys. 
 
 #### Default Customer Location Settings 
 
@@ -12646,17 +12750,15 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Individual customers are synchronized during the synchronization of the Customer entity. The sections below describe what happens during the synchronization of customers that have one or multiple locations when the Customer Location entity is both disabled and enabled. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 299 
+
 #### Synchronization of Individual Customers Without Customer Locations 
 
  If the Customer entity is activated and the Customer Location entity is not activated on the Shopify Stores (BC201010) form, when the Customer entity is synchronized between the Shopify store and Acumatica ERP, the customer location (address) data is not copied from one system to the other. 
 
- When an individual customer created in the Shopify store is imported to Acumatica ERP, the system creates a new customer on the Customers (AR303000) form. In the Customer Category box, the system selects Individual , which 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 296 
-
- indicates that the customer is an individual rather than a company. In the Ext. Ref. Nbr. box on the General tab, the system inserts the identifier of the customer from the Shopify store, along with the store name, in the following format: <Customer Identifier> <Store Name>. 
+ When an individual customer created in the Shopify store is imported to Acumatica ERP, the system creates a new customer on the Customers (AR303000) form. In the Customer Category box, the system selects Individual , which indicates that the customer is an individual rather than a company. In the Ext. Ref. Nbr. box on the General tab, the system inserts the identifier of the customer from the Shopify store, along with the store name, in the following format: <Customer Identifier> <Store Name>. 
 
  When a sales order created in the Shopify store is imported, the address information (that is, the billing address and shipping address) specified in the order is imported to Acumatica ERP as part of sales order data; however, new locations are not created and existing locations are not updated with the imported data. 
 
@@ -12678,13 +12780,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - If the default _MAIN_ location has empty address lines, the new address is used to populate the elements of     the _MAIN_ location. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 300 
+
 - If the default location has been deleted in Acumatica ERP, and there is a corresponding synchronization     record with the _Deleted_ status on the _Sync History_ (BC301000) form, the ecommerce connector creates a new     location and makes it the default. 
 
 - If the default location exists and the address lines in it are filled in, the connector creates a new location. For the imported location, the system inserts the identifier of the location from the Shopify store, along with the store name, in the **External ID** box on the **General** tab of the _Customer Locations_ (AR303020) form in the following format: _<Location Identifier> - <Store Name>_. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 297 
 
  If a new location was created for a customer in Acumatica ERP, when the Customer entity is exported, the corresponding new address is created for the customer in the Shopify store with the data of the new location. 
 
@@ -12704,13 +12806,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - If the location's synchronization record has a status other than _Deleted_ , the corresponding customer     address in the Shopify store is updated based on the changes to the customer location. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 301 
+
 - If the location's synchronization record has the _Deleted_ status or the location has not been synchronized     previously, the location is not synchronized with the Shopify store. 
 
  The following diagram illustrates the synchronization of an updated customer address. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 298 
 
  Figure: Synchronization of an updated customer address 
 
@@ -12730,7 +12832,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 299 
+ Integration with Shopify | 302 
 
  Figure: Synchronization of a deleted customer address 
 
@@ -12748,7 +12850,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 300 
+ Integration with Shopify | 303 
 
  For more information about creating a customer, see Customers: General Information. 
 
@@ -12772,7 +12874,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - For each location that has been defined for the company in the Shopify store, creates a customer location     on the _Customer Locations_ (AR303020) form 
 
-- For each customer associated with the company in the Shopify store, creates a contact on the _Contacts_     (CR302000) form The created customer is assigned settings as follows: 
+- For each customer associated with the company in the Shopify store, creates a contact on the _Contacts_     (CR302000) form 
+
+- For each customer associated with the company in the Shopify store, creates a customer of the _Individual_     type on the _Customers_ form if either of the following conditions is met: 
+
+- The **Import Company Contacts as Customers** check box is selected on the **Customers** tab of the _Shopify_     _Stores_ (BC201010). 
+
+- The customer has at least one order placed in the Shopify store. The created customer is assigned settings as follows: 
 
 - The system generates the identifier of the business customer imported from a Shopify store based on the     numbering sequence selected in the **Customer Numbering Sequence** box on the **Customers** tab of the     _Shopify Stores_ (BC201010) form. 
 
@@ -12782,13 +12890,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - The system inserts the company identifier from the Shopify store, along with the store name, in the **Ext. Ref.**     **Nbr.** box on the **General** tab of the _Customers_ form in the following format: _<Company Identifier> - <Store_     _Name>_. The created locations are assigned settings as follows: 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 304 
+
 - The system generates the identifiers of the imported locations based on the numbering sequence specified     in the **Location Numbering Sequence** box on the **Customers** tab of the _Shopify Stores_ form. 
 
 - The system inserts the location identifier from the Shopify store, along with the store name, in the **External**     **ID** box on the **General** tab of the _Customer Locations_ form in the following format: _<Location Identifier> -_     _<Store Name>_. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 301 
 
 - The **Contacts** tab of the _Customer Locations_ form shows all contacts that are assigned a role in a particular     location. The created contacts are assigned settings as follows: 
 
@@ -12818,13 +12926,57 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - If the contact has the _Admin_ role in Acumatica ERP, the customer is assigned the _Location admin_ role in     Shopify. If changes have been made to a contact aer the company has been synchronized, these changes are exported to the Shopify store during the next synchronization. However, if the contact is deactivated or deleted in Acumatica ERP, the corresponding customer is not updated in the Shopify store. 
 
-### Customer Synchronization: To Synchronize Customers with Multiple Locations 
+#### Synchronization of Shopify Payment Terms 
 
- The following activity will walk you through the process of setting up the synchronization of customer locations and performing the synchronization of individual customers with locations between Acumatica ERP and the Shopify store. 
+ You can synchronize credit terms assigned to customers in Acumatica ERP (on the Financial tab of the Customers (AR303000) form) with payment terms assigned to company locations in the Shopify store. 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 302 
+ Integration with Shopify | 305 
+
+ When the connection to the Shopify store is established, the connector imports the list of Shopify payment terms into the Payment Terms table on the Customers tab of the Shopify Stores (BC201010) form. To complete the setup, you select the corresponding credit terms defined on the Credit Terms (CS206500) form in the ERP Credit Terms column to map them to the imported Shopify payment terms shown in the Payment Terms Name column. 
+
+ The Due on receipt payment terms can't be assigned to a company location in Shopify. Don't map these terms to any credit terms in Acumatica ERP. 
+
+ If you want Acumatica ERP to be the main system for managing credit terms, you select the Always Export Credit Terms check box on the Customers tab of the Shopify Stores form. This ensures that during the export, the connector always overrides the payment terms of company locations in Shopify with the credit terms assigned to the corresponding customers in Acumatica ERP. 
+
+#### Import of Payment Terms from Shopify 
+
+ If the synchronization direction is set to Import or Bidirectional for the Company entity for the store on the Entities tab of the Shopify Stores (BC201010) form, payment terms can be imported form the Shopify store. Only customers assigned to the Organization customer category on the General tab of the Customers (AR303000) form are included in the sync. 
+
+ The connector updates each customer's credit terms on the Financial tab of the Customers form with the company's payment terms from Shopify. But this update occurs only if those terms are mapped in the Payment Terms table on the Customers tab of the Shopify Stores (BC201010) form. 
+
+ When payment terms are imported : The connector assigns the credit terms mapped to the company's payment terms to the customer in Acumatica ERP if all company locations in Shopify use the same payment terms. (Locations with no payment terms assigned are ignored.) 
+
+ When payment terms are skipped : The connector doesn't import payment terms from Shopify if different payment terms are assigned to one or more company locations. Instead, it assigns the imported customer the credit terms defined for the customer class selected on the Customers tab of the Shopify Stores form. 
+
+#### Export of Credit Terms to Shopify 
+
+ If the synchronization direction is set to Export or Bidirectional for the Company entity for the store on the Entities tab of the Shopify Stores (BC201010) form, credit terms can be exported to the Shopify store. Only customers assigned to the Organization customer category on the General tab of the Customers (AR303000) form are included in the sync. 
+
+ The system exports credit terms assigned to a customer on the Financial tab of the Customers form only if they're mapped to payment terms in the Payment Terms table on the Customers tab of the Shopify Stores form. 
+
+ When credit terms are exported : The connector assigns the payment terms mapped to the customer's credit terms to all company locations in Shopify in each of the following cases: 
+
+- The **Always Export Credit Terms** check box is selected on the **Customers** tab of the _Shopify Stores_ form. 
+
+- The customer is being exported for the first time, and no corresponding company exists in Shopify. 
+
+- The corresponding company already exists in Shopify, and either no payment terms are specified for any of     the company locations or all locations share the same payment terms. **When credit terms are skipped** : The connector does not export credit terms if **all** of the following conditions are met: 
+
+- The **Always Export Credit Terms** check box is cleared on the **Customers** tab of the _Shopify Stores_ form. 
+
+- The corresponding company already exists in Shopify. 
+
+- Different payment terms are assigned to one or more company locations. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 306 
+
+### Customer Synchronization: To Synchronize Customers with Multiple Locations 
+
+ The following activity will walk you through the process of setting up the synchronization of customer locations and performing the synchronization of individual customers with locations between Acumatica ERP and the Shopify store. 
 
  The following activity is based on the U100 dataset. 
 
@@ -12864,6 +13016,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 6. On the _Customer Locations_ (AR303020) form, review the imported customer address data and update one of     the customer locations. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 307 
+
 7. By using the _Sync History_ (BC301000) form, synchronize the updated customer location with the Shopify     store. 
 
 8. In the admin area of the Shopify store, review the updated customer address. 
@@ -12873,10 +13029,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
  Before you perform the instructions in this activity, do the following: 
 
 1. Make sure that the following prerequisites have been met: 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 303 
 
 - The Shopify store has been created and configured, as described in _Initial Configuration: To Set Up a_     _Shopify Store_. 
 
@@ -12916,6 +13068,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. In the le menu of the Shopify admin area, click **Customers**. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 308 
+
 2. On the **Customers** page that opens, click **Add customer** in the upper right. 
 
 3. On the **New customer** page that opens, specify the following details in the **Customer overview** section: 
@@ -12931,10 +13087,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 5. In the **Add default address** dialog box, which opens, specify the following details: 
 
 - **Country/region** : _United States_ (inserted by default) 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 304 
 
 - **First name** : Isabelle (inserted by default based on the information specified in the customer     overview section) 
 
@@ -12984,6 +13136,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 6. In the **Customer** section, in the upper right, click the More button and then click **Manage addresses**.     In the **Manage addresses** dialog box, which opens, notice that the second address has been added. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 309 
+
 7. Close the **Manage addresses** dialog box. 
 
 #### Step 4: Preparing the Customer and Customer Location Data for Synchronization 
@@ -12994,13 +13150,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Store** : _SweetStore - SP_ 
 
-- **Prepare Mode** : _Incremental_ 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 305 
-
- This setting controls which data will be loaded. Incremental indicates that only the customer records that match the filtering conditions and have been modified since the previous processing of the data have been prepared for synchronization. 
+- **Prepare Mode** : _Incremental_ This setting controls which data will be loaded. _Incremental_ indicates that only the customer records that match the filtering conditions and have been modified since the previous processing of the data have been prepared for synchronization. 
 
 2. In the table, select the check box in the unlabeled column in the row of the _Customer_ entity. 
 
@@ -13030,7 +13180,11 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. In the list of customers, in the **Customer Name** column, locate the _Isabelle Bober_ customer, and click the     link for this customer in the **Customer ID** column. 
 
-3. On the _Customers_ (AR303000) form, which opens for _Isabelle Bober_ , on the **General** tab, notice that the     system has inserted the customer identifier from Shopify in the **Ext. Ref. Nbr.** box ( **Additional Account Info**     section). 
+3. On the _Customers_ (AR303000) form, which opens for _Isabelle Bober_ , on the **General** tab, notice that the     system has inserted the customer identifier from Shopify in the **Ext. Ref. Nbr.** box ( **Additional Information**     section). 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 310 
 
 4. Open the **Locations** tab and review the locations that the system created when the customer record was     synchronized.     Notice that the table displays the following locations, as shown in the screenshot below: 
 
@@ -13038,17 +13192,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - The location with the identifier that the system assigned to it based on the numbering sequence selected     for locations in the store settings on the _Shopify Stores_ (BC201010) form. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 306 
-
  Figure: Customer locations imported from the store 
 
 5. Click the _MAIN_ link in the **Location ID** column. 
 
 6. On the _Customer Locations_ (AR303020) form, which the system has opened in a pop-up window, on the     **General** tab, review the location details that have been imported from the Shopify store. Notice the     following: 
 
-- The **Company** value from the address in Shopify has been imported as the **Location Name** of the     **Location Info** section and the **Account Name** box of the **Additional Location Info** section.     The address lines, city, state, country, and postal code have been imported to the appropriate boxes of     the **Location Address** section.     The first and last name of the address in Shopify have been imported to the **Attention** box of the     **Additional Location Info** section.     The location identifier from Shopify along with the store name have been imported to the **External ID**     box of the **Other Settings** section. 
+- The **Company** value from the address in Shopify has been imported as the **Account Name** box of the     **Additional Location Info** section as well as the **Location Name** box in the Summary area.     The address lines, city, state, country, and postal code have been imported to the appropriate boxes of     the **Location Address** section.     The first and last name of the address in Shopify have been imported to the **Attention** box of the     **Additional Location Info** section.     The location identifier from Shopify along with the store name have been imported to the **External ID**     box of the **Other Settings** section. 
 
 #### Step 7: Updating the Customer Location 
 
@@ -13060,6 +13210,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 3. On the form toolbar, click **Save & Close** to save your changes and close the pop-up window with the     _Customer Locations_ form. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 311 
+
 #### Step 8: Synchronizing the Updated Location with the Shopify Store 
 
  To synchronize the updated customer location with the Shopify store in order to update the address in the store, do the following: 
@@ -13070,11 +13224,11 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Entity** : _Customer Location_ 
 
-2. On the **Processed** tab, select the unlabeled check box in the row of the _MAIN, Hoppy Place Coffee and Cakes_     location, and on the form toolbar, click **Sync**. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
 
+3. In the table, select the unlabeled check box in the row of the _MAIN, Hoppy Place Coffee and Cakes_ location. 
 
-<!-- PAGE_BREAK -->
- Integration with Shopify | 307 
+4. On the form toolbar, click **Sync**. 
 
  When you change a location of a customer, the ecommerce connector recognizes the customer record as having been modified as well. So in this step, you could have selected the synchronization record for the Isabelle Bober customer and clicked Sync , and the updated customer location would have been synchronized as part of the customer synchronization process. Alternatively, you could have prepared the Customer entity for synchronization on the Prepare Data (BC501000) form and then processed the prepared synchronization records on the Process Data (BC501500) form. 
 
@@ -13098,6 +13252,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  In this chapter, you will learn how to export stock and non-stock items to the Shopify store. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 312 
+
 #### Applicable Scenarios 
 
  You export items from Acumatica ERP to an external system in the following cases: 
@@ -13109,10 +13267,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 #### Configuration of Product Synchronization 
 
  Before exporting stock and non-stock items defined in Acumatica ERP to the Shopify store, you need to perform the following general steps: 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 308 
 
 1. Activate the _Stock Item_ and _Non-Stock Item_ entities. To do this, on the _Shopify Stores_ (BC201010) form, you     select the store, and on the **Entities** tab, you select the **Active** check box for the _Stock Item_ and _Non-Stock_     _Item_ entities. 
 
@@ -13142,6 +13296,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - If the **Require Shipment** check box is cleared, **This is a physical product** check box is cleared. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 313 
+
 ### Product Synchronization: Default Store Settings 
 
  When you set up a connection to a Shopify store on the Shopify Stores (BC201010) form, you specify the availability and visibility settings that are applied by default to all items synchronized with the Shopify store. 
@@ -13150,19 +13308,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  On the Inventory tab of the Shopify Stores (BC201010) form, you define the default availability settings that are applied to items exported from Acumatica ERP. These settings determine whether the exported item can be purchased in the Shopify store. To define the default availability settings, you select one of the following options in the Default Availability box: 
 
-- _Set as Available (Track Qty.)_ : The stock items exported to the Shopify store are available for purchase via the     storefront, and their quantities are tracked, meaning that the items can be purchased only if their quantities     are greater than zero. In Shopify, on the product management page for each of these items, the _Online Store_ 
+- _Set as Available (Track Qty.)_ : The stock items exported to the Shopify store are available for purchase via the     storefront, and their quantities are tracked, meaning that the items can be purchased only if their quantities     are greater than zero. In Shopify, on the product management page for each of these items, the _Online Store_     sales channel is listed below the product status and the **Inventory tracked** toggle in the **Inventory** section     is switched on.     The non-stock items exported to the Shopify store are available for purchase via the storefront, and their     quantities are not tracked (that is, the **Inventory tracked** toggle in the **Inventory** section is switched off). 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 309 
-
- sales channel is listed below the product status and the Track quantity check box in the Inventory section is selected. The non-stock items exported to the Shopify store are available for purchase via the storefront, and their quantities are not tracked (that is, the Track quantity check box in the Inventory section is cleared). 
-
-- _Set as Available (Don't Track Qty.)_ : The non-stock and stock items exported to the Shopify store are available     for purchase via the storefront, and their quantities are not tracked. In Shopify, on the product management     page for each of these items, the _Online Store_ sales channel is listed below the product status and the **Track**     **quantity** check box in the **Inventory** section is cleared. 
+- _Set as Available (Don't Track Qty.)_ : The non-stock and stock items exported to the Shopify store are available     for purchase via the storefront, and their quantities are not tracked. In Shopify, on the product management     page for each of these items, the _Online Store_ sales channel is listed below the product status and **Inventory**     **tracked** toggle in the **Inventory** section is switched off. 
 
 - _Do Not Update_ : The availability settings and quantity of the item in the Shopify store are not updated. 
 
-- _Set as Unavailable_ : The non-stock and stock items exported to the Shopify store are not available for     purchase. In Shopify, on the product management page for each of these items, the **Track quantity** check     box (in the **Inventory** section) is cleared and the _Online Store_ sales channel is not listed below the product     status (in the upper right). 
+- _Set as Unavailable_ : The non-stock and stock items exported to the Shopify store are not available for     purchase. In Shopify, on the product management page for each of these items, **Inventory tracked** toggle     (in the **Inventory** section) is switched off and the _Online Store_ sales channel is not listed below the product     status (in the upper right). 
 
  The Default Availability setting applies if the Availability setting for a particular item is set to Store Default on the Non-Stock Items (IN202000) or Stock Items (IN202500) form. 
 
@@ -13170,13 +13322,19 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - _Do Nothing_ : The system does not change the availability settings of the item. 
 
-- _Set as Unavailable_ : The system makes the item unavailable for purchase via the storefront. In Shopify, on     the product management page for each of these items, the **Track quantity** check box (in the **Inventory**     section) becomes cleared and the _Online Store_ sales channel below the product status disappears. 
+- _Set as Unavailable_ : The system makes the item unavailable for purchase via the storefront. In Shopify, on     the product management page for each of these items, **Inventory tracked** toggle (in the **Inventory** section)     becomes switched off and the _Online Store_ sales channel below the product status disappears. 
 
 - _Set as Continue Selling_ : The system selects the **Continue selling when out of stock** check box for the item in     the Shopify store. If you have synchronized the _Product Availability_ entity, when you modify any of the settings described in this section, the system resets the availability synchronization status for all synchronized items in the Shopify store, and you need to perform the synchronization of the _Product Availability_ entity again. 
 
 #### Default Visibility Settings 
 
- You can specify visibility settings that will be applied by default to each item exported to the Shopify store on the Inventory tab of the Shopify Stores (BC201010) form. To instruct the system to make all items by default immediately available on the storefront aer they are exported to the Shopify store, you select Visible in the Default Visibility box. To make items by default available for management in the store's admin area but hidden from the storefront, you select Invisible in this box. 
+ You can specify visibility settings that will be applied by default to each item exported to the Shopify store on the Inventory tab of the Shopify Stores (BC201010) form. To instruct the system to make all items by default immediately available on the storefront aer they are exported to the Shopify store, you select Visible in the 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 314 
+
+ Default Visibility box. To make items by default available for management in the store's admin area but hidden from the storefront, you select Invisible in this box. 
 
 ### Product Synchronization: Settings of Individual Items 
 
@@ -13186,13 +13344,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  You can exclude an individual stock or non-stock item from exporting to the Shopify store (or any other ecommerce system) by clearing the Export to External System check box on the eCommerce tab of the Stock Items (IN202500) or Non-Stock Items (IN202000) form. 
 
- The status of an item in Acumatica ERP affects the purchasability status of the item in Shopify. If the item's status in Acumatica ERP is Inactive , No Sales , or Marked for Deletion —that is, if any of these options is selected in the Status 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 310 
-
- box in the Summary area of the Non-Stock Items (IN202000) form or the Stock Items (IN202500) form—aer the synchronization of the relevant entity, these items appear with the Online Store sales channel cleared, regardless of the Availability setting of this item in Acumatica ERP. 
+ The status of an item in Acumatica ERP affects the purchasability status of the item in Shopify. If the item's status in Acumatica ERP is Inactive , No Sales , or Marked for Deletion —that is, if any of these options is selected in the Status box in the Summary area of the Non-Stock Items (IN202000) form or the Stock Items (IN202500) form—aer the synchronization of the relevant entity, these items appear with the Online Store sales channel cleared, regardless of the Availability setting of this item in Acumatica ERP. 
 
 #### Visibility of an Exported Item 
 
@@ -13208,7 +13360,33 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - The _Set as Available (Track Qty.)_ option does not appear in the **Availability** box for non-stock items. 
 
-- The _Store Default_ option (which is not in the **Default Availability** box) is available in the **Availability** box     for stock and non-stock items. When this option is selected, the system applies the setting selected in the     **Default Availability** box on the **Inventory** tab of the _Shopify Stores_ form.     Because the tracking of quantities is not applicable to non-stock items, if **Default Availability** in the store     settings is set to _Set as Available (Track Qty.)_ and **Availability** of a non-stock item is set to _Store Default_ ,     aer the non-stock item is exported to the Shopify store, it is available for purchase but its quantity is not     tracked. Additionally, for a stock item, if the _Set as Available (Track Qty.)_ option is selected in the **Availability** box on the **eCommerce** tab, you need to specify the action that the system should perform if aer the synchronization of the _Product Availability_ entity, the item has an available quantity of zero. The available options include all options of the **When Qty. Unavailable** box on the **Inventory** tab of the _Shopify Stores_ form, as well as the _Store Default_ option, which (if selected) indicates that the setting specified in the box of the same name on the _Shopify Stores_ form should be applied. 
+- The _Store Default_ option (which is not in the **Default Availability** box) is available in the **Availability** box     for stock and non-stock items. When this option is selected, the system applies the setting selected in the     **Default Availability** box on the **Inventory** tab of the _Shopify Stores_ form.     Because the tracking of quantities is not applicable to non-stock items, if **Default Availability** in the store     settings is set to _Set as Available (Track Qty.)_ and **Availability** of a non-stock item is set to _Store Default_ ,     aer the non-stock item is exported to the Shopify store, it is available for purchase but its quantity is not     tracked. Additionally, for a stock item, if the _Set as Available (Track Qty.)_ option is selected in the **Availability** box on the **eCommerce** tab, you need to specify the action that the system should perform if aer the synchronization of the _Product Availability_ entity, the item has an available quantity of zero. The available options include all options of the **When Qty. Unavailable** box on the **Inventory** tab of the _Shopify Stores_ form, as well as the _Store Default_ 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 315 
+
+ option, which (if selected) indicates that the setting specified in the box of the same name on the Shopify Stores form should be applied. 
+
+#### Tax Settings of an Exported Item 
+
+ In Acumatica ERP, you assign a tax category to a stock or non-stock item in the Tax Category box on the General tab of the Stock Items (IN202500) or Non-Stock Items (IN202000) form, respectively. 
+
+ When you sync a stock or non-stock item with the Shopify store, the connector assigns the tax code to the corresponding product in Shopify by using the tax category specified for the item. 
+
+ Tax codes in Shopify are available on the Shopify Plus subscription plan. Tax codes can be used to identify the tax category of products for tax calculation by third-party Shopify apps. 
+
+ The connector also selects the Charge tax on this product check box for the product when assigns the tax code. 
+
+ If the tax category being synchronized is mapped to FALSE in the substitution list, the system won’t mark the product as taxable. The substitution list is specified in the Tax Categories box on the Orders tab of the Shopify Stores (BC201010) form. 
+
+ To exclude tax categories from synchronization for the Stock Item or Non-Stock Item entity, you use export mapping. You add a rule with the following settings to the entity on the Export Mapping tab of the Entities (BC202000) form: 
+
+- **External Object** : _Product -> Product Variants_ 
+
+- **External Field** : _Avalara Tax Code_ 
+
+- **ERP Object** : _<<Unmap>>_ 
 
 ### Product Synchronization: Product Images 
 
@@ -13224,17 +13402,17 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - You maintain product information in Acumatica ERP, export this information to the Shopify store, and use     Acumatica ERP to store images of exported stock and non-stock items. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 311 
-
 - You maintain product information in Acumatica ERP, export this information to the Shopify store, store     images of exported stock and non-stock items in an external storage but keep links to the image files in     Acumatica ERP. 
 
 #### Export of Product Images 
 
  In Acumatica ERP, you can save images for stock and non-stock items in two ways: 
 
-- As attachments to an item: On the **Attributes** tab of the _Stock Items_ (IN202500) and _Non-Stock Items_     (IN202000) forms 
+- As attachments to an item: On the **Description** tab of the _Stock Items_ (IN202500) and _Non-Stock Items_     (IN202000) forms 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 316 
 
 - As links to an external storage: In the **Media URLs** table on the **eCommerce** tab of the _Stock Items_ and _Non-_     _Stock Items_ forms Images that have been attached to an item on the _Stock Items_ or _Non-Stock Items_ form are exported to the Shopify store during the synchronization of the _Product Image_ entity. The item they belong to must be exported to the Shopify store or created in the Shopify store before images attached to it are exported. Of all files attached to the item on the _Stock Items_ or _Non-Stock Items_ form, the system exports only the files with extensions for which the **Image** check box is selected on the _File Upload Preferences_ (SM202550) form. 
 
@@ -13266,10 +13444,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. On the _Stock Items_ (IN202500) form, add images to the _APJAM08_ stock item. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 312 
-
 3. On the _Prepare Data_ (BC501000) form, prepare the stock item data for synchronization. 
 
 4. On the _Process Data_ (BC501500) form, process the stock item data prepared for synchronization. 
@@ -13283,6 +13457,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 8. On the _Process Data_ form, process the product image data prepared for synchronization. 
 
 9. In the admin area of the Shopify store, review the exported images. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 317 
 
 #### System Preparation 
 
@@ -13316,7 +13494,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. On the _Stock Items_ (IN202500) form, select the _APJAM08_ inventory item. 
 
-2. On the **Attributes** tab, drag each of the files you downloaded to the Image area.     The files are attached to the form. You can browse them in the Image area or access them by clicking **Files**     on the form title bar. The image that is visible in the Image area, aer being exported, will be the main image     of the product in the Shopify store. 
+2. On the **Description** tab, drag each of the files you downloaded to the Image area.     The files are attached to the form. You can browse them in the Image area or access them by clicking **Files**     on the form title bar. The image that is visible in the Image area, aer being exported, will be the main image     of the product in the Shopify store. 
 
 3. On the **eCommerce** tab, in the **Media URLs** table, add a row and specify the following settings of the image     in the added row: 
 
@@ -13325,10 +13503,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - **Type** : _Image_ 
 
 4. On the form toolbar, click **Save**. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 313 
 
 #### Step 2: Preparing the Stock Item Data for Synchronization 
 
@@ -13342,7 +13516,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. In the table, select the check box in the unlabeled column in the row of the _Stock Item_ entity, and on the     form toolbar, click **Prepare**. 
 
-3. In the **Processing** dialog box, which opens, review the results of the processing, and click **Close** to close the     dialog box and return to the _Prepare Data_ form.     Notice that the **Prepared Records** column shows the number of synchronization records that have been     prepared and are ready to be processed. 
+3. In the **Processing** dialog box, which opens, review the results of the processing, and click **Close** to close the     dialog box and return to the _Prepare Data_ form. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 318 
+
+ Notice that the Prepared Records column shows the number of synchronization records that have been prepared and are ready to be processed. 
 
 #### Step 3: Processing the Prepared Stock Item Data 
 
@@ -13360,7 +13540,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. In the le menu, click **Products**. 
 
-2. On the **Products** page, which opens, click the row of the _Apple jam 8 oz._ product to open the product     management page of this product.     Notice that the **Media** section contains only one image, which you added as an external link to the **Media**     **URLs** table on the **eCommerce** tab of the _Stock Items_ (IN202500) form. Images added to this table are     synchronized as part of the synchronization of the _Stock Item_ entity.     In the next steps, you will synchronize the images that you uploaded on the **Attributes** tab of the _Stock_     _Items_ form. 
+2. On the **Products** page, which opens, click the row of the _Apple jam 8 oz._ product to open the product     management page of this product.     Notice that the **Media** section contains only one image, which you added as an external link to the **Media**     **URLs** table on the **eCommerce** tab of the _Stock Items_ (IN202500) form. Images added to this table are     synchronized as part of the synchronization of the _Stock Item_ entity.     In the next steps, you will synchronize the images that you uploaded on the **Description** tab of the _Stock_     _Items_ form. 
 
 #### Step 5: Preparing the Image Data for Synchronization 
 
@@ -13372,15 +13552,15 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Prepare Mode** : _Incremental_ Because you have not processed the _Product Image_ entity before, the system will prepare all images attached to the synchronized items as it would if _Full_ mode were selected. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 314 
-
  Note that images are synchronized only for stock and non-stock items that have been synchronized with the Shopify store. If an item has not been synchronized, images added to it will not be exported during the synchronization of the Product Image entity. 
 
 2. In the table, select the unlabeled check box in the row of the _Product Image_ entity, and on the form toolbar,     click **Prepare**. 
 
 3. In the **Processing** dialog box, which opens, review the results of the processing, and click **Close** to close the     dialog box and return to the _Prepare Data_ form.     Notice that the **Prepared Records** column shows the number of synchronization records that have been     prepared and are ready to be processed. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 319 
 
 #### Step 6: Processing the Prepared Image Data 
 
@@ -13404,17 +13584,17 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Entity** : _Product Image_ 
 
-2. Open the **Processed** tab.     The table displays synchronization records of the _Product Image_ entity, as shown in the following     screenshot. In the **External ID** column, notice that the identifier of each image in the Shopify store consists     of the identifier of the product and the identifier of the image. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 315 
+2. In the Filter List drop-down menu above the table, select _Processed_.     The table displays synchronization records of the _Product Image_ entity, as shown in the following     screenshot. In the **External ID** column, notice that the identifier of each image in the Shopify store consists     of the identifier of the product and the identifier of the image. 
 
  Figure: Synchronization records for the product images 
 
-3. In any row with the _Apple jam 8 oz._ external description, click the link in the **External ID** column to review     the item in the Shopify store. The product management page opens for the _Apple jam 8 oz._ product.     Notice that the **Media** section now contains three images. The two images uploaded on the **Attributes** tab     of the _Stock Items_ form were exported as part of the synchronization of the _Product Image_ entity. The main     product image (which is the image that appears larger than other thumbnails) is the image that is visible in     the Image area of the **Attributes** tab. 
+3. In any row with the _Apple jam 8 oz._ external description, click the link in the **External ID** column to review     the item in the Shopify store. The product management page opens for the _Apple jam 8 oz._ product.     Notice that the **Media** section now contains three images. The two images uploaded on the **Description** tab     of the _Stock Items_ form were exported as part of the synchronization of the _Product Image_ entity. The main     product image (which is the image that appears larger than other thumbnails) is the image that is visible in     the Image area of the **Description** tab. 
 
 4. In the upper right, click **Preview** , and review how the imported images are displayed on the product page     on the storefront. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 320 
 
 5. At the top of the page, click **Catalog**. Locate the _Apple jam 8 oz._ product and review how the main product     image is displayed on the product listing page. 
 
@@ -13438,10 +13618,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - You manage product information in the external system, have updated any product settings aer the     product was synchronized with Acumatica ERP, and need the changes to be reflected in the corresponding     inventory items in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 316 
-
 #### Configuration of Importing Products 
 
  Before initially importing products from the Shopify store to Acumatica ERP, you need to specify the needed store settings. To do this, on the Shopify Stores (BC201010) form, you select the store and perform the following general steps: 
@@ -13455,6 +13631,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - Select an auto-numbering sequence in the **Inventory Numbering Sequence** box. The system uses this     numbering sequence to generate inventory identifiers for imported stock and non-stock items. 
 
  Regardless of whether you specify any numbering sequence, the system adds a row for each imported item on the Cross-Reference tab of the Stock Items or Non-Stock Items form. In the row, it inserts the product SKU from the external system as an alternate ID of the External SKU type. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 321 
 
 3. You specify the default item classes for imported items in the **Item Class for Stock Items** and **Item Class for**     **Non-Stock Items** boxes on the **Inventory Settings** tab ( **Import Settings** section). 
 
@@ -13476,10 +13656,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  The import of products from the Shopify store has the following limitations: 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 317 
-
 - The length of the product SKU must not exceed the length of the _INVENTORY_ segmented key configured on     the _Segmented Keys_ (CS202000) form; otherwise, the import fails. 
 
 - Products with the _Archived_ status are excluded from import. 
@@ -13498,6 +13674,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 3. Checks if the SKU matches an alternate ID of the _External SKU_ type 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 322 
+
 ### Product Import: Settings of Imported Items 
 
  You can import products that have been defined in the Shopify store instead of creating them manually in Acumatica ERP. The imported products are defined as stock or non-stock items on the Stock Items (IN202500) or Non-Stock Items (IN202000) form. 
@@ -13506,15 +13686,11 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  During the import of a product, some settings of the stock or non-stock item created on the Stock Items (IN202500) or Non-Stock Items (IN202000) form, are imported from the Shopify store, whereas other settings are copied from the item class assigned to the item. To determine which item class the system should assign to the item, it uses the type of the imported product from the Type box in the Product organization section of the product management page in the Shopify store and does the following until it finds a class: 
 
-1. Checks whether the product type is mapped to any item class in the store’s substitution list, which is     specified in the **Substitution List for Item Classes** box on the **Inventory** tab ( **Import Settings** section) of     the _Shopify Stores_ (BC201010) form. 
+1. Checks whether the product type is mapped to any item class in the store's substitution list, which is     specified in the **Substitution List for Item Classes** box on the **Inventory** tab ( **Import Settings** section) of     the _Shopify Stores_ (BC201010) form. 
 
 2. Checks whether the product type is the same as any item class that has been defined on the _Item Classes_     (IN201000) form. 
 
 3. Assigns the default item class that has been specified for the store. It finds this class in the **Item Class for**     **Stock Items** or **Item Class for Non-Stock Items** box of the **Inventory** tab ( **Import Settings** section) of the     _Shopify Stores_ form. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 318 
 
 #### Item Settings Imported from the External System 
 
@@ -13542,7 +13718,11 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Cross-Reference tab 
 
- Alternate ID (in a row with the External SKU alternate type) SKU 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 323 
+
+ Acumatica ERP Element Shopify Element Alternate ID (in a row with the External SKU alternate type) SKU 
 
  Alternate ID (in a row with the Barcode alternate type) Barcode 
 
@@ -13570,11 +13750,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Weight 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 319 
-
- Acumatica ERP Element Shopify Element Weight UOM 
+ Weight UOM 
 
  The system populates the box for only stock items. 
 
@@ -13593,6 +13769,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 #### Assignment of the Vendor 
 
  During the import of a product, if the product has a vendor specified in the Vendor box in the Product organization section of the product management page in the Shopify store, and this vendor matches any existing vendor name in the Account Name box on the General tab of the Vendors (AP303000) form, the system adds a row with this vendor on the Vendors tab to the corresponding stock or non-stock item created or updated on the Stock Items (IN202500) or Non-Stock Items (IN202000) form. Also, the system selects the Default check box in the row with the added vendor. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 324 
 
 ### Product Import: To Import Stock Items 
 
@@ -13615,10 +13795,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 2. On the _Shopify Stores_ (BC201010) form, perform the minimum configuration of the settings required for the     import of stock items from the Shopify store to Acumatica ERP 
 
 3. On the _Prepare Data_ (BC501000) form, prepare product data for import 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 320 
 
 4. On the _Process Data_ (BC501500) form, process the product data prepared for import 
 
@@ -13648,7 +13824,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  In the Shopify store, create products to be imported to Acumatica ERP as follows: 
 
-1. Do the following to create the Blueberry Jam 8 oz product:     a. In the le menu, click **Products**.     b. On the **Products** page, which opens, in the upper right, click **Add product**.     c. On the **Add product** page, which opens, specify the following settings: 
+1. Do the following to create the Blueberry Jam 8 oz product: 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 325 
+
+ a. In the le menu, click Products. b. On the Products page, which opens, in the upper right, click Add product. c. On the Add product page, which opens, specify the following settings: 
 
 - **Title** : Blueberry Jam 8 oz 
 
@@ -13670,10 +13852,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **SKU (Stock Keeping Unit)** ( **Inventory** section) : BLJAM32 d. In the upper right, click **Save** to save the product. The product management page opens with the created product. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 321 
-
 3. Do the following to create the Blueberry Jam 96 oz product:     a. In the le menu, click **Products**.     b. On the **Products** page, which opens, in the upper right, click **Add product**.     c. On the **Add product** page, which opens, specify the following settings: 
 
 - **Title** : Blueberry Jam 96 oz 
@@ -13694,6 +13872,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Sync Direction** : _Import_ When you change the sync direction, notice that the system inserts _External System_ in the **Primary System** column for the _Stock Item_ entity. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 326 
+
 #### Step 3: Specifying the Inventory Settings 
 
  To specify the settings that will be used by default for importing stock items from the Shopify store to Acumatica ERP, do the following: 
@@ -13702,7 +13884,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. In the **Import Settings** section, specify the following settings: 
 
-- **Inventory Numbering Sequence** : Empty (the default value)     Based on this setting, the system assigns inventory identifiers to items imported to Acumatica ERP based     on the stock-keeping unit (SKU) of the corresponding products in the Shopify store. 
+- **Inventory Numbering Sequence** : Empty (the default value)     Based on this setting, the system assigns inventory identifiers to items imported to Acumatica ERP based     on the stock keeping unit (SKU) of the corresponding products in the Shopify store. 
 
 - **Item Class for Stock Items** : _ALLOTHER_     This is the default item class based on which stock item records will be created in Acumatica ERP for     products imported from the online store. 
 
@@ -13722,13 +13904,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 3. On the form toolbar, click **Prepare**. 
 
-4. In the **Processing** dialog box, which opens, click **Close**. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 322 
-
- In the table row with the Stock Item entity, notice that the Ready to Process column shows the number of synchronization records that have been prepared and are ready to be processed. 
+4. In the **Processing** dialog box, which opens, click **Close**.     In the table row with the _Stock Item_ entity, notice that the **Ready to Process** column shows the number of     synchronization records that have been prepared and are ready to be processed. 
 
 #### Step 5: Processing the Prepared Product Data 
 
@@ -13743,6 +13919,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 4. In the **Processing** dialog box, which opens, review the results of the processing.     Notice that the system has processed two products (as you can see on the **Processed** tile) and failed to     process the third one ( **Errors** tile). 
 
 5. Click the **Errors** tile. The system expands the table with the results of the processing.     Because you have specified no inventory numbering sequence for import settings in Step 3, the system     assigns inventory identifiers to imported items based on the stock-keeping unit of the corresponding     products. The _Blueberry Jam 96 oz_ product has no SKU defined in the Shopify store, so the system has failed     to import it and assigned it the _Failed_ status. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 327 
 
 6. Click **Close** to close the dialog box. 
 
@@ -13766,13 +13946,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 6. Close the pop-up window with the _Stock Items_ form. 
 
-7. On the **Processed** tab of the _Sync History_ form, to which you return, in the row with the _Blueberry Jam 32_     _oz_ external description, click the link in the **ERP ID** column to review the imported stock item. The system     opens the _Stock Items_ form in a pop-up window with the item selected. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 323 
-
- In the Summary area, notice that the system has inserted the product's SKU, BLJAM32 , as the item's identifier and that the Blueberry Jam 32 oz item description matches the product title in the external system. On the General tab, notice that the system has assigned the item the ALLOTHER item class. Because the Blueberry Jam 32 oz product has no product type specified in the Shopify store, the system could not find a corresponding item class on the Item Classes form. Thus, it assigned the item the default item class for the import of stock items (which you specified in Step 3). 
+7. On the **Processed** tab of the _Sync History_ form, to which you return, in the row with the _Blueberry Jam 32_     _oz_ external description, click the link in the **ERP ID** column to review the imported stock item. The system     opens the _Stock Items_ form in a pop-up window with the item selected.     In the Summary area, notice that the system has inserted the product's SKU, _BLJAM32_ , as the item's     identifier and that the _Blueberry Jam 32 oz_ item description matches the product title in the external system.     On the **General** tab, notice that the system has assigned the item the _ALLOTHER_ item class. Because the     _Blueberry Jam 32 oz_ product has no product type specified in the Shopify store, the system could not find a     corresponding item class on the _Item Classes_ form. Thus, it assigned the item the default item class for the     import of stock items (which you specified in Step 3). 
 
 8. Close the pop-up window with the _Stock Items_ form. 
 
@@ -13787,6 +13961,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 2. In the **SKU (Stock Keeping Unit)** box ( **Inventory** section), enter BLJAM96. 
 
 3. In the upper right, click **Save** to save your changes to the product. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 328 
 
 4. Go back to the browser tab with the _Sync History_ form. 
 
@@ -13805,10 +13983,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 ### Product Availability: General Information 
 
  Acumatica ERP Retail Edition provides you with the ability to track the availability of stock items that you sell via the Shopify store and maintain in Acumatica ERP. You have the flexibility to configure which quantities of a stock item should be included in calculations of the quantity available for sale in the online store. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 324 
 
 #### Learning Objectives 
 
@@ -13834,17 +14008,21 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 3. Determine the stock items for which available quantities should be exported. For more information, see the     _Tracking Available Quantities of Exported Stock Items_ section below. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 329 
+
 #### Tracking Available Quantities of Exported Stock Items 
 
  You can track available quantities of stock items exported to a Shopify store and make them available for purchase via the storefront only when they are in stock. You can also determine how the system should handle items that go out of stock. 
 
  To make an exported stock item available for purchase via the storefront and enable quantity tracking for it, on the eCommerce tab of the Stock Items (IN202500) form, you select Set as Available (Track Qty.) in the Availability box. 
 
- When the item is synchronized, in Shopify, on the product management page for the item, the Online Store sales channel is listed below the product status and the Track quantity check box in the Inventory section is selected. 
+ When the item is synchronized, in Shopify, on the product management page for the item, the Online Store sales channel is listed below the product status and the Inventory tracked toggle in the Inventory section is switched on. 
 
  If you select the Set as Available (Track Qty.) option in the Availability box, you need to also specify the action that the system should perform with stock items whose quantities become zero, as follows: 
 
-- To make the item unavailable for purchase via the storefront, select _Set as Unavailable_ in the **When Qty.**     **Unavailable** box. In Shopify, on the product management page for each of these items, the **Track quantity**     check box (in the **Inventory** section) will become cleared and the _Online Store_ sales channel below the     product status will disappear. 
+- To make the item unavailable for purchase via the storefront, select _Set as Unavailable_ in the **When Qty.**     **Unavailable** box. In Shopify, on the product management page for each of these items, the **Inventory**     **tracked** toggle (in the **Inventory** section) will become switched off and the _Online Store_ sales channel below     the product status will disappear. 
 
 - To make the item unavailable for purchase via the storefront but available for pre-order, select _Set as Pre-_     _Order/Continue Selling_ in the **When Qty. Unavailable** box. The system will select the **Continue selling when**     **out of stock** check box for the item in the Shopify store. 
 
@@ -13852,13 +14030,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 #### Synchronization of Availability Settings 
 
- The availability (purchasability) settings of a stock item in the Shopify store are updated as part of the synchronization of the Stock Item entity. During the synchronization, the system updates the availability settings of 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 325 
-
- each item exported to Shopify based on the option selected in the Availability box on the eCommerce tab of the Stock Items (IN202500) form. 
+ The availability (purchasability) settings of a stock item in the Shopify store are updated as part of the synchronization of the Stock Item entity. During the synchronization, the system updates the availability settings of each item exported to Shopify based on the option selected in the Availability box on the eCommerce tab of the Stock Items (IN202500) form. 
 
  For stock items whose quantities are tracked and have been synchronized with the Shopify store, during the synchronization of the Stock Item entity, the system also checks if the item is in stock (See the Synchronization of Available Quantities section below). If the item has no available quantity (that is, its calculated quantity is less than or equal to zero), the system also updates the item's purchasability settings according to the When Qty. Unavailable setting specified on the eCommerce tab of the Stock Items form. 
 
@@ -13871,6 +14043,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
  During the synchronization, the system updates the item's quantity in Shopify based on the Warehouse Mode and Availability Mode settings specified on the Inventory tab of the Shopify Stores (BC201010) form. For details, see Product Availability: Calculation of Available Quantities. 
 
  If the item has no available quantity (that us its calculated quantity is less than or equal to zero), the system also updates the item's purchasability settings according to the When Qty. Unavailable setting specified on the eCommerce tab of the Stock Items form. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 330 
 
 #### Units of Measure of Available Item Quantities 
 
@@ -13890,11 +14066,9 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - _Available for Shipping_ : The system synchronizes the quantity available for shipping. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 326 
-
 - _Available_ : The system synchronizes the available quantity. You can configure the way the available quantity     is calculated by using an availability calculation rule. For more information, see _Availability Calculation Rules: General Information_. 
+
+ The connector exports product quantities only from regular cost layers. Quantities from special orders and projectrelated cost layers are excluded from the product availability export. For more information about cost layers, see Tracking of Costs at Warehouses and Locations. 
 
 #### Selection of the Warehouse Mode 
 
@@ -13902,7 +14076,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - _All Warehouses_ : To calculate the available quantity of the item in the Shopify store based on the quantity     of the item in all warehouses. If _All Warehouses_ warehouse mode is selected and multiple locations exist in     the Shopify store, the available quantities of items are synchronized with the first location created in the     Shopify store. 
 
-- _Specific Warehouses_ : To calculate the available quantity of the item based on the quantity in the selected     warehouses and warehouse locations.     When you select this option, the **Warehouse Mapping for Inventory Export** table appears below the     **Warehouse Mode** box. In this table, you specify a list of warehouses and warehouse locations to be used the     calculation of item availability. If multiple warehouse locations have been created in the Shopify store, you     can specify which Shopify location should be updated with the availability data from a particular warehouse     or warehouse location from Acumatica ERP.     The **Warehouse Mapping for Inventory Export** table contains the following columns: 
+- _Specific Warehouses_ : To calculate the available quantity of the item based on the quantity in the selected     warehouses and warehouse locations.     When you select this option, the **Warehouse Mapping for Inventory Export** table appears below the     **Warehouse Mode** box. In this table, you specify a list of warehouses and warehouse locations to be used the     calculation of item availability. If multiple warehouse locations have been created in the Shopify store, you 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 331 
+
+ can specify which Shopify location should be updated with the availability data from a particular warehouse or warehouse location from Acumatica ERP. The Warehouse Mapping for Inventory Export table contains the following columns: 
 
 - **Warehouse** (required): A warehouse from Acumatica ERP that holds inventory items whose availability     data should be exported to the Shopify store. You can select a warehouse from the list of all active     warehouses that have been created on the _Warehouses_ (IN204000) form. 
 
@@ -13922,13 +14102,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  You can manually adjust the available quantity calculated for an item by specifying a value in the Availability Adjustment box on the eCommerce tab of the Stock Items (IN202500) form. 
 
- You specify the adjustment quantity in the sales UOM of the item. Acceptable values include whole numbers and decimal numbers. To increase the available quantity, you should use a positive value not preceded by any sign. To 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 327 
-
- decrease the available quantity, precede the value with the minus sign. Percentage values (for example, 10% ) are not accepted. 
+ You specify the adjustment quantity in the sales UOM of the item. Acceptable values include whole numbers and decimal numbers. To increase the available quantity, you should use a positive value not preceded by any sign. To decrease the available quantity, precede the value with the minus sign. Percentage values (for example, 10% ) are not accepted. 
 
 ### Product Availability: To Export Product Availability Data 
 
@@ -13938,7 +14112,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 #### Story 
 
- Suppose that the SweetLife Fruits & Jams company sells several kinds of jams in its online store. By default, items should be available for purchase in the store only if they are in stock. Some of the jams, however, need to be available for purchase all the time, regardless of their stock levels. The jams can be ordered in the online store as follows: 
+ Suppose that the SweetLife Fruits & Jams company sells several kinds of jams in its online store. By default, items should be available for purchase in the store only if they are in stock. Some of the jams, however, need to be 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 332 
+
+ available for purchase all the time, regardless of their stock levels. The jams can be ordered in the online store as follows: 
 
 - Banana jams ( _BANJAM96_ and _BANJAM08_ ) should be available for purchase only if there is enough stock. 
 
@@ -13968,10 +14148,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  PLUMJAM08 Set as Available (Track Qty.) Do Nothing 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 328 
-
 #### Process Overview 
 
  In this activity, you will do the following: 
@@ -13989,6 +14165,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
  Before you complete the instructions in this activity, do the following: 
 
 1. Make sure that the following prerequisites have been met: 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 333 
 
 - The Shopify store has been created and configured, as described in _Initial Configuration: To Set Up a_     _Shopify Store_. 
 
@@ -14028,10 +14208,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Location ID** : _JS1_ 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 329 
-
 - **Shopify Location** : _Shop location_ (which is the only location that was created when you were registering     the _SweetStore - SP_ store) For each item, only its quantity available for shipping at the _JS1_ location in the _RETAIL_ warehouse is synchronized with the Shopify store's location. 
 
 3. On the form toolbar, click **Save** to save the settings. 
@@ -14042,7 +14218,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. Open the _Storage Details by Item Warehouse Location_ (IN408055) form. 
 
-2. Click the header of the **Location ID** column, and in the dialog box that opens, select _Equals_ , type JS1 in the     text box, and click **OK**.     The system now displays only the items that are stored in the _JS1_ warehouse location. Because in Step 1     you have set the **Availability Mode** setting to _Available for Shipping_ , the quantities of the items displayed     in the **Qty. Available for Shipping in Location** column (which is shown in the following screenshot) will be     synchronized with the Shopify store. Notice that the _BANJAM96_ and _PLUMJAM96_ stock items are available at     the _JS1_ location (a nonzero quantity is displayed for each of these items in the **Qty. Available for Shipping**     **in Location** column), whereas the _BANJAM08_ and _PLUMJAM08_ stock items have zero quantities. 
+2. Click the header of the **Location ID** column, and in the dialog box that opens, select _Equals_ , type JS1 in the     text box, and click **Apply**.     The system now displays only the items that are stored in the _JS1_ warehouse location. Because in Step 1     you have set the **Availability Mode** setting to _Available for Shipping_ , the quantities of the items displayed     in the **Qty. Available for Shipping in Location** column (which is shown in the following screenshot) will be     synchronized with the Shopify store. Notice that the _BANJAM96_ and _PLUMJAM96_ stock items are available at 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 334 
+
+ the JS1 location (a nonzero quantity is displayed for each of these items in the Qty. Available for Shipping in Location column), whereas the BANJAM08 and PLUMJAM08 stock items have zero quantities. 
 
  Figure: Quantities available for shipping at the JS1 location of the RETAIL warehouse 
 
@@ -14060,10 +14242,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 3. On the form toolbar, click **Prepare**. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 330 
-
 4. In the **Processing** dialog box, which opens, click **Close** to close the dialog box. 
 
 5. Click the link in the **Ready to Process** column in the row of the _Product Availability_ entity.     The _Process Data_ (BC501500) form opens with the _SweetStore - SP_ store and the _Product Availability_ entity     selected in the Summary area. 
@@ -14078,21 +14256,27 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. In the le menu, click **Products**. 
 
-2. On the **Products** page, click the row of _Banana jam 96 oz._.     On the product management page for the _Banana jam 96 oz._ stock item, which opens, in the **Inventory**     section, notice that the **Track quantity** check box is selected and the **Continue selling when out of stock**     check box is cleared. In the only line in the **Quantity** table, notice that the quantity in the **Available** column     is _40_. 
+2. On the **Products** page, click the row of _Banana jam 96 oz._. 
 
-3. In the le menu, click **Products** to return to the list of products. 
 
-4. On the **Products** page, click the row of _Banana jam 8 oz._.     On the product management page for the _Banana jam 8 oz._ stock item, which opens, in the **Inventory**     section, notice that the **Track quantity** check box is selected, the **Continue selling when out of stock**     check box is cleared. In the only line in the **Quantity** table, notice that the quantity in the **Available** column     is zero. 
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 335 
 
-5. At the top of the page, click **Preview**. 
+ On the product management page for the Banana jam 96 oz. stock item, which opens, in the Inventory section, notice that the Inventory tracked toggle is switched on. 
 
-6. On the product page, notice that the _Sold out_ message is displayed for the _Banana jam 8 oz_ item and this     item is not available for purchase. 
+3. At the bottom right of the **Inventory** section, click the arrow-down icon to expand the section. Notice that     the **Continue selling when out of stock** check box is cleared. In the only line in the **Quantity** table, notice     that the quantity in the **Available** column is _40_. 
 
-7. Return to the admin area of the Shopify store. 
+4. In the le menu, click **Products** to return to the list of products. 
 
-8. On the **Products** page, click the row of _Plum jam 8 oz._.     On the product management page for the _Plum jam 8 oz._ stock item, which opens, in the **Inventory** section,     notice that the **Track quantity** check box and the **Continue selling when out of stock** check box are     selected. In the only line in the **Quantity** table, notice that the quantity in the **Available** column is zero,     which means that _Plum jam 8 oz._ is still available for purchase despite that this item is not in stock. 
+5. On the **Products** page, click the row of _Banana jam 8 oz._.     On the product management page for the _Banana jam 8 oz._ stock item, which opens, in the **Inventory**     section, notice that the **Inventory tracked** toggle is switched on and the **Continue selling when out of**     **stock** check box is cleared (click the arrow-down icon at the bottom right of the section to expand the     section if needed). In the only line in the **Quantity** table, notice that the quantity in the **Available** column is     zero. 
 
-9. At the top of the page, click **Preview**. 10.On the product page, notice that the _Plum jam 8 oz._ item is available for purchase. 
+6. At the top of the page, click **Preview**. 
+
+7. On the product page, notice that the **Sold out** button is displayed for the _Banana jam 8 oz_ item and this item     is not available for purchase. 
+
+8. Return to the admin area of the Shopify store. 
+
+9. On the **Products** page, click the row of _Plum jam 8 oz._.     On the product management page for the _Plum jam 8 oz._ stock item, which opens, in the **Inventory** section,     notice that the **Inventory tracked** toggle is switched on and the **Continue selling when out of stock**     check box is selected (click the arrow-down icon at the bottom right of the section to expand the section     if needed). In the only line in the **Quantity** table, notice that the quantity in the **Available** column is zero,     which means that _Plum jam 8 oz._ is still available for purchase despite that this item is not in stock. 10.At the top of the page, click **Preview**. 11.On the product page, notice that the _Plum jam 8 oz._ item is available for purchase. 
 
 ### Synchronizing Sales Price Lists 
 
@@ -14101,10 +14285,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 ### Sales Price Lists: General Information 
 
  You export price lists defined in Acumatica ERP to the Shopify store. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 331 
 
  This functionality is available if both the Shopify Connector feature and the Business-to-Business Entities feature are enabled on Enable/Disable Features (CS100000) form. 
 
@@ -14119,6 +14299,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - Export price lists defined for customer price classes in Acumatica ERP to the Shopify store 
 
 - Define volume prices and quantity rules at the price-list level and export them to the Shopify store 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 336 
 
 #### Applicable Scenarios 
 
@@ -14150,10 +14334,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - If the _Volume Pricing_ feature is enabled, **Break Qty** is set to a positive whole number. Only prices that are effective on the date of the synchronization are exported. If both a regular price and a promotional price exist for the same item, customer price class, UOM, and currency, the promotional price is exported, whereas the regular price is skipped during the synchronization. For more information on price lists, see _Sales Prices: General Information_. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 332 
-
 #### Configuration of Quantity Rules 
 
  To define the minimum quantity of an item that can be sold in the Shopify store, you create a price of the Customer Price Class type for the item on the Sales Prices (AR202000) form. For the price, you specify a whole number greater than 1 as the break quantity. 
@@ -14163,6 +14343,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
  If an item has multiple prices with the same customer price class, UOM, and currency but with different break quantities on the Sales Prices form, during the export, the system uses the lowest break quantity as the minimum quantity. 
 
  If an item has only a price with a break quantity of either 0 or 1 , the system does not create quantity rules for the product. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 337 
 
 #### Configuration of Volume Pricing 
 
@@ -14182,10 +14366,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  A customer price class can be assigned to a customer location on the Customer Locations (AR303020) form. If the location belongs to a business customer—that is, if Customer Category is set to Organization for the customer on the Customers (AR303000) form—during the synchronization of the Price List entity, the corresponding location in the Shopify store is added to the exported catalog. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 333 
-
  Items, customers, and customer locations must be synchronized with the Shopify store before the price lists can be exported. 
 
  Any changes that have made to the exported catalog in the Shopify store are overwritten during the next synchronization of the price list. 
@@ -14197,6 +14377,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
  The following limitations apply to the exporting of price lists to Shopify: 
 
 - A maximum of 11 price tiers can be exported per item in a price list with volume pricing. Price tiers beyond     the limit are skipped. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 338 
 
 - In the admin area of the Shopify store, the incremental value for new quantity rules created during the     export is always _1_ and is not updated. For example, if the incremental value is changed for the quantity     rules, the system does not update it during the subsequent imports. 
 
@@ -14224,10 +14408,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - Configure the synchronization of payments between Acumatica ERP and the Shopify store 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 334 
-
 - Import sales orders with payments from the Shopify store to Acumatica ERP 
 
 - Configure card payment processing in Acumatica ERP and Shopify 
@@ -14237,6 +14417,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
  The synchronization of orders is the main scenario for the integration between an ERP system and an external ecommerce system. You set up the import of orders from the Shopify store to Acumatica ERP so that you can process the imported orders further, for example, create a shipment, invoice the customer, and process the payment. 
 
  You set up the import of payments if you want to track them within Acumatica ERP. For card payments, you may want to set up integrated card processing so that you can capture the payment in Acumatica ERP aer the order has been shipped. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 339 
 
 #### Minimal Configuration of Order Synchronization 
 
@@ -14262,10 +14446,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - Specifying a guest customer in the **Generic Guest Customer** box on the **Customers** tab, When the system imports orders from the Shopify store, the guest customer is assigned as the customer for each created sales order. The system does not import customers from the store and does not create new customer records. On the **Addresses** tab of the _Sales Orders_ (SO301000), the system selects the **Override Contact** and **Override Address** check boxes and fills in the ship-to and bill-to information with the corresponding customer's data from the Shopify store. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 335 
-
 #### The Order Time Zone 
 
  While you are performing the initial configuration of the Shopify store, on the Orders tab of the Shopify Stores (BC201010) form, you can specify the Order Time Zone that the system will use for each sales order imported from the Shopify store when it is created in Acumatica ERP. The order time zone is needed to determine the correct date and time of the order if Acumatica ERP and the Shopify store are located in different time zones. 
@@ -14273,6 +14453,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 #### Limiting the Date Range for Order Import 
 
  If you have had the Shopify store for a while before implementing Acumatica ERP, you might want to prevent old orders from being imported to Acumatica ERP when you start synchronizing orders. On the Orders tab of the Shopify Stores (BC201010) form, you specify the Earliest Order Date. Orders created before this date in the Shopify store will be excluded from synchronization between Acumatica ERP and the Shopify store. Payments and shipments created for such orders are excluded from synchronization too. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 340 
 
 #### Tracking Imported Sales Orders in the Shopify Store 
 
@@ -14294,19 +14478,19 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - In the **ERP Payment Method** column, you select the payment method defined in Acumatica ERP for     the store payment method. Payments imported from the Shopify store to Acumatica ERP will have this     payment method inserted. For information about setting up payment methods in Acumatica ERP, see _Cash_     _Management: Payment Methods_. 
 
-- In the **Cash Account** column, you select a cash account associated with the payment method. The cash     account must be in the currency of the store payment method and belong to the branch selected on the     **Orders** tab. For information about setting up cash accounts in Acumatica ERP, see _Cash Management: Cash_     _Accounts_ and _Configuring Cash Accounts_. 
+ We recommend mapping the PAYPAL payment method to a Cash/Check ERP payment method. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 336 
-
- You can also indicate that payments that are imported from the Shopify store should be automatically released as soon as they are imported by selecting the check box in the Release Payments and Refunds column. If refunds issued in the store should be imported to Acumatica ERP, you select the Import Refunds check box. 
+- In the **Cash Account** column, you select a cash account associated with the payment method. The cash     account must be in the currency of the store payment method and belong to the branch selected on the     **Orders** tab. For information about setting up cash accounts in Acumatica ERP, see _Cash Management: Cash_     _Accounts_ and _Configuring Cash Accounts_. You can also indicate that payments that are imported from the Shopify store should be automatically released as soon as they are imported by selecting the check box in the **Release Payments and Refunds** column. If refunds issued in the store should be imported to Acumatica ERP, you select the **Import Refunds** check box. 
 
 #### Synchronization of Sales Orders and Payments 
 
  Orders are imported from a Shopify store during the synchronization of the Sales Order entity. During the data processing stage of the order import, the system does the following in Acumatica ERP: 
 
 1. Creates a sales order on the _Sales Orders_ (SO301000) form. For information about the details and settings     that the system inserts in the created sales order, see _Sales Order Entity_. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 341 
 
  Note that orders that have the Archived status in the Shopify store are filtered during the order import. That is, for each order with this status, the system creates a synchronization record and assigns it the Filtered status on the Sync History (BC301000) form. 
 
@@ -14322,7 +14506,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 337 
+ Integration with Shopify | 342 
 
 #### Synchronization of Payments 
 
@@ -14336,25 +14520,11 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 338 
+ Integration with Shopify | 343 
 
  If the sales order has been fully invoiced, the system cannot apply the prepayment to the sales order. In this case, the prepayment is applied to the invoice or invoices created for the sales order. 
 
  If the sales order has been partially invoiced, the prepayment is applied to the sales order only in the amount equal to the unbilled amount of the sales order. You need to manually apply the remaining amount to the invoice or invoices. 
-
-#### Synchronization of Sales Orders in the Default Store Currency 
-
- Your Shopify store can support multiple currencies so that customers can pay their orders not only in the default store currency. In this case, if you do not need multicurrency accounting in Acumatica ERP, you can import orders and the related payments and refunds from Shopify using only the default store currency. 
-
- To make the system import documents from the Shopify store in only the default store currency, you select the Import in External Default Currency check box on the Orders tab of the Shopify Stores (BC201010) form. You also configure mappings of store payment methods with Acumatica ERP payment methods using the default store currency on the Payments tab. 
-
- With these settings specified, the system imports orders from the Shopify store in the default store currency even if they were paid in another currency. The system also imports all the documents related to these orders as payments and refunds in the default store currency. 
-
- The following limitations apply to the import of documents in the default store currency: 
-
-- If a Shopify order has already been imported to Acumatica ERP in a currency that is different than the     default store currency, and then the **Import in External Default Currency** check box is selected on the     **Orders** tab of the _Shopify Stores_ form, all the documents related to that order will be imported in the same     order currency. 
-
-- If a credit card payment is imported to Acumatica ERP in a currency other than the one in which the     customer paid in the Shopify store, the payment can be captured, voided, or refunded only in the Shopify     store. 
 
 #### Import of the Shipping Price 
 
@@ -14374,10 +14544,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  You can also configure the system to change a guest customer account aer a particular number of sales orders have been created for this account. You do so by selecting the Use Multiple Guest Accounts check box. When the maximum allowed number of sales orders is exceeded, the system creates a new customer and inserts its identifier in the Generic Guest Customer box. The settings of the new customer account are copied from the previous generic guest customer account, and its identifier is generated based on the numbering sequence specified in the Customer Numbering Sequence box. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 339 
-
  By default, the allowed number of sales orders per guest customer account is limited to 10,000. You can override this number by adding the MaxOrdersPerGuestAccount key to the <appSettings> section of the web.config file. For example, to change the guest customer account aer every 500 sales orders, add the following key: 
 
  <add key="MaxOrdersPerGuestAccount" value="500"/> 
@@ -14391,6 +14557,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 #### Implementation Checklist 
 
  We recommend that before you initially import orders from the Shopify store, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 344 
 
  Table: Checklist for Order Import if Payments Do Not Require Processing 
 
@@ -14420,10 +14590,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - On the **Payments** tab, the payment mapping has been defined for     store payment methods representing payment gateways, as demon-     strated in the example of _Order Synchronization: To Configure and Im-_     _port Shopify Payments_. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 340 
-
 #### Other Settings That Affect the Workflow 
 
  You can affect the workflow of the import of orders and payments by specifying additional settings. To automatically release payments related to the imported order, select the Release Payments and Refunds check box for the store payment method on the Payments tab of the Shopify Stores (BC201010) form. 
@@ -14435,6 +14601,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 ### Order Synchronization: Card Payments 
 
  In Acumatica ERP Retail Edition, users can import and, if necessary, process debit and credit card payments from external ecommerce systems through integration with payment gateways. The ability to use card-processing features, such as authorization, capture, voiding, and refunding card transactions, is available if the Integrated Card Processing feature is enabled on the Enable/Disable Features (CS100000) form. This topic explains how to configure payment providers for processing of payments made in the Shopify store aer they are imported to Acumatica ERP. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 345 
 
 #### Configuration of Shopify Payments for Integrated Card Processing 
 
@@ -14452,10 +14622,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 5. Map the card-based payment method with the Shopify Payments store payment method.     You map payment methods between Acumatica ERP and the Shopify store on the _Shopify Stores_ (BC201010)     form. When a payment is imported from the Shopify store to Acumatica ERP, a prepayment is created on the     _Payments and Applications_ (AR302000) form based on the payment method from Acumatica ERP that was     mapped to the payment method used for payment in the Shopify store. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 341 
-
  For step-by-step instructions on configuring and importing payments based on the Shopify Payments payment method, see Order Synchronization: To Configure and Import Shopify Payments. 
 
 #### Mapping of Card-Based Payment Methods 
@@ -14472,7 +14638,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Proc. Center ID** : The identifier of the processing center configured for the payment method on the     **Processing Centers** tab of the _Processing Centers_ (CA205000) form. 
 
-- **Release Payments and Refunds** : A check box that you select to indicate that the payment should be     immediately released aer it is imported to Acumatica ERP. If this check box is selected for a card-based     payment method associated with a credit card processing center in Acumatica ERP (that is, for the payment     method for which a processing center is selected in the **Proc. Center ID** column), only payments that have     been captured in the store will be automatically released on import. Payments that have been authorized     but not captured in the store need to be processed aer import and then released manually or by using the     _Release AR Documents_ (AR501000) form. 
+- **Release Payments and Refunds** : A check box that you select to indicate that the payment should be     immediately released aer it is imported to Acumatica ERP. If this check box is selected for a card-based 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 346 
+
+ payment method associated with a credit card processing center in Acumatica ERP (that is, for the payment method for which a processing center is selected in the Proc. Center ID column), only payments that have been captured in the store will be automatically released on import. Payments that have been authorized but not captured in the store need to be processed aer import and then released manually or by using the Release AR Documents (AR501000) form. 
 
 - **Process Refunds** : A check box that indicates (if selected) that refunds made to the payment method should     be imported to Acumatica ERP. This check box is selected and unavailable for card payment methods for     which a processing center is specified, which indicates that all refunds made to such payment methods     must be imported to Acumatica ERP. 
 
@@ -14494,13 +14666,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - On the _Cash Accounts_ (CA202000) form, the entry type has been added to the cash account specified in     the mapping for the Shopify Payments payment method. 
 
-2. Map Shopify Payments fees to the entry types in the **Shopify Fees** table on the _Shopify Stores_ form.     Initially, the **Shopify Fees** table is empty. During the first import of a payment containing Shopify Payments     fees, the synchronization fails, and the **Fee Type** column is populated with the Shopify Payments fees. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 342 
-
- You need to map each Shopify Payments fee type with an entry type by specifying the entry type of the Disbursement type in the ERP Entry Type column, and then sync the payment again. 
+2. Map Shopify Payments fees to the entry types in the **Payment Fees** table on the _Shopify Stores_ form.     Initially, the **Payment Fees** table is empty. During the first import of a payment containing Shopify     Payments fees, the synchronization fails, and the **Fee Type** column is populated with the Shopify Payments     fees. You need to map each Shopify Payments fee type with an entry type by specifying the entry type of the     _Disbursement_ type in the **ERP Entry Type** column, and then sync the payment again. 
 
 #### Import of Card Payments with Integrated Card Processing 
 
@@ -14518,7 +14684,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - _Captured_ : The funds have been captured. The last successful operation with the credit card transaction     was either _Authorize and Capture_ or _Capture Authorized_. 
 
-- _Pre-Auth./Capture Pending Validation_ : The last successful operation with the credit card transaction is     unknown. To get the correct processing status of the credit card transaction, you can use the **Validate**     **Card Payment** action on the _Payments and Applications_ form. On the **Card Processing** tab, the system creates a row for the last successful operation with the credit card transaction. In the **PC Response Reason** box, _Imported External Transaction_ indicates that the information about the credit card transaction operation has been imported from the external ecommerce system. The transaction operation can have one of the following types: 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 347 
+
+- _Pre-Auth./Capture Pending Validation_ : The last successful operation with the credit card transaction is     unknown. To get the correct processing status of the credit card transaction, you can use the **Validate**     **Card Payment** action on the _Payments and Applications_ form. 
+
+On the **Card Processing** tab, the system creates a row for the last successful operation with the credit card transaction. In the **PC Response Reason** box, _Imported External Transaction_ indicates that the information about the credit card transaction operation has been imported from the external ecommerce system. The transaction operation can have one of the following types: 
 
 - _Authorize Only_ : The payment was authorized when the order was placed but has not yet been captured. 
 
@@ -14530,11 +14702,11 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  If the Import in External Default Currency check box is selected for the store on the Orders tab of the Shopify Stores form, and the customer paid an order in the Shopify store in a currency other than the default store currency, the system imports the credit card payment to Acumatica ERP in the default store currency. This payment can be captured, voided, or refunded only in the Shopify store. 
 
- The following diagram illustrates the workflow of importing a sales order to Acumatica ERP from a Shopify store where it was placed and paid by a card based on a payment method for which integrated card processing has been configured in Acumatica ERP. 
+The following diagram illustrates the workflow of importing a sales order to Acumatica ERP from a Shopify store where it was placed and paid by a card based on a payment method for which integrated card processing has been configured in Acumatica ERP. 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 343 
+ Integration with Shopify | 348 
 
 #### Deferred Processing of Imported Credit Card Payments 
 
@@ -14544,7 +14716,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 344 
+ Integration with Shopify | 349 
 
  When you start the validation process, the system requests the status of the credit card transaction, and updates the processing status of the transaction and the status of the prepayment, if necessary. If the updated processing status of the transaction is Captured , the status of the prepayment changes to Balanced. If on the General Settings tab of the Accounts Receivable Preferences (AR101000) form, the Enable Integrated CC Processing check box is selected, the system releases the prepayment. 
 
@@ -14588,7 +14760,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 345 
+ Integration with Shopify | 350 
 
 4. On the _Payment Methods_ (CA204000) form, define a payment method that will represent payments based on     the Shopify Payments store payment method. 
 
@@ -14624,7 +14796,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  To activate integrated card processing, do the following: 
 
-1. On the _Accounts Receivable Preferences_ (AR101000) form, in the **Data Processing Settings** section, select     the _Enable Integrated CC Processing_ check box. 
+1. On the _Accounts Receivable Preferences_ (AR101000) form, in the **Data Processing Settings** section on the     **General** tab, select the _Enable Integrated CC Processing_ check box. 
 
 2. On the form toolbar, click **Save**. 
 
@@ -14644,11 +14816,11 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 346 
+ Integration with Shopify | 351 
 
 - **Active** : Selected 
 
-- **Payment Plug-In (Type)** : _Shopify Payments API plug-in_     The selected payment plug-in is a card processing plug-in supplied with Acumatica ERP that interacts     with the Shopify store. 
+- **Payment Plug-In (Type)** : _Shopify Payments API Plug-In_     The selected payment plug-in is a card processing plug-in supplied with Acumatica ERP that interacts     with the Shopify store. 
 
 3. On the **Plug-In Parameters** tab, in the table row of the _STORENAME_ parameter, select _SweetStore - SP_ in the     **Value** column. 
 
@@ -14698,17 +14870,15 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. In the le menu of the page that opens, click **Payments**. The **Payments** page opens. 
 
-3. In the **Shopify Payments** section, click **Complete account setup**. 
+3. In the **Shopify Payments** section, click **Activate Shopify Payments**. 
 
-4. On the **Complete account setup** page, which opens, click **Submit details**. 
-
-5. On the **Set up Shopify Payments** page, which opens, do the following: 
+4. On the **Set up Shopify Payments** page, which opens, do the following:     a. In **Step 1 of 4** , in the **I'm running my store as** section, select the **An individual** option button. 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 347 
+ Integration with Shopify | 352 
 
- a. In Step 1 of 4 , in the I'm running my store as section, select the An individual option button. b. In the lower right, click Next. c. In Step 2 of 4 , in the Account representative section, specify the following settings: 
+ b. In the lower right, click Next. c. In Step 2 of 4 , in the Account representative section, specify the following settings: 
 
 - **First name** : Your first mane 
 
@@ -14716,27 +14886,27 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Date of birth Name** : Your date of birth 
 
-- **Social Security number (SSN)** : Your SIN, for example, 345555555 
-
 - **Email** : Your email 
 
 - **Phone number** : 516 555 0150 d. In the **Residential address** section, specify the following settings: 
 
 - **Country/region** : _United States_ (selected by default) 
 
-- **Address** : 2330 Hoffman Avenue 
+- **Address** : 516 555 0150 
 
 - **City** : Elmont 
 
 - **State** : _New York_ 
 
-- **ZIP code** : 11003 e. In the lower right, click **Next**. f. In **Step 3 of 4** , in the **Industry type** section, specify the following settings: 
+- **ZIP code** : 11003 e. In the **Identification numbers** section, specify your SIN in the **Social Security number (SSN)** box, for example, 345555555. f. In the lower right, click **Next**. g. In **Step 3 of 4** , in the **Industry type** section, specify the following settings: 
 
 - **Category** : _Food and drink_ 
 
 - **Sub-category** : _Candy, nuts, and confectionaries_ 
 
-- **Description of products or services** : Fresh fruit, berries, and jams g. In the lower right, click **Next**. h. In **Step 4 of 4** , in the section with the company details, click **Confirm**. The section with the company details rolls up and the next section with the account representative details unrolls. j. In the section with the account representative details, click **Confirm**. The section with the account representative details rolls up and the **Review terms** section unrolls. k. In the **Review terms** section, click **Confirm**. l. In the lower right, click **Submit for verification**. The **Complete account setup** page opens with a notification saying that your information has been submitted for verification. 
+- **Description of products or services** : Fresh fruit, berries, and jams h. In the lower right, click **Next**. j. In **Step 4 of 4** , in the lower right, click **Submit for verification**. The **Complete account setup** page opens with a notification saying that your information has been submitted for verification. 
+
+ If the system displays an error saying it failed to verify your details and asks to update them, save the details with no changes and submit them again. The verification process takes 14 days, so you can complete the activity. 
 
 #### Step 5: Configuring Test Mode for the Payment Provider 
 
@@ -14748,17 +14918,15 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 3. On the **Shopify Payments** page, which opens, in the **Test mode** section, switch on the only toggle to enable     the test mode for the payment provider.     When the test mode is switched on, at the top of the page, the _Test mode_ status appears on the right of the     page name. 
 
-4. At the top of the page, click Back. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 348 
-
- The Payments page opens. In the Shopify Payments section, notice that the Test mode status has appeared right to the section name. 
+4. At the top of the page, click Back.     The **Payments** page opens. In the **Shopify Payments** section, notice that the _Test mode_ status has appeared     right to the section name. 
 
 5. In the **Payment capture method** section, select the **Manually** option button. 
 
-6. Clear **Send a warning 1 days before an authorization expires to <your email>** check box. 
+6. Clear **Send a warning 1 day before an authorization expires to <your email>** check box. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 353 
 
 7. At the top of the page, in the **Unsaved changes** bar, click **Save**. 
 
@@ -14786,9 +14954,9 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  To map Shopify fees to entry types, while you are still viewing the Shopify Stores (BC201010) form, do the following: 
 
-1. On the **Payments** tab, in the table, click the row with the _SHOPIFY_PAYMENTS_ store payment method. 
+1. On the **Payments** tab, in the upper table, click the row with the _SHOPIFY_PAYMENTS_ store payment method. 
 
-2. On the toolbar of the **Shopify Fees** table, click **Add Row**. 
+2. On the toolbar of the **Payment Fees** table, click **Add Row**. 
 
 3. In the added row, specify the following settings: 
 
@@ -14798,7 +14966,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 4. On the form toolbar, click **Save** to save your changes. 
 
- If at least one Shopify fee has not been mapped to an entry type, the synchronization of payments made with the Shopify Payments payment method will fail, and the system will automatically add the unmapped fees to the Shopify Fees table. You need to manually map each fee type to an ERP entry type, and then resynchronize the failed payments. 
+ If at least one Shopify fee has not been mapped to an entry type, the synchronization of payments made with the Shopify Payments payment method will fail, and the system will automatically add the unmapped fees to the Payment Fees table. You need to manually map each fee type to an ERP entry type, and then resynchronize the failed payments. 
 
 #### Step 7: Creating an Order Through the Storefront 
 
@@ -14808,19 +14976,21 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. On the storefront, start typing plum in the search bar, and in the list of search results, click _Plum jam 96 oz_. 
 
-3. On the page for the _Plum jam 96 oz_ product, change the quantity to _3_ and click **Add to cart**. In the pop-up,     click **Check out**.     The checkout page opens. 
+3. On the page for the _Plum jam 96 oz_ product, change the quantity to _3_ and click **Add to cart**. 
 
+4. In the upper right, click the cart icon, and in the **Cart** pop-up, click **Check out**.     The checkout page opens. 
 
-<!-- PAGE_BREAK -->
- Integration with Shopify | 349 
+5. In the **Contact** section, in the **Email or mobile phone number** box, specify melody@example.com. 
 
-4. In the **Contact** section, in the **Email or mobile phone number** box, specify melody@example.com. 
-
-5. In the **Delivery** section, fill in the shipping address boxes as follows: 
+6. In the **Delivery** section, fill in the shipping address boxes as follows: 
 
 - **Country/region** : _United States_ 
 
 - **First name** : Melody 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 354 
 
 - **Last name** : Keys 
 
@@ -14832,21 +15002,19 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **ZIP code** : 10003 
 
-6. In the **Shipping method** section, make sure that _Economy_ is selected. 
+7. In the **Shipping method** section, make sure that _Economy_ is selected. 
 
-7. In the **Payment** section, specify the following card settings under **Credit card** : 
+8. In the **Payment** section, specify the following card settings under **Credit card** : 
 
 - **Card number** : 4242 4242 4242 4242 
 
-- **Expiration date** : 12/25 
+- **Expiration date** : 12/26 
 
 - **Security code** : 123 
 
 - **Name on card** : Melody Keys (inserted by default) 
 
-8. Select the **Use shipping address as billing address** check box. 
-
-9. At the bottom of the page, click **Pay now** to place and pay your order. The order confirmation page opens. 
+9. Select the **Use shipping address as billing address** check box. 10.At the bottom of the page, click **Pay now** to place and pay your order. The order confirmation page opens. 
 
 #### Step 8: Reviewing the Sales Order in the Admin Area 
 
@@ -14866,6 +15034,8 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 5. In the **Capture payment** dialog box, which opens, click **Accept**.     Notice that the payment status of the order has changed to _Paid_. 
 
+ You may need to reload the order page to refresh the payment status. 
+
 6. Under **Timeline** , expand the first listed link, which indicates that the order total amount has been captured,     and then expand the _Information from the gateway_ link. 
 
  You may need to refresh the page to make the link appear in the timeline. 
@@ -14874,7 +15044,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 350 
+ Integration with Shopify | 355 
 
 #### Step 9: Importing the Sales Order 
 
@@ -14906,19 +15076,21 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Entity** : _Sales Order_ 
 
-2. On the **Processed** tab, in the row of the sales order that you have just imported, click the link in the **ERP ID**     column. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
 
-3. On the _Sales Orders_ (SO301000) form, which opens for the imported order in a pop-up window, review the     settings of the order (see the following screenshot). 
+3. In the table, in the row of the sales order that you have just imported, click the link in the **ERP ID** column. 
+
+4. On the _Sales Orders_ (SO301000) form, which opens for the imported order in a pop-up window, review the     settings of the order (see the following screenshot). 
 
  In the Summary area, notice the following: 
 
 - The imported order has the _EO_ type (shown in the **Order Type** ), which is configured on the _Shopify Stores_     (BC201010) form to be assigned to all sales orders imported from the _SweetStore - SP_ store. 
 
-- In the **Customer Order Nbr.** box, the order number assigned to the order in the Shopify store is     displayed. 
-
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 351 
+ Integration with Shopify | 356 
+
+- In the **Customer Order Nbr.** box, the order number assigned to the order in the Shopify store is     displayed. 
 
 - In the **External Reference** box, the order identifier assigned to the order in the Shopify store and the     name of the store are displayed. 
 
@@ -14928,7 +15100,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - The **Customer** and **Location** boxes display the information about the customer and customer location     that were created in Acumatica ERP during the import of the sales order; both were created during     the order placement in the Shopify store. The customer and location IDs were generated based on     the customer numbering sequence and location numbering sequence specified on the _Shopify Stores_     (BC201010) form 
 
-4. On the **Payments** tab, review the details of the created payment document of the _Prepayment_ type.     The document includes the external credit card transaction associated with the purchase. The number     of the transaction (which in Shopify is shown in the **Timeline** section) is displayed in the **Payment Ref.**     column. The transaction's status, which is _Captured_ , is displayed in the **Proc. Status** column, and the     payment's status, which is _Balanced_ , is displayed in the **Status** column. 
+5. On the **Payments** tab, review the details of the created payment document of the _Prepayment_ type.     The document includes the external credit card transaction associated with the purchase. The number     of the transaction (which in Shopify is shown in the **Timeline** section) is displayed in the **Payment Ref.**     column. The transaction's status, which is _Captured_ , is displayed in the **Proc. Status** column, and the     payment's status, which is _Balanced_ , is displayed in the **Status** column. 
 
 #### Step 11: Reviewing the Shopify Fees 
 
@@ -14942,11 +15114,11 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 3. Close the pop-up windows with the _Payments and Applications_ and _Sales Orders_ forms. 
 
-4. On the _Account Details_ (GL404000) form, in the Selection area, specify the following settings to review the     charges for the Shopify processing: 
-
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 352 
+ Integration with Shopify | 357 
+
+4. On the _Account Details_ (GL404000) form, in the Selection area, specify the following settings to review the     charges for the Shopify processing: 
 
 - **Company/Branch** : _RETAIL_ 
 
@@ -14992,7 +15164,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 353 
+ Integration with Shopify | 358 
 
 #### Import of Payment Terms 
 
@@ -15014,7 +15186,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Before sales orders can be exported to a Shopify store, you need to specify the order type of the orders that can be exported to the Shopify store. To do this, you select the type in the new Order Types for Export box on the Orders tab of the Shopify Stores (BC201010) form. 
 
- Order types are available for selection in this box only if they are based on the SO (Sales Order) or SA (Sales Order with Allocation) order template. The order template of an order type is specified on the Order Types (SO201000) form. 
+ Order types are available for selection in this box only if they are based on the SO (Sales Order), SA (Sales Order with Allocation) or IN (Invoice) order template. The order template of an order type is specified on the Order Types (SO201000) form. 
 
  The export of sales orders follows the same process as the order import does. That is, the Sales Order entity is first prepared on the Prepare Data (BC501500) form and then processed on the Process Data (BC501500) form. During the synchronization, the Sync Direction of the Sales Order entity should be set to Export or Bidirectional. 
 
@@ -15032,7 +15204,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 354 
+ Integration with Shopify | 359 
 
 #### Exporting Customers, Items, and Taxes 
 
@@ -15072,7 +15244,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 355 
+ Integration with Shopify | 360 
 
 - On the **Addresses** tab of the _Sales Orders_ form, inserts the following:     a. The shipping address, based on the settings of the company's location that was selected during order        placement     b. The shipping contact, based on the settings of the customer that placed the order     c. The billing details, based on the settings of the company's location that was selected during order        placement 
 
@@ -15092,6 +15264,66 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - Inserts the identifier of the customer's purchase order in the **PO number** box if it has been specified in     the **Customer Order Nbr.** box in the Summary area of the _Sales Orders_ (SO301000) form 
 
+### Order Synchronization: Multicurrency Accounting 
+
+ Your Shopify store can support multiple currencies so that customers can pay their orders not only in the default store currency. Whether you use multicurrency accounting in Acumatica ERP, have multiple currencies configured in your Shopify store, or both, the Shopify connector ensures proper synchronization between the two systems. 
+
+#### System Configuration for Importing Orders in Multiple Currencies 
+
+ If the Multicurrency Accounting feature is enabled on the Enable/Disable Features (CS100000) form, sales orders from the Shopify store are imported into Acumatica ERP in the same currency they were placed in Shopify. 
+
+ To configure the store, you must create a mapping on the Payments tab of the Shopify Stores (BC201010) form for each combination of store payment method and currency activated in Shopify that will be imported to Acumatica ERP. For details, see Configuration of Payment Synchronization. 
+
+ The Import in External Default Currency check box should be cleared on the Orders tab of the Shopify Stores form, which is its default value. 
+
+ Also, to import Shopify orders in a currency different from the currency of the brunch specified in the Branch box on the Orders tab of the Shopify Stores (BC201010) form, you must select the Enable Currency Override check box for the order customer on the Customers (AR303000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 361 
+
+#### Import of Orders in Multiple Currencies 
+
+ When importing an order from the Shopify store in a currency other than the store default currency, the connector assigns this currency to the created sales order on the Sales Orders (SO301000) form and its payments and refunds on the Payments and Applications (AR302000) forms. 
+
+ The connector assigns the currency rate provided by Shopify to an imported sales order and its payments and refunds if all of the following conditions are met: 
+
+- The default currency of the Shopify store is the same as the base currency of the branch specified in **Branch**     box on the **Orders** tab of the _Shopify Stores_ (BC201010) form. 
+
+- The order has been paid in a currency other than the store default currency. 
+
+- The order has been paid through the Shopify Payments payment provider. 
+
+- The order transaction has been captured or processed with the _Sale_ operation. The connector assigns an average currency rate calculated in Acumatica ERP to an imported sales order if it has been paid through the Shopify Payments provider and one of the following conditions is met: 
+
+- The order has authorized-only transactions. 
+
+- The order includes multiple transactions with different currency rates. For authorized-only payments, the currency rate is calculated in Acumatica ERP. 
+
+ For refunds processed through the Shopify Payments provider, the system always uses the currency rate provided by Shopify. 
+
+ If an authorized-only transaction already imported into Acumatica ERP is later captured in Shopify, the connector can update the calculated currency rate in the order and prepayment documents. It replaces the rate with the one provided by Shopify as long as the document workflow in Acumatica ERP allows modifications. 
+
+#### Import of Orders in the Default Store Currency 
+
+ When your Shopify store allows customers to pay in multiple currencies but multicurrency accounting is not required in Acumatica ERP, you can import orders along with related payments and refunds in the default store currency. 
+
+ The default store currency appears in the Default Currency box on the General tab of the Shopify Stores (BC201010) form. All currencies supported by the store are listed in the Supported Currencies box. 
+
+ To make the system import documents from the Shopify store in only the default store currency, you select the Import in External Default Currency check box on the Orders tab of the Shopify Stores form. You also configure mappings of store payment methods with Acumatica ERP payment methods using the default store currency on the Payments tab. For details, see Configuration of Payment Synchronization. 
+
+ With these settings specified, the system imports orders from the Shopify store in the default store currency even if they were paid in another currency. The system also imports all the documents related to these orders as payments and refunds in the default store currency. 
+
+ The following limitations apply to the import of documents in the default store currency: 
+
+- If a Shopify order has already been imported to Acumatica ERP in a currency that is different than the     default store currency, and then the **Import in External Default Currency** check box is selected on the     **Orders** tab of the _Shopify Stores_ form, all the documents related to that order will be imported in the same     order currency. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 362 
+
+- If a credit card payment is imported to Acumatica ERP in a currency other than the one in which the     customer paid in the Shopify store, the payment can be captured, voided, or refunded only in the Shopify     store. 
+
 ### Order Synchronization: Import of Order Risk Information 
 
  Shopify provides the fraud analysis functionality to help merchants identify potentially fraudulent orders. In this topic, you will read about importing order risk information from Shopify to Acumatica ERP. 
@@ -15104,43 +15336,33 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. In the new **Hold on Risk Status** box, which becomes available when you select the check box, select one of     the following options: 
 
-- _High Risk_ : The system will assign the _Risk Hold_ status to imported sales orders with high risk. 
+- _High Risk_ : The system will assign the _Risk Hold_ status to an imported sales order if the **Order risk** of the     corresponding order in Shopify is _Cancel_. 
 
-- _Medium or High Risk_ : The system will assign the _Risk Hold_ status to imported sales orders with medium     risk and high risk. 
+- _Medium or High Risk_ : The system will assign the _Risk Hold_ status to an imported sales order if the **Order**     **risk** of the corresponding order in Shopify is _Cancel_ or _Investigate_. 
 
  The risk analysis information is imported from the Shopify store to Acumatica ERP along when the Sales Order entity is synchronized. For more information about data synchronization, see Data Synchronization: General Information. 
+
+ The order risk information on the Risks tab of the Sales Orders (SO301000) form will be updated to display the Risk Level (such as High ) and Shopify recommendation (such as Cancel ), which will be displayed in the Message column. 
 
 #### Review of the Imported Risk Analysis Information 
 
  If a sales order imported from the Shopify store is assigned the Risk Hold status, before fulfilling the order, you should review the following order risk information on the Risks tab of the Sales Orders (SO301000) form: 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 356 
-
 - The status in the **Risk Status** box, which can be _Low_ , _Medium_ , or _High_ 
-
-- The score in the **Score %** column of the table 
 
 - The recommendations in the **Recommendation** column 
 
- Each order can have more than one risk recommendation and score. The Risk Status box displays the maximum risk in the list of risk recommendations. 
-
- Table: Mapping of risk scores and statuses 
-
- Score % Risk Status 
-
- 0.00–20.00 Low 
-
- 20.00–60.00 Medium 
-
- 60.00–100.00 High 
+ Each order can have more than one risk recommendation. The Risk Status box displays the maximum risk in the list of risk recommendations. 
 
  Aer you have investigated the order, you can do the following: 
 
 - To cancel the order that is too risky to process, you click **Actions > Cancel Order** on the form toolbar. The     order is assigned the _Canceled_ status and excluded from processing. 
 
 - To process the order, you click the **Remove Risk Hold** button on the form toolbar. The order is assigned the     _Open_ or _Pending Approval_ status, depending on the workflow configuration. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 363 
 
 ### Order Synchronization: Import of POS Orders 
 
@@ -15160,10 +15382,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Create dedicated order types for Shopify POS orders so that it is easier to tell them from other orders. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 357 
-
 #### Synchronization of Shopify POS Orders 
 
  Shopify POS orders are imported to Acumatica ERP during the synchronization of the Sales Order entity, similar to orders placed in the Shopify online store. 
@@ -15175,6 +15393,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 ### Order Synchronization: Import of POS Exchanges 
 
  If your company uses Shopify point-of-sale (POS) functionality and imports POS orders from a Shopify store into Acumatica ERP, you can also configure the import of exchanges for POS orders into Acumatica ERP. The import of Shopify POS orders and exchanges is available only when the Shopify POS Connector feature is enabled on the Enable/Disable Features (CS100000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 364 
 
  Before you can import Shopify POS exchanges into Acumatica ERP, Shopify must enable API access for POS exchange data in the store itself. Contact Shopify to request access. 
 
@@ -15195,10 +15417,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 #### Synchronizing Shopify POS Exchanges 
 
  Exchanges for both direct and shipped Shopify POS orders are imported during the synchronization of the Refund entity, which you activate on the Entities tab of the Shopify Stores (BC201010) form. The import process is similar to the synchronization of other entities. For more information on data synchronization, see Data Synchronization: General Information. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 358 
 
 #### Importing Direct POS Exchanges 
 
@@ -15224,6 +15442,12 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Extended price of the exchanged item 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 365 
+
+ Price Change Payment Amount Refund Amount 
+
  The new item's price is the lower. Extended price of the new item Extended price of the new item 
 
  We recommend processing each direct POS order as soon as it is imported into Acumatica ERP so that it has the Completed status before an exchange is initiated. Thus, you will not have to create additional payments and refunds manually. 
@@ -15246,10 +15470,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - Applies the invoice of the original sales order to the new order. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 359 
-
 - If the price of the new item is different from the price of the original item, creates a payment for an     additional amount or a refund for the amount that needs to be returned to the customer on the _Payments_     _and Applications_ form. 
 
 ### Importing Orders with Taxes 
@@ -15264,6 +15484,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  In this chapter, you will learn how to set up tax synchronization if you collect tax on products you sell in the Shopify store. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 366 
+
 #### Applicable Scenarios 
 
  You set up tax synchronization during the configuration of the connection between Acumatica ERP and the Shopify store to make sure that taxes collected on online orders are reflected in an imported order and then correctly recalculated when a shipment and an invoice are created for the order. 
@@ -15276,11 +15500,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. Implement the tax functionality by configuring a tax agency, tax zones, tax categories, and sales taxes.     For detailed information about configuring sales taxes in Acumatica ERP, see _Implementing Taxes_. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 360 
-
- The manual tax configuration should match in the Shopify store and in Acumatica ERP, otherwise issues might occur during the synchronization of entities. Tax categories and taxes in Acumatica ERP should be configured in the same way as tax rates and exemptions in Shopify. If you use different names for a tax or an exemption in both systems, you should map tax IDs in the substitution list specified in the Tax List box and tax categories in the substitution list specified in the Tax Category List box on the Orders tab of the Shopify Stores (BC201010) form. If during the import of a sales order, the system cannot find the tax ID or tax category specified in the order, it will check to see if there is a mapping defined for the tax ID or tax category in these substitution lists. 
+ The manual tax configuration should match in the Shopify store and in Acumatica ERP, otherwise issues might occur during the synchronization of entities. Tax categories and taxes in Acumatica ERP should be configured in the same way as tax rates and exemptions in Shopify. If you use different names for a tax or an exemption in both systems, you should map tax IDs in the substitution list specified in the Taxes box and tax categories in the substitution list specified in the Tax Categories box on the Orders tab of the Shopify Stores (BC201010) form. If during the import of a sales order, the system cannot find the tax ID or tax category specified in the order, it will check to see if there is a mapping defined for the tax ID or tax category in these substitution lists. 
 
  Taxes that have the same name in the Shopify store and Acumatica ERP (or that have been mapped via the substitution list) should be defined with exactly the same rates. Although an order for which the taxes have different rates will be imported successfully, when an invoice is prepared for this imported sales order, the taxes are recalculated based on the tax settings configured in Acumatica ERP. If the tax rates differ, there will be a discrepancy between the amount of the invoice created in Acumatica ERP and the amount of the order created in the Shopify store. 
 
@@ -15308,7 +15528,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 361 
+ Integration with Shopify | 367 
 
  Figure: Determining the tax zone for tax calculation 
 
@@ -15318,7 +15538,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 362 
+ Integration with Shopify | 368 
 
 #### Configuration of Tax Synchronization for the External Tax Service 
 
@@ -15346,7 +15566,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - Select the **Use as Primary Tax Zone** check box. With these settings, the tax zone specified in the **Default Tax Zone** will always be used for tax calculation, which means that the taxes calculated by the external tax provider will be imported with the order. If the taxes in the imported order do not yet exist in Acumatica ERP, the system creates them on the _Taxes_ (TX205000) form. 
 
-3. In the **Substitution Lists** section, specify the substitution list that contains the mapping of tax categories in     Acumatica ERP with the tax categories in the Shopify store in the **Tax Category List** box.     For information about the use of substitution lists for the synchronization of taxes, see _Import of Taxes:_     _Substitution Lists_. 
+3. In the **Substitution Lists** section, specify the substitution list that contains the mapping of tax categories in     Acumatica ERP with the tax categories in the Shopify store in the **Tax Categories** box.     For information about the use of substitution lists for the synchronization of taxes, see _Import of Taxes:_     _Substitution Lists_. 
 
 #### Handling of Long Tax Names 
 
@@ -15362,7 +15582,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 363 
+ Integration with Shopify | 369 
 
 ### Import of Taxes: Substitution Lists 
 
@@ -15380,7 +15600,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  If you specify the tax ID along with the tax rate for a tax with a unique ID in the Shopify store, the system still correctly processes this mapping. 
 
-2. On the _Shopify Stores_ (BC201010) form ( **Orders** tab), you specify the substitution list in the **Tax List** box. 
+2. On the _Shopify Stores_ (BC201010) form ( **Orders** tab), you specify the substitution list in the **Taxes** box. 
 
  When an order containing taxes is being imported to Acumatica ERP, for each tax that has been added to the order in the store, the system searches for a matching tax in Acumatica ERP as follows: 
 
@@ -15396,15 +15616,15 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. On the _Substitution Lists_ (SM206026) form, you create a substitution list. In the **Original Value** column, you     add Acumatica ERP tax categories, and in the **Substitution Value** column, you add a tax category from the     Shopify store for each of the tax categories. 
 
-2. On the _Shopify Stores_ (BC201010) form ( **Orders** tab), you select the substitution list in the **Tax Category List**     box. 
+2. On the _Shopify Stores_ (BC201010) form ( **Orders** tab), you select the substitution list in the **Tax Categories**     box. 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 364 
+ Integration with Shopify | 370 
 
  When a stock or non-stock item is synchronized with the Shopify store, a tax category is assigned to the item in the Shopify store based on the tax category assigned to the item on the Non-Stock Items (IN202000) or Stock Items (IN202500) form, and the substitution value specified for the tax category in the substitution list on the Substitution Lists form. 
 
- The substitution list specified in the Tax Category List box is used only for the export of items. The tax category that is shown for an item in an imported order is copied from the item's settings on the NonStock Items or Stock Items form and is not imported from the Shopify store. To avoid discrepancies between the tax amount calculated in the Shopify store when an order is placed and the tax amount calculated in Acumatica ERP when an invoice is generated for the imported order, make sure that the item's tax category is in sync between the two systems before the order is created. 
+ The substitution list specified in the Tax Categories box is used only for the export of items. The tax category that is shown for an item in an imported order is copied from the item's settings on the NonStock Items or Stock Items form and is not imported from the Shopify store. To avoid discrepancies between the tax amount calculated in the Shopify store when an order is placed and the tax amount calculated in Acumatica ERP when an invoice is generated for the imported order, make sure that the item's tax category is in sync between the two systems before the order is created. 
 
 ### Import of Taxes: Tax Calculation Mode 
 
@@ -15430,7 +15650,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 365 
+ Integration with Shopify | 371 
 
 #### Configuration Overview 
 
@@ -15480,7 +15700,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 366 
+ Integration with Shopify | 372 
 
 4. Sign in to the admin area of the Shopify store as the store administrator in the same browser. 
 
@@ -15498,11 +15718,11 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  On the page that opens, notice that Shopify Tax is displayed in the Tax service section. 
 
-4. In the **Regions you're collecting in** section, click **Collect in new region**. 
+4. In the **States you’re collecting in** section, click **Collect in new state**. 
 
-5. In the **Collect sales tax** dialog box, which opens, in the **State** box, select _New York_. 
+5. In the **Set up tax collected** dialog box, which opens, in the **Region** box, select _New York_. 
 
-6. Click **Collect sales tax** to save your changes and close the dialog box. 
+6. Click **Collect taxes** to save your changes and close the dialog box. 
 
 #### Step 2: Enabling the Needed Feature 
 
@@ -15522,7 +15742,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. Open the Tax Categories (TX2055PL) form.     Notice that there are only two tax categories listed in the table ( _TAXABLE_ and _EXEMPT_ ). Tax categories in     Acumatica ERP determine whether exported products will be taxable or nontaxable in the Shopify store.     In the following steps, you will review how these categories are mapped between Acumatica ERP and the     Shopify store. 
 
-2. On the _Tax Zones_ (TX206000) form, select the _AVALARA_ tax zone.     Notice that the **External Tax Provider** check box is selected, which indicates that this tax zone is used for     setting up tax calculation by using an external tax provider, and _AVALARA_ is selected as the tax provider. 
+2. On the _Tax Zones_ (TX206000) form, select the _AVALARA_ tax zone.     Notice that the **External Tax Provider** check box is selected in the Summary area, which indicates that this     tax zone is used for setting up tax calculation by using an external tax provider, and _AVALARA_ is selected as     the tax provider. 
 
 #### Step 4: Configuring Tax Synchronization 
 
@@ -15534,7 +15754,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 367 
+ Integration with Shopify | 373 
 
 - **Tax Synchronization** : Selected 
 
@@ -15572,7 +15792,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 368 
+ Integration with Shopify | 374 
 
  that more stock items are synchronized with the Shopify store (in this step, you will add stock items of the JUICER item class). Do the following: 
 
@@ -15622,7 +15842,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. On the **Products** page, click the row of the _Commercial citrus juicer with a production rate of 2 liters per_     _minute_ product. 
 
-3. On the product management page, which opens for the _Commercial citrus juicer with a production rate of 2_     _liters per minute_ product, review the product details.     Notice that in the **Pricing** section, the **Charge tax on this product** check box is cleared. The system     assigned this tax category to the product because the _JUICER20C_ stock item is assigned the _EXEMPT_ tax     category in Acumatica ERP. 
+3. On the product management page, which opens for the _Commercial citrus juicer with a production rate of 2_     _liters per minute_ product, in the **Price** section, at the bottom right, click the arrow-down icon to expand the     section. Review the product details.     Notice that the **Charge tax on this product** check box is cleared. The system assigned this tax category to     the product because the _JUICER20C_ stock item is assigned the _EXEMPT_ tax category in Acumatica ERP. 
 
 4. In the le menu, click **Products** to return to the **Products** page. 
 
@@ -15630,9 +15850,9 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 369 
+ Integration with Shopify | 375 
 
-6. On the product management page, which opens for the _Kiwi jam 96 oz_ product, review the product details.     Notice that in the **Pricing** section, the **Charge tax on this product** check box is selected. The system     assigned this tax category to the product because the _KIWIJAM96_ stock item is assigned the _TAXABLE_ tax     category in Acumatica ERP. 
+6. On the product management page, which opens for the _Kiwi jam 96 oz_ product, review the product details.     Notice that in the **Price** section, the **Charge tax on this product** check box is selected (click the arrow-     down icon at the bottom right of the section to expand the section if needed). The system assigned this     tax category to the product because the _KIWIJAM96_ stock item is assigned the _TAXABLE_ tax category in     Acumatica ERP. 
 
 #### Step 9: Creating a Sales Order in the Shopify Store 
 
@@ -15684,7 +15904,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 370 
+ Integration with Shopify | 376 
 
 6. On the _Process Data_ (BC501500) form, which opens with the _SweetStore - SP_ store and the _Sales Order_ entity     selected, select the unlabeled check box in the row of the sales order that you created (which you can find     by its identifier in the **External ID** column and empty **ERP ID** ), and on the form toolbar, click **Process**. 
 
@@ -15700,17 +15920,19 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Entity** : _Sales Order_ 
 
-2. On the **Processed** tab, in the row of the sales order that you have just imported (which you can locate by its     external ID), click the link in the **ERP ID** column. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
 
-3. On the _Sales Orders_ (SO301000) form, which opens, review the settings of the order, as shown in the     screenshot below.     In the Summary area, the **Tax Total** amount matches the tax amount of the order in the Shopify store (which     is $5.78).     In the table on the **Taxes** tab, review the taxes that have been applied to the order lines. Notice that the     table shows the same taxes that you observed on the order page in the Shopify store. 
+3. In the table, in the row of the sales order that you have just imported (which you can locate by its external     ID), click the link in the **ERP ID** column. 
+
+4. On the _Sales Orders_ (SO301000) form, which opens, review the settings of the order, as shown in the     screenshot below.     In the Summary area, the **Tax Total** amount matches the tax amount of the order in the Shopify store (which     is $5.78).     In the table on the **Taxes** tab, review the taxes that have been applied to the order lines. Notice that the     table shows the same taxes that you observed on the order page in the Shopify store. 
 
  Figure: Imported sales order with taxes 
 
-4. Go to the **Details** tab. In the line with the _KIWIJAM96_ item, **Tax Category** is set to _TAXABLE_. This tax category     has been copied from the **Tax Category** box of the **General** tab of the _Stock Items_ (IN202500) form. 
-
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 371 
+ Integration with Shopify | 377 
+
+5. Go to the **Details** tab. In the line with the _KIWIJAM96_ item, **Tax Category** is set to _TAXABLE_. This tax category     has been copied from the **Tax Category** box of the **General** tab of the _Stock Items_ (IN202500) form. 
 
 ### Importing Orders with Discounts 
 
@@ -15742,13 +15964,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  The following activity is based on the U100 dataset. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 378 
+
 #### Story 
 
  Suppose that the SweetLife sales manager decided to offer discounts for some of the products that the company sells in its Shopify store. Starting from today, the company provides the following discounts: 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 372 
 
 - A 10% discount on the purchase of a 96-ounce jar of plum jam 
 
@@ -15800,15 +16022,15 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 5. On the form toolbar, click **Enable**. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 379 
+
 6. Sign in to the admin area of the Shopify store as the store administrator in the same browser. 
 
 #### Step 1: Configuring Discount-Related Settings 
 
  To update the store settings for the import of online orders with discounts, in Acumatica ERP, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 373 
 
 1. On the _Shopify Stores_ (BC201010) form, select the _SweetStore - SP_ store. 
 
@@ -15830,23 +16052,21 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 5. In the **Customer** section, click in the search bar and in the menu that opens, select _Melody Keys_. 
 
-6. To add a 10% discount on the purchase of a 96-ounce jar of plum jam, do the following:     a. In the **Products** section, click the price of the _Plum jam 96 oz_ product ( _$45.15_ ).     b. In the **Add discount** dialog box, which opens, in the **Discount type** box, select _Percentage_ , in the **Value**        box, enter 10 , and click **Done**.     Notice that the discount has been applied and the product price has changed to _$40.64_. 
+6. To add a 10% discount on the purchase of a 96-ounce jar of plum jam, do the following:     a. In the **Products** section, click the price of the _Plum jam 96 oz_ product ( _$45.15_ ).     b. In the **Add discount** dialog box, which opens, in the **Discount type** box, select _Percentage_ , in the **Value**        **(per unit)** box, enter 10 , and click **Done**.     Notice that the discount has been applied and the product price has changed to _$40.64_. 
 
-7. To add a $5 discount on the purchase of a 96-ounce jar of banana jam, do the following:     a. In the **Products** section, click the price of the _Banana jam 96 oz_ product (also _$45.15_ ).     b. In the **Add discount** dialog box, which opens, in the **Discount type** box, leave _Amount_ , in the **Value** box,        enter 5 , and click **Done**.     Notice that the discount has been applied and the product price has changed to _$40.15_. 
+7. To add a $5 discount on the purchase of a 96-ounce jar of banana jam, do the following:     a. In the **Products** section, click the price of the _Banana jam 96 oz_ product (also _$45.15_ ).     b. In the **Add discount** dialog box, which opens, in the **Discount type** box, leave _Amount_ , in the **Value (per**        **unit)** box, enter 5 , and click **Done**.     Notice that the discount has been applied and the product price has changed to _$40.15_. 
 
 8. To add an additional discount in the amount of $20 for orders of $500 or more, do the following:     a. In the **Payment** section, click **Add discount** to add an order-level discount.     b. In the **Add discount** dialog box, which opens, specify the following settings: 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 380 
 
 - **Add custom order discount** : Selected 
 
 - **Discount type** : _Amount_ (selected by default) 
 
-- **Value** : 20 c. Click **Done**. The system closes the dialog box and applies the $20 discount to the order. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 374 
-
- For the purposes of this activity, assume that the payment was received outside Shopify. 
+- **Value** : 20 c. Click **Done**. The system closes the dialog box and applies the $20 discount to the order. For the purposes of this activity, assume that the payment was received outside Shopify. 
 
 9. In the **Payment** section, click **Collect payment > Mark as paid**. 10.In the **Mark as paid** dialog box, which opens, click **Create order**.     The system closes the dialog box and creates the order. At the top of the page, notice that the system has     assigned the order an order number, the _Paid_ payment status, and the _Unfulfilled_ fulfillment status. 
 
@@ -15886,17 +16106,21 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Entity** : _Sales Order_ 
 
-2. On the **Processed** tab, in the row of the sales order that you have just imported, click the link in the **ERP ID**     column. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
 
-3. On the _Sales Orders_ (SO301000) form, which opens in a pop-up window, review the settings of the sales     order.     On the **Details** tab, notice that in the **Discount Amount** and **Discount Percent** columns, the system has     inserted zeros in both lines.     On the **Discounts** tab, notice that a single row has been added, as shown in the following screenshot. The     _External Document_ type in the **Type** column reflects the fact that the discounts were imported from an     external system. The values in the **Discount Amt.** and **Discount Percent** columns reflect the discounts     applied in the Shopify store. 
+3. In the table, in the row of the sales order that you have just imported, click the link in the **ERP ID** column. 
+
+4. On the _Sales Orders_ (SO301000) form, which opens in a pop-up window, review the settings of the sales     order.     On the **Details** tab, notice that in the **Discount Amount** and **Discount Percent** columns, the system has     inserted zeros in both lines.     On the **Discounts** tab, notice that a single row has been added, as shown in the following screenshot. The     _External Document_ type in the **Type** column reflects the fact that the discounts were imported from an 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 375 
+ Integration with Shopify | 381 
+
+ external system. The values in the Discount Amt. and Discount Percent columns reflect the discounts applied in the Shopify store. 
 
  Figure: Imported sales order with discounts 
 
-4. Close the pop-up window with the _Sales Orders_ form. 
+5. Close the pop-up window with the _Sales Orders_ form. 
 
  You have created an order with discounts of various types in the Shopify store, explored how they are applied to an order in the store, and reviewed how they are displayed in the order aer it has been imported to Acumatica ERP. 
 
@@ -15916,13 +16140,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - Import refunds for non-card payment methods from a Shopify store to Acumatica ERP 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 382 
+
 #### Applicable Scenarios 
 
  You import refunds of payments based on a non-card payment method from Shopify to Acumatica ERP so that you can keep track of refunded payments and restocked items. You may issue refunds in the Shopify store in the following cases: 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 376 
 
 - A customer has been overcharged in error and part of the order amount needs to be refunded. 
 
@@ -15964,13 +16188,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 6. Specify the payment methods for which you need to import refunds.     On the **Payments** tab of the _Shopify Stores_ form, you select the **Process Refunds** check box for each     payment method for which you want to import refunds. For details, see _Order Synchronization: General_     _Information_. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 383 
+
 #### Import of Refunds for Non-Card Payment Methods 
 
  Refunds are imported from the Shopify store to Acumatica ERP as part of the synchronization of the Refund entity, which can be synchronized only in the Import direction. During the preparation of refund data for synchronization, the system creates one synchronization record for all refunds that have been issued for a single sales order in the Shopify store. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 377 
 
  For a refund to be imported successfully, all of the following conditions must be met for the sales order associated with the refund: 
 
@@ -16002,17 +16226,19 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - _Shopify Connector_ 
 
-- _Custom Order Types_ The following entities, which you will use in this activity, have been predefined in the _U100_ dataset: 
+- _Custom Order Types_ 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 384 
+
+ The following entities, which you will use in this activity, have been predefined in the U100 dataset: 
 
 - The _ER_ order type on the _Order Types_ (SO201000) form 
 
 - The _REFUNDAMT_ non-stock item on the _Non-Stock Items_ (IN202000) form 
 
 - The _EREFUND_ reason code on the _Reason Codes_ (CS211000) form 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 378 
 
 #### Process Overview 
 
@@ -16060,13 +16286,15 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Refund Amount Item** : _REFUNDAMT_     This tax-exempt non-stock item is used to represent the refunded amounts in documents. 
 
-- **Refund Reason Code** : _EREFUND_     This reason code of the _Issue_ usage type is inserted in documents to indicate that the line represents a     refund issued. 
-
-3. On the form toolbar, click **Save** to save your changes. 
+- **Refund Reason Code** : _EREFUND_ 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 379 
+ Integration with Shopify | 385 
+
+ This reason code of the Issue usage type is inserted in documents to indicate that the line represents a refund issued. 
+
+3. On the form toolbar, click **Save** to save your changes. 
 
 #### Step 3: Activating the Import of Refunds for a Non-Card Payment Method 
 
@@ -16116,13 +16344,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Non-Stock Items (IN202000) A non-stock item has been created to represent the amounts of refunds imported from the Shopify store to Acumatica ERP. 
 
- Reason Codes (CS211000) The reason code for imported refunds has been defined. 
-
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 380 
+ Integration with Shopify | 386 
 
  Form Criteria to Check 
+
+ Reason Codes (CS211000) The reason code for imported refunds has been defined. 
 
  Shopify Stores (BC201010) • On the Entities tab: The Refund entity has been activated. 
 
@@ -16154,7 +16382,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 381 
+ Integration with Shopify | 387 
 
 #### Import of Order-Level Refunds for Shipped Orders 
 
@@ -16168,7 +16396,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 382 
+ Integration with Shopify | 388 
 
 ### Importing Non-Card Refunds: Item-Level Refunds 
 
@@ -16184,7 +16412,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 383 
+ Integration with Shopify | 389 
 
 #### Import of Item Refunds for Fully Shipped Orders 
 
@@ -16198,7 +16426,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 384 
+ Integration with Shopify | 390 
 
 #### Import of Refunds for Partially Shipped Orders 
 
@@ -16218,7 +16446,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 385 
+ Integration with Shopify | 391 
 
 #### Story 
 
@@ -16274,7 +16502,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 386 
+ Integration with Shopify | 392 
 
 2. Sign in to the admin area of the Shopify store as the store administrator. 
 
@@ -16334,7 +16562,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 387 
+ Integration with Shopify | 393 
 
  10.In the Processing dialog box, which opens, review the results of the processing, and click Close to close the dialog box. 
 
@@ -16382,7 +16610,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 388 
+ Integration with Shopify | 394 
 
 3. In the **Prepare Mode** box, select _Incremental_. 
 
@@ -16428,7 +16656,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 389 
+ Integration with Shopify | 395 
 
 ### Importing Non-Card Refunds: To Process a Refund for a Shipped Order 
 
@@ -16480,7 +16708,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 390 
+ Integration with Shopify | 396 
 
  11.On the Sales Orders form, review the updated sales order, and on the Payments and Applications form, review the updated prepayment. 12.On the Payments and Applications form, review the refunds created for each of the return orders. 
 
@@ -16532,7 +16760,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 391 
+ Integration with Shopify | 397 
 
 - **Store** : _SweetStore - SP_ 
 
@@ -16578,7 +16806,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 392 
+ Integration with Shopify | 398 
 
 2. In the **Specify Shipment Parameters** dialog box, which opens, make sure the current date and the _RETAIL_     warehouse are selected, and click **OK**. The system creates a shipment and opens it on the _Shipments_     (SO302000) form. 
 
@@ -16634,7 +16862,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 393 
+ Integration with Shopify | 399 
 
 6. In the Summary section, review the **Refund total** amount ($98.32, which includes $8.02 in taxes). 
 
@@ -16684,7 +16912,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 394 
+ Integration with Shopify | 400 
 
 1. Open the Payments and Applications (AR3020PL) form.     Notice that a document of the _Refund_ type has been created for the _WESTBBQ_ customer. 
 
@@ -16728,7 +16956,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 395 
+ Integration with Shopify | 401 
 
 - **Automation Behavior** : _RMA Order_ 
 
@@ -16770,7 +16998,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 396 
+ Integration with Shopify | 402 
 
  If automatic tax recalculation is disabled for orders imported from the Shopify store, the system imports each sales order with the Disable Automatic Tax Calculation check box selected on the Financial tab of the Sales Orders (SO301000) form. If such an order is partially shipped and an invoice has been created for the shipment, the prepayment amount applied to the invoice includes the total tax amount of the order. The prepayment amount is shown in the Applied to Documents box on the Payments and Applications (AR302000) form. 
 
@@ -16806,7 +17034,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 397 
+ Integration with Shopify | 403 
 
 #### Process Overview 
 
@@ -16862,7 +17090,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 398 
+ Integration with Shopify | 404 
 
 #### Step 3: Reviewing the Refund Import Settings for the Payment Method 
 
@@ -16930,7 +17158,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 399 
+ Integration with Shopify | 405 
 
  Form Criteria to Check 
 
@@ -16962,7 +17190,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 400 
+ Integration with Shopify | 406 
 
 #### Import of Order-Level Refunds for Shipped Orders 
 
@@ -16976,7 +17204,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 401 
+ Integration with Shopify | 407 
 
 ### Importing Card Refunds: Item-Level Refunds 
 
@@ -16996,7 +17224,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 402 
+ Integration with Shopify | 408 
 
 #### Import of Refunds for Fully Shipped Orders 
 
@@ -17010,7 +17238,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 403 
+ Integration with Shopify | 409 
 
 - If the processing status of the original payment is _Authorized_ , then the original payment is voided. The following diagram illustrates the processing of an item return for a card-based payment method that is issued aer the sales order has been fully shipped. 
 
@@ -17030,7 +17258,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 404 
+ Integration with Shopify | 410 
 
 ### Importing Card Refunds: To Process a Refund for a Not-Yet-Shipped Order 
 
@@ -17080,7 +17308,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 405 
+ Integration with Shopify | 411 
 
 9. On the _Payments and Applications_ form, review and release the refund. 
 
@@ -17138,7 +17366,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 406 
+ Integration with Shopify | 412 
 
  Shopify assigns each order an order number, which by default is represented by the prefix # and a numbering sequence. The order number is displayed at the top of the order page next to the order's payment status and fulfillment status. If needed, you can change the format of the order number on the General settings page in the Shopify admin area. 
 
@@ -17190,7 +17418,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 407 
+ Integration with Shopify | 413 
 
 #### Step 4: Reviewing the Imported Sales Order and Payment 
 
@@ -17232,7 +17460,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 408 
+ Integration with Shopify | 414 
 
  In the Summary section, review the refunded amount, which includes the item subtotal ($135.45) and applicable taxes ($12.02). 
 
@@ -17292,7 +17520,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 409 
+ Integration with Shopify | 415 
 
  b. In the list of filter conditions, select Contains. c. In the text box, type SweetStore. d. Click OK to apply the filter. In the list of documents, notice that a new Refund document has been created for the refund you imported in Step 7. (You can identify it by the order number and transaction type shown in the Description column). 
 
@@ -17326,7 +17554,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 410 
+ Integration with Shopify | 416 
 
 - The _ER_ order type on the _Order Types_ (SO201000) form 
 
@@ -17382,7 +17610,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 411 
+ Integration with Shopify | 417 
 
 7. On the order creation page ( **Information** step), specify the needed settings as follows:     a. In the **Contact** section, in the **Email or mobile phone number** box, specify _melody@example.com_.     b. In the **Shipping address** section, fill in the shipping address boxes as follows: 
 
@@ -17432,7 +17660,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 412 
+ Integration with Shopify | 418 
 
 1. Sign in to Acumatica ERP by using the following credentials: 
 
@@ -17482,7 +17710,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 413 
+ Integration with Shopify | 419 
 
 1. While you are viewing the **Payments** tab of the _Sales Orders_ (SO301000) form, click the link with the     prepayment number in the **Reference Nbr.** column.     The _Payments and Applications_ (AR302000) form opens in a pop-up window with the prepayment selected. 
 
@@ -17540,7 +17768,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 414 
+ Integration with Shopify | 420 
 
 7. On the _Process Data_ (BC501500) form, which opens with the _SweetStore - SP_ store and the _Shipment_ entity     selected, select the unlabeled check box for the shipment created and confirmed in the previous steps     (which you can identify by the shipment number in the **ERP ID** column). 
 
@@ -17602,7 +17830,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 415 
+ Integration with Shopify | 421 
 
  c. In the text box, type Melody. d. Click OK to apply the filter. Notice that an order of the ER type has been created for Melody Keys. Because the original sales order had the Completed status, it could not be modified and the return order was created. The return order has the ER type because this type was selected in the Return Order Type box on the Orders tab of the Shopify Stores (BC201010) form in Importing Card Refunds: Implementation Activity. 
 
@@ -17622,7 +17850,73 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 416 
+ Integration with Shopify | 422 
+
+### Synchronizing Dra Orders 
+
+ In the topics of this chapter, you will read about the main features of dra order synchronization between Acumatica ERP and the Shopify store. 
+
+### Dra Order Synchronization: General Information 
+
+ Dra orders in Shopify let you apply custom discounts, special shipping rates, and flexible invoice options—making them perfect for custom requests or complex sales scenarios. You can import dra orders placed in the Shopify store to Acumatica ERP for further processing. 
+
+#### Learning Objectives 
+
+ In this chapter, you will learn how to do the following: 
+
+- Configure the synchronization of dra orders between Acumatica ERP and the Shopify store 
+
+- Work with dra orders imported as sales quotes in Acumatica ERP 
+
+#### Applicable Scenarios 
+
+ You set up the synchronization of dra orders if you want to keep your quote data accurate across platforms and track dra orders within Acumatica ERP. 
+
+#### Configuring the Import 
+
+ To set up the import of Shopify dra orders as sales quotes, you update the store's settings on the Shopify Stores (BC201010) form: 
+
+1. On the **Entities** tab, activate the _Sales Quote_ entity. 
+
+2. In the new **Sales Quote Orders** section on the **Orders** tab, select an order type in the **Quote Order Type**     **for Import** box. This order type will be used to create sales quotes when dra orders are imported from     Shopify. The selected order type must have the _Quote_ automation behavior and the _Issue_ operation     specified on the **Template** tab of the _Order Types_ (SO201000) form. 
+
+3. On the **Orders** tab, specify a date in the new **Earliest Quote Order Date** box. The system will import dra     orders from Shopify that were created on or aer this date. 
+
+#### Importing Sales Quotes 
+
+ To import dra orders from Shopify, prepare and process the data for the Sales Quote entity by using the Prepare Data (BC501000) and Process Data (BC501500) forms. The system imports dra orders that: 
+
+- Are not yet completed 
+
+- Were created on or aer the date specified in the **Earliest Quote Order Date** box on the **Orders** tab of the     _Shopify Stores_ (BC201010) form For each imported dra order, the system creates a sales quote on the _Sales Orders_ (SO301000) form. It has the type specified in the **Quote Order Type for Import** box on the **Orders** tab of the _Shopify Stores_ form. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 423 
+
+#### Working with Imported Sales Quotes 
+
+ You can edit an imported sales quote on the Sales Orders (SO301000) form and continue editing the corresponding dra order in the Shopify store. Changes made in Shopify can be imported into the sales quote in addition to the changes made in Acumatica ERP. However, changes made in Acumatica ERP cannot be synced back to Shopify. 
+
+ To keep data consistent between systems, we recommend updating dra orders only in Shopify. 
+
+ To finalize a sales quote—that is, to convert it to a sales order and complete the quote in the process—you choose one of the following two workflows. 
+
+#### Finalizing Sales Quotes in Acumatica ERP 
+
+ To finalize a sales quote in Acumatica ERP, you do the following: 
+
+1. Create a sales order by copying the sales quote on the _Sales Orders_ form.     By default, the new sales order is assigned the type specified in the **Order Types for Export** box on the     **Orders** tab of the _Shopify Stores_ (BC201010) form. When you create a sales order, the sales quote is assigned     the _Completed_ status in Acumatica ERP. 
+
+2. Export the created sales order to the Shopify store.     The dra order remains open in Shopify. You can manually delete it from Shopify, if necessary. When you     do, the sync record in Acumatica ERP is assigned the _Deleted_ status and excluded from future syncs. 
+
+#### Finalizing Sales Quotes in Shopify 
+
+ To finalize a sales quote in Shopify, you do the following: 
+
+1. Create an order directly from the dra order in your Shopify store.     This marks the dra order as _Completed_ in Shopify. 
+
+2. Sync the sales quote in Acumatica ERP.     The sales quote remains open, but a notification appears below the title bar on the _Sales Orders_ form,     indicating that the dra order has been completed.     You will no longer be able to copy this sales quote in Acumatica ERP to create a sales order. 
 
 ### Selling and Accepting Gi Cards 
 
@@ -17635,6 +17929,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 #### Learning Objectives 
 
  In this chapter, you will learn how to do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 424 
 
 - Create gi cards so that you can sell them in the Shopify store 
 
@@ -17662,10 +17960,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  The identifier of the gi card is not the gi card number entered during the order placement. In Shopify, you can locate the identifier and the last four characters of the number of the gi card used to pay the order by expanding the subsection with gi card payment details in the Timeline section of the order page. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 417 
-
  For step-by-step instructions for implementing gi cards, see Gift Cards: Process Activity. 
 
 ### Gi Cards: Process Activity 
@@ -17677,6 +17971,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 #### Story 
 
  Suppose that SweetLife wants to give its online customers the ability to purchase gi cards and use these cards when purchasing goods in the SweetLife online store. As an implementation consultant, you need to configure the gi card functionality—that is, the ability to sell gi cards as items and use the cards as payment methods—and test it. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 425 
 
 #### Configuration Overview 
 
@@ -17710,10 +18008,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. Make sure the connection to the Shopify store is established and the minimum configuration is performed     as described in _Initial Configuration: To Configure the Store Connection_. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 418 
-
 2. Make sure that the _PLUMJAM96_ stock item has been exported to the Shopify store during the     synchronization of the _Stock Item_ entity, as described in _Data Synchronization: To Perform the First_     _Synchronization_. 
 
 3. Make sure that the integration with the Shopify Payments payment provider has been implemented, as     described in _Order Synchronization: To Configure and Import Shopify Payments_. 
@@ -17734,6 +18028,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Status** : _Active_ In the **Denominations** section, review the default balances of the gi cards ($10, $25, $50, and $100). Leave all other settings as they are. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 426 
+
 4. In the lower right, click **Save gi card product** to save your changes. 
 
 #### Step 2: Purchasing a Present and a Gi Card 
@@ -17746,11 +18044,9 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 3. On the **SweetStore Gi Card** page, under **Denominations** , click _$25.00_ , and then click **Add to cart**. 
 
-4. In the dialog box that appears, click **View cart**. 
+4. In the upper right, click the cart icon, and in the **Cart** pop-up, click **Check out**. 
 
-5. On the **Your cart** page, click **Check out**. 
-
-6. On the order creation page, specify the settings as follows:     a. In the **Contact** section, in the **Email or mobile phone number** box, specify your email address. 
+5. On the order creation page, which opens, specify the settings as follows:     a. In the **Contact** section, in the **Email or mobile phone number** box, specify your email address. 
 
  Specify a real email address to which you have access. The gi card will be sent to this email address aer the order is completed. 
 
@@ -17758,7 +18054,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Card number** : 4242 4242 4242 4242 
 
-- **Expiration date** : 12/25 
+- **Expiration date** : 12/26 
 
 - **Security code** : 123 
 
@@ -17774,17 +18070,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **City** : New York 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 419 
-
 - **State** : _New York_ 
 
 - **ZIP code** : 10003 
 
-7. In the **Remember me** section, clear the **Save my information for a faster checkout with a Shop account**     check box. 
+6. In the **Remember me** section, clear the **Save my information for a faster checkout** check box. 
 
-8. Click **Pay now** to place and pay your order. The confirmation page with the order number opens. 
+7. Click **Pay now** to place and pay your order. The confirmation page with the order number opens. 
 
 #### Step 3: Updating the Order Settings 
 
@@ -17803,6 +18095,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 1. On the _Prepare Data_ (BC501000) form, specify the following settings in the Summary area: 
 
 - **Store** : _SweetStore - SP_ 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 427 
 
 - **Prepare Mode** : _Incremental_ 
 
@@ -17830,15 +18126,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Entity** : _Sales Order_ 
 
-2. On the **Processed** tab, in the row of the sales order that you have just imported, click the link in the **ERP ID**     column. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
 
-3. On the _Sales Orders_ (SO301000) form, which opens for the imported order, review the order details.     On the **Details** tab, notice the line with the _GIFTCERT_ non-stock item, which you specified as the **Gi**     **Certificate Item** on the **Orders** tab of the _Shopify Stores_ (BC201010) form. The **Line Description** column     shows the description of the gi card in the Shopify store and the card denomination. 
+3. In the table, in the row of the sales order that you have just imported, click the link in the **ERP ID** column. 
+
+4. On the _Sales Orders_ (SO301000) form, which opens for the imported order, review the order details.     On the **Details** tab, notice the line with the _GIFTCERT_ non-stock item, which you specified as the **Gi**     **Certificate Item** on the **Orders** tab of the _Shopify Stores_ (BC201010) form. The **Line Description** column     shows the description of the gi card in the Shopify store and the card denomination. 
 
  For the purposes of this activity, you do not need to process the created sales order further. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 420 
 
 #### Step 6: Sending the Gi Card to the Customer 
 
@@ -17866,6 +18160,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Cash Account** : _10250ST_ 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 428 
+
 3. On the form toolbar, click **Save**. 
 
 #### Step 8: Paying for the Order with the Gi Card 
@@ -17878,11 +18176,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. On the storefront, start typing plum in the search bar and then select _Plum jam 96 oz_ from the list of search     results. 
 
-3. On the page of _Plum jam 96 oz_ , specify a quantity of _3_ , and click **Add to cart**. In the pop-up, click **Check out**.     The order creation page opens. 
+3. On the page of _Plum jam 96 oz_ , specify a quantity of _3_ , and click **Add to cart**. 
 
-4. In the **Contact** section, in the **Email or mobile phone number** box, specify dheady@example.com. 
+4. In the upper right, click the cart icon, and in the **Cart** pop-up, click **Check out**.     The order creation page opens. 
 
-5. In the **Delivery** section, fill in the shipping address boxes as follows: 
+5. In the **Contact** section, in the **Email or mobile phone number** box, specify dheady@example.com. 
+
+6. In the **Delivery** section, fill in the shipping address boxes as follows: 
 
 - **Country/region** : _United States_ 
 
@@ -17898,31 +18198,29 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **ZIP code** : 10005 
 
-6. In the **Shipping method** section, make sure that _Economy_ is selected. 
+7. In the **Shipping method** section, make sure that _Economy_ is selected. 
 
-7. In the **Payment** section, specify the following settings under **Credit card** : 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 421 
+8. In the **Payment** section, specify the following settings under **Credit card** : 
 
 - **Card number** : 4242 4242 4242 4242 
 
-- **Expiration date** : 12/25 
+- **Expiration date** : 12/26 
 
 - **Security code** : 123 
 
-- **Name on card** : Danny Heady 
+- **Name on card** : Danny Heady (inserted by default) 
 
 - **Use shipping address as billing address** : Selected 
 
-8. In the **Remember me** section, clear the **Save my information for a faster checkout with a Shop account**     check box. 
-
-9. In the **Gi card** box, enter the code of the gi card that you received, and click **Apply**.     Notice that the order total has been reduced by the amount of the gi card ($25). 
+9. In the **Remember me** section, clear the **Save my information for a faster checkout** check box. 10.In the **Gi card** box, enter the code of the gi card that you received, and click **Apply**.     Notice that the order total has been reduced by the amount of the gi card ($25). 
 
  If you have not received the gi card by email, as a workaround, you can issue a new gi card on the Gi cards page, which you open by clicking Products > Gi cards in the le menu of the admin area. To generate a new gi card code, you click Create gi card in the upper right, specify the card balance, specify the optional expiration date, and then click Save. Make sure to copy the generated gi card code because you will not be able to access it once you close the page. 
 
- 10.Click Pay now to place and pay your order. The order confirmation page opens. 
+ 11.Click Pay now to place and pay your order. The order confirmation page opens. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 429 
 
 #### Step 9: Reviewing the Sales Order 
 
@@ -17956,10 +18254,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 7. On the form toolbar, click **Process**. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 422 
-
 8. In the **Processing** dialog box, which opens, click **Close** to close the dialog box. 
 
 #### Step 11: Reviewing the Imported Sales Order 
@@ -17972,27 +18266,33 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Entity** : _Sales Order_ 
 
-2. On the **Processed** tab, in the row of the sales order that you have just imported, click the link in the **ERP ID**     column. 
+2. In the Filter List drop-down menu above the table, select _Processed_. 
 
-3. On the _Sales Orders_ (SO301000) form, which opens in a pop-up window, review the settings of the order, as     shown in the following screenshot. 
+3. In the table, in the row of the sales order that you have just imported, click the link in the **ERP ID** column. 
+
+4. On the _Sales Orders_ (SO301000) form, which opens in a pop-up window, review the settings of the order, as     shown in the following screenshot. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 430 
 
  Figure: Payment by a gi card applied to the sales order 
 
  On the Payments tab, notice that two prepayments have been applied to the order: a credit card payment (mapped to the SHOPIFYPAY payment method) in the amount of $110.45 and a gi card payment (mapped to the GIFTCARDS payment method) in the amount of $25. 
 
-4. In the row of the gi card payment, which has an applied amount of $25, click the link in the **Reference Nbr.**     column.     On the _Payments and Applications_ (AR302000) form, which opens in a pop-up window, review the payment     details.     Notice that the **Description** box contains the order number assigned to the related order in the Shopify     store and the identifier of the gi card used to pay the order.     The prepayment has the _Balanced_ status because the **Release Payments and Refunds** check box was     cleared in the mapping of the _GIFT_CARD_ payment method in the table on the **Payments** tab of the _Shopify_     _Stores_ (BC201010) form. 
+5. In the row of the gi card payment, which has an applied amount of $25, click the link in the **Reference Nbr.**     column.     On the _Payments and Applications_ (AR302000) form, which opens in a pop-up window, review the payment     details.     Notice that the **Description** box contains the order number assigned to the related order in the Shopify     store and the identifier of the gi card used to pay the order.     The prepayment has the _Balanced_ status because the **Release Payments and Refunds** check box was     cleared in the mapping of the _GIFT_CARD_ payment method in the table on the **Payments** tab of the _Shopify_     _Stores_ (BC201010) form. 
 
-5. Close the pop-up windows with the _Payments and Applications_ and _Sales Orders_ forms. 
+6. Close the pop-up windows with the _Payments and Applications_ and _Sales Orders_ forms. 
 
  You have finished processing a payment for the sales order with a gi certificate. In a production setting, you would release the prepayment, which is beyond the scope of this activity. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 423 
 
 ### Importing Products with Variants 
 
  In the topics of this chapter, you will read about the importing of products with variants from the Shopify store to Acumatica ERP, where the corresponding template items and matrix items will be created. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 431 
 
 ### Import of Products with Variants: General Information 
 
@@ -18020,15 +18320,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. On the _Shopify Stores_ (BC201010) form, you select the store and do the following:     a. For the _Template Item_ entity on the **Entity Settings** tab, you select the **Active** check box and select        _Import_ in the **Sync Direction** column.     b. On the **Inventory Settings** tab ( **Import Settings** section), you select an auto-numbering sequence in        the **Inventory Numbering Sequence** box. The system uses that numbering sequence to generate the        identifiers for imported template and matrix items. 
 
-2. On the _Attributes_ (CS205000) form, you perform the following steps:     a. You make sure that Acumatica ERP has an attribute that corresponds to each of the product variants on        the product management page in the external system. To optimize auto-matching during the import,        specify an attribute description that matches the variant name on the product management page in the        external system. 
+2. On the _Attributes_ (CS205000) form, you perform the following steps:     a. You make sure that Acumatica ERP has an attribute that corresponds to each of the product variants on        the product management page in the external system. To optimize auto-matching during the import,        specify an attribute description that matches the variant name on the product management page in the        external system.     b. You make sure that each attribute has the set of values that the variant in the external system has. In        the table, specify a description for each attribute value that matches the variant value on the product        management page in the external system. 
+
+3. On the _Item Classes_ (IN201000) form, you make sure that at least one item class has been defined for the     import of template and matrix items. In the right pane of the form, in the topmost table on the **Attributes**     tab, each item class must have the set of attributes with the following settings: 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 424 
-
- b. You make sure that each attribute has the set of values that the variant in the external system has. In the table, specify a description for each attribute value that matches the variant value on the product management page in the external system. 
-
-3. On the _Item Classes_ (IN201000) form, you make sure that at least one item class has been defined for the     import of template and matrix items. In the right pane of the form, in the topmost table on the **Attributes**     tab, each item class must have the same number of attributes as the number of variant options of the     product. The attributes must have the following settings in the table: 
+ Integration with Shopify | 432 
 
 - **Active** : Selected 
 
@@ -18048,21 +18346,21 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  You use this method as an easier way to assign the same item class to multiple products being imported. 
 
- Regardless of how you have inserted the item class for a particular row, the system automatically assigns the inserted item class to all the rows that have the same identifier in the External ID column as the one in the updated row. You cannot specify different item classes for a product and its variants. Also, aer the selection of the item class in any row, the system attempts to populate the ERP Attribute and ERP Attribute Value columns with the attributes and their values defined on the Attributes (CS205000) form and specified in the selected item class. If the description of an attribute matches the value in the External Option column, the system adds this attribute to the ERP Attribute columns of the mapping. If the description of one of the values of the selected attribute matches the External Option Value , the system adds this attribute value to the ERP Attribute Value columns of the mapping. b. If the system does not populate the ERP Attribute and ERP Attribute Value columns for any row, you fill them in manually. Once you specify an attribute for an external option in a mapping, the system automatically inserts this attribute for all the mappings with the same product identifier and external option. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 425 
-
- c. To complete the mapping of the product variants and Acumatica ERP attributes, you save the changes. Then you can proceed with the import. 
+ Regardless of how you have inserted the item class for a particular row, the system automatically assigns the inserted item class to all the rows that have the same identifier in the External ID column as the one in the updated row. You cannot specify different item classes for a product and its variants. Also, aer the selection of the item class in any row, the system attempts to populate the ERP Attribute and ERP Attribute Value columns with the attributes and their values defined on the Attributes (CS205000) form and specified in the selected item class. If the description of an attribute matches the value in the External Option column, the system adds this attribute to the ERP Attribute columns of the mapping. If the description of one of the values of the selected attribute matches the External Option Value , the system adds this attribute value to the ERP Attribute Value columns of the mapping. b. If the system does not populate the ERP Attribute and ERP Attribute Value columns for any row, you fill them in manually. Once you specify an attribute for an external option in a mapping, the system automatically inserts this attribute for all the mappings with the same product identifier and external option. c. To complete the mapping of the product variants and Acumatica ERP attributes, you save the changes. Then you can proceed with the import. 
 
 3. On the _Process Data_ (BC501500) form, you process the synchronization records prepared for the _Template_     _Item_ entity. 
 
- As a result, for each imported product with variants, the system creates a template item on the Template Items (IN203000) form. It also creates a matrix item for each variant on the Stock Items (IN202500) or Non-Stock Items (IN202000) form, depending on whether the product is physical or not. That is, depending on the state of the This is a physical product check box for the product variant on the variant management page ( Shipping section) of the Shopify store, the system imports the product variants as follows: 
+ As a result, for each imported product with variants, the system creates a template item on the Template Items (IN203000) form. It also creates a matrix item for each variant on the Stock Items (IN202500) or Non-Stock Items (IN202000) form, depending on whether the product is physical or not. That is, depending on the state of the This 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 433 
+
+ is a physical product check box for the product variant on the variant management page ( Shipping section) of the Shopify store, the system imports the product variants as follows: 
 
 - As stock items on the _Stock Items_ form if the check box is selected 
 
-- As non-stock items on the _Non-Stock Items_ form if the check box is cleared During the import, some settings of the created template and matrix items are imported from the external system, while others are copied from the item class specified on the _Attribute Mapping for Template Item Import_ form. For more details on how the system inserts the settings of imported items, see _Import of Products with Variants: Settings of Imported Items_. 
+- As non-stock items on the _Non-Stock Items_ form if the check box is cleared During the import, some settings of the created template and matrix items are imported from the external system, while others are copied from the item class specified on the _Attribute Mapping for Template Item Import_ form. Unused attributes of the item class appear as inactive for the imported template item on the **Attributes** tab of _Template Items_ form. For more details on how the system inserts the settings of imported items, see _Import of Products with Variants: Settings of Imported Items_. 
 
 #### Product Synchronization 
 
@@ -18080,10 +18378,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - The price and availability settings are imported only when Acumatica ERP creates items. Aer that, these     settings are updated in Acumatica ERP and exported to the external system to prevent discrepancies in the     systems. Also, an alternate ID of the _External SKU_ type assigned to an inventory item during import cannot be updated on the **Cross-Reference** tab of the _Stock Items_ (IN202500) or _Non-Stock Items_ (IN202000) form. However, the row of the _External SKU_ type with this alternate ID can be deleted in Acumatica ERP; this will not lead to the deletion of the SKU in the external system during the export of the item from Acumatica ERP. The SKU can also be updated in the external system and synchronized during the import to Acumatica ERP; in this case, the system adds the new SKU to the existing inventory item. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 426 
-
  If there is no synchronization record for a product variant being imported, the external SKU is used to map the product with an existing item in Acumatica ERP. In this case, during the import of products with variants, the system searches for a product variant that matches an existing inventory item. It performs the following steps for each product variant until it finds a match: 
 
 1. Checks if the SKU matches the inventory ID 
@@ -18093,6 +18387,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 3. Checks if the SKU matches an alternate ID of the _External SKU_ type 
 
 4. Checks if the product title matches the item description 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 434 
 
 ### Import of Products with Variants: Settings of Imported Items 
 
@@ -18122,13 +18420,33 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Item description Description 
 
-#### Matrix Item Settings Imported from the External System 
+ Attributes tab 
 
- The following table shows the settings that are assigned to each matrix item created on the Stock Items (IN202500) or Non-Stock Items (IN202000) form when you import a product with variants. The system uses the settings of the template item that it has created for the product and the settings of the source product and product variants, which are specified on the product management and variant management pages in the Shopify store. 
+ Each product option from the store that has been mapped to an attribute of the template item. Unused attributes of the item class appear in the table as inactive, with the Active check box cleared. 
+
+ Product options 
+
+ Configuration tab 
+
+ Default Column Attribute ID 
+
+ The template item is assigned the default column attribute of the corresponding item class. If the item class has no default column attribute specified, the connector uses the attribute mapped to the first product option. 
+
+ The first product option 
+
+ Default Row Attribute ID 
+
+ The template item is assigned the default row attribute of the corresponding item class. If the item class has no default row attribute specified, the connector uses the attribute mapped to the second product option. 
+
+ The second product option 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 427 
+ Integration with Shopify | 435 
+
+#### Matrix Item Settings Imported from the External System 
+
+ The following table shows the settings that are assigned to each matrix item created on the Stock Items (IN202500) or Non-Stock Items (IN202000) form when you import a product with variants. The system uses the settings of the template item that it has created for the product and the settings of the source product and product variants, which are specified on the product management and variant management pages in the Shopify store. 
 
  Acumatica ERP Element Shopify Element Summary area 
 
@@ -18186,13 +18504,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Weight , the unit of measure 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 436 
+
 #### Assignment of the Tax Category 
 
  During the import of a product with variants from the Shopify store, the system searches for a tax category to assign to the corresponding template and matrix items created on the Template Items (IN203000), Stock Items (IN202500), and Non-Stock Items (IN202000) forms as follows until it finds a tax category: 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 428 
 
 1. It checks the mapping settings on the **Import Mapping** tab of the _Entities_ (BC202000) form for the     corresponding store and the _Template Item_ entity. 
 
@@ -18228,11 +18546,11 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - You are initially configuring the external system and need to transfer template items (and matrix items     based on these template items) that have already been defined in Acumatica ERP 
 
-- If you manage template and matrix items in Acumatica ERP, have updated any of the settings of a template     item or matrix item in Acumatica ERP aer the template item was synchronized with the external system,     and need the changes to be reflected in the product settings in the external system 
-
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 429 
+ Integration with Shopify | 437 
+
+- If you manage template and matrix items in Acumatica ERP, have updated any of the settings of a template     item or matrix item in Acumatica ERP aer the template item was synchronized with the external system,     and need the changes to be reflected in the product settings in the external system 
 
 #### Configuration of Template Item Synchronization 
 
@@ -18270,7 +18588,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Shopify | 430 
+ Integration with Shopify | 438 
 
 #### Visibility of an Exported Template Item 
 
@@ -18287,6 +18605,30 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - To track the quantity of the item, you select _Set as Available (Track Qty.)_ in the **Availability** box. In Shopify,     on the product management page for the matrix item, the system selects the **Track quantity** check box in     the **Inventory** section. 
 
 - To allow including the item in orders even if its quantity is zero, you select _Set as Pre-Order/Continue Selling_     in the **When Qty. Unavailable** box (which is available only if _Set as Available (Track Qty.)_ is selected in the     **Availability** box. In Shopify, on the product management page for the matrix item, the system selects the     **Continue selling when out of stock** check box in the **Inventory** section. 
+
+#### Tax Settings of an Exported Item 
+
+ In Acumatica ERP, you assign a tax category to a template item in the Tax Category box on the General tab of the Template Items (IN203000) form. 
+
+ When you sync a template item with the Shopify store, the connector assigns the tax code to the corresponding product variants in Shopify by using the tax category specified for the item. 
+
+ Tax codes in Shopify are available on the Shopify Plus subscription plan. Tax codes can be used to identify the tax category of product variants for tax calculation by third-party Shopify apps. 
+
+ The connector also selects the Charge tax on this variant check box for the product variants when assigns the tax code. 
+
+ If the tax category being synchronized is mapped to FALSE in the substitution list, the system won’t mark the product as taxable. The substitution list is specified in the Tax Categories box on the Orders tab of the Shopify Stores (BC201010) form. 
+
+ To exclude tax categories from synchronization for the Template Item entity, you use export mapping. You add a rule with the following settings to the entity on the Export Mapping tab of the Entities (BC202000) form: 
+
+- **External Object** : _Product -> Product Variants_ 
+
+- **External Field** : _Avalara Tax Code_ 
+
+- **ERP Object** : _<<Unmap>>_ 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 439 
 
 ### Sale of Matrix Items: To Export Matrix Items 
 
@@ -18307,10 +18649,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - On the _Item Classes_ (IN201000) form, the _MJUICE_ item class has been created. 
 
 - On the _Attributes_ (CS205000) form, the attributes and the attribute values listed in the following table have     been defined. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 431 
 
  Attribute Attribute Values 
 
@@ -18338,6 +18676,12 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  PCH-32OZ-GBT Peach juice in glass bottles of 32 fluid ounces 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 440 
+
+ Inventory ID Description 
+
  PNL-16OZ-GBT Pineapple juice in glass bottles of 16 fluid ounces 
 
  SWB-32OZ-GBT Strawberry juice in glass bottles of 32 fluid ounces 
@@ -18363,10 +18707,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 #### System Preparation 
 
  Before you complete the instructions in this activity, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 432 
 
 1. Make sure that the following prerequisites have been met: 
 
@@ -18396,6 +18736,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - _Volume_ 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 441 
+
 4. In the **Inventory ID Segment Settings** table, notice the settings for the automatic generation of the     identifiers that have been assigned to matrix items. The segments are generated based on the attribute     values ( **Segment Type** is set to _Attribute Value_ for all segments), and the length of each segment is     determined by the value in the **Number of Characters** column. 
 
 5. On the **Matrix Items** tab, review the list of matrix items that have been generated based on the attributes     configured for the _Juice_ template item.     In the subsequent steps of this activity, you will export these items to the Shopify store. 
@@ -18422,10 +18766,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 2. In the **Store Name** box of the Selection area, select _SweetStore - SP_. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 433 
-
 3. In the **Entity** column, click the _Template Item_ link.     The system opens the _Entities_ (BC202000) form with the _SweetStore - SP_ store and the _Template Item_ entity     selected in the Summary area. Notice that this entity can only be exported to the Shopify store (that is, **Sync**     **Direction** is set to _Export_ ), and that only two tabs, **Export Mapping** and **Export Filtering** , are displayed. 
 
 4. To create a filtering condition for template items, on the **Export Filtering** tab, click **Add Row** on the table     toolbar, and specify the following settings in the row: 
@@ -18449,6 +18789,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 2. In the Summary area of the form, specify the following settings: 
 
 - **Store** : _SweetStore - SP_ 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 442 
 
 - **Prepare Mode** : _Incremental_ 
 
@@ -18476,10 +18820,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  To view the exported Juice template item in the Shopify store, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 434 
-
 1. Open the _Sync History_ (BC301000) form. 
 
 2. In the Summary area of the form, specify the following settings: 
@@ -18499,6 +18839,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 ### Sale of Matrix Items: Export of Product Images 
 
  Product images and videos can help customers select the most suitable products and choose variants, such as colors or patterns. In Acumatica ERP, you can save images of template items (such as a particular model of running shoes), as well as images of the matrix items that were generated based on these template items (such as the colors of this model of running shoes). You can then export the saved images to the Shopify store. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 443 
 
 #### Learning Objectives 
 
@@ -18520,10 +18864,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - As attachments to an item: On the **Configuration** tab of the same form Images specified as links in the **Media URLs** table on the **eCommerce** tab are exported along with the template item (that is, during the synchronization of the _Template Item_ entity). When the template item is exported to the Shopify store, the images are added to the **Media** section of the product management page of the exported template item. For successful synchronization, images must be publicly accessible (that is, access to them should not require authentication or authorization). If you delete a link to an image from the **Media URLs** table, the image will also be deleted from the product page in the Shopify store during the next synchronization of the item. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 435 
-
  Images that have been attached to a template item on the Template Items form are exported to the Shopify store during the synchronization of the Product Image entity. The items the images belong to must be exported to the Shopify store or created in the Shopify store before the images attached to it are exported. The system exports the files attached to the item only if they have extensions for which the Image check box is selected on the File Upload Preferences (SM202550) form. 
 
 #### Export of Images for Matrix Items 
@@ -18535,6 +18875,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - All exported images are added to the **Media** section. 
 
 - One of the exported images is added to the table in the **Variants** section (the Image column of the row of the     matrix item). The template item and the matrix item must be synchronized with the Shopify store or created in the Shopify store before images attached to the matrix item can be exported. Only the files with extensions for which the **Image** check box is selected on the _File Upload Preferences_ (SM202550) form can be exported. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 444 
 
  If images are added for a matrix item as links in the Media URLs table on the eCommerce tab of the Stock Items form (if the matrix item is a stock item) or Non-Stock Items form (if the matrix item is a non-stock item), these images are not exported to Shopify. 
 
@@ -18557,10 +18901,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - On the _Template Items_ (IN203000) form, the _JUICE_ template item has been created. 
 
 - On the _Stock Items_ (IN202500) form, the _PCH-32OZ-GBT_ matrix item has been generated from the _JUICE_     template item. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 436 
 
 #### Process Overview 
 
@@ -18585,6 +18925,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
  Before you complete the instructions in this activity, do the following: 
 
 1. Make sure that the following prerequisites have been met: 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 445 
 
 - The Shopify store has been created and configured, as described in _Initial Configuration: To Set Up a_     _Shopify Store_. 
 
@@ -18620,10 +18964,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  Image 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 437 
-
 5. On the form toolbar, click **Save**. 
 
 #### Step 2: Adding an Image to the Matrix Item 
@@ -18645,6 +18985,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 1. Open the _Prepare Data_ (BC501000) form. 
 
 2. In the Summary area of the form, specify the following settings: 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 446 
 
 - **Store** : _SweetStore - SP_ 
 
@@ -18674,10 +19018,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 3. On the **Products** page, which opens, click the row of the _Juice_ product to open its product management     page.     On the product management page of the _Juice_ product, which opens, notice that the **Media** section     contains only one image; this is the image you added to the _Juice_ template item as an external link in the     **Media URLs** table on the **eCommerce** tab of the _Template Items_ (IN203000) form. Images added to this table     are synchronized as part of the synchronization of the _Template Item_ entity. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 438 
-
 #### Step 5: Activating the Product Image Entity 
 
  You can skip this step if you have completed the following activity: Product Synchronization: To Sync Product Images. 
@@ -18706,6 +19046,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 3. In the table, select the check box in the unlabeled column in the row of the _Product Image_ entity. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 447 
+
 4. On the form toolbar, click **Prepare**. 
 
 5. In the **Processing** dialog box, which opens, click **Close** to close the dialog box. 
@@ -18728,10 +19072,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 4. At the top of the page, click **Catalog** , locate the _Juice_ product, and review how the main product image is     displayed on the product listing page. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 439 
-
  The display of images may differ depending on the theme applied to the store. 
 
 ### Sale of Matrix Items: Export of Product Availability Data 
@@ -18747,6 +19087,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - Set up quantity tracking for matrix items exported to the Shopify store 
 
 - Synchronize the available quantities of exported matrix items for which quantity tracking is turned on 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 448 
 
 #### Applicable Scenarios 
 
@@ -18772,10 +19116,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  If the matrix item has no available quantity (that us its calculated quantity is less than or equal to zero), the system updates the matrix item's purchasability settings according to the When Qty. Unavailable setting specified on the eCommerce tab of the Stock Items form. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 440 
-
 #### Units of Measure of Available Item Quantities 
 
  An item's available quantity is exported to the Shopify store in the item's sales unit of measure, which is defined on the General tab of the Stock Items (IN202500) form. If an item's base UOM is different from its sales UOM, during the synchronization of the Product Availability entity, the item's available quantity is converted to the sales UOM before being exported to the Shopify store, 
@@ -18785,6 +19125,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 ### Sale of Matrix Items: To Export Product Availability Data 
 
  In this activity, you will specify the default availability settings for the Shopify store, as well as the availability settings for a particular template item and the matrix items generated based on this template item. You will then export the product availability data to the Shopify store and review the results of the export. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 449 
 
  The following activity is based on the U100 dataset. 
 
@@ -18812,10 +19156,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
  In this activity, you will do the following: 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 441 
-
 1. On the _Shopify Stores_ (BC201010) form, activate the needed entity. 
 
 2. On the _Shopify Stores_ form, review the default availability settings. 
@@ -18837,6 +19177,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
  Before you complete the instructions in this activity, do the following: 
 
 1. Make sure that the following prerequisites have been met: 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 450 
 
 - The Shopify store has been created and configured, as described in _Initial Configuration: To Set Up a_     _Shopify Store_. 
 
@@ -18876,10 +19220,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Warehouse Mode** : _Specific Warehouses_ 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 442 
-
 4. In the **Warehouse Mapping for Inventory Export** table, add a row with the following settings: 
 
 - **Warehouse** : _RETAIL_ 
@@ -18901,6 +19241,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 3. On the **eCommerce** tab, specify the following settings: 
 
 - **Availability** : _Set as Available (Track Qty.)_ 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 451 
 
 - **When Qty. Unavailable** : _Set as Unavailable_ 
 
@@ -18938,10 +19282,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 1. Open the _Storage Details by Item Warehouse Location_ (IN408055) form. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 443 
-
 2. In the Selection area, in the **Warehouse** box, select _RETAIL_.     The system displays the quantities of all items stored in the _RETAIL_ warehouse. 
 
 3. Click the header of the **Location ID** column, and in the dialog box that opens, select _Equals_ , type JS3 in the     text box, and click **OK**.     The system now displays only the items that are stored in the _JS3_ warehouse location. Notice the item     quantities in the **Qty. Available for Shipping in Location** column. 
@@ -18961,6 +19301,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - **Prepare Mode** : _Full_ 
 
 - **Date Range** : Cleared 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 452 
 
 3. In the table, select the check box in the unlabeled column in the rows of the _Template Item_ entity. 
 
@@ -19002,10 +19346,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 8. In the **Processing** dialog box, which opens, click **Close** to close the dialog box. 
 
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 444 
-
 #### Step 8: Reviewing the Synchronized Data 
 
  To review the synchronized availability data in the Shopify store, do the following: 
@@ -19026,7 +19366,13 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 8. On the product management page of _Pineapple / Glass bottle / 16 fl oz_ , notice that the **Track quantity** check     box is cleared. 
 
-9. In the **Variants** section, click _Orange / Glass bottle / 16 fl oz_. 10.On the product management page of _Orange / Glass bottle / 16 fl oz_ , notice that the **Track quantity** check     box is selected, the **Continue selling when out of stock** check box is cleared, and in the **Available** box of     the **Quantity** subsection, the available quantity of the item is displayed.     For all other items, the **Track quantity** check box is cleared because the **Availability** setting for each of     them was set to _Store Default_ on the **eCommerce** tab of the _Stock Items_ (IN202500) form and the default     availability setting specified for the _SweetStore - SP_ store on the _Shopify Stores_ (BC201010) form was _Set as_     _Available (Don't Track Qty.)_. 
+9. In the **Variants** section, click _Orange / Glass bottle / 16 fl oz_. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 453 
+
+ 10.On the product management page of Orange / Glass bottle / 16 fl oz , notice that the Track quantity check box is selected, the Continue selling when out of stock check box is cleared, and in the Available box of the Quantity subsection, the available quantity of the item is displayed. For all other items, the Track quantity check box is cleared because the Availability setting for each of them was set to Store Default on the eCommerce tab of the Stock Items (IN202500) form and the default availability setting specified for the SweetStore SP store on the Shopify Stores (BC201010) form was Set as Available (Don't Track Qty.). 
 
 ### Sale of Matrix Items: Import of Orders with Matrix Items 
 
@@ -19042,13 +19388,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 #### Import of Orders with Matrix Items 
 
- Sales orders containing matrix items are imported from a Shopify store to Acumatica ERP the same way as any other sales orders placed in the Shopify store are. In imported sales orders, on the Details tab of the Sales Orders (SO301000) form, a line is created for each product variant added to the sales order in the Shopify store. The Inventory ID column shows the identifier of a particular matrix item (that is, the identifier of the stock or non
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 445 
-
- stock item) and not the identifier of the template item that was used to generate the matrix item and that was synchronized with the Shopify store. 
+ Sales orders containing matrix items are imported from a Shopify store to Acumatica ERP the same way as any other sales orders placed in the Shopify store are. In imported sales orders, on the Details tab of the Sales Orders (SO301000) form, a line is created for each product variant added to the sales order in the Shopify store. The Inventory ID column shows the identifier of a particular matrix item (that is, the identifier of the stock or nonstock item) and not the identifier of the template item that was used to generate the matrix item and that was synchronized with the Shopify store. 
 
 ### Sale of Matrix Items: To Import an Order with Matrix Items 
 
@@ -19063,6 +19403,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 #### Process Overview 
 
  In this activity, you will do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 454 
 
 1. On the storefront of the Shopify store, place an order with two variants of the _Juice_ product. 
 
@@ -19093,10 +19437,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 1. In the le menu of the admin area, click Preview right of **Online Store**. 
 
 2. On the storefront, start typing juice in the search bar, and then select _Juice_ in the search results. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 446 
 
 3. On the page for _Juice_ , select the following options: 
 
@@ -19130,6 +19470,10 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Address** : 3402 Angus Road 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 455 
+
 - **City** : New York 
 
 - **Country/region** : _United States_ 
@@ -19157,10 +19501,6 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 - **Password** : _123_ 
 
 2. Open the _Prepare Data_ (BC501000) form. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Shopify | 447 
 
 3. In the Summary area, specify the following settings: 
 
@@ -19190,17 +19530,21 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 - **Store** : _SweetStore - SP_ 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Shopify | 456 
+
 - **Entity** : _Sales Order_ 
 
 3. On the **Processed** tab, in the row of the sales order that you have just imported (which you can locate by its     external ID), click the link in the **ERP ID** column. 
 
 4. On the _Sales Orders_ (SO301000) form, which opens for the imported order, review the order details.     On the **Details** tab, notice that a separate line was added for each product variant that was sold. The     **Inventory ID** column contains the identifiers of the matrix items generated for the _JUICE_ template item     (which are _PCH-32OZ-GBT_ and _APL-16OZ-GBT_ ) and not the identifier of the _JUICE_ template item itself. 
 
- For the purposes of this activity, you do not need to process the sales order. 
+For the purposes of this activity, you do not need to process the sales order. 
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 448 
+ Integration with Amazon | 457 
 
 ## Integration with Amazon 
 
@@ -19238,7 +19582,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 449 
+ Integration with Amazon | 458 
 
  Acumatica ERP supports synchronization for the following marketplaces in the North America region: 
 
@@ -19282,7 +19626,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 450 
+ Integration with Amazon | 459 
 
  Aer the initial configuration has been completed, you can configure the mapping and filtering for active entities on the Entities (BC202000) form. You can create filters to narrow the data to be synchronized, override the default mappings, or define additional mappings of data fields between the Acumatica ERP instance and the Amazon seller account. Then you can start synchronizing data. 
 
@@ -19326,7 +19670,7 @@ _Processing Centers_ (CA205000) The processing center to be used for processing 
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 451 
+ Integration with Amazon | 460 
 
  The pulled data is then filtered according to the filtering criteria defined on the Entities (BC202000) form and saved in the processing queue as synchronization records with the Prepared status, which indicates that these synchronization records have not yet been processed. The synchronization records are then processed. The data preparation process can be started in the following ways: 
 
@@ -19338,13 +19682,13 @@ The following diagram shows the process of preparing data for synchronization.
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 452 
+ Integration with Amazon | 461 
 
 **_Figure: Preparing data for synchronization_** 
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 453 
+ Integration with Amazon | 462 
 
 #### Processing of Out-of-Sync Data 
 
@@ -19374,7 +19718,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 454 
+ Integration with Amazon | 463 
 
  Figure: Processing prepared data 
 
@@ -19386,7 +19730,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 455 
+ Integration with Amazon | 464 
 
 - If the entity record was deleted only in the secondary system and then was modified in the primary system During the entity preparation, synchronization records that were never processed and were manually assigned the _Deleted_ status on the _Sync History_ form, are assigned the _Prepared_ status regardless of the changes to the entity records in either of the systems. 
 
@@ -19424,7 +19768,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 456 
+ Integration with Amazon | 465 
 
 1. You open the _Prepare Data_ (BC501000) form. 
 
@@ -19462,7 +19806,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 457 
+ Integration with Amazon | 466 
 
 ### Product Availability: General Information 
 
@@ -19506,7 +19850,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 458 
+ Integration with Amazon | 467 
 
 - _Specific Warehouses_ : To calculate the available quantity of the item based on the quantity in the     selected warehouses and warehouse locations. When this option is selected, the **Warehouse Mapping**     **for Inventory Export** table appears below the **Warehouse Mode** box. In this table,you can list the     warehouses and warehouse locations to be used in the calculation of item availability.     If you specify a warehouse but do not specify any of its locations, quantities available from the entire     warehouse are used for quantity calculations. If you specify multiple warehouses and warehouse     locations, the quantities available from all specified warehouses and warehouse locations are used for     quantity calculations. 
 
@@ -19534,11 +19878,13 @@ The following diagram shows the process of preparing data for synchronization.
 
  The information about the stock levels is updated in the Amazon seller account during the synchronization of the Product Availability entity. The synchronization affects only the stock and template items for which the link has been successfully created during the synchronization of the Product (Linking Only) entity. The available item quantity to export is calculated based on the settings specified on the Inventory tab of the Amazon Stores (BC201020) form. The quantity is exported in the item's sales UOM. 
 
- If the total available quantity of an item is negative, a quantity of 0 is exported for this item. 
+ The connector exports product quantities only from regular cost layers. Quantities from special orders and projectrelated cost layers are excluded from the product availability export. For more information about cost layers, see Tracking of Costs at Warehouses and Locations. 
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 459 
+ Integration with Amazon | 468 
+
+ If the total available quantity of an item is negative, a quantity of 0 is exported for this item. 
 
 ### Synchronizing Orders 
 
@@ -19578,7 +19924,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 460 
+ Integration with Amazon | 469 
 
 ### Order Synchronization: Seller-Fulfilled Orders 
 
@@ -19604,21 +19950,25 @@ The following diagram shows the process of preparing data for synchronization.
 
  We recommend that the generic customer ID be created without address details other than the country. 
 
-5. Make sure that the product identifiers match.     For each product in the Amazon seller account, the seller SKU or the ASIN number should match the     inventory ID or an alternate ID of the stock or template item on the _Stock Items_ (IN202500) or _Template Items_     (IN203000) form. 
+5. Make sure that the product identifiers match.     For each product in the Amazon seller account, the seller SKU or the ASIN number should match the     identifier specified for the stock or template item in one of the following boxes on the _Stock Items_     (IN202500) or _Template Items_ (IN203000) form: 
+
+- **Inventory ID** in the Summary area 
+
+- **Alternate ID** in the row of the _Global_ type on the **Cross-Reference** tab 
 
  An inventory item can have only a single cross-reference with the product's SKU specified as the alternate ID. That is, you cannot match a single product with multiple UOMs from the Amazon seller account with a single inventory item by using multiple cross-references in Acumatica ERP. Each product's UOM with the SKU from the Amazon seller account should be matched with a separate inventory item in Acumatica ERP. 
 
-6. Map the shipping methods.     On the **Shipping** tab of the _Amazon Stores_ form, you map the Amazon shipping methods with the Ship Via     codes defined in Acumatica ERP. 
+6. Map the shipping methods. 
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 461 
+ Integration with Amazon | 470 
 
- When the order synchronization is started without the shipping method mapping, it fails. The Amazon connector populates the Store Shipping Method column, which you can then map with the Ship Via code. You must also map each Ship Via code with a carrier from Amazon in a substitution list on the Substitution Lists (SM206026) form, and then specify this substitution list in the Ship Via Codes to Carriers box on the Orders tab of the Amazon Stores form. Similarly, you must map each Ship Via code with a carrier service from Amazon in a substitution list, and then specify the substitution list in the Ship Via Codes to Carrier Services box on the Orders tab. If the carrier and carrier service method that have been defined for a Ship Via code do not match those defined in Amazon, during the export of a shipment, the carrier or carrier service method in Amazon will be updated based on the substitution values specified in these substitution lists. 
+ On the Shipping tab of the Amazon Stores form, you map the Amazon shipping methods with the Ship Via codes defined in Acumatica ERP. When the order synchronization is started without the shipping method mapping, it fails. The Amazon connector populates the Store Shipping Method column, which you can then map with the Ship Via code. You must also map each Ship Via code with a carrier from Amazon in a substitution list on the Substitution Lists (SM206026) form, and then specify this substitution list in the Ship Via Codes to Carriers box on the Orders tab of the Amazon Stores form. Similarly, you must map each Ship Via code with a carrier service from Amazon in a substitution list, and then specify the substitution list in the Ship Via Codes to Carrier Services box on the Orders tab. If the carrier and carrier service method that have been defined for a Ship Via code do not match those defined in Amazon, during the export of a shipment, the carrier or carrier service method in Amazon will be updated based on the substitution values specified in these substitution lists. 
 
 #### Synchronizing Seller-Fulfilled Orders 
 
- Seller-fulfilled orders are imported from an Amazon seller account during the synchronization of the Sales Order entity. For details about data synchronization, see Data Synchronization: General Information. 
+ Seller-fulfilled orders, including shipped ones, are imported from an Amazon seller account during the synchronization of the Sales Order entity. For details about data synchronization, see Data Synchronization: General Information. 
 
  During the data processing stage of the order import, a sales order is created on the Sales Orders (SO301000) form with the following settings: 
 
@@ -19652,11 +20002,13 @@ The following diagram shows the process of preparing data for synchronization.
 
  Amazon creates a replacement order when a user replaces any products in an existing order in the Amazon seller account. Replacement orders are imported from the Amazon seller account during the synchronization of the Sales Order entity. 
 
- As a result of importing a replacement order, the system creates a sales order with the following description on the Sales Orders (SO301000) form: Replacement order <Replacement order external ID> for Amazon order <Replaced order external ID> from <Store name> store. The total amount of the replacement order is $0 and a payment is neither created nor imported for the replacement order. 
+ As a result of importing a replacement order, the system creates a sales order with the following description on the Sales Orders (SO301000) form: Replacement order <Replacement order external ID> for Amazon order <Replaced 
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 462 
+ Integration with Amazon | 471 
+
+ order external ID> from <Store name> store. The total amount of the replacement order is $0 and a payment is neither created nor imported for the replacement order. 
 
 ### Order Synchronization: Marketplace-Fulfilled Orders 
 
@@ -19686,13 +20038,19 @@ The following diagram shows the process of preparing data for synchronization.
 
  The issue of items to be sent to Amazon warehouses should be processed manually. 
 
- You can also specify a dedicated shipping account (and subaccount) to be used for marketplace-fulfilled orders. If no shipping account (and subaccount) has been specified in this section, the amounts will be recorded to the freight account (and subaccount) specified for the default warehouse of the generic customer. 
+ You can also specify a dedicated shipping account (and subaccount) to be used for marketplace-fulfilled orders. If no shipping account (and subaccount) has been specified in this section, the amounts will 
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 463 
+ Integration with Amazon | 472 
 
-7. Make sure that the product identifiers match.     For each product in the Amazon seller account, the seller SKU or the ASIN number should match the     inventory ID or an alternate ID of the stock or template item on the _Stock Items_ (IN202500) or _Template Items_     (IN203000) form. 
+ be recorded to the freight account (and subaccount) specified for the default warehouse of the generic customer. 
+
+7. Make sure that the product identifiers match.     For each product in the Amazon seller account, the seller SKU or the ASIN number should match the     identifier specified for the stock or template item in one of the following boxes on the _Stock Items_     (IN202500) or _Template Items_ (IN203000) form: 
+
+- **Inventory ID** in the Summary area 
+
+- **Alternate ID** in the row of the _Global_ type on the **Cross-Reference** tab 
 
  An inventory item can have only a single cross-reference with the product's SKU specified as the alternate ID. That is, you cannot match a single product with multiple UOMs from the Amazon seller account with a single inventory item by using multiple cross-references in Acumatica ERP. Each product's UOM with the SKU from the Amazon seller account should be matched with a separate inventory item in Acumatica ERP. 
 
@@ -19724,7 +20082,7 @@ The following diagram shows the process of preparing data for synchronization.
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 464 
+ Integration with Amazon | 473 
 
 ### Order Synchronization: Import of Payments 
 
@@ -19732,13 +20090,15 @@ The following diagram shows the process of preparing data for synchronization.
 
 #### Setting Up the Import of Payments 
 
- To set up the synchronization of payments, you perform the following general steps: 
+ To set up the synchronization of payments, you perform the following general steps on the Amazon Stores (BC201020) form: 
 
-1. Activate the entity.     To synchronize payments, you must activate the _Payment_ entity on the **Entities** tab of the _Amazon Stores_     (BC201020) form. 
+1. Activate the entity.     To synchronize payments, you must activate the _Payment_ entity on the **Entities** tab. 
 
-2. Map the payment methods.     Each payment method used in the Amazon seller account must be mapped with a payment method     defined in Acumatica ERP. The mapping is defined on the **Payments** tab of the _Amazon Stores_ form.     Initially, the upper table of the tab is empty. Aer an order and a payment have been created in the Amazon     seller account, you need to start the payment synchronization with no payment method mapped. The     synchronization fails, and the Amazon connector populates the **Store Payment Method** column of the     upper table. You then complete the mapping by specifying values in the **ERP Payment Method** and **Cash**     **Account** columns. The ERP payment method must be defined on the _Payment Methods_ (CA204000) form     with the _Cash/Check_ means of payment. 
+2. Map the payment methods.     Each payment method used in the Amazon seller account must be mapped with a payment method     defined in Acumatica ERP. The mapping is defined on the **Payments** tab. Initially, the upper table of the     tab is empty. Aer an order and a payment have been created in the Amazon seller account, you need to     start the payment synchronization with no payment method mapped. The synchronization fails, and the     Amazon connector populates the **Store Payment Method** column of the upper table. You then complete the     mapping by specifying values in the **ERP Payment Method** and **Cash Account** columns. The ERP payment     method must be defined on the _Payment Methods_ (CA204000) form with the _Cash/Check_ means of payment. 
 
-3. Map the Amazon fees.     The **Amazon Fees** table of the _Amazon Stores_ is initially empty. Once the payment methods are mapped,     you need to start the payment synchronization. The synchronization fails, and the Amazon connector     populates the **Fee Type** column of the table. You then map each Amazon fee type with an ERP entry type.     Entry types are defined on the _Entry Types_ (CA203000) form. An entry type can be used in the fee mapping if     it meets the following criteria: 
+ When multiple payments are imported for an order over time, the system requires that all previously imported payment documents be released before the next one can be imported. We recommend simplifying this process by selecting the Release Transactions check box for the active store's payment methods on the Payments tab. 
+
+3. Map the Amazon fees.     The **Payment Fees** table on the **Payments** tab is initially empty. Once the payment methods are mapped,     you need to start the payment synchronization. The synchronization fails, and the Amazon connector     populates the **Fee Type** column of the table. You then map each Amazon fee type with an ERP entry type.     Entry types are defined on the _Entry Types_ (CA203000) form. An entry type can be used in the fee mapping if     it meets the following criteria: 
 
 - The entry type has the _Disbursement_ type. 
 
@@ -19750,15 +20110,19 @@ The following diagram shows the process of preparing data for synchronization.
 
 #### Synchronizing Payments 
 
- Payments are imported into Acumatica ERP during the synchronization of the Payment entity. The payment or payments become available for synchronization aer the order has been fully shipped. If an order has multiple payments, the system imports all the payments to Acumatica ERP as a single document. The external identifier of such a payment is the same as the external identifier of the order on the Sync History (BC301000) form. 
+ Payments are imported into Acumatica ERP during the synchronization of the Payment entity. 
 
- During the processing stage of data synchronization, the system creates a document of the Payment type on the Payments and Applications (AR302000) form and applies it to the order or to the invoice (if the invoice has been prepared for the order). 
+ When preparing data for the Payment entity on the Prepare Data (BC501000) form, the connector queries released transactions for orders. It prepares sync records only if Amazon returns transactions that have not been imported into Acumatica ERP yet. This way, sync records receive the Prepared status only when a new transaction appears in Amazon. 
 
- Amazon fees imported with the payment are grouped by entry type and are displayed on the Charges tab of the Payments and Applications form. 
+ The connector creates a single sync record for all partial payments of an Amazon order. To review all payments in the sync record, you click View Details on the More menu of the Sync History (BC301000) form 
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 465 
+ Integration with Amazon | 474 
+
+ During the processing stage of data synchronization, each partial payment is imported as a separate document on the Payments and Applications (AR302000) form and applied to the order or to the invoice (if the invoice has been prepared for the order). The external reference number for each imported payment is {Order External ID};{Posted Date}. 
+
+ Amazon fees imported with the payment are grouped by entry type they are mapped to on the Payments tab ( Payment Fees table) of the Amazon Stores (BC201020) form. Imported fees are displayed on the Charges tab of the Payments and Applications form. 
 
 ### Order Synchronization: Import of Returns 
 
@@ -19772,7 +20136,19 @@ The following diagram shows the process of preparing data for synchronization.
 
 2. Specify the order type for imported returns.     In the **Seller-Fulfilled Return Type** box on the **Orders** tab ( **Returns** section), you must specify the order     type that will be used for imported seller-fulfilled returns. An order type is available for selection in this box     only if it is defined on the _Order Types_ (SO201000) form based on the _RC - Return for Credit_ template. 
 
-3. Specify the refund reason code.     On the **Orders** tab ( **Returns** section), you fill in the **Refund Reason Code** box with a reason code of the _Issue_     usage type that will be used for the lines of the imported seller-fulfilled returns to indicate an issued refund. 
+3. Specify the charge item.     On the **Orders** tab ( **Returns** section), you fill in the **Charge Item** box with a non-stock item that will be used     to represent additional charges in imported returns, such as refund shipping, restocking fees, and other fees     that Amazon charges customers during refunds. 
+
+4. Specify the refund reason code.     On the **Orders** tab ( **Returns** section), you fill in the **Refund Reason Code** box with a reason code of the _Issue_     usage type that will be used for the lines of the imported marketplace-fulfilled returns to indicate an issued     refund. 
+
+5. Configure refund fees.     When you import refunds and the import includes refund fee types that have not been configured in the     system yet, the system prompts you to set them up first. To help you, it adds new refund fee types to the     **Payments** tab ( **Payment Fees** table) for the payment method used for refunds. You need to map each     added refund fee type to an ERP entry type.     You may use one ERP entry type for all fees or assign different entry types for a more accurate breakdown.     The ERP entry type you map to a refund fee type must comply with the following requirements: 
+
+- On the _Entry Types_ (CA203000) form, the entry type has the _Disbursement_ type. 
+
+- On the _Cash Accounts_ (CA202000) form, the entry type is linked with the cash account associated with     the store payment method. If you don't want to import a particular refund fee type to Acumatica ERP, you leave that fee type inactive. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Amazon | 475 
 
 #### Configuration of the Import of Marketplace-Fulfilled Returns 
 
@@ -19782,23 +20158,29 @@ The following diagram shows the process of preparing data for synchronization.
 
 2. Specify the order type for imported returns.     In the **Marketplace-Fulfilled Return Type** box of the **Orders** tab ( **Returns** section), you must specify     the order type that will be used for imported marketplace-fulfilled returns. An order type is available for     selection in this box only if it is defined on the _Order Types_ (SO201000) form based on the _CM - Credit Memo_     template. 
 
-3. Specify the refund reason code.     On the **Orders** tab ( **Returns** section), you fill in the **Refund Reason Code** box with a reason code of the _Issue_     usage type that will be used for the lines of the imported marketplace-fulfilled returns to indicate an issued     refund. 
+3. Specify the charge item.     On the **Orders** tab ( **Returns** section), you fill in the **Charge Item** box with a non-stock item that will be used     to represent additional charges in imported returns, such as refund shipping, restocking fees, and other fees     that Amazon charges customers during refunds. 
 
-#### Synchronization of Returns and Refunds 
+4. Specify the refund reason code.     On the **Orders** tab ( **Returns** section), you fill in the **Refund Reason Code** box with a reason code of the _Issue_     usage type that will be used for the lines of the imported marketplace-fulfilled returns to indicate an issued     refund. 
+
+5. Configure refund fees.     When you import refunds and the import includes refund fee types that have not been configured in the     system yet, the system prompts you to set them up first. To help you, it adds new refund fee types to the     **Payments** tab ( **Payment Fees** table) for the payment method used for refunds. You need to map each     added refund fee type to an ERP entry type.     You may use one ERP entry type for all fees or assign different entry types for a more accurate breakdown.     The ERP entry type you map to a refund fee type must comply with the following requirements: 
+
+- On the _Entry Types_ (CA203000) form, the entry type has the _Disbursement_ type. 
+
+- On the _Cash Accounts_ (CA202000) form, the entry type is linked with the cash account associated with     the store payment method. If you don't want to import a particular refund fee type to Acumatica ERP, you leave that fee type inactive. 
+
+#### Synchronization of Returns 
 
  Returns are imported into Acumatica ERP during the synchronization of the Seller-Fulfilled Refund and MarketplaceFulfilled Refund entities. A return can be imported only aer the processing of the refund is completed in the Amazon seller account—that is, only if the refund has the Prior refund: Applied or Prior refund: Pending status. 
 
- During the import, the system creates a return order of the type specified on the Orders tab of the Amazon Stores (BC201020) form that corresponds to the return fulfillment. The system imports a return order only if the original order (the order for which the return was created) has been already imported to Acumatica ERP. For each return 
-
-
-<!-- PAGE_BREAK -->
- Integration with Amazon | 466 
-
- order, the system also imports the payment with the refunded amount if the payment for the original order has already been imported. 
+ During the import, the system creates a return order of the type specified on the Orders tab of the Amazon Stores (BC201020) form that corresponds to the return fulfillment. The system imports a return order only if the original order (the order for which the return was created) has been already imported to Acumatica ERP. For each return order, the system also imports the payment with the refunded amount if the payment for the original order has already been imported. 
 
  On the Details tab of the Sales Orders (SO301000) form, the system adds returned items to the created return order with the following settings: 
 
 - **Warehouse** : The default warehouse of the item.     For a marketplace-fulfilled return, the system uses the warehouse (if any) specified in the **Marketplace**     **Warehouse** box on the **Orders** tab ( **Marketplace-Fulfilled Order** section) of the _Amazon Stores_ form. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Amazon | 476 
 
 - **Location** : The default receipt location of the item.     For a marketplace-fulfilled return, the system uses the location (if any) specified in the **Marketplace**     **Warehouse Location** box on the **Orders** tab ( **Marketplace-Fulfilled Order** section) of the _Amazon Stores_     form. 
 
@@ -19806,7 +20188,15 @@ The following diagram shows the process of preparing data for synchronization.
 
 - **Reason Code** : The reason code specified in the **Refund Reason Code** box on the **Orders** tab of the _Amazon_     _Stores_ form. 
 
-- **Notes** : The specific reason code from the Amazon store in the following format: _<return type> || <return_     _reason code>_. For the created return order, on the **Payments** tab of the _Sales Orders_ form, the system also adds the payment of the _Refund_ type with the refunded amount that is imported along with the return order. 
+- **Notes** : The specific reason code from the Amazon store in the following format: _<return type> || <return_     _reason code>_. Also, on the **Details** tab of the _Sales Orders_ form, the system adds additional charges, such as refund shipping, restocking fees, and other fees that Amazon charges customers. Each additional charge is added as a separate line. As the inventory item for these lines, the system uses the non-stock item selected in the **Charge Item** box on the **Orders** tab ( **Returns** section) of the _Amazon Stores_ form. The description for each line indicates the type of charge. 
+
+ The total of all promotion amounts related to the return order is added to the Document Discount box in the Summary area. 
+
+#### Synchronization of Refunds 
+
+ Along with a return order, the connector imports payments with the refunded amounts related to the Amazon order. All partial refunds are imported within a single sync record. The system creates a separate payment of the Refund type on the Payments and Applications (AR302000) form for each refund payment that has a unique posted date. The external reference number for these refund payments is also {Order External ID};{Posted Date}. 
+
+ On the Payments tab of the Sales Orders form, the system adds the imported refund payments for the return order. On the Charges tab of the Payments and Applications (AR302000) form, this refund payment has refund fees grouped by the entry type they are mapped to on the Payments tab ( Payment Fees table) of the Amazon Stores form. Only one line is displayed per entry type. These refund fees cannot be modified. 
 
 #### Limitations of Importing Returns and Refunds 
 
@@ -19822,21 +20212,23 @@ The following diagram shows the process of preparing data for synchronization.
 
 - Amazon charges a seller fees for refunds and pays the seller back the refund amount deducting the fee.     However, these refund fees are not imported to Acumatica ERP and added to payments. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Amazon | 477 
+
 ### Order Synchronization: Import of Taxes 
 
  Amazon handles tax calculation and reporting on behalf of merchants. However, you can import the total order tax amount from the Amazon seller account to Acumatica ERP along with each order. 
 
 #### Setting Up the Tax Synchronization 
 
- To synchronize taxes, on the Orders tab of the Amazon Stores (BC201020) form, you select the Tax Synchronization check box and specify the following settings: 
+ To synchronize taxes, on the Orders tab (the Taxes section) of the Amazon Stores (BC201020) form, you select the Tax Synchronization check. In the table that appears, you add tax zones and taxes for synchronization by specifying the following settings: 
 
+- **Tax Zone** : A tax zone that has been defined on the _Tax Zones_ (TX206000) form and is inserted into imported     documents. 
 
-<!-- PAGE_BREAK -->
- Integration with Amazon | 467 
+- **Tax ID** : A tax that has been defined on the _Taxes_ (TX205000) form and is inserted into imported documents     for the order tax amount charged in the Amazon seller account. You can select only a tax ID that is specified     for the selected tax on the **Applicable Taxes** tab of the _Tax Zones_ form. 
 
-- **Primary Tax Zone** : This tax zone is inserted in imported documents. In this box, you should specify the tax     zone for which the default tax has been set up. 
-
-- **Default Tax** : This tax ID is inserted in imported documents for the order tax amount charged in the Amazon     seller account. The tax zone and tax you specify in these boxes are not used for calculating taxes in imported orders. To avoid discrepancies in tax amounts, disable tax recalculation for the order types that are used for importing marketplace- fulfilled and seller-fulfilled orders as well as marketplace-fulfilled and seller-fulfilled returns. You do this by selecting the **Disable Automatic Tax Calculation** check box on the **General** tab of the _Order Types_ (SO201000) form. 
+- **Default** : The default tax zone. You must select this check box for one of the active tax zones added to the     table. The tax zones and taxes you specify in the table are not used for calculating taxes in imported orders. To avoid discrepancies in tax amounts, disable tax recalculation for the order types that are used for importing marketplace- fulfilled and seller-fulfilled orders as well as marketplace-fulfilled and seller-fulfilled returns. You do this by selecting the **Disable Automatic Tax Calculation** check box on the **General** tab of the _Order Types_ (SO201000) form. 
 
  For information about disabling tax recalculation, see Tax Application in Sales Documents. 
 
@@ -19844,13 +20236,25 @@ The following diagram shows the process of preparing data for synchronization.
 
  Taxes are imported during the synchronization of seller-fulfilled and marketplace-fulfilled orders (that is, during the synchronization of the Sales Order and Marketplace-Fulfilled Order entities). 
 
- Only the total tax amount is imported; tax names and rates are not synchronized. 
+ To determine which tax zone to apply to an imported order, the system uses the shipping address from Amazon. It checks the list of active tax zones in the Taxes section on the Orders tab of the Amazon Stores (BC201020) form as follows until it finds a matching tax zone: 
 
- In imported orders, the tax zone and tax ID are inserted based on the settings specified on the Orders tab of the Amazon Stores (BC201020) form. 
+1. It looks for a tax zone that matches the postal code. 
+
+2. It checks for one that matches the state. 
+
+3. It looks for a match by country. 
+
+4. It uses the default tax zone. 
+
+ Only the total tax amount is imported; tax names and rates are not synchronized. 
 
 ### Order Synchronization: Non-Order Fees 
 
  Amazon charges merchants fees that are not related to particular orders, for example, storage or advertising fees. The details of these fees are available in the settlement reports provided by Amazon. You can import such fees into Acumatica ERP to gain greater visibility into per-unit profitability—that is, how much the company makes on the products it sells on Amazon and how much it is charged for each of the products. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Amazon | 478 
 
 #### Setting Up the Import of Non-Order Fees 
 
@@ -19858,17 +20262,15 @@ The following diagram shows the process of preparing data for synchronization.
 
 1. Activate the entity.     To synchronize non-order fees, you must activate the _Non-Order Fees_ entity on the **Entities** tab of the     _Amazon Stores_ (BC201020) form. 
 
-2. Map the Amazon non-order fees.     Initially, when no non-order fees are mapped, the synchronization of the _Non-Order Fees_ entity fails. The     Amazon connector adds a row for each supported non-order fee to the **Amazon Fees** table of the **Payments**     tab and populates the **Fee Type** column. You must map each Amazon fee type with an ERP entry type, which     is defined on the _Entry Types_ (CA203000) form.     An entry type can be used in the fee mapping if it meets the following criteria: 
+2. Specify a date to determine the settlement periods from which non-order fees are imported.     On the **Orders** tab, enter a date in the **Earliest Report Date** box. The system will import non-order fees only     from settlement reports closed on or aer this date. 
+
+3. Map the Amazon non-order fees.     Initially, when no non-order fees are mapped, the synchronization of the _Non-Order Fees_ entity fails.     The Amazon connector adds a row for each supported non-order fee to the **Payment Fees** table of the     **Payments** tab and populates the **Fee Type** column. You must map each Amazon fee type with an ERP entry     type, which is defined on the _Entry Types_ (CA203000) form.     An entry type can be used in the fee mapping if it meets the following criteria: 
 
 - The entry type has the _Disbursement_ or _Receipt_ type. 
 
 - A default offset account has been specified for the entry type. 
 
 - For the cash account specified in the mapping for the Amazon payment method in the upper table, the     entry type has been added on the _Cash Accounts_ (CA202000) form. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Amazon | 468 
 
 #### Synchronizing Non-Order Fees 
 
@@ -19892,11 +20294,17 @@ The following diagram shows the process of preparing data for synchronization.
 
 - _Restore_ : Restores previously pseudonymized data. The table on the form displays the following documents: 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Amazon | 479 
+
 - Completed and canceled sales orders that belong to the order type for which the **Protect Personal Data**     check box is selected on the _Order Types_ (SO201000) form 
 
 - Sales invoices that have been created for such sales orders 
 
  Shipments are not displayed in the table, but they will be processed along with the related sales orders. 
+
+ For the documents to be pseudonymized, the Override Contact and Override Address check boxes must be selected for the ship-to address, bill-to address, ship-to contact, and bill-to contact information on the Addresses tab of the Sales Orders (SO301000), Shipments (SO302000), and Invoices (SO303000) forms. 
 
  You can narrow down the list of documents to be displayed in the table by specifying the following settings of the Selection area: 
 
@@ -19909,10 +20317,6 @@ The following diagram shows the process of preparing data for synchronization.
 ### Synchronizing Inbound Shipments 
 
  In the topics of this chapter, you will read about the synchronization of inbound shipments between Acumatica ERP and Amazon. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Amazon | 469 
 
 ### Inbound Shipments: General Information 
 
@@ -19934,6 +20338,10 @@ The following diagram shows the process of preparing data for synchronization.
 
  To import inbound shipments from the Amazon seller account (also referred to as the store in Acumatica ERP), you need to configure the store. To do this, perform the following general steps on the Amazon Stores (BC201020) form: 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Amazon | 480 
+
 1. Activate the following entities on the **Entities** tab: 
 
 - _Marketplace Transfer Order_ 
@@ -19949,10 +20357,6 @@ The following diagram shows the process of preparing data for synchronization.
 5. Specify the warehouse that represents the Amazon fulfillment center in the **Marketplace Warehouse** box on     the **Orders** tab.     You send stock items to that warehouse, and Amazon fulfills your orders from it. The marketplace     warehouse must differ from the source warehouse specified on the **Inventory** tab for the store. 
 
 6. If the carrier names from the Amazon seller account do not match the ship-via codes from Acumatica ERP,     configure the matching of the names and codes with a substitution list on the _Substitution Lists_ (SM206026)     form. Specify the substitution list in the **Ship-Via Codes to Carriers** box on the **Inventory** tab. 
-
-
-<!-- PAGE_BREAK -->
- Integration with Amazon | 470 
 
 #### Import of Inbound Shipments from Amazon 
 
@@ -19972,19 +20376,23 @@ The following diagram shows the process of preparing data for synchronization.
 
 - The transfer order has been processed and has a released transfer of the _2-Step_ type created on the     _Transfers_ form. 
 
+
+<!-- PAGE_BREAK -->
+ Integration with Amazon | 481 
+
 6. Process the data prepared for the _Marketplace Transfer Receipt_ entity on the _Process Data_ form.     For each processed sync record, the system creates a purchase receipt of the _Transfer Receipt_ type on the     _Purchase Receipts_ (PO302000) form. 
 
  If the Amazon fulfillment center receives an inbound shipment gradually in multiple steps, the system creates a purchase receipt for each. 
 
- The following diagram shows the process of importing inbound shipments from the Amazon seller account to Acumatica ERP. 
+The following diagram shows the process of importing inbound shipments from the Amazon seller account to Acumatica ERP. 
 
 
 <!-- PAGE_BREAK -->
-Integration with Amazon | **471** 
+Integration with Amazon | **482** 
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 472 
+ Integration with Amazon | 483 
 
 #### Import of Shipments with Lotor Serial-Tracked Items 
 
@@ -20018,15 +20426,131 @@ Integration with Amazon | **471**
 
 
 <!-- PAGE_BREAK -->
- Integration with Amazon | 473 
+ Integration with Amazon | 484 
 
  ERP as soon as possible, you should force-synchronize the sync record of the inbound shipment on the Sync History form. 
 
 - To comply with the limitations of the Amazon API and to optimize the system load, we recommended     preparing and processing of the data for the _Marketplace Transfer Order_ and _Marketplace Transfer Receipt_     entities once a day, at nighttime. 
 
+### Importing Settlement Reports 
+
+ In the topics of this chapter, you will read about the import of settlement reports from Amazon. 
+
+### Settlement Reports: General Information 
+
+ As your Amazon sales grow, so does the complexity of maintaining accurate financial records. To help you manage this more efficiently, Acumatica ERP also automates the import of Amazon settlement reports for reconciliation. This eliminates manual data entry and automatically matches imported settlement data with existing payments, refunds, and non-order fees—reducing errors, saving time, and ensuring greater accuracy in financial reporting. 
+
+#### Learning Objectives 
+
+ In this chapter, you will learn how to do the following: 
+
+- Configure the import of settlement reports between the Amazon seller account and Acumatica ERP 
+
+- Import settlement reports form the Amazon seller account to Acumatica ERP 
+
+- Reconcile imported settlement transactions. 
+
+#### Applicable Scenarios 
+
+ You may want to import settlement reports to improve financial accuracy, eliminate manual data entry, and use auto-matching of settlement data with existing payments, refunds, and non-order fees. 
+
+#### Configuring the Store 
+
+ To set up the import of settlement reports from Amazon, you perform the following steps on the Amazon Stores (BC201020) form: 
+
+1. On the **Entities** tab, activate the _Settlement Report_ entity. 
+
+2. On the **Orders** tab, enter a date in the **Earliest Report Date** box. The system will import settlement reports     created on or aer this date. 
+
+#### Importing Settlement Reports 
+
+ To import settlement reports from Amazon, you prepare and process the data for the Settlement Report entity by using the Prepare Data (BC501000) and Process Data (BC501500) forms. 
+
+ For each imported settlement report, the connector creates: 
+
+- A sync record on the _Sync History_ (BC301000) form 
+
+- Transactions on the _Import Bank Transactions_ (CA306500) form for settlement transactions included in the     report 
+
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 474 
+ Integration with Amazon | 485 
+
+ The connector imports only transactions with nonzero amounts posted during the settlement period, including the following: 
+
+- Payments 
+
+- Refunds 
+
+- Non-order fees Payment and refund transactions can be imported from open and closed settlement periods. Settlement periods typically span two weeks. The most recent period is the open one. This means you can import payment and refund transactions to Acumatica ERP as soon as Amazon posts them—supporting timely validation of the accuracy of imported payments and refunds. 
+
+ The non-order fee transactions can be imported from closed periods only. 
+
+#### Importing Transactions for Payments and Refunds 
+
+ Settlement transactions related to an Amazon order or refund are grouped by the Amazon order ID and posted date. Their amounts exclude any fees or charges. This ensures that the total of imported transactions matches the total for the settlement period in Amazon. 
+
+ As a result, the amount of a settlement transaction on the Process Bank Transactions (CA306000) form may differ from that of the matching payment or refund on the Payments and Applications (AR302000) form. This difference occurs because imported payments or refunds include charges and fees. 
+
+#### Importing Transactions for Non-Order Fees 
+
+ Settlement transactions related to non-order fees are imported from the closed settlement periods only. The connector groups these settlement transactions by the event type, transaction type, and ERP entry type used to map non-order fees on the Payments tab of the Amazon Stores (BC201020) form. 
+
+ The posted date of an imported transaction is the latest posted date among the grouped transactions. The amount is the total of all transactions in the group. 
+
+ The connector imports these transactions even if the related non-order fee type is inactive on the Payments tab of the Amazon Stores (BC201020) form. This ensures that the total amount of imported transactions matches the total amount of disbursements or charges posted for the settlement period in Amazon. 
+
+#### Processing Imported Transactions 
+
+ For imported settlement transactions, the connector creates transactions on the Import Bank Transactions (CA306500) form: 
+
+- Positive amounts appear in the **Receipt** column. 
+
+- Negative amounts appear in the **Disbursement** column. 
+
+- The cash account is the same one specified for payments and refunds on the **Payments** tab of the _Amazon_     _Stores_ (BC201020) form. 
+
+- For transactions related to orders and refunds, the **Ext Ref. Nbr.** column shows the Amazon order ID and the     posted date. For transactions from the open settlement period, the **Manual Matching Allowed** check box is cleared in the Summary area—so only auto-matching is available. A financial supervisor can enable manual matching by clicking **Allow Manual Matching** on the form toolbar. Aer manual matching has been allowed for transactions, the check box cannot be cleared. 
+
+ When a settlement period is closed in Amazon and synced with Acumatica ERP, the system automatically selects the Manual Matching Allowed check box for transactions of the period. You can perform manual matching or create documents for these transactions. 
+
+
+<!-- PAGE_BREAK -->
+ Integration with Amazon | 486 
+
+ Aer settlement transactions are imported, you can match them with documents in Acumatica ERP using the Process Bank Transactions (CA306000) form. If the Auto-Match Only check box is selected for a transaction in the table, the transaction is from the open settlement period and can be matched only automatically. 
+
+#### Statistics and Notifications for Settlement Reports 
+
+ You can view all imported settlement reports and their processing details on the Amazon Settlement Report Details (BC409310) dashboard. 
+
+ The system also includes a predefined business event and email template to notify you of synchronization failures for the Settlement Report entity. 
+
+#### Limitations of Importing Amazon Settlement Reports 
+
+- Amazon's API limits the date range for importing settlement reports to 180 days. This limit also applies if you     specified a date older than 180 days in the **Earliest Report Date** box on the **Orders** tab of the _Amazon Stores_     (BC201020) form: 
+
+- On the _Prepare Data_ (BC501000) form, when you prepare data in the _Incremental_ mode, the connector     process only settlement reports within the last 180 days. 
+
+- On the _Sync History_ (BC301000) form, the **Add New** command lets you create a sync record only for     reports generated within the last 180 days. To import settlement reports older than 180 days, use the _Prepare Data_ (BC501000) form with the _Incremental by Date_ or _Full_ mode and specify the particular date range when the report was created in Amazon. The date range must not exceed 180 days. 
+
+- If you've updated the payment fee mapping on the **Payments** tab of the _Amazon Stores_ form and need to     re-sync an already processed settlement report, make sure that the imported transactions haven't been     matched to non-order fee transactions. 
+
+ If matches exist, unmatch them first. The connector doesn't delete matched transactions but creates new non-order fee transactions based on the updated mapping. 
+
+#### Limitations of Auto-Matching 
+
+- If you've imported payments and refunds by using Acumatica ERP 2024 R2 or earlier versions, the payments     and refunds cannot be auto-matched. This is because their payment reference numbers use a different     format— _{Order External ID}:{Sequence Number}_ or _{Order External ID}_ —that doesn't match the external     reference number used in imported settlement transactions. 
+
+- To match non-order fee transactions to imported settlement transactions, you must first configure payment     fee mapping on the **Payments** tab of the _Amazon Stores_ form: 
+
+- Map deducted fees to disbursement ERP entry types. 
+
+- Map fees that increase the seller balance to receipt ERP entry types. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 487 
 
 ## Retail Edition Form Reference 
 
@@ -20064,7 +20588,7 @@ Integration with Amazon | **471**
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 475 
+ Retail Edition Form Reference | 488 
 
  Element Description 
 
@@ -20086,7 +20610,7 @@ Integration with Amazon | **471**
 
  Element Description 
 
- Store Admin Path The administrator URL of the BigCommerce store—that is, the store's permanent URL followed by /manage. 
+ Store Admin URL The administrator URL of the BigCommerce store—that is, the store's permanent URL followed by /manage. 
 
  Acumatica ERP uses this path when a user navigates to BigCommerce pages from the Sync History (BC301000) and Process Data (BC501500) forms. 
 
@@ -20102,7 +20626,7 @@ Integration with Amazon | **471**
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 476 
+ Retail Edition Form Reference | 489 
 
  Element Description 
 
@@ -20146,9 +20670,11 @@ The read-only boxes of this section are filled in automatically as soon as the c
 
  The maximum number of BigCommerce stores that can be connected to the Acumatica ERP instance. 
 
+ If the number of stores exceeds the limit, the system prepares and processes data for only the stores within that limit. Stores beyond the limit are not supported. To determine eligibility, the system sorts the stores in alphabetical order and includes the first ones from the list. 
+
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 477 
+ Retail Edition Form Reference | 490 
 
 #### Entities Tab 
 
@@ -20192,7 +20718,7 @@ The read-only boxes of this section are filled in automatically as soon as the c
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 478 
+ Retail Edition Form Reference | 491 
 
 **Column Description** 
 
@@ -20244,7 +20770,7 @@ The read-only boxes of this section are filled in automatically as soon as the c
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 479 
+ Retail Edition Form Reference | 492 
 
  Column Description 
 
@@ -20288,7 +20814,7 @@ The read-only boxes of this section are filled in automatically as soon as the c
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 480 
+ Retail Edition Form Reference | 493 
 
 **Element Description** 
 
@@ -20312,7 +20838,7 @@ The read-only boxes of this section are filled in automatically as soon as the c
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 481 
+ Retail Edition Form Reference | 494 
 
 **Element Description** 
 
@@ -20344,7 +20870,7 @@ The read-only boxes of this section are filled in automatically as soon as the c
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 482 
+ Retail Edition Form Reference | 495 
 
  Element Description 
 
@@ -20376,7 +20902,7 @@ The read-only boxes of this section are filled in automatically as soon as the c
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 483 
+ Retail Edition Form Reference | 496 
 
 **Element Description** 
 
@@ -20416,7 +20942,7 @@ The read-only boxes of this section are filled in automatically as soon as the c
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 484 
+ Retail Edition Form Reference | 497 
 
 **Element Description** 
 
@@ -20458,15 +20984,15 @@ The read-only boxes of this section are filled in automatically as soon as the c
 
 - _All Warehouses_ : The available quantity of the item is calculated based on the on-hand     quantity of the item in all warehouses. 
 
-- _Specific Warehouses_ : The available quantity of the item is calculated based on the on-     hand quantity in the selected warehouses and warehouse locations. If this option is     selected, a list of warehouses and warehouse locations to be used should be specified     in the **Warehouse Settings** table, which appears when you select this option. 
+- _Specific Warehouses_ : The available quantity of the item is calculated based on the on-     hand quantity in the selected warehouses and warehouse locations. If this option is     selected, a list of warehouses and warehouse locations to be used should be specified     in the **Warehouse Mapping for Inventory Export** table, which appears when you se-     lect this option. 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 485 
+ Retail Edition Form Reference | 498 
 
-**_Table: Warehouse Settings Table_** 
+**_Table: Warehouse Mapping for Inventory Export Table_** 
 
-In this table, you select the specific warehouses and locations whose item quantities should be used to calculate the item's available quantity in the BigCommerce store. This table is displayed if the **Warehouse Mode** is set to _Specific Warehouses_. The table toolbar includes only standard buttons. For the list of standard buttons, see _Table Toolbar_. 
+In this table, you select the specific warehouses and locations in Acumatica ERP whose item quantities should be used to calculate the item's available quantity and map them to specific warehouse locations in BigCommerce. This table is displayed if the **Warehouse Mode** is set to _Specific Warehouses_. The table toolbar includes only standard buttons. For the list of standard buttons, see _Table Toolbar_. 
 
  Column Description 
 
@@ -20479,6 +21005,12 @@ In this table, you select the specific warehouses and locations whose item quant
  If you specify a location, only this specific location of the selected warehouse is used. If no location is selected, the system exports the availability data for items stored in all locations of the selected warehouse. 
 
  You can select a warehouse location from the list of locations that have been created on the Warehouses (IN204000) form for the warehouse selected in the Warehouse column. The list displays only the locations that are active and sales from which are allowed—that is, the locations for which the Active and Sales Allowed check boxes are selected on the Locations tab of the Warehouses (IN204000) form. 
+
+ BigCommerce Location 
+
+ The BigCommerce location that corresponds to the warehouse location in Acumatica ERP. 
+
+ You select a location from the list that the system loaded from the BigCommerce store. 
 
 **_Table: Import Settings Section_** 
 
@@ -20496,7 +21028,7 @@ In this table, you specify the settings to be used for importing items from the 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 486 
+ Retail Edition Form Reference | 499 
 
  Element Description 
 
@@ -20526,8 +21058,6 @@ In this table, you specify the settings to be used for importing items from the 
 
  On this tab, you define the default settings for the import of sales orders. You also specify if taxes should be synchronized between Acumatica ERP and the BigCommerce stores. 
 
- Table: General Section 
-
  Element Description 
 
  Branch The branch that is inserted in the sales orders and payments imported to Acumatica ERP from the BigCommerce store. 
@@ -20536,7 +21066,7 @@ In this table, you specify the settings to be used for importing items from the 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 487 
+ Retail Edition Form Reference | 500 
 
 **_Table: Order Section_** 
 
@@ -20582,7 +21112,7 @@ In this table, you specify the settings to be used for importing items from the 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 488 
+ Retail Edition Form Reference | 501 
 
  Element Description 
 
@@ -20622,7 +21152,7 @@ In this table, you specify the settings to be used for importing items from the 
 
  Element Description 
 
- Tax List The substitution list to be used for mapping tax IDs between Acumatica ERP and the BigCommerce store. 
+ Taxes The substitution list to be used for mapping tax IDs between Acumatica ERP and the BigCommerce store. 
 
  During the import of each sales order, if the system cannot find the tax ID specified in the order, it checks if there is a mapped tax ID in the substitution list specified in this box. 
 
@@ -20630,11 +21160,11 @@ In this table, you specify the settings to be used for importing items from the 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 489 
+ Retail Edition Form Reference | 502 
 
  Element Description 
 
- Tax Category List The substitution list to be used for mapping tax categories Acumatica ERP with tax classes in the BigCommerce store. 
+ Tax Categories The substitution list to be used for mapping tax categories Acumatica ERP with tax classes in the BigCommerce store. 
 
  During the import of a sales order, if the system cannot find the tax category specified in the order, it checks if there is a mapped tax category in the substitution list specified in this box. 
 
@@ -20666,7 +21196,7 @@ In this table, you specify the settings to be used for importing items from the 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 490 
+ Retail Edition Form Reference | 503 
 
 **Column Description** 
 
@@ -20674,17 +21204,7 @@ In this table, you specify the settings to be used for importing items from the 
 
  The payment method defined in the BigCommerce store. This column is populated automatically. However, you can manually add additional mappings of payment options, if necessary. 
 
- The system populates the table with the following store payment methods even if these store payment methods have not been configured in the BigCommerce store: 
-
-- _AMAZON_ 
-
-- _GIFTCERTIFICATE (GIFT_CERTIFICATE)_ 
-
-- _PAYPAL_ 
-
-- _STORECREDIT (STORE_CREDIT)_ 
-
-- _TEST PAYMENT GATEWAY_ 
+ The system populates the table with the store payment methods even if these store payment methods have not been configured in the BigCommerce store. 
 
 **Store Currency** The currency for which the store payment method has been defined in the BigCommerce store. 
 
@@ -20706,13 +21226,7 @@ In this table, you specify the settings to be used for importing items from the 
 
  This column is displayed if the Integrated Card Processing feature is enabled on the Enable/Disable Features (CS100000) form. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 491 
-
- Column Description 
-
- Release Payments and Refunds 
+**Release Payments and Refunds** 
 
  A check box that you select to indicate that payments and refunds should be automatically released as soon as they are imported to Acumatica ERP. 
 
@@ -20723,6 +21237,12 @@ In this table, you specify the settings to be used for importing items from the 
 - Releases payments 
 
 - Does not release refunds 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 504 
+
+ Column Description 
 
  Process Refunds A check box that you select to indicate that refunds issued in the store for the store payment method should be imported to Acumatica ERP. 
 
@@ -20752,23 +21272,23 @@ In this table, you specify the settings to be used for importing items from the 
 
  In the table on this tab, you define the mapping of each shipping option (which is a combination of a shipping zone and shipping method) defined in BigCommerce to the ship via code, and optionally, shipping zone and shipping terms defined in Acumatica ERP. The Store Shipping Zone and Store Shipping Method columns of the table are populated with the settings from BigCommerce when the correct API credentials are entered and saved on the General tab. The list of mappings can be updated in the following ways: 
 
-- The system automatically adds the shipping options (store shipping zones and store shipping methods) to     the table or removes them from the table based on the shipping options that are active in the BigCommerce     store. You can make changes to the settings in the **Ship Via** , **Shipping Zone** , and **Shipping Terms** columns. 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 492 
-
- However, you cannot remove the automatically added shipping options by using the Delete Row button on the table toolbar. 
+- The system automatically adds the shipping options (store shipping zones and store shipping methods) to     the table or removes them from the table based on the shipping options that are active in the BigCommerce     store. You can make changes to the settings in the **Ship Via** , **Shipping Zone** , and **Shipping Terms** columns.     However, you cannot remove the automatically added shipping options by using the **Delete Row** button on     the table toolbar. 
 
 - You can manually add rows for active shipping options in the BigCommerce store by using the **Add Row**     button on the table toolbar; you can also delete the manually added rows by using the **Delete Row** button     on the table toolbar. 
 
 - The system automatically adds a shipping option to the table if during the importing of sales orders, the     shipping zone and the shipping method specified in a particular sales order are missing from the table. 
 
-The table toolbar includes only standard buttons. For the list of standard buttons, see _Table Toolbar_. 
+ The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
 
  Column Description 
 
  Active A check box that indicates (if selected) that the system should use the mapped ship via, shipping zone, and shipping terms when importing orders from the BigCommerce store. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 505 
+
+ Column Description 
 
  Store Shipping Zone 
 
@@ -20792,12 +21312,6 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
  If you click this identifier, the system opens the shipping zone on the Shipping Zones (CS207510) form. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 493 
-
- Column Description 
-
  Shipping Terms The identifier of the shipping terms in Acumatica ERP, which is defined on the Shipping Terms (CS208000) form, that is mapped to the combination of the store shipping zone and store shipping method. The value selected in this column is assigned to each sales order imported to Acumatica ERP with the store shipping zone and store shipping method specified in this row. This value is also inserted in the Shipping Terms box on the Shipping tab of the Sales Orders (SO301000) form for the sales order. 
 
  This value is optional. If you leave it empty, the Shipping Terms box on the Shipping tab of the Sales Orders (SO301000) form will not be populated when a sales order with the store shipping zone and store shipping method specified in the row is imported. 
@@ -20809,6 +21323,10 @@ The table toolbar includes only standard buttons. For the list of standard butto
  Form ID: (BC201010) 
 
  You use this form to set up a connection between Acumatica ERP and an online store that has been created on the shopping cart soware hosted by Shopify. Aer the connection has been established, on this form, you specify the store settings, select the entities that need to be synchronized, and define the default settings for the synchronization of customers and customer locations, inventory items, and orders. You also use this form to map shipping rules and payment methods between Acumatica ERP and the Shopify store. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 506 
 
  During the initial specification of settings, the required settings on the Entities , Customers , Inventory , Orders , and Payments tabs must be specified at the same time. You will not be able to save your changes until all required settings on these tabs of the form are filled in. 
 
@@ -20828,10 +21346,6 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
  In this area, you specify the basic settings of a particular Shopify store, or select a store to view and edit its settings. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 494 
-
  Element Description 
 
  Connector A read-only box with the name of the ecommerce connector ( Shopify ) of a store configured on this form. 
@@ -20847,6 +21361,10 @@ The table toolbar includes only standard buttons. For the list of standard butto
  If multiple stores have been configured on this form or on the BigCommerce Stores (BC201000) form, if applicable, when you open other commerce-related forms, the store you have defined as the default is automatically inserted in the Store box. 
 
  The system requires a store to be defined as the default store. When you are defining the first store in the system—on this form or on the BigCommerce Stores (BC201000) form— this check box is selected automatically. When you define another store, this check box is cleared by default; if you select this check box for the store being defined, the system clears this check box for the store that was previously defined as the default store. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 507 
 
 #### General Tab 
 
@@ -20864,15 +21382,7 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
  API Access Token The API access token that was generated for the custom app created in the Shopify store to integrate it with Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 495 
-
- Element Description 
-
  API Secret Key The API secret key that was generated for the custom app created in the Shopify store to integrate it with Acumatica ERP. 
-
- Store Plan The subscription plan of the Shopify store. 
 
  Table: Miscellaneous Section 
 
@@ -20894,11 +21404,19 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
  Default Currency The currency specified as the default in the Shopify store. 
 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 508 
+
+ Element Description 
+
  Supported Currencies 
 
  The list of currencies that are supported by the Shopify store. 
 
  Store Time Zone The time zone of the Shopify store. 
+
+ Store Plan The subscription plan of the Shopify store. 
 
  Table: License Restrictions Section 
 
@@ -20908,17 +21426,15 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
  The maximum number of Shopify stores that can be connected to the Acumatica ERP instance. 
 
+ If the number of stores exceeds the limit, the system prepares and processes data for only the stores within that limit. Stores beyond the limit are not supported. To determine eligibility, the system sorts the stores in alphabetical order and includes the first ones from the list. 
+
 #### Entities Tab 
 
  The rows of this tab are automatically populated with the entities that can be synchronized between Acumatica ERP and the Shopify store. You can activate the entities that you need to synchronize between the systems; you can also view and specify synchronization settings for these entities. 
 
  The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 496 
-
-**_Table: Table Columns_** 
+ Table: Table Columns 
 
  Column Description 
 
@@ -20946,13 +21462,23 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
 - _Sales Order_ 
 
+- _Sales Quote_ 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 509 
+
+**Column Description** 
+
 - _Payment_ 
 
 - _Shipment_ 
 
-- _Refund_ You can click the link with each entity name to open the _Entities_ (BC202000) form in a pop- up window and specify the mapping and filtering settings for the entity. 
+- _Refund_ 
 
- Sync Direction The direction in which the entity should be synchronized. The direction can be one of the following: 
+- _Price List_ You can click the link with each entity name to open the _Entities_ (BC202000) form in a pop- up window and specify the mapping and filtering settings for the entity. 
+
+**Sync Direction** The direction in which the entity should be synchronized. The direction can be one of the following: 
 
 - _Export_ : Data is exported from Acumatica ERP to the Shopify store. 
 
@@ -20966,19 +21492,17 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
 - _Sales Order_ (predefined as _Import_ ) 
 
+- _Sales Quote_ (predefined as _Import_ ) 
+
 - _Payment_ (predefined as _Import_ ) 
 
 - _Shipment_ (predefined as _Export_ ) 
 
 - _Refund_ (predefined as _Import_ ) 
 
+- _Price List_ (predefined as _Export_ ) 
 
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 497 
-
- Column Description 
-
- Primary System The system that is used as the source of data during the synchronization of entities. If bidirectional synchronization is selected for the entity, the data of the primary system takes precedence if any conflicts arise during the synchronization. 
+**Primary System** The system that is used as the source of data during the synchronization of entities. If bidirectional synchronization is selected for the entity, the data of the primary system takes precedence if any conflicts arise during the synchronization. 
 
  The primary system can be either of the following: 
 
@@ -20992,13 +21516,19 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
 - For _Bidirectional_ , you can select which system should be used as the primary system     based on your processes. 
 
- Real-Time Import The status of the real-time import for the entity. The status can be one of the following options: 
+**Real-Time Import** The status of the real-time import for the entity. The status can be one of the following options: 
 
 - _Stopped_ : Real-time synchronization has not been started for the _Import_ direction. 
 
 - _Running_ : Real-time synchronization has been started for the _Import_ direction. 
 
 - _Not Supported_ : Real-time synchronization cannot be started for the _Import_ direction. You can start or stop real-time synchronization on the _Entities_ (BC202000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 510 
+
+ Column Description 
 
  Real-Time Export The status of the real-time export for the entity. The status can be one of the following: 
 
@@ -21024,17 +21554,19 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
  The settings that you specify on this tab are used to create customers and customer locations in Acumatica ERP when you import customers and customer addresses from the Shopify store. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 498 
-
-**_Table: Customer Section_** 
+ Table: Customer Section 
 
  Element Description 
 
  Customer Class The customer class that is assigned to new customers imported to Acumatica ERP from the Shopify store and thus used to provide their default settings. 
 
- Customer Numbering Template 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 511 
+
+**Element Description** 
+
+**Customer Numbering Template** 
 
  The template that is used to provide the identifiers of new customers imported to Acumatica ERP from the Shopify store. This character string, such as ____-____-###### , initially shows the number and length of segments in the CUSTOMER segmented key, which is configured on the Segmented Keys (CS202000) form and defines the structure of the identifiers used for customers in Acumatica ERP. The groups of underscores represent the constant segments, and the number signs represent the auto-numbered segment. 
 
@@ -21044,7 +21576,7 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
  If you will be importing customers from an online store, one of the segments of the CUSTOMER segmented key must be automatically numbered. 
 
- Customer Numbering Sequence 
+**Customer Numbering Sequence** 
 
  The numbering sequence that the system uses to automatically generate identifiers for customers imported from the Shopify store. 
 
@@ -21054,7 +21586,7 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 499 
+ Retail Edition Form Reference | 512 
 
 **Element Description** 
 
@@ -21086,7 +21618,7 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 500 
+ Retail Edition Form Reference | 513 
 
  Element Description 
 
@@ -21098,11 +21630,55 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
  <add key="MaxOrdersPerGuestAccount" value="500"/> 
 
+**_Table: B2B Customer Section_** 
+
+The section appears on the tab only if the _Business-to-Business Entities_ feature is enabled on the _Enable/Disable Features_ (CS100000) form. 
+
+ Element Description 
+
+ Import Company Contacts as Customers 
+
+ A check box that indicates (if selected) that the connector will create customer records of the Individual type on the Customers (CS202000) form for each company contact during the synchronization of the Customer entity. 
+
+ If the check box is cleared, the system creates individual customers for contacts associated with companies only if the contacts have orders placed in the Shopify store. 
+
+ Element Description 
+
+ Always Export Credit Terms 
+
+ A check box that indicates (if selected) that the connector always overrides the payment terms of company locations in Shopify with the credit terms assigned to the corresponding customers in Acumatica ERP during the export of the Company entity. 
+
+**_Table: Payment Terms Section_** 
+
+In this table, the system automatically uploads payment terms defined in Shopify when the connection to the Shopify store is established. If you need to sync Shopify payment terms, you map the payment terms to credit terms defined on the _Credit Terms_ (CS206500) form. The system will use these mappings during the synchronization of the _Company_ entity. 
+
+The table toolbar includes only standard buttons. For the list of standard buttons, see _Table Toolbar_. 
+
+ Column Description 
+
+ Payment Terms Name 
+
+ A read-only box with the payment terms name as it's defined in the Shopify store. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 514 
+
+ Column Description 
+
+ Payment Terms Type 
+
+ A read-only box with the payment terms type. 
+
+ ERP Credit Terms The credit terms defined on the Credit Terms (CS206500) form that match the corresponding Shopify payment terms. 
+
+ The Due on receipt payment terms can't be assigned to a company location in Shopify. Don't map these terms to any credit terms in Acumatica ERP. 
+
 #### Inventory Tab 
 
  This tab contains the default inventory settings that need to be set up in Acumatica ERP for synchronizing items with the Shopify store. 
 
- Table: Export Settings Section In this table, you specify the settings to be used for exporting items from Acumatica ERP to the Shopify store. 
+ Table: Export Settings Section In this section, you specify the settings to be used for exporting items from Acumatica ERP to the Shopify store. 
 
  Element Description 
 
@@ -21120,13 +21696,7 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
 - _Invisible_ : The items are exported to the product list of the external ecommerce system     but do not appear on the storefront. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 501 
-
-**Element Description** 
-
-**Default Availability** The default availability that is assigned to stock items exported to the Shopify store. You can select one of the following options: 
+ Default Availability The default availability that is assigned to stock items exported to the Shopify store. You can select one of the following options: 
 
 - _Set as Available (Track Qty.)_ : The exported items are available in the Shopify store, and     their quantities are tracked. 
 
@@ -21136,7 +21706,13 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
 - _Set as Unavailable_ : The exported items are marked as unavailable for purchasing. The default availability can be overridden for each particular item on the **eCommerce** tab of the _Stock Items_ (IN202500) form. 
 
-**When Qty. Unavailable** 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 515 
+
+ Element Description 
+
+ When Qty. Unavailable 
 
  The action that the system must perform on an item when there is no stock le. You can select one of the following options: 
 
@@ -21148,7 +21724,7 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
  The setting is applied to products in Shopify during the export of the Stock Item , Template Item , and Product Availability entities. 
 
-**Availability Mode** The type of item quantity that is exported to the Shopify store during the export of the _Product Availability_ entity. You can select one of the following options: 
+ Availability Mode The type of item quantity that is exported to the Shopify store during the export of the Product Availability entity. You can select one of the following options: 
 
 - _Available_ : The item's available quantity in Shopify is based on the entire available     quantity of the item in Acumatica ERP. 
 
@@ -21156,17 +21732,13 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
 - _On Hand_ : The item's available quantity in Shopify is based on the on-hand quantity in     Acumatica ERP. For information about availability calculation in Acumatica ERP, see _Availability Calcula- tion Rules: General Information_. 
 
-**Warehouse Mode** An option that determines whether all warehouses or specific warehouses and locations are used for determining the available quantity of the item in the Shopify store. 
+ Warehouse Mode An option that determines whether all warehouses or specific warehouses and locations are used for determining the available quantity of the item in the Shopify store. 
 
  You can select one of the following options: 
 
 - _All Warehouses_ : The available quantity of the item is calculated based on the quantity     of the item in all warehouses. 
 
 - _Specific Warehouses_ : The available quantity of the item is calculated based on the     quantity in the selected warehouses and warehouse locations. If this option is select-     ed, a list of warehouses and warehouse locations to be used must be specified in the     **Warehouse Mapping for Inventory Export** table, which appears when you select this     option. 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 502 
 
 **_Table: Warehouse Mapping for Inventory Export Table_** 
 
@@ -21177,6 +21749,12 @@ In this table, you can select the specific warehouses and locations in Acumatica
  Warehouse The identifier of the warehouse in Acumatica ERP whose item quantity should be used for calculating the item's available quantity in the Shopify location. 
 
  You can select a warehouse from the list, which contains all active warehouses that have been created on the Warehouses (IN204000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 516 
+
+ Column Description 
 
  Location ID The identifier of the warehouse location in Acumatica ERP that contains inventory items whose availability data should be exported to the Shopify store. 
 
@@ -21204,7 +21782,7 @@ In this table, you specify the settings to be used for importing items from the 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 503 
+ Retail Edition Form Reference | 517 
 
  Element Description 
 
@@ -21244,7 +21822,7 @@ In this table, you specify the settings to be used for importing items from the 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 504 
+ Retail Edition Form Reference | 518 
 
  Element Description 
 
@@ -21266,6 +21844,8 @@ In this table, you specify the settings to be used for importing items from the 
 
  Orders of these types are exported to the Shopify store only if the synchronization direction of the Sales Order entity is set to Export or Bidirectional for that store on this form or on the Entities (BC202000) form. 
 
+ An order type is available for selection only if it is based on the SO (Sales Order), SA (Sales Order with Allocation) or IN (Invoice) order template on the Order Types (SO201000) form. 
+
  Return Order Type The order type that the system will use as a source of default settings for creating a return order when a refund is issued in the Shopify store. An order type is available for selection only if it has all of the following settings on the Template tab of the Order Types (SO201000) form: 
 
 - **Automation Behavior** : _RMA Order_ 
@@ -21286,11 +21866,11 @@ In this table, you specify the settings to be used for importing items from the 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 505 
+ Retail Edition Form Reference | 519 
 
- Element Description 
+**Element Description** 
 
- Show Discounts As The level on which discounts appear in each sales order imported from Shopify. You can select either of the following options: 
+**Show Discounts As** The level on which discounts appear in each sales order imported from Shopify. You can select either of the following options: 
 
 - _Line Discounts_ : Discounts applied to the order are distributed between the sales order     lines and appear in the **Discount Amount** column on the **Details** tab of the _Sales Or-_     _ders_ (SO301000) form. 
 
@@ -21298,11 +21878,11 @@ In this table, you specify the settings to be used for importing items from the 
 
  You can select this option only if the Customer Discounts feature is enabled on the Enable/Disable Features (CS100000) form. 
 
- Import Order Risks A check box that indicates (if selected) that the risk analysis information for a sales order should be imported from the Shopify store when the sales order is synchronized. 
+**Import Order Risks** A check box that indicates (if selected) that the risk analysis information for a sales order should be imported from the Shopify store when the sales order is synchronized. 
 
  This check box is selected by default. 
 
- Hold on Risk Status 
+**Hold on Risk Status** 
 
  The risk status or statuses of the sales order for which the system assigns the order the Risk Hold status. You can select either of the following options: 
 
@@ -21310,35 +21890,37 @@ In this table, you specify the settings to be used for importing items from the 
 
 - _Medium or High Risk_ : Imported sales orders with the _High_ and _Medium_ risk statuses are     assigned the _Risk Hold_ status. 
 
- Gi Certificate Item 
+**Gi Certificate Item** 
 
  The non-stock item in Acumatica ERP that is used to record the sale of gi cards in the Shopify store. This item is excluded from synchronization (that is, it is not exported to the Shopify store during the synchronization of the Non-Stock Item entity). 
 
- Earliest Order Date The earliest order creation date included in synchronization. Orders created in the Shopify store earlier than this date are not imported to Acumatica ERP, even if synchronization is performed in Full preparation mode. 
+**Earliest Order Date** The earliest order creation date included in synchronization. Orders created in the Shopify store earlier than this date are not imported to Acumatica ERP, even if synchronization is performed in _Full_ preparation mode. 
 
- Tag Ext. Order with ERP Order Nbr. 
+**Import POS Orders** A check box that indicates (if selected) that POS orders should be imported from the Shopify store to Acumatica ERP. 
+
+ The check box is displayed only if the Shopify POS Connector feature is enabled on the Enable/Disable Features (CS100000) form. 
+
+**Tag Ext. Order with ERP Order Nbr.** 
 
  A check box that indicates (if selected) that after a sales order has been imported from the Shopify store and assigned an order number in Acumatica ERP, the system should add two tags to the order in the Shopify store— ERP and a tag with the order number from Acumatica ERP. 
 
- Allow Adding Items to Processed Orders 
+**Allow Adding Items to Processed Orders** 
 
  A check box that indicates (if selected) that after a sales order has been synchronized between Acumatica ERP and the Shopify store, users can add items to it on the Details tab of the Sales Orders (SO301000) form. 
 
- Import in External Default Currency 
+**Import in External Default Currency** 
 
  A check box that indicates (if selected) that the system imports orders from the Shopify store in the default store currency even if they were paid in another currency. 
 
  The system also imports all the documents related to these orders as payments and refunds in the default store currency if proper mappings that have the default store currency are configured for the store on the Payments tab. 
 
-**_Table: Warehouse Mapping for Order Import Table_** 
-
-In this table, you can specify the warehouses and warehouse locations in Acumatica ERP that the system should use for each of the order lines when it imports the orders from the Shopify store. If the warehouses and locations are not specified, the system will use the default warehouse and location specified in the settings of the item on 
-
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 506 
+ Retail Edition Form Reference | 520 
 
-the _Stock Items_ (IN202500) form. The table is displayed only if the _Shopify POS Connector_ feature is enabled on the _Enable/Disable Features_ (CS100000) form. 
+**_Table: Warehouse Mapping for Order Import Table_** 
+
+In this table, you can specify the warehouses and warehouse locations in Acumatica ERP that the system should use for each of the order lines when it imports the orders from the Shopify store. If the warehouses and locations are not specified, the system will use the default warehouse and location specified in the settings of the item on the _Stock Items_ (IN202500) form. The table is displayed only if the _Shopify POS Connector_ feature is enabled on the _Enable/Disable Features_ (CS100000) form. 
 
  Column Description 
 
@@ -21370,7 +21952,7 @@ the _Stock Items_ (IN202500) form. The table is displayed only if the _Shopify P
 
  Element Description 
 
- Tax List The substitution list to be used for mapping tax IDs between Acumatica ERP and the Shopify store. 
+ Taxes The substitution list to be used for mapping tax IDs between Acumatica ERP and the Shopify store. 
 
  During the import of each sales order, if the system cannot find the tax ID specified in the order, it checks if there is a mapped tax ID in the substitution list specified in this box. 
 
@@ -21378,11 +21960,11 @@ the _Stock Items_ (IN202500) form. The table is displayed only if the _Shopify P
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 507 
+ Retail Edition Form Reference | 521 
 
  Element Description 
 
- Tax Category List The substitution list to be used for mapping tax categories Acumatica ERP with tax classes in the Shopify store. 
+ Tax Categories The substitution list to be used for mapping tax categories Acumatica ERP with tax classes in the Shopify store. 
 
  During the import of each sales order, if the system cannot find the tax category specified in the order, it checks if there is a mapped tax category in the substitution list specified in this box. 
 
@@ -21398,14 +21980,6 @@ the _Stock Items_ (IN202500) form. The table is displayed only if the _Shopify P
 
  During the import of orders with specified payment terms, the system checks if there are mapped credit terms in this substitution list. 
 
-**_Table: Point-of-Sale Orders Section_** 
-
-In this section, you can turn on the import of point-of sale (POS) orders from the Shopify store to Acumatica ERP. This section is displayed only if the _Shopify POS Connector_ feature is enabled on the _Enable/Disable Features_ (CS100000) form. 
-
- Element Description 
-
- Import POS Orders A check box that indicates (if selected) that POS orders should be imported from the Shopify store to Acumatica ERP. 
-
 **_Table: Direct POS Orders Section_** 
 
 In this section, you specify the order types for sales orders and return orders that are created for orders that have been fulfilled in the brick-and-mortar store. This section is displayed only if the _Shopify POS Connector_ feature is enabled on the _Enable/Disable Features_ (CS100000) form. 
@@ -21414,31 +21988,65 @@ In this section, you specify the order types for sales orders and return orders 
 
  Order Type for Import 
 
- The order type that is used by the system for the orders that do not involve shipping and have already been fulfilled from the brick-and-mortar store. In this box, the order types with the IN Invoice template are displayed. 
+ The order type that is used by the system for the orders that do not involve shipping and have already been fulfilled from the brick-and-mortar store. 
 
+ In this box, you can select an order type that has the following settings specified on the Template tab of the Order Types (SO201000) form: 
 
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 508 
+- **Automation Behavior** : _Invoice_ 
 
- Element Description 
+- **AR Document Type** : _Invoice_ 
 
  Order Type for Exchange 
 
- The order type to be assigned to the return orders that have been fulfilled from the brickand-mortar store. In this box, the order types with the MO Mixed Order template are displayed. 
+ The order type to be assigned to the return orders that have been fulfilled from the brickand-mortar store. 
 
- Table: Shipped POS Orders Section In this section, you specify the order types for sales orders and return orders that are created for orders that involve shipping. This section is displayed only if the Shopify POS Connector feature is enabled on the Enable/Disable Features (CS100000) form. 
+ In this box, you can select an order type with the Mixed Order automation behavior specified on the Template tab of the Order Types (SO201000) form. 
+
+**_Table: Shipped POS Orders Section_** 
+
+In this section, you specify the order types for sales orders and return orders that are created for orders that involve shipping. This section is displayed only if the _Shopify POS Connector_ feature is enabled on the _Enable/Disable Features_ (CS100000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 522 
 
  Element Description 
 
  Order Type for Import 
 
- The order type that is used for orders with shipping. In this box, the order types with the SO Sales Order template are displayed. 
+ The order type that is used for orders with shipping. Orders of this type are included in the shipment export process. 
 
- Orders of this type are included in the shipment export process. 
+ In this box, you can select an order type that has the following settings specified on the Template tab of the Order Types (SO201000) form: 
+
+- **Automation Behavior** : _Sales Order_ or _Transfer Order_ 
+
+- **AR Document Type** : _Invoice_ 
 
  Order Type for Exchange 
 
- The order type to be assigned to return orders with shipping. In this box, you can select an order type that has both the Receipt operation and the Issue operation activated. 
+ The order type to be assigned to return orders with shipping. 
+
+ In this box, you can select an order type that has the following settings specified on the Template tab of the Order Types (SO201000) form: 
+
+- **Automation Behavior** : _RMA Order_ 
+
+- **Default Operation** : _Receipt_ 
+
+- **AR Document Type** : _Credit Memo_ 
+
+- **Operations** : _Issue_ (activated) and _Receipt_ (activated) 
+
+ Table: Sales Quote Orders Section In this section, you specify settings for the synchronization of dra orders between Acumatica ERP and Shopify 
+
+ Element Description 
+
+ Quote Order Type for Import 
+
+ The order type that the system will use as a source of default settings for creating a sale quote when a importing a dra order from the Shopify store. An order type is available for selection only if it has the Quote automation behavior and the Issue operation specified on the Template tab of the Order Types (SO201000) form. 
+
+ Earliest Quote Order Date 
+
+ The earliest dra order creation date included in synchronization. Dra orders created in the Shopify store earlier than this date are not imported to Acumatica ERP, even if synchronization is performed in Full preparation mode. 
 
 #### Payments Tab 
 
@@ -21448,7 +22056,11 @@ In this section, you specify the order types for sales orders and return orders 
 
  The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
 
- Table: Table Columns 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 523 
+
+**_Table: Table Columns_** 
 
  Column Description 
 
@@ -21466,12 +22078,6 @@ In this section, you specify the order types for sales orders and return orders 
 
  You can select a currency from the list of active currencies defined on the Currencies (CM202000) form. This column is filled in automatically for store payment methods that are added to the table automatically by the API. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 509 
-
- Column Description 
-
  ERP Payment Method 
 
  The identifier of the payment method in Acumatica ERP. This payment method is used to create payment documents in Acumatica ERP for imported payments based on the store payment method. 
@@ -21484,9 +22090,15 @@ In this section, you specify the order types for sales orders and return orders 
 
  Proc. Center ID The identifier of the processing center configured in Acumatica ERP for the card-based payment method selected in the ERP Payment Method column and the cash account selected in the Cash Account column. 
 
- If you click this identifier, the system opens the processing center on the Processing Centers (CA205000) form in a pop-up window. 
+ If you click this identifier, the system opens the propacessing center on the Processing Centers (CA205000) form in a pop-up window. 
 
  This column is displayed if the Integrated Card Processing feature is enabled on the Enable/Disable Features (CS100000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 524 
+
+ Column Description 
 
  Release Payments and Refunds 
 
@@ -21504,19 +22116,15 @@ In this section, you specify the order types for sales orders and return orders 
 
  This check box is selected and unavailable for a card-based store payment method (for example, Shopify Payments) that is mapped to a payment method in Acumatica ERP for which a processing center has been configured on the Processing Centers (CA205000) form and specified in the Proc. Center ID column of this table. 
 
-**_Table: Shopify Fees Table Columns_** 
+ Table: Payment Fees Table Columns 
 
  Column Description 
+
+ Active A check box that indicates (if selected) that the fees of this type are imported from the Shopify store. 
 
  Fee Type The type of the Shopify fee. 
 
  ERP Entry Type An entry type of the Disbursement type that has been defined in Acumatica ERP. 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 510 
-
- Column Description 
 
  Entry Type Description 
 
@@ -21532,13 +22140,19 @@ In this section, you specify the order types for sales orders and return orders 
 
  In the table on this tab, you define the mapping of each shipping option (which is a combination of a shipping zone and shipping method) defined in Shopify to the ship via code, and optionally, shipping zone and shipping terms defined in Acumatica ERP. The Store Shipping Zone and Store Shipping Method columns of the table are populated with the settings from Shopify when the correct API credentials are entered and saved on the General tab. The list of mappings can be updated in the following ways: 
 
-- The system automatically adds the shipping options (store shipping zones and store shipping methods)     to the table or removes them from the table based on the shipping options that are active in the Shopify     store. You can make changes to the settings in the **Ship Via** , **Shipping Zone** , and **Shipping Terms** columns.     However, you cannot remove the automatically added shipping options by using the **Delete Row** button on     the table toolbar. 
+- The system automatically adds the shipping options (store shipping zones and store shipping methods)     to the table or removes them from the table based on the shipping options that are active in the Shopify     store. You can make changes to the settings in the **Ship Via** , **Shipping Zone** , and **Shipping Terms** columns. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 525 
+
+ However, you cannot remove the automatically added shipping options by using the Delete Row button on the table toolbar. 
 
 - You can manually add rows for active shipping options in the Shopify store by using the **Add Row** button on     the table toolbar; you can also delete the manually added rows by using the **Delete Row** button on the table     toolbar. 
 
 - The system automatically adds a shipping option to the table if during the import of sales orders, the     shipping zone and the shipping method specified in a particular sales order are missing from the table. 
 
- The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
+The table toolbar includes only standard buttons. For the list of standard buttons, see _Table Toolbar_. 
 
  Column Description 
 
@@ -21558,12 +22172,6 @@ In this section, you specify the order types for sales orders and return orders 
 
  If you click code, the system opens the Ship via Codes (CS207500) form, on which you can review the Ship Via code's details. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 511 
-
- Column Description 
-
  Shipping Zone The identifier of the shipping zone in Acumatica ERP, which is defined on the Shipping Zones (CS207510) form, that is mapped to the combination of the store shipping zone and the store shipping method. The value selected in this column is assigned to each sales order imported to Acumatica ERP with the store shipping zone and store shipping method specified in this row. This value is also inserted on the Shipping tab of the Sales Orders (SO301000) form for the sales order. 
 
  This value is optional. If you leave it empty, the Shipping Zone box on the Shipping tab of the Sales Orders (SO301000) form will not be populated when a sales order with the store shipping zone and store shipping method specified in the row is imported. 
@@ -21575,6 +22183,10 @@ In this section, you specify the order types for sales orders and return orders 
  This value is optional. If you leave it empty, the Shipping Terms box on the Shipping tab of the Sales Orders (SO301000) form will not be populated when a sales order with the store shipping zone and store shipping method specified in the row is imported. 
 
  If you click this identifier, the system opens the shipping terms on the Shipping Terms (CS208000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 526 
 
 ### Amazon Stores 
 
@@ -21592,15 +22204,9 @@ In this section, you specify the order types for sales orders and return orders 
 
  Button Description 
 
- Authorize Invokes the Sign-In screen for the Amazon Seller Central, in which you provide the credentials for the Amazon seller account and establish the connection to it. 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 512 
-
- Button Description 
-
  Test Connection By using the information specified on the General tab, tests the ability to connect to the Amazon seller account via the API. 
+
+ Authorize Invokes the Sign-In screen for the Amazon Seller Central, in which you provide the credentials for the Amazon seller account and establish the connection to it. 
 
 #### Summary Area 
 
@@ -21615,6 +22221,12 @@ In this section, you specify the order types for sales orders and return orders 
  Active A check box that indicates (if selected) that the store configuration is active and the entities activated and configured for this store are synchronized between Acumatica ERP and the Amazon store. 
 
  For inactive stores, you can modify the store settings on the current form, but entities are not synchronized; you can see the history of the synchronization of entities on the Sync History (BC301000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 527 
+
+ Element Description 
 
  Default A check box that you select to indicate that this store is the default store in Acumatica ERP. 
 
@@ -21632,12 +22244,6 @@ In this section, you specify the order types for sales orders and return orders 
 
  Region The region to which the Amazon seller account belongs. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 513 
-
- Element Description 
-
  Marketplace The marketplace to which the Amazon seller account belongs. 
 
  Table: Miscellaneous Section 
@@ -21650,6 +22256,10 @@ In this section, you specify the order types for sales orders and return orders 
 
  Administrator The administrator of the Amazon store, which is the user who receives notifications about aborted synchronization that are triggered by predefined business events. For more information about predefined business events for aborted synchronization records, see Automated Synchronization: Business Events for Aborted Records. 
 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 528 
+
  Table: License Restrictions Section 
 
  Element Description 
@@ -21657,6 +22267,8 @@ In this section, you specify the order types for sales orders and return orders 
  Max. Number of Stores The maximum number of Amazon stores that can be created in the Acumatica ERP instance. 
 
  The number of Amazon seller accounts to which you can establish a connection on this form is limited by your license. 
+
+ If the number of stores exceeds the limit, the system prepares and processes data for only the stores within that limit. Stores beyond the limit are not supported. To determine eligibility, the system sorts the stores in alphabetical order and includes the first ones from the list. 
 
 #### Entities Tab 
 
@@ -21682,15 +22294,11 @@ In this section, you specify the order types for sales orders and return orders 
 
 - _Marketplace-Fulfilled Order_ 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 514 
-
-**Column Description** 
-
 - _Sales Invoice (Obsolete)_ 
 
 - _Payment_ 
+
+- _Payment (Obsolete)_ 
 
 - _Non-Order Fees_ 
 
@@ -21702,9 +22310,19 @@ In this section, you specify the order types for sales orders and return orders 
 
 - _Marketplace Transfer Order_ 
 
-- _Marketplace Transfer Receipt_ You can click the link with each entity name to open the _Entities_ (BC202000) form in a pop-up window and specify the mapping and filtering settings for the entity. 
+- _Marketplace Transfer Receipt_ 
 
-**Sync Direction** The direction in which the entity should be synchronized. The direction can be either of the following: 
+- _Settlement Report_ 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 529 
+
+ Column Description 
+
+ You can click the link with each entity name to open the Entities (BC202000) form in a pop-up window and specify the mapping and filtering settings for the entity. 
+
+ Sync Direction The direction in which the entity should be synchronized. The direction can be either of the following: 
 
 - _Export_ : Data is exported from Acumatica ERP to the Amazon seller account. 
 
@@ -21722,6 +22340,8 @@ In this section, you specify the order types for sales orders and return orders 
 
 - _Payment_ , predefined as _Import_ 
 
+- _Payment (Obsolete)_ , predefined as _Import_ 
+
 - _Non-Order Fees_ , predefined as _Import_ 
 
 - _Shipment_ , predefined as _Export_ 
@@ -21734,7 +22354,9 @@ In this section, you specify the order types for sales orders and return orders 
 
 - _Marketplace Transfer Receipt_ , predefined as _Import_ 
 
-**Primary System** The system that is used as the source of data during the synchronization of entities. If bidirectional synchronization is selected for the entity, the data of the primary system takes precedence if any conflicts arise during the synchronization. 
+- _Settlement Report_ , predefined as _Import_ 
+
+ Primary System The system that is used as the source of data during the synchronization of entities. If bidirectional synchronization is selected for the entity, the data of the primary system takes precedence if any conflicts arise during the synchronization. 
 
  The primary system can be either of the following: 
 
@@ -21746,12 +22368,6 @@ In this section, you specify the order types for sales orders and return orders 
 
 - For _Import_ , _External System_ is set to be the primary system and cannot be     changed. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 515 
-
- Column Description 
-
  Max. Failed Attempts The maximum number of errors allowed during the import or export of data before the sync record is excluded from (that is, excluded from further synchronization). 
 
  By default, the column contains 5 : That is, the system allows 5 failed attempts before excluding the synchronization record from further processing. 
@@ -21760,7 +22376,13 @@ In this section, you specify the order types for sales orders and return orders 
 
  On this tab, you can define which item quantities should be exported to the Amazon seller account. 
 
- Table: Inventory Settings Section This section contains the settings related to the export of item availability information to the Amazon seller account. 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 530 
+
+**_Table: Inventory Settings Section_** 
+
+This section contains the settings related to the export of item availability information to the Amazon seller account. 
 
  Element Description 
 
@@ -21780,17 +22402,21 @@ In this section, you specify the order types for sales orders and return orders 
 
 - _Specific Warehouses_ : The available quantity of the item is calculated based on     the on-hand quantity in the selected warehouses and warehouse locations. If     this option is selected, a list of warehouses and warehouse locations to be used     should be specified. 
 
- Table: Warehouse Mapping for Inventory Export Table In this table, you select the specific warehouses and locations whose item quantities should be used to calculate the item's available quantity in the Amazon seller account. This section is displayed if the Warehouse Mode is set to Specific Warehouses. The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
+**_Table: Warehouse Mapping for Inventory Export Table_** 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 516 
+In this table, you select the specific warehouses and locations whose item quantities should be used to calculate the item's available quantity in the Amazon seller account. This section is displayed if the **Warehouse Mode** is set to **Specific Warehouses**. The table toolbar includes only standard buttons. For the list of standard buttons, see _Table Toolbar_. 
 
  Column Description 
 
  Warehouse The identifier of the warehouse in Acumatica ERP whose item quantity should be used for calculating the item's available quantity in the Amazon seller account. 
 
  You can select a warehouse from the list, which contains all active warehouses that have been created on the Warehouses (IN204000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 531 
+
+ Column Description 
 
  Location ID The identifier of the warehouse location in Acumatica ERP that contains inventory items whose availability data should be exported to the Amazon seller account. 
 
@@ -21824,13 +22450,11 @@ In this section, you specify the order types for sales orders and return orders 
 
  On this tab, you define the default settings for the import of seller-fulfilled and marketplace-fulfilled orders placed on Amazon. You also specify if taxes should be imported to Acumatica ERP from the Amazon seller account. 
 
+ Table: General Section This section contains the general settings related to the import of any orders from Amazon. 
+
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 517 
-
-**_Table: General Section_** 
-
-This section contains the general settings related to the import of any orders from Amazon. 
+ Retail Edition Form Reference | 532 
 
  Element Description 
 
@@ -21870,15 +22494,15 @@ This section contains the general settings related to the import of seller-fulfi
 
  Earliest Order Date The earliest order creation date included in synchronization. Orders created in Amazon earlier than this date are not imported to Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 518 
-
- Element Description 
-
  Gi Wrapping Item The non-stock item in Acumatica ERP that is used to represent gi wrapping in orders imported from Amazon. 
 
  On the Non-Stock Items (IN202000) form, this non-stock item has the Non-Stock Item or Service type (the Type box in the Item Defaults section of the General tab) and the Active , No Purchases , or No Request status ( Item Status box in the Summary area). 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 533 
+
+ Element Description 
 
  Shipping Price Item The non-stock item in Acumatica ERP that is used to represent the shipping price in orders imported from Amazon. 
 
@@ -21906,41 +22530,9 @@ This section contains the settings related to the synchronization of orders fulf
 
  This box is displayed only if the Subaccounts feature is enabled on the Enable/Disable Features (CS100000) form. 
 
-**_Table: Taxes Section_** 
+**_Table: Returns Section_** 
 
-This section contains the settings related to the synchronization of taxes applied to orders in Amazon. 
-
- Element Description 
-
- Tax Synchronization A check box that indicates (if selected) that taxes should be imported from Amazon to Acumatica ERP during the import of orders. 
-
- Primary Tax Zone The tax zone that the system assigns to orders imported from Amazon. 
-
- This box is available for editing only if the Tax Synchronization check box is selected. 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 519 
-
- Element Description 
-
- Default Tax The tax ID that the system inserts in imported orders. 
-
- This box is available for editing only if the Tax Synchronization check box is selected. The default tax should be set up for the tax zone selected in the Primary Tax Zone box. 
-
- Table: Substitution Lists Section This section contains the settings related to the substitution lists that are used if the names of carriers and carrier services in the Amazon seller account differ from Ship-Via codes defined in Acumatica ERP. 
-
- Element Description 
-
- Ship Via Codes to Carriers 
-
- The substitution list to be used for mapping Ship-Via codes with carrier names defined in the Amazon seller account. 
-
- Ship Via Codes to Carrier Services 
-
- The substitution list to be used for mapping Ship-Via codes with carrier services defined in the Amazon seller account. 
-
- Table: Returns Section This section contains the general settings related to the import of seller-fulfilled and marketplace-fulfilled returns from Amazon. 
+This section contains the general settings related to the import of seller-fulfilled and marketplace-fulfilled returns from Amazon. 
 
  Element Description 
 
@@ -21956,19 +22548,83 @@ This section contains the settings related to the synchronization of taxes appli
 
  The list shows only the order types that are based on the CM Credit Memo template on the Order Types (SO201000) form. 
 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 534 
+
+ Element Description 
+
+ Charge Item The non-stock item that is used to represent additional charges in imported seller-fulfilled and marketplace-fulfilled returns, such as refund shipping, restocking fees, and other fees that Amazon charges customers during refunds. 
+
+ The selected item should have the Require Shipment check box cleared on the General tab of the Non-Stock Items (IN202000) form, 
+
  Refund Reason Code The reason code that the system will insert in each return order line for a refund or return imported from the Acumatica ERP store. The reason code must have the Issue usage type specified on the Reason Codes (CS211000) form. 
 
-#### Payments Tab 
+**_Table: Substitution Lists Section_** 
 
- On this tab, you map the payment methods defined in Amazon with the payment methods and cash accounts defined in Acumatica ERP. Also, you map Amazon order-related and non-order fees with entry types defined in Acumatica ERP to track charges separately. 
+This section contains the settings related to the substitution lists that are used if the names of carriers and carrier services in the Amazon seller account differ from Ship-Via codes defined in Acumatica ERP. 
 
- The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
+ Element Description 
+
+ Ship Via Codes to Carriers 
+
+ The substitution list to be used for mapping Ship-Via codes with carrier names defined in the Amazon seller account. 
+
+ Ship Via Codes to Carrier Services 
+
+ The substitution list to be used for mapping Ship-Via codes with carrier services defined in the Amazon seller account. 
+
+**_Table: Settlement Report Section_** 
+
+This section contains the settings related to the import of settlement reports from the Amazon seller account. 
+
+ Element Description 
+
+ Earliest Report Date The system imports settlement reports created on or after this date in Amazon. 
+
+ Also, the system import non-order fees only from settlement periods closed on or after this date. 
+
+**_Table: Taxes Section_** 
+
+By using the table in this section, you add tax zones and taxes defined in Acumatica ERP that will be used to sync taxes applied to orders in Amazon. 
+
+The table toolbar includes only standard buttons. For the list of standard buttons, see _Table Toolbar_. 
+
+ Element Description 
+
+ Tax Synchronization A check box that indicates (if selected) that taxes should be imported from Amazon to Acumatica ERP during the import of orders. When you select the check box, the table appears in the section. 
+
+ The table in this section, which appears when the Tax Synchronization check box is selected. has the following columns. 
+
+ Active A check box that indicates (if selected) that the tax zone is used during sync between Acumatica ERP and the Amazon seller account. 
+
+ The check box is selected by default. 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 520 
+ Retail Edition Form Reference | 535 
 
-**_Table: Upper Table Columns_** 
+ Element Description 
+
+ Default A check box that indicates (if selected) that the tax zone is the default one. If no matching tax zone is found during import of orders for Amazon, the default tax zone is used. 
+
+ You must select the check box for one of the active tax zones. 
+
+ Tax Zone A tax zone that has been defined on the Tax Zones (TX206000) form. Each tax zone can be added to the table only once. 
+
+ Tax ID A tax that has been defined on the Taxes (TX205000) form and specified for the selected tax zone on the Applicable Taxes tab of the Tax Zones (TX206000) form. 
+
+ Tax Zone is Based On A read-only box with the corresponding setting of the tax zone, based on which the tax zone is assigned. 
+
+ Country A read-only box with the country specified for the tax zone. 
+
+#### Payments Tab 
+
+ On this tab, in the upper table, you map the payment methods defined in Amazon with the payment methods and cash accounts defined in Acumatica ERP. Also, in the Payment Fees table, you map Amazon fees related to processing orders and refunds with entry types defined in Acumatica ERP to track charges separately. 
+
+ The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
+
+ Table: Upper Table Columns 
 
  Column Description 
 
@@ -21990,35 +22646,61 @@ This section contains the settings related to the synchronization of taxes appli
 
  If you click this identifier, the system opens the cash account on the Cash Accounts (CA202000) form. 
 
- Release Transactions A check box that you select to indicate that payments and cash transactions should be automatically released as soon as they are imported to Acumatica ERP. 
 
-**_Table: Amazon Fees Table Columns_** 
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 536 
 
  Column Description 
 
- Active A check box that indicates (if selected) that the fees of this fee type should be imported to Acumatica ERP. 
+ Proc. Center ID The identifier of the processing center configured in Acumatica ERP for the cardbased payment method selected in the ERP Payment Method column and the cash account selected in the Cash Account column. 
 
- Fee Type The type of the Amazon fee. 
+ If you click this identifier, the system opens the processing center on the Processing Centers (CA205000) form in a pop-up window. 
+
+ This column is displayed if the Integrated Card Processing feature is enabled on the Enable/Disable Features (CS100000) form. 
+
+ Release Transactions A check box that you select to indicate that payments and cash transactions should be automatically released as soon as they are imported to Acumatica ERP. 
+
+**_Table: Payment Fees Table Columns_** 
+
+ Column Description 
+
+ Active A check box that indicates (if selected) that the fees of this fee type should be imported to Acumatica ERP with payments or refunds. 
+
+ During the import of settlement reports, the system imports settlement transactions associated with all the fees listed in the table, including inactive ones. 
+
+ Fee Type The type of the Amazon fee. You can select one of the following options: 
+
+- _Order Fee_ : Fees related to processing orders. 
+
+- _Non-Order Fee_ : Additional fees that are not directly tied to processing orders. 
+
+- _Refund Fee_ : Fees related to processing refunds. 
 
  Fee Description The description of the fee type. 
 
- The column is populated automatically based on the Fee Type column and is not available for editing. 
+ ERP Entry Type An entry type that has been defined on the Entry Types (CA203000) form. The selected entry type must comply with the following requirements: 
 
- ERP Entry Type An entry type that has been defined on the Entry Types (CA203000) form. 
+- On the _Entry Types_ (CA203000) form, the entry type has the following type de-     pending on the fee type: 
+
+- _Order Fee_ : _Disbursement_ 
+
+- _Non-Order Fee_ : _Disbursement_ or _Receipt_ 
+
+- _Refund Fee_ : _Disbursement_ 
+
+- On the _Cash Accounts_ (CA202000) form, the entry type is linked with the cash ac-     count associated with the store payment method and selected in the **Cash Ac-**     **count** column in the upper table. 
 
  Entry Type Description The description of the entry type. 
 
  The column is populated automatically based on the ERP Entry Type column and is not available for editing. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 521 
-
- Column Description 
-
  Transaction Type The type of the transaction the entry type was created for. 
 
  The column is populated automatically based on the ERP Entry Type column and is not available for editing. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 537 
 
 #### Shipment Tab 
 
@@ -22046,17 +22728,15 @@ This section contains the settings related to the synchronization of taxes appli
 
  If you click this identifier, the system opens the shipping zone on the Shipping Zones (CS207510) form. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 522 
-
- Column Description 
-
  Shipping Terms The identifier of the shipping terms in Acumatica ERP, which is defined on the Shipping Terms (CS208000) form, that is mapped to the combination of the store shipping zone and store shipping method. The value selected in this column is assigned to each sales order imported to Acumatica ERP with the store shipping zone and store shipping method specified in this row. This value is also inserted in the Shipping Terms box on the Shipping tab of the Sales Orders (SO301000) form for the sales order. 
 
  This value is optional. If you leave it empty, the Shipping Terms box on the Shipping tab of the Sales Orders (SO301000) form will not be populated when a sales order with the store shipping zone and store shipping method specified in the row is imported. 
 
  If you click this identifier, the system opens the shipping terms on the Shipping Terms (CS208000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 538 
 
 ### Entities 
 
@@ -22072,21 +22752,17 @@ This section contains the settings related to the synchronization of taxes appli
 
  Command Description 
 
- Clear Sync Data Opens the Clear Sync Data dialog box, which you can use to delete all synchronization information for the selected entity. 
-
  Start Real-Time Sync 
 
  For the Export synchronization direction: Starts the real-time synchronization process and sets the Real-Time Export status to Running for the selected entity. 
 
- For the Import and Bidirectional synchronization direction: Opens the Start Real-Time Sync dialog box. 
+ For the Import and Bidirectional synchronization direction for entities that support real-time import: Opens the Start Real-Time Sync dialog box. 
 
  Stop Real-Time Sync 
 
  Disables the real-time synchronization process and sets the Real-Time Export or Real-Time Import status, depending on the selected direction of the synchronization, to Stopped for the selected entity. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 523 
+ Clear Sync Data Opens the Clear Sync Data dialog box, which you can use to delete all synchronization information for the selected entity. 
 
  Table: Start Real-Time Sync Dialog Box 
 
@@ -22098,9 +22774,13 @@ This section contains the settings related to the synchronization of taxes appli
 
  The dialog box also contains the following buttons. 
 
- Continue Starts the real-time synchronization process, sets the Real-Time Import status to Running for the selected entity, and closes the dialog box. 
+ Proceed Starts the real-time synchronization process, sets the Real-Time Import status to Running for the selected entity, and closes the dialog box. 
 
  Cancel Closes the dialog box without starting real-time synchronization. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 539 
 
  Table: Clear Sync Data Dialog Box 
 
@@ -22110,7 +22790,7 @@ This section contains the settings related to the synchronization of taxes appli
 
  The dialog box also contains the following buttons. 
 
- Continue Deletes all synchronization information for the entity specified in the Entity Name box, and closes the dialog box. 
+ Proceed Deletes all synchronization information for the entity specified in the Entity Name box, and closes the dialog box. 
 
  This operation cannot be undone. 
 
@@ -22128,27 +22808,27 @@ This section contains the settings related to the synchronization of taxes appli
 
  By default, the system inserts the store for which the Default check box is selected on the BigCommerce Stores (BC201000), Shopify Stores (BC201010), or Amazon Stores (BC201020) form, but you can select another store. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 524 
-
-**Element** 
-
-**Entity** The name of the entity supported by the connector. The available options are the following, based on the entities for which the connector supports synchronization: 
+ Entity The name of the entity supported by the connector. The available options are the following, based on the entities for which the connector supports synchronization: 
 
 - For BigCommerce: _Customer Price Class_ , _Customer_ , _Customer Location_ , _Sales Category_ ,     _Stock Item_ , _Non-Stock Item_ , _Template Item_ , _Base Sales Price_ , _Price List_ , _Product Image_ ,     _Product Availability_ , _Sales Order_ , _Payment_ , _Shipment_ , _Refund_ 
 
-- For Shopify: _Customer_ , _Company_ , _Customer Location_ , _Stock Item_ , _Non-Stock Item_ , _Tem-_     _plate Item_ , _Product Image_ , _Product Availability_ , _Sales Order_ , _Payment_ , _Shipment_ , _Re-_     _fund_ , _Price List_ 
+- For Shopify: _Customer_ , _Company_ , _Customer Location_ , _Stock Item_ , _Non-Stock Item_ , _Tem-_     _plate Item_ , _Product Image_ , _Product Availability_ , _Sales Order_ , _Payment_ , _Shipment_ , _Re-_     _fund_ , _Price List_ , _Sales Quote_ 
 
-- For Amazon: _Product (Linking Only)_ , _Product Availability_ , _Sales Order_ , _Marketplace-Ful-_     _filled Order_ , _Sales Invoice (Obsolete)_ , _Payment_ , _Non-Order Fees_ , _Shipment_ , _Seller-Ful-_     _filled Refund_ , _Marketplace-Fulfilled Refund_ , _Marketplace Transfer Order_ , _Marketplace_     _Transfer Receipt_ 
+- For Amazon: _Product (Linking Only)_ , _Product Availability_ , _Sales Order_ , _Marketplace-Ful-_     _filled Order_ , _Sales Invoice (Obsolete)_ , _Payment_ , _Payment (Obsolete)_ , _Non-Order Fees_ ,     _Shipment_ , _Seller-Fulfilled Refund_ , _Marketplace-Fulfilled Refund_ , _Marketplace Transfer_     _Order_ , _Marketplace Transfer Receipt_ , _Settlement Report_ 
 
-**Active** A read-only check box that indicates (if selected) that the entity has been activated (that is, selected for synchronization) for the store on the _BigCommerce Stores_ (BC201000), _Shopify Stores_ (BC201010), or _Amazon Stores_ (BC201020) form. 
+ Active A read-only check box that indicates (if selected) that the entity has been activated (that is, selected for synchronization) for the store on the BigCommerce Stores (BC201000), Shopify Stores (BC201010), or Amazon Stores (BC201020) form. 
 
-**Sync Direction** The direction in which the entity should be synchronized, which can be one of the following: 
+ Sync Direction The direction in which the entity should be synchronized, which can be one of the following: 
 
 - _Export_ : Data is exported from Acumatica ERP to the external system. 
 
 - _Import_ : Data is imported to Acumatica ERP from the external system. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 540 
+
+**Element** 
 
 - _Bidirectional_ : Data is synchronized between Acumatica ERP and the external system in     both directions. For the BigCommerce stores, the direction of the synchronization is inserted by the sys- tem and cannot be changed for the following entities: 
 
@@ -22176,15 +22856,11 @@ This section contains the settings related to the synchronization of taxes appli
 
 - _Shipment_ (predefined as _Export_ ) 
 
-- _Refund_ (predefined as _Import_ ) For the Amazon stores, the direction of the synchronization is inserted by the system and cannot be changed for all the entities. 
+- _Refund_ (predefined as _Import_ ) 
 
+- _Sales Quote_ (predefined as _Import_ ) For the Amazon stores, the direction of the synchronization is inserted by the system and cannot be changed for all the entities. 
 
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 525 
-
- Element 
-
- Primary System The system that is used as the source of data during the synchronization of entities. If bidirectional synchronization is selected for the entity, the data of the primary system takes precedence if any conflicts arise during the synchronization. 
+**Primary System** The system that is used as the source of data during the synchronization of entities. If bidirectional synchronization is selected for the entity, the data of the primary system takes precedence if any conflicts arise during the synchronization. 
 
  The primary system can be either of the following: 
 
@@ -22198,11 +22874,17 @@ This section contains the settings related to the synchronization of taxes appli
 
 - For _Bidirectional_ , you can select which system should be used as the primary system,     based on your synchronization processes. 
 
- Max. Failed Attempts 
+**Max. Failed Attempts** 
 
  The maximum number of errors that are allowed during the import or export of data before the synchronization record is skipped (that is, excluded from further synchronization). 
 
  By default, the box contains 5 , indicating that the system allows five failed attempts before excluding the synchronization record from further processing. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 541 
+
+ Element 
 
  Real-Time Import The status of real-time import for the entity. The system inserts the status, which is one of the following: 
 
@@ -22230,13 +22912,11 @@ This section contains the settings related to the synchronization of taxes appli
 
  The URL that has been specified for receiving push notifications from the external system for the entity. 
 
+ The box appears on the form if the real-time import is supported for the entity. 
+
 #### Import Mapping Tab 
 
  By using the table on this tab, you configure the mapping of standard or custom fields to be used in import processing. This tab is displayed only if the Import direction is supported for the selected entity. You can use the drag-and-drop functionality to arrange rows of the table in the needed order. 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 526 
 
  The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
 
@@ -22253,6 +22933,12 @@ This section contains the settings related to the synchronization of taxes appli
  ERP Field The field of the selected ERP object that is set to the value of the mapped external field or a to calculated value on import. 
 
  The list of fields available for selection depends on the selected ERP object. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 542 
+
+ Column Description 
 
  External Object The object in the external system whose field's value is assigned to the ERP field. 
 
@@ -22284,13 +22970,7 @@ This section contains the settings related to the synchronization of taxes appli
 
  The list of available options depends on the selected entity. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 527 
-
- Column Description 
-
- Condition The logical operation to apply to the value of the selected field. The following options are available: Equals , Does Not Equal , Is Greater Than , Is Greater Than or Equal To , Is Less Than , Is Less Than or Equal To , Contains , Starts With , Ends With , Does Not Contain , Is Between , Is Empty , Is Not Empty , Is Null , and Is Not Null. 
+ Condition The logical operation to apply to the value of the selected field. The following options are available: Equals , Does Not Equal , Is Greater Than , Is Greater Than or Equal To , Is Less Than , Is Less Than or Equal To , Contains , Starts With , Ends With , Does Not Contain , Is Between , Is Empty , and Is Not Empty. 
 
  Value The primary value of the condition to be compared with the value of the selected field. 
 
@@ -22299,6 +22979,10 @@ This section contains the settings related to the synchronization of taxes appli
  Closing Brackets The closing bracket or brackets for enclosing a logical expression. 
 
  Operator The logical operator, And or Or , to be used to join logical expressions on different lines. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 543 
 
 #### Export Mapping Tab 
 
@@ -22328,10 +23012,6 @@ This section contains the settings related to the synchronization of taxes appli
 
  The list of available options depends on the selected entity and the ERP object. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 528 
-
 #### Export Filtering Tab 
 
  By using the table on this tab, you can set up the rules according to which data will be included in or excluded from the export processing. This tab is displayed only if the Export direction is supported for the selected entity. You can use the drag-and-drop functionality to arrange rows of the table in the needed order. 
@@ -22344,13 +23024,19 @@ This section contains the settings related to the synchronization of taxes appli
 
  Active A check box that indicates (if selected) that the condition is active and is used for filtering. 
 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 544 
+
+ Column Description 
+
  Opening Brackets The opening bracket or brackets for enclosing a logical expression. Brackets are used to designate the order of the operation within the rule. There can be up to five brackets (and up to five levels of nesting). 
 
  Field Name The name of the field in Acumatica ERP to which the filter will be applied. 
 
  The list of available options depends on the selected entity. 
 
- Condition The logical operation to apply to the value of the chosen data field. The following options are available: Equals , Does Not Equal , Is Greater Than , Is Greater Than or Equal To , Is Less Than , Is Less Than or Equal To , Contains , Starts With , Ends With , Does Not Contain , Is Between , Is Empty , Is Not Empty , Is Null , and Is Not Null. 
+ Condition The logical operation to apply to the value of the chosen data field. The following options are available: Equals , Does Not Equal , Is Greater Than , Is Greater Than or Equal To , Is Less Than , Is Less Than or Equal To , Contains , Ends With , Starts With , Does Not Contain , Is Between , Is Empty , and Is Not Empty. 
 
  Value The primary value of the condition to be compared with the selected data field value. 
 
@@ -22368,10 +23054,6 @@ This section contains the settings related to the synchronization of taxes appli
 
  The system adds rows to the table on the form aer product import is prepared from the external ecommerce system on the Prepare Data (BC501000) form if the products to be imported have variants in the external system. The system deletes rows from the table on the form when the corresponding mappings are successfully used to create the template and matrix items. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 529 
-
  This form is available only if the Retail Commerce feature is enabled on the Enable/Disable Features (CS100000) form. 
 
 #### Form Toolbar 
@@ -22381,6 +23063,12 @@ This section contains the settings related to the synchronization of taxes appli
  Button Description 
 
  View Attributes Opens the Attributes (CS205000) form in a pop-up window. You can use this form to review and update existing attributes and their values, as well as to create new attributes and values. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 545 
+
+ Button Description 
 
  Update Item Class Populates the ERP Item Class column in the table with the item class selected in the Item Class to Assign box in the Summary area for the selected row (that is, the row you have clicked before clicking this button) and all the rows with the same identifier in the External ID column as the external ID in the selected row. 
 
@@ -22418,12 +23106,6 @@ This section contains the settings related to the synchronization of taxes appli
 
  The column is read-only. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 530 
-
- Column Description 
-
  External Option Value 
 
  The variant value in the external ecommerce system that is set to the ERP attribute value on import. 
@@ -22433,6 +23115,12 @@ This section contains the settings related to the synchronization of taxes appli
  ERP Item Class The item class to be assigned to each template item imported to Acumatica ERP from the external ecommerce system. This item class will be used to provide its default settings. 
 
  You can select the item class manually; alternatively, you can click a row in the table and then click Update Item Class on the form toolbar to automatically populate this column with the item class selected in the Item Class to Assign box. The system also assigns the inserted item class to all the rows with the same identifier in the External ID column as the one in the updated row. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 546 
+
+ Column Description 
 
  ERP Attribute The Acumatica ERP attribute that corresponds to the external product variant. This attribute has been defined on the Attributes (CS205000) form. 
 
@@ -22464,10 +23152,6 @@ This section contains the settings related to the synchronization of taxes appli
 
  Prepare Starts the data preparation process for the entities you have selected in the table. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 531 
-
 #### Selection Area 
 
  By using the elements in this area, you can configure the data fetch process to be started for the entities in the table. 
@@ -22479,6 +23163,12 @@ This section contains the settings related to the synchronization of taxes appli
  By default, the system inserts the store for which the Default check box is selected on the BigCommerce Stores (BC201000) or Shopify Stores (BC201010) form. 
 
  Entity The entity for which the data preparation process should be started. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 547 
+
+ Element Description 
 
  Prepare Mode An indicator of which data should be pulled from Acumatica ERP and the online store and placed in the processing queue during the data preparation process. 
 
@@ -22500,11 +23190,7 @@ This section contains the settings related to the synchronization of taxes appli
 
  The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 532 
-
-**_Table: Table Columns_** 
+ Table: Table Columns 
 
  Column Description 
 
@@ -22518,7 +23204,13 @@ This section contains the settings related to the synchronization of taxes appli
 
  If you click the link with the entity name, the system opens the Entities (BC202000) form. 
 
- Sync Direction The direction of the synchronization. One of the following options may be displayed: 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 548 
+
+**Column Description** 
+
+**Sync Direction** The direction of the synchronization. One of the following options may be displayed: 
 
 - _Export_ : Data is exported from Acumatica ERP to the     external ecommerce system. 
 
@@ -22526,7 +23218,7 @@ This section contains the settings related to the synchronization of taxes appli
 
 - _Bidirectional_ : Data is synchronized between     Acumatica ERP and the external ecommerce sys-     tem in both directions. 
 
- Primary System The system that is used as a source of data during the synchronization of entities. If bidirectional synchronization is selected, the data of the primary system takes precedence if any conflicts arise during the synchronization. 
+**Primary System** The system that is used as a source of data during the synchronization of entities. If bidirectional synchronization is selected, the data of the primary system takes precedence if any conflicts arise during the synchronization. 
 
  The primary system can be either of the following: 
 
@@ -22534,17 +23226,11 @@ This section contains the settings related to the synchronization of taxes appli
 
 - _External System_ (that is, the external ecommerce     system) 
 
- Last Error The last error that occurred during the data fetch process (if any). 
+**Last Error** The last error that occurred during the data fetch process (if any). 
 
- Ready to Process The number of synchronization records that have been created for the entity and that have the Prepared and Failed statuses. 
+**Ready to Process** The number of synchronization records that have been created for the entity and that have the _Prepared_ and _Failed_ statuses. 
 
  If you click the link with the number of records, the Process Data (BC501500) form opens with the store and the entity selected in the Selection area and the list of prepared and failed synchronization records displayed in the table. 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 533 
-
-**Column Description** 
 
 **Processed Records** The number of synchronization records that have been successfully synchronized and assigned the _Processed_ status. 
 
@@ -22555,6 +23241,12 @@ This section contains the settings related to the synchronization of taxes appli
  If you click the link with the number of records, the Sync History (BC301000) form opens with the store and entity selected in the Selection area and the list of all records displayed on the All Records filter tab. 
 
 **Latest Incremental Import** The date and time of the last incremental data fetch for the _Import_ direction. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 549 
+
+**Column Description** 
 
 **Latest Incremental Export** The date and time of the last incremental data fetch for the _Export_ direction. 
 
@@ -22578,19 +23270,19 @@ This section contains the settings related to the synchronization of taxes appli
 
 - _Not Supported_ : Real-time synchronization is not     available for the _Export_ direction. This column is hidden by default. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 534 
-
- Column Description 
-
- Real-Time Import A read-only column that shows the status of real-time import for the entity. The status can be one of the following options: 
+**Real-Time Import** A read-only column that shows the status of real-time import for the entity. The status can be one of the following options: 
 
 - _Stopped_ : Real-time synchronization is not enabled     for the _Import_ direction. 
 
 - _Running_ : Real-time synchronization is enabled for     the _Import_ direction. 
 
 - _Not Supported_ : Real-time synchronization is not     available for the _Import_ direction. This column is hidden by default. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 550 
+
+ Column Description 
 
  Real-Time Mode A read-only column that shows the mode of the processing of the synchronization records, which can be either of the following: 
 
@@ -22614,15 +23306,17 @@ This section contains the settings related to the synchronization of taxes appli
 
  The form toolbar includes standard buttons and form-specific buttons and commands. For the list of standard buttons, see Form Toolbar and More Menu. The form-specific commands can be shown as buttons on the form toolbar, as commands on the More menu, or in both places. These commands are listed in the following table in alphabetical order. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 535 
-
  Command Description 
 
  Process Starts the data synchronization process for the synchronization records you have selected in the table. 
 
  Process All Starts the data synchronization process for all synchronization records listed in the table. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 551 
+
+ Command Description 
 
  Set All as Processed Sets the status of all synchronization records in the table to Processed , updates the date and time of the last synchronization with the current date and time, and removes the synchronization records from the table. 
 
@@ -22650,7 +23344,7 @@ This section contains the settings related to the synchronization of taxes appli
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 536 
+ Retail Edition Form Reference | 552 
 
  Element Description 
 
@@ -22692,7 +23386,7 @@ This section contains the settings related to the synchronization of taxes appli
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 537 
+ Retail Edition Form Reference | 553 
 
 **Column Description** 
 
@@ -22708,7 +23402,7 @@ This section contains the settings related to the synchronization of taxes appli
 
  In this table, only synchronization records pending synchronization (that is, synchronization records that have the Prepared or Failed status) are displayed. 
 
-**Last Error** The error, if any, that occurred during the last attempt to run the process. 
+**Last Message** The message, if any, that occurred during the last process run. 
 
 **Last Operation** The operation that was last performed on the record, which is one of the following options: 
 
@@ -22726,7 +23420,7 @@ This section contains the settings related to the synchronization of taxes appli
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 538 
+ Retail Edition Form Reference | 554 
 
 **Column Description** 
 
@@ -22764,7 +23458,7 @@ This section contains the settings related to the synchronization of taxes appli
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 539 
+ Retail Edition Form Reference | 555 
 
 **Column Description** 
 
@@ -22808,7 +23502,7 @@ This section contains the settings related to the synchronization of taxes appli
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 540 
+ Retail Edition Form Reference | 556 
 
  Column Description 
 
@@ -22836,17 +23530,37 @@ This section contains the settings related to the synchronization of taxes appli
 
  Command Description 
 
- Add New Opens the Add or Edit Sync Status dialog box for adding a new synchronization record. 
+ Sync Starts the data synchronization process for the selected synchronization record or records. You select a synchronization record by selecting the Included check box for it or by clicking its row before invoking this command. 
+
+ This button launches forced synchronization. That is, even if the synchronization record already has a status of Processed , the system synchronizes it again, with the data in the primary system (the system used as the source of data) taking precedence. 
+
+ Prepare Starts the data preparation process in Incremental mode for the entity selected in the Entity box of the Summary area. 
+
+ This command is available only if an entity is selected in the Entity box. 
 
  Delete Deletes the selected synchronization record or records from the table on the tab. You select a synchronization record by selecting the Included check box for it or by clicking its row before invoking this command. 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 541 
+ Retail Edition Form Reference | 557 
 
-**Command Description** 
+ Command Description 
 
-**Edit** Opens the **Add or Edit Sync Status** dialog box for editing the selected synchronization record. You select a synchronization record by selecting the Included check box for it or by clicking its row before invoking this command. 
+ Skip Sets the status of the selected synchronization record or records to Skipped , which excludes the synchronization record from further synchronization and removes it from the table. You select a synchronization record by selecting the Included check box for it. 
+
+ Skipped synchronization records are listed on the Skipped filter tab of this form. 
+
+ Set as Processed Sets the status of the selected synchronization record or records (that is, all records for which you have selected the Included check box) to Processed , updates the date and time of the last synchronization with the current date and time for these records, and sets the Last Operation value to Manually Synchronized for these records. 
+
+ Synchronization records set as processed are listed on the Processed filter tab of this form. 
+
+ Set as Prepared Sets the status of the selected synchronization record or records (that is, all records for which you have selected the Included check box) to Prepared , updates the date and time of the last synchronization with the current date and time for these records, and sets the Last Operation value to Forced to Resync for these records. 
+
+ Synchronization records set as prepared are listed on the Prepared filter tab of this form. 
+
+ Add New Opens the Add or Edit Sync Status dialog box for adding a new synchronization record. 
+
+ Edit Opens the Add or Edit Sync Status dialog box for editing the selected synchronization record. You select a synchronization record by selecting the Included check box for it or by clicking its row before invoking this command. 
 
  Synchronization records can be edited for the following entities: 
 
@@ -22854,37 +23568,21 @@ This section contains the settings related to the synchronization of taxes appli
 
 - For Shopify: _Stock Item_ , _Non-Stock Item_ , _Template Item_ , _Sales Order_ , _Ship-_     _ment_ , _Customer_ 
 
-**Prepare** Starts the data preparation process in _Incremental_ mode for the entity selected in the **Entity** box of the Summary area. 
+ View Details Opens the Sync Record Details dialog box for the selected synchronization record. You select a synchronization record by selecting the Included check box for it or by clicking its row before invoking this command. 
 
- This command is available only if an entity is selected in the Entity box. 
+**_Table: Add or Edit Sync Status Dialog Box_** 
 
-**Set as Prepared** Sets the status of the selected synchronization record or records (that is, all records for which you have selected the Included check box) to _Prepared_ , updates the date and time of the last synchronization with the current date and time for these records, and sets the **Last Operation** value to _Forced to Resync_ for these records. 
-
- Synchronization records set as prepared are listed on the Prepared filter tab of this form. 
-
-**Set as Processed** Sets the status of the selected synchronization record or records (that is, all records for which you have selected the Included check box) to _Processed_ , updates the date and time of the last synchronization with the current date and time for these records, and sets the **Last Operation** value to _Manually Synchronized_ for these records. 
-
- Synchronization records set as processed are listed on the Processed filter tab of this form. 
-
-**Skip** Sets the status of the selected synchronization record or records to _Skipped_ , which excludes the synchronization record from further synchronization and removes it from the table. You select a synchronization record by selecting the Included check box for it. 
-
- Skipped synchronization records are listed on the Skipped filter tab of this form. 
-
-**Sync** Starts the data synchronization process for the selected synchronization record or records. You select a synchronization record by selecting the Included check box for it or by clicking its row before invoking this command. 
-
- This button launches forced synchronization. That is, even if the synchronization record already has a status of Processed , the system synchronizes it again, with the data in the primary system (the system used as the source of data) taking precedence. 
-
-**View Details** Opens the **Sync Record Details** dialog box for the selected synchronization record. You select a synchronization record by selecting the Included check box for it or by clicking its row before invoking this command. 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 542 
-
- Table: Add or Edit Sync Status Dialog Box By using this dialog box, you can create a new synchronization record or update an existing one. 
+By using this dialog box, you can create a new synchronization record or update an existing one. 
 
  Element Description 
 
  Connector The ecommerce connector used for the synchronization of data between Acumatica ERP and the external ecommerce system. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 558 
+
+ Element Description 
 
  Store Required. The name of the ecommerce store with which data is synchronized. 
 
@@ -22894,13 +23592,15 @@ This section contains the settings related to the synchronization of taxes appli
 
  ERP ID The identifier in Acumatica ERP of the record being synchronized. 
 
+ Filtering by ERP ID can affect system performance. 
+
  External ID The identifier in the external ecommerce system of the record being synchronized. 
 
- Need to Sync A check box that you select to indicate that the new or updated record must be synchronized. 
+ Need to Sync A check box that you select to indicate that the new or updated record must be synchronized upon the creation. 
 
  The dialog box also contains the following button. 
 
- OK Creates or updates the synchronization record with the specified values and closes the dialog box. 
+ Apply Creates or updates the synchronization record with the specified values and closes the dialog box. 
 
  Table: Sync Record Details Dialog Box The table of this dialog box shows the details of the entity records that were synchronized during the processing of the selected synchronization record. 
 
@@ -22922,13 +23622,13 @@ This section contains the settings related to the synchronization of taxes appli
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 543 
+ Retail Edition Form Reference | 559 
 
  Element Description 
 
  Store The name of the ecommerce store for which you want to display synchronization records on the tabs. 
 
- By default, the system inserts the store for which the Default check box is selected on the BigCommerce Stores (BC201000) or Shopify Stores (BC201010) form. 
+ By default, the system inserts the store for which the Default check box is selected on the BigCommerce Stores (BC201000), Shopify Stores (BC201010), or Amazon Stores (BC201020) form. 
 
  Entity The entity for which you want to display synchronization records on the tabs. 
 
@@ -22936,33 +23636,35 @@ This section contains the settings related to the synchronization of taxes appli
 
  If no option is selected in this box, the synchronization records of all entities are listed on the tabs. 
 
-#### Filter Tabs 
+#### Table 
 
- Below the Selection area is a series of filter tabs, each of which has a table that displays particular synchronization records: 
+ The table displays synchronization records for the selected store and entity. 
 
-- **All Records** : This tab displays all synchronization records for the selected store and entity. 
+ Above the table is the Filter List drop-down menu. It contains a list of the following filters to display specific types of synchronization records in the table: 
 
-- **Ready to Process** : This tab displays active synchronization records that have the _Prepared_ status or     the _Failed_ status. The system attempts to synchronize records with either of these statuses when data     processing is started for the corresponding entity. 
+- **All Records** : This filter displays all synchronization records for the selected store and entity. 
 
-- **Failed** : This tab displays active synchronization records that have the _Failed_ status, which the system     assigns if the system could not process a synchronization record but the number of synchronization     attempts is below the allowed maximum specified for the entity to which the synchronization record     belongs. The system attempts to process synchronization records with this status when data processing is     started for the corresponding entity. 
+- **Aborted** : This filter displays active synchronization records with the _Aborted_ status—that is, active     synchronization records that have been excluded from the synchronization by the system. The system     assigns the _Aborted_ status to a synchronization record if it fails to process it for more than the maximum     number of failed attempts allowed for the synchronization of the entity to which the synchronization record     belongs. 
 
-- **Processed** : This tab displays active synchronization records that have the _Processed_ status—that is, active     synchronization records that have been successfully processed by the system. 
+- **Deleted** : This filter displays active synchronization records that have the _Deleted_ status, which is assigned     to a synchronization record if the record data it contains has been prepared (that is, pulled from Acumatica     ERP and the external ecommerce system) and then deleted in the primary system of the entity. 
 
-- **Skipped** : This tab displays the active synchronization records that have the _Skipped_ status—that is, the     active synchronization records that have been manually excluded from the synchronization by users. 
+- **Failed** : This filter displays active synchronization records that have the _Failed_ status, which the system     assigns if the system could not process a synchronization record but the number of synchronization     attempts is below the allowed maximum specified for the entity to which the synchronization record     belongs. The system attempts to process synchronization records with this status when data processing is     started for the corresponding entity. 
 
-- **Aborted** : This tab displays active synchronization records with the _Aborted_ status—that is, active     synchronization records that have been excluded from the synchronization by the system. The system     assigns the _Aborted_ status to a synchronization record if it fails to process it for more than the maximum     number of failed attempts allowed for the synchronization of the entity to which the synchronization record     belongs. 
+- **Filtered** : This filter displays active synchronization records that have the _Filtered_ status. The system     assigns this status to a synchronization record if it has been prepared and then filtered out during the     synchronization because filtering conditions defined for the entity on the _Entities_ (BC202000) form have     been applied. 
 
-- **Deleted** : This tab displays active synchronization records that have the _Deleted_ status, which is assigned     to a synchronization record if the record data it contains has been prepared (that is, pulled from Acumatica     ERP and the external ecommerce system) and then deleted in the primary system of the entity. 
+- **Inactive** : This filter displays synchronization records for entities that have been deactivated (that is, the     **Active** check box is cleared) on the **Entities** tab of the _BigCommerce Stores_ (BC201000), _Shopify Stores_     (BC201010) and _Amazon Stores_ (BC201020) forms. Inactive synchronization records have the **Active** check     box cleared in the table. 
 
-- **Filtered** : This tab displays active synchronization records that have the _Filtered_ status. The system     assigns this status to a synchronization record if it has been prepared and then filtered out during the     synchronization because filtering conditions defined for the entity on the _Entities_ (BC202000) form have     been applied. 
+- **Invalid** : This filter displays active synchronization records that the system has assigned the _Invalid_ status—     that is, synchronization records generated for document or entity records that cannot be synchronized, for     example, if they have been used in the store settings. For instance, a customer record that has been selected     as the **Generic Guest Customer** is not synchronized during the synchronization of the _Customer_ entity. 
 
-- **Invalid** : This tab displays active synchronization records that the system has assigned the _Invalid_ status—     that is, synchronization records generated for document or entity records that cannot be synchronized, for     example, if they have been used in the store settings. For instance, a customer record that has been selected     as the **Generic Guest Customer** is not synchronized during the synchronization of the _Customer_ entity. 
+- **Processed** : This filter displays active synchronization records that have the _Processed_ status—that is, active     synchronization records that have been successfully processed by the system. 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 544 
+ Retail Edition Form Reference | 560 
 
-- **Inactive** : This tab displays synchronization records for entities that have been deactivated (that is, the     **Active** check box is cleared) on the **Entities** tab of the _BigCommerce Stores_ (BC201000) and _Shopify Stores_     (BC201010) forms. Inactive synchronization records have the **Active** check box cleared in the table. 
+- **Ready to Process** : This filter displays active synchronization records that have the _Prepared_ status or     the _Failed_ status. The system attempts to synchronize records with either of these statuses when data     processing is started for the corresponding entity. 
+
+- **Skipped** : This filter displays the active synchronization records that have the _Skipped_ status—that is, the     active synchronization records that have been manually excluded from the synchronization by users. 
 
 **_Table: Table Columns_** 
 
@@ -22990,7 +23692,7 @@ This section contains the settings related to the synchronization of taxes appli
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 545 
+ Retail Edition Form Reference | 561 
 
 **Column Description** 
 
@@ -22998,9 +23700,9 @@ This section contains the settings related to the synchronization of taxes appli
 
  The statuses for which active synchronization records are shown on a particular tab are generally indicated by the tab name. A synchronization record can have any of the following statuses:, which can be any of the following: 
 
-- _Failed_ : The processing of the synchronization record has failed. 
-
 - _Prepared_ : The processing of the synchronization record has not yet     been performed. 
+
+- _Failed_ : The processing of the synchronization record has failed. 
 
 - _Processed_ : The synchronization process for the synchronization record     has been completed successfully. 
 
@@ -23010,9 +23712,9 @@ This section contains the settings related to the synchronization of taxes appli
 
 - _Deleted_ : The document or entity record associated with the synchro-     nization record has been deleted in one system or both systems. 
 
-- _Invalid_ : The synchronization record cannot be processed because the     synchronization of the document or entity record associated with it is     not supported, for example, if the document or entity record was used     in the store settings. 
-
 - _Filtered_ : The synchronization record has been excluded from process-     ing because the filtering conditions defined in the code or on the _Enti-_     _ties_ (BC202000) form have been applied. 
+
+- _Invalid_ : The synchronization record cannot be processed because the     synchronization of the document or entity record associated with it is     not supported, for example, if the document or entity record was used     in the store settings. 
 
 **Last Error** The error, if any, that occurred during the last attempt to process the synchronization record. 
 
@@ -23030,9 +23732,11 @@ This section contains the settings related to the synchronization of taxes appli
 
 - _Conflict Resolved by Override in ERP_ : The synchronization record was     successfully processed; during the synchronization, a conflict occurred     that the system resolved by updating the document or entity record in     Acumatica ERP with the changes from the external system. 
 
+- _Modified Locally, Sync Not Needed_ : The document or entity record was     changed in Acumatica ERP but requires no synchronization. 
+
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 546 
+ Retail Edition Form Reference | 562 
 
 **Column Description** 
 
@@ -23047,6 +23751,8 @@ This section contains the settings related to the synchronization of taxes appli
 - _Failed to Save Externally_ : An error occurred while the document or entity     record was saved in the external ecommerce system. 
 
 - _Conflict Resolved by Override Externally_ : The synchronization record was     successfully processed; during the synchronization, a conflict occurred     that was resolved by updating the document or entity record in the ex-     ternal ecommerce system with the changes from Acumatica ERP. 
+
+- _Modified Externally, Sync Not Needed_ : The document or entity record was     changed in the external ecommerce system but requires no synchroniza-     tion. 
 
 - _Sync Failed_ : An error occurred during the synchronization. 
 
@@ -23072,15 +23778,15 @@ This section contains the settings related to the synchronization of taxes appli
 
 **Ready to Process** A read-only check box that indicates (if selected) that the synchronization record needs to be processed. 
 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 563 
+
+**Column Description** 
+
 **Connector** The ecommerce connector used for synchronization. 
 
  This column is hidden by default. 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 547 
-
-**Column Description** 
 
 **Last Externally Modified** The date and time when the document or entity record was last modified in the external ecommerce system. 
 
@@ -23124,7 +23830,7 @@ This section contains the settings related to the synchronization of taxes appli
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 548 
+ Retail Edition Form Reference | 564 
 
  Column Description 
 
@@ -23166,7 +23872,7 @@ This section contains the settings related to the synchronization of taxes appli
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Form Reference | 549 
+ Retail Edition Form Reference | 565 
 
 #### Selection Area 
 
@@ -23200,7 +23906,13 @@ This section contains the settings related to the synchronization of taxes appli
 
 - Completed and canceled sales orders that belong to the order type for which the **Protect Personal Data**     check box is selected on the _Order Types_ (SO201000) form 
 
-- Sales invoices that have been created for such sales orders The table toolbar includes only standard buttons. For the list of standard buttons, see _Table Toolbar_. 
+- Sales invoices that have been created for such sales orders 
+
+ Shipments are not displayed in the table, but they will be processed along with the related sales orders. 
+
+ For the documents to be pseudonymized, the Override Contact and Override Address check boxes must be selected for the ship-to address, bill-to address, ship-to contact, and bill-to contact information on the Addresses tab of the Sales Orders (SO301000), Shipments (SO302000), and Invoices (SO303000) forms. 
+
+ The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
 
  Table: Table Columns 
 
@@ -23214,17 +23926,17 @@ This section contains the settings related to the synchronization of taxes appli
 
 - Sales invoice: _INV_ 
 
- Ref. Nbr. The identifier of the document, which can be either of the following: 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 566 
+
+**Column Description** 
+
+**Ref. Nbr.** The identifier of the document, which can be either of the following: 
 
 - Sales order: The order number 
 
 - Invoice: The invoice identifier You can click the link in this column to open the sales order on the _Sales Orders_ (SO301000) form and the sales invoice on the _Invoices_ (SO303000) form. 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 550 
-
-**Column Description** 
 
 **Entity** The type of document, which can be _Sales Order_ or _Invoice_. 
 
@@ -23262,6 +23974,8 @@ This section contains the settings related to the synchronization of taxes appli
 
 **Bill-To Attention** The attention line in the billing contact settings of the document in this row. 
 
+ This column is hidden by default. 
+
 **Bill-To Account Name** 
 
  The account name in the billing contact settings of the document in this row. 
@@ -23282,17 +23996,17 @@ This section contains the settings related to the synchronization of taxes appli
 
 **Bill-To City** The city in the billing address settings of the document in this row. 
 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Form Reference | 567 
+
+**Column Description** 
+
 **Bill-To State** The state in the billing address settings of the document in this row. 
 
 **Bill-To Country** The country in the billing address settings of the document in this row. 
 
 **Bill-To Postal Code** The postal code in the billing address settings of the document in this row. 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Form Reference | 551 
-
-**Column Description** 
 
 **Pseudonymized** A check box that indicates (if selected) that the personally identifiable data has been pseudonymized—that is, replaced with placeholders. 
 
@@ -23300,7 +24014,7 @@ This section contains the settings related to the synchronization of taxes appli
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 552 
+ Retail Edition Entity Reference | 568 
 
 ## Retail Edition Entity Reference 
 
@@ -23340,7 +24054,7 @@ This section contains the settings related to the synchronization of taxes appli
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 553 
+ Retail Edition Entity Reference | 569 
 
 **Source Fields (Acumatica ERP) Target Fields (BigCommerce)** 
 
@@ -23406,7 +24120,7 @@ Phone 2 **General** tab > **Additional Account Info** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 554 
+ Retail Edition Entity Reference | 570 
 
 **Source Fields (Acumatica ERP) Target Fields (BigCommerce)** 
 
@@ -23430,7 +24144,7 @@ Phone 2 **General** tab > **Additional Account Info** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 555 
+ Retail Edition Entity Reference | 571 
 
  Source Fields (Acumatica ERP) Target Fields (BigCommerce) 
 
@@ -23458,7 +24172,7 @@ Phone 2 **General** tab > **Additional Account Info** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 556 
+ Retail Edition Entity Reference | 572 
 
 **_Table: Customer Import Mapping_** 
 
@@ -23498,7 +24212,7 @@ Phone 2 **General** tab > **Additional Account Info** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 557 
+ Retail Edition Entity Reference | 573 
 
  Source Fields (BigCommerce) Target Fields (Acumatica ERP) 
 
@@ -23546,7 +24260,7 @@ Phone 2 **General** tab > **Additional Account Info** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 558 
+ Retail Edition Entity Reference | 574 
 
 #### Customer Location Filtering 
 
@@ -23602,7 +24316,7 @@ Phone 2 **General** tab > **Additional Account Info** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 559 
+ Retail Edition Entity Reference | 575 
 
  Source Fields (Acumatica ERP) Target Fields (BigCommerce) 
 
@@ -23656,7 +24370,7 @@ Phone 2 **General** tab > **Additional Account Info** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 560 
+ Retail Edition Entity Reference | 576 
 
 **Source Fields (BigCommerce) Target Fields (Acumatica ERP)** 
 
@@ -23696,7 +24410,7 @@ Phone 2 **General** tab > **Additional Account Info** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 561 
+ Retail Edition Entity Reference | 577 
 
 **Source Fields (BigCommerce) Target Fields (Acumatica ERP)** 
 
@@ -23748,7 +24462,7 @@ Phone 2 **General** tab > **Additional Account Info** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 562 
+ Retail Edition Entity Reference | 578 
 
 ### Sales Category Entity 
 
@@ -23792,7 +24506,7 @@ Phone 2 **General** tab > **Additional Account Info** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 563 
+ Retail Edition Entity Reference | 579 
 
 #### Merging of Duplicates 
 
@@ -23834,7 +24548,7 @@ Phone 2 **General** tab > **Additional Account Info** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 564 
+ Retail Edition Entity Reference | 580 
 
 **Source Fields (Acumatica ERP) Target Fields (BigCommerce)** 
 
@@ -23876,7 +24590,7 @@ Phone 2 **General** tab > **Additional Account Info** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 565 
+ Retail Edition Entity Reference | 581 
 
 **Source Fields (Acumatica ERP) Target Fields (BigCommerce)** 
 
@@ -23926,7 +24640,7 @@ Phone 2 **General** tab > **Additional Account Info** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 566 
+ Retail Edition Entity Reference | 582 
 
  Source Fields (Acumatica ERP) Target Fields (BigCommerce) 
 
@@ -23992,7 +24706,7 @@ Phone 2 **General** tab > **Additional Account Info** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 567 
+ Retail Edition Entity Reference | 583 
 
 **Source Fields (Acumatica ERP) Target Fields (BigCommerce)** 
 
@@ -24068,7 +24782,7 @@ _BigCommerce Stores_ form, **Inventory** tab
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 568 
+ Retail Edition Entity Reference | 584 
 
 **Source Fields (Acumatica ERP) Target Fields (BigCommerce)** 
 
@@ -24136,7 +24850,7 @@ _BigCommerce Stores_ (BC201000) form, **Inventory** tab
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 569 
+ Retail Edition Entity Reference | 585 
 
  Source Fields (Acumatica ERP) Target Fields (BigCommerce) 
 
@@ -24188,7 +24902,7 @@ _BigCommerce Stores_ (BC201000) form, **Inventory** tab
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 570 
+ Retail Edition Entity Reference | 586 
 
 **Source Fields (Acumatica ERP) Target Fields (BigCommerce)** 
 
@@ -24228,7 +24942,7 @@ _BigCommerce Stores_ (BC201000) form, **Inventory** tab
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 571 
+ Retail Edition Entity Reference | 587 
 
 **Source Fields (Acumatica ERP) Target Fields (BigCommerce)** 
 
@@ -24274,7 +24988,7 @@ _BigCommerce Stores_ (BC201000) form, **Inventory** tab
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 572 
+ Retail Edition Entity Reference | 588 
 
 **Source Fields (Acumatica ERP) Target Fields (BigCommerce)** 
 
@@ -24328,7 +25042,7 @@ _BigCommerce Stores_ (BC201000) form, **Inventory** tab
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 573 
+ Retail Edition Entity Reference | 589 
 
  Source Fields (Acumatica ERP) Target Fields (BigCommerce) 
 
@@ -24388,7 +25102,7 @@ _BigCommerce Stores_ (BC201000) form, **Inventory** tab
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 574 
+ Retail Edition Entity Reference | 590 
 
 #### Template Item Export Mapping 
 
@@ -24436,7 +25150,7 @@ _BigCommerce Stores_ (BC201000) form, **Inventory** tab
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 575 
+ Retail Edition Entity Reference | 591 
 
 **Source Fields (Acumatica ERP) Target Fields (BigCommerce)** 
 
@@ -24480,7 +25194,7 @@ _BigCommerce Stores_ (BC201000) form, **Inventory** tab
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 576 
+ Retail Edition Entity Reference | 592 
 
 **Source Fields (Acumatica ERP) Target Fields (BigCommerce)** 
 
@@ -24534,7 +25248,7 @@ _BigCommerce Stores_ (BC201000) form, **Inventory** tab
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 577 
+ Retail Edition Entity Reference | 593 
 
  Source Fields (Acumatica ERP) Target Fields (BigCommerce) 
 
@@ -24582,7 +25296,7 @@ The following table includes the mapping of Acumatica ERP fields to BigCommerce 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 578 
+ Retail Edition Entity Reference | 594 
 
 **Source Fields (Acumatica ERP) Target Fields (BigCommerce)** 
 
@@ -24628,7 +25342,7 @@ The following table includes the mapping of Acumatica ERP fields to BigCommerce 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 579 
+ Retail Edition Entity Reference | 595 
 
  Source Fields (Acumatica ERP) Target Fields (BigCommerce) 
 
@@ -24666,7 +25380,7 @@ The following table includes the mapping of Acumatica ERP fields to BigCommerce 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 580 
+ Retail Edition Entity Reference | 596 
 
 **_Table: Available Quantities of Stock Items_** 
 
@@ -24740,7 +25454,7 @@ The following table includes the mapping of Acumatica ERP fields to BigCommerce 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 581 
+ Retail Edition Entity Reference | 597 
 
  Source Fields (Acumatica ERP) Target Fields (BigCommerce) 
 
@@ -24792,7 +25506,7 @@ The following table includes the mapping of Acumatica ERP fields to BigCommerce 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 582 
+ Retail Edition Entity Reference | 598 
 
 #### Merging of Duplicates 
 
@@ -24822,7 +25536,7 @@ The following table includes the mapping of Acumatica ERP fields to BigCommerce 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 583 
+ Retail Edition Entity Reference | 599 
 
 **Source Fields (Acumatica ERP) Target Fields (BigCommerce)** 
 
@@ -24880,7 +25594,7 @@ The following table includes the mapping of Acumatica ERP fields to BigCommerce 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 584 
+ Retail Edition Entity Reference | 600 
 
 **Source Fields (Acumatica ERP) Target Fields (BigCommerce)** 
 
@@ -24948,7 +25662,7 @@ The following table includes the mapping of Acumatica ERP fields to BigCommerce 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 585 
+ Retail Edition Entity Reference | 601 
 
  Source Fields (Acumatica ERP) Target Fields (BigCommerce) 
 
@@ -25000,7 +25714,7 @@ The following table includes the mapping of Acumatica ERP fields to BigCommerce 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 586 
+ Retail Edition Entity Reference | 602 
 
 **Source Fields (BigCommerce) Target Fields (Acumatica ERP)** 
 
@@ -25026,7 +25740,7 @@ The following table includes the mapping of Acumatica ERP fields to BigCommerce 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 587 
+ Retail Edition Entity Reference | 603 
 
 **Source Fields (BigCommerce) Target Fields (Acumatica ERP)** 
 
@@ -25064,7 +25778,7 @@ The following table includes the mapping of Acumatica ERP fields to BigCommerce 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 588 
+ Retail Edition Entity Reference | 604 
 
 **Source Fields (BigCommerce) Target Fields (Acumatica ERP)** 
 
@@ -25130,7 +25844,7 @@ The following table includes the mapping of Acumatica ERP fields to BigCommerce 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 589 
+ Retail Edition Entity Reference | 605 
 
 **Source Fields (BigCommerce) Target Fields (Acumatica ERP)** 
 
@@ -25186,7 +25900,7 @@ The following table includes the mapping of Acumatica ERP fields to BigCommerce 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 590 
+ Retail Edition Entity Reference | 606 
 
 **Source Fields (BigCommerce) Target Fields (Acumatica ERP)** 
 
@@ -25218,7 +25932,7 @@ The following table includes the mapping of Acumatica ERP fields to BigCommerce 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 591 
+ Retail Edition Entity Reference | 607 
 
 **Source Fields (BigCommerce) Target Fields (Acumatica ERP)** 
 
@@ -25254,7 +25968,7 @@ Product Discount **Edit an Order** page > **Summary** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 592 
+ Retail Edition Entity Reference | 608 
 
  Source Fields (BigCommerce) Target Fields (Acumatica ERP) 
 
@@ -25298,7 +26012,7 @@ Product Discount **Edit an Order** page > **Summary** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 593 
+ Retail Edition Entity Reference | 609 
 
  Source Fields (Acumatica ERP) Target Fields (BigCommerce) 
 
@@ -25342,7 +26056,7 @@ Product Discount **Edit an Order** page > **Summary** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 594 
+ Retail Edition Entity Reference | 610 
 
 #### Payment Import Mapping 
 
@@ -25386,7 +26100,7 @@ Product Discount **Edit an Order** page > **Summary** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 595 
+ Retail Edition Entity Reference | 611 
 
 **Source Fields (BigCommerce) Target Fields (Acumatica ERP)** 
 
@@ -25404,7 +26118,7 @@ Product Discount **Edit an Order** page > **Summary** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 596 
+ Retail Edition Entity Reference | 612 
 
 ### Shopify Mapping Reference 
 
@@ -25442,7 +26156,7 @@ Product Discount **Edit an Order** page > **Summary** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 597 
+ Retail Edition Entity Reference | 613 
 
 **Source Fields (Acumatica ERP) Target Fields (Shopify)** 
 
@@ -25452,6 +26166,10 @@ Product Discount **Edit an Order** page > **Summary** section
 
  General tab > Primary Contact section 
 
+**Legal Name** (part before the first space) 
+
+ General tab > Account Information section 
+
  First name New customer page > Customer overview section 
 
  If Primary Contact is empty, Account Name in the Account Info section is used. 
@@ -25459,6 +26177,10 @@ Product Discount **Edit an Order** page > **Summary** section
 **Name** (part after the first space) 
 
  General tab > Primary Contact section 
+
+**Legal Name** (part after the first space) 
+
+ General tab > Account Information section 
 
  Last name New customer page > Customer overview section 
 
@@ -25508,17 +26230,17 @@ Phone 1 **General** tab > **Additional Account Info** section
 
  Country/region New customer page > Address section 
 
-**State General** tab > **Account Address** section 
-
- State New customer page > Address section 
-
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 598 
+ Retail Edition Entity Reference | 614 
 
  Source Fields (Acumatica ERP) Target Fields (Shopify) 
 
  Field Name Form Object Field Name Page Object Notes 
+
+ State General tab > Account Address section 
+
+ State New customer page > Address section 
 
  Postal Code General tab > Account Address section 
 
@@ -25552,17 +26274,17 @@ Phone 1 **General** tab > **Additional Account Info** section
 
  General tab > Account Info section 
 
- Company Customer page > Default Address section 
-
- Account Name General tab > Account Info section 
-
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 599 
+ Retail Edition Entity Reference | 615 
 
 **Source Fields (Shopify) Target Fields (Acumatica ERP)** 
 
 **Field Name Page Object Field Name Form Object Notes** 
+
+**Company** Customer page > **Default Address** section 
+
+ Account Name General tab > Account Info section 
 
  General tab > Primary Contact section 
 
@@ -25614,19 +26336,19 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  City General tab > Additional Account Info section 
 
-**Country/region** Customer page > **Default address** section 
-
- Country General tab > Additional Account Info section 
-
- The country name is transformed to the ISO country code. 
-
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 600 
+ Retail Edition Entity Reference | 616 
 
  Source Fields (Shopify) Target Fields (Acumatica ERP) 
 
  Field Name Page Object Field Name Form Object Notes 
+
+ Country/region Customer page > Default address section 
+
+ Country General tab > Additional Account Info section 
+
+ The country name is transformed to the ISO country code. 
 
  State/Province Customer page > Default address section 
 
@@ -25638,9 +26360,33 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  Postal Code General tab > Additional Account Info section 
 
+ General tab > Additional Account Info section 
+
+ Send Invoices by Email 
+
+ Send Statements by Email 
+
+ Print Invoices 
+
+ Email Customer page > Customer section 
+
+ Print Statements 
+
+ Billing tab > Print and Email Settings section 
+
+ If the customer has no email specified in the external system, the check box is cleared. 
+
+ If the customer has an email specified, the state of the check box is defined by the settings of the customer class specified in the Customer Class box on the Customers tab of the Shopify Stores (BC201010) form. 
+
+ For consequent synchronizations, if the check box state has been changed for the customer or for the customer class specified for the customer, the connector uses the latest changes. 
+
 ### Customer Location Entity 
 
  This topic provides reference information about the standard filtering and field mapping used for the Customer Location entity during the synchronization between Acumatica ERP and Shopify. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 617 
 
 #### Customer Location Filtering 
 
@@ -25684,14 +26430,6 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  If Account Name is empty, Customer Name of the related customer is used. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 601 
-
- Source Fields (Acumatica ERP) Target Fields (Shopify) 
-
- Field Name Form Object Field Name Page Object Notes 
-
  Customer ID Not in the UI Customer ID of the related customer, generated by Shopify. 
 
  Address ID Not in the UI Address ID is generated by Shopify. 
@@ -25705,6 +26443,14 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
  Apartment, suite, etc. 
 
  New customer page > Address section 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 618 
+
+ Source Fields (Acumatica ERP) Target Fields (Shopify) 
+
+ Field Name Form Object Field Name Page Object Notes 
 
  City General tab > Location Address section 
 
@@ -25744,17 +26490,17 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  Customer Locations (AR303020) form 
 
+ Customer Summary area The customer ID is generated based on the numbering sequence specified for customers on the Customers tab of the Shopify Stores (BC201010) form. 
+
+ Location ID Summary area The location ID is generated based on the numbering sequence specified for customer locations on the Customers tab of the Shopify Stores form. 
+
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 602 
+ Retail Edition Entity Reference | 619 
 
 **Source Fields (Shopify) Target Fields (Acumatica ERP)** 
 
 **Field Name Page Object Field Name Form Object Notes** 
-
- Customer Summary area The customer ID is generated based on the numbering sequence specified for customers on the Customers tab of the Shopify Stores (BC201010) form. 
-
- Location ID Summary area The location ID is generated based on the numbering sequence specified for customer locations on the Customers tab of the Shopify Stores form. 
 
  Status Summary area By default, a customer location imported from a Shopify store is assigned the Active status. 
 
@@ -25786,31 +26532,31 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  Phone 1 General tab > Additional Location Info section 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 603 
-
- Source Fields (Shopify) Target Fields (Acumatica ERP) 
-
- Field Name Page Object Field Name Form Object Notes 
-
- Phone number Customer page > Customer section 
+**Phone number** Customer page > **Customer** section 
 
  Phone 2 General tab > Additional Location Info section 
 
- Address Customer page > Default address section 
+**Address** Customer page > **Default address** section 
 
  Address Line 1 General tab > Location Address section 
 
- Apartment, suite, etc. 
+**Apartment, suite, etc.** 
 
  Customer page > Default address section 
 
  Address Line 2 General tab > Location Address section 
 
- City Customer page > Default address section 
+**City** Customer page > **Default address** section 
 
  City General tab > Location Address section 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 620 
+
+ Source Fields (Shopify) Target Fields (Acumatica ERP) 
+
+ Field Name Page Object Field Name Form Object Notes 
 
  Country/Region Customer page > Default address section 
 
@@ -25840,10 +26586,6 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  A stock item is skipped if it is a matrix item—that is, if a template is specified for the item in the Template ID box on the General tab of the Stock Items (IN202500) form. Matrix items are synchronized as part of the synchronization of template items. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 604 
-
 #### Merging of Duplicates 
 
  During the export of stock items from Acumatica ERP, a stock item is merged with an existing product in BigCommerce if its ID in Acumatica ERP—that is, the value in the Inventory ID box on the Stock Items form— matches the SKU of the product in Shopify. 
@@ -25860,53 +26602,61 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  Stock Items (IN202500) form 
 
- id Visible in the URL of the product page (admin.shopify.com/store/ <store name>/products/<id>) 
-
- Product ID is generated by Shopify. 
-
- Description Summary area Title Product page 
-
- Item Class General tab, Item Defaults section 
-
- Type Product page, Product organization section 
-
- Description Description tab Description Product page Images contained in the description in Acumatica ERP are not exported. 
-
- Vendor ID Vendors tab Vendor Product page, Product organization section 
-
- The vendor for which the Default check box is selected on the Vendors tab is exported. 
-
- Search Keywords eCommerce tab Tags Product page, Product organization section 
-
- Category ID Attributes tab, Sales Categories table 
-
- Tags Product page, Product organization section 
-
- Sales categories are exported to tags only if on the Shopify Stores (BC201010) form, the Sales Category Export box is set to Export as Product Tags. 
-
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 605 
+ Retail Edition Entity Reference | 621 
 
 **Source Fields (Acumatica ERP) Target Fields (Shopify)** 
 
 **Field Name Form Object Field Name Page Object Notes** 
 
-**Visibility** : _Visible_ **eCommerce** tab Product page, **Status** section 
+ id Visible in the URL of the product page (admin.shopify.com/store/ <store name>/products/<id>) 
 
- The status is set to Active and the Online Store sales channel is selected. 
+ Product ID is generated by Shopify. 
 
-**Visibility** : _Featured_ **eCommerce** tab Product page, **Status** section 
+**Description** Summary area **Title** Product page 
 
- The status is set to Active and the Online Store sales channel is selected. 
+**Item Class General** tab, **Item Defaults** section 
 
-**Visibility** : _Invisible_ **eCommerce** tab Product page, **Status** section 
+ Type Product page, Product organization section 
 
- The status is set to Dra. 
+**Description Description** tab **Description** Product page Images contained in the description in Acumatica ERP are not exported. 
+
+**Vendor ID Vendors** tab **Vendor** Product page, **Product organization** section 
+
+ The vendor for which the Default check box is selected on the Vendors tab is exported. 
+
+**Search Keywords eCommerce** tab **Tags** Product page, **Product organization** section 
+
+**Category ID Attributes** tab, **Sales Categories** table 
+
+ Tags Product page, Product organization section 
+
+ Sales categories are exported to tags only if on the Shopify Stores (BC201010) form, the Sales Category Export box is set to Export as Product Tags. 
+
+**Visibility** : _Visible_ **eCommerce** tab Product page, **Publishing** section 
+
+ The Online Store sales channel is selected. 
+
+**Visibility** : _Featured_ **eCommerce** tab Product page, **Publishing** section 
+
+ The Online Store sales channel is selected. 
+
+**Visibility** : _Invisible_ **eCommerce** tab Product page, **Publishing** section 
+
+ No sales channel is selected. 
 
  Summary area SKU (Stock Keeping Unit) 
 
  Product page, Inventory section 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 622 
+
+**Source Fields (Acumatica ERP) Target Fields (Shopify)** 
+
+**Field Name Form Object Field Name Page Object Notes** 
 
 **Weight Packaging** tab, **Dimensions** section 
 
@@ -25922,21 +26672,15 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  If the Multiple Base Currencies feature is enabled on the Enable/Disable Features (CS100000) form, the system exports the default price defined in the currency of the branch selected on the Orders tab of the Shopify Stores form. 
 
-**Tax Category General** tab, **Item Defaults** section 
-
  Charge tax on this product 
 
+ The check box is selected if the tax code is assigned during the export. 
+
+**Tax Category General** tab, **Item Defaults** section 
+
+ Tax code 
+
  Product page, Pricing section 
-
- The check box is selected if Tax Category is set to Taxable ; the check box is cleared if Tax Category is set to Exempt. 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 606 
-
-**Source Fields (Acumatica ERP) Target Fields (Shopify)** 
-
-**Field Name Form Object Field Name Page Object Notes** 
 
 **MSRP Price/Cost** tab, **Price Management** section 
 
@@ -25944,7 +26688,15 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  If the Multiple Base Currencies feature is enabled on the Enable/Disable Features (CS100000) form, the system exports the MSRP defined in the currency of the branch selected on the Orders tab of the Shopify Stores form. 
 
-**Alternate Type** : _GTIN/EAN/UPC/ISBN_ or _Barcode_ 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 623 
+
+ Source Fields (Acumatica ERP) Target Fields (Shopify) 
+
+ Field Name Form Object Field Name Page Object Notes 
+
+ Alternate Type : GTIN/EAN/UPC/ISBN or Barcode 
 
  Cross-Reference tab 
 
@@ -25962,19 +26714,15 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  If no match is found, the system continues the search for the matching crossreference of the Barcode type in the same order. 
 
-**Stock Item General** tab, **General Settings** settings 
+ Stock Item General tab, General Settings settings 
 
  This is a physical product : Selected 
 
  Product page, Shipping section 
 
-**Page Title eCommerce** tab **Page title** Product page, **Search engine listing** section 
+ Page Title eCommerce tab Page title Product page, Search engine listing section 
 
-**Meta Description eCommerce** tab **Meta description** Product page, **Search engine listing** section 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 607 
+ Meta Description eCommerce tab Meta description Product page, Search engine listing section 
 
 **_Table: Product Availability Export Mapping_** 
 
@@ -26002,9 +26750,17 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  Product page, Inventory section 
 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 624 
+
+**Source Fields (Acumatica ERP) Target Fields (Shopify)** 
+
+**Field Name Form Object Field Name Page Object** 
+
  Track quantity : Cleared Product page, Inventory section 
 
- Availability : Set as Unavailable 
+**Availability** : _Set as Unavailable_ 
 
  eCommerce tab 
 
@@ -26012,21 +26768,21 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  Product page, Publishing section 
 
- Availability : Store Default eCommerce tab See the following rows of the table. 
+**Availability** : _Store Default_ **eCommerce** tab See the following rows of the table. 
 
- The following settings are applied if Availability on the eCommerce tab of the Stock Items form is set to Store Default. 
+The following settings are applied if **Availability** on the **eCommerce** tab of the _Stock Items_ form is set to _Store Default_. 
 
- Shopify Stores form, Inventory tab 
+_Shopify Stores_ form, **Inventory** tab 
 
- Default Availability : Set as Available (Track Qty.) 
+**Default Availability** : _Set as Available (Track Qty.)_ 
 
  Inventory tab Track quantity : Selected Product page, Inventory section 
 
- Default Availability : Set as Available (Don't Track Qty.) 
+**Default Availability** : _Set as Available (Don't Track Qty.)_ 
 
  Inventory tab Track quantity : Cleared Product page, Inventory section 
 
- Default Availability : Do Not Update 
+**Default Availability** : _Do Not Update_ 
 
  Inventory tab Track quantity : No changes 
 
@@ -26034,7 +26790,7 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  Track quantity : Cleared Product page, Inventory section 
 
- Default Availability : Set as Unavailable 
+**Default Availability** : _Set as Unavailable_ 
 
  Inventory tab 
 
@@ -26042,19 +26798,11 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  Product page, Publishing section 
 
- The following settings are applied if Availability is set to Set as Available (Track Qty.) on the eCommerce tab of the Stock Items form and the item quantity becomes 0. 
+The following settings are applied if **Availability** is set to _Set as Available (Track Qty.)_ on the **eCommerce** tab of the _Stock Items_ form and the item quantity becomes 0. 
 
- Stock Items form, eCommerce tab 
+_Stock Items_ form, **eCommerce** tab 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 608 
-
- Source Fields (Acumatica ERP) Target Fields (Shopify) 
-
- Field Name Form Object Field Name Page Object 
-
- When Qty. Unavailable : Do Nothing 
+**When Qty. Unavailable** : _Do Nothing_ 
 
  eCommerce tab Continue selling when out of stock : No changes 
 
@@ -26064,7 +26812,7 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  Product page, Inventory section 
 
- When Qty. Unavailable : Set as Unavailable 
+**When Qty. Unavailable** : _Set as Unavailable_ 
 
  eCommerce tab 
 
@@ -26072,13 +26820,21 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  Product page, Publishing section 
 
- When Qty. Unavailable : Set as Pre-Order/Continue Selling 
+**When Qty. Unavailable** : _Set as Pre-Order/Continue Selling_ 
 
  eCommerce tab Continue selling when out of stock : Selected 
 
  Product page, Inventory section 
 
- The following settings are applied if When Qty. Unavailable is set to Store Default on the eCommerce tab of the Stock Items form and the item quantity becomes 0. 
+The following settings are applied if **When Qty. Unavailable** is set to _Store Default_ on the **eCommerce** tab of the _Stock Items_ form and the item quantity becomes 0. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 625 
+
+ Source Fields (Acumatica ERP) Target Fields (Shopify) 
+
+ Field Name Form Object Field Name Page Object 
 
  Shopify Stores form, Inventory tab 
 
@@ -26112,10 +26868,6 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  During the export of non-stock items from Acumatica ERP, a non-stock item is merged with an existing product in Shopify if its ID in Acumatica ERP—that is, the value in the Inventory ID box on the Non-Stock Items form—matches the SKU of the product in Shopify. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 609 
-
 #### Non-Stock Item Export Mapping 
 
  The following table shows the mapping of Acumatica ERP fields to Shopify fields that is used during the export of non-stock items to Shopify. 
@@ -26132,63 +26884,71 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  Product ID is generated by Shopify. 
 
- Description Summary area Title Product page 
-
- Item Class General tab, Item Defaults section 
-
- Type Product page, Product organization section 
-
- Description Description tab Description Product page Images contained in the description in Acumatica ERP are not exported. 
-
- Require Shipment : Cleared 
-
- General tab This is a physical product : Cleared 
-
- Product page, Shipping section 
-
- Require Shipment : Selected 
-
- General tab This is a physical product : Selected 
-
- Product page, Shipping section 
-
- Vendor ID Vendors tab Vendor Product page, Product organization section 
-
- The vendor for which the Default check box is selected on the Vendors tab is exported. 
-
- Search Keywords eCommerce tab Tags Product page, Product organization section 
-
- Category ID Attributes tab, Sales Categories table 
-
- Tags Product page, Product organization section 
-
- Sales categories are exported to tags only if on the Shopify Stores (BC201010) form, the Sales Category Export box is set to Export as Product Tags. 
-
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 610 
+ Retail Edition Entity Reference | 626 
 
 **Source Fields (Acumatica ERP) Target Fields (Shopify)** 
 
 **Field Name Form Object Field Name Page Object Notes** 
 
-**Visibility** : _Visible_ **eCommerce** tab Product page, **Status** section 
+**Description** Summary area **Title** Product page 
 
- The status is set to Active and the Online Store sales channel is selected. 
+**Item Class General** tab, **Item Defaults** section 
 
-**Visibility** : _Featured_ **eCommerce** tab Product page, **Status** section 
+ Type Product page, Product organization section 
 
- The status is set to Active and the Online Store sales channel is selected. 
+**Description Description** tab **Description** Product page Images contained in the description in Acumatica ERP are not exported. 
 
-**Visibility** : _Invisible_ **eCommerce** tab Product page, **Status** section 
+**Require Shipment** : Cleared 
 
- The status is set to Dra. 
+ General tab This is a physical product : Cleared 
+
+ Product page, Shipping section 
+
+**Require Shipment** : Selected 
+
+ General tab This is a physical product : Selected 
+
+ Product page, Shipping section 
+
+**Vendor ID Vendors** tab **Vendor** Product page, **Product organization** section 
+
+ The vendor for which the Default check box is selected on the Vendors tab is exported. 
+
+**Search Keywords eCommerce** tab **Tags** Product page, **Product organization** section 
+
+**Category ID Attributes** tab, **Sales Categories** table 
+
+ Tags Product page, Product organization section 
+
+ Sales categories are exported to tags only if on the Shopify Stores (BC201010) form, the Sales Category Export box is set to Export as Product Tags. 
+
+**Visibility** : _Visible_ **eCommerce** tab Product page, **Publishing** section 
+
+ The Online Store sales channel is selected. 
+
+**Visibility** : _Featured_ **eCommerce** tab Product page, **Publishing** section 
+
+ The Online Store sales channel is selected. 
+
+**Visibility** : _Invisible_ **eCommerce** tab Product page, **Publishing** section 
+
+ No sales channel is selected. 
 
 **Availability** : _Set as Available (Don't Track Qty.)_ 
 
  eCommerce tab Track quantity : Cleared 
 
  Product page, Inventory section 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 627 
+
+**Source Fields (Acumatica ERP) Target Fields (Shopify)** 
+
+**Field Name Form Object Field Name Page Object Notes** 
 
 **Availability** : _Set as Pre-Order_ 
 
@@ -26224,21 +26984,15 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  If the Multiple Base Currencies feature is enabled on the Enable/Disable Features (CS100000) form, the system exports the default price defined in the currency of the branch selected on the Orders tab of the Shopify Stores form. 
 
+ Charge tax on this product 
 
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 611 
-
-**Source Fields (Acumatica ERP) Target Fields (Shopify)** 
-
-**Field Name Form Object Field Name Page Object Notes** 
+ The check box is selected if the tax code is assigned during the export. 
 
 **Tax Category General** tab, **Item Defaults** section 
 
- Charge tax on this product 
+ Tax code 
 
  Product page, Pricing section 
-
- The check box is selected if Tax Category is set to Taxable ; the check box is cleared if Tax Category is set to Exempt. 
 
 **MSRP Price/Cost** tab, **Price Management** section 
 
@@ -26250,7 +27004,15 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  Product page, Media section 
 
-**Alternate Type** : _GTIN/EAN/UPC/ISBN_ or _Barcode_ 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 628 
+
+ Source Fields (Acumatica ERP) Target Fields (Shopify) 
+
+ Field Name Form Object Field Name Page Object Notes 
+
+ Alternate Type : GTIN/EAN/UPC/ISBN or Barcode 
 
  Cross-Reference tab 
 
@@ -26267,10 +27029,6 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 3. With no UOM (or     any other UOM) 
 
  If no match is found, the system continues the search for the matching crossreference of the Barcode type in the same order. 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 612 
 
 ### Template Item Entity 
 
@@ -26292,6 +27050,14 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  Template Items (IN203000) form 
 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 629 
+
+ Source Fields (Acumatica ERP) Target Fields (Shopify) 
+
+ Field Name Form Object Field Name Page Object Notes 
+
  Product ID Visible in the URL of the product page (admin.shopify.com/store/ <store name>/products/<id>) 
 
  Product ID is generated by Shopify. 
@@ -26310,33 +27076,29 @@ Customer ID Visible in the page URL (admin.shopify.com/store/ <store URL>/custom
 
  Search Keywords eCommerce tab Tags Product page, Product organization section 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 613 
-
- Source Fields (Acumatica ERP) Target Fields (Shopify) 
-
- Field Name Form Object Field Name Page Object Notes 
-
  Category ID Fulfillment tab, Sales Categories table 
 
  Tags Products page, Product organization section 
 
  Sales categories are exported to tags only if on the Shopify Stores (BC201010) form, the Sales Category Export box is set to Export as Product Tags. 
 
- Visibility : Visible eCommerce tab Product page, Product status section 
+ Visibility : Visible eCommerce tab Product page, Publishing section 
 
- The status is set to Active and the Online Store sales channel is selected. 
+ The Online Store sales channel is selected. 
 
- Visibility : Featured eCommerce tab Product page, Product status section 
+ Visibility : Featured eCommerce tab Product page, Publishing section 
 
- The status is set to Active and the Online Store sales channel is selected. 
+ The Online Store sales channel is selected. 
 
- Visibility : Invisible eCommerce tab Product page, Product status section 
+ Visibility : Invisible eCommerce tab Product page, Publishing section 
 
- The status is set to Dra. 
+ No sales channel is selected. 
 
 The following table includes the mapping of Acumatica ERP fields to Shopify fields that is used during the export of matrix items to Shopify as part of the synchronization of the _Template Item_ entity. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 630 
 
 **_Table: Matrix Item Export Mapping_** 
 
@@ -26358,27 +27120,29 @@ The following table includes the mapping of Acumatica ERP fields to Shopify fiel
 
  Attribute Value Item Creation tab Product variant page, Options section 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 614 
-
-**Source Fields (Acumatica ERP) Target Fields (Shopify)** 
-
-**Field Name Form Object Field Name Page Object Notes** 
-
-**Default Price Price/Cost** tab, **Price Management** section 
+ Default Price Price/Cost tab, Price Management section 
 
  Price Product variant page, Pricing section 
 
  If the Multiple Base Currencies feature is enabled on the Enable/Disable Features (CS100000) form, the system exports the default price defined in the currency of the branch selected on the Orders tab of the Shopify Stores form. 
 
-**Tax Category General** tab, **Item Defaults** section 
-
  Charge tax on this variant 
+
+ The check box is selected if the tax code is assigned during the export. 
+
+ Tax Category General tab, Item Defaults section 
+
+ Tax code 
 
  Product variant page, Pricing section 
 
- The check box is selected if Tax Category is set to Taxable ; the check box is cleared if Tax Category is set to Exempt. 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 631 
+
+**Source Fields (Acumatica ERP) Target Fields (Shopify)** 
+
+**Field Name Form Object Field Name Page Object Notes** 
 
 **MSRP Price/Cost** tab, **Price Management** section 
 
@@ -26401,14 +27165,6 @@ The following table includes the mapping of Acumatica ERP fields to Shopify fiel
  eCommerce tab Track quantity : Cleared 
 
  Product variant page, Inventory section 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 615 
-
-**Source Fields (Acumatica ERP) Target Fields (Shopify)** 
-
-**Field Name Form Object Field Name Page Object Notes** 
 
 **Availability** : _Set as Pre-Order_ 
 
@@ -26434,6 +27190,14 @@ The following table includes the mapping of Acumatica ERP fields to Shopify fiel
 
  Product page, Publishing section 
 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 632 
+
+**Source Fields (Acumatica ERP) Target Fields (Shopify)** 
+
+**Field Name Form Object Field Name Page Object Notes** 
+
 **When Qty. Unavailable** : _Do Nothing_ 
 
  eCommerce tab Continue selling when out of stock 
@@ -26454,14 +27218,6 @@ The following table includes the mapping of Acumatica ERP fields to Shopify fiel
 
  If Available in the Quantity subsection becomes zero, the Continue selling when out of stock check box is cleared. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 616 
-
-**Source Fields (Acumatica ERP) Target Fields (Shopify)** 
-
-**Field Name Form Object Field Name Page Object Notes** 
-
 **When Qty. Unavailable** : _Set as Pre-Order/Continue Selling_ 
 
  eCommerce tab Continue selling when out of stock 
@@ -26480,25 +27236,25 @@ _Stock Items_ form (if the matrix item is a stock item) or _Non-Stock Items_ for
 
  Product variant page, Inventory section 
 
-**Weight Packaging** tab, **Dimensions** section 
-
- Weight Product variant page, Shipping section, Weight subsection 
-
- Only for matrix items that are stock items. 
-
-**Weight UOM Packaging** tab, **Dimensions** section 
-
- Weight Product variant page, Shipping section, Weight subsection 
-
- Only for matrix items that are stock items. 
-
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 617 
+ Retail Edition Entity Reference | 633 
 
  Source Fields (Acumatica ERP) Target Fields (Shopify) 
 
  Field Name Form Object Field Name Page Object Notes 
+
+ Weight Packaging tab, Dimensions section 
+
+ Weight Product variant page, Shipping section, Weight subsection 
+
+ Only for matrix items that are stock items. 
+
+ Weight UOM Packaging tab, Dimensions section 
+
+ Weight Product variant page, Shipping section, Weight subsection 
+
+ Only for matrix items that are stock items. 
 
  Alternate Type : GTIN/EAN/UPC/ISBN or Barcode 
 
@@ -26526,17 +27282,17 @@ _Stock Items_ form (if the matrix item is a stock item) or _Non-Stock Items_ for
 
  An item's available quantity is exported to the Shopify store in the item's sales unit of measure, which is defined on the General tab of the Stock Items (IN202500) form. If an item's base UOM is different from its sales UOM, during the synchronization of the Product Availability entity, the item's available quantity is converted to the sales UOM before being exported to the Shopify store, 
 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 634 
+
  To avoid discrepancies in sales orders imported into Acumatica ERP, we recommend that before changing an item's sales UOM you make sure that there are no unsynchronized sales orders that contain the item. Also, you should synchronize the item's available quantity immediately aer changing its sales UOM so that new orders for the item are created in the Shopify store with the updated UOM. 
 
 #### Product Availability Export Mapping 
 
  The following table shows the mapping of Acumatica ERP fields to Shopify fields that is used during the export of availability data of stock items to Shopify. 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 618 
-
-**_Table: Available Quantities of Stock Items_** 
+ Table: Available Quantities of Stock Items 
 
  Source Fields (Acumatica ERP) Target Fields (Shopify) 
 
@@ -26556,7 +27312,7 @@ _Stock Items_ form (if the matrix item is a stock item) or _Non-Stock Items_ for
 
  Available Product page, Inventory section 
 
-**_Table: Availability Settings for Stock Items_** 
+ Table: Availability Settings for Stock Items 
 
  Source Fields (Acumatica ERP) Target Fields (Shopify) 
 
@@ -26588,6 +27344,14 @@ _Stock Items_ form (if the matrix item is a stock item) or _Non-Stock Items_ for
 
  eCommerce tab See the following rows of the table. 
 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 635 
+
+ Source Fields (Acumatica ERP) Target Fields (Shopify) 
+
+ Field Name Form Object Field Name Page Object Notes 
+
  The following settings are applied if When Qty. Unavailable is set to Store Default on the eCommerce tab of the Stock Items form and the item quantity becomes 0. 
 
  Shopify Stores (BC201010) form, Inventory tab 
@@ -26599,14 +27363,6 @@ _Stock Items_ form (if the matrix item is a stock item) or _Non-Stock Items_ for
  Continue selling when out of stock : Unchanged 
 
  Product page, Inventory section 
-
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 619 
-
- Source Fields (Acumatica ERP) Target Fields (Shopify) 
-
- Field Name Form Object Field Name Page Object Notes 
 
  When Qty. Unavailable : Set as Unavailable 
 
@@ -26646,7 +27402,11 @@ _Stock Items_ form (if the matrix item is a stock item) or _Non-Stock Items_ for
 
  The following table shows the mapping of Shopify fields to Acumatica ERP fields that is used during the import of sales order data from Shopify. 
 
- Table: Sales Order Import Mapping 
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 636 
+
+**_Table: Sales Order Import Mapping_** 
 
  Source Fields (Shopify) Target Fields (Acumatica ERP) 
 
@@ -26654,53 +27414,45 @@ _Stock Items_ form (if the matrix item is a stock item) or _Non-Stock Items_ for
 
  Sales Orders (SO301000) form 
 
-
-<!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 620 
-
-**Source Fields (Shopify) Target Fields (Acumatica ERP)** 
-
-**Field Name Page Object Field Name Form Object Notes** 
-
  Order Type Summary area The order type is specified in the Order section on the Orders tab of the Shopify Stores (BC201010) form. 
 
  Description Summary area Default: <store name> | Order: <order number> | Status: <payment status> 
 
-created_at Order page > order summary 
+ created_at Order page > order summary 
 
  Requested On Summary area This date is the same as the date shown in the Date box in the Summary area. 
 
  Status Summary area Default: Open 
 
-**Order Summary Information** 
+ Order Summary Information 
 
-**Email** Order page > **Contact information** section 
+ Email Order page > Contact information section 
 
  Email Addresses tab > Bill-To Contact section 
 
-**Notes** Order page > **Notes** section 
+ Notes Order page > Notes section 
 
  Notes Form toolbar 
 
-total_weight Not in the UI **Order Weight Totals** tab > **Freight Info** section 
+ total_weight Not in the UI Order Weight Totals tab > Freight Info section 
 
-currency **Currency** Summary area This is the currency of the transaction. 
+ currency Currency Summary area The currency of the transaction. 
 
-total_discounts Order page > total of discount amounts 
+ total_discounts Order page > total of discount amounts 
 
  Discount Total Summary area Applies if on the Orders tab ( Order section) of the Shopify Stores (BC201010) form, the Show Discounts As box is set to Document Discounts. 
 
-order_number Order page > order summary 
-
- External Reference Summary area The External Reference contains the order number and the store name. 
-
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 621 
+ Retail Edition Entity Reference | 637 
 
 **Source Fields (Shopify) Target Fields (Acumatica ERP)** 
 
 **Field Name Page Object Field Name Form Object Notes** 
+
+order_number Order page > order summary 
+
+ External Reference Summary area The External Reference contains the order number and the store name. 
 
 po_number Order page > order summary 
 
@@ -26756,17 +27508,17 @@ address2 Order page > **Billing Address** section
 
  Address Line 2 Addresses tab > Bill-To Address section 
 
-city Order page > **Billing Address** section 
-
- City Addresses tab > Bill-To Address section 
-
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 622 
+ Retail Edition Entity Reference | 638 
 
 **Source Fields (Shopify) Target Fields (Acumatica ERP)** 
 
 **Field Name Page Object Field Name Form Object Notes** 
+
+city Order page > **Billing Address** section 
+
+ City Addresses tab > Bill-To Address section 
 
 zip Order page > **Billing Address** section 
 
@@ -26816,19 +27568,19 @@ phone Order page > **Shipping Address** section
 
  Phone 1 Addresses tab > Ship-To Contact section 
 
-country_code Order page > **Shipping Address** section 
-
- Country Addresses tab > Ship-To Contact section 
-
- The country code is transformed to the country name. 
-
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 623 
+ Retail Edition Entity Reference | 639 
 
  Source Fields (Shopify) Target Fields (Acumatica ERP) 
 
  Field Name Page Object Field Name Form Object Notes 
+
+ country_code Order page > Shipping Address section 
+
+ Country Addresses tab > Ship-To Contact section 
+
+ The country code is transformed to the country name. 
 
  province_code Order page > Shipping Address section 
 
@@ -26872,7 +27624,7 @@ country_code Order page > **Shipping Address** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 624 
+ Retail Edition Entity Reference | 640 
 
 **_Table: Sales Order Export Mapping_** 
 
@@ -26920,7 +27672,7 @@ country_code Order page > **Shipping Address** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 625 
+ Retail Edition Entity Reference | 641 
 
 **Source Fields (Acumatica ERP) Target Fields (Shopify)** 
 
@@ -26980,7 +27732,7 @@ country_code Order page > **Shipping Address** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 626 
+ Retail Edition Entity Reference | 642 
 
 **Source Fields (Acumatica ERP) Target Fields (Shopify)** 
 
@@ -27044,7 +27796,7 @@ country_code Order page > **Shipping Address** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 627 
+ Retail Edition Entity Reference | 643 
 
  Source Fields (Acumatica ERP) Target Fields (Shopify) 
 
@@ -27094,11 +27846,11 @@ country_code Order page > **Shipping Address** section
 
  Shipped Qty. Summary area quantity 
 
- Sales Orders form 
+ Sales Orders (SO301000) form 
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 628 
+ Retail Edition Entity Reference | 644 
 
  Source Fields (Acumatica ERP) Target Fields (Shopify) 
 
@@ -27142,7 +27894,7 @@ country_code Order page > **Shipping Address** section
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 629 
+ Retail Edition Entity Reference | 645 
 
 **Source Fields (Shopify) Target Fields (Acumatica ERP)** 
 
@@ -27168,7 +27920,7 @@ gateway **Payment Method** Summary area The payment method that is mapped to the
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 630 
+ Retail Edition Entity Reference | 646 
 
 **Source Fields (Shopify) Target Fields (Acumatica ERP)** 
 
@@ -27188,19 +27940,867 @@ transaction_id **Proc. Center Tran. Nbr. Card Processing** tab The number of the
 
 
 <!-- PAGE_BREAK -->
- Retail Edition Entity Reference | 631 
+ Retail Edition Entity Reference | 647 
 
-**Source Fields (Shopify) Target Fields (Acumatica ERP)** 
+ Source Fields (Shopify) Target Fields (Acumatica ERP) 
 
-**Field Name Field Name Form Object Notes** 
+ Field Name Field Name Form Object Notes 
 
  PC Response Reason Card Processing tab This column is set to Imported External Transaction to indicate that the transaction was imported from an external system. 
 
-created_at (for the order) **Tran. Time Card Processing** tab The time when the transaction operation was performed. 
+ created_at (for the order) Tran. Time Card Processing tab The time when the transaction operation was performed. 
+
+### Shopify GraphQL Mapping 
+
+ Shopify is deprecating the REST API for apps and integrations and switching to GraphQL. The corresponding changes have been implemented in the ecommerce connector. 
+
+ In this chapter, you will find topics that show the changes to the field mapping that take place because of the migration from REST API to GraphQL. Some fields that were available through the REST API are not available in GraphQL. Because of this, aer the upgrade to 2025 R2, we recommend to review your mappings on the Entities (BC202000) form. 
+
+### Customer Entity 
+
+ This topic outlines the changes to the field mapping used for the Customer entity in Acumatica ERP. These changes reflect the platform's switch from the REST API to GraphQL for enhanced Shopify integration. 
+
+ In the Fields Unavailable in GraphQL section, you'll find a list of all the fields used for entity mapping that are not available in GraphQL but were available in the REST API. 
+
+#### Customer Mapping 
+
+ In the Shopify_GraphQL_Customer.xlsx file, you can find the mapping of Acumatica ERP fields on the Customers (AR303000) form to Shopify default and custom fields. The system uses this mapping during the export, import, and bidirectional sync of the customer data to Shopify. 
+
+ Particularly, you can see how each Acumatica ERP field was previously mapped to Shopify fields through the REST API, and how it's now mapped using GraphQL. 
+
+#### Fields Unavailable in GraphQL 
+
+ The following table lists the fields that were: 
+
+- Used for the export and import mapping and import filtering of the _Customer_ entity on the _Entities_     (BC202000) form 
+
+- Supported by the Shopify connector with the REST API, but not with GraphQL 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 632 
+ Retail Edition Entity Reference | 648 
+
+ Tab on the Entities Form 
+
+ External Object External Field REST API Object REST API Field 
+
+ Export Mapping Customer State Customer state 
+
+ Import Mapping , Import Filtering 
+
+ Customer Currency Customer currency 
+
+ Export Mapping , Import Mapping 
+
+ Customer -> Customer Address 
+
+ Normalized Country Name 
+
+ CustomerAddress 
+
+ country_name 
+
+### Customer Location Entity 
+
+ This topic provides the changes to the field mapping used for the Customer Location entity in Acumatica ERP. These changes reflect Acumatica ERP's adoption of GraphQL to align with Shopify's shi away from the REST API. 
+
+ The Fields Unavailable in GraphQL section lists all the fields used for entity mapping that are not available in GraphQL but were available in the REST API. 
+
+#### Customer Location Mapping 
+
+ In the Shopify_GraphQL_Customer_Location.xlsx file, you can find the mapping of Acumatica ERP fields on the Customer Locations (AR303020) form to Shopify default and custom fields. The system uses this mapping during the export, import, and bidirectional sync of the customer location data to Shopify. 
+
+ Particularly, you can see how each Acumatica ERP field was previously mapped to Shopify fields through the REST API, and how it's now mapped using GraphQL. 
+
+#### Fields Unavailable in GraphQL 
+
+ The following table lists the fields that were: 
+
+- Used for the export and import mapping and filtering of the _Customer Location_ entity on the _Entities_     (BC202000) form 
+
+- Supported by the Shopify connector with the REST API, but not with GraphQL 
+
+ Tab on the Entities Form 
+
+ External Object External Field REST API Object REST API Field 
+
+ Export Mapping Customer Address Data 
+
+ Province CustomerAddress 
+
+ province 
+
+ Export Mapping Customer Address Data 
+
+ Country CustomerAddress 
+
+ country 
+
+ Export Mapping , Import Mapping , Import Filtering 
+
+ Customer Address Data 
+
+ Normalized Country Name 
+
+ CustomerAddress 
+
+ country_name 
+
+ Import Mapping , Import Filtering 
+
+ Customer Address Data 
+
+ Customer ID CustomerAddress 
+
+ customer_id 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 649 
+
+### Product-Related Entities 
+
+ Acumatica ERP now uses GraphQL instead of the REST API to communicate with Shopify. This has resulted in changes to the field mapping used for product-related entities in Acumatica ERP. The synchronization of products involves the following entities: 
+
+- _Stock Item_ 
+
+- _Non-Stock Item_ 
+
+- _Template Item_ 
+
+- _Product Availability_ 
+
+- _Product Image_ In the _Fields Unavailable in GraphQL_ section, you'll find a list of the fields used for entity mapping that are not available in GraphQL but were available in the REST API. 
+
+#### Stock Item, Non-Stock Item, and Template Item Mapping 
+
+ In the Shopify_GraphQL_Product.xlsx file, you can find the mapping of Acumatica ERP fields on the following forms to Shopify default and custom fields: 
+
+- _Stock Items_ (IN202500) 
+
+- _Non-Stock Items_ (IN202000) 
+
+- _Template Items_ (IN203000) The system uses this mapping during the export, import, and bidirectional sync of the product data to Shopify. The file shows how each Acumatica ERP field was previously mapped to Shopify fields through the REST API, and how it's now mapped using GraphQL. 
+
+#### Product Availability Mapping 
+
+ In the Shopify_GraphQL_Droduct_Availability.xlsx file, you can find the mapping of Acumatica ERP fields on the following forms to Shopify default and custom fields. 
+
+- _Stock Items_ (IN202500) 
+
+- _Non-Stock Items_ (IN202000) 
+
+- _Template Items_ (IN203000) The system uses this mapping during the export of the product availability data to Shopify. In the file, you can see how each Acumatica ERP field was previously mapped to Shopify fields through the REST API, and how it's now mapped using GraphQL. 
+
+#### Fields Unavailable in GraphQL 
+
+ The following table lists the fields that were: 
+
+- Used for the export and import mapping and import filtering of the _Stock Item_ , _Non-Stock Item_ , and     _Template Item_ entities on the _Entities_ (BC202000) form 
+
+- Supported by the Shopify connector with the REST API, but not with GraphQL 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 650 
+
+ Tab on the Entities Form 
+
+ External Object External Field REST API Object REST API Field 
+
+ Import Mapping , Import Filtering 
+
+ ProductData Published Product Published 
+
+ Export Mapping , Import Mapping , Import Filtering 
+
+ ProductData PublishedScope Product PublishedScope 
+
+ Export Mapping , Import Mapping 
+
+ ProductData -> ProductVariants 
+
+ FulfillmentService Product -> Product Variants 
+
+ fulfillment_service 
+
+ Export Mapping , Import Mapping 
+
+ Product -> Product Variants 
+
+ Option 1 
+
+ Option 2 
+
+ Option 3 
+
+ Product options 
+
+ n/a n/a PresentmentPrices Product -> Product Variants 
+
+ presentment_prices 
+
+ The following table lists the fields used for the Product Availability entity that the Shopify connector supported with the REST API but does not support with GraphQL. 
+
+ External Object External Field REST API Object REST API Field 
+
+ n/a RelocateIfNecessary Product -> Product Variants 
+
+ relocate_if_necessary 
+
+ n/a DisconnectIfNecessary Product -> Product Variants 
+
+ disconnect_if_necessary 
+
+ The following table lists the fields used for the Product Image entity that the Shopify connector supported with the REST API but does not support with GraphQL. 
+
+ External Object External Field REST API Object REST API Field 
+
+ n/a DateCreatedAt Product -> Images created_at 
+
+ n/a Position Product -> Images position 
+
+ n/a ProductId Product -> Images product_id 
+
+#### Other Changes 
+
+ The following changes have also been implemented to the Shopify connector due to the shi from the REST API to GraphQL: 
+
+- The values for the product status in GraphQL are _ACTIVE_ , _ARCHIVED_ , and _DRAFT_ ; the values accepted by     the REST API were _active_ , _archived_ , and _dra_. The connector does the conversion to uppercase now when     sending the product status to Shopify with GraphQL. 
+
+- The products are exported to Shopify for all sales channels. 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 651 
+
+- You can export any number of product options to Shopify with GraphQL. The limit was 3 with the REST API. 
+
+- The values for the inventory policy in GraphQL are _DENY_ and _CONTINUE_ ; the values accepted by the REST API     were _deny_ and _continue_. 
+
+- GraphQL doesn't allow sending item weight without the unit of measure (UOM). In the REST API, if the item     weight was sent with no UOM, the default UOM was used on the store side. To bypass this limitation, the     connector now sends the default item UOM when a weight greater than zero is sent with no UOM. 
+
+### Sales Order and Refund Entities 
+
+ This topic highlights the field mapping changes for the Sales Order and Refund entities in Acumatica ERP following Shopify's migration from the REST API to GraphQL. 
+
+ In the Fields Unavailable in GraphQL section, you'll find a table listing all the fields used for entity mapping that are not available in GraphQL but were available in the REST API. 
+
+#### Sales Order and Refund Mapping 
+
+ In the Shopify_GraphQL_SalesOrder.xlsx file, you can find the mapping of Acumatica ERP fields on the Sales Orders (SO301000) form to Shopify default and custom fields. The system uses this mapping during the export, import, and bidirectional sync of the sales order and refund data to Shopify. 
+
+ Particularly, you can see how each Acumatica ERP field was previously mapped to Shopify fields through the REST API, and how it's now mapped now using GraphQL. 
+
+#### Fields Unavailable in GraphQL 
+
+ The following table lists the fields that were: 
+
+- Used for the export and import mapping and import filtering of the _Sales Order_ entity on the _Entities_     (BC202000) form 
+
+- Supported by the Shopify connector with the REST API, but not with GraphQL 
+
+ Tab on the Entities Form 
+
+ External Object External Field REST API Field 
+
+ Export Mapping Order Data Currency OrderData -> Customer.Currency 
+
+ Import Filtering n/a Current Total Discounts 
+
+ OrderData.LandingSite 
+
+ Import Mapping , Import Filtering 
+
+ Order Data Landing Site OrderData.LandingSite 
+
+ Import Mapping , Import Filtering 
+
+ Order Data Order Number OrderData.OrderNumber 
+
+ Import Mapping , Export Mapping , Import Filtering 
+
+ Order Data Referring Site OrderData.ReferringSite 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 652 
+
+**Tab on the Entities Form** 
+
+ External Object External Field REST API Field 
+
+**Import Mapping** , **Export Mapping** , **Import Filtering** 
+
+ Order Data Send Receipt OrderData.SendReceipt 
+
+**Import Mapping** , **Export Mapping** , **Import Filtering** 
+
+ Order Data Send Fulfillment Receipt 
+
+ OrderData.SendFulfillmentReceipt 
+
+**Import Mapping** , **Import Filtering** 
+
+ Order Data Token OrderData.Token 
+
+**Import Mapping** , **Export Mapping** , **Import Filtering** 
+
+ Order Data Order Status URL OrderData.OrderStatusURL 
+
+**Import Mapping** n/a n/a OrderData.MerchantRecordAppId 
+
+**Export Mapping** _Order Data -> Billing Address Name_ OrderData -> BillingAddress.Name 
+
+**Export Mapping** _Order Data -> Billing Address Province_ OrderData -> BillingAddress.Province 
+
+**Export Mapping** _Order Data -> Billing Address Country_ OrderData -> BillingAddress.Country 
+
+**Export Mapping** _Order Data -> Billing Address Latitude_ OrderData -> BillingAddress.Latitude 
+
+**Export Mapping** _Order Data -> Billing Address Longitude_ OrderData -> BillingAddress.Longitude 
+
+**Export Mapping** _Order Data -> Shipping Address_ 
+
+ Name OrderData -> ShippingAddress.Name 
+
+**Export Mapping** _Order Data -> Shipping Address_ 
+
+ Province OrderData -> ShippingAddress.Province 
+
+**Export Mapping** _Order Data -> Shipping Address_ 
+
+ Country OrderData -> ShippingAddress.Country 
+
+**Export Mapping** _Order Data -> Shipping Address_ 
+
+ Latitude OrderData -> ShippingAddress.Latitude 
+
+**Export Mapping** _Order Data -> Shipping Address_ 
+
+ Longitude OrderData -> ShippingAddress.Longitude 
+
+**Import Mapping** _Order Data -> Order Risk ID_ OrderData -> OrderRisks.Id 
+
+**Import Mapping** _Order Data -> Order Risk Order ID_ OrderData -> OrderRisks.OrderId 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 653 
+
+**Tab on the Entities Form** 
+
+ External Object External Field REST API Field 
+
+**Import Mapping** _Order Data -> Order Risk Is New Sync_ OrderData -> OrderRisks.IsNewSync 
+
+**Import Mapping** _Order Data -> Line Item Fulfillment Service_ OrderData -> LineItems.FulfillmentService 
+
+**Import Mapping** _Order Data -> Line Item Fulfillment Status_ OrderData -> LineItems.FulfillmentStatus 
+
+**Import Mapping** _Order Data -> Line Item Weight_ OrderData -> LineItems.WeightInGrams 
+
+**Import Mapping** _Order Data -> Line Item Inventory Management_ 
+
+ OrderData -> LineItems.VariantInventoryManagement 
+
+**Import Mapping** _Order Data -> Line Item Tip Payment Gateway_ 
+
+ OrderData -> LineItems.TipPaymentGateway 
+
+**Import Mapping** _Order Data -> Line Item Tip Payment Method_ 
+
+ OrderData -> LineItems.TipPaymentMethod 
+
+**Import Mapping** _Order Data -> Refund Order ID_ OrderData -> Refunds.OrderId 
+
+**Import Mapping** _Order Data -> Refund Date Processed_ OrderData -> Refunds.ProcessedAt 
+
+**Import Mapping** _Order Data -> Refund -> Order Adjustment_ 
+
+ Order Id OrderData -> Refunds -> OrderAdjustments.OrderId 
+
+**Import Mapping** _Order Data -> Refund -> Order Adjustment_ 
+
+ Refund ID OrderData -> Refunds -> OrderAdjustments.RefundId 
+
+**Import Mapping** _Order Data -> Refund -> Order Adjustment_ 
+
+ Kind OrderData -> Refunds -> OrderAdjustments.Kind 
+
+**Import Mapping** _Order Data -> Customer -> Addresses_ 
+
+ Country Name OrderData -> Customer -> Addresses.CountryName 
+
+**Import Mapping** _Order Data -> Customer -> Addresses_ 
+
+ Customer ID OrderData -> Customer -> Addresses.CustomerId 
+
+**Import Mapping** _Order Data -> Customer Currency_ OrderData -> Customer.Currency 
+
+**Import Mapping** _Order Data -> Discount Codes Is New Sync_ OrderData -> DiscountCodes.IsNewSync 
+
+**Import Mapping** _Order Data -> Line Items -> Discount Allocations_ 
+
+ Discount Amount OrderData -> LineItems -> DiscountAllocations.DiscountAmount 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 654 
+
+**Tab on the Entities Form** 
+
+ External Object External Field REST API Field 
+
+**Import Mapping** _Order Data -> Line Items -> Discount Allocations_ 
+
+ Is New Sync OrderData -> LineItems -> DiscountAllocations.IsNewSync 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item -> Discount Allocation_ 
+
+ Processed At OrderData -> Refunds -> RefundLineItems -> OrderLineItem > DiscountAllocations.DiscountAmount 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item -> Discount Allocation_ 
+
+ Presentment Discount Amount 
+
+ OrderData -> Refunds -> RefundLineItems -> OrderLineItem > DiscountAllocations.DiscountAmountPresentment 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item -> Discount Allocation_ 
+
+ Is New Sync OrderData -> Refunds -> RefundLineItems -> OrderLineItem > DiscountAllocations.IsNewSync 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item -> Properties_ 
+
+ Name OrderData -> Refunds -> RefundLineItems -> OrderLineItem -> Properties.Name 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item -> Properties_ 
+
+ Value OrderData -> Refunds -> RefundLineItems -> OrderLineItem -> Properties.Value 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item -> Tax Line_ 
+
+ Is New Sync OrderData -> Refunds -> RefundLineItems -> OrderLineItem -> TaxLines.IsNewSync 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item -> Tax Line_ 
+
+ Tax Line Amount OrderData -> Refunds -> RefundLineItems -> OrderLineItem -> TaxLines.TaxAmount 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item -> Tax Line_ 
+
+ Presentment Tax Amount 
+
+ OrderData -> Refunds -> RefundLineItems -> OrderLineItem -> TaxLines.TaxAmountPresentment 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item -> Tax Line_ 
+
+ Tax Name OrderData -> Refunds -> RefundLineItems -> OrderLineItem -> TaxLines.TaxName 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item -> Tax Line_ 
+
+ Tax Rate OrderData -> Refunds -> RefundLineItems -> OrderLineItem -> TaxLines.TaxRate 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Current Quantity OrderData -> Refunds -> RefundLineItems -> OrderLineItem.CurrentQuantity 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 655 
+
+**Tab on the Entities Form** 
+
+ External Object External Field REST API Field 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Fulfillment Service OrderData -> Refunds -> RefundLineItems -> OrderLineItem.FulfillmentService 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Fulfillment Status OrderData -> Refunds -> RefundLineItems -> OrderLineItem.FulfillmentStatus 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ ID OrderData -> Refunds -> RefundLineItems -> OrderLineItem.Id 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Gi Card OrderData -> Refunds -> RefundLineItems -> OrderLineItem.IsGiftCard 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Is New Sync OrderData -> Refunds -> RefundLineItems -> OrderLineItem.IsNewSync 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Name OrderData -> Refunds -> RefundLineItems -> OrderLineItem.Name 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Price OrderData -> Refunds -> RefundLineItems -> OrderLineItem.Price 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Presentment Price OrderData -> Refunds -> RefundLineItems -> OrderLineItem.PricePresentment 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Product ID OrderData -> Refunds -> RefundLineItems -> OrderLineItem.ProductId 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Quantity OrderData -> Refunds -> RefundLineItems -> OrderLineItem.Quantity 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Requires Shipping OrderData -> Refunds -> RefundLineItems -> OrderLineItem.RequiresShipping 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ SKU OrderData -> Refunds -> RefundLineItems -> OrderLineItem.Sku 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Taxable OrderData -> Refunds -> RefundLineItems -> OrderLineItem.Taxable 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 656 
+
+**Tab on the Entities Form** 
+
+ External Object External Field REST API Field 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Tip Payment Gateway 
+
+ OrderData -> Refunds -> RefundLineItems -> OrderLineItem.TipPaymentGateway 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Tip Payment Method 
+
+ OrderData -> Refunds -> RefundLineItems -> OrderLineItem.TipPaymentMethod 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Title OrderData -> Refunds -> RefundLineItems -> OrderLineItem.Title 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Total Discount OrderData -> Refunds -> RefundLineItems -> OrderLineItem.TotalDiscount 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Presentment Total Discount 
+
+ OrderData -> Refunds -> RefundLineItems -> OrderLineItem.TotalDiscountPresentment 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Variant ID OrderData -> Refunds -> RefundLineItems -> OrderLineItem.VariantId 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Inventory Management 
+
+ OrderData -> Refunds -> RefundLineItems -> OrderLineItem.VariantInventoryManagement 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Variant Title OrderData -> Refunds -> RefundLineItems -> OrderLineItem.VariantTitle 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Vendor OrderData -> Refunds -> RefundLineItems -> OrderLineItem.Vendor 
+
+**Import Mapping** _Order Data -> Refund -> Refund Item -> Line Item_ 
+
+ Weight OrderData -> Refunds -> RefundLineItems -> OrderLineItem.WeightInGrams 
+
+**Import Mapping** _Order Data -> Refund -> Transactions -> Payment Detail_ 
+
+ AVS Result Code OrderData -> Refunds -> Transactions -> PaymentDetail.AvsResultCode 
+
+**Import Mapping** _Order Data -> Refund -> Transactions -> Payment Detail_ 
+
+ Credit Card BIN OrderData -> Refunds -> Transactions -> PaymentDetail.CreditCardBin 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 657 
+
+**Tab on the Entities Form** 
+
+ External Object External Field REST API Field 
+
+**Import Mapping** _Order Data -> Refund -> Transactions -> Payment Detail_ 
+
+ Credit Card Company 
+
+ OrderData -> Refunds -> Transactions -> PaymentDetail.CreditCardCompany 
+
+**Import Mapping** _Order Data -> Refund -> Transactions -> Payment Detail_ 
+
+ Credit Card Expiration Month 
+
+ OrderData -> Refunds -> Transactions -> PaymentDetail.CreditCardExpMonth 
+
+**Import Mapping** _Order Data -> Refund -> Transactions -> Payment Detail_ 
+
+ Credit Card Expiration Year 
+
+ OrderData -> Refunds -> Transactions -> PaymentDetail.CreditCardExpYear 
+
+**Import Mapping** _Order Data -> Refund -> Transactions -> Payment Detail_ 
+
+ Credit Card Name OrderData -> Refunds -> Transactions -> PaymentDetail.CreditCardName 
+
+**Import Mapping** _Order Data -> Refund -> Transactions -> Payment Detail_ 
+
+ Credit Card Number 
+
+ OrderData -> Refunds -> Transactions -> PaymentDetail.CreditCardNumber 
+
+**Import Mapping** _Order Data -> Refund -> Transactions -> Payment Detail_ 
+
+ Credit Card Wallet OrderData -> Refunds -> Transactions -> PaymentDetail.CreditCardWallet 
+
+**Import Mapping** _Order Data -> Refund -> Transactions -> Payment Detail_ 
+
+ CVV Result Code OrderData -> Refunds -> Transactions -> PaymentDetail.CvvResultCode 
+
+**Import Mapping** _Order Data -> Refund -> Transactions -> Payment Detail_ 
+
+ Is New Sync OrderData -> Refunds -> Transactions -> PaymentDetail.IsNewSync 
+
+**Import Mapping** _Order Data -> Refund -> Transactions_ 
+
+ Device ID OrderData -> Refunds -> Transactions.DeviceId 
+
+**Import Mapping** _Order Data -> Refund -> Transactions_ 
+
+ Message OrderData -> Refunds -> Transactions.Message 
+
+**Import Mapping** _Order Data -> Refund -> Transactions_ 
+
+ Receipt OrderData -> Refunds -> Transactions.Receipt 
+
+**Import Mapping** _Order Data -> Shipping Line > Discount Allocation_ 
+
+ Discount Amount OrderData -> ShippingLines > DiscountAllocations.DiscountAmount 
+
+**Import Mapping** _Order Data -> Shipping Line > Discount Allocation_ 
+
+ Is New Sync OrderData -> ShippingLines > DiscountAllocations.IsNewSync 
+
+**Import Mapping** _Order Data -> Orders Transaction -> Payment Detail_ 
+
+ Is New Sync OrderData -> Transactions -> PaymentDetail.IsNewSync 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 658 
+
+ Tab on the Entities Form 
+
+ External Object External Field REST API Field 
+
+ Import Mapping Order Data -> Orders Transaction 
+
+ Device ID OrderData -> Transactions.DeviceId 
+
+ Import Mapping Order Data -> Orders Transaction 
+
+ Message OrderData -> Transactions.Message 
+
+ Import Mapping Order Data -> Orders Transaction 
+
+ Receipt OrderData -> Transactions.Receipt 
+
+ Import Mapping Order Data Items Total OrderData.ItemsTotal 
+
+ Import Mapping Order Data Presentment Items Total 
+
+ OrderData.ItemsTotalPresentment 
+
+### Payment Entity 
+
+ Below you can find information about the changes to the field mapping used for the Payment entity in Acumatica ERP. These changes were introduced as part of Acumatica ERP's alignment with Shopify's migration from the REST API to GraphQL. 
+
+ In the Fields Unavailable in GraphQL section, you'll find a list of all the fields used for entity mapping that are not supported in GraphQL but were available in the REST API. 
+
+#### Payment Mapping 
+
+ In the Shopify_GraphQL_Payment.xlsx file, you can find the mapping of Acumatica ERP fields on the Payments and Applications (AR302000) form to Shopify default and custom fields. The system uses this mapping during the export, import, and bidirectional sync of the payment data to Shopify. 
+
+ Particularly, you can see how each Acumatica ERP field was previously mapped to Shopify fields through the REST API, and how it's now mapped using GraphQL. 
+
+#### Fields Unavailable in GraphQL 
+
+ The following table lists the fields that were: 
+
+- Used for the import mapping and filtering of the _Payment_ entity on the _Entities_ (BC202000) form 
+
+- Supported by the Shopify connector with the REST API, but not with GraphQL 
+
+ Tab on the Entities Form 
+
+ External Object External Field REST API Object REST API Field 
+
+ Import Mapping , Import Filtering 
+
+ Order Transaction Device ID transaction DeviceId 
+
+ Import Mapping Order Transaction Message transaction Message 
+
+ Import Mapping Order Transaction Receipt transaction Receipt 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 659 
+
+### Shipment Entity 
+
+ To support Shopify's migration from REST API to GraphQL, Acumatica ERP introduces changes to the field mapping used for the Shipment entity. 
+
+#### Shipment Mapping 
+
+ In the Shopify_GraphQL_Shipment.xlsx file, you can see how Acumatica ERP fields on the Shipments (SO302000) form map to Shopify default and custom fields. The system uses this mapping when it exports shipment data to Shopify. 
+
+ Particularly, you can see how each Acumatica ERP field was previously mapped to Shopify fields through the REST API, and how it's now mapped using GraphQL. 
+
+### Store and Webhook Data 
+
+ This topic outlines the changes to the field mapping used for the store settings and webhooks in Acumatica ERP. These changes reflect the platform's switch from the REST API to GraphQL for enhanced Shopify integration. 
+
+#### Store Setting Mapping 
+
+ The following table shows how Acumatica ERP fields on the Shopify Stores (BC201010) form map to Shopify default and custom fields. This mapping is used during the synchronization of the store settings to Shopify. 
+
+ Particularly, you can see how each Acumatica ERP field was previously mapped to Shopify fields through the REST API, and how it's now mapped using GraphQL. 
+
+ ERP Field Name 
+
+ ERP Form Object 
+
+ REST API Field REST API Type 
+
+ GraphQL Field GraphQL Type 
+
+ Default Currency 
+
+ General tab 
+
+ shop.currency string shop.shop.currencyCode 
+
+ enum 
+
+ Store URL General tab 
+
+ shop.domain string shop.primaryDomain.host 
+
+ string 
+
+ Supported Currencies 
+
+ General tab 
+
+ shop.enabled_presentment_currencies 
+
+ string shop.enabledPresentmentCurrencies 
+
+ enum 
+
+ Store Time Zone 
+
+ General tab 
+
+ shop.iana_timezone string shop.ianaTimezone string 
+
+ n/a n/a shop.timezone string shop.timezoneAbbreviation 
+
+ string 
+
+ Store Admin URL 
+
+ General tab 
+
+ shop.myshopify_domain 
+
+ string shop.myshopifyDomain 
+
+ string 
+
+ n/a n/a shop.id long shop.id ID 
+
+
+<!-- PAGE_BREAK -->
+ Retail Edition Entity Reference | 660 
+
+ ERP Field Name 
+
+ ERP Form Object 
+
+ REST API Field REST API Type 
+
+ GraphQL Field GraphQL Type 
+
+ n/a n/a shop.weight_unit string shop.weightUnit string (enum) 
+
+#### Webhook Mapping 
+
+ The following table shows the field mapping that's used during the synchronization of webhooks to Shopify. Particularly, you can see how each Acumatica ERP field was previously mapped to Shopify fields through the REST API, and how it's now mapped using GraphQL. 
+
+ Field Name REST API Field REST API Type 
+
+ GraphQL Field GraphQL Type 
+
+ n/a n/a n/a WebhookSubscription.endpoint 
+
+ object 
+
+ n/a n/a n/a WebhookSubscription.filter 
+
+ string 
+
+ Format WebhookSubscription.format 
+
+ string WebhookSubscription.format 
+
+ enum 
+
+ Id WebhookSubscription.id 
+
+ long WebhookSubscription.id 
+
+##### ID 
+
+ Fields WebhookSubscription.include_fields 
+
+ string WebhookSubscription.include_fields 
+
+ string 
+
+ MetaFieldNamespaces 
+
+ WebhookSubscription.metafield_namespaces 
+
+ string WebhookSubscription.metafield_namespaces 
+
+ string 
+
+ Topic WebhookSubscription.topic 
+
+ string WebhookSubscription.topic 
+
+ enum 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 661 
 
 ## Appendix 
 
@@ -27240,37 +28840,105 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 633 
+ Appendix | 662 
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 663 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 664 
 
 #### Report Toolbar 
 
@@ -27279,12 +28947,6 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 634 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -27310,25 +28972,77 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 635 
+ Appendix | 665 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 666 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -27346,91 +29060,45 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 636 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 637 
+ Appendix | 667 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -27449,6 +29117,12 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 668 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -27472,10 +29146,6 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 638 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -27490,13 +29160,19 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 669 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -27514,10 +29190,6 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 639 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -27532,6 +29204,10 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 670 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -27540,11 +29216,7 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 640 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -27570,6 +29242,12 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 671 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -27577,12 +29255,6 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 641 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -27610,19 +29282,19 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 672 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 642 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -27632,13 +29304,15 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 673 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -27649,10 +29323,6 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 643 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -27666,6 +29336,10 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 674 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -27676,11 +29350,11 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 644 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 675 
 
 #### Unavailable Commands on the More Menu 
 
@@ -27692,17 +29366,13 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 645 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 646 
+ Appendix | 676 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -27714,7 +29384,11 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 677 
 
  Figure: Table toolbar 
 
@@ -27734,17 +29408,17 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 647 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 678 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -27774,13 +29448,13 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 648 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 679 
 
  Element Description 
 
@@ -27824,15 +29498,15 @@ created_at (for the order) **Tran. Time Card Processing** tab The time when the 
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 649 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 680 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

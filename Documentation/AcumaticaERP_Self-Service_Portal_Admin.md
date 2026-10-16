@@ -4,7 +4,7 @@
 
 # Administrator’s Guide 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -120,11 +120,11 @@
 
  Wiki Editor Form for Articles......................................................................................................................... 112 
 
- Wiki Products................................................................................................................................................. 117 
+ Wiki Products................................................................................................................................................. 118 
 
  Wiki Site Map..................................................................................................................................................118 
 
- Wiki Style Sheets............................................................................................................................................119 
+ Wiki Style Sheets............................................................................................................................................120 
 
 **Appendix............................................................................................................................................ 121** 
 
@@ -152,9 +152,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -358,11 +358,11 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
  For the purposes of this activity, the following tasks have been performed: 
 
-- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R1_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
+- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R2_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
 
  This deployment is outside of the scope of this course. 
 
-- In the _U100_SSP_Admin_2025 R1_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with 
+- In the _U100_SSP_Admin_2025 R2_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with 
 
 
 <!-- PAGE_BREAK -->
@@ -394,7 +394,7 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
 3. Launch the Self-Service Portal instance that uses the same database as Acumatica ERP. 
 
-4. Sign in to a company with the _U100_SSP_Admin_2025 R1_ dataset preloaded as system administrator by     using the _gibbs_ username and the _123_ password. 
+4. Sign in to a company with the _U100_SSP_Admin_2025 R2_ dataset preloaded as system administrator by     using the _gibbs_ username and the _123_ password. 
 
 #### Step 1: Activating the Self-Service Portal License 
 
@@ -438,11 +438,11 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
  For the purposes of this activity, the following tasks have been performed: 
 
-- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R1_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
+- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R2_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
 
  This deployment is outside of the scope of this course. 
 
-- In the _U100_SSP_Admin_2025 R1_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
+- In the _U100_SSP_Admin_2025 R2_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
 
 #### Process Overview 
 
@@ -454,7 +454,7 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
 1. Launch the Acumatica ERP instance that uses the same database and tenant as the Self-Service Portal     instance to be configured. 
 
-2. Sign in to a company with the _U100_SSP_Admin_2025 R1_ dataset preloaded as system administrator by     using the _gibbs_ username and the _123_ password. 
+2. Sign in to a company with the _U100_SSP_Admin_2025 R2_ dataset preloaded as system administrator by     using the _gibbs_ username and the _123_ password. 
 
 3. On the _Enable/Disable Features_ (CS100000) form, enable the _Customer Portal_ feature. 
 
@@ -486,7 +486,7 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
  The following activity will walk you through the process of enabling single sign-on (SSO) to the Self-Service Portal instance with a Microso account. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -624,11 +624,11 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
  For the purposes of this activity, the following tasks have been performed: 
 
-- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R1_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
+- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R2_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
 
  This deployment is outside of the scope of this training. 
 
-- In the _U100_SSP_Admin_2025 R1_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
+- In the _U100_SSP_Admin_2025 R2_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
 
 #### Process Overview 
 
@@ -636,7 +636,7 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
 #### System Preparation 
 
- Before you start creating user roles, sign in to the Self-Service Portal instance with the U100_SSP_Admin_2025 R1 dataset preloaded as system administrator by using the gibbs username and the 123 password. 
+ Before you start creating user roles, sign in to the Self-Service Portal instance with the U100_SSP_Admin_2025 R2 dataset preloaded as system administrator by using the gibbs username and the 123 password. 
 
 #### Step 1: Creating Roles by Copying an Existing Role 
 
@@ -696,11 +696,11 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
  For the purposes of this activity, the following tasks have been performed: 
 
-- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R1_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
+- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R2_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
 
  This deployment is outside of the scope of this training. 
 
-- In the _U100_SSP_Admin_2025 R1_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
+- In the _U100_SSP_Admin_2025 R2_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
 
 #### Process Overview 
 
@@ -738,7 +738,7 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
 4. In the **Description** box, type Customer user. 
 
-5. Select the **Allow This Type for Contacts** check box. 
+5. Select the **Allow Selection of This Type on Contacts Form** check box. 
 
 6. On the **Allowed Roles** tab, click **Add Row**. 
 
@@ -764,7 +764,7 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
 4. In the **Description** box, type Customer admin. 
 
-5. Select the **Allow This Type for Contacts** check box. 
+5. Select the **Allow Selection of This Type on Contacts Form** check box. 
 
 6. On the **Allowed Roles** tab, click **Add Row**. 
 
@@ -800,11 +800,11 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
  For the purposes of this activity, the following tasks have been performed: 
 
-- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R1_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
+- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R2_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
 
  This deployment is outside of the scope of this training. 
 
-- In the _U100_SSP_Admin_2025 R1_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
+- In the _U100_SSP_Admin_2025 R2_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
 
 - In Acumatica ERP, the _STORE_ contact class—for the employees of supermarkets and other stores—has been     defined on the _Contact Classes_ (CR205000) form. 
 
@@ -878,7 +878,7 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
 2. In the **Business Account** box of the Summary area, select _STOREHUT_. 
 
-3. On the **Details** tab, do the following:     a. In the **First Name** box of the **Contact** section, type Ray.     b. In the **Last Name** box, type Newman.     c. In the **Job Title** box, type Assistant buyer.     d. In the **Email** box, type ray.newman@storehut.example.com.     e. In the **Address** section, clear the **Override** check box. Based on the address information specified in        the _STOREHUT_ business account, the system fills in the address boxes with the company's address        information. 
+3. On the **Details** tab, do the following:     a. In the **First Name** box of the **Contact** section, type Ray.     b. In the **Last Name** box, type Newman.     c. In the **Job Title** box, type Assistant buyer.     d. In the **Email** box, type ray.newman@storehut.example.com.     e. In the **Address** section, clear the **Override Address** check box. Based on the address information        specified in the _STOREHUT_ business account, the system fills in the address boxes with the company's        address information. 
 
 4. On the **CRM Info** tab, in the **Contact Class** box, select _STORE_. 
 
@@ -1142,11 +1142,11 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
  For the purposes of this activity, the following tasks have been performed: 
 
-- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R1_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
+- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R2_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
 
  This deployment is outside of the scope of this training. 
 
-- In the _U100_SSP_Admin_2025 R1_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
+- In the _U100_SSP_Admin_2025 R2_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
 
 - On the _Item Classes_ (IN201000) form, the _FOOD_ and _JCRCFGPRT_ (parts of configurable juicers) item classes     have been defined. 
 
@@ -1174,7 +1174,7 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
  Before you start configuring the order management and inventory catalog in the Self-Service Portal, do the following: 
 
-1. Launch the Acumatica ERP instance with the _U100_SSP_Admin_2025 R1_ dataset preloaded. 
+1. Launch the Acumatica ERP instance with the _U100_SSP_Admin_2025 R2_ dataset preloaded. 
 
 2. Sign in as system administrator Kimberly Gibbs by using the _gibbs_ username and the _123_ password. 
 
@@ -1290,7 +1290,7 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
  To rearrange the categories, do the following: 
 
-1. While you are still viewing the _Item Sales Categories_ (IN204060) form, in the **Categories** pane, click the     _Certificates_ category (which has been predefined in the _U100_SSP_Admin_2025 R1_ dataset). 
+1. While you are still viewing the _Item Sales Categories_ (IN204060) form, in the **Categories** pane, click the     _Certificates_ category (which has been predefined in the _U100_SSP_Admin_2025 R2_ dataset). 
 
 2. On the pane toolbar, click **Move Node Up** to change the position of the category in the list. Click **Move Node**     **Up** until the _Certificates_ category is the first listed category. 
 
@@ -1364,7 +1364,7 @@ _Employees_ (EP203000) Employee records have been created in the system.
 
 9. On the table toolbar, click **Add to Cart**. Under the form toolbar, notice that a message about the item in the     cart is shown. (See the following screenshot.) 
 
- Figure: The items and the message about the items in the cart on the Catalog form 
+ Figure: The items and the message in the cart 
 
 You have reviewed the catalog of inventory items in the Self-Service Portal. 
 
@@ -1590,11 +1590,11 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
  For the purposes of this activity, the following tasks have been performed: 
 
-- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R1_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
+- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R2_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
 
  This deployment is outside of the scope of this training. 
 
-- In the _U100_SSP_Admin_2025 R1_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
+- In the _U100_SSP_Admin_2025 R2_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
 
 - On the _Contact Classes_ (CR205000) form, the _STORE_ contact class has been created. 
 
@@ -1618,7 +1618,7 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
  Before you start configuring case management in the Self-Service Portal, do the following: 
 
-1. Launch the Acumatica ERP website with the _U100_SSP_Admin_2025 R1_ dataset preloaded and sign in as     system administrator by using the _gibbs_ username and the _123_ password. 
+1. Launch the Acumatica ERP website with the _U100_SSP_Admin_2025 R2_ dataset preloaded and sign in as     system administrator by using the _gibbs_ username and the _123_ password. 
 
 2. In Acumatica ERP, for the _STOREHUT_ business account on the _Business Accounts_ (CR303000) form, make     sure that the _STORE_ business account class is selected in the **Class** box. 
 
@@ -1948,9 +1948,9 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
 #### Creation of a Dashboard 
 
- You can create a dashboard if you have access to the Dashboards (SM208600) form. For details on managing dashboards, see Administering Dashboard Forms. For details on designing dashboards, see Designing Dashboard Contents. 
+ You can create a dashboard if you have access to the Classic Dashboards (SM208600) form. For details on managing dashboards, see Administering Dashboards. For details on designing dashboards, see Designing Dashboard Contents. 
 
- To add a new dashboard, on the Dashboards form, you perform the following steps: 
+ To add a new dashboard, on the Classic Dashboards form, you perform the following steps: 
 
 1. Creation: You add the new dashboard, enter its name, and specify the role for the owner of this dashboard.     A user with the specified role assigned will be able to populate the dashboard with widgets, modify the     dashboard layout, and edit widget properties. 
 
@@ -1988,33 +1988,45 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
  In the Add Widget dialog box, you click one of the following widget types: 
 
-- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use charts of various types,     such as bar charts and line charts. 
+- **Chart** : A graphical representation of data from an Acumatica ERP form. You can use charts of the following     types: 
+
+- **Doughnut** 
+
+- **Line** 
+
+- **Column** 
+
+- **Stacked Column** 
+
+- **Bar** 
+
+- **Stacked Bar** 
+
+- **Funnel** 
 
 - **Data Table** : A systematic display of data from an Acumatica ERP form, with data arranged into rows and     columns. 
 
-- **Embedded Page** : A document or an image that is stored on an external resource, such as cloud storage. 
+- **Meter** : A statistical record that tracks progress or achievement toward a specific performance indicator by     displaying key parameters relevant to your organization's business processes. Data appears as a gauge with     normal, warning, and alarm levels. 
 
-- **Header** : A title that can be added to the widget section. 
+- **Score Card** : A statistical record showing a single performance parameter. 
 
-- **Key Performance Indicator (KPI)** : A statistical record that measures progress or achievement toward a     set performance indicator by showing parameters that are important to the business processes of your     organization and should be monitored daily. The following visualization types are available for the widget: 
-
-- _Scorecard_ : Data is presented in the form of a card with a single parameter. 
-
-- _Meter_ : Data is presented in the form of a gauge with normal, warning, and alarm levels. 
-
-- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
+- **Trend Card** : A statistical record showing parameters whose dynamic change is important to the business     processes of your organization. 
 
 - **Pivot Table** : A data table organized to filter, sort, count, total, or give the average of data from an Acumatica     ERP inquiry, displaying the summarized results in a separate table. 
 
-- **Power BI Tile** : A chart, scorecard, or other analytical information that is represented on a Power BI     dashboard designed by your organization. 
+- **Embedded Page** : A document or an image that is stored on an external resource, such as cloud storage. 
 
-- **Trend Card KPI** : A statistical record showing parameters whose dynamic change is important to the     business processes of your organization. 
-
-- **Wiki Page** : A reference topic, procedure, business plan, or other content that is frequently consulted by     Acumatica ERP users. 
+- **Link** : A link to an Acumatica ERP form, report, or dashboard. 
 
 
 <!-- PAGE_BREAK -->
  Tailoring the Self-Service Portal | 51 
+
+- **Wiki** : A reference topic, procedure, business plan, or other content that is frequently consulted by     Acumatica ERP users. 
+
+- **Header** : A title that can be added to the widget section. 
+
+- **Power BI** : A chart, scorecard, or other analytical information that is represented on a Power BI dashboard     designed by your organization. 
 
 ### Tailoring the Self-Service Portal: Creation and Modification of Workspaces 
 
@@ -2054,23 +2066,23 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
  In the following implementation activity, you will create a generic inquiry in the Acumatica Self-Service Portal. 
 
-#### Story 
-
- Suppose that you are Kimberly Gibbs, system administrator who also handles generic inquiries at the SweetLife Fruits & Jams company. You need to create a generic inquiry that will display the list of cases for the business account associated with the user. There is a predefined generic inquiry in Acumatica ERP that provides similar functionality. You need to copy it and adjust it for the Self-Service Portal users. This inquiry will be used in the future for building a dashboard. 
-
 
 <!-- PAGE_BREAK -->
  Tailoring the Self-Service Portal | 52 
+
+#### Story 
+
+ Suppose that you are Kimberly Gibbs, system administrator who also handles generic inquiries at the SweetLife Fruits & Jams company. You need to create a generic inquiry that will display the list of cases for the business account associated with the user. There is a predefined generic inquiry in Acumatica ERP that provides similar functionality. You need to copy it and adjust it for the Self-Service Portal users. This inquiry will be used in the future for building a dashboard. 
 
 #### Configuration Overview 
 
  For the purposes of this activity, the following tasks have been performed: 
 
-- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R1_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
+- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R2_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
 
  This deployment is outside of the scope of this training. 
 
-- In the _U100_SSP_Admin_2025 R1_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
+- In the _U100_SSP_Admin_2025 R2_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
 
 - On the _Business Accounts_ (CR303000) form, the _STOREHUT_ business account has been created. 
 
@@ -2092,7 +2104,7 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
  Before you start creating a generic inquiry in the Self-Service Portal, do the following: 
 
-1. Launch the Acumatica ERP instance with the _U100_SSP_Admin_2025 R1_ dataset preloaded. 
+1. Launch the Acumatica ERP instance with the _U100_SSP_Admin_2025 R2_ dataset preloaded. 
 
 2. Sign in to the system as system administrator Kimberly Gibbs by using the _gibbs_ username and the _123_     password. 
 
@@ -2106,13 +2118,15 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
 - _Financials on Portal_ 
 
-4. Make sure that you have performed the following prerequisite activities:     a. _Configuring the Self-Service Portal: To License the Self-Service Portal Instance_     b. _Configuring the Self-Service Portal: To Specify the General Settings of the Self-Service Portal_     c. _Managing Access to the Self-Service Portal: To Create User Roles for a Customer’s Employees_     d. _Managing Access to the Self-Service Portal: To Create User Types for User Accounts_     e. _Managing Access to the Self-Service Portal: To Create User Accounts for Contacts_     f. _Configuring Case Management in the Self-Service Portal: Implementation Activity_ 
-
-5. Launch the Self-Service Portal website with the _U100_SSP_Admin_2025 R1_ dataset preloaded. 
+4. Make sure that you have performed the following prerequisite activities:     a. _Configuring the Self-Service Portal: To License the Self-Service Portal Instance_     b. _Configuring the Self-Service Portal: To Specify the General Settings of the Self-Service Portal_     c. _Managing Access to the Self-Service Portal: To Create User Roles for a Customer’s Employees_ 
 
 
 <!-- PAGE_BREAK -->
  Tailoring the Self-Service Portal | 53 
+
+ d. Managing Access to the Self-Service Portal: To Create User Types for User Accounts e. Managing Access to the Self-Service Portal: To Create User Accounts for Contacts f. Configuring Case Management in the Self-Service Portal: Implementation Activity 
+
+5. Launch the Self-Service Portal website with the _U100_SSP_Admin_2025 R2_ dataset preloaded. 
 
 6. Sign in to the system as system administrator Kimberly Gibbs by using the _gibbs_ username and the _123_     password. 
 
@@ -2136,7 +2150,7 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
 8. On the form toolbar, click **Clipboard > Paste**. The system inserts and replaces the values on the tabs of the     form. 
 
- The system displays errors on the Entry Point and Navigation tabs because the copied generic inquiry has a link to the form that does not exist in the Self-Service Portal. You will fix that in the next step. 
+ The system displays errors on the Navigation tab because the copied generic inquiry has a link to the form that does not exist in the Self-Service Portal. You will fix that in the next step. 
 
 9. On the **Navigation** tab, in the **Navigation Targets** pane, do the following for each row:     a. In the **Link** column, click the row.     b. On the table toolbar, click **Delete Row**. 10.On the **Entry Point** tab, in the **Entry Screen** box (the **Entry Screen Settings** section), click the magnifier     button, and double-click _Case Details_ in the list of the available forms. 11.On the form toolbar, click **Save**. 
 
@@ -2152,15 +2166,15 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
 2. In the **Source Name** column of the added row, select _PX.Objects.CR.Contact_. 
 
+
+<!-- PAGE_BREAK -->
+ Tailoring the Self-Service Portal | 54 
+
  The list has about 600 DACs, so in the lookup table, you should use the Search box (upper right) to find the DAC. 
 
 3. In the same row, in the **Alias** column, type CustomerUser. 
 
 4. Add a new row. 
-
-
-<!-- PAGE_BREAK -->
- Tailoring the Self-Service Portal | 54 
 
 5. In the **Source Name** column of the added row, select _PX.Objects.CR.CRCaseClass_. 
 
@@ -2172,7 +2186,7 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
  Now you will specify the relations of the added DACs. While you are still on the Generic Inquiry (SM208000) form with the PortalCases inquiry selected, on the table toolbar of the Relations tab, do the following: 
 
-1. On the table toolbar of the **Table Relations** table, click **Add Row**. 
+1. On the table toolbar of the **Relations** table, click **Add Row**. 
 
 2. In the **Parent Table** column of the added row, select _CRCase_. 
 
@@ -2204,17 +2218,15 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
 3. In the **Condition** column, leave the default _Equals_ value. 
 
-4. In the **From Schema** column, select the check box. 
-
-5. In the **Value 1** column, type @me. 
-
-6. On the table toolbar, click **Add Row** , and in the row, specify the following settings:     a. **Data Field** : _CaseClass.IsInternal_     b. **Condition** : _Does Not Equal_ 
-
 
 <!-- PAGE_BREAK -->
  Tailoring the Self-Service Portal | 55 
 
- c. From Schema : Selected d. Value 1 : Selected 
+4. In the **From Schema** column, select the check box. 
+
+5. In the **Value 1** column, type @me. 
+
+6. On the table toolbar, click **Add Row** , and in the row, specify the following settings:     a. **Data Field** : _CaseClass.IsInternal_     b. **Condition** : _Does Not Equal_     c. **From Schema** : Selected     d. **Value 1** : Selected 
 
 7. On the form toolbar, click **Save**. 
 
@@ -2252,6 +2264,10 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
  In this step, you will verify that customer users have access to the inquiry by signing in to Ray Newman's user account. Do the following. 
 
+
+<!-- PAGE_BREAK -->
+ Tailoring the Self-Service Portal | 56 
+
 1. Sign in to the Self-Service Portal as Ray Newman by using the _ray.newman@storehut.example.com_     username and the _123_ password. 
 
 2. On the main menu, click **Support** to open the **Support** workspace. 
@@ -2259,10 +2275,6 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 3. Under the **Inquiries** category, click _All Cases_ to open the generic inquiry. 
 
 4. Verify that you can see the list of the cases related to the _Storehut_ business account only, as shown in the     following screenshot. 
-
-
-<!-- PAGE_BREAK -->
- Tailoring the Self-Service Portal | 56 
 
  Figure: The All Cases generic inquiry 
 
@@ -2280,11 +2292,15 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
  For the purposes of this activity, the following tasks have been performed: 
 
-- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R1_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
+- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R2_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
 
  This deployment is outside of the scope of this training. 
 
-- In the _U100_SSP_Admin_2025 R1_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
+- In the _U100_SSP_Admin_2025 R2_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
+
+
+<!-- PAGE_BREAK -->
+ Tailoring the Self-Service Portal | 57 
 
 #### Process Overview 
 
@@ -2295,10 +2311,6 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 2. Set up user access rights to the dashboard 
 
 3. Add the _Data Table_ , _Link_ , and _KPI_ widgets to the dashboard 
-
-
-<!-- PAGE_BREAK -->
- Tailoring the Self-Service Portal | 57 
 
 4. Select the dashboard layout template 
 
@@ -2324,7 +2336,7 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
 3. Make sure that you have performed the following prerequisite activities:     a. _Configuring the Self-Service Portal: To License the Self-Service Portal Instance_     b. _Configuring the Self-Service Portal: To Specify the General Settings of the Self-Service Portal_     c. _Managing Access to the Self-Service Portal: To Create User Roles for a Customer’s Employees_     d. _Managing Access to the Self-Service Portal: To Create User Types for User Accounts_     e. _Managing Access to the Self-Service Portal: To Create User Accounts for Contacts_     f. _Managing the Inventory Catalog in the Self-Service Portal: Implementation Activity_     g. _Configuring Case Management in the Self-Service Portal: Implementation Activity_     h. _Tailoring the Self-Service Portal: To Create a Generic Inquiry_ 
 
-4. Launch the Self-Service Portal website with the _U100_SSP_Admin_2025 R1_ dataset preloaded. 
+4. Launch the Self-Service Portal website with the _U100_SSP_Admin_2025 R2_ dataset preloaded. 
 
 5. Sign in to the system as system administrator by using the _gibbs_ username and the _123_ password. 
 
@@ -2332,19 +2344,21 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
  To create the Case Activities dashboard, do the following: 
 
-1. In the Self-Service Portal, open the _Dashboards_ (SM208600) form. 
+1. In the Self-Service Portal, open the _Classic Dashboards_ (SM208600) form. 
 
-2. In the Summary area, do the following:     a. In the **Name** box, type Case Activities.     b. In the **Owner Role** box, select _Portal Admin_.     c. Clear the **Allow Users to Personalize** check box. Portal users should not be given the ability to make        personalized copies of the dashboard. 
-
-3. On the form toolbar, click the **Publish to the UI** button. The **Publish to the UI** dialog box opens. 
-
-4. In the dialog box, specify the following settings:     a. **Site Map Title** : Case Activities     b. **Workspace** : _Support_     c. **Category** : _Dashboards_ 
+2. In the Summary area, do the following:     a. In the **Name** box, type Case Activities.     b. In the **Owner Role** box, select _Portal Admin_. 
 
 
 <!-- PAGE_BREAK -->
  Tailoring the Self-Service Portal | 58 
 
-5. In the **Access Rights** section of the dialog box, select the **Copy Access Rights from Screen** option button.     Make sure that _Dashboards_ is selected in the box right of the option button. 
+ c. Clear the Allow Users to Personalize check box. Portal users should not be given the ability to make personalized copies of the dashboard. 
+
+3. On the form toolbar, click the **Publish to the UI** button. The **Publish to the UI** dialog box opens. 
+
+4. In the dialog box, specify the following settings:     a. **Site Map Title** : Case Activities     b. **Workspace** : _Support_     c. **Category** : _Dashboards_ 
+
+5. In the **Access Rights** section of the dialog box, select the **Set to Granted for All Roles** option button. 
 
 6. Click **Publish** to complete the publication process. 
 
@@ -2356,7 +2370,7 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
  Now you need to change the access rights to the dashboard so that users with the Portal Admin role can add widgets to the dashboard and users with Customer Admin and Customer User roles can view the dashboard. 
 
- While you are still viewing the Case Activities dashboard on the Dashboards (SM208600) form in the Self-Service Portal, do the following: 
+ While you are still viewing the Case Activities dashboard on the Classic Dashboards (SM208600) form in the SelfService Portal, do the following: 
 
 1. On the **Visible To:** tab, in the row that has _Portal Admin_ in the **Role** column, make sure that the _Granted_     option is selected in the **Access Rights** column. 
 
@@ -2382,6 +2396,10 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
  To add a Data Table widget to the dashboard in the Self-Service Portal, do the following: 
 
+
+<!-- PAGE_BREAK -->
+ Tailoring the Self-Service Portal | 59 
+
 1. While you are still viewing the _Case Activities_ dashboard, on the dashboard title bar, click the **Design** button     to switch to design mode. 
 
 2. In the widget placeholder in the upper part of the screen, click _Add a new widget_. The **Add Widget** dialog box     opens. 
@@ -2391,10 +2409,6 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 4. Click **Next**. 
 
 5. In the **Inquiry Screen** box of the **Widget Properties** dialog box, which opens, click the magnifier button.     The lookup table opens. 
-
-
-<!-- PAGE_BREAK -->
- Tailoring the Self-Service Portal | 59 
 
 6. In the Search box, type cases. 
 
@@ -2430,15 +2444,13 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
 5. In the **Widget Properties** dialog box, which opens, do the following:     a. In the **Icon** box, select the _visibility_ icon, which will be displayed in the widget. 
 
- You can begin typing the name of the icon into the box to quickly find the icon. 
-
- b. In the Form box, do the following: a. Click the magnifier button. b. In the lookup table that opens, in the Search box, type orders. c. In the Title column, double-click My Orders , which closes the lookup table and fills in the Form box of the dialog box. 
-
 
 <!-- PAGE_BREAK -->
  Tailoring the Self-Service Portal | 60 
 
- c. In the Caption box, type My Orders. d. Click Finish to save your changes and close the dialog box. The widget is added to the workspace. 
+ You can begin typing the name of the icon into the box to quickly find the icon. 
+
+ b. In the Form box, do the following: a. Click the magnifier button. b. In the lookup table that opens, in the Search box, type orders. c. In the Title column, double-click My Orders , which closes the lookup table and fills in the Form box of the dialog box. c. In the Caption box, type My Orders. d. Click Finish to save your changes and close the dialog box. The widget is added to the workspace. 
 
 6. On the dashboard title bar, click the **Design** button to switch to view mode. 
 
@@ -2458,19 +2470,19 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
 4. Click **Next**. 
 
-5. In the **Widget Properties** dialog box, which opens, do the following:     a. In the **Inquiry Screen** box, select the _All Cases_ inquiry, which will be used as a base for the widget.     b. In the **Field to Aggregate** box, select _Case ID_.     c. In the **Aggregate Function** box, make sure the _Count All_ is selected.     d. In the **Normal Level Type** box, leave the default _Fixed Value_.     e. In the **Normal Level** box, specify 10.     f. In the **Alarm Level Type** box, select _Percent Value_.     g. In the **Alarm Level** box, specify 140. We specify 150% to revert the levels. 10 cases will be a normal level,        from 11 to approximately 15 cases will be a warning level, and from 16 to 20 cases will be an alarm level.     h. Define the colors as follows: 
-
-- **Normal Color** : _Green_ 
-
-- **Warning Color** : _Orange_ 
-
-- **Alarm Color** : _Red_ j. In the **Visualization Type** box, select _Meter_. 
+5. In the **Widget Properties** dialog box, which opens, do the following:     a. In the **Inquiry Screen** box, select the _All Cases_ inquiry, which will be used as a base for the widget.     b. In the **Field to Aggregate** box, select _Case ID_.     c. In the **Aggregate Function** box, make sure the _Count All_ is selected.     d. In the **Normal Level Type** box, leave the default _Fixed Value_.     e. In the **Normal Level** box, specify 10. 
 
 
 <!-- PAGE_BREAK -->
  Tailoring the Self-Service Portal | 61 
 
- k. In the Caption box, type case volume. l. Click Finish to save your changes and close the dialog box. The widget is added to the workspace. 
+ f. In the Alarm Level Type box, select Percent Value. g. In the Alarm Level box, specify 140. We specify 150% to revert the levels. 10 cases will be a normal level, from 11 to approximately 15 cases will be a warning level, and from 16 to 20 cases will be an alarm level. h. Define the colors as follows: 
+
+- **Normal Color** : _Green_ 
+
+- **Warning Color** : _Orange_ 
+
+- **Alarm Color** : _Red_ j. In the **Visualization Type** box, select _Meter_. k. In the **Caption** box, type case volume. l. Click **Finish** to save your changes and close the dialog box. The widget is added to the workspace. 
 
 6. On the dashboard title bar, click the **Design** button to switch to view mode. 
 
@@ -2492,15 +2504,13 @@ You have reviewed the catalog of inventory items in the Self-Service Portal.
 
 4. On the title bar of the created widget, click the Edit button. The **Widget Properties** dialog box opens. 
 
-5. Click the **Filter Settings** button. 
-
-6. In the **Filter Settings** dialog box, which opens, do the following:     a. On the table toolbar, click **Add Row**.     b. In the **Data Field** column of the added row, select _Status_.     c. In the **Conditions** column leave the default value: _Equals_.     d. In the **Value 1** column, select _New_.     e. On the table toolbar, click **Add Row**.     f. In the **Data Field** column of the added row, select _Reason_. 
-
 
 <!-- PAGE_BREAK -->
  Tailoring the Self-Service Portal | 62 
 
- g. In the Conditions column leave the default value: Equals. h. In the Value 1 column, select Unassigned. j. Click OK to save your changes. 
+5. Click the **Filter Settings** button. 
+
+6. In the **Filter Settings** dialog box, which opens, do the following:     a. On the table toolbar, click **Add Row**.     b. In the **Data Field** column of the added row, select _Status_.     c. In the **Conditions** column leave the default value: _Equals_.     d. In the **Value 1** column, select _New_.     e. On the table toolbar, click **Add Row**.     f. In the **Data Field** column of the added row, select _Reason_.     g. In the **Conditions** column leave the default value: _Equals_.     h. In the **Value 1** column, select _Unassigned_.     j. Click **OK** to save your changes. 
 
 7. In the **Normal Level** box, specify 2. 
 
@@ -2582,11 +2592,11 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  For the purposes of this activity, the following tasks have been performed: 
 
-- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R1_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
+- The Acumatica ERP application instance with the _U100_SSP_Admin_2025 R2_ dataset preloaded and the Self-     Service Portal application instance have been deployed in the same database. 
 
  This deployment is outside of the scope of this training. 
 
-- In the _U100_SSP_Admin_2025 R1_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
+- In the _U100_SSP_Admin_2025 R2_ dataset, on the _User Roles_ (SM201005) form of Acumatica ERP, the     _Portal Admin_ role has been assigned to the _gibbs_ user account. The user account is associated with     Kimberly Gibbs, the system administrator in the SweetLife Fruits & Jams company. The role provides full     administrative privileges in the Self-Service Portal. 
 
 #### Process Overview 
 
@@ -2618,7 +2628,7 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  Before you start configuring a workspace in the Self-Service Portal, do the following: 
 
-1. Launch the Acumatica ERP website with the _U100_SSP_Admin_2025 R1_ dataset preloaded. 
+1. Launch the Acumatica ERP website with the _U100_SSP_Admin_2025 R2_ dataset preloaded. 
 
 2. Sign in to the system as system administrator Kimberly Gibbs by using the _gibbs_ username and the _123_     password. 
 
@@ -2634,7 +2644,7 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
 4. Make sure that you have performed the following prerequisite activities:     a. _Configuring the Self-Service Portal: To License the Self-Service Portal Instance_     b. _Configuring the Self-Service Portal: To Specify the General Settings of the Self-Service Portal_     c. _Managing Access to the Self-Service Portal: To Create User Roles for a Customer’s Employees_     d. _Managing Access to the Self-Service Portal: To Create User Types for User Accounts_     e. _Managing Access to the Self-Service Portal: To Create User Accounts for Contacts_     f. _Configuring Case Management in the Self-Service Portal: Implementation Activity_     g. _Tailoring the Self-Service Portal: To Create a Generic Inquiry_     h. _Tailoring the Self-Service Portal: To Create and Design a Dashboard_ 
 
-5. Launch the Self-Service Portal website with the _U100_SSP_Admin_2025 R1_ dataset preloaded. 
+5. Launch the Self-Service Portal website with the _U100_SSP_Admin_2025 R2_ dataset preloaded. 
 
 6. Sign in to the system as system administrator by using the _gibbs_ username and the _123_ password. 
 
@@ -2711,8 +2721,6 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 - Catalog 
 
 - Company Profile 
-
-- Contract 
 
 - Contact 
 
@@ -3350,7 +3358,7 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  Form ID: (SM201020) 
 
- On this form, you can view and modify the access rights of roles to particular workspaces (that is, to all forms in a workspace), forms, containers of form elements, form elements. For more information on roles and their access rights, see Configuring User Roles. 
+ On this form, you can view and modify the access rights of roles to particular workspaces (that is, to all forms in a workspace), forms, containers of form elements, and form elements. For more information on roles and their access rights, see Configuring User Roles. 
 
  For example, you might use this form to provide access to all forms in the Configuration workspace for the Administrator role and to prohibit access to the forms of this workspace for all other roles. 
 
@@ -3362,9 +3370,9 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  The form toolbar includes only standard buttons. For the list of standard buttons, see Form Toolbar and More Menu. 
 
-#### Le Pane 
+#### Screens Pane 
 
- In this pane, workspaces are represented as second-level nodes. (The top node represents the home page dashboard.) Expand the node of any workspace and view the forms within that workspace. Expand the node of any form to view the list of containers (of form elements), such as tabs and grids. 
+ In the Screens pane, workspaces are represented as second-level nodes. (The top node represents the home page dashboard.) Expand the node of any workspace and view the forms within that workspace. Expand the node of any form to view the list of containers (of form elements), such as tabs and grids. 
 
  All wikis are represented by non-expandable nodes. You can set the access each role has to the wikis available in your company by using the Wiki Access by Role (SM202015) form. To view and update the map of any wiki, use the Wiki Site Map (SM202010) form. For details about managing access to wikis, see Wiki Access Management. 
 
@@ -3372,15 +3380,15 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  When you click any node, the right pane displays the roles defined in the system and the details for each, including its level of access rights. 
 
-#### Right Pane 
+#### Access Rights Pane 
 
- In this pane, you can view and edit the access rights of the roles for the selected node. To change a restriction level of access rights, in the row with the appropriate role, select the needed option in the Access Rights column. 
-
- Advanced filtering functionality is available for the list of roles in the right pane. For details, see Managing Advanced Filters. 
+ In the Access Rights pane, you can view and edit the access rights of the roles for the selected node. To change a restriction level of access rights, in the row with the appropriate role, select the needed option in the Access Rights column. 
 
 
 <!-- PAGE_BREAK -->
  Self-Service Portal Form Reference | 85 
+
+ Advanced filtering functionality is available for the list of roles in the right pane. For details, see Managing Advanced Filters. 
 
  Table: Table Columns 
 
@@ -3388,7 +3396,7 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  Role The name of the role. 
 
- Guest Role A check box that, if selected, indicates that the role is marked as a guest role. 
+ Guest Role A check box that indicates (if selected) that the role is a guest role. 
 
  For details, see User Roles: Predefined Roles. 
 
@@ -3396,7 +3404,7 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  Access Rights The access rights of the role for the selected object. 
 
- The set of restriction levels available for the system objects depends on the object type. For some objects, you can specify a more granular level; for others, you can either allow or deny the access. For details, see User Roles: Restriction Level Options. 
+ Restriction levels vary by object type. For some objects, you can specify a more granular level; for others, you can either allow or deny the access. For details, see User Roles: Restriction Level Options. 
 
  Applied to Nested Read-only. A check box that indicates, if selected, that a restriction level set to a parent object (a form or a from container ) for a role is inherited by their nested objects. The system clears the check box for a role, if you explicitly specified access rights for a nested object for this role. 
 
@@ -3428,13 +3436,13 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  To manage the licensing of your Self-Service Portal instance, you sign in to Self-Service Portal with a user account that has the Administrator or Portal Admin role, and you open this form in the Configuration suite. 
 
-#### Form Toolbar 
-
- The form toolbar includes standard and form-specific buttons and commands. For the list of standard buttons, see Form Toolbar and More Menu. The form-specific commands are listed in the following table. 
-
 
 <!-- PAGE_BREAK -->
  Self-Service Portal Form Reference | 86 
+
+#### Form Toolbar 
+
+ The form toolbar includes standard and form-specific buttons and commands. For the list of standard buttons, see Form Toolbar and More Menu. The form-specific commands are listed in the following table. 
 
  Button Description 
 
@@ -3540,7 +3548,7 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
 - Open a customization project for editing in the Customization Project Editor 
 
-- Validate a customization project or multiple projects (see _Validation of a Customization Project_ for details) 
+- Validate a customization project or multiple projects (see _Validation of Customization Projects: ISV Solutions_     for details) 
 
 - Publish a customization project (or multiple projects) for a tenant or multiple tenants 
 
@@ -3582,57 +3590,59 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 <!-- PAGE_BREAK -->
  Self-Service Portal Form Reference | 89 
 
- Command Description 
+**Command Description** 
 
- Publish Initiates the process of publishing the selected customization projects (that is, those for which you have selected the check box in the Included column). When you click this command, the Compilation dialog box opens to display a log of information about the process. 
+**Publish** Initiates the process of publishing the selected customization projects (that is, those for which you have selected the check box in the Included column). When you click this command, the **Compilation** dialog box opens to display a log of information about the process. 
 
  If both the project validation and the compilation of the modified website are successful, the system displays the Publish button in the dialog box; you click this button to finalize the publishing and to update the website. 
 
- Publish to Multiple Tenants 
+**Publish to Multiple Tenants** 
 
  Opens the Publish to Multiple Tenants dialog box, which is used to select the tenants to which the selected customization projects are published and to configure the publishing options. (You select the check box in the Included column for all projects to be published before clicking this command.) After publication is complete, the selected tenants share the customization data that is specific to the opened tenant and stored exclusively in the database. 
 
  See Customization Projects: Publication to a Multitenant Website or Publication of Customization Projects in a Multitenant Site for details. 
 
- Replace Highlighted Project Content 
+**Replace Highlighted Project Content** 
 
  Initiates the import of a previously exported deployment package from a ZIP file to replace the content of the customization project that is currently selected in the table. This command opens the Open Package dialog box, which has the Choose File button and the Upload button. 
 
- Screens with Custom Workflow 
+**Screens with Custom Workflow** 
 
  Opens the Screens with Custom Workflow dialog box, which lists the forms whose workflow has been modified. 
 
- Unpublish All Removes the publication of all listed customization projects from the website. This command does not delete the projects themselves. 
+**Unpublish All** Removes the publication of all listed customization projects from the website. This command does not delete the projects themselves. 
 
  This command is always available, regardless of whether any customization projects have been published. 
 
- Validate Certification Status 
+**Validate Certification Status** 
 
  Checks the certification status of all customization projects. 
 
- Validate Highlighted Project 
+ This functionality is available for only licensed Acumatica ERP instances and is turned off by default. To use it, contact your Acumatica support provider. 
+
+**Validate Highlighted Project** 
 
  Initiates the process of validating the selected customization project. You first click the row with the project and then click this command. 
 
  The command opens the Validation Results dialog box, which displays a log of information about the process. 
 
- Validate Multiple Projects 
+**Validate Multiple Projects** 
 
  Opens the Choose Projects dialog box, which is used to select the customization projects for validation. 
 
- View Published XML 
+**View Published XML** 
 
  Displays the Published Customization page, which displays the merged content of the customization projects that are currently published. 
 
  See Published Customization Page for details. 
 
-#### Publish to Multiple Tenants Dialog Box 
-
- By using this dialog box, you can publish customization projects to multiple tenants at once. 
-
 
 <!-- PAGE_BREAK -->
  Self-Service Portal Form Reference | 90 
+
+#### Publish to Multiple Tenants Dialog Box 
+
+ By using this dialog box, you can publish customization projects to multiple tenants at once. 
 
  Element Description 
 
@@ -3674,13 +3684,13 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  In this dialog box, which opens when you click Screens with Custom Workflow on the More menu, you can view the list of forms with modified workflows for all published customization projects, without the need to open the Customization Project Editor and investigate each customized screen. 
 
- The dialog box lists only the forms whose workflow has been modified by using Workflow UI. 
-
- The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
-
 
 <!-- PAGE_BREAK -->
  Self-Service Portal Form Reference | 91 
+
+ The dialog box lists only the forms whose workflow has been modified by using Workflow UI. 
+
+ The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
 
  Element Description 
 
@@ -3722,15 +3732,15 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  Cancel Closes the dialog box without running the validation. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 92 
+
 #### Validation Results Dialog Box 
 
  The system displays this dialog box when you click a row with a customization project and then click Validate Highlighted Project on the More menu. The system also displays the dialog box when you click Validate and Show All Messages in the Choose Projects dialog box, 
 
  The dialog box contains a text area for viewing the results of validation for each customization project selected in the Choose Projects dialog box. The dialog box also contains the OK button, which you click to close it. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 92 
 
 #### Table 
 
@@ -3766,15 +3776,17 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
 - _Not Certified for Current Version_ : The project has been imported into the Acumati-     ca ERP instance and is available in the database with the certified customization     projects, but the major version it has been certified for is not the same as the major     version of the current Acumatica ERP instance. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 93 
+
+ Column Description 
+
  Initials The project prefixes assigned to the customization project provided by Acumatica or ISV partners. 
 
  Created By The name of the user who created the project. 
 
  Last Modified On The date when the project was modified most recently. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 93 
 
 #### Published Customization Page 
 
@@ -3814,6 +3826,10 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  In the table, you can see the messages the users submitted. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 94 
+
  The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
 
  Table: Table Columns 
@@ -3823,12 +3839,6 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
  ID The ID of the message. Click the ID to open the Feedback Message Details dialog box to view the feedback the user submitted. 
 
  Login The user who submitted feedback. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 94 
-
- Column Description 
 
  Date The date when feedback was submitted. 
 
@@ -3864,6 +3874,10 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  This form is also available in the Configuration suite of your Self-Service Portal instance. To access the Configuration suite, sign in to the Self-Service Portal instance with an account that has Administrator credentials. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 95 
+
 #### Form Toolbar 
 
  The form toolbar includes only standard buttons. For the list of standard buttons, see Form Toolbar and More Menu. 
@@ -3871,10 +3885,6 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 #### System Tree Pane 
 
  In this pane, system modules are represented as first-level nodes. Click a node icon to the le of any module to expand the node and view the hierarchical structure of the module. Some modules have a one-level list of forms, while other modules have a two-level list. When you click a node, the table displays the list of its components with their details. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 95 
 
  All wikis are represented by non-expandable nodes. To view the map of any wiki, use the Wiki Site Map (SM202010) form. 
 
@@ -3910,13 +3920,13 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  Form ID: (SM200540) 
 
- You can use this form to collect all strings used in the whole system, and then translate the strings to any of the locales defined in the system. The system automatically finds all the occurrences of the collected strings. If needed, you can assign different translations to some of the occurrences of a string, depending on the context. For more information, see Translation Process. 
-
- You use the System Locales (SM200550) form to add, delete, and manage the locales defined in the system. For more information, see Locales and Languages. 
-
 
 <!-- PAGE_BREAK -->
  Self-Service Portal Form Reference | 96 
+
+ You can use this form to collect all strings used in the whole system, and then translate the strings to any of the locales defined in the system. The system automatically finds all the occurrences of the collected strings. If needed, you can assign different translations to some of the occurrences of a string, depending on the context. For more information, see Translation Process. 
+
+ You use the System Locales (SM200550) form to add, delete, and manage the locales defined in the system. For more information, see Locales and Languages. 
 
 #### Form Toolbar 
 
@@ -3946,17 +3956,17 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  By default, the strings with the Do Not Translate check box selected are automatically hidden from the tables. To view these strings and, if necessary, translate some of the strings, select this check box to display the strings in the tables. After you have made any needed changes, clear this check box to hide those strings again. 
 
- Show Used in UI A form you select if you want to view and translate only the strings associated with resources bound to this form. 
-
- Show Only Unbound 
-
- A check box you select to view only unbound strings (that is, the strings associated with resources that are not bound to forms, such as error messages or prompts). You clear the check box to view the bound strings (that is, the strings associated with resources bound to forms, such as table names). 
-
 
 <!-- PAGE_BREAK -->
  Self-Service Portal Form Reference | 97 
 
 **Element Description** 
+
+**Show Used in UI** A form you select if you want to view and translate only the strings associated with resources bound to this form. 
+
+**Show Only Unbound** 
+
+ A check box you select to view only unbound strings (that is, the strings associated with resources that are not bound to forms, such as error messages or prompts). You clear the check box to view the bound strings (that is, the strings associated with resources bound to forms, such as table names). 
 
 **Unbound Resources to Display** 
 
@@ -4010,17 +4020,19 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
 - _Virtual Table Display Name_ : The captions of text boxes, check boxes, and table columns     that are unbound to entities. 
 
-- _Workspace:_ The titles of workspaces in the modern user interface. To view the strings of a type or multiple types, select the check box that precedes the type or types. To view the strings of all types, clear all the check boxes in the list. 
-
- This box becomes available if the Show Only Unbound check box is selected. 
-
-**Created Since** The date you select to view in the tables only the strings whose translation (or at least one of the translations) has been added to the system after this date. 
+- _Workspace:_ The titles of workspaces in the modern user interface. 
 
 
 <!-- PAGE_BREAK -->
  Self-Service Portal Form Reference | 98 
 
  Element Description 
+
+ To view the strings of a type or multiple types, select the check box that precedes the type or types. To view the strings of all types, clear all the check boxes in the list. 
+
+ This box becomes available if the Show Only Unbound check box is selected. 
+
+ Created Since The date you select to view in the tables only the strings whose translation (or at least one of the translations) has been added to the system after this date. 
 
  Modified After The date you select to view in the tables only the strings whose translation (or at least one of the translations) has been modified after this date. 
 
@@ -4044,13 +4056,13 @@ You can see the dashboard with the _KPI_ widgets in the following screenshot.
 
  Table: Default Values Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
- Button Description 
-
- View Usage Details Opens the Usage Details dialog box (described in detail in the Usage Details Dialog Box section of this topic), where you can see the ID and the name of the form on which the selected value is used. 
-
 
 <!-- PAGE_BREAK -->
  Self-Service Portal Form Reference | 99 
+
+ Button Description 
+
+ View Usage Details Opens the Usage Details dialog box (described in detail in the Usage Details Dialog Box section of this topic), where you can see the ID and the name of the form on which the selected value is used. 
 
 **_Table: Default Values Table Columns_** 
 
@@ -4084,17 +4096,15 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
  View Usage Details Opens the Usage Details dialog box (described in detail in the Usage Details Dialog Box section of this topic), where you can see the ID and the name of the form on which the selected value is used. 
 
-**_Table: Key-Specific Values Table Columns_** 
-
- Column Description 
-
- Key The system resource with which the string selected in the Default Values table is associated. 
-
 
 <!-- PAGE_BREAK -->
  Self-Service Portal Form Reference | 100 
 
+ Table: Key-Specific Values Table Columns 
+
  Column Description 
+
+ Key The system resource with which the string selected in the Default Values table is associated. 
 
  Do Not Translate A check box that you select to indicate that the selected occurrence of the string does not need to be translated. 
 
@@ -4124,15 +4134,17 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
  Source Value The string in the source language. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 101 
+
+ Column Description 
+
  Do Not Translate A check box that you select to indicate that the string does not need to be translated. After you save the changes, the system hides the strings with the check box selected. 
 
  To view the strings for which this check box is selected, select the Show Excluded check box in the Selection area. 
 
  [Target Language] The translation for the string in the target language. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 101 
 
  Table: Key-Specific Values Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -4160,6 +4172,10 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
  The table toolbar of this dialog box includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 102 
+
  Element Description 
 
  Screen ID The ID of Acumatica ERP form on which the selected value is used. 
@@ -4169,12 +4185,6 @@ The table toolbar includes only standard buttons. For the list of standard butto
  Title The name of Acumatica ERP form on which the selected value is used. 
 
  The dialog box has the following buttons. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 102 
-
- Element Description 
 
  Open UI Element Opens the selected form in a new browser tab. 
 
@@ -4212,6 +4222,12 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
  ID The unique identifier of the wiki. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 103 
+
+ Element Description 
+
  Name The name of the wiki, which appears in the following locations: 
 
 - In the wiki tree, if another title is not stated in the **Site Map Title** box in the **Classic UI**     section of this form 
@@ -4223,10 +4239,6 @@ The table toolbar includes only standard buttons. For the list of standard butto
  Created by A read-only box showing the owner of the wiki (that is, the user that created it). 
 
  Created A read-only box showing the time when the wiki was created. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 103 
 
 **_Table: Approval Section_** 
 
@@ -4250,6 +4262,10 @@ The table toolbar includes only standard buttons. For the list of standard butto
 
 You use this section if any users in your system use the Modern Acumatica ERP user interface. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 104 
+
  Element Description 
 
  Show on Help Dashboard 
@@ -4259,12 +4275,6 @@ You use this section if any users in your system use the Modern Acumatica ERP us
  Sequence The whole or decimal number that defines the sequential position of the wiki on the Help dashboard. You use a whole number to insert the selected wiki in sequential order (the wiki with the lowest number is listed first, the wiki with the second-lowest number is listed second, and so on) on Help dashboard. You use a decimal number to insert the selected wiki between two existing wikis for which sequence numbers are already defined. 
 
  The Acumatica ERP system doesn't verify the sequence number that you specify for each wiki. We recommend that you use different sequence numbers for different wikis to avoid errors. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 104 
-
- Element Description 
 
  Default Article The introductory article to be displayed by default after a user clicks Explore on the wiki card on the Help dashboard. 
 
@@ -4290,6 +4300,12 @@ You use this section if any users in your system use the Modern Acumatica ERP us
 
  Print Style The prepared file with the CSS styles that define how all printed articles should look. If no file is specified, browser-specific default styles will be used. You can use the Wiki Style Sheets form to create a style. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 105 
+
+ Element Description 
+
  Article Type The type of articles the wiki holds. The following options are available: 
 
 - _Article_ : The basic type of articles. This type of articles may contain various content     (text, tables, graphics, and links). Usually this type is used for Help articles. 
@@ -4304,12 +4320,6 @@ You use this section if any users in your system use the Modern Acumatica ERP us
 
  For more information, see To Create a Wiki Template and To Apply Templates to a Wiki. 
 
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 105 
-
- Element Description 
-
  Header The template to be used for defining the style and contents of the headers of the wiki articles in the selected wiki. You must define templates before they are available for selection in this box. 
 
  For more information, see To Create a Wiki Template and To Apply Templates to a Wiki. 
@@ -4318,7 +4328,7 @@ You use this section if any users in your system use the Modern Acumatica ERP us
 
  For more information, see To Create a Wiki Template and To Apply Templates to a Wiki. 
 
- Table: Miscellaneous Section 
+**_Table: Miscellaneous Section_** 
 
  Element Description 
 
@@ -4328,13 +4338,17 @@ You use this section if any users in your system use the Modern Acumatica ERP us
 
  Public Virtual Path The web address of the wiki on a local website to be used for access outside of your local network. 
 
- Table: Dashboard Description Section 
+**_Table: Dashboard Description Section_** 
 
  Element 
 
  Dashboard Description 
 
  The brief description to be dislayed on the wiki card on the Help Dashboard. You should fill in this box if the Modern Acumatica ERP UI is used by any users in your system. The description box allows you to enter 255 characters, but we recommend that you enter 160 characters at most so that your description fits the wiki card displayed on the Help dashboard. 
+
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 106 
 
 #### Access Rights Tab 
 
@@ -4353,12 +4367,6 @@ You use this section if any users in your system use the Modern Acumatica ERP us
  Guest Role A check box that indicates (if selected) that this role is marked as guest role—that is, it can be applied to contact accounts. 
 
  Description A short description that has been specified for the role. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 106 
-
- Column Description 
 
  Access Rights The type of access rights the role has to the wiki. You can select one of the following options, listed from the most restrictive access rights to the broadest: 
 
@@ -4386,6 +4394,10 @@ You use this section if any users in your system use the Modern Acumatica ERP us
 
  Process Tag Assigns the selected tag to the latest versions of all published articles in the wiki. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 107 
+
  Table: Table Columns 
 
  Column Description 
@@ -4401,12 +4413,6 @@ You use this section if any users in your system use the Modern Acumatica ERP us
  Column Description 
 
  Allow Using A check box that you select if the language and related settings can be used for the wiki. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 107 
-
- Column Description 
 
  Language The language associated with the same-name locale. 
 
@@ -4444,6 +4450,12 @@ You use this section if any users in your system use the Modern Acumatica ERP us
 
  Role Name The role name. Select the name from the list of roles. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 108 
+
+ Element Description 
+
  Role Description The description of the role. 
 
  Apply Rights to Nested Nodes 
@@ -4453,10 +4465,6 @@ You use this section if any users in your system use the Modern Acumatica ERP us
 #### Le Pane 
 
  This pane contains a tree-like structure of all the wikis configured in your organization with all the folders within them. The wikis are represented as second-level nodes. You can expand the node and view the hierarchical structure of the wiki. Some wikis have a one-level list of items, while other wikis have multiple levels. When you click a node, the right pane displays the list of its items (folders and articles) with their details. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 108 
 
 #### Right Pane 
 
@@ -4488,6 +4496,12 @@ You use this section if any users in your system use the Modern Acumatica ERP us
 
 - _Insert_ : The system allows a user with this role to edit the article or folder, create new ar-     ticles, and initiate the approval process for publishing for the item if such approval is     requested for the wiki. This level allows higher and lower levels of access to be set to     the articles. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 109 
+
+ Column Description 
+
 - _Publish_ : A user with this role can edit, create, and publish articles if such approval is     required for the wiki. This level allows setting higher and lower levels of access to the     items. 
 
 - _Delete_ : A user with this role can edit the article, delete it, or, for a folder, create new ar-     ticles within it. 
@@ -4507,10 +4521,6 @@ You use this section if any users in your system use the Modern Acumatica ERP us
 - _Access Rights by Role_ 
 
 - _Access Rights by Screen_ 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 109 
 
 ### Wiki Articles 
 
@@ -4540,6 +4550,12 @@ You use this section if any users in your system use the Modern Acumatica ERP us
 
  Status The status of the articles to be listed. By default, it is Pending. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 110 
+
+ Element Description 
+
  Wiki Name The name of the wiki whose articles you want to view. Leave the box blank to view articles in all the wikis. 
 
  Folder The folder in the wiki whose articles you want to view. Leave the box blank to view articles in all folders. 
@@ -4554,10 +4570,6 @@ You use this section if any users in your system use the Modern Acumatica ERP us
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 110 
-
  Button Description 
 
  View Displays the selected article. 
@@ -4566,7 +4578,7 @@ You use this section if any users in your system use the Modern Acumatica ERP us
 
  Process All Opens the Update Article Properties Dialog Box dialog box, which you can use to update the properties for all the articles in the list. 
 
-**_Table: Table Columns_** 
+ Table: Table Columns 
 
  Column Description 
 
@@ -4584,9 +4596,11 @@ You use this section if any users in your system use the Modern Acumatica ERP us
 
  Path The local path to the article. 
 
-**_Table: Update Article Properties Dialog Box_** 
+ Table: Update Article Properties Dialog Box You can use this dialog box to update any properties of the selected article or articles. For every box, specify the new setting (if you want to change it) or leave the box blank to leave the setting unchanged. 
 
-You can use this dialog box to update any properties of the selected article or articles. For every box, specify the new setting (if you want to change it) or leave the box blank to leave the setting unchanged. 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 111 
 
  Element Description 
 
@@ -4609,12 +4623,6 @@ You can use this dialog box to update any properties of the selected article or 
  Status The new status for the selected articles, which can be one of the following options: Published , On Hold , Rejected , or Do Not Change. 
 
  Apply Applies the changes and closes the dialog box. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 111 
-
- Element Description 
 
  Cancel Cancels the changes and closes the dialog box. 
 
@@ -4642,6 +4650,10 @@ You can use this dialog box to update any properties of the selected article or 
 
  Category Name A more descriptive name for the category. If you're creating a category, type a name for it. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 112 
+
 #### Table 
 
  This table holds the list of wiki articles included in the selected category. If you have created a new category, you can assign articles to it by adding them to this table or by editing the articles and assigning the category to each article you edit. 
@@ -4653,10 +4665,6 @@ You can use this dialog box to update any properties of the selected article or 
  Article ID The ID of the article to which the category is assigned. To add a new article to the category, add the row and then select the article ID from the wiki tree. 
 
  Name Read-only. The name defined for the article and shown on the wiki tree. The name may be different from the ID. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 112 
 
  Related Links 
 
@@ -4676,6 +4684,12 @@ You can use this dialog box to update any properties of the selected article or 
 
  Save Saves your changes and closes the Wiki Editor form. If the Versioned check box on the Properties tab is selected for the article, the system creates and saves a new version of the article; if the check box is cleared, the system saves the changes to the same version. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 113 
+
+ Button Description 
+
  Exit Edit Mode Discards all changes and closes the Wiki Editor form. 
 
  Attach Opens the File Upload dialog box, which you use to locate and import a file and then create a link to it. You can copy this link and insert it into the document to attach a file. 
@@ -4689,12 +4703,6 @@ You can use this dialog box to update any properties of the selected article or 
  Element Description 
 
  Article ID The unique article ID. To link the selected article to a form, base the article ID on the number of the form, with underscores replacing periods. For example, if the form number is AP101000 , the ID of its form reference topic is AP_10_10_00. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 113 
-
- Element Description 
 
  Name The name to be used for the article on the wiki tree. The name may be different from the ID. 
 
@@ -4724,6 +4732,10 @@ You can use this dialog box to update any properties of the selected article or 
 
  Folder A check box indicating (if selected) that the article is also a folder. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 114 
+
 **_Table: Formatting Toolbar_** 
 
  Button Description 
@@ -4741,12 +4753,6 @@ You can use this dialog box to update any properties of the selected article or 
  Attach file Opens the File Upload dialog box so you can attach a file to the article. 
 
  Bold Marks the selected text in bold style. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 114 
-
- Button Description 
 
  Italic Marks the selected text in italic style. 
 
@@ -4788,6 +4794,12 @@ You can use this dialog box to update any properties of the selected article or 
 
  Page Break Inserts a page break. This button is available only in Edit mode. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 115 
+
+ Button Description 
+
  Hint Box Displays the selected text in a note box. 
 
  This button is available only in Edit mode. 
@@ -4799,10 +4811,6 @@ You can use this dialog box to update any properties of the selected article or 
 #### Properties Tab 
 
  On this tab, you can view information pertaining to the creation and last modification of the article. You can also set the article keywords and add a summary, both of which the system searches when a user performs a search. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 115 
 
  Element Description 
 
@@ -4840,6 +4848,10 @@ You can use this dialog box to update any properties of the selected article or 
 
  The table toolbar includes only standard buttons. For the list of standard buttons, see Table Toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 116 
+
  Table: Table Columns 
 
  Columns Description 
@@ -4851,10 +4863,6 @@ You can use this dialog box to update any properties of the selected article or 
  This tab displays the list of attached files (such as images to be displayed in the text), if the wiki article includes attached files. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 116 
 
  Button Description 
 
@@ -4890,6 +4898,12 @@ You can use this dialog box to update any properties of the selected article or 
 
  Access Rights The level of access rights assigned to the role for this wiki object (folder or article). You can set a role to any of the following options: Inherit , Revoked , View Only , Edit , Insert , Publish , or Delete. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 117 
+
+ Columns Description 
+
  Parent Access Rights 
 
  An info box that shows the level of access rights assigned to the role for the parent folder of this wiki object. 
@@ -4903,12 +4917,6 @@ You can use this dialog box to update any properties of the selected article or 
  Button Description 
 
  Move up Moves the selected article one position up the list. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 117 
-
- Button Description 
 
  Move down Moves the selected article one position down the list. 
 
@@ -4942,6 +4950,10 @@ You can use this dialog box to update any properties of the selected article or 
 
  Summary The user comments. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 118 
+
 ### Wiki Products 
 
  Form ID: (SM200524) 
@@ -4955,10 +4967,6 @@ You can use this dialog box to update any properties of the selected article or 
 #### Summary Area 
 
  Use the elements in this area, described in the following table, to add a new product, to delete a product, or to select an existing product. The table below shows the articles associated with the selected product. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 118 
 
  Element Description 
 
@@ -4988,6 +4996,10 @@ You can use this dialog box to update any properties of the selected article or 
 
  On this form, you can view and edit the structure of the wikis. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 119 
+
 #### Form Toolbar 
 
  The form toolbar includes only standard buttons. For the list of standard buttons, see Form Toolbar and More Menu. 
@@ -5001,10 +5013,6 @@ You can use this dialog box to update any properties of the selected article or 
  Button Description 
 
  Reload Tree Reloads the wiki site map. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 119 
 
 #### Right Pane 
 
@@ -5036,6 +5044,10 @@ You can use this dialog box to update any properties of the selected article or 
 
  Number A number representing the order of the article in the wiki tree. 
 
+
+<!-- PAGE_BREAK -->
+ Self-Service Portal Form Reference | 120 
+
  Related Links 
 
 - _To Add a Wiki_ 
@@ -5049,10 +5061,6 @@ You can use this dialog box to update any properties of the selected article or 
 #### Form Toolbar 
 
  The form toolbar includes only standard buttons. For the list of standard buttons, see Form Toolbar and More Menu. 
-
-
-<!-- PAGE_BREAK -->
- Self-Service Portal Form Reference | 120 
 
 #### Summary Area 
 
@@ -5204,21 +5212,19 @@ You can use this dialog box to update any properties of the selected article or 
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 125 
-
  Figure: The form toolbar of the Transactions form 
 
  The numbered items in the screenshot indicate the following: 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 125 
 
 1. A highlighted button for the expected next command, which represents the next logical step to be     performed on the record selected on the form 
 
@@ -5238,10 +5244,6 @@ You can use this dialog box to update any properties of the selected article or 
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 126 
-
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -5250,13 +5252,15 @@ You can use this dialog box to update any properties of the selected article or 
 
  On some forms, the system applies predefined logic to commands for specific records. Based on this logic, the system may place a button on the form toolbar, highlight it using some color, or do both of these things. 
 
- If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
-
- Figure: The highlighted command and the corresponding status 
+ If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 127 
+ Appendix | 126 
+
+ has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
+
+ Figure: The highlighted command and the corresponding status 
 
 #### Unavailable Commands on the More Menu 
 
@@ -5268,13 +5272,17 @@ You can use this dialog box to update any properties of the selected article or 
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
- Figure: The form toolbar and More menu on a wide screen 
+
+<!-- PAGE_BREAK -->
+ Appendix | 127 
+
+**_Figure: The form toolbar and More menu on a wide screen_** 
+
+**_Figure: The form toolbar and More menu on a narrow screen_** 
 
 
 <!-- PAGE_BREAK -->
  Appendix | 128 
-
- Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -5286,11 +5294,7 @@ You can use this dialog box to update any properties of the selected article or 
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 129 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
 
  Figure: Table toolbar 
 
@@ -5310,17 +5314,17 @@ You can use this dialog box to update any properties of the selected article or 
 
  Delete Row Deletes the selected row or rows. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 129 
+
+ Button Icon Description 
+
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 130 
-
- Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -5350,13 +5354,13 @@ You can use this dialog box to update any properties of the selected article or 
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 130 
+
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 131 
 
  Element Description 
 
@@ -5400,15 +5404,15 @@ You can use this dialog box to update any properties of the selected article or 
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 131 
+
+ Element Description 
+
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 132 
-
- Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

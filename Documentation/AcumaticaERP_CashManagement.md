@@ -2,7 +2,7 @@
 
 # Cash Management 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -144,13 +144,13 @@
 
  Processing Imported Transactions................................................................................................................. 88 
 
- Batch Payment Matching....................................................................................................................... 94 
+ Batch Payment Matching....................................................................................................................... 93 
 
  Transaction Matching Settings.............................................................................................................. 95 
 
- To Set Up Default Transaction Matching Settings................................................................................ 96 
+ To Set Up Default Transaction Matching Settings................................................................................ 95 
 
- To Set Up Transaction Matching Settings Applicable to a Particular Cash Account........................... 97 
+ To Set Up Transaction Matching Settings Applicable to a Particular Cash Account........................... 96 
 
 **Performing Bank Reconciliation.............................................................................................................98** 
 
@@ -178,33 +178,35 @@
 
  Bank Reconciliation: Additional Information...............................................................................................113 
 
-**Performing Settlement of Credit Card Payments................................................................................... 118** 
+**Performing Settlement of Credit Card Payments and EFTs..................................................................... 118** 
 
- To Set Up a Processing Center for Settlement of Credit Card Payments....................................................120 
+ Reconciliation of EFT Payments................................................................................................................... 120 
 
- To Import Settlement Batches......................................................................................................................121 
+ To Set Up a Processing Center for Settlement of Credit Card Payments....................................................123 
 
- To Process Missing Transactions...................................................................................................................122 
+ To Import Settlement Batches......................................................................................................................123 
 
- To Manually Create a Bank Deposit..............................................................................................................123 
+ To Process Missing Transactions...................................................................................................................124 
 
-**Closing Financial Periods in Cash Management..................................................................................... 125** 
+ To Manually Create a Bank Deposit..............................................................................................................126 
 
- To Close Financial Periods in Cash Management........................................................................................ 125 
+**Closing Financial Periods in Cash Management..................................................................................... 127** 
 
- To Reopen a Financial Period in Cash Management................................................................................... 125 
+ To Close Financial Periods in Cash Management........................................................................................ 127 
 
-**Appendix............................................................................................................................................ 127** 
+ To Reopen a Financial Period in Cash Management................................................................................... 127 
 
- Reports........................................................................................................................................................... 127 
+**Appendix............................................................................................................................................ 129** 
 
- Report Form.......................................................................................................................................... 127 
+ Reports........................................................................................................................................................... 129 
 
- Report....................................................................................................................................................132 
+ Report Form.......................................................................................................................................... 129 
 
- Form Toolbar and More Menu.......................................................................................................................134 
+ Report....................................................................................................................................................136 
 
- Table Toolbar................................................................................................................................................. 141 
+ Form Toolbar and More Menu.......................................................................................................................137 
+
+ Table Toolbar................................................................................................................................................. 144 
 
 
 <!-- PAGE_BREAK -->
@@ -226,9 +228,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -804,7 +806,7 @@
 
  The system will fill in the default entry type on the Cash Transactions (CA304000) and Funds Transfers (CA301000) form, and in the Quick Transaction dialog box on the Cash Account Details (CA303000) and Reconciliation Statements (CA302000) forms, but you can override this value. 
 
- 17.Optional: On the Remittance Settings tab, which appears if at least one of the payment methods specified for the cash account requires remittance information, in the Value column for each row, provide the required information. For details, see Setting Up ACH Payment Processing. 18.On the form toolbar, click Save. 19.Open the Chart of Accounts (GL202500) form. 20.Make sure that the read-only Cash Account check box is selected for the GL account to which you linked the cash account you created. This check box indicates that the new cash account has been successfully linked to the GL account and that all transactions of the GL account will be traced in the cash management subledger. 
+ 17.Optional: On the Remittance Settings tab, which appears if at least one of the payment methods specified for the cash account requires remittance information, in the Value column for each row, provide the required information. For details, see Setup of ACH Payment Processing. 18.On the form toolbar, click Save. 19.Open the Chart of Accounts (GL202500) form. 20.Make sure that the read-only Cash Account check box is selected for the GL account to which you linked the cash account you created. This check box indicates that the new cash account has been successfully linked to the GL account and that all transactions of the GL account will be traced in the cash management subledger. 
 
 Aer a cash account is configured and linked to the selected GL account, you need to run validation of the cash account balance in the cash management subledger, in case transactions were posted to the GL account before you created the cash account and linked it. For details, see _To Run Recalculation of Cash Account Balances_. 
 
@@ -1424,7 +1426,7 @@ Aer a cash account is configured and linked to the selected GL account, you n
 
 #### Batch Payments 
 
- You can configure a payment method that you can use to group multiple payments into a batch and send this batch to a money transfer operator. Acumatica ERP provides you with a ready-for-use scenario for generating batches to be processed by an Automated Clearing House (ACH) operator. For details, see Setting Up ACH Payment Processing. 
+ You can configure a payment method that you can use to group multiple payments into a batch and send this batch to a money transfer operator. Acumatica ERP provides you with a ready-for-use scenario for generating batches to be processed by an Automated Clearing House (ACH) operator. For details, see Setup of ACH Payment Processing. 
 
 
 <!-- PAGE_BREAK -->
@@ -1592,11 +1594,11 @@ All three templates used for printing checks can be adjusted to correspond to th
 
  In this activity, you will learn how to create a cash entry of the Disbursement type. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
@@ -1606,7 +1608,7 @@ All three templates used for printing checks can be adjusted to correspond to th
 
 #### Story 
 
- As a SweetLife accountant, you need to register a $15 service fee charged by your bank for a particular checking account, Wholesale Checking , on January 31, 2025. 
+ As a SweetLife accountant, you need to register a $15 service fee charged by your bank for a particular checking account, Wholesale Checking , on January 31, 2026. 
 
 #### Process Overview 
 
@@ -1622,7 +1624,7 @@ All three templates used for printing checks can be adjusted to correspond to th
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _1/31/2025_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _1/31/2026_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu button to view the list of branches that you have access to, and then     click _SweetLife Head Office and Wholesale Center_. 
 
@@ -1630,7 +1632,7 @@ All three templates used for printing checks can be adjusted to correspond to th
 
 #### Step 1: Creating and Releasing a Disbursement Cash Entry 
 
- To create a disbursement cash entry for the $15 bank service fee charged to the Wholesale Checking account on January 31, 2025, do the following: 
+ To create a disbursement cash entry for the $15 bank service fee charged to the Wholesale Checking account on January 31, 2026, do the following: 
 
 1. Open the _Cash Transactions_ (CA304000) form. 
 
@@ -1638,13 +1640,13 @@ All three templates used for printing checks can be adjusted to correspond to th
 
 - **Cash Account** : _10200WH (Wholesale Checking)_ 
 
-- **Tran. Date** : _1/31/2025_ 
+- **Tran. Date** : _1/31/2026_ 
 
-- **Fin. Period** : _01-2025_ 
+- **Fin. Period** : _01-2026_ 
 
 - **Entry Type** : _BANKFEE (Bank Fees)_     Notice that the value in the **Disbursement/Receipt** box is _Disbursement_. This is because you have     selected a disbursement entry type. 
 
-- **Document Ref.** : 20250131 
+- **Document Ref.** : 20260131 
 
 - **Description** : $15 Bank Service Fee Paid for Checking Account in January 
 
@@ -1680,21 +1682,21 @@ All three templates used for printing checks can be adjusted to correspond to th
 
  In this activity, you will learn how to create a cash entry of the Receipt type. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
+
+#### Video Tutorial 
+
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
 
 <!-- PAGE_BREAK -->
  Processing Cash Entries | 44 
 
-#### Video Tutorial 
-
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
-
  FEEDBACK 
 
 #### Story 
 
- On January 31, 2025, SweetLife earned $25 in bank interest on the 10300WH (Cathay Bank Savings) account. As a SweetLife accountant, on January 31, you need to create a cash entry of the Receipt type to account for this amount. 
+ On January 31, 2026, SweetLife earned $25 in bank interest on the 10300WH (Cathay Bank Savings) account. As a SweetLife accountant, on January 31, you need to create a cash entry of the Receipt type to account for this amount. 
 
 #### Process Overview 
 
@@ -1710,7 +1712,7 @@ All three templates used for printing checks can be adjusted to correspond to th
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2025_. If a different date is displayed, click the Business Date menu     button and select _1/31/2025_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2026_. If a different date is displayed, click the Business Date menu     button and select _1/31/2026_. For simplicity, in this activity, you will create and process all documents in the     system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu button to view the list of branches that you have access to, and then     click _SweetLife Head Office and Wholesale Center_. 
 
@@ -1718,7 +1720,7 @@ All three templates used for printing checks can be adjusted to correspond to th
 
 #### Step 1: Creating and Releasing a Receipt Cash Entry 
 
- To create a receipt cash entry for $25 interest earned on the Cathay Bank Savings account on January 31, 2025, do the following: 
+ To create a receipt cash entry for $25 interest earned on the Cathay Bank Savings account on January 31, 2026, do the following: 
 
 1. Open the _Cash Transactions_ (CA304000) form. 
 
@@ -1726,25 +1728,23 @@ All three templates used for printing checks can be adjusted to correspond to th
 
 - **Cash Account** : _10300WH_ ( _Cathay Bank Savings_ ) 
 
-- **Tran. Date** : _1/31/2025_ 
+- **Tran. Date** : _1/31/2026_ 
 
-- **Fin. Period** : _01-2025_ 
+- **Fin. Period** : _01-2026_ 
 
-- **Entry Type** : _INTEREST_ 
+- **Entry Type** : _INTEREST_     Notice that the value in the **Disbursement/Receipt** box is _Receipt_. This is because you have selected a     receipt entry type. 
 
-
-<!-- PAGE_BREAK -->
- Processing Cash Entries | 45 
-
- Notice that the value in the Disbursement/Receipt box is Receipt. This is because you have selected a receipt entry type. 
-
-- **Document Ref.** : 20250131 
+- **Document Ref.** : 20260131 
 
 - **Description** : $25 Interest Earned on Cathay Savings Account in January 
 
 3. On the **Details** tab, click **Add Row** on the table toolbar, and specify the following settings for the added row: 
 
 - **Branch** : _HEADOFFICE_ (inserted by default) 
+
+
+<!-- PAGE_BREAK -->
+ Processing Cash Entries | 45 
 
 - **Amount** : 25.00 
 
@@ -1768,17 +1768,19 @@ All three templates used for printing checks can be adjusted to correspond to th
 
  This topic explains how to release multiple cash entries at once. 
 
-
-<!-- PAGE_BREAK -->
- Processing Cash Entries | 46 
-
 #### Mass Release of Cash Entries 
 
  You can release multiple cash transactions of the Cash Entry type as follows: 
 
 - On the _Release Cash Transactions_ (CA502000) form, to release all listed documents, you click **Release**     **All** on the form toolbar. Alternatively, to release only particular cash transactions, you can first select the     unlabeled check box for each cash transaction that you want to release and then click **Release** on the form     toolbar. 
 
-- On the _Cash Account Details_ (CA303000) form, you first select the cash account and specify the date     range for the cash transactions you want to view. Then you select the unlabeled check box for the cash     transactions you want to release and click **Release** on the form toolbar to release the selected cash     transactions. The system releases the cash transactions and creates a batch of entries to be posted to the general ledger for each transaction. Depending on the posting settings specified on the _Cash Management Preferences_ (CA101000) form, one of the following occurs: 
+- On the _Cash Account Details_ (CA303000) form, you first select the cash account and specify the date     range for the cash transactions you want to view. Then you select the unlabeled check box for the cash 
+
+
+<!-- PAGE_BREAK -->
+ Processing Cash Entries | 46 
+
+ transactions you want to release and click Release on the form toolbar to release the selected cash transactions. The system releases the cash transactions and creates a batch of entries to be posted to the general ledger for each transaction. Depending on the posting settings specified on the Cash Management Preferences (CA101000) form, one of the following occurs: 
 
 - If the **Automatically Post to GL on Release** check box is cleared, the batch is released. The batch is     assigned the _Unposted_ status. 
 
@@ -1806,10 +1808,6 @@ All three templates used for printing checks can be adjusted to correspond to th
 
 - By clicking the **Create Adjustment** button on the table toolbar of the _Reconciliation Statements_ (CA302000)     form when you are performing the bank reconciliation of the cash account. 
 
-
-<!-- PAGE_BREAK -->
- Processing Cash Entries | 47 
-
 #### Before You Proceed 
 
  Before you start recording a cash transaction, make sure all the necessary entry types are created on the Entry Types (CA203000) form and associated with cash accounts on the Cash Accounts (CA202000) form. For details on the entry types, see Entry Types. 
@@ -1817,6 +1815,10 @@ All three templates used for printing checks can be adjusted to correspond to th
 #### To Quickly Record a Cash Entry 
 
 1. Open the _Cash Account Details_ (CA303000) form. 
+
+
+<!-- PAGE_BREAK -->
+ Processing Cash Entries | 47 
 
 2. In the **Cash Account** box of the Selection area, select the cash account for which you want to record the     transaction. 
 
@@ -1842,10 +1844,6 @@ All three templates used for printing checks can be adjusted to correspond to th
 
  You can release multiple cash transactions on the following forms, as described in detail in the following sections: 
 
-
-<!-- PAGE_BREAK -->
- Processing Cash Entries | 48 
-
 - The _Release Cash Transactions_ (CA502000) form: For only for cash transactions that affect General Ledger     accounts—that is, cash transactions of the _Cash Entry_ , _Transfer_ , _Expense Entry_ , _CA Deposit_ , and _CA Void_     _Deposit_ transaction types 
 
 - The _Cash Account Details_ (CA303000) form: For all cash transactions 
@@ -1855,6 +1853,10 @@ All three templates used for printing checks can be adjusted to correspond to th
 1. Open the _Release Cash Transactions_ (CA502000) form. 
 
 2. Do one of the following: 
+
+
+<!-- PAGE_BREAK -->
+ Processing Cash Entries | 48 
 
 - To release all listed documents, click **Release All** on the form toolbar. 
 
@@ -1886,17 +1888,19 @@ All three templates used for printing checks can be adjusted to correspond to th
 
 - Type a reference number in the search box in the upper-right corner. As you type, the system filters the     listed transactions to display only those that contain the text in the **Reference Nbr.** column. 
 
-
-<!-- PAGE_BREAK -->
- Processing Cash Entries | 49 
-
 - Click the column heading of a column you want to search, type a string in the search box, and press     Enter. The system displays the items that contain the text in the column. 
 
 3. On the form toolbar, click **Reverse**. 
 
  If the transaction has already been reversed, the system displays a message that one or more reversing transactions have already been created. To continue, click Yes in the dialog box that opens. 
 
- The system creates and displays a reversing cash transaction with negative amounts, the same details as the original cash transaction, a link to the original transaction in the Orig. Ref. Nbr. box in the Summary area, and a status of Balanced by default (the Hold Transactions on Entry check box on the Cash Management Preferences (CA101000) form is cleared). 
+ The system creates and displays a reversing cash transaction with negative amounts, the same details as the original cash transaction, a link to the original transaction in the Orig. Ref. Nbr. box in the Summary 
+
+
+<!-- PAGE_BREAK -->
+ Processing Cash Entries | 49 
+
+ area, and a status of Balanced by default (the Hold Transactions on Entry check box on the Cash Management Preferences (CA101000) form is cleared). 
 
 4. Make sure all the settings of the newly created transaction are correct, change them if necessary. 
 
@@ -2086,27 +2090,27 @@ Now that you have created and released the reversing cash transaction, you can c
 
  In this activity, you will learn how to record a funds transfer from one checking account to another. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Video Tutorial 
 
- This video shows you the common process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. 
+ This video shows you the general process but may contain less detail than the activity has. If you want to repeat the activity on your own or you are preparing to take the certification exam, we recommend that you follow the instructions in the steps of the activity. This video shows the Classic UI and may not match the system's current appearance. 
 
  FEEDBACK 
 
 #### Story 
 
- In February 2025, one of SweetLife's branches, the Service and Equipment Sales Center, is planning on purchasing additional juicer equipment and parts. As the SweetLife accountant, you have approved the expenditures in the amount of $70,000 for these items, which is roughly $25,000 more than the amount available in the 10200EQ Equipment Checking cash account. To increase the available balance of the 10200EQ cash account, you need to transfer $25,000 from the 10200WH Wholesale Checking account. 
+ In February 2026, one of SweetLife's branches, the Service and Equipment Sales Center, is planning on purchasing additional juicer equipment and parts. As the SweetLife accountant, you have approved the expenditures in the amount of $70,000 for these items, which is roughly $25,000 more than the amount available in the 10200EQ Equipment Checking cash account. To increase the available balance of the 10200EQ cash account, you need to transfer $25,000 from the 10200WH Wholesale Checking account. 
 
 #### Process Overview 
 
- In this activity, you will first review the available balances of the 10200WH and 10200EQ cash accounts on the Cash Account Summary (CA633000) report form. Then on the Funds Transfers (CA301000) form, you will record a funds transfer in the amount of $25,500 from the 10200WH cash account to the 10200EQ cash account. Finally, you will 
+ In this activity, you will first review the available balances of the 10200WH and 10200EQ cash accounts on the Cash Account Summary (CA633000) report form. Then on the Funds Transfers (CA301000) form, you will record a funds 
 
 
 <!-- PAGE_BREAK -->
  Performing Funds Transfers | 55 
 
- review the balances of both accounts on the Cash Account Details (CA303000) form to make sure the transfer is recorded correctly. 
+ transfer in the amount of $25,500 from the 10200WH cash account to the 10200EQ cash account. Finally, you will review the balances of both accounts on the Cash Account Details (CA303000) form to make sure the transfer is recorded correctly. 
 
 #### System Preparation 
 
@@ -2118,7 +2122,7 @@ Now that you have created and released the reversing cash transaction, you can c
 
 - Password: _123_ 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _2/1/2025_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button and select _2/1/2026_. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 3. On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make     sure that the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the     Company and Branch Selection menu button to view the list of branches that you have access to, and then     click _SweetLife Head Office and Wholesale Center_. 
 
@@ -2134,9 +2138,9 @@ Now that you have created and released the reversing cash transaction, you can c
 
 - **Company/Branch** : _SWEETLIFE_ 
 
-- **From Date** : _1/1/2025_ 
+- **From Date** : _1/1/2026_ 
 
-- **To Date** : _2/1/2025_ 
+- **To Date** : _2/1/2026_ 
 
 - **Include Non-Cleared Transactions** : Selected 
 
@@ -2158,9 +2162,9 @@ Now that you have created and released the reversing cash transaction, you can c
 
 - **Account** : _10200WH - Wholesale Checking_ 
 
-- **Transfer Date** : _2/1/2025_ 
+- **Transfer Date** : _2/1/2026_ 
 
-- **Amount** : 25500 These settings indicate that $25,500 will be transferred from the _10200WH - Wholesale Checking_ account on February 1, 2025. 
+- **Amount** : 25500 These settings indicate that $25,500 will be transferred from the _10200WH - Wholesale Checking_ account on February 1, 2026. 
 
 
 <!-- PAGE_BREAK -->
@@ -2172,7 +2176,7 @@ Now that you have created and released the reversing cash transaction, you can c
 
 - **Account** : _10200EQ - Equipment Checking_ 
 
-- **Receipt Date** : _2/1/2025_ These settings indicate that the funds will be transferred to the _10200EQ_ account, which is defined as the checking account for the SweetLife Service and Equipment Sales Center, as shown in the following screenshot. 
+- **Receipt Date** : _2/1/2026_ These settings indicate that the funds will be transferred to the _10200EQ_ account, which is defined as the checking account for the SweetLife Service and Equipment Sales Center, as shown in the following screenshot. 
 
  Figure: The created funds transfer 
 
@@ -2192,13 +2196,13 @@ Now that you have created and released the reversing cash transaction, you can c
 
 - **Cash Account** : _10200EQ_ 
 
-- **Start Date** : _2/1/2025_ 
-
-- **End Date** : _2/1/2025_ 
+- **Start Date** : _2/1/2026_ 
 
 
 <!-- PAGE_BREAK -->
  Performing Funds Transfers | 57 
+
+- **End Date** : _2/1/2026_ 
 
 3. In the table, notice the transaction of the _Transfer In_ type. This type means that the cash account balance     was increased in the amount displayed in the **Receipt** column. 
 
@@ -2228,13 +2232,13 @@ Now that you have created and released the reversing cash transaction, you can c
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
 
-#### Reviewing Funds Transfer Details 
-
- On the Funds Transfers (CA301000) form, you can review funds transfer details and the associated GL batches (of funds transfer that have been released) by clicking the batch numbers in the Source Account and Destination Account sections. 
-
 
 <!-- PAGE_BREAK -->
  Performing Funds Transfers | 58 
+
+#### Reviewing Funds Transfer Details 
+
+ On the Funds Transfers (CA301000) form, you can review funds transfer details and the associated GL batches (of funds transfer that have been released) by clicking the batch numbers in the Source Account and Destination Account sections. 
 
 #### Reviewing Activity on Cash Accounts 
 
@@ -2370,11 +2374,11 @@ Now that you have created and released the reversing cash transaction, you can c
 
  In this activity, you will learn how to make a funds transfer between related companies of an organization. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- At the end of the 01-2025 period, the SweetLife Fruits & Jams and Muffins & Cakes companies need to reconcile their due-to and due-from accounts so that the companies can pay each other. 
+ At the end of the 01-2026 period, the SweetLife Fruits & Jams and Muffins & Cakes companies need to reconcile their due-to and due-from accounts so that the companies can pay each other. 
 
  Acting as an accountant, you need to review the due-to and due-from accounts and create and release a funds transfer from one company to the other. 
 
@@ -2406,7 +2410,7 @@ Now that you have created and released the reversing cash transaction, you can c
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Nenad     Pasic by using the _pasic_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2025_. If a different date is displayed, click the Business Date menu     button and select _1/31/2025_. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/31/2026_. If a different date is displayed, click the Business Date menu     button and select _1/31/2026_. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _Muffins Head Office & Wholesale Center_ branch is selected. If it is not selected, click the Company and     Branch Selection menu to view the list of branches that you have access to, and then click _Muffins Head_     _Office & Wholesale Center_. 
 
@@ -2418,17 +2422,17 @@ Now that you have created and released the reversing cash transaction, you can c
 
  To open the form for creating a new record, type the form ID in the Search box, and on the Search form, point at the form title and click New right of the title. 
 
-2. On the form toolbar, click **Add New Record** , and in the **Description** box of the Summary area, type     Intercompany payoff 01-2025. 
+2. On the form toolbar, click **Add New Record** , and in the **Description** box of the Summary area, type     Intercompany payoff 01-2026. 
 
 3. In the **Source Account** section, specify the following settings: 
 
 - **Account** : _10200MF - Muffins Checking_ 
 
-- **Transfer Date** : _1/31/2025_ 
+- **Transfer Date** : _1/31/2026_ 
 
-- **Document Ref.** : 01312025 
+- **Document Ref.** : 01312026 
 
-- **Amount** : 70.00 These settings indicate to the system that $70 will be transferred from the _10200MF - Muffins Checking_ account on January 31, 2025. The document reference number is the number of the corresponding bank document. 
+- **Amount** : 70.00 These settings indicate to the system that $70 will be transferred from the _10200MF - Muffins Checking_ account on January 31, 2026. The document reference number is the number of the corresponding bank document. 
 
 4. In the **Destination Account** section, specify the following details: 
 
@@ -2438,7 +2442,7 @@ Now that you have created and released the reversing cash transaction, you can c
 <!-- PAGE_BREAK -->
  Processing Inter-Company Funds Transfers | 63 
 
-- **Receipt Date** : _1/31/2025_ These settings indicate that the funds will be transferred to the _10200WH_ account, which is defined as a cash account for the SweetLife company. 
+- **Receipt Date** : _1/31/2026_ These settings indicate that the funds will be transferred to the _10200WH_ account, which is defined as a cash account for the SweetLife company. 
 
 5. On the form toolbar, click **Save** to save the funds transfer. 
 
@@ -3386,7 +3390,7 @@ Now that you have created and released the reversing cash transaction, you can c
 
  In Acumatica ERP, you can use the following forms to upload transactions: 
 
-- _Import Bank Transactions_ : You use this form to upload and view transactions for each bank statement that     the system has created. When you use the form to upload a file with transactions for one cash account,     the system displays the created statement on the form right away. When you use the form to upload a file     with transactions for multiple cash accounts, the system does not display any of the created statements. To     view one of the statements, you need to select the needed cash account and the reference number of the     statement (the last uploaded statement will have the highest reference number).     Here, too, if you import a file in OFX, QBO, or QFX format, the system imports the values of the **Statement**     **Date** , **Start Balance Date** , **End Balance Date** , and the **Ending Balance** boxes from the file. The system     validates the value of **Start Balance Date** which should be equal to the end balance date of the previously     imported statement.     These formats (OFX, QBO, and QFX) do not provide the beginning balance in bank statements. The system     uses as the value of **Beginning Balance** the ending balance of the previous bank statement. Also, the     system checks whether the beginning balance plus the total imported receipts minus the total imported     disbursements agrees with the imported ending balance of the bank statement.     If you import bank transactions in Excel format, you need to manually enter the statement date, end     balance date, and ending balance. The system uses as the beginning balance the ending balance of the     previous bank statement. Similarly, as the start balance, it uses the end balance date of the previous bank     statement.     Aer upload, you can manually edit bank transaction details before continuing to process the transactions     in the system (matching and clearing them). 
+- _Import Bank Transactions_ (CA306500): You use this form to upload and view transactions for each bank     statement that the system has created. When you use the form to upload a file with transactions for one     cash account, the system displays the created statement on the form right away. When you use the form to     upload a file with transactions for multiple cash accounts, the system does not display any of the created     statements. To view one of the statements, you need to select the needed cash account and the reference     number of the statement (the last uploaded statement will have the highest reference number).     Here, too, if you import a file in OFX, QBO, or QFX format, the system imports the values of the **Statement**     **Date** , **Start Balance Date** , **End Balance Date** , and the **Ending Balance** boxes from the file. The system     validates the value of **Start Balance Date** which should be equal to the end balance date of the previously     imported statement.     These formats (OFX, QBO, and QFX) do not provide the beginning balance in bank statements. The system     uses as the value of **Beginning Balance** the ending balance of the previous bank statement. Also, the     system checks whether the beginning balance plus the total imported receipts minus the total imported     disbursements agrees with the imported ending balance of the bank statement.     If you import bank transactions in Excel format, you need to manually enter the statement date, end     balance date, and ending balance. The system uses as the beginning balance the ending balance of the     previous bank statement. Similarly, as the start balance, it uses the end balance date of the previous bank     statement.     Aer upload, you can manually edit bank transaction details before continuing to process the transactions     in the system (matching and clearing them). 
 
 - _Process Bank Transactions_ (CA306000): You use this form primarily to process transactions from all the     created statements for the selected cash account, but you can upload statements on this form as well. When     you upload a file, the system does not display the transactions, regardless of the number of cash accounts in     the file. To view the uploaded transactions, you need to select a cash account; the system then displays all     the transactions uploaded for this cash account that have not been processed (matched and cleared) yet. 
 
@@ -3394,7 +3398,7 @@ Now that you have created and released the reversing cash transaction, you can c
 
  Your company may receive statements for cash accounts in formats that are both supported and not supported by Acumatica ERP formats. If your company has an import service to parse files in formats that are not supported, the service can be added to the list of import services in Acumatica ERP. For details, please consult Acumatica ERP support. 
 
- In such a case, you can define to the system an import service that is specific to a particular cash account. To do this, you need to select the Import Bank Statements to Single Cash Account check box on the Bank Statements tab of the Cash Management Preferences (CA101000) form. This causes the Statement Import Service box to be displayed on the Cash Accounts (CA202000) form, where you can specify the particular import service for the cash account. Also, if the check box is selected, a user can upload a file only aer selecting a cash account on the Import Bank Transactions or Process Bank Transactions form (to make the Upload File button available on the toolbar of the form). 
+ In such a case, you can define to the system an import service that is specific to a particular cash account. To do this, you need to select the Import Bank Statements to Single Cash Account check box on the Bank Statements tab of the Cash Management Preferences (CA101000) form. This causes the Statement Import Service box to be displayed on the Cash Accounts (CA202000) form, where you can specify the particular import service for the cash account. Also, if the check box is selected, a user can upload a file only aer selecting a cash account on the Import Bank Transactions (CA306500) or Process Bank Transactions (CA306000) form (to make the Upload File button available on the toolbar of the form). 
 
 
 <!-- PAGE_BREAK -->
@@ -3402,13 +3406,13 @@ Now that you have created and released the reversing cash transaction, you can c
 
 #### Foolproof Import Procedure 
 
- If your company always receives separate files (in supported formats), each of which contains transactions for a single cash account, you can make the upload procedure more strict. In this case, by selecting the Import Bank Statements to Single Cash Account check box on the Bank Statements tab of the Cash Management Preferences form, you can force the user to select a cash account before uploading a file. If the check box is selected, a user can upload a file only aer selecting a cash account on the Import Bank Transactions and Process Bank Transactions forms. 
+ If your company always receives separate files (in supported formats), each of which contains transactions for a single cash account, you can make the upload procedure more strict. In this case, by selecting the Import Bank Statements to Single Cash Account check box on the Bank Statements tab of the Cash Management Preferences (CA101000) form, you can force the user to select a cash account before uploading a file. If the check box is selected, a user can upload a file only aer selecting a cash account on the Import Bank Transactions (CA306500) and Process Bank Transactions (CA306000) forms. 
 
- In this case, for each cash account for which you import transactions, in the Statement Import Service box on the Cash Accounts form, you also need to specify the PX.Objects.CA.OFXStatementReader import service. 
+ In this case, for each cash account for which you import transactions, in the Statement Import Service box on the Cash Accounts (CA202000) form, you also need to specify the PX.Objects.CA.OFXStatementReader import service. 
 
 #### Manual Entry of Transactions 
 
- You can manually enter transactions for a specific account directly in the table on the Import Bank Transactions form and save the list as a bank statement with a reference number. 
+ You can manually enter transactions for a specific account directly in the table on the Import Bank Transactions (CA306500) form and save the list as a bank statement with a reference number. 
 
 ### To Import a Bank Statement in OFX, QBO, and QFX Formats 
 
@@ -3616,7 +3620,7 @@ Now that you have created and released the reversing cash transaction, you can c
 
 #### Creation of Transaction Rules 
 
- For new payments that originate in the cash management subledger, you can create a rule the system will use to automatically create new payments if the details of an imported transaction meet the conditions of the rule. You can define such rules before you perform the matching process by using the Bank Transaction Rules form, or you can define the rules on the fly when you manually match transactions. When you click Create Rule on the Process Bank Transactions form, the system navigates to the Bank Transaction Rules form. The system automatically fills boxes in the Matching Criteria section with the transaction details, and you need to specify output details only. You can clear or modify values in the Matching Criteria section if some of the transaction details cannot be used as criteria. For example, you can modify the transaction description by using wildcard characters (* or ?) and the Use Wildcards check box, or clear the Description box. 
+ For new payments that originate in the cash management subledger, you can create a rule the system will use to automatically create new payments if the details of an imported transaction meet the conditions of the rule. You can define such rules before you perform the matching process by using the Bank Transaction Rules (CA204500) form, or you can define the rules on the fly when you manually match transactions. When you click Create Rule on the Process Bank Transactions (CA306000) form, the system navigates to the Bank Transaction Rules form. The system automatically fills boxes in the Matching Criteria section with the transaction details, and you need to specify output details only. You can clear or modify values in the Matching Criteria section if some of the transaction details cannot be used as criteria. For example, you can modify the transaction description by using wildcard characters (* or ?) and the Use Wildcards check box, or clear the Description box. 
 
  For example, suppose that you know that the bank charge transactions usually are not greater than $100 per transaction and appear with the SRVCHG transaction code in the bank statement. Therefore, you can define a rule to create BANKCHARGE cash entries in the system from the disbursement bank transactions that comply with these conditions. 
 
@@ -3638,25 +3642,25 @@ Now that you have created and released the reversing cash transaction, you can c
 
  Payments that the system creates during processing of the matched transactions are not subject for approval, even if the process of approval is set up. 
 
+ Once processed, the imported transactions are excluded from future processing of matched lines and displayed on the Reconciliation Statements (CA302000) form marked as cleared and ready to be reconciled. Press ESC to refresh the information on the Process Bank Transactions (CA306000) form, and the processed transactions no longer appear on the form. 
+
 
 <!-- PAGE_BREAK -->
  Managing Bank Statements | 93 
 
- Once processed, the imported transactions are excluded from future processing of matched lines and displayed on the Reconciliation Statements form marked as cleared and ready to be reconciled. Press ESC to refresh the information on the Process Bank Transactions form, and the processed transactions no longer appear on the form. 
-
 #### Review of Processing Results 
 
- You can review the processing result for the transaction in the corresponding bank statement by using the Import Bank Transactions form. You select a cash account and a reference number of an imported bank statement, the system displays the corresponding list of bank transactions. You can see whether a transaction was processed and its details of processing. For the matched transactions you can click the View Matched Document button on the table toolbar to view details of the matched document or batch. 
+ You can review the processing result for the transaction in the corresponding bank statement by using the Import Bank Transactions (CA306500) form. You select a cash account and a reference number of an imported bank statement, the system displays the corresponding list of bank transactions. You can see whether a transaction was processed and its details of processing. For the matched transactions you can click the View Matched Document button on the table toolbar to view details of the matched document or batch. 
 
- You can also review processed bank transactions by using the Bank Transactions History (CA402000) form. You select a cash account and a date range for which you want to review processed bank transactions, the system displays the list of corresponding bank transactions. You can view whether a transaction was matched to an existing document in the system or a new document was created to match this transaction. A reference number of the matched document can be found in the Reference Nbr column, by clicking this number you navigate to the respective form where you can view document details. 
+ You can also review processed bank transactions by using the Bank Transactions History (CA402000) form. You select a cash account and a date range for which you want to review processed bank transactions, the system displays the list of corresponding bank transactions. You can view whether a transaction was matched to an existing document in the system or a new document was created to match this transaction. A reference number of the matched document can be found in the Reference Nbr. column, by clicking this number you navigate to the respective form where you can view document details. 
 
 #### Reversion of Processing Results 
 
- You can revert the results of processing a transaction or multiple transactions by using the Unmatch or Unmatch All button on the table toolbar of the Import Bank Transactions form. 
+ You can revert the results of processing a transaction or multiple transactions by using the Unmatch or Unmatch All button on the table toolbar of the Import Bank Transactions (CA306500) form. 
 
  You select a cash account and a reference number of an imported bank statement, and the system displays the corresponding list of bank transactions. 
 
- To roll back the results of processing of a single bank transaction, you select the unlabeled check box for the transaction and click Unmatch. For the selected bank transaction, the system clears the check boxes in the Matched and Processed columns, and removes the link to the matched document. The selected bank transaction becomes available for further processing on the Process Bank Transactions form. Also, the system clears the Cleared check box and the Clear Date box on the relevant form of the matched document. If a document was included in a reconciliation statement, it will still have the Cleared check box selected. If a document was created to match the transaction, you should handle this document manually (for instance, voiding or matching the document). 
+ To roll back the results of processing of a single bank transaction, you select the unlabeled check box for the transaction and click Unmatch. For the selected bank transaction, the system clears the check boxes in the Matched and Processed columns, and removes the link to the matched document. The selected bank transaction becomes available for further processing on the Process Bank Transactions (CA306000) form. Also, the system clears the Cleared check box and the Clear Date box on the relevant form of the matched document. If a document was included in a reconciliation statement, it will still have the Cleared check box selected. If a document was created to match the transaction, you should handle this document manually (for instance, voiding or matching the document). 
 
  To roll back the results of processing of all bank transactions that have been imported or added on this form for the current bank statement, you click Unmatch All on the table toolbar. The system clears the check boxes in the Matched and Processed columns, and removes the links to the matched documents. Bank transactions become available for further processing on the Process Bank Transactions form. Also, the system clears the Cleared check box and the Clear Date box on the relevant forms for the matched documents. Documents that were included in a reconciliation statement will still have the Cleared check box selected. Documents that were created to match the transactions should be handled (for instance, voided or matched) manually. 
 
@@ -3678,13 +3682,15 @@ Now that you have created and released the reversing cash transaction, you can c
 
 - _Reconciliation Statements_ 
 
+### Batch Payment Matching 
+
+ Because processing payments in a batch is a common practice, Acumatica ERP offers batch processing for both accounts payable and accounts receivable payments. You can group your payments to vendors in a batch and export this batch for further processing by a money transfer operator, such as ACH. Check and cash payments from 
+
 
 <!-- PAGE_BREAK -->
  Managing Bank Statements | 94 
 
-### Batch Payment Matching 
-
- Because processing payments in a batch is a common practice, Acumatica ERP offers batch processing for both accounts payable and accounts receivable payments. You can group your payments to vendors in a batch and export this batch for further processing by a money transfer operator, such as ACH. Check and cash payments from your customers can be tracked by means of deposits. For details, see Payment Methods for Vendors and Preparation of Deposits. 
+ your customers can be tracked by means of deposits. For details, see Payment Methods for Vendors and Preparation of Deposits. 
 
  Financial institutions may report a payment batch as a single line on the bank statement or provide a detailed list of the payments included in a batch. Some banks offer their customers the choice if they want detailed reporting in the statement or not. Other banks always report in one of both ways and it can be different for accounts receivable and accounts payable. 
 
@@ -3704,10 +3710,6 @@ Now that you have created and released the reversing cash transaction, you can c
 
  When you save the reconciliation statement for the first time and the system assigns a reference number to it, the value of the Match Bank Transactions to Batch Payments check box at this moment is preserved by the system for this particular statement. If you change the value of the check box aer the reconciliation statement was first saved, the system will display the Bank Transactions Are Matched to Batch Payments check box on the Reconciliation Statements form. This check box will reflect the value of Match Bank Transactions to Batch Payments at the moment when the statement was first saved. The system will handle AP batch payments based on the original setting before you first saved the reconciliation statement. 
 
-
-<!-- PAGE_BREAK -->
- Managing Bank Statements | 95 
-
 #### Bank Deposit Matching 
 
  If your bank reports a deposit as a list of included payments, you should also record the individual payments in the system, so they can be easily reconciled with the lines in the bank statement. 
@@ -3715,6 +3717,10 @@ Now that you have created and released the reversing cash transaction, you can c
  If your bank reports deposits as a single line, we recommend that you use the bank deposit processing offered by Acumatica ERP. For details about the configuration and processing of deposits, see Preparation of Deposits. 
 
  Aer you match (manually or automatically) a bank transaction to a deposit registered in the system and process matched bank transactions on the Process Bank Transactions form, the system clears the deposit and all payments it includes. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Bank Statements | 95 
 
  Then when you prepare a reconciliation statement on the Reconciliation Statements form, the system displays the deposit in the list of transactions instead of the individual payments it includes. 
 
@@ -3726,7 +3732,7 @@ Now that you have created and released the reversing cash transaction, you can c
 
 - _Performing Bank Reconciliation_ 
 
-- _Setting Up ACH Payment Processing_ 
+- _Setup of ACH Payment Processing_ 
 
 - _Configuring Cash Accounts_ 
 
@@ -3744,10 +3750,6 @@ Now that you have created and released the reversing cash transaction, you can c
 
  For each matching document, the system displays the calculated rate in the right column on the Relevance Calculation tab. The match relevance rate is between 0.00 and 100.00. The best match is the cash transaction with the highest rate or a significantly high rate (see the details in Bank Reconciliation: Additional Information ). The system uses the settings specified in the Auto-Match Thresholds section for automatically matching invoices and payments. 
 
-
-<!-- PAGE_BREAK -->
- Managing Bank Statements | 96 
-
 ### To Set Up Default Transaction Matching Settings 
 
  On the Cash Management Preferences (CA101000) form, you specify the default matching settings to be used by the automatic matching process on the Process Bank Transactions (CA306000) form by performing the following instructions. 
@@ -3756,7 +3758,13 @@ Now that you have created and released the reversing cash transaction, you can c
 
 1. Open the _Cash Management Preferences_ (CA101000) form. 
 
-2. On the **Bank Statements** tab, review the settings and change them if needed as follows:     a. In the **Disbursement Matching** section, specify the number of days allowed before or aer the bank        transaction date (or both) for transactions to be considered matching.     b. Optional: Select the **Allow Matching to Credit Memo** check box if you want to automatically match        receipt bank transactions to AR credit memos.     c. In the **Receipt Matching** section, specify the number of days before or aer the bank transaction date (or        both) allowed for transactions to be considered matching.     d. In the **Invoice Matching** section, select whether invoices should be matched by cash account or by        discount and due dates by selecting the **Match by Cash Account** and **Match by Discount and Due Date**        check boxes respectively. If you have selected the latter option, specify the needed number of days in the        boxes of this section that become available.     e. In the **Other Matching Settings** section, specify additional matching settings by selecting the needed        check boxes.     f. In the **Auto-Match Thresholds** section, review the default values of absolute and relative thresholds and        change them, if necessary. 
+2. On the **Bank Statements** tab, review the settings and change them if needed as follows: 
+
+
+<!-- PAGE_BREAK -->
+ Managing Bank Statements | 96 
+
+ a. In the Disbursement Matching section, specify the number of days allowed before or aer the bank transaction date (or both) for transactions to be considered matching. b. Optional: Select the Allow Matching to Credit Memo check box if you want to automatically match receipt bank transactions to AR credit memos. c. In the Receipt Matching section, specify the number of days before or aer the bank transaction date (or both) allowed for transactions to be considered matching. d. In the Invoice Matching section, select whether invoices should be matched by cash account or by discount and due dates by selecting the Match by Cash Account and Match by Discount and Due Date check boxes respectively. If you have selected the latter option, specify the needed number of days in the boxes of this section that become available. e. In the Other Matching Settings section, specify additional matching settings by selecting the needed check boxes. f. In the Auto-Match Thresholds section, review the default values of absolute and relative thresholds and change them, if necessary. 
 
  The default values of the Absolute Relevance Threshold box ( 75 ) and the Relative Relevance Threshold box ( 25 ) are recommended values. 
 
@@ -3770,10 +3778,6 @@ Now that you have created and released the reversing cash transaction, you can c
 
 - _Process Bank Transactions_ 
 
-
-<!-- PAGE_BREAK -->
- Managing Bank Statements | 97 
-
 ### To Set Up Transaction Matching Settings Applicable to a Particular Cash Account 
 
  You can define and save a specific set of matching settings that will be applied by the automatic matching process to a particular cash account selected on the Process Bank Transactions (CA306000) form by performing the following instructions. 
@@ -3784,13 +3788,17 @@ Now that you have created and released the reversing cash transaction, you can c
 
 2. In the Selection area, in the **Cash Account** box, specify the cash account for which you want to adjust     matching settings. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Bank Statements | 97 
+
 3. On the form toolbar, click **Match Settings** to open the **Transaction Match Settings** dialog box.     This dialog box displays the settings that will be applied for the selected cash account. For cash accounts for     which the matching settings were previously modified and saved in this dialog box, by you or another user,     the saved matching settings are displayed. For other cash accounts, the default settings configured on the     **Bank Statements** _Cash Management Preferences_ (CA101000) form are displayed. 
 
 4. In the dialog box, review the settings and change them if needed as follows:     a. In the **Disbursement Matching** section, specify the number of days allowed before or aer the bank        transaction date (or both) for transactions to be considered matching.     b. Optional: Select the **Allow Matching to Credit Memo** check box if you want to automatically match        receipt bank transactions to AR credit memos.     c. In the **Receipt Matching** section, specify the number of days before or aer the bank transaction date (or        both) allowed for transactions to be considered matching.     d. In the **Weights for Relevance Calculation** section, specify the relative weights for matching payee        names, document dates, and reference numbers. Depending on how the payments received from        different customers vary, you should base these weights on the importance of each factor in identifying        the documents.     e. Optional: Select the **Consider Empty Ref. Nbr. as Matching** check box if you want the system to        automatically match transactions with empty reference numbers.     f. In the **Date Range for Relevance Calculation** section, specify the average delay for payments and the        estimated deviation to be used for relevance calculation. 
 
 5. Click **Save & Close**.     The settings are saved; they are effective only when the current cash account is selected on the _Process_     _Bank Transactions_ form (regardless of whether you or another user selects the cash account on the form).     The default settings and the settings that have been saved for other cash accounts are not affected by these     changes. 
 
- Related Links 
+**Related Links** 
 
 - _Cash Management Preferences_ 
 
@@ -4390,13 +4398,13 @@ The reference number of the possible match in the system is the same as the refe
 
 
 <!-- PAGE_BREAK -->
- Performing Settlement of Credit Card Payments | 118 
+ Performing Settlement of Credit Card Payments and EFTs | 118 
 
-## Performing Settlement of Credit Card Payments 
+## Performing Settlement of Credit Card Payments and EFTs 
 
- With Acumatica ERP, you do not need to manually record deposits of credit card payments to the bank account. The system automatically creates bank deposits based on payments settled with a bank. 
+ With Acumatica ERP, you do not need to manually record deposits of credit card payments or electronic funds transfers (EFTs) to the bank account. The system automatically creates bank deposits based on payments settled with a bank. 
 
- The system imports settlement batches from a processing center and creates bank deposits based on these batches. A settlement batch is a group of transactions that have been submitted together for settlement with a bank. The total amount of the settlement batch will be deposited into a bank account. A settlement batch of transactions has the following mandatory settings on the Settlement Batches (CA307000) form: 
+ The system imports settlement batches from a processing center and creates bank deposits based on these batches. A settlement batch is a group of transactions that have been submitted together for settlement with a bank. An EFT batch always consists of only one transaction. The total amount of the settlement batch will be deposited into a bank account. A settlement batch of transactions has the following mandatory settings on the Settlement Batches (CA307000) form: 
 
 - **Reference Nbr.** : A batch reference number generated automatically by the system 
 
@@ -4408,7 +4416,7 @@ The reference number of the possible match in the system is the same as the refe
 
 - **Settlement Time** : The date and time when the batch was settled, expressed in UTC 
 
-- **Settlement State** : The state of the batch in the processing center— _Settled Successfully_ or _Settlement Error_ 
+- **Settlement State** : The state of the batch in the processing center— _Settled Successfully_ , _Settlement Error_ ,     _Rejected_ , or _Voided_ 
 
 - **Transaction Count** : The total number of transactions 
 
@@ -4436,13 +4444,13 @@ The reference number of the possible match in the system is the same as the refe
 
  Pending Processing The processing of some transactions has resulted in an error, and the processing of the batch should be repeated. 
 
- Pending Review Automatic processing has finished, but some transactions are missing. 
-
 
 <!-- PAGE_BREAK -->
- Performing Settlement of Credit Card Payments | 119 
+ Performing Settlement of Credit Card Payments and EFTs | 119 
 
  Status Description 
+
+ Pending Review Automatic processing has finished, but some transactions are missing. 
 
  Processed All transactions in the settlement batch have been matched to transactions in Acumatica ERP or have been hidden. 
 
@@ -4468,27 +4476,27 @@ The reference number of the possible match in the system is the same as the refe
 
  When the status of the settlement batch is changed from Processing to Processed and the Automatically Create Bank Deposit check box is selected for the processing center on the Processing Centers (CA205000) form, the system automatically creates a bank deposit. If the batch’s status is changed from Pending Review to Processed , you should create a deposit manually by clicking Create Deposit on the form toolbar of the Settlement Batches (CA307000) form. For more details, see To Manually Create a Bank Deposit. 
 
- In either case, the system creates a bank deposit from all payments and cash sales linked to the settlement batch that meet the following criteria: 
+ In either case, the system creates a bank deposit from all documents linked to the settlement batch that meet the following criteria: 
 
 - The cash account is a clearing account of the deposit account. 
 
 - The payment has not been deposited yet. 
 
-- The settlement state of the transactions specified in the **Settlement State** box on the _Import Settlement_     _Batches_ (CA507000) form is either _Settled Successfully_ or _Refund Settled Successfully_. A bank deposit is created with the following settings specified in the Summary area of the _Bank Deposits_ (CA305000) form. 
+- The settlement state of the transactions specified in the **Settlement State** box on the _Import Settlement_     _Batches_ (CA507000) form is _Settled Successfully_ , _Refund Settled Successfully_ , or _Rejected_. A bank deposit is created with the following settings specified in the Summary area of the _Bank Deposits_ (CA305000) form. 
 
  Box Value 
 
  Tran. Type CA Deposit 
 
+
+<!-- PAGE_BREAK -->
+ Performing Settlement of Credit Card Payments and EFTs | 120 
+
+ Box Value 
+
  Status On Hold if the Hold Transactions on Entry check box is selected on the Cash Management Preferences (CA101000) form 
 
  Balanced if the Hold Transactions on Entry check box is cleared 
-
-
-<!-- PAGE_BREAK -->
- Performing Settlement of Credit Card Payments | 120 
-
- Box Value 
 
  Cash Account The account specified in the Deposit Account box on the Preferences tab of the Processing Centers form 
 
@@ -4512,7 +4520,119 @@ The reference number of the possible match in the system is the same as the refe
 
  Charge The entry type linked to the fee type on the Fees tab of the Processing Centers form (both Disbursement and Receipt entry types can be used) 
 
- The link to the bank deposit is saved in the settlement batch and is shown in the Bank Deposit box on the Settlement Batches form. When the deposit is released, the status of the linked settlement batch is set to Deposited. If the deposit is voided, the status of the linked settlement batch is set to Processed. 
+ The link to the bank deposit is saved in the settlement batch and is shown in the Bank Deposit box on the Settlement Batches form. When the deposit is created, the status of the linked settlement batch is set to Deposited. If the deposit is deleted, the status of the linked settlement batch is set to Processed. 
+
+### Reconciliation of EFT Payments 
+
+ Acumatica ERP supports the reconciliation of electronic funds transfers (EFTs). You can easily track and reconcile your EFT payments right alongside other batch payments. If a payment gets rejected by the processing center, you can quickly take action, such as putting a shipment on hold or creating a new payment. 
+
+ The system receives the settlement statuses of EFT transactions from the processing center and processes the transactions further. The reconciliation process works as follows: 
+
+1. On the _Import Settlement Batches_ (CA507000) form, you select a processing center and click **Import Batches**.     Make sure that the selected processing center: 
+
+- Has been set up to work with Acumatica payments, as described in _Configuring and Using Acumatica_     _Payments_. 
+
+
+<!-- PAGE_BREAK -->
+ Performing Settlement of Credit Card Payments and EFTs | 121 
+
+- Has the **Import Settlement Batches** check box selected on the _Processing Centers_ (CA205000) form. 
+
+2. The system imports and processes settlement batches for credit card payments. 
+
+3. The system fetches EFT transactions from the processing center. These transactions have the _Settled_ ,     _Voided_ , or _Rejected_ status. 
+
+4. The system automatically creates a batch for each settled, rejected, or voided EFT transaction. 
+
+5. The system creates a bank deposit on the _Bank Deposits_ (CA305000) form. 
+
+6. You release the bank deposit. 
+
+#### Handling of a Rejected Transaction 
+
+ In rare cases, a processing center rejects an already-settled transaction. This can happen when, for example, the customer closed the account, the wrong account number was entered, fraud was detected, or the account had insufficient funds. Separate batches are created for the settlement and the rejection. 
+
+ If you click a link in the Reference Number column of the Import Settlement Batches (CA507000) form for a rejected transaction, the batch is opened on the Settlement Batches (CA307000) form. 
+
+ A rejected EFT transaction has the following settings on the Settlement Batches form: 
+
+- **Settlement State** (Summary area): _Rejected_. 
+
+- **Rejected Amount** (Summary area): The amount of the rejected transaction. 
+
+ This box and column are hidden for credit card settlement batches. 
+
+- **Card Type** ( **Card Type Summary** tab): _EFT_. To process a rejected transaction, do the following: 
+
+1. On the _Import Settlement Batches_ (CA507000) form, open the batch with the _Rejected_ status. Click the     **Reference Number** link to open the _Settlement Batches_ form. 
+
+2. On the **Missing Transactions** tab, click the transaction and click **Record** to manually record the payment for     the rejected transaction.     The system creates a voided payment and opens it on the _Payments and Applications_ (AR302000) form. 
+
+3. On the More menu of the _Payments and Applications_ form, click **Record EFT Rejection**.     Wait for the system to complete the operation. The system releases and closes the voided payment, which     now has the _Rejected_ processing status. You can view the original payment on the **Application History** tab. 
+
+ Aer a transaction has been rejected, you can get in touch with your customer and decide how to proceed. You might: 
+
+- Suspend the related shipment 
+
+- Create a new payment using different bank details, such as another account or payment method 
+
+- Cancel the shipment if no replacement payment will be made 
+
+
+<!-- PAGE_BREAK -->
+ Performing Settlement of Credit Card Payments and EFTs | 122 
+
+ If you can’t record a batch transaction because the Record button is unavailable or if an error message is displayed, we recommend doing the following: 
+
+1. Hiding the batch transaction to process a batch. 
+
+2. Creating a payment or refund with the _Cash/Check_ payment method, which will add the     missing GL transaction and fix the balance. 
+
+3. Releasing and depositing the adjustment payment or refund. It may be reasonable to create a     specific payment method specifically for these adjustments. 
+
+4. If there are new batches pending review or depositing, first processing all settlement batches     and then processing the rejected batches. 
+
+#### Review of the Settlement Status 
+
+ You can check the Payment Settlement Summary (CA651000) generic inquiry form to review customers’ documents with their settlement statuses. This form shows a list of prepayments, refunds, cash sales, voided payments, and cash returns. 
+
+ The form also displays payments without batch transactions. A payment may not have a batch transaction because: 
+
+- The batch transaction hasn't been imported yet. 
+
+- The transaction has been rejected or voided without settlement, and is mapped not to the original     document but to a recorded voided payment or cash return. 
+
+- The batch transaction has been imported but hasn't been mapped to a payment. 
+
+ Unmapped transactions usually require your attention. You can monitor them on the Settlement Batches (CA307000) form by filtering batches with the Pending Review status. 
+
+ To draw your attention, documents with the Rejected processing status are highlighted in red. 
+
+#### Limitations of the Recording Process 
+
+ The following limitations apply to the process of recording EFT transactions: 
+
+ One limitation is that the Record button on the Missing Transactions tab of the Settlement Batches (CA307000) form is unavailable for rejection batches with the EFT Refund transaction. This is because Acumatica ERP doesn’t fully support creating a voided refund or a voided payment. We recommend clicking Hide and then replacing the missing Voided Refund or Voided Payment transactions with a payment with the Cash/Check payment method. 
+
+ Another limitation relates to the recording operations for EFT transactions in an external system. Consider this example: 
+
+1. An EFT payment transaction was initiated in an external system, for example, eCommerce. 
+
+2. The transaction was settled. 
+
+3. The transaction was rejected and hasn’t yet been imported into Acumatica ERP. 
+
+4. Settlement batches with the _Settled Successfully_ and _Rejected_ statuses have been imported. 
+
+ The recording operations will be interrupted with error messages for both the settlement batch and the rejection batch. We recommend replacing the missing documents by creating a payment and a voided payment or refund with the Cash/Check payment method. 
+
+ As an additional limitation, if a payment was settled, refunded, and then rejected, the recording operation for the rejection batch will be interrupted with an error message. We recommend replacing the missing document by creating a refund with the Cash/Check payment method. 
+
+
+<!-- PAGE_BREAK -->
+ Performing Settlement of Credit Card Payments and EFTs | 123 
+
+ Be cautious with this scenario, because if the refund was successfully settled, you have a refunded amount that isn’t on your account. 
 
 ### To Set Up a Processing Center for Settlement of Credit Card Payments 
 
@@ -4529,10 +4649,6 @@ The reference number of the possible match in the system is the same as the refe
 2. In the **Proc. Center ID** box of the Summary area, select a processing center. 
 
 3. Make sure that the **Active** check box is selected in the Summary area. 
-
-
-<!-- PAGE_BREAK -->
- Performing Settlement of Credit Card Payments | 121 
 
 4. Open the **Preferences** tab. 
 
@@ -4558,6 +4674,10 @@ The reference number of the possible match in the system is the same as the refe
 
  Make sure that the processing center from which you are going to import transactions has been set up, as described in To Set Up a Processing Center for Settlement of Credit Card Payments. 
 
+
+<!-- PAGE_BREAK -->
+ Performing Settlement of Credit Card Payments and EFTs | 124 
+
 #### To Import Settlement Batches from a Processing Center 
 
 1. Open the _Import Settlement Batches_ (CA507000) form. 
@@ -4573,10 +4693,6 @@ The reference number of the possible match in the system is the same as the refe
 5. On the **All Records** and **Unprocessed Batches** tabs, review the results of the import. 
 
 6. To review a particular batch, on either of these tabs, click the link in the **Reference Number** column. The     system navigates to the _Settlement Batches_ (CA307000) form, where you can view the batch’s statistics and     lists of transactions. 
-
-
-<!-- PAGE_BREAK -->
- Performing Settlement of Credit Card Payments | 122 
 
  You can set up an import schedule by clicking Schedules > Add on the form toolbar of the Import Settlement Batches form. The system opens the Automation Schedules (SM205020) form in a pop-up window, where you can set up an automatic schedule. For more details, see Automated Processing: General Information. 
 
@@ -4602,6 +4718,10 @@ The reference number of the possible match in the system is the same as the refe
 
 6. On the table toolbar, click **Record**. The system opens the _Payments and Applications_ (AR302000) form with     the appropriate document type filled in by default in the **Type** box of the Summary area and some of the     transaction settings populated. 
 
+
+<!-- PAGE_BREAK -->
+ Performing Settlement of Credit Card Payments and EFTs | 125 
+
 7. On the _Payments and Applications_ form, fill in other needed document settings, and make sure that the     document amount is the same as the transaction amount. 
 
 8. On the form toolbar, click **Release** to release the document. 
@@ -4621,10 +4741,6 @@ The reference number of the possible match in the system is the same as the refe
 4. Open the **Missing Transactions** tab. 
 
 5. In the table, select the Included check box for the transaction you want to exclude from processing. 
-
-
-<!-- PAGE_BREAK -->
- Performing Settlement of Credit Card Payments | 123 
 
  You can select this check box for multiple transactions to exclude more than one transaction from processing. 
 
@@ -4650,6 +4766,10 @@ The reference number of the possible match in the system is the same as the refe
 
 5. On the table toolbar, click **Match**. 
 
+
+<!-- PAGE_BREAK -->
+ Performing Settlement of Credit Card Payments and EFTs | 126 
+
 ### To Manually Create a Bank Deposit 
 
  On the Settlement Batches (CA307000) form, if the selected settlement batch has the Processed status, you can create a bank deposit based on the transactions selected automatically by the system. Only transactions with the Settled Successfully and Refund Settled Successfully settlement states will be included in the bank deposit. 
@@ -4668,10 +4788,6 @@ The reference number of the possible match in the system is the same as the refe
 
 4. Click the link in the **Bank Deposit** box. 
 
-
-<!-- PAGE_BREAK -->
- Performing Settlement of Credit Card Payments | 124 
-
 5. The system opens the _Bank Deposits_ (CA305000) form in a pop-up window, where you can review the     settings of the bank deposit.     The created bank deposit has the _On Hold_ status if the **Hold Transactions on Entry** check box is selected     on the _Cash Management Preferences_ (CA101000) form and the _Balanced_ status if the **Hold Transactions on**     **Entry** check box is cleared. 
 
 6. Optional: To take the bank deposit off hold, click **Remove Hold** on the form toolbar. 
@@ -4680,7 +4796,7 @@ The reference number of the possible match in the system is the same as the refe
 
 
 <!-- PAGE_BREAK -->
- Closing Financial Periods in Cash Management | 125 
+ Closing Financial Periods in Cash Management | 127 
 
 ## Closing Financial Periods in Cash Management 
 
@@ -4716,7 +4832,7 @@ The reference number of the possible match in the system is the same as the refe
 
 
 <!-- PAGE_BREAK -->
- Closing Financial Periods in Cash Management | 126 
+ Closing Financial Periods in Cash Management | 128 
 
  To open any form, you can navigate to it or search for it (by its name or by its form ID without periods). For more information about search capabilities, see Search. 
 
@@ -4738,7 +4854,7 @@ The reference number of the possible match in the system is the same as the refe
 
 
 <!-- PAGE_BREAK -->
- Appendix | 127 
+ Appendix | 129 
 
 ## Appendix 
 
@@ -4778,37 +4894,105 @@ The reference number of the possible match in the system is the same as the refe
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 128 
+ Appendix | 130 
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 131 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 132 
 
 #### Report Toolbar 
 
@@ -4817,12 +5001,6 @@ The reference number of the possible match in the system is the same as the refe
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 129 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -4848,25 +5026,77 @@ The reference number of the possible match in the system is the same as the refe
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 130 
+ Appendix | 133 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 134 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -4884,91 +5114,45 @@ The reference number of the possible match in the system is the same as the refe
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 131 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 132 
+ Appendix | 135 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -4987,6 +5171,12 @@ The reference number of the possible match in the system is the same as the refe
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 136 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -5010,10 +5200,6 @@ The reference number of the possible match in the system is the same as the refe
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 133 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -5028,13 +5214,19 @@ The reference number of the possible match in the system is the same as the refe
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 137 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -5052,10 +5244,6 @@ The reference number of the possible match in the system is the same as the refe
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 134 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -5070,6 +5258,10 @@ The reference number of the possible match in the system is the same as the refe
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 138 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -5078,11 +5270,7 @@ The reference number of the possible match in the system is the same as the refe
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 135 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -5108,6 +5296,12 @@ The reference number of the possible match in the system is the same as the refe
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 139 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -5115,12 +5309,6 @@ The reference number of the possible match in the system is the same as the refe
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 136 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -5148,19 +5336,19 @@ The reference number of the possible match in the system is the same as the refe
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 140 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 137 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -5170,13 +5358,15 @@ The reference number of the possible match in the system is the same as the refe
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 141 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -5187,10 +5377,6 @@ The reference number of the possible match in the system is the same as the refe
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 138 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -5204,6 +5390,10 @@ The reference number of the possible match in the system is the same as the refe
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 142 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -5214,11 +5404,11 @@ The reference number of the possible match in the system is the same as the refe
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 139 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 143 
 
 #### Unavailable Commands on the More Menu 
 
@@ -5230,17 +5420,13 @@ The reference number of the possible match in the system is the same as the refe
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 140 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 141 
+ Appendix | 144 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -5252,7 +5438,11 @@ The reference number of the possible match in the system is the same as the refe
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 145 
 
  Figure: Table toolbar 
 
@@ -5272,17 +5462,17 @@ The reference number of the possible match in the system is the same as the refe
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 142 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 146 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -5312,13 +5502,13 @@ The reference number of the possible match in the system is the same as the refe
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 143 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 147 
 
  Element Description 
 
@@ -5362,15 +5552,15 @@ The reference number of the possible match in the system is the same as the refe
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 144 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 148 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

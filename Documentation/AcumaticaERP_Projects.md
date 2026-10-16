@@ -2,7 +2,7 @@
 
 # Projects 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -18,585 +18,597 @@
 
  Account Groups: General Information............................................................................................................13 
 
- Account Groups: Configuration Prerequisites................................................................................................14 
+ Account Groups: Default Account Groups...................................................................................................... 14 
 
- Account Groups: To Create an Expense Account Group................................................................................ 15 
+ Account Groups: Configuration Prerequisites................................................................................................16 
 
- Account Groups: To Create an Off-Balance Group.........................................................................................16 
+ Account Groups: To Create an Expense Account Group................................................................................ 17 
 
- Account Groups: Related Reports and Forms................................................................................................ 17 
+ Account Groups: To Create an Off-Balance Group.........................................................................................18 
 
- Creating Billing Rules............................................................................................................................18 
+ Account Groups: Related Reports and Forms................................................................................................ 19 
 
- Billing Rules: General Information..................................................................................................................18 
+ Creating Billing Rules............................................................................................................................20 
 
- Billing Rules: Configuration Prerequisites......................................................................................................20 
+ Billing Rules: General Information..................................................................................................................20 
 
- Billing Rules: Progress Billing......................................................................................................................... 20 
+ Billing Rules: Configuration Prerequisites......................................................................................................22 
 
- Billing Rules: To Configure a Progress Billing Rule........................................................................................22 
+ Billing Rules: Progress Billing......................................................................................................................... 22 
 
- Billing Rules: Time and Material Billing..........................................................................................................23 
+ Billing Rules: To Configure a Progress Billing Rule........................................................................................24 
 
- Billing Rules: To Configure a Time and Material Rule....................................................................................25 
+ Billing Rules: Time and Material Billing..........................................................................................................25 
 
- Billing Rules: To Configure a Combined Billing Rule..................................................................................... 27 
+ Billing Rules: To Configure a Time and Material Rule....................................................................................27 
 
- Billing Rules: To Modify a Billing Rule............................................................................................................ 31 
+ Billing Rules: To Configure a Combined Billing Rule..................................................................................... 29 
 
- Billing Rules: To Modify a Billing Rule to Track New Expenses..................................................................... 34 
+ Billing Rules: To Modify a Billing Rule............................................................................................................ 33 
 
- Managing Billing Rates..........................................................................................................................38 
+ Billing Rules: To Modify a Billing Rule to Track New Expenses..................................................................... 37 
 
- Billing Rates: General Information..................................................................................................................38 
+ Managing Billing Rates..........................................................................................................................41 
 
- Billing Rates: Configuration Prerequisites......................................................................................................40 
+ Billing Rates: General Information..................................................................................................................41 
 
- Billing Rates: To Create a Billing Rule with Rates.......................................................................................... 40 
+ Billing Rates: Configuration Prerequisites......................................................................................................43 
 
- Billing Rates: To Configure Employee-Specific Rates.................................................................................... 43 
+ Billing Rates: To Create a Billing Rule with Rates.......................................................................................... 43 
 
- Billing Rates: To Configure Employeeand Item-Specific Rates...................................................................46 
+ Billing Rates: To Configure Employee-Specific Rates.................................................................................... 46 
 
- Billing Rates: Rate Selection Rules................................................................................................................. 50 
+ Billing Rates: To Configure Employeeand Item-Specific Rates...................................................................49 
 
- Billing Rates: To Bill a Project with Different Billing Rates............................................................................52 
+ Billing Rates: Rate Selection Rules................................................................................................................. 53 
 
- Billing Rates: To Bill a Project with Employee-Specific Rates....................................................................... 54 
+ Billing Rates: To Bill a Project with Different Billing Rates............................................................................55 
 
- Billing Rates: To Bill a Project with Employeeand Item-Specific Rates...................................................... 57 
+ Billing Rates: To Bill a Project with Employee-Specific Rates....................................................................... 57 
 
- Creating Project Tasks.......................................................................................................................... 62 
+ Billing Rates: To Bill a Project with Employeeand Item-Specific Rates...................................................... 60 
 
- Project Tasks: General Information................................................................................................................ 62 
+ Creating Project Tasks.......................................................................................................................... 65 
 
- Project Tasks: Tracking Task Completion.......................................................................................................64 
+ Project Tasks: General Information................................................................................................................ 65 
 
- Project Tasks: Configuration Prerequisites.................................................................................................... 65 
+ Project Tasks: Tracking Task Completion.......................................................................................................67 
 
- Project Tasks: To Add a Project Task to a Project.......................................................................................... 66 
+ Project Tasks: Configuration Prerequisites.................................................................................................... 69 
 
- Project Tasks: Related Report and Inquiry Forms......................................................................................... 69 
+ Project Tasks: Tracking Time with the Timer.................................................................................................70 
 
 
 <!-- PAGE_BREAK -->
  Contents | 3 
 
-**Creating Project Templates and Common Tasks...................................................................................... 71** 
+ Project Tasks: To Add a Project Task to a Project.......................................................................................... 71 
 
- Project Templates and Common Tasks: General Information...................................................................... 71 
+ Project Tasks: Related Report and Inquiry Forms......................................................................................... 74 
 
- Project Templates and Common Tasks: Configuration Prerequisites.......................................................... 73 
+**Creating Project Templates and Common Tasks...................................................................................... 75** 
 
- Project Templates and Common Tasks: Implementation Checklist............................................................. 73 
+ Project Templates and Common Tasks: General Information...................................................................... 75 
 
- Project Templates and Common Tasks: Process Activity.............................................................................. 74 
+ Project Templates and Common Tasks: Configuration Prerequisites.......................................................... 77 
 
-**Creating Labor Items............................................................................................................................ 78** 
+ Project Templates and Common Tasks: Implementation Checklist............................................................. 77 
 
- Labor Items: General Information.................................................................................................................. 78 
+ Project Templates and Common Tasks: Process Activity.............................................................................. 77 
 
- Labor Items: Rules of Billing........................................................................................................................... 79 
+**Creating Labor Items............................................................................................................................ 82** 
 
- Labor Items: Configuration Prerequisites...................................................................................................... 80 
+ Labor Items: General Information.................................................................................................................. 82 
 
- Labor Items: To Configure a Labor Item.........................................................................................................81 
+ Labor Items: Rules of Billing........................................................................................................................... 83 
 
- Labor Items: Labor Cost Rates........................................................................................................................83 
+ Labor Items: Configuration Prerequisites...................................................................................................... 84 
 
- Labor Items: To Define Labor Cost Rates....................................................................................................... 85 
+ Labor Items: To Configure a Labor Item.........................................................................................................85 
 
- Labor Items: Related Forms............................................................................................................................ 86 
+ Labor Items: Labor Cost Rates........................................................................................................................87 
 
-**Processing Project Quotes..................................................................................................................... 88** 
+ Labor Items: To Define Labor Cost Rates....................................................................................................... 89 
 
- Project Quotes: General Information..............................................................................................................88 
+ Labor Items: Related Forms............................................................................................................................ 91 
 
- Project Quotes: Implementation Checklist.................................................................................................... 90 
+**Processing Project Quotes..................................................................................................................... 92** 
 
- Project Quotes: Creation of Project Quotes from Opportunities.................................................................. 92 
+ Project Quotes: General Information..............................................................................................................92 
 
- Project Quotes: To Process a Project Quote Based on an Opportunity........................................................94 
+ Project Quotes: Implementation Checklist.................................................................................................... 94 
 
- Project Quotes: Creation of a Project from a Project Quote......................................................................... 98 
+ Project Quotes: Creation of Project Quotes from Opportunities.................................................................. 96 
 
- Project Quotes: Related Report and Inquiry Forms.....................................................................................102 
+ Project Quotes: To Process a Project Quote Based on an Opportunity........................................................98 
 
- Project Quotes: Mass Processing.................................................................................................................. 102 
+ Project Quotes: Creation of a Project from a Project Quote....................................................................... 102 
 
-**Creating and Processing Projects......................................................................................................... 103** 
+ Project Quotes: Related Report and Inquiry Forms.....................................................................................106 
 
- Project Creation and Processing: General Information............................................................................... 103 
+ Project Quotes: Mass Processing.................................................................................................................. 106 
 
- Project Creation and Processing: Project Security Configuration.............................................................. 104 
+**Creating and Processing Projects......................................................................................................... 108** 
 
- Project Creation and Processing: Configuration Prerequisites................................................................... 110 
+ Project Creation and Processing: General Information............................................................................... 108 
 
- Project Creation and Processing: To Create a Fixed-Price Project..............................................................111 
+ Project Creation and Processing: Project Security Configuration.............................................................. 109 
 
- Project Creation and Processing: To Create a Cost-Plus Project.................................................................114 
+ Project Creation and Processing: Configuration Prerequisites................................................................... 115 
 
- Project Creation and Processing: A Project’s Lifecycle................................................................................117 
+ Project Creation and Processing: To Create a Fixed-Price Project..............................................................116 
 
- Project Creation and Processing: To Process a Fixed-Price Project............................................................ 120 
+ Project Creation and Processing: To Create a Cost-Plus Project.................................................................119 
 
- Project Creation and Processing: To Process a Cost-Plus Project...............................................................122 
+ Project Creation and Processing: A Project’s Lifecycle................................................................................122 
 
- Project Creation and Processing: Related Report and Inquiry Forms........................................................ 125 
+ Project Creation and Processing: To Process a Fixed-Price Project............................................................ 125 
 
- Project Creation and Processing: Mass Processing..................................................................................... 125 
+ Project Creation and Processing: To Process a Cost-Plus Project...............................................................128 
 
-**Processing Project Transactions...........................................................................................................127** 
+ Project Creation and Processing: Related Report and Inquiry Forms........................................................ 130 
 
- Project Transactions: General Information.................................................................................................. 127 
+ Project Creation and Processing: Mass Processing..................................................................................... 131 
 
- Project Transactions: GL Transactions Related to Projects.........................................................................128 
+**Processing Project Transactions...........................................................................................................133** 
 
- Project Transactions: Implementation Checklist.........................................................................................130 
+ Project Transactions: General Information.................................................................................................. 133 
 
 
 <!-- PAGE_BREAK -->
  Contents | 4 
 
- Project Transactions: Process Activity..........................................................................................................131 
+ Project Transactions: GL Transactions Related to Projects.........................................................................134 
 
- Project Transactions: Update of the Project Budget Structure...................................................................134 
+ Project Transactions: Reversal of Project Transactions...............................................................................136 
 
- Project Transactions: Generated Transactions............................................................................................ 137 
+ Project Transactions: Implementation Checklist.........................................................................................136 
 
- Project Transactions: Related Reports and Forms.......................................................................................138 
+ Project Transactions: Process Activity..........................................................................................................138 
 
- Project Transactions: Mass Processing of Documents................................................................................ 139 
+ Project Transactions: Update of the Project Budget Structure...................................................................141 
 
-**Preparing Projects to Billing................................................................................................................ 140** 
+ Project Transactions: Generated Transactions............................................................................................ 144 
 
- Project Billing Preparation: General Information........................................................................................ 140 
+ Project Transactions: Related Reports and Forms.......................................................................................145 
 
- Project Billing Preparation: Implementation Checklist...............................................................................141 
+ Project Transactions: Mass Processing of Documents................................................................................ 146 
 
- Project Billing Preparation: Billing Limits.................................................................................................... 142 
+**Preparing Projects to Billing................................................................................................................ 147** 
 
- Project Billing Preparation: Recurring Billing.............................................................................................. 143 
+ Project Billing Preparation: General Information........................................................................................ 147 
 
- Project Billing Preparation: Related Report and Inquiry Forms................................................................. 144 
+ Project Billing Preparation: Implementation Checklist...............................................................................148 
 
- Project Billing Preparation: Mass Processing...............................................................................................144 
+ Project Billing Preparation: Billing Limits.................................................................................................... 149 
 
-**Billing Projects by Progress................................................................................................................. 146** 
+ Project Billing Preparation: Recurring Billing.............................................................................................. 150 
 
- Progress Billing: General Information.......................................................................................................... 146 
+ Project Billing Preparation: Related Report and Inquiry Forms................................................................. 151 
 
- Progress Billing: To Bill a Project by Progress..............................................................................................147 
+ Project Billing Preparation: Mass Processing...............................................................................................151 
 
- Progress Billing: To Bill a Project by Quantity and Amount........................................................................ 150 
+**Billing Projects by Progress................................................................................................................. 153** 
 
- Progress Billing: Generated Transactions.................................................................................................... 152 
+ Progress Billing: General Information.......................................................................................................... 153 
 
- Progress Billing: Revenue Recognition.........................................................................................................153 
+ Progress Billing: To Bill a Project by Progress..............................................................................................154 
 
- Progress Billing: To Bill a Project for Unrecognized Revenue..................................................................... 155 
+ Progress Billing: To Bill a Project by Quantity and Amount........................................................................ 157 
 
- Progress Billing: Related Reports and Forms...............................................................................................158 
+ Progress Billing: Generated Transactions.................................................................................................... 159 
 
- Progress Billing: Mass Processing of Documents.........................................................................................159 
+ Progress Billing: Revenue Recognition.........................................................................................................160 
 
-**Billing Projects for Time and Material...................................................................................................160** 
+ Progress Billing: To Bill a Project for Unrecognized Revenue..................................................................... 162 
 
- Time and Material Billing: General Information.......................................................................................... 160 
+ Progress Billing: Related Reports and Forms...............................................................................................165 
 
- Time and Material Billing: To Bill a Project for Time and Material..............................................................161 
+ Progress Billing: Mass Processing of Documents.........................................................................................166 
 
- Time and Material Billing: Adjustments, Remainders, and Write-Offs........................................................164 
+**Billing Projects for Time and Material...................................................................................................167** 
 
- Time and Material Billing: To Postpone and Write Off Amounts.................................................................166 
+ Time and Material Billing: General Information.......................................................................................... 167 
 
- Time and Material Billing: Generated Transactions.....................................................................................169 
+ Time and Material Billing: To Bill a Project for Time and Material..............................................................168 
 
- Time and Material Billing: Related Report and Inquiry Forms....................................................................170 
+ Time and Material Billing: Adjustments, Remainders, and Write-Offs........................................................171 
 
- Time and Material Billing: Mass Processing................................................................................................. 171 
+ Time and Material Billing: To Postpone and Write Off Amounts.................................................................173 
 
-**Billing Employee Time.........................................................................................................................173** 
+ Time and Material Billing: Generated Transactions.....................................................................................176 
 
- Employee Time Billing: General Information...............................................................................................173 
+ Time and Material Billing: Related Report and Inquiry Forms....................................................................177 
 
- Employee Time Billing: Implementation Checklist..................................................................................... 175 
+ Time and Material Billing: Mass Processing................................................................................................. 178 
 
- Employee Time Billing: To Enter a Project-Related Time Activity ..............................................................176 
+**Billing Employee Time.........................................................................................................................180** 
 
- Employee Time Billing: To Enter a Project-Related Time Card................................................................... 178 
+ Employee Time Billing: General Information...............................................................................................180 
 
- Employee Time Billing: Process Activity...................................................................................................... 180 
+ Employee Time Billing: Implementation Checklist..................................................................................... 182 
 
- Employee Time Billing: Mass Processing of Documents............................................................................. 182 
+ Employee Time Billing: To Enter a Project-Related Time Activity ..............................................................183 
 
 
 <!-- PAGE_BREAK -->
  Contents | 5 
 
- Employee Time Billing: Related Report and Inquiry Forms........................................................................ 183 
+ Employee Time Billing: To Enter a Project-Related Time Card................................................................... 185 
 
- Employee Time Billing: Generated Transactions......................................................................................... 184 
+ Employee Time Billing: Process Activity...................................................................................................... 187 
 
-**Processing Pro Forma Invoices.............................................................................................................186** 
+ Employee Time Billing: Mass Processing of Documents............................................................................. 190 
 
- Pro Forma Invoices: General Information.................................................................................................... 186 
+ Employee Time Billing: Related Report and Inquiry Forms........................................................................ 190 
 
- Pro Forma Invoices: Implementation Checklist...........................................................................................189 
+ Employee Time Billing: Generated Transactions......................................................................................... 191 
 
- Pro Forma Invoices: To Process a Pro Forma Invoice for a Project.............................................................191 
+**Processing Pro Forma Invoices.............................................................................................................193** 
 
- Pro Forma Invoices: Manual Creation of Pro Forma Invoices..................................................................... 194 
+ Pro Forma Invoices: General Information.................................................................................................... 193 
 
- Pro Forma Invoices: To Create a Pro Forma Invoice for a Project Manually............................................... 195 
+ Pro Forma Invoices: Implementation Checklist...........................................................................................196 
 
- Pro Forma Invoices: Links to Project Transactions......................................................................................198 
+ Pro Forma Invoices: To Process a Pro Forma Invoice for a Project.............................................................198 
 
- Pro Forma Invoices: Generated Transactions.............................................................................................. 200 
+ Pro Forma Invoices: Manual Creation of Pro Forma Invoices..................................................................... 201 
 
- Pro Forma Invoices: Deferred Revenue in Projects......................................................................................200 
+ Pro Forma Invoices: To Create a Pro Forma Invoice for a Project Manually............................................... 202 
 
- Pro Forma Invoices: Related Reports and Forms.........................................................................................202 
+ Pro Forma Invoices: Links to Project Transactions......................................................................................205 
 
- Pro Forma Invoices: Mass-Processing of Documents.................................................................................. 203 
+ Pro Forma Invoices: Generated Transactions.............................................................................................. 207 
 
-**Correcting Project Invoices..................................................................................................................205** 
+ Pro Forma Invoices: Deferred Revenue in Projects......................................................................................207 
 
- Project Invoice Correction: General Information......................................................................................... 205 
+ Pro Forma Invoices: Related Reports and Forms.........................................................................................209 
 
- Project Invoice Correction: Reversing AR Documents................................................................................. 207 
+ Pro Forma Invoices: Mass-Processing of Documents.................................................................................. 210 
 
- Project Invoice Correction: To Correct a Closed Pro Forma Invoice........................................................... 208 
+**Correcting Project Invoices..................................................................................................................212** 
 
- Project Invoice Correction: Credit Memos for Projects................................................................................210 
+ Project Invoice Correction: General Information......................................................................................... 212 
 
- Project Invoice Correction: To Prepare a Credit Memo for a Project.......................................................... 210 
+ Project Invoice Correction: Reversing AR Documents................................................................................. 214 
 
- Project Invoice Correction: Related Report and Inquiry Forms.................................................................. 212 
+ Project Invoice Correction: To Correct a Closed Pro Forma Invoice........................................................... 215 
 
-**Paying AP Bills by Project.................................................................................................................... 214** 
+ Project Invoice Correction: Credit Memos for Projects................................................................................217 
 
- Vendor Payments for a Project: General Information..................................................................................214 
+ Project Invoice Correction: To Prepare a Credit Memo for a Project.......................................................... 217 
 
- Vendor Payments for a Project: Implementation Checklist........................................................................ 218 
+ Project Invoice Correction: Related Report and Inquiry Forms.................................................................. 219 
 
- Vendor Payments for a Project: To Process a Payment for Multiple Bills................................................... 219 
+**Paying AP Bills by Project.................................................................................................................... 221** 
 
- Vendor Payments for a Project: To Process a Payment of Bill Lines...........................................................221 
+ Vendor Payments for a Project: General Information..................................................................................221 
 
- Vendor Payments for a Project: Generated Transactions............................................................................223 
+ Vendor Payments for a Project: Implementation Checklist........................................................................ 225 
 
- Vendor Payments for a Project: Related Report and Inquiry Forms........................................................... 224 
+ Vendor Payments for a Project: To Process a Payment for Multiple Bills................................................... 226 
 
-**Tracking Project Inventory.................................................................................................................. 225** 
+ Vendor Payments for a Project: To Process a Payment of Bill Lines...........................................................228 
 
- Project Inventory Tracking: General Information........................................................................................ 225 
+ Vendor Payments for a Project: Generated Transactions............................................................................231 
 
- Project Inventory Tracking: Item Availability Tracking................................................................................226 
+ Vendor Payments for a Project: Related Report and Inquiry Forms........................................................... 231 
 
- Project Inventory Tracking: Implementation Checklist...............................................................................227 
+**Tracking Project Inventory.................................................................................................................. 232** 
 
- Project Inventory Tracking: To Track Project Inventory by Quantity..........................................................230 
+ Project Inventory Tracking: General Information........................................................................................ 232 
 
- Project Inventory Tracking: To Track Project Inventory by Quantity and Cost.......................................... 232 
+ Project Inventory Tracking: Item Availability Tracking................................................................................233 
 
- Project Inventory Tracking: Generated Transactions.................................................................................. 236 
+ Project Inventory Tracking: Implementation Checklist...............................................................................235 
 
- Project Inventory Tracking: Mass Processing...............................................................................................238 
+ Project Inventory Tracking: To Track Project Inventory by Quantity..........................................................237 
 
-**Tracking Project Inventory by Warehouse Location............................................................................... 239** 
+ Project Inventory Tracking: To Track Project Inventory by Quantity and Cost.......................................... 239 
 
 
 <!-- PAGE_BREAK -->
  Contents | 6 
 
- Project Inventory Tracking by Warehouse Location: General Information................................................ 239 
+ Project Inventory Tracking: Generated Transactions.................................................................................. 243 
 
- Project Inventory Tracking by Warehouse Location: Purchases of Materials and Services....................... 240 
+ Project Inventory Tracking: Mass Processing...............................................................................................245 
 
- Project Inventory Tracking by Warehouse Location: Implementation Checklist....................................... 242 
+**Tracking Project Inventory by Warehouse Location............................................................................... 246** 
 
- Project Inventory Tracking by Warehouse Location: To Purchase Materials and Services for a Project....245 
+ Project Inventory Tracking by Warehouse Location: General Information................................................ 246 
 
- Project Inventory Tracking by Warehouse Location: To Bill a Project........................................................ 247 
+ Project Inventory Tracking by Warehouse Location: Purchases of Materials and Services....................... 247 
 
- Project Inventory Tracking by Warehouse Location: Generated Transactions...........................................250 
+ Project Inventory Tracking by Warehouse Location: Implementation Checklist....................................... 249 
 
-**Managing the Project Budget...............................................................................................................253** 
+ Project Inventory Tracking by Warehouse Location: To Purchase Materials and Services for a Project....252 
 
- Project Budget: General Information........................................................................................................... 253 
+ Project Inventory Tracking by Warehouse Location: To Bill a Project........................................................ 254 
 
- Project Budget: Implementation Checklist.................................................................................................. 255 
+ Project Inventory Tracking by Warehouse Location: Generated Transactions...........................................257 
 
- Project Budget: To Configure and Update the Budget................................................................................ 257 
+**Managing the Project Budget...............................................................................................................260** 
 
- Project Budget: Related Reports and Inquiry Forms................................................................................... 260 
+ Project Budget: General Information........................................................................................................... 260 
 
- Project Budget: To Review Project Balances................................................................................................262 
+ Project Budget: Implementation Checklist.................................................................................................. 262 
 
- Project Budget: Mass Processing of Documents..........................................................................................265 
+ Project Budget: To Configure and Update the Budget................................................................................ 264 
 
- Project Budget: Unit Rate in Budget Lines...................................................................................................265 
+ Project Budget: Related Reports and Inquiry Forms................................................................................... 267 
 
- Project Budget: Automatic Generation of the Revenue Budget..................................................................268 
+ Project Budget: To Review Project Balances................................................................................................269 
 
- Project Budget: Recalculation of the Project Balances............................................................................... 268 
+ Project Budget: Mass Processing of Documents..........................................................................................272 
 
- Project Budget: To Restructure the Budget................................................................................................. 272 
+ Project Budget: Unit Rate in Budget Lines...................................................................................................273 
 
-**Controlling the Project Budget.............................................................................................................276** 
+ Project Budget: Automatic Generation of the Revenue Budget..................................................................275 
 
- Project Budget Control: General Information.............................................................................................. 276 
+ Project Budget: Recalculation of the Project Balances............................................................................... 275 
 
- Project Budget Control: Overrun Notifications During Document Entry....................................................277 
+ Project Budget: To Restructure the Budget................................................................................................. 279 
 
- Project Budget Control: To Review the Budget Overruns........................................................................... 278 
+**Controlling the Project Budget.............................................................................................................283** 
 
- Project Budget Control: Budget Locking......................................................................................................282 
+ Project Budget Control: General Information.............................................................................................. 283 
 
- Project Budget Control: To Lock a Project Budget...................................................................................... 282 
+ Project Budget Control: Overrun Notifications During Document Entry....................................................284 
 
-**Purchasing Services for Projects.......................................................................................................... 284** 
+ Project Budget Control: To Review the Budget Overruns........................................................................... 285 
 
- Purchasing Services for Projects: General Information...............................................................................284 
+ Project Budget Control: Budget Locking......................................................................................................289 
 
- Purchasing Services for Projects: Implementation Checklist..................................................................... 285 
+ Project Budget Control: To Lock a Project Budget...................................................................................... 289 
 
- Purchasing Services for Projects: Process Activity...................................................................................... 287 
+**Purchasing Services for Projects.......................................................................................................... 291** 
 
- Purchasing Services for Projects: Generated Transactions......................................................................... 289 
+ Purchasing Services for Projects: General Information...............................................................................291 
 
-**Purchasing Materials to Project Site..................................................................................................... 290** 
+ Purchasing Services for Projects: Implementation Checklist..................................................................... 292 
 
- Purchases to the Project Site: General Information.................................................................................... 290 
+ Purchasing Services for Projects: Process Activity...................................................................................... 294 
 
- Purchases to the Project Site: Return of Project Drop Shipments..............................................................293 
+ Purchasing Services for Projects: Generated Transactions......................................................................... 296 
 
- Purchases to the Project Site: Implementation Checklist...........................................................................293 
+**Purchasing Materials to Project Site..................................................................................................... 297** 
 
- Purchases to the Project Site: Process Activity............................................................................................296 
+ Purchases to the Project Site: General Information.................................................................................... 297 
 
- Purchases to the Project Site: Generated Transactions.............................................................................. 299 
+ Purchases to the Project Site: Return of Project Drop Shipments..............................................................300 
 
-**Purchasing Materials to Project Site with Receipt..................................................................................301** 
+ Purchases to the Project Site: Implementation Checklist...........................................................................300 
 
- Purchases to the Project Site with a Receipt: General Information............................................................301 
+ Purchases to the Project Site: Process Activity............................................................................................303 
 
 
 <!-- PAGE_BREAK -->
  Contents | 7 
 
- Purchases to the Project Site with a Receipt: Implementation Checklist.................................................. 305 
+ Purchases to the Project Site: Generated Transactions.............................................................................. 306 
 
- Purchases to the Project Site with a Receipt: Process Activity................................................................... 307 
+**Purchasing Materials to Project Site with Receipt..................................................................................308** 
 
- Purchases to the Project Site with a Receipt: Generated Transactions...................................................... 310 
+ Purchases to the Project Site with a Receipt: General Information............................................................308 
 
-**Tracking Changes to the Project Budget............................................................................................... 312** 
+ Purchases to the Project Site with a Receipt: Implementation Checklist.................................................. 312 
 
- Single-Tier Change Management: General Information..............................................................................312 
+ Purchases to the Project Site with a Receipt: Process Activity................................................................... 314 
 
- Single-Tier Change Management: Implementation Checklist.................................................................... 315 
+ Purchases to the Project Site with a Receipt: Generated Transactions...................................................... 317 
 
- Single-Tier Change Management: To Track Changes to the Project Budget.............................................. 316 
+**Tracking Changes to the Project Budget............................................................................................... 319** 
 
- Single-Tier Change Management: Locking Commitments..........................................................................319 
+ Single-Tier Change Management: General Information..............................................................................319 
 
- Single-Tier Change Management: To Prevent Direct Changes to Commitments.......................................320 
+ Single-Tier Change Management: Implementation Checklist.................................................................... 322 
 
- Single-Tier Change Management: Revenue Change Number..................................................................... 322 
+ Single-Tier Change Management: To Track Changes to the Project Budget.............................................. 323 
 
- Single-Tier Change Management: Related Report and Forms....................................................................323 
+ Single-Tier Change Management: Locking Commitments..........................................................................326 
 
- Single-Tier Change Management: Mass Processing of Documents............................................................ 323 
+ Single-Tier Change Management: To Prevent Direct Changes to Commitments.......................................327 
 
-**Processing Change Requests................................................................................................................325** 
+ Single-Tier Change Management: Revenue Change Number..................................................................... 329 
 
- Change Requests: General Information........................................................................................................325 
+ Single-Tier Change Management: Related Report and Forms....................................................................330 
 
- Change Requests: Configuration of Markups...............................................................................................328 
+ Single-Tier Change Management: Mass Processing of Documents............................................................ 330 
 
- Change Requests: Implementation Checklist.............................................................................................. 330 
+**Processing Change Requests................................................................................................................332** 
 
- Change Requests: Implementation Activity................................................................................................. 332 
+ Change Requests: General Information........................................................................................................332 
 
- Change Requests: Process Activity............................................................................................................... 334 
+ Change Requests: Configuration of Markups...............................................................................................335 
 
- Change Requests: Related Report and Forms..............................................................................................341 
+ Change Requests: Implementation Checklist.............................................................................................. 337 
 
- Change Requests: Limitations to Processing Change Orders......................................................................342 
+ Change Requests: Implementation Activity................................................................................................. 339 
 
-**Tracking Cost Commitments................................................................................................................ 343** 
+ Change Requests: Process Activity............................................................................................................... 341 
 
- Committed Costs: General Information....................................................................................................... 343 
+ Change Requests: Related Report and Forms..............................................................................................348 
 
- Committed Costs: Implementation Checklist.............................................................................................. 345 
+ Change Requests: Limitations to Processing Change Orders......................................................................349 
 
- Committed Costs: Process Activity............................................................................................................... 348 
+**Tracking Cost Commitments................................................................................................................ 350** 
 
- Committed Costs: Generated Transactions..................................................................................................351 
+ Committed Costs: General Information....................................................................................................... 350 
 
- Committed Costs: Related Reports and Forms............................................................................................352 
+ Committed Costs: Implementation Checklist.............................................................................................. 352 
 
- Committed Costs: External Commitments................................................................................................... 353 
+ Committed Costs: Process Activity............................................................................................................... 355 
 
- Committed Costs: Mass Processing of Documents......................................................................................354 
+ Committed Costs: Generated Transactions..................................................................................................358 
 
-**Tracking Changes to Commitments...................................................................................................... 355** 
+ Committed Costs: Related Reports and Forms............................................................................................360 
 
- Change Orders for Commitments: General Information............................................................................. 355 
+ Committed Costs: External Commitments................................................................................................... 361 
 
- Change Orders for Commitments: Commitment Updates on Release of Change Orders......................... 357 
+ Committed Costs: Mass Processing of Documents......................................................................................361 
 
- Change Orders for Commitments: Commitment Reopening......................................................................359 
+**Tracking Changes to Commitments...................................................................................................... 362** 
 
- Change Orders for Commitments: To Create a Change Order Class...........................................................359 
+ Change Orders for Commitments: General Information............................................................................. 362 
 
- Change Orders for Commitments: Process Activity.....................................................................................360 
+ Change Orders for Commitments: Commitment Updates on Release of Change Orders......................... 364 
 
-**Forecasting Budgets by Periods........................................................................................................... 366** 
+ Change Orders for Commitments: Commitment Reopening......................................................................366 
 
- Project Budget Forecasts: General Information...........................................................................................366 
+ Change Orders for Commitments: To Create a Change Order Class...........................................................366 
 
 
 <!-- PAGE_BREAK -->
  Contents | 8 
 
- Project Budget Forecasts: Implementation Checklist................................................................................. 367 
+ Change Orders for Commitments: Process Activity.....................................................................................367 
 
- Project Budget Forecasts: Process Activity.................................................................................................. 368 
+**Forecasting Budgets by Periods........................................................................................................... 373** 
 
- Project Budget Forecasts: Generation of Periods........................................................................................ 371 
+ Project Budget Forecasts: General Information...........................................................................................373 
 
- Project Budget Forecasts: Example of Rounding.........................................................................................372 
+ Project Budget Forecasts: Implementation Checklist................................................................................. 374 
 
- Project Budget Forecasts: Related Reports and Inquiries........................................................................... 372 
+ Project Budget Forecasts: Process Activity.................................................................................................. 375 
 
-**Reclassifying Project Expenses............................................................................................................ 374** 
+ Project Budget Forecasts: Generation of Periods........................................................................................ 379 
 
- Project Expense Reclassification: General Information...............................................................................374 
+ Project Budget Forecasts: Example of Rounding.........................................................................................379 
 
- Project Expense Reclassification: Implementation Checklist..................................................................... 377 
+ Project Budget Forecasts: Related Reports and Inquiries........................................................................... 380 
 
- Project Expense Reclassification: Generated Transactions.........................................................................377 
+**Reclassifying Project Expenses............................................................................................................ 381** 
 
- Project Expense Reclassification: Limitations..............................................................................................379 
+ Project Expense Reclassification: General Information...............................................................................381 
 
- Project Expense Reclassification: Related Reports......................................................................................380 
+ Project Expense Reclassification: Implementation Checklist..................................................................... 384 
 
-**Reclassifying Project-Related GL Transactions...................................................................................... 382** 
+ Project Expense Reclassification: Generated Transactions.........................................................................384 
 
- Transaction Reclassification: General Information......................................................................................382 
+ Project Expense Reclassification: Limitations..............................................................................................386 
 
- Transaction Reclassification: Implementation Checklist............................................................................ 385 
+ Project Expense Reclassification: Related Reports......................................................................................387 
 
- Transaction Reclassification: Generated Transactions................................................................................385 
+**Reclassifying Project-Related GL Transactions...................................................................................... 389** 
 
- Transaction Reclassification: Related Report and Inquiry Forms............................................................... 386 
+ Transaction Reclassification: General Information......................................................................................389 
 
- Transaction Reclassification: Mass-Processing............................................................................................ 387 
+ Transaction Reclassification: Implementation Checklist............................................................................ 392 
 
- Transaction Reclassification: Limitations.....................................................................................................387 
+ Transaction Reclassification: Generated Transactions................................................................................392 
 
-**Accounting for WIP Labor Costs in Cost-Plus Projects ............................................................................ 389** 
+ Transaction Reclassification: Related Report and Inquiry Forms............................................................... 393 
 
- WIP Labor Costs in Cost-Plus Projects: General Information...................................................................... 389 
+ Transaction Reclassification: Mass-Processing............................................................................................ 394 
 
- WIP Labor Costs in Cost-Plus Projects: Implementation Checklist.............................................................391 
+ Transaction Reclassification: Limitations.....................................................................................................394 
 
- WIP Labor Costs in Cost-Plus Projects: Implementation Activity................................................................392 
+**Accounting for WIP Labor Costs in Cost-Plus Projects ............................................................................ 396** 
 
- WIP Labor Costs in Cost-Plus Projects: Process Activity..............................................................................394 
+ WIP Labor Costs in Cost-Plus Projects: General Information...................................................................... 396 
 
- WIP Labor Costs in Cost-Plus Projects: Generated Transactions................................................................ 397 
+ WIP Labor Costs in Cost-Plus Projects: Implementation Checklist.............................................................398 
 
- WIP Labor Costs in Cost-Plus Projects: Related Reports and Forms...........................................................398 
+ WIP Labor Costs in Cost-Plus Projects: Implementation Activity................................................................399 
 
- WIP Labor Costs in Cost-Plus Projects: Mass-Processing of Documents.................................................... 399 
+ WIP Labor Costs in Cost-Plus Projects: Process Activity..............................................................................401 
 
-**Accounting for WIP Labor Costs in Fixed-Price Projects ......................................................................... 400** 
+ WIP Labor Costs in Cost-Plus Projects: Generated Transactions................................................................ 404 
 
- WIP Labor Costs in Fixed-Price Projects: General Information................................................................... 400 
+ WIP Labor Costs in Cost-Plus Projects: Related Reports and Forms...........................................................405 
 
- WIP Labor Costs in Fixed-Price Projects: Implementation Checklist.......................................................... 402 
+ WIP Labor Costs in Cost-Plus Projects: Mass-Processing of Documents.................................................... 406 
 
- WIP Labor Costs in Fixed-Price Projects: Implementation Activity.............................................................403 
+**Accounting for WIP Labor Costs in Fixed-Price Projects ......................................................................... 407** 
 
- WIP Labor Costs in Fixed-Price Projects: Process Activity........................................................................... 405 
+ WIP Labor Costs in Fixed-Price Projects: General Information................................................................... 407 
 
- WIP Labor Costs in Fixed-Price Projects: Generated Transactions..............................................................408 
+ WIP Labor Costs in Fixed-Price Projects: Implementation Checklist.......................................................... 409 
 
- WIP Labor Costs in Fixed-Price Projects: Related Reports and Forms........................................................ 409 
+ WIP Labor Costs in Fixed-Price Projects: Implementation Activity.............................................................410 
 
- WIP Labor Costs in Fixed-Price Projects: Mass-Processing of Documents................................................. 410 
+ WIP Labor Costs in Fixed-Price Projects: Process Activity........................................................................... 412 
 
-**Capturing Project Overhead.................................................................................................................411** 
+ WIP Labor Costs in Fixed-Price Projects: Generated Transactions..............................................................415 
 
- Overhead in the Project Budget: General Information................................................................................411 
+ WIP Labor Costs in Fixed-Price Projects: Related Reports and Forms........................................................ 416 
 
 
 <!-- PAGE_BREAK -->
  Contents | 9 
 
- Overhead in the Project Budget: Implementation Checklist...................................................................... 412 
+ WIP Labor Costs in Fixed-Price Projects: Mass-Processing of Documents................................................. 417 
 
- Overhead in the Project Budget: Implementation Activity......................................................................... 413 
+**Capturing Project Overhead.................................................................................................................419** 
 
- Overhead in the Project Budget: Process Activity....................................................................................... 415 
+ Overhead in the Project Budget: General Information................................................................................419 
 
- Overhead in the Project Budget: Generated Transactions.......................................................................... 417 
+ Overhead in the Project Budget: Implementation Checklist...................................................................... 420 
 
- Overhead in the Project Budget: Related Reports and Forms.................................................................... 417 
+ Overhead in the Project Budget: Implementation Activity......................................................................... 421 
 
- Overhead in the Project Budget: Mass-Processing of Documents..............................................................418 
+ Overhead in the Project Budget: Process Activity....................................................................................... 423 
 
-**Grouping Invoices............................................................................................................................... 419** 
+ Overhead in the Project Budget: Generated Transactions.......................................................................... 425 
 
- Grouping of Invoices: General Information..................................................................................................419 
+ Overhead in the Project Budget: Related Reports and Forms.................................................................... 426 
 
- Grouping Invoices: Implementation Checklist.............................................................................................420 
+ Overhead in the Project Budget: Mass-Processing of Documents..............................................................426 
 
- Grouping of Invoices: Process Activity..........................................................................................................420 
+**Grouping Invoices............................................................................................................................... 428** 
 
- Grouping Invoices: Related Reports and Inquiry Forms..............................................................................424 
+ Grouping of Invoices: General Information..................................................................................................428 
 
-**Working with Taxes in Projects............................................................................................................ 425** 
+ Grouping Invoices: Implementation Checklist.............................................................................................429 
 
- Taxes in Projects: General Information........................................................................................................ 425 
+ Grouping of Invoices: Process Activity..........................................................................................................429 
 
- Taxes in Projects: Implementation Checklist............................................................................................... 426 
+ Grouping of Invoices: Related Reports and Inquiry Forms......................................................................... 433 
 
- Taxes in Projects: Project Expenses with Taxes........................................................................................... 429 
+**Working with Taxes in Projects............................................................................................................ 434** 
 
- Taxes in Projects: Inclusive Taxes in AR Documents....................................................................................430 
+ Taxes in Projects: General Information........................................................................................................ 434 
 
- Taxes in Projects: Project-Specific Tax Zones...............................................................................................431 
+ Taxes in Projects: Implementation Checklist............................................................................................... 435 
 
- Taxes in Projects: Generated Transactions...................................................................................................432 
+ Taxes in Projects: Project Expenses with Taxes........................................................................................... 438 
 
-**Managing Multicurrency Projects......................................................................................................... 435** 
+ Taxes in Projects: Inclusive Taxes in AR Documents....................................................................................439 
 
- Multicurrency Projects: General Information...............................................................................................435 
+ Taxes in Projects: Project-Specific Tax Zones...............................................................................................440 
 
- Multicurrency Projects: Project-Related Documents in Multiple Currencies..............................................436 
+ Taxes in Projects: Generated Transactions...................................................................................................441 
 
- Multicurrency Projects: Unit Rates in the Project Budget........................................................................... 437 
+**Managing Multicurrency Projects......................................................................................................... 444** 
 
- Multicurrency Projects: Implementation Checklist..................................................................................... 439 
+ Multicurrency Projects: General Information...............................................................................................444 
 
- Multicurrency Projects: Related Reports and Forms................................................................................... 439 
+ Multicurrency Projects: Project-Related Documents in Multiple Currencies..............................................445 
 
-**Appendix............................................................................................................................................ 441** 
+ Multicurrency Projects: Unit Rates in the Project Budget........................................................................... 446 
 
- Reports........................................................................................................................................................... 441 
+ Multicurrency Projects: Implementation Checklist..................................................................................... 448 
 
- Report Form.......................................................................................................................................... 441 
+ Multicurrency Projects: Related Reports and Forms................................................................................... 448 
 
- Report....................................................................................................................................................446 
+**Managing Project Files........................................................................................................................ 450** 
 
- Form Toolbar and More Menu.......................................................................................................................448 
+ Managing Project Files: Configuration of Tags and File Access...................................................................450 
 
- Table Toolbar................................................................................................................................................. 455 
+ Managing Project Files: Centralized File Management................................................................................451 
+
+**Appendix............................................................................................................................................ 454** 
+
+ Reports........................................................................................................................................................... 454 
+
+ Report Form.......................................................................................................................................... 454 
+
+ Report....................................................................................................................................................461 
+
+ Form Toolbar and More Menu.......................................................................................................................462 
+
+ Table Toolbar................................................................................................................................................. 469 
 
 
 <!-- PAGE_BREAK -->
@@ -618,9 +630,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -726,13 +738,13 @@
 
 - An account group of the _Income_ or _Expense_ type may include accounts of any type (income, expense, asset,     or liability). Transactions posted to these account groups are displayed on the _Project Budget_ form, on the     **Balances** tab of the _Projects_ form, and on the **Revenue Budget** and **Cost Budget** tabs of the _Projects_ form. 
 
-- Account groups of the _Off-Balance_ type are not mapped to any general ledger accounts.     You can use account groups of the _Off-Balance_ type to collect and track project statistical and other     information that is unrelated to finance. The transactions posted to account groups of this type will not     update the general ledger. For example, you might define an off-balance group for unrecognized revenue:     You may want to see the amount in your project reporting, but you do not want to post to the general ledger     until the actual billing is done and thus the revenue is recognized. As another example, you can create an     off-balance group for recording all work hours spent by employees on the project if you want to know the     total amount associated with the number of work hours spent, but you do not want to post this amount     to the general ledger. In addition, you can select the **Expense** check box to track the amounts in the off- 
+- Account groups of the _Off-Balance_ type are not mapped to any general ledger accounts.     You can use account groups of the _Off-Balance_ type to collect and track project statistical and other     information that is unrelated to finance. The transactions posted to account groups of this type will not     update the general ledger.     Example 1: You might define an off-balance group for unrecognized revenue to display the amount in     your project reporting, without posting it to the general ledger until the actual billing is done and thus the     revenue is recognized.     Example 2: You can create an off-balance group for recording all work hours spent by employees on the     project if you want to know the total amount associated with the number of work hours spent, but you do     not want to post this amount to the general ledger. In addition, you can select the **Expense** check box on 
 
 
 <!-- PAGE_BREAK -->
  Creating Account Groups | 14 
 
- balance account group as expenses. The system displays the transactions posted to this account group on the Project Budget form and on the Balances and Cost Budget tabs of the Projects form. 
+ the Account Groups form to track the amounts in the off-balance account group as expenses. The system displays the transactions posted to this account group on the Project Budget form and on the Balances and Cost Budget tabs of the Projects form. 
 
 #### Recommendations for Creating Account Groups 
 
@@ -744,13 +756,103 @@
 
 - An asset account that you might want to use as a control account for the AR subledger. For such an     account, _AR_ is selected in the **Control Account Module** box on the _Chart of Accounts_ (GL202500) form.     This can be, for example, an accounts receivable account that is debited by customer invoices. 
 
-- An asset account that is used as an Inventory account for stock items. 
+- A liability account, such as a purchase accrual account, which you might want to include in an account     group of the _Expense_ type. 
 
 - A liability account that you might want to use as a control account for the AP subledger. For such an     account, _AP_ is selected in the **Control Account Module** box on the _Chart of Accounts_ form. This can be an     accounts payable account that is credited by vendor bills, or a retainage payable account. 
 
 - An account that is linked to a cash account. On the _Chart of Accounts_ form, this account has the **Cash**     **Account** check box selected. 
 
 - Allocation and billing rules select transactions by account groups. If transactions of two accounts should     follow different allocation or billing rules or use different rates, these two accounts should be included in     different account groups. If the transactions usually use the same rate, consider including their accounts in     one group. 
+
+### Account Groups: Default Account Groups 
+
+ When your company uses multiple income or expense account groups, Acumatica ERP inserts the default account groups in: 
+
+- The budget lines of projects, project templates, and change orders 
+
+- The estimation lines of change requests 
+
+ By using multiple income or expense account groups , we mean that you have more than one active account group of the Income or Expense type on the Account Groups (PM201000) form. 
+
+#### Account Groups in Revenue Budget Lines of Projects and Project Templates 
+
+ Use case: Your company has multiple income account groups and tracks a project's revenue budget at the item level. You’re entering the revenue budget lines of a project or project template. 
+
+ The system fills in the account group based on the item's sales account. 
+
+ When you add a line and select an item on the Revenue Budget tab of the Projects (PM301000) or Project Templates (PM208000) form, the system automatically fills in the Account Group column. It inserts the account group of the sales account of the item that you've selected. 
+
+ The system inserts the default account group—which you can change, if needed—only when the Account Group column is empty. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Account Groups | 15 
+
+#### Account Groups in Revenue Budget Lines of Change Orders 
+
+ Use case: Your company has multiple income account groups, tracks the project's revenue budget at the item level, and uses change orders. You’re entering the revenue budget lines of a change order. 
+
+ When you add a line on the Revenue Budget tab of the Change Orders (PM308000) form, the system uses the line’s task or the item as the source of the default account group. That is, it populates the Account Group column based on the first applicable source: 
+
+- If you select a project task first and its default sales account has an account group, the system inserts this     account group. 
+
+- If you select an item first and its sales account has an account group, the system inserts this account group. **Use case:** Your company has multiple income account groups, tracks the project's revenue budget at the task level, and uses change orders. You are entering the revenue budget lines of a change order. 
+
+ When you add a revenue budget line and fill in the Project Task column, the system inserts the account group of the default sales account of the selected project task. 
+
+ The system inserts the default account group—which you can override—only when the Account Group column is empty. 
+
+#### Account Groups in Cost Budget Lines of Change Orders 
+
+ Use case: Your company has multiple expense account groups, tracks the project's cost budget at the item level, and uses change orders. You’re entering the cost budget lines of a change order. 
+
+ While entering a change order, you can use a task or an item as the source of the account group. 
+
+ When you add a line and select an item on the Cost Budget tab of the Change Orders (PM308000) form, the system populates the Account Group column based on the first applicable source: 
+
+- If you select a project task first and its default expense account has an account group, this account group is     inserted. 
+
+- If you select an item first and its COGS account has an account group, this account group is inserted. **Use case:** Your company has multiple expense account groups, tracks the project's cost budget at the task level, and uses change orders. You’re entering the cost budget lines of a change order. 
+
+ When you add a cost budget line to a change order and select a task in the Project Task column, the system inserts the account group associated with the task’s default expense account. 
+
+ The system inserts the default account group—which you can override—only when the Account Group column is empty. 
+
+#### Account Groups in Budget Lines of Change Requests 
+
+ When you're creating a change request, the system uses either the item or the project task to determine which account group to insert in a budget line. 
+
+ Use case: Your company has multiple expense and income account groups, tracks the project's budget at the item level and uses change requests. You’re adding estimation lines to a change request. 
+
+ When you add a line on the Estimation tab of the Change Requests (PM308500) form, the system uses the line's task or the item as the source of the default account group. That is, it inserts an account group in both of these columns based on the first applicable source: 
+
+- **Account Group** : 
+
+
+<!-- PAGE_BREAK -->
+ Creating Account Groups | 16 
+
+- If you select a project task first and its default expense account has an account group, this account group     is inserted. 
+
+- If you select an item first and its COGS account has an account group, this account group is inserted. 
+
+- **Revenue Account Group** : 
+
+- If you select a revenue task first and its default sales account has an account group, this account group is     inserted. 
+
+- If you select a revenue item first and its sales account has an account group, this account group is     inserted. 
+
+ The system inserts the default account groups—which you can change, if needed—only when the columns are empty. 
+
+ Use case: Your company has multiple expense and income account groups, tracks the project's budget at the task level and uses change requests. You’re entering the estimation lines of a change request. 
+
+ If you add a line on the Estimation tab of the Change Requests form and select a project task, the system inserts account groups in the following columns: 
+
+- **Account Group** : The account group of the default expense account of the project task 
+
+- **Revenue Account Group** : The account group of the default sales account of the revenue project task 
+
+ The system inserts the default account groups—which you can change, if needed—only when the columns are empty. 
 
 ### Account Groups: Configuration Prerequisites 
 
@@ -770,13 +872,13 @@
 
 
 <!-- PAGE_BREAK -->
- Creating Account Groups | 15 
+ Creating Account Groups | 17 
 
 ### Account Groups: To Create an Expense Account Group 
 
  In the following implementation activity, you will learn how to create account groups. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -810,11 +912,11 @@
 
 2. In the search box on the form, type 61000. 
 
-3. In the **Account Group** column of the only row, notice that _ADVERTEXP_ is specified (as shown in the following     screenshot), which means that the account is mapped to this account group. 
+3. In the **Account Group** column of the only row, notice that _ADVERTEXP_ is specified, which means that the     account is mapped to this account group. 
 
 
 <!-- PAGE_BREAK -->
- Creating Account Groups | 16 
+ Creating Account Groups | 18 
 
  Figure: Account mapped to the account group 
 
@@ -824,7 +926,7 @@
 
  In this implementation activity, you will learn how to create an account group to be used for collecting statistical information. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -852,7 +954,7 @@
 
 
 <!-- PAGE_BREAK -->
- Creating Account Groups | 17 
+ Creating Account Groups | 19 
 
 ### Account Groups: Related Reports and Forms 
 
@@ -874,7 +976,7 @@
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 18 
+ Creating Billing Rules | 20 
 
 ## Creating Billing Rules 
 
@@ -918,7 +1020,7 @@
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 19 
+ Creating Billing Rules | 21 
 
 - The account group that is used as a filter to select the transactions for billing if this is a _Time and Material_     billing step.     When the billing procedure is run, the system selects all the transactions that are due for billing. Normally,     you use the same account group (or groups) for billing that you use for accumulating the unrecognized     revenue. By running billing for these account groups, you recognize the revenue. 
 
@@ -952,7 +1054,7 @@
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 20 
+ Creating Billing Rules | 22 
 
  inventory item, as well as the cost code if the Cost Codes feature is enabled on the Enable/Disable Features (CS100000) form. 
 
@@ -998,7 +1100,7 @@
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 21 
+ Creating Billing Rules | 23 
 
 - A formula to define the description of the invoice and another formula to define the description of each     invoice line, to make the system compose these descriptions dynamically during the billing process. 
 
@@ -1038,7 +1140,7 @@
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 22 
+ Creating Billing Rules | 24 
 
 - If the check box is cleared, the system generates an accounts receivable invoice (if the billed amount is     positive) or credit memo (if the billed amount is negative). For more information about credit memos, see     _Project Invoice Correction: Credit Memos for Projects_. The system creates a project invoice with the unit prices, amounts, and quantities copied from the **Unit Rate** , **Pending Invoice Amount** and **Pending Invoice Quantity** columns of the **Revenue Budget** tab of the _Projects_ form for the corresponding revenue budget lines. If the project billing is performed by using the pro forma invoice workflow, the pro forma invoice lines that are produced by the progress billing steps are shown in the prepared pro forma invoice on the **Progress Billing** tab of the _Pro Forma Invoices_ (PM307000) form. 
 
@@ -1062,7 +1164,7 @@
 
  The following implementation activity will walk you through the process of configuring a progress billing rule. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1070,11 +1172,11 @@
 
 #### Configuration Overview 
 
- For the purposes of this activity, on the Enable/Disable Features (CS100000) form, the Project Accounting feature has been enabled to support the project accounting functionality. 
+ For the purposes of this activity, on the Enable/Disable Features (CS100000) form, the Projects feature has been enabled to support the project management functionality. 
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 23 
+ Creating Billing Rules | 25 
 
 #### Process Overview 
 
@@ -1086,7 +1188,7 @@
 
 #### Step 1: Configuring a Billing Rule 
 
- To configure a billing rule to be used for progress billing, perform the following instructions: 
+ To configure a billing rule to be used for progress billing, do the following: 
 
 1. On the _Billing Rules_ (PM207000) form, add a new record. 
 
@@ -1104,7 +1206,7 @@
 
 - **Description** : Billing by progress 
 
-4. In the right pane, specify the following settings for the step (which is selected in the le pane): 
+4. In the right pane ( **Calculation Rules** tab), specify the following settings for the added step: 
 
 - **Billing Type** : _Progress Billing_ 
 
@@ -1114,9 +1216,9 @@
 
 - **Use Sales Account From** : _Account Group_     The system uses as the sales account the default account of the account group of a revenue budget line     of a project. 
 
-- **Create Lines with Zero Amount and Quantity** : Cleared     You clear this check box to add to the created invoice only the lines with nonzero amounts. 
+5. On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box.     You clear this check box to add to the created invoice only the lines with nonzero amounts. 
 
-5. Save the billing rule you have created. 
+6. Save the billing rule you have created. 
 
  You have configured the billing rule that can be used for billing a fixed-price project based on its progress. To bill a project by using this rule, you need to assign the rule to the project tasks. To review how a project is billed when you use a progress billing rule, complete the Progress Billing: To Bill a Project by Progress activity. 
 
@@ -1126,7 +1228,7 @@
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 24 
+ Creating Billing Rules | 26 
 
 #### Configuration of a Billing Rule Step 
 
@@ -1138,7 +1240,7 @@
 
 - A formula to calculate the amount of the invoice lines created by the _Time and Material_ billing steps, and     another formula to calculate the quantity of these invoice lines. In these formulas, you can use fields and     attributes from such entities as the project, project budget, project task, project transaction, customer,     vendor, employee, inventory item, and account group. You can also use different sources of the project     rates: those from rate tables, which can be configured on the _Rate Tables_ (PM206000) form; and those from     sales price lists, which are defined on the _Sales Prices_ (AR202000) form. 
 
- If inclusive taxes are configured in the system, the amounts of project transactions are considered gross amounts—that is, already including the inclusive taxes. If the project transaction amounts that you enter in your system are net amounts (that is, it does not include an inclusive tax), you need to configure the line amount formula to include the PMBudget.InclTaxAmount value in the calculations. 
+ If inclusive taxes are configured in the system, the amounts of project transactions are considered gross amounts—that is, already including the inclusive taxes. If the project transaction amounts that you enter in your system are net amounts (that is, they do not include an inclusive tax), you need to configure the line amount formula to include the PMBudget.InclTaxAmount value in the calculations. 
 
 - The source of the sales account and the source of the destination branch for each invoice line.     The billing process uses the originating branch from the project settings on the _Projects_ (PM301000) form     and the destination branches from the sources according to the billing rules. When an accounts receivable     invoice is released, the accounts receivable account is updated under the originating branch of the invoice,     while the revenue amounts are recorded to the destination branches of the invoice lines. 
 
@@ -1158,7 +1260,7 @@
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 25 
+ Creating Billing Rules | 27 
 
  If you configure multiple time and material steps for the same account group, only the last pro forma invoice line created based on these steps will be linked to the project transaction that has been used as a basis for billing. 
 
@@ -1188,11 +1290,11 @@
 
  The following implementation activity will walk you through the process of configuring a time and material billing rule. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 26 
+ Creating Billing Rules | 28 
 
 #### Story 
 
@@ -1202,7 +1304,7 @@
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Account Groups_ (PM201000) form, the following account groups have been configured: 
 
@@ -1220,7 +1322,7 @@
 
 #### Step 1: Configuring a Billing Rule and Adding a Step 
 
- To configure a billing rule to be used for time and material billing and then add a step for billing for materials, perform the following instructions: 
+ To configure a billing rule to be used for time and material billing and then add a step for billing for materials, do the following: 
 
 1. On the _Billing Rules_ (PM207000) form, add a new record. 
 
@@ -1238,19 +1340,17 @@
 
 - **Description** : Billing for materials (cost with markup) 
 
-4. In the right pane, specify the following settings for the step (which is selected in the le pane because it is     the only step): 
+4. In the right pane ( **Calculation Rules** tab), specify the following settings for the new step: 
 
 - **Billing Type** : _Time and Material_ 
 
 - **Account Group** : _MATERIAL_     This step of the billing rule will be used for processing project transactions related to the account group,     which includes expenses for materials. 
 
-- **Invoice Description Formula** : ='Invoice for '+[PMProject.ContractCD] 
+- **Invoice Description Formula** : ='Invoice for '+[PMProject.ContractCD]     The system uses this formula to define the description of the invoice created based on the billing rule.     The PMProject.ContractCD data field stores the project identifier. 
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 27 
-
- The system uses this formula to define the description of the invoice created based on the billing rule. The PMProject.ContractCD data field stores the project identifier. 
+ Creating Billing Rules | 29 
 
 - **Line Quantity Formula** : =[PMTran.BillableQty] 
 
@@ -1260,9 +1360,9 @@
 
 - **Use Sales Account From** : _Inventory Item_ 
 
-- **Create Lines with Zero Amount and Quantity** : Cleared     You clear this check box to add to the created invoice only lines with a nonzero amount and quantity. 
+5. On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box.     You clear this check box to add to the created invoice only lines with a nonzero amount and quantity. 
 
-5. Save your changes. 
+6. Save your changes. 
 
 #### Step 2: Adding One More Step to the Billing Rule 
 
@@ -1276,7 +1376,7 @@
 
 - **Description** : Billing for employee time 
 
-2. In the right pane, specify the following settings for the new step (which is selected in the le pane): 
+2. In the right pane ( **Calculation Rules** tab), specify the following settings for the new step: 
 
 - **Billing Type** : _Time and Material_ 
 
@@ -1292,9 +1392,9 @@
 
 - **Use Sales Account From** : _Inventory Item_ 
 
-- **Create Lines with Zero Amount and Quantity** : Cleared 
+3. On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box. 
 
-3. Save the created billing rule. 
+4. Save the created billing rule. 
 
  You have configured the billing rule that can be used for billing the cost-plus project for the time and material spent on the services related to the project. To bill a project by using this rule, you need to assign the rule to the project tasks. To review how a project is billed when you use a time and material billing rule, complete the Time and Material Billing: To Bill a Project for Time and Material activity. 
 
@@ -1304,9 +1404,9 @@
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 28 
+ Creating Billing Rules | 30 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1318,7 +1418,7 @@
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Account Groups_ (PM201000) form, the _MATERIAL_ , _LABOR_ , and _SUBCON_ account groups of the expense     type have been configured. These account groups will aggregate the expenses posted to particular GL     accounts. 
 
@@ -1350,7 +1450,7 @@
 
 - **Description** : Billing for progress 
 
-4. In the right pane, specify the following settings for the step (which is selected in the le pane because it is     the only step): 
+4. In the right pane ( **Calculation Rules** tab), specify the following settings for the step: 
 
 - **Billing Type** : _Progress Billing_ 
 
@@ -1358,7 +1458,7 @@
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 29 
+ Creating Billing Rules | 31 
 
  The system uses this formula to define the description of the invoice created based on the billing rule. The PMProject.ContractCD data field stores the project identifier. 
 
@@ -1366,9 +1466,9 @@
 
 - **Use Sales Account From** : _Account Group_ 
 
-- **Create Lines with Zero Amount and Quantity** : Cleared 
+5. On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box. 
 
-5. Save your changes. 
+6. Save your changes. 
 
 #### Step 2: Configuring a Billing Rule Step to Bill for Materials 
 
@@ -1382,7 +1482,7 @@
 
 - **Description** : Material cost plus markup 
 
-2. In the right pane, specify the following settings for the new step (which is selected in the le pane): 
+2. In the right pane ( **Calculation Rules** tab), specify the following settings for the new step (which is selected in     the le pane): 
 
 - **Billing Type** : _Time and Material_ 
 
@@ -1400,9 +1500,9 @@
 
 - **Use Sales Account From** : _Inventory Item_ 
 
-- **Create Lines with Zero Amount and Quantity** : Cleared 
+3. On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box. 
 
-3. Save your changes. 
+4. Save your changes. 
 
 #### Step 3: Configuring a Billing Rule Step with Billing for Labor 
 
@@ -1416,17 +1516,15 @@
 
 - **Description** : Employee labor 
 
-2. In the right pane, specify the following settings for the new step, which is selected in the le pane: 
-
-- **Billing Type** : _Time and Material_ 
-
-- **Account Group** : _LABOR_ 
+2. In the right pane ( **Calculation Rules** tab), specify the following settings for the new step, which is selected in     the le pane: 
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 30 
+ Creating Billing Rules | 32 
 
- This step of the billing rule will be used for processing project transactions related to the account group, which includes employee labor expenses. 
+- **Billing Type** : _Time and Material_ 
+
+- **Account Group** : _LABOR_     This step of the billing rule will be used for processing project transactions related to the account group,     which includes employee labor expenses. 
 
 - **Rate Type** : Empty     This step of billing rule does not use billing rates, so the rate type is not needed. 
 
@@ -1440,9 +1538,9 @@
 
 - **Use Sales Account From** : _Inventory Item_ 
 
-- **Create Lines with Zero Amount and Quantity** : Cleared 
+3. On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box. 
 
-3. Save your changes. 
+4. Save your changes. 
 
 #### Step 4: Configuring a Billing Rule Step with Billing for Subcontractors’ Services 
 
@@ -1456,7 +1554,7 @@
 
 - **Description** : Re-invoice subcontractor services 
 
-2. In the right pane, specify the following settings for the new step, which is selected in the le pane: 
+2. In the right pane ( **Calculation Rules** tab), specify the following settings for the new step, which is selected in     the le pane: 
 
 - **Billing Type** : _Time and Material_ 
 
@@ -1474,23 +1572,21 @@
 
 - **Use Sales Account From** : _Inventory Item_ 
 
-- **Create Lines with Zero Amount and Quantity** : Cleared 
+3. On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box. 
 
-3. Save the billing rule. 
-
- You have configured the combined billing rule that can be used for billing the first part of project for progress and the rest of the project for time and materials. To bill the project by using this rule, you need to assign the rule to the 
+4. Save the billing rule. 
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 31 
+ Creating Billing Rules | 33 
 
- project tasks. To review how a project is billed when you use a combined billing rule, complete the Project Inventory Tracking by Warehouse Location: To Bill a Project activity. 
+ You have configured the combined billing rule that can be used for billing the first part of project for progress and the rest of the project for time and materials. To bill the project by using this rule, you need to assign the rule to the project tasks. To review how a project is billed when you use a combined billing rule, complete the Project Inventory Tracking by Warehouse Location: To Bill a Project activity. 
 
 ### Billing Rules: To Modify a Billing Rule 
 
  In this activity, you will learn how to update the settings of an existing billing rule, and review how this affects the documents generated by the project billing process. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1506,7 +1602,7 @@
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to provide     support for the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to provide support     for the project management functionality. 
 
 - On the _Account Groups_ (PM201000) form, the _MATERIAL_ , _LABOR_ , and _SUBCON_ expense account groups have     been defined. 
 
@@ -1518,13 +1614,13 @@
 
 #### Process Overview 
 
- You will bill the project on the Projects (PM301000) form; you will also review how the current billing rules work, and how the prepared pro forma invoice looks on the Pro Forma Invoices (PM307000) form. Then you will delete the pro forma invoice, to cancel billing, and modify the billing rule on the Billing Rules (PM207000) form. You will 
+ You will bill the project on the Projects (PM301000) form; you will also review how the current billing rules work, and how the prepared pro forma invoice looks on the Pro Forma Invoices (PM307000) form. Then you will delete 
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 32 
+ Creating Billing Rules | 34 
 
- change the description of the invoices to be created, add a new step to a billing rule for processing the travel expenses, and configure the grouping of project transactions for employee labor to a single line. 
+ the pro forma invoice, to cancel billing, and modify the billing rule on the Billing Rules (PM207000) form. You will change the description of the invoices to be created, add a new step to a billing rule for processing the travel expenses, and configure the grouping of project transactions for employee labor to a single line. 
 
  Aer you make these changes to the billing rule, you will bill the project again on the Projects form. Finally, you will review the pro forma invoice created with the modified billing rule on the Pro Forma Invoices form. 
 
@@ -1534,7 +1630,7 @@
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as Pam Brawner by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Billing the Project 
 
@@ -1560,13 +1656,13 @@
 
 1. On the _Billing Rules_ (PM207000) form, open the _TIMEMATERIAL_ billing rule. 
 
-2. To modify the description of invoices created with the billing rule, do the following:     a. In the **Billing Steps** table, click the _10 - Material cost plus markup_ step so that you can modify the settings        of this step.     b. In the right pane, enter the following formula in the **Invoice Description Formula** box:        ='Invoice for '+[PMProject.ContractCD]+'('+[PMProject.Description]+')'     c. Save your changes. 
+2. To modify the description of invoices created with the billing rule, do the following:     a. In the **Billing Steps** table, click the _10 - Material cost plus markup_ step so that you can modify the settings        of this step.     b. On the **Calculation Rules** tab of the right pane, enter the following formula in the **Invoice Description**        **Formula** box:        ='Invoice for '+[PMProject.ContractCD]+'('+[PMProject.Description]+')' 
 
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 33 
+ Creating Billing Rules | 35 
 
- d. In the Billing Steps table, click the 20 Labor from non-stock price step and in the right pane, enter the following formula in the Invoice Description Formula box: ='Invoice for '+[PMProject.ContractCD]+'('+[PMProject.Description]+')' e. Save your changes. f. In the Billing Steps table, click the 30 Re-invoice subcontractors step and in the right pane, enter the following formula in the Invoice Description Formula box: ='Invoice for '+[PMProject.ContractCD]+'('+[PMProject.Description]+')' g. Save your changes. 
+ c. Save your changes. d. In the Billing Steps table, click the 20 Labor from non-stock price step and in the right pane, enter the following formula in the Invoice Description Formula box: ='Invoice for '+[PMProject.ContractCD]+'('+[PMProject.Description]+')' e. Save your changes. f. In the Billing Steps table, click the 30 Re-invoice subcontractors step and in the right pane, enter the following formula in the Invoice Description Formula box: ='Invoice for '+[PMProject.ContractCD]+'('+[PMProject.Description]+')' g. Save your changes. 
 
 3. To add a billing step to bill travel expenses with a fixed margin coefficient of 1.4, do the following: 
 
@@ -1576,7 +1672,7 @@
 
 - **Step ID** : 40 
 
-- **Description** : Travel cost plus markup b. In the right pane, specify the following settings for the step selected in the le pane (see the screenshot below): 
+- **Description** : Travel cost plus markup b. In the right pane, specify the following settings for the step selected in the le pane (see below): 
 
 - **Billing Type** : _Time and Material_ 
 
@@ -1594,13 +1690,13 @@
 
 - **Use Sales Account From** : _Inventory Item_ 
 
- Figure: The new step of the billing rule 
-
 
 <!-- PAGE_BREAK -->
- Creating Billing Rules | 34 
+ Creating Billing Rules | 36 
 
-4. To group project transactions with the _LABOR_ account group into a single invoice line if they also have the     same inventory item, do the following:     a. In the le pane, click the _20 - Labor from non-stock price_ step.     b. In the right pane, in the **Aggregate Transactions By** section, select the **Inventory ID** check box. 
+ Figure: The new step of the billing rule 
+
+4. To group project transactions with the _LABOR_ account group into a single invoice line if they also have the     same inventory item, do the following:     a. In the le pane, click the _20 - Labor from non-stock price_ step.     b. On the **Billing Settings** tab of the right pane, in the **Aggregate Transactions By** section, select the        **Inventory ID** check box. 
 
 5. Save your changes to the billing rule. 
 
@@ -1610,13 +1706,17 @@
 
 1. On the _Projects_ (PM301000) form, open the _TOMYUM10_ project. 
 
-2. On the form toolbar, click **Run Billing**.     The system creates a pro forma invoice and opens it on the _Pro Forma Invoices_ (PM307000) form. Notice the     following changes to the pro forma invoice, which are shown in the screenshot below: 
+2. On the form toolbar, click **Run Billing**.     The system creates a pro forma invoice and opens it on the _Pro Forma Invoices_ (PM307000) form. Notice the     following changes to the pro forma invoice, which are shown below: 
 
 - The description of the pro forma invoice is now _Invoice for TOMYUM10 (А juicer with the installation and_     _training for employees)_. 
 
 - On the **Time and Material** tab, a line with the _TRAVEL_ inventory item has appeared. 
 
 - On the **Time and Material** tab, there is only one line with the _PHASE3_ task and _TRAINING_ inventory item. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Billing Rules | 37 
 
  Figure: The pro forma invoice generated by the updated billing rule 
 
@@ -1628,11 +1728,7 @@
 
  This activity will walk you through the process of modifying a billing rule by adding a new step, so that you can bill a new type of expenses within projects. 
 
-
-<!-- PAGE_BREAK -->
- Creating Billing Rules | 35 
-
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1644,9 +1740,13 @@
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Billing Rules_ (PM207000) form, the _STANDARD_ billing rule has been created. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Billing Rules | 38 
 
 - On the _Account Groups_ (PM201000) form, the _MAINTSERV_ account group has been created. 
 
@@ -1674,17 +1774,13 @@
 
 2. In the le pane, add a row, and specify the following settings for it: 
 
-
-<!-- PAGE_BREAK -->
- Creating Billing Rules | 36 
-
 - **Active** : Selected 
 
 - **Step ID** : 40 
 
 - **Description** : Maintenance cost plus markup 
 
-3. In the right pane, specify the following settings for the step selected in the le pane: 
+3. In the right pane ( **Calculation Rules** tab), specify the following settings for the step selected in the le pane: 
 
 - **Billing Type** : _Time and Material_ 
 
@@ -1702,9 +1798,13 @@
 
 - **Use Sales Account From** : _Inventory Item_ 
 
-- **Create Lines with Zero Amount and Quantity** : Cleared 
 
-4. Save your changes to the billing rule. 
+<!-- PAGE_BREAK -->
+ Creating Billing Rules | 39 
+
+4. On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box. 
+
+5. Save your changes to the billing rule. 
 
 #### Step 2: Creating and Processing a Project Transaction 
 
@@ -1712,9 +1812,11 @@
 
 1. On the _Project Transactions_ (PM304000) form, create a new transaction. 
 
-2. In the Summary area, specify _PM_ as the **Module** and Maintenance service for WESTSERV as the     **Description**. 
+2. In the Summary area, specify _PM_ as the **Source** and Maintenance service for WESTSERV as the     **Description**. 
 
-3. In the table on the **Details** tab, click **Add Row** on the table toolbar, and specify the following settings in the     row: 
+3. In the table on the **Details** tab, click **Add Row** on the table toolbar. 
+
+4. Specify the following settings in the added row: 
 
 - **Project** : _WESTSERV_ 
 
@@ -1730,17 +1832,13 @@
 
 - **Unit Rate** : 80.00 
 
-4. On the form toolbar, click **Save** , and then click **Release**. 
+5. On the form toolbar, click **Save** , and then click **Release**. 
 
-5. On the _Projects_ (PM301000) form, open the _WESTSERV_ project, and on the **Cost Budget** tab, notice that a line     with the cost of the provided maintenance service has appeared with an **Actual Amount** of $160. 
+6. On the _Projects_ (PM301000) form, open the _WESTSERV_ project, and on the **Cost Budget** tab, notice that a line     with the cost of the provided maintenance service has appeared with an **Actual Amount** of $160. 
 
 #### Step 3: Billing the Project and Reviewing the Billed Amount 
 
  To bill the project and review the document prepared for the customer, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Creating Billing Rules | 37 
 
 1. While you are still reviewing the _WESTSERV_ project on the _Projects_ (PM301000) form, on the form toolbar,     click **Run Billing**.     The system creates a pro forma invoice and opens it on the _Pro Forma Invoices_ (PM307000) form. 
 
@@ -1752,7 +1850,11 @@
 
 5. On the form toolbar, click **Remove Hold** to assign the accounts receivable invoice the _Balanced_ status, and     then click **Release**. 
 
-6. On the _Projects_ (PM301000) form, open and review the _WESTSERV_ project, which is shown in the following     screenshot. Notice that in the Summary area, the **Actual Income** box now shows $192, which is the total     amount of the invoice that you have processed. The **Actual Expenses** box shows the amount of the project     transaction that you have processed earlier ($160). 
+6. On the _Projects_ (PM301000) form, open and review the _WESTSERV_ project (see below). Notice that in the     Summary area, the **Actual Income** box now shows $192, which is the total amount of the invoice that you     have processed. The **Actual Expenses** box shows the amount of the project transaction that you have     processed earlier ($160). 
+
+
+<!-- PAGE_BREAK -->
+ Creating Billing Rules | 40 
 
  Figure: Updated project balances 
 
@@ -1760,7 +1862,7 @@ You have updated the project billing rule and billed the project for time and ma
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 38 
+ Managing Billing Rates | 41 
 
 ## Managing Billing Rates 
 
@@ -1804,9 +1906,9 @@ You have updated the project billing rule and billed the project for time and ma
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 39 
+ Managing Billing Rates | 42 
 
- Also, in each rate table, you can add rate codes, which represent an additional dimension in a rate table that you use to simplify the configuration of the rate table. By using multiple rate codes with one sequence, you can reduce the number of sequences that need to be configured for each pair of a rate table and a rate type. For example, instead of creating multiple sequences, each including the applicable rates for a particular employee, you can create only one rate sequence with the Employee check box selected on the Rate Lookup Rules (PM205000) form and create separate rate codes for each employee. As another example, suppose that you want to use different rates for three projects. Instead of creating multiple sequences with the Project check box selected in the table on the Rate Lookup Rules form and specifying a rate for each sequence under one rate code, you can use only one sequence and three rate codes to define different rates for these three projects. 
+ Also, in each rate table, you can add rate codes, which represent an additional dimension in a rate table that you use to simplify the configuration of the rate table. By using multiple rate codes with one sequence, you can reduce the number of sequences that need to be configured for each pair of a rate table and a rate type. For example, instead of creating multiple sequences, each including the applicable rates for a particular employee, you can create only one rate sequence with the Employee check box selected on the Rate Table Sequences (PM205000) form and create separate rate codes for each employee. As another example, suppose that you want to use different rates for three projects. Instead of creating multiple sequences with the Project check box selected in the table on the Rate Table Sequences form and specifying a rate for each sequence under one rate code, you can use only one sequence and three rate codes to define different rates for these three projects. 
 
 #### Workflow of Rate Table Configuration 
 
@@ -1816,19 +1918,19 @@ You have updated the project billing rule and billed the project for time and ma
 
 2. You create a new rate type on the _Rate Types_ (PM204100) form. Before creating the rate type, you need to     plan how many and which rate types you will need in billing and allocation rules. (Typically, different rates     are used for the billing of labor costs, revenues, and expenses.) When you configure billing or allocation     rules, you will assign different rate types to different steps of these rules. 
 
-3. On the _Rate Lookup Rules_ (PM205000) form, you create rate sequences for each combination of rate table     code and rate type. Each sequence defines a group of options based on which the system will select the     billing rate. You can select any combination of the _Project_ , _Project task_ , _Account group_ , _Inventory item_ , and     _Employee_ options. The sequence number specified in the **Sequence** column in the table defines the order in     which the system will search for the rate in that row (starting from the sequence with the lowest number in     the table). 
+3. On the _Rate Table Sequences_ (PM205000) form, you create rate sequences for each combination of rate     table code and rate type. Each sequence defines a group of options based on which the system will select     the billing rate. You can select any combination of the **Project** , **Project Task** , **Account Group** , **Inventory**     **Item** , and **Employee** check boxes. The sequence number specified in the **Rate Table Sequence** column     in the table defines the order in which the system will search for the rate in that row (starting from the     sequence with the lowest number in the table). 
 
-4. On the _Rate Tables_ (PM206000) form, for each combination of rate table code, rate type, and rate code, you     select a rate sequence in the **Sequence** box. You select an existing rate code, or you create a new rate code     by entering a new identifier in the **Rate Code** box.     For the selected rate sequence, in the table on the **Rate** tab, you enter the exact values of billing rates with     the date range during which the rates are effective. Also, on the tabs that appear for the types of factors that     were defined in the rate sequence, you specify the specific factors that will define the applicability of the     rates that you enter for the current rate sequence. These factors may include particular projects, project     tasks, account groups, inventory items, and employees. Also, you specify the exact values of the billing rates     with their date ranges in the **Rate** column on the **Rate** tab; the system will use these rates as the value of the     _@Rate_ parameter. 
+4. On the _Rate Tables_ (PM206000) form, for each combination of rate table code, rate type, and rate code, you     select a rate sequence in the **Rate Table Sequence** box. You select an existing rate code, or you create a new     rate code by entering a new identifier in the **Rate Code** box.     For the selected rate sequence, in the table on the **Rate** tab, you enter the exact values of billing rates with     the date range during which the rates are effective. Also, on the tabs that appear for the types of factors that     were defined in the rate sequence, you specify the specific factors that will define the applicability of the     rates that you enter for the current rate sequence. These factors may include particular projects, project     tasks, account groups, inventory items, and employees. Also, you specify the exact values of the billing rates     with their date ranges in the **Rate** column on the **Rate** tab; the system will use these rates as the value of the     _@Rate_ parameter. 
 
 5. On the _Billing Rules_ (PM207000) form, you create a billing rule and assign particular rate types to billing     steps.     In the billing rule steps, you use the _@Rate_ parameter to refer to a particular billing rate in the billing rule     formulas. In each billing rule step, you can specify this parameter as a multiplier, addend, or constant in     the **Invoice Description Formula** , **Line Quantity Formula** , **Line Amount Formula** , and **Line Description**     **Formula** boxes on the _Billing Rules_ form. 
 
  You can also assign rate types to allocation rules steps on the Allocation Rules (PM207500) form. Then you specify the @Rate parameter in the formulas of the allocation rule so that the system will use its value during transaction allocation. You can specify the parameter in the Quantity Formula , Billable Qty. Formula , Amount Formula , and Description Formula boxes on the Allocation Rules form. 
 
-6. On the _Projects_ (PM301000) form, you assign a particular rate table to each of the project tasks of the     project. 
+6. On the _Projects_ (PM301000) form, you assign a particular rate table code to each of the project tasks of the     project. 
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 40 
+ Managing Billing Rates | 43 
 
 ### Billing Rates: Configuration Prerequisites 
 
@@ -1848,13 +1950,13 @@ You have updated the project billing rule and billed the project for time and ma
 
 - On the _Rate Types_ (PM204100) form, all required rate types has been defined. 
 
-- On the _Rate Lookup Rules_ (PM205000) form, all required rate sequences that specify the group of settings     based on which the billing rate will be selected have been defined. 
+- On the _Rate Table Sequences_ (PM205000) form, all required rate sequences that specify the group of settings     based on which the billing rate will be selected have been defined. 
 
 ### Billing Rates: To Create a Billing Rule with Rates 
 
  In the following implementation activity, you will learn how to create a billing rule that uses rate tables for the calculation of the invoice amounts for different account groups. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -1868,13 +1970,13 @@ You have updated the project billing rule and billed the project for time and ma
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 41 
+ Managing Billing Rates | 44 
 
 #### Configuration Overview 
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Account Groups_ (PM201000) form, the _MATERIAL_ , _LABOR_ , and _SUBCON_ account groups of the expense     type have been configured. These account groups will aggregate the expenses posted to particular GL     accounts. 
 
@@ -1892,7 +1994,11 @@ You have updated the project billing rule and billed the project for time and ma
 
 1. On the _Billing Rules_ (PM207000) form, create a new record. 
 
-2. In the Summary area, specify RATERULE as the **Billing Rule ID** and Billing for time and     material with rates as the **Description**. 
+2. In the Summary area, specify the following settings: 
+
+- **Billing Rule ID** : RATERULE 
+
+- **Description** : Billing for time and material with rates 
 
 3. In the **Billing Steps** table, add a row for the billing rule step, and specify the following settings in the row: 
 
@@ -1902,7 +2008,7 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Description** : Billing for materials (cost with markup) 
 
-4. In the right pane, specify the following settings for the step selected in the le pane: 
+4. On the **Calculation Rules** tab of the right pane, specify the following settings for the step selected in the le     pane: 
 
 - **Billing Type** : _Time and Material_ 
 
@@ -1918,15 +2024,15 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Line Description Formula** : =[PMTran.Description] 
 
-- **Use Sales Account From** : _Inventory Item_ 
-
-- **Create Lines with Zero Amount and Quantity** : Cleared 
-
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 42 
+ Managing Billing Rates | 45 
 
-5. Save your changes. 
+- **Use Sales Account From** : _Inventory Item_ 
+
+5. On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box. 
+
+6. Save your changes. 
 
 #### Step 2: Configuring a Billing Rule Step with Billing Based on the Billing Rate 
 
@@ -1940,7 +2046,7 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Description** : Labor from non-stock price 
 
-2. In the right pane, specify the following settings for the step selected in the le pane: 
+2. On the **Calculation Rules** tab of the right pane, specify the following settings for the step selected in the le     pane: 
 
 - **Billing Type** : _Time and Material_ 
 
@@ -1958,9 +2064,9 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Use Sales Account From** : _Inventory Item_ 
 
-- **Create Lines with Zero Amount and Quantity** : Cleared 
+3. On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box. 
 
-3. Save your changes. 
+4. Save your changes. 
 
 #### Step 3: Configuring a Billing Rule Step with Fixed-Price Billing 
 
@@ -1974,17 +2080,19 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Description** : Re-bill subcontractors 
 
-2. In the right pane, specify the following settings for the step selected in the le pane: 
+2. On the **Calculation Rules** tab of the right pane, specify the following settings for the step selected in the le     pane: 
 
 - **Billing Type** : _Time and Material_ 
 
-- **Account Group** : _SUBCON_     This step of the billing rule will be used for processing project transactions related to the account group,     which includes services provided by subcontractors. 
-
-- **Rate Type** : Empty     This step of billing rule does not use billing rates, so the rate type is not specified. 
+- **Account Group** : _SUBCON_ 
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 43 
+ Managing Billing Rates | 46 
+
+ This step of the billing rule will be used for processing project transactions related to the account group, which includes services provided by subcontractors. 
+
+- **Rate Type** : Empty     This step of billing rule does not use billing rates, so the rate type is not specified. 
 
 - **Invoice Description Formula** : ='Invoice for '+[PMProject.ContractCD]     The system uses this formula to define the description of any invoice created based on the billing rule.     The PMProject.ContractCD data field stores the project identifier. 
 
@@ -1996,9 +2104,9 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Use Sales Account From** : _Inventory Item_ 
 
-- **Create Lines with Zero Amount and Quantity** : Cleared 
+3. On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box. 
 
-3. Save your changes. 
+4. Save your changes. 
 
  You have configured a billing rule that can be used for billing a project by using different billing rates that apply to different provided work and services. To bill a project by using this rule, you need to assign the rule to the project tasks of the project. To review how a project is being billed by using a billing rule that is based on billing rates, perform the Billing Rates: To Bill a Project with Different Billing Rates activity. 
 
@@ -2006,7 +2114,7 @@ You have updated the project billing rule and billed the project for time and ma
 
  In this activity, you will learn how you can define item-specific billing rates by using rate tables, and how to bill a project by using these billing rates. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2018,19 +2126,19 @@ You have updated the project billing rule and billed the project for time and ma
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to provide     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to provide the     project management functionality. 
 
 - On the _Account Groups_ (PM201000) form, the _LABOR_ account group has been defined. 
 
-- On the _Non-Stock Items_ (IN202000) form, the _CONSULTJR_ and _CONSULTSR_ non-stock items have been     created. 
-
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 44 
+ Managing Billing Rates | 47 
+
+- On the _Non-Stock Items_ (IN202000) form, the _CONSULTJR_ and _CONSULTSR_ non-stock items have been     created. 
 
 #### Process Overview 
 
- In this activity, you will create a rate a rate table code on the Rate Table Codes (PM204200). Then on the Rate Lookup Rules (PM205000) form, you will define a rate sequence and the combination of settings that will be used for searching for the appropriate billing rate. Then you will configure the rate table on the Rate Tables (PM206000) form, and specify employee-specific rate values. Finally, on the Billing Rules (PM207000) form, you will configure a billing rule that uses the rate table with the applicable billing rates. 
+ In this activity, you will create a rate a rate table code on the Rate Table Codes (PM204200). Then on the Rate Table Sequences (PM205000) form, you will define a rate sequence and the combination of settings that will be used for searching for the appropriate billing rate. Then you will create the rate table code on the Rate Tables (PM206000) form, and specify employee-specific rate values. Finally, on the Billing Rules (PM207000) form, you will configure a billing rule that uses the rate table with the applicable billing rates. 
 
 #### System Preparation 
 
@@ -2038,7 +2146,7 @@ You have updated the project billing rule and billed the project for time and ma
 
 1. Launch the Acumatica ERP website and sign in to the system as the project accountant by using the _brawner_     username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/1/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/1/2026_ on the calendar. 
 
 #### Step 1: Creating Rate Table Codes and Rate Sequences 
 
@@ -2050,13 +2158,13 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Description** : Employee Labor b. Save the rate table code. 
 
-2. To create a rate sequence, on the _Rate Lookup Rules_ (PM205000) form, do the following:     a. In the Summary area, specify the following settings: 
+2. To create a rate sequence, on the _Rate Table Sequences_ (PM205000) form, do the following:     a. In the Summary area, specify the following settings: 
 
-- **Rate Table** : _LABOR_ 
+- **Rate Table Code** : _LABOR_ 
 
 - **Rate Type** : _LABOR_ b. Click **Add Row** on the table toolbar, and specify the following settings in the row: 
 
-- **Sequence** : 1 
+- **Rate Table Sequence** : 1 
 
 - **Description** : Labor rate sequence 
 
@@ -2070,19 +2178,17 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Rate Table Code** : _LABOR_ 
 
-- **Rate Type** : _LABOR_     When you select the rate type, the system automatically selects _1_ as the **Sequence**. 
+- **Rate Type** : _LABOR_     When you select the rate type, the system automatically selects _1_ as the **Rate Table Sequence**. 
 
 - **Rate Code** : CONSULTSR 
 
-- **Description** : A labor cost rate for a senior consultant 
-
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 45 
+ Managing Billing Rates | 48 
 
- b. On the Inventory tab, click Add Row on the table toolbar, and in the row, select CONSULTSR as the Inventory ID. c. On the Rate tab, click Add Row on the table toolbar, and specify the following settings in the row: 
+- **Description** : A labor cost rate for a senior consultant b. On the **Inventory** tab, click **Add Row** on the table toolbar, and in the row, select _CONSULTSR_ as the **Inventory ID**. c. On the **Rate** tab, click **Add Row** on the table toolbar, and specify the following settings in the row: 
 
-- **Start Date** : _1/1/2025_ 
+- **Start Date** : _1/1/2026_ 
 
 - **Rate** : 60.00 d. Save the rate table. 
 
@@ -2092,7 +2198,7 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Description** : A labor cost rate for a junior consultant b. On the **Inventory** tab, on the table toolbar, click **Add Row** , and in the row, select _CONSULTJR_ as the **Inventory ID**. c. On the **Rate** tab, click **Add Row** on the table toolbar, and specify the following settings in the row: 
 
-- **Start Date** : _1/1/2025_ 
+- **Start Date** : _1/1/2026_ 
 
 - **Rate** : 50.00 d. Save the rate table. 
 
@@ -2112,7 +2218,7 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Description** : Consulting 
 
-3. In the right pane, specify the following settings for the step selected in the le pane (which is the step you     just added): 
+3. In the right pane ( **Calculation Rules** tab), specify the following settings for the step selected in the le pane     (which is the step you just added): 
 
 - **Billing Type** : _Time and Material_ 
 
@@ -2120,7 +2226,7 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Rate Type** : _LABOR_ 
 
-- **If @Rate Is Not Defined** : _Raise Error_     If no rate has been found, the corresponding project transaction will not be presented in the invoice.     With the _Raise Error_ option selected, the error is raised during billing. This prevents project costs from     being omitted. 
+- **If @Rate Is Not Defined** : _Raise Error_     If no rate has been found, the corresponding project transaction will not be presented in the invoice.     With the _Raise Error_ option selected, an error message is shown during billing. This prevents project costs     from being omitted. 
 
 - **Invoice Description Formula** : ='Invoice for '+[PMProject.ContractCD] 
 
@@ -2132,13 +2238,13 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Use Sales Account From** : _Inventory Item_ 
 
-- **Create Lines with Zero Amount and Quantity** : Cleared 
-
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 46 
+ Managing Billing Rates | 49 
 
-4. Save the billing rule. 
+4. On the **Billing Settings** tab of the right pane, clear the **Create Lines with Zero Amount and Quantity** check     box. 
+
+5. Save the billing rule. 
 
  You have configured billing rates that are based on various settings and a billing rule that will use these rates for billing. 
 
@@ -2146,9 +2252,9 @@ You have updated the project billing rule and billed the project for time and ma
 
 ### Billing Rates: To Configure Employeeand Item-Specific Rates 
 
- In this activity, you will learn how you can define complex billing rates with rate tables that define different rates for different services, and for the same services provided by different employees. 
+ In this activity, you will learn how you can define complex billing rates with rate table codes that define different rates for different services, and for the same services provided by different employees. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2166,7 +2272,7 @@ You have updated the project billing rule and billed the project for time and ma
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to provide     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to provide the     project management functionality. 
 
 - On the _Project Tasks_ (PM302000) form, the _INSTALL_ and _TRAINING_ project tasks have been defined. 
 
@@ -2176,11 +2282,11 @@ You have updated the project billing rule and billed the project for time and ma
 
 #### Process Overview 
 
- In this activity, you will create a rate type on the Rate Types (PM204100) form. Then on the Rate Lookup Rules (PM205000) form, you will define a rate sequence and the combination of settings that will be used for searching for the applicable billing rate. Then you will configure the rate table on the Rate Tables (PM206000) form and specify rate values for the different combinations of parameters. Finally, on the Billing Rules (PM207000) form, you will configure a billing rule that uses the rate table with the applicable billing rates. 
+ In this activity, you will create a rate type on the Rate Types (PM204100) form. Then on the Rate Table Sequences (PM205000) form, you will define a rate sequence and the combination of settings that will be used for searching for the applicable billing rate. Then you will configure the rate table code on the Rate Tables (PM206000) form and specify rate values for the different combinations of parameters. Finally, on the Billing Rules (PM207000) form, you will configure a billing rule that uses the rate table code with the applicable billing rates. 
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 47 
+ Managing Billing Rates | 50 
 
 #### System Preparation 
 
@@ -2192,21 +2298,21 @@ You have updated the project billing rule and billed the project for time and ma
 
 1. On the _Rate Types_ (PM204100) form, click **Add Row** on the form toolbar, and specify the following settings in     the row: 
 
-- **Rate Table** : TASKLABOR 
+- **Rate Type** : TASKLABOR 
 
 - **Description** : Billing rate for installation and training 
 
 2. Save the added rate type. 
 
-3. On the _Rate Lookup Rules_ (PM205000) form, add a new rate sequence with the following settings: 
+3. On the _Rate Table Sequences_ (PM205000) form, add a new rate sequence with the following settings: 
 
-- **Rate Table** : _STANDARD_ 
+- **Rate Table Code** : _STANDARD_ 
 
 - **Rate Type** : _TASKLABOR_ 
 
 4. Click **Add Row** on the table toolbar, and specify the following settings in the added row: 
 
-- **Sequence** : 1 
+- **Rate Table Sequence** : 1 
 
 - **Description** : Installation of juicers 
 
@@ -2216,7 +2322,7 @@ You have updated the project billing rule and billed the project for time and ma
 
 5. Again click **Add Row** on the table toolbar, and specify the following settings in the row: 
 
-- **Sequence** : 2 
+- **Rate Table Sequence** : 2 
 
 - **Description** : Billing rates for other installation work 
 
@@ -2224,7 +2330,7 @@ You have updated the project billing rule and billed the project for time and ma
 
 6. Again click **Add Row** on the table toolbar, and specify the following settings in the row: 
 
-- **Sequence** : 3 
+- **Rate Table Sequence** : 3 
 
 - **Description** : Training for employees 
 
@@ -2236,17 +2342,17 @@ You have updated the project billing rule and billed the project for time and ma
 
 7. Again click **Add Row** on the table toolbar, and specify the following settings in the row: 
 
-- **Sequence** : 4 
+- **Rate Table Sequence** : 4 
 
 - **Description** : Other work on training 
 
-- **Project Task** : Selected The rate sequences should look as shown in the following screenshot. 
+- **Project Task** : Selected The rate sequences should look as shown below. 
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 48 
+ Managing Billing Rates | 51 
 
- Figure: The rate lookup rule 
+ Figure: The rate sequences 
 
 8. Save the rate sequences you have created. 
 
@@ -2258,55 +2364,53 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Rate Table Code** : _STANDARD_ 
 
-- **Rate Type** : _TASKLABOR_     When you select the rate type, the system automatically inserts _1_ as the **Sequence**. 
+- **Rate Type** : _TASKLABOR_     When you select the rate type, the system automatically inserts _1_ as the **Rate Table Sequence**. 
 
 - **Rate Code** : TASKLABOR 
 
 - **Description** : Labor rates for installation b. On the **Rate** tab, click **Add Row** on the table toolbar, and specify the following settings in the row: 
 
-- **Start Date** : _1/1/2025_ 
+- **Start Date** : _1/1/2026_ 
 
 - **Rate** : 110.00 c. On the **Tasks** tab, on the table toolbar, click **Add Row** , and in the row, select _INSTALL_ as the **Project Task**. d. On the **Inventory** tab, on the table toolbar, click **Add Row** , and in the row, select _INSTALL_ as the **Inventory ID**. e. Save the rate table. 
 
 2. To configure the rates for the other installation work, do the following:     a. On the form toolbar, click **Add New Record** , and in the Summary area, specify the following settings: 
 
-- **Sequence** : _2_ 
+- **Rate Table Sequence** : _2_ 
 
 - **Rate Code** : TASKLABOR 
 
 - **Description** : Labor rates for other installation work b. On the **Rate** tab, click **Add Row** on the table toolbar, and specify the following settings in the added row: 
 
-- **Start Date** : _1/1/2025_ 
+- **Start Date** : _1/1/2026_ 
 
-- **Rate** : 90.00 c. On the **Tasks** tab, on the table toolbar, click **Add Row** , and in the row, select _INSTALL_ as the **Project Task**. 
-
-
-<!-- PAGE_BREAK -->
- Managing Billing Rates | 49 
-
- d. Save the rate table. 
+- **Rate** : 90.00 c. On the **Tasks** tab, on the table toolbar, click **Add Row** , and in the row, select _INSTALL_ as the **Project Task**. d. Save the rate table. 
 
 3. To configure the billing rates for training, do the following:     a. On the form toolbar, click **Add New Record** , and in the Summary area, specify the following settings in        the Summary area: 
 
-- **Sequence** : _3_ 
+
+<!-- PAGE_BREAK -->
+ Managing Billing Rates | 52 
+
+- **Rate Table Sequence** : _3_ 
 
 - **Rate Code** : TASKLABOR 
 
 - **Description** : Labor rates for training b. On the **Rate** tab, click **Add Row** on the table toolbar, and specify the following settings in the row: 
 
-- **Start Date** : _1/1/2025_ 
+- **Start Date** : _1/1/2026_ 
 
 - **Rate** : 60.00 c. On the **Tasks** tab, on the table toolbar, click **Add Row** , and in the row, select _TRAINING_ as the **Project Task**. d. On the **Inventory** tab, on the table toolbar, click **Add Row** , and in the row, select _TRAINING_ as the **Inventory ID**. e. On the **Employee** tab, on the table toolbar, click **Add Row** , and in the row, select _EP00000002 (Todd Bloom)_ as the **Employee ID**. f. Save the rate table. 
 
 4. To configure rates for other training work, do the following:     a. On the form toolbar, click **Add New Record** , and in the Summary area, specify the following settings: 
 
-- **Sequence** : _4_ 
+- **Rate Table Sequence** : _4_ 
 
 - **Rate Code** : TASKLABOR 
 
 - **Description** : Labor rates for other training work b. On the **Rate** tab, click **Add Row** on the table toolbar, and specify the following settings in the row: 
 
-- **Start Date** : _1/1/2025_ 
+- **Start Date** : _1/1/2026_ 
 
 - **Rate** : 50.00 c. On the **Tasks** tab, on the table toolbar, click **Add Row** , and in the row, select _TRAINING_ as the **Project Task**. d. Save the rates. 
 
@@ -2326,7 +2430,7 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Description** : Installation and training 
 
-3. In the right pane, specify the following settings for the step selected in the le pane: 
+3. In the right pane ( **Calculation Rules** tab), specify the following settings for the step selected in the le pane: 
 
 - **Billing Type** : _Time and Material_ 
 
@@ -2334,13 +2438,13 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Rate Type** : _TASKLABOR_ 
 
-
-<!-- PAGE_BREAK -->
- Managing Billing Rates | 50 
-
-- **If @Rate Is Not Defined** : _Raise Error_     If no rate has been found, the corresponding project transaction will not be presented in the invoice.     With the _Raise Error_ option selected, the error is raised during billing. This prevents project costs from     being omitted. 
+- **If @Rate Is Not Defined** : _Raise Error_     If no rate has been found, the corresponding project transaction will not be presented in the invoice.     With the _Raise Error_ option selected, an error message is shown during billing. This prevents project costs     from being omitted. 
 
 - **Invoice Description Formula** : ='Invoice for '+[PMProject.ContractCD] 
+
+
+<!-- PAGE_BREAK -->
+ Managing Billing Rates | 53 
 
 - **Line Quantity Formula** : =[PMTran.BillableQty]     The invoice line quantity will be equal to the project transaction line quantity. 
 
@@ -2352,9 +2456,9 @@ You have updated the project billing rule and billed the project for time and ma
 
 - **Sales Account** : _40000 - Sales Revenue_ 
 
-- **Create Lines with Zero Amount and Quantity** : Cleared 
+4. On the **Billing Settings** tab of the right pane, clear the **Create Lines with Zero Amount and Quantity** check     box. 
 
-4. Save the billing rule. 
+5. Save the billing rule. 
 
  You have configured billing rates that are based on various settings and a billing rule that will use these rates for billing. 
 
@@ -2362,11 +2466,11 @@ You have updated the project billing rule and billed the project for time and ma
 
 ### Billing Rates: Rate Selection Rules 
 
- When a project transaction is billed or an allocation is run, the system finds the applicable rate—that is, the value of the @Rate parameter specified in the billing rule formula. This selection is based on the combination of the rate type assigned to the current step of a billing rule (or allocation rule) and the rate table that is assigned to the project task to which the billed or allocated transaction corresponds. 
+ When a project transaction is billed or an allocation is run, the system finds the applicable rate—that is, the value of the @Rate parameter specified in the billing rule formula. This selection is based on the combination of the rate type assigned to the current step of a billing rule (or allocation rule) and the rate table code that is assigned to the project task to which the billed or allocated transaction corresponds. 
 
  Each combination of rate table code, rate type, and rate code includes one rate sequence or multiple rate sequences, each of which defines billing rates based on a set of factors. The numeric identifiers of the sequences in the table define the order in which the system will search these sequences to find the applicable rate during the project billing or allocation process. 
 
- Starting with the first sequence defined in the table on the Rate Lookup Rules (PM205000) form, the system compares the settings specified in the project transaction to the factors defined by the rate sequence. If all the settings match, the system stops the search and uses the rate it has found as the value of the @Rate parameter in the formula. If any factor does not match, the system continues searching for the applicable billing rate in the next rate sequence until an applicable rate is found. 
+ Starting with the first sequence defined in the table on the Rate Table Sequences (PM205000) form, the system compares the settings specified in the project transaction to the factors defined by the rate sequence. If all the settings match, the system stops the search and uses the rate it has found as the value of the @Rate parameter in the formula. If any factor does not match, the system continues searching for the applicable billing rate in the next rate sequence until an applicable rate is found. 
 
  The system may not find an applicable rate in all sequences defined in the system for the combination of rate table code, rate type, and rate code. In this case, the system performs the action determined by the option selected in the If @Rate Is Not Defined box on the Billing Rules (PM207000) or Allocation Rules (PM207500) form for the step being performed. The system can do one of the following: 
 
@@ -2380,17 +2484,17 @@ You have updated the project billing rule and billed the project for time and ma
 
 
 <!-- PAGE_BREAK -->
-Managing Billing Rates | **51** 
+Managing Billing Rates | **54** 
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 52 
+ Managing Billing Rates | 55 
 
 ### Billing Rates: To Bill a Project with Different Billing Rates 
 
  In this activity, you will bill a project with different billing rates to be used for the billing of different services provided in the project. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2402,7 +2506,7 @@ Managing Billing Rates | **51**
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to provide     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to provide the     project management functionality. 
 
 - On the _Rate Tables_ (PM206000) form, the _STANDARD_ rate table, with rates for labor and materials, has been     configured. 
 
@@ -2426,11 +2530,11 @@ Managing Billing Rates | **51**
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 53 
+ Managing Billing Rates | 56 
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as Pam Brawner by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Billing the Project and Processing the Related Documents 
 
@@ -2466,17 +2570,17 @@ Managing Billing Rates | **51**
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 54 
+ Managing Billing Rates | 57 
 
 #### Step 2: Reviewing the Project Transactions and the Updated Project Balance 
 
  To review the project transactions and project balance, do the following: 
 
-1. On the _Project Transaction Details_ (PM401000) form, in the Summary area, select _TOMYUM3_ as the **Project**. In     the table, review the project transactions that have been created based on the released accounts receivable     invoice (these are the lines that have _AR_ specified in the **Module** column and that have negative amounts).     In the **GL Batch Nbr.** column, the reference number of the corresponding GL batch is shown. Also notice that     the project transactions based on which you have performed billing now have the check box in the **Billed**     column selected, indicating that these transactions have been billed. 
+1. On the _Project Transaction Details_ (PM401000) form, in the Summary area, select _TOMYUM3_ as the **Project**. In     the table, review the project transactions that have been created based on the released accounts receivable     invoice (these are the lines that have _AR_ specified in the **Source** column and that have negative amounts). In     the **GL Batch Nbr.** column, the reference number of the corresponding GL batch is shown. Also notice that     the project transactions based on which you have performed billing now have the check box in the **Billed**     column selected, indicating that these transactions have been billed. 
 
 2. On the _Projects_ (PM301000) form, open the _TOMYUM3_ project. Notice that in the Summary area, the **Actual**     **Income** box now shows $3,400, which is the total amount of the invoice that you have processed. On the     **Revenue Budget** tab, notice that the system has automatically created two revenue budget lines (one for     each project task) and filled in the **Actual Amount** for the rows (3,000 and 400). 
 
-3. On the **Balances** tab (see the following screenshot), review the project income and expenses aggregated by     account groups. 
+3. On the **Balances** tab (see below), review the project income and expenses aggregated by account groups. 
 
  Figure: The project balances aer project billing 
 
@@ -2492,7 +2596,7 @@ Managing Billing Rates | **51**
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 55 
+ Managing Billing Rates | 58 
 
  Acting as the SweetLife project accountant, Pam Brawner, you need to create a project to account for the provided services, enter the project transaction to record the provided work, bill the customer, and verify that all services have been billed at the appropriate rates. 
 
@@ -2500,7 +2604,7 @@ Managing Billing Rates | **51**
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to provide     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to provide the     project management functionality. 
 
 - On the _Customers_ (AR303000) form, the _WESTBBQ_ customer has been created. 
 
@@ -2520,7 +2624,7 @@ Managing Billing Rates | **51**
 
 2. Sign in to a company with the _U100_ dataset preloaded. You should sign in as Pam Brawner by using the     _brawner_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Creating a Project 
 
@@ -2544,11 +2648,11 @@ Managing Billing Rates | **51**
 
 - **Billing Rule** : _TMLABOR_ 
 
-- **Rate Table** : _LABOR_     You defined the _LABOR_ rate table on the _Rate Tables_ (PM206000) form when you performed the _Billing_     _Rates: To Configure Employee-Specific Rates_ activity. 
+- **Rate Table Code** : _LABOR_     You defined the _LABOR_ rate table code on the _Rate Tables_ (PM206000) form when you performed the     _Billing Rates: To Configure Employee-Specific Rates_ activity. 
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 56 
+ Managing Billing Rates | 59 
 
 5. On the **Tasks** tab, add a row with the following settings to define the project task: 
 
@@ -2560,7 +2664,7 @@ Managing Billing Rates | **51**
 
 - **Status** : _Active_ 
 
-- **Default** : Selected Notice that the billing rule and the rate table have been copied to the task settings from the project settings. 
+- **Default** : Selected Notice that the billing rule and the rate table code have been copied to the task settings from the project settings. 
 
 6. Save the project. 
 
@@ -2576,7 +2680,7 @@ Managing Billing Rates | **51**
 
 3. On the **Details** tab, click **Add Row**. 
 
-4. Specify the following settings in the row: 
+4. Specify the following settings in the added row: 
 
 - **Project** : _WESTBBQ7A_ 
 
@@ -2610,23 +2714,25 @@ Managing Billing Rates | **51**
 
 6. In the Summary area, make sure that the total billable quantity is 8 and the total amount is $330. 
 
-7. Save your changes, and on the form toolbar, click **Release** to release the project transaction. 
+7. Save your changes. 
+
+8. On the form toolbar, click **Release** to release the project transaction. 
 
 #### Step 3: Billing the Project and Reviewing the Rates 
 
  To bill the project and review the rates at which the provided services have been billed, do the following: 
 
-1. On the _Projects_ (PM301000) form, open the _WESTBBQ7A_ project, which you have created earlier in this     activity. 
-
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 57 
+ Managing Billing Rates | 60 
+
+1. On the _Projects_ (PM301000) form, open the _WESTBBQ7A_ project, which you have created earlier in this     activity. 
 
 2. On the **Cost Budget** tab, make sure that the system has updated the cost budget with two new lines from     the project transaction that you have released. 
 
 3. On the form toolbar, click **Run Billing**.     The system creates a pro forma invoice and opens it on the _Pro Forma Invoices_ (PM307000) form. 
 
-4. On the **Time and Material** tab, review the invoice lines that the system has created based on the     transactions prepared for billing (see the screenshot below). These transactions have been processed by     using the _TMLABOR_ billing rule, and the rates have been taken from the rate table assigned to the project     task. The pro forma invoice includes the following lines: 
+4. On the **Time and Material** tab, review the invoice lines that the system has created based on the     transactions prepared for billing (see below). These transactions have been processed by using the     _TMLABOR_ billing rule, and the rates have been taken from the rate table assigned to the project task. The pro     forma invoice includes the following lines: 
 
 - The line with the _CONSULTJR_ inventory item has a billed amount of $300, which has been calculated as 6     hours multiplied by $50. 
 
@@ -2648,13 +2754,13 @@ Managing Billing Rates | **51**
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 58 
+ Managing Billing Rates | 61 
 
 #### Configuration Overview 
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to provide     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to provide the     project management functionality. 
 
 - On the _Customers_ (AR303000) form, the _WESTBBQ_ customer has been created. 
 
@@ -2676,7 +2782,7 @@ Managing Billing Rates | **51**
 
 2. Sign in to a company with the _U100_ dataset preloaded. You should sign in as Pam Brawner by using the     _brawner_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Creating a Project 
 
@@ -2698,13 +2804,13 @@ Managing Billing Rates | **51**
 
 - **Billing Rule** : _TASKLABOR_ 
 
-- **Rate Table** : _STANDARD_ 
+- **Rate Table Code** : _STANDARD_ 
 
 4. On the **Tasks** tab, add two project tasks with the following settings. 
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 59 
+ Managing Billing Rates | 62 
 
  Task ID Type Description Status 
 
@@ -2716,7 +2822,7 @@ Managing Billing Rates | **51**
 
  Training for employees Active 
 
- Notice that the TASKLABOR billing rule and the STANDARD rate table have been specified automatically for both project tasks. 
+ Notice that the TASKLABOR billing rule and the STANDARD rate table code have been specified automatically for both project tasks. 
 
 5. Save the project. 
 
@@ -2728,7 +2834,7 @@ Managing Billing Rates | **51**
 
 1. On the _Project Transactions_ (PM304000) form, add a new record. 
 
-2. In the Summary area of the form, make sure _PM_ as specified as the **Module** , and specify Installation     of a juicer and training for WESTBBQ7B as the **Description**. 
+2. In the Summary area of the form, make sure _PM_ as specified as the **Source** , and specify Installation     of a juicer and training for WESTBBQ7B as the **Description**. 
 
 3. In the table, add a transaction to the batch by clicking **Add Row** and specifying the following settings in the     row: 
 
@@ -2778,7 +2884,7 @@ Managing Billing Rates | **51**
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 60 
+ Managing Billing Rates | 63 
 
 - **Quantity** : 6 
 
@@ -2798,7 +2904,7 @@ Managing Billing Rates | **51**
 
 - **Quantity** : 2 
 
-- **Unit Rate** : 40.00 This transaction represents two hours of other work on training. The entered batch of project transactions should look as shown in the following screenshot. 
+- **Unit Rate** : 40.00 This transaction represents two hours of other work on training. The entered batch of project transactions should look as shown below. 
 
  Figure: Batch of project transactions 
 
@@ -2816,7 +2922,7 @@ Managing Billing Rates | **51**
 
 2. On the form toolbar, click **Run Billing**.     The system creates a pro forma invoice and opens it on the _Pro Forma Invoices_ (PM307000) form. 
 
-3. On the **Time and Material** tab, review the invoice lines that the system has created based on the     transactions prepared for billing. These transactions have been processed by using the billing rule, and the     rates have been taken from the rate table assigned to the project tasks. The pro forma invoice includes the     following lines: 
+3. On the **Time and Material** tab, review the invoice lines that the system has created based on the     transactions prepared for billing. These transactions have been processed by using the billing rule, and the     rates have been taken from the rate table assigned to the project tasks. The pro forma invoice includes the     following lines (see below): 
 
 - The line with the _INSTALL_ project task and _INSTALL_ inventory item has a billed amount of $440, which has     been calculated as 4 hours of installation multiplied by $110. 
 
@@ -2826,15 +2932,17 @@ Managing Billing Rates | **51**
 
 
 <!-- PAGE_BREAK -->
- Managing Billing Rates | 61 
+ Managing Billing Rates | 64 
 
 - The line with the _TRAINING_ project task and empty inventory item has a billed amount of $100, which has     been calculated as 2 hours of other work on training multiplied by $50. 
+
+ Figure: The pro forma invoice 
 
 You have created a pro forma invoice for the customer and verified that the appropriate rates have been selected for the provided services. 
 
 
 <!-- PAGE_BREAK -->
- Creating Project Tasks | 62 
+ Creating Project Tasks | 65 
 
 ## Creating Project Tasks 
 
@@ -2858,6 +2966,8 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 - Set a project task as a default for a project 
 
+- Track time spent on a project task 
+
 #### Applicable Scenarios 
 
  You create a project task in the following cases: 
@@ -2878,7 +2988,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating Project Tasks | 63 
+ Creating Project Tasks | 66 
 
 - Billing rule (and optional rate): By default, the system assigns to the added project task the billing rule that     is specified on the **Summary** tab of the _Projects_ form for the project. Billing rules are defined on the _Billing_     _Rules_ (PM207000) form.     If complex billing rules have to be configured for billing the project task, you also need to assign the     appropriate rate table to the project task. 
 
@@ -2916,11 +3026,11 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 - Subcontracts on the _Subcontracts_ (SC301000) form For instance, you can add an employee activity for planning budgets for project tasks, or record a project commitment. However, if your user account does not have the _Project Accountant_ role assigned on the _User Roles_ (SM201005) form, these documents can be processed further only aer the _Active_ status is assigned to the project task. 
 
- If your user has the Project Accountant role, you can release employee activities with project tasks that have the In Planning status. 
+ If your user account has the Project Accountant role, you can release employee activities with project tasks that have the In Planning status. 
 
 
 <!-- PAGE_BREAK -->
- Creating Project Tasks | 64 
+ Creating Project Tasks | 67 
 
 #### Default Project Tasks in Record Lines 
 
@@ -2936,9 +3046,25 @@ You have created a pro forma invoice for the customer and verified that the appr
 
  The defined account mapping does not affect the entry of project-related bills on the Bills and Adjustments (AP301000) form. In the bill lines, the system inserts the default task of the project if it is configured on the Tasks tab of the Projects form. 
 
+#### Tracking of Time on Project Tasks 
+
+ When you start working on a project task, you can track the spent time by using the timer on the Project Tasks (PM302000) form. 
+
+ The full functionality is available only in the Modern UI if: 
+
+- The _Clock In and Clock Out_ feature in the _Experimental_ group of features is enabled on the     _Enable/Disable Features_ (CS100000) form. 
+
+- On the _Users_ (SM201010) form, your user account is linked to an employee record. 
+
+ One timer per project task can produce multiple time logs: Each time you stop the timer, the system creates time log entries on the Time Log tab of the Employee Time Cards (EP305000) form. You can then create time activities based on these time logs and record them as project costs. For details, see Project Tasks: Tracking Time with the Timer. 
+
 ### Project Tasks: Tracking Task Completion 
 
  A project task may require more than one financial period to complete. The completion statuses of individual project tasks do not directly affect the status of the corresponding project. That is, the system does not automatically complete a project if all of its project tasks have been completed. However, to be able to complete the project, you first need to complete all project tasks included in this project. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Project Tasks | 68 
 
  For each project task in a project, you can select which method will be used to evaluate the completion percentage of the project task in the Completion Method box on the Project Tasks (PM302000) form (in the Task Properties section of the Summary tab). The following sections describe the available methods that can be used to evaluate or calculate the percentage of project task completion. 
 
@@ -2946,13 +3072,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
  In the Completion Method box on the Project Tasks (PM302000) form (in the Task Properties section of the Summary tab), you select Manual if it is not possible to select one cost line whose actual amount or quantity would reflect the overall project task progress. This may be the case if different cost lines are expressed as quantities measured in different UOMs, or some of the lines have budgets expressed as amounts with other line budgets expressed as quantities. 
 
- With this method, you evaluate the project task progress by using all the available information and manually specify the project task completion percentage in the Completed (%) box. You can change the value as oen as is 
-
-
-<!-- PAGE_BREAK -->
- Creating Project Tasks | 65 
-
- needed; we recommend that you update it before you perform an allocation for the project. When you complete the project task, the Completed (%) value for the task is automatically set to 100. 
+ With this method, you evaluate the project task progress by using all the available information and manually specify the project task completion percentage in the Completed (%) box. You can change the value as oen as is needed; we recommend that you update it before you perform an allocation for the project. When you complete the project task, the Completed (%) value for the task is automatically set to 100. 
 
 #### Completion by Budgeted Quantity 
 
@@ -2976,6 +3096,10 @@ You have created a pro forma invoice for the customer and verified that the appr
 
  where the actual amounts and revised budgeted amounts are summed up by all the cost budget lines related to this project task (the UOMs specified in cost budget lines are ignored). 
 
+
+<!-- PAGE_BREAK -->
+ Creating Project Tasks | 69 
+
 ### Project Tasks: Configuration Prerequisites 
 
  Before starting to create project tasks, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections. 
@@ -2986,13 +3110,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 #### Configuring Project Task Identifiers 
 
- The PROTASK segmented key on the Segmented Keys (CS202000) form defines the identifier of the project tasks. By default, this segmented key specifies that the project task identifier is an alphanumeric string of up to 10 characters. For the key, you can define how many segments it is to have, what values may be used, whether these 
-
-
-<!-- PAGE_BREAK -->
- Creating Project Tasks | 66 
-
- values should be validated, and whether auto-numbering should be used in one of the segments. You can also divide item identifiers into segments with specific values. For more information on configuring segmented keys, see Segmented Identifiers. 
+ The PROTASK segmented key on the Segmented Keys (CS202000) form defines the identifier of the project tasks. By default, this segmented key specifies that the project task identifier is an alphanumeric string of up to 10 characters. For the key, you can define how many segments it is to have, what values may be used, whether these values should be validated, and whether auto-numbering should be used in one of the segments. You can also divide item identifiers into segments with specific values. For more information on configuring segmented keys, see Segmented Identifiers. 
 
 #### Configuring the System 
 
@@ -3012,21 +3130,77 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 - On the _Allocation Rules_ (PM207500) form, each allocation rule that you will assign to a project task has been     created. For examples of the configuration of an allocation rule, see _WIP Labor Costs in Cost-Plus Projects:_     _Implementation Activity_ and _WIP Labor Costs in Fixed-Price Projects: Implementation Activity_. 
 
-- On the _Rate Table Codes_ (PM204200) form, each rate table code that you will assign to a project task has     been created, and the rate table has been configured on the _Rate Tables_ (PM206000) form. For examples of     the configuration of billing rates, see _Billing Rates: To Configure Employee-Specific Rates_ and _Billing Rates: To_     _Configure Employee- and Item-Specific Rates_. 
+- On the _Rate Table Codes_ (PM204200) form, each rate table code that you will assign to a project task has     been created, and the rate table has been configured on the _Rate Tables_ (PM206000) form. For examples of 
+
+
+<!-- PAGE_BREAK -->
+ Creating Project Tasks | 70 
+
+ the configuration of billing rates, see Billing Rates: To Configure Employee-Specific Rates and Billing Rates: To Configure Employeeand Item-Specific Rates. 
+
+### Project Tasks: Tracking Time with the Timer 
+
+ Tracking your time across multiple project tasks can be challenging, especially when you move between tasks during the day. The project task timer helps you log time accurately—no matter how many tasks you’re working on —and manage your work without interruptions. 
+
+ The full functionality is available only in the Modern UI if: 
+
+- The _Clock In and Clock Out_ feature in the _Experimental_ group of features is enabled on the     _Enable/Disable Features_ (CS100000) form. 
+
+- On the _Users_ (SM201010) form, your user account is linked to an employee record. 
+
+#### Starting Time Tracking 
+
+ To start tracking time for a project task: 
+
+1. Open a project task on the _Project Tasks_ (PM302000) form and click the Timer button on the top pane of the     screen. For details, see the **Timer Button** section in _The Acumatica ERP UI: Top Pane_.     The timer panel opens with the current project task selected in the **Available Timers** section. 
+
+ The available timer is a timer that hasn't been started yet in the current user session. 
+
+2. Select the time type. 
+
+3. Click **Clock In**. 
+
+ You can change the time type while the timer is running. In this case, the system changes the type of the time in the log to the new type. 
+
+ Once you’re clocked in, this timer becomes active; that is, it moves to the Active Timers section of the timer panel and starts counting the working time. The timer area is shaded in green while the timer is running. To collapse the panel, click anywhere outside it. The top pane will still show the timer area (with the basic information). You can click the timer icon to expand the panel. 
+
+ The timer continues running if you: 
+
+- Sign out from the system 
+
+- Lose the internet connection 
+
+- Switch to the Classic UI 
+
+#### Pausing and Stopping the Timer 
+
+ If you need to temporarily stop the timer for the project task, click Pause in the timer panel. The timer stops running, and the timer area has a yellow background to alert you that time tracking has been paused. When you're ready to continue, click Resume in the timer panel. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Project Tasks | 71 
+
+ Although you can start a timer only on the Project Tasks (PM302000) form, you’ll see the timer area on any form, and you can open the collapsed time panel, and pause it or clock out. 
+
+ When you’re done with the task, click Stop in the timer panel. The system stops the timer and automatically creates a time log. For details, see Employee Time Entry: Creation of Time Activities from Project Time Logs. 
+
+#### Switching Between Multiple Timers 
+
+ If you need to work on a different project task, you can pause the timer for the current task or leave it running (the system will pause it if you start another timer). Then open the new task and click anywhere in the timer area of the top pane. The timer with the new task appears in the Available Timers section, while the timer for the previous task remains in the Active Timers section. 
+
+ Click Clock In to start tracking time for the task you’ve opened. The second timer starts running and appears in the Active Timers section, while the system automatically pauses the first timer. Only one timer can run at a time. 
+
+ You can have multiple timers paused in the Active Timers section at once. When you click Clock Out , the system removes the timer from the timer panel. 
 
 ### Project Tasks: To Add a Project Task to a Project 
 
  In the following implementation activity, you will learn how to add a project task to an existing project. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
-
-<!-- PAGE_BREAK -->
- Creating Project Tasks | 67 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the SweetLife Fruits & Jams company is managing a project for the HM's Bakery and Cafe customer, which has ordered the installation of two juicers. A project for this work is currently in progress; the installation of the juicers is 75% completed and is supposed to be completed by 1/30/2025. 
+ Suppose that the SweetLife Fruits & Jams company is managing a project for the HM's Bakery and Cafe customer, which has ordered the installation of two juicers. A project for this work is currently in progress; the installation of the juicers is 75% completed and is supposed to be completed by 1/30/2026. 
 
  Further suppose that the customer notifies you that its employees need training on operating the juicers; you need to add a project task for this activity to the project and add to the cost budget a cost budget line related to this task. You want to bill the customer separately for the conducted training, and to close the project task based on the budgeted quantity, which is 16 hours of training, eight of which has been already provided to the employee. 
 
@@ -3034,17 +3208,21 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 #### Process Overview 
 
- In this activity, you will add a new project task to the existing project on the Projects (PM301000) form, and specify the standard settings of the project task. Then you will enter specific settings for the project task on the Project Tasks (PM302000) form. 
+ In this activity, you will add a new project task to the existing project on the Projects (PM301000) form, and specify the standard settings of the project task. Then you will enter specific settings for the project task on the Project Tasks (PM302000) form, and add the task to the project budget. Finally, you will process a transaction on the Project Transactions (PM304000) form to update the cost budget. 
 
 #### Configuration Overview 
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+
+<!-- PAGE_BREAK -->
+ Creating Project Tasks | 72 
+
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project accounting functionality. 
 
 - On the _Projects_ (PM301000) form, the _HMBAKERY15_ project has been created. 
 
-- On the _Project Tasks_ (PM302000) form, the _PHASE1_ and _PHASE2_ project tasks have been created for the     _HMBAKERY15_ project. For both tasks, in the **Task Properties** section of the **Summary** tab, **Completed (%)** ,     which represents the completion percentage, is 75%, and the **Start Date** is 1/30/2025. 
+- On the _Project Tasks_ (PM302000) form, the _PHASE1_ and _PHASE2_ project tasks have been created for the     _HMBAKERY15_ project. For both tasks, in the **Task Properties** section of the **Summary** tab, **Completed (%)** ,     which represents the completion percentage, is 75%, and the **Start Date** is 1/30/2026. 
 
 - On the _Non-Stock Items_ (IN202000) form, the _TRAINING_ non-stock item has been defined. 
 
@@ -3054,7 +3232,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as Pam Brawner by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Adding a Project Task to the Project 
 
@@ -3068,17 +3246,13 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 - **Type** : _Cost and Revenue Task_ 
 
-
-<!-- PAGE_BREAK -->
- Creating Project Tasks | 68 
-
 - **Description** : Employee training 
 
 - **Billing Rule** : _TM_ (specified automatically) 
 
 - **Status** : _Active_ 
 
-- **Start Date** : 1/30/2025 
+- **Start Date** : 1/30/2026 
 
 - **Default** : Selected 
 
@@ -3103,6 +3277,10 @@ You have created a pro forma invoice for the customer and verified that the appr
 1. On the _Projects_ (PM301000) form, open the _HMBAKERY15_ project. 
 
 2. On the **Cost Budget** tab, add a line with the following settings: 
+
+
+<!-- PAGE_BREAK -->
+ Creating Project Tasks | 73 
 
 - **Project Task** : _TRAINING_ (selected automatically as the default project task) 
 
@@ -3130,7 +3308,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 1. On the _Project Transactions_ (PM304000) form, create a new record. 
 
-2. In the Summary area, make sure that _PM_ is selected in the **Module** box, and enter An 8-hour training     session as the **Description**. 
+2. In the Summary area, make sure that _PM_ is selected in the **Source** box, and enter An 8-hour training     session as the **Description**. 
 
 3. On the **Details** tab, add a new line with the following settings: 
 
@@ -3141,10 +3319,6 @@ You have created a pro forma invoice for the customer and verified that the appr
 - **Cost Code** : _00-000_ 
 
 - **Account Group** : _LABOR_ 
-
-
-<!-- PAGE_BREAK -->
- Creating Project Tasks | 69 
 
 - **Inventory ID** : _TRAINING_ 
 
@@ -3164,11 +3338,15 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 6. On the _Projects_ (PM301000) form, open the _HMBAKERY15_ project. 
 
-7. On the **Cost Budget** tab, review the cost budget line with the _TRAINING_ project task. Notice that **Actual**     **Amount** in this line is now _360.00_ and the **Actual Quantity** is _8_ , meaning that the project transaction that     you have processed has affected the cost budget (see the following screenshot). 
+7. On the **Cost Budget** tab, review the cost budget line with the _TRAINING_ project task. Notice that **Actual**     **Amount** in this line is now _360.00_ and the **Actual Quantity** is _8_ , meaning that the project transaction that     you have processed has affected the cost budget (see below). 
+
+
+<!-- PAGE_BREAK -->
+ Creating Project Tasks | 74 
 
  Figure: The cost budget line affected by the project transaction 
 
-8. On the **Tasks** tab, review the **Completed (%)** box in the line with the _TRAINING_ task, and notice that 50% of     the task has been completed. 
+8. On the **Tasks** tab, review the **Completed (%)** column in the line with the _TRAINING_ task, and notice that 50%     of the task has been completed. 
 
  You have added a new project task to the existing project and processed a transaction that updates the cost budget line with this project task. 
 
@@ -3177,10 +3355,6 @@ You have created a pro forma invoice for the customer and verified that the appr
  In the following sections, you can find details about the reports and inquiry forms you may want to review to gather information about particular project tasks. 
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
-
-
-<!-- PAGE_BREAK -->
- Creating Project Tasks | 70 
 
 #### Finding Project Transactions Related to a Project Task 
 
@@ -3192,7 +3366,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating Project Templates and Common Tasks | 71 
+ Creating Project Templates and Common Tasks | 75 
 
 ## Creating Project Templates and Common Tasks 
 
@@ -3226,7 +3400,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
  If you need to quickly create a new project based on the existing project, you can create a copy of the project by clicking Copy Project on the More menu of the Projects (PM301000) form. If you plan to use some specific types of project in future, you create a project template based on an existing project and then use this template to create new projects of the type. 
 
- On the Projects (PM301000) form, you select a project that is a typical project of specific type and click Create Template on the More menu. The system will create a project template and include the project template tasks in this project template. You can modify the settings of the created template. Also, you can delete some of the tasks or add new tasks. 
+ On the Projects form, you select a project that is a typical project of specific type and click Create Template on the More menu. The system will create a project template and include the project template tasks in this project template. You can modify the settings of the created template. Also, you can delete some of the tasks or add new tasks. 
 
 #### Templates Created from Scratch 
 
@@ -3236,7 +3410,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating Project Templates and Common Tasks | 72 
+ Creating Project Templates and Common Tasks | 76 
 
  Project templates are not used for grouping or classification of projects. You use them solely for providing the default values in the projects that are created based on these templates. If you need to categorize projects, create project groups on the Project Groups (PM202500) form. You can then assign project groups as follows: 
 
@@ -3274,7 +3448,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating Project Templates and Common Tasks | 73 
+ Creating Project Templates and Common Tasks | 77 
 
  The settings specified for the project template task are copied to the project tasks created based on this project template. If any of these settings are not specified in the project template task, the system copies the respective values from the project template. 
 
@@ -3290,7 +3464,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 #### Enabling Features 
 
- In Acumatica ERP, you can project transactions if the Project Accounting feature is enabled on the Enable/Disable Features (CS100000) form. 
+ In Acumatica ERP, you can project transactions if the Projects feature is enabled on the Enable/Disable Features (CS100000) form. 
 
 #### Configuring Basic Project Accounting 
 
@@ -3302,21 +3476,21 @@ You have created a pro forma invoice for the customer and verified that the appr
 
  Form Task to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting check box is selected. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects check box is selected. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings of project accounting have been specified. 
 
  Account Groups (PM201000) form Make sure that all the necessary account groups have been configured. 
 
-
-<!-- PAGE_BREAK -->
- Creating Project Templates and Common Tasks | 74 
-
 ### Project Templates and Common Tasks: Process Activity 
 
  This activity will walk you through the process of configuring project templates. You will create a common task and add this task to a project. You will also learn how to create a new project based on a project template. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+
+<!-- PAGE_BREAK -->
+ Creating Project Templates and Common Tasks | 78 
+
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3330,7 +3504,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to provide     support for the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to provide support     for the project management functionality. 
 
 - On the _Billing Rules_ (PM207000) form, the _COMBINED_ billing rule has been configured. 
 
@@ -3344,15 +3518,11 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Creating a Project Template 
 
  To create a new project template, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Creating Project Templates and Common Tasks | 75 
 
 1. On the _Project Templates_ (PM208000) form, add a new record. 
 
@@ -3362,15 +3532,19 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 - **Description** : Installation project 
 
+- **Project Manager** : _EP00000001_ 
+
 3. On the **Summary** tab, specify the following settings: 
+
+
+<!-- PAGE_BREAK -->
+ Creating Project Templates and Common Tasks | 79 
 
 - **Project Properties** section: 
 
 - **Revenue Budget Level** : _Task and Item_ 
 
 - **Cost Budget Level** : _Task_ 
-
-- **Project Manager** : _EP00000001_ 
 
 - **Billing and Allocation Settings** section: 
 
@@ -3408,17 +3582,11 @@ You have created a pro forma invoice for the customer and verified that the appr
 
  For each line, the system inserts REVENUE as the Account Group because the sales account specified in the settings of the stock and non-stock items is mapped to this account group, which has the Income type. 
 
-7. Save your changes to the project template. 
-
- When you save the project template, the system automatically creates project template tasks corresponding to the tasks you have added to the project template. 
+7. Save your changes to the project template.     When you save the project template, the system automatically creates project template tasks corresponding     to the tasks you have added to the project template. 
 
 8. On the form toolbar, click **Activate** to assign the project template the _Active_ status, which makes it possible     to use the project template for creating projects. 
 
 9. On the **Tasks** tab, in the **Task ID** column, click the _PHASE1_ link to open the task on the _Project Template Tasks_     (PM208010) form.     On the **Summary** tab of this form, notice that the **Automatically Include in Project** check box is selected     by default. With this setting, the project template task will be automatically included in any project created     based on the associated project template. 
-
-
-<!-- PAGE_BREAK -->
- Creating Project Templates and Common Tasks | 76 
 
  You have created a project template and project template tasks. In the next step, you will create a common task. 
 
@@ -3427,6 +3595,10 @@ You have created a pro forma invoice for the customer and verified that the appr
  A common task is a task that can be added to any new or existing project (unlike a project template task, which is associated with just one project template). To create a common task, perform the following instructions: 
 
 1. On the _Common Tasks_ (PM208030) form, add a new record. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Project Templates and Common Tasks | 80 
 
 2. In the Summary area, specify the following settings: 
 
@@ -3476,15 +3648,13 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 7. On the **Revenue Budget** tab, make sure that three revenue budget lines have been copied to the project     from the selected project template. 
 
-8. In the line with the _PHASE1_ task and the _SITEREVIEW_ item, specify 4 as the **Original Budgeted Quantity**.     When you enter the **Original Budgeted Quantity** in each line, the system automatically calculates the     **Original Budgeted Amount** as the **Original Budgeted Quantity** multiplied by the **Unit Rate** (see the     screenshot below). 
+8. In the line with the _PHASE1_ task and the _SITEREVIEW_ item, specify 4 as the **Original Budgeted Quantity**.     When you enter the **Original Budgeted Quantity** in each line, the system automatically calculates the     **Original Budgeted Amount** as the **Original Budgeted Quantity** multiplied by the **Unit Rate** (see below). 
 
-9. In the line with the _PHASE2_ task and the _INSTALL_ item, specify 8 as the **Original Budgeted Quantity**. 
+9. In the line with the _PHASE2_ task and the _INSTALL_ item, specify 8 as the **Original Budgeted Quantity**. 10.In the line with the _PHASE2_ task and the _JUICER10_ item, specify 2 as the **Original Budgeted Quantity**. 
 
 
 <!-- PAGE_BREAK -->
- Creating Project Templates and Common Tasks | 77 
-
- 10.In the line with the PHASE2 task and the JUICER10 item, specify 2 as the Original Budgeted Quantity. 
+ Creating Project Templates and Common Tasks | 81 
 
  Figure: Revenue budget lines in the project 
 
@@ -3510,7 +3680,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating Labor Items | 78 
+ Creating Labor Items | 82 
 
 ## Creating Labor Items 
 
@@ -3560,7 +3730,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating Labor Items | 79 
+ Creating Labor Items | 83 
 
  The system must be able to convert the base unit of measure of the labor item into minutes. That is, the conversion rule from a minute to the base unit of measure selected for the labor item must be specified in the table. For more information about how the system selects the unit conversion rules, see Project Transactions: Update of the Project Budget Structure. 
 
@@ -3590,7 +3760,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating Labor Items | 80 
+ Creating Labor Items | 84 
 
 3. The **General Info** tab of the _Employees_ (EP203000) form for the employee who is the owner of the activity     being billed: On this tab, a labor item can be specified that is to be used for the employee regardless of the     earning type of the particular activity. 
 
@@ -3610,7 +3780,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 5. The **General** tab of the _Employees_ (EP203000) form for the employee who is the owner of the activities     related to the case being billed. On this tab, a labor item can be specified that is to be used for the employee     regardless of the earning type of the particular activity. 
 
- For further information about the billing of contract-related cases, see Contract Usage: Contract UsageImplementing and Managing the Support Contract: Contract Usage. For details on how you can use labor items to set up employee rates for contracts, see Contract Setup and Activation: To Create and Activate an Empty Consulting Contract Draft 
+ For further information about the billing of contract-related cases, see Contract Usage: Contract Usage. For details on how you can use labor items to set up employee rates for contracts, see Contract Setup and Activation: To Create and Activate an Empty Consulting Contract Draft 
 
 ### Labor Items: Configuration Prerequisites 
 
@@ -3626,7 +3796,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating Labor Items | 81 
+ Creating Labor Items | 85 
 
 - On the _Projects Preferences_ (PM101000) form, the basic project accounting settings have been specified:     numbering sequences, non-project code, visibility settings, and posting settings. The actual combination     of settings you need to specify depends on the processes in your organization and on the features enabled     on the _Enable/Disable Features_ (CS100000) form. For details, see _Basic Project Configuration: Implementation_     _Activity_. 
 
@@ -3648,7 +3818,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
  This activity will walk you through the process of configuring a labor non-stock item that will then be used for billing employee labor within projects. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3660,13 +3830,13 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating Labor Items | 82 
+ Creating Labor Items | 86 
 
 #### Configuration Overview 
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Chart of Accounts_ (GL202500) form, the _54600 – Repair Expense_ account has been defined and     mapped to the _MAINTSERV_ account group, which has been defined on the _Account Groups_ (PM201000) form. 
 
@@ -3726,7 +3896,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating Labor Items | 83 
+ Creating Labor Items | 87 
 
 2. In the **Labor Item** box on the **General** tab, select _JUICERREPAIR_. 
 
@@ -3754,7 +3924,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 - _Union Wage_ : If you select this type, in the row, you must select the applicable union local and labor item.     You might define a rate of this type if an employee is a member of a local branch of a union; in this case, the     union requires the company to pay the dictated union rate, which is usually higher than the prevailing wage     rate. 
 
-- _Prevailing Wage_ : If you select this type, in the row, you must select the project and labor item.     You might define a rate of this type if a government entity requires the construction companies to pay a     non-union employee no less than the dictated prevailing wage rate. The prevailing wage is a government     mechanism to equalize the wage rates that are paid by a construction company to non-union workers     compared to labor union workers for the same type of work performed for a certified job. (A certified job is a     job performed for government, such as a construction project of a municipal building.) For each labor cost rate, regardless of its type, you specify the effective date. If there are multiple labor cost rates with the same settings, the system uses the rate with the most recent effective date that precedes the current date. You can also create a labor cost rate with the same settings as an existing labor cost rate but with an effective date that is later than the latest effective date of the existing labor cost rate. 
+- _Prevailing Wage_ : If you select this type, in the row, you must select the project and labor item.     You might define a rate of this type if a government entity requires the construction companies to pay a     non-union employee no less than the dictated prevailing wage rate. The prevailing wage is a government     mechanism to equalize the wage rates that are paid by a construction company to non-union workers     compared to labor union workers for the same type of work performed for a certified job. (A certified job is a     job performed for government, such as a construction project of a municipal building.) For each labor cost rate, regardless of its type, you specify the effective date. If there are multiple labor cost rates with the same settings, the system uses the rate with the most recent effective date that precedes the current date. For project transactions created from time activities, the system uses the labor rate that’s effective on the time activity's reported date. You can also create a labor cost rate with the same settings as an existing labor cost rate but with an effective date that is later than the latest effective date of the existing labor cost rate. 
 
 #### Units of Measure in Labor Cost Rates 
 
@@ -3762,7 +3932,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating Labor Items | 84 
+ Creating Labor Items | 88 
 
  When you create a labor cost rate for a labor item with a base UOM that is not an hour, make sure that you enter the rate for the base UOM of the labor item on the Labor Rates form so that the system calculates the correct amount when a time activity with this labor item is released. 
 
@@ -3808,7 +3978,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating Labor Items | 85 
+ Creating Labor Items | 89 
 
 3. If there are multiple labor cost rates with the same settings, the system uses the rate with the actual     effective date corresponding to the date of the time card line in the time zone in which the time card line     was reported. 
 
@@ -3816,11 +3986,11 @@ You have created a pro forma invoice for the customer and verified that the appr
 
  In the following implementation activity, you will learn how to define labor cost rates. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that in the SweetLife Fruits & Jams company, the price of the consulting services depends on the qualifications of the consultant who provides the service. Acting as SweetLife's project manager, you need to define the labor cost rates that will become effective on January 1, 2025 , for three of your company's consultants: 
+ Suppose that in the SweetLife Fruits & Jams company, the price of the consulting services depends on the qualifications of the consultant who provides the service. Acting as SweetLife's project manager, you need to define the labor cost rates that will become effective on January 1, 2026 , for three of your company's consultants: 
 
 - Pam Brawner, a project manager, whose work rate is $48 per hour 
 
@@ -3832,9 +4002,11 @@ You have created a pro forma invoice for the customer and verified that the appr
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled. 
 
-- On the _Non-Stock Items_ (IN202000) form, the _CONSULTJR_ , _CONSULTSR_ , and _CONSULTPM_ labor items have     been created; on the _Employees_ (EP203000) form, these items have been assigned to the _EP00000004_     _(Alberto Jimenez)_ , _EP00000003 (Jon Waite)_ , and _EP00000001 (Pam Brawner)_ employees, respectively. The     base unit of all items is _HOUR_. For an example of configuring a labor item and assigning it to an employee,     see _Labor Items: To Configure a Labor Item_. 
+- On the _Non-Stock Items_ (IN202000) form, the _CONSULTJR_ , _CONSULTSR_ , and _CONSULTPM_ labor items have     been created. 
+
+- On the _Employees_ (EP203000) form, these labor items have been assigned to the _EP00000004 (Alberto_     _Jimenez)_ , _EP00000003 (Jon Waite)_ , and _EP00000001 (Pam Brawner)_ employees, respectively. The base unit     of all items is _HOUR_. For an example of configuring a labor item and assigning it to an employee, see _Labor_     _Items: To Configure a Labor Item_. 
 
 #### Process Overview 
 
@@ -3846,15 +4018,15 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/1/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/1/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/1/2026_. If a different date is displayed, click the Business Date menu     button, and select _1/1/2026_ on the calendar. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Labor Items | 90 
 
 #### Step: Defining Labor Cost Rates 
 
  To define the needed labor cost rates, do the following: 
-
-
-<!-- PAGE_BREAK -->
- Creating Labor Items | 86 
 
 1. On the _Labor Rates_ (PM209900) form, to add a new labor cost rate for Alberto Jimenez, click **Add Row** on the     table toolbar, and specify the following settings in the row: 
 
@@ -3866,7 +4038,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 - **Rate** : 40 
 
-- **Effective Date** : _1/1/2025_ (inserted automatically) 
+- **Effective Date** : _1/1/2026_ (inserted automatically) 
 
 2. To add a labor cost rate for Jon Waite, click **Add Row** on the table toolbar, and specify the following settings     in the row: 
 
@@ -3878,7 +4050,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 - **Rate** : 44 
 
-- **Effective Date** : _1/1/2025_ (inserted automatically) 
+- **Effective Date** : _1/1/2026_ (inserted automatically) 
 
 3. To add a labor cost rate for Pam Brawner, again click **Add Row** on the table toolbar, and specify the     following settings in the row: 
 
@@ -3890,9 +4062,9 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 - **Rate** : 48 
 
-- **Effective Date** : _1/1/2025_ (inserted automatically) 
+- **Effective Date** : _1/1/2026_ (inserted automatically) 
 
-4. Save your changes to the labor cost rates. The labor cost rates you have defined should look like those     shown in the following screenshot. 
+4. Save your changes to the labor cost rates. The labor cost rates you have defined should look like those     shown below. 
 
  Figure: The added labor cost rates 
 
@@ -3900,13 +4072,13 @@ You have created a pro forma invoice for the customer and verified that the appr
 
  Now you can complete the Employee Time Billing: Process Activity to review how the labor cost rates are used in projects. 
 
+
+<!-- PAGE_BREAK -->
+ Creating Labor Items | 91 
+
 ### Labor Items: Related Forms 
 
  This topic describes forms you may review to gather information about labor items. 
-
-
-<!-- PAGE_BREAK -->
- Creating Labor Items | 87 
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
 
@@ -3920,7 +4092,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Processing Project Quotes | 88 
+ Processing Project Quotes | 92 
 
 ## Processing Project Quotes 
 
@@ -3966,7 +4138,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Processing Project Quotes | 89 
+ Processing Project Quotes | 93 
 
 - An estimation line with an account group specified in the **Revenue Account Group** column establishes     revenue; the **Ext. Price** of the line is the estimated revenue amount. 
 
@@ -3996,7 +4168,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Processing Project Quotes | 90 
+ Processing Project Quotes | 94 
 
 ### Project Quotes: Implementation Checklist 
 
@@ -4008,11 +4180,11 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Processing Project Quotes | 91 
+ Processing Project Quotes | 95 
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting and Project Quotes features are enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects and Project Quotes features are enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -4042,7 +4214,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Processing Project Quotes | 92 
+ Processing Project Quotes | 96 
 
 - To cause the system to automatically select a project template on creation of project quotes, select the     project template in the **Default Quote Template** box on the **General** tab ( **Default Settings** section) of the     _Projects Preferences_ form. 
 
@@ -4070,7 +4242,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Processing Project Quotes | 93 
+ Processing Project Quotes | 97 
 
  Aer the project quote has been created based on the opportunity, its workflow is the same as that of a project quote that has been created from scratch. For information, see Project Quotes: General Information. 
 
@@ -4098,7 +4270,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Processing Project Quotes | 94 
+ Processing Project Quotes | 98 
 
 - Copies the address information from the **Address** section on the **Contact** tab of the _Opportunities_ form to     the **Bill-To Address** section on the **Addresses** tab of the _Project Quotes_ form for the project quote. If you specify a different business account in the **Business Account** box of the Summary area, or a location in the **Location** box of the **Financial** tab of the _Project Quotes_ form, the system displays a dialog box in which you need to confirm the replacement of the existing settings in the quote with the new settings. 
 
@@ -4106,11 +4278,13 @@ You have created a pro forma invoice for the customer and verified that the appr
 
  This activity will walk you through the process of creating a project quote from an opportunity and creating a project based on the project quote. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the HM's Bakery and Cafe customer has ordered a juicer for one of its restaurants, along with the installation and training services from the SweetLife Fruits & Jams company. The sales manager of SweetLife has created an opportunity for the provision of the juicer and the services. Acting as SweetLife's estimator, you will create a project quote for this opportunity, confirm the project quote with the customer, and convert the project quote to the project. 
+ Suppose that the HM's Bakery and Cafe customer has ordered a juicer for one of its restaurants, along with the installation and training services from the SweetLife Fruits & Jams company. The sales manager of SweetLife has created an opportunity for the provision of the juicer and the services. Acting as SweetLife's estimator, you will create a project quote for this opportunity, and confirm the project quote with the customer. 
+
+ Then you will convert the project quote to the project. 
 
 #### Configuration Overview 
 
@@ -4118,7 +4292,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 - For the purposes of this activity, the following features have been enabled on the _Enable/Disable Features_     (CS100000) form: 
 
-- _Project Accounting_ , which provides support for the project accounting functionality 
+- _Projects_ , which provides support for the project management functionality 
 
 - _Project Quotes_ , which provides the ability to create project quotes 
 
@@ -4136,11 +4310,13 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 #### Process Overview 
 
- On the Opportunities (CR304000) form, you will initiate the creation of a project quote for the opportunity created for the customer. On the Project Quotes (PM304500) form, you will then create the project quote and specify all required settings, including the estimation lines and the project template to be used for project creation. You will also print the project quote and email it to the customer for review. Once the project quote has been confirmed with the customer, you will convert the project quote to a project. 
+ On the Opportunities (CR304000) form, you will initiate the creation of a project quote for the opportunity created for the customer. On the Project Quotes (PM304500) form, you will then create the project quote and specify all required settings, including the estimation lines and the project template to be used for project creation. You will also print the project quote and email it to the customer for review. 
+
+ Once the project quote has been confirmed with the customer, you will convert the project quote to a project. 
 
 
 <!-- PAGE_BREAK -->
- Processing Project Quotes | 95 
+ Processing Project Quotes | 99 
 
 #### System Preparation 
 
@@ -4148,7 +4324,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Creating a Project Quote 
 
@@ -4186,7 +4362,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Processing Project Quotes | 96 
+ Processing Project Quotes | 100 
 
 - **Cost Code** : _00-000_ 
 
@@ -4254,7 +4430,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Processing Project Quotes | 97 
+ Processing Project Quotes | 101 
 
 #### Step 3: Confirming the Project Quote with the Customer 
 
@@ -4304,7 +4480,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Processing Project Quotes | 98 
+ Processing Project Quotes | 102 
 
 - On the **Cost Budget** tab, three cost budget lines have been created based on the estimation lines of the     project quote with the specified cost account group. 
 
@@ -4334,7 +4510,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Processing Project Quotes | 99 
+ Processing Project Quotes | 103 
 
  If the project template has attached files or notes, these files and notes will be copied to the created project. If a project template task has attached files or notes, these files and notes will be copied to the project tasks. 
 
@@ -4364,21 +4540,21 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 - In the created project, the system inserts the default accounts and subaccounts specified for the template     on the _Project Templates_ (PM208000) form. 
 
+- If a project quote is converted to a project through a project template, the system copies the default values     from the **Default Task for GL Account** table on the _Project Templates_ (PM208000) form to the same table on     the _Projects_ (PM301000) form. 
+
 - If a project task is created based on a project template task, the system populates the default accounts and     subaccounts with those specified for the project template task on the _Project Template Tasks_ (PM208010)     form. If the accounts and subaccounts are not specified in the project template task, the system inserts the     default values specified for the project template. 
 
 - If a project task is created based on the common task, the system populates the default accounts and     subaccounts with those specified for the common task on the _Common Tasks_ (PM208030) form. If the     accounts and subaccounts are not specified for the common task, the system inserts the default values     specified for the project template. 
 
 - If a project task has been added to the project quote manually, the system inserts the default accounts and     subaccounts specified for the project template. 
 
-#### Revenue Budget 
-
- When the system creates a project based on the project quote, to populate the revenue budget, the system groups the estimation lines of the project quote depending on the revenue budget level ( Task , Task and Item , or Task and Cost Code ) of the project template specified for the project quote; the revenue budget level of the project 
-
 
 <!-- PAGE_BREAK -->
- Processing Project Quotes | 100 
+ Processing Project Quotes | 104 
 
- template is specified on the Summary tab ( Project Properties section) of the Project Templates (PM208000) form. For each group of estimation lines, on the Revenue Budget tab of the Projects (PM301000) form, the system creates a revenue budget line with the following settings: 
+#### Revenue Budget 
+
+ When the system creates a project based on the project quote, to populate the revenue budget, the system groups the estimation lines of the project quote depending on the revenue budget level ( Task , Task and Item , or Task and Cost Code ) of the project template specified for the project quote; the revenue budget level of the project template is specified on the Summary tab ( Project Properties section) of the Project Templates (PM208000) form. For each group of estimation lines, on the Revenue Budget tab of the Projects (PM301000) form, the system creates a revenue budget line with the following settings: 
 
 - **Project Task** : The system uses the project task of the aggregated estimation lines. 
 
@@ -4418,17 +4594,17 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 #### Cost Budget 
 
- When the system creates a project based on the project quote, to populate the cost budget, the system groups the estimation lines of the project quote depending on the cost budget level of the project template specified for the project quote; the cost budget level of the project template is specified on the Summary tab ( Project Properties section) of the Project Templates (PM208000) form. For each group of estimation lines, on the Cost Budget tab of the Projects (PM301000) form, the system creates a cost budget line with the following settings: 
-
-- **Project Task** : The system inserts the project task of the aggregated estimation lines. 
-
-- **Inventory ID** : The system uses the inventory ID of the aggregated estimation lines. Estimation lines without     an inventory item specified are aggregated into a cost budget line with this column populated with the 
+ When the system creates a project based on the project quote, to populate the cost budget, the system groups the estimation lines of the project quote depending on the cost budget level of the project template specified for the project quote; the cost budget level of the project template is specified on the Summary tab ( Project Properties 
 
 
 <!-- PAGE_BREAK -->
- Processing Project Quotes | 101 
+ Processing Project Quotes | 105 
 
- empty item code, which is N/A by default. You can change the default empty item code in the Empty Item Code box on the Projects Preferences (PM101000) form. 
+ section) of the Project Templates (PM208000) form. For each group of estimation lines, on the Cost Budget tab of the Projects (PM301000) form, the system creates a cost budget line with the following settings: 
+
+- **Project Task** : The system inserts the project task of the aggregated estimation lines. 
+
+- **Inventory ID** : The system uses the inventory ID of the aggregated estimation lines. Estimation lines without     an inventory item specified are aggregated into a cost budget line with this column populated with the     empty item code, which is _N/A_ by default. You can change the default empty item code in the **Empty Item**     **Code** box on the _Projects Preferences_ (PM101000) form. 
 
 - **Account Group** : The system inserts the cost account group of the aggregated estimation lines. 
 
@@ -4470,13 +4646,13 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 - The address information in the **Project Address** section on the **Addresses** tab of the _Project Quotes_ form is     copied to the same section and tab of the _Projects_ (PM301000) form. 
 
+
+<!-- PAGE_BREAK -->
+ Processing Project Quotes | 106 
+
 - The contact information in the **Bill-To Contact** section on the **Addresses** tab of the _Project Quotes_ form is     copied to the **Bill-To** section of the same tab of the _Projects_ form. 
 
 - The address information in the **Bill-To Address** section on the **Addresses** tab of the _Project Quotes_ form is     copied to the same section and tab of the _Projects_ form. 
-
-
-<!-- PAGE_BREAK -->
- Processing Project Quotes | 102 
 
 #### Other Project Settings 
 
@@ -4508,9 +4684,37 @@ You have created a pro forma invoice for the customer and verified that the appr
 
  On the Validate Addresses in Project Documents form, you select the form in which the address records were entered in the Creation Form box, and select the unlabeled check boxes in the rows to be processed in the table. Then you click Validate on the form toolbar. To instead validate all the listed address records, you click Validate All on the form toolbar. 
 
+#### Mass-Printing 
+
+ You can print multiple project quotes at once on the Print/Email Project Quotes (PM504545) form. To do this, select the Print action and specify any selection criteria to narrow the list of quotes to be displayed. If the DeviceHub 
+
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 103 
+ Processing Project Quotes | 107 
+
+ feature is enabled on the Enable/Disable Features (CS100000) form, you can select the printer and specify the number of copies to be printed. 
+
+ Then, select the unlabeled check boxes in the rows of the quotes you want to print and click Process on the form toolbar. Alternatively, click Process All to print all listed quotes. 
+
+#### Mass-Emailing 
+
+ You can email multiple project quotes to each customer or prospective customer at once on the Print/Email Project Quotes (PM504545) form. To do this, select the Send action, and specify any selection criteria to narrow the list of documents. 
+
+ Then select the Send Documents in One Email check box. If you want to combine each customer’s processed project quotes into one file, select the Combine into One File check box. The system will attach the file to the email. 
+
+- You can include up to 100 documents in a single email or combine up to 100 documents into     one file. 
+
+- If you select more than 100 documents, the system creates multiple emails, each within this     limitation. 
+
+ To send emails with project quotes, do one of the following: 
+
+- To email only particular project quotes, select the unlabeled check boxes in the rows of the project quotes     you want to email. Then click **Process** on the form toolbar. 
+
+- To email all the listed project quotes, click **Process All**. 
+
+
+<!-- PAGE_BREAK -->
+ Creating and Processing Projects | 108 
 
 ## Creating and Processing Projects 
 
@@ -4552,7 +4756,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 104 
+ Creating and Processing Projects | 109 
 
 #### Project Settings 
 
@@ -4588,7 +4792,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 105 
+ Creating and Processing Projects | 110 
 
  projects available to employees of only a particular project team by using restriction groups. For more information, see Visibility of Projects by User. 
 
@@ -4624,7 +4828,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 106 
+ Creating and Processing Projects | 111 
 
 - User _PM_ , the project manager, is allowed to work with any projects except for the internal projects. 
 
@@ -4678,7 +4882,7 @@ You have created a pro forma invoice for the customer and verified that the appr
 
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 107 
+ Creating and Processing Projects | 112 
 
 As a simple example, suppose that you need to restrict the visibility of projects to employees in your organization, which has the following organizational and project structure: 
 
@@ -4710,7 +4914,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 108 
+ Creating and Processing Projects | 113 
 
 - _HQSERVICE_ : Service projects of the _HQ_ branch 
 
@@ -4758,11 +4962,11 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 109 
+ Creating and Processing Projects | 114 
 
- areas, so that users can select only appropriate projects when they are preparing documents. You can select areas in the Visibility Settings section of the General tab on the Projects (PM301000) form. Aer you have selected an area, users can select the project in documents generated on the related forms, and the release of these documents automatically updates the project data. 
+ areas, so that users can select only appropriate projects when they are preparing documents. You can select areas in the Visibility Settings section of the Summary tab on the Projects (PM301000) form. Aer you have selected an area, users can select the project in documents generated on the related forms, and the release of these documents automatically updates the project data. 
 
-- Display or hide the tasks of a project: If the users perform particular tasks of a project in a certain area (for     example, the _Warehouse operations_ task requires users to enter inventory transactions, and the _Customer_     _payments_ task requires users to enter accounts receivable documents), you can select the areas where the     task will be displayed in the settings of the project task. You select these areas in the **Visibility Settings**     section of the **General Info** tab on the _Project Tasks_ (PM302000) form. 
+- Display or hide the tasks of a project: If the users perform particular tasks of a project in a certain area (for     example, the _Warehouse operations_ task requires users to enter inventory transactions, and the _Customer_     _payments_ task requires users to enter accounts receivable documents), you can select the areas where the     task will be displayed in the settings of the project task. You select these areas in the **Visibility Settings**     section of the **Summary** tab on the _Project Tasks_ (PM302000) form. 
 
 #### Visibility of Project Transactions by Account Group 
 
@@ -4796,7 +5000,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 110 
+ Creating and Processing Projects | 115 
 
  With this configuration, User A enters project transactions with employee labor related to project and selects the LABOR account group. Access to this account group is restricted for User P , who is able to review the project transaction lines with the MATERIAL and SUBCON account groups but cannot view the lines with LABOR account group on data entry forms and in reports. 
 
@@ -4846,7 +5050,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 111 
+ Creating and Processing Projects | 116 
 
  with the identifier that matches an existing contract identifier because the CONTRACT segmented key inherits its structure from the PROJECT segmented key. If the PROJECT segmented key contains a validated segment (or multiple validated segments), the values of the validated segments should be specified in the validated positions of the segmented key. 
 
@@ -4872,15 +5076,15 @@ To configure this security, the system administrator performs the following gene
 
  This activity will walk you through the process of initial creation of a simple fixed-price project. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 112 
+ Creating and Processing Projects | 117 
 
 #### Story 
 
- Suppose that the Lake Cafe customer has ordered a juicer from the SweetLife Fruits & Jams company, along with two hours of site review and four hours of installation services. The work will start on 1/1/2025 and must be completed by 1/30/2025. SweetLife's project accountant has decided to create a project to track costs and revenues for the performed work. The project will be completed in two phases: Phase 1 will be the site review, and phase 2 will involve the sale and installation of the juicer. To track the progress of each phase separately, the project accountant has decided to define the phases as separate project tasks. Also, the project accountant will specify the revenue budget information for each project task and inventory item. 
+ Suppose that the Lake Cafe customer has ordered a juicer from the SweetLife Fruits & Jams company, along with two hours of site review and four hours of installation services. The work will start on 1/1/2026 and must be completed by 1/30/2026. SweetLife's project accountant has decided to create a project to track costs and revenues for the performed work. The project will be completed in two phases: Phase 1 will be the site review, and phase 2 will involve the sale and installation of the juicer. To track the progress of each phase separately, the project accountant has decided to define the phases as separate project tasks. Also, the project accountant will specify the revenue budget information for each project task and inventory item. 
 
  The project will be billed once, when both of the project tasks are completed. Also, the project accountant has decided to skip the creation of pro forma invoices, because all amounts have already been budgeted and agreed upon with the customer, so the direct AR invoice will be created during the billing process. 
 
@@ -4890,7 +5094,7 @@ To configure this security, the system administrator performs the following gene
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Stock Items_ (IN202500) form, the _JUICER10_ stock item has been defined. 
 
@@ -4908,7 +5112,7 @@ To configure this security, the system administrator performs the following gene
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as Pam Brawner by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/1/2025_. If a different date is displayed, click the Business Date menu     button, and select 1/1/2025 on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/1/2026_. If a different date is displayed, click the Business Date menu     button, and select 1/1/2026 on the calendar. 
 
 #### Step 1: Creating a Project and Specifying Its General Settings 
 
@@ -4922,23 +5126,23 @@ To configure this security, the system administrator performs the following gene
 
 - **Customer** : _LAKECAFE (Lake Cafe)_ 
 
-- **Project Manager** : _EP00000001 (Pam Brawner)_ 
+- **Start Date** : _1/1/2026_ 
 
-- **Description** : Installation project for Lake Cafe 
+- **End Date** : _1/30/2026_ 
 
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 113 
+ Creating and Processing Projects | 118 
+
+- **Project Manager** : _EP00000001 (Pam Brawner)_ 
+
+- **Description** : Installation project for Lake Cafe 
 
 3. On the **Summary** tab, specify the following settings: 
 
 - **Revenue Budget Level** : _Task and Item_     You select this option to include more detail in the revenue budget structure. With this setting, you will     be able to select an inventory item in a revenue budget line. 
 
 - **Cost Budget Level** : _Task and Item_     You select this option to include more detail in the cost budget structure. With this setting, you will be     able to select an inventory item in a cost budget line. 
-
-- **Start Date** : _1/1/2025_ 
-
-- **End Date** : _1/30/2025_ 
 
 - **Change Order Workflow** : Cleared     You clear this check box because for this simple fixed-price project, no changes will be required. 
 
@@ -4976,7 +5180,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 114 
+ Creating and Processing Projects | 119 
 
 1. On the **Revenue Budget** tab, add each line of the project revenue budget that is listed in the following table     by clicking **Add Row** and specifying the listed settings in the row. 
 
@@ -4988,13 +5192,15 @@ To configure this security, the system administrator performs the following gene
 
 ##### PHASE2 INSTALL REVENUE 4.00 100.00 
 
-2. Make sure that the original and revised values in the revenue budget lines have been calculated, as shown in     the following screenshot. 
+2. Save your changes, 
+
+3. Make sure that the original and revised values in the revenue budget lines have been calculated, as shown     below. 
 
  Figure: Revenue budget of a fixed-price project 
 
  For each budget line, the system automatically calculated the Original Budgeted Amount as the Original Budgeted Quantity multiplied by the Unit Rate. The system also filled in the Revised Budgeted Quantity and Revised Budgeted Amount columns with the values of Original Budgeted Quantity and Original Budgeted Amount columns, respectively. 
 
-3. Save your changes to the project.     You have not configured the cost budget for the project because you do not need to track if the project     expenses are within the budgeted values. When you enter project transactions that represent the project     expenses, the system will automatically populate the cost budget with the actual values. 
+4. Save your changes to the project.     You have not configured the cost budget for the project because you do not need to track if the project     expenses are within the budgeted values. When you enter project transactions that represent the project     expenses, the system will automatically populate the cost budget with the actual values. 
 
  You have finished configuring the project. Now you can complete the Project Creation and Processing: To Process a Fixed-Price Project activity to practice completing the project lifecycle. 
 
@@ -5002,15 +5208,15 @@ To configure this security, the system administrator performs the following gene
 
  This activity will walk you through the process of configuring a simple cost-plus project from its initial creation. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 115 
+ Creating and Processing Projects | 120 
+
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the Lake Cafe customer has contacted the SweetLife Fruits & Jams company and ordered training of its employees on operating the juicer it purchased from SweetLife. The training sessions will start on 1/1/2025 and must be completed by 1/30/2025. The project accountant has analyzed the requirements and decided to create a small cost-plus project (with only a single task for the training of employees); the expected project profitability is 20%. Because the number of training sessions may be changed during the project completion by the customer's request, the project will be billed when all training sessions have been provided. The project accountant has decided to skip the creation of pro forma invoices, because the price of the provided services has already been agreed upon with the customer. 
+ Suppose that the Lake Cafe customer has contacted the SweetLife Fruits & Jams company and ordered training of its employees on operating the juicer it purchased from SweetLife. The training sessions will start on 1/1/2026 and must be completed by 1/30/2026. The project accountant has analyzed the requirements and decided to create a small cost-plus project (with only a single task for the training of employees); the expected project profitability is 20%. Because the number of training sessions may be changed during the project completion by the customer's request, the project will be billed when all training sessions have been provided. The project accountant has decided to skip the creation of pro forma invoices, because the price of the provided services has already been agreed upon with the customer. 
 
  Acting as the project accountant, you will create the new project and specify the needed settings. 
 
@@ -5018,7 +5224,7 @@ To configure this security, the system administrator performs the following gene
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Non-Stock Items_ (IN202000) form, the _TRAINING_ non-stock item has been defined. 
 
@@ -5036,7 +5242,7 @@ To configure this security, the system administrator performs the following gene
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as Pam Brawner by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/1/2025_. If a different date is displayed, click the Business Date menu     button, and select 1/1/2025 on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/1/2026_. If a different date is displayed, click the Business Date menu     button, and select 1/1/2026 on the calendar. 
 
 #### Step 1: Creating a Project and Specifying Its General Settings 
 
@@ -5048,6 +5254,14 @@ To configure this security, the system administrator performs the following gene
 
 - **Project ID** : INSTLAKE02 
 
+- **Start Date** : _1/1/2026_ 
+
+
+<!-- PAGE_BREAK -->
+ Creating and Processing Projects | 121 
+
+- **End Date** : _1/30/2026_ 
+
 - **Customer** : _LAKECAFE (Lake Cafe)_ 
 
 - **Project Manager** : _EP00000001 (Pam Brawner)_ 
@@ -5056,17 +5270,9 @@ To configure this security, the system administrator performs the following gene
 
 3. On the **Summary** tab, specify the following settings: 
 
-
-<!-- PAGE_BREAK -->
- Creating and Processing Projects | 116 
-
 - **Revenue Budget Level** : _Task and Item_     You select this option to include more detail in the revenue budget structure. With this setting, you will     be able to select an inventory item in a revenue budget line. 
 
 - **Cost Budget Level** : _Task and Item_     You select this option to include more detail in the cost budget structure. With this setting, you will be     able to select an inventory item in a cost budget line. 
-
-- **Start Date** : _1/1/2025_ 
-
-- **End Date** : _1/30/2025_ 
 
 - **Change Order Workflow** : Cleared     You clear this check box because for this simple cost-plus project, no changes will be required. 
 
@@ -5110,17 +5316,15 @@ To configure this security, the system administrator performs the following gene
 
 - **Account Group** : _LABOR_ (selected automatically) 
 
+
+<!-- PAGE_BREAK -->
+ Creating and Processing Projects | 122 
+
 - **Original Budgeted Quantity** : 16 
 
 - **UOM** : _HOUR_ 
 
-- **Unit Rate** : 40 
-
-
-<!-- PAGE_BREAK -->
- Creating and Processing Projects | 117 
-
- The system automatically calculates the Original Budgeted Amount for the cost budget line ($640) as the Original Budgeted Quantity multiplied by the Unit Rate. 
+- **Unit Rate** : 40 The system automatically calculates the **Original Budgeted Amount** for the cost budget line ($640) as the **Original Budgeted Quantity** multiplied by the **Unit Rate**. 
 
 2. Save your changes to the project.     You have not configured the revenue budget for the project because you have not agreed with the customer     on the number of training sessions and this number may be changed during the project completion at the     customer's request. When you bill the project based on the incurred expenses, the system automatically     populates the revenue budget with the actual values. 
 
@@ -5128,23 +5332,25 @@ To configure this security, the system administrator performs the following gene
 
 ### Project Creation and Processing: A Project’s Lifecycle 
 
- In Acumatica ERP, a project is a one-time or recurring endeavor with a specific scope, time frame, and budget. The following sections describe the common stages of a project’s lifecycle: estimation, acceptance, execution, and completion. 
+ In Acumatica ERP, a project is a one-time or recurring endeavor with a specific scope, time frame, and budget. The following sections describe the common stages of a project’s lifecycle: estimation, acceptance, execution, completion, and closure. 
 
 #### Project Stages and Statuses 
 
- The following diagram shows the stages a project goes through and the statuses it is assigned from the project’s initiation to its completion. 
+ The following diagram shows the stages a project goes through and the statuses it is assigned from the project’s initiation to its closure. 
 
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 118 
+ Creating and Processing Projects | 123 
 
 #### Project Estimation 
 
- During the project estimation stage, you specify project settings on the Projects (PM301000) form, define activities, plan the project tasks, estimate the time required for the completion of each project task, and populate the project record with employees, resources, and equipment. The system assigns each new project and its tasks the In Planning status once it has been saved. 
+ During the project estimation stage, you specify project settings on the Projects (PM301000) form, define activities, plan the project tasks, estimate the time required for the completion of each project task, and populate the project 
 
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 119 
+ Creating and Processing Projects | 124 
+
+ record with employees, resources, and equipment. The system assigns each new project and its tasks the In Planning status once it has been saved. 
 
  Users cannot select projects and project tasks with the In Planning status in any records, except for the following types of records that are available for planning: 
 
@@ -5158,7 +5364,7 @@ To configure this security, the system administrator performs the following gene
 
 - Subcontracts on the _Subcontracts_ (SC301000) form For instance, you can add an employee activity for planning budgets for project tasks, or record a project commitment. However, if your user account does not have the _Project Accountant_ role assigned on the _User Roles_ (SM201005) form, these documents can be processed further only aer the _Active_ status is assigned to the project task. 
 
- If your user has the Project Accountant role, you can release employee activities with project tasks that have the In Planning status. 
+ If your user account has the Project Accountant role, you can release employee activities with project tasks that have the In Planning status. 
 
 #### Project Acceptance 
 
@@ -5180,7 +5386,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Creating and Processing Projects | 120 
+ Creating and Processing Projects | 125 
 
 #### Project Completion 
 
@@ -5192,39 +5398,59 @@ To configure this security, the system administrator performs the following gene
 
  Alternatively, a project can be canceled. The Canceled status indicates that the project has been stopped before its actual completion. A canceled project can be activated again. 
 
+#### Project Closure 
+
+ If a project is completed (or canceled) and you don’t expect further activity on it, you click Close on the form toolbar of the Projects (PM301000) form. The system checks whether the project has any related unprocessed documents. If it doesn’t find any—meaning that the project is ready to be closed—it does the following: 
+
+- Assigns the _Closed_ status to the project. 
+
+- Makes the project's settings, including user-defined fields, and most of the More menu commands read-only     on the _Projects_ form. 
+
+- Makes the project tasks' settings read-only on the _Project Tasks_ (PM302000) and _Projects_ forms. 
+
+- Hides the project from lookup tables on data entry forms with the **Project** box or column. 
+
+- Excludes the project from billing. As a result, you can't run billing for it on the _Run Project Billing_ (PM503000)     and _Projects_ forms. 
+
+- Excludes the project from allocation—that is, you can't run allocation on the _Run Allocations by Projects_     (PM502500), _Run Allocations by Tasks_ (PM502000), or _Projects_ form. 
+
+- Excludes the project from balance recalculation. As a result, you can't recalculate its balance on the     _Recalculate Project Balances_ (PM504000) or _Projects_ form. These changes help to prevent unintended updates and streamline work by removing closed projects from workflows that involve only ongoing work. 
+
+ If work restarts on a closed project, click Activate on the form toolbar of the Projects form. The project is assigned the Active status again, becomes visible on data entry forms, and can be billed or included in allocation. 
+
 ### Project Creation and Processing: To Process a Fixed-Price Project 
 
  This activity will walk you through the lifecycle of a fixed-price project. 
 
+
+<!-- PAGE_BREAK -->
+ Creating and Processing Projects | 126 
+
 #### Story 
 
- Suppose that the Lake Cafe customer has ordered a juicer from the SweetLife Fruits & Jams company, along with the site review and installation services. SweetLife's project accountant has created a fixed-price project to account for this work. In January 2025, the company employees have performed work related to the project tasks. 
+ Suppose that the Lake Cafe customer has ordered a juicer from the SweetLife Fruits & Jams company, along with the site review and installation services. SweetLife's project accountant has created a fixed-price project to account for this work. In January 2026, the company employees have performed work related to the project tasks. 
 
  Acting as the project accountant, you need to support the project during the entire project lifecycle. 
 
 #### Configuration Overview 
 
- For the purposes of this activity, on the Enable/Disable Features (CS100000) form, the Project Accounting feature has been enabled to support the project accounting functionality. 
+ For the purposes of this activity, on the Enable/Disable Features (CS100000) form, the Projects feature has been enabled to support the project management functionality. 
 
 #### Process Overview 
 
- You will activate the project to indicate that it has been started. Then you will create and release a project transaction on the Project Transactions (PM304000) form to record the provided services. You will bill the project on the Projects (PM301000) form and review the prepared AR invoice on the Invoices and Memos (AR301000) form. Then you will close the project, and review the profitability report on the Project Profitability (PM624000) report form. 
+ You will activate the project to indicate that it has been started. Then you will create and release a project transaction on the Project Transactions (PM304000) form to record the provided services. You will bill the project on the Projects (PM301000) form and review the prepared AR invoice on the Invoices and Memos (AR301000) form. Then you will close the project and review its amounts. 
 
 #### System Preparation 
 
  To sign in to the system and prepare to perform the instructions of the activity, do the following: 
 
-1. Download the _INSTLAKE01_Project_Transactions_ file to your computer. 
+1. Download the _INSTLAKE01_Project_Transactions.xlsx_ file to your computer. 
 
 2. Create the _INSTLAKE01_ project, as described in _Project Creation and Processing: To Create a Fixed-Price_     _Project_. 
 
-
-<!-- PAGE_BREAK -->
- Creating and Processing Projects | 121 
-
 3. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as Pam Brawner by using the _brawner_ username and the _123_ password. 
 
-4. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+4. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Activating the Project 
 
@@ -5248,11 +5474,15 @@ To configure this security, the system administrator performs the following gene
 
 3. On the table toolbar of the **Details** tab, click **Load Records from File**. 
 
-4. In the **File Upload** dialog box, which opens, click **Choose File** , select the file path to the     INSTLAKE01_Project_Transactions file, and click **Upload**. 
 
-5. In the **Common Settings** dialog box, which opens, leave the default settings, and click **OK**. 
+<!-- PAGE_BREAK -->
+ Creating and Processing Projects | 127 
 
-6. In the **Columns** dialog box, which opens, leave the current column mapping, and click **OK**. 
+4. In the **Import Data** dialog box, which opens, click **Upload File** , select the file path to the     INSTLAKE01_Project_Transactions.xlsx file. 
+
+5. On the Specify Common Settings page, which opens, leave the default settings, and click **Next**. 
+
+6. On the Map Properties to Columns page, which opens, leave the current column mapping, and click **Finish**. 
 
 7. Make sure that the **Total Amount** in the Summary area is _1,600.00_. 
 
@@ -5268,15 +5498,15 @@ To configure this security, the system administrator performs the following gene
 
 2. Save your changes to the project. Because the project is billed on demand and has a nonzero pending     invoice amount, you can now bill the project. 
 
-
-<!-- PAGE_BREAK -->
- Creating and Processing Projects | 122 
-
-3. On the form toolbar, click **Run Billing**. The system creates an AR invoice, which should look like the one     shown in the following screenshot, and opens it on the _Invoices and Memos_ (AR301000) form. The system     creates the invoice lines based on the revenue budget lines of the corresponding project with amounts that     are equal to the pending invoice amounts. The invoice total, which is $2,000, is equal to the pending invoice     total. 
+3. On the form toolbar, click **Run Billing**. The system creates an AR invoice, which should look like the one     shown below, and opens it on the _Invoices and Memos_ (AR301000) form. The system creates the invoice lines     based on the revenue budget lines of the corresponding project with amounts that are equal to the pending     invoice amounts. The invoice total, which is $2,000, is equal to the pending invoice total. 
 
  Figure: The AR invoice created during the billing 
 
 4. On the form toolbar of the _Invoices and Memos_ form, click **Remove Hold** to assign the _Balanced_ status to the     accounts receivable invoice, and then click **Release**. 
+
+
+<!-- PAGE_BREAK -->
+ Creating and Processing Projects | 128 
 
 5. Return to the _Projects_ form with the _INSTLAKE01_ project opened, and press Esc to refresh the details. In     the Summary area, make sure that the **Actual Income** box now shows _2,000.00_ , which is the amount the     customer has been billed. 
 
@@ -5290,11 +5520,11 @@ To configure this security, the system administrator performs the following gene
 
 - **Completed (%)** : 100 (inserted automatically when you change the task’s status to _Completed_ ) 
 
-- **End Date** : _1/30/2025_ (inserted automatically when you change the task’s status to _Completed_ ) 
+- **End Date** : _1/30/2026_ (inserted automatically when you change the task’s status to _Completed_ ) 
 
 2. On the form toolbar, click **Complete**. In the **Status** box of the Summary area, the system changes the status     of the project from _Active_ to _Completed_. 
 
-3. On the form toolbar of the _Project Profitability_ (PM624000) report form, click **Run Report** , and review the line     with the _INSTLAKE01_ project. The calculated profit margin is $400 (20%). 
+3. In the Summary area, notice that the actual income is $2,000 and the calculated profit margin is $400 (20%). 
 
  You have finished working with the project. 
 
@@ -5302,35 +5532,35 @@ To configure this security, the system administrator performs the following gene
 
  This activity will walk you through the life cycle of a cost-plus project. 
 
-
-<!-- PAGE_BREAK -->
- Creating and Processing Projects | 123 
-
 #### Story 
 
- Suppose that the Lake Cafe customer has ordered training of employees from the SweetLife Fruits & Jams company. SweetLife's project accountant has created a cost-plus project to account for the provided services. Twenty hours of training sessions have been conducted in the period from 1/1/2025 through 1/30/2025. 
+ Suppose that the Lake Cafe customer has ordered training of employees from the SweetLife Fruits & Jams company. SweetLife's project accountant has created a cost-plus project to account for the provided services. Twenty hours of training sessions have been conducted in the period from 1/1/2026 through 1/30/2026. 
 
  Acting as the project accountant, you need to support the project during the entire project life cycle. 
 
 #### Configuration Overview 
 
- For the purposes of this activity, on the Enable/Disable Features (CS100000) form, the Project Accounting feature has been enabled to support the project accounting functionality. 
+ For the purposes of this activity, on the Enable/Disable Features (CS100000) form, the Projects feature has been enabled to support the project management functionality. 
 
 #### Process Overview 
 
- You will activate the project to indicate that it has been started. Then you will create project-related transactions on the Project Transactions (PM304000) form to record the provided services. You will run project billing for the project on the Projects (PM301000) form and review the prepared AR invoice. Then you will complete the project, and review the profitability report on the Project Profitability (PM624000) report form. 
+ You will activate the project to indicate that it has been started. Then you will create project-related transactions on the Project Transactions (PM304000) form to record the provided services. You will run project billing for the project on the Projects (PM301000) form and review the prepared AR invoice. Then you will complete the project. 
 
 #### System Preparation 
 
  To sign in to the system and prepare to perform the instructions of the activity, do the following: 
 
-1. Download the _INSTLAKE02_Project_Transactions_ file to your computer. 
+1. Download the _INSTLAKE02_Project_Transactions.xlsx_ file to your computer. 
 
 2. Create the _INSTLAKE02_ project, as described in _Project Creation and Processing: To Create a Cost-Plus_     _Project_. 
 
 3. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as Pam Brawner by using the _brawner_ username and the _123_ password. 
 
-4. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+
+<!-- PAGE_BREAK -->
+ Creating and Processing Projects | 129 
+
+4. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Activating the Project 
 
@@ -5346,21 +5576,17 @@ To configure this security, the system administrator performs the following gene
 
 1. On the _Project Transactions_ (PM304000) form, add a new record. 
 
-2. In the Summary area, make sure that _PM_ is selected as the **Module**. 
+2. In the Summary area, make sure that _PM_ is selected as the **Source**. 
 
 3. In the **Description** box, type The conducted training for the INSTLAKE02 project. 
 
 4. On the table toolbar of the **Details** tab, click **Load Records from File**. 
 
+5. In the **Import Data** dialog box, which opens, click **Upload File** , and select the file path to the     INSTLAKE02_Project_Transactions.xlsx file. 
 
-<!-- PAGE_BREAK -->
- Creating and Processing Projects | 124 
+6. On the Specify Common Settings page, which opens, leave the default settings, and click **Next**. 
 
-5. In the **File Upload** dialog box, which opens, click **Choose File** , select the file path to the     INSTLAKE02_Project_Transactions file, and click **Upload**. 
-
-6. In the **Common Settings** dialog box, which opens, leave the default settings, and click **OK**. 
-
-7. In the **Columns** dialog box, which opens, leave the current column mapping, and click **OK**. The system     uploads the transaction row. 
+7. On the Map Properties to Columns page, which opens, leave the current column mapping, and click **Finish**.     The system uploads the transaction row. 
 
 8. Make sure that the **Total Quantity** and **Total Amount** in the Summary area are _20_ and _800.00_ , respectively. 
 
@@ -5370,17 +5596,17 @@ To configure this security, the system administrator performs the following gene
 
  To create an accounts receivable invoice for the project, do the following: 
 
-1. While you are still reviewing the _INSTLAKE02_ project on the _Projects_ (PM301000) form, on the form toolbar,     click **Run Billing**. The system creates an AR invoice, which should look like the one shown in the following     screenshot, and opens it on the _Invoices and Memos_ (AR301000) form.     Because the _TM_ billing rule specified for the project task defines the line amount as the project transaction     amount multiplied by 1.25, the customer is billed in the amount of $1,000. 
+1. While you are still reviewing the _INSTLAKE02_ project on the _Projects_ (PM301000) form, on the form toolbar,     click **Run Billing**. The system creates an AR invoice, which should look like the one shown below, and opens     it on the _Invoices and Memos_ (AR301000) form.     Because the _TM_ billing rule specified for the project task defines the line amount as the project transaction     amount multiplied by 1.25, the customer is billed in the amount of $1,000. 
+
+
+<!-- PAGE_BREAK -->
+ Creating and Processing Projects | 130 
 
  Figure: The AR invoice created during the billing 
 
 2. On the form toolbar, click **Remove Hold** to assign the accounts receivable invoice the _Balanced_ status, and     then click **Release**. 
 
 3. Return to the _Projects_ form with the _INSTLAKE02_ project opened, and press Esc to refresh the form. Notice     that the **Actual Income** box in the Summary area now shows _1,000.00_ , which is the amount the customer     has been billed. The calculated margin for the project is 20%, as has been planned. On the **Revenue Budget**     tab, the revenue line with the _TRAINING_ task and the **Actual Amount** of $1,000 has been added. 
-
-
-<!-- PAGE_BREAK -->
- Creating and Processing Projects | 125 
 
 #### Step 4: Completing the Project 
 
@@ -5392,7 +5618,7 @@ To configure this security, the system administrator performs the following gene
 
 - **Completed (%)** : 100 (the system specifies this percentage automatically when you change the task’s     status to _Completed_ ) 
 
-- **End Date** : _1/30/2025_ (the system specifies the current business date automatically when you change the     task’s status to _Completed_ ) 
+- **End Date** : _1/30/2026_ (the system specifies the current business date automatically when you change the     task’s status to _Completed_ ) 
 
 2. Save your changes to the project. 
 
@@ -5406,6 +5632,10 @@ To configure this security, the system administrator performs the following gene
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
 
+
+<!-- PAGE_BREAK -->
+ Creating and Processing Projects | 131 
+
 #### Finding Projects Related to a Customer 
 
  You can prepare a report with all the projects related to a particular customer on the Projects (PM631000) report form. In the prepared report, the projects are listed, along with their descriptions, statuses, and start dates. 
@@ -5413,6 +5643,16 @@ To configure this security, the system administrator performs the following gene
 #### Printing the Project Balance 
 
  While you are viewing a project on the Projects (PM301000) form, you can prepare a printable document showing the project balance at the project task level of detail; to do this, you click Print Project Balance on the More menu (under Reports ). The system opens the printable document with the project balance on the Project Balance (PM621000) report. Then you can review the project balance, which is grouped by project tasks. 
+
+#### Reports with Closed Projects 
+
+ Closed projects are hidden from the UI. But you can still analyze closed projects’ past performance and include them in analytics by using these reports, which include projects with all statuses: 
+
+- _Employee Hours_ (PM622000): Displays the work hours that your employees have spent on specific projects     and project tasks. 
+
+- _Project Cost History_ (PM706230): Shows cost transactions for projects. For each project, documents are     grouped by account group and cost code (if applicable) and listed by reference number. 
+
+- _Project Tasks_ (PM632000): Provides the list of projects with a breakdown of the project tasks, including each     task's description, status, start and end dates, and default account (and subaccount, if applicable). 
 
 ### Project Creation and Processing: Mass Processing 
 
@@ -5422,10 +5662,6 @@ To configure this security, the system administrator performs the following gene
 
  You can validate addresses for multiple projects and project-related documents (pro forma invoices and project quotes) on the Validate Addresses in Project Documents (PM507000) form. This form is available if the Address Validation Integration feature is enabled on the Enable/Disable Features (CS100000) form and an address provider is configured on the Address Providers (CS103000) form. 
 
-
-<!-- PAGE_BREAK -->
- Creating and Processing Projects | 126 
-
  On the Validate Addresses in Project Documents form, you select the form in which the address records were entered in the Creation Form box, and select the unlabeled check boxes in the rows to be processed in the table. Then you click Validate on the form toolbar. To instead validate all the listed address records, you click Validate All on the form toolbar. 
 
 #### Mass-Billing Projects 
@@ -5434,11 +5670,17 @@ To configure this security, the system administrator performs the following gene
 
  To initiate billing for particular projects, you select the unlabeled check boxes in the rows of the projects to be processed in the table on this form, and click Process on the form toolbar. To instead initiate billing for all the listed projects, you click Process All on the form toolbar. 
 
- During processing, the system generates project invoices for the selected projects. Pro forma invoices will be created for only those projects that have the Create Pro Forma Invoice on Billing check box selected on the Summary tab of the Projects (PM301000) form; AR invoices will be created for projects for which this check box is cleared. The system creates project invoices with the date that is specified in the Invoice Date box in the Selection area of the form. 
+ During processing, the system generates project invoices for the selected projects. Pro forma invoices will be created for only those projects that have the Create Pro Forma Invoice on Billing check box selected on the 
 
 
 <!-- PAGE_BREAK -->
- Processing Project Transactions | 127 
+ Creating and Processing Projects | 132 
+
+**Summary** tab of the _Projects_ form; AR invoices will be created for projects for which this check box is cleared. The system creates project invoices with the date that is specified in the **Invoice Date** box in the Selection area of the form. 
+
+
+<!-- PAGE_BREAK -->
+ Processing Project Transactions | 133 
 
 ## Processing Project Transactions 
 
@@ -5482,7 +5724,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Project Transactions | 128 
+ Processing Project Transactions | 134 
 
 #### Update of the Project Budget with Project Transactions 
 
@@ -5526,7 +5768,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Project Transactions | 129 
+ Processing Project Transactions | 135 
 
  If a general ledger transaction has a project and project task specified, in the Account column on the Journal Transactions form, you can select only an account that is mapped to an account group on the Account Groups (PM201000) form. 
 
@@ -5572,7 +5814,37 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Project Transactions | 130 
+ Processing Project Transactions | 136 
+
+### Project Transactions: Reversal of Project Transactions 
+
+ On the Project Transactions (PM304000) form, you can reverse direct and imported project transactions with the PM source in just one click. You can also reverse project transactions with the AR source that were uploaded in migration mode. 
+
+ These capabilities streamline error correction during manual entry and give you more control when you’re cleaning up historical data. 
+
+#### Reversal of Transactions with the PM Source 
+
+ Suppose that you’ve recorded labor, overhead, or warranty costs by manually creating and releasing a project transaction with the PM source on the Project Transactions (PM304000) form. Later, you analyze the budget of the corresponding project and discover an incorrect amount. 
+
+ Or perhaps during data migration, some incorrect project transactions with the PM source were uploaded to the system via an Excel file, an import scenario, or a third-party system. 
+
+ You can reverse the erroneous transaction by clicking Reverse on the form toolbar. When you do this, the system creates and releases the reversal transaction and excludes the reversed transaction from billing and allocation. Here what you'll see in the reversal transaction: 
+
+- The number of the original project transaction in the **Orig. Doc. Nbr.** box 
+
+- The _Project transaction reversal_ description so that you can quickly identify the reversal record 
+
+- Each line with an amount that has the opposite sign of the line in the original project transaction 
+
+- The same date and post period of the original project transaction 
+
+- The selected **Excluded from Allocation** check box 
+
+ If a project transaction has the PM source but originates from another document, such as a time card or time activity, you cannot reverse it. 
+
+#### Reversal of Historical Transactions with the AR Source 
+
+ Suppose that migration mode was activated on the Projects Preferences (PM101000) form. In this mode, some incorrect project transactions with the AR source were uploaded to the system from an Excel file or through an import scenario. You can reverse these transactions by clicking Reverse on the form toolbar of the Project Transactions (PM304000) form. 
 
 ### Project Transactions: Implementation Checklist 
 
@@ -5581,6 +5853,10 @@ To configure this security, the system administrator performs the following gene
 #### Implementation Checklist 
 
  We recommend that before you initially process project transactions, you make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist. 
+
+
+<!-- PAGE_BREAK -->
+ Processing Project Transactions | 137 
 
  Form Tasks to Perform 
 
@@ -5600,15 +5876,15 @@ To configure this security, the system administrator performs the following gene
 
  Project transaction identifiers must be assigned only automatically. That is, the Manual Numbering check box must be cleared in the Summary area of the Numbering Sequences form for the numbering sequence used for project transactions. 
 
-
-<!-- PAGE_BREAK -->
- Processing Project Transactions | 131 
-
  By default, the PMTRAN numbering sequence specifies that the project transaction identifier is an automatically generated alphanumeric string that starts with the PM prefix and is followed by eight digits, such as PM00000001. 
 
 - To cause the system to post every document you enter as an individual batch to the general ledger, clear     the **Generate Consolidated Batches** check box in the **Posting Settings** section of the _General Ledger_     _Preferences_ (GL102000) form. 
 
 - To make the system automatically associate additional project transactions that are generated (such as     discounts or freight charges) with specific project tasks, map specific general ledger accounts to these     project tasks within the project in the **Default Task for GL Account** section on the **Defaults** tab of the     _Projects_ form. For more information, see _Default Project Tasks in Record Lines_. 
+
+
+<!-- PAGE_BREAK -->
+ Processing Project Transactions | 138 
 
 #### Validation of Configuration 
 
@@ -5618,7 +5894,7 @@ To configure this security, the system administrator performs the following gene
 
  This activity will walk you through the process of creating project transactions from general ledger transactions and from scratch. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -5634,13 +5910,9 @@ To configure this security, the system administrator performs the following gene
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to provide     support for the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to provide support     for the project management functionality. 
 
 - On the _Projects_ (PM301000) form, the _TOMYUM1_ project for the _TOMYUM (Thai Food Restaurant)_ customer     has been created, and the _PHASE1_ and _PHASE2_ project tasks have been created for the project. 
-
-
-<!-- PAGE_BREAK -->
- Processing Project Transactions | 132 
 
 - On the _Account Groups_ (PM201000) form, the _LABOR_ account group has been created. The _54100 (Project_     _Labor Expense)_ account has been mapped to the account group. 
 
@@ -5648,7 +5920,13 @@ To configure this security, the system administrator performs the following gene
 
 #### Process Overview 
 
- On the Journal Transactions (GL301000) form, you will create a batch of general ledger transactions with the project and project task specified to record the work related to the first phase of the training. You will release the batch, which will generate the corresponding project transaction. Then you will review this transaction on the Project Transaction Details (PM401000) form. Finally, on the Project Transactions (PM304000) form, you will create and release a batch of project transactions that represents the second phase of the training and does not affect the general ledger. 
+ On the Journal Transactions (GL301000) form, you will create a batch of general ledger transactions with the project and project task specified to record the work related to the first phase of the training. You will release the batch, which will generate the corresponding project transaction. Then you will review this transaction on the Project 
+
+
+<!-- PAGE_BREAK -->
+ Processing Project Transactions | 139 
+
+ Transaction Details (PM401000) form. Finally, on the Project Transactions (PM304000) form, you will create and release a batch of project transactions that represents the second phase of the training and does not affect the general ledger. 
 
 #### System Preparation 
 
@@ -5656,7 +5934,7 @@ To configure this security, the system administrator performs the following gene
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as Pam Brawner by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Creating General Ledger Transactions 
 
@@ -5688,7 +5966,7 @@ To configure this security, the system administrator performs the following gene
 
 - **Project** : _X_ (inserted automatically)     This transaction will not affect the project budget of the _TOMYUM1_ project. 
 
-- **Cost Code** : _00-000_ (inserted automatically) 
+- **Cost Code** : _00-000_ 
 
 - **Debit Amount** : 50 
 
@@ -5696,23 +5974,25 @@ To configure this security, the system administrator performs the following gene
 
 - **Transaction Description** : Travel expenses 
 
-
-<!-- PAGE_BREAK -->
- Processing Project Transactions | 133 
-
 6. Add the third row, which balances the batch of transactions, and specify the following settings in the row: 
 
 - **Account** : _23015 (Accrued Expenses)_ 
 
 - **Project** : _X_ (inserted automatically) 
 
-- **Cost Code** : _00-000_ (inserted automatically) 
+- **Cost Code** : _00-000_ 
 
 - **Credit Amount** : 370 (inserted automatically) 
 
 - **Transaction Description** : Project and travel expenses 
 
-7. On the form toolbar, click **Remove Hold** to assign the general ledger transaction the _Balanced_ status, and     then click **Release**.     When you release the general ledger transaction, for the row with the specified project and project task,     the system creates the corresponding project transaction. In the created project transaction, the system     specifies the account group to which the account in the transaction row is mapped. 
+7. On the form toolbar, click **Remove Hold** to assign the general ledger transaction the _Balanced_ status, and     then click **Release**. 
+
+
+<!-- PAGE_BREAK -->
+ Processing Project Transactions | 140 
+
+ When you release the general ledger transaction, for the row with the specified project and project task, the system creates the corresponding project transaction. In the created project transaction, the system specifies the account group to which the account in the transaction row is mapped. 
 
 8. On the _Project Transaction Details_ (PM401000) form, in the Selection area, select _TOMYUM1_ as the **Project**.     Make sure that the **Account Group** and **Project Task** boxes are cleared. In the table, review the project     transaction that has been created based on the GL transaction that you have processed earlier. Notice the     following: 
 
@@ -5732,7 +6012,7 @@ To configure this security, the system administrator performs the following gene
 
 1. On the _Project Transactions_ (PM304000) form, create a new record. 
 
-2. In the Summary area, make sure _PM_ is selected as the **Module**. 
+2. In the Summary area, make sure _PM_ is selected as the **Source**. 
 
 3. Enter A 4-hour training session as the **Description**. 
 
@@ -5754,13 +6034,11 @@ To configure this security, the system administrator performs the following gene
 
 - **Amount** : 160 You leave the **Debit Account** and **Credit Account** columns empty, so that the corresponding general ledger transaction will not be created. The system also will not use this transaction for billing because you cleared the **Billable** check box in the line. 
 
-5. On the form toolbar, click **Save** and then **Release** to save your changes to the project transaction and     release it. 
+5. On the form toolbar, click **Save** and then **Release** to save your changes to the project transaction and     release it.     Notice that the **GL Batch Nbr.** column is empty (see below) indicating that no corresponding general ledger     transaction has been created. 
 
 
 <!-- PAGE_BREAK -->
- Processing Project Transactions | 134 
-
- Notice that the GL Batch Nbr. column is empty, as shown in the following screenshot, indicating that no corresponding general ledger transaction has been created. 
+ Processing Project Transactions | 141 
 
  Figure: The project transaction that produces no GL transaction 
 
@@ -5790,13 +6068,11 @@ To configure this security, the system administrator performs the following gene
 
 - An accounts receivable invoice line is added or changed on the _Invoices and Memos_ (AR301000) form, and     the document is saved. 
 
-- A new change request line is added or linked to a change order on the _Change Requests_ (PM308500) form,     and the document is saved. 
+- A new change request line is added or linked to a change order on the _Change Requests_ (PM308500) form,     and the document is saved. Also, the cost budget and revenue budget of the project are updated if you run the recalculation process for the project on the _Projects_ (PM301000) or _Recalculate Project Balances_ (PM504000) form. For more information about budget recalculation, see _Project Budget: Recalculation of the Project Balances_. 
 
 
 <!-- PAGE_BREAK -->
- Processing Project Transactions | 135 
-
- Also, the cost budget and revenue budget of the project are updated if you run the recalculation process for the project on the Projects (PM301000) or Recalculate Project Balances (PM504000) form. For more information about budget recalculation, see Project Budget: Recalculation of the Project Balances. 
+ Processing Project Transactions | 142 
 
 #### Update of the Project Budget Structure 
 
@@ -5808,7 +6084,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Project Transactions | 136 
+ Processing Project Transactions | 143 
 
 #### Update of Quantities 
 
@@ -5828,7 +6104,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Project Transactions | 137 
+ Processing Project Transactions | 144 
 
 ### Project Transactions: Generated Transactions 
 
@@ -5868,7 +6144,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Project Transactions | 138 
+ Processing Project Transactions | 145 
 
  Project Budget Key Account Group Debit Account 
 
@@ -5908,7 +6184,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Project Transactions | 139 
+ Processing Project Transactions | 146 
 
  line; then on the table toolbar, you click View Transactions , and the system opens the Project Transaction Details (PM401000) form. 
 
@@ -5926,7 +6202,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Preparing Projects to Billing | 140 
+ Preparing Projects to Billing | 147 
 
 ## Preparing Projects to Billing 
 
@@ -5972,7 +6248,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Preparing Projects to Billing | 141 
+ Preparing Projects to Billing | 148 
 
 - The project should have a basis for billing, such as a billable line of the revenue budget associated with the     task for progress billing, or an unbilled project transaction associated with the task within this billing period     for time and material billing. 
 
@@ -6008,7 +6284,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Preparing Projects to Billing | 142 
+ Preparing Projects to Billing | 149 
 
  Form Task to Perform 
 
@@ -6040,7 +6316,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Preparing Projects to Billing | 143 
+ Preparing Projects to Billing | 150 
 
 #### Applying Limits to Pro Forma Invoices 
 
@@ -6078,7 +6354,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Preparing Projects to Billing | 144 
+ Preparing Projects to Billing | 151 
 
 - Optional: The number of units included in the item fee. For instance, you may have an agreement with     the customer to provide 40 hours of service at a flat price, while any extra hours are charged on a per-hour     basis. These 40 hours would be included in the recurring billing line and the extra hours would be billed     separately. 
 
@@ -6110,11 +6386,11 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Preparing Projects to Billing | 145 
+ Preparing Projects to Billing | 152 
 
 #### Mass-Billing Projects 
 
- Multiple projects can be billed at the same time on the Run Project Billing (PM503000) form. On this form, you can run billing for multiple projects that are pending billing as of the Invoice Date , which is selected in the Summary area of the form. You can also narrow the projects to be shown by specifying the statement cycle, customer class, customer, and project template in the Selection area of the form. For more information on preparing projects for billing, see Project Billing Preparation: General Information. 
+ Multiple projects can be billed at the same time on the Run Project Billing (PM503000) form. On this form, you can run billing for multiple projects that are pending billing as of the Invoice Date , which is selected in the Summary area of the form. You can also narrow the projects to be shown by specifying the project status, statement cycle, customer class, customer, and project template in the Selection area of the form. For more information on preparing projects for billing, see Project Billing Preparation: General Information. 
 
  The form displays projects to which your user account has sufficient access rights. 
 
@@ -6132,7 +6408,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects by Progress | 146 
+ Billing Projects by Progress | 153 
 
 ## Billing Projects by Progress 
 
@@ -6176,7 +6452,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects by Progress | 147 
+ Billing Projects by Progress | 154 
 
  You can also specify the Completed (%) value on the Revenue Budget tab for the needed revenue budget lines to indicate that the project tasks are being performed. The system will calculate the pending invoice values by using the following formulas: 
 
@@ -6216,21 +6492,21 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects by Progress | 148 
+ Billing Projects by Progress | 155 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the HM's Bakery and Cafe customer has ordered 20 hours of new-employee training on operating juicers from the SweetLife Fruits & Jams company. SweetLife's project accountant has created a project to handle the tracking and billing of the provided services; the project should be billed on demand as the services are provided. Before each invoice is sent to the customer for payment, the customer has requested that a pro forma invoice be submitted for acceptance. 
 
- Then suppose that on 1/30/2025 , SweetLife's consultant has provided five hours of the training. As the project accountant, you need to update the progress of the project and bill the customer for the provided training. 
+ Then suppose that on 1/30/2026 , SweetLife's consultant has provided five hours of the training. As the project accountant, you need to update the progress of the project and bill the customer for the provided training. 
 
 #### Configuration Overview 
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Billing Rules_ (PM207000) form, the _PROGRESS_ billing rule has been configured. 
 
@@ -6248,7 +6524,7 @@ To configure this security, the system administrator performs the following gene
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: To Run Project Billing 
 
@@ -6258,7 +6534,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects by Progress | 149 
+ Billing Projects by Progress | 156 
 
 2. On the **Revenue Budget** tab, specify 25 as the **Completed (%)** in the only revenue budget line to indicate     that 25 percent of the project task has been completed (5 hours of 20). The system calculates the **Pending**     **Invoice Amount** as $250. Because the project has a nonzero **Pending Invoice Amount** in the revenue     budget line, you can now bill the project. 
 
@@ -6284,7 +6560,7 @@ To configure this security, the system administrator performs the following gene
 
 1. On the _Projects_ form, open the _HMBAKERY3_ project. 
 
-2. On the **Revenue Budget** tab, review the only revenue budget line. Notice that the **Pending Invoice Amount**     is now 0, and the **Actual Amount** is $250, as shown in the following screenshot. Also notice that **Actual**     **Income** in the Summary area has been updated and is now $250. 
+2. On the **Revenue Budget** tab, review the only revenue budget line. Notice that the **Pending Invoice Amount**     is now 0, and the **Actual Amount** is $250 (see below). Also notice that **Actual Income** in the Summary area     has been updated and is now $250. 
 
  Figure: The revenue budget of the project 
 
@@ -6292,17 +6568,17 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects by Progress | 150 
+ Billing Projects by Progress | 157 
 
 ### Progress Billing: To Bill a Project by Quantity and Amount 
 
  This activity will walk you through the process of performing progress billing for a project based on the pending amounts and quantities. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that ToadGreen Building Group, a general contractor, is building an Italian restaurant for its customer, the Italian Company. A ToadGreen manager has agreed upon a budget with the customer and decided that the project manager will bill the customer monthly based on the progress of work for each project task during the billing period. The work on the project starts on March 1, 2025. 
+ Suppose that ToadGreen Building Group, a general contractor, is building an Italian restaurant for its customer, the Italian Company. A ToadGreen manager has agreed upon a budget with the customer and decided that the project manager will bill the customer monthly based on the progress of work for each project task during the billing period. The work on the project starts on March 1, 2026. 
 
  At the start of the project, the construction project manager made sure that the construction permit was promptly obtained for the construction site, the design plans and specifications were prepared and agreed upon, and the documents for construction insurance have been prepared. Then the construction project manager will bill the customer for the performed work. The customer should be billed as follows: 
 
@@ -6316,7 +6592,7 @@ To configure this security, the system administrator performs the following gene
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ and _Construction_ features have     been enabled. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ and _Construction_ features have been enabled. 
 
 - On the _Customers_ (AR303000) form, the _ITACOM_ customer has been created. 
 
@@ -6330,7 +6606,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects by Progress | 151 
+ Billing Projects by Progress | 158 
 
 #### System Preparation 
 
@@ -6338,7 +6614,7 @@ To configure this security, the system administrator performs the following gene
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a system administrator by using the _gibbs_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/1/2025_. If a different date is displayed, click the Business Date menu     button, and select _3/1/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _3/1/2026_. If a different date is displayed, click the Business Date menu     button, and select _3/1/2026_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 #### Step 1: Creating a Project and Specifying Its General Settings 
 
@@ -6350,6 +6626,8 @@ To configure this security, the system administrator performs the following gene
 
 - **Project ID** : ITALIANQ 
 
+- **Start Date** : _3/1/2026_ 
+
 - **Customer** : _ITACOM_ 
 
 - **Template** : _PROGRQ_ 
@@ -6357,8 +6635,6 @@ To configure this security, the system administrator performs the following gene
 - **Description** : Italian Restaurant (South Street) 
 
 3. On the **Summary** tab, make sure the following settings are specified: 
-
-- **Start Date** : _3/1/2025_ 
 
 - **Billing Period** : _On Demand_ 
 
@@ -6372,7 +6648,7 @@ To configure this security, the system administrator performs the following gene
 
 7. On the table toolbar, click **Activate Tasks** to activate the project tasks. 
 
-8. On the **Revenue Budget** tab, make sure that multiple budget lines have been added based on the project     template. Also, in the **Progress Billing Basis** column, notice that the revenue budget has mixed settings.     That is some lines will be billed based on the pending amount and other lines will be billed based on the     pending quantity. 
+8. On the **Revenue Budget** tab, make sure that multiple budget lines have been added based on the project     template. Also, in the **Progress Billing Basis** column, notice that the revenue budget has mixed settings.     That is, some lines will be billed based on the pending amount and other lines will be billed based on the     pending quantity. 
 
 9. Save your changes to the project. In the Summary area, notice that it has the _In Planning_ status. 10.On the form toolbar, click **Activate** to activate the project. 
 
@@ -6384,21 +6660,21 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects by Progress | 152 
+ Billing Projects by Progress | 159 
 
 2. In the line with the _01-330_ cost code and the _Design Fees_ description, enter 240 in the **Pending Invoice**     **Quantity** column. The system calculates the line's pending invoice amount to be _5,280_ based on this     quantity and the unit rate specified in the line. 
 
 3. In the line with the _01-600_ cost code and the _Insurance_ description, enter 24 in the **Pending Invoice**     **Quantity** column. The system calculates the line's pending invoice amount to be _6,000_. 
 
-4. In the Summary area, make sure that the **Pending Invoice Amount Total** is _13,680.00_ , and save your     changes. 
+4. In the Summary area, make sure that the **Pending Invoice Amount** is _13,680.00_ , and save your changes. 
 
-5. On the form toolbar, click **Run Billing** to bill the project. The system prepares an AR invoice and opens it on     the _Invoices and Memos_ (AR301000) form.     The AR invoice includes three lines on the **Progress Billing** tab. The first line was billed based on amount,     so the quantity in this line is _0_ , and the **Ext. Price** column shows the **Pending Invoice Amount** copied     from the respective revenue budget line. In the second and third lines, the **Quantity** column shows the     **Pending Invoice Quantity** copied from the respective revenue budget line, and the **Ext. Price** for each line     is calculated as the unit price in this line multiplied by the quantity. 
+5. On the form toolbar, click **Run Billing** to bill the project. The system prepares an AR invoice and opens it on     the _Invoices and Memos_ (AR301000) form.     The AR invoice includes three lines on the **Details** tab. The first line was billed based on amount, so the     quantity in this line is _0_ , and the **Ext. Price** column shows the **Pending Invoice Amount** copied from the     respective revenue budget line. In the second and third lines, the **Quantity** column shows the **Pending**     **Invoice Quantity** copied from the respective revenue budget line, and the **Ext. Price** for each line is     calculated as the unit price in this line multiplied by the quantity. 
 
 6. On the form toolbar, click **Remove Hold** to assign the accounts receivable invoice the _Balanced_ status. 
 
 7. On the form toolbar, click **Release** to release the invoice. 
 
-8. On the _Projects_ form, open the _ITALIANQ_ project, and on the **Revenue Budget** tab, review the actual values     in the budget lines that have been updated as the result of the billing (see the following screenshot). 
+8. On the _Projects_ form, open the _ITALIANQ_ project, and on the **Revenue Budget** tab, review the actual values     in the budget lines that have been updated as the result of the billing (see below). 
 
  Figure: The updated values of the project revenue budget 
 
@@ -6410,11 +6686,13 @@ To configure this security, the system administrator performs the following gene
 
 #### Transactions Related to Progress Billing 
 
- The release of a pro forma invoice does not generate general ledger transactions or project transactions directly. When you release the pro forma invoice, the system creates a corresponding accounts receivable invoice with all the information copied from the pro forma invoice. On release of the accounts receivable invoice, the system generates the general ledger transactions and project transactions. For more information about these transactions, see Pro Forma Invoices: Generated Transactions. 
+ The release of a pro forma invoice does not generate general ledger transactions or project transactions directly. When you release the pro forma invoice, the system creates a corresponding accounts receivable invoice with all the information copied from the pro forma invoice. On release of the accounts receivable invoice, the system 
 
 
 <!-- PAGE_BREAK -->
- Billing Projects by Progress | 153 
+ Billing Projects by Progress | 160 
+
+ generates the general ledger transactions and project transactions. For more information about these transactions, see Pro Forma Invoices: Generated Transactions. 
 
 ### Progress Billing: Revenue Recognition 
 
@@ -6454,13 +6732,11 @@ To configure this security, the system administrator performs the following gene
 
 - **Description Formula** ( **Calculation Settings** section): The description of the created allocation transaction You specify the following settings for the allocation rule on the **Allocation Settings** tab: 
 
-- **Post Transaction to GL** ( **Transaction Options** section): Selected 
-
 
 <!-- PAGE_BREAK -->
- Billing Projects by Progress | 154 
+ Billing Projects by Progress | 161 
 
- With this check box selected, allocation transactions are posted to the general ledger. 
+- **Post Transaction to GL** ( **Transaction Options** section): Selected     With this check box selected, allocation transactions are posted to the general ledger. 
 
 - **Reverse Allocation** ( **Transaction Options** section): _Never_     This setting indicates that the system does not reverse allocation transactions automatically. 
 
@@ -6484,13 +6760,13 @@ To configure this security, the system administrator performs the following gene
 
 - On the _Projects_ (PM301000) form, you specify the accrual account in the **Default Sales Account** box on the     **Defaults** tab. On the _Billing Rules_ form, for the billing rule steps that will be used for billing this project task,     you select _Project_ in the **Use Sales Account From** box. Once you release the pro forma invoice and the corresponding accounts receivable invoice, the system updates the actual amount and quantity in the accrual budget line with the corresponding project budget key with the amount and quantity copied from the AR invoice. 
 
+
+<!-- PAGE_BREAK -->
+ Billing Projects by Progress | 162 
+
 #### Recognizing Revenue in the Project Budget 
 
  When a particular part of the work is complete, you specify the task completion percentage in the Completed % column on the Tasks tab of the Projects (PM301000) form. You then run the allocation procedure for the project. 
-
-
-<!-- PAGE_BREAK -->
- Billing Projects by Progress | 155 
 
  The system creates the allocation transaction based on the specified percentage of the project task completion and based on the revised budgeted amount of the project budget line. The allocation transaction moves the recognized part of the revenue from the accrual account to the revenue account, updates the actual amounts in the project budget lines, and clears the actual amounts in the unrecognized revenue budget lines. 
 
@@ -6498,7 +6774,7 @@ To configure this security, the system administrator performs the following gene
 
  This activity will walk you through the process of billing a project for unrecognized revenue and then recognizing this revenue in the project budget. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -6512,7 +6788,7 @@ To configure this security, the system administrator performs the following gene
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled. 
 
 - On the _Account Groups_ (PM201000) form, the _UNRECREV_ account group of the _Income_ type has been created. 
 
@@ -6524,11 +6800,13 @@ To configure this security, the system administrator performs the following gene
 
 - On the _Customers_ (AR303000) form, the _TOMYUM_ customer has been defined. 
 
-- On the _Projects_ (PM301000) form, the _TOMYUM1U_ project has been created for this customer, and two     project tasks ( _PHASE1_ and _PHASE2_ ) have been added. The _UNRECREV_ billing rule and the _REVREC_ allocation     rule have been assigned to both project tasks. Also, on the **Summary** tab, the **Create Pro Forma Invoice on**     **Billing** check box has been selected, indicating that a pro forma invoice is created when the project is billed.     On the **Defaults** tab, the **Default Sales Account** is set to _21050 – Project unrecognized revenue_. 
+- On the _Projects_ (PM301000) form, the _TOMYUM1U_ project has been created for this customer, and two     project tasks ( _PHASE1_ and _PHASE2_ ) have been added. The _UNRECREV_ billing rule and the _REVREC_ allocation     rule have been assigned to both project tasks. Also, on the **Summary** tab, the **Create Pro Forma Invoice on** 
 
 
 <!-- PAGE_BREAK -->
- Billing Projects by Progress | 156 
+ Billing Projects by Progress | 163 
+
+ Billing check box has been selected, indicating that a pro forma invoice is created when the project is billed. On the Defaults tab, the Default Sales Account is set to 21050 – Project unrecognized revenue. 
 
 #### Process Overview 
 
@@ -6540,7 +6818,7 @@ To configure this security, the system administrator performs the following gene
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as Pam Brawner by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Billing for Unrecognized Revenue 
 
@@ -6568,11 +6846,11 @@ To configure this security, the system administrator performs the following gene
 
 7. On the **Invoices** tab, click the link in the **AR Reference Nbr.** column of the only line to open the accounts     receivable invoice that was created on the _Invoices and Memos_ (AR301000) form. 
 
-8. On the form toolbar of the _Invoices and Memos_ form, click **Remove Hold** to assign the invoice the _Balanced_     status, and then click **Release** to release the accounts receivable invoice. 
-
 
 <!-- PAGE_BREAK -->
- Billing Projects by Progress | 157 
+ Billing Projects by Progress | 164 
+
+8. On the form toolbar of the _Invoices and Memos_ form, click **Remove Hold** to assign the invoice the _Balanced_     status, and then click **Release** to release the accounts receivable invoice. 
 
 9. On the _Projects_ form, open the _TOMYUM1U_ project, and on the **Balances** tab, review the amounts in the     budget lines that have been updated as a result of the billing. **Actual Amount** for the _UNRECREV_ account     group is now $400. 
 
@@ -6602,11 +6880,11 @@ To configure this security, the system administrator performs the following gene
 
 - **Amount** : The amount of the transaction is _–400.00_ because the transaction debits the account of the     liability type. 
 
-7. Review the second project transaction line (which has _PM_ specified in the **Module** column). Notice the     values in the following columns: 
-
 
 <!-- PAGE_BREAK -->
- Billing Projects by Progress | 158 
+ Billing Projects by Progress | 165 
+
+7. Review the second project transaction line (which has _PM_ specified in the **Module** column). Notice the     values in the following columns: 
 
 - **Orig. Doc. Type** : _Allocation_ is specified because this transaction has been created by the allocation     procedure. 
 
@@ -6642,15 +6920,13 @@ To configure this security, the system administrator performs the following gene
 
  The contact information of the customer to whom the pro forma invoices should be sent is specified in the BillTo Contact and Bill-To Address sections of the Addresses tab of the Pro Forma Invoices form. This information is copied to each pro forma invoice related to the project from the Bill-To and Bill-To Address sections of the Summary tab of the Projects form and can be modified at the invoice or project level. 
 
-#### Printing the Project Balance 
-
- While you are viewing a project on the Projects (PM301000) form, you can prepare a printable document showing the project balance at the project task level of detail; to do this, you click Print Project Balance on the More 
-
 
 <!-- PAGE_BREAK -->
- Billing Projects by Progress | 159 
+ Billing Projects by Progress | 166 
 
- menu (under Reports ). The system opens the printable document with the project balance on the Project Balance (PM621000) report. Then you can review the project balance, which is grouped by project tasks. 
+#### Printing the Project Balance 
+
+ While you are viewing a project on the Projects (PM301000) form, you can prepare a printable document showing the project balance at the project task level of detail; to do this, you click Print Project Balance on the More menu (under Reports ). The system opens the printable document with the project balance on the Project Balance (PM621000) report. Then you can review the project balance, which is grouped by project tasks. 
 
 ### Progress Billing: Mass Processing of Documents 
 
@@ -6662,7 +6938,7 @@ To configure this security, the system administrator performs the following gene
 
  To initiate billing for particular projects, you select the unlabeled check boxes in the rows of the projects to be processed in the table on this form, and click Process on the form toolbar. To instead initiate billing for all the listed projects, you click Process All on the form toolbar. 
 
- During processing, the system generates project invoices for the selected projects. Pro forma invoices will be created for only those projects that have the Create Pro Forma Invoice on Billing check box selected on the Summary tab of the Projects (PM301000) form; AR invoices will be created for projects for which this check box is cleared. The system creates project invoices with the date that is specified in the Invoice Date box in the Selection area of the form. 
+ During processing, the system generates project invoices for the selected projects. Pro forma invoices will be created for only those projects that have the Create Pro Forma Invoice on Billing check box selected on the Summary tab of the Projects form; AR invoices will be created for projects for which this check box is cleared. The system creates project invoices with the date that is specified in the Invoice Date box in the Selection area of the form. 
 
 #### Mass-Releasing AR Invoices 
 
@@ -6674,7 +6950,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects for Time and Material | 160 
+ Billing Projects for Time and Material | 167 
 
 ## Billing Projects for Time and Material 
 
@@ -6712,7 +6988,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects for Time and Material | 161 
+ Billing Projects for Time and Material | 168 
 
 - If the check box is selected, the system generates a pro forma invoice with a positive or negative amount. 
 
@@ -6738,21 +7014,21 @@ To configure this security, the system administrator performs the following gene
 
  This activity will walk you through the process of billing a project for time and material. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the HM's Bakery and Cafe customer has ordered a juicer from the SweetLife Fruits & Jams company, along with the services of installation and employee training on operating the juicer. SweetLife's project accountant has created the project to handle the tracking and billing of the juicer and the provided services. Then the project accountant has entered a project transaction to record the delivery and installation of the juicer, and eight hours of training have been provided by SweetLife consultants on January 14, 2025. Acting as the project accountant, you need to bill the customer for the project so that the billing includes the materials used and the work time spent on the project. 
+ Suppose that the HM's Bakery and Cafe customer has ordered a juicer from the SweetLife Fruits & Jams company, along with the services of installation and employee training on operating the juicer. SweetLife's project accountant has created the project to handle the tracking and billing of the juicer and the provided services. Then the project accountant has entered a project transaction to record the delivery and installation of the juicer, and eight hours of training have been provided by SweetLife consultants on January 14, 2026. Acting as the project accountant, you need to bill the customer for the project so that the billing includes the materials used and the work time spent on the project. 
 
 
 <!-- PAGE_BREAK -->
- Billing Projects for Time and Material | 162 
+ Billing Projects for Time and Material | 169 
 
 #### Configuration Overview 
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Billing Rules_ (PM207000) form, the _TM_ billing rule has been configured. The billing rule includes three     steps, each billing a particular account group ( _MATERIAL_ , _LABOR_ , and _SUBCON_ ); for each group, the amount     to be invoiced is calculated by multiplying the project transaction amount by 1.25. 
 
@@ -6764,7 +7040,7 @@ To configure this security, the system administrator performs the following gene
 
 #### Process Overview 
 
- You will make sure that the project is pending billing and run the project billing on the Projects (PM301000) form, which causes the system to create a pro forma invoice. On the Pro Forma Invoices (PM307000) form, you will review the lines that have been added to this pro forma invoice and release it. Then you will review the corresponding accounts receivable invoice and release it on the Invoices and Memos (AR301000) form, and review how this affects the project’s actual values. 
+ You will make sure that the project is pending billing and run the project billing on the Projects (PM301000) form, which causes the system to create a pro forma invoice. On the Pro Forma Invoices (PM307000) form, you will review the lines that have been added to this pro forma invoice and release it. Then you will review the corresponding accounts receivable invoice and release it on the Invoices and Memos (AR301000) form, and review how this affects the project’s actual values. Finally, you'll review the project transactions and the updated project balance. 
 
 #### System Preparation 
 
@@ -6772,7 +7048,7 @@ To configure this security, the system administrator performs the following gene
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Reviewing Project Transactions Pending Billing 
 
@@ -6780,7 +7056,7 @@ To configure this security, the system administrator performs the following gene
 
 1. Open the _Project Transaction Details_ (PM401000) form. 
 
-2. In the Selection area, select _HMBAKERY4_ as the **Project** , and make sure that the **Project Task** and **Account**     **Group** boxes are cleared. In the table, the system lists the following project transactions dated _1/14/2025_ : 
+2. In the Selection area, select _HMBAKERY4_ as the **Project** , and make sure that the **Project Task** and **Account**     **Group** boxes are cleared. In the table, the system lists the following project transactions dated _1/14/2026_ : 
 
 - The _JUICER15_ line in the amount of $2,000 
 
@@ -6790,7 +7066,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects for Time and Material | 163 
+ Billing Projects for Time and Material | 170 
 
 #### Step 2: Billing the Project and Processing the Related Documents 
 
@@ -6818,15 +7094,15 @@ To configure this security, the system administrator performs the following gene
 
  To review the project transactions and project balance, do the following: 
 
-1. On the _Project Transaction Details_ (PM401000) form, in the Selection area, select _HMBAKERY4_ as the **Project**.     In the table, review the project transactions that have been created based on the released accounts     receivable invoice (these are the lines that have _AR_ specified in the **Module** column and negative amounts).     In the **GL Batch Nbr.** column, the reference number of the corresponding GL batch is shown. Also notice that     the project transactions based on which you have performed time and material billing now have the **Billed**     check box selected, indicating that these transactions have been billed. 
+1. On the _Project Transaction Details_ (PM401000) form, in the Selection area, select _HMBAKERY4_ as the **Project**.     In the table, review the project transactions that have been created based on the released accounts     receivable invoice (these are the lines that have _AR_ specified in the **Source** column and negative amounts).     In the **GL Batch Nbr.** column, the reference number of the corresponding GL batch is shown. Also notice that     the project transactions based on which you have performed time and material billing now have the **Billed**     check box selected, indicating that these transactions have been billed. 
 
 2. On the _Projects_ (PM301000) form, open the _HMBAKERY4_ project. In the Summary area, notice that the actual     income is now $3,300. On the **Revenue Budget** tab, notice that the system has automatically created two     revenue budget lines (one for each project task), and filled in the **Actual Amount** for the rows. 
 
-3. On the **Balances** tab (see the following screenshot), review the project income and expenses aggregated by     account groups. 
+3. On the **Balances** tab (see below), review the project income and expenses aggregated by account groups. 
 
 
 <!-- PAGE_BREAK -->
- Billing Projects for Time and Material | 164 
+ Billing Projects for Time and Material | 171 
 
  Figure: The project balances aer project billing 
 
@@ -6854,7 +7130,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects for Time and Material | 165 
+ Billing Projects for Time and Material | 172 
 
 #### Postponing the Billed Amounts 
 
@@ -6886,13 +7162,13 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects for Time and Material | 166 
+ Billing Projects for Time and Material | 173 
 
 ### Time and Material Billing: To Postpone and Write Off Amounts 
 
  This activity will walk you through the process of postponing and writing off amounts in a pro forma invoice. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -6900,7 +7176,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects for Time and Material | 167 
+ Billing Projects for Time and Material | 174 
 
  accountant has created a project. The juicer has been delivered and installed, and a consultant has provided the training. The project accountant has billed the customer and sent the created pro forma invoice for approval. 
 
@@ -6918,7 +7194,7 @@ To configure this security, the system administrator performs the following gene
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to provide     support for the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to provide support     for the project management functionality. 
 
 - On the _Projects_ (PM301000) form, the _TOMYUM4_ project has been created and the _PHASE1_ and _PHASE2_     project tasks have been created for the project. 
 
@@ -6940,7 +7216,7 @@ To configure this security, the system administrator performs the following gene
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Adjusting the Pro Forma Invoice 
 
@@ -6950,13 +7226,13 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects for Time and Material | 168 
+ Billing Projects for Time and Material | 175 
 
 2. On the **Invoices** tab, click the link in the **Pro Forma Reference Nbr.** column of the only row to open the pro     forma invoice that you need to adjust. 
 
-3. On the **Time and Material** tab of the _Pro Forma Invoices_ (PM307000) form, which opens, adjust the invoice     lines as follows (see the adjustments in the screenshot below):     a. In the line with the _PHASE1_ project task and the _JUICER15_ inventory item, change **Amount to Invoice** to        2000. When you enter an **Amount to Invoice** that is less than the **Billed Amount** , the system specifies        _Hold Remainder_ as the **Status** in this line; the difference between the **Billed Amount** and the **Amount to**        **Invoice** will be billed later.     b. In the line with the _PHASE1_ project task and the _SITEREVIEW_ inventory item, select _Write Off_ as the **Status**        to write off the full amount of the line and exclude it from billing. The system specifies _0_ in the **Amount**        **to Invoice** column for this line.     c. In the line with the _PHASE2_ project task and the _TRAINING_ inventory item, do the following:        a. Change **Amount to Invoice** to 200.00.        b. Select _Write Off Remainder_ as the **Status** to write off the difference between the **Billed Amount** and           the **Amount to Invoice** and exclude this difference from billing. 
+3. On the **Time and Material** tab of the _Pro Forma Invoices_ (PM307000) form, which opens, adjust the invoice     lines as follows (see below):     a. In the line with the _PHASE1_ project task and the _JUICER15_ inventory item, change **Amount to Invoice** to        2000. When you enter an **Amount to Invoice** that is less than the **Billed Amount** , the system specifies        _Hold Remainder_ as the **Status** in this line; the difference between the **Billed Amount** and the **Amount to**        **Invoice** will be billed later.     b. In the line with the _PHASE1_ project task and the _SITEREVIEW_ inventory item, select _Write Off_ as the **Status**        to write off the full amount of the line and exclude it from billing. The system specifies _0_ in the **Amount**        **to Invoice** column for this line.     c. In the line with the _PHASE2_ project task and the _TRAINING_ inventory item, do the following:        a. Change **Amount to Invoice** to 200.00.        b. Select _Write Off Remainder_ as the **Status** to write off the difference between the **Billed Amount** and           the **Amount to Invoice** and exclude this difference from billing. 
 
-4. Add a new line with the following settings (also shown in the following screenshot): 
+4. Add a new line with the following settings (also shown below): 
 
 - **Project Task** : _PHASE1_ 
 
@@ -6976,11 +7252,11 @@ To configure this security, the system administrator performs the following gene
 
 7. On the **Financial** tab, click the **AR Ref. Nbr.** link to open the accounts receivable invoice that has been     created. 
 
-8. On the form toolbar of the _Invoices and Memos_ (AR301000) form, which opens, click **Remove Hold** to assign     the invoice the _Balanced_ status, and then click **Release** to release the accounts receivable invoice. 
-
 
 <!-- PAGE_BREAK -->
- Billing Projects for Time and Material | 169 
+ Billing Projects for Time and Material | 176 
+
+8. On the form toolbar of the _Invoices and Memos_ (AR301000) form, which opens, click **Remove Hold** to assign     the invoice the _Balanced_ status, and then click **Release** to release the accounts receivable invoice. 
 
 #### Step 2: Billing the Project for the Remainder 
 
@@ -7012,7 +7288,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects for Time and Material | 170 
+ Billing Projects for Time and Material | 177 
 
  Billable Billed Amount Orig. Doc. Type Orig. Doc. Nbr. 
 
@@ -7044,7 +7320,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects for Time and Material | 171 
+ Billing Projects for Time and Material | 178 
 
 #### Reviewing the Actual Amounts of the Project 
 
@@ -7078,11 +7354,11 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Projects for Time and Material | 172 
+ Billing Projects for Time and Material | 179 
 
  To initiate billing for particular projects, you select the unlabeled check boxes in the rows of the projects to be processed in the table on this form, and click Process on the form toolbar. To instead initiate billing for all the listed projects, you click Process All on the form toolbar. 
 
- During processing, the system generates project invoices for the selected projects. Pro forma invoices will be created for only those projects that have the Create Pro Forma Invoice on Billing check box selected on the Summary tab of the Projects (PM301000) form; AR invoices will be created for projects for which this check box is cleared. The system creates project invoices with the date that is specified in the Invoice Date box in the Selection area of the form. 
+ During processing, the system generates project invoices for the selected projects. Pro forma invoices will be created for only those projects that have the Create Pro Forma Invoice on Billing check box selected on the Summary tab of the Projects form; AR invoices will be created for projects for which this check box is cleared. The system creates project invoices with the date that is specified in the Invoice Date box in the Selection area of the form. 
 
 #### Mass-Releasing AR Invoices 
 
@@ -7094,7 +7370,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Employee Time | 173 
+ Billing Employee Time | 180 
 
 ## Billing Employee Time 
 
@@ -7138,7 +7414,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Employee Time | 174 
+ Billing Employee Time | 181 
 
  When the time card is released, the related project transaction is created and released, so that the logged employee time is tracked in the related project and can then be billed. Also, on release of the time card, for each day of the week with reported time, a separate time activity is released. 
 
@@ -7148,7 +7424,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Employee Time | 175 
+ Billing Employee Time | 182 
 
 #### Billing Employee Time in Projects 
 
@@ -7158,7 +7434,7 @@ To configure this security, the system administrator performs the following gene
 
  Each line of a time card is a time activity. On release of a time card with project-related lines, the system processes these lines as follows: 
 
-- Generates project transactions for each time activity within a time card that is associated with a project.     This extra step between the release of the time-tracking document and the updating of balances of general     ledger accounts makes it possible to define labor costs and bill customers based on these costs and the     quantity of working hours reported by employees for the project. The system further processes the project     transactions originating from a time card based on the allocation or billing rules assigned to the project     tasks of the project to which this transactions relates. 
+- Generates project transactions for each time activity within a time card that is associated with a project.     This extra step between the release of the time-tracking document and the updating of balances of general     ledger accounts makes it possible to define labor costs and bill customers based on these costs and the     quantity of working hours reported by employees for the project. The system further processes the project     transactions originating from a time card based on the allocation or billing rules assigned to the project     tasks of the project to which these transactions relate. 
 
 - Generates general ledger transactions (and does not generate project transactions) for each time activity     within a time card that is associated with a non-project code. 
 
@@ -7182,7 +7458,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Employee Time | 176 
+ Billing Employee Time | 183 
 
 - To cause the system to require a particular employee to enter time cards, select the **Time Card is Required**     check box on the _Employees_ (EP203000) form. If the reporting of time with time activities is configured, the     selection of this check box means that time activities can be released only within a time card. 
 
@@ -7198,7 +7474,7 @@ To configure this security, the system administrator performs the following gene
 
  In this activity, you will enter a time activity for work related to a project. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -7212,7 +7488,7 @@ To configure this security, the system administrator performs the following gene
 
 - The following features have been enabled on the _Enable/Disable Features_ (CS100000) form: 
 
-- _Project Accounting_ , which provides support for the project accounting functionality 
+- _Projects_ , which provides support for the project management functionality 
 
 - _Time Management_ , which provides support for tracking the time that employees spend on activities 
 
@@ -7224,7 +7500,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Billing Employee Time | 177 
+ Billing Employee Time | 184 
 
 #### Process Overview 
 
@@ -7246,9 +7522,9 @@ To configure this security, the system administrator performs the following gene
 
 - **Summary** : A 4-hour training session 
 
-- **Start Date** : Current business date 
+- **Track Time and Costs** : Selected 
 
-- **Owner** : _Todd Bloom_ (selected automatically) 
+- **Started On** : Current business date 
 
 - **Project** : _HMBAKERY7_ (selected automatically) 
 
@@ -7257,8 +7533,6 @@ To configure this security, the system administrator performs the following gene
 - **Cost Code** : _00-000_ (selected automatically) 
 
 - **Labor Item** : _CONSULTSR_ (selected automatically) 
-
-- **Track Time and Costs** : Selected 
 
 - **Earning Type** : _RG_ (selected automatically) 
 
@@ -7270,11 +7544,11 @@ To configure this security, the system administrator performs the following gene
 
 4. On the form toolbar, click **Complete** to complete the activity.     The system creates and saves the activity with the _Work Item_ type, closes the _Activity_ form, and returns to the     project on the _Projects_ form. 
 
-5. On the **Activities** tab, make sure the time activity you created has appeared, as shown in the following     screenshot. 
+5. On the **Activities** tab, make sure that the time activity you created has appeared, as shown below. 
 
 
 <!-- PAGE_BREAK -->
- Billing Employee Time | 178 
+ Billing Employee Time | 185 
 
  Figure: The time activity related to the project 
 
@@ -7284,13 +7558,13 @@ To configure this security, the system administrator performs the following gene
 
  In this activity, you will enter a time card for work related to a project. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the HM's Bakery and Cafe customer has contacted the SweetLife Fruits & Jams company and ordered training on operating juicers for the company's new employees. The project accountant has created a project to account for the provided services. 
 
- Further suppose that project accountant (who also provides employee training services) has spent eight hours training the customer's employees on January 28, 2025. Acting as Pam Brawner, you need to enter a time card to log the time spent working on the project. 
+ Further suppose that project accountant (who also provides employee training services) has spent eight hours training the customer's employees on February 3, 2026. Acting as Pam Brawner, you need to enter a time card to log the time spent working on the project. 
 
 #### Configuration Overview 
 
@@ -7298,7 +7572,7 @@ To configure this security, the system administrator performs the following gene
 
 - The following features have been enabled on the _Enable/Disable Features_ (CS100000) form: 
 
-- _Project Accounting_ , which provides support for the project accounting functionality 
+- _Projects_ , which provides support for the project management functionality 
 
 - _Advanced Financials_ , which provides the functionality of time cards 
 
@@ -7306,11 +7580,11 @@ To configure this security, the system administrator performs the following gene
 
 - On the _Non-Stock Items_ (IN202000) form, the _CONSULTPM_ labor item has been created; on the _Employees_     (EP203000) form, this item is assigned to the _EP00000001 – Pam Brawner_ employee. For an example of     configuring a labor item and assigning it to an employee, refer to _Labor Items: To Configure a Labor Item_. 
 
-- On the _Labor Rates_ (PM209900) form, a labor cost rate has been configured for the _EP00000001 – Pam_     _Brawner_ employee. 
-
 
 <!-- PAGE_BREAK -->
- Billing Employee Time | 179 
+ Billing Employee Time | 186 
+
+- On the _Labor Rates_ (PM209900) form, a labor cost rate has been configured for the _EP00000001 – Pam_     _Brawner_ employee. 
 
 #### Process Overview 
 
@@ -7320,13 +7594,15 @@ To configure this security, the system administrator performs the following gene
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _2/3/2026_. If a different date is displayed, click the Business Date menu button and     select _2/3/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
+
+3. On the _Time and Expenses Preferences_ (EP101000) form ( **Approvals** tab), clear the **Time Card Approval**     **Map** box and save the changes. 
 
 #### Step: Entering a Time Card for the Project 
 
  To log the eight hours that Pam Brawner has spent training the customer's employees as part of the project, enter a time card as follows: 
 
-1. On the form toolbar of the _Employee Time Cards_ (EP406000) form, add a new record. The system opens the     _Employee Time Cards_ (EP305000) form with the new time card.     In the Summary area, _2025-05 (01/26 - 02/01)_ is specified in the **Week** box. This is the work week to which the     current business date belongs. Also, notice that the system has automatically selected the employee who is     currently signed in ( _Pam Brawner_ ) as the **Employee**. 
+1. On the form toolbar of the _Employee Time Cards_ (EP406000) form, add a new record. The system opens the     _Employee Time Cards_ (EP305000) form with the new time card.     In the Summary area, _2026-05 (02/01 - 02/07)_ is specified in the **Week** box. This is the work week to which the     current business date belongs. Also, notice that the system has automatically selected the employee who is     currently signed in ( _Pam Brawner_ ) as the **Employee**. 
 
 2. On the **Summary** tab, add a row, and specify the following settings: 
 
@@ -7354,25 +7630,27 @@ To configure this security, the system administrator performs the following gene
 
 5. On the form toolbar, click **Release** to release the time card. The time card is assigned the _Released_ status. 
 
-6. On the _Projects_ (PM301000) form, open the _HMBAKERY7_ project, and on the **Activities** tab, notice that     the time activity you have entered by using the time card is shown on the tab, as shown in the following     screenshot. 
+6. On the _Projects_ (PM301000) form, open the _HMBAKERY7_ project, and on the **Activities** tab, notice that the     time activity you have entered by using the time card is shown on the tab, as shown below. 
 
 
 <!-- PAGE_BREAK -->
- Billing Employee Time | 180 
+ Billing Employee Time | 187 
 
  Figure: Time card information tracked in the project 
 
  You have submitted and released the time card related to the project. 
 
+7. Open the _Time and Expenses Preferences_ (EP101000) form, in the **Time Card Approval Map** box, select     _Employee Time Cards_ , and save the changes. 
+
 ### Employee Time Billing: Process Activity 
 
  This activity will walk you through the process of billing employee time spent on a particular project. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that Lake Cafe has requested 40 hours of training on operating juicers that were previously purchased from and installed by the SweetLife Fruits & Jams company. Jon Waite, SweetLife's senior consultant, has provided 16 hours of training (three hours on Monday, January 27, 2025; five hours on Tuesday, January 28; and eight hours on Thursday, January 30). 
+ Suppose that Lake Cafe has requested 40 hours of training on operating juicers that were previously purchased from and installed by the SweetLife Fruits & Jams company. Jon Waite, SweetLife's senior consultant, has provided 16 hours of training (three hours on Monday, January 27, 2026; five hours on Tuesday, January 28; and eight hours on Thursday, January 30). 
 
  Acting as SweetLife's project accountant, Pam Brawner, you need to create a project to account for the provided services. Then acting as Jon Waite, you need to enter a time card to log the work related to the project. Finally, again acting as Pam Brawner, you need to bill the project and review the invoice prepared for the customer. 
 
@@ -7380,7 +7658,7 @@ To configure this security, the system administrator performs the following gene
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- The _Project Accounting_ feature has been enabled on the _Enable/Disable Features_ (CS100000) form. 
+- The _Projects_ feature has been enabled on the _Enable/Disable Features_ (CS100000) form. 
 
 - The _54100 (Project Labor Expense)_ account is mapped to the _LABOR_ expense account group, which has been     defined on the _Account Groups_ (PM201000) form. 
 
@@ -7390,15 +7668,13 @@ To configure this security, the system administrator performs the following gene
 
 - On the _Projects_ (PM301000) form, the _TRAINCAF_ project has been configured. 
 
-#### Process Overview 
-
- You will create and release a time card on the Employee Time Cards (EP406000) form. You will review the project transaction generated based on the time card on the Project Transactions (PM304000) form. Next, you will bill the project on the Projects (PM301000) form, and release both the prepared pro forma invoice on the Pro Forma Invoices (PM307000) form and the AR invoice on the Invoices and Memos (AR301000) form. Finally, on the Projects 
-
 
 <!-- PAGE_BREAK -->
- Billing Employee Time | 181 
+ Billing Employee Time | 188 
 
- form, you will make sure that the project cost and revenue budget have been updated with the billed employee time. 
+#### Process Overview 
+
+ You will create and release a time card on the Employee Time Cards (EP406000) form. You will review the project transaction generated based on the time card on the Project Transactions (PM304000) form. Next, you will bill the project on the Projects (PM301000) form, and release both the prepared pro forma invoice on the Pro Forma Invoices (PM307000) form and the AR invoice on the Invoices and Memos (AR301000) form. Finally, on the Projects form, you will make sure that the project cost and revenue budget have been updated with the billed employee time. 
 
 #### System Preparation 
 
@@ -7408,7 +7684,7 @@ To configure this security, the system administrator performs the following gene
 
 2. Sign in to a company with the _U100_ dataset preloaded. You should sign in as Jon Waite by using the _waite_     username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _2/5/2026_. If a different date is displayed, click the Business Date menu button and     select _2/5/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Entering an Employee Time Card 
 
@@ -7416,7 +7692,7 @@ To configure this security, the system administrator performs the following gene
 
 1. On the form toolbar of the _Employee Time Cards_ (EP406000) form, click **Add New Timecard** to create a new     time card. The system opens the _Employee Time Cards_ (EP305000) form with the new time card created for     the employee who is currently signed in (Jon Waite). 
 
-2. In the Summary area, make sure that _2025-05 (01/26 - 02/01)_ is specified in the **Week** box. This is the work     week during which the work for the project has been performed. 
+2. In the Summary area, make sure that _2026-05 (02/01 - 02/07)_ is specified in the **Week** box. This is the work     week during which the work for the project has been performed. 
 
 3. On the **Summary** tab, add a row, and specify the following settings: 
 
@@ -7448,15 +7724,13 @@ To configure this security, the system administrator performs the following gene
 
 5. On the form toolbar, click **Submit** to submit the time card. The status of the time card is changed to     _Approved_. 
 
-6. On the form toolbar, click **Release** to release the time card; its status is changed to _Released_. 
-
-7. On the form toolbar, click **View Transactions**. On the _Project Transactions_ (PM304000) form, the system     opens the project transaction that has been generated based on the released time card. Notice that the     system has created a separate project transaction line for each time activity within the time card. The total     billable quantity of the transaction is 16, which is the quantity of reported hours, and the total amount is     calculated based on the billable quantity and employee labor cost as follows: 
-
 
 <!-- PAGE_BREAK -->
- Billing Employee Time | 182 
+ Billing Employee Time | 189 
 
-##### 16.00 * 44.00 = 704.00 
+6. On the form toolbar, click **Release** to release the time card; its status is changed to _Released_. 
+
+7. On the form toolbar, click **View Transactions**. On the _Project Transactions_ (PM304000) form, the system     opens the project transaction that has been generated based on the released time card. Notice that the     system has created a separate project transaction line for each time activity within the time card. The total     billable quantity of the transaction is 16, which is the quantity of reported hours, and the total amount is     calculated based on the billable quantity and employee labor cost as follows:     16.00 * 44.00 = 704.00 
 
 8. Sign out of the system. 
 
@@ -7466,9 +7740,9 @@ To configure this security, the system administrator performs the following gene
 
 1. Sign in to the system as Pam Brawner by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _2/5/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _2/5/2026_ on the calendar. 
 
-3. On the _Projects_ (PM301000) form, open the _TRAINCAF_ project.     On the **Cost Budget** tab, notice that the system has updated the actual quantity and amount with the data     of the project transaction that was generated on release of the time card, as shown in the screenshot below. 
+3. On the _Projects_ (PM301000) form, open the _TRAINCAF_ project.     On the **Cost Budget** tab, notice that the system has updated the actual quantity and amount with the data     of the project transaction that was generated on release of the time card, as shown below. 
 
  Figure: The cost budget updated based on the released time card 
 
@@ -7478,7 +7752,11 @@ To configure this security, the system administrator performs the following gene
 
 6. On the **Financial** tab, click the **AR Ref. Nbr.** link to open the accounts receivable invoice that has been     created. 
 
-7. On the form toolbar of the _Invoices and Memos_ (AR301000) form that opens, click **Remove Hold** to assign     the invoice the _Balanced_ status, and then click **Release** to release the accounts receivable invoice. 
+7. On the form toolbar of the _Invoices and Memos_ (AR301000) form, which opens, click **Remove Hold** to assign     the invoice the _Balanced_ status, and then click **Release** to release the accounts receivable invoice. 
+
+
+<!-- PAGE_BREAK -->
+ Billing Employee Time | 190 
 
 8. On the _Projects_ form, open the _TRAINCAF_ project, and in the only line on the **Revenue Budget** tab, make     sure that the **Actual Amount** is now $880. 
 
@@ -7487,10 +7765,6 @@ To configure this security, the system administrator performs the following gene
 ### Employee Time Billing: Mass Processing of Documents 
 
  This topic explains how to perform mass-processing operations related to employee time tracking, and how the system generates, changes, or works with documents as a result of the mass processing. 
-
-
-<!-- PAGE_BREAK -->
- Billing Employee Time | 183 
 
 #### Mass-Releasing Time Activities 
 
@@ -7518,15 +7792,15 @@ To configure this security, the system administrator performs the following gene
 
  You can review the list of time activities on the Employee Time Activities (EP307000) form. In the Summary area of this form, you select an employee and the time range (in weeks) for which you want to review the time activities submitted by the employee. You can also select a particular project (and, optionally, a project task) to review only the time activities that have been performed by the employee for the project. 
 
+
+<!-- PAGE_BREAK -->
+ Billing Employee Time | 191 
+
  You can review all existing time activities in the system on the Activities (EP404300) form. 
 
 #### Finding Project Transaction Generated for Time Card 
 
  You can review the project transaction that was generated on release of a particular time card by opening a time card on the Employee Time Cards (EP305000) form and clicking View Transactions on the form toolbar. The system opens the project transaction on the Project Transactions (PM304000) form. 
-
-
-<!-- PAGE_BREAK -->
- Billing Employee Time | 184 
 
 ### Employee Time Billing: Generated Transactions 
 
@@ -7570,15 +7844,17 @@ To configure this security, the system administrator performs the following gene
 
  Billable quantity * unit rate 0.00 
 
+
+<!-- PAGE_BREAK -->
+ Billing Employee Time | 192 
+
+ Account Project Project Task Debit Credit 
+
  Expense Accrual account defined by the Expense Accrual Account Source setting on the Projects Preferences form 
 
  Non-project code Empty 0.00 Billable quantity * unit rate 
 
  You can view the reference number of the GL batch in the GL Batch Nbr. box in the project transaction line on the Project Transactions (PM304000) form. You can click the link in this box to view the details of the batch on the Journal Transactions (GL301000) form. 
-
-
-<!-- PAGE_BREAK -->
- Billing Employee Time | 185 
 
 #### GL Transaction Generated from an AR Invoice 
 
@@ -7620,7 +7896,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 186 
+ Processing Pro Forma Invoices | 193 
 
 ## Processing Pro Forma Invoices 
 
@@ -7634,7 +7910,7 @@ To configure this security, the system administrator performs the following gene
 
  In this chapter, you will learn how to do the following: 
 
-- Configure the pro forma invoice workflow for a project 
+- Turn on the pro forma invoice workflow for a project 
 
 - Create a pro forma invoice during project billing 
 
@@ -7666,7 +7942,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 187 
+ Processing Pro Forma Invoices | 194 
 
 #### Creation of Pro Forma Invoices 
 
@@ -7686,7 +7962,7 @@ To configure this security, the system administrator performs the following gene
 
 - The amounts in the **Dra Invoice Amount** column are increased with the amount to invoice of the     corresponding progress billing lines and time and material lines of the pro forma invoice. 
 
-- The quantities in the **Dra Invoice Quantity** column are increased with the quantity to invoice of the     corresponding progress billing lines of the pro forma invoice that have been billed based on quantity. A pro forma invoice with any status can be printed and emailed to the customer. To print the pro forma invoice, you click **Print** on the More menu of the _Pro Forma Invoices_ form. To email the pro forma invoice, you click **Email** on the More menu of the form. 
+- The quantities in the **Dra Invoice Quantity** column are increased with the quantity to invoice of the     corresponding progress billing lines of the pro forma invoice that have been billed based on quantity. You can print a pro forma invoice with any status and email to the customer. To print the pro forma invoice, you click **Print** on the More menu of the _Pro Forma Invoices_ form. To email the pro forma invoice, you click **Email** on the More menu of the form. 
 
 #### Release of Pro Forma Invoices 
 
@@ -7698,7 +7974,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 188 
+ Processing Pro Forma Invoices | 195 
 
  The system creates a credit memo on release of the pro forma invoice if the total amount of the pro forma invoice is negative. For more information, see Project Invoice Correction: Credit Memos for Projects. 
 
@@ -7718,7 +7994,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 189 
+ Processing Pro Forma Invoices | 196 
 
 ### Pro Forma Invoices: Implementation Checklist 
 
@@ -7736,7 +8012,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 190 
+ Processing Pro Forma Invoices | 197 
 
  Form Criteria to Check 
 
@@ -7770,25 +8046,25 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 191 
+ Processing Pro Forma Invoices | 198 
 
 ### Pro Forma Invoices: To Process a Pro Forma Invoice for a Project 
 
  In this activity, you will learn about the workflow of a pro forma invoice that has been prepared for a project. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the HM's Bakery and Cafe customer has ordered juicers from the SweetLife Fruits & Jams company, along with the following services: site review, installation, and employee training on operating the juicers. SweetLife's project accountant has created a project that should be billed on demand as the juicers are installed and all the services are provided. Before the invoice is sent to the customer for payment, the customer has requested a pro forma invoice to be submitted for acceptance. The site review has taken place, the juicers have been delivered and installed, and SweetLife's consultant has provided the training. Aer that, the project accountant has entered project transactions and updated the progress of the project. 
 
- Acting as the project accountant, you will bill the customer, print the pro forma invoice, and email the invoice to the customer for approval on 1/30/2025. Then you will release the pro forma invoice and the associated accounts receivable invoice. 
+ Acting as the project accountant, you will bill the customer, print the pro forma invoice, and email the invoice to the customer for approval on 1/30/2026. Then you will release the pro forma invoice and the associated accounts receivable invoice. 
 
 #### Configuration Overview 
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Projects_ (PM301000) form, the _HMBAKERY5_ project has been created and the _PHASE1_ , _PHASE2_ ,     _PHASE3_ , _PHASE4_ , and _PHASE5_ project tasks have been created for the project. The revenue budget level of     the project is _Task and Item_. On the **Summary** tab ( **Billing and Allocation Settings** section), the **Create Pro**     **Forma Invoice on Billing** check box has been selected for the project. With this setting, the system creates a     pro forma invoice for the project when you run project billing. 
 
@@ -7804,13 +8080,13 @@ To configure this security, the system administrator performs the following gene
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and 
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 192 
+ Processing Pro Forma Invoices | 199 
 
- button and select 1/30/2025 on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date. 
+ select 1/30/2026 from the calendar. For simplicity, you'll create and process all documents in this activity using this business date. 
 
 3. On the _Projects Preferences_ (PM101000) form, on the **General** tab ( **General Settings** section), make sure     _Detailed_ is selected in the **Revenue Budget Update** box. 
 
@@ -7822,13 +8098,13 @@ To configure this security, the system administrator performs the following gene
 
  You can review the transactions that correspond to each cost budget line on the Project Transaction Details (PM401000) form, which opens if you click the line and then click View Transactions on the table toolbar. The transactions have the Billable check box selected and the Billed check box cleared, which means the transactions are ready for billing and have not been billed yet. 
 
-2. On the **Revenue Budget** tab, review the revenue budget lines of the project, and make sure that the     **Pending Invoice Amount** of the revenue budget lines is nonzero. In the table selection area, notice that the     **Pending Invoice Amount Total** is equal to _2,700.00_. You can bill the project for this amount. 
+2. On the **Revenue Budget** tab, review the revenue budget lines of the project, and make sure that the     **Pending Invoice Amount** of the revenue budget lines is nonzero. In the Summary area, notice that the     **Pending Invoice Amount Total** is equal to _2,700.00_. You can bill the project for this amount. 
 
 3. On the form toolbar, click **Run Billing**.     The system creates a pro forma invoice and opens it on the _Pro Forma Invoices_ (PM307000) form. 
 
 4. On the **Progress Billing** tab, make sure that the pro forma invoice includes five progress lines. Review the     invoice lines that have been created based on the revenue budget lines of the project. The **Progress Billing**     **Total** in the Summary area is _2,700.00_. 
 
-5. In the Summary area, right of the **Project** box, click the Edit button to review how the creation of the pro     forma invoice has affected the revenue budget of the project. The system opens the _Projects_ form with the     _HMBAKERY5_ project selected.     On the **Revenue Budget** tab, notice that amounts from the **Pending Invoice Amount** column have been     moved to the **Dra Invoice Amount** column, and now the **Pending Invoice Amount** of all the revenue     budget lines is zero. In the table selection area, notice that the **Pending Invoice Amount Total** is also equal     to zero. 
+5. In the Summary area, right of the **Project** box, click the link to review how the creation of the pro forma     invoice has affected the revenue budget of the project. The system opens the _Projects_ form with the     _HMBAKERY5_ project selected.     On the **Revenue Budget** tab, notice that amounts from the **Pending Invoice Amount** column have been     moved to the **Dra Invoice Amount** column, and now the **Pending Invoice Amount** of all the revenue     budget lines is _0_. In the table selection area, notice that the **Pending Invoice Amount Total** is also _0_. 
 
 6. Return to the _Pro Forma Invoices_ form with the pro forma invoice that you have prepared earlier. 
 
@@ -7838,13 +8114,13 @@ To configure this security, the system administrator performs the following gene
 
 8. On the More menu, click **Print** to generate the printable version of the pro forma invoice. The system     navigates to the _Pro Forma Invoice_ (PM642000) report and opens the printable version of the pro forma     invoice. 
 
-9. Click Back in the browser window to go back to the pro forma invoice on the _Pro Forma Invoices_ form, and     on the More menu, click **Email** to send the invoice as an email to the customer.     The system creates an email by using the notification template defined for the project on the **Mailing &**     **Printing** tab of the _Projects_ form, attaches the printed report, and sends the email to the customer by using 
+9. Click Back in the browser window to go back to the pro forma invoice on the _Pro Forma Invoices_ form, and     on the More menu, click **Email** to send the invoice as an email to the customer.     The system creates an email by using the notification template defined for the project on the **Mailing &**     **Printing** tab of the _Projects_ form, attaches the printed report, and sends the email to the customer by using     the email address specified in the **Bill-To Contact** section on the **Addresses** tab of the _Pro Forma Invoices_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 193 
+ Processing Pro Forma Invoices | 200 
 
- the email address specified in the Bill-To Contact section on the Addresses tab of the Pro Forma Invoices form, which is copied from the project from the Bill-To section on the Addresses tab of the Projects form. 10.On the form toolbar, click Remove Hold to assign the pro forma invoice the Open status. 11.On the form toolbar, click Release. The system creates the accounts receivable invoice based on the pro forma invoice and assigns the Closed status to the pro forma invoice. 
+ form, which is copied from the project from the Bill-To-Contact section on the Addresses tab of the Projects form. 10.On the form toolbar, click Remove Hold to assign the pro forma invoice the Open status. 11.On the form toolbar, click Release. The system creates the accounts receivable invoice based on the pro forma invoice and assigns the Closed status to the pro forma invoice. 
 
 #### Step 2: Processing an AR Invoice 
 
@@ -7852,7 +8128,7 @@ To configure this security, the system administrator performs the following gene
 
 1. While you are viewing the pro forma invoice on the _Pro Forma Invoices_ (PM307000) form, on the **Financial**     tab, click the **AR Ref. Nbr.** link to open the accounts receivable invoice that was created. 
 
-2. On the _Invoices and Memos_ (AR301000) form, which opens, notice that all progress billing and time and     material lines of the pro forma invoice have been copied to the **Details** tab of the accounts receivable     invoice, as the following screenshot illustrates. The settings in these lines cannot be edited, except in the     **Salesperson ID** column. 
+2. On the _Invoices and Memos_ (AR301000) form, which opens, notice that all progress billing and time and     material lines of the pro forma invoice have been copied to the **Details** tab of the accounts receivable     invoice (see below). The settings in these lines cannot be edited, except in the **Salesperson ID** column. 
 
  Figure: The AR invoice prepared based on the pro forma invoice 
 
@@ -7864,15 +8140,15 @@ To configure this security, the system administrator performs the following gene
 
 6. On the More menu (under **Inquiries** ), click **Project Transactions** to review the corresponding project     transactions. 
 
-7. On the _Project Transaction Details_ (PM401000) form, which opens, review the project transactions related     to the AR invoice. Notice that eight transactions have _AR Invoice_ in the **Orig. Doc. Type** column and the     reference number of the accounts receivable invoice you have released in the **Orig. Doc. Nbr.** column. These     transactions also have the reference number of the general ledger batch you have just reviewed in the **GL**     **Batch Nbr.** column. 
-
-8. On the _Projects_ form, open the _HMBAKERY5_ project, and review the **Invoices** tab. Notice that in the only line,     the reference numbers of the prepared pro forma invoice and the corresponding accounts receivable invoice 
+7. On the _Project Transaction Details_ (PM401000) form, which opens, review the project transactions related     to the AR invoice. Notice that eight transactions have _AR Invoice_ in the **Orig. Doc. Type** column and the     reference number of the accounts receivable invoice you have released in the **Orig. Doc. Nbr.** column. These 
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 194 
+ Processing Pro Forma Invoices | 201 
 
- are shown in the Pro Forma Reference Nbr. and AR Reference Nbr. columns, respectively. The total billed amount in the AR Doc. Orig. Amount column is $10,450. 
+ transactions also have the reference number of the general ledger batch you have just reviewed in the GL Batch Nbr. column. 
+
+8. On the _Projects_ form, open the _HMBAKERY5_ project, and review the **Invoices** tab. Notice that in the only line,     the reference numbers of the prepared pro forma invoice and the corresponding accounts receivable invoice     are shown in the **Pro Forma Reference Nbr.** and **AR Reference Nbr.** columns, respectively. The total billed     amount in the **AR Doc. Orig. Amount** column is $10,450. 
 
 9. On the **Revenue Budget** tab, make sure the **Actual Amount** of revenue budget lines was updated on release     of the AR invoice. Also, make sure that the following new revenue budget lines have been created based on     the billed project transactions: 
 
@@ -7898,15 +8174,15 @@ To configure this security, the system administrator performs the following gene
 
  As an alternative to manually entering progress billing lines, you can load all applicable lines automatically by clicking Load Lines on the table toolbar of the Progress Billing tab. The system loads the lines from the revenue budget of the project in which an active or completed project task of the Revenue Task or Cost and Revenue Task type is specified and the billing rule assigned to the project task includes the progress billing step. If a line with the particular project budget key already exists in the pro forma invoice, the system will skip adding it. 
 
- To add time and material lines with unbilled project transactions, on the table toolbar of the Time and Material tab, you click Upload Unbilled Transactions ; you then select the lines with project transactions to be billed in the dialog box that opens. The lines will be added to the Time and Material tab and linked to the corresponding project transactions. Alternatively, you can enter a new time and material line manually; this line will not have a link to any project transaction. 
-
- Aer you have added all lines to the pro forma invoice and saved it, the system shows this pro forma invoice on the Invoices tab of the Projects (PM301000) form for the corresponding project. The amounts and quantities from the 
+ To add time and material lines with unbilled project transactions, on the table toolbar of the Time and Material tab, you click Upload Unbilled Transactions ; you then select the lines with project transactions to be billed in the dialog box that opens. The lines will be added to the Time and Material tab and linked to the corresponding 
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 195 
+ Processing Pro Forma Invoices | 202 
 
- pro forma invoice lines update the Dra Invoice Amount and Dra Invoice Quantity columns, respectively, on the Revenue Budget tab. 
+ project transactions. Alternatively, you can enter a new time and material line manually; this line will not have a link to any project transaction. 
+
+ Aer you have added all lines to the pro forma invoice and saved it, the system shows this pro forma invoice on the Invoices tab of the Projects (PM301000) form for the corresponding project. The amounts and quantities from the pro forma invoice lines update the Dra Invoice Amount and Dra Invoice Quantity columns, respectively, on the Revenue Budget tab. 
 
 #### Processing of a Manual Pro Forma Invoice 
 
@@ -7926,29 +8202,29 @@ To configure this security, the system administrator performs the following gene
 
  The following activity will walk you through the process of creating a manual pro forma invoice for a project. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the HM's Bakery and Cafe customer has ordered juicer installation from the SweetLife Fruits & Jams company, along with employee training on operating the juicers. SweetLife's project accountant has created a project that should be completed in two stages and billed monthly. The start date of the project is 1/15/2025. 
+ Suppose that the HM's Bakery and Cafe customer has ordered juicer installation from the SweetLife Fruits & Jams company, along with employee training on operating the juicers. SweetLife's project accountant has created a project that should be completed in two stages and billed monthly. The start date of the project is 1/15/2026. 
 
- Further suppose that on 1/30/2025, the customer has requested a pro forma invoice for the first part of the work to be submitted for acceptance. According to the billing schedule, the next billing date of the project is 2/15/2025. That is, the project accountant cannot prepare the pro forma invoice by running the billing procedure. The project accountant has decided to enter the pro forma invoice and include the following information in it: 
+ Further suppose that on 1/30/2026, the customer has requested a pro forma invoice for the first part of the work to be submitted for acceptance. According to the billing schedule, the next billing date of the project is 2/15/2026. That is, the project accountant cannot prepare the pro forma invoice by running the billing procedure. The project accountant has decided to enter the pro forma invoice and include the following information in it: 
 
 - Forty percent of installation services; this amount has a fixed price that has been agreed upon with the     customer 
 
 - A site review that was not initially budgeted and has been requested by the customer as an addition 
 
-- Six hours of employee training provided on 1/25/2025 by a senior consultant Acting as the project accountant, you will enter a manual pro forma invoice and review how the project budget has been affected. 
+- Six hours of employee training provided on 1/25/2026 by a senior consultant Acting as the project accountant, you will enter a manual pro forma invoice and review how the project budget has been affected. 
+
+
+<!-- PAGE_BREAK -->
+ Processing Pro Forma Invoices | 203 
 
 #### Configuration Overview 
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
-
-
-<!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 196 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Projects_ (PM301000) form, the _HMBAKERY9_ project has been created and the _PHASE1_ and _PHASE2_     project tasks have been created for the project. The revenue budget of the project includes a line with the     _PHASE1_ task and the _INSTALL_ inventory item; in the line, _40_ is specified in the **Completed (%)** column. On     the **Summary** tab ( **Billing and Allocation Settings** section), the **Create Pro Forma Invoice on Billing** check     box has been selected for the project, and the **Billing Period** is _Month_. 
 
@@ -7964,7 +8240,7 @@ To configure this security, the system administrator performs the following gene
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Creating a Project Transaction 
 
@@ -7992,17 +8268,17 @@ To configure this security, the system administrator performs the following gene
 
 - **Unit Rate** : 45.00 
 
-- **Date** : _1/25/2025_ 
+- **Date** : _1/25/2026_ 
 
 4. In the Summary area, make sure that the total billable amount is $270. 
+
+
+<!-- PAGE_BREAK -->
+ Processing Pro Forma Invoices | 204 
 
 5. Save your changes. 
 
 6. On the form toolbar, click **Release** to release the project transactions. 
-
-
-<!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 197 
 
 #### Step 2: Creating a Pro Forma Invoice 
 
@@ -8014,9 +8290,9 @@ To configure this security, the system administrator performs the following gene
 
 - **Project** : _HMBAKERY9_ 
 
-- **Invoice Date** : _1/30/2025_ 
+- **Invoice Date** : _1/30/2026_ 
 
-- **Post Period** : 01-2025 
+- **Post Period** : 01-2026 
 
 - **Description** : January pro forma invoice: site review, installation, and     training 
 
@@ -8038,7 +8314,7 @@ To configure this security, the system administrator performs the following gene
 
 6. On the **Time and Material** tab, click **Upload Unbilled Transactions**. 
 
-7. In the **Upload Unbilled Transactions** dialog box, which opens, select the unlabeled check box in the only     line, which is the project transaction that represents 6 hours of training provided on 1/25/2025. Click **Upload**     **& Close**. The system adds a time and material line for the project transaction to the pro forma invoice. Make     sure that the **Amount to Invoice** in the line is _337.50_. 
+7. In the **Upload Unbilled Transactions** dialog box, which opens, select the unlabeled check box in the only     line, which is the project transaction that represents 6 hours of training provided on 1/25/2026. Click **Upload**     **& Close**. The system adds a time and material line for the project transaction to the pro forma invoice. Make     sure that the **Amount to Invoice** in the line is _337.50_. 
 
 8. In the Summary area, make sure that the pro forma invoice total amount in the **Invoice Total** box is _699.50_. 
 
@@ -8056,7 +8332,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 198 
+ Processing Pro Forma Invoices | 205 
 
  Figure: The project budget updated by the manual pro form forma invoice 
 
@@ -8088,7 +8364,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 199 
+ Processing Pro Forma Invoices | 206 
 
  The table in the Add Transactions dialog box lists all the released project transactions that are not already linked to any pro forma invoice line. The table in the dialog box lists the project transactions that originate from the accounts payable, accounts receivable, cash management, deferred revenues, general ledger, inventory, project accounting, or payroll functional areas. (The functional area of each project transaction is indicated by the AP , AR , CA , DR , GL , IN , PM , or PR option, respectively in the Orig. Source column.) 
 
@@ -8124,7 +8400,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 200 
+ Processing Pro Forma Invoices | 207 
 
 ### Pro Forma Invoices: Generated Transactions 
 
@@ -8170,7 +8446,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 201 
+ Processing Pro Forma Invoices | 208 
 
  To do this, you need to set up the project and its billing to temporarily allocate the revenue to the liability account and clear this account as soon as the related portion of the revenue should be recognized. This topics explains how you can configure deferred revenue in projects. 
 
@@ -8208,7 +8484,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 202 
+ Processing Pro Forma Invoices | 209 
 
 ### Pro Forma Invoices: Related Reports and Forms 
 
@@ -8228,7 +8504,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 203 
+ Processing Pro Forma Invoices | 210 
 
  is copied to each pro forma invoice related to the project from the Bill-To and Bill-To Address sections of the Summary tab of the Projects form and can be modified at the invoice or project level. 
 
@@ -8252,7 +8528,7 @@ To configure this security, the system administrator performs the following gene
 
  To initiate billing for particular projects, you select the unlabeled check boxes in the rows of the projects to be processed in the table on this form, and click Process on the form toolbar. To instead initiate billing for all the listed projects, you click Process All on the form toolbar. 
 
- During processing, the system generates project invoices for the selected projects. Pro forma invoices will be created for only those projects that have the Create Pro Forma Invoice on Billing check box selected on the Summary tab of the Projects (PM301000) form; AR invoices will be created for projects for which this check box is cleared. The system creates project invoices with the date that is specified in the Invoice Date box in the Selection area of the form. 
+ During processing, the system generates project invoices for the selected projects. Pro forma invoices will be created for only those projects that have the Create Pro Forma Invoice on Billing check box selected on the Summary tab of the Projects form; AR invoices will be created for projects for which this check box is cleared. The system creates project invoices with the date that is specified in the Invoice Date box in the Selection area of the form. 
 
 #### Mass-Releasing Pro Forma Invoices 
 
@@ -8264,7 +8540,7 @@ To configure this security, the system administrator performs the following gene
 
 
 <!-- PAGE_BREAK -->
- Processing Pro Forma Invoices | 204 
+ Processing Pro Forma Invoices | 211 
 
 To recalculate budget values affected by change orders, on the _Recalculate Project Balances_ (PM5040000) form, you select the **Recalculate Dra Invoice Amount and Quantity** check box in the Selection area. You then select the unlabeled check boxes in the rows of the projects to be processed and click **Process** on the form toolbar to process the selected projects. Alternatively, you can click **Process All** to process all the projects shown in the table. 
 
@@ -8272,7 +8548,7 @@ For more information, see _Project Budget: Recalculation of the Project Balances
 
 
 <!-- PAGE_BREAK -->
- Correcting Project Invoices | 205 
+ Correcting Project Invoices | 212 
 
 ## Correcting Project Invoices 
 
@@ -8322,7 +8598,7 @@ For more information, see _Project Budget: Recalculation of the Project Balances
 
 
 <!-- PAGE_BREAK -->
- Correcting Project Invoices | 206 
+ Correcting Project Invoices | 213 
 
 - If the document is a closed pro forma invoice, you correct it as follows:     a. If the related AR invoice has the _On Hold_ or _Balanced_ status, you can delete the AR invoice and then edit        the settings of the pro forma invoice.     b. If the related AR invoice has been released, you can create a new revision of the pro forma invoice. To        do this, you click **Correct** on the form toolbar of the _Pro Forma Invoices_ (PM307000) form. For more        information, see _Correcting Pro Forma Invoices_.     c. In all other cases, to correct the pro forma invoice, you need to perform the following steps:        a. Void the applied payments.        b. Reverse the retainage documents.        c. Reverse the AR invoice that has been created based on this pro forma invoice by clicking **Reverse**           on the form toolbar of the _Invoices and Memos_ (AR301000) form. Then you will be able to edit the           details of the pro forma invoice. For more information about AR invoice reversal, see _Project Invoice_           _Correction: Reversing AR Documents_. 
 
@@ -8334,7 +8610,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Correcting Project Invoices | 207 
+ Correcting Project Invoices | 214 
 
 ### Project Invoice Correction: Reversing AR Documents 
 
@@ -8358,7 +8634,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - The line with non-billable reversing project transaction. This line has the amount opposite to the amount     of the original project transaction and the same expense account group. That is, this project transaction     line reverses the impact of the original project transaction. 
 
- The system reverses only the project transactions that have been billed with the invoice being reversed. If you have processed any additional allocations for the original cost transaction, the system does not reverse them automatically. You need to reverse such allocation transactions manually by opening them on the Project Transactions form and clicking Reverse Allocation on the form toolbar. 
+ The system reverses only the project transactions that have been billed with the invoice being reversed. If you have processed any additional allocations for the original cost transaction, the system does not reverse them automatically. You need to reverse such allocation transactions manually by opening them on the Project Transactions form and clicking Reverse on the form toolbar. 
 
 - The line with billable project transaction, which is the copy of the original project transaction with the     same quantity and amount. This project transaction is ready for billing. The date and the financial period in both lines are copied from the original project transaction if the financial period is not locked or closed. If the financial period of the original transaction is locked or closed, the financial period of the created transactions is copied from the credit memo. 
 
@@ -8366,7 +8642,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Correcting Project Invoices | 208 
+ Correcting Project Invoices | 215 
 
  This transaction reverses the impact of the AR invoice to the project budget. The date and the financial period of this project transaction are the date and period of reversal, that is the system copies these values from the credit memo. Notice that aer reversal of the AR invoice, the original project transaction remains billed. 
 
@@ -8374,7 +8650,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  In this activity, you will learn how to correct a pro forma invoice for which the corresponding accounts receivable document released. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -8386,13 +8662,13 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled on the     _Enable/Disable Features_ (CS100000) form: 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled on the _Enable/_     _Disable Features_ (CS100000) form: 
 
 - On the _Projects_ (PM301000) form, the _TOMYUM12_ project has been created, and the _INSTALL_ project task has     been created for the project. 
 
-- On _1/30/2025_ , the _000005_ pro forma invoice has been created for the project, and the _000089_ accounts     receivable invoice has been created and released for the pro forma invoice. 
+- On _1/30/2026_ , the _000005_ pro forma invoice has been created for the project, and the _000089_ accounts     receivable invoice has been created and released for the pro forma invoice. 
 
-- On _2/28/2025_ , the _000006_ pro forma invoice has been created for the project, and the _000090_ accounts     receivable invoice has been created and released for the pro forma invoice. 
+- On _2/28/2026_ , the _000006_ pro forma invoice has been created for the project, and the _000090_ accounts     receivable invoice has been created and released for the pro forma invoice. 
 
 #### Process Overview 
 
@@ -8404,11 +8680,11 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Correcting Project Invoices | 209 
+ Correcting Project Invoices | 216 
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded as Pam     Brawner by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Correcting the Pro Forma Invoice 
 
@@ -8438,7 +8714,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Correcting Project Invoices | 210 
+ Correcting Project Invoices | 217 
 
  Figure: The corrected pro forma invoice and related documents 
 
@@ -8474,9 +8750,9 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Correcting Project Invoices | 211 
+ Correcting Project Invoices | 218 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -8488,7 +8764,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to provide     support for the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to provide support     for the project management functionality. 
 
 - On the _Projects_ (PM301000) form, the _TOMYUM11_ project has been created and the _TRAINING_ project task has     been created for the project. On the **Summary** tab ( **Billing and Allocation Settings** section), the **Create Pro**     **Forma Invoice on Billing** check box has been selected for the project. 
 
@@ -8504,7 +8780,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 1. Launch the Acumatica ERP website and sign in as Pam Brawner using the _brawner_ username and _123_     password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step: Creating a Credit Memo for the Project 
 
@@ -8516,7 +8792,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Correcting Project Invoices | 212 
+ Correcting Project Invoices | 219 
 
 3. Save your changes to the project. 
 
@@ -8528,7 +8804,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 7. On the form toolbar of the _Invoices and Memos_ (AR301000) form, which opens, click **Remove Hold** to assign     the credit memo the _Balanced_ status, and then click **Release**. 
 
-8. On the _Projects_ form, open the _TOMYUM11_ project and press Esc to refresh the form. In the Summary area,     notice that the actual income of the project, which has been updated as a result of the billing, is $300.     On the **Invoices** tab, notice that the credit memo with the corresponding pro forma invoice has appeared in     the table, as shown in the following screenshot. 
+8. On the _Projects_ form, open the _TOMYUM11_ project and press Esc to refresh the form. In the Summary area,     notice that the actual income of the project, which has been updated as a result of the billing, is $300.     On the **Invoices** tab, notice that the credit memo with the corresponding pro forma invoice has appeared in     the table (see below). 
 
  Figure: The credit memo created for the project 
 
@@ -8540,13 +8816,13 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
 
+
+<!-- PAGE_BREAK -->
+ Correcting Project Invoices | 220 
+
 #### Reviewing Revisions of a Pro Forma Invoice 
 
  You can review all the previous revisions of the pro forma invoice selected on the Pro Forma Invoices (PM307000) form in the Previous Revisions table on the Financial tab. If there are several revisions in the table, the topmost row is the last revision of the pro forma invoice while revision 1 is the first revision of the invoice. 
-
-
-<!-- PAGE_BREAK -->
- Correcting Project Invoices | 213 
 
  For each revision, you can find in the table the reference number of the accounts receivable document created on release of the revision ( AR Ref. Nbr. ) and the reference number of the reversing AR document ( Reversing Ref. Nbr. ) created for that accounts receivable document. By clicking the reference numbers, you can opens these AR documents on the Invoices and Memos (AR301000) form. 
 
@@ -8556,7 +8832,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Paying AP Bills by Project | 214 
+ Paying AP Bills by Project | 221 
 
 ## Paying AP Bills by Project 
 
@@ -8594,7 +8870,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Paying AP Bills by Project | 215 
+ Paying AP Bills by Project | 222 
 
 #### Workflow of the Process of Paying Bills for a Project 
 
@@ -8608,7 +8884,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Paying AP Bills by Project | 216 
+ Paying AP Bills by Project | 223 
 
  tab of this form, bills or bill lines are listed for each included document, depending on the state of the Pay by Line check box of the Bills and Adjustments form: 
 
@@ -8624,7 +8900,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Paying AP Bills by Project | 217 
+ Paying AP Bills by Project | 224 
 
 #### Preparation of Separate Payments 
 
@@ -8636,7 +8912,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Paying AP Bills by Project | 218 
+ Paying AP Bills by Project | 225 
 
 ### Vendor Payments for a Project: Implementation Checklist 
 
@@ -8676,7 +8952,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Paying AP Bills by Project | 219 
+ Paying AP Bills by Project | 226 
 
 - To cause the system to automatically post AP payments once they are released, select the **Automatically**     **Post on Release** check box on the **General** tab of the _Accounts Payable Preferences_ (AP101000) form. 
 
@@ -8694,13 +8970,13 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  In this activity, you will generate a payment for multiple bills for a project and apply this payment to bills. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the HM's Bakery and Cafe requested 20 hours of employee training on operating juicers. SweetLife's project accountant has created a project to track the revenues and expenses for these services. Further suppose that the SweetLife project manager then decided to contract the Squeezo Inc. vendor to conduct the training. 
 
- On January 15, 2025, the SweetLife project accountant entered the first bill it received from the Squeezo Inc. for 12 hours of the employee training. Then on January 25, 2025, one more bill from Squeezo Inc. was received (and entered by the project accountant) for 8 hours of the provided training services. The vendor has requested that both bills be paid with one payment by the end of the month. Acting as SweetLife's project accountant, you need to pay the bills related to the project with one payment. 
+ On January 15, 2026, the SweetLife project accountant entered the first bill it received from the Squeezo Inc. for 12 hours of the employee training. Then on January 25, 2026, one more bill from Squeezo Inc. was received (and entered by the project accountant) for 8 hours of the provided training services. The vendor has requested that both bills be paid with one payment by the end of the month. Acting as SweetLife's project accountant, you need to pay the bills related to the project with one payment. 
 
 #### Configuration Overview 
 
@@ -8720,7 +8996,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Paying AP Bills by Project | 220 
+ Paying AP Bills by Project | 227 
 
 - On the _Vendors_ (AP303000) form, the _SQUEEZO (Squeezo Inc.)_ vendor has been configured, and the _CHECK_     payment method is specified as its default one. 
 
@@ -8736,7 +9012,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Selecting the Bills to be Paid 
 
@@ -8752,7 +9028,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - **Cash Account** : _10200EQ - Equipment Checking_ 
 
-- **Payment Date** : _1/30/2025_ 
+- **Payment Date** : _1/30/2026_ 
 
 - **Project** : _HMTRAINING_ 
 
@@ -8772,7 +9048,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Paying AP Bills by Project | 221 
+ Paying AP Bills by Project | 228 
 
  For the purposes of this process activity, you do not need to actually print the checks. In a production setting, you would click Print on the form toolbar to print the checks before closing the browser tab. 
 
@@ -8790,17 +9066,17 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  This activity will walk you through the generation of a payment for particular bill lines related to a project and the application of this payment to bills. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the ToadGreen company is building a hotel for the Equity Group Investors customer; the ToadGreen project manager has created a project to handle the tracking and billing of the materials and services related to the hotel. On January 15, 2025, the ToadGreen company purchased 500 packages of concrete mix and 100 units of plastic pipes from the Standard Hardware Company vendor for the hotel being built. On January 17, 2025, the company also hired this vendor as a subcontractor to perform on-site work, which is broken into three phases. 
+ Suppose that the ToadGreen company is building a hotel for the Equity Group Investors customer; the ToadGreen project manager has created a project to handle the tracking and billing of the materials and services related to the hotel. On January 15, 2026, the ToadGreen company purchased 500 packages of concrete mix and 100 units of plastic pipes from the Standard Hardware Company vendor for the hotel being built. On January 17, 2026, the company also hired this vendor as a subcontractor to perform on-site work, which is broken into three phases. 
 
- On January 30, 2025, the concrete mix was delivered, and the first phase of the on-site work was performed. The ToadGreen project accountant entered into the system two bills received from the Standard Hardware Company: one (with a date of 1/15/2025) for all of the purchased materials, and another (with a date of 1/17/2025) for all three phases of the on-site work. Acting as the ToadGreen project manager, you need to prepare a payment for the materials and services that have been provided—that is, you will pay only particular lines of the bills. 
+ On January 30, 2026, the concrete mix was delivered, and the first phase of the on-site work was performed. The ToadGreen project accountant entered into the system two bills received from the Standard Hardware Company: one (with a date of 1/15/2026) for all of the purchased materials, and another (with a date of 1/17/2026) for all three phases of the on-site work. Acting as the ToadGreen project manager, you need to prepare a payment for the materials and services that have been provided—that is, you will pay only particular lines of the bills. 
 
 
 <!-- PAGE_BREAK -->
- Paying AP Bills by Project | 222 
+ Paying AP Bills by Project | 229 
 
 #### Configuration Overview 
 
@@ -8814,7 +9090,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - On the _Projects_ (PM301000) form, the _HOTEL_ project has been created for the Equity Group Investors     customer, and multiple project tasks have been created for the project. 
 
-- On the _Non-Stock Items_ (IN202000) form, the _LABOR_ , _CONCRMX_ and _PROJMATERIAL_ non-stock items have     been configured. 
+- On the _Non-Stock Items_ (IN202000) form, the _LABOR_ , _CONCRMX_ and _PROJMATERIAL_ non-stock items have     been created. 
 
 - On the _Vendors_ (AP303000) form, the _HARDCO_ vendor has been created. For this vendor, the _CHECK_ payment     method is specified as the default one; also, the **Pay by Line** check box is selected on the **Payment** tab. 
 
@@ -8830,7 +9106,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a project accountant by using the _bsanchez_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Selecting the Bills to be Paid 
 
@@ -8838,7 +9114,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 1. Open the _Prepare Payments_ (AP503000) form. 
 
-2. In the Summary area of the form, specify the following selection criteria to filter the data shown in the table: 
+2. In the Selection area, specify the following settings to filter the data shown in the table: 
 
 - **Branch** : _TBGROUP_ (inserted by default) 
 
@@ -8846,7 +9122,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - **Cash Account** : _10200TG - ToadGreen Checking Account_ 
 
-- **Payment Date** : _1/30/2025_ 
+- **Payment Date** : _1/30/2026_ 
 
 - **Vendor** : _HARDCO_ 
 
@@ -8854,7 +9130,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Paying AP Bills by Project | 223 
+ Paying AP Bills by Project | 230 
 
 3. Select the unlabeled check box in the row with the _CONCRMX_ item of the first bill, and in the row with     the _LABOR_ item and a **Line Nbr.** of _1_ of the second bill (which is the first part of the works that have been     performed and needs to be paid for). Make sure the **Selection Total** in the Summary area is $50,000. Also,     make sure that the **Available Balance** is enough to pay this amount. 
 
@@ -8872,21 +9148,21 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 4. On the form toolbar, click **Process** to release the AP payment. 
 
-5. In the **Processing** dialog box, which is opened, click the **Processed** tab, and in the table, click the link in the     **Reference Nbr.** column in the only line to open the payment on the _Checks and Payments_ (AP302000) form. 
+5. In the **Processing** dialog box, which opens, click the **Processed** tab, and in the table, click the link in the     **Reference Nbr.** column in the only line to open the payment on the _Checks and Payments_ (AP302000) form. 
 
-6. On the **Application History** tab of the _Checks and Payments_ form, make sure both bill lines to which the     payment has been applied are listed in the table, as shown in the following screenshot. The payment     amount has been applied in full, so the payment is now assigned the _Closed_ status. 
+6. On the **Application History** tab of the _Checks and Payments_ form, make sure both bill lines to which the     payment has been applied are listed in the table, as shown below. The payment amount has been applied in     full, so the payment is now assigned the _Closed_ status. 
 
  Figure: Single payment applied to lines of two bills 
 
  You have prepared a payment for particular bill lines and applied this payment to these lines. 
 
+
+<!-- PAGE_BREAK -->
+ Paying AP Bills by Project | 231 
+
 ### Vendor Payments for a Project: Generated Transactions 
 
  When an AP payment is released, a batch of general ledger transactions is created; the generated transactions reduce the balances of the cash account used for the payment and the vendor's accounts payable account. 
-
-
-<!-- PAGE_BREAK -->
- Paying AP Bills by Project | 224 
 
  Account Source of Account 
 
@@ -8926,7 +9202,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory | 225 
+ Tracking Project Inventory | 232 
 
 ## Tracking Project Inventory 
 
@@ -8970,7 +9246,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory | 226 
+ Tracking Project Inventory | 233 
 
 - _Track by Location_ : To track the quantity and cost of the purchased materials at the warehouse location level.     For more information about using this mode, see _Project Inventory Tracking by Warehouse Location: General_     _Information_. In an existing project, you can change the inventory tracking mode only if no items have been received for the project yet. 
 
@@ -9004,7 +9280,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory | 227 
+ Tracking Project Inventory | 234 
 
  particular items, you assign the availability calculation rules you have created to particular item classes on the Item Classes (IN201000) form. By default, each item of this item class is assigned this rule. You can override the default availability calculation rule for each particular stock item on the Stock Items (IN202500). 
 
@@ -9014,23 +9290,33 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  When a user adds a line with an inventory item to a sales order, shipment, purchase receipt, or inventory transaction, the system calculates and shows the availability quantities for each line in the table footer on the Details tab of the following forms: 
 
-- _Sales Orders_ (SO301000) 
+- _Adjustments_ (IN303000) 
 
-- _Shipments_ (SO302000) 
+- _Appointments_ (FS300200) 
+
+- _Disassembly_ (AM301500) 
+
+- _Issues_ (IN302000) 
+
+- _Labor_ (AM301000) 
+
+- _Materials_ (AM303000) 
+
+- _Move_ (AM302000) 
 
 - _Purchase Receipts_ (PO302000) 
 
 - _Receipts_ (IN301000) 
 
-- _Issues_ (IN302000) 
-
-- _Adjustments_ (IN303000) 
-
-- _Transfers_ (IN304000) 
+- _Sales Orders_ (SO301000) 
 
 - _Service Orders_ (FS300100) 
 
-- _Appointments_ (FS300200) In the project-related lines of documents and transactions, the way the system shows item availability for each line depends on the setting of the selected project that is specified in the **Inventory Tracking** box on the **Summary** tab of the _Projects_ form. 
+- _Shipments_ (SO302000) 
+
+- _Transfers_ (IN304000) 
+
+- _Vendor Shipments_ (AM310000) In the project-related lines of documents and transactions, the way the system shows item availability for each line depends on the setting of the selected project that is specified in the **Inventory Tracking** box on the **Summary** tab of the _Projects_ form. 
 
  For each of the availability buckets, the system shows two values (separated by a slash) if the line has a warehouse location that is linked to a project that has the Track by Project Quantity or Track by Project Quantity and Cost inventory tracking mode. The quantities are calculated as follows: 
 
@@ -9042,13 +9328,13 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - The line is not linked to any project. That is, this line has the non-project code specified. Each quantity is     calculated based on the items received to this location with a non-project code. 
 
+
+<!-- PAGE_BREAK -->
+ Tracking Project Inventory | 235 
+
 ### Project Inventory Tracking: Implementation Checklist 
 
  The following sections provide details you can use to ensure that the system is configured properly for tracking inventory for projects, and to understand (and change, if needed) the settings that affect the processing workflow. 
-
-
-<!-- PAGE_BREAK -->
- Tracking Project Inventory | 228 
 
 #### Implementation Checklist 
 
@@ -9062,7 +9348,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - _Inventory_ 
 
-- _Project Accounting_ 
+- _Projects_ 
 
 - _Project-Specific Inventory_ 
 
@@ -9080,7 +9366,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory | 229 
+ Tracking Project Inventory | 236 
 
  Form Criteria to Check 
 
@@ -9116,7 +9402,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory | 230 
+ Tracking Project Inventory | 237 
 
 - To cause the system to track costs for the projects with the _Track by Project Quantity_ inventory tracking     mode by individual warehouse locations, select the **Cost Separately** check box for the needed warehouse     locations on the **Locations** tab of the _Warehouses_ (IN204000) form. 
 
@@ -9124,13 +9410,13 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  The following activity will walk you through the process of managing project inventory with tracking of quantities of the items being purchased or sold for a project. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the Thai Food Restaurant customer has ordered juicer installation from the SweetLife Fruits & Jams company for the newly opened restaurant: two juicers will be installed this month, and three more next month. As has been agreed upon with the customer, the customer will pay $2,900 for the installation of each juicer, which includes the cost of the juicer and the cost of installation services with a 20% markup. 
 
- On January 30, 2025, the SweetLife project accountant created a project to handle the tracking and billing of the juicer and the provided services. Then the project accountant ordered five juicers to be installed, costing $2,000 each, from the Squeezo Inc. vendor. The juicers have been delivered to SweetLife’s warehouse to be stored until the work is started. The project accountant needs to be sure that the juicers will be reserved for the project and will not be sold or used for any other project. Further suppose that on February 15, 2025, the first stage of work has been completed: two juicers have been delivered and installed at the customer’s place. 
+ On January 30, 2026, the SweetLife project accountant created a project to handle the tracking and billing of the juicer and the provided services. Then the project accountant ordered five juicers to be installed, costing $2,000 each, from the Squeezo Inc. vendor. The juicers have been delivered to SweetLife’s warehouse to be stored until the work is started. The project accountant needs to be sure that the juicers will be reserved for the project and will not be sold or used for any other project. Further suppose that on February 15, 2026, the first stage of work has been completed: two juicers have been delivered and installed at the customer’s place. 
 
  Acting as the project accountant, you will purchase the project-specific items. Then you will issue the items from inventory for the project and record expenses to the project. 
 
@@ -9140,7 +9426,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - On the _Enable/Disable Features_ (CS100000) form, the following features have been enabled: 
 
-- _Project Accounting_ , which provides the project accounting functionality 
+- _Projects_ , which provides the project management functionality 
 
 - _Project-Specific Inventory_ , which provides enhanced capabilities for tracking project inventory 
 
@@ -9160,7 +9446,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory | 231 
+ Tracking Project Inventory | 238 
 
 #### System Preparation 
 
@@ -9168,7 +9454,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 1. Launch the Acumatica ERP website, and sign in as a project manager. You should sign in by using the     _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to 1/30/2025. If a different date is displayed, click the Business Date     menu button, and select 1/30/2025 on the calendar. For simplicity, in this activity, you will create and     process all documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to 1/30/2026. If a different date is displayed, click the Business Date     menu button, and select 1/30/2026 on the calendar. For simplicity, in this activity, you will create and     process all documents in the system on this business date. 
 
 #### Step 1: Purchasing Project Inventory 
 
@@ -9186,7 +9472,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - **Description** : Purchase of juicers for the project 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
 3. On the **Details** tab, add a purchase order line, and specify the following settings in the added line: 
 
@@ -9226,7 +9512,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory | 232 
+ Tracking Project Inventory | 239 
 
 #### Step 2: Issuing a Stock Item for the Project 
 
@@ -9236,7 +9522,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 2. On the form toolbar, click **Add New Record** , and in the Summary area, type Two juicers sent to     project site in the **Description** box. 
 
-3. In the **Date** box, select 2/15/2025. 
+3. In the **Date** box, select 2/15/2026. 
 
 4. On the table toolbar of the **Details** tab, click **Add Row** , and in the row, specify the following settings: 
 
@@ -9276,17 +9562,17 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  The following activity will walk you through the process of tracking the costs and quantities of the items being used for a project. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory | 233 
+ Tracking Project Inventory | 240 
 
 #### Story 
 
- Suppose that the ToadGreen Building Group company is building a hotel for the Equity Group Investors customer. A ToadGreen project manager has created a project to track the progress of work, expenses, and revenues. The project work began in mid-February, 2025. To plan the purchases of items and be sure that there will be enough materials to proceed, the project manager needs to reserve stock items for this particular project. Also, because of regulatory requirements, the materials used for work must be issued at the exact cost at which they have been purchased. 
+ Suppose that the ToadGreen Building Group company is building a hotel for the Equity Group Investors customer. A ToadGreen project manager has created a project to track the progress of work, expenses, and revenues. The project work began in mid-February, 2026. To plan the purchases of items and be sure that there will be enough materials to proceed, the project manager needs to reserve stock items for this particular project. Also, because of regulatory requirements, the materials used for work must be issued at the exact cost at which they have been purchased. 
 
- On January 30, 2025, the project manager purchased 360 pallets of bricks and 480 concrete blocks and requested that the items be delivered to the company's warehouse. Later, a project architect revised the blueprints and found out that the initial estimation of materials was insufficient. As a result, the project manager decided to buy 120 pallets of bricks and 80 concrete blocks in addition to the previous purchase. To speed up the process, the construction project manager decided to purchase the materials from another vendor, who agreed to deliver the materials in two days but at a higher price. Then some of the purchased materials were shipped to the project site. 
+ On January 30, 2026, the project manager purchased 360 pallets of bricks and 480 concrete blocks and requested that the items be delivered to the company's warehouse. Later, a project architect revised the blueprints and found out that the initial estimation of materials was insufficient. As a result, the project manager decided to buy 120 pallets of bricks and 80 concrete blocks in addition to the previous purchase. To speed up the process, the construction project manager decided to purchase the materials from another vendor, who agreed to deliver the materials in two days but at a higher price. Then some of the purchased materials were shipped to the project site. 
 
  Acting as a construction project manager, you will process a purchase of items for the project. Then you will issue the quantity of the purchased items that were shipped to the project site, and review the cost of the project items. 
 
@@ -9296,11 +9582,13 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - On the _Enable/Disable Features_ (CS100000) form, the following features have been enabled: 
 
-- _Project Accounting_ and _Construction_ , which provides support for construction projects 
+- _Projects_ and _Construction_ , which provide support for construction projects 
 
 - _Inventory and Order Management_ , which provides the sales order and purchase order functionality 
 
 - _Inventory_ , which provides the stock item functionality 
+
+- _Project-Specific Inventory_ , which provides enhanced capabilities for tracking project inventory 
 
 - On the _Customers_ (AP303000) form, the _EQUGRP_ customer has been created. 
 
@@ -9320,11 +9608,11 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 1. Launch the Acumatica ERP website, and sign in as a construction project manager. You should sign in by     using the _ewatson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to 1/30/2025. If a different date is displayed, click the Business Date     menu button, and select 1/30/2025 on the calendar. For simplicity, in this activity, you will create and     process all documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to 1/30/2026. If a different date is displayed, click the Business Date     menu button, and select 1/30/2026 on the calendar. For simplicity, in this activity, you will create and     process all documents in the system on this business date. 
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory | 234 
+ Tracking Project Inventory | 241 
 
 #### Step 1: Purchasing Project Inventory 
 
@@ -9342,7 +9630,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - **Description** : Purchase of project materials (masonry) 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
 3. On the **Details** tab, add a purchase order line, and specify the following settings in the added line: 
 
@@ -9378,9 +9666,9 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 5. On the form toolbar, click **Remove Hold**. Then click **Enter PO Receipt**. The _Purchase Receipts_ (PO302000)     form opens with the purchase receipt. 
 
-6. On the form toolbar of the _Purchase Receipts_ (PO302000) form, click **Release**. 
+6. On the form toolbar of the _Purchase Receipts_ form, click **Release**. 
 
-7. Set the business date to 2/15/2025. 
+7. Set the business date to 2/15/2026. 
 
 8. On the _Purchase Orders_ form, create one more purchase order, and specify the following settings in the     Summary area: 
 
@@ -9390,7 +9678,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - **Project** : _HOTELR_ 
 
-- **Date** : 2/15/2025 
+- **Date** : 2/15/2026 
 
 9. On the **Details** tab, add a purchase order line, and specify the following settings in the added line: 
 
@@ -9408,7 +9696,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory | 235 
+ Tracking Project Inventory | 242 
 
 - **Cost Code** : 04-210 10.Add one more purchase order line, and specify the following settings in the added line: 
 
@@ -9424,15 +9712,15 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - **Project Task** : _04_ 
 
-- **Cost Code** : 04-220 11.On the form toolbar, click **Remove Hold**. Then click **Enter PO Receipt**. The _Purchase Receipts_ form opens with the purchase receipt. 12.On the form toolbar of the _Purchase Receipts_ (PO302000) form, click **Release**. 
+- **Cost Code** : 04-220 11.On the form toolbar, click **Remove Hold**. Then click **Enter PO Receipt**. The _Purchase Receipts_ form opens with the purchase receipt. 12.On the form toolbar of the _Purchase Receipts_ form, click **Release**. 
 
 #### Step 2: Issuing Stock Items for the Project 
 
  To directly issue stock items for the project (to record that some of the materials have been delivered to the project site) and capture the issued cost to the project, do the following: 
 
-1. Open the _Issues_ (IN302000) form. 
+1. On the _Issues_ (IN302000) form, add a new record. 
 
-2. On the form toolbar, click **Add New Record** , and in the Summary area, type Materials issued at     project site in the **Description** box. 
+2. In the Summary area, type Materials issued at project site in the **Description** box. 
 
 3. On the table toolbar of the **Details** tab, click **Add Row** , and in the row, specify the following settings: 
 
@@ -9482,17 +9770,19 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - **Cost Code** : _04-220_ 
 
+5. Save the inventory issue transaction. 
+
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory | 236 
+ Tracking Project Inventory | 243 
 
-5. Save the inventory issue transaction.     In the table footer, notice that the system shows the quantities of the items that are currently available for     the project. 
+ In the table footer, notice that the system shows the quantities of the items that are currently available for the project. 
 
 6. On the form toolbar, click **Release** to release the inventory issue transaction. 
 
 7. Open the _Project Transaction Details_ (PM401000) form. 
 
-8. In the Summary area, specify _HOTELR_ as the **Project** and _04_ as the **Project Task**. Find and review the lines     in the table, which are the project transactions that have been generated on release of the inventory issue.     The amount of the line with the _REDBRICK_ item is $12,400. The amount of the line with the _CONCRBK8_ item     is $36,428.57. The generated project transactions have debited the _MATERIAL_ account group. 
+8. In the Summary area, specify _HOTELR_ as the **Project** and _04_ as the **Project Task**. Review the lines in the     table, which are the project transactions that have been generated on release of the inventory issue. The     amount of the line with the _REDBRICK_ item is $12,400. The amount of the line with the _CONCRBK8_ item is     $36,428.57. The generated project transactions have debited the _MATERIAL_ account group. 
 
 9. On the _Projects_ (PM301000) form, open the _HOTELR_ project. 10.On the **Cost Budget** tab, make sure that new lines with the _04-210_ and _04-220_ cost codes have been added     to the cost budget. The actual values in these lines have been specified based on the amounts of the project     transaction lines. 
 
@@ -9538,7 +9828,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory | 237 
+ Tracking Project Inventory | 244 
 
  Account Source of Account Project Budget Key 
 
@@ -9598,7 +9888,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory | 238 
+ Tracking Project Inventory | 245 
 
  Project Budget Key Account Group Debit Account Amount 
 
@@ -9624,7 +9914,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory by Warehouse Location | 239 
+ Tracking Project Inventory by Warehouse Location | 246 
 
 ## Tracking Project Inventory by Warehouse Location 
 
@@ -9664,7 +9954,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory by Warehouse Location | 240 
+ Tracking Project Inventory by Warehouse Location | 247 
 
 - If a warehouse location is associated with a particular project and project task, the system cannot issue     the items from this location using the _X_ non-project code. To issue the items stored in the project-specific     warehouse location with the non-project code, you first need to transfer the items to a warehouse location     that is not linked to any project task. 
 
@@ -9696,7 +9986,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory by Warehouse Location | 241 
+ Tracking Project Inventory by Warehouse Location | 248 
 
  (IN301000) form, the system updates the committed values in the corresponding budget lines of the project on the Cost Budget tab of the Projects (PM301000) form. 
 
@@ -9712,7 +10002,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory by Warehouse Location | 242 
+ Tracking Project Inventory by Warehouse Location | 249 
 
 ### Project Inventory Tracking by Warehouse Location: Implementation Checklist 
 
@@ -9724,11 +10014,11 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory by Warehouse Location | 243 
+ Tracking Project Inventory by Warehouse Location | 250 
 
  Form Criteria to Check 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Account Groups (PM201000) form Make sure that all needed account groups have been configured. For more information about account groups, see Account Groups: General Information. 
 
@@ -9760,7 +10050,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory by Warehouse Location | 244 
+ Tracking Project Inventory by Warehouse Location | 251 
 
  Form Tasks to Perform 
 
@@ -9788,7 +10078,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory by Warehouse Location | 245 
+ Tracking Project Inventory by Warehouse Location | 252 
 
 ### Project Inventory Tracking by Warehouse Location: To Purchase Materials and 
 
@@ -9796,7 +10086,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  This activity will walk you through the process of purchasing materials and services to a project-specific warehouse location with a purchase order. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -9810,7 +10100,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - On the _Enable/Disable Features_ (CS100000) form, the following features have been enabled: 
 
-- _Project Accounting_ , which provides support for the project accounting functionality 
+- _Projects_ , which provides support for the project management functionality 
 
 - _Inventory and Order Management_ , which provides the purchase order functionality 
 
@@ -9832,7 +10122,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory by Warehouse Location | 246 
+ Tracking Project Inventory by Warehouse Location | 253 
 
 #### System Preparation 
 
@@ -9840,7 +10130,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Creating a Purchase Order for the Project 
 
@@ -9854,7 +10144,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - **Vendor** : _SQUEEZO_ 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
 - **Project** : _HMBAKERY2_ 
 
@@ -9884,7 +10174,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory by Warehouse Location | 247 
+ Tracking Project Inventory by Warehouse Location | 254 
 
  The system creates and releases an inventory receipt transaction based on the purchase receipt. On release of this transaction, the stock items are received to inventory. The purchase receipt is assigned the Released status. 
 
@@ -9898,7 +10188,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 3. On the form toolbar, click **Remove Hold** to assign the AP bill the _Balanced_ status, and then click **Release**. 
 
-4. On the _Projects_ (PM301000) form, open the _HMBAKERY2_ project.     On the **Cost Budget** tab, review the actual values of the cost budget. Notice that the **Actual Quantity** and     **Actual Amount** of the line with the _INSTALL_ item have been updated and are now _4_ and _320.00_ , respectively     (see the following screenshot). The actual values for the line with the stock item ( _JUICER10C_ ) are not     updated yet: the system will record the cost of stock items to the project budget when the items are used for     the project and issued from the project-specific warehouse location. 
+4. On the _Projects_ (PM301000) form, open the _HMBAKERY2_ project.     On the **Cost Budget** tab, review the actual values of the cost budget. Notice that the **Actual Quantity** and     **Actual Amount** of the line with the _INSTALL_ item have been updated and are now _4_ and _320.00_ , respectively     (see below). The actual values for the line with the stock item ( _JUICER10C_ ) are not updated yet: the system     will record the cost of stock items to the project budget when the items are used for the project and issued     from the project-specific warehouse location. 
 
  Figure: Actual values of the budget updated by the purchase 
 
@@ -9908,17 +10198,17 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  This activity will walk you through the process of billing a project by using a combined billing rule that depends on the progress stage being billed. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
-
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory by Warehouse Location | 248 
+ Tracking Project Inventory by Warehouse Location | 255 
+
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the Thai Food Restaurant customer has ordered a juicer from the SweetLife Fruits & Jams company, along with installation of the juicer and training of the company's employees on operating the juicer. The SweetLife project accountant has created a project to handle the tracking and billing of the juicer and the provided services. Both companies have agreed that the customer will be billed in two stages. At the end of the first stage, the customer will pay for 40 percent of the services, which have a fixed price, and for the juicer (which is installed during the first stage). At the end of the second stage (aer the project is completed), the customer will pay for the remainder of the project. 
 
- Then suppose that on 1/30/2025 , the juicer has been delivered and installed. Acting as the project accountant, you need to update the progress of the project, process the issue of the juicer, and bill the customer for the first stage of the project. 
+ Then suppose that on 1/30/2026 , the juicer has been delivered and installed. Acting as the project accountant, you need to update the progress of the project, process the issue of the juicer, and bill the customer for the first stage of the project. 
 
 #### Configuration Overview 
 
@@ -9926,7 +10216,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - On the _Enable/Disable Features_ (CS100000) form, the following features have been enabled: 
 
-- _Project Accounting_ , which provides support for the project accounting functionality 
+- _Projects_ , which provides support for the project management functionality 
 
 - _Inventory and Order Management_ feature, which provides the ability to maintain stock items and create     and process sales orders and purchase orders 
 
@@ -9950,11 +10240,11 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as Pam Brawner by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
-
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory by Warehouse Location | 249 
+ Tracking Project Inventory by Warehouse Location | 256 
+
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Issuing a Stock Item for the Project 
 
@@ -10004,11 +10294,11 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 1. While you are still viewing the _TOMYUM2_ project on the _Projects_ (PM301000) form, on the **Revenue Budget**     tab, specify 40 as the **Completed (%)** of each revenue budget line. Notice that the system calculates the     **Pending Invoice Amount** for each line ($112 for the _PHASE1_ project task, and $160 for the _PHASE2_ project     task). This pending amount will be billed by the progress billing step of the billing rule assigned to the     _PHASE1_ and _PHASE2_ project tasks. 
 
-2. Save your changes to the project, and on the form toolbar, click **Run Billing**. The system creates a pro forma     invoice and opens it on the _Pro Forma Invoices_ (PM307000) form. Review the invoice details and notice the     following: 
-
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory by Warehouse Location | 250 
+ Tracking Project Inventory by Warehouse Location | 257 
+
+2. Save your changes to the project, and on the form toolbar, click **Run Billing**. The system creates a pro forma     invoice and opens it on the _Pro Forma Invoices_ (PM307000) form. Review the invoice details and notice the     following: 
 
 - On the **Progress Billing** tab, the **Amount to Invoice** in each line is equal to the **Pending Invoice Amount**     of the corresponding revenue budget line of the _TOMYUM2_ project on the **Revenue Budget** tab of the     _Projects_ form. 
 
@@ -10020,7 +10310,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 5. On the form toolbar of the _Invoices and Memos_ form, click **Remove Hold** to assign the invoice the _Balanced_     status, and then click **Release** to release the accounts receivable invoice. 
 
-6. On the _Projects_ form, open the _TOMYUM2_ project, and on the **Balances** tab, review the amounts in the     budget lines that have been updated as the result of the billing (see the following screenshot). **Actual**     **Amount** for the _REVENUE_ group is $2,772, which is the sum of the price of the juicer ($2,500) and 40 percent     of the price of the services ($112 + $160); **Actual Amount** for the _MATERIAL_ group is $2,000, which is the cost     of the juicer. 
+6. On the _Projects_ form, open the _TOMYUM2_ project, and on the **Balances** tab, review the amounts in the     budget lines that have been updated as the result of the billing (see below). **Actual Amount** for the     _REVENUE_ group is $2,772, which is the sum of the price of the juicer ($2,500) and 40 percent of the price of     the services ($112 + $160); **Actual Amount** for the _MATERIAL_ group is $2,000, which is the cost of the juicer. 
 
  Figure: The project balances 
 
@@ -10030,11 +10320,11 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  The following sections describe the GL transactions and project transactions that are generated for sales and purchases of stock items and non-stock items requiring receipt for projects. 
 
- For the list of transactions that are generated for non-stock items not requiring receipt that are being purchased for projects, see Purchasing Services for Projects: Generated Transactions. 
-
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory by Warehouse Location | 251 
+ Tracking Project Inventory by Warehouse Location | 258 
+
+ For the list of transactions that are generated for non-stock items not requiring receipt that are being purchased for projects, see Purchasing Services for Projects: Generated Transactions. 
 
 #### GL Transactions Generated on Release of an Inventory Receipt 
 
@@ -10090,11 +10380,11 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  Amount 
 
- You can review the created project transaction on the Project Transaction Details (PM401000) form. In the Selection area of this form, you select the project in the Project box. 
-
 
 <!-- PAGE_BREAK -->
- Tracking Project Inventory by Warehouse Location | 252 
+ Tracking Project Inventory by Warehouse Location | 259 
+
+ You can review the created project transaction on the Project Transaction Details (PM401000) form. In the Selection area of this form, you select the project in the Project box. 
 
 #### GL Transactions Generated on Release of an Inventory Issue 
 
@@ -10138,7 +10428,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 253 
+ Managing the Project Budget | 260 
 
 ## Managing the Project Budget 
 
@@ -10151,8 +10441,6 @@ The following diagram illustrates the possible ways to correct a project invoice
 #### Learning Objectives 
 
  In this chapter, you will learn how to do the following: 
-
- In this lesson, you will learn how to do the following: 
 
 - Configure the revenue budget and the cost budget for a project 
 
@@ -10188,11 +10476,11 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - An account group, which determines the category of the revenue or expenses that are expected during the     project execution. 
 
+- A particular inventory item needed to complete the task. If you do not need to associate the budget line with     a particular item but the budget level is configured to include the item, you can select the empty item code     ( _N/A_ ) as the inventory item. 
+
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 254 
-
-- A particular inventory item needed to complete the task. If you do not need to associate the budget line with     a particular item but the budget level is configured to include the item, you can select the empty item code     ( _N/A_ ) as the inventory item. 
+ Managing the Project Budget | 261 
 
 - A cost code if the _Cost Codes_ features is enabled on the _Enable/Disable Features_ (CS100000) form. The level of details of revenue budget lines and cost budget lines—that is, whether you need to specify the inventory item and cost code or not, depends on the option selected in the **Revenue Budget Level** and **Cost Budget Level** boxes on the **Summary** tab ( **Project Properties** section) of the _Projects_ form. In each box, you can select one of the following options: _Task_ , _Task and Item_ , _Task and Cost Code_ , and _Task, Item, and Cost Code_. 
 
@@ -10222,13 +10510,15 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - For a project budget line on the **Revenue Budget** or **Cost Budget** tabs     A fully performed budget line has the performance of 100%. For a revenue budget line, this percent shows     the progress of completion of your financial plan. For a cost budget line, the percentage shows how much     expenses you have incurred against the planned amount. 
 
-
-<!-- PAGE_BREAK -->
- Managing the Project Budget | 255 
-
 - For a project task on the **Revenue Budget** or **Cost Budget** tabs if the **Group by Task** check box is selected     on the table toolbar 
 
-- For an account group on the **Balances** tab Similarly, you can compare the actual quantity of project budget lines with the revised budgeted quantity to control how the project execution fits the planned quantity. The actual quantity is updated only if the UOM is specified in the budget line and if the system can convert the UOM of the corresponding project transaction to the UOM of the budget line by using the list of unit conversions defined on the _Units of Measure_ (CS203500) form. 
+- For an account group on the **Balances** tab 
+
+
+<!-- PAGE_BREAK -->
+ Managing the Project Budget | 262 
+
+ Similarly, you can compare the actual quantity of project budget lines with the revised budgeted quantity to control how the project execution fits the planned quantity. The actual quantity is updated only if the UOM is specified in the budget line and if the system can convert the UOM of the corresponding project transaction to the UOM of the budget line by using the list of unit conversions defined on the Units of Measure (CS203500) form. 
 
 ### Project Budget: Implementation Checklist 
 
@@ -10242,7 +10532,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  Enable/Disable Features (CS100000) form 
 
- Make sure that the Project Accounting feature is enabled. 
+ Make sure that the Projects feature is enabled. 
 
  Projects Preferences (PM101000) form 
 
@@ -10258,7 +10548,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 256 
+ Managing the Project Budget | 263 
 
  Form Tasks to Perform Notes 
 
@@ -10288,13 +10578,13 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 257 
+ Managing the Project Budget | 264 
 
 ### Project Budget: To Configure and Update the Budget 
 
  In this activity, you will learn how to configure the project budget, update actual values of the project budget, and review project performance. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -10306,7 +10596,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to provide     support for the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to provide support     for the project management functionality. 
 
 - On the _Projects_ (PM301000) form, the _TOMYUM5_ project has been created and the _INSTALL_ project task     has been created for the project and configured as the default task. Also, _Task_ is selected as the **Revenue**     **Budget Level** of the project and _Task and Item_ is selected as the **Cost Budget Level** of the project. 
 
@@ -10330,9 +10620,9 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 258 
+ Managing the Project Budget | 265 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 4. On the _Projects Preferences_ (PM101000) form, specify the following settings on the **General** tab ( **General**     **Settings** section): 
 
@@ -10378,7 +10668,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 259 
+ Managing the Project Budget | 266 
 
 5. In the table selection area, select the **Group by Task** check box. In the table, the only line to which the     system grouped budget lines is shown. The **Original Budgeted Amount** of the line with the _INSTALL_ project     task is _2,400.00_. 
 
@@ -10388,29 +10678,29 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 1. On the _Project Transactions_ (PM304000) form, add a new record. 
 
-2. In the Summary area, make sure _PM_ is selected as the **Module**. 
+2. In the Summary area, make sure _PM_ is selected as the **Source**. 
 
 3. In the **Description** box, type The juicer with the installation for the TOMYUM5     project. 
 
 4. On the table toolbar of the **Details** tab, click **Load Records from File**. 
 
-5. In the **File Upload** dialog box, which opens, click **Choose File** and select the     TOMYUM5_Project_Transactions.xlsx file. Click **Upload**. 
+5. In the **Import Data** dialog box, which opens, click **Upload File** and select the     TOMYUM5_Project_Transactions.xlsx file. 
 
-6. In the **Common Settings** dialog box, which opens, leave the default settings, and click **OK**. 
+6. On the Specify Common Settings page, which opens, leave the default settings, and click **Next**. 
 
-7. In the **Columns** dialog box, leave the current column mapping, and click **OK**.     The system uploads four lines with the project transactions. In these lines, notice that the quantity of the     provided services is less than you have budgeted—that is, an hour of the site review instead of two hours     and three hours of the installation instead of four hours. Also notice that an extra line for two hours of     training (which have not initially been budgeted) have been added. 
+7. On the Map Properties to Columns page, which opens, leave the current column mapping, and click **Finish**.     The system uploads four lines with the project transactions. In these lines, notice that the quantity of the     provided services is less than you have budgeted—that is, an hour of the site review instead of two hours     and three hours of the installation instead of four hours. Also notice that an extra line for two hours of     training (which have not initially been budgeted) have been added. 
 
 8. In the Summary area, make sure that the **Total Amount** of the uploaded transactions is _2,360.00_. 
 
-9. On the form toolbar, click **Save** , and then click **Release**. 10.On the _Projects_ (PM301000) form, open the _TOMYUM5_ project, and in the Summary area, notice that the     **Actual Expenses** box shows _2,360.00_ , which is the total amount of the released transactions.     On the **Cost Budget** tab, review the cost budget of the project. Notice that the system has created a new     budget line with the _TRAINING_ item because the _Detailed_ level of the cost budget update is specified in the     project accounting preferences. The system has also updated the **Actual Quantity** and **Actual Amount**     of the budget lines based on the released transactions (see the following screenshot). You can compare     revised budgeted values with actual ones and track the performance by budget line in the **Performance (%)**     column. 
+9. On the form toolbar, click **Save** , and then click **Release**. 10.On the _Projects_ (PM301000) form, open the _TOMYUM5_ project, and in the Summary area, notice that the     **Actual Expenses** box shows _2,360.00_ , which is the total amount of the released transactions.     On the **Cost Budget** tab, review the cost budget of the project. Notice that the system has created a new     budget line with the _TRAINING_ item because the _Detailed_ level of the cost budget update is specified in the     project accounting preferences. The system has also updated the **Actual Quantity** and **Actual Amount** of     the budget lines based on the released transactions (see below). You can compare revised budgeted values     with actual ones and track the performance by budget line in the **Performance (%)** column. 
 
  Figure: The cost budget of the project updated by released transactions 
 
+ 11.While remaining on the Cost Budget tab, in the table selection area, select the Group by Task check box and review totals by project task. The revised budgeted amount for the project task is 2,400.00 , while the actual amount is 2,360.00. 
+
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 260 
-
- 11.While remaining on the Cost Budget tab, in the table selection area, select the Group by Task check box and review totals by project task. The revised budgeted amount for the project task is 2,400.00 , while the actual amount is 2,360.00. 
+ Managing the Project Budget | 267 
 
 #### Step 3: Billing the Project 
 
@@ -10422,7 +10712,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 3. Return to the _Projects_ form with the _TOMYUM5_ project opened, and press Esc to refresh the form. In the     Summary area, notice that the **Actual Income** box shows _2,950.00_ , which is the total amount of the released     invoice. The system also calculates the project margin as the difference of actual income and expenses     ($590).     On the **Revenue Budget** tab, review the revenue budget of the project. Notice that the system has updated     the **Actual Amount** of the revenue budget line based on the released invoice. 
 
-4. On the **Balances** tab, review the project budget by account group, as shown in the following screenshot. You     can track the performance by account group as well as by income and expense totals in the **Performance**     **(%)** column. 
+4. On the **Balances** tab, review the project budget by account group (see below). You can track the     performance by account group as well as by income and expense totals in the **Performance (%)** column. 
 
  Figure: Project budget balances divided by account group 
 
@@ -10432,11 +10722,11 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  In the following sections, you can find details about the reports and inquiry forms you may want to review to gather information about the project budget. 
 
+ If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
+
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 261 
-
- If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
+ Managing the Project Budget | 268 
 
 #### Reviewing the Actual Project Amounts 
 
@@ -10468,13 +10758,15 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  You can review the list of all transactions corresponding to a project on the Project Transaction Details (PM401000) form. In the Selection area of this form, you select the project to review all the corresponding project transaction. You can also use the selection criteria to filter the project’s transactions by cost code and inventory ID. 
 
-
-<!-- PAGE_BREAK -->
- Managing the Project Budget | 262 
-
 #### Viewing a Budget Summary by Account Groups 
 
- If you want to view a budget summary broken down by account groups, you can use the Budget Summary by Account Group (PMPV0010) form, which is a pivot table. On this form, you can explore the particular amounts of project budgets; the pivot table uses data provided by the Budget Details (PMGI0010) generic inquiry form. The amounts are grouped by types of account groups and then by account groups. 
+ If you want to view a budget summary broken down by account groups, you can use the Budget Summary by Account Group (PMPV0010) form, which is a pivot table. On this form, you can explore the particular amounts of 
+
+
+<!-- PAGE_BREAK -->
+ Managing the Project Budget | 269 
+
+ project budgets; the pivot table uses data provided by the Budget Details (PMGI0010) generic inquiry form. The amounts are grouped by types of account groups and then by account groups. 
 
  You can edit the pivot table to reorganize and summarize the data of the underlying generic inquiry, so that you can view the data from different perspectives. You can also click any link in the table to explore the details of the budgets on the Drilldown Filter Applied filter tab of the Budget Details generic inquiry form. 
 
@@ -10486,7 +10778,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  In this activity, you will review project balances by using Acumatica ERP reports and forms. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -10498,19 +10790,19 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Projects_ (PM301000) form, the _HMBAKERY6_ project has been created and the _PHASE1_ , _PHASE2_ ,     _PHASE3_ , and _PHASE4_ project tasks have been created for the project. 
 
 - On the _Purchase Orders_ (PO301000) form, the _000020_ and _000021_ purchase orders (which are related to the     project) have been created and billed. 
 
-- On the _Project Transactions_ (PM304000) form, the _PM00000009_ , _PM00000010_ , and _PM00000011_ batches of     project transactions related to the project have been created and released. 
+- On the _Project Transactions_ (PM304000) form, the _PM00000009_ , _PM00000010_ , and _PM00000011_ batches of     project transactions related to the project have been created and released.     Project transactions related to the _PHASE1_ , _PHASE2_ , and _PHASE4_ tasks of the project have been billed—that     is, a pro forma invoice and the corresponding accounts receivable invoice have been created and released     on the _Pro Forma Invoices_ (PM307000) form and the _Invoices and Memos_ (AR301000) form, respectively. Also, 
 
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 263 
+ Managing the Project Budget | 270 
 
- Project transactions related to the PHASE1 , PHASE2 , and PHASE4 tasks of the project have been billed—that is, a pro forma invoice and the corresponding accounts receivable invoice have been created and released on the Pro Forma Invoices (PM307000) form and the Invoices and Memos (AR301000) form, respectively. Also, on the Pro Forma Invoices form, a pro forma invoice for project transactions related to the PHASE3 task has been created. 
+ on the Pro Forma Invoices form, a pro forma invoice for project transactions related to the PHASE3 task has been created. 
 
 #### Process Overview 
 
@@ -10522,7 +10814,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the _Projects Preferences_ (PM101000) form, select the **Internal Cost Commitment Tracking** check box,     and save your changes to the project accounting preferences. This exposes the committed values of the     budget, which you will need during the process of the budget review. 
 
@@ -10532,11 +10824,11 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 1. On the _Projects_ (PM301000) form, open the _HMBAKERY6_ project.     In the Summary area, notice that the actual income is $5,700 and the actual expenses are $8,000. 
 
-2. On the **Revenue Budget** tab, pay attention to the values in the **Actual Amount** and **Dra Invoice Amount**     columns, as shown in the following screenshot.     The lines with the _PHASE1_ , _PHASE2_ , and _PHASE4_ tasks have nonzero actual amounts ($1,850, $2,950, and     $900, respectively), which means the work performed within these tasks have been billed. You can compare     the actual amount and the revised budgeted amount of the lines to estimate the completion of the revenue     budget.     The line with the _PHASE3_ task has a nonzero dra invoice amount ($4,300), which means a pro forma invoice     has been already prepared for this line but the corresponding AR invoice has not been created or has not     been released yet. 
+2. On the **Revenue Budget** tab, pay attention to the values in the **Actual Amount** and **Dra Invoice Amount**     columns (see below).     The lines with the _PHASE1_ , _PHASE2_ , and _PHASE4_ tasks have nonzero actual amounts ($1,850, $2,950, and     $900, respectively), which means the work performed within these tasks have been billed. You can compare     the actual amount and the revised budgeted amount of the lines to estimate the completion of the revenue     budget.     The line with the _PHASE3_ task has a nonzero dra invoice amount ($4,300), which means a pro forma invoice     has been already prepared for this line but the corresponding AR invoice has not been created or has not     been released yet. 
 
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 264 
+ Managing the Project Budget | 271 
 
  Figure: Revenue budget lines with actual and revised values 
 
@@ -10546,7 +10838,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 4. On the **Commitments** tab, review the purchase orders related to the project. Notice that both purchase     orders have been processed and assigned the _Closed_ status. 
 
-5. On the **Cost Budget** tab, pay attention to the values in the **Revised Budgeted Amount** , **Revised Committed**     **Amount** and **Actual Amount** columns, as shown in the following screenshot. Notice the following: 
+5. On the **Cost Budget** tab, pay attention to the values in the **Revised Budgeted Amount** , **Revised Committed**     **Amount** and **Actual Amount** columns (see below). Notice the following: 
 
 - The line with the _TRAINING_ inventory item is the only line with the actual amount less than the revised     budgeted amount, which means that the planned training has not been provided fully. 
 
@@ -10554,13 +10846,13 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - The lines with the _INSTALL_ inventory item have nonzero committed values, which means these lines have     related purchase orders. The **Revised Committed Amount** shows the amount of the purchase ($240 in     Phase 1, $320 in Phase 2 and $400 in Phase 3). The **Committed Invoiced Amount** shows the amount on     the purchase that has been already billed. 
 
+
+<!-- PAGE_BREAK -->
+ Managing the Project Budget | 272 
+
  Figure: Cost budget lines with actual and revised values 
 
 6. Click the line with the _PHASE4_ project task and the _TRAINING_ inventory item, and on the table toolbar, click     **View Transactions** to review the project transactions that correspond to the cost budget line on the _Project_     _Transaction Details_ (PM401000) form, which opens. Make sure that three project transactions correspond to     the cost budget line. 
-
-
-<!-- PAGE_BREAK -->
- Managing the Project Budget | 265 
 
 7. Close the browser tab with the form, and return to the project on the _Projects_ form. 
 
@@ -10568,7 +10860,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 9. On the _Commitments_ (PM306000) form, which opens, make sure that two commitments correspond to the     cost budget line. 10.Close the browser tab with the form, and return to the project on the _Projects_ form. 11.In the selection area of the **Cost Budget** tab, select the **Group by Task** check box. The system groups the     cost budget lines by task. You can review the total budgeted values by task. Notice that the _PHASE4_ has the     performance of 75%, which means not all the budgeted expenses have been incurred within the task. 12.On the **Balances** tab, review the project budget broken down by account group. Notice that the **Actual**     **Amount** in the line with the _REVENUE_ group is $5,700, while the original budgeted amount is $10,300, which     means that not all the budgeted revenue has been billed. 
 
- You have finished revising information for the project. 
+ You have finished reviewing the information for the project. 
 
 ### Project Budget: Mass Processing of Documents 
 
@@ -10578,7 +10870,13 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  In some cases, you may need to validate the project budgets to bring them in line with the underlying transactions. This might be useful, for instance, if project data has been modified through external tools or import scenarios. 
 
- To recalculate project budgets, you use the Recalculate Project Balances (PM504000) form. On this form, you select the unlabeled check boxes in the rows of the projects to be processed and click Process on the form toolbar to process the selected projects; alternatively, you can click Process All to process all the projects shown in the table. For more information, see Project Budget: Recalculation of the Project Balances. 
+ To recalculate project budgets, you use the Recalculate Project Balances (PM504000) form. On this form, you select the unlabeled check boxes in the rows of the projects to be processed and click Process on the form toolbar to 
+
+
+<!-- PAGE_BREAK -->
+ Managing the Project Budget | 273 
+
+ process the selected projects; alternatively, you can click Process All to process all the projects shown in the table. For more information, see Project Budget: Recalculation of the Project Balances. 
 
 ### Project Budget: Unit Rate in Budget Lines 
 
@@ -10590,10 +10888,6 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  If the Multicurrency Projects feature is enabled on the Enable/Disable Features (CS100000) form, the system searches for an applicable sales price in the project currency by using the rate that is effective on the start date of the project. The project currency is specified in the Project Currency box on the Summary tab of the Projects form. For more information, see Multicurrency Projects: Unit Rates in the Project Budget. 
 
-
-<!-- PAGE_BREAK -->
- Managing the Project Budget | 266 
-
 #### New Cost Budget Lines 
 
  When you select an inventory item in a newly created cost budget line—that is, a line with the account group of the expense type on the Cost Budget tab of the Projects (PM301000) form—the system automatically fills in the unit rate of the line with the applicable item cost. The system searches for the applicable item cost depending on the type of the item selected in the line: 
@@ -10602,13 +10896,15 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 - For a non-stock item with the _Labor_ type selected in the **Type** box on the **General** tab ( **Item Defaults**     section) of the _Non-Stock Items_ (IN202000) form, the system searches for the applicable labor cost rate.     That is, it searches for a rate of the _Labor Item_ type on the _Labor Rates_ (PM209900) form that is associated     with the same inventory item and has an effective date that is aer the document date or the start date of     project. 
 
-- For other types of non-stock items (and for non-stock items with the _Labor_ type if no effective labor cost     rate was found), the system specifies the **Current Cost** of the item from the **Price/Cost** tab of the _Non-Stock_     _Items_ form. If no applicable price has been found, the system inserts _0_ as the unit rate. 
+- For other types of non-stock items (and for non-stock items with the _Labor_ type if no effective labor cost     rate was found), the system specifies the **Current Cost** of the item from the **Price/Cost** tab of the _Non-Stock_     _Items_ form. 
+
+- If no applicable price has been found, the system inserts _0_ as the unit rate. If no applicable price has been found, the system inserts _0_ as the unit rate. 
 
  The following diagram illustrates the logic the system uses to select the cost for an inventory item. 
 
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 267 
+ Managing the Project Budget | 274 
 
 #### Budget Lines Based on a Project Quote 
 
@@ -10624,7 +10920,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 268 
+ Managing the Project Budget | 275 
 
 - In a cost budget line created based on the change order, the unit rate is copied from the corresponding     change order line. 
 
@@ -10670,7 +10966,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 269 
+ Managing the Project Budget | 276 
 
 - You have noticed that the inclusive taxes accumulated for revenue budget lines do not match the inclusive     taxes in the corresponding accounts receivable documents. 
 
@@ -10706,7 +11002,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 270 
+ Managing the Project Budget | 277 
 
  progress worksheet lines are found for the project during the recalculation process, the system updates the cost budget line that has the same inventory item as in the cost transaction. If the cost budget has no line that has this inventory item, a new line with the inventory item is added. 
 
@@ -10730,7 +11026,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 271 
+ Managing the Project Budget | 278 
 
  The system validates the project balances and recalculates the following values on the Revenue Budget and Cost Budget tabs of the Projects (PM301000) form: 
 
@@ -10784,13 +11080,29 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 272 
+ Managing the Project Budget | 279 
+
+#### Recalculating Projects’ Budget History 
+
+ To recalculate projects’ budget history, you select the Recalculate Project Budget History check box in the Selection area of the Recalculate Project Balances (PM504000) form. You then select the unlabeled check boxes in the rows of the projects to be processed and click Process on the form toolbar to process the selected projects. Alternatively, you can click Process All to process all the projects shown in the table. 
+
+ The system calculates data from previously processed project-related documents and includes it in the datesensitive calculations that it performs on the following forms: 
+
+- _Project Cash Flow_ (PM651010) 
+
+- _Project Committed Cost Detailed_ (PM658300) 
+
+- _Project Committed Cost Summary_ (PM658200) 
+
+- _Project Profitability_ (PM658100) 
+
+- _Project Variance_ (PM651020) For details, see _Working with Construction Reports_. 
 
 ### Project Budget: To Restructure the Budget 
 
  This activity will walk you through the process of reestablishing the budget structure of a project. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -10804,11 +11116,15 @@ The following diagram illustrates the possible ways to correct a project invoice
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Projects_ (PM301000) form, the _LAKECAFE_ project has been created and the _PHASE1_ and _PHASE2_     project tasks have been created for the project. The _Task and Item_ revenue budget level has been specified     for the project and three revenue budget lines have been added. 
 
 - On the _Project Transactions_ (PM304000) form, the _PM00000024_ batch of project transactions related to the     project has been created and released. 
+
+
+<!-- PAGE_BREAK -->
+ Managing the Project Budget | 280 
 
 #### Process Overview 
 
@@ -10822,13 +11138,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 2. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu 
-
-
-<!-- PAGE_BREAK -->
- Managing the Project Budget | 273 
-
- button and select 1/30/2025 on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date. 
+3. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Restructuring the Project Budget 
 
@@ -10840,13 +11150,17 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 3. To create a backup of the original revenue budget of the project, do the following:     a. On the table toolbar of the **Revenue Budget** tab, click **Export to Excel**.        The system exports the revenue budget to an Excel file.     b. On your computer, locate the created file, and rename it to LAKECAFE_Revenue_Budget_1.xlsx. 
 
-4. To attach to the project the file with the exported revenue budget, do the following:     a. On the form title bar, click **Files**.     b. In the **Files** dialog box, click **Browse** , and select the LAKECAFE_Revenue_Budget_1.xlsx file that        you have just downloaded.     c. Click **Upload** to upload the selected file.        The system uploads the selected file to the project and shows the file in the table of the dialog box.     d. In the line with the uploaded LAKECAFE_Revenue_Budget_1.xlsx file, click the _Edit_ link.     e. On the **Versions** tab of the _File Maintenance_ (SM202510) form, which opens, enter Revision 1 of        the revenue budget in the **Comment** column for the uploaded file.     f. Save your changes to the file, and close the browser tab with the _File Maintenance_ form to return to the        _Projects_ form.     g. Close the **Files** dialog box. 
+4. To attach to the project the file with the exported revenue budget, do the following:     a. On the form title bar, click **Files**.     b. In the **Files** dialog box, click **Upload Files** , and select the LAKECAFE_Revenue_Budget_1.xlsx file        that you have just downloaded.        The system uploads the selected file to the project and shows the file in the table of the dialog box.     c. In the line with the uploaded LAKECAFE_Revenue_Budget_1.xlsx file, click the _Edit_ link.     d. On the **Versions** tab of the _File Maintenance_ (SM202510) form, which opens, enter Revision 1 of        the revenue budget in the **Comment** column for the uploaded file.     e. Save your changes to the file, and close the browser tab with the _File Maintenance_ form to return to the        _Projects_ form.     f. Close the **Files** dialog box. 
 
 5. On the **Revenue Budget** tab, delete each of the three budget lines by clicking the line and then clicking     **Delete Row** on the table toolbar. 
 
 6. On the **Summary** tab ( **Project Properties** section), select _Task_ as the **Revenue Budget Level**. 
 
 7. On the table toolbar of the **Revenue Budget** tab, click **Load Records from File** , and upload the revenue     budget from the LAKECAFE_Budget_1.xlsx file, which you have downloaded with the course. While     you are uploading the lines, leave the default column mapping.     The uploaded revenue budget should have two lines with the budgeted amounts of $2,900 and $400. 
+
+
+<!-- PAGE_BREAK -->
+ Managing the Project Budget | 281 
 
 8. Save your changes to the project. 
 
@@ -10862,10 +11176,6 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 3. Close the form and return to the _Projects_ form with the _LAKECAFE_ project selected. 
 
-
-<!-- PAGE_BREAK -->
- Managing the Project Budget | 274 
-
 4. Press Esc to refresh the form. 
 
  You have billed the project. In the next step, you will restructure the revenue budget of the project again. 
@@ -10876,7 +11186,7 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 1. To create a backup of the current revision of the revenue budget of the project, do the following:     a. On the table toolbar of the **Revenue Budget** tab, click **Export to Excel**.        The system exports the revenue budget to an Excel file.     b. On your computer, locate the created file and rename it to LAKECAFE_Revenue_Budget_2.xlsx. 
 
-2. To upload the current revision of the revenue budget of the project to the file with the original revenue     budget, do the following:     a. On the form title bar, click **Files**.     b. In the line with the uploaded LAKECAFE_Revenue_Budget_1.xlsx file, click the _Edit_ link.     c. On the form toolbar of the _File Maintenance_ (SM202510) form, which opens, click **Upload New Version**.     d. In the **File Upload** dialog box, which opens, click **Choose File** , and select the        LAKECAFE_Revenue_Budget_2.xlsx file you have downloaded.     e. Click **Upload** to upload the selected file.        The system uploads the selected file as a new file version and closes the dialog box.     f. On the **Versions** tab of the _File Maintenance_ form, enter Revision 2 of the revenue budget in        the **Comment** column for the uploaded file with the **Version ID** of _2_.     g. Save your changes to the file, and close the browser tab with the _File Maintenance_ form to return to the        project on the _Projects_ form.     h. Close the **Files** dialog box, and press Esc to refresh the form. 
+2. To upload the current revision of the revenue budget of the project to the file with the original revenue     budget, do the following:     a. On the form title bar, click **Files**.     b. In the line with the uploaded LAKECAFE_Revenue_Budget_1.xlsx file, click the _Edit_ link.     c. On the form toolbar of the _File Maintenance_ (SM202510) form, which opens, click **Upload New Version**.     d. In the **File Upload** dialog box, which opens, select **Upload File** click the area right of the **Choose File** ,        and select the LAKECAFE_Revenue_Budget_2.xlsx file you have downloaded.     e. Click **Upload** to upload the selected file.        The system uploads the selected file as a new file version and closes the dialog box.     f. On the **Versions** tab of the _File Maintenance_ form, enter Revision 2 of the revenue budget in        the **Comment** column for the uploaded file with the **Version ID** of _2_.     g. Save your changes to the file, and close the browser tab with the _File Maintenance_ form to return to the        project on the _Projects_ form.     h. Close the **Files** dialog box, and press Esc to refresh the form. 
 
 3. On the **Revenue Budget** tab, make sure the revenue budget lines have nonzero amounts in the **Actual**     **Amount** column that the system updated during the project billing. 
 
@@ -10884,15 +11194,17 @@ The following diagram illustrates the possible ways to correct a project invoice
 
 5. On the **Summary** tab ( **Project Properties** section), select _Task and Item_ as the **Revenue Budget Level**. 
 
-6. On the table toolbar of the **Revenue Budget** tab, click **Load Records from File** , and upload the revenue     budget from the LAKECAFE_Budget_2.xlsx file, which you have downloaded with the course. While     you are uploading the lines, leave the default column mapping.     The uploaded revenue budget should have three lines with the budgeted amounts of _400_ , _2,500_ , and _400_.     Notice the revenue budget lines now have _0_ in the **Actual Amount** and **Actual Quantity** columns. Now     you need to validate the project balances to recalculate the revenue budget in accordance with the related     invoices. 
-
-7. Save your changes to the project. 
-
-8. On the More menu, under **Budget Operations** , click **Recalculate Project Balance**.     The system validates the balances of the _LAKECAFE_ project and recalculates the amounts and quantities     affected by invoices. On the **Revenue Budget** tab, review the revenue budget. Notice that the system has     updated the actual amounts and quantities of the budget lines, as shown in the following screenshot. 
+6. On the table toolbar of the **Revenue Budget** tab, click **Load Records from File** , and upload the revenue     budget from the LAKECAFE_Budget_2.xlsx file, which you have downloaded with the course. While     you are uploading the lines, leave the default column mapping. 
 
 
 <!-- PAGE_BREAK -->
- Managing the Project Budget | 275 
+ Managing the Project Budget | 282 
+
+ The uploaded revenue budget should have three lines with the budgeted amounts of 400 , 2,500 , and 400. Notice the revenue budget lines now have 0 in the Actual Amount and Actual Quantity columns. Now you need to validate the project balances to recalculate the revenue budget in accordance with the related invoices. 
+
+7. Save your changes to the project. 
+
+8. On the More menu, under **Budget Operations** , click **Recalculate Project Balance**.     The system validates the balances of the _LAKECAFE_ project and recalculates the amounts and quantities     affected by invoices. On the **Revenue Budget** tab, review the revenue budget. Notice that the system has     updated the actual amounts and quantities of the budget lines, as shown below. 
 
  Figure: Project budget aer restructuring and validation 
 
@@ -10900,7 +11212,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 
 <!-- PAGE_BREAK -->
- Controlling the Project Budget | 276 
+ Controlling the Project Budget | 283 
 
 ## Controlling the Project Budget 
 
@@ -10944,7 +11256,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 
 <!-- PAGE_BREAK -->
- Controlling the Project Budget | 277 
+ Controlling the Project Budget | 284 
 
  To set up this validation, you select Show a Warning in the Budget Control box on the General tab ( General Settings section) of the Projects Preferences (PM101000) form. For more information, see Project Budget Control: Overrun Notifications During Document Entry. 
 
@@ -10968,7 +11280,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 - A subcontract with the _On Hold_ or _Pending Approval_ status on the _Subcontracts_ (PO301000) form. 
 
- Subcontracts are available in the system if the Construction feature is enabled on the Enable/ Disable Features form. For more information about the processing of subcontracts, see Subcontracts: General Information. 
+ Subcontracts are available in the system if the Construction feature is enabled on the Enable/ Disable Features (CS100000) form. For more information about the processing of subcontracts, see Subcontracts: General Information. 
 
  The warning message in a document line shows you how much the line amount exceeds the budget. The system compares the document line with the corresponding cost budget line of the project and shows you the following amounts in the warning: 
 
@@ -10984,7 +11296,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 
 <!-- PAGE_BREAK -->
- Controlling the Project Budget | 278 
+ Controlling the Project Budget | 285 
 
 - _Remaining_ : The amount that exceeds the budget. The remaining amount is calculated as the difference     between the _Available_ and _Document_ amounts. For example, suppose that you have budgeted a cost of $400 for the project (the budgeted amount). You have already spent $150 (the consumed amount). When you create an AP bill for the project in the amount of $300 (the document amount) and specify the project budget key in the document line, the system will display the following warning: 
 
@@ -10998,7 +11310,7 @@ You have finished restructuring of the project budget and have validated the bud
 
  This activity will walk you through the process of receiving notifications that indicate whether a newly entered document fits the existing project budget. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -11012,23 +11324,21 @@ You have finished restructuring of the project budget and have validated the bud
 
 - On the _Enable/Disable Features_ (CS100000) form, the following features have been enabled: 
 
-- _Project Accounting_ , which provides the project accounting functionality 
+- _Projects_ , which provides the project management functionality 
 
 - _Inventory and Order Management_ , which provides the ability to maintain stock items and to create and     process purchasing documents that include stock items 
 
 - On the _Change Order Classes_ (PM203000) form, the _DEFAULT_ change order class has been created. 
 
-- On the _Projects Preferences_ (PM101000) form, the _DEFAULT_ change order class has been selected in the     **Default Change Order Class** box on the **General** tab ( **General Settings** section). 
-
 - On the _Projects_ (PM301000) form, the _WESTBBQ2_ project has been created, the _PHASE1_ and _PHASE2_ project     tasks have been created for the project, and three cost budget lines have been added. The change order     workflow has been enabled for the project. 
 
 - On the _Non-Stock Items_ (IN202000) form, the _INSTALL_ and _TRAINING_ non-stock item have been defined. 
 
+- On the _Stock Items_ (IN202500) form, the _JUICER15_ stock item has been defined. 
+
 
 <!-- PAGE_BREAK -->
- Controlling the Project Budget | 279 
-
-- On the _Stock Items_ (IN202500) form, the _JUICER15_ stock item has been defined. 
+ Controlling the Project Budget | 286 
 
 - On the _Vendors_ (AP303000) form, the _SQUEEZO_ vendor has been created. 
 
@@ -11044,7 +11354,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 2. Sign in to the system as Pam Brawner, the project accountant, by using the _brawner_ username and the _123_     password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 4. On the _Projects Preferences_ (PM101000) form, go to the **General** tab ( **General Settings** section) and set     **Budget Control** to _Show a Warning_.     With this setting, the system shows warnings if documents of the following types exceed the project budget:     commitments within change orders, purchase orders, accounts payable bills, and subcontracts. 
 
@@ -11078,15 +11388,15 @@ You have finished restructuring of the project budget and have validated the bud
 
 - **Unit Cost** : 2,200.00 
 
+- **Vendor** : _SQUEEZO_ 
+
 
 <!-- PAGE_BREAK -->
- Controlling the Project Budget | 280 
-
-- **Vendor** : _SQUEEZO_ 
+ Controlling the Project Budget | 287 
 
 - **Commitment Type** : _Normal Purchase Order_ 
 
-5. Save your changes to the change order.     Notice that a notification has appeared in the **Amount** column (see the following screenshot) indicating the     following: 
+5. Save your changes to the change order.     Notice that a notification has appeared in the **Amount** column (see below) indicating the following: 
 
 - The budget for the juicer ( _Budgeted_ ) is _2,000_. 
 
@@ -11106,7 +11416,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 - **Type** : _Bill_ 
 
-- **Date** : _1/30/2025_ (inserted by default) 
+- **Date** : _1/30/2026_ (inserted by default) 
 
 - **Vendor** : _SQUEEZO_ 
 
@@ -11130,7 +11440,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 
 <!-- PAGE_BREAK -->
- Controlling the Project Budget | 281 
+ Controlling the Project Budget | 288 
 
 - The amount by which the bill line exceeds the available budget ( _Remaining_ ) is _80_. А warning has also appeared in the Summary area of the form. 
 
@@ -11144,7 +11454,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 - **Type** : _Normal_ 
 
-- **Date** : _1/30/2025_ (inserted by default) 
+- **Date** : _1/30/2026_ (inserted by default) 
 
 - **Vendor** : _SQUEEZO_ 
 
@@ -11176,7 +11486,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 2. In the **Project** box, select _WESTBBQ2_. 
 
-3. On the form toolbar, click **Calculate** to review all project-related documents that exceed the budget, as the     following screenshot shows. 
+3. On the form toolbar, click **Calculate** to review all project-related documents that exceed the budget (see     below). 
 
  Figure: Budget overruns of the project 
 
@@ -11184,7 +11494,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 
 <!-- PAGE_BREAK -->
- Controlling the Project Budget | 282 
+ Controlling the Project Budget | 289 
 
 ### Project Budget Control: Budget Locking 
 
@@ -11204,7 +11514,7 @@ You have finished restructuring of the project budget and have validated the bud
 
  In this activity, you will learn how to prevent the original budget values of the project from being edited. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -11216,7 +11526,7 @@ You have finished restructuring of the project budget and have validated the bud
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to provide     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to provide the     project accounting functionality. 
 
 - On the _Projects_ (PM301000) form, the _HMBAKERY16_ project has been created, and the _PHASE1_ and _PHASE2_     project tasks have been created for the project. 
 
@@ -11226,7 +11536,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 
 <!-- PAGE_BREAK -->
- Controlling the Project Budget | 283 
+ Controlling the Project Budget | 290 
 
 #### Process Overview 
 
@@ -11260,7 +11570,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 
 <!-- PAGE_BREAK -->
- Purchasing Services for Projects | 284 
+ Purchasing Services for Projects | 291 
 
 ## Purchasing Services for Projects 
 
@@ -11298,7 +11608,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 
 <!-- PAGE_BREAK -->
- Purchasing Services for Projects | 285 
+ Purchasing Services for Projects | 292 
 
 ### Purchasing Services for Projects: Implementation Checklist 
 
@@ -11310,7 +11620,7 @@ You have finished restructuring of the project budget and have validated the bud
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -11318,7 +11628,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 
 <!-- PAGE_BREAK -->
- Purchasing Services for Projects | 286 
+ Purchasing Services for Projects | 293 
 
  Form Tasks to Perform 
 
@@ -11348,13 +11658,13 @@ You have finished restructuring of the project budget and have validated the bud
 
 
 <!-- PAGE_BREAK -->
- Purchasing Services for Projects | 287 
+ Purchasing Services for Projects | 294 
 
 ### Purchasing Services for Projects: Process Activity 
 
  This activity will walk you through the process of purchasing services for a project from a subcontractor with accounts payable bills. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -11364,7 +11674,7 @@ You have finished restructuring of the project budget and have validated the bud
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Projects_ (PM301000) form, the _HMBAKERY14_ project has been created, and the _INSTALL_ project task     has been created for the project. This task is the default project task. 
 
@@ -11384,11 +11694,11 @@ You have finished restructuring of the project budget and have validated the bud
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 
 <!-- PAGE_BREAK -->
- Purchasing Services for Projects | 288 
+ Purchasing Services for Projects | 295 
 
 #### Step: Creating a Bill for the Project 
 
@@ -11400,7 +11710,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 - **Vendor** : _SQUEEZO_ 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
 - **Description** : Services for HM's Bakery & Cafe 
 
@@ -11422,7 +11732,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 6. In the Selection area of the form, select _HMBAKERY14_ as the **Project** , and make sure the **Account Group** and     **Project Task** boxes are cleared. Review the project transaction that has updated the actual values in the     budget line. The debit account group in the transaction ( _SUBCON_ ) is the group that is mapped to the _54200_     expense account of the _INSTALL_ non-stock item specified in the line. 
 
-7. On the _Projects_ (PM301000) form, open the _HMBAKERY14_ project, and review the cost budget on the **Cost**     **Budget** tab. Notice that the **Actual Quantity** and **Actual Amount** of the corresponding budget line have     been updated (to _6_ and _480.00_ , respectively), as shown in the following screenshot. 
+7. On the _Projects_ (PM301000) form, open the _HMBAKERY14_ project, and review the cost budget on the **Cost**     **Budget** tab. Notice that the **Actual Quantity** and **Actual Amount** of the corresponding budget line have     been updated (to _6_ and _480.00_ , respectively), as shown below. 
 
  Figure: Cost budget updated aer bill processing 
 
@@ -11430,7 +11740,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 
 <!-- PAGE_BREAK -->
- Purchasing Services for Projects | 289 
+ Purchasing Services for Projects | 296 
 
 ### Purchasing Services for Projects: Generated Transactions 
 
@@ -11466,7 +11776,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site | 290 
+ Purchasing Materials to Project Site | 297 
 
 ## Purchasing Materials to Project Site 
 
@@ -11508,7 +11818,7 @@ You have finished restructuring of the project budget and have validated the bud
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site | 291 
+ Purchasing Materials to Project Site | 298 
 
  In this purchase order, because you have selected the Project Drop-Ship type, the system inserts Project Site in the Shipping Destination Type box on the Shipping tab. The system also copies the shipping contact and address from the selected project to the purchase order to indicate that all purchased items should be delivered to the project site. 
 
@@ -11542,11 +11852,11 @@ You have finished restructuring of the project budget and have validated the bud
 
 
 <!-- PAGE_BREAK -->
-Purchasing Materials to Project Site | **292** 
+Purchasing Materials to Project Site | **299** 
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site | 293 
+ Purchasing Materials to Project Site | 300 
 
 ### Purchases to the Project Site: Return of Project Drop Shipments 
 
@@ -11582,7 +11892,7 @@ Purchasing Materials to Project Site | **292**
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site | 294 
+ Purchasing Materials to Project Site | 301 
 
 #### Implementation Checklist 
 
@@ -11590,7 +11900,7 @@ Purchasing Materials to Project Site | **292**
 
  Form Criteria to Check 
 
- Enable/Disable Features (CS100000) form Make sure that the Inventory and Order Management , Inventory and Project Accounting features are enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Inventory and Order Management , Inventory and Projects features are enabled. 
 
  Multiple forms Make sure that all necessary settings related to order management have been specified, as described in Configuration of Order Management: Implementation Activity. 
 
@@ -11612,7 +11922,7 @@ Purchasing Materials to Project Site | **292**
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site | 295 
+ Purchasing Materials to Project Site | 302 
 
  Form Criteria to Check 
 
@@ -11646,7 +11956,7 @@ Purchasing Materials to Project Site | **292**
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site | 296 
+ Purchasing Materials to Project Site | 303 
 
 - Landed costs cannot be applied to a project drop-ship order. 
 
@@ -11654,7 +11964,7 @@ Purchasing Materials to Project Site | **292**
 
  This activity will walk you through the process of purchasing materials for the project site. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -11670,7 +11980,7 @@ Purchasing Materials to Project Site | **292**
 
 - On the _Enable/Disable Features_ (CS100000) form, the following features have been enabled: 
 
-- _Project Accounting_ , which provides the project accounting functionality 
+- _Projects_ , which provides the project accounting functionality 
 
 - _Inventory and Order Management_ , which provides the sales order and purchase order functionality 
 
@@ -11696,9 +12006,9 @@ Purchasing Materials to Project Site | **292**
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site | 297 
+ Purchasing Materials to Project Site | 304 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to 1/30/2025. If a different date is displayed, click the Business Date     menu button, and select 1/30/2025 on the calendar. For simplicity, in this activity, you will create and     process all documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to 1/30/2026. If a different date is displayed, click the Business Date     menu button, and select 1/30/2026 on the calendar. For simplicity, in this activity, you will create and     process all documents in the system on this business date. 
 
 3. On the **General** tab ( **General Settings** section) of the _Projects Preferences_ (PM101000) form, make sure the     **Internal Cost Commitment Tracking** check box is selected. 
 
@@ -11750,7 +12060,7 @@ Purchasing Materials to Project Site | **292**
 
  Create and process a drop-ship order for the project as follows: 
 
-1. Set the business date to 2/15/2025. 
+1. Set the business date to 2/15/2026. 
 
 2. While still reviewing the _HMBAKERY2T_ project on the _Projects_ (PM301000) form, on the table toolbar of the     **Commitments** tab, click **Create Drop-Ship**. The system opens the _Purchase Orders_ (PO301000) form, with     the _Project Drop-Ship_ selected in the **Type** box and _HMBAKERY2T_ project specified in the **Project** box in the     Summary area. 
 
@@ -11760,9 +12070,9 @@ Purchasing Materials to Project Site | **292**
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site | 298 
+ Purchasing Materials to Project Site | 305 
 
-- **Date** : 2/15/2025 (populated automatically) 
+- **Date** : 2/15/2026 (populated automatically) 
 
 - **Description** : Installation of juicers at the restaurant 
 
@@ -11820,7 +12130,7 @@ Purchasing Materials to Project Site | **292**
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site | 299 
+ Purchasing Materials to Project Site | 306 
 
  Figure: Actual values of the budget updated by the purchase 
 
@@ -11856,7 +12166,7 @@ Purchasing Materials to Project Site | **292**
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site | 300 
+ Purchasing Materials to Project Site | 307 
 
  Project Budget Key Account Group Debit Account Amount 
 
@@ -11872,7 +12182,7 @@ You can review the created project transaction on the _Project Transaction Detai
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site with Receipt | 301 
+ Purchasing Materials to Project Site with Receipt | 308 
 
 ## Purchasing Materials to Project Site with Receipt 
 
@@ -11914,7 +12224,7 @@ You can review the created project transaction on the _Project Transaction Detai
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site with Receipt | 302 
+ Purchasing Materials to Project Site with Receipt | 309 
 
  from the selected project to the purchase order to indicate that all purchased items should be delivered to the project site. 
 
@@ -11944,7 +12254,7 @@ You can review the created project transaction on the _Project Transaction Detai
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site with Receipt | 303 
+ Purchasing Materials to Project Site with Receipt | 310 
 
 #### Workflow of the Purchase to the Project Site with a Receipt 
 
@@ -11952,11 +12262,11 @@ You can review the created project transaction on the _Project Transaction Detai
 
 
 <!-- PAGE_BREAK -->
-Purchasing Materials to Project Site with Receipt | **304** 
+Purchasing Materials to Project Site with Receipt | **311** 
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site with Receipt | 305 
+ Purchasing Materials to Project Site with Receipt | 312 
 
 ### Purchases to the Project Site with a Receipt: Implementation Checklist 
 
@@ -11968,7 +12278,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
  Form Criteria to Check 
 
- Enable/Disable Features (CS100000) form Make sure that the Inventory and Order Management , Inventory , and Project Accounting features are enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Inventory and Order Management , Inventory , and Projects features are enabled. 
 
  Multiple forms Make sure that all necessary settings related to order management have been specified, as described in Configuration of Order Management: Implementation Activity. 
 
@@ -11990,7 +12300,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site with Receipt | 306 
+ Purchasing Materials to Project Site with Receipt | 313 
 
  Form Criteria to Check 
 
@@ -12028,7 +12338,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site with Receipt | 307 
+ Purchasing Materials to Project Site with Receipt | 314 
 
 - The purchase price variance is always recorded in the bill transaction, regardless of the option that is     specified in the **Allocation Mode** box on the _Purchase Orders Preferences_ (PO101000) form. 
 
@@ -12036,13 +12346,13 @@ Purchasing Materials to Project Site with Receipt | **304**
 
  This activity will walk you through the process of purchasing materials for the project site with a receipt being recorded. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the ToadGreen Building Group company is building an Italian restaurant for the Italian Company, its customer. The construction project manager has analyzed the requirements and decided to create a project to track expenses and revenues for the performed work. 
 
- Further suppose that work on the project has started on February 15, 2025. The ToadGreen company purchases 400 pallets of 8-inch concrete blocks from the Concrete Supply Co. vendor. The construction project manager asks the vendor to deliver the purchased materials directly to the project site this week. On February 18, 2025, 250 pallets have been delivered to the project site. The vendor will deliver the rest of the purchased blocks at the beginning of March 2025. 
+ Further suppose that work on the project has started on February 15, 2026. The ToadGreen company purchases 400 pallets of 8-inch concrete blocks from the Concrete Supply Co. vendor. The construction project manager asks the vendor to deliver the purchased materials directly to the project site this week. On February 18, 2026, 250 pallets have been delivered to the project site. The vendor will deliver the rest of the purchased blocks at the beginning of March 2026. 
 
  Acting as ToadGreen's construction project manager, you will configure a project to handle the tracking and billing of the provided materials. Then you will process a purchase of materials with drop-shipping them directly to the project site. 
 
@@ -12052,7 +12362,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 - On the _Enable/Disable Features_ (CS100000) form, the following features have been enabled: 
 
-- _Project Accounting_ and _Construction_ , which provides support for construction projects 
+- _Projects_ and _Construction_ , which provides support for construction projects 
 
 - _Inventory and Order Management_ , which provides the sales order and purchase order functionality 
 
@@ -12076,11 +12386,11 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site with Receipt | 308 
+ Purchasing Materials to Project Site with Receipt | 315 
 
 1. Launch the Acumatica ERP website, and sign in as a construction project manager. You should sign in by     using the _ewatson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to 1/30/2025. If a different date is displayed, click the Business Date     menu button, and select 1/30/2025 on the calendar. For simplicity, in this activity, you will create and     process all documents in the system on this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to 1/30/2026. If a different date is displayed, click the Business Date     menu button, and select 1/30/2026 on the calendar. For simplicity, in this activity, you will create and     process all documents in the system on this business date. 
 
 3. On the **General** tab ( **General Settings** section) of the _Projects Preferences_ (PM101000) form, select the     **Internal Cost Commitment Tracking** check box to expose commitments and committed values in the     project budget, and save your changes to the project accounting preferences. 
 
@@ -12134,13 +12444,13 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site with Receipt | 309 
+ Purchasing Materials to Project Site with Receipt | 316 
 
 #### Step 2: Creating a Project Drop-Ship Order 
 
  Create and process a drop-ship order for the project as follows: 
 
-1. Set the business date to 2/15/2025. 
+1. Set the business date to 2/15/2026. 
 
 2. While still reviewing the _ITALIAN3T_ project on the _Projects_ (PM301000) form, on the table toolbar of the     **Commitments** tab, click **Create Drop-Ship**. The system opens the _Purchase Orders_ (PO301000) form, with     the _Project Drop-Ship_ selected in the **Type** box and _ITALIAN3T_ project specified in the **Project** box in the     Summary area. 
 
@@ -12148,7 +12458,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 - **Vendor** : _CONCRESUP_ 
 
-- **Date** : 2/15/2025 (populated automatically) 
+- **Date** : 2/15/2026 (populated automatically) 
 
 - **Description** : Purchase of concrete blocks with delivery to project site 
 
@@ -12184,11 +12494,11 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 2. On the form toolbar, click **Enter PO Receipt**. The system creates a purchase receipt and opens it on the     _Purchase Receipts_ (PO302000) form. Save the purchase receipt. 
 
-3. In the **Date** box, specify 2/18/2025. 
+3. In the **Date** box, specify 2/18/2026. 
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site with Receipt | 310 
+ Purchasing Materials to Project Site with Receipt | 317 
 
 4. In the only line on the **Details** tab, specify 250 as **Receipt Qty.**. 
 
@@ -12230,7 +12540,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Purchasing Materials to Project Site with Receipt | 311 
+ Purchasing Materials to Project Site with Receipt | 318 
 
 #### Project Transaction Generated on Inventory Receipt 
 
@@ -12276,7 +12586,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to the Project Budget | 312 
+ Tracking Changes to the Project Budget | 319 
 
 ## Tracking Changes to the Project Budget 
 
@@ -12322,7 +12632,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to the Project Budget | 313 
+ Tracking Changes to the Project Budget | 320 
 
  Once you have created change order classes, you specify the change order class to be used by default in newly created change orders in the Default Change Order Class box on the General tab of the Projects Preferences (PM101000) form. 
 
@@ -12334,9 +12644,13 @@ Purchasing Materials to Project Site with Receipt | **304**
 
  Once you have selected this check box for a project, you create a change order for the project on the Projects form by clicking Create Change Order on the More menu. The system creates a change order with the On Hold status and the project selected and opens it on the Change Orders (PM308000) form. 
 
- In a change order with the On Hold status, on the Revenue Budget and Cost Budget tabs of the Change Orders form, you can increase and decrease values in existing project budget lines as well as create new budget lines. When you edit a change order line, you can see the following values: the original budgeted amount in the Original Budgeted Amount column; the released and dra change order (CO) amounts in the Previously Approved CO Amount and Other Dra CO Amount columns, respectively; and the updated budgeted amount in the Revised Budgeted Amount column. 
+ In a change order with the On Hold status, on the Revenue Budget and Cost Budget tabs of the Change Orders form, you can increase and decrease values in existing project budget lines as well as create new budget lines. When you edit a change order line, you can see the following values: 
 
- When a change order is saved with the On Hold status, the Quantity and Amount values of a revenue budget line or cost budget line of the change order increase the Potential CO Quantity and Potential CO Amount of the corresponding revenue budget line or cost budget line of the project on the Projects form. 
+- The original budgeted amount in the **Original Budgeted Amount** column 
+
+- The released and dra change order (CO) amounts in the **Previously Approved CO Amount** and **Other**     **Dra CO Amount** columns, respectively 
+
+- The updated budgeted amount in the **Revised Budgeted Amount** column When a change order is saved with the _On Hold_ status, the **Quantity** and **Amount** values of a revenue budget line or cost budget line of the change order increase the **Potential CO Quantity** and **Potential CO Amount** of the corresponding revenue budget line or cost budget line of the project on the _Projects_ form. 
 
  A change order can be printed or emailed to the customer. To print the change order, on the More menu of the Change Orders form, you click Print. To email the change order, on the More menu of the same form, you click Email. 
 
@@ -12350,7 +12664,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to the Project Budget | 314 
+ Tracking Changes to the Project Budget | 321 
 
 #### Update of the Project Budget when a Change Order Is Released 
 
@@ -12368,7 +12682,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to the Project Budget | 315 
+ Tracking Changes to the Project Budget | 322 
 
 - **Pending Invoice Amount** = **Revised Budgeted Amount** * **Completed (%)** / 100 – **Actual Amount** – **Dra**     **Invoice Amount** 
 
@@ -12398,7 +12712,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
  Enable/Disable Features (CS100000) form 
 
- Make sure that the Project Accounting and Change Orders features are enabled. 
+ Make sure that the Projects and Change Orders features are enabled. 
 
  Projects Preferences (PM101000) form 
 
@@ -12410,7 +12724,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to the Project Budget | 316 
+ Tracking Changes to the Project Budget | 323 
 
  Form Tasks to Perform Notes 
 
@@ -12444,9 +12758,9 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to the Project Budget | 317 
+ Tracking Changes to the Project Budget | 324 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -12460,7 +12774,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 - On the _Enable/Disable Features_ (CS100000) form, the following features have been enabled: 
 
-- _Project Accounting_ , which provides support for the project accounting functionality 
+- _Projects_ , which provides support for the project management functionality 
 
 - _Change Orders_ , which gives you the ability to manage changes to the project’s budgeted and committed     values 
 
@@ -12480,11 +12794,11 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as Pam Brawner by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to the Project Budget | 318 
+ Tracking Changes to the Project Budget | 325 
 
 #### Step 1: Turning on the Change Order Workflow for the Project 
 
@@ -12526,9 +12840,9 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to the Project Budget | 319 
+ Tracking Changes to the Project Budget | 326 
 
-9. On the More menu, click **Print** to print the change order.     The system navigates to the _Change Order_ (PM643000) report, which is a ready-to-print version of the     change order. The printed form lists the revenue budget lines of the change order, which the customer     might need to review and agree to. 10.Click Back in the browser tab to return to the change order on the _Change Orders_ form. 11.On the form toolbar, click **Remove Hold** to assign the change order the _Open_ status. Then click **Release** to     release the change order. 12.On the _Projects_ form, open the _TOMYUM6_ project. 13.On the **Change Orders** tab, make sure the change order you have created is shown. The change order has     the _Closed_ status. 14.On the **Cost Budget** tab, review the cost budget lines that have been updated by the change order you have     processed (see the screenshot below).     The system has calculated the **Revised Budgeted Quantity** as the sum of the **Original Budgeted Quantity**     and the **Budgeted CO Quantity** , and it has calculated the **Revised Budgeted Amount** as the sum of the     **Original Budgeted Amount** and the **Budgeted CO Amount** (see the following screenshot). The **Budgeted**     **CO Quantity** and **Budgeted CO Amount** are the quantity and amount of the change order. 
+9. On the More menu, click **Print** to print the change order.     The system navigates to the _Change Order_ (PM643000) report, which is a ready-to-print version of the     change order. The printed form lists the revenue budget lines of the change order, which the customer     might need to review and agree to. 10.Click Back in the browser tab to return to the change order on the _Change Orders_ form. 11.On the form toolbar, click **Remove Hold** to assign the change order the _Open_ status. Then click **Release** to     release the change order. 12.On the _Projects_ form, open the _TOMYUM6_ project. 13.On the **Change Orders** tab, make sure the change order you have created is shown. The change order has     the _Closed_ status. 14.On the **Cost Budget** tab, review the cost budget lines that have been updated by the change order you have     processed, as shown below.     The system has calculated the **Revised Budgeted Quantity** as the sum of the **Original Budgeted Quantity**     and the **Budgeted CO Quantity** , and it has calculated the **Revised Budgeted Amount** as the sum of the     **Original Budgeted Amount** and the **Budgeted CO Amount** (see below). The **Budgeted CO Quantity** and     **Budgeted CO Amount** are the quantity and amount of the change order. 
 
  Figure: The cost budget updated with the change order 
 
@@ -12550,7 +12864,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to the Project Budget | 320 
+ Tracking Changes to the Project Budget | 327 
 
  Subcontracts are available in the system if the Construction feature is enabled on the Enable/ Disable Features (CS100000) form. 
 
@@ -12564,7 +12878,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
  If you want to manage changes to a project's committed values, you can prevent the creation of purchase orders for the project on the Purchase Orders (PO301000) form and create new commitments by using change orders. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -12578,11 +12892,11 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 - On the _Enable/Disable Features_ (CS100000) form, the following features have been enabled: 
 
-- _Project Accounting_ , which provides support for the project accounting functionality 
+- _Projects_ , which provides support for the project management functionality 
 
 - _Change Orders_ , which gives you the ability to manage changes to the project’s budgeted and committed     values 
 
-- _Inventory and Order Management_ feature, which provides the functionality of purchase orders 
+- _Inventory and Order Management_ , which provides the functionality of purchase orders 
 
 - On the _Projects_ (PM301000) form, the _HMBAKERY11_ project has been created and the _PHASE1_ (for     installation) and _PHASE2_ (for training) project tasks have been created for the project. _PHASE1_ is the default     task of the project. The cost budget of the project has not been configured. 
 
@@ -12592,7 +12906,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to the Project Budget | 321 
+ Tracking Changes to the Project Budget | 328 
 
 #### Process Overview 
 
@@ -12604,7 +12918,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. Open the _Projects Preferences_ (PM101000) form, and on the **General** tab select the **Internal Cost**     **Commitment Tracking** check box to expose commitments and committed values in the project budget,     and save your changes to the project accounting preferences. 
 
@@ -12646,7 +12960,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to the Project Budget | 322 
+ Tracking Changes to the Project Budget | 329 
 
 - **Description** : Purchase for HM's Bakery & Cafe 
 
@@ -12656,7 +12970,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 - **Order Qty.** : 2.00 
 
-- **Project** : _HMBAKERY11_ When you select the project, the system shows an error message in the **Project** column that says you cannot create purchase order commitments for this project because the commitments are locked for the project (see the following screenshot). 
+- **Project** : _HMBAKERY11_ When you select the project, the system shows an error message in the **Project** column that says you cannot create purchase order commitments for this project because the commitments are locked for the project (see below). 
 
  Figure: The restriction of direct commitment creation for the project 
 
@@ -12678,11 +12992,13 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 - If you need to use mixed characters for a revenue change number—that is, letters, symbols, and numerals—     add a four-digit number to the character string, resulting in a revenue change number such as _CO#0001_. 
 
+- If a project has revenue change orders and the numeric part of the last assigned revenue change number     for the project consists of a one- or two-digit number, add enough zeros before the numeric part of the     last change number so that the numeric part of the number is at least four digits. For example, if the **Last** 
+
 
 <!-- PAGE_BREAK -->
- Tracking Changes to the Project Budget | 323 
+ Tracking Changes to the Project Budget | 330 
 
-- If a project has revenue change orders and the numeric part of the last assigned revenue change number     for the project consists of a one- or two-digit number, add enough zeros before the numeric part of the     last change number so that the numeric part of the number is at least four digits. For example, if the **Last**     **Revenue Change Nbr.** in the **Project Properties** area of the **Summary** tab of the _Projects_ form is _CO#9_ ,     change it to _CO#0009_. For change orders that cannot affect the project revenue and the reversing change orders (those that reverse the impact of the original change orders), the **Revenue Change Nbr.** box is read-only and contains _N/A_ to indicate that there is no related revenue change order document. 
+ Revenue Change Nbr. in the Project Properties area of the Summary tab of the Projects form is CO#9 , change it to CO#0009. For change orders that cannot affect the project revenue and the reversing change orders (those that reverse the impact of the original change orders), the Revenue Change Nbr. box is read-only and contains N/A to indicate that there is no related revenue change order document. 
 
  You can manually change the Revenue Change Nbr. of a particular change order. If you change this number for a change order, you should make a similar change to the Last Revenue Change Nbr. of the corresponding project so that the system continues to assign these numbers correctly. Duplicate numbers within a project are not allowed. 
 
@@ -12706,19 +13022,19 @@ Purchasing Materials to Project Site with Receipt | **304**
 
  This topic explains how to perform mass-processing operations related to change orders, and how the system generates, changes, or works with documents as a result of the mass processing. 
 
-
-<!-- PAGE_BREAK -->
- Tracking Changes to the Project Budget | 324 
-
 #### Mass-Recalculating Change Orders 
 
  In some cases (for instance, if the project budget has been adjusted with change orders that have been modified through external tools or import scenarios), you may need to validate the project balances to make change order quantities and amounts of the project budget match the values of the change orders. 
 
- To recalculate budget values affected by change orders, you use the Recalculate Project Balances (PM504000) form. On this form, you select the Recalculate Change Orders check box in the Selection area. You also select the unlabeled check boxes in the rows of the projects to be processed and click Process on the form toolbar to process the selected projects; alternatively, you can click Process All to process all the projects shown in the table. For more information, see Project Budget: Recalculation of the Project Balances. 
+
+<!-- PAGE_BREAK -->
+ Tracking Changes to the Project Budget | 331 
+
+To recalculate budget values affected by change orders, you use the _Recalculate Project Balances_ (PM504000) form. On this form, you select the **Recalculate Change Orders** check box in the Selection area. You also select the unlabeled check boxes in the rows of the projects to be processed and click **Process** on the form toolbar to process the selected projects; alternatively, you can click **Process All** to process all the projects shown in the table. For more information, see _Project Budget: Recalculation of the Project Balances_. 
 
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 325 
+ Processing Change Requests | 332 
 
 ## Processing Change Requests 
 
@@ -12733,8 +13049,6 @@ Purchasing Materials to Project Site with Receipt | **304**
 #### Learning Objectives 
 
  In this chapter, you will learn how to do the following: 
-
- In this lesson, you will learn how to do the following: 
 
 - Configure a change order class that supports the two-tier change management 
 
@@ -12756,17 +13070,15 @@ Purchasing Materials to Project Site with Receipt | **304**
 
  You turn on the change order workflow for a project to be able to track changes to the budgeted and committed values of the project. You create change requests if the workflow of your project supposes a lot of small changes to the budget but you do not want to create a lot of change orders, for example, because of the approval required for each change order. With change requests, you can collect a lot of small changes into a single or several change orders. 
 
- You can also need to create change requests for a project if you want to charge the customer for the changes made to the project budget. 
+ You may also need to create change requests for a project if you want to charge the customer for the changes made to the project budget. 
 
 #### Configuration of Change Order Classes 
 
- A change order class defines which project data—the revenue budget, the cost budget, or commitments—can be adjusted with a change order of this class. The two-tier change management is controlled at the level of a change order class. If the Two-Tier Change Management check box is selected for a particular class on the Change Order 
+ A change order class defines which project data—the revenue budget, the cost budget, or commitments—can be adjusted with a change order of this class. The two-tier change management is controlled at the level of a change order class. If the Two-Tier Change Management check box is selected for a particular class on the Change Order Classes (PM203000) form, change orders of the selected class support two-tier change management and can include change requests. 
 
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 326 
-
- Classes (PM203000) form, change orders of the selected class support two-tier change management and can include change requests. 
+ Processing Change Requests | 333 
 
  If a change order class has the Revenue Budget check box cleared and the Cost Budget and Commitments check boxes selected on the Change Order Classes form, change orders of this class are classified as cost change orders for change requests. 
 
@@ -12806,11 +13118,11 @@ Purchasing Materials to Project Site with Receipt | **304**
 
  Based on each estimation line of the change request added to a change order and on the selected change order class, the system creates the following lines for the change order on the Change Orders form: 
 
+- A cost budget line on the **Cost Budget** tab with **Quantity** and **Amount** values equal to the quantity and     extended cost of the estimation line 
+
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 327 
-
-- A cost budget line on the **Cost Budget** tab with **Quantity** and **Amount** values equal to the quantity and     extended cost of the estimation line 
+ Processing Change Requests | 334 
 
 - A revenue budget line on the **Revenue Budget** tab with **Quantity** and **Amount** values equal to the quantity     and line amount of the estimation line 
 
@@ -12836,7 +13148,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 328 
+ Processing Change Requests | 335 
 
 ### Change Requests: Configuration of Markups 
 
@@ -12844,19 +13156,19 @@ Purchasing Materials to Project Site with Receipt | **304**
 
  The following types of markup can be applied to a change request on the Change Requests (PM308500) form: 
 
-- Line-level markups: These markups apply to an individual estimation line on the **Estimation** tab and affects     the **Line Amount** value. This type includes the **Price Markup (%)** and **Line Markup (%)**. 
+- Line-level markups: These markups apply to an individual estimation line on the **Estimation** tab and affect     the **Line Amount** value. This type includes the **Price Markup (%)** and **Line Markup (%)**. 
 
 - Document-level markups: These markups apply to the total line amount of the change request on the     **Markups** tab. You can override all markups and delete document-level markups at the change request level. 
 
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 329 
+ Processing Change Requests | 336 
 
 #### Line-Level Markups 
 
- A price markup is an item-specific markup. When you select an inventory item in an estimation line on the Estimation tab of the Change Requests (PM308500) form, the markup percent specified for the item is retrieved as the Price Markup (%) value. You can specify the price markup for the item on the Price/Cost tab of the Stock Items (IN202500) form or on the Price/Cost tab of the Non-Stock Items (IN202000) form. If no price markup is specified for the item, the system uses the default price markup specified in the Default Price Markup (%) box ( Markup section) on the General tab of the Projects Preferences (PM101000) form. If no default price markup is specified in the project accounting preferences, the price markup of the estimation line is zero. 
+ A price markup is an item-specific markup. When you select an inventory item in an estimation line on the Estimation tab of the Change Requests (PM308500) form, the markup percent specified for the item is retrieved as the Price Markup (%) value. You can specify the price markup for the item on the Price/Cost tab of the Stock Items (IN202500) form or on the Price/Cost tab of the Non-Stock Items (IN202000) form. If no price markup is specified for the item, the system uses the default price markup specified in the Default Price Markup (%) box ( Markup section) on the General tab of the Projects Preferences (PM101000) form. If no default price markup is specified in the project accounting preferences, the price markup of the estimation line is 0. 
 
- A line markup is defined at the account group level. For an account group of the Expense type, you specify the default line markup percentage in the Default Line Markup (%) box on the Change Request Settings tab of the Account Groups (PM201000) form. When you select an account group in an estimation line on the Estimation tab of the Change Requests form, the system specifies the default markup specified for the account group as the Line Markup (%) value in this line. If no default markup is specified in the account group, the line markup of the estimation line is zero. 
+ A line markup is defined at the account group level. For an account group of the Expense type, you specify the default line markup percentage in the Default Line Markup (%) box on the Change Request Settings tab of the Account Groups (PM201000) form. When you select an account group in an estimation line on the Estimation tab of the Change Requests form, the system specifies the default markup specified for the account group as the Line Markup (%) value in this line. If no default markup is specified in the account group, the line markup of the estimation line is 0. 
 
  The line amount of an estimation line considers the line-level markups and is calculated as follows: 
 
@@ -12870,9 +13182,9 @@ Purchasing Materials to Project Site with Receipt | **304**
 
  On the Markups tab of the Change Requests (PM308500) form, for a change request, you can define any number of document-level markups of the following types as well as define no markups: 
 
-- _%_ : A markup whose amount is calculated as follows:     Markup Amount = Line Total * % Markup Value / _100_     You can define as many markups of this type as necessary. 
+- _%_ : A markup whose amount is calculated as follows:     Markup Amount = Line Total * % Markup Value / 100     You can define as many markups of this type as necessary. 
 
-- _Cumulative (%)_ : A markup whose amount is calculated as follows:     Markup Amount = (all the previously applied % markups) * _Cumulative (%) Value_ /     _100_     A markup of this type requires at least one markup of the _%_ type. 
+- _Cumulative (%)_ : A markup whose amount is calculated as follows:     Markup Amount = (all the previously applied % markups) * _Cumulative (%) Value_ /     100     A markup of this type requires at least one markup of the _%_ type. 
 
 - _Flat Fee_ : A markup whose amount is specified manually to be added to the total markup.     You can define as many markups of this type as necessary. For each applicable markup shown on the **Markups** tab, the **Amount Subject to Markup** is calculated based on the **Line Amount** values in the estimation lines of the change request. A document-level markup applies to the total line amount of a change request if all the project budget key attributes in this line—project task, account group, and optionally, inventory item and cost code—are defined for the markup on the **Markups** tab of the _Change Requests_ form. 
 
@@ -12880,7 +13192,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 330 
+ Processing Change Requests | 337 
 
 ### Change Requests: Implementation Checklist 
 
@@ -12892,7 +13204,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting , Change Orders , and Change Requests features are enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects , Change Orders , and Change Requests features are enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -12908,7 +13220,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 331 
+ Processing Change Requests | 338 
 
  Form Tasks to Perform 
 
@@ -12938,7 +13250,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 332 
+ Processing Change Requests | 339 
 
  With these settings specified, users in your company can process change requests quickly and accurately with a minimum of manual actions. 
 
@@ -12950,7 +13262,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
  The following implementation activity will walk you through the process of configuring two-tier change management for projects. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -12984,7 +13296,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 333 
+ Processing Change Requests | 340 
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a system administrator by using the _gibbs_ username and the _123_ password. 
 
@@ -13002,7 +13314,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 2. On the **General** tab, in the **Change Request Markups** section, enter 25 in the **Default Price Markup (%)**     box. 
 
-3. In the **Document Markups** table, add rows with the following settings. 
+3. In the **Change Request Document Markups** table, add rows with the following settings. 
 
  Type Description Value % Profit markup on cost 8 
 
@@ -13040,7 +13352,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 334 
+ Processing Change Requests | 341 
 
 1. Click **Add New Record** on the form toolbar, and specify the following settings in the Summary area: 
 
@@ -13064,7 +13376,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 5. In the Summary area, specify _REVENUE_ in the **Default Revenue Account Group** box. 
 
-6. In the **Default Line Markup (%)** box on the **Change Request Settings** tab, enter 10. 
+6. On the **Change Request Settings** tab, enter 10 in the **Default Line Markup (%)** box. 
 
 7. Save your changes. 
 
@@ -13092,13 +13404,13 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 - On the _Enable/Disable Features_ (CS100000) form, the following features have been enabled: 
 
-- _Project Accounting_ , which provides support for the project accounting functionality 
+- _Projects_ , which provides support for the project management functionality 
 
 - _Change Orders_ , which gives you the ability to manage changes to the project’s budgeted and committed     values 
 
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 335 
+ Processing Change Requests | 342 
 
 - On the _Non-Stock Items_ (IN202000) form, the _SITEREVIEW_ , _INSTALL_ , and _TRAINING_ non-stock items have been     defined. 
 
@@ -13118,7 +13430,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 2. Sign in to the system as Pam Brawner by using the _brawner_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Creating a Project 
 
@@ -13150,13 +13462,19 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 - **Default** : Selected 
 
-6. On the **Revenue Budget** tab, click **Add Row** on the table toolbar. In the added line, select the _REVENUE_     account group, and enter 3,400 in the **Original Budgeted Amount** column. (The system has automatically     inserted the _INSTALL_ project task in the row because it is the default project task.) 
+6. On the **Revenue Budget** tab, click **Add Row** on the table toolbar.     Notice that he system has automatically inserted the _INSTALL_ project task in the row because it is the default     project task. 
 
-7. On the **Cost Budget** tab, add four budget lines (by clicking **Add Row** on the table toolbar) with the settings     shown in the following table. 
+7. In the added row, specify the following settings: 
+
+- **Account Group** : _REVENUE_ 
 
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 336 
+ Processing Change Requests | 343 
+
+- **Original Budgeted Amount** : 3,400 
+
+8. On the **Cost Budget** tab, add four budget lines (by clicking **Add Row** on the table toolbar) with the settings     shown in the following table. 
 
  Project Task Inventory ID Original Budgeted Quantity 
 
@@ -13170,9 +13488,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 ##### INSTALL INSTALL 4.00 80.00 
 
-8. On the **Defaults** tab, in the **Document Markups** table, configure the default document markups that the     system has populated from the project accounting preferences as follows: For each markup in the table,     select _INSTALL_ in the **Project Task** column and _REVENUE_ in the **Account Group** column. 
-
-9. Save the project. 10.On the form toolbar, click **Activate**. The system assigns the project the _Active_ status. 
+9. On the **Defaults** tab, in the **Document Markups** table, configure the default document markups that the     system has populated from the project accounting preferences as follows: For each markup in the table,     select _INSTALL_ in the **Project Task** column and _REVENUE_ in the **Account Group** column. 10.Save the project. 11.On the form toolbar, click **Activate**. The system assigns the project the _Active_ status. 
 
 #### Step 2: Creating a Change Request 
 
@@ -13202,15 +13518,15 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 - **Unit Price** : _50_ (inserted automatically)     The system calculates this value based on the **Unit Cost** value and the **Price Markup (%)** by the following     formula: Unit Price = Unit Cost + Unit Cost * Price Markup (%) / 100 
 
-- **Line Markup (%)** : 10.00 (inserted automatically)     The system has copied this value from the settings of the _LABOR_ account group—that is, from the **Default**     **Line Markup (%)** box on the **Change Request Settings** tab of the _Account Groups_ (PM201000) form. 
-
-- **Line Amount** : _55_ (inserted automatically) 
+- **Line Markup (%)** : 10.00 (inserted automatically) 
 
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 337 
+ Processing Change Requests | 344 
 
- The system calculates this value based on the Ext. Price value and the Line Markup (%) by the following formula: Line Amount = Ext. Price + Ext. Price * Line Markup (%) / 100 
+ The system has copied this value from the settings of the LABOR account group—that is, from the Default Line Markup (%) box on the Change Request Settings tab of the Account Groups (PM201000) form. 
+
+- **Line Amount** : _55_ (inserted automatically)     The system calculates this value based on the **Ext. Price** value and the **Line Markup (%)** by the following     formula: Line Amount = Ext. Price + Ext. Price * Line Markup (%) / 100 
 
 4. Add one more line to represent the two additional hours needed for the installation by clicking **Add Row** on     the table toolbar and specifying the following settings in the row: 
 
@@ -13262,17 +13578,15 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 - **Description** : Additional time for training 
 
+
+<!-- PAGE_BREAK -->
+ Processing Change Requests | 345 
+
 - **Quantity** : 2.00 
 
 - **Price Markup (%)** : _25.00_ (inserted automatically) 
 
-- **Line Markup (%)** : _10.00_ (inserted automatically) 
-
-
-<!-- PAGE_BREAK -->
- Processing Change Requests | 338 
-
- The line amount of the added row should be equal to $110. 
+- **Line Markup (%)** : _10.00_ (inserted automatically) The line amount of the added row should be equal to $110. 
 
 3. Make sure that **Price Total** in the Summary area is _223.86_ and save the change request. 
 
@@ -13280,7 +13594,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 5. On the _Projects_ (PM301000) form, open the _WESTBBQ3_ project, and review the updated amounts in the     project budget as follows: 
 
-- On the **Change Requests** tab, make sure that both of the related change requests have the _Open_ status     (see the screenshot below). 
+- On the **Change Requests** tab, make sure that both of the related change requests have the _Open_ status     (see below). 
 
 - On the **Cost Budget** tab, review the values in the **Potential CO Quantity** and **Potential CO Amount**     columns, which the system has filled in based on the estimation lines of the open change requests for the     rows with the _SITEREVIEW_ , _TRAINING_ , and _INSTALL_ inventory items. 
 
@@ -13304,15 +13618,15 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 4. On the table toolbar of the **Change Requests** tab, click **Add Change Requests** to add a change request to     the change order. 
 
+
+<!-- PAGE_BREAK -->
+ Processing Change Requests | 346 
+
 5. In the **Add Change Requests** dialog box, which opens, select the change request with the _Additional time for_     _site review and installation_ description by selecting the check box in the unlabeled column, and click **Add &**     **Close**. 
 
 6. Review the details of the change order, and make sure that the change order has been modified as follows: 
 
 - On the **Cost Budget** tab, the system has added two lines based on the estimation lines of the change     request. 
-
-
-<!-- PAGE_BREAK -->
- Processing Change Requests | 339 
 
 - On the **Commitments** tab, the system has added a line with the _New Document_ status for the installation     service based on the estimation line of the change request with the **Create Commitment** check box     selected. 
 
@@ -13350,11 +13664,11 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 7. On the table toolbar, click **View Change Request Details**. 
 
-8. In the **Change Request Details** dialog box, which opens, review the change request lines and the markups     that correspond to the selected change order line, as shown in the following screenshot. There are three     estimation lines and eight markup lines that affect the same revenue budget line. 
+8. In the **Change Request Details** dialog box, which opens, review the change request lines and the markups     that correspond to the selected change order line (see below). There are three estimation lines and eight     markup lines that affect the same revenue budget line. 
 
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 340 
+ Processing Change Requests | 347 
 
  Figure: Lines of the change request and corresponding markups 
 
@@ -13368,21 +13682,21 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 2. On the **Change Requests** tab, make sure that both change requests have been assigned the _Closed_ status.     In the line with the _Additional time for site review and installation_ description, click the link in the **Reference**     **Nbr.** column to open the first change request.     On the _Change Requests_ (PM308500) form, which opens, review the details of the change request. In the     Summary area, make sure that change request has both the **Change Order Nbr.** box and the **Cost Change**     **Order Nbr.** box filled in because the revenue part of the change request has been processed with a separate     change order, whose reference number is shown in the **Change Order Nbr.** box. 
 
-3. Click Back in the browser tab to return to the _Projects_ form with the _WESTBBQ3_ project opened. 
+3. Return to the _Projects_ form with the _WESTBBQ3_ project opened. 
 
 4. On the **Change Requests** tab, click the link in the **Reference Nbr.** column in the row with the _Additional time_     _for training_ description to open the second change request. On the _Change Requests_ form, which opens,     review the change request. In the Summary area, notice that change request has only the **Change Order**     **Nbr.** box filled in (the **Cost Change Order Nbr.** box is hidden) because both the revenue part and the cost     part of the change request have been processed with a single change order. 
 
-5. Click Back in the browser tab to return to the _WESTBBQ3_ project on the _Projects_ form. 
-
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 341 
+ Processing Change Requests | 348 
+
+5. Return to the _WESTBBQ3_ project on the _Projects_ form. 
 
 #### Step 7: Releasing the Change Orders 
 
  To release the change orders, do the following: 
 
-1. While still reviewing the project on the _Projects_ (PM301000) form, on the **Change Orders** tab, open and     release each created order by doing the following:     a. Click the link in the **Reference Nbr.** column to open the change order.     b. On the form toolbar of the _Change Orders_ (PM308000) form that opens, click **Release**.     c. Close the form. 
+1. While still reviewing the project on the _Projects_ (PM301000) form, on the **Change Orders** tab, open and     release each created order by doing the following:     a. Click the link in the **Reference Nbr.** column to open the change order.     b. On the form toolbar of the _Change Orders_ (PM308000) form, which opens, click **Release**.     c. Close the form. 
 
 2. On the _Projects_ form (to which you return), press Esc to refresh the form.     On the **Change Orders** tab, notice that both change orders have been assigned the _Closed_ status.     On the **Cost Budget** and **Revenue Budget** tabs, notice that potential change order quantities and amounts     now 0. These quantities and amounts have been moved to the budgeted CO quantities and amounts, which     also have resulted in an increase of the revised budgeted quantities and amounts. 
 
@@ -13408,7 +13722,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Processing Change Requests | 342 
+ Processing Change Requests | 349 
 
 ### Change Requests: Limitations to Processing Change Orders 
 
@@ -13420,7 +13734,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Tracking Cost Commitments | 343 
+ Tracking Cost Commitments | 350 
 
 ## Tracking Cost Commitments 
 
@@ -13466,7 +13780,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Tracking Cost Commitments | 344 
+ Tracking Cost Commitments | 351 
 
 - Committed received quantity 
 
@@ -13484,7 +13798,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Tracking Cost Commitments | 345 
+ Tracking Cost Commitments | 352 
 
 ### Committed Costs: Implementation Checklist 
 
@@ -13496,7 +13810,7 @@ Purchasing Materials to Project Site with Receipt | **304**
 
 
 <!-- PAGE_BREAK -->
- Tracking Cost Commitments | 346 
+ Tracking Cost Commitments | 353 
 
 **Form Tasks to Perform** 
 
@@ -13522,7 +13836,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 
 <!-- PAGE_BREAK -->
- Tracking Cost Commitments | 347 
+ Tracking Cost Commitments | 354 
 
  Form Tasks to Perform 
 
@@ -13550,7 +13864,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 
 <!-- PAGE_BREAK -->
- Tracking Cost Commitments | 348 
+ Tracking Cost Commitments | 355 
 
  in the Regular Order Numbering Sequence box on the General tab of the Purchase Orders Preferences (PO101000) form. For more information on numbering sequences, see Use of Numbering Sequences. 
 
@@ -13578,7 +13892,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
  This activity will walk you through the creation of a purchase order for a project and tracking this purchase order as a commitment to the project cost budget. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -13586,7 +13900,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 
 <!-- PAGE_BREAK -->
- Tracking Cost Commitments | 349 
+ Tracking Cost Commitments | 356 
 
  has been provided for each juicer. Based on the agreement with the vendor, your company will be billed in two parts—that is, first for the installation of the first two juicers and then for the installation of the third juicer. Acting as the project accountant, you need to capture the first part of the installation cost as a commitment to the project. 
 
@@ -13596,7 +13910,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 - The following features have been enabled on the _Enable/Disable Features_ (CS100000) form: 
 
-- _Project Accounting_ , which provides support for the project accounting functionality 
+- _Projects_ , which provides support for the project management functionality 
 
 - _Inventory and Order Management_ , which provides the purchase order functionality 
 
@@ -13620,7 +13934,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 1. Launch the Acumatica ERP website and sign in as Pam Brawner using the _brawner_ username and _123_     password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the **General** tab ( **General Settings** section) of the _Projects Preferences_ (PM101000) form, select the     **Internal Cost Commitment Tracking** check box to expose commitments and committed values in the     project budget, and save your changes to the project accounting preferences. 
 
@@ -13632,7 +13946,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 
 <!-- PAGE_BREAK -->
- Tracking Cost Commitments | 350 
+ Tracking Cost Commitments | 357 
 
 2. On the _Purchase Orders_ (PO301000) form, create a purchase order, and specify the following settings in the     Summary area: 
 
@@ -13640,7 +13954,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 - **Description** : Purchase for HM's Bakery & Cafe 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
 3. On the **Details** tab, add three purchase order lines, and specify the settings shown in the following table in     the lines you add. 
 
@@ -13674,7 +13988,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 10.On the **Commitments** tab, click the link in the **Order Nbr.** column to open the purchase order that you have created earlier in this activity. 
 
-11.On the More menu of the _Purchase Orders_ form, which the system opens, click **Enter AP Bill** to create a bill for the purchase order. The system creates an accounts payable bill and opens the bill on the _Bills and Adjustments_ (AP301000) form. 
+11.On the More menu of the _Purchase Orders_ form, which opens, click **Enter AP Bill** to create a bill for the purchase order. The system creates an accounts payable bill and opens it on the _Bills and Adjustments_ (AP301000) form. 
 
 12.On the **Details** tab of this form, delete the line with the **Quantity** of _5.00_ to bill the purchase order partially, as your company agreed on with the vendor. When you delete the line, the amount in the **Detail Total** box in the Summary area becomes _560.00_. 
 
@@ -13682,9 +13996,9 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 
 <!-- PAGE_BREAK -->
- Tracking Cost Commitments | 351 
+ Tracking Cost Commitments | 358 
 
- 14.Return to the Projects form with the HMBAKERY8 project, press Esc to refresh the form, and review the updated cost budget on the Cost Budget tab. Notice that the billed quantity and amount ( 7.00 and 560.00 , respectively) of the purchase order have been subtracted from the committed open quantity and amount, which is now equal to 5.00 and 400.00 , respectively. The billed quantity and amount have been added to the committed invoiced quantity and amount, to the actual quantity and amount, and to the received committed quantity, as shown in the following screenshot. 
+ 14.Return to the Projects form with the HMBAKERY8 project, press Esc to refresh the form, and review the updated cost budget on the Cost Budget tab. Notice that the billed quantity and amount ( 7.00 and 560.00 , respectively) of the purchase order have been subtracted from the committed open quantity and amount, which is now equal to 5.00 and 400.00 , respectively. The billed quantity and amount have been added to the committed invoiced quantity and amount, to the actual quantity and amount, and to the received committed quantity, as shown below. 
 
  Figure: Committed values of the project cost budget 
 
@@ -13710,13 +14024,15 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
  PO accrual account Item 0.00 Amount 
 
+
+<!-- PAGE_BREAK -->
+ Tracking Cost Commitments | 359 
+
+ Account Source of Account Debit Credit 
+
  Inventory/expense account Posting class of the item 
 
  Amount 0.00 
-
-
-<!-- PAGE_BREAK -->
- Tracking Cost Commitments | 352 
 
  On the Financial tab of the Receipts (IN301000) form, you can click the link in the Batch Nbr. box to view the details of the batch on the Journal Transactions (GL301000) form. 
 
@@ -13756,13 +14072,13 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
  You can review the created project transaction on the Project Transaction Details (PM401000) form. In the Selection area of this form, you select the project in the Project box. In the table, you can find the project transaction created on release of the accounts payable bill by the reference number of the AP bill in the Orig. Doc. Nbr. column. 
 
+
+<!-- PAGE_BREAK -->
+ Tracking Cost Commitments | 360 
+
 ### Committed Costs: Related Reports and Forms 
 
  In the following sections, you can find details about the reports and forms you may want to review to gather information about commitments. 
-
-
-<!-- PAGE_BREAK -->
- Tracking Cost Commitments | 353 
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
 
@@ -13796,15 +14112,15 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 - Inventory ID: The inventory item 
 
+
+<!-- PAGE_BREAK -->
+ Tracking Cost Commitments | 361 
+
 ### Committed Costs: External Commitments 
 
  This topic explains how you can enter external commitments in the system. 
 
  Project commitments that do not originate from purchase orders existing in the system have the External type on the Commitments (PM306000) form, in contrast to those that have the Internal type and originate from documents created in the system. External commitments can be created regardless of the state of the Internal Cost Commitment Tracking check box on the Projects Preferences (PM101000) form (which indicates that purchase orders are tracked by project as cost commitments). You can create external commitments in two ways: 
-
-
-<!-- PAGE_BREAK -->
- Tracking Cost Commitments | 354 
 
 - From scratch on the _External Commitments_ (PM209000) form. To open the form, you click **Create External**     **Commitment** on the form toolbar of the _Commitments_ form. 
 
@@ -13822,7 +14138,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to Commitments | 355 
+ Tracking Changes to Commitments | 362 
 
 ## Tracking Changes to Commitments 
 
@@ -13866,7 +14182,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to Commitments | 356 
+ Tracking Changes to Commitments | 363 
 
 - Adjusting an existing purchase order or subcontract by adding a new negative line 
 
@@ -13886,7 +14202,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to Commitments | 357 
+ Tracking Changes to Commitments | 364 
 
 ### Change Orders for Commitments: Commitment Updates on Release of Change 
 
@@ -13934,7 +14250,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to Commitments | 358 
+ Tracking Changes to Commitments | 365 
 
 - **Tax Category** : The category of the corresponding commitment line of the change order 
 
@@ -13978,7 +14294,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to Commitments | 359 
+ Tracking Changes to Commitments | 366 
 
 - **Committed CO Amount** is set to **Revised Committed Amount** minus **Original Committed Amount**. 
 
@@ -14006,7 +14322,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
  This activity will walk you through the process of configuring a change order class. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -14014,13 +14330,13 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to Commitments | 360 
+ Tracking Changes to Commitments | 367 
 
 #### Configuration Overview 
 
  For the purposes of this activity, the following features have been enabled on the Enable/Disable Features (CS100000) form: 
 
-- _Project Accounting_ , which provides support for the project accounting functionality 
+- _Projects_ , which provides support for the project management functionality 
 
 - _Change Orders_ , which gives you the ability to track changes to projects with change orders 
 
@@ -14034,7 +14350,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 #### Step: Creating a Change Order Class 
 
- To create a change order class that will be used for creating change orders for project commitments, perform the following instructions: 
+ To create a change order class that will be used for creating change orders for project commitments, do the following: 
 
 1. On the _Change Order Classes_ (PM203000) form, add a new record. 
 
@@ -14064,7 +14380,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to Commitments | 361 
+ Tracking Changes to Commitments | 368 
 
  The vendor has provided the services. Acting as the project accountant, you will create a purchase order with both of the provided services in the appropriate quantities. You will then receive the invoice from the vendor and realize that the quantity of the provided services differs from the quantity of the ordered services as follows: 
 
@@ -14082,11 +14398,11 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 - On the _Enable/Disable Features_ (CS100000) form, the following features have been enabled: 
 
-- _Project Accounting_ , which provides support for the project accounting functionality 
+- _Projects_ , which provides support for the project management functionality 
 
 - _Change Orders_ , which gives you the ability to manage changes to the project’s budgeted and committed     values 
 
-- _Inventory and Order Management_ feature, which provides the functionality of purchase orders 
+- _Inventory and Order Management_ , which provides the functionality of purchase orders 
 
 - On the _Projects_ (PM301000) form, the _HMBAKERY12_ project has been created and the _INSTALL_ project task     has been created for the project. This project task is also the default task of the project. On the **Summary**     tab of the form ( **Project Properties** section), the **Change Order Workflow** check box is selected for the     project so that users can track all the changes to the budgeted values by using change orders. 
 
@@ -14108,13 +14424,13 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 2. Launch the Acumatica ERP website and sign in as Pam Brawner using the _brawner_ username and _123_     password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 4. Open the _Projects Preferences_ (PM101000) form, and on the **General** tab ( **General Settings** section), select     the **Internal Cost Commitment Tracking** check box to expose commitments and committed values in the     project budget, and save your changes to the project accounting preferences. 
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to Commitments | 362 
+ Tracking Changes to Commitments | 369 
 
 #### Step 1: Creating Commitments for the Project 
 
@@ -14164,7 +14480,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to Commitments | 363 
+ Tracking Changes to Commitments | 370 
 
  b. In the Add Commitments dialog box, which opens, select the unlabeled check box in the line with the INSTALL inventory item and a line amount of $240, and click Add Lines & Close. The system adds the selected purchase order line to the change order and closes the dialog box. Notice that the status of the added line is Update. c. In the added line, enter 1 in the Quantity box. When you update the Quantity value, the system automatically calculates the Amount value ($80) based on the Unit Cost of the line. The system also calculates the Potentially Revised Quantity value, which is 4, as the sum of the Order Qty. and Quantity values (3 + 1), and calculates the Potentially Revised Amount value, which is $320, as the sum of the Ext. Cost and Amount values ($240 + $80). 
 
@@ -14180,6 +14496,8 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 - **Inventory ID** : _SITEREVIEW_ 
 
+- **Description** : Site review 
+
 - **Quantity** : 1 
 
 - **Unit Cost** : 40 
@@ -14188,7 +14506,7 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
  This is the same reference number as was used in the two previous lines. 
 
-- **Description** : Site review Notice that the system has assigned the line the _New Line_ status. 
+ Notice that the system has assigned the line the New Line status. 
 
 6. To add a new purchase order for the project, add a new row, and specify the following settings for it: 
 
@@ -14198,27 +14516,27 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 - **Inventory ID** : _BASKET_ 
 
+- **Description** : Feeder basket 
+
 - **Quantity** : 1 
 
 - **Unit Cost** : 250 
 
-- **Vendor** : _SQUEEZO_ 
-
-- **Description** : Feeder basket Notice that the system has assigned the line the _New Document_ status. 
+- **Vendor** : _SQUEEZO_ Notice that the system has assigned the line the _New Document_ status. 
 
 7. Save your changes to the change order. 
 
- The Commitment Change Total in the Summary area must be equal to $290, as shown in the following screenshot. 
+ The Commitment Change Total in the Summary area must be equal to $290, as shown below. 
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to Commitments | 364 
+ Tracking Changes to Commitments | 371 
 
  Figure: Changes to project commitments 
 
 8. On the form toolbar, click **Remove Hold** to assign the change order the _Open_ status, and then click **Release**     to release the change order. 
 
-9. On the _Purchase Orders_ (PO301000) form, open the purchase order that you have prepared earlier in this     activity, and review how the purchase order has been modified as follows:     a. On the More menu, notice that the **Hold** command is unavailable. You cannot put the purchase order on        hold and make changes to the purchase order because the purchase order has a related change order.     b. On the **Details** tab, make sure the purchase order now contains three lines. Make sure that the **Order**        **Qty.** is set to _4_ in the line with the _INSTALL_ item and _6_ in the line with the _TRAINING_ item. Also, notice the        newly added line with the _SITEREVIEW_ item and a quantity of _1_.     c. On the **Change Orders** tab, make sure that three change order lines related to the purchase order are        displayed. 10.On the same form, open the second purchase order that was created on release of the change order. This     purchase order to the _SQUEEZO_ vendor was created based on the change order line with the _New Document_     status and has the order total of _250.00_. 11.In the Summary area, review the description of the created purchase order, which contains the number of     the change order that the purchase order is based on. 12.On the **Details** tab, make sure that the order has a single line with the _BASKET_ inventory item and a quantity     of _1_. On the **Change Orders** tab, make sure that the corresponding change order line is displayed. 
+9. On the _Purchase Orders_ (PO301000) form, open the purchase order that you have prepared earlier in this     activity, and review how the purchase order has been modified as follows:     a. On the More menu, notice that the **Hold** command is unavailable. You cannot put the purchase order on        hold and make changes to it because the purchase order has a related change order.     b. On the **Details** tab, make sure the purchase order now contains three lines. Make sure that the **Order**        **Qty.** is set to _4_ in the line with the _INSTALL_ item and _6_ in the line with the _TRAINING_ item. Also, notice the        newly added line with the _SITEREVIEW_ item and a quantity of _1_.     c. On the **Change Orders** tab, make sure that three change order lines related to the purchase order are        displayed. 10.On the same form, open the second purchase order that was created on release of the change order. This     purchase order to the _SQUEEZO_ vendor was created based on the change order line with the _New Document_     status and has the order total of _250.00_. 11.In the Summary area, review the description of the created purchase order, which contains the number of     the change order that the purchase order is based on. 12.On the **Details** tab, make sure that the order has a single line with the _BASKET_ inventory item and a quantity     of _1_. On the **Change Orders** tab, make sure that the corresponding change order line is displayed. 
 
 #### Step 3: Reviewing the Updated Commitments 
 
@@ -14226,11 +14544,11 @@ _Vendors_ (AP303000) form Make sure that all needed vendors have been defined in
 
 1. Open the _Commitments_ (PM306000) form. 
 
-2. In the Summary area, select _HMBAKERY12_ in the **Project** box. In the table, review the commitments that     have been updated.     Notice that the commitments that have been updated with the change order have nonzero **Committed CO**     **Quantity** and **Committed CO Amount** values. The **Revised Committed Quantity** and **Revised Committed**     **Amount** values of these commitments also differ from the **Original Committed Quantity** and **Original**     **Committed Amount** values, respectively. 
+2. In the Summary area, select _HMBAKERY12_ in the **Project** box. In the table, review the commitments that     have been updated.     Notice that the commitments that have been updated with the change order have nonzero **Committed CO**     **Quantity** and **Committed CO Amount** values. The **Revised Committed Quantity** and **Revised Committed**     **Amount** values of these commitments also differ from the **Original Committed Quantity** and **Original**     **Committed Amount** values, respectively (see below). 
 
 
 <!-- PAGE_BREAK -->
- Tracking Changes to Commitments | 365 
+ Tracking Changes to Commitments | 372 
 
  Figure: Project commitments updated with the change order 
 
@@ -14244,7 +14562,7 @@ You have finished processing a change order for the project commitment.
 
 
 <!-- PAGE_BREAK -->
- Forecasting Budgets by Periods | 366 
+ Forecasting Budgets by Periods | 373 
 
 ## Forecasting Budgets by Periods 
 
@@ -14257,8 +14575,6 @@ You have finished processing a change order for the project commitment.
 #### Learning Objectives 
 
  In this chapter, you will learn how to do the following: 
-
- In this lesson, you will learn how to do the following: 
 
 - Create a budget forecast for a project 
 
@@ -14284,15 +14600,15 @@ You have finished processing a change order for the project commitment.
 
  You can also make the system automatically add financial periods for all the project budget lines of the forecast revision listed in the table according to the selection criteria specified in the Summary area. When you click Generate Periods on the form toolbar, for each line that is currently listed in the table, the system adds financial periods based on the settings of the project task and related project transactions. For more information on how the system determines the range of periods to be added, see Project Budget Forecasts: Generation of Periods. 
 
- Each financial period added for a project budget line of the forecast revision has quantities and amounts of zero. You can manually specify the Original Budgeted Quantity , Original Budgeted Amount , Revised Budgeted Quantity , and Revised Budgeted Amount values for each period of the project budget line. 
+ Each financial period added for a project budget line of the forecast revision has quantities and amounts of 0. You can manually specify the Original Budgeted Quantity , Original Budgeted Amount , Revised Budgeted Quantity , and Revised Budgeted Amount values for each period of the project budget line. 
 
- You can also distribute the original and revised quantities and amounts of project budget lines among period lines automatically by clicking Generate Forecast on the form toolbar. In the Generate Forecast dialog box, you specify 
+ You can also distribute the original and revised quantities and amounts of project budget lines among period lines automatically by clicking Generate Forecast on the form toolbar. In the Generate Forecast dialog box, you specify which values the system should distribute, in which columns, and for which budget lines. The distribution function 
 
 
 <!-- PAGE_BREAK -->
- Forecasting Budgets by Periods | 367 
+ Forecasting Budgets by Periods | 374 
 
- which values the system should distribute, in which columns, and for which budget lines. The distribution function rounds equally distributed values by using the logarithmic rounding algorithm. For an example of rounding, see Project Budget Forecasts: Example of Rounding. 
+ rounds equally distributed values by using the logarithmic rounding algorithm. For an example of rounding, see Project Budget Forecasts: Example of Rounding. 
 
  For each project budget line with added period lines, the system calculates the following totals in the Original Budgeted Quantity , Original Budgeted Amount , Revised Budgeted Quantity , and Revised Budgeted Amount columns: 
 
@@ -14324,11 +14640,11 @@ You have finished processing a change order for the project commitment.
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting and Budget Forecast features are enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects and Budget Forecast features are enabled. 
 
 
 <!-- PAGE_BREAK -->
- Forecasting Budgets by Periods | 368 
+ Forecasting Budgets by Periods | 375 
 
  Form Tasks to Perform 
 
@@ -14344,7 +14660,7 @@ You have finished processing a change order for the project commitment.
 
  This activity will walk you through the process of creating and processing a project budget forecast. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -14358,13 +14674,13 @@ You have finished processing a change order for the project commitment.
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Projects_ (PM301000) form, the _HMBAKERY13_ project has been created and the _TRAINING_ project task     has been created for the project. Also, the revenue budget and the cost budget are defined for the project     with a line with the _TRAINING_ inventory item and the _LABOR_ account group. 
 
 
 <!-- PAGE_BREAK -->
- Forecasting Budgets by Periods | 369 
+ Forecasting Budgets by Periods | 376 
 
 - On the _Project Transactions_ (PM304000) form, the _PM00000020_ batch of project transactions related to the     project has been created. 
 
@@ -14380,7 +14696,7 @@ You have finished processing a change order for the project commitment.
 
 2. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 4. Open the _Enable/Disable Features_ (CS100000) form, and on the form toolbar, click **Modify**. 
 
@@ -14400,17 +14716,17 @@ You have finished processing a change order for the project commitment.
 
 - **Revision** : 1 
 
-- **Description** : 2025 budget forecast When you specify the revision number, the system adds to the revision all the project budget lines. In the table, the system displays all the cost and budget lines of the forecast revision because _All_ is selected in the **Type** box of the Summary area. 
+- **Description** : 2026 budget forecast When you specify the revision number, the system adds to the revision all the project budget lines. In the table, the system displays all the cost and revenue budget lines of the forecast revision because _All_ is selected in the **Type** box of the Summary area. 
 
-4. In the Summary area, select _Expense_ as the **Type** , and on the form toolbar, click **Generate Periods** to make     the system add period lines for the cost budget line only.     Notice that the system has added a line with the 01-2025 period. Also, the **Total** and **Delta** lines are now     shown. 
+4. In the Summary area, select _Expense_ as the **Type** , and on the form toolbar, click **Generate Periods** to make     the system add period lines for the cost budget line only.     Notice that the system has added a line with the 01-2026 period. Also, the **Total** and **Delta** lines are now     shown. 
 
 5. In the table, click the budget line with the _LABOR_ account group, and on the table toolbar, click **Add Periods**     to add period lines to the selected budget line. 
 
 
 <!-- PAGE_BREAK -->
- Forecasting Budgets by Periods | 370 
+ Forecasting Budgets by Periods | 377 
 
-6. In the **Add Periods** dialog box, which opens, select 02-2025 in the **Period To** box, and click **OK**.     The system closes the dialog box and adds one more period line to the budget line. 
+6. In the **Add Periods** dialog box, which opens, select 02-2026 in the **Period To** box, and click **OK**.     The system closes the dialog box and adds one more period line to the budget line. 
 
 7. In the Summary area, select _All_ in the **Type** box. The system displays in the table all the budget lines of the     forecast revision. As a result, the revenue budget line with the _REVENUE_ account group has again appeared     in the table. Notice that no period lines have been added to the revenue budget line. 
 
@@ -14424,7 +14740,7 @@ You have finished processing a change order for the project commitment.
 
 2. In the **Generate Forecast** dialog box, which opens, leave the default settings and click **OK**.     For the budget line with the _LABOR_ account group, which have period lines, the system equally distributes     original and revised budgeted quantities (40) and amounts ($1,600) among period lines. 
 
-3. For the 01-2025 period line, adjust the automatically distributed values as follows: 
+3. For the 01-2026 period line, adjust the automatically distributed values as follows: 
 
 - **Original Budgeted Quantity** : 30.00 
 
@@ -14436,7 +14752,7 @@ You have finished processing a change order for the project commitment.
 
 4. Save your changes to the forecast revision. The original and revised values in the cost budget of the project     have not yet been updated. 
 
-5. In the table, click the budget line with the _LABOR_ account group, and on the table toolbar, click **Update**     **Project Budget Line**.     The system updates the corresponding budget line of the project with the values from the **Total** line of the     selected line of the forecast revision. The values in the **Delta** line become zero, and the **Delta** line disappears     from the forecast. 
+5. In the table, click the budget line with the _LABOR_ account group, and on the table toolbar, click **Update**     **Project Budget Line**.     The system updates the corresponding budget line of the project with the values from the **Total** line of the     selected line of the forecast revision. The values in the **Delta** line become _0_ , and the **Delta** line disappears     from the forecast. 
 
 6. Save your changes to the forecast revision. 
 
@@ -14452,7 +14768,7 @@ You have finished processing a change order for the project commitment.
 
 2. In the Summary area, specify the following settings: 
 
-- **Module** : _PM_ 
+- **Source** : _PM_ 
 
 - **Description** : A training for employees of HM's Bakery and Cafe 
 
@@ -14460,39 +14776,39 @@ You have finished processing a change order for the project commitment.
 
 
 <!-- PAGE_BREAK -->
- Forecasting Budgets by Periods | 371 
+ Forecasting Budgets by Periods | 378 
 
-4. Make sure that the **Total Amount** in the Summary area is _2,800.00_.     Notice that 20 hours of the training were provided in the 01-2025 period, 40 hours were provided in the     02-2025 period, and 10 hours were provided in the 03-2025 period. 
+4. Make sure that the **Total Amount** in the Summary area is _2,800.00_.     Notice that 20 hours of the training were provided in the 01-2026 period, 40 hours were provided in the     02-2026 period, and 10 hours were provided in the 03-2026 period. 
 
 5. On the form toolbar, click **Save** to save the project transaction, and then click **Release** to release it. 
 
 6. On the _Project Budget Forecast_ (PM209600) form, select _HMBAKERY13_ in the **Project** box and _1_ as the     **Revision**.     In the table, find the **Actual Quantity** and **Actual Amount** columns, and notice that for the project budget     line with the _LABOR_ account group, the values in the **Delta** line in these columns ( _10_ and _400_ , respectively)     are highlighted in red. This means that at least one period for which actual values exist is not displayed in     the forecast revision. 
 
-7. In the table, click the budget line with the _LABOR_ account group, and on the table toolbar, click **Update**     **Forecast Lines**.     The system updates budget line of the forecast revision selected in the table and adds the 03-2025 period     with the actual quantity of 10 and the actual amount of $400. 
+7. In the table, click the budget line with the _LABOR_ account group, and on the table toolbar, click **Update**     **Forecast Lines**.     The system updates budget line of the forecast revision selected in the table and adds the 03-2026 period     with the actual quantity of 10 and the actual amount of $400. 
 
-8. To analyze monthly cost budget versus actual expenses and control the cost budget performance by     periods, for the budget line with the _LABOR_ account group, review the value in the **Revised Quantity -**     **Actual Quantity** and **Revised Amount - Actual Amount** columns for the following financial periods (see the     screenshot below): 
+8. To analyze monthly cost budget versus actual expenses and control the cost budget performance by     periods, for the budget line with the _LABOR_ account group, review the value in the **Revised Quantity -**     **Actual Quantity** and **Revised Amount - Actual Amount** columns for the following financial periods (see     below): 
 
-- 01-2025: The company provided 10 hours of training less than it was planned. 
+- 01-2026: The company provided 10 hours of training less than it was planned. 
 
-- 02-2025: The training was performed as it was planned. 
+- 02-2026: The training was performed as it was planned. 
 
-- 03-2025: The company provided 10 hours of training more than it was planned. 
+- 03-2026: The company provided 10 hours of training more than it was planned. 
 
  Figure: Tracking budget performance by periods 
 
 9. Save your changes to the forecast revision. 
 
- You have finished creating a forecasting budget for the project for the specified periods. 
+You have finished creating a forecasting budget for the project for the specified periods. 
+
+
+<!-- PAGE_BREAK -->
+ Forecasting Budgets by Periods | 379 
 
 ### Project Budget Forecasts: Generation of Periods 
 
  For a forecast revision selected on the Project Budget Forecast (PM209600) form, you can make the system automatically add financial periods for all the project budget lines listed in the table according to the selection criteria specified in the Selection area. 
 
  When you click Generate Periods on the form toolbar, for each line listed in the table, the system adds periods of the master calendar in the range of periods that it selects as follows: 
-
-
-<!-- PAGE_BREAK -->
- Forecasting Budgets by Periods | 372 
 
 - As the starting financial period of the range, the system selects the earliest of the following periods, subject     to the additional conditions specified: 
 
@@ -14526,6 +14842,10 @@ You have finished processing a change order for the project commitment.
 
  The DistributeRound function rounds the value and returns 240 , which is the nearest number on the log scale. The leover for the last period line is 1,176.00 ((rowCount 1) * 240) = 216. 
 
+
+<!-- PAGE_BREAK -->
+ Forecasting Budgets by Periods | 380 
+
  Thus, the distribution function splits the original budgeted amount among five period lines as follows: 
 
 - _240.00_ : Period lines from the first one to the fourth 
@@ -14535,10 +14855,6 @@ You have finished processing a change order for the project commitment.
 ### Project Budget Forecasts: Related Reports and Inquiries 
 
  In the following sections, you can find details about the reports and inquiry forms you may want to review to gather information about project budget forecasts. 
-
-
-<!-- PAGE_BREAK -->
- Forecasting Budgets by Periods | 373 
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
 
@@ -14552,7 +14868,7 @@ You have finished processing a change order for the project commitment.
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Project Expenses | 374 
+ Reclassifying Project Expenses | 381 
 
 ## Reclassifying Project Expenses 
 
@@ -14604,7 +14920,7 @@ You have finished processing a change order for the project commitment.
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Project Expenses | 375 
+ Reclassifying Project Expenses | 382 
 
  AP transaction based on the updated bill details. In the bill, the link to the original AP transaction is replaced with a link to the newly generated AP transaction. 
 
@@ -14626,11 +14942,11 @@ You have finished processing a change order for the project commitment.
 
 
 <!-- PAGE_BREAK -->
-Reclassifying Project Expenses | **376** 
+Reclassifying Project Expenses | **383** 
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Project Expenses | 377 
+ Reclassifying Project Expenses | 384 
 
 ### Project Expense Reclassification: Implementation Checklist 
 
@@ -14642,7 +14958,7 @@ Reclassifying Project Expenses | **376**
 
  Form Criteria to Check 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about the configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -14668,7 +14984,7 @@ Reclassifying Project Expenses | **376**
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Project Expenses | 378 
+ Reclassifying Project Expenses | 385 
 
  The following table shows the journal entries of the reversing batch. 
 
@@ -14714,7 +15030,7 @@ Reclassifying Project Expenses | **376**
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Project Expenses | 379 
+ Reclassifying Project Expenses | 386 
 
 #### Project Transaction with Reclassified Values 
 
@@ -14762,7 +15078,7 @@ Reclassifying Project Expenses | **376**
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Project Expenses | 380 
+ Reclassifying Project Expenses | 387 
 
 - The bill is linked to a service order or appointment. A project-related bill cannot be reclassified if any of the following criteria are met: 
 
@@ -14804,7 +15120,7 @@ Reclassifying Project Expenses | **376**
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Project Expenses | 381 
+ Reclassifying Project Expenses | 388 
 
 #### Reviewing Reclassified Bills 
 
@@ -14818,7 +15134,7 @@ Reclassifying Project Expenses | **376**
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Project-Related GL Transactions | 382 
+ Reclassifying Project-Related GL Transactions | 389 
 
 ## Reclassifying Project-Related GL Transactions 
 
@@ -14864,7 +15180,7 @@ Reclassifying Project Expenses | **376**
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Project-Related GL Transactions | 383 
+ Reclassifying Project-Related GL Transactions | 390 
 
 - The project ( **To Project** column). The transaction amount will be moved to the project or non-project code     specified in this column from the originally specified project or non-project code ( **Project** column). 
 
@@ -14884,11 +15200,11 @@ Reclassifying Project Expenses | **376**
 
 
 <!-- PAGE_BREAK -->
-Reclassifying Project-Related GL Transactions | **384** 
+Reclassifying Project-Related GL Transactions | **391** 
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Project-Related GL Transactions | 385 
+ Reclassifying Project-Related GL Transactions | 392 
 
 ### Transaction Reclassification: Implementation Checklist 
 
@@ -14896,7 +15212,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
  Form Criteria to Check 
 
- Enable/Disable Features (CS100000) form Make sure the Standard Financials and Project Accounting features have been enabled. 
+ Enable/Disable Features (CS100000) form Make sure the Standard Financials and Projects features have been enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about the configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -14928,7 +15244,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Project-Related GL Transactions | 386 
+ Reclassifying Project-Related GL Transactions | 393 
 
  You can find and view transactions of the Reclassification type on the Journal Transactions (GL301000) form. On this form, in the Orig. Batch Nbr. column of the table, the reclassified journal entries contain links to the original general ledger transactions (that is, to the batches generated for the transactions). 
 
@@ -14976,7 +15292,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Project-Related GL Transactions | 387 
+ Reclassifying Project-Related GL Transactions | 394 
 
 #### Finding Reclassification Transactions for a Particular Account 
 
@@ -15014,7 +15330,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Reclassifying Project-Related GL Transactions | 388 
+ Reclassifying Project-Related GL Transactions | 395 
 
  You can reclassify GL entries posted on release of AR and AP documents to income and expense accounts. 
 
@@ -15028,7 +15344,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Cost-Plus Projects | 389 
+ Accounting for WIP Labor Costs in Cost-Plus Projects | 396 
 
 ## Accounting for WIP Labor Costs in Cost-Plus Projects 
 
@@ -15070,7 +15386,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Cost-Plus Projects | 390 
+ Accounting for WIP Labor Costs in Cost-Plus Projects | 397 
 
 - **Account Group From** ( **Selection Criteria** section): The account group that starts the range of account     groups whose transactions are involved in the allocation step. 
 
@@ -15090,7 +15406,9 @@ Reclassifying Project-Related GL Transactions | **384**
 
 - **Reverse Allocation** ( **Transaction Reversal** section): _On AR Invoice Generation_ or _On AR Invoice Release_     With this setting, the allocation transaction is reversed automatically when an AR invoice is generated based     on the allocation transactions or when this AR invoice is released, respectively. 
 
-- **Account Origin** ( **Debit Transaction** section): _Replace_ with a WIP account     With this setting, the system generates an allocation transaction that debits the specified WIP account. The     account must be mapped to a dedicated WIP account group that reflects the allocated amount and that you     will later use in the billing rule. 
+- **Account Origin** ( **Debit Transaction** section): _Replace_ 
+
+- **Replace Account Origin With** : A WIP account     With this setting, the system generates an allocation transaction that debits the specified WIP account. The     account must be mapped to a dedicated WIP account group that reflects the allocated amount and that you     will later use in the billing rule. 
 
 - **Account Origin** ( **Credit Transaction** section): _Debit Source_     With this setting, the system generates an allocation transaction that credits the debit account of the source     transaction. 
 
@@ -15106,11 +15424,11 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Cost-Plus Projects | 391 
+ Accounting for WIP Labor Costs in Cost-Plus Projects | 398 
 
  description to such a batch. For the project transactions that have been used as a source of the allocation, the system selects the Allocated check box on the Project Transaction Details (PM401000) form. 
 
- When you bill a cost-plus project, the system automatically reverses the allocation transactions on creation or release of the accounts receivable document, depending on the settings of the corresponding allocation rule. Reversing allocation transactions copy original allocation transactions and reverse the sign of the amount. Allocation transactions are always reversed in the full amount. The reversing clears the WIP account group and moves the allocated costs back to the original accounts in the financial period the AR document created in. 
+ When you bill a cost-plus project, the system automatically reverses the allocation transactions on creation or release of the accounts receivable document, depending on the settings of the corresponding allocation rule. Reversing allocation transactions copy original allocation transactions and reverse the sign of the amount. Allocation transactions are always reversed in the full amount. The reversing clears the WIP account group and moves the allocated costs back to the original accounts in the financial period of the AR document. 
 
 ### WIP Labor Costs in Cost-Plus Projects: Implementation Checklist 
 
@@ -15122,7 +15440,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -15134,13 +15452,11 @@ Reclassifying Project-Related GL Transactions | **384**
 
  Billing Rules (PM207000) form Make sure that all the needed billing rules have been configured to process allocation transactions posted to the WIP account group. For details on configuring billing rules, see Billing Rules: General Information. 
 
+ Projects (PM301000) Make sure that the project has been created, as described in Project Creation and Processing: General Information. 
+
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Cost-Plus Projects | 392 
-
- Form Tasks to Perform 
-
- Projects (PM301000) Make sure that the project has been created, as described in Project Creation and Processing: General Information. 
+ Accounting for WIP Labor Costs in Cost-Plus Projects | 399 
 
 #### Other Settings That Affect the Workflow 
 
@@ -15154,7 +15470,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
  The following implementation activity will walk you through the process of configuring an allocation rule for workin-progress labor. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -15164,7 +15480,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Account Groups_ (PM201000) form, the _WIP_ account group has been created; the _12400 - Work in_     _Progress_ account has been mapped to the account group. 
 
@@ -15172,13 +15488,13 @@ Reclassifying Project-Related GL Transactions | **384**
 
  You will configure an allocation rule for work-in-progress labor on the Allocation Rules (PM207500) form. 
 
-
-<!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Cost-Plus Projects | 393 
-
 #### System Preparation 
 
  To prepare to perform the instructions of the activity, launch the Acumatica ERP website, and sign in to a company with the U100 dataset preloaded; you should sign in as system administrator by using the gibbs username and the 123 password. 
+
+
+<!-- PAGE_BREAK -->
+ Accounting for WIP Labor Costs in Cost-Plus Projects | 400 
 
 #### Step: Configuring an Allocation Rule 
 
@@ -15188,7 +15504,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 2. In the Summary area, specify the following settings: 
 
-- **Allocation Rule** : WIPCP 
+- **Allocation Rule** : WIPCOSTPLUS 
 
 - **Description** : WIP allocation 
 
@@ -15204,21 +15520,21 @@ Reclassifying Project-Related GL Transactions | **384**
 
 - **Create Allocation Transaction** : Selected 
 
-- **Select Transactions** ( **Selection Criteria** section): _Non-Allocated Transactions_ 
+- **Select Transactions** : _Non-Allocated Transactions_ 
 
-- **Account Group From** ( **Selection Criteria** section): _LABOR_ 
+- **Account Group From** : _LABOR_ 
 
-- **Account Group To** ( **Selection Criteria** section): Empty     Based on this setting and the previous setting, with this step, the allocation rule processes only     transactions of the _LABOR_ account group. 
+- **Account Group To** : Empty     Based on this setting and the previous setting, with this step, the allocation rule processes only     transactions of the _LABOR_ account group. 
 
-- **If @Rate Is Not Defined** ( **Calculation Settings** section): _Set @Rate to 0_ 
+- **If @Rate Is Not Defined** : _Set @Rate to 0_ 
 
-- **Quantity Formula** ( **Calculation Settings** section): =[PMTran.Qty] 
+- **Quantity Formula** : =[PMTran.Qty] 
 
-- **Billable Qty. Formula** ( **Calculation Settings** section): =[PMTran.BillableQty] 
+- **Billable Qty. Formula** : =[PMTran.BillableQty] 
 
-- **Amount Formula** ( **Calculation Settings** section): =[PMTran.Amount] 
+- **Amount Formula** : =[PMTran.Amount] 
 
-- **Description Formula** ( **Calculation Settings** section): ='WIP allocation transaction' 
+- **Description Formula** : ='WIP allocation transaction' 
 
 5. In the right pane, on the **Allocation Settings** tab, specify the following settings for the step selected in the     le pane: 
 
@@ -15226,7 +15542,9 @@ Reclassifying Project-Related GL Transactions | **384**
 
 - **Reverse Allocation** ( **Transaction Reversal** section): _On AR Invoice Release_     With this setting, the allocation transaction is reversed automatically when an AR invoice generated     based on this allocation transaction is released. 
 
-- **Account Origin** ( **Debit Transaction** section): _Replace_ with _12400 (Work in Progress)_     With this setting, the system generates an allocation transaction that debits the specified account—that     is, the _12400 (Work in Progress)_ account, which is mapped to the _WIP_ account group. 
+- **Account Origin** ( **Debit Transaction** section): _Replace_ 
+
+- **Replace Account Origin With** : _12400 (Work in Progress)_     With this setting, the system generates an allocation transaction that debits the specified account—that     is, the _12400 (Work in Progress)_ account, which is mapped to the _WIP_ account group. 
 
 - **Account Origin** ( **Credit Transaction** section): _Debit Source_ 
 
@@ -15238,19 +15556,19 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Cost-Plus Projects | 394 
+ Accounting for WIP Labor Costs in Cost-Plus Projects | 401 
 
 ### WIP Labor Costs in Cost-Plus Projects: Process Activity 
 
  In this activity, you will learn how to temporarily allocate project expenses to a work-in-progress account group and then use the allocation transactions for billing. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that in January, the West BBQ Restaurant customer ordered training for new employees on the operation of juicers from the SweetLife Fruits & Jams company. The customer did not know the exact number of employees or the number of training sessions that would be needed. The SweetLife company agreed with the customer to provide as many training sessions as the customer needed in January and February. Further, both parties agreed that on 2/25/2025 , the customer would pay for all the hours of training sessions that took place. 
+ Suppose that in January, the West BBQ Restaurant customer ordered training for new employees on the operation of juicers from the SweetLife Fruits & Jams company. The customer did not know the exact number of employees or the number of training sessions that would be needed. The SweetLife company agreed with the customer to provide as many training sessions as the customer needed in January and February. Further, both parties agreed that on 2/25/2026 , the customer would pay for all the hours of training sessions that took place. 
 
- The project manager of SweetLife created a project for this work. Then suppose that on 1/21/2025 , a consultant of SweetLife provided eight hours of training and logged the time spent by creating and releasing a time card in Acumatica ERP. In February, no additional training sessions were needed. 
+ The project manager of SweetLife created a project for this work. Then suppose that on 1/21/2026 , a consultant of SweetLife provided eight hours of training and logged the time spent by creating and releasing a time card in Acumatica ERP. In February, no additional training sessions were needed. 
 
  Acting as SweetLife's project accountant, you need to bill the customer, and you want the project expense incurred in January to be recorded in the same financial period as the project revenue—that is, in February. You will allocate the project expenses and bill the project. 
 
@@ -15258,7 +15576,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Projects_ (PM301000) form, the _WESTBBQ6A_ project has been created and the _TRAINING_ task has been     created for the project. 
 
@@ -15278,7 +15596,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Cost-Plus Projects | 395 
+ Accounting for WIP Labor Costs in Cost-Plus Projects | 402 
 
  (PM401000) form and then perform allocation for the project on the Projects (PM301000) form. On the same form, you will bill the project and release the AR invoice created as a result of the billing on the Invoices and Memos (AR301000) form. The system will create the reversing allocation transactions that you review on the Project Transaction Details form. 
 
@@ -15288,7 +15606,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/25/2025_. If a different date is displayed, click the Business Date menu     button, and select _2/25/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system during this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/25/2026_. If a different date is displayed, click the Business Date menu     button, and select _2/25/2026_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system during this business date. 
 
 #### Step 1: Configuring the Project for Allocation and Allocating the Project 
 
@@ -15306,7 +15624,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 - **Orig. Doc. Type** : The value in this column is _Time Card_ because the transaction has been created based     on the release of the time card created for Pam Brawner for the _WESTBBQ6A_ project. 
 
-- **Fin. Period** : The transaction has been posted to the _01-2025_ financial period. 
+- **Fin. Period** : The transaction has been posted to the _01-2026_ financial period. 
 
 - **Debit Account Group** : The transaction has debited the _LABOR_ account group. 
 
@@ -15324,11 +15642,11 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Cost-Plus Projects | 396 
+ Accounting for WIP Labor Costs in Cost-Plus Projects | 403 
 
 - **Orig. Doc. Type** : The value in this column is _Allocation_ for the new transaction, which means the     transaction is an allocation transaction. 
 
-- **Date** : The date of the allocation transaction is the same as the date of the original transaction. Thus,     the allocation transaction has been posted to _01-2025_ , which is the same financial period to which the     original transaction was posted. 
+- **Date** : The date of the allocation transaction is the same as the date of the original transaction. Thus,     the allocation transaction has been posted to _01-2026_ , which is the same financial period to which the     original transaction was posted. 
 
 - **Debit Account Group** : The allocation transaction has debited the _WIP_ account group. 
 
@@ -15346,11 +15664,11 @@ Reclassifying Project-Related GL Transactions | **384**
 
 1. While you are still reviewing the _WESTBBQ6A_ project on the _Projects_ (PM301000) form, click **Run Billing** on     the form toolbar.     The system creates an AR invoice and opens it on the _Invoices and Memos_ (AR301000) form. 
 
-2. In the Summary area of the form, make sure that the **Date** of the invoice is _2/25/2025_ , which is the current     business date, and that the **Post Period** is _02-2025_. 
+2. In the Summary area of the form, make sure that the **Date** of the invoice is _2/25/2026_ , which is the current     business date, and that the **Post Period** is _02-2026_. 
 
 3. On the form toolbar, click **Remove Hold** to assign the invoice the _Balanced_ status, and then click **Release** to     release the AR invoice. 
 
-4. Open the _Project Transaction Details_ (PM401000) form; in the Selection area, select _WESTBBQ6A_ in the     **Project** box, and make sure the other boxes are cleared.     In the table, notice that two new transactions have been created (see the following screenshot). 
+4. Open the _Project Transaction Details_ (PM401000) form; in the Selection area, select _WESTBBQ6A_ in the     **Project** box, and make sure the other boxes are cleared.     In the table, notice that two new transactions have been created (see below). 
 
  Figure: Project transactions of the WESTBBQ6A project 
 
@@ -15358,15 +15676,15 @@ Reclassifying Project-Related GL Transactions | **384**
 
 - **Orig. Doc. Type** : The values in this column are _Allocation Reversal_ and _Invoice_ for the new transactions,     which means that the first one is a reversing transaction for the allocation transaction, and the second     one originates from the released invoice. 
 
-- **Date** : The date of the new transactions is the invoice date. Thus, the transactions have been posted to     the _02-2025_ financial period. 
+- **Date** : The date of the new transactions is the invoice date. Thus, the transactions have been posted to     the _02-2026_ financial period. 
 
-- **Debit Account Group** : The transaction with the _Allocation Reversal_ original document type has cleared     the _WIP_ account group (debited the account group with an opposite amount) and debited the _LABOR_     account group. This reversing allocation transaction, which moved the expenses back to the original     account group, was created on release of the AR invoice, based on the **Reverse Allocation** setting of the     allocation rule on the **Allocation Settings** tab of the _Allocation Rules_ (PM207500) form. 
+- **Debit Account Group** : The transaction with the _Allocation Reversal_ original document type has cleared     the _WIP_ account group (debited the account group with an opposite amount) and debited the _LABOR_     account group. This reversing allocation transaction, which moved the expenses back to the original 
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Cost-Plus Projects | 397 
+ Accounting for WIP Labor Costs in Cost-Plus Projects | 404 
 
- The transaction with the Invoice original document type has debited the REVENUE account group with the amount calculated with the billing rule of the project task. 
+ account group, was created on release of the AR invoice, based on the Reverse Allocation setting of the allocation rule on the Allocation Settings tab of the Allocation Rules (PM207500) form. The transaction with the Invoice original document type has debited the REVENUE account group with the amount calculated with the billing rule of the project task. 
 
 - **Released** : This check box is selected for all the transactions, including the transaction with the _Allocation_     _Reversal_ original document type, indicating that all the transactions have been released. 
 
@@ -15402,11 +15720,11 @@ Reclassifying Project-Related GL Transactions | **384**
 
  The system assigns one of the following descriptions to the reversing batch, depending on when the reversing batch is created according to the option selected in the Reverse Allocation box on the Allocation Settings tab ( Transaction Reversal section) of the Allocation Rules (PM207500) form: 
 
-- _Allocation Reversal on AR Invoice Release_ : The batch is created with the _Released_ status on the release of the     corresponding accounts receivable document based on the _On AR Invoice Release_ option of the allocation     rule. 
-
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Cost-Plus Projects | 398 
+ Accounting for WIP Labor Costs in Cost-Plus Projects | 405 
+
+- _Allocation Reversal on AR Invoice Release_ : The batch is created with the _Released_ status on the release of the     corresponding accounts receivable document based on the _On AR Invoice Release_ option of the allocation     rule. 
 
 - _Allocation Reversal on AR Invoice Generation_ : The batch is created on the creation of the corresponding     accounts receivable document based on the _On AR Invoice Generation_ option of the allocation rule.     If the accounts receivable document is created with the _Balanced_ status, the reversing batch is also created     with the _Balanced_ status. The reversing batch is automatically released or deleted when the corresponding     accounts receivable document is released or deleted, respectively. 
 
@@ -15436,15 +15754,13 @@ Reclassifying Project-Related GL Transactions | **384**
 
  The report shows the project transactions that the signed-in user has access rights to view. 
 
-#### Reviewing Project Balances 
-
- You can review the project budget broken down by account group on the Balances tab of the Projects (PM301000) form. To review the corresponding project transactions of an account group, including allocation transactions and 
-
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Cost-Plus Projects | 399 
+ Accounting for WIP Labor Costs in Cost-Plus Projects | 406 
 
- reversing allocation transactions, you click the line with this account group; then on the table toolbar, you click View Transactions , and the system opens the Project Transaction Details (PM401000) form. 
+#### Reviewing Project Balances 
+
+ You can review the project budget broken down by account group on the Balances tab of the Projects (PM301000) form. To review the corresponding project transactions of an account group, including allocation transactions and reversing allocation transactions, you click the line with this account group; then on the table toolbar, you click View Transactions , and the system opens the Project Transaction Details (PM401000) form. 
 
 ### WIP Labor Costs in Cost-Plus Projects: Mass-Processing of Documents 
 
@@ -15464,7 +15780,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Fixed-Price Projects | 400 
+ Accounting for WIP Labor Costs in Fixed-Price Projects | 407 
 
 ## Accounting for WIP Labor Costs in Fixed-Price Projects 
 
@@ -15506,7 +15822,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Fixed-Price Projects | 401 
+ Accounting for WIP Labor Costs in Fixed-Price Projects | 408 
 
 - **Account Group From** ( **Selection Criteria** section): The account group that starts the range of account     groups whose transactions are involved in the allocation step. 
 
@@ -15542,7 +15858,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Fixed-Price Projects | 402 
+ Accounting for WIP Labor Costs in Fixed-Price Projects | 409 
 
  description to such a batch. For the project transactions that have been used as a source of the allocation, the system selects the Allocated check box on the Project Transaction Details (PM401000) form. 
 
@@ -15558,7 +15874,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -15572,7 +15888,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Fixed-Price Projects | 403 
+ Accounting for WIP Labor Costs in Fixed-Price Projects | 410 
 
  Form Tasks to Perform 
 
@@ -15592,7 +15908,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
  The following implementation activity will walk you through the process of configuring an allocation rule for workin-progress labor. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -15604,13 +15920,13 @@ Reclassifying Project-Related GL Transactions | **384**
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Account Groups_ (PM201000) form, the _WIP_ account group has been created; the _12400 - Work in_     _Progress_ account has been mapped to the account group. 
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Fixed-Price Projects | 404 
+ Accounting for WIP Labor Costs in Fixed-Price Projects | 411 
 
 #### Process Overview 
 
@@ -15644,21 +15960,21 @@ Reclassifying Project-Related GL Transactions | **384**
 
 - **Create Allocation Transaction** : Selected 
 
-- **Select Transactions** ( **Selection Criteria** section): _Non-Allocated Transactions_ 
+- **Select Transactions** : _Non-Allocated Transactions_ 
 
-- **Account Group From** ( **Selection Criteria** section): _LABOR_ 
+- **Account Group From** : _LABOR_ 
 
-- **Account Group To** ( **Selection Criteria** section): Empty     Based on this setting and the previous setting, with this step, the allocation rule processes only     transactions of the _LABOR_ account group. 
+- **Account Group To** : Empty     Based on this setting and the previous setting, with this step, the allocation rule processes only     transactions of the _LABOR_ account group. 
 
-- **If @Rate Is Not Defined** ( **Calculation Settings** section): _Set @Rate to 0_ 
+- **If @Rate Is Not Defined** : _Set @Rate to 0_ 
 
-- **Quantity Formula** ( **Calculation Settings** section): =[PMTran.Qty] 
+- **Quantity Formula** : =[PMTran.Qty] 
 
-- **Billable Qty. Formula** ( **Calculation Settings** section): =[PMTran.BillableQty] 
+- **Billable Qty. Formula** : =[PMTran.BillableQty] 
 
-- **Amount Formula** ( **Calculation Settings** section): =[PMTran.Amount] 
+- **Amount Formula** : =[PMTran.Amount] 
 
-- **Description Formula** ( **Calculation Settings** section): ='WIP allocation transaction' 
+- **Description Formula** : ='WIP allocation transaction' 
 
 5. In the right pane, on the **Allocation Settings** tab, specify the following settings of the step selected in the     le pane: 
 
@@ -15674,7 +15990,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Fixed-Price Projects | 405 
+ Accounting for WIP Labor Costs in Fixed-Price Projects | 412 
 
  You have configured the allocation rule that can be used for allocating work-in-progress labor expenses of a costplus project. To allocate the expenses of a project by using this rule, you need to assign the rule to the project tasks. To review how a project is being allocated by using the allocation rule, complete WIP Labor Costs in Fixed-Price Projects: Process Activity. 
 
@@ -15682,13 +15998,13 @@ Reclassifying Project-Related GL Transactions | **384**
 
  In this activity, you will learn how to temporarily allocate project expenses to a work-in-progress account group and bill the project without using allocation transactions as a basis for billing. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that in January, the West BBQ Restaurant customer ordered training on operating juicers for 10 employees from the SweetLife Fruits & Jams company. The parties were not able to determine how many training sessions would be needed for the employees to master the use of the juicers. The SweetLife company agreed with the customer to provide as many training sessions as the customer needed in January and February, and that 2/25/2025 , the customer would pay $80 for each employee who attended these training sessions. 
+ Suppose that in January, the West BBQ Restaurant customer ordered training on operating juicers for 10 employees from the SweetLife Fruits & Jams company. The parties were not able to determine how many training sessions would be needed for the employees to master the use of the juicers. The SweetLife company agreed with the customer to provide as many training sessions as the customer needed in January and February, and that 2/25/2026 , the customer would pay $80 for each employee who attended these training sessions. 
 
- SweetLife's project manager has created a project for this work. Then suppose that 1/21/2025 , a consultant of SweetLife provided eight hours of training and logged the time spent by creating and releasing a time card in Acumatica ERP. All 10 of the customer's employees attended that training session, and no more training sessions were needed in February. 
+ SweetLife's project manager has created a project for this work. Then suppose that 1/21/2026 , a consultant of SweetLife provided eight hours of training and logged the time spent by creating and releasing a time card in Acumatica ERP. All 10 of the customer's employees attended that training session, and no more training sessions were needed in February. 
 
  Acting as SweetLife's project accountant, you need to bill the customer, and you want the project expense incurred in January to be recorded in the same financial period as the project revenue—that is, in February. You will allocate the project expenses and bill the project. 
 
@@ -15696,9 +16012,9 @@ Reclassifying Project-Related GL Transactions | **384**
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
-- On the _Projects_ (PM301000) form, the _WESTBBQ6B_ project has been created an the _TRAINING_ task has been     created for the project. 
+- On the _Projects_ (PM301000) form, the _WESTBBQ6B_ project has been created and the _TRAINING_ task has been     created for the project. 
 
 - On the _Account Groups_ (PM201000) form, the _WIP_ and _LABOR_ account groups have been created; also, the     _12400 - Work in Progress_ account has been mapped to the _WIP_ account group. 
 
@@ -15712,7 +16028,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Fixed-Price Projects | 406 
+ Accounting for WIP Labor Costs in Fixed-Price Projects | 413 
 
 #### Process Overview 
 
@@ -15724,7 +16040,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/25/2025_. If a different date is displayed, click the Business Date menu     button, and select _2/25/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system during this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/25/2026_. If a different date is displayed, click the Business Date menu     button, and select _2/25/2026_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system during this business date. 
 
 #### Step 1: Configuring the Project for Allocation and Allocating the Project 
 
@@ -15738,7 +16054,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 2. On the _Project Transaction Details_ (PM401000) form, in the Selection area, select _WESTBBQ6B_ in the **Project**     box.     In the table, review the only project transaction and notice the values in the following columns: 
 
-- **Fin. Period** : The transaction has been posted to the 01-2025 financial period. 
+- **Fin. Period** : The transaction has been posted to the 01-2026 financial period. 
 
 - **Debit Account Group** : The transaction has debited the _LABOR_ account group. 
 
@@ -15754,13 +16070,13 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Fixed-Price Projects | 407 
+ Accounting for WIP Labor Costs in Fixed-Price Projects | 414 
 
  When the allocation is completed, on the Balances tab, review the project balance again. Notice that the actual amount of project expenses has been moved from the LABOR account group to the WIP account group. 
 
 5. On the _Project Transaction Details_ form, in the Summary area, make sure _WESTBBQ6B_ is selected in the     **Project** box.     In the table, notice that a new transaction has appeared. Review the transaction, noticing the values in the     following columns: 
 
-- **Date** : The date of the allocation transaction is the same as the date of the original transaction. Thus,     the allocation transaction has been posted to 01-2025, which is the same financial period to which the     original transaction was posted. 
+- **Date** : The date of the allocation transaction is the same as the date of the original transaction. Thus,     the allocation transaction has been posted to 01-2026, which is the same financial period to which the     original transaction was posted. 
 
 - **Debit Account Group** : The allocation transaction has debited the _WIP_ account group. 
 
@@ -15782,15 +16098,15 @@ Reclassifying Project-Related GL Transactions | **384**
 
 3. On the form toolbar, click **Save** to your changes to the project, and then click **Run Billing**.     The system creates an AR invoice and opens it on the _Invoices and Memos_ (AR301000) form. 
 
-4. In the Summary area of the form, make sure that the **Date** of the invoice is _2/25/2025_ , which is the current     business date, and that the **Post Period** is _02-2025_. 
+4. In the Summary area of the form, make sure that the **Date** of the invoice is _2/25/2026_ , which is the current     business date, and that the **Post Period** is _02-2026_. 
 
 5. On the form toolbar, click **Remove Hold** to assign the accounts receivable invoice the _Balanced_ status, and     then click **Release** to release the AR invoice. 
 
-6. Open the _Project Transaction Details_ (PM401000) form, and in the Selection area, select _WESTBBQ6B_ in the     **Project** box.     In the table, notice that two new transactions have been created, as shown in the following screenshot. 
+6. Open the _Project Transaction Details_ (PM401000) form, and in the Selection area, select _WESTBBQ6B_ in the     **Project** box.     In the table, notice that two new transactions have been created, as shown below. 
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Fixed-Price Projects | 408 
+ Accounting for WIP Labor Costs in Fixed-Price Projects | 415 
 
  Figure: Project transactions of the WESTBBQ6B project 
 
@@ -15798,7 +16114,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 - **Orig. Doc. Type** : The value in this column is _WIP Reversal_ and _AR Invoice_ for the new transactions, which     means that the first one is a reversing transaction and the second one originates from the released     invoice. 
 
-- **Date** : The date of the new transactions is the invoice date. Thus, the transactions have been posted to     the _02-2025_ financial period. 
+- **Date** : The date of the new transactions is the invoice date. Thus, the transactions have been posted to     the _02-2026_ financial period. 
 
 - **Debit Account Group** : The transaction with the _WIP Reversal_ original document type has cleared the     _WIP_ account group (debited the account group with an opposite amount) and the _LABOR_ account group     (credited the account group with an opposite amount)). This reversing transaction was created on     project billing to clear the WIP account group selected for the project task.     The transaction with the _AR Invoice_ original document type has debited the _REVENUE_ account group with     the amount calculated with the billing rule of the project task. The transaction was created on release of     the AR invoice. 
 
@@ -15814,13 +16130,13 @@ Reclassifying Project-Related GL Transactions | **384**
 
  When you allocate projects, the system creates allocation transactions based on the settings of the allocation rules associated with the project tasks. Depending on the settings of the allocation rules and project tasks, the system also can create reversing allocation transactions. These transactions are described in the following sections. 
 
+
+<!-- PAGE_BREAK -->
+ Accounting for WIP Labor Costs in Fixed-Price Projects | 416 
+
 #### Allocation Transactions Generated on Allocation of a Project 
 
  When a project is allocated, the system generates a batch of the allocation transactions shown in the table below. The system assigns the Allocation for <Project ID> description to the generated batch. 
-
-
-<!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Fixed-Price Projects | 409 
 
  The system uses the following accounts as the source accounts in the batch it creates: 
 
@@ -15854,11 +16170,13 @@ Reclassifying Project-Related GL Transactions | **384**
 
 #### Reviewing Allocation Transactions 
 
- You can review the list of all the corresponding allocation transactions of a project, including reversing allocation transactions, on the Project Transaction Details (PM401000) form. In the Selection area of this form, you select the project, as well as the project task, account group, and inventory item to narrow the listed project transactions. You can review only allocation transactions on the Allocation Transactions tab. The Allocation type in the Orig. Doc. Type column corresponds to allocation transactions. The WIP Reversal type in the Orig. Doc. Type column corresponds to reversing allocation transactions. 
+ You can review the list of all the corresponding allocation transactions of a project, including reversing allocation transactions, on the Project Transaction Details (PM401000) form. In the Selection area of this form, you select the 
 
 
 <!-- PAGE_BREAK -->
- Accounting for WIP Labor Costs in Fixed-Price Projects | 410 
+ Accounting for WIP Labor Costs in Fixed-Price Projects | 417 
+
+ project, as well as the project task, account group, and inventory item to narrow the listed project transactions. You can review only allocation transactions on the Allocation Transactions tab. The Allocation type in the Orig. Doc. Type column corresponds to allocation transactions. The WIP Reversal type in the Orig. Doc. Type column corresponds to reversing allocation transactions. 
 
  The project transactions that have already been used as a source of allocation transactions have the check box selected in the Allocated column. 
 
@@ -15888,13 +16206,17 @@ Reclassifying Project-Related GL Transactions | **384**
 
  To initiate processing for all the project tasks listed in the table of the Run Allocations by Tasks form, you click Allocate All on the form toolbar. The system initiates allocation for all the project tasks listed in the table. 
 
+
+<!-- PAGE_BREAK -->
+ Accounting for WIP Labor Costs in Fixed-Price Projects | 418 
+
 #### Mass-Releasing Reversing Allocation Transaction 
 
  To mass-release project transactions, including reversing allocation transaction, you use the Release Transactions (PM501000) form. On this form, you select the unlabeled check boxes in the rows of the transactions to be released and click Release on the form toolbar to process the selected transactions; alternatively, you can click Release All to process all the transactions shown in the table. 
 
 
 <!-- PAGE_BREAK -->
- Capturing Project Overhead | 411 
+ Capturing Project Overhead | 419 
 
 ## Capturing Project Overhead 
 
@@ -15938,7 +16260,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Capturing Project Overhead | 412 
+ Capturing Project Overhead | 420 
 
  You usually do not need to calculate the overhead quantity. 
 
@@ -15972,11 +16294,11 @@ Reclassifying Project-Related GL Transactions | **384**
 
  Form Tasks to Perform 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting feature is enabled. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects feature is enabled. 
 
 
 <!-- PAGE_BREAK -->
- Capturing Project Overhead | 413 
+ Capturing Project Overhead | 421 
 
  Form Tasks to Perform 
 
@@ -16000,7 +16322,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
  The following implementation activity will walk you through the process of configuring an allocation rule for capturing the overhead for projects. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -16010,13 +16332,13 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Capturing Project Overhead | 414 
+ Capturing Project Overhead | 422 
 
 #### Configuration Overview 
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Account Groups_ (PM201000) form, the _OVERHEAD_ and _LABOR_ account groups have been created. 
 
@@ -16052,21 +16374,21 @@ Reclassifying Project-Related GL Transactions | **384**
 
 - **Create Allocation Transaction** : Selected 
 
-- **Select Transactions** ( **Selection Criteria** section): _Non-Allocated Transactions_ 
+- **Select Transactions** : _Non-Allocated Transactions_ 
 
-- **Account Group From** ( **Selection Criteria** section): _LABOR_ 
+- **Account Group From** : _LABOR_ 
 
-- **Account Group To** ( **Selection Criteria** section): Empty     Based on this setting and the previous setting, with this step, the allocation rule processes only     transactions of the _LABOR_ account group. 
+- **Account Group To** : Empty     Based on this setting and the previous setting, with this step, the allocation rule processes only     transactions of the _LABOR_ account group. 
 
-- **If @Rate Is Not Defined** ( **Calculation Settings** section): _Set @Rate to 0_     You will not use rates to calculate the amount of the allocation transaction. 
+- **If @Rate Is Not Defined** : _Set @Rate to 0_     You will not use rates to calculate the amount of the allocation transaction. 
 
-- **Quantity Formula** ( **Calculation Settings** section): =0 
+- **Quantity Formula** : =0 
 
-- **Billable Qty. Formula** ( **Calculation Settings** section): =0 
+- **Billable Qty. Formula** : =0 
 
-- **Amount Formula** ( **Calculation Settings** section): =[PMTran.Amount]*0.2     You calculate the overhead amount as 20% of the transaction amount. 
+- **Amount Formula** : =[PMTran.Amount]*0.2     You calculate the overhead amount as 20% of the transaction amount. 
 
-- **Description Formula** ( **Calculation Settings** section): ='Project overhead for labor' 
+- **Description Formula** : ='Project overhead for labor' 
 
 5. In the right pane, on the **Allocation Settings** tab, specify the following settings of the allocation step: 
 
@@ -16076,11 +16398,13 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Capturing Project Overhead | 415 
+ Capturing Project Overhead | 423 
 
  The project overhead is not considered in billing and you do not need to create reversing allocation transactions. 
 
-- **Account Group** ( **Debit Transaction** section): _Replace_ with _OVERHEAD_     With this setting, the system generates an allocation transaction that debits the specified account group     —that is, the _OVERHEAD_ account group. 
+- **Account Group** ( **Debit Transaction** section): _Replace_ 
+
+- **Replace Account Group With** : _OVERHEAD_     With this setting, the system generates an allocation transaction that debits the specified account group     —that is, the _OVERHEAD_ account group. 
 
 - **Account Group** ( **Credit Transaction** section): _None_ 
 
@@ -16094,13 +16418,13 @@ Reclassifying Project-Related GL Transactions | **384**
 
  In this activity, you will learn how to estimate the project overhead calculated based on the project costs. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
  Suppose that the West BBQ Restaurant customer ordered 40 hours of new-employee training on operating juicers from the SweetLife Fruits & Jams company. The parties agreed that the project should be billed in the amount of $2,000 when the services were provided. 
 
- SweetLife's project manager created a project to account for the provided services. Then suppose that starting from 1/27/2025, a consultant of SweetLife provided three days of training (24 hours) and SweetLife's project accountant entered the corresponding project transaction. 
+ SweetLife's project manager created a project to account for the provided services. Then suppose that starting from 1/27/2026, a consultant of SweetLife provided three days of training (24 hours) and SweetLife's project accountant entered the corresponding project transaction. 
 
  Acting as the project accountant, while preparing monthly reports for the project manager, you need to estimate the project costs that have been already incurred considering the administrative overhead, which is 20% of labor costs. 
 
@@ -16108,7 +16432,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- For the purposes of this activity, on the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_     feature has been enabled to support the project accounting functionality. 
+- For the purposes of this activity, on the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has     been enabled to support the project management functionality. 
 
 - On the _Projects_ (PM301000) form, the _WESTBBQ8_ project has been created an the _TRAINING_ task has been     created for the project. 
 
@@ -16120,7 +16444,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Capturing Project Overhead | 416 
+ Capturing Project Overhead | 424 
 
 #### Process Overview 
 
@@ -16132,11 +16456,11 @@ Reclassifying Project-Related GL Transactions | **384**
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step: Capturing Project Overhead 
 
- To configure the project for allocation and capture the project overhead, do the following: 
+ To set up the project for allocation and capture the project overhead, do the following: 
 
 1. On the _Projects_ (PM301000) form, open the _WESTBBQ8_ project. 
 
@@ -16144,13 +16468,13 @@ Reclassifying Project-Related GL Transactions | **384**
 
 3. Save your changes to the project.     On the **Balances** tab, notice that there is only one expense line with the _LABOR_ account group, and the     actual amount is $960. 
 
-4. On the More menu, under **Billing and Allocations** , click **Run Allocation**.     The system performs the allocation using the allocation rule you have specified for the project task.     When the allocation is completed, on the **Balances** tab, review the project balance again, as shown in the     following screenshot. Notice that one more expense line with the _OVERHEAD_ account group has appeared in     the table. The actual amount of the line is $192, which is 20% of $960. 
-
- Figure: The captured overhead in the project expenses 
+4. On the More menu, under **Billing and Allocations** , click **Run Allocation**.     The system performs the allocation using the allocation rule you have specified for the project task.     When the allocation is completed, on the **Balances** tab, review the project balance again (see below). Notice     that one more expense line with the _OVERHEAD_ account group has appeared in the table. The actual amount     of the line is $192, which is 20% of $960. 
 
 
 <!-- PAGE_BREAK -->
- Capturing Project Overhead | 417 
+ Capturing Project Overhead | 425 
+
+ Figure: The captured overhead in the project expenses 
 
 5. In the table, click the line with the _OVERHEAD_ account group, and on the tab toolbar, click **View**     **Transactions**.     On the _Project Transaction Details_ (PM401000) form, which opens, review the created allocation transaction     in the amount of $192.00 that corresponds to the account group. The original document type of the     transaction is _Allocation_ and the debit account group is _OVERHEAD_. 
 
@@ -16170,6 +16494,10 @@ Reclassifying Project-Related GL Transactions | **384**
 
 - The credit account group, which is specified in the **Account Group** box on the **Allocation Settings** tab     ( **Credit Transaction** section) of the _Allocation Rules_ form. 
 
+
+<!-- PAGE_BREAK -->
+ Capturing Project Overhead | 426 
+
  Debit Account Group Credit Account Group Source of Account Orig. Doc Type 
 
  Debit account group Empty Allocation rule Allocation 
@@ -16184,13 +16512,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 #### Reviewing Allocation Transactions 
 
- You can review the list of all the corresponding allocation transactions of a project, including reversing allocation transactions, on the Project Transaction Details (PM401000) form. In the Selection area of this form, you select the project, as well as the project task, account group, and inventory item to narrow the listed project transactions. You 
-
-
-<!-- PAGE_BREAK -->
- Capturing Project Overhead | 418 
-
- can review only allocation transactions on the Allocation Transactions tab. If the Allocation is in the Orig. Doc. Type column of the table, the transaction in the line is an allocation transaction. 
+ You can review the list of all the corresponding allocation transactions of a project, including reversing allocation transactions, on the Project Transaction Details (PM401000) form. In the Selection area of this form, you select the project, as well as the project task, account group, and inventory item to narrow the listed project transactions. You can review only allocation transactions on the Allocation Transactions tab. If the Allocation is in the Orig. Doc. Type column of the table, the transaction in the line is an allocation transaction. 
 
  The project transactions that have already been used as a source of allocation transactions have the check box selected in the Allocated column. 
 
@@ -16208,6 +16530,10 @@ Reclassifying Project-Related GL Transactions | **384**
 
  This topic explains how to allocate multiple projects, and how the system generates, changes, or works with projects as a result of the mass processing. 
 
+
+<!-- PAGE_BREAK -->
+ Capturing Project Overhead | 427 
+
 #### Mass-Allocating Projects 
 
  You can initiate allocating for multiple projects on the Run Allocations by Projects (PM502500) form; this allocation entails the creation of allocation transactions. On this form, you select the unlabeled check boxes in the rows of the projects to be processed in the table, and you click Allocate on the form toolbar. The system initiates allocation for the selected projects. Allocation transactions will be created for only those projects that have tasks with an associated allocation rule. 
@@ -16222,7 +16548,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Grouping Invoices | 419 
+ Grouping Invoices | 428 
 
 ## Grouping Invoices 
 
@@ -16266,7 +16592,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Grouping Invoices | 420 
+ Grouping Invoices | 429 
 
  To create a separate invoice for a particular project task, you need to select the Bill Separately check box in the Billing and Allocation Settings section on the Summary tab of the Project Tasks form. 
 
@@ -16276,7 +16602,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
  Form Validation of Settings 
 
- Enable/Disable Features (CS100000) form Make sure that the Project Accounting check box is selected. 
+ Enable/Disable Features (CS100000) form Make sure that the Projects check box is selected. 
 
  Projects Preferences (PM101000) form Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see Basic Project Configuration: General Information. 
 
@@ -16300,11 +16626,11 @@ Reclassifying Project-Related GL Transactions | **384**
 
  This activity will walk you through the process of configuring project billing to create a single invoice for the project or to create multiple separate invoices. You will learn how to bill the project with different billing rules assigned to the project tasks, how to bill a project task separately from the other tasks of the project, and how to bill project transactions that are processed by particular steps of billing rules with a separate invoice. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Grouping Invoices | 421 
+ Grouping Invoices | 430 
 
 #### Story 
 
@@ -16326,7 +16652,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
-- On the _Enable/Disable Features_ (CS100000) form, the _Project Accounting_ feature has been enabled to support     the project accounting functionality. 
+- On the _Enable/Disable Features_ (CS100000) form, the _Projects_ feature has been enabled to support the     project management functionality. 
 
 - On the _Projects_ (PM301000) form, the _TOMYUM9_ project has been created and three project tasks have been     configured. 
 
@@ -16342,7 +16668,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as project accountant by using the _brawner_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 #### Step 1: Billing a Project with Multiple Billing Rules 
 
@@ -16350,11 +16676,17 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Grouping Invoices | 422 
+ Grouping Invoices | 431 
 
 1. On the _Projects_ (PM301000) form, open the _TOMYUM9_ project. 
 
-2. On the **Cost Budget** tab, review the cost budget of the project. Make sure that it includes three lines with the     _PHASE1_ project task, three lines with the _PHASE2_ project task, and one line with the _PHASE3_ project task. 
+2. On the **Cost Budget** tab, review the cost budget of the project. Make sure that it includes: 
+
+- Three lines with the _PHASE1_ project task 
+
+- Three lines with the _PHASE2_ project task 
+
+- One line with the _PHASE3_ project task 
 
 3. On the **Tasks** tab, in the line with the _PHASE2_ task, change the billing rule in the **Billing Rule** column to _TM_.     When you bill the project, the system will use this billing rule to process unbilled transactions associated     with this project task. 
 
@@ -16372,13 +16704,13 @@ Reclassifying Project-Related GL Transactions | **384**
 
 1. On the _Projects_ (PM301000) form, open the _TOMYUM9_ project. 
 
-2. On the **Tasks** tab, do the following to add a needed table column to those displayed on the tab:     a. In the table, click the Column Configuration button, the lemost icon among the column headers. The        system opens the **Column Configuration** dialog box.     b. In the **Available Columns** list of the dialog box, click the **Bill Separately** column.     c. Click the Add Column button (the right arrow icon between the lists) to add the column to the **Selected**        **Columns** list.     d. Click **OK** to apply your changes to the list of columns and close the dialog box. 
+2. On the **Tasks** tab, do the following to add a needed table column to those displayed on the tab:     a. In the table, click the Column Configuration button, the lemost icon among the column headers. The        system opens the **Column Configuration** dialog box.     b. Search for the **Bill Separately** column and select the unlabeled check box for it.     c. Click **OK** to apply your changes to the list of columns and close the dialog box. 
 
 3. In the row with the _PHASE3_ task, select the check box in the **Bill Separately** column to bill the task with a     separate invoice. 
 
 4. Save your changes to the project. 
 
-5. On the form toolbar, click **Run Billing** , and review the generated invoices on the Pro Forma Invoices     (PM3070PL) list of records that opens.     The system created two pro forma invoices. One invoice includes the transactions related to the _PHASE3_     project task, and the other invoice includes the transactions related to the other project tasks. 
+5. On the form toolbar, click **Run Billing** , and review the generated invoices on the Pro Forma Invoices     (PM3070PL) list of records, which opens.     The system created two pro forma invoices. One invoice includes the transactions related to the _PHASE3_     project task, and the other invoice includes the transactions related to the other project tasks. 
 
 6. Click the link in the **Reference Nbr.** column to open the pro forma invoice with the total amount of $4,750     on the _Pro Forma Invoices_ (PM307000) form. On the **Time and Material** tab, review the lines of the invoice.     Notice that the invoice includes lines related to the _PHASE1_ and _PHASE2_ tasks. 
 
@@ -16392,39 +16724,41 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Grouping Invoices | 423 
+ Grouping Invoices | 432 
 
 #### Step 3: Grouping Invoices by Steps of Billing Rules 
 
  To create a separate invoice for the juicers whose costs are tracked within the MATERIAL account group, do the following: 
 
-1. On the _Billing Rules_ (PM207000) form, open the _10 (Material cost plus markup)_ step of the _TM_ billing rule. 
+1. On the _Billing Rules_ (PM207000) form, open the _TM_ billing rule. 
 
-2. In the right pane, enter MATERIAL in the **Invoice Group** box.     This step of the billing rule is used for time and material billing of transactions associated with the _MATERIAL_     account group. 
+2. In the le pane, click the row with the _10 (Material cost plus markup)_ step. 
 
-3. Save your changes to the billing rule. 
+3. On the **Billing Settings** tab of the right pane, enter MATERIAL in the **Invoice Group** box.     This step of the billing rule is used for time and material billing of transactions associated with the _MATERIAL_     account group. 
 
-4. Open the _20 (Material cost plus markup)_ step of the _COMBINED_ billing rule. 
+4. Save your changes to the _TM_ billing rule. 
 
-5. In the right pane, enter MATERIAL in the **Invoice Group** box.     This step of the billing rule is used for time and material billing of transactions associated with the _MATERIAL_     account group. 
+5. On the _Billing Rules_ form, open the _COMBINED_ billing rule. 
 
-6. Save your changes to the billing rule.     When you bill the project by using these billing rules, the system will group invoice lines created with the     steps of the billing rules with the _MATERIAL_ account group in a separate invoice. 
+6. In the le pane, click the row with the _20 (Material cost plus markup)_ step. 
 
-7. On the _Projects_ (PM301000) form, open the _TOMYUM9_ project. 
+7. On **Billing Settings** tab of the right pane, enter MATERIAL in the **Invoice Group** box.     This step of the billing rule is used for time and material billing of transactions associated with the _MATERIAL_     account group. 
 
-8. On the form toolbar, click **Run Billing**.     The system creates three pro forma invoices, and opens the Pro Forma Invoices (PM3070PL) list of records,     shown in the following screenshot. The system has created one more separate invoice based on unbilled     transactions with the _MATERIAL_ account group using the steps of the billing rules with the _MATERIAL_ invoice     group. 
+8. Save your changes to the _COMBINED_ billing rule.     When you bill the project by using these billing rules, the system will group invoice lines created with the     steps of the billing rules with the _MATERIAL_ account group in a separate invoice. 
+
+9. On the _Projects_ (PM301000) form, open the _TOMYUM9_ project. 10.On the form toolbar, click **Run Billing**.     The system creates three pro forma invoices, and opens the Pro Forma Invoices (PM3070PL) list of records,     as shown below. The system has created one more separate invoice based on unbilled transactions with the     _MATERIAL_ account group using the steps of the billing rules with the _MATERIAL_ invoice group. 
 
  Figure: Pro forma invoices prepared during billing procedure 
 
-9. Click the link in the **Reference Nbr.** column to open the pro forma invoice with the total amount of $400 on     the _Pro Forma Invoices_ (PM307000) form. On the **Time and Material** tab, notice that the invoice includes one     line related to the _PHASE3_ task. Click Back in the browser window to go back to the list of records. 10.Click the link in the **Reference Nbr.** column to open the pro forma invoice with the total amount of $750     on the _Pro Forma Invoices_ form. On the **Time and Material** tab, notice that the invoice includes four lines     related to the _PHASE1_ and _PHASE2_ tasks except the lines with juicers. Click Back in the browser window to go     back to the list of records. 11.Click the link in the **Reference Nbr.** column to open the pro forma invoice with the total amount of $4,000     on the _Pro Forma Invoices_ form. On the **Time and Material** tab, notice that the invoice includes two lines     with juicers related to the _MATERIAL_ account group. 
+ 11.Click the link in the Reference Nbr. column to open the pro forma invoice with the total amount of $400 on the Pro Forma Invoices (PM307000) form. On the Time and Material tab, notice that the invoice includes one line related to the PHASE3 task. Click Back in the browser window to go back to the list of records. 12.Click the link in the Reference Nbr. column to open the pro forma invoice with the total amount of $750 on the Pro Forma Invoices form. On the Time and Material tab, notice that the invoice includes four lines related to the PHASE1 and PHASE2 tasks except the lines with juicers. Click Back in the browser window to go back to the list of records. 13.Click the link in the Reference Nbr. column to open the pro forma invoice with the total amount of $4,000 on the Pro Forma Invoices form. On the Time and Material tab, notice that the invoice includes two lines with juicers related to the MATERIAL account group. 
 
  You have configured the grouping of pro forma invoices for the project and performed project billing with the new billing settings. 
 
 
 <!-- PAGE_BREAK -->
- Grouping Invoices | 424 
+ Grouping Invoices | 433 
 
-### Grouping Invoices: Related Reports and Inquiry Forms 
+### Grouping of Invoices: Related Reports and Inquiry Forms 
 
  In the following sections, you can find details about the reports and forms you may want to review to gather information about project billing and grouped invoices. 
 
@@ -16440,7 +16774,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Working with Taxes in Projects | 425 
+ Working with Taxes in Projects | 434 
 
 ## Working with Taxes in Projects 
 
@@ -16484,7 +16818,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Working with Taxes in Projects | 426 
+ Working with Taxes in Projects | 435 
 
 ### Taxes in Projects: Implementation Checklist 
 
@@ -16518,7 +16852,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Working with Taxes in Projects | 427 
+ Working with Taxes in Projects | 436 
 
  Form Criteria to Check 
 
@@ -16552,7 +16886,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Working with Taxes in Projects | 428 
+ Working with Taxes in Projects | 437 
 
  Form Criteria to Check 
 
@@ -16590,7 +16924,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Working with Taxes in Projects | 429 
+ Working with Taxes in Projects | 438 
 
 ### Taxes in Projects: Project Expenses with Taxes 
 
@@ -16630,7 +16964,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Working with Taxes in Projects | 430 
+ Working with Taxes in Projects | 439 
 
  Use tax and sales tax amounts are posted under the project of the corresponding AP document line if the tax expense account is included in an account group. Otherwise, tax expenses are posted with the non-project code (which by default is X ) and do not appear in the project budget. 
 
@@ -16668,7 +17002,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Working with Taxes in Projects | 431 
+ Working with Taxes in Projects | 440 
 
  If the Net/Gross Entry Mode feature is enabled on the Enable/Disable Features (CS100000) form, the system ignores the Gross and Net tax calculation modes that are specified for the customer on the Customers (AR303000) form. It always inserts the Tax Settings tax calculation mode in the pro forma invoices that are created during project billing. 
 
@@ -16716,7 +17050,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Working with Taxes in Projects | 432 
+ Working with Taxes in Projects | 441 
 
  In the Tax Settings section of the Addresses tab of the Projects form, you specify project-specific tax zones in the following boxes: 
 
@@ -16758,7 +17092,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Working with Taxes in Projects | 433 
+ Working with Taxes in Projects | 442 
 
 #### Transaction Generated for an AR Invoice 
 
@@ -16824,7 +17158,7 @@ Reclassifying Project-Related GL Transactions | **384**
 
 
 <!-- PAGE_BREAK -->
- Working with Taxes in Projects | 434 
+ Working with Taxes in Projects | 443 
 
  Account Source of Account Project Debit Credit 
 
@@ -16852,7 +17186,7 @@ You can view the reference number of the GL batch generated for a particular AP 
 
 
 <!-- PAGE_BREAK -->
- Managing Multicurrency Projects | 435 
+ Managing Multicurrency Projects | 444 
 
 ## Managing Multicurrency Projects 
 
@@ -16898,7 +17232,7 @@ You can view the reference number of the GL batch generated for a particular AP 
 
 
 <!-- PAGE_BREAK -->
- Managing Multicurrency Projects | 436 
+ Managing Multicurrency Projects | 445 
 
  is selected in the Branch box on the Summary tab (indicating that the project is related to a particular company branch), the system verifies that the base currency of the project matches the base currency of the selected branch. You can change the base currency of the project only if no project transactions have been posted to the project yet. 
 
@@ -16932,7 +17266,7 @@ You can view the reference number of the GL batch generated for a particular AP 
 
 
 <!-- PAGE_BREAK -->
- Managing Multicurrency Projects | 437 
+ Managing Multicurrency Projects | 446 
 
  Details tab. You enter the amount of the project transaction in the transaction currency, which you select in the Currency column. By default, in this column, the system inserts the base currency of the current branch; you can change this value to any other currency configured in the system. The system uses the amount in the transaction currency to calculate the transaction amounts in the project currency and in the base currency. The system also updates the actual amounts of the project budget in the project currency and in the base currency with the corresponding amounts of the project transaction. 
 
@@ -16962,7 +17296,7 @@ You can view the reference number of the GL batch generated for a particular AP 
 
 
 <!-- PAGE_BREAK -->
- Managing Multicurrency Projects | 438 
+ Managing Multicurrency Projects | 447 
 
 If the project currency (which is specified in the **Project Currency** box on the **Summary** tab) is the same as the base currency, the system searches the sales prices in the system for an applicable price of the inventory item in the base currency that is effective on the document date or the start date of the project. For more details on how the system searches for the price, see _Sales Prices: Rules of Price Selection_. If the effective sales price was not found, the system specifies the default price of the item as the unit rate. 
 
@@ -16978,7 +17312,7 @@ If the project currency differs from the base currency, the way the system searc
 
 
 <!-- PAGE_BREAK -->
- Managing Multicurrency Projects | 439 
+ Managing Multicurrency Projects | 448 
 
  If no effective sales price is found, then regardless of the state of the check box, the system searches for the default price of the item. The system converts the default price from the base currency to the project currency by using the rate that is effective on the start date of the project and inserts this value as the unit rate. 
 
@@ -17022,7 +17356,7 @@ If the project currency differs from the base currency, the way the system searc
 
 
 <!-- PAGE_BREAK -->
- Managing Multicurrency Projects | 440 
+ Managing Multicurrency Projects | 449 
 
 #### Reviewing Project Budget Amounts in Different Currencies 
 
@@ -17036,7 +17370,171 @@ If the project currency differs from the base currency, the way the system searc
 
 
 <!-- PAGE_BREAK -->
- Appendix | 441 
+ Managing Project Files | 450 
+
+## Managing Project Files 
+
+ In Acumatica ERP, you can manage all files attached to a project and its related records in one centralized location and maintain full control over user access to the needed files. 
+
+### Managing Project Files: Configuration of Tags and File Access 
+
+ When multiple people work on a project, not everyone should be able to work with every project file in the same ways. In Acumatica ERP, you can manage this through tag-based access. 
+
+ With this approach to access, you label project files with tags—labels you assign to control access to files—and define what each user role can do with files that have those tags. You do this by assigning access levels to each role for a tag. For example, some user roles may have view-only access, while others can update or even delete specific project files. 
+
+ The functionality is available in the Modern UI when the Document Management feature is enabled on the Enable/Disable Features (CS100000) form. 
+
+#### Tag and File Access Setup 
+
+ You start configuring access to project files by setting up tags on the Configure Tags (PM201500) form. You perform these general steps: 
+
+1. Assigning access rights to the **Untagged** node, which is used internally for all files without tags. 
+
+2. In the **Tags** pane, creating a tag (each represented by a node) under the **All Tags** node. 
+
+3. In the **Access Rights** table, assigning each role’s access level to the new tag. 
+
+4. Repeating the two previous steps as needed for each tag. 
+
+ Each user role’s assigned access level determines how users with the role can—and can’t—work with files with the tag. For each user role, you assign one of these access levels to each tag: 
+
+- _Revoked_ (default): Users can't access the tag or its files. 
+
+- _View Only_ : Users can view and download the files. 
+
+- _Create Version_ : Users can view, download, and check out the files, as well as upload new versions. 
+
+- _Upload_ : Users can view, download, check out, and upload new files. They can also upload new versions and     assign the tag. 
+
+- _Delete_ : Users can perform all the actions above; they can also delete the files. 
+
+ If a file has multiple tags to which your user role has different access levels, the system applies the most permissive access level. 
+
+#### Tag-Based Access to Project Files 
+
+ In an out-of-the-box system, the following default system nodes appear on the Tags pane of the Configure Tags (PM201500) form: 
+
+- **All Tags** : The top-level node under which you create all tags 
+
+- **Untagged** : A system tag that’s invisible to users and added to each file with no other tags 
+
+
+<!-- PAGE_BREAK -->
+ Managing Project Files | 451 
+
+ You start by assigning access rights to the Untagged node. The system applies these access rights to all files without tags. 
+
+ Then you create tags under All Tags. You can create tags within tags for better visibility and easier maintenance. 
+
+ A new tag doesn’t inherit the roles' access levels from the parent tag—you must assign the needed access levels to each tag. 
+
+ You add a new tag by clicking Add in the Tags pane and entering the tag's name. To nest the tag under another tag, select that tag in the Parent Tag box; otherwise, the tag will be under All Tags. 
+
+ For each role, you select the needed level in the Access Rights column. The default access level, Revoked , is assigned to the remaining user roles. 
+
+ Now that you’ve created all the tags and assigned access rights to them, you can assign tags to project files. For details, see Managing Project Files: Centralized File Management. 
+
+### Managing Project Files: Centralized File Management 
+
+ You can work with all project files centrally—whether they relate to an entire project or a specific record. You can view, filter, and preview files, as well as upload new versions and link files to records. 
+
+ The functionality is available in the Modern UI when the Document Management feature is enabled on the Enable/Disable Features (CS100000) form. 
+
+#### Finding All Project Files by Tag 
+
+ The Manage Project Files by Tag (PM509000) form brings together all files attached to a project and its related records. You can work with files by tag based on your access rights to each tag. 
+
+ To open this form while viewing a project, click Files on the form title bar of the Projects (PM301000) form. 
+
+ To start working on the Manage Project Files by Tag form, select the project in the Project box to view its status, manager, and start date. By default, the All Files node is selected, and the central pane shows all the project’s files. 
+
+ When you select a tag, the system shows only the files associated with that tag. You’ll see each file’s name, size, latest version details, uploader, and assigned tags. The name of the central pane reflects the selected tag. 
+
+ On this form, you can view only files attached to a record—not to a record’s detail line. To see these files, you use the Files menu on the form title bar of the corresponding form. 
+
+ To quickly see a PDF file or image, you can open a preview pane by clicking a row with a file; its contents are shown in the File Details pane. If you click an image, a full-screen view of it opens. 
+
+#### Finding Project Files by Record 
+
+ You can find all the files associated with project-related records—such as change orders, project issues, or tasks— in one place. You use the new Manage Project Files by Record Type (PM509500) form to manage files attached to or linked to a project-related record. 
+
+ If you have access to a form, you can access its attached files. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Project Files | 452 
+
+ Work with this form as follows: 
+
+1. Select a project in the **Project** box; The system shows its status, manager, and start date. 
+
+2. In the **Record Types** pane, select a record type. The central pane shows the files associated with records of     that type. For each file, you’ll see the record's ID, the file name, size, uploader, associated tags, and latest     version details. 
+
+3. For any PDF file or image, click the row with the file to view its contents in the **File Details** pane. If you click     an image, a full-screen view opens. 
+
+ The Manage Project Files by Record Type form shows only files attached to a record—not to individual table rows. To see them, you use the Files menu on the form title bar of a corresponding form. The system doesn’t show files attached to individual table rows. 
+
+#### Finding Files Attached to a Record 
+
+ If you're looking for a specific file or set of files attached to a project-related record, it's easy to narrow the list or find the file you need. On the Manage Project Files by Tag (PM509000) form, click Filter to open the filtering area. Here, you can narrow project-related records by their type, reference number, file name, or tag. To see only the files that you’ve uploaded, select My Files. 
+
+ The Manage Project Files by Record Type (PM509500) form includes a similar filtering area that helps you to quickly find the file you need. 
+
+#### Working with Files 
+
+ On both the Manage Project Files by Tag (PM509000) form and the Manage Project Files by Record Type (PM509500) form, you manage files through the File Details pane toolbar and the row-level More menu (to view this, click …). Here you'll find buttons and commands to: 
+
+- Download the latest version of a file 
+
+- Upload a new version (with a maximum size of 25,000 KB) 
+
+- Open the file on the _File Maintenance_ (SM202510) form 
+
+- Check the file out or in 
+
+- Link the file to a project-related record or another project 
+
+- Delete the file 
+
+ The visible and available buttons and menu commands depend on your user role's access level. 
+
+ On the Manage Project Files by Tag form, you can also perform the following operations: 
+
+- Upload files 
+
+- Remove the link to the file from a record 
+
+#### Checking Out a File 
+
+ You check a file out to edit it and prevent others from making changes or deleting it. To do this, click Check Out on the File Details pane or on the row-level More menu (click …) of the Manage Project Files by Tag (PM509000) or Manage Project Files by Record Type (PM509500) form. In the Check Out File dialog box, enter a reason and then click OK. 
+
+ When you're done editing the file, make it available to other users by clicking Undo Check Out on the File Details pane or on the row-level More menu (click …). 
+
+
+<!-- PAGE_BREAK -->
+ Managing Project Files | 453 
+
+#### Looking Up File Details 
+
+ You may need to learn more about a file or edit its name. On the Manage Project Files by Tag (PM509000) or Manage Project Files by Record Type (PM509500) form, you can use the following tabs in the File Details pane: 
+
+- **Summary** : View and edit the file’s tags and name; view checkout information (if any) 
+
+- **Versions** : Review the file’s version history, including its size, upload dates, and uploader 
+
+- **Entities** : View the records that the file is attached to or linked to 
+
+- **Note** : Read or add a note about the file 
+
+#### Using Additional Tagging Options 
+
+ When uploading a file directly on the File Maintenance (SM202510) form, you can assign tags to ensure that users have the needed access level to it. 
+
+ Also, you can add tags to files attached to the Drawing Log (PJ303000), Photo Log (PJ305000), and Photo (PJ305010) forms by using the Tags box on these forms. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 454 
 
 ## Appendix 
 
@@ -17076,37 +17574,105 @@ If the project currency differs from the base currency, the way the system searc
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 442 
+ Appendix | 455 
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 456 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 457 
 
 #### Report Toolbar 
 
@@ -17115,12 +17681,6 @@ If the project currency differs from the base currency, the way the system searc
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 443 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -17146,25 +17706,77 @@ If the project currency differs from the base currency, the way the system searc
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 444 
+ Appendix | 458 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 459 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -17182,91 +17794,45 @@ If the project currency differs from the base currency, the way the system searc
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 445 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 446 
+ Appendix | 460 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -17285,6 +17851,12 @@ If the project currency differs from the base currency, the way the system searc
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 461 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -17308,10 +17880,6 @@ If the project currency differs from the base currency, the way the system searc
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 447 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -17326,13 +17894,19 @@ If the project currency differs from the base currency, the way the system searc
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 462 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -17350,10 +17924,6 @@ If the project currency differs from the base currency, the way the system searc
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 448 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -17368,6 +17938,10 @@ If the project currency differs from the base currency, the way the system searc
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 463 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -17376,11 +17950,7 @@ If the project currency differs from the base currency, the way the system searc
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 449 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -17406,6 +17976,12 @@ If the project currency differs from the base currency, the way the system searc
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 464 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -17413,12 +17989,6 @@ If the project currency differs from the base currency, the way the system searc
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 450 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -17446,19 +18016,19 @@ If the project currency differs from the base currency, the way the system searc
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 465 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 451 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -17468,13 +18038,15 @@ If the project currency differs from the base currency, the way the system searc
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 466 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -17485,10 +18057,6 @@ If the project currency differs from the base currency, the way the system searc
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 452 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -17502,6 +18070,10 @@ If the project currency differs from the base currency, the way the system searc
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 467 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -17512,11 +18084,11 @@ If the project currency differs from the base currency, the way the system searc
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 453 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 468 
 
 #### Unavailable Commands on the More Menu 
 
@@ -17528,17 +18100,13 @@ If the project currency differs from the base currency, the way the system searc
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 454 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 455 
+ Appendix | 469 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -17550,7 +18118,11 @@ If the project currency differs from the base currency, the way the system searc
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 470 
 
  Figure: Table toolbar 
 
@@ -17570,17 +18142,17 @@ If the project currency differs from the base currency, the way the system searc
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 456 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 471 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -17610,13 +18182,13 @@ If the project currency differs from the base currency, the way the system searc
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 457 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 472 
 
  Element Description 
 
@@ -17660,15 +18232,15 @@ If the project currency differs from the base currency, the way the system searc
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 458 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 473 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

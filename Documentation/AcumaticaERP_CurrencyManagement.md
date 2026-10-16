@@ -2,7 +2,7 @@
 
 # Currency Management 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -180,11 +180,11 @@
 
  Report Form.......................................................................................................................................... 120 
 
- Report....................................................................................................................................................125 
+ Report....................................................................................................................................................127 
 
- Form Toolbar and More Menu.......................................................................................................................127 
+ Form Toolbar and More Menu.......................................................................................................................128 
 
- Table Toolbar................................................................................................................................................. 134 
+ Table Toolbar................................................................................................................................................. 135 
 
 
 <!-- PAGE_BREAK -->
@@ -206,9 +206,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -400,7 +400,7 @@
 
 #### Story 
 
- Suppose that on January 30, 2025, SweetLife Fruits & Jams needs to transfer C$484 to its new cash account to be able to make payments to vendors. The amount transferred from the 10200WH (Wholesale Checking) account is $379 (in USD ), and the amount received to the 10215WH (Checking Account CAD) is C$484.21, as reported by the bank. 
+ Suppose that on January 30, 2026, SweetLife Fruits & Jams needs to transfer C$484 to its new cash account to be able to make payments to vendors. The amount transferred from the 10200WH (Wholesale Checking) account is $379 (in USD ), and the amount received to the 10215WH (Checking Account CAD) is C$484.21, as reported by the bank. 
 
  Acting as a SweetLife accountant, you need to process the cash transfer in the system. 
 
@@ -440,7 +440,7 @@
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/30/2025_ from the calendar. For simplicity, in this lesson, you will create and process all     documents in the system during this business date. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button, and select _1/30/2026_ from the calendar. For simplicity, in this lesson, you will create and process all     documents in the system during this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -460,19 +460,19 @@
 
 - **Account** : _10200WH (Wholesale Checking)_ 
 
-- **Transfer Date** : _1/30/2025_ (inserted by default) 
+- **Transfer Date** : _1/30/2026_ (inserted by default) 
 
-- **Document Ref.** : 1302023 
+- **Document Ref.** : 1302026 
 
-- **Amount** : 379.00 
+- **Amount** : 379 
 
 4. In the **Destination Account** section, specify the following settings: 
 
 - **Account** : _10215WH (Checking Account CAD)_     You created this cash account in the _Multicurrency Cash Accounts: To Configure an Account_ prerequisite     activity. 
 
-- **Receipt Date** : _1/30/2025_ (inserted by default) 
+- **Receipt Date** : _1/30/2026_ (inserted by default) 
 
-- **Document Ref.** : 1302023 (inserted automatically) 
+- **Document Ref.** : 1302026 (inserted automatically) 
 
 - **Amount** : _484.21_ (inserted automatically)     The amount transferred from the _10200WH_ account is $379 in the base currency. Based on the effective     currency rate, the transferred amount is C$484.21. 
 
@@ -482,9 +482,7 @@
 
  Before you release the funds transfer, you could click the Exchange Rate box (right of the Currency box) in the Source Account section; in the Rate Selection dialog box, which opens, you can override the currency rate for this particular document. If the source account is denominated to a foreign currency, the exchange rate in the Source Account section (also in the Exchange Rate box right of the Currency box) can be overridden as well. 
 
-5. On the form toolbar, click **Remove Hold**. 
-
-6. On the form toolbar, click **Release** to release the funds transfer.     When the system transfers amounts, it creates and releases two GL batches, one for each currency. 
+5. On the form toolbar, click **Remove Hold** and then click **Release** to release the funds transfer.     When the system transfers amounts, it creates and releases two GL batches, one for each currency. 
 
 #### Step 2: Reviewing the Generated GL Transactions 
 
@@ -492,7 +490,7 @@
 
 1. While you are still on the _Funds Transfers_ (CA301000) form viewing the funds transfer you recorded, in the     **Source Account** section, click the link in the **Batch Number** box. 
 
-2. On the _Journal Transactions_ (GL301000) form, which opens, review the transaction. The batch was created in     the base currency, because the _10200WH (Wholesale Checking)_ account is denominated to the base currency. 
+2. On the _Journal Transactions_ (GL301000) form, which opens, review the transaction.     The batch was created in the base currency, because the _10200WH (Wholesale Checking)_ account is     denominated to the base currency. 
 
 3. On the _Funds Transfers_ form, in the **Destination Account** section, click the link in the **Batch Number** box to     open the batch that was generated when the transfer to the _10215_ GL account was received. 
 
@@ -510,9 +508,11 @@
 
 2. In the Selection area, specify the following settings: 
 
-- **From Period** : _01-2025_ 
+- **Company/Branch** : _HEADOFFICE_ (inserted automatically) 
 
-- **To Period** : _01-2025_ 
+- **Ledger** : _ACTUAL_ (inserted automatically) 
+
+- **Period Range** : _01-2026_ to _01-2026_ 
 
 - **Account** : _10215 (Checking Account CAD)_ 
 
@@ -714,7 +714,7 @@
 
 #### Story 
 
- Suppose that on January 30, 2025, SweetLife Fruits & Jams provided juicer installation services to the Mint Store customer, whose currency is the Canadian dollar ( CAD ), and issued an invoice in CAD. 
+ Suppose that on January 30, 2026, SweetLife Fruits & Jams provided juicer installation services to the Mint Store customer, whose currency is the Canadian dollar ( CAD ), and issued an invoice in CAD. 
 
  Acting as a SweetLife accountant, you need to create the invoice in the system and apply a payment in the same foreign currency to this invoice. Before you perform these actions, you will make changes to the Mint Store customer’s settings so that invoice processing can be performed in line with the customer’s currency-related preferences. 
 
@@ -758,7 +758,7 @@
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/30/2025_ from the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button, and select _1/30/2026_ from the calendar. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -802,7 +802,7 @@
 
 2. In the **Payment Method ID** box, select _WIRE_. 
 
-3. On the **Allowed Cash Accounts** tab, make sure that _10215WH (Checking Account CAD)_ is listed, and the **Use**     **in AP** and **Use in AR** check boxes are selected. You associated this payment method with the _10215WH_ cash     account and selected these check boxes when you created the account in _Multicurrency Cash Accounts: To_     _Configure an Account_. 
+3. On the **Allowed Cash Accounts** tab, make sure that _10215WH (Checking Account CAD)_ is listed, and the **Use**     **in AP** and **Use in AR** check boxes are selected.     You associated this payment method with the _10215WH_ cash account and selected these check boxes when     you created the account in _Multicurrency Cash Accounts: To Configure an Account_. 
 
 #### Step 3: Creating and Releasing an Invoice 
 
@@ -822,9 +822,9 @@
 <!-- PAGE_BREAK -->
  Processing Invoices in Foreign Currencies | 20 
 
-- **Date** : _1/30/2025_ (inserted automatically)     If you were to override the date, the currency rate in the document changes, because the system uses the     effective rate on the selected date. 
+- **Date** : _1/30/2026_ (inserted automatically)     If you were to override the date, the currency rate in the document changes, because the system uses the     effective rate on the selected date. 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Description** : Juicer installation 
 
@@ -840,7 +840,7 @@
 
 - **Ext. Price** : 150.01 
 
-5. In the Summary area, click the Exchange Rate box (right of the **Currency** box), and review the **Rate**     **Selection** dialog box, which opens.     The **Curr. Rate Type ID** ( _SPOT_ ) is the default rate type determined by the **AR Rate Type** setting on the     _Currency Management Preferences_ (CM101000) form, because you haven't specified a rate type for the     customer. The system uses the currency rate that became effective on 1/30/2025. You can override the rate     type and rate in this document because the **Enable Rate Override** check box is selected for the customer on     the _Customers_ form. 
+5. In the Summary area, click the Exchange Rate box (right of the **Currency** box), and review the **Rate**     **Selection** dialog box, which opens.     The **Curr. Rate Type ID** ( _SPOT_ ) is the default rate type determined by the **AR Rate Type** setting on the     _Currency Management Preferences_ (CM101000) form, because you haven't specified a rate type for the     customer. The system uses the currency rate that became effective on 1/30/2026. You can override the rate     type and rate in this document because the **Enable Rate Override** check box is selected for the customer on     the _Customers_ form. 
 
  Any time you need to check which currency rate was effective on a particular date, on the Currency Rates (CM301000) form, you can select the needed date in the Effective Date box and review the Effective Currency Rates tab. 
 
@@ -866,13 +866,11 @@
 
  The Detail Total in the base currency is $330.76, because the system recalculated the amount by using the exchange rate that you have specified manually (C$450.02 * 0.735). The system also recalculated the line amounts in the base currency by using the new rate; now they are $220.51 for the first line and $110.26 for the second line. This manually specified currency rate is used in this particular invoice only and does not override the effective currency rate of the SPOT type that is specified on the Currency Rates form. 
 
-12.On the form toolbar, click **Remove Hold**. 
+12.On the form toolbar, click **Remove Hold** and then click **Release** to release the invoice. 
 
 
 <!-- PAGE_BREAK -->
  Processing Invoices in Foreign Currencies | 21 
-
- 13.On the form toolbar, click Release to release the invoice. 
 
 #### Step 4: Reviewing the Generated GL Transaction 
 
@@ -902,7 +900,7 @@
 
 - **Company/Branch** : _HEADOFFICE (SweetLife Head Office and Wholesale Center)_ 
 
-- **Financial Period** : _01-2025_ 
+- **Financial Period** : _01-2026_ 
 
 - **Customer** : _MINTSTORE_ 
 
@@ -924,11 +922,11 @@
 
 - **Customer** : _MINTSTORE_ 
 
+- **Payment Method** : _WIRE_ (inserted automatically when you select the customer) 
+
 
 <!-- PAGE_BREAK -->
  Processing Invoices in Foreign Currencies | 22 
-
-- **Payment Method** : _WIRE_ (inserted automatically when you select the customer) 
 
 - **Cash Account** : _10215WH_ 
 
@@ -936,15 +934,15 @@
 
 - **Description** : Juicer installation 
 
-- **Application Date** : _1/30/2025_ 
+- **Application Date** : _1/30/2026_ 
 
-- **Application Period** : _01-2025_ On the **Documents to Apply** tab, the system has loaded the invoice you created for this customer earlier. 
+- **Application Period** : _01-2026_ On the **Documents to Apply** tab, the system has loaded the invoice that you created for this customer earlier. 
 
 3. Select the Included check box for the row with the invoice, and in the Summary area, click the Refresh     button to the right of the **Payment Amount** box. 
 
-4. In the Summary area, click the **View Base** button (right of the **Currency** box), and review the payment     amount in the base currency. The payment amount is recalculated in the base currency by the exchange     rate of the payment and is $352.24 (C$450.02 * 0.7827176, which is the _CAD_ -to- _USD_ exchange rate that was     effective on the payment date of 1/30/2025). 
+4. In the Summary area, click the **View Base** button (right of the **Currency** box), and review the payment     amount in the base currency.     The payment amount is recalculated in the base currency by the exchange rate of the payment and is     $352.24 (C$450.02 * 0.7827176, which is the _CAD_ -to- _USD_ exchange rate that was effective on the payment     date of 1/30/2026). 
 
-5. On the form toolbar, click **Remove Hold** , and then click **Release** to release the payment. 
+5. On the form toolbar, click **Remove Hold** and then click **Release** to release the payment. 
 
 6. On the **Financial** tab, click the **Batch Nbr.** link. 
 
@@ -1112,7 +1110,7 @@
 
 #### Story 
 
- Suppose that on February 1, 2025, SweetLife Fruits & Jams provided consulting services to the EasyDiner customer in the amount of 80 euros (€80). On February 15, 2025, SweetLife gave a discount on these services and issued a €5 credit memo to the customer. 
+ Suppose that on February 1, 2026, SweetLife Fruits & Jams provided consulting services to the EasyDiner customer in the amount of 80 euros (€80). On February 15, 2026, SweetLife gave a discount on these services and issued a €5 credit memo to the customer. 
 
  Acting as a SweetLife accountant, you need to create this credit memo and apply it to the invoice. 
 
@@ -1156,7 +1154,7 @@
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/1/2025_. If a different date is displayed, click the Business Date menu     button, and select _2/1/2025_ from the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/1/2026_. If a different date is displayed, click the Business Date menu     button, and select _2/1/2026_ from the calendar. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -1200,9 +1198,9 @@
 
 - **Currency** : _EUR_ (inserted automatically when you selected the customer)     The system automatically inserted this currency because you specified it for the customer. The **Enable**     **Currency Override** check box is cleared for the customer on the **Financial** tab of the _Customers_     (AR303000) form, so this currency is the only currency that is allowed for the customer. It cannot be     overridden in the document. 
 
-- **Date** : _2/1/2025_ 
+- **Date** : _2/1/2026_ 
 
-- **Post Period** : _02-2025_ 
+- **Post Period** : _02-2026_ 
 
 - **Description** : Consulting services 
 
@@ -1212,9 +1210,7 @@
 
 - **Ext. Price** : 80.00 The invoice is created with a currency rate of 1.11520018 which is effective on the document date. 
 
-4. On the form toolbar, click **Remove Hold**. 
-
-5. On the form toolbar, click **Release** to release the invoice. 
+4. On the form toolbar, click **Remove Hold** and then click **Release** to release the invoice. 
 
 #### Step 3: Creating and Releasing a Credit Memo 
 
@@ -1226,17 +1222,17 @@
 
 - **Customer** : _EASYDINER_ 
 
-- **Date** : _2/15/2025_ 
+- **Date** : _2/15/2026_ 
 
-- **Post Period** : 02-2025 
+- **Post Period** : 02-2026 
 
 - **Description** : Discount on consulting services 
+
+2. On the **Details** tab, click **Add Row** , and in the added row, specify the following settings: 
 
 
 <!-- PAGE_BREAK -->
  Applying Credit Memos in Foreign Currencies to Invoices | 29 
-
-2. On the **Details** tab, click **Add Row** , and in the added row, specify the following settings: 
 
 - **Transaction Descr.** : Discount on consulting services 
 
@@ -1244,13 +1240,11 @@
 
  If you want to apply the credit memo to the invoice without a realized gain or loss, you need to change the currency rate of the credit memo to the rate specified in the invoice. 
 
-3. On the form toolbar, click **Remove Hold**. 
+3. On the form toolbar, click **Remove Hold** and then click **Release** to release the credit memo. 
 
-4. On the form toolbar, click **Release** to release the credit memo. 
+4. On the **Financial** tab, click the **Batch Nbr.** link. 
 
-5. On the **Financial** tab, click the **Batch Nbr.** link. 
-
-6. On the _Journal Transactions_ (GL301000) form, which opens, review the generated batch in the base currency     ( _USD_ ).     When the credit memo was released, the following actions were performed in the system: 
+5. On the _Journal Transactions_ (GL301000) form, which opens, review the generated batch in the base currency     ( _USD_ ).     When the credit memo was released, the following actions were performed in the system: 
 
 - The Accounts Receivable account of the customer ( _11000_ ) was credited in the amount of the credit     memo; the system converted the amount to the base currency by using the document rate ($5.71 =     Round (€5.00 * 1.1411617)) to decrease the customer's debt. 
 
@@ -1264,11 +1258,11 @@
 
 2. On the _Payments and Applications_ (AR302000) form, which opens, make sure that the following settings are     specified: 
 
-- **Application Date** : _2/15/2025_ 
+- **Application Date** : _2/15/2026_ 
 
-- **Application Period** : _02-2025_ 
+- **Application Period** : _02-2026_ 
 
-3. On the table toolbar of the **Documents to Apply** tab, click **Load Documents**. Leave the default settings in     the **Load Options** dialog box, which opens, and click **Load**.     When you click **Load** , the dialog box closes. On the **Documents to Apply** tab, the invoice dated 2/1/2025, to     which the memo will be applied, is displayed. 
+3. On the table toolbar of the **Documents to Apply** tab, click **Load Documents**. Leave the default settings in     the **Load Options** dialog box, which opens, and click **Load**.     When you click **Load** , the dialog box closes. On the **Documents to Apply** tab, the invoice dated 2/1/2026, to     which the memo will be applied, is displayed. 
 
 4. On the form toolbar, click **Release** to release the application. 
 
@@ -1280,13 +1274,13 @@
 
 - The AR account specified in the invoice ( _11000_ ) was debited in the amount of the realized gain, which has     been calculated as follows: $0.13 = Round (€5.00 * 1.11520018) – Round (€5.00 * 1.1411617)). 
 
+- The realized gain/loss account of the document currency ( _83000_ ) was credited in the amount of $0.13 to     record the realized gain. 
+
 
 <!-- PAGE_BREAK -->
  Applying Credit Memos in Foreign Currencies to Invoices | 30 
 
-- The realized gain/loss account of the document currency ( _83000_ ) was credited in the amount of $0.13 to     record the realized gain. 
-
-7. On the _Invoices and Memos_ (AR301000) form, open the invoice to which you applied the credit memo, and     review the **Applications** tab.     The balance of the invoice has decreased by €5.00 and is now €75.00. 
+7. On the _Invoices and Memos_ (AR301000) form, open the invoice to which you applied the credit memo and     review the **Applications** tab.     The balance of the invoice has decreased by €5.00 and is now €75.00. 
 
 
 <!-- PAGE_BREAK -->
@@ -1458,7 +1452,7 @@
 
 #### Story 
 
- Suppose that on January 30, 2025, SweetLife Fruits & Jams provided services to the Mint Store customer in the amount of 200 Canadian dollars (C$200). According to SweetLife's bank records, on February 20, 2025, the company received C$200 from Mint Store. This amount was converted from CAD into USD by the bank by using the actual bank exchange rate (0.7913) on the date when the bank received the payment to $158.26. 
+ Suppose that on January 30, 2026, SweetLife Fruits & Jams provided services to the Mint Store customer in the amount of 200 Canadian dollars (C$200). According to SweetLife's bank records, on February 20, 2026, the company received C$200 from Mint Store. This amount was converted from CAD into USD by the bank by using the actual bank exchange rate (0.7913) on the date when the bank received the payment to $158.26. 
 
 
 <!-- PAGE_BREAK -->
@@ -1502,7 +1496,7 @@
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/30/2025_ from the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button, and select _1/30/2026_ from the calendar. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -1528,9 +1522,9 @@
 
 - **Currency** : _CAD_ (inserted automatically when you selected the customer; cannot be overridden) 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
-- **Post Period** : 01-2025 
+- **Post Period** : 01-2026 
 
 - **Description** : Services (January) 
 
@@ -1574,9 +1568,9 @@
 
 - **Description** : Services (January) 
 
-- **Application Date** : _2/20/2025_ 
+- **Application Date** : _2/20/2026_ 
 
-- **Application Period** : _02-2025_ 
+- **Application Period** : _02-2026_ 
 
 - **Payment Amount** : 158.26 On the **Documents to Apply** tab, the system has loaded the invoice you created for this customer earlier. 
 
@@ -1586,15 +1580,13 @@
 <!-- PAGE_BREAK -->
  Paying Multicurrency Invoices | 37 
 
- The payment is in the base currency because the specified cash account is maintained in the base currency. Its amount is $158.26, according to the bank records. The cross rate shown in the Cross Rate column in the table, which is calculated between the currency of the original document ( CAD ) and the currency of the payment ( USD ), is 0.78758762, which is the CAD -toUSD exchange rate that was effective on 2/20/2025. As you can see, when you apply the payment to the invoice, the invoice will be fully paid and its Balance will be $0.00, while the payment will still have an open balance in the amount of $0.74. The SweetLife accountant knows that the invoice should be fully paid, because Mint Store sent exactly C$200.00, which is the outstanding balance of the invoice. To close both the invoice and the payment, you have to set the cross rate equal to the bank exchange rate (0.7913), so that the amount paid for the invoice and the amount applied to the invoice will be equal. Aer you apply the payment to the invoice, both the Balance of the invoice and the Available Balance of the payment will be 0.00 in both currencies. 
+ The payment is in the base currency because the specified cash account is maintained in the base currency. Its amount is $158.26, according to the bank records. The cross rate shown in the Cross Rate column in the table, which is calculated between the currency of the original document ( CAD ) and the currency of the payment ( USD ), is 0.78758762, which is the CAD -toUSD exchange rate that was effective on 2/20/2026. As you can see, when you apply the payment to the invoice, the invoice will be fully paid and its Balance will be $0.00, while the payment will still have an open balance in the amount of $0.74. The SweetLife accountant knows that the invoice should be fully paid, because Mint Store sent exactly C$200.00, which is the outstanding balance of the invoice. To close both the invoice and the payment, you have to set the cross rate equal to the bank exchange rate (0.7913), so that the amount paid for the invoice and the amount applied to the invoice will be equal. Aer you apply the payment to the invoice, both the Balance of the invoice and the Available Balance of the payment will be 0.00 in both currencies. 
 
 4. In the table, enter 0.7913 in the **Cross Rate** column to use this rate in the payment.     Now the amount in the base currency that will be applied to the invoice ( **Amount Paid** ) is equal to the     **Payment Amount** of the payment. 
 
-5. On the form toolbar, click **Remove Hold**. 
+5. On the form toolbar, click **Remove Hold** and then click **Release** to release the payment. 
 
-6. On the form toolbar, click **Release** to release the payment. 
-
-7. On the **Financial** tab, click the **Batch Nbr.** link, and review the generated transaction on the _Journal_     _Transactions_ (GL301000) form, which opens.     When the payment and its application were released, the following actions were performed in the system: 
+6. On the **Financial** tab, click the **Batch Nbr.** link, and review the generated transaction on the _Journal_     _Transactions_ (GL301000) form, which opens.     When the payment and its application were released, the following actions were performed in the system: 
 
 - The checking account specified in the payment ( _10200_ ) was debited in the amount of the payment     applied to the invoice ($158.26) 
 
@@ -1610,17 +1602,17 @@
 
 #### Story 
 
- Suppose that on January 10, 2025, SweetLife Fruits & Jams provided consulting services to the EasyDiner customer in the amount of 50 euros ( EUR in the system). By the end of January, the customer informed SweetLife that they were going to pay the invoice in Canadian dollars ( CAD ); SweetLife agreed to use for the payment the following exchange rate: 1 EUR = 1.51 CAD. On January 31, EasyDiner made the first partial payment in the amount of 20 euros. 
+ Suppose that on January 10, 2026, SweetLife Fruits & Jams provided consulting services to the EasyDiner customer in the amount of 50 euros ( EUR in the system). By the end of January, the customer informed SweetLife that they were going to pay the invoice in Canadian dollars ( CAD ). SweetLife agreed to use for the payment the following exchange rate: 1 EUR = 1.51 CAD. On January 31, EasyDiner made the first partial payment in the amount of 20 Canadian dollars. 
 
  Acting as a SweetLife accountant, you need to process the invoice and apply the payment to it. Then you need to print the multicurrency report to review the outstanding balance of the customer. 
-
-
-<!-- PAGE_BREAK -->
- Paying Multicurrency Invoices | 38 
 
 #### Configuration Overview 
 
  In the U100 dataset, the following tasks have been performed to support this activity: 
+
+
+<!-- PAGE_BREAK -->
+ Paying Multicurrency Invoices | 38 
 
 - On the _Enable/Disable Features_ (CS100000) form, the following features have been enabled: 
 
@@ -1644,7 +1636,7 @@
 
 #### Process Overview 
 
- In this activity, on the Invoices and Memos (AR301000) form, you will create and release an invoice in EUR. On the Payments and Applications (AR302000) form, you will partially pay this invoice in the amount of 20 EUR. Finally, you will print the multicurrency report on the AR Balance by Customer MC (AR633000) form to review the outstanding balance of the customer. 
+ In this activity, on the Invoices and Memos (AR301000) form, you will create and release an invoice in EUR. On the Payments and Applications (AR302000) form, you will partially pay this invoice in the amount of 20 CAD. Finally, you will print the multicurrency report on the AR Balance by Customer MC (AR633000) form to review the outstanding balance of the customer. 
 
 #### System Preparation 
 
@@ -1652,13 +1644,15 @@
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/10/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/10/2025_ from the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/10/2026_. If a different date is displayed, click the Business Date menu     button, and select _1/10/2026_ from the calendar. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
 4. Make sure that the multicurrency accounting functionality has been configured as described in _Multicurrency_     _Functionality: Implementation Activity_ and _Configuration of Rate Types and Rates: To Set Up Refreshing of_     _Rates_. 
 
 5. Make sure that you have configured an account as described in _Multicurrency Cash Accounts: To Configure an_     _Account_. 
+
+6. Make sure that the settings of the EASYDINER customer have been updated as described in _Credit Memos in_     _Foreign Currencies: Process Activity_. 
 
 #### Step 1: Creating and Releasing an Invoice 
 
@@ -1672,15 +1666,15 @@
 
 - **Customer** : _EASYDINER_ 
 
+- **Currency** : _EUR_ (automatically inserted; cannot be overridden) 
+
 
 <!-- PAGE_BREAK -->
  Paying Multicurrency Invoices | 39 
 
-- **Currency** : _EUR_ (automatically inserted; cannot be overridden) 
+- **Date** : _1/10/2026_ 
 
-- **Date** : _1/10/2025_ 
-
-- **Post Period** : 01-2025 
+- **Post Period** : 01-2026 
 
 - **Description** : Consulting services 
 
@@ -1694,9 +1688,7 @@
 
 5. In the Summary area, click **View Base** (right of the **Currency** box), and review the invoice in the base     currency ( _USD_ ).     The **Detail Total** in _USD_ is $56.87, based on the currency exchange rate of the document (€50 * 1.13739763). 
 
-6. On the form toolbar, click **Remove Hold**. 
-
-7. On the form toolbar, click **Release** to release the invoice. 
+6. On the form toolbar, click **Remove Hold** and then click **Release** to release the invoice. 
 
 #### Step 2: Processing a Payment for the Invoice 
 
@@ -1718,29 +1710,27 @@
 
 - **Description** : Partial payment on consulting services 
 
-- **Application Date** : _1/31/2025_ 
+- **Application Date** : _1/31/2026_ 
 
-- **Application Period** : _01-2025_ 
+- **Application Period** : _01-2026_ 
 
 - **Payment Amount** : 20.00 On the **Documents to Apply** tab, the system has loaded the invoices you created for this customer in Step 1 of this activity and in a previous activity. 
 
-3. Select the Included check box for the invoice dated 1/10/2025 to select it.     The default cross rate for the payment application is calculated as the exchange rate of the invoice     currency that was effective on the payment date divided by the currency rate of the payment: 1.424779... =     1.11520018 / 0.7827176.     You have to override this rate to 1.51, which is the _EUR_ -to- _CAD_ rate that had been agreed on with the     customer. Thus, the payment amount converted to _CAD_ is C$30.20 (€20 * 1.51); this amount is not shown on     the form. 
+3. Select the Included check box for the invoice dated 1/10/2026 to select it.     The default cross rate for the payment application is calculated as the exchange rate of the invoice     currency that was effective on the payment date divided by the currency rate of the payment: 1.424779... =     1.11520018 / 0.7827176.     You have to override this rate to 1.51, which is the _EUR_ -to- _CAD_ rate that had been agreed on with the     customer. Thus, the payment amount converted to _EUR_ is €13.24 (C$20 / 1.51). This amount is not shown on     the form. 
 
 4. In the **Cross Rate** column, enter 1.51, and review the payment in the invoice currency and in the base     currency. 
 
-5. In the **Amount Paid** column for the invoice, specify 20.00.     Based on the actual exchange rate on the date of the payment, the payment amount in _USD_ is $15.65     (C$20.00 * 0.7827176).     The balance that you see in the **Balance** column of the table for the invoice is the open amount of the     invoice aer you apply the payment, which is shown in the payment currency and is converted by using the     cross rate: (€50.00 – €13.25) * 1.51 = C$55.50. 
+5. In the **Amount Paid** column for the invoice, specify 20.00.     Based on the actual exchange rate on the date of the payment, the payment amount in _USD_ is $15.65     (C$20.00 * 0.7827176).     The balance that you see in the **Balance** column of the table for the invoice is the open amount of the     invoice aer you apply the payment, which is shown in the payment currency and is converted by using the     cross rate: (€50.00 – €13.24) * 1.51 = C$55.50. 
+
+6. On the form toolbar, click **Remove Hold** and then click **Release** to release the payment. 
+
+7. On the **Financial** tab, click the **Batch Nbr.** link. 
 
 
 <!-- PAGE_BREAK -->
  Paying Multicurrency Invoices | 40 
 
-6. On the form toolbar, click **Remove Hold**. 
-
-7. On the form toolbar, click **Release** to release the payment. 
-
-8. On the **Financial** tab, click the **Batch Nbr.** link. 
-
-9. On the _Journal Transactions_ (GL301000) form, which opens, review the GL transaction in the base currency     ( _USD_ ).     When the payment was released, the following actions were performed in the system: 
+8. On the _Journal Transactions_ (GL301000) form, which opens, review the GL transaction in the base currency     ( _USD_ ).     When the payment was released, the following actions were performed in the system: 
 
 - The checking account specified in the payment ( _10215_ , which you created in _Multicurrency Functionality:_     _Implementation Activity_ ) was debited in the amount of the payment that the system converted to the base     currency by using the payment rate ($15.65 = Round (€20 * 0.7827176)). 
 
@@ -1750,7 +1740,7 @@
 
  If an invoice is issued in the base currency, no gain or loss will be realized on the payment, regardless of the currency of the payment. 
 
- 10.On the Invoices and Memos (AR301000) form, open the invoice to which you have applied the payment, and review the Applications tab. The payment in CAD was applied to the invoice. The balance of the invoice is currently €36.76. 
+9. On the _Invoices and Memos_ (AR301000) form, open the invoice to which you have applied the payment, and     review the **Applications** tab.     The payment in _CAD_ was applied to the invoice. The balance of the invoice is currently €36.76. 
 
 #### Step 3: Printing the Multicurrency Report 
 
@@ -1764,11 +1754,11 @@
 
 - **Company/Branch** : _HEADOFFICE_ 
 
-- **Financial Period** : _01-2025_ 
+- **Financial Period** : _01-2026_ 
 
 - **Include Applications** : Cleared 
 
-3. On the form toolbar, click **Run Report** and review the report.     The report lists all the documents processed in the 01-2025 period, along with the documents that are open     at the end of the period; the listed documents are grouped by customer. For each document, you can review     the document balance in the document currency. Also, for each customer, you can review the total of the     documents in each currency at the end of the period. 
+3. On the form toolbar, click **Run Report** and review the report.     The report lists all the documents processed in the 01-2026 period, along with the documents that are     open at the end of the period. The listed documents are grouped by customer. For each document, you can     review the document balance in the document currency. Also, for each customer, you can review the total of     the documents in each currency at the end of the period. 
 
 
 <!-- PAGE_BREAK -->
@@ -1928,7 +1918,7 @@
 
 #### Story 
 
- Suppose that on January 13, 2025, MapleLeaf Ads Co. provided services to the SweetLife Fruits & Jams company in the amount of 350 Canadian dollars (defined as CAD in the system), for which MapleLeaf billed SweetLife. On January 30, 2025, SweetLife paid this bill. 
+ Suppose that on January 13, 2026, MapleLeaf Ads Co. provided services to the SweetLife Fruits & Jams company in the amount of 350 Canadian dollars (defined as CAD in the system), for which MapleLeaf billed SweetLife. On January 30, 2026, SweetLife paid this bill. 
 
  Acting as a SweetLife accountant, you need to create a bill and apply a payment in CAD (that is, in the same foreign currency) to the bill. Before you perform these actions, you will make changes to the MapleLeaf vendor’s settings so that bill processing can be performed in line with its currency-related preferences. 
 
@@ -1968,7 +1958,7 @@
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/13/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/13/2025_ from the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/13/2026_. If a different date is displayed, click the Business Date menu     button, and select _1/13/2026_ from the calendar. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -2020,9 +2010,9 @@
 
 - **Currency** : _CAD_ (inserted automatically when you selected the vendor)     The _CAD_ currency is selected in the bill because you have assigned this currency to the vendor. Thus,     the document amounts are specified in Canadian dollars. You cannot override the currency in this     particular bill because the **Enable Currency Override** check box is cleared for the vendor on the _Vendors_     (AP303000) form. 
 
-- **Date** : _1/13/2025_ 
+- **Date** : _1/13/2026_ 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Description** : Services 
 
@@ -2034,23 +2024,25 @@
 
 4. On the form toolbar, click **Save**. 
 
-5. In the Summary area, click the **Exchange Rate** box (right of the **Currency** box), and review the **Rate**     **Selection** dialog box, which opens. The **Curr. Rate Type ID** ( _SPOT_ ) is the default rate type determined     by the **AP Rate Type** setting on the _Currency Management Preferences_ (CM101000) form, because you     haven't specified a rate type in the vendor record. The currency rate of the _SPOT_ rate type for 1/13/2025 is     the currency rate that is effective starting on 1/1/2025. You cannot override the rate type and rate in this     document because the **Enable Rate Override** check box is cleared for the vendor on the _Vendors_ form. 
+5. In the Summary area, click the **Exchange Rate** box (right of the **Currency** box), and review the **Rate**     **Selection** dialog box, which opens.     The **Curr. Rate Type ID** ( _SPOT_ ) is the default rate type determined by the **AP Rate Type** setting on the     _Currency Management Preferences_ (CM101000) form, because you haven't specified a rate type in the vendor     record. The currency rate of the _SPOT_ rate type for 1/13/2026 is the currency rate that is effective starting on     1/1/2026. You cannot override the rate type and rate in this document because the **Enable Rate Override**     check box is cleared for the vendor on the _Vendors_ form. 
 
  Any time you need to check which currency rate was effective on a particular date, on the Currency Rates (CM301000) form, you can select the needed date in the Effective Date box and review the Effective Currency Rates tab. 
 
 6. Click **OK** to close the **Rate Selection** dialog box. 
 
-7. In the Summary area, click the **View Base** button (right of the **Currency** box) to review the bill amounts in     the base currency ( _USD_ ). For converting the bill amounts, the system uses the _CAD_ -to- _USD_ rate that was     effective on the bill date; thus, the detail total is C$350.00 * 0.78907914 = $276.18. 
+7. In the Summary area, click the **View Base** button (right of the **Currency** box) to review the bill amounts in     the base currency ( _USD_ ).     For converting the bill amounts, the system uses the _CAD_ -to- _USD_ rate that was effective on the bill date.     Thus, the detail total is C$350.00 * 0.78907914 = $276.18 
 
  You can edit amounts in the document only while viewing the document in the document currency. When you are reviewing the document in the base currency, you cannot modify the document amounts. 
 
-8. On the form toolbar, click **Remove Hold**. 
+8. On the form toolbar, click **Remove Hold** and then click **Release** to release the bill. 
 
-9. On the form toolbar, click **Release** to release the bill. 10.On the **Financial** tab, click the **Batch Nbr.** link. 11.On the _Journal Transactions_ (GL301000) form, review the generated GL transaction in the foreign currency of     the document ( _CAD_ ) and in the base currency ( _USD_ ).     When the system released the transaction: 
+9. On the **Financial** tab, click the **Batch Nbr.** link. 10.On the _Journal Transactions_ (GL301000) form, review the generated GL transaction in the foreign currency of     the document ( _CAD_ ) and in the base currency ( _USD_ ). 
 
 
 <!-- PAGE_BREAK -->
  Processing Bills in Foreign Currencies | 47 
+
+ When the system released the transaction: 
 
 - The AP account specified in the bill ( _20000_ ) was credited in the amount of the bill, which the system     converted to the base currency by using the rate specified in the bill (Round (C$350.00 * 0.78907914) =     $276.18). 
 
@@ -2064,19 +2056,17 @@
 
 2. In the Summary area of this form, specify the following settings: 
 
-- **Application Date** : _1/30/2025_ 
+- **Application Date** : _1/30/2026_ 
 
-- **Application Period** : _01-2025_ The payment is created in _CAD_ , because the cash account denominated in _CAD_ is specified as the default payment account for the vendor. 
+- **Application Period** : _01-2026_ The payment is created in _CAD_ , because the cash account denominated in _CAD_ is specified as the default payment account for the vendor. 
 
-3. Click **View Base** (right of the **Currency** box), and review the payment in the base currency. The payment     amount in _USD_ is $273.95 (C$350 * 0.78271760, which is the _CAD_ -to- _USD_ exchange rate that was effective on     the payment date _1/30/2025_ ). 
+3. Click **View Base** (right of the **Currency** box), and review the payment in the base currency.     The payment amount in _USD_ is $273.95 (C$350 * 0.78271760, which is the _CAD_ -to- _USD_ exchange rate that     was effective on the payment date _1/30/2026_ ). 
 
-4. On the form toolbar, click **Remove Hold**. 
+4. On the form toolbar, click **Remove Hold** and then click **Release** to release the payment. 
 
-5. On the form toolbar, click **Release** to release the payment. 
+5. On the **Financial** tab, click the **Batch Nbr.** link. 
 
-6. On the **Financial** tab, click the **Batch Nbr.** link. 
-
-7. On the _Journal Transactions_ (GL301000) form, which opens, review the generated GL transaction in the     document currency ( _CAD_ ) and in the base currency ( _USD_ ).     When the payment was released, the following actions were performed in the system: 
+6. On the _Journal Transactions_ (GL301000) form, which opens, review the generated GL transaction in the     document currency ( _CAD_ ) and in the base currency ( _USD_ ).     When the payment was released, the following actions were performed in the system: 
 
 - The checking account specified in the payment ( _10215_ ) was credited in the payment amount, which the     system converted to the base currency by using the payment rate as follows: $273.95 = Round (C$350 *     0.78271760). 
 
@@ -2248,7 +2238,7 @@
 
 #### Story 
 
- Suppose that on January 15, 2025, SweetLife Fruits & Jams purchased additional services from the MapleLeaf Co. vendor in the amount of 100 Canadian dollars (C$100). On January 30, SweetLife received a C$5 credit memo from MapleLeaf to reduce the cost of the purchased services. SweetLife agreed with the vendor to pay half of the bill amount on February 10. 
+ Suppose that on January 15, 2026, SweetLife Fruits & Jams purchased additional services from the MapleLeaf Co. vendor in the amount of 100 Canadian dollars (C$100). On January 30, SweetLife received a C$5 credit memo from MapleLeaf to reduce the cost of the purchased services. SweetLife agreed with the vendor to pay half of the bill amount on February 10. 
 
  Acting as a SweetLife accountant, you need to apply this payment and the debit adjustment to the bill. 
 
@@ -2284,7 +2274,7 @@
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/15/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/15/2025_ from the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/15/2026_. If a different date is displayed, click the Business Date menu     button, and select _1/15/2026_ from the calendar. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -2310,9 +2300,9 @@
 
 - **Currency** : _CAD_ (inserted automatically when you selected the vendor; cannot be overridden based on     your changes to the settings of the _MAPLELEAF_ vendor in _AP Bills in Foreign Currencies: Process Activity_ ) 
 
-- **Date** : _1/15/2025_ 
+- **Date** : _1/15/2026_ 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Description** : Additional services 
 
@@ -2324,9 +2314,7 @@
 
 4. On the form toolbar, click **Save** to save your changes.     The bill is created with a currency rate of 0.78419072, which is the rate that was effective on the document     date. 
 
-5. On the form toolbar, click **Remove Hold**. 
-
-6. On the form toolbar, click **Release** to release the bill. 
+5. On the form toolbar, click **Remove Hold** and then click **Release** to release the bill. 
 
 #### Step 2: Creating a Debit Adjustment 
 
@@ -2340,9 +2328,9 @@
 
 - **Currency** : _CAD_ (inserted automatically when you selected the vendor; cannot be overridden) 
 
-- **Date** : _1/30/2025_ 
+- **Date** : _1/30/2026_ 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Description** : Discount on services 
 
@@ -2354,17 +2342,15 @@
 
 3. On the form toolbar, click **Save** to save your changes.     The currency rate specified for the debit adjustment is 0.7827176, which is the effective rate on the     document date. The bill to which you are going to apply the debit adjustment was created with a currency     rate of 0.78419072. When you apply the debit adjustment to the bill, the operation will produce a realized     gain, which is due to the difference of the currency rates. 
 
+4. On the form toolbar, click **Remove Hold** and then click **Release** to release the debit adjustment. 
+
 
 <!-- PAGE_BREAK -->
  Applying Debit Adjustments in Foreign Currencies to Bills | 54 
 
-4. On the form toolbar, click **Remove Hold**. 
+5. On the **Financial** tab, click the **Batch Nbr.** link. 
 
-5. On the form toolbar, click **Release** to release the debit adjustment. 
-
-6. On the **Financial** tab, click the **Batch Nbr.** link. 
-
-7. On the _Journal Transactions_ (GL301000) form, which opens, review the generated transaction in the base     currency ( _USD_ ).     When the debit adjustment was released, the following actions were performed in the system: 
+6. On the _Journal Transactions_ (GL301000) form, which opens, review the generated transaction in the base     currency ( _USD_ ).     When the debit adjustment was released, the following actions were performed in the system: 
 
 - The AP account of the vendor ( _20000_ ) was debited in the debit adjustment amount, which the system     converted to the base currency by using the document rate ($3.91 = Round (C$5.00 * 0.7827176)) to     decrease the vendor balance. 
 
@@ -2388,9 +2374,9 @@
 
 - **Currency** : _CAD_ (inserted automatically when you select the cash account) 
 
-- **Application Date** : _2/10/2025_ 
+- **Application Date** : _2/10/2026_ 
 
-- **Application Period** : _02-2025_ 
+- **Application Period** : _02-2026_ 
 
 - **Description** : Partial payment on additional services 
 
@@ -2398,23 +2384,21 @@
 
 3. On the toolbar of the **Documents to Apply** tab, click **Load Documents**.     The bill and debit adjustment that you have prepared earlier appear in the table. For the debit adjustment     in the table, when you specify the **Amount Paid** , the payment balance available for application increases by     this amount. 
 
-4. On the form toolbar, click **Remove Hold**. 
+4. On the form toolbar, click **Remove Hold** and then click **Release** to release the payment and the     applications. 
 
-5. On the form toolbar, click **Release** to release the payment and the applications. 
+5. Review the **Application History** tab.     On release of the payment and the applications, the system generated a GL batch that includes the     transactions produced by the payment and its applications. The reference number (which is a link) to the     generated transaction is shown in the **Batch Number** column. 
 
-6. Review the **Application History** tab.     On release of the payment and the applications, the system generated a GL batch that includes the     transactions produced by the payment and its applications. The reference number (which is a link) to the     generated transaction is shown in the **Batch Number** column. 
+6. Click the link in the **Batch Number** column. 
 
-7. Click the link in the **Batch Number** column. 
-
-8. On the _Journal Transactions_ (GL301000) form, which opens, review the generated transaction in the base     currency ( _USD_ ).     When the payment and applications were released, the following actions were performed in the system: 
+7. On the _Journal Transactions_ (GL301000) form, which opens, review the generated transaction in the base     currency ( _USD_ ).     When the payment and applications were released, the following actions were performed in the system: 
 
 - The checking account specified in the payment ( _10215_ , which you created in _Multicurrency Functionality:_     _Implementation Activity_ ) was credited in the amount of the payment ($35.44 = Round (C$45.00 *     0.78758762)). 
+
+- The AP account specified in both the bill and the debit adjustment ( _20000_ ) was debited in the amount     deducted from SweetLife's liability to the vendor. This amount is the difference between the debit     adjustment amount and the amount to which the bill balance is decreased: ($35.30 = Round (–C$5.00 *     0.7827176) + Round (C$50.00 * 0.78419072)). 
 
 
 <!-- PAGE_BREAK -->
  Applying Debit Adjustments in Foreign Currencies to Bills | 55 
-
-- The AP account specified in both the bill and the debit adjustment ( _20000_ ) was debited in the amount     deducted from SweetLife's liability to the vendor. This amount is the difference between the debit     adjustment amount and the amount to which the bill balance is decreased: ($35.30 = Round (–C$5.00 *     0.7827176) + Round (C$50.00 * 0.78419072)). 
 
 - The realized gain account was credited to the realized gain account of the currency ( _42010_ ) associated     with the bill. You specified this account when you defined the currency in _Multicurrency Functionality:_     _Implementation Activity_. The system calculated the gain amount as the difference between the application     amount converted to the base currency by using the exchange rate of the debit adjustment and the     application amount converted to the base currency by using the exchange rate of the payment: (–$0.03 =     Round (C$5 * 0.7827176) – Round (C$5 * 0.78758762)). 
 
@@ -2596,7 +2580,7 @@
 
 #### Story 
 
- Suppose that on January 16, 2025, SweetLife Fruits & Jams purchased transport services from Big Green Trucks Ltd. in the amount of 450 in Canadian dollars (C$450). The chief accountant of SweetLife decided to pay the bill from the company's 10200WH account, which is in USD , because there were not enough funds in the account in CAD (which is a foreign currency of the company). SweetLife agreed with the vendor to pay the bill in USD at the 0.796 exchange rate (1 USD = 1.256 CAD), so that the payment amount of $358.20 would pay the bill in full. On January 30, 2025, SweetLife paid the bill in USD (which is the company’s base currency). 
+ Suppose that on January 16, 2026, SweetLife Fruits & Jams purchased transport services from Big Green Trucks Ltd. in the amount of 450 in Canadian dollars (C$450). The chief accountant of SweetLife decided to pay the bill from the company's 10200WH account, which is in USD , because there were not enough funds in the account in CAD (which is a foreign currency of the company). SweetLife agreed with the vendor to pay the bill in USD at the 0.796 exchange rate (1 USD = 1.256 CAD), so that the payment amount of $358.20 would pay the bill in full. On January 30, 2026, SweetLife paid the bill in USD (which is the company’s base currency). 
 
  Acting as a SweetLife accountant, you need to process the bill in CAD and pay it in USD. 
 
@@ -2638,7 +2622,7 @@
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/16/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/16/2025_ from the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/16/2026_. If a different date is displayed, click the Business Date menu     button, and select _1/16/2026_ from the calendar. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -2682,9 +2666,9 @@
 
 - **Currency** : _CAD_ (inserted automatically when you selected the vendor; cannot be overridden in the bill) 
 
-- **Date** : _1/16/2025_ 
+- **Date** : _1/16/2026_ 
 
-- **Post Period** : _01-2025_ 
+- **Post Period** : _01-2026_ 
 
 - **Description** : Transport services 
 
@@ -2698,13 +2682,11 @@
 
 5. In the Summary area, click **View Base** (right of the **Currency** box), and review the bill in the base currency.     The **Detail Total** in _USD_ is $352.89 (C$450 * 0.78419072, which is the currency rate that was effective on the     document date). 
 
-6. On the form toolbar, click **Remove Hold**. 
+6. On the form toolbar, click **Remove Hold** and then click **Release** to release the bill. 
 
-7. On the form toolbar, click **Release** to release the bill. 
+7. On the **Financial** tab, click the **Batch Nbr.** link. 
 
-8. On the **Financial** tab, click the **Batch Nbr.** link. 
-
-9. On the _Journal Transactions_ (GL301000) form, which opens, review the generated transaction in the base     currency ( _USD_ ).     When the bill was released, the following actions were performed in the system: 
+8. On the _Journal Transactions_ (GL301000) form, which opens, review the generated transaction in the base     currency ( _USD_ ).     When the bill was released, the following actions were performed in the system: 
 
 - The AP account of the vendor ( _20000_ ) was credited in the total bill amount, which the system converted     to the base currency by using the document exchange rate ($352.89 = Round (C$450 * 0.78419072)). 
 
@@ -2714,7 +2696,7 @@
 
  To create a payment for the bill, do the following: 
 
-1. Click the Business Date menu button, and select _1/30/2025_ from the calendar. 
+1. Click the Business Date menu button, and select _1/30/2026_ from the calendar. 
 
 2. Open the _Checks and Payments_ (AP302000) form. 
 
@@ -2730,15 +2712,15 @@
 
 - **Currency** : _USD_ (inserted automatically based on the selected cash account) 
 
-- **Application Date** : _1/30/2025_ 
+- **Application Date** : _1/30/2026_ 
 
-- **Application Period** : _01-2025_ 
+- **Application Period** : _01-2026_ 
 
 - **Description** : Transport services 
 
 - **Payment Amount** : 358.20 
 
-4. On the table toolbar of the **Documents To Apply** tab, click **Load Documents**. The bill dated 1/16/2025     appears in the table.     The payment is in the base currency because the specified cash account is maintained in the base currency.     The amount to be applied to the selected document is currently $352.22 (C$450 * 0.7827176), which is the     _CAD_ -to- _USD_ exchange rate that was effective on 1/16/2025. The system uses this rate as the default cross     rate between the currency of the payment ( _USD_ ) and currency of the bill ( _CAD_ ).     When the payment is applied to the bill, the bill will be fully paid, and its **Balance** will be equal to _0.00_ , while     the payment will still have an open balance in the amount of $5.98. To close both the bill and the payment, 
+4. On the table toolbar of the **Documents To Apply** tab, click **Load Documents**. The bill dated 1/16/2026     appears in the table.     The payment is in the base currency because the specified cash account is maintained in the base currency.     The amount to be applied to the selected document is currently $352.22 (C$450 * 0.7827176), which is the     _CAD_ -to- _USD_ exchange rate that was effective on 1/16/2026. The system uses this rate as the default cross     rate between the currency of the payment ( _USD_ ) and currency of the bill ( _CAD_ ).     When the payment is applied to the bill, the bill will be fully paid, and its **Balance** will be equal to _0.00_ , while     the payment will still have an open balance in the amount of $5.98. To close both the bill and the payment, 
 
 
 <!-- PAGE_BREAK -->
@@ -2748,13 +2730,11 @@
 
 5. In the table, enter 0.796 in the **Cross Rate** column to use this rate in the payment application. Now     the amount in the base currency that will be applied to the bill ( **Amount Paid** ) is equal to the **Payment**     **Amount**. 
 
-6. On the form toolbar, click **Remove Hold**. 
+6. On the form toolbar, click **Remove Hold** and then click **Release** to release the payment. 
 
-7. On the form toolbar, click **Release** to release the payment. 
+7. On the **Financial** tab, click the **Batch Nbr.** link. 
 
-8. On the **Financial** tab, click the **Batch Nbr.** link. 
-
-9. On the _Journal Transactions_ (GL301000) form, which opens, review the generated transaction.     When the payment was released, the following actions were performed in the system: 
+8. On the _Journal Transactions_ (GL301000) form, which opens, review the generated transaction.     When the payment was released, the following actions were performed in the system: 
 
 - The checking account specified in the payment ( _10200_ ) was credited in the amount of the payment     ($358.20). 
 
@@ -2770,7 +2750,7 @@
 
 #### Story 
 
- Suppose that on January 17, 2025, SweetLife Fruits & Jams purchased consulting services from Big Green Trucks Ltd. in the amount of 220 euros (€220). ( EUR is a foreign currency of the company.) On January 30, SweetLife agreed with the vendor to pay half of the bill in CAD (which is the other foreign currency of the company) by using the 1.50 exchange rate (1 EUR = 1.50 CAD), so that the partial payment amount would be C$165. 
+ Suppose that on January 17, 2026, SweetLife Fruits & Jams purchased consulting services from Big Green Trucks Ltd. in the amount of 220 euros (€220). ( EUR is a foreign currency of the company.) On January 30, SweetLife agreed with the vendor to pay half of the bill in CAD (which is the other foreign currency of the company) by using the 1.50 exchange rate (1 EUR = 1.50 CAD), so that the partial payment amount would be C$165. 
 
  Acting as a SweetLife accountant, you need to process the bill in EUR , partially pay it with a payment in CAD , and then print a multicurrency report. Before you perform these actions, you will make changes to the Big Green Trucks Ltd. vendor’s currency-related settings, which you initially specified in Multicurrency Payment of Bills: To Pay a Foreign Currency Bill by Using the Base Currency , to allow the vendor’s preferred currency to be overridden. 
 
@@ -2810,7 +2790,7 @@
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/17/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/17/2025_ from the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/17/2026_. If a different date is displayed, click the Business Date menu     button, and select _1/17/2026_ from the calendar. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -2828,7 +2808,7 @@
 
 3. On the **Financial** tab ( **Financial Settings** section), make sure that _CAD_ is selected in the **Currency ID** box.     This is still the vendor’s preferred currency. 
 
-4. Select the **Enable Currency Override** check box. With this change, although _CAD_ will still be initially     inserted into bills and adjustments of the vendor, the currency can be overridden (as it will be in this activity     to _EUR_ ). 
+4. Select the **Enable Currency Override** check box.     With this change, although _CAD_ will still be initially inserted into bills and adjustments of the vendor, the     currency can be overridden (as it will be in this activity to _EUR_ ). 
 
 5. On the form toolbar, click **Save** to save your changes. 
 
@@ -2850,9 +2830,9 @@
 
 - **Currency** : _EUR_ 
 
-- **Date** : _1/17/2025_ (inserted automatically) 
+- **Date** : _1/17/2026_ (inserted automatically) 
 
-- **Post Period** : _01-2025_ (inserted automatically) 
+- **Post Period** : _01-2026_ (inserted automatically) 
 
 - **Description** : Consulting services 
 
@@ -2866,9 +2846,7 @@
 
 5. In the Summary area, click **View Base** (right of the **Currency** box), and review the bill in the base currency.     The **Detail Total** in _USD_ is $251.14 (Round (€220 * 1.14155251), where 1.14155251 is the current _EUR_     exchange rate effective on the bill date). You cannot override the document rate, because the **Enable Rate**     **Override** check box is cleared on the _Vendors_ (AP303000) form for the vendor. 
 
-6. On the form toolbar, click **Remove Hold**. 
-
-7. On the form toolbar, click **Release** to release the bill. 
+6. On the form toolbar, click **Remove Hold** and then click **Release** to release the bill. 
 
 #### Step 3: Creating a Partial Payment for the Bill 
 
@@ -2888,31 +2866,29 @@
 
 - **Currency** : _CAD_ (inserted automatically based on the selected cash account) 
 
-- **Application Date** : _1/30/2025_ 
+- **Application Date** : _1/30/2026_ 
 
-- **Application Period** : _01-2025_ 
+- **Application Period** : _01-2026_ 
 
 - **Description** : Partial payment on consulting services 
 
 - **Payment Amount** : 165.00 
 
-3. On the table toolbar of the **Documents to Apply** tab, click **Load Documents**. The bill dated 1/17/2025,     which you created in Step 2, appears in the table.     The calculated cross rate from _CAD_ to _EUR_ is 1.42477975 (1.2776 / 0.8967, which is the _CAD_ rate that was     effective on the payment date divided by the _EUR_ rate that was effective on the payment date). The amount     to be paid in _EUR_ is the **Amount Paid** divided by the **Cross Rate** and is currently €115.81 (Round (C$165 /     1.42477975)). 
+3. On the table toolbar of the **Documents to Apply** tab, click **Load Documents**. The bill dated 1/17/2026,     which you created in Step 2, appears in the table.     The calculated cross rate from _CAD_ to _EUR_ is 1.42477975 (1.2776 / 0.8967, which is the _CAD_ rate that was     effective on the payment date divided by the _EUR_ rate that was effective on the payment date). The amount     to be paid in _EUR_ is the **Amount Paid** divided by the **Cross Rate** and is currently €115.81 (Round (C$165 /     1.42477975)). 
 
 4. Enter 1.50 in the **Cross Rate** column to change the cross rate to the one agreed on with the vendor, and     enter 165.00 in the **Amount Paid** column. The **Balance** of the bill aer payment will be €110. 
 
-5. On the form toolbar, click **Remove Hold**. 
+5. On the form toolbar, click **Remove Hold** and then click **Release** to release the payment. 
 
-6. On the form toolbar, click **Release** to release the payment. 
+6. On the **Financial** tab, click the **Batch Nbr.** link. 
 
-7. On the **Financial** tab, click the **Batch Nbr.** link. 
+7. On the _Journal Transactions_ (GL301000) form, which opens, review the generated batch in the base currency.     When the payment was released, the following actions were performed in the system: 
 
-8. On the _Journal Transactions_ (GL301000) form, which opens, review the generated batch in the base currency.     When the payment was released, the following actions were performed in the system: 
+- The checking account specified in the payment ( _10215_ ), which you created in _Multicurrency Functionality:_     _Implementation Activity_ ) was credited in the amount of the payment, which the system converted to the     base currency by using the payment rate ($129.15 = Round (C$165 * 0.7827176)). 
 
 
 <!-- PAGE_BREAK -->
  Paying Multicurrency Bills | 65 
-
-- The checking account specified in the payment ( _10215_ ), which you created in _Multicurrency Functionality:_     _Implementation Activity_ ) was credited in the amount of the payment, which the system converted to the     base currency by using the payment rate ($129.15 = Round (C$165 * 0.7827176)). 
 
 - The Accounts Payable account of the vendor ( _20000_ ) was debited in the amount in the base currency     deducted from the balance of the bill ($125.57 = Round (Round (C$165 / 1.5) * 1.14155251)). 
 
@@ -2938,7 +2914,7 @@
 
 - **Company/Branch** : _HEADOFFICE (SweetLife Head Office and Wholesale Center)_ (inserted by default) 
 
-- **Financial Period** : _01-2025_ (inserted by default) 
+- **Financial Period** : _01-2026_ (inserted by default) 
 
 - **Vendor** : Empty 
 
@@ -2946,7 +2922,7 @@
 
 3. On the form toolbar, click **Run Report**. 
 
-4. Review the generated report.     The report lists all the documents processed in the _01-2025_ period, along with the documents that are     open at the end of the period; the documents are grouped by vendor. For each document, you can review     the document balance in the document currency. Also, for each vendor, you can review the total of the     documents in each currency at the end of the period. 
+4. Review the generated report.     The report lists all the documents processed in the _01-2026_ period, along with the documents that are     open at the end of the period; the documents are grouped by vendor. For each document, you can review     the document balance in the document currency. Also, for each vendor, you can review the total of the     documents in each currency at the end of the period. 
 
  In a production environment, you would click Print on the form toolbar to print the multicurrency report. 
 
@@ -3086,7 +3062,7 @@ _- Related Company)_
 
 #### Story 
 
- Suppose that in January 2025, SweetLife Canada (selling company) provided 10 hours of consulting services to the employees of the MHEAD branch of the Muffins & Cakes company (purchasing company). 
+ Suppose that in January 2026, SweetLife Canada (selling company) provided 10 hours of consulting services to the employees of the MHEAD branch of the Muffins & Cakes company (purchasing company). 
 
  Acting as Kimberly Gibbs, an employee who has access to the Muffins and SweetLife Canada companies, you need to process an AR invoice from SweetLife Canada to MHEAD. 
 
@@ -3112,7 +3088,7 @@ _- Related Company)_
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as a system administrator     Kimberly Gibbs by using the _gibbs_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Canada_ branch. 
 
@@ -3142,7 +3118,7 @@ _- Related Company)_
 
 - **Type** : _Invoice_ 
 
-- **Date** : _1/30/2025_ (inserted automatically) 
+- **Date** : _1/30/2026_ (inserted automatically) 
 
 - **Customer** : _MHEAD_     This is a customer that has been extended from a branch. It can be used by all the companies in the     tenant because on the _Customers_ (AR303000) form, the **Restrict Visibility To** setting ( **Financial** tab) for     this customer is empty. 
 
@@ -3186,7 +3162,7 @@ _- Related Company)_
 
 #### Story 
 
- Suppose that in January 2025, the MHEAD branch of the Muffins & Cakes company purchased 10 hours of consulting services from SweetLife Canada. Acting as Kimberly Gibbs, an employee who has access to the Muffins and SweetLife Canada companies, you need to extend the SLCANADA branch as a vendor and create an AP bill for the MHEAD branch. This bill is based on the invoice from SweetLife Canada. Because SweetLife Canada has an agreement with the MHEAD branch that they bill them in the US dollars, the corresponding bill in the MHEAD books should be in USD. 
+ Suppose that in January 2026, the MHEAD branch of the Muffins & Cakes company purchased 10 hours of consulting services from SweetLife Canada. Acting as Kimberly Gibbs, an employee who has access to the Muffins and SweetLife Canada companies, you need to extend the SLCANADA branch as a vendor and create an AP bill for the MHEAD branch. This bill is based on the invoice from SweetLife Canada. Because SweetLife Canada has an agreement with the MHEAD branch that they bill them in the US dollars, the corresponding bill in the MHEAD books should be in USD. 
 
 #### Configuration Overview 
 
@@ -3208,7 +3184,7 @@ _- Related Company)_
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as a system administrator     Kimberly Gibbs by using the _gibbs_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Canada_ branch. 
 
@@ -3448,7 +3424,7 @@ _- Related Company)_
 
 #### Story 
 
- Suppose that for reporting purposes, the accounting department of SweetLife Fruits & Jams has to revalue the open balances of vendors several times within each financial period. Acting as a SweetLife accountant, you need to revalue open AP documents and post the generated GL transactions for the 01-2025 financial period. 
+ Suppose that for reporting purposes, the accounting department of SweetLife Fruits & Jams has to revalue the open balances of vendors several times within each financial period. Acting as a SweetLife accountant, you need to revalue open AP documents and post the generated GL transactions for the 01-2026 financial period. 
 
 #### Configuration Overview 
 
@@ -3528,9 +3504,9 @@ _- Related Company)_
 
 - **Ledger** : _ACTUAL_ 
 
-- **From Period** : _01-2025_ 
+- **From Period** : _01-2026_ 
 
-- **To Period** : _01-2025_ 
+- **To Period** : _01-2026_ 
 
 - **Suppress Zero Balances** : Selected 
 
@@ -3548,7 +3524,7 @@ _- Related Company)_
 
 - **Company/Branch** : _HEADOFFICE - SweetLife Head Office and Wholesale Center_ (inserted by default) 
 
-- **Period** : _01-2025_ 
+- **Period** : _01-2026_ 
 
 - **Vendor Class** : _INTLCA - Canadian Vendors_ 
 
@@ -3572,13 +3548,13 @@ _- Related Company)_
 
 - **Company/Branch** : _HEADOFFICE - SweetLife Head Office and Wholesale Center_ (inserted by default) 
 
-- **Fin. Period** : _01-2025_ 
+- **Fin. Period** : _01-2026_ 
 
-- **Currency Effective Date** : _1/31/2025_ 
+- **Currency Effective Date** : _1/31/2026_ 
 
 - **Currency** : _EUR_ 
 
-- **Description** : AP Revaluation 01-2025 EUR For the only listed vendor, the columns of the table provide the following information. 
+- **Description** : AP Revaluation 01-2026 EUR For the only listed vendor, the columns of the table provide the following information. 
 
 - The **Foreign Currency Balance** column shows the outstanding balance of the vendor in the foreign     currency (€110.00). 
 
@@ -3590,11 +3566,11 @@ _- Related Company)_
 
 - The **Difference** column shows the difference between the **Revalued Balance** and **Original Balance**     values, which is the resulting unrealized gain (if the amount is negative) or loss (if the amount is positive).     Currently, there is an unrealized gain in the amount of $2.90 ($125.57 – $122.67). 
 
-3. In the table, select the unlabeled check box for the only row to select _GREENTRUCK_ ( _Big Green Trucks Ltd._ )     for revaluation. The total amount of the unrealized gain or loss posted by the records selected in the table is     shown in the **Revaluation Total** box in the Selection area of the form. 
+3. In the table, select the unlabeled check box for the only row to select _GREENTRUCK_ ( _Big Green Trucks Ltd._ ) for     revaluation.     The total amount of the unrealized gain or loss posted by the records selected in the table is shown in the     **Revaluation Total** box in the Selection area of the form. 
 
 4. On the form toolbar, click **Revalue** to perform the revaluation.     The system revalues the balances of the open documents of the _GREENTRUCK_ vendor based on the     currency rate of the _SPOT_ type effective on the date of revaluation. Then the system generates and posts the     revaluation transaction, and opens it on the _Journal Transactions_ (GL301000) form. 
 
-5. On this form, review the transaction that was generated on revaluation in the base currency. Notice that the     **Auto Reversing** check box in the Summary area is selected; the generated batch is auto-reversing, because     revaluations are performed for reporting purposes. At the start of the next reporting period, the batch will     be reversed automatically.     When the revaluation transaction was posted, the following actions were performed in the system: 
+5. On this form, review the transaction that was generated on revaluation in the base currency. Notice that the     **Auto Reversing** check box in the Summary area is selected. The generated batch is auto-reversing, because     revaluations are performed for reporting purposes. At the start of the next reporting period, the batch will     be reversed automatically.     When the revaluation transaction was posted, the following actions were performed in the system: 
 
 - The AP account ( _20000_ ) was debited in the amount of unrealized gain ($2.90) to revalue the account     balance. 
 
@@ -3610,19 +3586,19 @@ _- Related Company)_
 
 - **Company/Branch** : _HEADOFFICE - SweetLife Head Office and Wholesale Center_ (inserted automatically) 
 
-- **Fin. Period** : _01-2025_ 
+- **Fin. Period** : _01-2026_ 
 
-- **Currency Effective Date** : 1/31/2025 
+- **Currency Effective Date** : 1/31/2026 
 
 - **Currency** : _CAD_ 
-
-- **Description** : AP Revaluation 01-2025 CAD 
 
 
 <!-- PAGE_BREAK -->
  Revaluing Open AP Documents | 80 
 
-3. In the table, select the unlabeled check box for the only row to select _MAPLELEAF (MapleLeaf Ads Co.)_ for     revaluation. The revaluation will produce an unrealized gain in the amount of $0.15, which is also shown in     the **Revaluation Total** box in the Selection area of the form. 
+- **Description** : AP Revaluation 01-2026 CAD 
+
+3. In the table, select the unlabeled check box for the only row to select _MAPLELEAF (MapleLeaf Ads Co.)_ for     revaluation.     The revaluation will produce an unrealized gain in the amount of $0.15, which is also shown in the     **Revaluation Total** box in the Selection area of the form. 
 
 4. On the form toolbar, click **Revalue** to perform the revaluation. 
 
@@ -3640,11 +3616,11 @@ _- Related Company)_
 
 - **Company/Branch** : _HEADOFFICE - SweetLife Head Office and Wholesale Center_ (inserted automatically) 
 
-- **Financial Period** : _01-2025_ 
+- **Financial Period** : _01-2026_ 
 
 - **Include Applications** : Cleared 
 
-3. On the form toolbar, click **Run Report** , and review the report.     For the _GREENTRUCK (Big Green Trucks Ltd.)_ vendor, the report shows an unrealized gain in the amount of     $2.90 For the _MAPLELEAF (MapleLeaf Ads Co.)_ vendor, the report shows an unrealized gain in the amount of     $0.15. The total unrealized gain for the Accounts Payable account is $3.05 ($–2.90 + –$0.15). 
+3. On the form toolbar, click **Run Report** and review the report.     For the _GREENTRUCK (Big Green Trucks Ltd.)_ vendor, the report shows an unrealized gain in the amount of     $2.90. For the _MAPLELEAF (MapleLeaf Ads Co.)_ vendor, the report shows an unrealized gain in the amount of     $0.15. The total unrealized gain for the Accounts Payable account is $3.05 ($–2.90 + –$0.15). 
 
 #### Step 7: Reviewing the Revaluation Transactions 
 
@@ -3658,17 +3634,17 @@ _- Related Company)_
 
 - **Ledger** : _ACTUAL_ 
 
-- **Period** : _01-2025_ 
+- **Period** : _01-2026_ 
 
 - **Show Currency Details** : Cleared 
 
 3. Review the form and the balance of the Accounts Payable account. 
 
-4. In the table, click the row with the _20000 (Accounts Payable)_ account, and on the form toolbar, click **Account**     **Details**. 
+4. In the table, click the row with the _20000 (Accounts Payable)_ account and on the form toolbar, click **Account**     **Details**. 
 
-5. On the _Account Details_ (GL404000) form, which opens, specify _02-2025_ in the **To Period** box. 
+5. On the _Account Details_ (GL404000) form, which opens, specify _01-2026_ to _02-2026_ in the **Period Range** boxes. 
 
-6. In the table, click the **Module** column and in the dialog box that opens, clear all the check boxes except **CM**     to review only transactions related to currency management. Click **OK**. 
+6. In the table, click the **Module** column and in the dialog box that opens, clear all the check boxes except **CM**     to review only transactions related to currency management. Click **Apply**. 
 
 7. Review the entries displayed in the table.     The table displays the revaluation batches, as well as the corresponding reversing batches, which are     automatically generated at the start of the financial period aer the period of revaluation. These batches     offset each other, so the balance of the account becomes the same as it was before the revaluation. 
 
@@ -3868,7 +3844,7 @@ _- Related Company)_
 
 #### Story 
 
- Suppose that for reporting purposes, the accounting department of SweetLife Fruits & Jams has to revalue the open balances of customers several times within each financial period. Acting as a SweetLife accountant, you need to revalue open AR documents and post the generated GL transactions for the 01-2025 financial period. 
+ Suppose that for reporting purposes, the accounting department of SweetLife Fruits & Jams has to revalue the open balances of customers several times within each financial period. Acting as a SweetLife accountant, you need to revalue open AR documents and post the generated GL transactions for the 01-2026 financial period. 
 
 #### Configuration Overview 
 
@@ -3936,7 +3912,7 @@ _- Related Company)_
 
 4. Open the _Currencies_ (CM202000) form. 
 
-5. In the **Currency ID** box, select _CAD_. You defined this currency in the system in _Multicurrency Functionality:_     _Implementation Activity_. 
+5. In the **Currency ID** box, select _CAD_.     You defined this currency in the system in _Multicurrency Functionality: Implementation Activity_. 
 
 6. In the **AR Provisioning Account** box on the **GL Accounts** tab, select _11500 (AR Provisioning)_. 
 
@@ -3954,9 +3930,9 @@ _- Related Company)_
 
 - **Ledger** : _ACTUAL_ 
 
-- **From Period** : _01-2025_ 
+- **From Period** : _01-2026_ 
 
-- **To Period** : _01-2025_ 
+- **To Period** : _01-2026_ 
 
 - **Suppress Zero Balances** : Selected 
 
@@ -3974,19 +3950,19 @@ _- Related Company)_
 
 - **Company/Branch** : _HEADOFFICE - SweetLife Head Office and Wholesale Center_ (inserted by default) 
 
-- **Fin. Period** : _01-2025_ 
+- **Fin. Period** : _01-2026_ 
 
-- **Currency Effective Date** : _1/31/2025_ 
+- **Currency Effective Date** : _1/31/2026_ 
 
 - **Currency** : _EUR_ 
 
-- **Description** : AR Revaluation 01-2025 EUR The table in the bottom part of the form shows for which customer and which account there are open balances in the specified currency at the end of the selected period. 
+- **Description** : AR Revaluation 01-2026 EUR The table in the bottom part of the form shows for which customer and which account there are open balances in the specified currency at the end of the selected period. 
 
 
 <!-- PAGE_BREAK -->
  Revaluing Open AR Documents | 88 
 
-3. In the table, select the unlabeled check box for the only row to select _EASYDINER (EasyDiner Co.)_ for     revaluation. The total amount of unrealized loss posted by the records selected in the table is shown in the     **Revaluation Total** box in the Selection area of the form. 
+3. In the table, select the unlabeled check box for the only row to select _EASYDINER (EasyDiner Co.)_ for     revaluation.     The total amount of unrealized loss posted by the records selected in the table is shown in the **Revaluation**     **Total** box in the Selection area of the form. 
 
 4. On the form toolbar, click **Revalue** to perform the revaluation.     The system revalues the balances of the open documents of the _EASYDINER_ customer based on the currency     rate of the _SPOT_ type effective on the date of revaluation. Then the system generates and posts the     revaluation transaction, and opens it on the _Journal Transactions_ (GL301000) form. 
 
@@ -4006,13 +3982,13 @@ _- Related Company)_
 
 - **Company/Branch** : _HEADOFFICE - SweetLife Head Office and Wholesale Center_ (inserted by default) 
 
-- **Fin. Period** : _01-2025_ 
+- **Fin. Period** : _01-2026_ 
 
-- **Currency Effective Date** : _1/29/2025_ 
+- **Currency Effective Date** : _1/29/2026_ 
 
 - **Currency** : _CAD_ 
 
-- **Description** : AR Revaluation 01-2025 CAD For the only listed customer, the columns of the table provide the following information: 
+- **Description** : AR Revaluation 01-2026 CAD For the only listed customer, the columns of the table provide the following information: 
 
 - The **Foreign Currency Balance** column shows the outstanding balance of the customer in the foreign     currency (C$200). 
 
@@ -4026,11 +4002,13 @@ _- Related Company)_
 
 3. In the table, select the unlabeled check box for the only row to select the _11000_ AR account for revaluation.     The total amount of the unrealized gain posted by the record selected in the table is shown in the     **Revaluation Total** box in the Selection area of the form. 
 
-4. On the form toolbar, click **Revalue** to perform the revaluation of the selected account.     The system revalues the balances of the open documents of the _MINTSTORE_ customer based on the     currency rate of the _SPOT_ type that was effective on the date of revaluation. Then the system generates the     revaluation transaction and opens it on the _Journal Transactions_ (GL301000) form. 
+4. On the form toolbar, click **Revalue** to perform the revaluation of the selected account. 
 
 
 <!-- PAGE_BREAK -->
  Revaluing Open AR Documents | 89 
+
+ The system revalues the balances of the open documents of the MINTSTORE customer based on the currency rate of the SPOT type that was effective on the date of revaluation. Then the system generates the revaluation transaction and opens it on the Journal Transactions (GL301000) form. 
 
 5. On the _Journal Transactions_ form, review the transaction generated on revaluation in the base currency.     Notice that **Auto-Reversing** check box in the Summary area is selected; the generated batch is auto-     reversing, because revaluations are performed for reporting purposes. In the start of the next reporting     period, the batch will be reversed automatically.     When the revaluation batch was posted, the following actions were performed in the system: 
 
@@ -4038,7 +4016,7 @@ _- Related Company)_
 
 - The Unrealized Gain/Loss Currency account ( _84000_ ), which you specified when you defined the _CAD_     currency in _Multicurrency Functionality: Implementation Activity_ ) was credited in the amount of the     unrealized gain ($0.30). 
 
-#### Step 5: Reviewing the Accounts Receivable and AR Provisioning Balances Aer the Revaluation 
+#### Step 5: Reviewing the Balances of Accounts Receivable and AR Provisioning Aer the Revaluation 
 
  To review the balances of the Accounts Receivable and AR Provisioning accounts aer the revaluation, do the following: 
 
@@ -4050,15 +4028,15 @@ _- Related Company)_
 
 - **Ledger** : _ACTUAL_ 
 
-- **Period** : _01-2025_ 
+- **Period** : _01-2026_ 
 
 - **Show Currency Details** : Cleared 
 
 3. In the table, review the ending balance of the _11000 (Accounts Receivable)_ account.     The AR balance is $15,994.55, because the _EUR_ revaluation resulted in a realized gain and was recorded     to the Accounts Receivable account. The result of the _CAD_ revaluation was a realized gain ($0.30) and was     recorded to the _11500 (AR Provisioning)_ account. 
 
-4. In the table, click the row with the _11500 (AR Provisioning)_ account, and on the form toolbar, click **Account**     **Details**. 
+4. In the table, click the row with the _11500 (AR Provisioning)_ account and on the form toolbar, click **Account**     **Details**. 
 
-5. On the _Account Details_ (GL404000) form, which opens, specify _02-2025_ in the **To Period** box, and review the     entries displayed in the table.     The table displays the revaluation batch, as well as the corresponding reversing batch, which is     automatically generated at the start of the financial period aer the period of revaluation. These batches     offset each other, so the balance of the account becomes $0.00, as it was before the revaluation. 
+5. On the _Account Details_ (GL404000) form, which opens, specify _01-2026_ to _02-2026_ in the **Period Range** boxes     and review the entries displayed in the table.     The table displays the revaluation batch, as well as the corresponding reversing batch, which is     automatically generated at the start of the financial period aer the period of revaluation. These batches     offset each other, so the balance of the account becomes $0.00, as it was before the revaluation. 
 
 ### Revaluation of AR Documents: Related Report and Inquiry Form 
 
@@ -4066,13 +4044,13 @@ _- Related Company)_
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
 
-#### Reviewing a Customer's Balance in a Foreign Currency 
-
- You can review the balance in a foreign currency and unrealized gains or losses for a customer account for which you have performed revaluation of open AR documents by running the AR Balance by Customer MC (AR633000) report. 
-
 
 <!-- PAGE_BREAK -->
  Revaluing Open AR Documents | 90 
+
+#### Reviewing a Customer's Balance in a Foreign Currency 
+
+ You can review the balance in a foreign currency and unrealized gains or losses for a customer account for which you have performed revaluation of open AR documents by running the AR Balance by Customer MC (AR633000) report. 
 
 #### Reviewing Unrealized Gains or Losses for a Customer Account 
 
@@ -4218,7 +4196,7 @@ _- Related Company)_
 
 #### Story 
 
- Suppose that the accounting department of SweetLife Fruits & Jams company has to revalue the company's bank account in CAD several times within each financial period. Acting as a SweetLife accountant, on January 24, 2025, you need to revalue the cash account for the 01-2025 financial period and post the generated GL transactions. 
+ Suppose that the accounting department of SweetLife Fruits & Jams company has to revalue the company's bank account in CAD several times within each financial period. Acting as a SweetLife accountant, on January 24, 2026, you need to revalue the cash account for the 01-2026 financial period and post the generated GL transactions. 
 
 #### Configuration Overview 
 
@@ -4284,11 +4262,11 @@ _- Related Company)_
 
 - **Ledger** : _ACTUAL_ 
 
-- **Period** : _01-2025_ 
+- **Period** : _01-2026_ 
 
 - **Show Currency Details** : Selected 
 
-3. Review the balance of _10215 (Checking Account CAD)_. The balance of the denominated _10215_ checking     account for the specified period is $336.75, which is C$430.23 in the currency of denomination. Notice that     the **Currency ID** column contains _CAD_ for this account. 
+3. Review the balance of _10215 (Checking Account CAD)_.     The ending balance of the denominated _10215_ checking account for the specified period is $336.75, which     is C$430.23 in the currency of denomination. Notice that the **Currency ID** column contains _CAD_ for this     account. 
 
 #### Step 3: Revaluing the Bank Account 
 
@@ -4300,21 +4278,21 @@ _- Related Company)_
 
 - **Company/Branch** : _HEADOFFICE - SweetLife Head Office and Wholesale Center_ (inserted automatically) 
 
-- **Fin. Period** : _01-2025_ 
-
-- **Currency Effective Date** : _1/24/2025_ 
-
-- **Currency** : _CAD_ 
+- **Fin. Period** : _01-2026_ 
 
 
 <!-- PAGE_BREAK -->
  Revaluing Bank Accounts | 96 
 
-- **Description** : GL Revaluation 01-2025 CAD 
+- **Currency Effective Date** : _1/24/2026_ 
 
-3. Select the unlabeled check box in the only row in the table, and on the form toolbar, click **Revalue** to     perform the revaluation for the selected account. The system generates a revaluation transaction and opens     it on the _Journal Transactions_ (GL301000) form. 
+- **Currency** : _CAD_ 
 
-4. On this form, review the revaluation transaction in the base currency. Notice that the **Auto Reversing** check     box in the Summary area is cleared; the created batch is not auto-reversing and thus will not be reversed at     the start of the next period.     When the revaluation transaction was automatically posted, the following actions were performed in the     system: 
+- **Description** : GL Revaluation 01-2026 CAD 
+
+3. Select the unlabeled check box in the only row in the table, and on the form toolbar, click **Revalue** to     perform the revaluation for the selected account.     The system generates a revaluation transaction and opens it on the _Journal Transactions_ (GL301000) form. 
+
+4. On this form, review the revaluation transaction in the base currency. Notice that the **Auto Reversing** check     box in the Summary area is cleared. The created batch is not auto-reversing and thus will not be reversed at     the start of the next period.     When the revaluation transaction was automatically posted, the following actions were performed in the     system: 
 
 - The revalued _10215_ checking account was debited in the amount of the calculated revaluation gain     ($0.63). 
 
@@ -4332,13 +4310,13 @@ _- Related Company)_
 
 - **Ledger** : _ACTUAL_ 
 
-- **Period** : _01-2025_ 
+- **Period** : _01-2026_ 
 
 - **Show Currency Details** : Selected 
 
-3. Review the table. The balance of the denominated _10215_ checking account is now $337.38, which is     C$430.23 revalued by the system by using the _CAD_ exchange rate effective on 1/24/2025. 
+3. Review the table.     The ending balance of the denominated _10215_ checking account is now $337.38, which is C$430.23 revalued     by the system by using the _CAD_ exchange rate effective on 1/24/2026. 
 
-4. Click the row with the _84010 (Cash Account Revaluation Gain/Loss CAD)_ account, and on the form toolbar,     click **Account Details**. 
+4. Click the row with the _84010 (Cash Account Revaluation Gain/Loss CAD)_ account and on the form toolbar,     click **Account Details**. 
 
 5. Review the _Account Details_ (GL404000) form, which opens. The revaluation gain amount has been credited     to the _84010_ account. 
 
@@ -4462,7 +4440,7 @@ _- Related Company)_
 
  The Year-to-Date (YTD) Net Income account is not included in the translation definition, because in the reporting ledger, just as in the actual ledger, this account accumulates the difference between amounts posted to income and expense accounts and is updated by every transaction posted to these accounts. Thus, to get the translated balance of the YTD Net Income account in the reporting ledger, you translate the balances of the income and expense accounts, and then the system calculates the account balance based on the translated amounts. 
 
- To get the correct translated balance of the Retained Earnings account in the reporting ledger, you need to translate the period-to-date (PTD) balances of income and expense accounts in each period, starting from the very first one. In addition, you need to translate the transactions that were posted manually to the Retained Earnings account (if any). These transactions update the account PTD balance in the transaction period, and the system would translate the account balance by using the PTD Balance method selected for the account in the translation definition. That is why you have to start translations from the first period in which the company begins operations in Acumatica ERP, which is 12-2024 for the company used in the activities of this guide. 
+ To get the correct translated balance of the Retained Earnings account in the reporting ledger, you need to translate the period-to-date (PTD) balances of income and expense accounts in each period, starting from the very first one. In addition, you need to translate the transactions that were posted manually to the Retained Earnings account (if any). These transactions update the account PTD balance in the transaction period, and the system would translate the account balance by using the PTD Balance method selected for the account in the translation definition. That is why you have to start translations from the first period in which the company begins operations in Acumatica ERP, which is 12-2025 for the company used in the activities of this guide. 
 
 ### Translation of Financial Statements: Implementation Checklist 
 
@@ -4518,7 +4496,7 @@ _- Related Company)_
 
 #### Story 
 
- Suppose that aer the configuration of a translation definition, the chief accountant of SweetLife Fruits & Jams has decided to translate account balances from the base currency ( USD ) into a foreign currency ( EUR ) by using the configured translation definition. Acting as a SweetLife accountant, you have to translate the account balances for December 2024 and January 2025. 
+ Suppose that aer the configuration of a translation definition, the chief accountant of SweetLife Fruits & Jams has decided to translate account balances from the base currency ( USD ) into a foreign currency ( EUR ) by using the configured translation definition. Acting as a SweetLife accountant, you have to translate the account balances for December 2025 and January 2026. 
 
 #### Configuration Overview 
 
@@ -4544,9 +4522,9 @@ _- Related Company)_
 
 #### Process Overview 
 
- In this activity, you will prepare a translation for December 2024 on the Prepare Translation (CM501000) form and release it on the Translation Worksheets (CM304000) form. You will then review the balances of the reporting ledger on the Account Summary (GL401000) form. 
+ In this activity, you will prepare a translation for December 2025 on the Prepare Translation (CM501000) form and release it on the Translation Worksheets (CM304000) form. You will then review the balances of the reporting ledger on the Account Summary (GL401000) form. 
 
- Next, you will prepare a translation for January 2025 on the Prepare Translation form, release it on the Translation Worksheets form, and analyze how the system updated the balances. 
+ Next, you will prepare a translation for January 2026 on the Prepare Translation form, release it on the Translation Worksheets form, and analyze how the system updated the balances. 
 
 #### System Preparation 
 
@@ -4554,7 +4532,7 @@ _- Related Company)_
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as an accountant Anna     Johnson by using the _johnson_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _12/31/2024_ from the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _12/31/2025_ from the calendar. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _SweetLife Head Office and Wholesale Center_ branch is selected. If it is not selected, click the Company     and Branch Selection menu button to view the list of branches that you have access to, and then click     _SweetLife Head Office and Wholesale Center_. 
 
@@ -4566,9 +4544,9 @@ _- Related Company)_
 
 5. Make sure that you have created a translation definition as described in _Translation Definitions:_     _Implementation Activity_. 
 
-#### Step 1: Preparing a Translation for December 2024 
+#### Step 1: Preparing a Translation for December 2025 
 
- To prepare a translation for the 12-2024 period, do the following: 
+ To prepare a translation for the 12-2025 period, do the following: 
 
 1. Open the _Prepare Translation_ (CM501000) form. 
 
@@ -4576,11 +4554,11 @@ _- Related Company)_
 
 - **Translation ID** : _EUR_     Here you specify the translation definition to be used for the translation. 
 
-- **Fin. Period** : _12-2024_     This is the financial period for which the translation will be performed. 
+- **Fin. Period** : _12-2025_     This is the financial period for which the translation will be performed. 
 
-- **Currency Effective Date** : _12/31/2024_     This is the effective date of the currency exchange rate to be used for the translation. 
+- **Currency Effective Date** : _12/31/2025_     This is the effective date of the currency exchange rate to be used for the translation. 
 
-- **Description** : Translation to EUR The table displays the currency rates that will be used in the translation. These are the rates of different rate types that are effective on the translation date. 
+- **Description** : _Translation to EUR_ (inserted automatically) The table displays the currency rates that will be used in the translation. These are the rates of different rate types that are effective on the translation date. 
 
  When you are performing a translation in a production environment, make sure that you have completed the translation for the previous periods. If any periods were skipped, you will see incorrect balances of the accounts that are translated by the PTD Balance method and have nonzero PTD balances for the skipped periods. 
 
@@ -4612,9 +4590,9 @@ _- Related Company)_
 
  If you have used the wrong currency rate in the translation, change the rate to the correct one and redo the translation. 
 
- The EUROTRANS reporting ledger now contains account balances translated to EUR , so that you can use it for preparing financial statements and other reports in the EUR currency for the 12-2024 period. 
+ The EUROTRANS reporting ledger now contains account balances translated to EUR , so that you can use it for preparing financial statements and other reports in the EUR currency for the 12-2025 period. 
 
-#### Step 3: Reviewing the Balance of the Reporting Ledger 
+#### Step 3: Reviewing the Balances of the Reporting Ledger 
 
  To review the balances of the EUROTRANS reporting ledger, do the following: 
 
@@ -4626,37 +4604,37 @@ _- Related Company)_
 
 - **Ledger** : _EUROTRANS_ 
 
-- **Financial Period** : _12-2024_ 
+- **Financial Period** : _12-2025_ 
 
 - **Show Currency Details** : Cleared 
 
-3. Review the table. Account balances have been translated to _EUR_ and recorded to the reporting ledger. The     amounts in the **Ending Balance** column are the same as those in the **Translated Balance** column of the     translation worksheet that you released. 
+3. Review the table.     Account balances have been translated to _EUR_ and recorded to the reporting ledger. The amounts in     the **Ending Balance** column are the same as those in the **Translated Balance** column of the translation     worksheet that you released. 
 
-#### Step 4: Preparing and Releasing a Translation for January 2025 
+#### Step 4: Preparing and Releasing a Translation for January 2026 
 
- To prepare a translation for the 01-2025 period, do the following: 
+ To prepare a translation for the 01-2026 period, do the following: 
 
-1. In the info area, set the business date to _1/31/2025_. 
+1. In the info area, set the business date to _1/31/2026_. 
 
 2. Open the _Prepare Translation_ (CM501000) form. 
 
 3. In the Selection area, specify the following settings: 
 
-- **Translation ID** : _EUR_ 
-
 
 <!-- PAGE_BREAK -->
  Translating Financial Statements | 105 
 
-- **Fin. Period** : _01-2025_ (inserted automatically) 
+- **Translation ID** : _EUR_ 
 
-- **Currency Effective Date** : _1/31/2025_ (inserted automatically) 
+- **Fin. Period** : _01-2026_ (inserted automatically) 
 
-- **Description** : Translation to EUR **Last Fin. Period** shows the period for which the most recent translation was performed ( _12-2024_ ). 
+- **Currency Effective Date** : _1/31/2026_ (inserted automatically) 
+
+- **Description** : _Translation to EUR_ (inserted automatically) **Last Fin. Period** shows the period for which the most recent translation was performed ( _12-2025_ ). 
 
  If you have prepared a translation for a period and have not released it, you will not be able to prepare a translation for the next period until you release or delete the prepared translation on the Translation Worksheets (CM304000) form. 
 
-4. On the form toolbar, click **Create Translation**.     The system prepares the translation and displays it on the _Translation Worksheets_ form. The system prepares     the translation that adjusts the results of the previous translation. Notice that not all accounts were     processed during this translation: The system processes only accounts with the _PTD Balance_ method that     have transactions in the translation period, and accounts with the _YTD Balance_ method that have nonzero     balances. Because the _SPOT_ rate at the end of _12-2024_ and at the end of _01-2025_ differs, the system also     translates all assets and liabilities.     The **Transaction Debit Amount** and **Transaction Credit Amount** columns display the adjusting amounts     that will be posted to the accounts in the reporting ledger. Thus, the ending balances for the accounts     translated with the _YTD Balance_ method and the PTD balances for accounts translated with the _PTD Balance_     method become equal to the amounts in the **Translated Amount** column. 
+4. On the form toolbar, click **Create Translation**.     The system prepares the translation and displays it on the _Translation Worksheets_ form. The system prepares     the translation that adjusts the results of the previous translation. Notice that not all accounts were     processed during this translation: The system processes only accounts with the _PTD Balance_ method that     have transactions in the translation period, and accounts with the _YTD Balance_ method that have nonzero     balances. Because the _SPOT_ rate at the end of _12-2025_ and at the end of _01-2026_ differs, the system also     translates all assets and liabilities.     The **Transaction Debit Amount** and **Transaction Credit Amount** columns display the adjusting amounts     that will be posted to the accounts in the reporting ledger. Thus, the ending balances for the accounts     translated with the _YTD Balance_ method and the PTD balances for accounts translated with the _PTD Balance_     method become equal to the amounts in the **Translated Amount** column. 
 
 5. On the form toolbar, click **Release**. 
 
@@ -4664,7 +4642,7 @@ _- Related Company)_
 
 7. On the **Report Parameters** tab, specify the following settings: 
 
-- **Financial Period** : _01-2025_ 
+- **Financial Period** : _01-2026_ 
 
 - **Translation Number** : _000002_ 
 
@@ -4672,9 +4650,9 @@ _- Related Company)_
 
 9. Review the report. It lists the accounts whose balances were updated with the translation. 
 
-#### Step 5: Reviewing the Balance of the Reporting Ledger 
+#### Step 5: Reviewing the Balances of the Reporting Ledger 
 
- To review the balance of the reporting ledger updated by the translation, do the following: 
+ To review the balances of the reporting ledger updated by the translation, do the following: 
 
 1. Open the _Account Summary_ (GL401000) form. 
 
@@ -4684,11 +4662,11 @@ _- Related Company)_
 
 - **Ledger** : _EUROTRANS_ 
 
-- **Period** : _01-2025_ 
+- **Period** : _01-2026_ 
 
 - **Show Currency Details** : Cleared 
 
-3. Review the form. The account balances were updated with the results of the translation in _01-2025_. At     the end of the 2024 financial year, the system automatically transferred the net income from the YTD Net     Income account to the Retained Earnings account. Therefore, the beginning balance of the _32000_ (Retained     Earnings) account is €27,682.37, and the balance of the _33000_ (Net Income) account at the start of _01-2025_     is €0.00. The ending balance of the _33000_ account for the _01-2025_ period was automatically calculated from     the balances of the income and expense accounts, and is now –€37,634.88. 
+3. Review the form.     The account balances were updated with the results of the translation in _01-2026_. At the end of the 2025     financial year, the system automatically transferred the net income from the YTD Net Income account to the     Retained Earnings account. Therefore, the beginning balance of the _32000_ (Retained Earnings) account is     €27,682.37, and the balance of the _33000_ (Net Income) account at the start of _01-2026_ is €0.00. The ending     balance of the _33000_ account for the _01-2026_ period was automatically calculated from the balances of the     income and expense accounts, and is now –€37,588.96. 
 
 
 <!-- PAGE_BREAK -->
@@ -4840,7 +4818,7 @@ _- Related Company)_
 
 #### Story 
 
- Suppose that at the end of January 2025, the managers of SweetLife Fruits & Jams need to review the consolidated financial statement of SweetLife (the parent company) and SweetLife Canada (a subsidiary in Canada). Because the companies use different base currencies—the US dollars for SweetLife and Canadian dollars for SweetLife Canada —the account balances of SweetLife Canada need to be translated into USD first. 
+ Suppose that at the end of January 2026, the managers of SweetLife Fruits & Jams need to review the consolidated financial statement of SweetLife (the parent company) and SweetLife Canada (a subsidiary in Canada). Because the companies use different base currencies—the US dollars for SweetLife and Canadian dollars for SweetLife Canada —the account balances of SweetLife Canada need to be translated into USD first. 
 
  Further suppose that SweetLife's chief accountant has decided that balances have to be translated based on the following rules: 
 
@@ -4854,7 +4832,7 @@ _- Related Company)_
 
 - The Retained Earnings account should be translated by using the current exchange rate. 
 
-- Revenues, expenses, gains, and losses should be translated by using the average exchange rate for the     period that is used for translation. Acting as Kimberly Gibbs, an employee who has access to both companies, you need to upload transactions for the 01-2025 period and translate the account balances of SweetLife Canada for January 2025 into USD (the base currency of SweetLife Fruits & Jams). 
+- Revenues, expenses, gains, and losses should be translated by using the average exchange rate for the     period that is used for translation. Acting as Kimberly Gibbs, an employee who has access to both companies, you need to upload transactions for the 01-2026 period and translate the account balances of SweetLife Canada for January 2026 into USD (the base currency of SweetLife Fruits & Jams). 
 
 #### Configuration Overview 
 
@@ -4884,7 +4862,7 @@ _- Related Company)_
 
 #### Process Overview 
 
- In this activity, you will first enable the Translation of Financial Statements feature on the Enable/Disable Features (CS100000) form. On the Currencies (CM202000) form, you will specify the GL accounts for the CAD and USD currencies. On the Currency Rate Types (CM201000) form, you will create the SPOT , AVG , and HIST rate types that will be used in translation. On the Currency Rates (CM301000) form, you will create a currency rate for each rate type for the date when the translation has to be performed. On the Ledgers (GL201500) form, you will create a reporting ledger that will be used for translation. On the Journal Transactions (GL301000) form, you will upload the transactions of SweetLife Canada for the 01-2025 financial period. 
+ In this activity, you will first enable the Translation of Financial Statements feature on the Enable/Disable Features (CS100000) form. On the Currencies (CM202000) form, you will specify the GL accounts for the CAD and USD currencies. On the Currency Rate Types (CM201000) form, you will create the SPOT , AVG , and HIST rate types that will be used in translation. On the Currency Rates (CM301000) form, you will create a currency rate for each rate type for the date when the translation has to be performed. On the Ledgers (GL201500) form, you will create a reporting ledger that will be used for translation. On the Journal Transactions (GL301000) form, you will upload the transactions of SweetLife Canada for the 01-2026 financial period. 
 
  On the Translation Definition (CM203000) form, you will create a translation rule based on the settings you have created in this activity. You will then prepare a translation on the Prepare Translation (CM501000) form and release the translation on the Translation Worksheets (CM304000) form. Finally, you will review the GL batch generated by the system on the Journal Transactions (GL301000) form. 
 
@@ -4894,7 +4872,7 @@ _- Related Company)_
 
 1. Launch the Acumatica ERP website with the _U100_ dataset preloaded, and sign in as a system administrator     Kimberly Gibbs by using the _gibbs_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/31/2025_ on the calendar. 
+2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business     Date menu button, and select _1/31/2026_ on the calendar. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _SweetLife Canada_ branch. 
 
@@ -5016,7 +4994,7 @@ _- Related Company)_
 
 - **To Currency** : _USD_ 
 
-- **Effective Date** : _1/31/2025_ 
+- **Effective Date** : _1/31/2026_ 
 
 3. On the **Currency Rate Entry** tab, click **Add Row** on the table toolbar, and specify or verify the following     settings for the added row: 
 
@@ -5024,7 +5002,7 @@ _- Related Company)_
 
 - **Currency Rate Type** : _SPOT_ 
 
-- **Currency Effective Date** : _1/31/2025_ (inserted automatically) 
+- **Currency Effective Date** : _1/31/2026_ (inserted automatically) 
 
 
 <!-- PAGE_BREAK -->
@@ -5040,7 +5018,7 @@ _- Related Company)_
 
 - **Currency Rate Type** : _AVG_ 
 
-- **Currency Effective Date** : _1/31/2025_ (inserted automatically) 
+- **Currency Effective Date** : _1/31/2026_ (inserted automatically) 
 
 - **Currency Rate** : 1.3157 
 
@@ -5052,7 +5030,7 @@ _- Related Company)_
 
 - **Currency Rate Type** : _HIST_ 
 
-- **Currency Effective Date** : _1/31/2025_ (inserted automatically) 
+- **Currency Effective Date** : _1/31/2026_ (inserted automatically) 
 
 - **Currency Rate** : 1.2609 
 
@@ -5080,9 +5058,9 @@ _- Related Company)_
 
 4. On the form toolbar, click **Save** to save your changes. 
 
-#### Step 6: Uploading Transactions for the 01-2025 Period 
+#### Step 6: Uploading Transactions for the 01-2026 Period 
 
- To upload the list of transactions for the 01-2025 period in the SLCANADA company, do the following: 
+ To upload the list of transactions for the 01-2026 period in the SLCANADA company, do the following: 
 
 1. Open the _Journal Transactions_ (GL301000) form. 
 
@@ -5090,9 +5068,9 @@ _- Related Company)_
 
 - **Module** : _GL_ (inserted by default) 
 
-- **Transaction Date** : _01/31/2025_ (inserted automatically) 
+- **Transaction Date** : _01/31/2026_ (inserted automatically) 
 
-- **Post Period** : _01-2025_ (inserted automatically) 
+- **Post Period** : _01-2026_ (inserted automatically) 
 
 - **Branch** : _SLCANADA_ (inserted automatically) 
 
@@ -5100,19 +5078,19 @@ _- Related Company)_
 
 - **Currency** : _CAD_ 
 
-- **Description** : Transactions for 01-2025 
+- **Description** : Transactions for 01-2026 
 
 3. On the table toolbar, click **Load Records from File**. 
 
-4. In the **File Upload** dialog box, which opens, select the _SWEETLIFE_Canada_Transactions_01-2025.xlsx_ file,     and click **Open**. Click **Upload** in the dialog box. 
+4. In Step 1 of the **Import Data** wizard, which opens, click Upload File and select the path to the     _SWEETLIFE_Canada_Transactions_01-2026.xlsx_ file. 
 
 
 <!-- PAGE_BREAK -->
  Preparing a Consolidated Financial Statement | 114 
 
-5. In the **Common Settings** dialog box, which opens, leave the default settings and click **OK**. 
+5. In Step 2 of the wizard, leave the default settings and click **Next**. 
 
-6. In the dialog box that opens, leave the default settings, and click **OK**. 
+6. In Step 3 of the wizard, leave the default settings and click **Finish**. 
 
 7. On the form toolbar, click **Remove Hold** and then click **Release** to release the transaction. 
 
@@ -5196,9 +5174,9 @@ _- Related Company)_
 
 - **Translation ID** : _CADTOUSD_ 
 
-- **Fin. Period** : _01-2025_ (inserted automatically) 
+- **Fin. Period** : _01-2026_ (inserted automatically) 
 
-- **Currency Effective Date** : _1/31/2025_ (inserted automatically) 
+- **Currency Effective Date** : _1/31/2026_ (inserted automatically) 
 
 3. On the form toolbar, click **Create Translation**.     The system prepares the translation worksheet and displays it on the _Translation Worksheets_ (CM304000)     form. 
 
@@ -5262,9 +5240,13 @@ _- Related Company)_
 
 2. On the form toolbar, click **Copy Row Set**. 
 
-3. In the **New Row Set Code** dialog box, which is opened, type CONSDPL in the **New Code** box and click **Copy**.     The system closes the dialog box and returns you to the form. 
+3. In the **Copy Row Set** dialog box, which is opened, specify the following settings: 
 
-4. In the **Description** box of the Summary area, type SweetLife Consolidated P&L. 
+- **New Code** : CONSDPL 
+
+- **Description** : SweetLife Consolidated P&L 
+
+4. Click **Save**. The system closes the dialog box and returns you to the form. 
 
 5. On the form toolbar, click **Save**. 
 
@@ -5276,9 +5258,13 @@ _- Related Company)_
 
 2. On the form toolbar, click **Copy Column Set**. 
 
-3. In the **New Column Set Code** dialog box, which is opened, type CONSDPLP in the **New Code** box and click     **Copy**. The system closes the dialog box and returns you to the form. 
+3. In the **Copy Column Set** dialog box, which is opened, specify the following settings: 
 
-4. In the **Description** box of the Summary area, type SweetLife Consolidated P&L. 
+- **New Code** : CONSDPLP 
+
+- **Description** : SweetLife Consolidated P&L 
+
+4. Click **Save**. The system closes the dialog box and returns you to the form. 
 
 5. On the form toolbar, click **Save**. 
 
@@ -5290,19 +5276,19 @@ _- Related Company)_
 
 2. On the form toolbar, click **Copy Report**. 
 
-3. In the **New Report Code** dialog box, which is opened, specify DPLPCONS in the **New Code** box and click     **Copy**. The system closes the dialog box and returns you to the form. You are now working with the copied     version of the report with the _DPLPCONS_ code. 
+3. In the **Copy Column Set** dialog box, which is opened, specify DPLPCONS in the **New Code** box and click     **Save**. The system closes the dialog box and returns you to the form. You are now working with the copied     version of the report with the _DPLPCONS_ code. 
 
 4. In the **Report Definition** section, change the settings of the report to the following: 
+
+
+<!-- PAGE_BREAK -->
+ Preparing a Consolidated Financial Statement | 117 
 
 - **Description** : SweetLife Consolidated Profit & Loss 
 
 - **Row Set** : _CONSDPL_ 
 
 - **Column Set** : _CONSDPLP_ 
-
-
-<!-- PAGE_BREAK -->
- Preparing a Consolidated Financial Statement | 117 
 
 5. In the **Site Map** section, specify the following settings to add your report to the site map: 
 
@@ -5346,35 +5332,37 @@ _- Related Company)_
 
 1. Open the _Unit Sets_ (CS206030) form. 
 
-2. On the form toolbar, click **Add New Record** , and in the Summary area, specify the following settings: 
+2. On the form toolbar, click **Add New Record** , and in the **New Unit Set** dialog box, specify the following     settings: 
 
-- **Code** : CONSDPL 
+- **Unit Set Code** : CONSDPL 
+
+- **Type** : _GL_ (inserted by default) 
 
 - **Description** : SweetLife Companies 
 
-3. In the le pane, select the _ROOT_ node of the unit set, which is the topmost system node. 
+3. Click **Save**. 
 
-4. In the table on the right, click **Add Row** on the table toolbar, and specify the following settings in the added     row: 
+4. In the **Units** pane, click Insert on the toolbar, and specify the following settings in the right pane: 
 
 - **Code** : SWEETLIFE 
 
 - **Description** : SweetLife Consolidated 
 
-- **Value** : =@SWEETUS + @SWEETCAN When you run the report, the topmost unit of the le pane below _ROOT_ is applied to the report by default. 
-
- You can use the arrow buttons in the toolbar of the le pane to change the position of a unit in the hierarchy. 
-
- You will use the SWEETLIFE unit to show the consolidated account balances of the SweetLife and SweetLife Canada companies. You will present the data for the SweetLife United States and SweetLife Canada companies as child units of SWEETLIFE. 
+- **Calculation Formula** : =@SWEETUS + @SWEETCAN When you run the report, the topmost unit of the le pane will be _SWEETLIFE_. 
 
 
 <!-- PAGE_BREAK -->
  Preparing a Consolidated Financial Statement | 118 
 
+ You can use the arrow buttons in the toolbar of the le pane to change the position of a unit in the hierarchy. 
+
+ You will use the SWEETLIFE unit to show the consolidated account balances of the SweetLife and SweetLife Canada companies. You will present the data for the SweetLife United States and SweetLife Canada companies as child units of SWEETLIFE. 
+
 5. On the form toolbar, click **Save** to save your changes to the unit set. The _SWEETLIFE_ unit appears in the le     pane. 
 
 6. In the le pane, select the _SWEETLIFE_ unit. 
 
-7. In the table in the right pane, add two rows with the settings shown in the following table. 
+7. In the **Units** pane, click Insert and add two units with the settings in the right pane. 
 
  Code Description Data Source 
 
@@ -5406,17 +5394,17 @@ _- Related Company)_
 
 5. On the form toolbar, click **Save** to save your changes to the report, and then click **Preview**.     On the **Report Parameters** tab of the pop-up window that opens, notice that you need to specify the     **Financial Period** parameter to run the report. 
 
+
+<!-- PAGE_BREAK -->
+ Preparing a Consolidated Financial Statement | 119 
+
 #### Step 7: Running the SweetLife Consolidated Profit & Loss Report 
 
  To run the SweetLife Consolidated Profit & Loss report, do the following: 
 
 1. On the Main menu, click **Finance** , and open the _SweetLife Consolidated Profit & Loss_ report under the     **Financial Statements** category. 
 
-2. On the **Report Parameters** tab, select _01-2025_ in the **Financial Period** box, and click **Run Report**.     The _SweetLife Consolidated Profit & Loss_ report opens with the financial data displayed for the entire     SweetLife company. 
-
-
-<!-- PAGE_BREAK -->
- Preparing a Consolidated Financial Statement | 119 
+2. On the **Report Parameters** tab, select _01-2026_ in the **Financial Period** box, and click **Run Report**.     The _SweetLife Consolidated Profit & Loss_ report opens with the financial data displayed for the entire     SweetLife company. 
 
 3. On the form toolbar, click the Groups button to open the le pane with the report units. Notice that the     _SweetLife Consolidated_ unit is selected by default, as shown in the following screenshot. 
 
@@ -5468,7 +5456,11 @@ _- Related Company)_
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
@@ -5476,29 +5468,93 @@ _- Related Company)_
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 122 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 123 
 
 #### Report Toolbar 
 
@@ -5507,12 +5563,6 @@ _- Related Company)_
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 122 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -5538,25 +5588,77 @@ _- Related Company)_
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 123 
+ Appendix | 124 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 125 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -5574,91 +5676,45 @@ _- Related Company)_
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 124 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 125 
+ Appendix | 126 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -5677,6 +5733,12 @@ _- Related Company)_
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 127 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -5700,10 +5762,6 @@ _- Related Company)_
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 126 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -5718,13 +5776,19 @@ _- Related Company)_
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 128 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -5742,10 +5806,6 @@ _- Related Company)_
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 127 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -5760,6 +5820,10 @@ _- Related Company)_
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 129 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -5768,11 +5832,7 @@ _- Related Company)_
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 128 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -5798,6 +5858,12 @@ _- Related Company)_
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 130 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -5805,12 +5871,6 @@ _- Related Company)_
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 129 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -5838,19 +5898,19 @@ _- Related Company)_
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 131 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 130 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -5860,13 +5920,15 @@ _- Related Company)_
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 132 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -5877,10 +5939,6 @@ _- Related Company)_
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 131 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -5894,6 +5952,10 @@ _- Related Company)_
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 133 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -5904,11 +5966,11 @@ _- Related Company)_
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 132 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 134 
 
 #### Unavailable Commands on the More Menu 
 
@@ -5920,17 +5982,13 @@ _- Related Company)_
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 133 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 134 
+ Appendix | 135 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -5942,7 +6000,11 @@ _- Related Company)_
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 136 
 
  Figure: Table toolbar 
 
@@ -5962,17 +6024,17 @@ _- Related Company)_
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 135 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 137 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -6002,13 +6064,13 @@ _- Related Company)_
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 136 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 138 
 
  Element Description 
 
@@ -6052,15 +6114,15 @@ _- Related Company)_
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 137 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 139 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

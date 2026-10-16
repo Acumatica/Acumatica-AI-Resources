@@ -2,7 +2,7 @@
 
 # Manufacturing 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -52,233 +52,239 @@
 
  Production Processing: Production for Sales................................................................................................ 47 
 
- Production Processing: To Process Production for Sales..............................................................................50 
+ Production Processing: To Process Production for Sales..............................................................................51 
 
- Production Processing: Generated Transactions...........................................................................................56 
+ Production Processing: Generated Transactions...........................................................................................57 
 
- Production Processing: Mass Processing....................................................................................................... 59 
+ Production Processing: Processing of Inventory Transactions..................................................................... 60 
 
- Production Processing: Related Report and Inquiry Forms..........................................................................60 
+ Production Processing: Mass Processing....................................................................................................... 61 
 
- Production Processing: Selection of Warehouse Locations.......................................................................... 62 
+ Production Processing: Related Report and Inquiry Forms..........................................................................62 
 
- Production Processing: Labor Reporting....................................................................................................... 63 
+ Production Processing: Selection of Warehouse Locations.......................................................................... 63 
 
- Production Processing: Reconciling WIP to the GL........................................................................................64 
+ Production Processing: Labor Reporting....................................................................................................... 65 
 
- Managing Production Cost Drivers......................................................................................................... 66 
+ Production Processing: Reconciling WIP to the GL........................................................................................66 
 
- Production Cost Drivers: General Information...............................................................................................66 
+ Managing Production Cost Drivers......................................................................................................... 67 
 
- Production Cost Drivers: Planned and Actual Costs......................................................................................67 
+ Production Cost Drivers: General Information...............................................................................................67 
 
- Production Cost Drivers: Material Costs.........................................................................................................68 
+ Production Cost Drivers: Planned and Actual Costs......................................................................................68 
 
- Production Cost Drivers: Labor Costs.............................................................................................................69 
+ Production Cost Drivers: Material Costs.........................................................................................................69 
 
- Production Cost Drivers: Overhead Costs...................................................................................................... 70 
+ Production Cost Drivers: Labor Costs.............................................................................................................70 
 
 
 <!-- PAGE_BREAK -->
  Contents | 3 
 
- Production Cost Drivers: Tool and Machine Costs.........................................................................................71 
+ Production Cost Drivers: Overhead Costs...................................................................................................... 71 
 
- Production Cost Drivers: To Review Planned and Actual Costs of a Production Order............................... 72 
+ Production Cost Drivers: Tool and Machine Costs.........................................................................................72 
 
-**Calculating the Costs of Produced Items.................................................................................................79** 
+ Production Cost Drivers: Cost and Efficiency Anomalies.............................................................................. 73 
 
- Cost Calculation for Produced Items: General Information.......................................................................... 79 
+ Production Cost Drivers: To Review Planned and Actual Costs of a Production Order............................... 74 
 
- Cost Calculation for Produced Items: Actual Costing Method...................................................................... 82 
+**Calculating the Costs of Produced Items.................................................................................................82** 
 
- Cost Calculation for Produced Items: Estimated Costing Method................................................................83 
+ Cost Calculation for Produced Items: General Information.......................................................................... 82 
 
- Cost Calculation for Produced Items: To Process Production Orders with the Actual Costing Method..... 83 
+ Cost Calculation for Produced Items: Actual Costing Method...................................................................... 85 
 
- Cost Calculation for Produced Items: To Process Production Orders with the Estimated Costing Method..............................................................................................................................................................89 
+ Cost Calculation for Produced Items: Estimated Costing Method................................................................86 
 
- Cost Calculation for Produced Items: To Process Production Orders with the Standard Costing Method...95 
+ Cost Calculation for Produced Items: To Process Production Orders with the Actual Costing Method..... 86 
 
-**Producing Lotor Serial-Tracked Items................................................................................................. 100** 
+ Cost Calculation for Produced Items: To Process Production Orders with the Estimated Costing Method..............................................................................................................................................................92 
 
- Production of Lotor Serial-Tracked Items: General Information.............................................................. 100 
+ Cost Calculation for Produced Items: To Process Production Orders with the Standard Costing Method...98 
 
- Production of Lotor Serial-Tracked Items: Implementation Checklist..................................................... 106 
+**Producing Lotor Serial-Tracked Items................................................................................................. 103** 
 
- Production of Lotor Serial-Tracked Items: To Assign Parent Serial Numbers to Materials on Issue........107 
+ Production of Lotor Serial-Tracked Items: General Information.............................................................. 103 
 
- Production of Lotor Serial-Tracked Items: To Assign Parent Serial Numbers to Materials on Completion.....................................................................................................................................................112 
+ Production of Lotor Serial-Tracked Items: Implementation Checklist..................................................... 109 
 
- Production of Lotor Serial-Tracked Items: Related Report and Inquiry Forms........................................ 116 
+ Production of Lotor Serial-Tracked Items: To Assign Parent Serial Numbers to Materials on Issue........111 
 
-**Producing Items with Outside Processing............................................................................................. 118** 
+ Production of Lotor Serial-Tracked Items: To Assign Parent Serial Numbers to Materials on Completion.....................................................................................................................................................116 
 
- Outside Processing: General Information.................................................................................................... 118 
+ Production of Lotor Serial-Tracked Items: Related Report and Inquiry Forms........................................ 120 
 
- Outside Processing: Configuration............................................................................................................... 119 
+**Producing Items with Outside Processing............................................................................................. 122** 
 
- Outside Processing: Subcontractor's Storage of Materials .........................................................................120 
+ Outside Processing: General Information.................................................................................................... 122 
 
- Outside Processing: Charges for Subcontractor Services........................................................................... 121 
+ Outside Processing: Configuration............................................................................................................... 123 
 
- Outside Processing: Automatic Move Transaction...................................................................................... 123 
+ Outside Processing: Subcontractor's Storage of Materials .........................................................................124 
 
- Outside Processing: Implementation Checklist........................................................................................... 124 
+ Outside Processing: Charges for Subcontractor Services........................................................................... 125 
 
- Outside Processing: Implementation Activity..............................................................................................126 
+ Outside Processing: Automatic Move Transaction...................................................................................... 127 
 
- Outside Processing: Processing Workflow................................................................................................... 130 
+ Outside Processing: Implementation Checklist........................................................................................... 128 
 
- Outside Processing: Process Activity............................................................................................................ 132 
+ Outside Processing: Implementation Activity..............................................................................................130 
 
- Outside Processing: Generated Transactions.............................................................................................. 139 
+ Outside Processing: Processing Workflow................................................................................................... 134 
 
-**Producing Items with Backflushing...................................................................................................... 141** 
+ Outside Processing: Process Activity............................................................................................................ 136 
 
- Production with Backflushing: General Information...................................................................................141 
+ Outside Processing: Generated Transactions.............................................................................................. 143 
 
- Production with Backflushing: Implementation Checklist..........................................................................145 
+**Producing Items with Backflushing...................................................................................................... 144** 
 
- Production with Backflushing: Process Activity.......................................................................................... 146 
+ Production with Backflushing: General Information...................................................................................144 
 
-**Tracking Scrap and Waste in Production............................................................................................... 152** 
+ Production with Backflushing: Implementation Checklist..........................................................................148 
 
- Scrap and Waste in Production: General Information.................................................................................152 
+ Production with Backflushing: Process Activity.......................................................................................... 149 
 
- Scrap and Waste In Production: Implementation Checklist........................................................................154 
+**Tracking Scrap and Waste in Production............................................................................................... 155** 
 
- Scrap and Waste in Production: To Process a Production Order with No Scrap Settings.......................... 156 
+ Scrap and Waste in Production: General Information.................................................................................155 
 
- Scrap and Waste in Production: To Process a Production Order That Includes Quarantined Scrap......... 161 
+ Scrap and Waste In Production: Implementation Checklist........................................................................157 
 
 
 <!-- PAGE_BREAK -->
  Contents | 4 
 
-**Calculating Costs of Scrapped Items.....................................................................................................167** 
+ Scrap and Waste in Production: To Process a Production Order with No Scrap Settings.......................... 159 
 
- Scrap Cost Calculation: General Information.............................................................................................. 167 
+ Scrap and Waste in Production: To Process a Production Order That Includes Quarantined Scrap......... 164 
 
- Scrap Cost Calculation: To Process a Production Order with No Scrap Settings....................................... 168 
+**Calculating Costs of Scrapped Items.....................................................................................................170** 
 
- Scrap Cost Calculation: To Process a Production Order That Includes Written-Off Scrap.........................174 
+ Scrap Cost Calculation: General Information.............................................................................................. 170 
 
- Scrap Cost Calculation: To Process a Production Order That Includes Quarantined Scrap...................... 180 
+ Scrap Cost Calculation: To Process a Production Order with No Scrap Settings....................................... 171 
 
- Scrap Cost Calculation: Generated Transactions.........................................................................................187 
+ Scrap Cost Calculation: To Process a Production Order That Includes Written-Off Scrap.........................177 
 
-**Production Management..................................................................................................................... 189** 
+ Scrap Cost Calculation: To Process a Production Order That Includes Quarantined Scrap...................... 183 
 
- Disassembly Process......................................................................................................................................189 
+ Scrap Cost Calculation: Generated Transactions.........................................................................................190 
 
- Rework/Repair Orders................................................................................................................................... 190 
+**Production Management..................................................................................................................... 192** 
 
- Reversal of Production Receipts................................................................................................................... 192 
+ Disassembly Process......................................................................................................................................192 
 
- Period Closing Tasks......................................................................................................................................193 
+ Rework/Repair Orders................................................................................................................................... 193 
 
-**Inventory Planning with MRP.............................................................................................................. 195** 
+ Reversal of Production Receipts................................................................................................................... 195 
 
- Inventory Planning with MRP: General Information....................................................................................195 
+ Period Closing Tasks......................................................................................................................................196 
 
- Inventory Planning with MRP: Process Details............................................................................................ 197 
+**Inventory Planning with MRP.............................................................................................................. 198** 
 
- Inventory Planning with MRP: Forecasts and Master Production Schedule...............................................199 
+ Inventory Planning with MRP: General Information....................................................................................198 
 
- Inventory Planning with MRP: Planning Transfers in MRP.......................................................................... 200 
+ Inventory Planning with MRP: Process Details............................................................................................ 200 
 
- Inventory Planning with MRP: Implementation Checklist.......................................................................... 201 
+ Inventory Planning with MRP: Forecasts and Master Production Schedule...............................................202 
 
- Inventory Planning with MRP: Process Activity........................................................................................... 203 
+ Inventory Planning with MRP: Planning Transfers in MRP.......................................................................... 203 
 
- Inventory Planning with MRP: Related Report and Inquiry Forms............................................................. 206 
+ Inventory Planning with MRP: Implementation Checklist.......................................................................... 204 
 
- Inventory Planning with MRP: MRP Processor.............................................................................................207 
+ Inventory Planning with MRP: Process Activity........................................................................................... 206 
 
- Inventory Planning with MRP: MRP Procedures.......................................................................................... 208 
+ Inventory Planning with MRP: Related Report and Inquiry Forms............................................................. 209 
 
-**Other Manufacturing Functionality...................................................................................................... 210** 
+ Inventory Planning with MRP: MRP Processor.............................................................................................210 
 
- Using Attributes in Manufacturing................................................................................................................ 210 
+ Inventory Planning with MRP: MRP Procedures.......................................................................................... 211 
 
- Manufacturing Data Collection..................................................................................................................... 210 
+**Other Manufacturing Functionality...................................................................................................... 213** 
 
- Importing Master Data into Manufacturing..................................................................................................211 
+ Using Attributes in Manufacturing................................................................................................................ 213 
 
- Importing Bills of Material Master Data...............................................................................................213 
+ Manufacturing Data Collection..................................................................................................................... 213 
 
- Integration with Projects...............................................................................................................................215 
+ Importing Master Data into Manufacturing..................................................................................................214 
 
- Using Manufacturing Data in Inquiries and Reports....................................................................................217 
+ Importing Bills of Material Master Data...............................................................................................216 
 
-**Estimating..........................................................................................................................................224** 
+ Integration with Projects...............................................................................................................................218 
 
- Estimating: General Information.................................................................................................................. 224 
+ Using Manufacturing Data in Inquiries and Reports....................................................................................220 
 
- Estimating: Implementation Checklist......................................................................................................... 225 
+**Estimating..........................................................................................................................................227** 
 
- Estimating: Implementation Activity............................................................................................................ 226 
+ Estimating: General Information.................................................................................................................. 227 
 
- Estimating: Process Activity.......................................................................................................................... 228 
+ Estimating: Implementation Checklist......................................................................................................... 228 
 
- Estimating: Price Breaks................................................................................................................................231 
+ Estimating: Implementation Activity............................................................................................................ 229 
 
- Estimating: General Information.................................................................................................................. 232 
+ Estimating: Process Activity.......................................................................................................................... 231 
 
- Estimating: Implementation Checklist......................................................................................................... 234 
+ Estimating: Price Breaks................................................................................................................................234 
 
 
 <!-- PAGE_BREAK -->
  Contents | 5 
 
- Estimating: Implementation Activity............................................................................................................ 235 
+ Estimating: General Information.................................................................................................................. 235 
 
- Estimating: Process Activity.......................................................................................................................... 236 
+ Estimating: Implementation Checklist......................................................................................................... 237 
 
- Estimating: Price Breaks................................................................................................................................239 
+ Estimating: Implementation Activity............................................................................................................ 238 
 
-**Product Configurator.......................................................................................................................... 241** 
+ Estimating: Process Activity.......................................................................................................................... 239 
 
- Product Configurator: General Information.................................................................................................241 
+ Estimating: Price Breaks................................................................................................................................242 
 
- Product Configurator: Processes and Functions......................................................................................... 243 
+**Product Configurator.......................................................................................................................... 244** 
 
- Product Configurator: Rule Processing........................................................................................................ 245 
+ Product Configurator: General Information.................................................................................................244 
 
- Product Configurator: Managing Configurations.........................................................................................249 
+ Product Configurator: Processes and Functions......................................................................................... 246 
 
- Product Configurator: Supplemental Items.................................................................................................250 
+ Product Configurator: Rule Processing........................................................................................................ 248 
 
- Product Configurator: Implementation Checklist....................................................................................... 251 
+ Product Configurator: Managing Configurations.........................................................................................252 
 
- Product Configurator: Production Management Integration......................................................................252 
+ Product Configurator: Supplemental Items.................................................................................................253 
 
- Product Configurator: Implementation Activity.......................................................................................... 253 
+ Product Configurator: Implementation Checklist....................................................................................... 254 
 
- Product Configurator: To Create a Sales Order with a Configurable Item..................................................256 
+ Product Configurator: Production Management Integration......................................................................255 
 
- Product Configurator: Adding Configuration Data to Forms.......................................................................259 
+ Product Configurator: Implementation Activity.......................................................................................... 256 
 
- Product Configurator: Pricing and Cost....................................................................................................... 260 
+ Product Configurator: To Create a Sales Order with a Configurable Item..................................................259 
 
-**Advanced Planning and Scheduling...................................................................................................... 261** 
+ Product Configurator: Adding Configuration Data to Forms.......................................................................262 
 
- Advanced Planning and Scheduling: General Information......................................................................... 261 
+ Product Configurator: Pricing and Cost....................................................................................................... 263 
 
- Advanced Planning and Scheduling: Capacity Definition........................................................................... 262 
+**Advanced Planning and Scheduling...................................................................................................... 264** 
 
- Advanced Planning and Scheduling: Scheduling Details............................................................................ 263 
+ Advanced Planning and Scheduling: General Information......................................................................... 264 
 
- Advanced Planning and Scheduling: Operation Lead Time........................................................................266 
+ Advanced Planning and Scheduling: Capacity Definition........................................................................... 265 
 
- Advanced Planning and Scheduling: Production Schedule Board............................................................. 269 
+ Advanced Planning and Scheduling: Scheduling Details............................................................................ 266 
+
+ Advanced Planning and Scheduling: Operation Lead Time........................................................................269 
+
+ Advanced Planning and Scheduling: Production Schedule Board............................................................. 272 
+
+ Advanced Planning and Scheduling: Production Order View..................................................................... 274 
 
  Advanced Planning and Scheduling: Work Center Planned Utilization......................................................274 
 
  Advanced Planning and Scheduling: Process Activity.................................................................................275 
 
- Advanced Planning and Scheduling: Related Forms...................................................................................276 
+ Advanced Planning and Scheduling: Related Forms...................................................................................277 
 
 **Processing Capable to Promise............................................................................................................ 278** 
 
@@ -298,23 +304,23 @@
 
  Engineering Change Control: Implementation Activity...............................................................................290 
 
+
+<!-- PAGE_BREAK -->
+ Contents | 6 
+
  Engineering Change Control: Process Activity............................................................................................. 291 
 
 **Appendix............................................................................................................................................ 294** 
 
  Reports........................................................................................................................................................... 294 
 
-
-<!-- PAGE_BREAK -->
- Contents | 6 
-
  Report Form.......................................................................................................................................... 294 
 
- Report....................................................................................................................................................299 
+ Report....................................................................................................................................................301 
 
-Form Toolbar and More Menu.......................................................................................................................301 
+ Form Toolbar and More Menu.......................................................................................................................302 
 
-Table Toolbar................................................................................................................................................. 308 
+ Table Toolbar................................................................................................................................................. 309 
 
 
 <!-- PAGE_BREAK -->
@@ -336,9 +342,9 @@ Table Toolbar...................................................................
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -382,13 +388,13 @@ Table Toolbar...................................................................
 
  A stock item may have multiple BOMs assigned, but only one BOM can be specified as the default bill of material in the Default BOM ID box on the Manufacturing tab of the Stock Items or Item Warehouse Details form. 
 
- If the stock item is produced in standard lots, you can specify the lot size in the Lot Size box of the Manufacturing tab on the Stock Items or Item Warehouse Details form. The lot size becomes the default for planned orders 
+ If the stock item is produced in standard lots, you can specify the lot size in the Lot Size box of the Manufacturing tab on the Stock Items or Item Warehouse Details form. The lot size becomes the default for planned orders and 
 
 
 <!-- PAGE_BREAK -->
  Managing Bills of Material | 9 
 
- and production orders and is used in the cost roll process on the Cost Roll (AM508000) form. On the Estimate (AM303000) form, the Order Qty. on the Totals tab is used as the lot size. 
+ production orders and is used in the cost roll process on the Process Cost Rollup Results (AM508000) form. On the Estimate (AM303000) form, the Order Qty. on the Totals tab is used as the lot size. 
 
 #### Bill of Material Settings 
 
@@ -504,13 +510,13 @@ Table Toolbar...................................................................
 
 - The labor backflushing setting, which is represented by the **Backflush Labor** check box, that indicates     whether labor should be backflushed. For more information, see _Production with Backflushing: General_     _Information_. 
 
-- The default scrap action for the operation that will be copied to the new production order, which you     specify in the **Scrap Action** column. For more details about scrap, see _Configuration of Scrap, Waste, and_     _By-Products in Production: General InformationConfiguration of Scrap and Waste in Production: General_     _Information_. 
+- The default scrap action for the operation that will be copied to the new production order, which you     specify in the **Scrap Action** column. For more details about scrap, see _Configuration of Scrap, Waste, and By-_     _Products in Production: General Information_. 
+
+- The control point state, which is represented by the **Control Point** check box. This state indicates whether     workers must record the quantity of completed items for the operation. For details, see _Production_     _Processing: Control Point Operations_. 
 
 
 <!-- PAGE_BREAK -->
  Managing Bills of Material | 12 
-
-- The control point state, which is represented by the **Control Point** check box. This state indicates whether     workers must record the quantity of completed items for the operation. For details, see _Production_     _Processing: Control Point Operations_. 
 
  The last routing operation is always a control point because before the production order can be completed, workers must report the labor hours spent and the completed quantity. So you do not need to select the Control Point check box for the last operation in a bill of material. 
 
@@ -752,15 +758,15 @@ Table Toolbar...................................................................
 
 - **Hold** : Selected 
 
+- **Description** : A bill of material for assembly of configurable juicers for     citrus fruits 
+
 - **Inventory ID** : _CFJCITRUS_ 
 
 - **Warehouse** : _WORKHOUSE_ 
 
-- **Start Date** : 1/1/2024 
+- **Start Date** : 1/1/2025 
 
 - **End Date** : Empty 
-
-- **Description** : A bill of material for assembly of configurable juicers for     citrus fruits 
 
 3. On the form toolbar, click **Save**. 
 
@@ -876,7 +882,7 @@ Table Toolbar...................................................................
 
 2. In the **BOM Cost Settings** dialog box, which opens, keep the default settings and click **OK**. 
 
-3. In the **BOM Cost Summary** dialog box, which opens, make sure that the **Total Cost** value is _498.5167_ (see     the following screenshot). 
+3. In the **BOM Cost Summary** dialog box, which opens, make sure that the **Total Cost** value is _498.5167_ (shown     below). 
 
 
 <!-- PAGE_BREAK -->
@@ -1034,7 +1040,7 @@ _Shifts_ (AM205000) At least one shi has been created. If the shi describe
 
 ### Bills of Material: Cost Calculation 
 
- For each bill of material, the system calculates costs for the components included in the bill of material, such as materials, tools, labor, and overhead. In this topic, you will read about material unit costs displayed on the Bill of Material (AM208000) form and the cost calculation by using the cost roll process on the Cost Roll (AM508000) form. 
+ For each bill of material, the system calculates costs for the components included in the bill of material, such as materials, tools, labor, and overhead. In this topic, you will read about material unit costs displayed on the Bill of Material (AM208000) form and the cost calculation by using the cost roll process on the Process Cost Rollup Results (AM508000) form. 
 
  You will also learn about unit costs when they are first added to a bill of material (BOM), unit costs when they are updated as part of a single level or multi-level cost roll, and production order unit costs. 
 
@@ -1052,7 +1058,7 @@ _Shifts_ (AM205000) At least one shi has been created. If the shi describe
 
 #### Update of Material Costs 
 
- Unit costs of materials on BOMs can be updated by the cost roll process when you select the Update Materials check box in the Cost Roll (AM508000) form. 
+ Unit costs of materials on BOMs can be updated by the cost roll process when you select the Update Materials check box in the Process Cost Rollup Results (AM508000) form. 
 
  When you select Single in the Level box of the Selection area, the material costs are updated using the item’s valuation method and the unit cost defaults from the settings of the item-warehouse pair. 
 
@@ -1068,7 +1074,7 @@ _Shifts_ (AM205000) At least one shi has been created. If the shi describe
 
 #### Cost Calculation by the Cost Roll Process 
 
- The formulas the system uses for calculating costs of components included in a bill of material are listed in the following table. For more information on options that impact the BOM Cost, see the Cost Roll form. 
+ The formulas the system uses for calculating costs of components included in a bill of material are listed in the following table. For more information on options that impact the BOM Cost, see the Process Cost Rollup Results form. 
 
  Table: Formulas for calculating costs of BOM components 
 
@@ -1094,11 +1100,13 @@ _Shifts_ (AM205000) At least one shi has been created. If the shi describe
 
 #### Why Use a Planning Bill? 
 
- Planning bills are most oen used to help forecast or master schedule products that have many options where the final configuration is not determined until an order is received. Usually, a planning bill flattens out the multiple level bill of material to a single level bill; that is, the subassembly bills are removed and their key components made components of the planning bill. Alternatively, you could create a planning stock item and construct a planning bill with its components the actual items you sell making each component a phantom if you only want to see their components in MRP and not the assembly. 
+ Planning bills are most oen used to help forecast or master schedule products that have many options where the final configuration is not determined until an order is received. Usually, a planning bill flattens out the multiple level bill of material to a single level bill; that is, the subassembly bills are removed and their key components made components of the planning bill. Alternatively, you could create a planning stock item and construct a 
 
 
 <!-- PAGE_BREAK -->
  Managing Bills of Material | 26 
+
+ planning bill with its components the actual items you sell making each component a phantom if you only want to see their components in MRP and not the assembly. 
 
  A manufacturer of desktop computers may have multiple product lines with hundreds of combination of options for processors, memory, storage, monitors, and other factors. Some of the options may be available across multiple product lines. In order to compress the order to ship lead time, it is desirable to have the components already in stock. Rather than attempt to forecast each product model for every variant, it more feasible to create a pseudo inventory item that will never be sold and construct a planning bill of material with the component options expressed in quantities represented by their past usage. 
 
@@ -1122,31 +1130,33 @@ _Shifts_ (AM205000) At least one shi has been created. If the shi describe
 
 ### Bills of Material: Updating Standard Costs 
 
- You use the cost rollup process, which you perform by using the Cost Roll (AM508000) form, to update the costs of bills of materials (BOMs). Aer the cost rollup is performed, you may want to update the pending cost for Standard valuation method items with the rolled-up cost. 
+ You use the cost rollup process—which you perform by using the Generate Cost Rollups (AM518000) and Process Cost Rollup Results (AM508000) forms—to update the costs of bills of materials (BOMs). Aer the cost rollup is performed, you may want to update the pending cost for production items that use the Standard valuation method with the rolled-up cost. 
 
- Typically, standard costs are updated on an annual basis, but you can update them as oen as needed. In this topic, you will read about the processes related to updating the standard costs of items to be produced. 
+ Typically, standard costs are updated annually, but you can update them as oen as needed. This topic describes the processes related to updating the standard costs of production items. 
 
 #### Steps to Update Standard Costs 
 
- When you want to update standard costs of items to be produced, you perform the following general steps: 
+ When you update standard costs of items to be produced, you perform the following general steps: 
 
-1. You update purchased and transferred items with the _Standard_ valuation prior to the cost rollup process.     If you have not yet updated the standard costs for the materials used in the BOMs, you can select the **Use**     **Pending Standard Cost for Purchase Items** check box on the _Cost Roll_ (AM508000) form. In this case, the     system will use the pending costs instead of standard costs for the materials that are purchased. 
-
-2. You roll up the costs for the bills of material by using the _Cost Roll_ (AM508000) form. For more information,     see the _Cost Rollup for BOMs_ section below. 
+1. You update purchased and transferred items with the _Standard_ valuation method prior to the cost rollup     process. If you have not yet updated the standard costs for the materials used in the BOMs, you can select     the **Use Pending Standard Cost for Purchased Items** check box on the _Generate Cost Rollups_ (AM518000) 
 
 
 <!-- PAGE_BREAK -->
  Managing Bills of Material | 27 
 
-3. You update the pending costs with the costs calculated by the rollup process for the BOMs on the _Cost Roll_     form. For more information, see the _Pending Cost Update for BOMs_ section below. 
+ form. In this case, the system will use the pending costs instead of standard costs for the materials that are purchased. For more information, see Update of Standard Costs for Materials. 
+
+2. You roll up the costs for the bills of material by using the _Generate Cost Rollups_ form. For more information,     see the _Cost Rollup for BOMs_ section below. 
+
+3. You update the pending costs with the costs calculated by the rollup process for the BOMs on the _Process_     _Cost Rollup Results_ (AM508000) form. For more information, see the _Update of Pending Costs for BOMs_     section below. 
 
 4. You preview the cost changes for materials by using the _Standard Cost Change Preview_ (IN617500) report to     make sure that the costs are correct and to understand the impact of the inventory revaluation. 
 
-5. You update the standard costs for the items to be produced by using the _Update Standard Costs_ (IN502000)     form. For details, see the _Standard Cost Update for the Items to Be Produced_ section below. 
+5. You update the standard costs for the items to be produced by using the _Update Standard Costs_ (IN502000)     form. For details, see the _Update of Standard Costs for Production Items_ section below. 
 
 #### Update of Standard Costs for Materials 
 
- Before you roll up the costs of a bill of material, you should update the standard cost for each material that is used in the BOM, has the Standard valuation method. You can use either of the following ways: 
+ Before you roll up the costs of a bill of material, you should update the standard cost for each material that is used in the BOM that has the Standard valuation method. You can use either of the following ways: 
 
 - Specify the pending cost for each material manually on the **Price/Cost** tab of the _Stock Items_ (IN202500)     form and then update the current cost by using the **Update Cost** command on the same form. 
 
@@ -1154,21 +1164,25 @@ _Shifts_ (AM205000) At least one shi has been created. If the shi describe
 
 #### Cost Rollup for BOMs 
 
- To calculate costs for bills of material based on the costs of BOM elements, such as materials, tools, or overhead, you do the following on the Cost Roll (AM508000) form: 
+ To calculate costs for bills of material based on the costs of BOM elements, such as materials, tools, or overhead, you do the following on the Generate Cost Rollups (AM518000) form: 
 
-1. In the **Level** box of the Selection area, select _Multi_ or _Single_ to calculate costs of the bills of material and the     subassemblies included in the BOMs. We recommend selecting _Multi_ to roll up costs level by level from the     bottom up. 
+1. In the **Level** box of the Selection area, select _Multi_ to calculate costs starting from the lowest-level     subassemblies, or _Single_ to calculate costs for only the selected BOMs. We recommend selecting _Multi_ to roll     up costs level by level from the bottom up. 
 
-2. In the Selection area, select the desired elements, such as **Include Material Scrap Factors**. 
+2. Narrow down the BOMs listed in the table by using settings of the Selection area. For example, you can filter     BOMs by item class, warehouse, or BOM revision. 
 
-3. On the form toolbar, click **Roll Costs** and wait until the process is completed. The cost of the bill of materials     are now rolled up. 
+3. Specify additional settings for the cost rollup process. For instance, you may want to include material scrap     factors or exclude BOMs for items with a replenishment source other than _Manufacturing_. 
 
-4. Review the costs in the grid. 
+4. Select the Included check box for the BOMs whose costs you want to roll up, and then click **Process** on the     form toolbar. To generate rollups for all BOMs displayed in the table, click **Process All**.     The system displays progress and status messages in the **Processing** pop-up window while rollups are     being generated. 
 
- You can run the cost rollup process as many times as you need. 
+ You can run the cost rollup process as many times as needed. The generated cost rollups are displayed on the Process Cost Rollup Results (AM508000) form. 
 
-#### Pending Cost Update for BOMs 
+#### Update of Pending Costs for BOMs 
 
- When the cost rollup process is completed, on the toolbar of the Cost Roll (AM508000) form, you select the rows of inventory items you want to update and click Update Pending. The system updates the pending costs of the items assigned to the BOMs with the calculated costs on the Price/Cost tab of the Stock Items (IN202500) form. Only items with valuation method Standard will have the pending cost updated. 
+ When the cost rollup process is completed, on the Process Cost Rollup Results (AM508000) form, you select he Update Pending Costs action in the Selection area, select the rows of generated rollups for which you want to update pending costs, and click Process on the form toolbar. The system updates the pending costs of the BOMs' items with the calculated costs on the Price/Cost tab of the Stock Items (IN202500) form. Only items with the Standard valuation method will have the pending cost updated. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Bills of Material | 28 
 
  When it updates the pending standard costs of items assigned to the BOMs, the system typically updates the pending costs of the stock item on the Price/Cost tab of the Stock Items (IN202500) form. The system instead updates the pending cost of the item–warehouse pair on the Price/Cost tab of the Item Warehouse Details (IN204500) form if the following conditions are met: 
 
@@ -1178,11 +1192,7 @@ _Shifts_ (AM205000) At least one shi has been created. If the shi describe
 
 - The **Override Std. Cost** check box is selected on the **Price/Cost** tab of the _Item Warehouse_     _Details_ form. 
 
-
-<!-- PAGE_BREAK -->
- Managing Bills of Material | 28 
-
-#### Standard Cost Update for the Items to Be Produced 
+#### Update of Standard Costs for Production Items 
 
  You update the standard costs of items to be produced by using the Update Standard Costs (IN502000) form. During the update, the system does the following for each item to be produced: 
 
@@ -1190,7 +1200,7 @@ _Shifts_ (AM205000) At least one shi has been created. If the shi describe
 
 - Sets the **Pending Cost** to zero. 
 
-- On the _Adjustments_ (IN303000) form, creates an inventory adjustment to update the Inventory GL account     and Standard Cost Revaluation GL account and releases the adjustment. Inventory is always revalued when you update standard costs. However, you might want to revalue inventory without updating the current costs of the items to the next pending cost. In this case, on the _Update Standard Costs_ form, you can select the **Revalue Inventory** check box. With the check box selected, the form shows all items with the _Standard_ valuation method that have cost layers in the warehouse selected in the **Warehouse** box. When you run the update process, the system revalues the inventory with the current cost, but the current cost will not be updated with the pending cost for the items. 
+- On the _Adjustments_ (IN303000) form, creates an inventory adjustment to update the Inventory GL account     and Standard Cost Revaluation GL account, and releases the adjustment. Inventory is always revalued when you update standard costs. However, you might want to revalue inventory without updating the current costs of the items to the next pending cost. In this case, on the _Update Standard Costs_ form, you can select the **Revalue Inventory** check box. With the check box selected, the form shows all items with the _Standard_ valuation method that have cost layers in the warehouse selected in the **Warehouse** box. When you run the update process, the system revalues the inventory with the current cost, but the current cost will not be updated with the pending cost for the items. 
 
 
 <!-- PAGE_BREAK -->
@@ -1258,7 +1268,7 @@ The employees involved do the following to process the production order and the 
 
 5. _Issue the materials for each operation._ 
 
- The production manager issues the materials required to produce the item by using the Materials (AM300000) form. The production manager either enters the materials manually or uses the Material Wizard (AM300010) form. During the release of materials, the system creates and releases an inventory issue on the Issues (IN302000) form. The system also updates the production order's details and costs, and the balance of the WIP account. The production order's status changes to In Process. 
+ The production manager issues the materials required to produce the item by using the Materials (AM300000) form. The production manager either enters the materials manually or uses the Select Production Orders (AM300010) form. During the release of materials, the system creates and releases an inventory issue on the Issues (IN302000) form. The system also updates the production order's details and costs, and the balance of the WIP account. The production order's status changes to In Process. 
 
 6. _Record the time spent and the quantity of completed items for each operation, except the last operation._ 
 
@@ -1632,17 +1642,15 @@ The employees involved do the following to process the production order and the 
 
 5. On the form toolbar, click **Remove Hold**. The status of the purchase order changes to _Open_. 
 
-#### Step 3: Receiving the Components in a Warehouse 
-
- Suppose that you have received the ordered components from the JALOOZA vendor and need to create a purchase receipt. The items have been received to the MTL location in the WORKHOUSE warehouse (this location is dedicated to the storing of components). Do the following: 
-
-1. While you are still viewing the purchase order on the _Purchase Orders_ (PO301000) form, on the form toolbar,     click **Enter PO Receipt**.     The system creates the purchase receipt and opens it on the _Purchase Receipts_ (PO302000) form. 
-
 
 <!-- PAGE_BREAK -->
  Producing Items | 43 
 
- On the Details tab, review the list of the received components. Notice that MTL is specified for each row in the Location column. 
+#### Step 3: Receiving the Components in a Warehouse 
+
+ Suppose that you have received the ordered components from the JALOOZA vendor and need to create a purchase receipt. The items have been received to the MTL location in the WORKHOUSE warehouse (this location is dedicated to the storing of components). Do the following: 
+
+1. While you are still viewing the purchase order on the _Purchase Orders_ (PO301000) form, on the form toolbar,     click **Enter PO Receipt**.     The system creates the purchase receipt and opens it on the _Purchase Receipts_ (PO302000) form.     On the **Details** tab, review the list of the received components. Notice that _MTL_ is specified for each row in     the **Location** column. 
 
 2. On the form toolbar, click **Release**.     The system releases the purchase receipt and changes its status to _Released_. On the **Orders** tab, notice that     _Completed_ is specified in the **Status** column of the only row. 
 
@@ -1654,7 +1662,7 @@ The employees involved do the following to process the production order and the 
 
 1. On the _Production Order Maintenance_ (AM201500) form, open the production order that you created earlier     in this activity. 
 
-2. On the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Material Wizard 2_     (AM300020) form with the list of components from the production order. 
+2. On the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Select Materials to_     _Release_ (AM300020) form with the list of components from the production order. 
 
 3. On the form toolbar, click **Select All**. The system creates a material transaction and opens it on the _Materials_     (AM300000) form. 
 
@@ -1680,6 +1688,10 @@ The employees involved do the following to process the production order and the 
 
 - **Production Nbr.** : The number of the production order that you created earlier in this activity 
 
+
+<!-- PAGE_BREAK -->
+ Producing Items | 44 
+
 - **Operation ID** : _0010_ 
 
 - **Employee ID** : _EP00000027_ (Carlos Cruz) 
@@ -1695,10 +1707,6 @@ The employees involved do the following to process the production order and the 
 5. In the row, specify the following settings: 
 
 - **Labor Type** : _Direct_ 
-
-
-<!-- PAGE_BREAK -->
- Producing Items | 44 
 
 - **Order Type** : _RO_ 
 
@@ -1730,13 +1738,13 @@ The employees involved do the following to process the production order and the 
 
 - **Warehouse** : _WORKHOUSE_ 
 
-- **Location** : _MGI_ Notice that the value in the **On Hand** column of the only row listed in the table is _11_ (as shown in the following screenshot). 
-
- Figure: The on-hand quantity of the juicers on the Inventory Summary form 
+- **Location** : _MGI_ Notice that the value in the **On Hand** column of the only row listed in the table is _11_ , as shown below. 
 
 
 <!-- PAGE_BREAK -->
  Producing Items | 45 
+
+ Figure: The on-hand quantity of the juicers on the Inventory Summary form 
 
 #### Step 7: Viewing the Changes to the Production Order 
 
@@ -1747,6 +1755,10 @@ The employees involved do the following to process the production order and the 
 2. Go to the **Events** tab.     Notice that records for material, cost, and labor transactions are displayed in the table. 
 
  Figure: The Events tab of the Production Order Maintenance form 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 46 
 
 #### Step 8: Recording the Produced Items 
 
@@ -1766,19 +1778,13 @@ The employees involved do the following to process the production order and the 
 
 - **Location** : _MGI_ Notice that the value in the **On Hand** column of the only row is _12_. 
 
-5. On the _Production Order Maintenance_ form, open the production order that you created earlier in this     activity. 
-
-
-<!-- PAGE_BREAK -->
- Producing Items | 46 
-
- In the Summary area, notice that the Qty. Complete box contains 12 and the Qty. Remaining box contains 0 , and the status of the order is Completed. 
+5. On the _Production Order Maintenance_ form, open the production order that you created earlier in this     activity.     In the Summary area, notice that the **Qty. Complete** box contains _12_ and the **Qty. Remaining** box contains     _0_ , and the status of the order is _Completed_. 
 
 #### Step 9: Viewing Production Order Totals 
 
  Before closing the production order, you will view the actual recorded labor time and costs on the Production Order Maintenance (AM201500) form, as follows: 
 
-1. Notice that the following values are specified in the **Actual** section of the **Totals** tab (as shown in the     screenshot below): 
+1. Notice that the following values are specified in the **Actual** section of the **Totals** tab, as shown in the     screenshot below: 
 
 - **Labor Time** : _3 h 50 m_ 
 
@@ -1786,7 +1792,11 @@ The employees involved do the following to process the production order and the 
 
 - **Variable Overhead** : _23.00_ The other values of the cost boxes are the same as in the **Planned** section. These costs are fixed and do not depend on the recorded labor. 
 
-2. Review the difference between the planned and actual labor time and costs in the **Variance** section (which     is shown in the following screenshot). Notice that the workers spent 40 minutes of work less than the     planned time. 
+2. Review the difference between the planned and actual labor time and costs in the **Variance** section, which is     shown in the following screenshot. Notice that the workers spent 40 minutes of work less than the planned     time. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 47 
 
  Figure: Actual and variance costs of the production order 
 
@@ -1800,17 +1810,19 @@ The employees involved do the following to process the production order and the 
 
 3. Go to the _Production Order Maintenance_ form, and notice that the status of the production order has     changed to _Closed_. 
 
-
-<!-- PAGE_BREAK -->
- Producing Items | 47 
-
  You have successfully processed the production order for 12 citrus juicers. 
 
 ### Production Processing: Production for Sales 
 
  When you produce items that will be sold to customers, you may need to link a production order for producing an item and a sales order line for the item. When the link is created, the system allocates the produced items for the sales order, and the items become unavailable for sales operations that are not related to the sales order. 
 
- You can link the existing production order to the sales order line either by specifying the production order for the sales order line on the Sales Orders (SO301000) form or by specifying a sales order line for the production order on the Production Order Maintenance (AM201500) form. Additionally, you can remove the link between a sales order line and a production order. 
+ You can link the existing production order to the sales order line either by specifying the production order for the sales order line on the Sales Orders (SO301000) form or by specifying a sales order line for the production order on 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 48 
+
+ the Production Order Maintenance (AM201500) form. Additionally, you can remove the link between a sales order line and a production order. 
 
  In this topic, you will read about production orders related to sales order lines in Acumatica ERP Manufacturing Edition. 
 
@@ -1848,17 +1860,15 @@ The employees involved do the following to process the production order and the 
 
 5. You make sure that the quantity of materials required to produce the item is available on hand by using the     _Critical Materials_ (AM401000) form. If you find a shortage of any materials, you create a purchase order to     purchase the required materials from a vendor. 
 
-6. You issue the materials required to produce the item by using the _Materials_ (AM300000) form. You either     enter the materials manually or use the _Material Wizard_ (AM300010) form. 
-
-
-<!-- PAGE_BREAK -->
- Producing Items | 48 
-
- During the release of materials, the system creates and releases an inventory issue on the Issues (IN302000) form. The system also updates the production order's details and costs, and the balance of the WIP account. Also, the status of the production order is changed to In Process. 
+6. You issue the materials required to produce the item by using the _Materials_ (AM300000) form. You either     enter the materials manually or use the _Select Production Orders_ (AM300010) form.     During the release of materials, the system creates and releases an inventory issue on the _Issues_ (IN302000)     form. The system also updates the production order's details and costs, and the balance of the WIP account.     Also, the status of the production order is changed to _In Process_. 
 
 7. When each operation is completed, you create a labor transaction by using the _Labor_ (AM301000) form to     report the time that employees spent on the operation. The system also creates a cost transaction on the     _Cost Transactions_ (AM309000) form to record the cost of employees' work. 
 
 8. When the finished item is ready to be moved to stock (usually when the last operation in the production     process is completed), you create a move transaction by using the _Move_ (AM302000) form. The system also     creates an inventory receipt on the _Receipts_ (IN301000) form and a cost transaction on the _Cost Transactions_     form. If the total quantity completed is greater than or equal to the quantity of the item to be produced, the     system changes the status of the production order to _Complete_. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 49 
 
 9. You close the production order by using the _Close Production Orders_ (AM506000) form. The system creates     the final adjustment to set the balance of the WIP account to zero by creating a cost transaction on the _Cost_     _Transactions_ form and a GL batch on the _Journal Transactions_ (GL301000) form. The offset is added to the     WIP Variance account. 10.You process the sales order according to the sales process of your organization and ship the items to the     customer. 
 
@@ -1872,7 +1882,7 @@ The employees involved do the following to process the production order and the 
 
  You can select the Make-to-Order Item check box on the Manufacturing tab of the Stock Items (IN202500) form to make the system select the Mark for Production check box on the sales order line by default. 
 
-- For the sales order type on the _Order Types_ (SO201000) form, the **Allow Production Orders - Approved** or     **Allow Production Orders - Hold** check box is selected, or both check boxes are selected. 
+- For the sales order type on the _Order Types_ (SO201000) form, the **Enable Linking to Production Orders**     check box is selected and the sales order statuses that permit linking to production are specified in the     **Linkable Sales Order Statuses** list. 
 
 - The **MTO Order** check box is selected for the sales order type, which makes the **Mark for Production** check     box appear on the **Details** tab of the _Sales Orders_ form, so that it can be selected in the sales order line. 
 
@@ -1882,19 +1892,19 @@ The employees involved do the following to process the production order and the 
 
 - On the _Sales Orders_ (SO301000) form, you can do the following:     a. Click the line on the **Details** tab.     b. On the table toolbar, click **Link Prod. Order** to open the **Production Details** dialog box.     c. In the dialog box, select the check box in the **Selected** column in the row with the production order to be        linked to the sales order line; you then click **Save**.        When the dialog box closes, you can see the identifier of the production order in the **Production Nbr.**        column of the linked sales order line. 
 
-- On the _Production Order Maintenance_ (AM201500) form (in the **SO References** section of the **References**     tab), you can do the following: 
-
-
-<!-- PAGE_BREAK -->
- Producing Items | 49 
-
- a. At the bottom of the section, click the Link Sales Order button, which is displayed only if no sales order line has been linked to the production order, to open the SO Line Details dialog box. b. In the dialog box, select the check box in the Selected column for the sales order line to be linked to the production order; you then click Save. When the dialog box closes, the boxes of the SO References section are filled in with the customer, sales order type, sales order, and sales order line. 
+- On the _Production Order Maintenance_ (AM201500) form (in the **SO References** section of the **References**     tab), you can do the following:     a. At the bottom of the section, click the **Link Sales Order** button, which is displayed only if no sales order        line has been linked to the production order, to open the **SO Line Details** dialog box.     b. In the dialog box, select the check box in the **Selected** column for the sales order line to be linked to the        production order; you then click **Save**.        When the dialog box closes, the boxes of the **SO References** section are filled in with the customer, sales        order type, sales order, and sales order line. 
 
  You can link a production order to a sales order line if all of the conditions specified in the following table are met. 
 
  Entity Requirements 
 
  Sales order The sales order is not assigned the Canceled , Back Order , or Completed status. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 50 
+
+ Entity Requirements 
 
  Production order • The production order is not linked to a sales order line. 
 
@@ -1934,15 +1944,15 @@ The employees involved do the following to process the production order and the 
 
  When the link between a sales order line and a production order is removed, the following changes occur in the system: 
 
-
-<!-- PAGE_BREAK -->
- Producing Items | 50 
-
 - The type and number of the production order are removed from the sales order line on the **Details** tab of     the _Sales Orders_ (SO301000) form. 
 
 - The customer, sales order type, sales order number, and sales order line are removed from the **SO**     **References** section of the **References** tab on the _Production Order Maintenance_ form. 
 
 - The allocation of the item quantity for production is removed. That is, the item plan is removed on the     _Inventory Allocation Details_ (IN402000) form. When the link to the sales order line is removed, you can add the link to another sales order line. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 51 
 
 ### Production Processing: To Process Production for Sales 
 
@@ -1982,21 +1992,11 @@ The employees involved do the following to process the production order and the 
 
 8. On the _Materials_ (AM300000) form, issue the components required for the production order 
 
-9. On the _Labor_ (AM301000) form, record the labor spent for the juicer assembly and the produced quantity 
+9. On the _Labor_ (AM301000) form, record the labor spent for the juicer assembly and the produced quantity 10.On the _Close Production Orders_ (AM506000) form, close the production order 11.On the _Inventory Allocation Details_ (IN402000) form, view the changes to the item plans 12.On the _Sales Orders_ form, process the documents related to shipping the items to the customer 
 
 
 <!-- PAGE_BREAK -->
- Producing Items | 51 
-
- 10.On the Close Production Orders (AM506000) form, close the production order 11.On the Inventory Allocation Details (IN402000) form, view the changes to the item plans 12.On the Sales Orders form, process the documents related to shipping the items to the customer 
-
-#### System Preparation 
-
- Do the following: 
-
-1. Sign in to the system as the production manager by using the _peters_ username and the provided password. 
-
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to today’s date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
+ Producing Items | 52 
 
 #### System Preparation 
 
@@ -2038,10 +2038,6 @@ The employees involved do the following to process the production order and the 
 
 - **Inventory ID** : _CFJCITRUS_ 
 
-
-<!-- PAGE_BREAK -->
- Producing Items | 52 
-
 - **Quantity** : 3 
 
 - **Unit Price** : 1900.00 
@@ -2055,6 +2051,10 @@ The employees involved do the following to process the production order and the 
  To create the production order for the three ordered citrus juicers with the 0.5-liter cup, while you are still viewing the sales order on the Sales Orders (SO301000) form, do the following: 
 
 1. On the More menu (under **Manufacturing** ), click **Create Production Orders**. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 53 
 
  You open the More menu by clicking the More button (…) on the form toolbar. 
 
@@ -2088,17 +2088,17 @@ The employees involved do the following to process the production order and the 
 
  You have replaced the 1-liter juice cup with the 0.5-liter juice cup in the list of components of the production order. 
 
-
-<!-- PAGE_BREAK -->
- Producing Items | 53 
-
 #### Step 5: Releasing the Production Order 
 
  Before you start processing the production order, you need to release it. Do the following: 
 
 1. On the _Production Order Maintenance_ (AM201500) form, open the production order that the system created     earlier in this activity. 
 
-2. On the form toolbar, click **Release Order**. The order's status changes to _Released_.     On the **References** tab, notice that information about the linked sales order is displayed in the **SO**     **References** section (as shown in the following screenshot). 
+2. On the form toolbar, click **Release Order**. The order's status changes to _Released_.     On the **References** tab, notice that information about the linked sales order is displayed in the **SO**     **References** section, as shown below. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 54 
 
  Figure: The References tab on the Production Order Maintenance form 
 
@@ -2116,13 +2116,13 @@ The employees involved do the following to process the production order and the 
 
 5. On the form toolbar, click **Remove Hold**. The status of the purchase order changes to _Open_. 
 
-
-<!-- PAGE_BREAK -->
- Producing Items | 54 
-
 #### Step 7: Receiving the Components in a Warehouse 
 
  Suppose that you have received the ordered components from the JALOOZA vendor and need to create a purchase receipt. The items have been received to the MTL location in the WORKHOUSE warehouse (this location is dedicated to the storing of materials and components). Do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 55 
 
 1. While you are still viewing the purchase order on the _Purchase Orders_ (PO301000) form, on the form toolbar,     click **Enter PO Receipt**. The system creates a purchase receipt and opens it on the _Purchase Receipts_     (PO302000) form.     On the **Details** tab, review the list of the received components. Notice that _MTL_ is specified for each row in     the **Location** column. 
 
@@ -2136,7 +2136,7 @@ The employees involved do the following to process the production order and the 
 
 1. On the _Production Order Maintenance_ (AM201500) form, open the production order that the system created     earlier in this activity. 
 
-2. On the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Material Wizard 2_     (AM300020) form with the list of components from the production order. 
+2. On the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Select Materials to_     _Release_ (AM300020) form with the list of components from the production order. 
 
 3. On the form toolbar, click **Select All**. The system creates the material transaction and opens it on the     _Materials_ (AM300000) form. 
 
@@ -2166,15 +2166,17 @@ The employees involved do the following to process the production order and the 
 
 - **Shi** : _0001_ 
 
-
-<!-- PAGE_BREAK -->
- Producing Items | 55 
-
 - **Labor Time** : _01:30_ 
 
 - **Quantity** : 3 
 
-4. In the Summary area, do the following:     a. Make sure that today's date is specified in the **Date** box.     b. In the **Description** box, specify Recording the time for assembly of 3 citrus        juicers.     c. Clear the **Hold** check box. The system changes the transaction status to _Balanced_. 
+4. In the Summary area, do the following:     a. Make sure that today's date is specified in the **Date** box. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 56 
+
+ b. In the Description box, specify Recording the time for assembly of 3 citrus juicers. c. Clear the Hold check box. The system changes the transaction status to Balanced. 
 
 5. On the form toolbar, click **Release**. The system creates and releases the cost transaction to record labor     costs, the inventory receipt to record the movement of the assembled juicers to the warehouse location,     and the labor transaction itself. 
 
@@ -2196,11 +2198,11 @@ The employees involved do the following to process the production order and the 
 
 1. On the _Sales Orders_ (SO301000) form, open the sales order that you created earlier in this activity. 
 
-2. On the table toolbar of the **Details** tab, click **Item Availability**. The system opens the _Inventory Allocation_     _Details_ (IN402000) form with the _CFJCITRUS_ item and the _WORKHOUSE_ warehouse selected in the Summary     area.     On the **Item Plans** tab, notice that the _SO Allocated_ item plan for 3 items and the _SO Booked_ item plan for 12     items are displayed. Also, notice that the following item plans are no longer listed: the _SO to Production_ item     plan for 3 items and the _Production for SO Prepared_ item plan for 3 items.     In the Summary area, the **On Hand** value is _15_ but the **Available** value is _0_ (as shown in the following     screenshot). This means that the juicers are allocated for the sales order and are unavailable for other sales     orders. 
+2. On the table toolbar of the **Details** tab, click **Item Availability**. The system opens the _Inventory Allocation_     _Details_ (IN402000) form with the _CFJCITRUS_ item and the _WORKHOUSE_ warehouse selected in the Summary     area.     On the **Item Plans** tab, notice that the _SO Allocated_ item plan for 3 items and the _SO Booked_ item plan for 12     items are displayed. Also, notice that the following item plans are no longer listed: the _SO to Production_ item     plan for 3 items and the _Production for SO Prepared_ item plan for 3 items.     In the Summary area, the **On Hand** value is _15_ but the **Available** value is _0_ , as shown in the following     screenshot. This means that the juicers are allocated for the sales order and are unavailable for other sales     orders. 
 
 
 <!-- PAGE_BREAK -->
- Producing Items | 56 
+ Producing Items | 57 
 
  Figure: Allocation details for the sales order 
 
@@ -2216,7 +2218,7 @@ The employees involved do the following to process the production order and the 
 
 4. Click **OK** , and wait until the system processes the related documents and transactions. 
 
-5. In the **Processing Results** dialog box, click **OK**.     Notice that the status of the sales order has changed to _Completed_. 
+5. Notice that the status of the sales order has changed to _Completed_. 
 
  You have successfully processed the sales order and the related production documents and transactions. 
 
@@ -2224,21 +2226,21 @@ The employees involved do the following to process the production order and the 
 
  As you perform item production, you create and process a production order and the related transactions to track the movement of produced items and used components between a work center and a warehouse, to record item costs (such as labor, tools, and overhead), and to update the GL balances; details about the transactions are described in the following sections. 
 
+ For information about the unified processing of inventory transactions, see Production Processing: Processing of Inventory Transactions. 
+
 #### A Material Transaction and Related Transactions 
 
  You create a material transaction on the Materials (AM300000) form when you need to issue materials to produce items for a production order. When you release the material transaction, the system creates an inventory issue transaction on the Issues (IN302000) form and releases it; you can view the reference number of the issue in the IN Ref. Nbr. column of the Materials form. For the inventory issue transaction, the system generates a batch of the general ledger transactions shown in the following table. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 58 
 
  Account Source of Account Debit Credit 
 
  Work in Process Settings of the production order 
 
  Amount 0.00 
-
-
-<!-- PAGE_BREAK -->
- Producing Items | 57 
-
- Account Source of Account Debit Credit 
 
  Inventory Depends on the settings of the posting class of the material 
 
@@ -2294,13 +2296,15 @@ The employees involved do the following to process the production order and the 
 
  0.00 Amount 
 
+
+<!-- PAGE_BREAK -->
+ Producing Items | 59 
+
+ Account Source of Account Debit Credit 
+
  Variable Overhead Costs Overhead settings on the Overhead form 
 
  0.00 Amount 
-
-
-<!-- PAGE_BREAK -->
- Producing Items | 58 
 
  To track the movement of the produced items to a warehouse, the system creates an inventory receipt on the Receipts (IN301000) form, releases the receipt, and creates and releases another batch of general ledger transactions, which are displayed in the following table. You can view the reference number of the inventory issue in the IN Ref. Nbr. column on the Labor form. 
 
@@ -2344,13 +2348,13 @@ The employees involved do the following to process the production order and the 
 
  0.00 Amount 
 
+
+<!-- PAGE_BREAK -->
+ Producing Items | 60 
+
 #### Transactions Generated for a WIP Adjustment 
 
  You can manually adjust costs for a production order by using the WIP Adjustment (AM308000) form. When you release a WIP adjustment, the system creates a batch of the general ledger transactions listed in the following table. You can find the reference number of the GL batch in the GL Batch Nbr. column. 
-
-
-<!-- PAGE_BREAK -->
- Producing Items | 59 
 
  Account Source of Account Debit Credit 
 
@@ -2380,6 +2384,36 @@ The employees involved do the following to process the production order and the 
 
  You cannot manually reverse cost transactions because they are created automatically when you release other production transactions. 
 
+### Production Processing: Processing of Inventory Transactions 
+
+ Acumatica ERP allows switching to a unified approach to releasing manufacturing-related inventory transactions. The system can release a full manufacturing document and update production within a single, connected 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 61 
+
+ transaction—making the release faster, more reliable, and easier to manage. This unified process also improves traceability across inventory, costing, and GL entries. 
+
+ This functionality is available only if the Inventory feature is enabled on the Enable/Disable Features (CS100000) form. 
+
+#### Enabling the Unified Release Process 
+
+ To start using the unified release process, perform these steps: 
+
+1. Select the **Use New Release Process** check box on the _Production Preferences_ (AM102000) form. 
+
+2. Create a new numbering sequence on the _Numbering Sequences_ (CS201010) form.     The system needs this numbering sequence for transactions of a new type—production-linked inventory     transactions—to make it easier to distinguish them from transactions created using the legacy process. 
+
+3. Specify this new numbering sequence in the **Production Numbering Sequence** box on the _Inventory_     _Preferences_ (IN101000) form. 
+
+#### Releasing Inventory Transactions 
+
+ Once you have enabled the unified release process, all inventory transactions generated by manufacturing—both stock and non-stock—are consolidated, allowing you to release them as a single document through the Release IN Documents (IN501000) form. Production is updated in the same transaction scope, reducing the risk of data gaps or out-of-sync processes. 
+
+#### Reviewing Transactions 
+
+ Use the Production Transactions (IN308000) form to see exactly which transactions were processed—inventory movements, journal transactions, and any linked cost transactions. This form simplifies transaction traceability and improves auditability. 
+
 ### Production Processing: Mass Processing 
 
  The following sections explain how to process multiple documents and transactions related to production process, and how the system generates, changes, or works with documents as a result of the mass processing. 
@@ -2388,13 +2422,13 @@ The employees involved do the following to process the production order and the 
 
  You close production orders by using the Close Production Orders (AM506000). You can close one order or multiple orders at a time. On this form, you specify the period within which the production orders were created, select the unlabeled check box in each row with a production order to be closed, and click Process on the form toolbar. The system closes the selected production orders. 
 
-
-<!-- PAGE_BREAK -->
- Producing Items | 60 
-
 #### Mass-Creating Production Orders 
 
  You can mass-create production orders for sales order lines with the Mark for Production check box selected by using the Create Production Orders (AM510000) form. To create multiple production orders related to sales order lines, on the form, you specify the selection criteria, select the unlabeled check box in each row for which a production order will be created, and click Process on the form toolbar. The system creates a production order for each line and links the production order to the sales order. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 62 
 
 #### Mass-Printing Production Tickets 
 
@@ -2424,10 +2458,6 @@ The employees involved do the following to process the production order and the 
 
  You can also view all production orders created in the system by using the Production Summary (AM000006) form. 
 
-
-<!-- PAGE_BREAK -->
- Producing Items | 61 
-
 #### Viewing Production Order Progress and Performance 
 
  To analyze the progress and performance of all production orders or a particular production order, you can use the Production Order Performance (AM652000) form. This report shows the following information: 
@@ -2437,6 +2467,10 @@ The employees involved do the following to process the production order and the 
 - Material and labor transactions and costs 
 
 - Performance data by sales order demand 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 63 
 
 #### Viewing Production Transactions 
 
@@ -2448,7 +2482,7 @@ The employees involved do the following to process the production order and the 
 
 - _Material Transaction Details_ (AM000015): Displays the materials in the material transactions for all production     orders 
 
-- _Labor Transactions by Order_ (AM634000): Displays the labor transactions for the production order you select You can also view the full list of production-related transactions in the system by using the _Transactions by Production Order_ (AM000011) form. 
+- _Labor Transactions by Order_ (AM634000): Displays the labor transactions for the production order you select You can also view the full list of production-related transactions in the system by using the _Transactions By Production Order_ (AM000011) form. 
 
 #### Viewing the Work-in-Process Balance 
 
@@ -2474,13 +2508,15 @@ The employees involved do the following to process the production order and the 
 
 - _Not Ready_ (red): Materials are insufficient to complete the first operation. 
 
-
-<!-- PAGE_BREAK -->
- Producing Items | 62 
-
 ### Production Processing: Selection of Warehouse Locations 
 
- Produced items and materials used in production are usually stored in warehouse locations. You assign a warehouse to each production order. The system uses this warehouse as the default warehouse to which the produced items are received to and from which the materials are issued. If the warehouse has multiple locations and the Multiple Warehouse Locations feature is enabled on the Enable/Disable Features (CS100000) form, a warehouse location must be specified for each production order. This location is where produced items are received and materials are issued in production transactions. 
+ Produced items and materials used in production are usually stored in warehouse locations. You assign a warehouse to each production order. The system uses this warehouse as the default warehouse to which the produced items are received to and from which the materials are issued. If the warehouse has multiple locations and the Multiple Warehouse Locations feature is enabled on the Enable/Disable Features (CS100000) form, a 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 64 
+
+ warehouse location must be specified for each production order. This location is where produced items are received and materials are issued in production transactions. 
 
  In the following sections, you can find information about how the system selects default warehouse locations in production orders and production transactions. 
 
@@ -2506,23 +2542,19 @@ The employees involved do the following to process the production order and the 
 
 - **Active** 
 
-- **Receipts Allowed** 
-
 - **Production Allowed** 
 
 #### Issue of Materials 
 
- The system can insert default warehouse locations for rows in a material transaction created on the Materials (AM300000) form. If a warehouse location is specified in the Location column of the Materials tab on the Production 
-
-
-<!-- PAGE_BREAK -->
- Producing Items | 63 
-
- Order Details (AM209000) form in the material row for which you create the material transaction, the system copies this location to the Location column of the material row in the transaction. If the location column on the Production Order Details form is empty, then the system uses the following rules for determining the default warehouse location in a material transaction: 
+ The system can insert default warehouse locations for rows in a material transaction created on the Materials (AM300000) form. If a warehouse location is specified in the Location column of the Materials tab on the Production Order Details (AM209000) form in the material row for which you create the material transaction, the system copies this location to the Location column of the material row in the transaction. If the location column on the Production Order Details form is empty, then the system uses the following rules for determining the default warehouse location in a material transaction: 
 
 - If you add a material row to the transaction manually, the system leaves the **Location** column empty. You     need to specify the warehouse location manually. 
 
-- If you create the material transaction by using the _Material Wizard_ (AM300010) form or the system creates     the material transaction for backflushed materials, the system checks the following locations in the listed     order and inserts the first one it finds: 
+- If you create the material transaction by using the _Select Production Orders_ (AM300010) form or the system     creates the material transaction for backflushed materials, the system checks the following locations in the     listed order and inserts the first one it finds: 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 65 
 
 - The location specified in the **Default Issue From** box of the **General** tab on the _Item Warehouse Details_     (IN204500) form for the material and the warehouse specified in the **Warehouse** column 
 
@@ -2535,8 +2567,6 @@ The employees involved do the following to process the production order and the 
  For each warehouse location from which materials will be issued, you should make sure that the following check boxes are selected in the row for the location on the Locations tab of the Warehouses form: 
 
 - **Active** 
-
-- **Sales Allowed** 
 
 - **Production Allowed** 
 
@@ -2554,10 +2584,6 @@ The employees involved do the following to process the production order and the 
 
  Integration with employee time activities (for details, see Employee Time Entry: Time Activities ) is supported by using the Create Labor Time Activities (AM503000) form if the Time Management feature is enabled on the Enable/ Disable Features (CS100000) form. 
 
-
-<!-- PAGE_BREAK -->
- Producing Items | 64 
-
 #### Operations in Bills of Material 
 
  The setup and run time elements for each operation are used to calculate the planned labor cost of a bill of material and production order. Both are extended by the work center standard rate per hour. Setup time cannot be reported; it is only posted when the operation is backflushed. 
@@ -2566,7 +2592,13 @@ The employees involved do the following to process the production order and the 
 
  The Labor (AM301000) form is used to record hours against production operations as well as the quantity completed, and optionally scrap, at an operation of a production order. This same form is used to record indirect labor. 
 
- Additionally, production employees can clock in and out for production orders by using the Clock Entry (AM315000) form or on the corresponding screen of the Acumatica mobile app. In this case, the system calculates labor hours automatically. On the Clock Entry form, scrap recording is not supported. Production employees can use the Multiple Production Clock Entry (AM316000) form for recording scrap with the No Action of Write-Off scrap action. Scrapped items that will be quarantined (that is, with the Quarantined scrap action) can be recorded only by using the Labor or Move (AM302000) form. 
+ Additionally, production employees can clock in and out for production orders by using the Clock Entry (AM315000) form or on the corresponding screen of the Acumatica mobile app. In this case, the system calculates labor hours automatically. On the Clock Entry form, scrap recording is not supported. Production employees can use the 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items | 66 
+
+ Multiple Production Clock Entry (AM316000) form for recording scrap with the No Action of Write-Off scrap action. Scrapped items that will be quarantined (that is, with the Quarantined scrap action) can be recorded only by using the Labor or Move (AM302000) form. 
 
 #### Recording Indirect Labor 
 
@@ -2586,17 +2618,13 @@ The employees involved do the following to process the production order and the 
 
  The WIP accounts used in production management should have a zero balance. If they do not, you will not be able reconcile the production work in process balances to your general ledger. 
 
-
-<!-- PAGE_BREAK -->
- Producing Items | 65 
-
 #### Reconciling Each Period 
 
  Similar to inventory where the Inventory Valuation (IN615500) report can be used to validate the GL account balances, the Work in Process (AM654000) report should agree with the GL account balances. Use the total of the WIP Balance column for each account and subaccount. 
 
 
 <!-- PAGE_BREAK -->
- Managing Production Cost Drivers | 66 
+ Managing Production Cost Drivers | 67 
 
 ## Managing Production Cost Drivers 
 
@@ -2642,7 +2670,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Managing Production Cost Drivers | 67 
+ Managing Production Cost Drivers | 68 
 
  To calculate total costs for a production order, the system sums the costs for each operation included in the order. 
 
@@ -2678,7 +2706,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Managing Production Cost Drivers | 68 
+ Managing Production Cost Drivers | 69 
 
 #### Calculation of Planned and Actual Costs 
 
@@ -2714,7 +2742,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Managing Production Cost Drivers | 69 
+ Managing Production Cost Drivers | 70 
 
 #### Material Unit Cost 
 
@@ -2754,7 +2782,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Managing Production Cost Drivers | 70 
+ Managing Production Cost Drivers | 71 
 
  You can view planned and actual labor costs for each operation of a production order on the Totals tab of the Production Order Details (AM209000) form. You can find total labor costs for a production order on the Totals tab of the Production Order Maintenance (AM201500) form. 
 
@@ -2796,7 +2824,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Managing Production Cost Drivers | 71 
+ Managing Production Cost Drivers | 72 
 
  Overhead Type Planned Cost Actual Cost 
 
@@ -2842,7 +2870,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Managing Production Cost Drivers | 72 
+ Managing Production Cost Drivers | 73 
 
  To calculate the planned or actual tool cost for a production order, the system sums planned or actual tool costs for all operations included in the order. 
 
@@ -2858,9 +2886,93 @@ The employees involved do the following to process the production order and the 
 
  To calculate the planned or actual machine cost for a production order, the system sums planned or actual machine costs for all operations included in the order. 
 
+### Production Cost Drivers: Cost and Efficiency Anomalies 
+
+ This functionality is available only if the Detection of Numeric Anomalies in Generic Inquiries feature is enabled on the Enable/Disable Features (CS100000) form. 
+
+ In Acumatica ERP, you can use generic inquiries combined with AI-powered anomaly detection to highlight potential anomalies early—before they become costly problems. 
+
+ These generic inquiries help you monitor: 
+
+- Material costs 
+
+- Labor time 
+
+- Production totals 
+
+- Employee efficiency For information about the configuration and use of anomaly detection, see _Detecting Anomalies in Generic Inquiries_. 
+
+#### Generic Inquiries 
+
+ Acumatica ERP contains the following generic inquiries specifically designed to use anomaly detection in manufacturing: 
+
+- _Production Total Variance (AM0018ML)_ : Get a complete picture of cost variances per production order, so you     can review exceptions before period-end and correct discrepancies quickly. 
+
+- _Production Labor Variance (AM0024ML)_ : Identify discrepancies in labor time and cost to catch inaccurate     reporting or outdated BOM estimates. 
+
+- _Production Material Variance (AM0025ML)_ : Analyze material cost deviations between planned and actual     values for WIP and completed production orders—broken down by operation. 
+
+- _Production Employee Efficiency (AM0030ML)_ : Compare actual performance across employees doing the same     operations, enabling fair evaluation and targeted coaching without over-adjusting BOM labor times. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Production Cost Drivers | 74 
+
+ Each inquiry: 
+
+- Works with _In Process_ , _Completed_ , _Locked_ , and _Closed_ production orders 
+
+- Includes only operations with completed quantities 
+
+#### Recommended Settings 
+
+ By default, anomaly detection is not enabled for these generic inquiries. In the out-of-the-box product, they appear with the Detect Anomalies check box cleared on the Generic Inquiry (SM208000) form. This is because the system currently supports anomaly detection for no more than 10 generic inquiries at a time. 
+
+ We recommend the following settings for the Field for Analysis box and the Data Field column of the table in the Grouping section on the Anomaly Detection tab of the Generic Inquiry form. 
+
+ Field for Analysis Grouping 
+
+ For the Production Total Variance (AM0018ML) generic inquiry: 
+
+ Total Operation Variance (%) BOM ID 
+
+ BOM Revision 
+
+ Operation ID 
+
+ For the Production Labor Variance (AM0024ML) generic inquiry: 
+
+ Labor Cost Variance (%) BOM ID 
+
+ BOM Revision 
+
+ Operation ID 
+
+ For the Production Material Variance (AM0025ML) generic inquiry: 
+
+ Material Cost Variance (%) BOM ID 
+
+ BOM Revision 
+
+ Operation ID 
+
+ For the Production Employee Efficiency (AM0030ML) generic inquiry: 
+
+ Efficiency (%) Order Type 
+
+ BOM ID 
+
+ BOM Revision 
+
+ Operation ID 
+
 ### Production Cost Drivers: To Review Planned and Actual Costs of a Production Order 
 
  The following activity will walk you through the process of creating a production order and reviewing its planned and actual costs. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Production Cost Drivers | 75 
 
 #### Story 
 
@@ -2877,10 +2989,6 @@ The employees involved do the following to process the production order and the 
  In the U100 dataset, the following tasks have been performed to support this activity: 
 
 - On the _Warehouses_ (IN204000) form, the _WORKHOUSE_ warehouse has been defined, and its locations     include _MGI_ and _MTL_. 
-
-
-<!-- PAGE_BREAK -->
- Managing Production Cost Drivers | 73 
 
 - On the _Stock Items_ (IN202500) form, the _CFJFRUITBF_ , _PULPCONT1L_ , _JUICECUP05L_ , _MRBASE_ , _FNSIEVE_ , and     _GRDISC01_ stock items have been defined. 
 
@@ -2910,6 +3018,10 @@ The employees involved do the following to process the production order and the 
 
 1. As a prerequisite to the current activity, complete _Configuration of Production with Backflushing:_     _Implementation Activity_ so that the system is ready for processing the production of juicers with labor and     material backflushing. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Production Cost Drivers | 76 
+
 2. Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activities have     been performed. You should sign in as the production manager by using the _peters_ username and the _123_     password. 
 
 3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to today’s date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
@@ -2936,10 +3048,6 @@ The employees involved do the following to process the production order and the 
 
 3. On the **General** tab, do the following:     a. In the **Qty. to Produce** box, specify 3.     b. In the **Costing Method** box, select _Actual_. 
 
-
-<!-- PAGE_BREAK -->
- Managing Production Cost Drivers | 74 
-
 4. On the form toolbar, click **Save**. 
 
 #### Step 2: Editing the Operations of the Production Order 
@@ -2961,6 +3069,10 @@ The employees involved do the following to process the production order and the 
 - **Machine Units** : _6.00_ 
 
 - **Machine Time** : _01:00_ (specified automatically) c. On the form toolbar, click **Save**. d. Make sure that the system moved the _0005_ operation up. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Production Cost Drivers | 77 
 
 #### Step 3: Reviewing Planned Costs of the Production Order 
 
@@ -2986,10 +3098,6 @@ The employees involved do the following to process the production order and the 
 
 - _GRDISC01_ : Quantity to Produce (3) * Material Unit Cost (42.95) * Required     Material Quantity (1.00) = 128.85 
 
-
-<!-- PAGE_BREAK -->
- Managing Production Cost Drivers | 75 
-
 - In the **Tool** box, the cost of tools is _0.66_ , which is the sum of the tool costs for the 0010 operation. The cost     of each tool is calculated as follows: 
 
 - _HAMMER_ : Quantity to Produce (3) * Tool Unit Cost (0.02) * Required Tool     Quantity (1.00) = 0.06 
@@ -3008,6 +3116,10 @@ The employees involved do the following to process the production order and the 
 
 - In the **Unit Cost** box, the cost is _486.6067_ , which is calculated as follows: Planned Total Costs     ( _1459.82_ ) / Quantity to Produce (3). 
 
+
+<!-- PAGE_BREAK -->
+ Managing Production Cost Drivers | 78 
+
  Figure: Planned costs of the production order 
 
 #### Step 4: Recording Completed Items for the Machine Operation 
@@ -3015,10 +3127,6 @@ The employees involved do the following to process the production order and the 
  Suppose that three lids for juice cups have been produced by using the injection molding machine. To record the completion of this operation, do the following: 
 
 1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form, on     the More menu (under **Processing** ), click **Release Order**. The order's status is changed to _Released_. 
-
-
-<!-- PAGE_BREAK -->
- Managing Production Cost Drivers | 76 
 
 2. On the More menu (under **Transactions** ), click **Create Move Transaction**. The system creates the move     transaction for the _0005_ operation and opens it on the _Move_ (AM302000) form. 
 
@@ -3032,7 +3140,11 @@ The employees involved do the following to process the production order and the 
 
 1. On the _Production Order Maintenance_ (AM201500) form, open the production order you created earlier in this     activity. 
 
-2. On the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Material Wizard_     (AM300020) form with the list of materials needed for the assembly operation. 
+
+<!-- PAGE_BREAK -->
+ Managing Production Cost Drivers | 79 
+
+2. On the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Select Production_     _Orders_ (AM300020) form with the list of materials needed for the assembly operation. 
 
 3. On the form toolbar, click **Select All**. The system creates the material transaction and opens it on the     _Materials_ (AM300000) form. 
 
@@ -3060,10 +3172,6 @@ The employees involved do the following to process the production order and the 
 
 4. In the Summary area, do the following:     a. In the **Date** box, make sure that the today's date is specified.     b. In the **Description** box, specify Recording the time for assembly of 3 juicers and        the completed quantity.     c. Clear the **Hold** check box. The system changes the transaction's status to _Balanced_. 
 
-
-<!-- PAGE_BREAK -->
- Managing Production Cost Drivers | 77 
-
 5. On the form toolbar, click **Release**. The system creates and releases the cost transaction to record the labor     costs and releases the labor transaction. 
 
 #### Step 7: Reviewing Actual Costs for the Production Order 
@@ -3079,6 +3187,10 @@ The employees involved do the following to process the production order and the 
 - In the **Machine** box, the machine cost is _12.50_ , which has been backflushed and equals the planned     machine cost. 
 
 - In the **Material** box, the cost of materials is _1392.51_ , which equals the planned material cost because the     materials have been issued in full. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Production Cost Drivers | 80 
 
 - In the **Tool** box, the cost of tools is _0.66_ , which is the sum of the actual tool costs and depends on the     quantity of completed items. The cost of each tool is calculated as follows: 
 
@@ -3098,10 +3210,6 @@ The employees involved do the following to process the production order and the 
 
 - In the **MFG to Inventory** box, the cost is _1453.32_ , which is the cost of the produced items that have been     moved to stock. This cost differs from the planned item cost because the production employee spent less     time for the juicer assembly. The system calculated this cost by using the _Actual_ costing method so that it     included only actual costs in the cost of produced items. 
 
-
-<!-- PAGE_BREAK -->
- Managing Production Cost Drivers | 78 
-
  Figure: Actual costs of the production order 
 
 #### Step 8: Closing the Production Order 
@@ -3110,15 +3218,19 @@ The employees involved do the following to process the production order and the 
 
 1. On the _Close Production Orders_ (AM506000) form, select the production order. 
 
+
+<!-- PAGE_BREAK -->
+ Managing Production Cost Drivers | 81 
+
 2. On the form toolbar, click **Process**. In the **Processing** dialog box, which opens, review the processing     details, and when the processing is completed, click **Close**. 
 
 3. Go to the _Production Order Maintenance_ form, and notice that the status of the production order has     changed to _Closed_. 
 
- You have processed the production order for assembly of three juicers and reviewed the planned and actual costs of the production order. 
+You have processed the production order for assembly of three juicers and reviewed the planned and actual costs of the production order. 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 79 
+ Calculating the Costs of Produced Items | 82 
 
 ## Calculating the Costs of Produced Items 
 
@@ -3166,7 +3278,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 80 
+ Calculating the Costs of Produced Items | 83 
 
 - _Actual_ : The system calculates the unit cost of produced items by dividing all actual costs posted to the Work     in Process GL account by the units being received. For details, see _Cost Calculation for Produced Items: Actual_     _Costing Method_. 
 
@@ -3186,7 +3298,7 @@ The employees involved do the following to process the production order and the 
 
 #### Cost Application 
 
- When transactions for a production order are released and materials and labor are not backflushed, costs are applied to the production order and displayed on the Totals tab ( Actual section) of the Production Order Maintenance (AM201500) and Production Order Details (AM209000) forms as follows:as follows: 
+ When transactions for a production order are released and materials and labor are not backflushed, costs are applied to the production order and displayed on the Totals tab ( Actual section) of the Production Order Maintenance (AM201500) and Production Order Details (AM209000) forms as follows: 
 
 - When materials are issued for a production order, material costs are applied to the order and displayed in     the **Material** box. Also, the system applies variable overhead costs by material cost. 
 
@@ -3200,7 +3312,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 81 
+ Calculating the Costs of Produced Items | 84 
 
 - Variable overhead costs by quantity completed and by total quantity. The sum of these costs is displayed     in the **Variable Overhead** box. 
 
@@ -3238,7 +3350,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 82 
+ Calculating the Costs of Produced Items | 85 
 
 ### Cost Calculation for Produced Items: Actual Costing Method 
 
@@ -3270,7 +3382,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 83 
+ Calculating the Costs of Produced Items | 86 
 
 ### Cost Calculation for Produced Items: Estimated Costing Method 
 
@@ -3310,7 +3422,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 84 
+ Calculating the Costs of Produced Items | 87 
 
  & Jams, materials and labor are backflushed for the packing operation. Further suppose that components for the juicers are available in SweetLife Fruits & Jams's warehouse. 
 
@@ -3358,7 +3470,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 85 
+ Calculating the Costs of Produced Items | 88 
 
 #### Step 1: Creating the Production Order 
 
@@ -3392,7 +3504,7 @@ The employees involved do the following to process the production order and the 
 
  In this step, you will issue the materials for the assembly operation of the production order. Do the following: 
 
-1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form,     on the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Material Wizard_     (AM300020) form with the list of the materials needed for the assembly operation. 
+1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form,     on the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Select Production_     _Orders_ (AM300020) form with the list of the materials needed for the assembly operation. 
 
 2. On the form toolbar, click **Select All**. The system creates the material transaction and opens it on the     _Materials_ (AM300000) form. 
 
@@ -3412,7 +3524,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 86 
+ Calculating the Costs of Produced Items | 89 
 
 - **Employee ID** : _EP00000027_ (Carlos Cruz) 
 
@@ -3464,7 +3576,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 87 
+ Calculating the Costs of Produced Items | 90 
 
  Figure: Production order balance for the assembly operation 
 
@@ -3482,7 +3594,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 88 
+ Calculating the Costs of Produced Items | 91 
 
 5. On the _Receipts_ (IN301000) form, open the receipt with today's date, a total quantity of three _CFJFRUITBF_     items, and a total cost of 1463.83. 
 
@@ -3500,7 +3612,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 89 
+ Calculating the Costs of Produced Items | 92 
 
 #### Step 7: Closing the Production Order 
 
@@ -3546,7 +3658,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 90 
+ Calculating the Costs of Produced Items | 93 
 
 2. On the _Labor_ (AM301000) form, record the produced quantity and the labor spent on the juicer assembly. 
 
@@ -3602,7 +3714,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 91 
+ Calculating the Costs of Produced Items | 94 
 
 #### Step 2: Recording the Labor and Produced Items for the Assembly Operation 
 
@@ -3656,7 +3768,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 92 
+ Calculating the Costs of Produced Items | 95 
 
 - **Total Variance** : _-1392.51_ (which is the sum of the expected costs that have not been applied to the     production order yet) 
 
@@ -3678,7 +3790,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 93 
+ Calculating the Costs of Produced Items | 96 
 
 5. On the form toolbar, click **Release**. The system releases the move transaction. Also, the system creates and     releases a cost transaction for backflushed labor and a material transaction for backflushed materials. You     can view these transactions on the **Events** tab of the _Production Order Maintenance_ (AM201500) form. 
 
@@ -3692,7 +3804,7 @@ The employees involved do the following to process the production order and the 
 
 1. On the _Production Order Maintenance_ (AM201500) form, open the production order that you created earlier     in this activity. 
 
-2. On the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Material Wizard_     (AM300020) form with the list of materials needed for the assembly operation. 
+2. On the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Select Production_     _Orders_ (AM300020) form with the list of materials needed for the assembly operation. 
 
 3. On the form toolbar, click **Select All**. The system creates the material transaction and opens it on the     _Materials_ (AM300000) form. 
 
@@ -3722,7 +3834,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 94 
+ Calculating the Costs of Produced Items | 97 
 
 6. On the _Receipts_ (IN301000) form, open the receipt with today's date, a total quantity of one _CFJFRUITBF_     item, and a total cost of 490.11. 
 
@@ -3748,7 +3860,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 95 
+ Calculating the Costs of Produced Items | 98 
 
 #### Step 8: Closing the Production Order 
 
@@ -3798,7 +3910,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 96 
+ Calculating the Costs of Produced Items | 99 
 
 5. On the _Production Order Maintenance_ form, review the production order balance aer you have completed     the order. 
 
@@ -3808,7 +3920,7 @@ The employees involved do the following to process the production order and the 
 
  Do the following: 
 
-1. As a prerequisite to the current activity, complete _Configuration of Scrap, Waste, and By-Products in_     _Production: Implementation ActivityConfiguration of Scrap and Waste in Production: Implementation Activity_ so     that the system is ready for processing the production of juicers. 
+1. As a prerequisite to the current activity, complete _Configuration of Scrap, Waste, and By-Products in_     _Production: Implementation Activity_ so that the system is ready for processing the production of juicers. 
 
 2. Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activities have     been performed. You should sign in as the production manager by using the _peters_ username and the _123_     password. 
 
@@ -3854,11 +3966,11 @@ The employees involved do the following to process the production order and the 
 
 3. On the **General** tab, do the following:     a. In the **Qty. to Produce** box, specify 3.     b. In the **Costing Method** box, make sure that _Standard_ is specified and is unavailable. 
 
+4. On the form toolbar, click **Save**. 
+
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 97 
-
-4. On the form toolbar, click **Save**. 
+ Calculating the Costs of Produced Items | 100 
 
 5. On the More menu (under **Processing** ), click **Release Order**. The order's status is changed to _Released_. 
 
@@ -3868,7 +3980,7 @@ The employees involved do the following to process the production order and the 
 
  In this step, you will issue the materials for the assembly operation of the production order. Do the following: 
 
-1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form,     on the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Material Wizard_     (AM300020) form with the list of materials needed for the assembly operation. 
+1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form,     on the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Select Production_     _Orders_ (AM300020) form with the list of materials needed for the assembly operation. 
 
 2. On the form toolbar, click **Select All**. The system creates the material transaction and opens it on the     _Materials_ (AM300000) form. 
 
@@ -3904,7 +4016,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 98 
+ Calculating the Costs of Produced Items | 101 
 
 #### Step 5: Reviewing the Production Order Balance 
 
@@ -3932,7 +4044,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Calculating the Costs of Produced Items | 99 
+ Calculating the Costs of Produced Items | 102 
 
  Figure: Production order balance for the assembly operation 
 
@@ -3954,7 +4066,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 100 
+ Producing Lotor Serial-Tracked Items | 103 
 
 ## Producing Lotor Serial-Tracked Items 
 
@@ -4000,7 +4112,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 101 
+ Producing Lotor Serial-Tracked Items | 104 
 
 #### Preassignment of Lot or Serial Numbers to Produced Items 
 
@@ -4034,7 +4146,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 102 
+ Producing Lotor Serial-Tracked Items | 105 
 
  For a production order type, you can also specify the default option in the Require Parent Lot/Serial Number box on the Production Order Types (AM201100) form; the system will initially insert this option for each production order of the type. 
 
@@ -4064,7 +4176,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 103 
+ Producing Lotor Serial-Tracked Items | 106 
 
 #### Assignment of Parent Lot or Serial Numbers to Materials on Completion 
 
@@ -4072,7 +4184,7 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 104 
+ Producing Lotor Serial-Tracked Items | 107 
 
  Parent Lot/Serial Number box of the Production Order Maintenance (AM201500) form for the production order— you do the following: 
 
@@ -4092,11 +4204,29 @@ The employees involved do the following to process the production order and the 
 
 
 <!-- PAGE_BREAK -->
-Producing Lotor Serial-Tracked Items | **105** 
+Producing Lotor Serial-Tracked Items | **108** 
 
 
 <!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 106 
+ Producing Lotor Serial-Tracked Items | 109 
+
+#### Assigning Lot and Serial Attribute Values to Finished Items 
+
+ You can capture lot or serial attribute values as you receive produced units of a lotor serial-tracked item into stock on the Move (AM302000) form. 
+
+ This capability is available if the Lot/Serial Attributes feature is enabled on the Enable/Disable Features (CS100000) form and lot or serial attributes have been configured for a lotor serial-tracked item being produced. For details about configuring lot and serial attributes, see Items with Lot and Serial Numbers: Lot and Serial Attributes. 
+
+ To assign lot and serial attribute values, open the Line Details dialog box by clicking Line Details on the table toolbar; then select a line with a lot or serial number, and enter the attribute values in the Lot/Serial Attributes table. 
+
+ Each lot or serial number can have its own attribute values. If all listed units share the same values, you can click Use Attributes from First Line on the table toolbar to assign the attribute values from the first line to all the units in the table. 
+
+#### Issuing Materials with Particular Lot or Serial Attribute Values 
+
+ You can search for and select lot or serial numbers by their attribute values when issuing materials to a production order on the Materials (AM300000) form. 
+
+ This capability is available if the Lot/Serial Attributes feature is enabled on the Enable/Disable Features (CS100000) form and lot or serial attributes have been configured for lotor serial-tracked materials. For details about configuring lot and serial attributes, see Items with Lot and Serial Numbers: Lot and Serial Attributes. 
+
+ To search for a material with a particular lot or serial number, click Add Lot/Serial Nbr. on the table toolbar. In the Add Lot/Serial Nbr. dialog box, which opens, you can view item availability and select materials. The table in the dialog box displays columns with the attribute values of each material with a particular lot or serial number. To search for materials, type a text string in the Search box. The system searches across attribute values and other columns with information about the item to find matching materials. You can also filter the list by columns with attribute values. 
 
 ### Production of Lotor Serial-Tracked Items: Implementation Checklist 
 
@@ -4109,6 +4239,10 @@ Producing Lotor Serial-Tracked Items | **105**
 - The system has been prepared for the implementation of manufacturing functionality, as shown in _System_     _Preparation for Manufacturing Implementation: Implementation Activity_. 
 
 - The production of items has been configured, as described in _Production Processing: Implementation_     _Checklist_. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Lotor Serial-Tracked Items | 110 
 
 #### Implementation Checklist 
 
@@ -4124,12 +4258,6 @@ Producing Lotor Serial-Tracked Items | **105**
 
  Bill of Material (AM208000) form The bills of material for producing the lotor serial-tracked items have been created. 
 
-
-<!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 107 
-
- Form Criteria to Check 
-
  Production Order Types (AM201100) If you need to set up the preassignment of lot or serial numbers to produced items, the Allow Preassigning Lot/Serial Numbers check box is selected on this form (in the Data Entry section of the General tab) for the production order type that you use for production orders of these items. The production order type must have the Regular option selected in the Function box. 
 
  If you want users to assign the lot or serial number of each unit of the produced item to the lotor serial-tracked materials used to produce the item, you make sure that the appropriate value has been specified in the Require Parent Lot/Serial Number box of the same section. 
@@ -4137,6 +4265,10 @@ Producing Lotor Serial-Tracked Items | **105**
 #### Validation of Configuration 
 
  To make sure that all configuration has been performed correctly, we recommend that in your system, you process production orders with lotor serial-tracked items by performing instructions similar to those described in. Production of Lotor Serial-Tracked Items: To Assign Parent Serial Numbers to Materials on Issue and Production of Lotor Serial-Tracked Items: To Assign Parent Serial Numbers to Materials on Completion. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Lotor Serial-Tracked Items | 111 
 
 ### Production of Lotor Serial-Tracked Items: To Assign Parent Serial Numbers to 
 
@@ -4151,10 +4283,6 @@ Producing Lotor Serial-Tracked Items | **105**
  The materials required for the juicer's production are in stock; you do not need to purchase any of them. Also suppose that the scheduling priority is standard (that is, you do not need to produce the juicers more quickly or more slowly than the other items in the queue). 
 
  Acting as a production manager, you will create a production order for producing five juicer units, generate serial numbers for the juicer units, issue the materials required for the juicer's production, assign the generated serial numbers to the motor base units, and process the other related transactions. 
-
-
-<!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 108 
 
 #### Configuration Overview 
 
@@ -4180,13 +4308,9 @@ Producing Lotor Serial-Tracked Items | **105**
 
 5. On the _As-Built Configuration_ (AM401700) form, review the serial numbers of the produced units assigned to     the serial-tracked material units 
 
-#### System Preparation 
 
- Do the following: 
-
-1. Sign in to the system as the production manager by using the _peters_ username and the provided password. 
-
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to today’s date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
+<!-- PAGE_BREAK -->
+ Producing Lotor Serial-Tracked Items | 112 
 
 #### System Preparation 
 
@@ -4202,10 +4326,6 @@ Producing Lotor Serial-Tracked Items | **105**
 
  To create the production order for five juicers and specify the serial number tracking settings, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 109 
-
 1. On the _Production Order Maintenance_ (AM201500) form, add a new record.     Notice that the production order is assigned a status of _Planned_ , and today's date has been automatically     selected in the **Order Date** box. 
 
 2. In the Summary area, do the following:     a. In the **Order Type** box, make sure _RO_ is specified.     b. In the **Inventory ID** box, select _CFJFRUITSN_.        On the **General** tab, notice that the _WORKHOUSE_ warehouse and the _MGI_ location have been selected        automatically.     c. In the **Qty. to Produce** box, specify 5.     d. In the **Description** box, specify Production of 5 fruit juicers. 
@@ -4214,7 +4334,11 @@ Producing Lotor Serial-Tracked Items | **105**
 
 4. On the form toolbar, click **Save**. 
 
-5. Go to the **Line Details** tab, and notice that the system has generated five serial numbers (one for each unit     to be produced), as shown in the following screenshot. 
+5. Go to the **Line Details** tab, and notice that the system has generated five serial numbers (one for each unit     to be produced), as shown below. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Lotor Serial-Tracked Items | 113 
 
  Figure: Serial numbers generated for the production order 
 
@@ -4224,19 +4348,13 @@ Producing Lotor Serial-Tracked Items | **105**
 
  In this step, you will issue the components for the production order and assign the serial numbers of the juicer units to the motor base units. Do the following: 
 
-1. While you are still viewing the production order you have created on the _Production Order Maintenance_     (AM201500) form, on the More menu (under **Transactions** ), click **Release Materials**. The system opens the     _Material Wizard 2_ (AM300020) form with the list of components from the production order. 
+1. While you are still viewing the production order you have created on the _Production Order Maintenance_     (AM201500) form, on the More menu (under **Transactions** ), click **Release Materials**. The system opens the     _Select Materials to Release_ (AM300020) form with the list of components from the production order. 
 
 2. On the form toolbar, click **Select All**. The system creates a material transaction, adds the selected     components to the transaction, and opens the transaction on the _Materials_ (AM300000) form. 
 
 3. In the **Description** box of the Summary area, enter Materials for 5 fruit juicers. 
 
-4. Try to release the material transaction as follows:     a. In the Summary area, clear the **Hold** check box. The system changes the transaction's status to _Balanced_. 
-
-
-<!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 110 
-
- b. On the form toolbar, click Release. The system returns an error message stating that you need to assign parent serial numbers to the serial-tracked materials before releasing the material transaction. 
+4. Try to release the material transaction as follows:     a. In the Summary area, clear the **Hold** check box. The system changes the transaction's status to _Balanced_.     b. On the form toolbar, click **Release**. The system returns an error message stating that you need to assign        parent serial numbers to the serial-tracked materials before releasing the material transaction. 
 
 5. In the Summary area, select the **Hold** check box. The system changes the transaction's status to _On Hold_. 
 
@@ -4244,7 +4362,11 @@ Producing Lotor Serial-Tracked Items | **105**
 
 7. On the table toolbar, click **Line Details**. 
 
-8. In the **Line Details** dialog box, which opens, do the following:     a. In the **Parent Lot/Serial Nbr.** column of each row, select a serial number from the list of numbers that        have been preassigned to the production order (as shown in the following screenshot). You must assign a        unique parent serial number to each material row. 
+8. In the **Line Details** dialog box, which opens, do the following:     a. In the **Parent Lot/Serial Nbr.** column of each row, select a serial number from the list of numbers that        have been preassigned to the production order, as shown in the following screenshot. You must assign a        unique parent serial number to each material row. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Lotor Serial-Tracked Items | 114 
 
  Figure: The parent serial numbers assigned to the material units 
 
@@ -4260,15 +4382,15 @@ Producing Lotor Serial-Tracked Items | **105**
 
 2. On the form toolbar, click **Create Move Transaction**. The system opens the _Move_ (AM302000) form with the     row for the production order added to the table. 
 
-3. On the table toolbar, click **Line Details**. The system opens the **Line Details** dialog box.     Notice that in each table row, in the **Lot/Serial Nbr.** column, the system selected a serial number from the     list of numbers that have been generated for the production order (as shown in the following screenshot). 
-
-
-<!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 111 
+3. On the table toolbar, click **Line Details**. The system opens the **Line Details** dialog box.     Notice that in each table row, in the **Lot/Serial Nbr.** column, the system selected a serial number from the     list of numbers that have been generated for the production order, as shown below. 
 
  Figure: The serial numbers in the Line Details dialog box on the Move form 
 
 4. Click **OK** to close the dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Lotor Serial-Tracked Items | 115 
 
 5. In the Summary area, do the following:     a. Make sure that today's date is specified in the **Date** box.     b. In the **Description** box, enter Recording the movement of 5 fruit juicers.     c. Clear the **Hold** check box. The system changes the transaction's status to _Balanced_. 
 
@@ -4296,13 +4418,13 @@ Producing Lotor Serial-Tracked Items | **105**
 
 2. In the **Prod. Order Nbr.** box of the Selection area, select the production order that you created earlier in this     activity. 
 
-3. In the tree, click the _MRBASESN_ node.     In the **Parent Lot/Serial Nbr.** column on the Item Details pane, review the serial numbers of juicer units     assigned to the motor base items (see the following screenshot). 
+3. In the tree, click the _MRBASESN_ node.     In the **Parent Lot/Serial Nbr.** column on the Item Details pane, review the serial numbers of juicer units     assigned to the motor base items (shown below). 
+
+ Figure: The As-Built Configuration form 
 
 
 <!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 112 
-
- Figure: The As-Built Configuration form 
+ Producing Lotor Serial-Tracked Items | 116 
 
 ### Production of Lotor Serial-Tracked Items: To Assign Parent Serial Numbers to 
 
@@ -4328,10 +4450,6 @@ Producing Lotor Serial-Tracked Items | **105**
 
 - On the _Lot/Serial Classes_ (IN207000) form, the _SNJCRPRT_ and _ASNCFGJCR_ serial classes have been created. 
 
-
-<!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 113 
-
 #### Process Overview 
 
  In this activity, to process the documents and transactions related to the production of the juicers, you will do the following: 
@@ -4346,15 +4464,11 @@ Producing Lotor Serial-Tracked Items | **105**
 
 5. On the _Close Production Orders_ (AM506000) form, close the production order 
 
+
+<!-- PAGE_BREAK -->
+ Producing Lotor Serial-Tracked Items | 117 
+
 6. On the _As-Built Configuration_ (AM401700) form, review the serial numbers of the produced units assigned to     the serial-tracked material units 
-
-#### System Preparation 
-
- Do the following: 
-
-1. Sign in to the system as the production manager by using the _peters_ username and the provided password. 
-
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to today’s date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
 
 #### System Preparation 
 
@@ -4378,10 +4492,6 @@ Producing Lotor Serial-Tracked Items | **105**
 
 - In the **Inventory ID** box, select _CFJFRUITSN_.     On the **General** tab, notice that the _WORKHOUSE_ warehouse and the _MGI_ location have been selected     automatically. 
 
-
-<!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 114 
-
 - In the **Qty. to Produce** box, specify 3. 
 
 - In the **Description** box, specify Production of 3 fruit juicers. 
@@ -4391,6 +4501,10 @@ Producing Lotor Serial-Tracked Items | **105**
 4. On the form toolbar, click **Save**. 
 
 5. Go to the **Line Details** tab, and notice that the system has generated three serial numbers (one for each unit     to be produced), as shown in the following screenshot. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Lotor Serial-Tracked Items | 118 
 
  Figure: Serial numbers generated for the production order 
 
@@ -4418,10 +4532,6 @@ Producing Lotor Serial-Tracked Items | **105**
 
 2. On the More menu (under **Materials** ), click **Late Assignment**. The system opens the _Late Assignment_     (AM312000) form with the production order whose reference number was specified in the **Production Nbr.**     box. 
 
-
-<!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 115 
-
 3. In the **Lot/Serial Nbr.** box of the Summary area, select one of the serial numbers generated for the     production order. 
 
 4. In the **Unallocated Components** table, click the first material line to be allocated. 
@@ -4429,6 +4539,10 @@ Producing Lotor Serial-Tracked Items | **105**
 5. On the table toolbar, click **Allocate**. The system allocates the material for the lot or serial number and     moves the material line to the **Allocated Components** table. 
 
 6. Repeat the previous three instructions for each of the two remaining serial numbers for the juicers. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Lotor Serial-Tracked Items | 119 
 
  You have assigned the serial numbers of the juicer to the motor base units. 
 
@@ -4452,10 +4566,6 @@ Producing Lotor Serial-Tracked Items | **105**
 
 7. Open the production order on the _Production Order Maintenance_ form and notice that it is assigned the     _Completed_ status. 
 
-
-<!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 116 
-
 #### Step 5: Closing the Production Order 
 
  Now you will close the production order. Do the following: 
@@ -4465,6 +4575,10 @@ Producing Lotor Serial-Tracked Items | **105**
 2. On the form toolbar, click **Process**. In the **Processing** dialog box, which opens, review the processing     details, and when the processing is completed, click **Close**. 
 
 3. Go to the _Production Order Maintenance_ form, and notice that the status of the production order has     changed to _Closed_. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Lotor Serial-Tracked Items | 120 
 
  You have processed the production order with the serialized item and assigned the parent serial numbers to the serialized material units. 
 
@@ -4486,10 +4600,6 @@ Producing Lotor Serial-Tracked Items | **105**
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
 
-
-<!-- PAGE_BREAK -->
- Producing Lotor Serial-Tracked Items | 117 
-
 #### Viewing the Lot or Serial Numbers of Produced Items and Materials 
 
  To view the lot or serial numbers of a produced item, the lot or serial numbers of the materials used to produce the item, and the lot or serial numbers of the produced item assigned to the materials, you can use the As-Built Configuration (AM401700) form. 
@@ -4498,13 +4608,17 @@ Producing Lotor Serial-Tracked Items | **105**
 
  To find the items that were produced by using a material with a particular lot or serial number, you can use the Where Used in Production (AM402500) form. On this form, you can also view the lotor serial-tracked subassemblies used to produce the selected material. 
 
+
+<!-- PAGE_BREAK -->
+ Producing Lotor Serial-Tracked Items | 121 
+
 #### Viewing the Materials in Material Transactions 
 
  You can use the Material Transaction Details (AM000015) form to view the list of materials issued for production with details about material transactions that have been generated on the Materials (AM300000) form. These details include the transaction identifier and date, the lot or serial numbers assigned to each material, and the reference number of the production order for which the material has been issued. In addition, you can select the materials according to particular criteria, such as the lot or serial number of the material and the lot or serial number of the produced item for which the material has been used. 
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 118 
+ Producing Items with Outside Processing | 122 
 
 ## Producing Items with Outside Processing 
 
@@ -4550,7 +4664,7 @@ Producing Lotor Serial-Tracked Items | **105**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 119 
+ Producing Items with Outside Processing | 123 
 
 ### Outside Processing: Configuration 
 
@@ -4598,7 +4712,7 @@ Producing Lotor Serial-Tracked Items | **105**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 120 
+ Producing Items with Outside Processing | 124 
 
 #### Bills of Material with Outside Operations 
 
@@ -4636,7 +4750,7 @@ Producing Lotor Serial-Tracked Items | **105**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 121 
+ Producing Items with Outside Processing | 125 
 
 #### Tracking with a Warehouse Location 
 
@@ -4680,7 +4794,7 @@ Producing Lotor Serial-Tracked Items | **105**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 122 
+ Producing Items with Outside Processing | 126 
 
 - You would like purchase orders to be allocated to production orders. In this case, you can use the     _Unreleased Material Allocations_ (AM305500) form to issue the allocated items. 
 
@@ -4718,7 +4832,7 @@ Producing Lotor Serial-Tracked Items | **105**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 123 
+ Producing Items with Outside Processing | 127 
 
 ### Outside Processing: Automatic Move Transaction 
 
@@ -4758,7 +4872,7 @@ Producing Lotor Serial-Tracked Items | **105**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 124 
+ Producing Items with Outside Processing | 128 
 
  For example, suppose that the Allow Preassigning Lot/Serial Numbers check box is cleared for the production order on the Production Order Maintenance (AM201500) form; also suppose that the UserEnterable issue method is selected and the Auto-Generate Next Number check box is cleared for the stock item's lot or serial class on the Lot/Serial Classes (IN207000) form. The system will require you to manually enter the lot or serial number. In this scenario, the move transaction cannot be automatically released. 
 
@@ -4798,7 +4912,7 @@ Producing Lotor Serial-Tracked Items | **105**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 125 
+ Producing Items with Outside Processing | 129 
 
  Form Criteria to Check 
 
@@ -4840,7 +4954,7 @@ Producing Lotor Serial-Tracked Items | **105**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 126 
+ Producing Items with Outside Processing | 130 
 
 #### Validation of Configuration 
 
@@ -4888,7 +5002,7 @@ Producing Lotor Serial-Tracked Items | **105**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 127 
+ Producing Items with Outside Processing | 131 
 
 1. As prerequisites to the current activity, complete the following activities in the specified order:     a. _System Preparation for Manufacturing Implementation: Implementation Activity_ so that the needed settings        have been made in a company with the _U100_ dataset preloaded     b. _Configuring Production Cost Drivers: Implementation Activity_ so that the needed cost drivers have been        created in a company with the _U100_ dataset preloaded     c. _Configuring Work Centers: Implementation Activity_ so that the shi for standard working hours has been        created 
 
@@ -4946,7 +5060,7 @@ Producing Lotor Serial-Tracked Items | **105**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 128 
+ Producing Items with Outside Processing | 132 
 
  a. Notice that the row for the 0001 shi has been added. (The row for the first shi is always added automatically because the work center must have at least one shi.) b. In this row, specify the following: 
 
@@ -5012,7 +5126,7 @@ Producing Lotor Serial-Tracked Items | **105**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 129 
+ Producing Items with Outside Processing | 133 
 
 1. On the _Bill of Material_ (AM208000) form, add a new record. 
 
@@ -5022,15 +5136,15 @@ Producing Lotor Serial-Tracked Items | **105**
 
 - **Hold** : Selected 
 
+- **Description** : A bill of material for outside assembly of configurable juicers 
+
 - **Inventory ID** : _CFJFRUIT_ 
 
 - **Warehouse** : _WORKHOUSE_ 
 
-- **Start Date** : 1/1/2024 
+- **Start Date** : 1/1/2025 
 
 - **End Date** : Empty 
-
-- **Description** : A bill of material for outside assembly of configurable juicers 
 
 3. On the form toolbar, click **Save**. 
 
@@ -5076,7 +5190,7 @@ Producing Lotor Serial-Tracked Items | **105**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 130 
+ Producing Items with Outside Processing | 134 
 
  d. Go to the Outside Process tab, and notice that the Outside Process check box is selected. (The system copied its state from the work center settings.) e. In the Vendor box, select CSEMBLY. 
 
@@ -5122,7 +5236,7 @@ Producing Lotor Serial-Tracked Items | **105**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 131 
+ Producing Items with Outside Processing | 135 
 
  For material lines with the Ship to Vendor subcontract source, the system creates the material transaction on the Materials (AM300000) form, issues the materials from the warehouse by creating an inventory issue on the Issues (IN302000) form, and updates the cost in the Subcontractor box of the Actual section on the Totals tab of the Production Order Maintenance form. You can also view the quantity of items shipped to the vendor on the Outside Process tab of the Production Order Details form. 
 
@@ -5138,7 +5252,7 @@ The following diagram illustrates the actions and documents that are typically i
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 132 
+ Producing Items with Outside Processing | 136 
 
 ### Outside Processing: Process Activity 
 
@@ -5150,7 +5264,7 @@ The following diagram illustrates the actions and documents that are typically i
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 133 
+ Producing Items with Outside Processing | 137 
 
  Acting as a production manager, you will create a production order for producing 10 juicers, create a purchase order for the subcontractor's services, create a vendor shipment with the required materials for the juicer assembly, and process all transactions related to the production order. 
 
@@ -5190,21 +5304,9 @@ The following diagram illustrates the actions and documents that are typically i
 
  Do the following: 
 
-1. Sign in to the system as the production manager by using the _peters_ username and the provided password. 
-
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to today’s date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
-
-#### System Preparation 
-
- Do the following: 
-
 1. As a prerequisite to the current activity, complete _Outside Processing: Implementation Activity_ so that the     system is ready for processing the production of juicers that includes an outside operation. 
 
 2. Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activities have     been performed. You should sign in as the production manager by using the _peters_ username and the _123_     password. 
-
-
-<!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 134 
 
 3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to today’s date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
 
@@ -5212,7 +5314,13 @@ The following diagram illustrates the actions and documents that are typically i
 
  To create the production order for 10 juicers, do the following: 
 
-1. On the _Production Order Maintenance_ (AM201500) form, add a new record.     Notice that the production order is assigned a status of _Planned_ , and today's date has been automatically     selected in the **Order Date** box. 
+1. On the _Production Order Maintenance_ (AM201500) form, add a new record. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items with Outside Processing | 138 
+
+ Notice that the production order is assigned a status of Planned , and today's date has been automatically selected in the Order Date box. 
 
 2. In the Summary area, do the following: 
 
@@ -5240,10 +5348,6 @@ The following diagram illustrates the actions and documents that are typically i
 
 4. In the **Description** box of the Summary area, enter Payment for the subcontractor service. 
 
-
-<!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 135 
-
  Figure: The purchase order for the subcontractor services 
 
 5. On the form toolbar, click **Remove Hold**. The system changes the status of the purchase order to _Open_. 
@@ -5252,15 +5356,15 @@ The following diagram illustrates the actions and documents that are typically i
 
  To create a vendor shipment for the materials required for the juicer assembly, do the following: 
 
+
+<!-- PAGE_BREAK -->
+ Producing Items with Outside Processing | 139 
+
 1. On the _Production Order Details_ (AM209000) form, open the production order you created earlier in this     activity. 
 
 2. In the Operations table, click the row with the _OUTPROC_ work center. 
 
 3. On the table toolbar, click **Create Vendor Shipment**. The system creates the vendor shipment for the     CSEMBLY subcontractor, which is specified on the **Outside Process** tab, and opens the shipment on the     _Vendor Shipments_ (AM310000) form.     Review the details of the vendor shipment (shown in the screenshot below) as follows. Notice that _CSEMBLY_ ,     which is the subcontractor, is specified in the **Vendor** box of the Summary area. On the **Details** tab, notice     that the system has added one row of the _WIP_ type for the _CFJFRUIT_ item and five rows of the _Material_ type     for each of the materials required for the juicer assembly. 
-
-
-<!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 136 
 
  Figure: The vendor shipment on the Vendor Shipments form 
 
@@ -5268,13 +5372,13 @@ The following diagram illustrates the actions and documents that are typically i
 
 5. On the form toolbar, click **Confirm**. The system changes the status to _Completed_. 
 
-6. On the _Production Order Maintenance_ (AM201500) form, open the production order that you created earlier     in this activity.     On the **Totals** tab, notice that in the **Subcontract** box of the **Actual** section, _4,641.70_ is specified (as shown     in the following screenshot). This amount is the cost of the materials that have been shipped to the     subcontractor. 
-
- Figure: The actual subcontract amount aer the confirmation of the vendor shipment 
+6. On the _Production Order Maintenance_ (AM201500) form, open the production order that you created earlier     in this activity.     On the **Totals** tab, notice that in the **Subcontract** box of the **Actual** section, _4,641.70_ is specified, as     shown in the following screenshot. This amount is the cost of the materials that have been shipped to the     subcontractor. 
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 137 
+ Producing Items with Outside Processing | 140 
+
+ Figure: The actual subcontract amount aer the confirmation of the vendor shipment 
 
 #### Step 4: Receiving Items from the Subcontractor 
 
@@ -5300,11 +5404,13 @@ The following diagram illustrates the actions and documents that are typically i
 
 5. Close the window with the _Move_ form. 
 
-6. Go to the **Totals** tab of the _Production Order Maintenance_ form, and notice that in the **Subcontract** box of the     **Actual** section, _5,141.70_ is specified (as shown in the following screenshot), which is the cost of the materials     that have been shipped to the subcontractor plus the cost of the services. Because the material used for     subcontractor services was set up to be backflushed, the system has created and released the material     transaction for the subcontracting non-stock item and added the amount to the actual subcontract amount     when you recorded the operation completion. 
+6. Go to the **Totals** tab of the _Production Order Maintenance_ form, and notice that in the **Subcontract** box of the     **Actual** section, _5,141.70_ is specified (as shown in the following screenshot), which is the cost of the materials 
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 138 
+ Producing Items with Outside Processing | 141 
+
+ that have been shipped to the subcontractor plus the cost of the services. Because the material used for subcontractor services was set up to be backflushed, the system has created and released the material transaction for the subcontracting non-stock item and added the amount to the actual subcontract amount when you recorded the operation completion. 
 
  Figure: The actual subcontract amount aer the movement of the item for the outside operation 
 
@@ -5326,15 +5432,13 @@ The following diagram illustrates the actions and documents that are typically i
 
  Before closing the production order, you will review its balance. Do the following: 
 
-1. On the _Production Order Maintenance_ (AM201500) form, open the production order you created earlier in this     activity.     Notice that the order has been assigned the _Completed_ status. 
-
-2. Go to the **Totals** tab. Review the balance of the production order (shown in the following screenshot) as     follows: 
-
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 139 
+ Producing Items with Outside Processing | 142 
 
- a. Notice that in the Actual section, the value in the Labor Time box is 2 h 30 m and the value in the Labor box is 25.00. The actual values are the same as the planned values. b. Notice that the value of the Subcontract box is 5,141.70 and has not been changed aer you created the move transaction for the 0020 operation. c. Notice that the WIP Total and MFG to Inventory boxes both contain 5,166.70 , which is the sum of the values in the Labor and Subcontract boxes. d. Notice that in the Variance section, the Total Variance and WIP Balance boxes both contain 0. 
+1. On the _Production Order Maintenance_ (AM201500) form, open the production order you created earlier in this     activity.     Notice that the order has been assigned the _Completed_ status. 
+
+2. Go to the **Totals** tab. Review the balance of the production order (shown in the following screenshot) as     follows:     a. Notice that in the **Actual** section, the value in the **Labor Time** box is _2 h 30 m_ and the value in the **Labor**        box is _25.00_. The actual values are the same as the planned values.     b. Notice that the value of the **Subcontract** box is _5,141.70_ and has not been changed aer you created the        move transaction for the _0020_ operation.     c. Notice that the **WIP Total** and **MFG to Inventory** boxes both contain _5,166.70_ , which is the sum of the        values in the **Labor** and **Subcontract** boxes.     d. Notice that in the **Variance** section, the **Total Variance** and **WIP Balance** boxes both contain _0_. 
 
  Figure: The balance of the production order 
 
@@ -5352,15 +5456,13 @@ The following diagram illustrates the actions and documents that are typically i
 
  You have created the production order that includes an outside processing operation, created a purchase order to pay for the subcontractor services, created a vendor shipment for materials provided to the subcontractor, and processed the production order to the closing. 
 
-### Outside Processing: Generated Transactions 
-
- When you process production orders that include outside operations, you record payments for the subcontractor services (which may include material costs) by creating and processing purchase orders and the related documents 
-
 
 <!-- PAGE_BREAK -->
- Producing Items with Outside Processing | 140 
+ Producing Items with Outside Processing | 143 
 
- and transactions. To track these expenses, the system generates the GL transactions described in the following section. 
+### Outside Processing: Generated Transactions 
+
+ When you process production orders that include outside operations, you record payments for the subcontractor services (which may include material costs) by creating and processing purchase orders and the related documents and transactions. To track these expenses, the system generates the GL transactions described in the following section. 
 
 #### Transactions Generated for Non-Stock Items Used as Materials 
 
@@ -5392,7 +5494,7 @@ The following diagram illustrates the actions and documents that are typically i
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Backflushing | 141 
+ Producing Items with Backflushing | 144 
 
 ## Producing Items with Backflushing 
 
@@ -5430,7 +5532,7 @@ The following diagram illustrates the actions and documents that are typically i
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Backflushing | 142 
+ Producing Items with Backflushing | 145 
 
  Backflushing can ensure that the full cost of production is recognized when workers record the quantity of produced items for the final operation in the routing. In the backflushing process, the system automatically issues the materials consumed based on the item quantity reported for an operation. Thus, you can make the cost of the product more representative and minimize cost variances. 
 
@@ -5464,11 +5566,11 @@ The following diagram illustrates the actions and documents that are typically i
 
 
 <!-- PAGE_BREAK -->
-Producing Items with Backflushing | **143** 
+Producing Items with Backflushing | **146** 
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Backflushing | 144 
+ Producing Items with Backflushing | 147 
 
  The employees involved do the following to process the production order and the related transactions: 
 
@@ -5502,7 +5604,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Backflushing | 145 
+ Producing Items with Backflushing | 148 
 
 #### Material and Labor Cost Adjustments 
 
@@ -5540,7 +5642,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Backflushing | 146 
+ Producing Items with Backflushing | 149 
 
  Form Criteria to Check 
 
@@ -5578,7 +5680,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Producing Items with Backflushing | 147 
+ Producing Items with Backflushing | 150 
 
 #### Process Overview 
 
@@ -5604,14 +5706,6 @@ Producing Items with Backflushing | **143**
 
  Do the following: 
 
-1. Sign in to the system as the production manager by using the _peters_ username and the provided password. 
-
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to today’s date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
-
-#### System Preparation 
-
- Do the following: 
-
 1. As a prerequisite to the current activity, complete _Configuration of Production with Backflushing:_     _Implementation Activity_ so that the system is ready for processing the production of juicers with labor and     material backflushing. 
 
 2. Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activities have     been performed. You should sign in as the production manager by using the _peters_ username and the _123_     password. 
@@ -5628,10 +5722,6 @@ Producing Items with Backflushing | **143**
 
 - In the **Order Type** box, make sure _RO_ is specified. 
 
-
-<!-- PAGE_BREAK -->
- Producing Items with Backflushing | 148 
-
 - In the **Inventory ID** box, select _CFJFRUITBF_.     On the **General** tab, notice that the _WORKHOUSE_ warehouse and the _MGI_ location have been selected     automatically. 
 
 - In the **Qty. to Produce** box, specify 3. 
@@ -5642,11 +5732,15 @@ Producing Items with Backflushing | **143**
 
 4. On the form toolbar, click **Release Order**. The order's status changes to _Released_. 
 
+
+<!-- PAGE_BREAK -->
+ Producing Items with Backflushing | 151 
+
 #### Step 2: Issuing Materials for the Assembly Operation 
 
  In this step, you will issue the materials for the assembly operation of the production order. Do the following: 
 
-1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form,     on the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Material Wizard 2_     (AM300020) form with the list of materials needed for the assembly operation. 
+1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form, on     the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Select Materials to_     _Release_ (AM300020) form with the list of materials needed for the assembly operation. 
 
 2. On the form toolbar, click **Select All**. The system creates the material transaction and opens it on the     _Materials_ (AM300000) form. 
 
@@ -5682,10 +5776,6 @@ Producing Items with Backflushing | **143**
 
 4. In the Summary area, do the following:     a. Make sure that today's date is specified in the **Date** box.     b. In the **Description** box, specify Recording the time for assembly of 3 juicers and        the completed quantity.     c. Clear the **Hold** check box. The system changes the transaction's status to _Balanced_. 
 
-
-<!-- PAGE_BREAK -->
- Producing Items with Backflushing | 149 
-
 5. On the form toolbar, click **Release**. The system creates and releases a cost transaction to record the labor     costs and releases the labor transaction. 
 
 #### Step 4: Reviewing the Production Order Balance 
@@ -5693,6 +5783,10 @@ Producing Items with Backflushing | **143**
  To review the production order balance aer you have recorded the completion of the assembly operation, do the following: 
 
 1. On the _Production Order Maintenance_ (AM201500) form, open the production order you created earlier in this     activity. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items with Backflushing | 152 
 
 2. On the **Totals** tab, review the production order balance (shown in the screenshot below) as follows:     a. Notice that in the **Actual** section, the following values are displayed: 
 
@@ -5710,10 +5804,6 @@ Producing Items with Backflushing | **143**
 
  Figure: Production order balances aer the first operation 
 
-
-<!-- PAGE_BREAK -->
- Producing Items with Backflushing | 150 
-
 #### Step 5: Recording the Produced Items for the Packing Operation 
 
  Suppose that a worker in the packing work center has packed all three assembled juicers. To record the completion of the packing operation, do the following: 
@@ -5722,13 +5812,17 @@ Producing Items with Backflushing | **143**
 
 2. In the Summary area, do the following:     a. Make sure that today's date is specified in the **Date** box.     b. In the **Description** box, enter Recording the completion of packing 3 juicers.     c. Clear the **Hold** check box. The system changes the transaction's status to _Balanced_. 
 
+
+<!-- PAGE_BREAK -->
+ Producing Items with Backflushing | 153 
+
 3. On the form toolbar, click **Release**. The system releases the move transaction. 
 
 #### Step 6: Reviewing the Transactions for the Packing Operation 
 
  In this step, you will review the transactions that the system created and released when you released the move transaction for the packing operation. Do the following: 
 
-1. On the _Materials_ (AM300000) form, open the transaction for the materials needed for the packing operation     with the total amount of $11.16 (as shown in the following screenshot). 
+1. On the _Materials_ (AM300000) form, open the transaction for the materials needed for the packing operation     with the total amount of $11.16 (shown in the following screenshot). 
 
 2. Notice that in the **Orig. Batch Nbr.** box, the reference number of the move transaction, which caused the     creation of the material transaction, is displayed. 
 
@@ -5744,10 +5838,6 @@ Producing Items with Backflushing | **143**
 
 - _Operation MFG to Inventory_ for an extended cost of $23.16: The receipt took the cost from the _0020_     operation and applied it to the inventory receipt cost. 
 
-
-<!-- PAGE_BREAK -->
- Producing Items with Backflushing | 151 
-
 - _Operation MFG to Inventory_ for an extended cost of $1447.17: The receipt took the cost from the _0010_     operation and applied it to the inventory receipt cost. 
 
 #### Step 7: Reviewing the Production Order Balance 
@@ -5756,7 +5846,13 @@ Producing Items with Backflushing | **143**
 
 1. On the _Production Order Maintenance_ (AM201500) form, open the production order you created earlier in this     activity. 
 
-2. On the **Totals** tab, review the production order balance aer the completion of the order (shown in the     following screenshot) as follows:     a. Notice that in the **Actual** section, the **Labor** box contains _42.00_ , which is the full labor cost for two        operations.     b. Notice that the **Material** box contains _1403.67_ , which is the full cost of the materials for two operations.     c. Notice that in the **Variance** section, the values in the **Total Variance** and **WIP Balance** boxes are _0.00_. 
+2. On the **Totals** tab, review the production order balance aer the completion of the order (shown in the     following screenshot) as follows:     a. Notice that in the **Actual** section, the **Labor** box contains _42.00_ , which is the full labor cost for two        operations.     b. Notice that the **Material** box contains _1403.67_ , which is the full cost of the materials for two operations. 
+
+
+<!-- PAGE_BREAK -->
+ Producing Items with Backflushing | 154 
+
+ c. Notice that in the Variance section, the values in the Total Variance and WIP Balance boxes are 0.00. 
 
  Figure: Production order balances aer the completion of the order 
 
@@ -5774,7 +5870,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 152 
+ Tracking Scrap and Waste in Production | 155 
 
 ## Tracking Scrap and Waste in Production 
 
@@ -5788,7 +5884,7 @@ Producing Items with Backflushing | **143**
 
  Waste is a loss of materials used in the production process. Shop-floor employees do not need to do specific actions in the system to record waste. The system calculates the cost of waste and applies it to the production order cost if the appropriate settings are specified. 
 
- The system must be configured properly for the processing of scrap and waste, as described in Configuration of Scrap, Waste, and By-Products in Production: General InformationConfiguration of Scrap and Waste in Production: General Information. 
+ The system must be configured properly for the processing of scrap and waste, as described in Configuration of Scrap, Waste, and By-Products in Production: General Information. 
 
  In the following sections, you can find information about item production that includes scrapped items. 
 
@@ -5820,7 +5916,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 153 
+ Tracking Scrap and Waste in Production | 156 
 
 1. You add a line for the operation. In this line, you enter both the labor time and the completed quantity (for a     labor transaction) or only the completed quantity (for a move transaction). 
 
@@ -5854,13 +5950,13 @@ Producing Items with Backflushing | **143**
 
 #### Selection of the Default Values for the Scrap Warehouse and Location 
 
- When the scrap action for an operation of a production order is Quarantine , the system may insert the values of the Scrap Warehouse and Scrap Location boxes of each new production order on the Production Order Maintenance (AM201500) form. The values to be inserted depend on the option selected in the Scrap Source box of the General tab on the Production Order Types (AM201100) form. For details, see Configuration of Scrap, Waste, and By-Products in Production: Scrap QuarantineConfiguration of Scrap and Waste in Production: Scrap Quarantine. 
+ When the scrap action for an operation of a production order is Quarantine , the system may insert the values of the Scrap Warehouse and Scrap Location boxes of each new production order on the Production Order Maintenance (AM201500) form. The values to be inserted depend on the option selected in the Scrap Source box of the General tab on the Production Order Types (AM201100) form. For details, see Configuration of Scrap, Waste, and By-Products in Production: Scrap Quarantine. 
 
  You can override the scrap warehouse or warehouse location for each particular production order on the Production Order Maintenance (AM201500) form as follows: On the General tab, you select the Scrap Override check box, 
 
 
 <!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 154 
+ Tracking Scrap and Waste in Production | 157 
 
  specify the needed warehouse in the Scrap Warehouse box, and specify the needed warehouse location in the Scrap Location box. 
 
@@ -5894,7 +5990,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 155 
+ Tracking Scrap and Waste in Production | 158 
 
  Form Criteria to Check 
 
@@ -5926,11 +6022,11 @@ Producing Items with Backflushing | **143**
 
 #### Other Settings That Affect the Workflow 
 
- If you want the system to regard scrapped items as completed items and mark the operations of a production order as completed when the sum of completed items and scrapped items equals the quantity to produce of the production order, you select the Include Scrap in Completions check box on the Production Preferences (AM102000) form. For more information, see Configuration of Scrap, Waste, and By-Products in Production: General InformationConfiguration of Scrap and Waste in Production: General Information. 
+ If you want the system to regard scrapped items as completed items and mark the operations of a production order as completed when the sum of completed items and scrapped items equals the quantity to produce of the production order, you select the Include Scrap in Completions check box on the Production Preferences (AM102000) form. For more information, see Configuration of Scrap, Waste, and By-Products in Production: General Information. 
 
 
 <!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 156 
+ Tracking Scrap and Waste in Production | 159 
 
 #### Validation of Configuration 
 
@@ -5974,23 +6070,15 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 157 
+ Tracking Scrap and Waste in Production | 160 
 
 6. On the _Production Order Maintenance_ form, review the production order balance aer you have closed the     order. 
 
 #### System Preparation 
 
- Do the following: 
-
-1. Sign in to the system as the production manager by using the _peters_ username and the provided password. 
-
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to today’s date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
-
-#### System Preparation 
-
  Before you start performing the activity, do the following in a company with the U100 dataset preloaded: 
 
-1. As prerequisites to the current activity, perform the _Configuration of Scrap, Waste, and By-Products in_     _Production: Implementation ActivityConfiguration of Scrap and Waste in Production: Implementation Activity_ so     that the system is ready for processing the production of juicers with the recording of scrap. 
+1. As prerequisites to the current activity, perform the _Configuration of Scrap, Waste, and By-Products in_     _Production: Implementation Activity_ so that the system is ready for processing the production of juicers with     the recording of scrap. 
 
 2. Launch the Acumatica ERP website, and sign in to the company. You should sign in as the production     manager by using the _peters_ username and the _123_ password. 
 
@@ -6014,17 +6102,17 @@ Producing Items with Backflushing | **143**
 
  In this step, you will issue the materials for the assembly operation of the production order. Do the following: 
 
-1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form,     on the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Material Wizard 2_     (AM300020) form with the list of materials needed for the assembly operation. 
-
-
-<!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 158 
+1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form, on     the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Select Materials to_     _Release_ (AM300020) form with the list of materials needed for the assembly operation. 
 
 2. On the form toolbar, click **Select All**. The system creates a material transaction and opens it on the _Materials_     (AM300000) form. 
 
 3. In the Summary area, do the following:     a. In the **Description** box, specify Materials for the assembly operation.     b. Clear the **Hold** check box. The system changes the transaction's status to _Balanced_. 
 
 4. On the form toolbar, click **Release**. The system releases the material transaction and changes the status of     the transaction to _Released_. 
+
+
+<!-- PAGE_BREAK -->
+ Tracking Scrap and Waste in Production | 161 
 
 5. Open the _Production Order Maintenance_ form with the production order you created earlier in this activity,     and notice that the status of the production order has changed to _In Process_. 
 
@@ -6034,7 +6122,7 @@ Producing Items with Backflushing | **143**
 
 1. On the _Labor_ (AM301000) form, add a new record. 
 
-2. Add the columns with scrap settings to the table as follows:     a. In the table header, click the Column Configurator icon on the le to open the **Column Configurator**        dialog box.     b. Move the following columns to the **Selected Columns** list: 
+2. Add the columns with scrap settings to the table as follows:     a. In the table header, click the Column Configurator icon on the le to open the Column Configurator        dialog box.     b. Select the check boxes for the following columns: 
 
 - **Scrap Action** 
 
@@ -6062,15 +6150,13 @@ Producing Items with Backflushing | **143**
 
 5. Enter the scrap quantity as follows:     a. In the **Scrap Action** column, select _No Action_.        You need to change the scrap action for the purposes of this activity because for the assembly operation        of the production order, the _Quarantine_ action is specified, which is copied from the work center settings.     b. In the **Qty Scrapped** column, type 1. 
 
-6. In the Summary area, do the following:     a. Make sure that today's date is specified in the **Date** box.     b. In the **Description** box, specify Recording the time for assembly of 3 juicers, the        completed quantity, and the scrapped quantity. 
+6. In the Summary area, do the following:     a. Make sure that today's date is specified in the **Date** box.     b. In the **Description** box, specify Recording the time for assembly of 3 juicers, the        completed quantity, and the scrapped quantity.     c. Clear the **Hold** check box. The system changes the transaction's status to _Balanced_. 
+
+7. On the form toolbar, click **Release**. The system creates and releases a cost transaction to record the labor     costs and releases the labor transaction. 
 
 
 <!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 159 
-
- c. Clear the Hold check box. The system changes the transaction's status to Balanced. 
-
-7. On the form toolbar, click **Release**. The system creates and releases a cost transaction to record the labor     costs and releases the labor transaction. 
+ Tracking Scrap and Waste in Production | 162 
 
 #### Step 4: Reviewing the Production Order Balance 
 
@@ -6104,7 +6190,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 160 
+ Tracking Scrap and Waste in Production | 163 
 
  Figure: The balances of the completed production order 
 
@@ -6132,7 +6218,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 161 
+ Tracking Scrap and Waste in Production | 164 
 
  Figure: The balances of the closed production order 
 
@@ -6154,7 +6240,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 162 
+ Tracking Scrap and Waste in Production | 165 
 
 #### Configuration Overview 
 
@@ -6184,25 +6270,13 @@ Producing Items with Backflushing | **143**
 
 #### System Preparation 
 
- Do the following: 
-
-1. Sign in to the system as the production manager by using the _peters_ username and the provided password. 
-
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to today’s date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
-
-#### System Preparation 
-
  Before you start performing the activity, do the following in a company with the U100 dataset preloaded: 
 
-1. As prerequisites to the current activity, perform the _Configuration of Scrap, Waste, and By-Products in_     _Production: Implementation ActivityConfiguration of Scrap and Waste in Production: Implementation Activity_ so     that the system is ready for processing the production of juicers with the recording of scrap. 
+1. As prerequisites to the current activity, perform the _Configuration of Scrap, Waste, and By-Products in_     _Production: Implementation Activity_ so that the system is ready for processing the production of juicers with     the recording of scrap. 
 
 2. Launch the Acumatica ERP website, and sign in to the company. You should sign in as the production     manager by using the _peters_ username and the _123_ password. 
 
 3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to today’s date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
-
-
-<!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 163 
 
 #### Step 1: Setting Up the Scrapped Quantity to Be Included in the Completed Quantity 
 
@@ -6213,6 +6287,10 @@ Producing Items with Backflushing | **143**
 2. In the **Data Entry Settings** section, select the **Include Scrap in Completions** check box. 
 
 3. On the form toolbar, click **Save**. 
+
+
+<!-- PAGE_BREAK -->
+ Tracking Scrap and Waste in Production | 166 
 
 #### Step 2: Creating the Production Order 
 
@@ -6232,7 +6310,7 @@ Producing Items with Backflushing | **143**
 
  In this step, you will issue the materials for the assembly operation of the production order. Do the following: 
 
-1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form,     on the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Material Wizard 2_     (AM300020) form with the list of materials needed for the assembly operation. 
+1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form, on     the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Select Materials to_     _Release_ (AM300020) form with the list of materials needed for the assembly operation. 
 
 2. On the form toolbar, click **Select All**. The system creates a material transaction and opens it on the _Materials_     (AM300000) form. 
 
@@ -6240,15 +6318,15 @@ Producing Items with Backflushing | **143**
 
 4. On the form toolbar, click **Release**. The system releases the material transaction and changes the status of     the transaction to _Released_. 
 
-
-<!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 164 
-
 5. Open the _Production Order Maintenance_ form with the production order you created earlier in this activity,     and notice that the status of the production order has changed to _In Process_. 
 
 #### Step 4: Releasing a Labor Transaction 
 
  Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting up the working environment for juicer assembly, assembled three juicers for one hour, tested the juicers, and found out that one juicer does not work. This item must be entered as a scrapped item. To record the time spent on juicer assembly, the assembled quantity of juicers, and the scrapped juicer, do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Tracking Scrap and Waste in Production | 167 
 
 1. On the _Labor_ (AM301000) form, add a new record. 
 
@@ -6256,7 +6334,7 @@ Producing Items with Backflushing | **143**
 
 - **Scrap Action** 
 
-- **Qty. is Scrap** If the columns are not displayed, add the columns by using the **Column Configurator** dialog box. 
+- **Qty. is Scrap** If the columns are not displayed, add the columns by using the Column Configurator dialog box. 
 
 3. On the table toolbar, click **Add Row**. 
 
@@ -6310,15 +6388,15 @@ Producing Items with Backflushing | **143**
 
 6. In the Summary area, do the following:     a. Make sure that today's date is specified in the **Date** box.     b. In the **Description** box, specify Recording the time for assembly of 3 juicers, the        completed quantity, and the scrapped quantity.     c. Clear the **Hold** check box. The system changes the transaction's status to _Balanced_. 
 
-
-<!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 165 
-
 7. On the form toolbar, click **Release**. The system creates and releases the cost transaction to record the labor     costs and releases the labor transaction. 
 
 #### Step 5: Reviewing the Production Order Balance 
 
  Now that you have recorded the completion of the assembly operation, you will review the production order balance. To do so, open the production order you created earlier in this activity on the Production Order Maintenance (AM201500) form. 
+
+
+<!-- PAGE_BREAK -->
+ Tracking Scrap and Waste in Production | 168 
 
  In the Summary area, notice that the order status is Completed and that the following values are displayed in the listed boxes: 
 
@@ -6340,10 +6418,6 @@ Producing Items with Backflushing | **143**
 
 1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form, open     the **Events** tab. 
 
-
-<!-- PAGE_BREAK -->
- Tracking Scrap and Waste in Production | 166 
-
 2. In the row with the _WIP Adjustment_ document type, click the link in the **Batch Nbr.** column. The system     opens the _WIP Adjustment_ (AM308000) form in a new window with the WIP adjustment selected. 
 
 3. Notice that the only row contains the following settings: 
@@ -6351,6 +6425,10 @@ Producing Items with Backflushing | **143**
 - The **Cost Adj** column contains the cost of the scrapped item. 
 
 - The **Reason Code** column contains _SCRAP_ , which you specified in the labor transaction. 
+
+
+<!-- PAGE_BREAK -->
+ Tracking Scrap and Waste in Production | 169 
 
 - The **Account** column contains _51600_ , which is the GL account for scrap costs; the system copied the GL     account from the reason code settings. 
 
@@ -6382,7 +6460,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 167 
+ Calculating Costs of Scrapped Items | 170 
 
 ## Calculating Costs of Scrapped Items 
 
@@ -6390,7 +6468,7 @@ Producing Items with Backflushing | **143**
 
 ### Scrap Cost Calculation: General Information 
 
- In Acumatica ERP Manufacturing Edition, the system calculates costs of scrapped items depending on the costing method of each production order and the scrap action specified for the operations of the production order. For more information about the configuration of the tracking of scrapped items, see Configuration of Scrap, Waste, and By-Products in Production: General InformationConfiguration of Scrap and Waste in Production: General Information. 
+ In Acumatica ERP Manufacturing Edition, the system calculates costs of scrapped items depending on the costing method of each production order and the scrap action specified for the operations of the production order. For more information about the configuration of the tracking of scrapped items, see Configuration of Scrap, Waste, and By-Products in Production: General Information. 
 
  In the following sections, you will read about the ways the system calculates cost of scrap. 
 
@@ -6420,7 +6498,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 168 
+ Calculating Costs of Scrapped Items | 171 
 
 #### Scrap Cost for Operations with the No Action Scrap Action 
 
@@ -6454,7 +6532,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 169 
+ Calculating Costs of Scrapped Items | 172 
 
  Suppose that scrap is very rare on this shop floor, so scrapped items are not tracked by a warehouse and the scrap cost is applied to the cost of produced items. 
 
@@ -6502,7 +6580,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 170 
+ Calculating Costs of Scrapped Items | 173 
 
 #### Step 1: Creating the Production Order 
 
@@ -6536,7 +6614,7 @@ Producing Items with Backflushing | **143**
 
  Suppose that you have been informed that the shop-floor worker had to assemble one extra juicer because one of the assembled juicers did not work. Therefore the worker used more materials than it was planned. In this step, you will issue the needed material quantity for the assembly operation of the production order. Do the following: 
 
-1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form,     on the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Material Wizard_     (AM300020) form with the list of materials needed for the assembly operation. 
+1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form,     on the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Select Production_     _Orders_ (AM300020) form with the list of materials needed for the assembly operation. 
 
 2. On the form toolbar, click **Select All**. The system creates the material transaction and opens it on the     _Materials_ (AM300000) form. 
 
@@ -6552,7 +6630,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 171 
+ Calculating Costs of Scrapped Items | 174 
 
 1. On the _Production Order Maintenance_ (AM201500) form, open the production order you created earlier in this     activity. 
 
@@ -6606,7 +6684,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 172 
+ Calculating Costs of Scrapped Items | 175 
 
 - **WIP Total** : _1920.23_ (which is the sum of the actual costs applied to the production order) 
 
@@ -6634,7 +6712,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 173 
+ Calculating Costs of Scrapped Items | 176 
 
 1. On the _Production Order Maintenance_ (AM201500) form, open the production order you created earlier in this     activity. 
 
@@ -6658,7 +6736,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 174 
+ Calculating Costs of Scrapped Items | 177 
 
  Figure: Production order balance aer the completion of the order 
 
@@ -6682,7 +6760,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 175 
+ Calculating Costs of Scrapped Items | 178 
 
 #### Story 
 
@@ -6726,7 +6804,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 176 
+ Calculating Costs of Scrapped Items | 179 
 
 2. Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activities have     been performed. You should sign in as the production manager by using the _peters_ username and the _123_     password. 
 
@@ -6772,13 +6850,13 @@ Producing Items with Backflushing | **143**
 
  Suppose that you have been informed that the shop-floor worker had to assemble one extra juicer because one of the assembled juicers did not work. Therefore the worker used more materials than it was planned. In this step, you will issue the needed material quantity for the assembly operation of the production order. Do the following: 
 
-1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form,     on the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Material Wizard_     (AM300020) form with the list of materials needed for the assembly operation. 
+1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form,     on the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Select Production_     _Orders_ (AM300020) form with the list of materials needed for the assembly operation. 
 
 2. On the form toolbar, click **Select All**. The system creates the material transaction and opens it on the     _Materials_ (AM300000) form. 
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 177 
+ Calculating Costs of Scrapped Items | 180 
 
 3. In the **Quantity** column of each material line, specify 4. Notice that the system displays the warning that     you are going to issue more materials than it is needed to produce the planned item quantity. 
 
@@ -6820,7 +6898,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 178 
+ Calculating Costs of Scrapped Items | 181 
 
 2. On the **Totals** tab, review the production order balance as follows (see the screenshot below): 
 
@@ -6860,7 +6938,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 179 
+ Calculating Costs of Scrapped Items | 182 
 
  Figure: Production order balance aer the completion of the order 
 
@@ -6878,7 +6956,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 180 
+ Calculating Costs of Scrapped Items | 183 
 
  Figure: GL transaction for writing off the scrap cost 
 
@@ -6908,7 +6986,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 181 
+ Calculating Costs of Scrapped Items | 184 
 
  the dedicated warehouse location for quarantined scrap. According to the system settings, the cost of the scrapped item will be moved to a specific GL account. 
 
@@ -6956,7 +7034,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 182 
+ Calculating Costs of Scrapped Items | 185 
 
 #### Step 1: Setting Up the Scrapped Quantity to Be Included in the Completed Quantity 
 
@@ -7008,11 +7086,11 @@ Producing Items with Backflushing | **143**
 
  In this step, you will issue the materials for the assembly operation of the production order. Do the following: 
 
-1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form,     on the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Material Wizard_     (AM300020) form with the list of materials needed for the assembly operation. 
+1. While you are still viewing the production order on the _Production Order Maintenance_ (AM201500) form,     on the More menu (under **Transactions** ), click **Release Materials**. The system opens the _Select Production_     _Orders_ (AM300020) form with the list of materials needed for the assembly operation. 
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 183 
+ Calculating Costs of Scrapped Items | 186 
 
 2. On the form toolbar, click **Select All**. The system creates the material transaction and opens it on the     _Materials_ (AM300000) form. 
 
@@ -7078,7 +7156,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 184 
+ Calculating Costs of Scrapped Items | 187 
 
  b. In the Description box, specify Recording the time for assembly of 3 juicers, the completed quantity, and the scrapped quantity. c. Clear the Hold check box. The system changes the transaction's status to Balanced. 
 
@@ -7112,7 +7190,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 185 
+ Calculating Costs of Scrapped Items | 188 
 
  Figure: Production order balance aer the completion of the order 
 
@@ -7130,7 +7208,7 @@ Producing Items with Backflushing | **143**
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 186 
+ Calculating Costs of Scrapped Items | 189 
 
  Figure: GL transaction for writing off the scrap cost 
 
@@ -7150,7 +7228,7 @@ d. On the **Details** tab, make sure that the _12100 Inventory Asset_ account wa
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 187 
+ Calculating Costs of Scrapped Items | 190 
 
 #### Step 6: Closing the Production Order 
 
@@ -7194,7 +7272,7 @@ d. On the **Details** tab, make sure that the _12100 Inventory Asset_ account wa
 
 
 <!-- PAGE_BREAK -->
- Calculating Costs of Scrapped Items | 188 
+ Calculating Costs of Scrapped Items | 191 
 
 For the movement of the scrap cost, the system generates a batch of the general ledger transactions shown in the following table. 
 
@@ -7248,7 +7326,7 @@ You can view the reference number of the GL batch on the **Financial** tab of th
 
 
 <!-- PAGE_BREAK -->
- Production Management | 189 
+ Production Management | 192 
 
 ## Production Management 
 
@@ -7300,7 +7378,7 @@ You can view the reference number of the GL batch on the **Financial** tab of th
 
 
 <!-- PAGE_BREAK -->
- Production Management | 190 
+ Production Management | 193 
 
 - Move and material transactions are not required and the forms do not allow the selection of disassemble     production orders. 
 
@@ -7354,7 +7432,7 @@ You can view the reference number of the GL batch on the **Financial** tab of th
 
 
 <!-- PAGE_BREAK -->
- Production Management | 191 
+ Production Management | 194 
 
 #### Create a Repair/Rework Bill of Material 
 
@@ -7380,7 +7458,7 @@ You can view the reference number of the GL batch on the **Financial** tab of th
 
  Alternatively, you can remove the BOM ID on the References tab of the Production Order Maintenance (AM201500) form. If you do this, you will need to create at least one operation in order to report the quantity completed and issue materials. The first material to add is the inventory item to issue to the production order which can be the same as the item being reworked. 
 
- If known if advance, you can add other materials to the details or simply issue them as needed during the rework process; there is no restriction on materials being issued that are not in the production details. If some materials are recoverable and are known in advance, make the quantity required a negative and a receipt will be created to return the item to inventory when you use the Material Wizard (opened from the Materials (AM300000) form) to create a materials batch. 
+ If known if advance, you can add other materials to the details or simply issue them as needed during the rework process; there is no restriction on materials being issued that are not in the production details. If some materials are recoverable and are known in advance, make the quantity required a negative and a receipt will be created to return the item to inventory when you use the Select Production Orders (opened from the Materials (AM300000) form) to create a materials batch. 
 
  Whether or not you use an existing bill of material or manually enter the production details you will need to add the item being issued from inventory for repair and this can be the same item you will return to stock or dispose. Although you cannot specify an inventory item as a component of itself in a bill of material because it would cause a circular reference in MRP Regeneration or the Cost Roll process, you can do this for a production order. 
 
@@ -7392,7 +7470,7 @@ You can view the reference number of the GL batch on the **Financial** tab of th
 
 
 <!-- PAGE_BREAK -->
- Production Management | 192 
+ Production Management | 195 
 
  repair, return to vendor, etc.), you should indicate a warehouse bin location that is not included in the quantity available calculations and excluded from MRP. 
 
@@ -7400,7 +7478,7 @@ You can view the reference number of the GL batch on the **Financial** tab of th
 
 #### Returning Materials to Vendors 
 
- Aer returning the item to stock, you use the Purchase Receipts (PO302000) form to create a vendor return. For more information about vendor returns, see Purchase Returns at the Original CostPurchase Returns: General Information and Purchase Returns at the Calculated Cost: General Information. 
+ Aer returning the item to stock, you use the Purchase Receipts (PO302000) form to create a vendor return. For more information about vendor returns, see Purchase Returns at the Original Cost: General Information and Purchase Returns at the Calculated Cost: General Information. 
 
 #### Posting the Completion or Disposal 
 
@@ -7436,7 +7514,7 @@ You can view the reference number of the GL batch on the **Financial** tab of th
 
 
 <!-- PAGE_BREAK -->
- Production Management | 193 
+ Production Management | 196 
 
 5. If the inventory item is serialized, you must enter each serial number on a separate line. 
 
@@ -7478,7 +7556,7 @@ You can view the reference number of the GL batch on the **Financial** tab of th
 
  If you are looking for all unreleased transactions, you can add a second line to the report filter Or AMBatchStatus = Balanced. 
 
-- Use the _Transactions by Production Order_ (AM000011) report to find the all of the unreleased batches. 
+- Use the _Transactions By Production Order_ (AM000011) report to find the all of the unreleased batches. 
 
 #### Close Production Orders 
 
@@ -7486,13 +7564,13 @@ You can view the reference number of the GL batch on the **Financial** tab of th
 
 
 <!-- PAGE_BREAK -->
- Production Management | 194 
+ Production Management | 197 
 
 Transactions posted to production orders aer they have been completed do not update the cost statistics for the item produced. If the received costs must be updated you may be able to reverse the move or labor transaction, post the missing transactions, and do the move labor transactions if the item produced still has a sufficient hand balance. 
 
 
 <!-- PAGE_BREAK -->
- Inventory Planning with MRP | 195 
+ Inventory Planning with MRP | 198 
 
 ## Inventory Planning with MRP 
 
@@ -7538,7 +7616,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Inventory Planning with MRP | 196 
+ Inventory Planning with MRP | 199 
 
 6. Create the required documents (such as production orders, purchase orders, or transfer orders) by using the     same form. 
 
@@ -7548,7 +7626,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Inventory Planning with MRP | 197 
+ Inventory Planning with MRP | 200 
 
 #### Inventory Planning Exception Analysis 
 
@@ -7584,7 +7662,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Inventory Planning with MRP | 198 
+ Inventory Planning with MRP | 201 
 
 #### Data Used in Inventory Planning 
 
@@ -7636,7 +7714,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Inventory Planning with MRP | 199 
+ Inventory Planning with MRP | 202 
 
  subassembly, which also should be produced, the system then analyzes its components and assigns them the 2 code. This procedure is repeated until the lowest level of components is reached. 
 
@@ -7680,7 +7758,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Inventory Planning with MRP | 200 
+ Inventory Planning with MRP | 203 
 
 - Reduces the forecasted quantity by the quantity of items in sales orders 
 
@@ -7712,7 +7790,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Inventory Planning with MRP | 201 
+ Inventory Planning with MRP | 204 
 
  Now suppose that one of your customers would like to buy 10 juicers for its new restaurants. A sales manager has created a sales order for the juicers. Further suppose that you have three juicers in the New York warehouse and five juicers in the Ohio warehouse. To meet the customer's demand, you need to produce two juicers, but the materials are out of stock in the Ohio warehouse and must be transferred from the New Jersey warehouse. 
 
@@ -7748,7 +7826,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Inventory Planning with MRP | 202 
+ Inventory Planning with MRP | 205 
 
  Form Criteria to Check 
 
@@ -7786,7 +7864,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Inventory Planning with MRP | 203 
+ Inventory Planning with MRP | 206 
 
 - **Consolidate Aer (Days)** : The delay period aer which the system starts consolidating items in demand     documents 
 
@@ -7832,19 +7910,11 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Inventory Planning with MRP | 204 
+ Inventory Planning with MRP | 207 
 
 6. On the _Sales Orders_ form, change the requested date for the juicers to be shipped to the customer; on     the _Purchase Orders_ (PO301000) form, change the promised date to an earlier date to meet the date the     customer wanted the juicers to be shipped; on the _Production Order Maintenance_ (AM201500) form, change     the production end date (at which the juicers will be ready for shipping). 
 
 7. On the _Regenerate Inventory Planning_ form, rerun inventory planning, and on the _Inventory Planning_     _Exceptions_ form, make sure that no exception messages are listed. 
-
-#### System Preparation 
-
- Do the following: 
-
-1. Sign in to the system as the production manager by using the _peters_ username and the provided password. 
-
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to today’s date. For simplicity, in this activity, you will create and process     all documents in the system on this business date. 
 
 #### System Preparation 
 
@@ -7884,15 +7954,17 @@ Transactions posted to production orders aer they have been completed do not 
 
  To create a production order from the sales order, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Inventory Planning with MRP | 205 
-
 1. While you are still viewing the sales order on the _Sales Orders_ (SO301000) form, on the More menu (under     **Manufacturing** ), click **Create Production Orders**. 
 
  You open the More menu by clicking the More button (…) on the form toolbar. 
 
-2. In the **Production Orders** dialog box, which opens, select the unlabeled check box in the only row, and click     **Create**. The system creates the production order and closes the dialog box.     On the **Details** tab, notice that the system has added the reference number of the production order in the     **Production Nbr.** column for the only line. 
+2. In the **Production Orders** dialog box, which opens, select the unlabeled check box in the only row, and click     **Create**. The system creates the production order and closes the dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Inventory Planning with MRP | 208 
+
+ On the Details tab, notice that the system has added the reference number of the production order in the Production Nbr. column for the only line. 
 
 3. Click the link in the **Production Nbr.** column. The system opens the production order on the _Production_     _Order Maintenance_ (AM201500) form.     On the **General** tab, notice that today's date plus 1 day is specified in the **Due Date** box. 
 
@@ -7916,7 +7988,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 2. Select the unlabeled check box in each of the five rows. 
 
-3. On the form toolbar, click **Purchase** to create a purchase order for the components. 
+3. On the form toolbar, click **Purchase** on the More menu to create a purchase order for the components. 
 
 4. In the **Create Purchase Order** dialog box, which opens, make sure that the _JALOOZA_ vendor is selected in     the **Vendor** box and all five components are listed in the table. 
 
@@ -7932,13 +8004,13 @@ Transactions posted to production orders aer they have been completed do not 
 
 1. Open the _Regenerate Inventory Planning_ (AM505000) form. 
 
-
-<!-- PAGE_BREAK -->
- Inventory Planning with MRP | 206 
-
 2. On the form toolbar, click **Process** and wait until the system completes processing. 
 
 3. Open the _Inventory Planning Exceptions_ (AM403000) form.     Notice that the _Expedite_ messages for the component lines from the purchase order have appeared in the     list. This means that to satisfy the demand, you need to negotiate an earlier delivery date with the vendor or     a later shipping date with the customer (or both). 
+
+
+<!-- PAGE_BREAK -->
+ Inventory Planning with MRP | 209 
 
 #### Step 6: Changing the Dates in the Documents 
 
@@ -7978,13 +8050,13 @@ Transactions posted to production orders aer they have been completed do not 
 
  To view the list of supply and demand documents that include a specific stock item in a specific warehouse, you can use the Inventory Planning Results by Item (AM404000) form. On this form, the system displays only the documents that have been created during the last inventory planning regeneration process. 
 
-
-<!-- PAGE_BREAK -->
- Inventory Planning with MRP | 207 
-
 #### Viewing the List of MPS Orders 
 
  To view the list of orders generated by the master production schedule (MPS) for all stock items of for a particular item-warehouse pair, you can use the MPS Listing (AM000004) form. 
+
+
+<!-- PAGE_BREAK -->
+ Inventory Planning with MRP | 210 
 
 #### Viewing Generated Forecasts 
 
@@ -8012,15 +8084,15 @@ Transactions posted to production orders aer they have been completed do not 
 
  Forecasts Forecasts are processed when each level is processed. Therefore, if the forecast is dependent, all requirements may consume the forecast. This allows the user to not only forecast at the sales order level, but also forecast at lower levels. 
 
-
-<!-- PAGE_BREAK -->
- Inventory Planning with MRP | 208 
-
- Step Description 
-
  Adjust Quantities The next step is to reconcile existing supplies with existing demands at each level. If we have a sales order for 100 units and a production order that is making 100 units in time, then MRP does not have to plan anything for that sales order. 
 
  The key to this routine is that to remember MRP is extremely date sensitive. In other words, in the above example, if that production order was not going to make those units for another 60 days then MRP does need to plan something else for that sales order so that it ships in time. MRP uses the Grace Period value on the Inventory Planning Preferences (AM100000) form to determine if that supply can be used for the current demand. 
+
+
+<!-- PAGE_BREAK -->
+ Inventory Planning with MRP | 211 
+
+ Step Description 
 
  Blowdown Once all the existing data is reconciled, the blowdown routine will now plan MRP orders. This routine is looking at all demand items that are not being supplied in time for the level being processed. These are being planned out. If a Reorder Qty. is set for an Inventory Item, MRP will plan its orders in multiples of that reorder quantity. If the item is a manufactured item, MRP will explode through its bill of material and create more requirements for its materials that will be processed at a lower level. 
 
@@ -8048,12 +8120,6 @@ Transactions posted to production orders aer they have been completed do not 
 
 - Manufacturing transactions 
 
-
-<!-- PAGE_BREAK -->
- Inventory Planning with MRP | 209 
-
- Procedure Form Description 
-
  Update promise dates Having unrealistic promise dates impacts the planned order recommendations. 
 
 - Sales orders 
@@ -8065,6 +8131,12 @@ Transactions posted to production orders aer they have been completed do not 
  Run MRP regeneration Regenerate Inventory Planning (AM505000) 
 
  This process should be run before the next business day in most cases. It can be run at any time, but typically it is scheduled to be run at a fixed time before each business day. 
+
+
+<!-- PAGE_BREAK -->
+ Inventory Planning with MRP | 212 
+
+ Procedure Form Description 
 
  Review exception messages Inventory Planning Exceptions (AM403000) 
 
@@ -8108,7 +8180,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Other Manufacturing Functionality | 210 
+ Other Manufacturing Functionality | 213 
 
 ## Other Manufacturing Functionality 
 
@@ -8148,7 +8220,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Other Manufacturing Functionality | 211 
+ Other Manufacturing Functionality | 214 
 
 - Scan moves on the _Scan Move_ (AM302010) form 
 
@@ -8190,7 +8262,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Other Manufacturing Functionality | 212 
+ Other Manufacturing Functionality | 215 
 
 #### Required Data 
 
@@ -8238,7 +8310,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Other Manufacturing Functionality | 213 
+ Other Manufacturing Functionality | 216 
 
  Form Element Value 
 
@@ -8276,7 +8348,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Other Manufacturing Functionality | 214 
+ Other Manufacturing Functionality | 217 
 
 #### Effective Start Date 
 
@@ -8294,7 +8366,7 @@ Transactions posted to production orders aer they have been completed do not 
 
  In the following table, you can find the fields that must be filled on import. 
 
- Target Object Field / Action Name 
+ Target Object Field or Action 
 
  BOM Summary BOM ID 
 
@@ -8328,9 +8400,9 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Other Manufacturing Functionality | 215 
+ Other Manufacturing Functionality | 218 
 
- Target Object Field / Action Name 
+ Target Object Field or Action 
 
  Materials Subitem (only if enabled) 
 
@@ -8350,7 +8422,7 @@ Transactions posted to production orders aer they have been completed do not 
 
  For these fields you can only leave blank if you make them inactive in the import scenario and they will be defaulted. 
 
- Target Object Field / Action Name Default 
+ Target Object Field or Action Default 
 
  Operations Setup Time 0 (zero) 
 
@@ -8378,7 +8450,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Other Manufacturing Functionality | 216 
+ Other Manufacturing Functionality | 219 
 
 - Both the project and task must have a status of _Active_ to process production transactions. 
 
@@ -8432,7 +8504,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Other Manufacturing Functionality | 217 
+ Other Manufacturing Functionality | 220 
 
  numbers and costing methods. If you do this, you could also clear the default order type on the Production Preferences (AM102000) form to force the users to choose the correct order type. 
 
@@ -8474,7 +8546,7 @@ Transactions posted to production orders aer they have been completed do not 
 
 
 <!-- PAGE_BREAK -->
- Other Manufacturing Functionality | 218 
+ Other Manufacturing Functionality | 221 
 
  Code Label 
 
@@ -8528,7 +8600,7 @@ Transactions types listed in the following table can be used to further select t
 
 
 <!-- PAGE_BREAK -->
- Other Manufacturing Functionality | 219 
+ Other Manufacturing Functionality | 222 
 
 #### Production Management 
 
@@ -8584,7 +8656,7 @@ Transactions types listed in the following table can be used to further select t
 
 
 <!-- PAGE_BREAK -->
- Other Manufacturing Functionality | 220 
+ Other Manufacturing Functionality | 223 
 
  DAC Description Columns to Use for Joins 
 
@@ -8650,7 +8722,7 @@ Transactions types listed in the following table can be used to further select t
 
 
 <!-- PAGE_BREAK -->
- Other Manufacturing Functionality | 221 
+ Other Manufacturing Functionality | 224 
 
 #### Product Configurator Results 
 
@@ -8712,7 +8784,7 @@ Transactions types listed in the following table can be used to further select t
 
 
 <!-- PAGE_BREAK -->
- Other Manufacturing Functionality | 222 
+ Other Manufacturing Functionality | 225 
 
 **DAC Description Columns to Use for Joins** 
 
@@ -8772,7 +8844,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Other Manufacturing Functionality | 223 
+ Other Manufacturing Functionality | 226 
 
  DAC Description Columns to Use for Joins 
 
@@ -8794,7 +8866,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 224 
+ Estimating | 227 
 
 ## Estimating 
 
@@ -8848,7 +8920,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 225 
+ Estimating | 228 
 
 #### Cost Levels and Calculations 
 
@@ -8902,7 +8974,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 226 
+ Estimating | 229 
 
 #### Estimating Configuration Check List 
 
@@ -8942,7 +9014,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 227 
+ Estimating | 230 
 
 #### System Preparation 
 
@@ -9012,7 +9084,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 228 
+ Estimating | 231 
 
 - **Update Price Info** : Selected 
 
@@ -9072,7 +9144,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 229 
+ Estimating | 232 
 
 - In the **UOM** box of the **Order Qty** section, _EA_ has been selected. 
 
@@ -9144,7 +9216,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 230 
+ Estimating | 233 
 
 1. On the _Estimate_ (AM303000) form, open the estimate you created earlier in this activity. 
 
@@ -9192,7 +9264,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 231 
+ Estimating | 234 
 
 5. Close the _Production Order Maintenance_ form. 
 
@@ -9234,7 +9306,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 232 
+ Estimating | 235 
 
  For each price break, you can specify the following settings: 
 
@@ -9290,7 +9362,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 233 
+ Estimating | 236 
 
 - Estimates can be converted to standard sales order lines. 
 
@@ -9350,7 +9422,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 234 
+ Estimating | 237 
 
 ### Estimating: Implementation Checklist 
 
@@ -9386,7 +9458,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 235 
+ Estimating | 238 
 
 ### Estimating: Implementation Activity 
 
@@ -9446,7 +9518,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 236 
+ Estimating | 239 
 
 1. Open the _Estimate Preferences_ (AM103000) form. 
 
@@ -9510,7 +9582,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 237 
+ Estimating | 240 
 
  To open the form for creating a new record, type the form ID in the Search box, and on the Search form, point at the form title and click New right of the title. 
 
@@ -9582,7 +9654,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 238 
+ Estimating | 241 
 
 6. On the **Overhead** tab, click **Add Row**. 
 
@@ -9638,7 +9710,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 239 
+ Estimating | 242 
 
 2. On the More menu, click **Create Production Order**. 
 
@@ -9680,7 +9752,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Estimating | 240 
+ Estimating | 243 
 
  quantities. This ensures that customers will receive discounts for larger orders while the company still meets its margin requirements. 
 
@@ -9710,7 +9782,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 241 
+ Product Configurator | 244 
 
 ## Product Configurator 
 
@@ -9754,7 +9826,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 242 
+ Product Configurator | 245 
 
  Figure: Relationships between features and options 
 
@@ -9784,7 +9856,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 243 
+ Product Configurator | 246 
 
 #### Configuration Keys 
 
@@ -9828,7 +9900,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 244 
+ Product Configurator | 247 
 
 #### Labels 
 
@@ -9856,7 +9928,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 245 
+ Product Configurator | 248 
 
 #### Cost 
 
@@ -9900,7 +9972,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 246 
+ Product Configurator | 249 
 
  You can use this rule with the same feature, for example, to make Option A2 unavailable when Option A1 is selected. 
 
@@ -9938,7 +10010,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 247 
+ Product Configurator | 250 
 
  Rule Condition Value 1 Target Feature Target Option Include Equals ='R' Feature B B2 
 
@@ -9992,7 +10064,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 248 
+ Product Configurator | 251 
 
 #### Order of Rules 
 
@@ -10022,7 +10094,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 249 
+ Product Configurator | 252 
 
 ### Product Configurator: Managing Configurations 
 
@@ -10064,13 +10136,17 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 250 
+ Product Configurator | 253 
 
 #### Copying Sales Documents with Configured Items 
 
- Additional columns have been added to the Details tab of the Sales Orders (SO301000) form to display information about configurable items. These include a column to identify if an item is configurable and if the configuration is complete and columns to link any supplemental items to their parent configured items. In the latter case, if you delete the line for a configured item, the supplemental items are deleted also; deletion of a supplemental item is disabled. 
+ Additional columns have been added to the Details tab of the Sales Orders (SO301000) form and the Sales Quotes (CR304500) form to display information about configurable items. These include a column to identify if an item is configurable and if the configuration is complete and columns to link any supplemental items to their parent configured items. In the latter case, if you delete the line for a configured item, the supplemental items are also deleted; deletion of a supplemental item is disabled. 
 
  When you copy a sales order with configurable items by using the Copy Order command on the More menu of the Sales Orders form, you select the Copy Configurations check box in the Copy To dialog box that opens. The system will copy configuration and any supplemental items appropriately and you can configure the copied lines. 
+
+ You can copy a sales quote by using the Copy Quote command on the More menu of the Sales Quotes form. Item configurations will be copied to the new quote. 
+
+ When you copy a sales document with a configured item, the system uses in the new document the active configuration currently specified for that item on the Stock Items (IN202500) form. It copies configuration data (the previously selected options) from the original document only for the features whose feature ID and label match the current configuration. 
 
 ### Product Configurator: Supplemental Items 
 
@@ -10094,11 +10170,13 @@ AMShift Shis for a work center WCID, ShiID
 
 - Accessories such as power cords, cables, installation CD's, and manuals for equipment that are included     with the configured item. 
 
-- Miscellaneous charges for rush orders, extra fees for services, or packaging and shipping charges. You indicate supplemental items on the _Configuration Maintenance_ (AM207500) form by selecting the material type for an option of a feature. Since supplemental items will not be components on a production order, the operation number is not required. All other capabilities such as calculation of the quantity required and rules are available. 
+- Miscellaneous charges for rush orders, extra fees for services, or packaging and shipping charges. 
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 251 
+ Product Configurator | 254 
+
+ You indicate supplemental items on the Configuration Maintenance (AM207500) form by selecting the material type for an option of a feature. Since supplemental items will not be components on a production order, the operation number is not required. All other capabilities such as calculation of the quantity required and rules are available. 
 
 ### Product Configurator: Implementation Checklist 
 
@@ -10132,13 +10210,13 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 252 
+ Product Configurator | 255 
 
  No. Task Description 
 
  8 Build and test the configuration You use the Configuration Maintenance (AM207500) from to define configurations. You add features, modify the list of options as required, add attributes, pricing rules, and add rules. Once built, you can test the configuration directly from the form. When your satisfied, you make the configuration and its revision active and add the configuration ID on the Stock Items and Item Warehouse Details forms. 
 
- 10 Configure the Order Types You must select the Allow Configuration Entry and Allow Production Orders check boxes for a sales order type on the Order Types (SO201000) form for which you will use the product configurator and create production orders. For information on printing the configuration options selected on sales order forms, see Product Configurator: Adding Configuration Data to Forms. 
+ 10 Configure the Order Types You must select the Allow Configuration Entry and Enable Linking to Production Orders check boxes and specify sales order statuses that permit linking to production in the Linkable Sales Order Statuses list on the Order Types (SO201000) form for a sales order type for which you will use the product configurator and create production orders. For information on printing the configuration options selected on sales order forms, see Product Configurator: Adding Configuration Data to Forms. 
 
  11 Configure the CRM Preferences On the Customer Management Preferences (CR101000) form, select the Allow Configuration Entry check box for opportunities. 
 
@@ -10152,7 +10230,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 253 
+ Product Configurator | 256 
 
  Figure: Relations between production orders and other entities and documents 
 
@@ -10178,7 +10256,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 254 
+ Product Configurator | 257 
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _SalesDemo_ dataset preloaded. You     should sign in as the system administrator with the _admin_ username and the password for this user valid for     your instance. 
 
@@ -10234,7 +10312,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 255 
+ Product Configurator | 258 
 
  Rule Source Option Target Feature Target Option 
 
@@ -10292,7 +10370,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 256 
+ Product Configurator | 259 
 
  Rule Condition Value 1 Value 2 
 
@@ -10324,7 +10402,7 @@ AMShift Shis for a work center WCID, ShiID
 
 1. While you are still viewing the configuration on the _Configuration Maintenance_ (AM207500) form, on the form     toolbar, click **Test Configuration**. 
 
-2. On the _Configuration Entry_ (AM306000) form, which opens in the popup window, do the following:     a. In the Features pane, click _JAMBS_.     b. On the **Options** tab, select the check box in the **Included** column for the row with the _FJ Pine 115x30_        _Arkline_ option. The system displays this option under the _JAMB_ feature in the Features pane.     c. Notice that the system added the _FJ Pine Ex 75x25 Profiled_ option under the _ARCHITRAVE_ feature because        of the _Include_ rule you added for the _JAMB_ feature and the _FJ Pine 115x30 Arkline_ option.     d. Notice that the system also added the _AMDOORHDE1_ option under the _HARDWARE_ feature according to        the rule you added for the _ARCHITRAVE_ feature and the _FJ Pine Ex 75x25 Profiled_ option.     e. In the Features pane, click _DOORS_.     f. On the **Options** tab, select the check box in the **Included** column for the row with the _Horizon SQ10 1980_        _x 760_ option. The system displays this option under the _DOORS_ feature on the Features pane.     g. On the **Attributes** tab, view the warning message displayed for the _Jamb thickness_ attribute. According        to the rule for this attribute, its value must be between 1.25 and 3 but the value of the attribute is _5_.     h. Change the value of the attribute to 3. Notice that the warning message has disappeared.     j. On the form toolbar, click **Finish** to indicate that you finished testing, and close the form. 
+2. On the _Configuration Entry_ (AM306000) form, which opens in the popup window, do the following:     a. In the Features pane on the **Options** tab, click _JAMBS_.     b. In the right pane, select the check box in the **Included** column for the row with the _FJ Pine 115x30 Arkline_        option. The system displays this option under the _JAMB_ feature in the Features pane.     c. Notice that the system added the _FJ Pine Ex 75x25 Profiled_ option under the _ARCHITRAVE_ feature because        of the _Include_ rule you added for the _JAMB_ feature and the _FJ Pine 115x30 Arkline_ option.     d. Notice that the system also added the _AMDOORHDE1_ option under the _HARDWARE_ feature according to        the rule you added for the _ARCHITRAVE_ feature and the _FJ Pine Ex 75x25 Profiled_ option.     e. In the Features pane, click _DOORS_.     f. In the right pane, select the check box in the **Included** column for the row with the _Horizon SQ10 1980 x_        _760_ option. The system displays this option under the _DOORS_ feature on the Features pane.     g. On the **Attributes** tab, view the warning message displayed for the _Jamb thickness_ attribute. According        to the rule for this attribute, its value must be between 1.25 and 3 but the value of the attribute is _5_.     h. Change the value of the attribute to 3. Notice that the warning message has disappeared.     j. On the form toolbar, click **Finish** to indicate that you finished testing, and close the form. 
 
  You have successfully implemented the product configuration. 
 
@@ -10334,7 +10412,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 257 
+ Product Configurator | 260 
 
 #### Process Overview 
 
@@ -10364,13 +10442,13 @@ AMShift Shis for a work center WCID, ShiID
 
 1. Open the _Order Types (SO2010PL)_ form and click _SO_ in the **Order Type** column.     The _SO_ order type opens on the _Order Types_ (SO201000) form. 
 
-2. Notice that in the **Manufacturing Settings** section of the **General** tab, the following check boxes are     selected: 
+2. In the **Manufacturing Settings** section of the **General** tab, notice the following settings: 
 
-- **Allow Production Orders - Approved** 
+- **Allow Configuration Entry** : Selected 
 
-- **Allow Production Orders - Hold** 
+- **Enable Linking to Production Orders** : Selected 
 
-- **Allow Configuration Entry** This means that you can assign production orders to sales orders of this type and add configurable items to the orders. 
+- **Linkable Sales Order Statuses** : _Open_ , _On Hold_ , _Pending Approval_ , _Pending Processing_ , _Awaiting_     _Payment_ , _Credit Hold_ , and _Back Order_ This means that you can link production orders to sales orders of this type and add configurable items to the orders. 
 
 #### Step 2: Creating a Sales Order 
 
@@ -10382,7 +10460,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 258 
+ Product Configurator | 261 
 
 2. In the Summary area, specify the following: 
 
@@ -10408,7 +10486,7 @@ AMShift Shis for a work center WCID, ShiID
 
 5. On the form toolbar, click **Save**. 
 
-6. On the table toolbar, click **Configure**. The system opens the _Configuration Entry_ (AM306000) form in a popup     window and displays a list of features for the _AMDOORDH01_ item in the Features pane. 
+6. On the table toolbar, click **Configure**. The system opens the _Configuration Entry_ (AM306000) form in a popup     window and displays a list of features for the _AMDOORDH01_ item in the Features pane on the **Options** tab. 
 
 7. Select an option for the _JAMB_ feature as follows:     a. In the Features pane, click _JAMB_.     b. On the **Options** tab, select the check box in the **Included** column of the _FJ Pine 40x10 19 Single BevelF_        row. 
 
@@ -10430,7 +10508,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 259 
+ Product Configurator | 262 
 
 4. In the Operations table, click through operation rows from _0010_ to _0040_ , and for each row, make sure that     the options you selected in Step 2 have been added as materials on the **Materials** tab in the lower part of     the form. 
 
@@ -10476,7 +10554,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Product Configurator | 260 
+ Product Configurator | 263 
 
 ### Product Configurator: Pricing and Cost 
 
@@ -10512,7 +10590,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 261 
+ Advanced Planning and Scheduling | 264 
 
 ## Advanced Planning and Scheduling 
 
@@ -10558,7 +10636,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 262 
+ Advanced Planning and Scheduling | 265 
 
 #### Maintenance Process 
 
@@ -10606,7 +10684,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 263 
+ Advanced Planning and Scheduling | 266 
 
  Each work center can have multiple shis and each shi has a working calendar. You specify a working calendar for each shi of a work center in the Calendar ID column on the Shis tab of the Work Centers (AM207000) form. 
 
@@ -10646,7 +10724,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 264 
+ Advanced Planning and Scheduling | 267 
 
  You specify the constraint date on the General tab of the Production Order Maintenance (AM201500) form. 
 
@@ -10692,7 +10770,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 265 
+ Advanced Planning and Scheduling | 268 
 
  the next operation. This may not be desirable when the next operation must be started immediately aer completion of the previous operation. 
 
@@ -10742,7 +10820,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 266 
+ Advanced Planning and Scheduling | 269 
 
 1. If a default vendor is assigned, the purchase lead time is used to evaluate if supply can be provided by the     current scheduled operation start date. If supply cannot be received on time, the production operation is     rescheduled based on the expected lead time. 
 
@@ -10780,7 +10858,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 267 
+ Advanced Planning and Scheduling | 270 
 
  Time column of the operation row. The system extends the operation's lead time and the production order's lead time by the queue time. 
 
@@ -10816,7 +10894,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 268 
+ Advanced Planning and Scheduling | 271 
 
 - In the **Calendar ID** column on the **Shis** tab, you specify the work calendar the system will use for     calculating lead times for operations performed in this work center. 
 
@@ -10854,7 +10932,7 @@ AMShift Shis for a work center WCID, ShiID
 
 
 <!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 269 
+ Advanced Planning and Scheduling | 272 
 
  of one day is specified for the last operation. When the system schedules the production order, it keeps January 5 as the start date of the production order and changes the finish date to January 7 to account for the move time. 
 
@@ -10868,121 +10946,113 @@ AMShift Shis for a work center WCID, ShiID
 
 #### Parts of the Schedule Board 
 
- The schedule board consists of the following parts, whose numbers correspond to those in the screenshot below: 
+ The schedule board consists of the following parts: 
 
-1. The form toolbar. For descriptions of these buttons, see _Production Schedule Board_. 
+- The le pane, which has the **Unscheduled** and **Scheduled** tabs that list production orders that require     scheduling and scheduled production orders, respectively. 
 
-2. The Selection area. The elements in this area are described in _Production Schedule Board_. 
+- The right pane, which contains the Gantt chart with details about the operations of each production order,     and the **Work Centers** and **Machines** charts with lists of all work centers and machines, showing histograms     with details about the available and scheduled capacity for each work center and machine. 
 
-3. The upper pane, which has the **Production Orders** tab. The tab displays the list of production orders that     meet the selection criteria, and the Gantt chart for each production order. For details, see the _Production_     _Orders Tab (Upper Pane)_ section below. 
+#### Capabilities of the Schedule Board 
 
-4. The lower pane, which has the **Work Centers** and **Machines** tabs. These tabs contain lists of all work centers     and machines, showing histograms with details about the available and scheduled capacity for each work     center and machine. For more information, see the _Work Centers and Machines Tabs (Lower Pane)_ section     below. 
+ By using the Production Schedule Board (AM215555) form, you can: 
 
+- **See the full timeline at a glance** : A single graphical bar represents a top-level production order and all its     dependent subassemblies. Expand or collapse the view to show or hide child orders. 
 
-<!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 270 
+- **Quickly spot delays and progress** : Visual indicators show you whether production orders are late, early, or     on time. 
 
- Figure: The parts of the Production Schedule Board form 
+- **Understand dependencies instantly** : Arrows connect related operations, making it easier to spot     relationships and manage scheduling exceptions. 
 
-#### Production Orders Tab (Upper Pane) 
+- **Streamline data visibility** : Filter production orders by key attributes, such as schedule status, lateness, or     customer. 
 
- The Production Orders tab (in the upper pane) displays production orders and their schedules. This tab consists of the following parts, whose numbers correspond to those in the screenshot below: 
+- **Find what matters most** : Use a secondary sort option to organize orders by completion dates, keeping your     priorities in view. 
 
-1. The upper pane toolbar. For descriptions of its elements, see the _Upper Pane Toolbar_ section below. 
+- **Track all orders** : The board displays both finitely and infinitely scheduled orders. 
 
-2. The list of production orders. For descriptions of its columns, see _Production Schedule Board_. 
+- **Stay proactive** : Gantt chart icons reflect the timing status of each order relative to its linked demand’s due     date. 
 
-3. The Gantt chart with details about the operations of each production order. For the chart description, see     the _Gantt Chart for Production Orders_ section below. 
-
- Figure: Production Orders tab 
-
-#### Upper Pane Toolbar 
-
- The pane toolbar is located in the top right corner of the upper pane. The toolbar elements are described in the following table. 
-
-
-<!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 271 
-
- Element Icon Description 
-
- Full Screen A button you click to display the panes in full screen mode. In this mode, the system hides the form title bar and the Selection area. 
-
- Maximize A button you click to hide the lower pane and display only the upper pane. 
-
- Late Orders A button you click to display only production orders with commitment dates that have passed. 
-
- Timescale A box that displays the current timescale for the Gantt chart. In the box, you can select any of the following options: 
-
-- _Months_ 
-
-- _Weeks_ 
-
-- _Days_ 
-
-- _Hours_ 
-
-#### Gantt Chart for Production Orders 
-
- The Gantt chart for production orders, which is shown on the Production Orders tab of the upper pane, displays information about the scheduled operations in production orders (see the following screenshot). 
-
-
-<!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 272 
-
-**_Figure: The Gantt chart for production orders_** 
-
-Any of the following graphical elements may be used on the chart: 
-
-- A bar, which represents an operation of a production order and is displayed as follows: 
-
-- The length corresponds to the duration of the operation—that is, the start date and time, and end date     and time. 
-
-- The label displays the operation number. 
-
-- The color represents the option specified in the **Color Coding** box of the Selection area. If _Production_     _Order Status_ is selected, for instance, each color corresponds to a particular order status. 
-
-- A diamond shape, which indicates that the production order is linked to a sales order. The system compares     the **Requested On** date of the sales order, which is in the Summary area of the _Sales Orders_ (SO301000)     form, to the **End Date** in the production order, which is on the **General** tab of the _Production Order_     _Maintenance_ (AM201500) form. Based on this comparison, the color of the shape means one of the following: 
-
-- Green: The date the items are requested on in the sales order is later than the **End Date** in the production     order. That is, the production order meets the date commitment. 
-
-- Yellow: The date the items are requested on in the sales order is the same as the **End Date** in the     production order. That is, the production schedule is tight, and production dates should not be shied     later to meet the commitment. 
-
-- Red: The date the items are requested on in the sales order is earlier than the **End Date** in the production     order. That is, the production order does not meet the commitment. 
-
-- A lightening bolt icon, which indicates that the on-hand quantity of some materials required for the     operation is insufficient. 
-
-- A white circle shape, which indicates that the operation is performed outside of the organization. 
-
-You can point to a graphical element and view the details of the scheduled operation and the related production order (see the following screenshot). 
+- **Assess capacity at the operation level** : Use the operation view in the lower panel of the board to review     the work centers and machines involved in production. This view helps you assess availability and     scheduled capacity across all resources, making it easier for you to effectively adjust workloads. 
 
 
 <!-- PAGE_BREAK -->
  Advanced Planning and Scheduling | 273 
 
- Figure: Information about an operation 
+#### Available Actions 
 
-#### Work Centers and Machines Tabs (Lower Pane) 
+ Take immediate action directly from the Production Schedule Board (AM215555) form—right-click any production order and select the needed command to schedule, reschedule, or firm the order. You can also click View to open the Production Order panel, where you can: 
 
- The Work Centers and Machines tabs (in the lower pane) display lists of work centers and machines, respectively, and histograms for their schedules. These tabs consist of the following elements, whose numbers correspond to those on the Work Centers tab in the screenshot below: 
+- See all order details at a glance 
 
-1. The list of work centers (or machines on the **Machines** tab). For descriptions of the columns, see _Production_     _Schedule Board_. 
+- Quickly update the constraint date or dispatch priority 
 
-2. The histogram for the work centers (or machines on the **Machines** tab). 
+- Schedule or firm the order without leaving the panel 
 
- Figure: The Work Centers tab 
+#### Gantt Chart for Production Orders 
 
- The histograms for work centers and machines consist of bars. The height of each bar represents the workload of the work center or machine resource for a particular timescale unit. The red line represents the maximum capacity of each work center or machine resource. You can point to the bar to view details about the work center or machine workload (see the following screenshot). 
+ The Gantt chart uses consistent colors and icons to reflect the current status, scheduling state, and priority of each production order. Use the visual guide below to quickly interpret these indicators and identify orders that may require your attention. 
+
+ Indicator Description Meaning 
+
+ Production order statuses 
+
+ Yellow bar The production order is On Hold. 
+
+ Purple bar The production order is Planned. 
+
+ Blue bar The production order is Released. 
+
+ Green bar The production order is In Progress. 
+
+ Gray bar The production order is Completed. 
+
+ Diagonal stripes overlaying the status color bar 
+
+ The order is unscheduled. 
+
+ Standard icons 
+
+ Green information icon The order has a future due date and is early. 
+
+ Yellow warning icon The order is due today. 
 
 
 <!-- PAGE_BREAK -->
  Advanced Planning and Scheduling | 274 
 
- Figure: Work center workload 
+ Indicator Description Meaning 
+
+ Red error icon The order has a past due date and is delayed. 
+
+ Lock icon The order has been firmed. 
+
+ Lightning icon Material is insufficient to complete the order. 
+
+ Priority icons 
+
+ Up arrow The dispatch priority is high. 
+
+ Down arrow The dispatch priority is low. 
+
+ N/A No arrow The dispatch priority is medium. 
+
+### Advanced Planning and Scheduling: Production Order View 
+
+ The Production Order View (AM215580) form gives you a consolidated, real-time look at every level of a product’s manufacturing process, so you can stay ahead of issues and keep operations on track. 
+
+ With this view, you can: 
+
+- Quickly review unissued material and operation statuses across all child and parent production orders right     from a single form 
+
+- Take immediate action, such as firming or rescheduling child orders, based on the latest supply or timing     changes 
+
+- Spend less time fielding status requests because customer service representatives can access the same view     and handle most inquiries themselves The icons and color coding used on the _Production Order View_ form follow the patterns established on the _Production Schedule Board_ (AM215555) form. For details, see _Advanced Planning and Scheduling: Production Schedule Board_. 
 
 ### Advanced Planning and Scheduling: Work Center Planned Utilization 
 
  You can view a graphical representation of the planned load for a specific work center on the Work Center Planned Utilization (AM0044DB) dashboard. The dashboard helps manufacturing planners quickly identify overloads and redistribute or reschedule production orders to balance work center loads efficiently. 
+
+
+<!-- PAGE_BREAK -->
+ Advanced Planning and Scheduling | 275 
 
  The dashboard is available only if the Advanced Planning and Scheduling feature is enabled on the Enable/Disable Features (CS100000) form. In the out-of-the-box system, you can find the link to it in the Dashboards workspace under the Dashboard: Manufacturing category. 
 
@@ -10997,10 +11067,6 @@ You can point to a graphical element and view the details of the scheduled opera
 - _Red_ : Planned load is greater than or equal to 120%. The **Work Center Schedule** table below the graph displays information about the production schedule and load details for the date selected in the **Schedule Date** box. The dashboard is shown in the following screenshot. 
 
  Figure: The Work Center Planned Utilization dashboard 
-
-
-<!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 275 
 
 ### Advanced Planning and Scheduling: Process Activity 
 
@@ -11021,6 +11087,10 @@ You can point to a graphical element and view the details of the scheduled opera
 #### System Preparation 
 
  Before you start making changes to a bill of material by using engineering change control, do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Advanced Planning and Scheduling | 276 
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _SalesDemo_ dataset preloaded. You     should sign in as the system administrator with the _admin_ username and the password for this user valid for     your instance. 
 
@@ -11050,10 +11120,6 @@ You can point to a graphical element and view the details of the scheduled opera
 
 1. Open the _APS Maintenance Process_ (AM512000) form. 
 
-
-<!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 276 
-
 2. In the Selection area, select the following check boxes: 
 
 - **Update Work Center Schedule from Calendar** 
@@ -11070,7 +11136,13 @@ You can point to a graphical element and view the details of the scheduled opera
 
 2. Notice that the **Release Orders** check box in the Selection area is cleared and the **Exclude Planning Orders**     and **Exclude Firm Orders** check boxes are selected. 
 
-3. Schedule the production order you created earlier in this activity as follows:     a. Select the check box in the unlabeled column of the row for the production order.     b. Make sure that _Schedule_ is selected in the **Action** box of the Selection area.     c. On the form toolbar, click **Process**.        The system opens the **Processing** dialog box and runs the process of the production order scheduling.     d. Wait until the processing is completed, and close the **Processing** dialog box. 
+3. Schedule the production order you created earlier in this activity as follows:     a. Select the check box in the unlabeled column of the row for the production order.     b. Make sure that _Schedule_ is selected in the **Action** box of the Selection area.     c. On the form toolbar, click **Process**.        The system opens the **Processing** dialog box and runs the process of the production order scheduling. 
+
+
+<!-- PAGE_BREAK -->
+ Advanced Planning and Scheduling | 277 
+
+ d. Wait until the processing is completed, and close the Processing dialog box. 
 
 #### Step 4: Viewing Work Center Schedule 
 
@@ -11095,10 +11167,6 @@ You can point to a graphical element and view the details of the scheduled opera
  In the following sections, you can find details about the forms you may want to review to gather information about advanced planning and scheduling. 
 
  If you do not see a particular report or form that is described, you may have signed in to the system with a user account that does not have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms. 
-
-
-<!-- PAGE_BREAK -->
- Advanced Planning and Scheduling | 277 
 
 #### Viewing the Capacity of a Work Center 
 
@@ -11156,7 +11224,7 @@ You can point to a graphical element and view the details of the scheduled opera
 
 - The _Advanced Planning and Scheduling_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
-- The type of the sales order has the **Allow Production Orders - Approved** and **Allow**     **Production Orders - Hold** check boxes selected in the **Manufacturing Settings** section of the     **General** tab on the _Order Types_ (SO201000) form. 
+- The type of the sales order has the **Enable Linking to Production Orders** check box selected     and the _Open_ and _On Hold_ statuses should be specified in the **Linkable Sales Order Statuses**     list on the **General** tab on the _Order Types_ (SO201000) form. 
 
 - The sales order has the _On Hold_ or _Open_ status. 
 
@@ -11212,7 +11280,7 @@ You can point to a graphical element and view the details of the scheduled opera
 
  Stock Items (IN202500) The CTP Item check box has been selected on the Manufacturing tab ( General section) for all stock items for which you want to calculate projected dates. 
 
- Order Types (SO201000) The Allow Production Orders Approved and Allow Production Orders Hold check boxes have been selected in the Manufacturing Settings section of the General tab for the sales order type for which projected dates should be calculated. 
+ Order Types (SO201000) The Enable Linking to Production Orders check box has been selected and all the order statuses have been specified in the Linkable Sales Order Statuses list on the General tab for the sales order type for which projected dates should be calculated. 
 
 #### Validation of Configuration 
 
@@ -11316,7 +11384,7 @@ You can point to a graphical element and view the details of the scheduled opera
 
 #### Story 
 
- Suppose that on January 30, 2025, the Thai Food Restaurant customer has ordered two configurable citrus juicers and 10 pounds of oranges from the main office of SweetLife. Further suppose that the customer wanted the juicers to be shipped in three weeks. You, as the customer service manager, need to make sure that the production 
+ Suppose that on January 30, 2026, the Thai Food Restaurant customer has ordered two configurable citrus juicers and 10 pounds of oranges from the main office of SweetLife. Further suppose that the customer wanted the juicers to be shipped in three weeks. You, as the customer service manager, need to make sure that the production 
 
 
 <!-- PAGE_BREAK -->
@@ -11348,11 +11416,11 @@ You can point to a graphical element and view the details of the scheduled opera
 
 2. Sign in to the company in which the prerequisite activities have been performed as a customer service     manager by using the _blevy_ username and _123_ password. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2026_. If a different date is displayed, click the Business Date menu     button, and select _1/30/2026_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
 
 4. On the _Enable/Disable Features_ (CS100000) form, make sure that the _Advanced Planning and Scheduling_     feature has been enabled. 
 
-5. On the **General** tab ( **Manufacturing Settings** section) of the _Order Types_ (SO201000) form for the _SO_ order     type, make sure that the **Allow Production Orders - Approved** and **Allow Production Orders - Hold** check     boxes have been selected. 
+5. On the **General** tab ( **Manufacturing Settings** section) of the _Order Types_ (SO201000) form for the _SO_ order     type, make sure that the **Enable Linking to Production Orders** check box is selected and that the _Open_ and     _On Hold_ statuses are specified in the **Linkable Sales Order Statuses** list. 
 
 #### Step 1: Creating a Sales Order 
 
@@ -11368,13 +11436,13 @@ You can point to a graphical element and view the details of the scheduled opera
 <!-- PAGE_BREAK -->
  Processing Capable to Promise | 285 
 
- c. Date : 1/30/2025 d. Requested On : 1/30/2025 e. Description : Sale of 2 configurable juicers for fruit and 10 pounds of oranges 
+ c. Date : 1/30/2026 d. Requested On : 1/30/2026 e. Description : Sale of 2 configurable juicers for fruit and 10 pounds of oranges 
 
 4. On the **Details** tab, add rows with the settings shown in the following table. 
 
- Inventory ID Warehouse Quantity Unit Price Requested On CFJCITRUS WORKHOUSE 2 3000.00 02/19/2025 
+ Inventory ID Warehouse Quantity Unit Price Requested On CFJCITRUS WORKHOUSE 2 3000.00 02/19/2026 
 
- ORANGES WHOLESALE 10 2.1500 1/30/2025 
+ ORANGES WHOLESALE 10 2.1500 1/30/2026 
 
 5. On the form toolbar, click **Save**. 
 
@@ -11392,7 +11460,7 @@ You can point to a graphical element and view the details of the scheduled opera
 
 3. Select the check box in the unlabeled column of the _CFJCITRUS_ line. 
 
-4. On the form toolbar, click **Process** ; wait while the system completes the processing.     Notice that the system has specified the type and reference number of the planning order (which the system     has created during processing) in the **Prod. Order Type** and **Prod. Order Nbr.** columns. In the **CTP Date**     column, notice that the system has calculated the projected date as _3/2/2025_ , which is 12 days later than the     customer expected the juicers to be shipped. 
+4. On the form toolbar, click **Process** ; wait while the system completes the processing.     Notice that the system has specified the type and reference number of the planning order (which the system     has created during processing) in the **Prod. Order Type** and **Prod. Order Nbr.** columns. In the **CTP Date**     column, notice that the system has calculated the projected date as _3/2/2026_ , which is 12 days later than the     customer expected the juicers to be shipped. 
 
 #### Step 3: Viewing the Available Quantities 
 
@@ -11422,7 +11490,7 @@ You can point to a graphical element and view the details of the scheduled opera
 
 #### Step 5: Recalculating the Projected Date 
 
- Suppose that the customer has agreed to receive the juicers on 3/2/2025 and you need to recalculate the projected date and send the order to production. Do the following: 
+ Suppose that the customer has agreed to receive the juicers on 3/2/2026 and you need to recalculate the projected date and send the order to production. Do the following: 
 
 1. Open the _Sales Orders_ (SO301000) form with the sales order you created in Step 1. 
 
@@ -11436,7 +11504,7 @@ You can point to a graphical element and view the details of the scheduled opera
 
 4. Select the check box in the unlabeled column of the _CFJCITRUS_ line. 
 
-5. On the form toolbar, click **Process** ; wait while the system completes the processing.     Notice that the system has again specified the type and reference number of the planning order (which the     system has created during processing) in the **Prod. Order Type** and **Prod. Order Nbr.** columns. In the **CTP**     **Date** column, notice that the system has calculated the same projected date, _3/2/2025_ , as it did in Step 2. 
+5. On the form toolbar, click **Process** ; wait while the system completes the processing.     Notice that the system has again specified the type and reference number of the planning order (which the     system has created during processing) in the **Prod. Order Type** and **Prod. Order Nbr.** columns. In the **CTP**     **Date** column, notice that the system has calculated the same projected date, _3/2/2026_ , as it did in Step 2. 
 
  Now you can accept the projected date and send the order to production. 
 
@@ -11474,7 +11542,7 @@ You can point to a graphical element and view the details of the scheduled opera
 
 1. Open the _Sales Orders_ (SO301000) form with the sales order you created in Step 1. 
 
-2. In the **Requested On** and **Ship On** columns of the _CFJCITRUS_ line of the **Details** tab, make sure that the     _3/2/2025_ date is specified (which is the accepted projected date). 
+2. In the **Requested On** and **Ship On** columns of the _CFJCITRUS_ line of the **Details** tab, make sure that the     _3/2/2026_ date is specified (which is the accepted projected date). 
 
 3. In the **Production Nbr.** column, make sure that the system has copied the production order number created     when you accepted the projected date. You can click the link to view the production order on the _Production_     _Order Maintenance_ (AM201500) form. 
 
@@ -11792,7 +11860,11 @@ You can point to a graphical element and view the details of the scheduled opera
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
@@ -11800,29 +11872,93 @@ You can point to a graphical element and view the details of the scheduled opera
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 296 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 297 
 
 #### Report Toolbar 
 
@@ -11831,12 +11967,6 @@ You can point to a graphical element and view the details of the scheduled opera
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 296 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -11862,25 +11992,77 @@ You can point to a graphical element and view the details of the scheduled opera
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 297 
+ Appendix | 298 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 299 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -11898,91 +12080,45 @@ You can point to a graphical element and view the details of the scheduled opera
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 298 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 299 
+ Appendix | 300 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -12001,6 +12137,12 @@ You can point to a graphical element and view the details of the scheduled opera
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 301 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -12024,10 +12166,6 @@ You can point to a graphical element and view the details of the scheduled opera
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 300 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -12042,13 +12180,19 @@ You can point to a graphical element and view the details of the scheduled opera
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 302 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -12066,10 +12210,6 @@ You can point to a graphical element and view the details of the scheduled opera
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 301 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -12084,6 +12224,10 @@ You can point to a graphical element and view the details of the scheduled opera
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 303 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -12092,11 +12236,7 @@ You can point to a graphical element and view the details of the scheduled opera
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 302 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -12122,6 +12262,12 @@ You can point to a graphical element and view the details of the scheduled opera
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 304 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -12129,12 +12275,6 @@ You can point to a graphical element and view the details of the scheduled opera
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 303 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -12162,19 +12302,19 @@ You can point to a graphical element and view the details of the scheduled opera
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 305 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 304 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -12184,13 +12324,15 @@ You can point to a graphical element and view the details of the scheduled opera
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 306 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -12201,10 +12343,6 @@ You can point to a graphical element and view the details of the scheduled opera
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 305 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -12218,6 +12356,10 @@ You can point to a graphical element and view the details of the scheduled opera
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 307 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -12228,11 +12370,11 @@ You can point to a graphical element and view the details of the scheduled opera
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 306 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 308 
 
 #### Unavailable Commands on the More Menu 
 
@@ -12244,17 +12386,13 @@ You can point to a graphical element and view the details of the scheduled opera
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 307 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 308 
+ Appendix | 309 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -12266,7 +12404,11 @@ You can point to a graphical element and view the details of the scheduled opera
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 310 
 
  Figure: Table toolbar 
 
@@ -12286,17 +12428,17 @@ You can point to a graphical element and view the details of the scheduled opera
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 309 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 311 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -12326,13 +12468,13 @@ You can point to a graphical element and view the details of the scheduled opera
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 310 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 312 
 
  Element Description 
 
@@ -12376,15 +12518,15 @@ You can point to a graphical element and view the details of the scheduled opera
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 311 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 313 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 

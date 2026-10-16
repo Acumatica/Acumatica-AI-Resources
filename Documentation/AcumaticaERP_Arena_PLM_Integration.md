@@ -2,7 +2,7 @@
 
 # Arena Solutions Integration 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -78,9 +78,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -286,7 +286,7 @@
 
  To prepare an Acumatica ERP instance for integration with Arena Solutions, you need to do the following: 
 
-1. You install Acumatica ERP 2025 R1. 
+1. You install Acumatica ERP 2025 R2. 
 
 2. You download the customization package that provides integration from _Acumatica Community_. 
 

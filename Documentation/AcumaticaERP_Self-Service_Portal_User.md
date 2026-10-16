@@ -2,7 +2,7 @@
 
 # Self-Service Portal User Guide 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -300,9 +300,9 @@ Shortcut Keys...................................................................
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -2186,7 +2186,7 @@ In this section, you can edit the shipping address. By default, the system inser
 
  Postal Code The postal code included in the contact’s address. 
 
- View on Map A button you can click to view this address on the map provided by the Google Maps or Bing Maps web map service. The map is opened in a new window. 
+ View on Map A button you can click to view this address on the map provided by the Google Maps or Azure Maps web map service. The map is opened in a new window. 
 
 #### User Info Tab 
 
@@ -2770,7 +2770,7 @@ If any user-defined fields are defined as required on the Contacts (CR302000) fo
 
  Postal Code The postal code included in the address of your customer. 
 
- View on Map A button you can click to view this address on the map provided by the Google Maps or Bing Maps web map service. The map is opened in a new window. 
+ View on Map A button you can click to view this address on the map provided by the Google Maps or Azure Maps web map service. The map is opened in a new window. 
 
 #### Attributes Tab 
 
@@ -2964,7 +2964,7 @@ This section contains the address settings of the contact.
 
  Postal Code The postal code included in the contact’s address. 
 
- View on Map A button you can click to view this address on the map provided by the Google Maps or Bing Maps web map service. The map is opened in a new window. 
+ View on Map A button you can click to view this address on the map provided by the Google Maps or Azure Maps web map service. The map is opened in a new window. 
 
 #### Attributes Tab 
 
@@ -4058,7 +4058,7 @@ In this section, you can upload the default images to be shown when an item in t
 <!-- PAGE_BREAK -->
  Self-Service Portal Forms | 88 
 
- Figure: The search box 
+ Figure: The Search box 
 
 ### User Profile 
 
@@ -4138,7 +4138,7 @@ In this section, you can upload the default images to be shown when an item in t
 
  Postal Code The postal code included in your postal address of the user. 
 
- View on Map A button you can click to view this address on the map provided by the Google Maps or Bing Maps web map service. The map is opened in a new window. 
+ View on Map A button you can click to view this address on the map provided by the Google Maps or Azure Maps web map service. The map is opened in a new window. 
 
 #### User Info Tab 
 

@@ -2,7 +2,7 @@
 
 # DAC Overview 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -110,9 +110,9 @@ TX DACs: Reporting Data.........................................................
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -2114,7 +2114,7 @@ _MasterFinPeriod_ Is a projection over the FinPeriod DAC. Master financial perio
 
 2. Adding a rate type on the _Rate Types_ (PM204100) form. The rate type data is stored in the _PMRateType_     DAC. 
 
-3. Defining a rule on the _Rate Lookup Rules_ (PM205000) form. The rule data is stored in the     _PMRateDefinition_ DAC. A definition of a rule includes the addition of sequences and the defining of     conditions for each combination of a rate table and rate type. Conditions can be defined for the following     entities: 
+3. Defining a rule on the _Rate Table Sequences_ (PM205000) form. The rule data is stored in the     _PMRateDefinition_ DAC. A definition of a rule includes the addition of sequences and the defining of     conditions for each combination of a rate table and rate type. Conditions can be defined for the following     entities: 
 
 - A project, whose ID is stored in the _PMProjectRate_ DAC 
 

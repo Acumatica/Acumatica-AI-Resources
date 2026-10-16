@@ -2,7 +2,7 @@
 
 # Service Management 
 
-# 2025 R1 
+# 2025 R2 
 
 
 <!-- PAGE_BREAK -->
@@ -14,201 +14,211 @@
 
  Overview of Service Management Processes.............................................................................................6 
 
- Processing Service Orders with a Single Appointment............................................................................. 11 
+ Scheduling with Modern Calendar Board................................................................................................10 
 
- Service Orders with a Single Appointment: General Information................................................................ 11 
+ Scheduling Appointments: Calendar Board...................................................................................................10 
 
- Service Orders with a Single Appointment: Process Activity........................................................................ 15 
+ Processing Service Orders with a Single Appointment............................................................................. 24 
 
- Processing Service Orders with an Added Appointments..........................................................................19 
+ Service Orders with a Single Appointment: General Information................................................................ 24 
 
- Service Orders with Added Services and Appointments: General Information........................................... 19 
+ Service Orders with a Single Appointment: Process Activity........................................................................ 28 
 
- Service Orders with Added Services and Appointments: Process Activity................................................... 19 
+ Adding Services to Existing Service Orders............................................................................................. 32 
 
- Quick Billing of Service Orders.............................................................................................................. 23 
+ Service Orders with Additional Services and Appointments: General Information..................................... 32 
 
- Quick Billing of Service Orders: General Information....................................................................................23 
+ Service Orders with Additional Services and Appointments: Process Activity.............................................32 
 
- Quick Billing of a Service Order: Process Activity..........................................................................................25 
+ Quick Billing of Service Orders.............................................................................................................. 36 
 
- Assigning Staff Members to Service Orders on the Calendar Board........................................................... 29 
+ Quick Billing of Service Orders: General Information....................................................................................36 
 
- Service Orders: To Assign a Service Order to a Staff Member by Using the Calendar Board....................... 29 
+ Quick Billing of a Service Order: Process Activity..........................................................................................38 
 
- Creating Appointments......................................................................................................................... 32 
+ Assigning Staff Members to Service Orders on the Calendar Board........................................................... 42 
 
- Appointment Creation: General Information................................................................................................. 32 
+ Service Orders: To Assign a Staff Member by Using the Calendar Board..................................................... 42 
 
- Appointment Creation: To Create an Appointment on the Appointments Form......................................... 35 
+ Creating Appointments......................................................................................................................... 45 
 
- Appointment Creation: To Create an Appointment on the Calendar Board................................................ 37 
+ Appointment Creation: General Information................................................................................................. 45 
 
- Appointment Creation: To Create an Appointment from the Customers Form........................................... 40 
+ Appointment Creation: To Create an Appointment with Staff on the Appointments Form.........................48 
 
- Appointment Creation: To Assign a Staff Member to a Particular Service Considering Skills and Licenses............................................................................................................................................................ 43 
+ Scheduling Appointments: To Create a Skill-Matched Appointment on the Calendar................................50 
 
- Appointment Creation: To Assign a Staff Member by Using the Calendar Board.........................................45 
+ Appointment Creation: To Create an Appointment from the Customers Form........................................... 53 
 
- Appointment Creation: Related Inquiry Forms..............................................................................................48 
+ Staff Assignment: To Assign Staff To Services in an Appointment................................................................56 
 
- Appointment Creation: Calendar Board Forms............................................................................................. 49 
+ Staff Assignment: From Service Order to Calendar Board............................................................................ 59 
 
- Modifying Calendar Boards....................................................................................................................51 
+ Appointment Creation: Related Inquiry Forms..............................................................................................62 
 
- Calendar Board Configuration Options.......................................................................................................... 51 
+ Appointment Creation: Calendar Board Form............................................................................................... 62 
 
- Correcting Appointments...................................................................................................................... 56 
+ Working with the Calendar Board.......................................................................................................... 65 
 
- Correcting Appointments................................................................................................................................ 56 
+ Calendar Board Configuration Options.......................................................................................................... 65 
 
- Quick Billing of Appointments............................................................................................................... 57 
+ Correcting Appointments...................................................................................................................... 71 
 
- Quick Billing of Appointments: General Information.................................................................................... 57 
+ Correcting Appointments................................................................................................................................ 71 
 
- Quick Billing of Appointments: Process Activity............................................................................................59 
+ Quick Billing of Appointments............................................................................................................... 72 
 
- Billing Multiple Appointments............................................................................................................... 62 
+ Quick Billing of Appointments: General Information.................................................................................... 72 
 
- Billing of Multiple Appointments: General Information................................................................................ 62 
+ Quick Billing of Appointments: Process Activity............................................................................................74 
 
- Billing of Multiple Appointments: Process Activity........................................................................................63 
+ Billing Multiple Appointments............................................................................................................... 77 
 
- Cloning Appointments.......................................................................................................................... 67 
+ Billing of Multiple Appointments: General Information................................................................................ 77 
+
+ Billing of Multiple Appointments: Process Activity........................................................................................78 
 
 
 <!-- PAGE_BREAK -->
  Contents | 3 
 
- Cloning of Appointments: General Information............................................................................................ 67 
+**Cloning Appointments.......................................................................................................................... 83** 
 
- Cloning of Appointments: Process Activity.................................................................................................... 67 
+ Cloning of Appointments: General Information............................................................................................ 83 
 
-**Recording Staff Time in Appointments................................................................................................... 71** 
+ Cloning of Appointments: Process Activity.................................................................................................... 83 
 
- Staff Time in Appointments: General Information........................................................................................ 71 
+**Recording Staff Time in Appointments................................................................................................... 87** 
 
- Staff Time in Appointments: Time Recording and Calculation.....................................................................71 
+ Staff Time in Appointments: General Information........................................................................................ 87 
 
- Staff Time in Appointments: To Record Staff Time Spent in an Appointment............................................. 75 
+ Staff Time in Appointments: Time Recording and Calculation.....................................................................87 
 
- Staff Time in Appointments: To Record Staff Time Spent on a Particular Service....................................... 77 
+ Staff Time in Appointments: To Record Staff Time Spent in an Appointment............................................. 91 
 
-**Managing Costs and Inventory in Appointments..................................................................................... 82** 
+ Staff Time in Appointments: To Record Staff Time Spent on a Particular Service....................................... 93 
 
- Tracking the Costs of Items.............................................................................................................................82 
+**Tracking Costs in Service Documents..................................................................................................... 98** 
 
- Tracking of Labor Costs and Billing of Labor................................................................................................. 83 
+ Tracking Item Costs......................................................................................................................................... 98 
 
- Assigning Lot or Serial Numbers to Stock Items in Appointments............................................................... 83 
+ Tracking Labor Costs and Billing.................................................................................................................... 99 
 
- Optimizing Appointment Scheduling with WorkWave.................................................................................. 85 
+**Working with Lot and Serial Numbers.................................................................................................. 100** 
 
-**Creating a Service Order from an Opportunity........................................................................................ 88** 
+ Assigning Lot and Serial Numbers in Appointments...................................................................................100 
 
- Opportunity-Related Service Orders: General Information.......................................................................... 88 
+ Using Attributes with Lot and Serial Numbers in Service Documents........................................................101 
 
- Opportunity-Related Service Orders: Process Activity.................................................................................. 91 
+**Scheduling Optimization..................................................................................................................... 103** 
 
-**Creating a Service Order from a Sales Order........................................................................................... 95** 
+ Optimizing Appointment Scheduling with WorkWave................................................................................ 103 
 
- Sales Order-Related Service Orders: General Information............................................................................95 
+**Creating a Service Order from an Opportunity...................................................................................... 106** 
 
- Sales Order-Related Service Orders: Process Activity................................................................................... 98 
+ Opportunity-Related Service Orders: General Information........................................................................ 106 
 
-**Creating a Service Order Along with a Case...........................................................................................103** 
+ Opportunity-Related Service Orders: Process Activity................................................................................ 109 
 
- Case-Related Service Orders: General Information..................................................................................... 103 
+**Creating a Service Order from a Sales Order......................................................................................... 113** 
 
- Case-Related Service Orders: Process Activity.............................................................................................106 
+ Sales Order-Related Service Orders: General Information..........................................................................113 
 
-**Processing Service Orders with Items to Be Purchased.......................................................................... 110** 
+ Sales Order-Related Service Orders: Process Activity................................................................................. 116 
 
- Service Orders with Items to Be Purchased: General Information............................................................. 110 
+**Creating a Service Order Along with a Case...........................................................................................121** 
 
- Service Orders with Items to Be Purchased: Process Activity.....................................................................113 
+ Case-Related Service Orders: General Information..................................................................................... 121 
 
- Service Orders with Items to Be Purchased: Allocations for Service Orders.............................................. 116 
+ Case-Related Service Orders: Process Activity.............................................................................................124 
 
-**Processing Prepayments for a Service Order.........................................................................................118** 
+**Processing Service Orders with Items to Be Purchased.......................................................................... 128** 
 
- Service Order Prepayments: General Information.......................................................................................118 
+ Service Orders with Items to Be Purchased: General Information............................................................. 128 
 
- Service Order Prepayments: Process Activity.............................................................................................. 120 
+ Service Orders with Items to Be Purchased: Process Activity.....................................................................131 
 
-**Creating and Using Resource Equipment.............................................................................................. 124** 
+ Service Orders with Items to Be Purchased: Allocations for Service Orders.............................................. 134 
 
- Resource Equipment: General Information..................................................................................................124 
+**Processing Prepayments for a Service Order.........................................................................................136** 
 
- Resource Equipment: To Create an Equipment Type and Assign It to a Service........................................125 
+ Service Order Prepayments: General Information.......................................................................................136 
 
- Resource Equipment: To Create Resource Equipment................................................................................127 
+ Service Order Prepayments: Process Activity.............................................................................................. 138 
 
- Use of Resource Equipment in Appointments: To Use Resource Equipment in Appointments................ 129 
+**Creating and Using Resource Equipment.............................................................................................. 143** 
 
- Resource Equipment: Related Report and Inquiry Forms...........................................................................131 
+ Resource Equipment: General Information..................................................................................................143 
 
-**Correcting Service Order Billing .......................................................................................................... 133** 
+ Resource Equipment: To Create an Equipment Type and Assign It to a Service........................................144 
 
- Service Order Billing Correction: General Information................................................................................133 
+ Resource Equipment: To Create Resource Equipment................................................................................146 
 
 
 <!-- PAGE_BREAK -->
  Contents | 4 
 
- Service Order Billing Correction: Billing Document Types..........................................................................135 
+ Resource Equipment: To Add Resource Equipment to an Appointment....................................................148 
 
- Service Order Billing Correction: Related Reports and Inquiry Forms....................................................... 136 
+ Resource Equipment: Related Report and Inquiry Forms...........................................................................151 
 
-**Correcting Appointment Billing............................................................................................................137** 
+**Correcting Service Order Billing .......................................................................................................... 152** 
 
- Appointment Billing Correction: General Information................................................................................ 137 
+ Service Order Billing Correction: General Information................................................................................152 
 
- Appointment Billing Correction: Other Document Types........................................................................... 139 
+ Service Order Billing Correction: Billing Document Types..........................................................................154 
 
- Appointment Billing Correction: Process Activity........................................................................................140 
+ Service Order Billing Correction: Related Reports and Inquiry Forms....................................................... 155 
 
- Appointment Billing Correction: Related Reports and Inquiry Forms........................................................143 
+**Correcting Appointment Billing............................................................................................................156** 
 
-**Creating Quotes and Converting Quotes to Service Orders..................................................................... 144** 
+ Appointment Billing Correction: General Information................................................................................ 156 
 
- Quote Processing: General Information....................................................................................................... 144 
+ Appointment Billing Correction: Other Document Types........................................................................... 158 
 
- Quote Processing: To Create and Process a Quote......................................................................................147 
+ Appointment Billing Correction: Process Activity........................................................................................159 
 
-**Integrating Field Services with Projects................................................................................................152** 
+ Appointment Billing Correction: Related Reports and Inquiry Forms........................................................162 
 
- Integration of Field Services and Projects: General Information................................................................ 152 
+**Creating Quotes and Converting Quotes to Service Orders..................................................................... 163** 
 
- Integration of Field Services and Projects: Workflow Setup....................................................................... 156 
+ Quotes: General Information........................................................................................................................ 163 
 
- Integration of Field Services and Projects: Related Inquiry Form.............................................................. 163 
+ Quotes: To Create and Process a Quote....................................................................................................... 166 
 
-**Processing Service Documents with Projects........................................................................................ 165** 
+**Integrating Field Services with Projects................................................................................................171** 
 
- Availability of Project-Specific Inventory in Service Documents................................................................ 165 
+ Integration of Field Services and Projects: General Information................................................................ 171 
 
- Assignment of Serial or Lot Numbers for Project Stock Items in Service Documents............................... 166 
+ Integration of Field Services and Projects: Workflow Setup....................................................................... 175 
 
-**Managing Appointments in Mobile App.................................................................................................167** 
+ Integration of Field Services and Projects: Related Inquiry Form.............................................................. 182 
 
- Appointments in the Mobile App: Basic Operations....................................................................................167 
+**Processing Service Documents with Projects........................................................................................ 184** 
 
- Appointments in the Mobile App: General Information.............................................................................. 174 
+ Availability of Project-Specific Inventory in Service Documents................................................................ 184 
 
- Appointments in the Mobile App: To Process an Appointment Assigned to a Staff Member.....................177 
+ Assignment of Serial or Lot Numbers for Project Stock Items in Service Documents............................... 185 
 
-**Appendix............................................................................................................................................ 185** 
+**Managing Appointments in Mobile App.................................................................................................186** 
 
- Reports........................................................................................................................................................... 185 
+ Appointments in the Mobile App: Basic Operations....................................................................................186 
 
- Report Form.......................................................................................................................................... 185 
+ Appointments in the Mobile App: General Information.............................................................................. 192 
 
- Report....................................................................................................................................................190 
+ Appointments in the Mobile App: To Process an Appointment Assigned to a Staff Member.....................192 
 
- Form Toolbar and More Menu.......................................................................................................................192 
+**Appendix............................................................................................................................................ 199** 
 
- Table Toolbar................................................................................................................................................. 199 
+ Reports........................................................................................................................................................... 199 
+
+ Report Form.......................................................................................................................................... 199 
+
+ Report....................................................................................................................................................206 
+
+ Form Toolbar and More Menu.......................................................................................................................207 
+
+ Table Toolbar................................................................................................................................................. 214 
 
 
 <!-- PAGE_BREAK -->
@@ -230,9 +240,9 @@
 
  Acumatica is a registered trademark of Acumatica, Inc. HubSpot is a registered trademark of HubSpot, Inc. Microso Exchange and Microso Exchange Server are registered trademarks of Microso Corporation. All other product names and services herein are trademarks or service marks of their respective companies. 
 
- Soware Version: 2025 R1 
+ Soware Version: 2025 R2 
 
- Last Updated: 06/01/2025 
+ Last Updated: 12/15/2025 
 
 
 <!-- PAGE_BREAK -->
@@ -240,51 +250,73 @@
 
 ## Overview of Service Management Processes 
 
- The service management functionality provides a comprehensive control and optimization of service-related processes that a company performs. The functionality enables you to efficiently manage the entire lifecycle of service provision. In particular, you manage information about the services your company provides, service orders, appointments, and staff members, including their work schedules, skills, and licenses. 
+ The service management functionality in Acumatica ERP helps you control and optimize all service-related processes. It supports the entire lifecycle of service delivery—from planning and scheduling to execution, billing, and reporting. You can manage information about the services you provide, service orders, appointments, staff members, and their schedules, skills, and licenses. 
 
- By using the service management functionality of Acumatica ERP, you can track and manage every detail in your service organization. To do this, you work with two main documents in the system: service orders and appointments. 
+ At the core of service management are two documents: service orders and appointments. Service orders represent the customer’s request or agreement for services, while appointments represent the actual execution of the work. Around these documents, the system provides tools for scheduling, billing, and resource management. 
 
-#### Service Orders 
+#### Core Documents 
 
- A service order, which is created on the Service Orders (FS300100) form, is a document in Acumatica ERP that represents the initial agreement and intention of the job. The service order contains various information about the job to be performed, including the services requested by the customer. This information includes the customer settings, the planned duration, and the location where the services will be (or have been) performed. 
+ Service Orders 
 
-#### Appointments 
+ A service order , created on the Service Orders (FS300100) form, represents the customer’s request or agreement for services. It includes key details such as the services to be provided, the customer, the planned duration, and the location where the work will be performed. 
 
- An appointment is a record in Acumatica ERP that represents the execution of all or part of the job represented by the service order. The appointment can take place in a customer location, a location of a customer contact, or a branch location of your company. The appointment holds the details of the actual services performed, the scheduled and actual dates and times of each service, and the staff member or members who delivered each service. 
+ Appointments 
 
-#### The Relationship Between Appointments and Service Orders 
+ An appointment , created on the Appointments (FS300200) form, represents the execution of all or part of the work defined in a service order. It records the actual services performed, scheduled and actual dates and times, and the staff members assigned. Appointments can take place at the customer’s location, a customer contact’s location, or a company branch location. 
+
+#### Relationship Between Service Orders and Appointments 
 
  Appointments and service orders relate to each other in the following ways: 
 
-- A single service order can consist of a single appointment or multiple appointments, depending on what is     needed to complete the service order. 
+- A service order can include one or multiple appointments. 
 
-- An appointment is always linked to only one service order. If you create an appointment and do not select     an existing service order to be linked to it, a new service order is automatically created for the appointment. 
+- Each appointment is always linked to one service order. If no service order is specified when creating an     appointment, the system automatically creates one. 
 
-- You can define service orders that don't have appointments associated with them. 
+- You can also define service orders without associated appointments. 
 
 #### Service Order Types 
 
- A service order type is a group of general settings that is created on the Service Order Types (FS202300) form. When a service order type is specified for a service order or appointment, depending on the settings of the service order type, some specific UI elements are added to or removed from the Service Orders (FS300100) form for the service order or the Appointments (FS300200) form for the appointment. 
+ A service order type is a group of general settings that is created on the Service Order Types (FS202300) form. When a service order type is specified for a service order or appointment, the system adds or removes specific UI elements on the Service Orders (FS300100) form or the Appointments (FS300200) form, depending on the settings of the selected service order type. 
 
- When you create a service order type, you assign it a behavior type, which describes and affects the processing of service orders and appointments of the service order type. The following behavior types are available: 
+ When you create a service order type, you assign it a behavior type, which defines how service orders and appointments of that type are processed. The available behavior types are: 
 
-- _Regular_ : Service orders of the type are fulfilled by appointments in which services are provided to a     customer. 
+- _Regular_ : Service orders are fulfilled by appointments in which services are provided to a customer. 
 
-- _Internal_ : Service orders of the type are fulfilled by appointments inside your company that do not involve a     customer. 
+- _Internal_ : Service orders are fulfilled by appointments within your company that do not involve a customer. 
 
-- _Quote_ : Service orders of the type are agreements to provide any number of services with specified prices to     a customer in the future. In your production environment, we recommend that you create a service order type with the _Internal_ behavior for managing internal services and making internal appointments, and another service order type with the _Quote_ 
+- _Quote_ : Service orders represent agreements to provide any number of services at specified prices to a     customer in the future. In a production environment, we recommend that you: 
+
+- Create a service order type with the _Internal_ behavior for managing internal services and appointments. 
+
+- Create a service order type with the _Quote_ behavior if you want to track quotes sent to customers. 
+
+- Define at least one service order type with the _Regular_ behavior for services delivered to customers. 
 
 
 <!-- PAGE_BREAK -->
  Overview of Service Management Processes | 7 
 
- behavior if you plan to keep track of quotes made to your customers. For services delivered outside of your company, you should create at least one service order type with the Regular behavior. 
-
- A service order type also has posting settings, including the type of billing document that will be generated for the service order or appointment (an AR invoice, a sales order, or no document). Other service order type settings include the mailing settings that define how the customer will receive email notifications about certain actions during the service delivery process. 
+ A service order type includes posting and billing settings that define the type of billing document generated for a service order or appointment. It also includes mailing settings, which specify how customers receive email notifications about actions that occur during service delivery. 
 
 #### Service Management Process 
 
- The following diagram illustrates the service management process as a whole; the stages of this process are described in more detail below. This diagram shows this process when billing documents are generated for appointments; they can instead be generated for service orders. 
+ The service management process generally follows these stages (shown in the diagram below): 
+
+1. **Service Order Creation (optional):** A service order is created manually or automatically when an     appointment is created. 
+
+2. **Appointment Creation and Scheduling:** Appointments are created and scheduled to deliver the requested     services. Staff are assigned as needed. 
+
+3. **Appointment Start:** Staff members indicate the start of work; actual start times may be recorded     automatically. 
+
+4. **Performing Services:** Staff perform the requested services and update actual dates and times. 
+
+5. **Appointment Completion:** Staff record completion; actual end times may be captured for time-based     billing. 
+
+6. **Appointment Closing (optional):** A manager reviews and closes appointments aer delivery. 
+
+7. **Service Order Completion (optional):** Once all related appointments are completed, the service order can     also be closed. 
+
+8. **Billing:** Billing documents are generated according to the customer’s billing cycle, either by appointment or     by service order. 
 
 
 <!-- PAGE_BREAK -->
@@ -292,73 +324,325 @@
 
 **_Figure: Service management process (with billing documents generated by appointments)_** 
 
-The service management process consists of the following general stages: 
-
-1. _Optional: Service order creation_ 
-
 
 <!-- PAGE_BREAK -->
  Overview of Service Management Processes | 9 
 
- You create the service order on the Service Orders (FS300100) form and specify such settings as the customer, the requested services, the company branch whose employees perform the services, the location where the services are performed, and the estimated date when the services will be performed. The service order can instead be created automatically by the system when an appointment has been created. 
-
-2. _Creation of the appointment or appointments_     You create the appointment (or multiple appointments, if applicable) on the _Appointments_ (FS300200)     form, specifying the details of each appointment. If no service order is specified for the appointment, one     will be created automatically when you save the created appointment. At this stage, you schedule this     appointment or these appointments to deliver the requested service or services and assign the staff to     perform all requested services. 
-
-3. _Starting of appointments_     A staff member goes to the location of the appointment (multiple staff members may go), usually the     customer location, and indicates on the _Appointments_ form that staff members are starting to perform     the services of the appointment. Depending on the settings of the selected service order type, when the     staff member starts the appointment, the system may fill in the actual start time of the appointment and     services. 
-
-4. _Performing services_     A staff member performs the requested services, and updates an appointment settings (such as actual dates     and times). 
-
-5. _Completion of each appointment of the service order_     Aer the staff member has performed the services (or multiple staff members have done so) and entered     any additional settings of each appointment, they indicate the completion of the appointment on the     _Appointments_ form, meaning that all services have been performed. Depending on the settings of the service     order type, when the staff member completes the appointment, the system may fill in the actual end time of     the appointment and services; this data is important for services that are billed based on time. 
-
-6. _Optional: Closing of the appointment or appointments associated with the service order_     A service manager usually reviews and closes all appointments on the _Appointments_ form aer the services     are delivered, indicating that the appointment has been processed according to the company's internal     requirements. Depending on the settings of the applicable service order type on the _Service Order Types_     (FS202300) form, this stage may be omitted. 
-
-7. _Optional: Service order completion and closing_     Aer every appointment in the service order has been completed, the service order can also be completed     on the _Service Orders_ form to indicate that all activities of the service order have been done. A service     manager usually completes and closes a service order aer the services have been delivered. Depending on     the settings of the applicable service order type on the _Service Order Types_ form, this stage may be omitted. 
-
-8. _Generating billing document_     The generation of billing documents is based on the billing cycle you assigned to the customer. If you     assigned a billing cycle that generates billing documents by appointment, then when each appointment has     been completed or closed (depending on the settings of the service order type), you can bill the customer     for the services delivered in the appointment. You can configure the billing cycle so that the service order     also has to be completed or closed before the billing document is generated. 
-
 #### Calendar Board 
 
- Because appointment creation and scheduling are the most common tasks in service management, Acumatica ERP gives you a variety of ways to create and manage appointments. You can create these records by using the calendar boards—dashboards where you can see the workloads of your staff and where appointments can be 
+ Appointments can be created, scheduled, and managed through calendar boards—visual dashboards that show staff workloads. Calendar boards are available on the Calendar Board (FS300300), Staff Calendar Board (FS300400), and Room Calendar Board (FS300700) forms. From the calendar board, you can: 
 
+- Create, schedule, or delete appointments. 
 
-<!-- PAGE_BREAK -->
- Overview of Service Management Processes | 10 
+- Assign or reassign appointments based on staff availability, skills, and licenses. 
 
- created, scheduled, and assigned with a single movement of the mouse. You can use the calendar boards on the Calendar Board (FS300300), Staff Calendar Board (FS300400), and Room Calendar Board (FS300700) forms. 
+- Adjust estimated start and end times. 
 
- Through the calendar boards, you can do the following: 
+- Confirm, validate, or clone appointments. 
 
-- Create appointments or delete them 
+#### Skills, Licenses, and Service Areas 
 
-- Assign an appointment to a staff member based on skills, licenses, and other settings, and schedule this     appointment 
+1. **Skills** represent abilities that staff members can perform; they are defined on the _Skills_ (FS200600) form and     can be associated with staff and services. 
 
-- Change an appointment's estimated start and end time 
+2. **Licenses** prove that staff members are certified to perform certain work; they are created on the _Licenses_     (FS201000) form. 
 
-- Reassign an appointment to another staff member 
-
-- Confirm, validate, and clone appointments 
-
-#### Other Features 
-
- To optimally manage services, you can also define skills and licenses, to make sure that you assign an employee with the needed qualifications to perform each requested service. Skills, which you create on the Skills (FS200600) form and can associate with staff members and services, are learned abilities to perform a particular activity well. Licenses are documents proving that a particular person has permission to perform work of a certain kind or has knowledge in a certain area; you create these on the Licenses (FS201000) form. 
-
- On the Service Areas (FS201900) form, you can also define service areas that are served by different staff members. You can then filter staff by the served area when you select the person to be assigned to the appointment. All filtering options are also available on the calendar boards. 
+3. **Service Areas** , defined on the _Service Areas_ (FS201900) form, represent the regions covered by staff. These     can be used as filters when assigning staff in appointments or on calendar boards. 
 
 #### Billing Cycles 
 
- You can assign to each customer a billing cycle, which determines the way billing documents are generated for the services provided to customers. Billing cycles are created on the Billing Cycles (FS206000) form and assigned to customers on the Customers (AR303000) form. 
-
- A billing cycle can be defined to generate either AR invoices or sales orders and SO invoices for the provided services. If service orders include only services to be provided, you can use a billing cycle defined to generate AR invoices on the Invoices and Memos (AR301000) that affect accounts receivable. If service orders include stock items along with services to be provided, you can use a billing cycle defined to generate sales orders on the Sales Orders (SO301000) form, from which SO invoices are generated on the Invoices (SO303000) form. 
-
- In the settings of the billing cycle, you can define whether you want to group multiple appointments or service orders into a single billing document, and even define the frequency of invoicing. You can also specify a service order has to be completed or closed for billing documents to be generated for the service order or the appointments related to the service order. 
+ Billing cycles determine how billing documents are generated for delivered services. They are created on the Billing Cycles (FS206000) form and assigned to customers on the Customers (AR303000) form. A billing cycle specifies whether billing is run by appointment or by service order. You can also configure whether multiple appointments or service orders are grouped into a single billing document, as well as the frequency of invoice generation. 
 
 #### Staff Members 
 
- In Acumatica ERP, you can enter and store professional information about each employee, such as the employee's skills, the licenses that grant the employee permission to perform certain kinds of work, the geographical areas where the employee can work, and the employee's work schedules. The system provides tools that use this information to help you quickly and easily select the right person to deliver your services. For more information about these capabilities, see Staff Members: Management of Staff Members' Information. 
+ In Acumatica ERP, you can record and manage professional information about each staff member, including: 
+
+- Skills and licenses. 
+
+- Work schedules. 
+
+- Service areas they cover. The system uses this information to help you assign the right staff to the right services, ensuring efficiency and compliance with requirements. 
+
+#### Conclusion 
+
+ Together, service orders, appointments, scheduling tools, and billing settings provide a complete framework for managing the delivery of services in Acumatica ERP. 
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with a Single Appointment | 11 
+ Scheduling with Modern Calendar Board | 10 
+
+## Scheduling with Modern Calendar Board 
+
+ This chapter introduces the Calendar Board— a visual tool for scheduling and managing service appointments in Acumatica ERP. The Calendar Board helps dispatchers and service managers organize work, assign staff, and track appointment statuses in real time. 
+
+### Scheduling Appointments: Calendar Board 
+
+ In field services, appointments are at the core of daily operations, and the calendar is the main tool for managing them. In this topic, you’ll learn how the calendar board helps you schedule, view, and manage appointments efficiently to support smooth service delivery. 
+
+ This topic describes the calendar board available in the modern UI of Acumatica ERP. 
+
+#### From Unscheduled to Scheduled: Easy Appointment Creation 
+
+ On the Calendar Board (FS300300) form, the le pane shows these tabs: 
+
+- **Unscheduled** : All service orders that have not yet been scheduled with appointments 
+
+- **Scheduled** : All appointments that have been created in the system 
+
+ You can collapse or expand the le pane. 
+
+ In this section, we will explore the Unscheduled tab. 
+
+ The Unscheduled tab (Item 1 below) lists all service orders where the Appointment Needed check box is selected and at least one service has the Requiring Scheduling status on the Details tab of the Service Orders (FS300100) form. Each service order appears as a tile (Item 2 and Item 3) displaying the service order’s general information and included services. The services associated with an order are listed at the bottom of the tile. 
+
+ You can create an appointment for either a service order or a specific service by dragging the entire tile or an individual service to either the desired time slot in a staff member’s row or the Unassigned row. A service that has already been scheduled is shaded in gray and preceded by a check mark on the tile (Item 2). If you drag only a service, the new appointment includes just that service. 
+
+ Gray dotted time blocks on the calendar represent a staff member’s non-working hours. The white area represents working hours, which are configured on the Staff Schedule Rules (FS202001) form. 
+
+
+<!-- PAGE_BREAK -->
+ Scheduling with Modern Calendar Board | 11 
+
+**_Figure: Service orders and services on the Unscheduled tab_** 
+
+You can search for a service order by using the **Search** box. The system will search based on the string you enter, which can include the service order number, description, customer ID, customer name, address, phone number, email, service order detail description, and problem description. Additionally, you can filter the list of service orders by using the Acumatica ERP’s simple or advanced filtering capabilities. 
+
+To view more details about a service order, simply click its reference number in the tile to open the quick view panel (see below). 
+
+
+<!-- PAGE_BREAK -->
+ Scheduling with Modern Calendar Board | 12 
+
+ Figure: Quick view panel for a service order 
+
+#### Appointments at a Glance 
+
+ The Scheduled tab of the le pane of the Calendar Board (FS300300) form shows a complete list of all scheduled appointments. Click an appointment tile in the list to: 
+
+- Highlight the appointment on the calendar in its corresponding day and time slot 
+
+- Highlight the appointment location on the map (see below) 
+
+
+<!-- PAGE_BREAK -->
+ Scheduling with Modern Calendar Board | 13 
+
+**_Figure: An appointment on the calendar_** 
+
+You can search for the needed appointment in the list by using the appointment number, description, related service order description, customer ID, customer name, address (from the service order’s address line 1), phone, email, and problem description. Additionally, you can filter the list of appointments by using Acumatica ERP’s simple or advanced filtering capabilities. 
+
+To quickly review appointments scheduled for today, click today's date at the bottom of the Date Picker window (see below), which opens when you click the date on the calendar pane toolbar. The system updates the calendar to display today’s appointments. 
+
+**_Figure: The Date Picker window_** 
+
+
+<!-- PAGE_BREAK -->
+ Scheduling with Modern Calendar Board | 14 
+
+#### Appointment Viewing and Management 
+
+ For efficient management of your appointments on the Calendar Board (FS300300) form, you can quickly perform actions for an appointment. To view the corresponding menu commands, right-click the appointment tile on the Scheduled tab or the calendar pane (see below). 
+
+ Figure: Available menu commands for an appointment 
+
+ Click one of these menu commands: 
+
+- **View** : Opens the quick view panel, where you can briefly review the appointment’s general information. You     can then open it on the _Appointments_ (FS300200) form by clicking the link with its reference number. On the     toolbar of the quick view panel, all the actions listed below are available as buttons too. 
+
+- **Delete** : Deletes the appointment from the system. 
+
+- **Unassign** : Removes the assigned staff member and moves the appointment tile to the **Unassigned** row of     the calendar. 
+
+- **Clone** : Opens the _Clone Appointments_ (FS500201) form. 
+
+- **Validate by Dispatcher** / **Clear Validation** : Validates or removes validation for the appointment. The system     selects or clears the **Validated by Dispatcher** check box on **Settings** tab of the _Appointments_ form. 
+
+- **Confirm** / **Unconfirm** : Confirms or removes confirmation for the appointment. The system selects or clears     the **Confirmed** check box on **Settings** tab of the _Appointments_ form. 
+
+#### Unassigned Appointments on the Calendar 
+
+ If no staff member is assigned to an appointment, it appears in the Unassigned row at the top of the calendar on the Calendar Board (FS300300) form (see below). You can easily assign a staff member by dragging the appointment tile from the Unassigned row to the staff member's row. The appointment will then appear in the corresponding staff member's row, within the appropriate time slot. 
+
+ Note that the Unassigned row is always locked in the Calendar Pane. As you scroll vertically through the staff members, this row remains visible at all times, helping you quickly view and assign appointments without losing sight of the Unassigned row. 
+
+
+<!-- PAGE_BREAK -->
+ Scheduling with Modern Calendar Board | 15 
+
+ The list of staff members displayed in the calendar area is sorted alphabetically—by the first name specified on the Employees (EP203000) form for employees, or the account name specified on the Vendors (AP303000) form for vendors. 
+
+ The size of the appointment tile reflects the scheduled duration. You can adjust the duration by resizing the tile, as well as change the scheduled start time and date by dragging the appointment to the needed time slot. 
+
+ Figure: Scheduled appointments with no staff assigned 
+
+#### Color Coding of Appointments 
+
+ On the Calendar Board (FS300300) form, the color and pattern of the appointment tiles displayed on the Scheduled tab and in the calendar pane can vary, providing a quick visual cue about the appointment's state. These variations depend on whether the appointment: 
+
+- Has been confirmed 
+
+- Is assigned to a staff member 
+
+ Indicator Description Meaning 
+
+ Plain tile colors without stripes indicate that the appointment is confirmed —meaning that the Confirmed check box is selected on the Appointments (FS300200) form. The color reflects whether the appointment is assigned. 
+
+ White tile (Item 1 below) The appointment is confirmed and unassigned. 
+
+
+<!-- PAGE_BREAK -->
+ Scheduling with Modern Calendar Board | 16 
+
+ Indicator Description Meaning 
+
+ Light blue tile (Item 2) The appointment is confirmed and assigned to a staff member. 
+
+ Zebra-striped tiles always indicate that the appointment is not confirmed —meaning the Confirmed check box is cleared on the Appointments (FS300200) form. 
+
+ White zebra-striped tile (Item 3) 
+
+ The appointment is unconfirmed and unassigned to any staff member. 
+
+ Dark blue zebra-striped tile (Item 4) 
+
+ The appointment is unconfirmed but assigned to a staff member. 
+
+ A gray tile indicates that the appointment is finalized. 
+
+ Gray tile (Item 5) The appointment is completed, closed, billed, or canceled. 
+
+The **colored vertical bar** (Item 6) on the tile indicates the appointment's status (for example, _Not Started_ , _In Process_ , _Paused_ , and _Billed_ ). On the **Status Color** tab of _Calendar Preferences_ (FS100500) form, you can change: 
+
+- The colors of each bar and the corresponding status text. 
+
+- The visibility of each status indicator: Just select or clear the check boxes in the **Visible** column for each     status. 
+
+Below you can see the color coding applied to appointment tiles. 
+
+
+<!-- PAGE_BREAK -->
+ Scheduling with Modern Calendar Board | 17 
+
+ Figure: Color indications on the calendar 
+
+#### Appointment Viewing on the Map 
+
+ Map functionality is built into the new calendar on the Calendar Board (FS300300) form. This visual representation of appointments helps you easily track and manage staff locations, optimize routes, and enhance scheduling efficiency. 
+
+ To display the map on the calendar, specify the map settings on the Calendars & Maps tab of the Service Management Preferences (FS100100) form. A registered Azure Maps API key is required. 
+
+ By using the map, you can: 
+
+- **See the location of any appointment**. By clicking an appointment tile on either the calendar (Item 1     below) or the **Scheduled** tab, you can view its precise position on the map (Item 2). 
+
+ You can collapse or expand the map pane. 
+
+
+<!-- PAGE_BREAK -->
+ Scheduling with Modern Calendar Board | 18 
+
+ Figure: The appointment location on the map 
+
+- **View the route on the map between appointments** for the selected staff member. If you click the staff     member's name on the calendar (Item 1 below), the system shows the route between the appointments     assigned to that staff member for the selected day, based on the scheduled start times. 
+
+ Figure: The staff member’s route between appointments 
+
+- **View routes on the map for multiple selected staff members**. By holding the Shi or Ctrl key, you can     select multiple staff members on the calendar (Item 1 below). The system displays the routes between     their appointments for the selected day, based on the scheduled start times. Each staff member's route is     identified by a distinct color (Item 2). 
+
+
+<!-- PAGE_BREAK -->
+ Scheduling with Modern Calendar Board | 19 
+
+ Figure: Multiple routes of selected staff members 
+
+ You can customize the map theme by selecting an icon of your favorite style in the top-right corner of the map pane. 
+
+#### See Where Your Staff Members Are Right Now 
+
+ In Acumatica ERP 2025 R2, you can configure real-time GPS tracking for staff members who are using the Acumatica mobile app. With this functionality in place, the new calendar —integrated with Azure Maps —displays the current locations of staff members. This gives the field service manager a clear view of where technicians are at this moment. 
+
+ You can view the current location of a staff member on the map only if the following conditions are met: 
+
+- The **Show Location Tracking** check box is selected on the **Calendars & Maps** tab on the _Service_     _Management Preferences_ (FS100100) form. 
+
+- A valid key is specified in the **Map API Key** box on the **Calendars & Maps** tab of the _Service Management_     _Preferences_ form. 
+
+- On the **Location Tracking** tab of the _Users_ (SM201010) form, both of these are true for the user account     associated with the staff member: 
+
+- The **Track Location** check box is selected. 
+
+- Working hours are specified 
+
+- The staff member uses a mobile device with the Acumatica mobile app installed. 
+
+- Location permissions for the Acumatica mobile app are allowed on the staff member’s mobile device. Each selected **staff member** is displayed as an icon on the calendar, shown in a **unique** , system-assigned **color**. This color coding helps you distinguish staff members on the calendar. When a staff member is selected, the system highlights their appointments and the routes between them by using the same color as their icon, making it easier to track their schedule and daily routes. 
+
+
+<!-- PAGE_BREAK -->
+ Scheduling with Modern Calendar Board | 20 
+
+#### Smart Assignments 
+
+ To ensure that the right staff member is assigned to the right appointment, you can control the assignment of appointments based on their skills, licenses, and service areas directly on the calendar board. This enhances service quality and reduces the risk of errors or delays. You can: 
+
+- Assign appointments without restrictions to a staff member without checking their skills, licenses, and     service areas. 
+
+- Assign an appointment to any staff member but receive a warning when there's a skill, license, and service     area mismatch. 
+
+- Prevent appointments from being assigned to a staff member if the staff member's skills, licenses, or service     areas don't match the appointment’s requirements. Here's how it works: On the _Service Management Preferences_ (FS100100) form, you specify _Do Not Validate_ , _Warn_ , or _Prevent_ in any (or all) of these boxes: **Skills** , **Service Areas** , and **Licenses** box (see below). 
+
+ Figure: The skill validation options 
+
+ The options mean the following: 
+
+- _Do Not Validate_ : You’ll be able to assign an appointment **to any staff member** on the calendar without     restrictions. 
+
+- _Warn_ : You’ll still be able to assign an appointment to any staff member, even if the skills required for the     appointment services do not match the staff member’s skills. In this case, the _Skill Mismatch_ **warning will**     **appear** next to the staff member, and the staff member will be highlighted in yellow on the board (see     below). 
+
+
+<!-- PAGE_BREAK -->
+ Scheduling with Modern Calendar Board | 21 
+
+ Figure: Warning indication for skill, license, or service area mismatch 
+
+- _Prevent_ : You can assign an appointment to a staff member **only if their skills, service areas, or**     **licenses match** the ones required for the appointment. If there’s a mismatch, the system will display the     corresponding warning next to the staff member and highlight them in red on the calendar (see below). The     system will prevent you from scheduling the appointment if the staff member doesn’t have the required     skills, service areas, or licenses for the services to be scheduled. 
+
+ Figure: Warning of a mismatch 
+
+
+<!-- PAGE_BREAK -->
+ Scheduling with Modern Calendar Board | 22 
+
+#### Customized Calendar View 
+
+ On the new Calendar Board (FS300300) form, you can create customized calendar views that align with your needs. You can easily switch between different filtered views (such as My Team , All Staff , or specific skills or branch locations). See the following items in the example shown below: 
+
+- Item 1: Some **filter tabs** you can create to display different calendar views. 
+
+- Items 2 and 3: The **filter criteria** for a created filter tab. 
+
+- Item 4: A **filtered list of staff members** , limited by the specified criteria. 
+
+ Figure: Calendar with the list of staff members limited by filter criteria 
+
+ If a filter is created based on the branch and branch location settings, appointments assigned to branches not selected in the filter will still appear on the calendar board in gray. This ensures that appointments are not doublebooked. 
+
+#### Scheduling of the Project-Related Appointments 
+
+ This functionality is available when the Projects feature is enabled in your system. 
+
+ To ensure that only the appropriate staff members are assigned to appointments linked to specific projects, based on their qualifications and project involvement, you can configure the system to determine whether a staff member can be assigned to an appointment associated with a specific project. By using the Restrict Employee check box on the Projects (PM301000) form, you can avoid assigning the wrong staff to an appointment. 
+
+ If the check box is selected, the system displays Not in Project next to any staff member not added to the Employees tab of the specified project. These staff members are highlighted in red (shown below), and the system will prevent you from assigning the appointment to them. 
+
+
+<!-- PAGE_BREAK -->
+ Scheduling with Modern Calendar Board | 23 
+
+**_Figure: The indication of the Not in Project staff_** 
+
+
+<!-- PAGE_BREAK -->
+ Processing Service Orders with a Single Appointment | 24 
 
 ## Processing Service Orders with a Single Appointment 
 
@@ -368,7 +652,7 @@ The service management process consists of the following general stages:
 
 ### Service Orders with a Single Appointment: General Information 
 
- A service order is a document created on the Service Orders (FS300100) form that contains information about the services planned for a customer and any associated appointments. In Acumatica ERP, you can create service orders, schedule appointments for them, and process billing for each service order. 
+ A service order, created on the Service Orders (FS300100) form, contains information about the services planned for a customer and any related appointments. In Acumatica ERP, you can create service orders, schedule appointments, and process billing for each service order. 
 
 #### Learning Objectives 
 
@@ -404,7 +688,7 @@ The service management process consists of the following general stages:
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with a Single Appointment | 12 
+ Processing Service Orders with a Single Appointment | 25 
 
 4. Performing services and updating the appointment: A staff member performs the required services and     records the time spent. 
 
@@ -436,7 +720,7 @@ The service management process consists of the following general stages:
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with a Single Appointment | 13 
+ Processing Service Orders with a Single Appointment | 26 
 
 - _AR Documents_ : The system generates an AR invoice, which can be viewed on the _Invoices and Memos_     (AR301000) form, for the service order or appointment of this service order type. If the service order or     appointment has a negative balance, the system generates a credit memo. If the **Create a Bill Document**     **in AP for Negative Balances** check box (which is available if you select this option button) is selected, for a     service order or appointment with a negative balance, the system instead creates an accounts payable bill     on the _Bills and Adjustments_ (AP301000) form. 
 
@@ -454,29 +738,31 @@ The service management process consists of the following general stages:
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with a Single Appointment | 14 
+ Processing Service Orders with a Single Appointment | 27 
 
 **_Figure: Processing of a service order_** 
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with a Single Appointment | 15 
+ Processing Service Orders with a Single Appointment | 28 
 
 ### Service Orders with a Single Appointment: Process Activity 
 
  The following activity will walk you through the process of creating and processing a service order with one appointment. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the SweetLife Service and Equipment Sales Center receives an order for the provision of the training service to a customer of the company, FourStar Coffee & Sweets Shop. 
+ Suppose that the SweetLife Service and Equipment Sales Center receives an order to provide a training service to one of its customers, FourStar Coffee & Sweets Shop. 
 
- The service manager (Maia Davis) needs to enter the service order into the system, assign a staff member, and schedule an appointment to perform the service. The assigned staff member needs to perform the necessary service at the customer location and complete the appointment in the system. (At this point in learning about the service management process, this assignment will be made without regard to employees' qualifications, working hours, and service areas.) Then the accountant will verify the appointment, close the appointment, and generate an AR invoice to bill the customer. You will perform these actions, acting as the service manager, the staff member, and the accountant. 
+ The service manager, Maia Davis, must enter the service order in the system, assign a staff member, and schedule an appointment to deliver the service. The assigned staff member will then perform the service at the customer's location and complete the appointment in the system. (At this stage of learning, the assignment will be made without considering employee qualifications, working hours, or service areas.) 
+
+ Finally, the accountant will review the appointment, close it, and generate an AR invoice to bill the customer. In this activity, you'll perform these steps while acting as the service manager, the staff member, and the accountant. 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -496,11 +782,11 @@ The service management process consists of the following general stages:
 
 - On the _Billing Cycles_ (FS206000) form, the following settings have been specified for the _SO SO_ billing cycle: 
 
-- **Run Billing For** : **Service Orders** 
-
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with a Single Appointment | 16 
+ Processing Service Orders with a Single Appointment | 29 
+
+- **Run Billing For** : **Service Orders** 
 
 - **Group Billing Documents By** : **Service Orders** 
 
@@ -510,35 +796,37 @@ The service management process consists of the following general stages:
 
 #### Process Overview 
 
- To process a service order with one appointment, acting as the service manager (Maia Davis), you will create a new service order on the Service Orders (FS300100) form, add a service to be performed for the order, and create the related appointment on the Appointments (FS300200) form. You will then assign a staff member to the appointment. Acting as this staff member, you will start and then complete the appointment. 
+ To process a service order with a single appointment, you’ll first act as the service manager (Maia Davis) to create a service order on the Service Orders (FS300100) form, add the required service, and create the related appointment on the Appointments (FS300200) form. You’ll then assign a staff member to the appointment. 
 
- Acting as an accountant, you will review and close appointment. Then on the Service Orders form, you will run billing for the service order. 
+ Next, acting as that staff member, you’ll start and complete the appointment. 
+
+ Finally, acting as the accountant, you’ll review and close the appointment and then run billing for the service order on the Service Orders (FS300100) form. 
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step 1: Entering a Service Order 
 
- When you create a service order, you enter general information about the requested service, including the customer name, promised date, and required service. In this step, you will create a service order for a customer who has requested a training service. You will select the TRN order type and specify the TRAINING service. 
+ When you create a service order, you enter general information about the requested service, such as the customer name, promised date, and service details. In this step, you'll create a service order for a customer who has requested a training service. You'll select the TRN order type and specify the TRAINING service. 
 
  To create a service order, do the following: 
 
-1. On the _Service Orders_ (FS300100) form, add a new record. 
+1. On the _Service Orders_ (FS300100) form, click **Add New Record**. 
 
 2. In the Summary area, specify the following settings: 
 
-- **Service Order Type** : _TRN_ 
+- **Order Type** : _TRN_ 
 
 - **Customer** : _COFFEESHOP - FourStar Coffee & Sweets Shop_ 
 
-- **Description** : Training for Customer’s Employees 
+- **Description** : Training for the Customer’s Employees 
 
 3. On the table toolbar of the **Details** tab, click **Add Row** , and specify the following settings in the row: 
 
@@ -548,23 +836,23 @@ The service management process consists of the following general stages:
 
 4. Click **Add Row** again, and in the **Line Type** column, select _Comment_. 
 
-5. Enter the following comment in the **Description** column: Training for 4 of the customer's     employees is necessary now that the juicer has been installed. 
+5. Enter the following comment in the **Description** column: Training for four of the customer’s     employees is required now that the juicer has been installed. 
 
 6. On the form toolbar, click **Save**. 
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with a Single Appointment | 17 
+ Processing Service Orders with a Single Appointment | 30 
 
 #### Step 2: Scheduling an Appointment and Assigning a Staff Member 
 
- In this step, you will create an appointment to represent the staff member’s actual visit to the customer’s location. You will specify the scheduled start date and time for the appointment and assign a staff member to it. 
+ In this step, you’ll create an appointment to represent the staff member’s visit to the customer’s location. You’ll specify the scheduled start date and time and assign a staff member to the appointment. 
 
  To create an appointment, do the following: 
 
-1. While you are still viewing the service order on the _Service Orders_ (FS300100) form, on the form toolbar, click     **Create Appointment**.     The system opens the _Appointments_ (FS300200) form with the appropriate settings copied from the service     order. 
+1. While you are still viewing the service order on the _Service Orders_ (FS300100) form, on the form toolbar, click     **Create Appointment**.     The system opens the _Appointments_ (FS300200) form with the relevant settings copied from the service     order. 
 
-2. On the **Settings** tab, in the **Scheduled Start Date** box, review that 1/30/2025 is selected and specify _11:00_     _AM_. 
+2. On the **Settings** tab, in the **Scheduled Start Date** group of boxes, review that 1/30/2026 is selected and     specify _11:00 AM_. 
 
 3. On the **Staff** tab, assign a staff member to perform the service as follows:     a. On the table toolbar, click **Add Row**.     b. In the **Staff Member** column, select _EP00000042 (Chase Frank)_. 
 
@@ -572,17 +860,17 @@ The service management process consists of the following general stages:
 
 #### Step 3: Processing the Appointment 
 
- In this step, on behalf of the assigned staff member, you will start the appointment, record the actual start date and time, and complete the appointment. 
+ In this step, acting on behalf of the assigned staff member, you’ll start the appointment, record the actual start date and time, and then complete the appointment. 
 
- To process the appointment from its start to its completion, do the following: 
+ To process the appointment from start to completion, do the following: 
 
 1. On the form toolbar of the _Appointments_ (FS300200) form, click **Start**.     You start the appointment to indicate that the appointment is being attended. 
 
 2. On the **Settings** tab, in the **Actual Date and Time** section, specify the following settings: 
 
-- **Actual Start Date** : 1/30/2025 _11:00 AM_ 
+- **Actual Start Date** : 1/30/2026 _11:00 AM_ 
 
-- **Actual End Date** : 1/30/2025 _12:00 PM_ 
+- **Actual End Date** : 1/30/2026 _12:00 PM_ 
 
 - **Finished** : Selected     You select this check box to indicate that the work has been finished during the appointment and that no     follow-up appointment is necessary. 
 
@@ -590,7 +878,7 @@ The service management process consists of the following general stages:
 
 #### Step 4: Generating an AR Invoice 
 
- You can generate a billing document once an appointment is completed or closed, depending on the settings of the service order type. In this lesson, once the appointment is assigned the Closed status, you can bill the customer for the service delivered. You will generate an AR invoice because this type of the document has been specified for the TRN service order type. 
+ You can generate a billing document once an appointment is completed or closed, depending on the settings of the service order type. In this lesson, once the appointment is assigned the Closed status, you can bill the customer for the service provided. You'll generate an AR invoice because this document type is specified for the TRN service order type. 
 
  To generate an AR invoice on behalf of an accountant, do the following: 
 
@@ -598,65 +886,65 @@ The service management process consists of the following general stages:
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with a Single Appointment | 18 
+ Processing Service Orders with a Single Appointment | 31 
 
  billing document for the related service order, as the customer’s billing cycle specifies that billing should be executed at the service order level. 
 
-2. Open the service order by clicking the pencil icon next to the **Service Order Nbr.** box in the Summary area     of the _Appointments_ form. The _Service Orders_ (FS300100) form opens in a separate window. 
+2. Open the service order by clicking its number in the **Service Order Nbr.** box in the Summary area of the     _Appointments_ form. The _Service Orders_ (FS300100) form opens in a separate window. 
 
-3. On the form toolbar of the _Service Orders_ form, click **Run Billing**.     The system opens the _Invoices and Memos_ (AR301000) form with the generated invoice, as the screenshot     below shows. 
+3. On the form toolbar of the _Service Orders_ form, click **Run Billing**.     The system opens the _Invoices and Memos_ (AR301000) form with the generated invoice, as shown below. 
 
-4. Verify the details of the invoice on the form and make sure that they are correct. (In a production     environment, the invoice could now be processed in the system.) 
+4. Verify the details of the invoice and make sure that they are correct. (In a production environment, the     invoice could now be processed.) 
 
 **_Figure: The invoice generated for the service order_** 
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with an Added Appointments | 19 
+ Adding Services to Existing Service Orders | 32 
 
-## Processing Service Orders with an Added Appointments 
+## Adding Services to Existing Service Orders 
 
  In this chapter, you will learn how to add a service to a service order that has already been created in the system, and how to add an extra appointment to the service order to provide the additional service. 
 
-### Service Orders with Added Services and Appointments: General Information 
+### Service Orders with Additional Services and Appointments: General Information 
 
- Sometimes you may need to expand service orders that have already been created in the system on the Service Orders (FS300100) form by adding services, appointments, or both services and appointments. This may happen, for example, when a customer has requested an installation service earlier, and then decided to add cleaning of the installed item or training for employees to the service order. In this case, you would open the existing service order and add another required service. You would then create the needed appointments to perform the service. 
+ Sometimes, you may need to expand existing service orders on the Service Orders (FS300100) by adding services, appointments, or both. For example, a customer who initially requested an installation service might later decide to add equipment cleaning or employee training to the same order. In this case, you would open the existing service order, add the additional service, and create the necessary appointments to perform it. 
 
 #### Learning Objectives 
 
  In this chapter, you will learn how to do the following: 
 
-- Add to an existing service order a new service to be provided to the customer 
+- Add a new service to an existing service order for the customer 
 
 - Consider the skills of the staff member assigned to the service order 
 
-- Create a new appointment to provide the additional service, and add this appointment to the service order 
+- Create a new appointment to deliver the additional service and associate it with the service order 
 
 #### Applicable Scenarios 
 
- You add extra services, additional appointments, or both of these to an existing service order if the work needed by a customer has expanded. 
+ You add extra services, additional appointments, or both to an existing service order when the scope of work requested by the customer has expanded. 
 
-### Service Orders with Added Services and Appointments: Process Activity 
+### Service Orders with Additional Services and Appointments: Process Activity 
 
  In this activity, you will learn how to add an appointment and a service to an existing service order. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the FourStar Coffee & Sweets Shop customer has contacted the SweetLife Service and Equipment Sales Center to request the training service ( TRAINING ) in addition to the juicer installation service ( INSTALL ), which it had requested earlier. The service manager of the Service and Equipment Sales Center has already created a service order that includes the installation service. 
+ Suppose that the FourStar Coffee & Sweets Shop customer contacts the SweetLife Service and Equipment Sales Center to request a training service in addition to the juicer installation service previously ordered. The service manager has already created a service order that includes the installation service. 
 
- Acting as the service manager (Maia Davis), in the existing service order, you will add another service and create another appointment for the training service. 
+ Acting as the service manager (Maia Davis), you'll open the existing service order, add the new training service, and create an additional appointment to provide it. 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
+
+- The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with an Added Appointments | 20 
-
-- The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
+ Adding Services to Existing Service Orders | 33 
 
 - The _SWEETLIFE_ company has been created on the _Companies_ (CS101500) form. This company has multiple     branches created on the _Branches_ (CS102000) form, including _SWEETEQUIP (Service and Equipment Sales_     _Center)_. 
 
@@ -684,27 +972,27 @@ The service management process consists of the following general stages:
 
 #### Process Overview 
 
- On the Service Orders (FS300100) form, you will open an existing service order. On the Details tab, you will add an extra service. Then from this form, you will create a new appointment for the added service. 
+ On the Service Orders (FS300100) form, you'll open an existing service order and add an additional service on the Details tab. Then, from the same form, you'll create a new appointment for the added service. 
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
-
-<!-- PAGE_BREAK -->
- Processing Service Orders with an Added Appointments | 21 
-
-#### Step 1: Adding an Extra Service to the Existing Service Order 
+#### Step 1: Adding an Additional Service to an Existing Service Order 
 
  To add another service to the service order that already exists in the system, do the following: 
 
-1. On the _Service Orders_ (FS300100) form, in the Summary area, select _INST_ service order type, and then select     _000036_ in the **Order Nbr.** box. 
+1. On the _Service Orders_ (FS300100) form, in the Summary area, select _INST_ order type, and then select _000036_     in the **Order Nbr.** box. 
+
+
+<!-- PAGE_BREAK -->
+ Adding Services to Existing Service Orders | 34 
 
 2. On the **Details** tab, notice that the _INSTALL_ service has already been added to the service order, and it has     the _Scheduled_ status. 
 
@@ -716,15 +1004,17 @@ The service management process consists of the following general stages:
 
 4. On the form toolbar, click **Save**. 
 
-#### Step 2: Adding a Staff Member with the Needed Skills 
+#### Step 2: Adding a Staff Member with the Required Skills 
 
- You first need to review the skills of the staff member that has already been assigned to the service order. While you are still viewing the 000036 service order on the Service Orders (FS300100) form, do the following: 
+ First, review the skills of the staff member already assigned to the service order. While viewing the 000036 service order on the Service Orders (FS300100) form, do the following: 
 
 1. On the **Default Staff** tab, notice that _EP00000043 - Edward Smith_ has been assigned to perform the     installation service. 
 
-2. On the table toolbar, click **Add Staff**.     The **Add Staff** dialog box opens. In the top le table (below the Selection area), which lists all skills created     in the system, the unlabeled check box is selected for the skills preferred to perform the services for the     appointment. Notice that the check boxes were selected for the _INSTALLING_ and _TRAINING_ skills because     those skills are associated with the installation and training services. The right table lists only those staff     members who have all of the selected skills. 
+2. On the table toolbar, click **Add Staff**.     The **Add Staff** dialog box opens. On the **Skills** tab, the skills required to perform the services for the     appointment ( _INSTALLING_ and _TRAINING_ ) are selected.     The **Staff** table on the right displays only those staff members who possess all the selected skills. 
 
-3. Clear the check box in the row with _INSTALLING_ in the **Skill ID** column in the top le table, and clear the     check box in the row with _INST REP_ in the **License Type ID** column in the bottom le table. Leave only the     check box in the row with _TRAINING_ selected in those tables.     Notice that _EP00000043 (Edward Smith)_ is still listed in the table on the right. This means that he has the     required skill and license to provide the training service. Leave the check box selected in the row with     _EP00000043 (Edward Smith)_ , and click **OK** at the bottom of the dialog box. 
+3. On the **Skills** tab, clear the check box in the row with the _INSTALLING_ skill ID. 
+
+4. On the **Licenses** tab, clear the check box in the row with the _INST REP_ license type ID.     Notice that _EP00000043 (Edward Smith)_ remains listed in the table on the right. This indicates that he has the     required skill and license to provide the training service. Leave the check box selected in his row, and click     **Add** at the bottom of the dialog box. 
 
  EP00000043 (Edward Smith) will perform both services (installation and training) included in the service order. 
 
@@ -738,23 +1028,23 @@ The service management process consists of the following general stages:
 
 2. On the form toolbar, click **Create Appointment**. The _Appointments_ (FS300200) form opens.     On the **Details** tab of the _Appointments_ form, make sure that the _TRAINING_ service is added. 
 
-3. On the **Settings** tab, in the **Scheduled Start Date** box, specify _01/31/2025 10:00 AM_. 
+3. On the **Settings** tab, in the **Scheduled Start Date** box, specify _02/02/2026 10:00 AM_. 
 
 4. On the **Staff** tab, make sure that _EP00000043 (Edward Smith)_ is assigned to the appointment. 
 
 5. On the form toolbar, click **Save**. 
 
-
-<!-- PAGE_BREAK -->
- Processing Service Orders with an Added Appointments | 22 
-
-6. Return to the _Service Orders_ (FS300100) form, and click the **Appointments** tab (see Item 1 in the following     screenshot).     Notice that two appointments (Item 2) are listed for the service order. 
-
- Figure: The two created appointments 
+6. Return to the _Service Orders_ (FS300100) form, and click the **Appointments** tab (see Item 1 below).     Notice that two appointments (Item 2) are now listed for the service order. 
 
 
 <!-- PAGE_BREAK -->
- Quick Billing of Service Orders | 23 
+ Adding Services to Existing Service Orders | 35 
+
+**_Figure: The two created appointments_** 
+
+
+<!-- PAGE_BREAK -->
+ Quick Billing of Service Orders | 36 
 
 ## Quick Billing of Service Orders 
 
@@ -762,9 +1052,9 @@ The service management process consists of the following general stages:
 
 ### Quick Billing of Service Orders: General Information 
 
- In Acumatica ERP, you can process a service order with just one click if the service order is created based on a service order type for which the quick processing functionality has been configured. For details, see Service Order Types: Quick Processing Settings. 
+ In Acumatica ERP, you can process a service order with a single click if it is based on a service order type that has quick processing set up. For details, see Service Order Types: Quick Processing Settings. 
 
- Quick processing of a service order involves multiple actions being performed on the service order automatically, such as completing and closing it and generating the billing documents. These actions are described in detail further in this topic. 
+ Quick processing of a service order executes multiple actions in one step, including completing and closing the order and generating the billing documents. Further details about these actions are provided later in this topic. 
 
 #### Learning Objectives 
 
@@ -776,65 +1066,63 @@ The service management process consists of the following general stages:
 
 #### Applicable Scenarios 
 
- You process a service order quickly when you have agreed with the customer to generate billing documents (and possibly send them to the customer by email) before any needed appointments take place. 
+ You process a service order quickly when you’ve agreed with the customer to generate billing documents—and, if needed, send them by email—before any related appointments take place. 
 
-#### Actions to Be Applied to a Service Order During Quick Processing 
+#### Actions Performed on a Service Order During Quick Processing 
 
- If a service order is created based on a service order type for which quick processing is permitted, you can click the Quick Process button on the form toolbar of the Service Orders (FS300100) form to process the service order quickly. This opens the Process Service Order dialog box, which contains check boxes representing the actions that can be performed on the service order during processing. 
+ If a service order is created based on a service order type that supports quick processing, you can click Quick Process on the form toolbar of the Service Orders (FS300100) form to process the service order in a single step. This action opens the Process Service Order dialog box (see below), which contains check boxes representing the actions that can be performed on the service order during quick processing. 
 
- As described in the next section, the service order type selected for the service order determines the check boxes that appear and are available in this dialog box, as well as their default states. The dialog box may contain the following check boxes: 
-
-- **Allow Billing** ( **Service Order Actions** section): Indicates that the generation of billing documents for the     service order is allowed during quick processing of service orders of the type. This check box is always read-     only and selected. 
-
-- **Complete** ( **Service Order Actions** section): Indicates whether the system completes this service order     during quick processing. 
-
-- **Close** ( **Service Order Actions** section): Indicates whether the system closes this service order during quick     processing. 
-
-- **Run Billing** ( **Service Order Actions** section): Indicates whether the system generates a billing document     during quick processing. 
-
-- **Prepare Invoice** ( **Sales Order Actions** section): Indicates whether the system creates an SO invoice for the     generated sales order during quick processing. 
-
-- **Use Sales Order Quick Processing** ( **Sales Order Actions** ): Indicates whether when quick processing is run     for the service order, the system processes the generated sales order by using the quick processing settings     specified for the sales order type on the _Order Types_ (SO201000) form. 
+ Note that the service order type settings determine which check boxes appear in the dialog box, their availability, and their default states. 
 
 
 <!-- PAGE_BREAK -->
- Quick Billing of Service Orders | 24 
+ Quick Billing of Service Orders | 37 
 
-- **Email Sales Order/Quote** ( **Sales Order Actions** section): Indicates whether the system emails the sales     order to the customer during quick processing. 
+The dialog box may contain the following sections and check boxes: 
 
-- **Release Invoice** ( **Invoice Actions** section): Indicates whether the system releases the generated invoice     during quick processing. 
+- **Service Order Actions** section: 
 
-- **Email Invoice** ( **Invoice Actions** section): Indicates whether the system emails the generated invoice to the     customer during quick processing. In the dialog box, you review the processing details and make any needed changes to the state of the check boxes. You then click **OK** to close the dialog box, start the quick processing of the service order, and open the **Processing Results** dialog box, which shows the progress of the operations being performed and links to the generated documents. 
+- **Allow Billing** : Indicates that billing documents can be generated during quick processing for service     orders of this type. This check box is always selected and read-only. 
 
-#### Service Order Quick Processing 
+- **Complete** : Specifies whether the system completes the service order during quick processing. 
 
- You can run quick processing for a service order on the Service Orders (FS300100) form if both of the following conditions are met: 
+- **Close** : Specifies whether the system closes the service order during quick processing. 
 
-- For the applicable service order type, the **Allow Quick Process** check box is selected on the **General** tab of     the _Service Order Types_ (FS202300) form ( **Billing Settings** section). In this case, on the **Quick Processing**     tab, the administrator has specified the default settings for quick processing of a service order of the type. 
+- **Run Billing** : Specifies whether the system generates a billing document during quick processing. 
 
-- The billing cycle assigned to the customer is configured to generate billing documents from service orders—     that is, **Service Orders** is selected under **Run Billing For** of the _Billing Cycles_ (FS206000) form for the billing     cycle. When you click **Quick Process** on the _Service Orders_ form, the system opens the **Process Service Order** dialog box with the specific set of available actions and the default settings based on the service order type assigned to the service order being processed. In this dialog box, you can select additional actions to be performed, or clear the check boxes for the actions selected by default that you do not want to perform. 
+- **Sales Order Actions** section.     This section appears if _Sales Orders_ is selected in the **Generated Billing Documents** box on the _Service_     _Order Types_ form ( **General** tab): 
 
- The available actions in the Process Service Order dialog box differ as follows, based on the settings specified on the Service Order Types form ( General tab) for the service order type specified for the service order: 
+- **Prepare Invoice** : Specifies whether the system creates an SO invoice for the generated sales order     during quick processing. This check box appears if _IN - Invoice_ is selected in the **Order Type for Billing**     box ( **Billing Settings** section) on the _Service Order Types_ form. 
 
-- If _Sales Orders_ is selected in the **Generated Billing Documents** box, the **Sales Order Actions** section     appears in the **Process Service Order** dialog box, as shown in the following screenshot. 
+- **Use Sales Order Quick Processing** : Specifies whether the system uses the quick processing settings     defined for the sales order type. This check box appears if **Allow Quick Process** is selected on the     **Template** tab of the _Order Types_ (SO201000) form for the order type specified in the **Order Type for**     **Billing** box ( **Billing Settings** section) on the _Service Order Types_ form. 
 
- Figure: The quick processing actions for a service order for which a sales order is to be generated 
+- **Email Sales Order/Quote** : Specifies whether the system emails the sales order to the customer during     quick processing. 
 
- When sales orders are generated during billing, quick processing is also affected by the settings of the sales order type associated with the sales order, which is selected in the Order Type for Billing box of the Service Order Types form. If the Allow Quick Process check box is selected on the Template tab on the Order Types (SO201000) form for the order type, then the Use Sales Order Quick Processing check box is available in the Sales Order Actions section of the Process Service Order dialog box. When a user selects this check box, the Prepare Invoice check box disappears in the dialog box. 
+- The **Invoice Actions** section.     If _SO Invoices_ is selected in the **Generated Billing Documents** box on the _Service Order Types_ form, the     system generates a sales invoice when the service order is billed. This setting causes the **Sales Order**     **Actions** section to be hidden. 
+
+- **Release Invoice** : Specifies whether the system releases the generated invoice during quick processing. 
+
+- **Email Invoice** : Specifies whether the system emails the generated invoice to the customer during quick     processing. 
+
+In the dialog box, you can review the available actions and, if needed, update the check box selections. 
 
 
 <!-- PAGE_BREAK -->
- Quick Billing of Service Orders | 25 
+ Quick Billing of Service Orders | 38 
 
-- If _SO Invoices_ is selected in the **Generated Billing Documents** box for the service order type, the system     generates a sales invoice when the service order is billed. This setting causes the **Sales Order Actions**     section to disappear in the dialog box, as shown in the following screenshot. 
+#### Service Order Quick Processing Setup 
 
- Figure: The quick processing actions for a service order for which an SO invoice is to be generated 
+ You can run quick processing for a service order on the Service Orders (FS300100) form if both of the following set up conditions are met: 
+
+- For the service order type, the **Allow Quick Process** check box is selected on the **General** tab of the _Service_     _Order Types_ (FS202300) form ( **Billing Settings** section). In this case, on the **Quick Processing** tab, the     administrator has specified the default settings for quick processing of a service order of the type. 
+
+- The billing cycle assigned to the customer is set up to generate billing documents for service orders—that is,     **Service Orders** is selected for **Run Billing For** on the _Billing Cycles_ (FS206000) form for the billing cycle. 
 
 ### Quick Billing of a Service Order: Process Activity 
 
  This activity will walk you through the creation of a service order whose type allows quick processing, and then through the quick processing of this service order. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -846,7 +1134,7 @@ The service management process consists of the following general stages:
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -854,15 +1142,15 @@ The service management process consists of the following general stages:
 
 - On the _Service Management Preferences_ (FS100100) form, the minimum settings have been specified,     including specifying the numbering sequences and work calendar, for the service management functionality     to be used. 
 
-
-<!-- PAGE_BREAK -->
- Quick Billing of Service Orders | 26 
-
 - On the _Users_ (SM201010) form, the _jones_ user account has been created. The _EP00000012 - Yona Jones_     employee has been associated with the _jones_ user account; that is, _Yona Jones_ has been selected in the     **Linked Entity** box of the Summary area of the _Users_ form. 
 
 - On the _Service Order Types_ (FS202300) form, the _MRO_ service order type has been defined with the following     settings: 
 
 - On the **General** tab ( **Billing Settings** section): 
+
+
+<!-- PAGE_BREAK -->
+ Quick Billing of Service Orders | 39 
 
 - **Generated Billing Documents** : _SO Invoice_ 
 
@@ -902,57 +1190,59 @@ The service management process consists of the following general stages:
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the **_jones_** username and the _123_ password. 
+1. Sign in to Acumatica ERP as an accountant in a company that has the _U100_ dataset preloaded, using the     **jones** username and the _123_ password. 
 
-2. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step 1: Quickly Processing the Service Order 
 
  To quickly process a service order, do the following: 
 
-
-<!-- PAGE_BREAK -->
- Quick Billing of Service Orders | 27 
-
 1. On the _Service Orders_ (FS300100) form, open the _000037_ service order. 
 
-2. In the **Service Order Type** box of the Summary area, notice that _MRO_ is specified.     Quick processing settings have been specified for this service order type, as described in the _Configuration_     _Overview_ section of this activity. 
+2. In the **Order Type** box of the Summary area, notice that _MRO_ is specified.     Quick processing settings are defined for this service order type, as described in the _Configuration Overview_     section of this activity. 
 
 3. On the **Details** tab, notice that the _REPAIR_ service is listed. 
 
-4. On the form toolbar, click **Quick Process**.     The **Process Service Order** dialog box opens. 
+4. On the form toolbar, click **Quick Process**. 
 
-5. In the **Invoice Actions** section of the dialog box, select the **Email Invoice** check box. (See the following     screenshot.) You will leave the other default settings, which were specified for the _MRO_ service order type. 
+
+<!-- PAGE_BREAK -->
+ Quick Billing of Service Orders | 40 
+
+ The Process Service Order dialog box opens. 
+
+5. In the **Invoice Actions** section of the dialog box, select the **Email Invoice** check box (see below). You will     leave the other default settings, which were specified for the _MRO_ service order type. 
 
  Figure: The Process Service Order dialog box 
 
 6. Click **OK**. 
 
-7. Aer the processing has successfully completed, notice that in the **Processing Results** dialog box, you can     see the status of the processing and the billing documents generated by the process (see the following     screenshot). 
+7. Aer the processing is successfully completed, the status and the generated billing documents appear in the     upper-right corner of the form (see below). 
 
  Figure: The results of the service order processing 
 
-8. Click **OK** in the **Processing Results** dialog box to close it. 
+ Based on the settings for the MRO service order type and your change to email the invoice, quick processing creates and releases the invoice for the service order and emails it to the customer. 
 
-Based on the settings specified for the _MRO_ service order type (and the setting you changed to have the invoice emailed to the customer), during the quick processing, the system creates and releases an invoice for the service order, and emails the invoice to the customer by email. 
-
-
-<!-- PAGE_BREAK -->
- Quick Billing of Service Orders | 28 
-
-#### Step 2: Reviewing the Created Documents and the Sent Email 
+#### Step 2: Reviewing the Created Documents and Sent Email 
 
  To review the documents that have been generated and the email that has been sent, do the following: 
 
-1. While you are still viewing the _000037_ service order on the _Service Orders_ (FS300100) form, open the **Billing**     **Documents** tab, and notice that the invoice is listed, reflecting that it has been created during the quick     processing. (See the following screenshot.) 
+
+<!-- PAGE_BREAK -->
+ Quick Billing of Service Orders | 41 
+
+1. While you are still viewing the _000037_ service order on the _Service Orders_ (FS300100) form, open the **Billing**     **Documents** tab, and notice that the invoice is listed, reflecting that it has been created during the quick     processing. (See below.) 
 
  Figure: The billing documents generated for the service order 
 
-2. In the **Reference Nbr.** column, click the link to open the invoice.     The _Invoices_ (SO303000) form opens. Notice that the invoice has the _Open_ status. 
+2. In the **Reference Nbr.** column, click the link to open the invoice. 
+
+ The Invoices (SO303000) form opens. Notice that the invoice has the Open status. 
 
 3. On the form title bar (in the top right corner of the form), click **Activities**. The **Tasks & Activities** dialog box     opens. 
 
@@ -962,7 +1252,7 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
 
 <!-- PAGE_BREAK -->
- Assigning Staff Members to Service Orders on the Calendar Board | 29 
+ Assigning Staff Members to Service Orders on the Calendar Board | 42 
 
 ## Assigning Staff Members to Service Orders on the 
 
@@ -970,13 +1260,13 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
  In this chapter, you will learn ho to assign staff members to service orders using the calendar board. 
 
-### Service Orders: To Assign a Service Order to a Staff Member by Using the Calendar 
-
-### Board 
+### Service Orders: To Assign a Staff Member by Using the Calendar Board 
 
  The following activity will walk you through the process of scheduling an appointment for the service order. You will assign a service order to an employee who is available on the scheduled date with consideration given to the employee's skills and licenses. To perform this assignment, you will use the Service Orders tab on the Calendar Board (FS300300) form. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the Acumatica ERP Classic UI. 
+
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -986,7 +1276,7 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -1000,13 +1290,13 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
 - On the _User Profile_ (SM203010) form, for the _davis_ user, _WEST BRIGHTON_ has been specified as the default     branch location. 
 
+
+<!-- PAGE_BREAK -->
+ Assigning Staff Members to Service Orders on the Calendar Board | 43 
+
 - On the _Skills_ (FS200600) form, the _INSTALLING_ skill has been created. 
 
 - On the _License Types_ (FS200900) form, the _INST&REP_ license type has been created. 
-
-
-<!-- PAGE_BREAK -->
- Assigning Staff Members to Service Orders on the Calendar Board | 30 
 
 - On the _Licenses_ (FS201000) form, the _FSL00001_ license has been created. This license has the _TRAINING_     license type and was created for the _EP00000002 - Todd Bloom_ employee. 
 
@@ -1024,13 +1314,13 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
 #### System Preparation 
 
- Before you begin performing this activity, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username and the _123_ password. 
+1. Sign in to Acumatica ERP to a company with the _U100_ dataset preloaded as a service manager by using the     _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the Date box in the upper-right corner of the top pane, specify _1/30/2026_. For simplicity, you'll create and     process all documents in this activity by using this business date. 
 
-3. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step: Creating and Assigning an Appointment 
 
@@ -1048,7 +1338,7 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
 
 <!-- PAGE_BREAK -->
- Assigning Staff Members to Service Orders on the Calendar Board | 31 
+ Assigning Staff Members to Service Orders on the Calendar Board | 44 
 
  Figure: An assigned staff member 
 
@@ -1056,7 +1346,7 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
 
 <!-- PAGE_BREAK -->
- Creating Appointments | 32 
+ Creating Appointments | 45 
 
 ## Creating Appointments 
 
@@ -1066,11 +1356,11 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
 ### Appointment Creation: General Information 
 
- In Acumatica ERP, an appointment is a document that represents one in-person meeting to perform one service or multiple services. You can create an appointment either from a service order or independently. If an appointment is created separately, the system automatically generates a related service order when the appointment is saved. 
+ In Acumatica ERP, an appointment is a document that represents a single in-person visit to perform one or multiple services. You can create an appointment either from a service order or independently. When an appointment is created separately, the system automatically generates a related service order once the appointment is saved. 
 
- Typically, you create a service order and include information on the services to be provided to a customer. Based on the details of the service order, you then create each needed appointment, and you schedule the date and time when the service is to be performed. 
+ Typically, you first create a service order and specify the services to be provided to the customer. Based on the details of the service order, you then create the required appointments and schedule the date and time for service delivery. 
 
- In some cases, the need for time-critical services (for example, urgent repair service) arises unexpectedly and may originate from a customer call. In such cases, you may need to create and schedule an appointment quickly without the initial creation of a service order. 
+ In some situations, such as an urgent repair request, the need for service may arise unexpectedly, oen from a customer call. In these cases, you can quickly create and schedule an appointment without first creating a service order. 
 
  In this chapter, you will create and schedule an appointment without first creating a service order. You will learn to do this in several ways. 
 
@@ -1078,11 +1368,11 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
  In this chapter, you will learn how to do the following: 
 
-- Create an appointment directly on the _Appointments_ (FS300200) form, add a service to the appointment,     assign a staff member to the appointment, and send appointment notification emails to the customer and     to the assigned employee. 
+- Create an appointment directly on the _Appointments_ (FS300200) form, add a service to the appointment,     assign a staff member to the appointment. 
 
-- Create an appointment on the _Calendar Board_ (FS300300) form. You will filter staff members by the     performed services and select a staff member whose schedule suits your needs. 
+- Assign staff member to specific services in an existing appointment. 
 
-- Create an appointment from the _Customers_ (AR303000) form, and send notification emails to the customer     and to staff members. 
+- Create an appointment on the _Calendar Board_ (FS300300) form and assign it to a staff member whose skills     meet the appointment requirements. You'll review how the system alerts you when a staff member’s skills     don’t match. 
 
 #### Applicable Scenarios 
 
@@ -1096,7 +1386,7 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
 
 <!-- PAGE_BREAK -->
- Creating Appointments | 33 
+ Creating Appointments | 46 
 
 2. Adding additional information: The service manager assigns the appropriate staff member to the     appointment. The appointment is ready to be attended. 
 
@@ -1118,29 +1408,31 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
 
 <!-- PAGE_BREAK -->
- Creating Appointments | 34 
+ Creating Appointments | 47 
 
 **_Figure: Appointment creation and processing_** 
 
 
 <!-- PAGE_BREAK -->
- Creating Appointments | 35 
+ Creating Appointments | 48 
 
-### Appointment Creation: To Create an Appointment on the Appointments Form 
+### Appointment Creation: To Create an Appointment with Staff on the Appointments 
+
+### Form 
 
  The following activity will walk you through the process of creating an appointment without creating a service order first. You will assign a staff member to the appointment based on the needed skills. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the GoodFood One Restaurant previously ordered a juicer from the SweetLife Service and Equipment Sales Center with a production rate of 1.5 liters per minute. Now this customer needs installation services for the juicer. The service manager (Maia Davis) and the customer have agreed that the service will be delivered on February 4, 2025, at 9 AM. 
+ Suppose that the GoodFood One Restaurant previously ordered a juicer from the SweetLife Service and Equipment Sales Center with a production rate of 1.5 liters per minute. Now this customer needs installation services for the juicer. The service manager (Maia Davis) and the customer have agreed that the service will be delivered on February 4, 2026, at 9:00 AM. 
 
  Acting as the service manager, you need to create an appointment in the system and assign a staff member who has the needed skill for performing the service. 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -1166,11 +1458,11 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
 - On the _Skills_ (FS200600) form, the _INSTALLING_ skill has been created. 
 
-- On the _Non-Stock Items_ (IN202000) form, the _INSTALL_ service (that is, non-stock item of the _Service_ type)     has been created. On the **Price/Cost** tab, the _Flat Rate_ billing rule has been specified. For this service,     _INSTALLING_ has been listed on the **Service Skills** tab (so the assigned staff member must have this skill). 
-
 
 <!-- PAGE_BREAK -->
- Creating Appointments | 36 
+ Creating Appointments | 49 
+
+- On the _Non-Stock Items_ (IN202000) form, the _INSTALL_ service (that is, non-stock item of the _Service_ type)     has been created. On the **Price/Cost** tab, the _Flat Rate_ billing rule has been specified. For this service,     _INSTALLING_ has been listed on the **Service Skills** tab (so the assigned staff member must have this skill). 
 
 - On the _Employees_ (EP203000) form, _EP00000043 (Edward Smith)_ has been defined. For this employee, on the     **General** tab ( **Employee Settings** section), the **Staff Member in Service Management** check box has been     selected. Also, the _INSTALLING_ skill has been added for this employee on the **Skills** tab. 
 
@@ -1180,13 +1472,13 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step 1: Creating an Appointment 
 
@@ -1202,7 +1494,7 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
 3. In the **Description** box, type Juicer installation. 
 
-4. On the **Settings** tab ( **Scheduled Date and Time** section), specify the date and time of the appointment. In     the **Scheduled Start Date** boxes, select _2/4/2025 9:00 AM_. 
+4. On the **Settings** tab ( **Scheduled Date and Time** section), specify the date and time of the appointment. In     the **Scheduled Start Date** group of boxes, specify _2/4/2026 9:00 AM_. 
 
 5. On the form toolbar, click **Save**. 
 
@@ -1214,57 +1506,53 @@ Based on the settings specified for the _MRO_ service order type (and the settin
 
 1. While you are still viewing the appointment on the _Appointments_ (FS300200) form, on the table toolbar of     the **Details** tab, click **Add Items**.     The **Inventory Lookup** dialog box is opened. 
 
-2. In the **Item Class ID** box of the Selection area, select _INSTALLING_.     The dialog box lists only those services that belong to the selected class. 
-
-3. In the table, select the unlabeled check box in the row of the _INSTALL_ service, and click **Add & Close**. 
+2. In the **Line Type** box of the Selection area, select _Service_.     Now the dialog box lists only services of the _Service_ type. 
 
 
 <!-- PAGE_BREAK -->
- Creating Appointments | 37 
+ Creating Appointments | 50 
+
+3. In the table, select the unlabeled check box in the row of the _INSTALL_ service, and click **Add & Close**. 
 
 4. On the form toolbar, click **Save**. 
 
-#### Step 3: Assigning a Staff Member with the Needed Skill 
+#### Step 3: Assigning a Staff Member with the Required Skills to an Appointment 
 
  To assign an appointment to a staff member who has the required skill, do the following: 
 
-1. While you are still viewing the appointment on the _Appointments_ (FS300200) form, on the table toolbar of     the **Staff** tab, click **Add Staff**.     The **Add Staff** dialog box is opened. In the Skills table (the top table below the Selection area), which lists     all skills that have been created in the system, the check box is selected for all skills that are preferred for     performing the service for the appointment. The _INSTALLING_ skill is selected because it is associated with     the _INSTALL_ service on the _Non-Stock Items_ (IN202000) form. Similarly, the License Types table (under the     Skills table) lists all license types that have been created in the system, and the check box is selected for all     license types that are preferred for staff members who perform the service.     The Staff Members table lists only those staff members who match all of the selected skills and license     types. You select the check box for the staff member or members to be assigned to the service. 
+1. While you are still viewing the appointment on the _Appointments_ (FS300200) form, on the table toolbar of     the **Staff** tab, click **Add Staff**.     The **Add Staff** dialog box opens. On the **Skills** tab, the _INSTALLING_ skill is selected because it is associated     with the _INSTALL_ service on the _Non-Stock Items_ (IN202000) form. This skill is preferred for performing the     service for the appointment.     Similarly, on the **Licenses** tab, the check box is selected for the license type required for staff members who     perform the service.     In the **Staff** section, only staff members who match the selected skills and license types are displayed. 
 
-2. In the Skills table and the License Types table, clear all check boxes that are selected.     Notice that all staff members are now listed in the Staff Members table. 
+2. Select the check box for _Edward Smith_. 
 
-3. In the Skills table, again select the check box for the _INSTALLING_ skill. 
+3. At the bottom of the dialog box, click **Add**. 
 
-4. In the Staff Members table, select the check box for _Edward Smith_. 
-
-5. At the bottom of the dialog box, click **OK**. 
-
-6. On the form toolbar, click **Save**. 
+4. On the form toolbar, click **Save**. 
 
  On the Staff tab, notice that EP00000043 (Edward Smith) is now assigned to the appointment. 
 
-### Appointment Creation: To Create an Appointment on the Calendar Board 
+### Scheduling Appointments: To Create a Skill-Matched Appointment on the Calendar 
 
- In this activity, you will learn how to create an appointment without a service order from the Calendar Board (FS300300) form. You will also learn how to filter staff members that meet the requirements for an appointment by using the Staff Filters dialog box, which takes into account skills, licenses, and service areas. 
+ In this activity, you will create an appointment on the Calendar Board (FS300300) form. You will assign a staff member who meets the skill requirements for the appointment and observe how the system displays warnings for staff members whose skills do not match the required ones. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that GoodFood One Restaurant has a juicer and wants the SweetLife Service and Equipment Sales Center to perform repairs on the juicer. The service manager (Maia Davis) and the customer have agreed that a staff member will come to repair the juicer on January 30, 2025, at 8 AM. The assigned staff member must have a special skill to repair the juicer, as well as a license from the producer of the juicer. 
+ Suppose that GoodFood One Restaurant has a juicer and wants the SweetLife Service and Equipment Sales Center to perform repairs on the juicer. The service manager (Maia Davis) and the customer have agreed that a staff member will come to repair the juicer on January 30, 2026, at 8:00 AM. The assigned staff member must have a special skill to repair the juicer, as well as a license from the producer of the juicer. 
 
  Acting as the service manager, you will create the appointment and assign a staff member who meets these requirements and can perform the work at the agreed-upon time. 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
+- The _SWEETLIFE_ company has been created on the _Companies_ (CS101500) form. This company has multiple     branches created on the _Branches_ (CS102000) form, including _SWEETEQUIP (Service and Equipment Sales_     _Center)_. 
+
 
 <!-- PAGE_BREAK -->
- Creating Appointments | 38 
-
-- The _SWEETLIFE_ company has been created on the _Companies_ (CS101500) form. This company has multiple     branches created on the _Branches_ (CS102000) form, including _SWEETEQUIP (Service and Equipment Sales_     _Center)_. 
+ Creating Appointments | 51 
 
 - On the _Service Management Preferences_ (FS100100) form, the minimum settings have been specified,     including specifying the numbering sequences and work calendar, for the service management functionality     to be used. Also, the _MRO_ service order type has been selected in the **Default Service Order Type** box. 
 
@@ -1282,17 +1570,9 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 - On the _Skills_ (FS200600) form, the _REPAIRING_ skill has been created. 
 
-- On the _License Types_ (FS200900) form, the _INST&REP_ license type has been created. 
-
 - On the _Service Areas_ (FS201900) form, the _MANHATTAN_ area has been created. 
 
-- On the _Licenses_ (FS201000) form, the following licenses have been created: 
-
-- _FSL00003_ , which has the _INST&REP_ license type and was created for the _EP00000004 (Alberto Jimenez)_     employee 
-
-- _FSL00002_ , which has the _INST&REP_ license type and was created for the _EP00000003 (Jon Waite)_     employee 
-
-- On the _Non-Stock Items_ (IN202000) form, the _REPAIR_ service (that is, non-stock item of the _Service_ type) has     been defined. This service has the _Flat Rate_ billing rule specified on the **Price/Cost** tab. For this service,     _REPAIRING_ has been listed on the **Service Skills** tab, and _INST&REP_ has been listed on the **Service License**     **Types** tab. 
+- On the _Non-Stock Items_ (IN202000) form, the _REPAIR_ service (that is, non-stock item of the _Service_ type) has     been defined. This service has the _Flat Rate_ billing rule specified on the **Price/Cost** tab. For this service,     _REPAIRING_ has been listed on the **Service Skills** tab. 
 
 - On the _Employees_ (EP203000) form, the following employees have been created: 
 
@@ -1302,93 +1582,91 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 #### Process Overview 
 
- On the Calendar Board (FS300300) form, you will filter staff members for the performed service, which causes the system to hide the staff members who don't match the requirements. You will then select the staff members whose working schedule is suitable for the appointment and create the appointment from the board. 
+ On the Calendar Board (FS300300) form, you will initiate the creation of an appointment. On the Appointments (FS300200) form, you will add a service to the appointment and save it. Then, on the Calendar Board (FS300300) form, you will confirm the appointment and assign it to a staff member who has the skills required to perform the service. 
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
+
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a service manager by using the _davis_ username and the _123_ password. 
+
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
+
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
+
+4. On the _Service Management Preferences_ (FS100100) form, select _Warn_ in the **Skills** box ( **Appointment**     **Validation Settings** section), and save it. 
 
 
 <!-- PAGE_BREAK -->
- Creating Appointments | 39 
+ Creating Appointments | 52 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username and the _123_ password. 
+#### Step: To Initiate the Creation of an Appointment on the Calendar 
 
-2. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
-
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
-
-#### Step 1: Filtering Staff Members for an Appointment 
-
- To filter staff members for the appointment to be created, do the following: 
+ To create the appointment, do the following: 
 
 1. Open the _Calendar Board_ (FS300300) form. 
 
-2. In the Date box (in the upper right corner of the dashboard), ensure that _1/30/2025_ is selected.     The dashboard displays the staff members of the _Service and Equipment Sales Center_ branch and their     working schedules. 
+2. In the Date box of the calendar toolbar, ensure that _January 30_ is specified. 
 
-3. Click the **Filter** icon in the top right corner of the calendar dashboard.     The **Staff Filters** dialog box opens, in which you can narrow the selection of staff members. 
+3. On the Calendar toolbar, click **Add Appointment**. The **New Appointment** dialog box opens. 
 
-4. On the **Skills** tab of the dialog box, select the **Repair of juicers** check box. 
+4. In the **Customer** box ( **Service Order** section), select _GOODFOOD - GoodFood One Restaurant_. 
 
-5. On the **Services** tab of the dialog box, select the **Repair of customer's equipment** check box. 
+5. In the **Description** box ( **Appointment** section), enter Diagnose and repair a customer’s     juicer. 
 
-6. On the **Service Areas** tab, select the **Manhattan** check box. 
+6. In the **Duration** box, enter _1 h 00 m_. 
 
-7. Click **Filter & Close**.     The dialog box is closed, the filter is applied, and the staff members whose skills and assigned service areas     match those of the selected service are displayed on the _Calendar Board_. 
+7. Click **Create Appointment** on the toolbar.     The system opens the _Appointments_ (FS300200) form. 
 
-#### Step 2: Creating the Appointment 
+8. On the **Settings** tab, specify the following: 
 
- To create the appointment, do the following while you are still on the Calendar Board (FS300300) form: 
+- In the **Scheduled Start Date** box, ensure _1/30/2026_ is specified and select _8:00 AM_ (the time requested by     the customer according to the activity story). 
 
-1. In the column for _Alberto Jimenez_ , click at 08:00 AM, and drag the shaded box area downward to 09:30 AM.     On the _Appointments_ (FS300200) form, which is opened in a pop-up window, notice that the scheduled     starting date is 1/30/2025, and that the scheduled starting and ending times are 08:00 AM and 09:30 AM,     respectively. 
+- In the **Scheduled End Date** box, ensure _1/30/2026_ is specified and select _9:00 AM_ (based on the default     service duration of 1 hour and 00 minutes). 
 
-2. In the **Customer** box, select _GOODFOOD - GoodFood One Restaurant_. 
-
-3. On the **Settings** tab, in the **Scheduled Date and Time** section, select the **Confirmed** check box. 
-
- An appointment can be automatically confirmed, which would cause the Confirmed check box to be selected automatically. For automatic confirmation to occur, the time range between the time the appointment was created and the scheduled start time of the appointment must be less than or equal to (in terms of the number of days) the time range specified in the Appointment Auto-Confirm Time box on the Calendars and Maps tab of the Service Management Preferences form. 
-
-4. Click **Add Row** on the table toolbar of the **Details** tab, and select the following options in the row: 
+9. On the **Details** tab, add a service as follows: 
 
 - **Line Type** : _Service_ 
 
-- **Inventory ID** : _REPAIR_ 
+- **Inventory ID** : _REPAIR_ 10.Save the appointment. 11.Return to the _Calendar Board_ form and click **Refresh** on the calendar toolbar. On the calendar, the newly created appointment appears in the topmost **Unassigned** row (see below). 
 
-5. On the form toolbar, click **Save**. 
+ Figure: An appointment in the Unassigned row 
+
+ The color and pattern of the appointment tile indicates that the appointment has not been assigned to any staff member and has not yet been confirmed by the customer. 12.Click the appointment reference number on the tile to open the quick view panel. 
 
 
 <!-- PAGE_BREAK -->
- Creating Appointments | 40 
+ Creating Appointments | 53 
 
-6. Close the _Appointments_ form. 
+ 13.In the quick view panel, click Confirm on the toolbar, assuming that the customer has confirmed the appointment. On the calendar, you’ll see that the color and pattern of the appointment tile have changed to plain white, indicating that the appointment is confirmed but still unassigned. 14.Drag the tile to the Alberto Jimenez row. You’ll see that Skill Mismatch warnings appear next to the staff members who lack the required skill to perform the appointment’s service, and these staff members are highlighted in yellow (see below). You can still assign the appointment to any staff member because this is only a warning, not a restriction. However, in this instruction, you’ll assign the appointment to a qualified staff member without any warning. Notice that the tile’s color changes again (now it’s blue), indicating that the appointment is assigned to a staff member. 
 
- On the Calendar Board form, on the dashboard, the new appointment is now displayed, as the following screenshot shows. 
-
- Figure: An appointment on the calendar board 
+ Figure: An appointment assigned to a qualified staff member 
 
 ### Appointment Creation: To Create an Appointment from the Customers Form 
 
  In this activity, you will create an appointment from the Customers (AR303000) form while viewing a particular customer. You will also learn how to send notification emails to the customer and to your company's own staff members. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the classic Acumatica ERP UI. 
+
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the service manager (Maia Davis) of the SweetLife Service and Equipment Sales Center has received a call from HM's Bakery and Cafe about the repair of a juicer that had been sold to this customer previously. The customer has asked for the repair of the juicer to be performed on February 1, 2025. 
+ Suppose that the service manager (Maia Davis) of the SweetLife Service and Equipment Sales Center has received a call from HM's Bakery and Cafe about the repair of a juicer that had been sold to this customer previously. The customer has asked for the repair of the juicer to be performed on February 1, 2026. 
 
  The service manager needs to check the history of this customer and schedule the appointment for the repair of the juicer. When the appointment is scheduled, the service manager needs to send confirmation emails both to the assigned employee and to the customer. You will perform these actions, acting as the service manager. 
 
+
+<!-- PAGE_BREAK -->
+ Creating Appointments | 54 
+
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you use to complete this lesson, the following setup has been carried out: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
 - The _SWEETLIFE_ company has been created on the _Companies_ (CS101500) form. This company has multiple     branches created on the _Branches_ (CS102000) form, including _SWEETEQUIP (Service and Equipment Sales_     _Center)_. 
-
-
-<!-- PAGE_BREAK -->
- Creating Appointments | 41 
 
 - On the _Service Management Preferences_ (FS100100) form, the minimum settings have been specified,     including specifying the numbering sequences and work calendar, for the service management functionality     to be used. 
 
@@ -1426,15 +1704,15 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
  Before you begin performing the steps of this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username and the _123_ password. 
-
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
-
-3. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
-
 
 <!-- PAGE_BREAK -->
- Creating Appointments | 42 
+ Creating Appointments | 55 
+
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username and the _123_ password. 
+
+2. In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date is set to _1/30/2026_. If a different date is displayed, click the Business Date menu button and     select _1/30/2026_ from the calendar. For simplicity, you'll create and process all documents in this activity     using this business date. 
+
+3. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
 
 #### Step 1: Creating an Appointment from the Customers Form 
 
@@ -1444,7 +1722,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 2. On the More menu (under **Services** ), click **Schedule on Calendar**.     The _Calendar Board_ (FS300300) form is opened in a pop-up window. 
 
-3. In the Date box (in the top right corner of the dashboard), change the calendar date to _2/1/2025_. 
+3. In the Date box (in the top right corner of the dashboard), change the calendar date to _2/1/2026_. 
 
 4. On the dashboard, in the column for _Jon Waite_ , click at 16:00, and drag the bottom of the shaded box to     17:30. 
 
@@ -1476,6 +1754,10 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 6. Close the pop-up window. 
 
+
+<!-- PAGE_BREAK -->
+ Creating Appointments | 56 
+
 #### Step 3: Reviewing the Customer's Appointments 
 
  To review the appointments for the customer, do the following: 
@@ -1486,33 +1768,31 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 3. In the Selection area, clear the **Staff Member** box. 
 
-4. In the **To Scheduled Date** box, select _2/1/2025_. 
-
-
-<!-- PAGE_BREAK -->
- Creating Appointments | 43 
+4. In the **To Scheduled Date** box, select _2/1/2026_. 
 
  Review the list of all appointments scheduled for the customer, including the appointment you have just created (see the following screenshot). 
 
  Figure: An appointment created from the Customers form 
 
-### Appointment Creation: To Assign a Staff Member to a Particular Service 
+### Staff Assignment: To Assign Staff To Services in an Appointment 
 
-### Considering Skills and Licenses 
+ This activity guides you through the process of assigning a staff member to a specific service in an appointment. 
 
- The following activity will walk you through the process of assigning a staff member to a particular service of an appointment. 
-
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the GoodFood One Restaurant customer has contacted the SweetLife Service and Equipment Sales Center and requested the juicer installation service, along with the training service aer installation is completed. The customer wants each employee performing the service to have specific licenses and skills, to be sure that the services will be provided with the highest quality. The service manager, Maia Davis, has already created an appointment in the system. 
+ Suppose that the GoodFood One Restaurant customer has contacted the SweetLife Service and Equipment Sales Center to request a juicer installation service, followed by a training service once the installation is complete. The customer requires that each employee performing these services hold specific licenses and skills to ensure the highest quality of work. The service manager, Maia Davis , has already created an appointment for this request in the system. 
 
- Acting as the service manager, you now need to assign a staff member to each service of the appointment in accordance with the staff members' skills and licenses and the skills and licenses required for the services. 
+ Acting as the service manager, you now need to assign a staff member to each service in the appointment, based on the staff members’ skills and licenses and the requirements defined for the services. 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
+
+
+<!-- PAGE_BREAK -->
+ Creating Appointments | 57 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -1521,10 +1801,6 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 - On the _Service Management Preferences_ (FS100100) form, the minimum settings have been specified,     including specifying the numbering sequences and work calendar, for the service management functionality     to be used. 
 
 - On the _Users_ (SM201010) form, the _davis_ account has been created. In the **Linked Entity** box of the     Summary area of the form, the Maia Davis employee account has been specified. 
-
-
-<!-- PAGE_BREAK -->
- Creating Appointments | 44 
 
 - On the _Branch Locations_ (FS202500) form, the _WEST BRIGHTON_ branch location of the _SWEETEQUIP_ ( _Service_     _and Equipment Sales Center_ ) branch has been created. 
 
@@ -1560,13 +1836,17 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 #### System Preparation 
 
- Before you begin performing this activity, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-3. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+
+<!-- PAGE_BREAK -->
+ Creating Appointments | 58 
+
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step: Assigning Staff Members to Services 
 
@@ -1576,51 +1856,69 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 2. On the **Details** tab, click line _0001_ , which has the installation service (that is, _INSTALL_ is in the **Inventory ID**     column). 
 
+3. On the table toolbar, click **Add Staff**. The **Add Staff** dialog box opens, where you do the following: 
+
+- In the Selection area, ensure that _0001_ (the reference number of the installation service) is selected in the     **Service Ref. Nbr.** box. 
+
+- On the **Skills** tab, make sure that the check box is selected in the row with _INSTALLING_ in the **Skill ID**     column. 
+
+- On the **Licenses** tab, make sure that the check box is selected in the row with _INST REP_ in the **License**     **Type ID** column. 
+
+- In the **Staff** table, which lists employees whose skills and license type satisfy the selection criteria, select     the check box in the row with _EP00000043 (Edward Smith)_. 
+
+- Click **Add** at the bottom of the dialog box.     As a result, the system specifies _EP00000043 (Edward Smith)_ in the **Staff Member ID** column for the row     with the installation service on the **Details** tab. 
+
+4. Click line _0002_ , which has the training service (that is, _TRAINING_ is in the **Inventory ID** column). 
+
+5. On the table toolbar, click **Add Staff** to assign a staff member to the training service. The **Add Staff** dialog     box opens, where you do the following: 
+
+- In the Selection area of the **Add Staff** dialog box, which opens, ensure that _0002_ is selected in the **Service**     **Ref. Nbr.** box. 
+
+- On the **Skills** tab, make sure that the check box is selected in the row with _TRAINING_ in the **Skill ID**     column. 
+
+- On the **Licenses** tab, make sure that the check box is selected in the row with _TRAINING_ in the **License**     **Type ID** column. 
+
+- In the **Staff** table, which lists the employees whose skills and license type satisfies the selection criteria,     select the check box in the row with _EP00000042 (Chase Frank)_. 
+
+- Click **Add** to close the dialog box.     As a result, the system specifies _EP00000042 (Chase Frank)_ in the **Staff Member ID** column for the row     with the training service on the **Details** tab. 
+
+6. On the form toolbar, click **Save**. 
+
+7. Review the **Staff** tab. Notice that two staff members have been added to the appointment; each is assigned     to a particular service. 
+
 
 <!-- PAGE_BREAK -->
- Creating Appointments | 45 
-
-3. On the table toolbar, click **Add Staff**. 
-
-4. In the Selection area of the **Add Staff** dialog box, which opens, ensure that _0001_ (the reference number of     the installation service) is selected in the **Service Ref. Nbr.** box. 
-
-5. In the Skills table, make sure that the check box is selected in the row with _INSTALLING_ in the **Skill ID**     column. 
-
-6. In the License Types table, make sure that the check box is selected in the row with _INST REP_ in the **License**     **Type ID** column. 
-
-7. In the Staff Members table, which lists employees whose skills and license type satisfy the selection criteria,     select the check box in the row with _EP00000043 (Edward Smith)_. 
-
-8. Click **OK** to close the dialog box. 
-
-9. On the **Details** tab of the _Appointments_ form, in the **Staff Member ID** column of the line with the INSTALL     service, notice that _EP00000043 (Edward Smith)_ has been added. 10.Click line _0002_ , which has the training service (that is, _TRAINING_ is in the **Inventory ID** column). 11.On the table toolbar, click **Add Staff** to assign a staff member to the training service. 12.In the Selection area of the **Add Staff** dialog box, which opens, ensure that _0002_ (the reference number of     the training service) is selected in the **Service Ref. Nbr.** box. 13.In the Skills table, make sure that the check box is selected in the row with _TRAINING_ in the **Skill ID** column. 14.In the License Types table, make sure that the check box is selected in the row with _TRAINING_ in the **License**     **Type ID** column. 15.In the Staff Members table, which lists the employees whose skills and license type satisfies the selection     criteria, select the check box in the row with _EP00000042 (Chase Frank)_. 16.Click **OK** to close the dialog box. 17.Notice that _EP00000042 (Chase Frank)_ has been added to the **Staff Member ID** column in the line with the     training service on the **Details** tab. 18.On the form toolbar, click **Save**. 19.Review the **Staff** tab (Item 1 in the following screenshot). Notice that two staff members have been added to     the appointment; each is assigned to a particular service (Item 2). 
+ Creating Appointments | 59 
 
  Figure: Staff members assigned to services 
 
-### Appointment Creation: To Assign a Staff Member by Using the Calendar Board 
+### Staff Assignment: From Service Order to Calendar Board 
 
- The following activity will walk you through the process of creating and scheduling an appointment for a service order. You will assign the appointment to an employee who is available on the scheduled date, and you will use the Unassigned Appointments (n) tab on the calendar board. 
+ In this activity, you’ll learn how to schedule an appointment for a service order and assign it to an employee available on the selected date on the calendar board. 
 
+ This activity is based on the Acumatica ERP Classic UI. 
 
-<!-- PAGE_BREAK -->
- Creating Appointments | 46 
-
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the COFFEESHOP FourStar Coffee & Sweets Shop customer has contacted the SweetLife Service and Equipment Sales Center and requested the juicer installation service. The customer wants the employee performing the service to have specific licenses and skills, to be sure that the services will be provided with the highest quality. A service order has been entered in the system. 
+ The COFFEESHOP FourStar Coffee & Sweets Shop customer has contacted the SweetLife Service and Equipment Sales Center to request a juicer installation service. The customer requires that the employee performing the service hold specific licenses and skills to ensure the highest quality of work. A service order for this request has already been entered in the system. 
 
- Acting as the service manager (Maia Davis), you now need to create an appointment and assign it to the staff member while considering the staff member's available working hours as well as specific licenses and skills. 
+ As the service manager (Maia Davis), you task is to create an appointment and assign it to a staff member, taking into account the staff member's working hours, licenses, and skills. 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
 - The _SWEETLIFE_ company has been created on the _Companies_ (CS101500) form. This company has multiple     branches created on the _Branches_ (CS102000) form, including _SWEETEQUIP (Service and Equipment Sales_     _Center)_. 
 
 - On the _Service Management Preferences_ (FS100100) form, the minimum settings have been specified,     including specifying the numbering sequences and work calendar, for the service management functionality     to be used. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Appointments | 60 
 
 - On the _Users_ (SM201010) form, the _davis_ and _waite_ user accounts have been created. The _EP00000040 - Maia_     _Davis_ employee has been associated with the _davis_ user account; that is, _Maia Davis_ has been selected in     the **Linked Entity** box of the Summary area of the form. The _EP00000003 - Jon Waite_ employee has been     associated with the _waite_ user account; that is, _Jon Waite_ has been selected in the **Linked Entity** box of the     Summary area of the form. 
 
@@ -1642,23 +1940,19 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 - On the _Service Orders_ (FS300100) form, the service order with the _000041_ reference number has been     created. 
 
-
-<!-- PAGE_BREAK -->
- Creating Appointments | 47 
-
 #### Process Overview 
 
- You will create an appointment by using the Service Orders (FS300100) form. Then on the Calendar Board (FS300300) form, you will assign a staff member to an appointment while considering the staff member's available working hours. 
+ You will create an appointment on the Service Orders (FS300100) form. Then, on the Calendar Board (FS300300) form, you will assign a staff member to an appointment, taking into account the staff member’s available working hours. 
 
 #### System Preparation 
 
- Before you begin performing this activity, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username and the _123_ password. 
+1. Sign in to Acumatica ERP to a company with the _U100_ dataset preloaded as a service manager by using the     _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the Date box in the upper-right corner of the top pane, specify _1/30/2026_. For simplicity, you'll create and     process all documents in this activity by using this business date. 
 
-3. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step 1: Creating an Appointment from the Service Orders Form 
 
@@ -1668,13 +1962,17 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 2. On the form toolbar, click **Create Appointment**.     The _Appointments_ (FS300200) form opens. 
 
-3. On the **Settings** tab, in the **Scheduled Date and Time** section, set **Scheduled Start Date** to _1/30/2025 1:00_     _PM_. 
+
+<!-- PAGE_BREAK -->
+ Creating Appointments | 61 
+
+3. On the **Settings** tab, in the **Scheduled Date and Time** section, set **Scheduled Start Date** to _1/30/2026 1:00_     _PM_. 
 
 4. Ensure that the **Handle Manually** check box is cleared. 
 
 5. On the form toolbar, click **Save**. 
 
-#### Step 2: Assigning a Staff Member to the Appointment 
+#### Step 2: Assigning a Staff Member on the Calendar Board 
 
  To assign a staff member to the appointment by using the calendar board, do the following: 
 
@@ -1682,15 +1980,15 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 2. On the **Unassigned Appointments (n)** tab (Item 1 in the following screenshot), ensure that the _000041-1_     appointment (Item 2), which was created in Step 1, is listed. 
 
-
-<!-- PAGE_BREAK -->
- Creating Appointments | 48 
-
  Figure: An unassigned appointment 
 
 3. Right-click the appointment, and then click **Filter Staff**. The list of staff members on the dashboard is     filtered to match the skills and licenses of the services in the appointment. 
 
 4. Drag the _000041-1_ appointment from the **Unassigned Appointments (n)** tab to any time interval during     Jon Waite's work hours. The appointment is now assigned to Jon Waite (Item 1 in the next screenshot) at     the scheduled start time that was specified when you created the appointment (Item 2). Note that you can     change the time of the appointment by dragging the appointment box. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Appointments | 62 
 
  Figure: An assigned staff member 
 
@@ -1699,10 +1997,6 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 ### Appointment Creation: Related Inquiry Forms 
 
  In the following sections, you can find details about the inquiry forms you may want to review to gather information about all entered appointments. 
-
-
-<!-- PAGE_BREAK -->
- Creating Appointments | 49 
 
 #### Reviewing Appointments 
 
@@ -1714,9 +2008,29 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 - If you want to find a particular detail (line item) of an appointment—such as a service, an inventory item, or     a piece of equipment—you use the _Appointment Details_ (FS400500) form. This form shows all appointment     details entered into the system, and you can use selection criteria to narrow the list of details and quickly     find the ones you are looking for. 
 
-### Appointment Creation: Calendar Board Forms 
+### Appointment Creation: Calendar Board Form 
 
- In this topic, you will read about the various Acumatica ERP calendar boards you can use for managing appointments. 
+ In this topic, you will read about creating an appointment on the calendar board. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Appointments | 63 
+
+ This topic explains how to perform tasks on the calendar boards available in the Classic UI of Acumatica ERP. 
+
+ For information about the Modern UI calendar board, see Scheduling Appointments: Calendar Board. The following boards are no longer available in the Modern UI: 
+
+- _Staff Calendar Board (FS300400)_ form 
+
+- _Room Calendar Board (FS300700)_ form 
+
+- _Staff Working Schedule Board (FS300500) form_ 
+
+- _Dispatch Board (FS301300)_ form (available with customization only) 
+
+- _Staff Appointments on Map (FS301100)_ form 
+
+- _Appointment History on Map (FS301200)_ form 
 
 #### Scheduling of Appointments on Calendar Boards 
 
@@ -1730,7 +2044,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
  On the Calendar Board (FS300300) form, you see the work schedules of the staff members of your company. To select the right staff members to perform services, you can filter staff members by any needed skills, license types, services, and service areas related to the service for which you want to schedule an appointment. Based on the available working times of staff members, you decide who will perform services and when, assign selected staff members, and create appointments. You can also assign staff members to perform existing appointments. 
 
- For an example of scheduling by using the Calendar Board, see Appointment Creation: To Create an Appointment on the Calendar Board. 
+ For an example of scheduling by using the Calendar Board, see Scheduling Appointments: To Create a Skill-Matched Appointment on the Calendar. 
 
 #### The Staff Calendar Board Form 
 
@@ -1740,13 +2054,13 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 - Create any needed appointments 
 
-
-<!-- PAGE_BREAK -->
- Creating Appointments | 50 
-
 #### The Room Calendar Board Form 
 
  On the Room Calendar Board (FS300700) form, you can see the availability of the rooms in your company's branch location. Based on this information, you can select which services will be performed in which room of the selected branch location and when, and you can create any needed appointments. (If appointments have already been created, you just assign a room to them.) Rooms are usually used for service orders if the services are performed on-site (that is, those for which the services are performed at your company location), and they can also be used for internal service orders. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Appointments | 64 
 
  To be able to use rooms for services, you must have the Enable Rooms check box selected on the Service Management Preferences (FS100100) form. 
 
@@ -1758,7 +2072,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 - If you want to see the appointments associated with a particular staff member for a selected period of time,     you use the _Staff Calendar Board_ (FS300400) form. You can filter information on this form by branch and     branch location. On this form, you can see the general appointment information, such as service order     number, appointment status, customer name and contact phone number. 
 
-- If you want to see the appointments associated with staff members for a particular day and the current     locations of staff members on a Bing map, you use the _Staff Appointments on Map_ (FS301100) form. This     form displays the appointment number and address information. 
+- If you want to see the appointments associated with staff members for a particular day and the current     locations of staff members on an Azure map, you use the _Staff Appointments on Map_ (FS301100) form. This     form displays the appointment number and address information. 
 
 - If your company uses its rooms to provide services, you can view the availability of rooms and appointments     assigned to these rooms for a particular day on the _Room Calendar Board_ (FS300700) form. This form shows     the general appointment information, such as the service order number, the status of the appointment, the     customer name and contact phone number. 
 
@@ -1766,15 +2080,31 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Modifying Calendar Boards | 51 
+ Working with the Calendar Board | 65 
 
-## Modifying Calendar Boards 
+## Working with the Calendar Board 
 
- The topics of this chapter describe the configuration settings that can be applied to the calendar board forms of Acumatica ERP. 
+ The topics in this chapter describe the calendar board, which you can use to schedule and track appointments. 
 
 ### Calendar Board Configuration Options 
 
- In Acumatica ERP, the calendar board forms—that is, Calendar Board (FS300300), Staff Calendar Board (FS300400), and Room Calendar Board (FS300700 )—have similar layouts. These calendar boards consist of the pane with the Service Orders and Unassigned Appointments tabs, which is on the le side of the form, and the Dashboard pane, which is on the right side and provides a visual representation of the appointments. 
+ This topic describes the calendar board available in the Classic UI of Acumatica ERP. 
+
+ For information about the Modern UI calendar board, see Scheduling Appointments: Calendar Board. The following boards are no longer available in the Modern UI: 
+
+- _Staff Calendar Board (FS300400)_ form 
+
+- _Room Calendar Board (FS300700)_ form 
+
+- _Staff Working Schedule Board (FS300500) form_ 
+
+- _Dispatch Board (FS301300)_ form (available with customization only) 
+
+- _Staff Appointments on Map (FS301100)_ form 
+
+- _Appointment History on Map (FS301200)_ form 
+
+ The calendar board forms—that is, Calendar Board (FS300300), Staff Calendar Board (FS300400), and Room Calendar Board (FS300700 )—have similar layouts. These calendar boards consist of the pane with the Service Orders and Unassigned Appointments tabs, which is on the le side of the form, and the Dashboard pane, which is on the right side and provides a visual representation of the appointments. 
 
  This topic describes the configuration options for the following parts or entities of the calendar board forms: 
 
@@ -1790,6 +2120,10 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 - The view mode button (Item 6) 
 
+
+<!-- PAGE_BREAK -->
+ Working with the Calendar Board | 66 
+
  Figure: The calendar board layout 
 
  Users can change configuration options while they are working on a calendar board form. Also, default configuration options can be specified at the system level. 
@@ -1798,13 +2132,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
  The view mode (that is, the orientation of the information) can be changed on the Calendar Board (FS300300) and Room Calendar Board (FS300700) forms. 
 
- The default view mode can be modified, so that the calendar board will initially be displayed in this mode any time you open it. On the Service Management Preferences (FS100100) form, on the Calendars & Maps tab ( Default Calendar Settings section), an administrative user selects Vertical or Horizontal in the View Mode box. With the 
-
-
-<!-- PAGE_BREAK -->
- Modifying Calendar Boards | 52 
-
- Vertical mode, staff members (on the Calendar Board form) or rooms (on the Room Calendar Board form) are shown on the horizontal axis of the board, and times are shown on the vertical axis. In Horizontal mode, the axes are reversed. 
+ The default view mode can be modified, so that the calendar board will initially be displayed in this mode any time you open it. On the Service Management Preferences (FS100100) form, on the Calendars & Maps tab ( Default Calendar Settings section), an administrative user selects Vertical or Horizontal in the View Mode box. With the Vertical mode, staff members (on the Calendar Board form) or rooms (on the Room Calendar Board form) are shown on the horizontal axis of the board, and times are shown on the vertical axis. In Horizontal mode, the axes are reversed. 
 
  You can modify the calendar board orientation view on-the-fly by clicking the orientation mode button (Item 6 in the screenshot above) so that the default orientation view will be changed while you are working with the calendar board. 
 
@@ -1816,6 +2144,10 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
  If a large number of staff members are displayed, this can lead to system performance issues. 
 
+
+<!-- PAGE_BREAK -->
+ Working with the Calendar Board | 67 
+
 #### Changing the Default Time Range 
 
  You can modify the time range on the time axis while you are working on any calendar board by selecting Day , Week , or Month in the drop-down menu on the dashboard toolbar (Item 1 in the following screenshot). This affects only your view of the calendar board during this user session. 
@@ -1826,13 +2158,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 #### Adjusting the Precision of Appointments' Duration 
 
- The precision, which is applied to the duration of each appointment being created on the calendar boards, can be adjusted. The precision defines the minimum interval in minutes in which the duration of appointments can be specified. For example, if the precision is set to 30 minutes, then the minimum duration of a created appointment 
-
-
-<!-- PAGE_BREAK -->
- Modifying Calendar Boards | 53 
-
- can be 30 minutes, and can be increased by only 30-minute intervals (for example, to 60 minutes or 90 minutes). An adinistrative user specifies this setting on the Service Management Preferences (FS100100) form. On the Calendars & Maps tab of this form, one of the following options can be selected in the Appointment Resize Precision box: 
+ The precision, which is applied to the duration of each appointment being created on the calendar boards, can be adjusted. The precision defines the minimum interval in minutes in which the duration of appointments can be specified. For example, if the precision is set to 30 minutes, then the minimum duration of a created appointment can be 30 minutes, and can be increased by only 30-minute intervals (for example, to 60 minutes or 90 minutes). An administrative user specifies this setting on the Service Management Preferences (FS100100) form. On the Calendars & Maps tab of this form, one of the following options can be selected in the Appointment Resize Precision box: 
 
 - _10 minutes_ 
 
@@ -1843,6 +2169,10 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 - _60 minutes_ The selected precision is applicable to all three calendar boards for all users. (That is, it cannot be overridden by an individual user viewing a calendar board.) 
 
  The following screenshot shows the creation of an appointment with a precision of 60 minutes. A user created this appointment by clicking the staff member column area and dragging the shaded area downward (from 12:00 to 13:00). 
+
+
+<!-- PAGE_BREAK -->
+ Working with the Calendar Board | 68 
 
  Figure: An appointment being created with a 60-minute precision 
 
@@ -1858,7 +2188,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Modifying Calendar Boards | 54 
+ Working with the Calendar Board | 69 
 
  Figure: Different colors in appointment boxes based on the appointment's status 
 
@@ -1878,7 +2208,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Modifying Calendar Boards | 55 
+ Working with the Calendar Board | 70 
 
 **_Figure: The Service Order and Unassigned Appointment tabs of the Calendar Preferences form_** 
 
@@ -1886,7 +2216,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Correcting Appointments | 56 
+ Correcting Appointments | 71 
 
 ## Correcting Appointments 
 
@@ -1924,7 +2254,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Quick Billing of Appointments | 57 
+ Quick Billing of Appointments | 72 
 
 ## Quick Billing of Appointments 
 
@@ -1948,71 +2278,69 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
  You process an appointment quickly when you are not going to make changes in the billing documents based on what happens in the appointment, and you need to generate billing documents quickly. 
 
-#### Actions to Be Applied to an Appointment During Quick Processing 
+#### Actions Performed on an Appointment During Quick Processing 
 
- If an appointment is created based on a service order type for which the quick processing setting is permitted, you can click the Quick Process button on the form toolbar of the Appointments (FS300200) form. This opens the Process Appointment dialog box, which contains check boxes representing the actions that can be performed on the appointment during processing. 
+ If an appointment is created based on a service order type that supports quick processing, you can click Quick Process on the form toolbar of the Appointments (FS300200) form to process the appointment in a single step. This action opens the Process Appointment dialog box (see below), which contains check boxes representing the actions that can be performed on the appointment during quick processing. 
 
- As described in the next section, the service order type selected for the appointment determines the check boxes available in this dialog box, as well as their default states and the specific set of check boxes that appear. The dialog box may contain the following check boxes: 
-
-- **Close** ( **Appointment Actions** section): Indicates whether the system closes this appointment during quick     processing. 
-
-- **Email Signed Appointment** ( **Appointment Actions** section): Indicates whether during processing, the     system sends an email with the _Appointment_ (FS642000) report corresponding to the appointment and the     customer's embedded signature. This action is available for the appointment processed in the mobile app     only. 
-
-- **Run Billing** ( **Appointment Actions** section): Indicates whether the system generates a billing document     during quick processing of the appointment. 
-
-- **Prepare Invoice** ( **Sales Order Actions** section): Indicates whether the system creates an SO invoice for the     generated sales order during quick processing of the appointment. 
-
-- **Use Sales Order Quick Processing** ( **Sales Order Actions** ): Indicates whether when quick processing is run,     the system processes the generated sales order by using the quick processing settings specified for the sales     order type on the _Order Types_ (SO201000) form. 
-
-- **Email Sales Order/Quote** ( **Sales Order Actions** section): Indicates whether the system emails the sales     order to the customer during quick processing. 
+ Note that the service order type settings determine which check boxes appear in the dialog box, their availability, and their default states. 
 
 
 <!-- PAGE_BREAK -->
- Quick Billing of Appointments | 58 
+ Quick Billing of Appointments | 73 
 
-- **Release Invoice** ( **Invoice Actions** section): Indicates whether the system releases the generated invoice     during quick processing. 
+ The dialog box may contain the following sections and check boxes: 
 
-- **Email Invoice** ( **Invoice Actions** section): Indicates whether the system emails the generated invoice to the     customer during quick processing. In the dialog box, you review the processing details and make any needed changes to the state of check boxes. You then click **OK** to close the dialog box, start the quick processing of the appointment, and open the **Processing Results** dialog box, which shows the progress of the operations being performed and links to the generated documents. 
+- **Appointment Actions** section: 
+
+- **Close** : Indicates whether the system closes this appointment during quick processing. 
+
+- **Email Signed Appointment** : Indicates whether during processing, the system sends an email with     the _Appointment_ (FS642000) report corresponding to the appointment and the customer's embedded     signature. This action is available for the appointment processed in the mobile app only. 
+
+- **Run Billing** : Indicates whether the system generates a billing document during quick processing of the     appointment. 
+
+- **Sales Order Actions** section:     This section appears if _Sales Orders_ is selected in the **Generated Billing Documents** box on the _Service_     _Order Types_ form ( **General** tab): 
+
+- **Prepare Invoice** : Indicates whether the system creates an SO invoice for the generated sales order     during quick processing of the appointment. 
+
+- **Use Sales Order Quick Processing** : Indicates whether when quick processing is run, the system     processes the generated sales order by using the quick processing settings specified for the sales order     type on the _Order Types_ (SO201000) form. 
+
+- **Email Sales Order/Quote** : Indicates whether the system emails the sales order to the customer during     quick processing. 
+
+- **Invoice Actions** section:     If _SO Invoices_ is selected in the **Generated Billing Documents** box on the _Service Order Types_ form, the     system generates a sales invoice when the service order is billed. This setting causes the **Sales Order**     **Actions** section to be hidden. 
+
+- **Release Invoice** : Indicates whether the system releases the generated invoice during quick processing. 
+
+- **Email Invoice** : Indicates whether the system emails the generated invoice to the customer during quick     processing. In the dialog box, you can review the available actions and, if needed, update the check box selections. 
 
 #### Quick Processing Settings of the Service Order Type 
 
- You can run quick processing for an appointment on the Appointments (FS300200) form if both of the following conditions are met: 
-
-- For the applicable service order type, the **Allow Quick Process** check box is selected on the **General** tab     of the _Service Order Types_ (FS202300) form ( **Billing Settings** section). On the **Quick Processing** tab, the     administrator has specified the default settings for quick processing of an appointment of the type. 
-
-- The billing cycle assigned to the customer is configured to generate billing documents from appointments—     that is, only if **Appointments** is selected in the **Run Billing For** section of the _Billing Cycles_ (FS206000) form     for this billing cycle. When you click **Quick Process** on the _Appointments_ form, the system opens the **Process Appointment** dialog box with the specific set of actions available and the default settings based on the service order type assigned to the appointment being processed. In this dialog box, you can select additional actions to be performed, or clear the check boxes for the actions selected by default that you do not want to perform. The available actions in the **Process Service Order** dialog box differ as follows, based on the settings specified on the _Service Order Types_ form ( **General** tab) for the service order type specified for the appointment: 
-
-- If _Sales Orders_ is selected in the **Generated Billing Documents** box, the **Sales Order Actions** section     appears in the **Process Service Order** dialog box, as shown in the following screenshot. 
-
- Figure: The quick processing actions for an appointment for which a sales order is to be generated 
-
- When sales orders are generated during billing, quick processing is also affected by the settings of the sales order type associated with the sales order, which is selected in the Order Type for Billing box of the Service Order Types form. If the Allow Quick Process check box is selected on the Template tab on the Order Types (SO201000) form for the order type, then the Use Sales Order Quick Processing check box is available in the Sales Order Actions section of the Process Service Order dialog box. When a user selects this check box, the Prepare Invoice check box disappears in the dialog box. 
-
-- If _SO Invoices_ is selected in the **Generated Billing Documents** box for the service order type, the system     generates an SO invoice when the appointment is billed. This setting causes the **Sales Order Actions**     section to disappear in the dialog box, as shown in the following screenshot. 
+ You can run quick processing for an appointment on the Appointments (FS300200) form if both of the following set up conditions are met: 
 
 
 <!-- PAGE_BREAK -->
- Quick Billing of Appointments | 59 
+ Quick Billing of Appointments | 74 
 
- Figure: The quick processing actions for an appointment for which an SO invoice is to be generated 
+- For the service order type, the **Allow Quick Process** check box is selected on the **General** tab of the _Service_     _Order Types_ (FS202300) form ( **Billing Settings** section). In this case, on the **Quick Processing** tab, the     administrator has specified the default settings for quick processing of a service order of the type. 
+
+- The billing cycle assigned to the customer is set up to generate billing documents for appointments—that is,     **Appointments** is selected for **Run Billing For** on the _Billing Cycles_ (FS206000) form for the billing cycle. 
 
 ### Quick Billing of Appointments: Process Activity 
 
- This activity will walk you through the process of billing an appointment with just one click if quick processing has been configured for the service order type specified for the service order and appointment. 
+ This activity will walk you through the process of billing an appointment with just one click if quick processing has been set up for the appointment's order type. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the SweetLife Service and Equipment Sales Center has received a call from HM's Bakery and Cafe. This customer has requested the repair of one of the orange juicers, and the service manager (Maia Davis) has agreed on the appointment day and time with the customer. 
+ The SweetLife Service and Equipment Sales Center has received a call from HM's Bakery and Cafe, requesting the repair of one of their orange juicers. The service manager (Maia Davis) has agreed on the appointment day and time with the customer, and has created and scheduled the appointment in the system. 
 
- Maia Davis has also created and scheduled the appointment in the system. A staff member, Ricardo Martinez ( EP00000044) , has visited the customer, provided the repairing service, and completed the appointment. No changes need to be made to the invoice to be generated for this appointment. 
+ A staff member, Ricardo Martinez ( EP00000044) , visited the customer, performed the repair service, and completed the appointment. No changes are required for the invoice that will be generated for this appointment. 
 
- Acting as accountant Yona Jones, you will quickly process the appointment, which initiates the automatic closing of the appointment and the generation of an invoice for it. Because the customer has requested that you send the invoice by email, you will include the sending of the released invoice to the customer in this processing. 
+ Acting as the accountant Yona Jones, you will quickly process the appointment to automatically close it and generate the related invoice. Since the customer requested to receive the invoice by email, you will also include the action to send the released invoice to the customer as part of this processing. 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -2022,15 +2350,15 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 - On the _Users_ (SM201010) form, the _davis_ and _martinez_ accounts have been created. For the _davis_ user     account, in the **Linked Entity** box of the Summary area of the form, the _Maia Davis_ employee account has     been specified; for the _martinez_ user account, in the **Linked Entity** box, the _Ricardo Martinez_ employee     account has been specified. 
 
-
-<!-- PAGE_BREAK -->
- Quick Billing of Appointments | 60 
-
 - On the _Branch Locations_ (FS202500) form, the _WEST BRIGHTON_ branch location of the _SWEETEQUIP_ ( _Service_     _and Equipment Sales Center_ ) branch has been created. 
 
 - On the _User Profile_ (SM203010) form, for the _davis_ user, _WEST BRIGHTON_ has been specified as the default     branch location. 
 
 - On the _Employees_ (EP203000) form, the _EP00000044 (Ricardo Martinez)_ employee has been created. On the     **General** tab ( **Employee Settings** section), the **Staff Member in Service Management** check box has been     selected. 
+
+
+<!-- PAGE_BREAK -->
+ Quick Billing of Appointments | 75 
 
 - On the _Service Order Types_ (FS202300) form, the _MRO_ service order type has been defined. In the **Billing**     **Settings** section of the **General** tab, _SO Invoices_ has been selected in the **Generated Billing Documents**     box, and the **Allow Quick Process** check box has been selected. On the **Quick Processing** tab, the following     settings have been specified: 
 
@@ -2062,15 +2390,15 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _jones_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as an accountant by using the _jones_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
 3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _Service and Equipment Sales Center_ branch is selected. 
 
-4. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+4. Aer signing in, make sure that the _Service Manag ement_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step 1: Quickly Processing the Appointment 
 
@@ -2078,25 +2406,27 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 1. On the _Appointments_ (FS300200) form, open the _000038-1_ appointment. 
 
-
-<!-- PAGE_BREAK -->
- Quick Billing of Appointments | 61 
-
 2. In the **Service Order Type** box of the Summary area, notice that _MRO_ is selected. Note that quick processing     settings have been defined for this service order type, as described in the _Configuration Overview_ section of     this activity. 
 
 3. On the form toolbar, click **Quick Process**.     The **Process Appointment** dialog box opens. 
 
 4. In the **Invoice Actions** section of the dialog box, select the **Email Invoice** check box.     The invoice will be sent to the customer during quick processing. 
 
-5. Click **OK**.     The system closes the **Process Appointment** dialog box and opens the **Processing Results** dialog box, in     which you can see the status of the process. 
 
-6. Aer the processing has successfully completed, close the **Processing Results** dialog box. 
+<!-- PAGE_BREAK -->
+ Quick Billing of Appointments | 76 
 
- Based on the settings specified for the MRO service order type (and the setting you changed to have the invoice emailed to the customer), during the quick processing, the system closes the appointment, and creates and releases the related invoice. In this case, the system also sends the invoice to the customer by email because you have selected the Email Invoice check box in the Processing Results dialog box. 
+5. Click **OK**.     The system closes the **Process Appointment** dialog box. 
 
-#### Step 2: Reviewing the Created Billing Documents and the Sent Email 
+6. Aer the processing is successfully completed, the status and the generated billing documents appear in the     upper-right corner of the form (see below). 
 
- Review the generated documents and the sent email as follows: 
+ Figure: The results of the appointment processing 
+
+ Based on the settings specified for the MRO service order type (and the setting you changed to have the invoice emailed to the customer), during the quick processing, the system closes the appointment, and creates and releases the related invoice. In this case, the system also sends the invoice to the customer by email because you have selected the Email Invoice check box in the Process Appointment dialog box. 
+
+#### Step 2: Reviewing the Created Billing Documents and Sent Email 
+
+ Review the generated billing documents and the email sent to the customer as follows: 
 
 1. While you are still viewing the _000038-1_ appointment on the _Appointments_ (FS300200) form, click the **Billing**     **Documents** tab, and notice that an invoice is listed. It has been created during the quick processing. 
 
@@ -2110,7 +2440,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Billing Multiple Appointments | 62 
+ Billing Multiple Appointments | 77 
 
 ## Billing Multiple Appointments 
 
@@ -2118,81 +2448,97 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 ### Billing of Multiple Appointments: General Information 
 
- In Acumatica ERP, you can generate billing documents for multiple appointments simultaneously. You use the Run Appointment Billing (FS500100) form, on which you can run the billing process for multiple appointments. You can filter the list of appointments to be processed by the customer, billing cycle, or time frame. 
-
- On the Run Appointment Billing form, you can run billing for only customers with a billing cycle that generates billing documents from appointments. 
+ In Acumatica ERP, you can generate billing documents for multiple appointments simultaneously. You can filter the list of appointments to be processed by customer, billing cycle, or time frame. 
 
  For details on and examples of the different types of billing cycles, see Billing Cycles: Examples. 
 
 #### Learning Objectives 
 
- Billing of Multiple Appointments: General Information In this chapter, you will learn how to generate billing documents simultaneously for multiple appointments of different customers with different billing cycles assigned. 
+ In this chapter, you will learn how to generate billing documents for multiple appointments. 
 
 #### Applicable Scenarios 
 
  You perform mass-billing of appointments when you need to generate billing documents for multiple appointments at the same time. 
 
-#### Generated Documents 
+#### Documents Generated During Appointment Billing 
 
- When a completed appointment is billed on the Run Appointment Billing (FS500100) form, the system creates a sales order, a sales invoice with the Credit Memo type, or an AR credit memo if all of the following conditions are met: 
+ When billing is performed on the Run Appointment Billing (FS500100) form, the system can create sales orders, sales invoices, AR invoices, or project transactions depending on the settings of the related service order type. The billing process can be performed if all of the following conditions are met: 
 
-- The customer has the service order type of the appointment specified on the **Billing** tab of the _Customers_     (AR303000) form. 
+- The customer has at list one billing cycle assigned. 
 
-- For the service order type, _Sales Orders_ , _SO Invoices_ , or _AR Documents_ is selected in the **Generated Billing**     **Documents** box on the **General** tab of the _Service Order Types_ (FS202300) form. The system creates the     noted documents depending on the specified document type as follows: 
+- For the service order type, the appropriate option is selected in the **Generated Billing Documents** box on     the **General** tab of the _Service Order Types_ (FS202300) form. 
 
-- _Sales Orders_ : If this type is selected and the amount of the service order is negative, a sales order with     the _Credit Memo_ type is created. (If the amount is positive, a sales order of the type specified in the **Order**     **Type for Billing** box is created.) 
+#### Documents Generated for Negative-Balance Service Documents 
 
-- _SO Invoices_ : If this type is selected and the amount of the service order is negative, a sales invoice     with the _Credit Memo_ type is created. (If the amount is positive, a sales invoice with the _Invoice_ type is     created.) 
+ When billing is performed on the Run Appointment Billing (FS500100) form, the system can create sales orders or sales invoices with the Credit Memo type, or AP bills, depending on the settings of the related service order type. 
 
-- _AR Documents_ : If this type is selected, the **Create AP Bills for Negative Balances** check box is cleared for     the service order, the amount of the service order is negative, and an AR invoice is created. (If the amount     is positive, an AR credit memos is created.) 
+ These documents are generated if all of the following conditions are met: 
 
-- The billing cycle specified for the customer on the **Billing** tab of the _Customers_ form has the **Appointment**     option button selected under **Run Billing For** on the _Billing Cycles_ (FS206000) form. 
+- The billing cycle specified for the customer on the _Customers_ form. 
+
+- For the service document's order type, one of the following options is selected in the **Generated Billing**     **Documents** box on the **General** tab of the _Service Order Types_ (FS202300) form: 
+
+- _Sales Orders_ : If this option is selected and the amount of the service document is negative, a sales order     with the _Credit Memo_ type is created. If the amount is positive, the system creates a sales order of the     type specified in the **Order Type for Billing** box. 
+
+- _SO Invoices_ : If this option is selected and the amount of the service document is negative, the system     creates a sales invoice with the _Credit Memo_ type. If the amount is positive, the system creates a sales     invoice with the _Invoice_ type. 
+
+- _AR Documents_ : If this option is selected and the amount of the service document is negative: 
+
+- If the **Create AP Bills for Negative Balances** check box is cleared, the system creates an AR invoice. 
+
+- If the **Create AP Bills for Negative Balances** check box is selected, the system creates an AP bill. 
 
 
 <!-- PAGE_BREAK -->
- Billing Multiple Appointments | 63 
+ Billing Multiple Appointments | 78 
 
- The billing cycle is specified for the customer on the Service Billing tab of the Customers form if the Manage Multiple Billing Options per Customer check box is selected on the General tab of the Service Management Preferences (FS100100) form. 
-
- If the Manage Multiple Billing Options per Customer check box is cleared, the billing cycle should be specified in the Service Management section on the Billing tab on the Customers form, because in this case the Service Billing tab on the Customers form is not displayed. 
-
- In the document created during the appointment billing, the system fills in credit terms as follows, depending on whether the Use Credit Terms in Credit Memos check box is selected on the Accounts Receivable Preferences (AR101000) form: 
+ In the document created during the appointment billing, the system fills in the credit terms depending on whether the Use Credit Terms in Credit Memos check box is selected on the Accounts Receivable Preferences (AR101000) form: 
 
 - If the check box is selected, the system copies the credit terms from the customer's settings. 
 
-- If the check box is cleared, the system leaves the **Terms** box of the _Invoices and Memos_ form empty. 
+- If the check box is cleared, the **Terms** box on the generated AR document remains empty. 
+
+#### Multiple Billing Cycles per Customer 
+
+ In Acumatica ERP, a customer can have one or multiple billing cycles, depending on the setting specified on the Service Management Preferences (FS100100) form. 
+
+ If the Manage Multiple Billing Options per Customer check box is selected on the General tab of the Service Management Preferences form, one or more billing cycles can be specified for a customer on the Service Billing tab of the Customers (AR303000) form. 
+
+ If the Manage Multiple Billing Options per Customer check box is cleared, the Service Billing tab is not displayed on the Customers form. In this case, the billing cycle must be specified in the Service Management section on the Billing tab of the same form. 
 
 ### Billing of Multiple Appointments: Process Activity 
 
  The following activity will walk you through the process of generating invoices for multiple appointments. You will also review the invoices that have been generated for customers with different billing cycles assigned. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- The accountant of the SweetLife Service and Equipment Sales Center generates billing documents every day. On February 3, 2025, the accountant (Yona Jones) has to run billing for appointments for the following customers: 
+ The accountant of the SweetLife Service and Equipment Sales Center generates billing documents every day. On February 3, 2026, the accountant (Yona Jones) has to run billing for appointments for the following customers: 
 
 - _GOODFOOD (GoodFood One Restaurant)_ : For this customer, a billing document is generated for each     appointment. 
 
 - _RETSALE (Individual Retail Customer)_ : For this customer, a billing document is generated each Monday. 
 
-- _TOMYUM (Thai Food Restaurant)_ : For this customer, one billing document is generated for each service order;     it includes all appointments of the service order. The service orders for all these customers are of a service order type that is defined to generate sales invoices. In this activity, you will act as the accountant and run billing for these customers. 
+- _TOMYUM (Thai Food Restaurant)_ : For this customer, one billing document is generated for each service order;     it includes all appointments of the service order. By filtering the appointments by customer and billing cycle, Yona can quickly review which appointments are ready for billing and process them together in a single run. 
+
+ The service order type of each appointment is defined to generate sales invoices as billing documents. In this activity, you will act as the accountant and run the billing process for these customers. 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
+
+
+<!-- PAGE_BREAK -->
+ Billing Multiple Appointments | 79 
 
 - The _SWEETLIFE_ company has been created on the _Companies_ (CS101500) form. This company has multiple     branches created on the _Branches_ (CS102000) form, including _SWEETEQUIP (Service and Equipment Sales_     _Center)_. 
 
 - On the _Service Management Preferences_ (FS100100) form, the minimum settings have been specified,     including specifying the numbering sequences and work calendar, for the service management functionality     to be used. 
 
 - On the _Users_ (SM201010) form, the _jones_ account has been created. For the user account, in the **Linked**     **Entity** box of the Summary area of the form, the _Yona Jones_ employee account has been specified. 
-
-
-<!-- PAGE_BREAK -->
- Billing Multiple Appointments | 64 
 
 - On the _Branch Locations_ (FS202500) form, the _WEST BRIGHTON_ branch location of the _SWEETEQUIP_ ( _Service_     _and Equipment Sales Center_ ) branch has been created. 
 
@@ -2222,19 +2568,23 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 #### Process Overview 
 
- You will review closed appointments on the Run Appointment Billing (FS500100) form. On the form, you will specify settings that cause the system to generate invoices automatically. You will then review the generated billing documents on the Service Billing Batches (FS305800) form. 
+ You will review closed appointments on the Run Appointment Billing (FS500100) form and specify the settings required for the system to generate invoices. Aer the billing process is completed, you will review the generated billing documents on the Service Billing Batches (FS305800) form. 
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as an accountant by using the _jones_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as an accountant by using the _jones_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/3/2025_. If a different date is displayed, click the Business Date menu     button, and select the _2/3/2025_ date from the calendar. For simplicity, in this activity, you will create and     process all documents in the system on this business date. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _2/3/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-3. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+3. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _Service and Equipment Sales Center_ branch is selected. 
 
-4. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that     the _Service and Equipment Sales Center_ branch is selected. 
+
+<!-- PAGE_BREAK -->
+ Billing Multiple Appointments | 80 
+
+4. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step 1: Reviewing the Closed Appointments 
 
@@ -2242,17 +2592,21 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 1. Open the _Run Appointment Billing_ (FS500100) form. 
 
-
-<!-- PAGE_BREAK -->
- Billing Multiple Appointments | 65 
-
 2. In the **Generated Billing Documents** box of the Selection area, select _SO Invoices_. 
 
-3. In the **From Date** box, select _1/20/2025_. 
+3. In the **From Date** box, select _1/20/2026_. 
 
-4. In the **Up to Date** box, select _2/3/2025_. 
+4. In the **Up to Date** box, select _2/3/2026_. 
 
- In the table, notice that for GOODFOOD , two appointments of one service order have been closed on 1/28/2025. For RETSALE , two appointments of one service order have been closed, and one appointment of another service order has been closed during the past week. For TOMYUM , the last appointment of a service order has been closed on 1/28/2025. In the Cut-Off Date column, you can see the date when the billing document can be generated for each appointment. This date is computed based on the actual completion date of the appointment, and the billing date is based on the customer's billing cycle. 
+ For convenient review of the table, click the header of the Billing Customer column and select Sort Ascending. The appointments in the table will be sorted by customer name. 
+
+ In the table, notice the following: 
+
+- For _GOODFOOD_ , two appointments of one service order were closed on _1/28/2026_ (see the **Actual End Date**     column). 
+
+- For _RETSALE_ , two appointments of one service order and one appointment of another service order were     closed. 
+
+- For _TOMYUM_ , two appointments of one service order and one appointment of another service order were     closed.     All customers have different billing cycles assigned (see the **Billing Cycle ID** column). In the **Cut-Off Date**     column, you can see the date when the billing document can be generated for each appointment. 
 
 #### Step 2: Generating and Reviewing Invoices 
 
@@ -2260,29 +2614,33 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 1. Once the list of appointments is opened on the _Run Appointment Billing_ (FS500100) form, on the form     toolbar, click **Process All**.     The system opens the **Processing** dialog box, in which you can see the status of the processing. 
 
-2. Aer the processing has successfully completed, in the **Processing** dialog box, click the **Processed** tab.     The table with the processed records is shown in the dialog box. A separate batch with invoices has been     generated for each customer. Move the scroll bar to the right until it reaches the end. 
-
-3. In the **Batch Nbr.** column, click the link in either row for _GOODFOOD (GoodFood One Restaurant)_ (see the     following screenshot). 
-
- Figure: The batches with the generated billing documents 
-
- The Service Billing Batches (FS305800) form opens in a pop-up window with the batch of generated invoices. Notice that a separate invoice (Item 1 in the following screenshot) has been generated for each appointment (Item 2) of one service order (Item 3). This is because the billing cycle of the customer has been defined to run billing for appointments and group them by appointments. 
+2. Aer the processing has successfully completed, click the **Processed** tab in the dialog box.     The table with the processed records is displayed. A batch of invoices has been generated for each     customer. Move the scroll bar to the right until you reach the **Batch Nbr.** column (see below). 
 
 
 <!-- PAGE_BREAK -->
- Billing Multiple Appointments | 66 
+ Billing Multiple Appointments | 81 
+
+ Figure: The batches with the generated billing documents 
+
+3. In the **Batch Nbr.** column, click the batch link for _GOODFOOD (GoodFood One Restaurant)_. Notice that the     same batch number is displayed in both _GOODFOOD (GoodFood One Restaurant)_ rows, so you click either of     them).     The _Service Billing Batches_ (FS305800) form opens in a pop-up window with the batch of generated invoices.     Notice that **a separate invoice** (Item 1 below) has been generated **for each appointment** (Item 2) **of one**     **service order** (Item 3). This is because the billing cycle of the customer has been defined to run billing for     appointments and group them by appointments. 
 
  Figure: A separate invoice generated for each appointment 
 
 4. Close the window with the _Service Billing Batches_ form. 
 
-5. In the **Processing** dialog box, in the **Batch Nbr.** column, click the link for the batch of invoices generated for     _RETSALE - Individual Retail Customer_.     The _Service Billing Batches_ form opens in a pop-up window with the batch of generated invoices. Notice that     one invoice (Item 1 in the following screenshot) has been generated for three appointments (Item 2) of two     service orders (Item 3). This is because the billing cycle of the customer has been defined to run billing for     appointments and group them by time frame (on each Monday). 
+5. Return to the **Processing** dialog box and click the batch link generated for _RETSALE - Individual Retail_     _Customer_.     The _Service Billing Batches_ form opens with the batch of generated invoices. Notice that **one invoice** (Item 1     below) has been generated **for three appointments** (Item 2) **of two service orders** (Item 3). This is because     the billing cycle of the customer has been defined to run billing for appointments and group them by time     frame (on each Monday). 
+
+
+<!-- PAGE_BREAK -->
+ Billing Multiple Appointments | 82 
 
  Figure: One invoice generated for three appointments 
 
 6. Close the window with the _Service Billing Batches_ form. 
 
-7. In the **Processing** dialog box, in the **Batch Nbr.** column, click the link for the batch of invoices generated for     _TOMYUM (Thai Food Restaurant)_.     The _Service Billing Batches_ form opens in a pop-up window with the batch of generated invoices. Notice that     two invoices (see Item 1 in the following screenshot) have been generated for three appointments (Item     2) of two service orders (Item 3). This is because the billing cycle of the customer has been defined to run     billing for appointments and group them by service orders. 
+7. In the **Processing** dialog box, click the batch link generated for _TOMYUM (Thai Food Restaurant)_. 
+
+ The Service Billing Batches form opens with the batch of generated invoices. Notice that two invoices (Item 1 below) have been generated for three appointments (Item 2) of two service orders (Item 3). This is because the billing cycle of the customer has been defined to run billing for appointments and group them by service orders. 
 
  Figure: Two invoices generated for three appointments and grouped by service order 
 
@@ -2290,7 +2648,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Cloning Appointments | 67 
+ Cloning Appointments | 83 
 
 ## Cloning Appointments 
 
@@ -2312,27 +2670,27 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
  The following activity will walk you through the process of cloning an appointment. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the service manager (Maia Davis) of the SweetLife Service and Equipment Sales Center receives a call from HM's Bakery and Cafe regarding the repair of two juicers previously sold to the customer. The customer has requested that the repairs be performed on two separate days: January 31, 2025, and February 4, 2025. 
+ Suppose that the service manager (Maia Davis) of the SweetLife Service and Equipment Sales Center receives a call from HM's Bakery and Cafe regarding the repair of two juicers previously sold to the customer. The customer has requested that the repairs be performed on two separate days: January 31, 2026, and February 4, 2026. 
 
  The service manager needs to create an appointment for the repair of the first juicer. Aer creating the first appointment, Maia will clone it to create an appointment for the repair of the second juicer. Finally, she will review the customer's appointments. You will perform these actions, acting as the service manager. 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The service management functionality has been configured with the ability to sell inventory items, as     described in _Basic Service Management Configuration_. 
 
 - On the _Users_ (SM201010) form, the _davis_ account has been created. For the user account, in the **Linked**     **Entity** box of the Summary area of the form, the Maia Davis employee account has been specified. 
 
-- On the _User Profile_ (SM203010) form, for the _davis_ user, the _WEST BRIGHTON_ branch location has been     selected as the default branch location. 
-
 
 <!-- PAGE_BREAK -->
- Cloning Appointments | 68 
+ Cloning Appointments | 84 
+
+- On the _User Profile_ (SM203010) form, for the _davis_ user, the _WEST BRIGHTON_ branch location has been     selected as the default branch location. 
 
 - On the _Service Order Types_ (FS202300) form, the _MRO_ service order type has been defined. 
 
@@ -2350,49 +2708,49 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 #### Process Overview 
 
- You will create the first appointment on the Calendar Board (FS300300) form. Then, you will clone the appointment to a new one by using the Clone Appointments (FS500201) form. Finally, you will review the customer's appointment history on the Appointment Summary (FS400100) form, accessed from the Customers (AR303000) form. 
+ You will create the first appointment on the Appointments (FS300200) form. Then, you will clone the appointment to a new one by using the Clone Appointments (FS500201) form. Finally, you will review the customer's appointment history on the Appointment Summary (FS400100) form, accessed from the Customers (AR303000) form. 
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a service manager by using the _davis_ username and the _123_ password. 
 
-2. As a prerequisite activity, in the company to which you are signed in, be sure you have enabled the _Service_     _Management_ feature on the _Enable/Disable Features_ (CS100000) form. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _2/16/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step 1: Creating the First Appointment 
 
  To create an appointment for the customer, do the following: 
 
-1. On the _Customers_ (AR303000) form, open the _HMBAKERY (HM's Bakery and Cafe)_ customer. 
+1. On the _Appointments_ (FS300200) form, click **Add New Record**. 
 
-2. On the More menu (under **Services** ), click **Schedule on Calendar**.     The _Calendar Board_ (FS300300) form opens in a pop-up window. 
+2. In the **Customer** box, select _HMBAKERY - HM's Bakery and Cafe_ 
 
-3. On the _Calendar Board_ form, in the Date box (in the top right corner of the dashboard), change the calendar     date to _1/31/2025_. 
+3. On the **Settings** tab, in the **Scheduled Start Date and Time** section, specify _1/31/2026_ 4:00 PM. 
 
-4. On the calendar, in the column for Jon Waite, click at 16:00, and drag the bottom of the shaded box to 17:30.     When you clicked, the system automatically created an appointment. 
+4. On the **Details** tab, add a row, and in the **Inventory ID** box, select the _REPAIR_ service. 
 
-5. Click the reference number of the appointment in the appointment box on the calendar. The _Appointments_     (FS300200) form opens with the customer and default settings filled in. 
+5. On the **Staff** tab, add a row, and specify Jon Waite as a staff member. 
 
-6. On the **Details** tab, add a row, and in the **Inventory ID** box, select the _REPAIR_ service. 
-
-7. On the form toolbar, click **Save**. 
-
-
-<!-- PAGE_BREAK -->
- Cloning Appointments | 69 
+6. On the form toolbar, click **Save**. 
 
 #### Step 2: Cloning the Appointment 
 
  To clone the appointment that you created in Step 1, do the following: 
 
+
+<!-- PAGE_BREAK -->
+ Cloning Appointments | 85 
+
 1. While you are still viewing the appointment on the _Appointments_ (FS300200) form, on the More menu (under     **Scheduling** ), click **Clone**.     The _Clone Appointments_ (FS500201) form opens. 
 
-2. In the Selection area, in the **Date** box of the **Cloning Details** section, select _2/4/2025_.     The appointment start time is set to match the time of the original appointment. 
+2. In the Selection area, in the **Date** box, select _2/4/2026_.     The appointment start time is set to match the time of the original appointment. 
 
-3. On the form toolbar, click **Process**.     The new appointment is generated (Item 2 in the screenshot) with the same details as the original     appointment, except for the scheduled date, which is _2/4/2025_ (Item 1), as shown in the following     screenshot. 
+3. Leave the **Number of Appointments** box set to **Single**. 
+
+4. On the form toolbar, click **Process**.     The new appointment is generated with the same details as the original appointment, except for the     scheduled date, which is _2/4/2026_ (see below). 
 
  Figure: The appointment created through cloning 
 
@@ -2402,21 +2760,19 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 1. On the _Customers_ (AR303000) form, open the _HMBAKERY (HM's Bakery and Cafe)_ customer. 
 
-2. On the More menu (under **Inquiries** ), click **Appointment History**.     The _Appointment Summary_ (FS400100) form opens in a pop-up window. 
+2. On the More menu (under **Inquiries** ), click **Appointment History**.     The _Appointment Summary_ (FS400100) form opens. 
 
-3. In the Selection area, clear the **Staff Member** box. In the **From Scheduled Date** box, select 1/31/2025. In the     **To Scheduled Date** box, select 2/4/2025. 
+3. In the Selection area, clear the **Staff Member** box. In the **From Scheduled Date** box, select 1/31/2026. In the     **To Scheduled Date** box, select 2/4/2026.     Review the two appointments: one scheduled for _1/31/2026 4:00 PM_ , and the other scheduled for _2/4/2026_     _4:00 PM_ (shown in the following screenshot). 
 
 
 <!-- PAGE_BREAK -->
- Cloning Appointments | 70 
-
- Review the two appointments: one scheduled for 1/31/2025 4:00 PM , and the other scheduled for 2/4/2025 4:00 PM (shown in the following screenshot). 
+ Cloning Appointments | 86 
 
 **_Figure: Two Appointments: The original and the cloned one_** 
 
 
 <!-- PAGE_BREAK -->
- Recording Staff Time in Appointments | 71 
+ Recording Staff Time in Appointments | 87 
 
 ## Recording Staff Time in Appointments 
 
@@ -2454,7 +2810,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Recording Staff Time in Appointments | 72 
+ Recording Staff Time in Appointments | 88 
 
  has been configured on the Service Order Types (FS202300) form for the type of time recording you will use, as described further in this topic. 
 
@@ -2482,7 +2838,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Recording Staff Time in Appointments | 73 
+ Recording Staff Time in Appointments | 89 
 
  specify the start and end time of each service, as well as the start and end time of the appointment. The system calculates the actual service duration of the appointment as two hours (the total of the duration of Service 1 and Service 2), even though the services were performed in the same hour (see the following illustration of this calculation). 
 
@@ -2514,7 +2870,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Recording Staff Time in Appointments | 74 
+ Recording Staff Time in Appointments | 90 
 
  To record time in this way, you need to base the appointment on a service order type that has been configured so that the system does not record the appointment time automatically when an appointment is started and completed. That is, on the Time Behavior tab of the Service Order Types (FS202300) form, the following settings should be specified: 
 
@@ -2546,7 +2902,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Recording Staff Time in Appointments | 75 
+ Recording Staff Time in Appointments | 91 
 
  the bottom of the dialog box. Then, on the table toolbar, click Complete to finish recording the time. You can also add a line on the Log tab manually by adding a staff member in the Staff Member column, and selecting a service in the Detail Ref. Nbr. column. To record time in this way, you need to base the appointment on a service order type that has been configured so that the system does not start recording the staff time automatically. That is, on the Time Behavior tab of the Service Order Types form, the settings are the following: 
 
@@ -2560,7 +2916,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
  The following activity will walk you through the process of recording in Acumatica ERP the time that a staff member spends at an appointment. That is, you will learn about how to record time if the staff member works during the whole appointment. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -2570,7 +2926,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -2580,7 +2936,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Recording Staff Time in Appointments | 76 
+ Recording Staff Time in Appointments | 92 
 
 - On the _Enable/Disable Features_ (CS100000) form, the _Time Management_ feature, which provides the ability     to track employees' time activities in the system, has been enabled. 
 
@@ -2620,21 +2976,21 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
  Before you begin performing the steps of this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as staff member Chase Frank by using the _frank_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a staff member by using the _frank_ username and the _123_ password. 
 
 2. In the company to which you are signed in, enable the _Service Management_ feature on the _Enable/Disable_     _Features_ (CS100000) form. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/29/2025_. If a different date is displayed, click the Business Date menu     button, and select _1/29/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/29/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
 #### Step 1: Attending an Appointment 
 
  To attend an appointment and process it through completion (while acting as Chase Frank), do the following: 
 
+1. On the _Appointments_ (FS300200) form, open the _000043-1_ appointment, which has the _DEV_ service order     type. 
+
 
 <!-- PAGE_BREAK -->
- Recording Staff Time in Appointments | 77 
-
-1. On the _Appointments_ (FS300200) form, open the _000043-1_ appointment, which has the _DEV_ service order     type. 
+ Recording Staff Time in Appointments | 93 
 
  This service order type has been designed for recording staff time spent on an appointment. See the Configuration Overview section for details on its key settings. 
 
@@ -2654,11 +3010,11 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 - **Employee** : _EP00000042 - Chase Frank_ (Since you are signed in as this user, the system automatically     inserts the corresponding employee ID.) 
 
-- **From Week** : _2025-05 (01/26 - 02/01)_ 
+- **From Week** : _2026-04 (01/25 - 01/31)_ 
 
-- **Until Week** : _2025-05 (01/26 - 02/01)_ 
+- **Until Week** : _2026-04 (01/25 - 01/31)_ 
 
-3. In the table, review the time activity record for the _000043-1_ appointment (Item 1 in the following     screenshot).     The **Time** (Item 2) in this row is the same as the **Actual Start Time** of the appointment on the _Appointments_     (FS300200) form, and the **Time Spent** (Item 3) in this row is the difference between the appointment's     **Actual Start Time** and **Actual End Time**. 
+3. In the table, review the time activity record for the _000043-1_ appointment (Item 1 below).     The **Time** (Item 2) in this row is the same as the **Actual Start Time** of the appointment on the _Appointments_     (FS300200) form, and the **Time Spent** (Item 3) in this row is the difference between the appointment's     **Actual Start Time** and **Actual End Time**. 
 
 4. Verify that the **Service** column is empty (Item 4), meaning that this time activity is not associated with any     particular service of the appointment. 
 
@@ -2668,11 +3024,11 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
  The following activity will walk you through the process of recording in Acumatica ERP the time that a staff member spends providing a particular service. That is, you will learn how to record time if the staff member works on a particular service but not during the whole appointment. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Recording Staff Time in Appointments | 78 
+ Recording Staff Time in Appointments | 94 
 
 #### Story 
 
@@ -2682,7 +3038,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -2718,17 +3074,17 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Recording Staff Time in Appointments | 79 
+ Recording Staff Time in Appointments | 95 
 
 #### System Preparation 
 
  Before you begin performing the steps of this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as staff member Edward Smith by using the _smith_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a staff member by using the _smith_ username and the _123_ password. 
 
 2. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
 #### Step 1: Recording Staff Time Spent on Services 
 
@@ -2738,29 +3094,31 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 2. On the form toolbar, click **Start**. 
 
-3. On the **Staff** tab, do the following:     a. Click the line with the _INSTALL_ service. Notice that _EP00000043 (Edward Smith)_ is specified in the **Staff**        **Member** column.     b. On the table toolbar, click **Start**.     c. In the **Perform Action** dialog box, which has opened, specify _2:00 PM_ in the second **Date** box.     d. In the table, verify that the check box is selected in the line with the _INSTALL_ service.     e. Click **OK** at the bottom of the dialog box, which closes it. 
+3. On the **Staff** tab, do the following:     a. Click the line with the _INSTALL_ service. Notice that _EP00000043 (Edward Smith)_ is specified in the **Staff**        **Member** column.     b. On the table toolbar, click **Start**.     c. In the **Perform Action** dialog box, which has opened, specify _2:00 PM_ in the **Time** box.     d. In the table, verify that the check box is selected in the line with the _INSTALL_ service.     e. Click **OK** at the bottom of the dialog box, which closes it. 
 
 4. On the **Log** tab, ensure that the _001_ log line with the _INSTALL_ service has been added. Check the start time of     the service. Notice that the status of the service (in the **Log Line Status** column) is _In Process_. 
 
-5. On the **Staff** tab, do the following:     a. Again click the line with _INSTALL_ service.     b. On the table toolbar, click **Complete**.     c. In the **Perform Action** dialog box, specify _3:00 PM_ in the second **Date** box.     d. Click **OK** at the bottom of the dialog box. 
+5. On the **Staff** tab, do the following:     a. Again click the line with _INSTALL_ service.     b. On the table toolbar, click **Complete**.     c. In the **Perform Action** dialog box, specify _3:00 PM_ in the **Time** box.     d. Click **OK** at the bottom of the dialog box. 
 
 6. On the **Log** tab, ensure that in the _001_ log line with the _0002 INSTALL_ service, the status of the service (in the     **Log Line Status** column) has changed to _Completed_. 
 
-7. On the **Staff** tab, begin recording the staff time spent on the training service as follows:     a. Click the line with the _TRAINING_ service. Notice that _EP00000042 (Chase Frank)_ specified in the **Staff**        **Member** column.     b. On the table toolbar, click **Start**.     c. In the **Perform Action** dialog box, which has opened, specify _3:00 PM_ in the second **Date** box.     d. In the table, verify that the check box is selected in the line with the _TRAINING_ service.     e. Click **OK** to close the dialog box. 
-
-
-<!-- PAGE_BREAK -->
- Recording Staff Time in Appointments | 80 
+7. On the **Staff** tab, begin recording the staff time spent on the training service as follows:     a. Click the line with the _TRAINING_ service. Notice that _EP00000042 (Chase Frank)_ specified in the **Staff**        **Member** column.     b. On the table toolbar, click **Start**.     c. In the **Perform Action** dialog box, which has opened, specify _3:00 PM_ in the **Time** box.     d. In the table, verify that the check box is selected in the line with the _TRAINING_ service.     e. Click **OK** to close the dialog box. 
 
 8. On the **Log** tab, ensure that the _002_ log line with the _TRAINING_ service has been created. Notice that the     status of the service is _In Process_. 
 
-9. On the **Staff** tab, do the following:     a. Again click the line with _TRAINING_ service.     b. On the table toolbar, click **Complete**.     c. In the **Perform Action** dialog box, specify _4:00 PM_ in the second **Date** box.     d. Click **OK** to close the dialog box. 10.On the **Log** tab, ensure that the _002_ log line with the _TRAINING_ service has been updated. Check the end time     of the service. Notice that the status of the service is _Completed_. (See the screenshot at the end of this step.) 11.On the **Settings** tab, specify the following settings: 
+9. On the **Staff** tab, do the following: 
+
+
+<!-- PAGE_BREAK -->
+ Recording Staff Time in Appointments | 96 
+
+ a. Again click the line with TRAINING service. b. On the table toolbar, click Complete. c. In the Perform Action dialog box, specify 4:00 PM in the Time box. d. Click OK to close the dialog box. 10.On the Log tab, ensure that the 002 log line with the TRAINING service has been updated. Check the end time of the service. Notice that the status of the service is Completed. 11.On the Settings tab, specify the following settings: 
 
 - **Actual Start Date** (second box): _2:00 PM_ 
 
 - **Actual End Date** (second box): _4:00 PM_ 
 
-- **Finished** : Selected 12.On the form toolbar, click **Save**. 13.On the form toolbar, click **Complete**. The following screenshot shows the staff time (Item 2) on the **Log** tab (Item 1). 
+- **Finished** : Selected 12.On the form toolbar, click **Save**. 13.On the form toolbar, click **Complete**. The following screenshot shows the **Log** tab (Item 1) with the staff time spent on services (Item 2). 
 
  Figure: Staff time spent on services 
 
@@ -2772,11 +3130,11 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 2. In the **Employee** box of the Summary area, ensure that _EP00000043 (Edward Smith)_ is specified—the staff     member who has performed the installation service. (Because you are signed in as this user, the system     automatically inserts the corresponding employee ID.) 
 
-3. In the **From Week** and **Until Week** boxes, make sure that _2025-05 (01/26 - 02/01)_ is specified. This is the week     that includes the date of the appointment: 1/30/2025.     In the table, you can view the row representing the time activity related to the installation service performed     in the appointment. In the **Time** column (Item 1), you can view the start time of the appointment; in the     **Time Spent** column (Item 2), you can view the duration of the service provided. That is, for the _INSTALL_     service, one hour was spent, starting at 2:00 PM. 
+3. In the **From Week** and **Until Week** boxes, make sure that _2026-04 (01/25 - 01/31)_ is specified. This is the week     that includes the date of the appointment: 1/30/2026.     In the table, you can view the row representing the time activity related to the installation service performed     in the appointment. In the **Time** column (Item 1), you can view the start time of the appointment; in the     **Time Spent** column (Item 2), you can view the duration of the service provided. That is, for the _INSTALL_     service, one hour was spent, starting at 2:00 PM. 
 
 
 <!-- PAGE_BREAK -->
- Recording Staff Time in Appointments | 81 
+ Recording Staff Time in Appointments | 97 
 
  Figure: Employee time activity 
 
@@ -2786,17 +3144,15 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Managing Costs and Inventory in Appointments | 82 
+ Tracking Costs in Service Documents | 98 
 
-## Managing Costs and Inventory in Appointments 
+## Tracking Costs in Service Documents 
 
- This chapter explores key processes, including optimizing appointment scheduling, tracking item and labor costs, and managing inventory through lot and serial number assignments. 
+ In this chapter, you will learn how the system captures and calculates both material and labor costs in service workflows. 
 
-### Tracking the Costs of Items 
+### Tracking Item Costs 
 
- In Acumatica ERP, if you sell stock and non-stock items during appointments, you can track the item costs and profitability. You can use this information for future planning, budgeting, forecasting, and performance reporting. 
-
- In this topic, you will read about how you can track the costs of the items involved in appointments and how to view the total cost and profitability of a particular appointment. 
+ In Acumatica ERP, you can monitor the costs and profitability of stock and non-stock items sold in appointments. This information helps with planning, budgeting, forecasting, and performance reporting. You can also review the total cost and profitability of each appointment. 
 
 #### Tracking Stock Item Costs and Profitability 
 
@@ -2822,17 +3178,15 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
  ((Appointment Total – Cost Total) / Cost Total) * 100 
 
-
-<!-- PAGE_BREAK -->
- Managing Costs and Inventory in Appointments | 83 
-
  For example, if the Appointment Total is $2000 and the Cost Total is $1500, then the total profitability of the appointment is 33.33%. 
 
-### Tracking of Labor Costs and Billing of Labor 
 
- In Acumatica ERP, you can track the labor costs (that is, the amounts paid to the employee for the job) for the staff members that attend appointments and bill for labor. 
+<!-- PAGE_BREAK -->
+ Tracking Costs in Service Documents | 99 
 
- In this topic, you will read about how the system calculates the labor costs on the Appointments (FS300200) form. 
+### Tracking Labor Costs and Billing 
+
+ In Acumatica ERP, you can track the labor costs of staff members who work in appointments and bill customers for their time. The system calculates these costs automatically on the Appointments (FS300200) form. 
 
 #### Calculation of Labor Costs 
 
@@ -2852,31 +3206,43 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 - The **Automatically Create Time Activities from Appointments** check box is selected in the **Integrating**     **with Time & Expenses** section. If the **Track Time** check box is selected for a line on the **Log** tab, the **Billable** check box is selected by default, but you can clear it if necessary. If the **Track Time** check box is cleared for a line, the **Billable** check box is cleared and read-only. You can also specify the billable time or amount for labor in the **Billable Time** and **Billable Amount** columns for the lines for which the labor is billed. 
 
-### Assigning Lot or Serial Numbers to Stock Items in Appointments 
-
- An appointment may include stock items. In some cases, lot or serial numbers need to be assigned to these stock items at the time they are used during the appointment, rather than when they are received in the warehouse. This is oen necessary when, for example, the specific item to be installed at the customer location is unknown beforehand, and the technician needs to enter the relevant number during installation. 
-
- In Acumatica ERP, a lot or serial number can be assigned to any stock item during an appointment on the Appointments (FS300200) form. For these numbers to be generated, the following settings must be specified in the stock item’s lot or serial class on the Lot/Serial Classes (IN207000) form: 
-
-- The _Track Serial Numbers_ or _Track Lot Numbers_ tracking method is selected. 
-
-- The _When Used_ assignment method is selected. 
-
 
 <!-- PAGE_BREAK -->
- Managing Costs and Inventory in Appointments | 84 
+ Working with Lot and Serial Numbers | 100 
 
- The functionality is available only if the Lot and Serial Tracking feature is enabled on the Enable/ Disable Features (CS100000) form. 
+## Working with Lot and Serial Numbers 
 
- This functionality applies only to customers with a billing cycle set up to process billing for appointments. 
+ In this chapter you will find details how to manage inventory units tracked by lot or serial numbers and how to enrich them with attributes. 
+
+### Assigning Lot and Serial Numbers in Appointments 
+
+ In Acumatica ERP, you can assign lot or serial numbers to stock items directly in an appointment on the Appointments (FS300200) form. This is useful when the specific unit to be installed or used at a customer site is not known until the technician performs the work. 
+
+#### Before You Begin 
+
+ To assign lot or serial numbers in appointments, the following conditions must be met: 
+
+- The _Lot and Serial Tracking_ feature is enabled on the _Enable/Disable Features_ (CS100000) form. 
+
+- The stock item’s lot or serial class (on the _Lot/Serial Classes_ (IN207000) form) is configured with: 
+
+- _Track Serial Numbers_ or _Track Lot Numbers_ selected as the tracking method. 
+
+- _When Used_ selected as the assignment method. 
+
+- The functionality applies only if the customer has a billing cycle set up to process billing for appointments. 
 
 #### Methods for Generating Lot or Serial Numbers on the Appointments Form 
 
- On the Appointments (FS300200) form, you can view or generate lot or serial numbers for a stock item by clicking the item on the Details tab and then clicking Lot/Serial Nbrs on the table toolbar. Lot or serial numbers for stock items can be generated either manually or automatically, depending on the state of the Auto-Generate Next Number check box in the stock item's lot or serial class on the Lot/Serial Classes (IN207000) form: 
+ On the Appointments (FS300200) form, you can view or generate lot or serial numbers for a stock item by clicking the item on the Details tab and then clicking Lot/Serial Nbrs. on the table toolbar. Lot or serial numbers for stock items can be generated either manually or automatically, depending on the state of the Auto-Generate Next Number check box in the stock item's lot or serial class on the Lot/Serial Classes (IN207000) form: 
 
 - If the check box is selected, the system automatically generates lot or serial numbers for each unit of the     selected stock item on the **Details** tab of the _Appointments_ form. The lot or serial number or numbers are     displayed in the **Lot/Serial Nbr.** column in the **Line Details** dialog box.     If the lot or serial class settings of the selected stock item require auto-generation of the lot or serial     number, the **Unassigned Qty.** and **Quantity to Generate** boxes in the dialog box contain _0_ by default. This     is because the lot or serial numbers are automatically generated by the system when the appointment is     saved. 
 
 - If the check box is cleared, you must manually generate lot or serial numbers by clicking the **Generate**     button in the **Line Details** dialog box.     When you click **Generate** , the system generates lot or serial numbers for the specified quantity of the stock     item and displays the numbers in the **Lot/Serial Nbr.** column. In the following screenshot, serial numbers     have been generated. (Note that the system generates a single lot number for all units of the selected item     and lists it in the only row.) 
+
+
+<!-- PAGE_BREAK -->
+ Working with Lot and Serial Numbers | 101 
 
  Figure: The generated serial numbers 
 
@@ -2884,21 +3250,61 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
  For stock items with the When Used assignment method, lot or serial numbers cannot be generated and assigned in service orders on the Service Orders (FS300100) form. Additionally, the serial or lot numbers for stock items with the When Used assignment method generated in appointments on the Appointments form are not copied to the related service orders. 
 
+### Using Attributes with Lot and Serial Numbers in Service Documents 
+
+ In Acumatica ERP, you can assign attributes—such as color, model, or manufacturer—to individual units of lotor serial-tracked items. These attributes are defined at the lot or serial class level and provide detailed information about each unit. Attribute values are typically recorded when finished goods are received into inventory, so that items with specific lot or serial attributes can later be added to service documents. 
+
+#### Enabling the Feature 
+
+ To use the functionality, make sure the Lot/Serial Attributes feature is enabled on the Enable/Disable Features (CS100000) form. You can enable this feature if the Lot and Serial Tracking feature is also enabled. 
+
+#### Defining Attributes for Lot and Serial Classes 
+
+ To start using attributes, first create them on the Attributes (CS205000) form—or verify that they already exist. Once that's done, add the attributes to a lot or serial class on the Lot/Serial Classes (IN207000) form. You can add or delete attributes in the Attributes section if the class has the following settings: 
+
+- **Tracking Method** : _Track Serial Numbers_ or _Track Lot Numbers_ 
+
+- **Assignment Method** : _When Received_ Once you assign attributes to a lot or serial class, they're automatically added to the **Lot/Serial Attributes** table on the **Attributes** tab of the _Stock Items_ (IN202500) form. Here you can easily review and manage the assigned attributes before using the item in service documents. 
+
+ To make attribute values available for selection in service documents, you must record lot or serial attribute values when receiving units into stock. On the Purchase Receipts (PO301000) or Receipts (IN301000) form, open the Line Details dialog box by selecting a line on the Details tab and clicking Line Details on the table toolbar. In the dialog 
+
 
 <!-- PAGE_BREAK -->
- Managing Costs and Inventory in Appointments | 85 
+ Working with Lot and Serial Numbers | 102 
+
+ box, select the lot or serial number first, and then specify the corresponding attributes in the Lot/Serial Attributes table. 
+
+ For details on how to set up and work with lot and serial attributes, see Items with Lot and Serial Numbers: Lot and Serial Attributes. 
+
+#### Selecting Lotor Serial-Tracked Items with Attributes in Service Documents 
+
+ You can select a unit of a stock item with a lot or serial number and a specific attribute in the following documents: 
+
+- A service order on the _Service Orders_ (FS300100) form 
+
+- An appointment on the _Appointments_ (FS300200) form To assign a lot or serial number with an attribute to a stock item, click **Add Lot/Serial Nbr.** on the table toolbar of the **Details** tab. In the **Add Lot/Serial Nbr.** dialog box that opens, you can check the item availability and select units. The table in this dialog box displays columns with the attribute values for each unit associated with a particular lot or serial number (see below). Use the **Search** box to find units by entering text strings that match attribute values or other item information shown in the table. 
+
+ Figure: Serial-tracked items with a particular attribute value 
+
+ When you add a unit with a lot or serial number to a service document, the system creates a separate line for each unit on the Details tab. 
+
+
+<!-- PAGE_BREAK -->
+ Scheduling Optimization | 103 
+
+## Scheduling Optimization 
+
+ This chapter covers external scheduling enhancements available with WorkWave integration. 
 
 ### Optimizing Appointment Scheduling with WorkWave 
 
- In Acumatica ERP, the third-party service WorkWave Route Optimizer can be used to automatically optimize the scheduling of appointments. 
+ In Acumatica ERP, you can integrate with the third-party service WorkWave Route Optimizer to automatically improve appointment scheduling. Once the integration is configured, you can run optimization processes that: 
 
- When the integration with the WorkWave Route Optimizer is configured, you can run the following appointment optimization processes: 
+- Update the scheduled start times of appointments already assigned to staff. 
 
-- Updating the scheduled start times of the appointments assigned to specific staff members. 
+- Assign staff to unassigned appointments based on their available work hours. 
 
-- Assigning staff members to unassigned appointments according to the available hours in the staff members'     work calendars. 
-
-- Assigning staff members to appointments with consideration of staff members' skills and work calendars, so     that each staff member assigned to an appointment has the proper skill set needed to perform the services     specified in each particular appointment. This topic describes the necessary configuration, and the process of appointment optimization. 
+- Assign staff to appointments according to their skills and calendars, ensuring that each appointment is     matched with the appropriate expertise. This functionality helps dispatchers optimize schedules while balancing staff availability and service requirements. 
 
 #### Configuring the Integration with WorkWave 
 
@@ -2928,7 +3334,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Managing Costs and Inventory in Appointments | 86 
+ Scheduling Optimization | 104 
 
  right table) and click Process on the form toolbar. The system assigns the selected appointments to the selected staff members. The system does not reassign appointments that have already been scheduled for staff members to other staff members; it only changes the appointments’ scheduled time. 
 
@@ -2968,7 +3374,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Managing Costs and Inventory in Appointments | 87 
+ Scheduling Optimization | 105 
 
 - If it is not possible to schedule the lunch break between appointments, then no lunch break will be     scheduled. For example, if the appointment lasts six hours, the schedule optimizer uses the assumption     that the staff member will have a lunch break during the appointment, but the system does not update the     end time of the appointment to add one hour for the lunch break. 
 
@@ -2986,7 +3392,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order from an Opportunity | 88 
+ Creating a Service Order from an Opportunity | 106 
 
 ## Creating a Service Order from an Opportunity 
 
@@ -3022,7 +3428,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order from an Opportunity | 89 
+ Creating a Service Order from an Opportunity | 107 
 
  Figure: Opportunity processing along with service order processing 
 
@@ -3032,7 +3438,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order from an Opportunity | 90 
+ Creating a Service Order from an Opportunity | 108 
 
  prospective customer) associated with the opportunity, the contact person, and the details of the opportunity. On the Details tab, the sales manager adds lines for the services and inventory items to be provided if the opportunity is won. 
 
@@ -3068,7 +3474,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order from an Opportunity | 91 
+ Creating a Service Order from an Opportunity | 109 
 
 #### Processing of Invoices 
 
@@ -3078,7 +3484,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
  This activity will walk you through the process of creating a service order from an opportunity with a quote that the customer has agreed to. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3088,7 +3494,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -3108,7 +3514,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order from an Opportunity | 92 
+ Creating a Service Order from an Opportunity | 110 
 
 - On the _Staff Schedule Rules_ (FS202001) form, a work schedule rule has been defined for the _EP00000003_     _(Jon Waite)_ employee, and the work schedule has been generated for this employee on the _Generate Staff_     _Schedules_ (FS500400) form. 
 
@@ -3130,13 +3536,13 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step 1: Creating an Opportunity 
 
@@ -3146,11 +3552,11 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 2. On the form toolbar, click **Add New Record** , and in the Summary area, specify the following settings: 
 
-- **Class ID** : _SERVICE_ 
+- **Opportunity Class** : _SERVICE_ 
 
 - **Description** : Sale of a juicer and installation service 
 
-- **Business Account** : _TOMYUM (Thai Food Restaurant)_ 
+- **Business Account** : _TOMYUM - Thai Food Restaurant_ 
 
 3. On the form toolbar, click **Save**. 
 
@@ -3162,11 +3568,11 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 - **Quantity** : 1 
 
+6. Add another row with the _JUICER15_ inventory item and a quantity of 1. 
+
 
 <!-- PAGE_BREAK -->
- Creating a Service Order from an Opportunity | 93 
-
-6. Add another row with the _JUICER15_ inventory item and a quantity of 1. 
+ Creating a Service Order from an Opportunity | 111 
 
 7. On the form toolbar, click **Open**. In the **Details** dialog box, which is opened, click **OK**. The opportunity is     created. 
 
@@ -3174,9 +3580,9 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
  To create a sales quote and send it to the customer, do the following: 
 
-1. While you are still viewing the opportunity on the _Opportunities_ (CR304000) form, on the form toolbar, click     **Create Quote**. 
+1. While you are still viewing the opportunity on the _Opportunities_ (CR304000) form, on the More menu, click     **Create Quote**. 
 
-2. In the **Create Quote** dialog box, which opens, click **Create and Review**.     The _Sales Quotes_ (CR304500) form opens with the created quote. 
+2. In the **Create Quote** dialog box, which opens, review the default settings and click **Create and Review**.     The _Sales Quotes_ (CR304500) form opens with the created quote. 
 
 3. On the More menu (under **Processing** ), click **Send**. 
 
@@ -3190,9 +3596,9 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 3. On the More menu (under **Services** ), click **Create Service Order**. 
 
-4. In the **Create Service Order/Appointment** dialog box, which opens, select _INST (Installation Services)_ in the     **Service Order Type** box, and click **Create and Review**.     The _Service Orders_ (FS300100) form opens with the details from the opportunity filled in. Notice that the     service order has the service and the inventory item that have been copied from the related opportunity (on     the **Details** tab); the service order is ready to be processed. 
+4. In the **Create Service Order/Appointment** dialog box, which opens, select _INST - Installation Services_ in the     **Service Order Type** box, and click **Create and Review**.     The _Service Orders_ (FS300100) form opens with the details from the opportunity automatically filled in.     Notice that the service order includes both the service and the inventory item copied from the related     opportunity (on the **Details** tab). The service order is now ready for processing. 
 
-5. In the **Source Info** section of the **Other** tab, verify that _Opportunities_ is specified in the **Document Type** box     and that the reference number of the related opportunity has been inserted in the **Reference Nbr.** box. 
+5. In the **Source Info** section of the **Settings** tab, verify that _Opportunities_ is specified in the **Document Type**     box and that the reference number of the related opportunity has been inserted in the **Reference Nbr.** box. 
 
  Now you can process the service order by scheduling an appointment. 
 
@@ -3202,33 +3608,25 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 1. While you are still viewing the service order on the _Service Orders_ (FS300100) form, on the form toolbar, click     **Create Appointment**.     The _Appointments_ (FS300200) form opens. 
 
-2. In the **Scheduled Start Date** box of the **Settings** tab, select _2/6/2025 2:00 PM_. 
+2. On the **Settings** tab, in the **Scheduled Start Date** group of boxes, select _2/6/2026 2:00 PM_. 
 
 3. On the form toolbar, click **Save**. 
 
-4. On the More menu (under **Scheduling** ), click **Schedule on Calendar**.     The _Calendar Board_ (FS300300) form opens. 5. 
+4. Open the _Calendar Board_ (FS300300) form. 
 
- On the right top corner of the dashboard, click the filter icon. 
+5. In the Date box of the calendar toolbar, select _2/6/2026_.     In the topmost Unassigned row of the calendar, you can see an appointment created for the _TOMYUM - Thai_     _Food Restaurant_ customer. This appointment is not yet assigned to a staff member. 
 
-6. In the **Staff Filters** dialog box, which opens, do the following: 
-
-- On the **Skills** tab, select **Juicer installation skill**. 
-
-- On the **Services** tab, select **Installation of equipment**. 
-
-- At the bottom of the dialog box, click **Filter & Close**. 
+6. Drag the appointment tile to _Jon Waite_ 's row in the 2:00 PM slot. Jon Waite is the only staff member     available at that time with the required skills.     The appointment is now scheduled, and the staff member has been assigned to it (see below). 
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order from an Opportunity | 94 
-
-7. On the **Unassigned Appointments** tab, click the appointment you just created, and drag it to the column     for _Jon Waite_     The appointment is now scheduled and the staff member is assigned to it, as the following screenshot     shows. 
+ Creating a Service Order from an Opportunity | 112 
 
 **_Figure: The scheduled appointment_** 
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order from a Sales Order | 95 
+ Creating a Service Order from a Sales Order | 113 
 
 ## Creating a Service Order from a Sales Order 
 
@@ -3236,7 +3634,9 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 ### Sales Order-Related Service Orders: General Information 
 
- A sales order may include both services and stock items that your company provides to the customer. This sales order can be processed along with the service order as the services are being performed. For example, suppose that a customer has ordered some products of your company along with installation services for them. A sales manager of your company receives the order and enters the sales order into the system. Then further processing is performed by the service manager who creates a service order, assigns the employees with the relevant skills to the applicable services, and the accountant who prepares invoices for the customer and processes them in the system. 
+ A sales order can include both services and stock items that your company provides to a customer. You typically start with a sales order when the customer’s request is primarily for products, and any related services— such as installation or setup— are part of that sale. This sales order can then be linked to a service order for managing and tracking the service work. 
+
+ For example, suppose a customer orders several products along with installation services. The sales manager enters the order in the system, and the service manager then creates a related service order, assigns qualified employees to the tasks, and oversees service completion. Finally, the accountant prepares and processes the invoices in the system. 
 
  Users can create a service order from a sales order only if integration with field services is enabled for the sales order type selected in the sales order. That is, the Enable Field Services Integration check box has to be selected for the order type on the General tab of the Order Types (SO201000) form. 
 
@@ -3248,7 +3648,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 - Create a service order from a sales order 
 
-- Create an appointment from a sales order 
+- Schedule an appointment on the calendar board 
 
 - Process the appointment 
 
@@ -3256,7 +3656,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 #### Applicable Scenarios 
 
- You create a service order from a sales order, and process it when your company sells stock items along with the services that are provided in appointments. 
+ You start with a sales order when the customer’s request originates as a product sale that includes related services. 
 
 #### Process Diagram 
 
@@ -3266,59 +3666,63 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order from a Sales Order | 96 
+ Creating a Service Order from a Sales Order | 114 
 
-**_Figure: Sales order processing along with service order processing_** 
+ Figure: Sales order processing along with service order processing 
+
+#### Creating a Sales Order 
+
+ When a sales manager receives a customer order that includes service provision, the manager enters the sales order with the Open status on the Sales Orders (SO301000) form. In the sales order, the manager specifies the 
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order from a Sales Order | 97 
+ Creating a Service Order from a Sales Order | 115 
 
-#### Entry of a Sales Order 
+ customer who placed the order, adds the stock items to be sold and shipped, and includes the services to be performed. 
 
- When a sales manager receives a customer order that includes service provision, the manager enters the sales order with the Open status on the Sales Orders (SO301000) form. In the sales order, the sales manager specifies the customer from which the order has been received, adds the stock items to be sold and shipped and services that should be performed. 
+ On the Details tab of the form, for each line that includes the inventory item or a service to be provided, the manager selects the Require Appointment check box to ensure the line is included in the related service order. 
 
- On the Details tab of the Sales Orders form, in each detail line with the inventory item to be sold and a service to be provided, the manager selects the Require Appointment check box, so the line will be added to the service order. 
+ Aer saving the sales order, the manager clicks Create Service Order on the More menu. In the Create Service Order dialog box, which opens, the manager specifies the service order type and clicks OK. The system then opens the corresponding service order on the Service Orders (FS300100) form, where the manager verifies the details copied from the sales order. 
 
- Aer the sales order is saved, the sales manager clicks the Create Service Order command on the More menu of the Sales Orders form. In the Create Service Order dialog box, which opens, the sales manager specifies the service order type and clicks OK. The system then opens the service order on the Service Orders (FS300100) form, on which the sales manager verifies the details copied from the sales order. On the Details tab of the form, in each detail line, the Prepaid Item check box is selected, and the Billable check box is cleared, which means that billing will be performed in the sales order. The sales manager saves the service order. 
+ On the Details tab of the Service Orders form, the Prepaid Item check box is selected and the Billable check box is cleared for each line, indicating that billing will be handled through the sales order. The sales manager then saves the service order. 
 
-#### Creation of Each Needed Appointment 
+#### Creating Service Appointments 
 
- Aer the sales order and service order have been created in the system, a service manager of your company clicks Schedule on the Calendar Board on the More menu of the Sales Orders (SO301000) form. This opens the Calendar Board (FS300300) form, where this employee creates an appointment or appointments that are needed to perform the services requested by the customer. The system assigns the Not Started status to the created appointments. 
+ Once the sales order and the corresponding service order have been created in the system, the service manager can create an appointment using any available method—for example, directly on the Calendar Board (FS300300) form. The system assigns the Not Started status to newly created appointments. 
 
- During the scheduling of an appointment, the service manager can filter staff members and select a staff member to attend an appointment by taking into consideration the work schedule, the skills and licenses that are needed for performing the services, and the service area where the services are provided. 
+ During appointment scheduling, the service manager can assign a staff member to the appointment, taking into account their skills, the licenses required to perform the services, and the service area where the work will be carried out. Note that this functionality must be configured on the Service Management Preferences (FS100100) form. 
 
-#### Attending of Each Appointment 
+#### Performing the Service Appointment 
 
- The staff member who is assigned to an appointment looks through the upcoming appointments on the Staff Calendar Board (FS300400) form and identifies which appointment need to be attended. The staff member then goes to the location where the service has to be performed and starts the appointment on the Appointments (FS300200) form. The appointment is assigned the In Process status. 
+ The staff member assigned to an appointment travels to the customer’s location to perform the required service and starts the appointment on the Appointments (FS300200) form. The appointment is assigned the In Process status. 
 
- While the services are being performed, the staff member adds any needed information on services (such as notes, or pictures) to the appointment on the Appointments form. If additional quantities or stock items are needed, the staff member adds new lines on the Details tab for the items. 
+ While performing the services, the staff member records any relevant information—such as notes or photos— directly on the appointment form. If additional quantities or stock items are needed, the staff member adds new lines for these items on the Details tab. 
 
  When the services are done, the staff member checks the details of the appointment. When everything is correct and complete, the staff member selects the Finished check box and completes the appointment, which gives it the Completed status. 
 
- When all appointments of a particular service order are completed, the system assigns the service order the Completed status if on the General tab (the General Settings section) of the Service Order Types (FS202300) form for the service order type, the Complete Service Order When Its Appointments Are Completed check box is selected. 
+ When all appointments associated with a service order are completed, the system assigns the Completed status to the service order. Note that this occurs only if, on the General tab (the General Settings section) of the Service Order Types (FS202300) form for the service order type, the Complete Service Order When Its Appointments Are Completed check box is selected. 
 
-#### Closing of the Appointments and Service Order 
+#### Closing Appointments and Service Orders 
 
- Aer the appointment is completed, an accountant opens the completed appointment and verifies quantities and prices. 
+ Aer an appointment is completed, the accountant opens it to verify the quantities and prices. Once all information has been reviewed and confirmed, the accountant closes the appointment. 
 
- When all information is verified, the accountant closes the appointments, and the system closes the service order if on the General tab ( General Settings section) of the Service Order Types (FS202300) form for the service order type, the Close Service Order When Its Appointments Are Closed check box is selected. The appointment and service order are assigned the Closed status. 
+ If, on the General tab ( General Settings section) of the Service Order Types (FS202300) form for the service order type, the Close Service Order When Its Appointments Are Closed check box is selected, the system automatically closes the related service order. The appointment and the service order are then assigned the Closed status. 
+
+#### Generating Billing Documents 
+
+ The accountant generates a new billing document for any additional stock items used during the appointment. This can be done either on the Run Appointment Billing (FS500100) form or by clicking Run Billing on the Appointments (FS300200) form. 
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order from a Sales Order | 98 
+ Creating a Service Order from a Sales Order | 116 
 
-#### Generation of Billing Documents 
-
- The accountant generates a new billing document for all extra stock items that were used during the appointment. The accountant can use the Run Appointment Billing (FS500100) form or click the Run Billing command on the More menu of the Appointments (FS300200) form. 
-
- The accountant then processes both billing documents (the one generated for the original sales order, and the billing document generated for any additional item used in the appointment) in the system. 
+ The accountant then processes both billing documents in the system—the one generated from the original sales order and the one created for the additional items used during the appointment. 
 
 ### Sales Order-Related Service Orders: Process Activity 
 
  This activity will walk you through the process of creating a service order from a sales order and then processing these orders. You will also learn how to add a stock item to a service order that has lines for services or stock items inherited from the sales order, and how this service order will be billed. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3328,7 +3732,7 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -3346,13 +3750,13 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 - On the _Users_ (SM201010) form, the _davis_ and _waite_ accounts have been created. For the _davis_ user account,     in the **Linked Entity** box of the Summary area of the form, the _Maia Davis_ employee account has been     specified; for the _waite_ user account, in this box, the _Jon Waite_ employee account has been specified. 
 
-
-<!-- PAGE_BREAK -->
- Creating a Service Order from a Sales Order | 99 
-
 - On the _Staff Schedule Rules_ (FS202001) form, a work schedule rule has been defined for the _EP00000003_     _(Jon Waite)_ employee, and the work schedule has been generated for this employee on the _Generate Staff_     _Schedules_ (FS500400) form. 
 
 - On the _Branch Locations_ (FS202500) form, the _WEST BRIGHTON_ branch location has been configured. 
+
+
+<!-- PAGE_BREAK -->
+ Creating a Service Order from a Sales Order | 117 
 
 - On the _User Profile_ (SM203010) form, for the _davis_ user, the _WEST BRIGHTON_ branch location has been     specified as the default branch location. 
 
@@ -3382,9 +3786,11 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 2. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-#### Step 1: Creating a Service Order Along with the Sales Order 
+4. On the _Service Management Preferences_ (FS100100) form, select _Warn_ in the **Skills** box ( **Appointment**     **Validation Settings** section), and save it. 
+
+#### Step 1: Creating a Service Order from the Sales Order 
 
  To create the needed sales order and service order, do the following: 
 
@@ -3396,15 +3802,15 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 - **Customer** : _GOODFOOD - GoodFood One Restaurant_ 
 
-
-<!-- PAGE_BREAK -->
- Creating a Service Order from a Sales Order | 100 
-
 - **Description** : Sale of a juicer and installation service 
 
 3. On the **Details** tab, add a row with the following settings: 
 
 - **Inventory ID** : _INSTALL_ 
+
+
+<!-- PAGE_BREAK -->
+ Creating a Service Order from a Sales Order | 118 
 
 - **Require Appointment** : Selected 
 
@@ -3424,45 +3830,39 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 6. On the More menu (under **Services** ), click **Create Service Order**. 
 
-7. In the **Create Service Order** dialog box, which opens, make sure _Installation Services_ is selected in the     **Service Order Type** box, and click **OK**.     The _Service Orders_ (FS300100) form opens with the settings copied from the sales order filled in. Notice that     the service order has the service and the stock item that have been copied from the related sales order (on     the **Details** tab); the service order is ready to be processed. Also notice on this tab that the **Billable** check     box is cleared and read-only for each line because the line has been copied from the sales order and will be     billed through the original sales order. 
+7. In the **Create Service Order** dialog box, which opens, make sure _INST - Installation Services_ is selected in the     **Service Order Type** box, and click **OK**.     The _Service Orders_ (FS300100) form opens with the settings copied from the sales order filled in. Notice that     the service order has the service and the stock item that have been copied from the related sales order (on     the **Details** tab); the service order is ready to be processed. Also notice on this tab that the **Billable** check     box is cleared and read-only for each line because the line has been copied from the sales order and will be     billed through the original sales order. 
 
 8. Save the service order. 
 
-9. In the **Source Info** section of the **Other** tab, verify that _SO Order_ is specified in the **Document Type** box and     the order type and the reference number of the related sales order have been inserted in the **Reference Nbr.**     box. 
+9. In the **Source Info** section of the **Settings** tab, verify that _SO Order_ is specified in the **Document Type** box     and the order type and the reference number of the related sales order have been inserted in the **Reference**     **Nbr.** box. 
 
-#### Step 2: Creating an Appointment from the Sales Orders Form 
+#### Step 2: Scheduling an Appointment on the Calendar Board 
 
- To create an appointment related to the sales order, do the following: 
+ To schedule an appointment, do the following: 
 
-1. Return to the _Sales Orders_ (SO301000) form with the sales order you have created. 
+1. Open the _Calendar Board_ (FS300300) form. 
 
-2. On the More menu (under **Services** ), click **Schedule on the Calendar Board**.     The _Calendar Board_ (FS300300) form opens, displaying only the service order the system has created for the     sales order. 
+2. On the **Unscheduled** tab, find the service order you've just created—the one of the _INST_ order type for the     _GOODFOOD - GoodFood One Restaurant_ customer. 
 
-3. On the **Service Orders** tab, right-click the service order, and click **Filter Staff**. The list of staff members on     the dashboard is filtered to match the skills and licenses of the services in the appointment. 
-
-4. Drag the service order from the **Service Orders** tab into the _Jon Waite_ column of the dashboard area so that     the start time of the appointment is set to 15:00. 
-
-#### Step 3: Attending the Appointment 
-
- To perform the needed actions involved with attending the appointment, do the following on behalf of Jon Waite: 
-
-1. Open the _Staff Calendar Board_ (FS300400) form. 
-
-2. In the **Staff** box, select _Jon Waite_ , as shown in Item 1 of the following screenshot. 
-
-3. In the Date box, select _Day_ and 1/30/2025 (Item 2). 
+3. Drag the appointment tile to the _Jon Waite_ row so that the start time of the appointment is 3 PM. You’ll see     that _Skill Mismatch_ warnings appear next to the staff members who lack the required skill to perform the     appointment’s service, and these staff members are highlighted in yellow (see below). You can still assign     the appointment to any staff member because this is only a warning, not a restriction. However, in this     instruction, you’ll assign the appointment to a qualified staff member without any warning. 
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order from a Sales Order | 101 
+ Creating a Service Order from a Sales Order | 119 
 
- Figure: An appointment on the staff board 
+ Figure: An appointment assigned to a qualified staff member 
 
-4. Click the link of the appointment (see Item 3 in the previous screenshot) to open it.     The _Appointments_ (FS300200) form opens. 
+#### Step 3: Attending the Appointment 
 
-5. On the form toolbar of the _Appointments_ (FS300200) form, click **Start**. 
+ Do the following on behalf of Jon Waite: 
 
-6. On the **Details** tab, click **Add Row** , and specify the following settings in the row: 
+1. Click the appointment reference number on the calendar. The quick view panel opens. 
+
+2. Click the appointment reference number in the quick view panel.     The _Appointments_ (FS300200) form opens. 
+
+3. On the form toolbar of the _Appointments_ (FS300200) form, click **Start**. 
+
+4. On the **Details** tab, click **Add Row** , and specify the following settings in the row: 
 
 - **Line Type** : _Inventory Item_ 
 
@@ -3470,25 +3870,27 @@ _- Maia Davis_ employee has been associated with the _davis_ user account; that 
 
 - **Estimated Quantity** : 1.00 Notice that the **Billable** check box is selected for the newly added item, which indicates that the item is billable. Because it has not been included in the original sales order, a separate invoice will be generated for that item. 
 
-7. On the form toolbar, click **Save**. 
+5. On the form toolbar, click **Save**. 
 
-8. On the **Settings** tab ( **Actual Date and Time** section), specify the actual starting and actual ending times to     be the same as the scheduled ones; select the **Finished** check box. (You perform this instruction and the     next one on behalf of the staff member.) 
+6. On the **Settings** tab ( **Actual Date and Time** section), specify the actual starting and actual ending times to     be the same as the scheduled ones; select the **Finished** check box. (You perform this instruction and the     next one on behalf of the staff member.) 
 
-9. On the form toolbar, click **Complete**. 10.On behalf of the accountant, on the form toolbar, click **Close**. 
+7. On the form toolbar, click **Complete**. 
+
+8. On behalf of the accountant, on the form toolbar, click **Close**. 
 
  The completion and closing of the appointment caused the service order to also be completed and closed because of the settings of the INST service order type on the Service Order Types (FS202300) form, as described in the Configuration Overview section. 
 
-#### Step 4: Generating an Invoice for the Additional Item 
+#### Step 4: Generating an Invoice for Additional Items 
 
  To generate an invoice for the item included in the appointment, do the following (acting as an accountant): 
+
+
+<!-- PAGE_BREAK -->
+ Creating a Service Order from a Sales Order | 120 
 
 1. While you are still viewing the appointment on the _Appointments_ (FS300200) form, click **Run Billing** on the     form toolbar.     The system opens the _Invoices_ (SO303000) form with the generated invoice. 
 
 2. Verify that only the stock item added during the appointment has been added to the invoice, as the     following screenshot shows. 
-
-
-<!-- PAGE_BREAK -->
- Creating a Service Order from a Sales Order | 102 
 
  Figure: The sales order generated for the additional item 
 
@@ -3496,7 +3898,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order Along with a Case | 103 
+ Creating a Service Order Along with a Case | 121 
 
 ## Creating a Service Order Along with a Case 
 
@@ -3532,7 +3934,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order Along with a Case | 104 
+ Creating a Service Order Along with a Case | 122 
 
  Figure: Case processing along with service order processing 
 
@@ -3542,7 +3944,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order Along with a Case | 105 
+ Creating a Service Order Along with a Case | 123 
 
  customer) from which the case has been received, the contact person, and the details of the case; the manager saves the case with the Open status. 
 
@@ -3576,7 +3978,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order Along with a Case | 106 
+ Creating a Service Order Along with a Case | 124 
 
  When all information is verified and the appointments are ready for invoicing, the accountant closes the appointments. The system closes the service order if on the General tab ( General Settings section) of the Service Order Types (FS202300) form for the service order type, the Close Service Order When Its Appointments Are Closed check box is selected. 
 
@@ -3590,7 +3992,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
  This activity will walk you through the process of creating a service order from a case. You will go through the service management process while also processing the case, from creation through closing. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3600,7 +4002,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -3620,7 +4022,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order Along with a Case | 107 
+ Creating a Service Order Along with a Case | 125 
 
  been specified; for the jimenez user account, in this box, the Alberto Jimenez employee account has been specified. 
 
@@ -3642,13 +4044,13 @@ As a result, two invoices will be released: the first one for the requested serv
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as the service manager by using the _davis_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step 1: Creating a Case 
 
@@ -3662,7 +4064,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 - **Business Account** : _TOMYUM - Thai Food Restaurant_ 
 
-- **Subject** : Component replacement is necessary 
+- **Subject** : Component Replacement Required 
 
 3. On the **Details** tab, briefly describe the situation by entering the following: The component of the     juicer has a defect; replacement with a new one is necessary. 
 
@@ -3670,7 +4072,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order Along with a Case | 108 
+ Creating a Service Order Along with a Case | 126 
 
 #### Step 2: Creating a Service Order from the Case 
 
@@ -3678,9 +4080,9 @@ As a result, two invoices will be released: the first one for the requested serv
 
 1. While you are still viewing the case on the _Cases_ (CR306000) form, on the More menu (under **Customer**     **Services** ), click **Create Service Order**. 
 
-2. In the **Create Service Order** dialog box, which opens, make sure that _Maintenance, repair and operations_     _(MRO)_ is selected in the **Service Order Type** box, and click **OK**.     The _Service Orders_ (FS300100) form opens with the customer details inserted. Note that services have not     yet been added to the service order. 
+2. In the **Create Service Order** dialog box, which opens, make sure that _MRO - Maintenance, repair and_     _operations (MRO)_ is selected in the **Service Order Type** box, and click **OK**.     The _Service Orders_ (FS300100) form opens with the customer details inserted. Note that services have not     yet been added to the service order. 
 
-3. In the **Source Info** section of the **Other** tab, verify that the system has inserted _Case_ as the document type     and has inserted the reference number of the case from which the service order was created. 
+3. In the **Source Info** section of the **Settings** tab, verify that the system has inserted _Case_ as the document     type and has inserted the reference number of the case from which the service order was created. 
 
 4. On the form toolbar, click **Save**. 
 
@@ -3692,17 +4094,17 @@ As a result, two invoices will be released: the first one for the requested serv
 
 2. On the **Activities** tab, click **Create Task**.     The _Task_ (CR306020) form opens. You must create a task in order to add a service for the case. 
 
-3. In the **Summary** box of the **Details** tab, type Replacement of a component. 
+3. In the **Summary** box, type Replacement of a component. 
 
-4. In the **Service** box, select _REPAIR_. 
+4. On the **Details** tab, in the **Service** box ( **Service Management** section), select _REPAIR_. 
 
 5. Save your changes and close the form.     The case now has one task associated with it. The service associated with the task is automatically added to     the service order related to the case on the **Details** tab of the _Service Orders_ (FS300100) form. 
 
-6. On the _Cases_ form, on the More menu, click **View Service Order** (under **Customer Services** ). On the **Details**     tab of the _Service Orders_ (FS300100) form, which opens, notice that the **Billable** check box is selected for     the line added from the case. You can now proceed to creating an appointment for this service order and     assigning the appointment to the employee who is the best fit to deliver the installation service. 
+6. On the _Cases_ form, on the More menu, click **View Service Order** ( **Customer Services** section). On the     **Details** tab of the _Service Orders_ form, notice that the **Billable** check box is selected for the line added     from the case. You can now proceed to creating an appointment for this service order and assigning the     appointment to the employee who is the best fit to deliver the installation service. 
 
 7. Return to the _Cases_ form, and on the form toolbar, click **Open**. 
 
-8. In the **Details** dialog box, which opens, click **OK**. 
+8. In the **Open** dialog box, leave the _In Process_ reason and click **OK**. 
 
  The dialog box closes and the status of the case changes to Open. 
 
@@ -3710,29 +4112,31 @@ As a result, two invoices will be released: the first one for the requested serv
 
  To create an appointment, do the following: 
 
-1. While you are still viewing the case on the _Cases_ (CR306000) form, on the More menu (under **Customer**     **Services** ), click **Schedule on the Calendar Board**.     The _Calendar Board_ (FS300300) form opens with the service order listed on the **Service Orders** tab. 
+1. While you are still viewing the case on the _Cases_ (CR306000) form, on the More menu (under **Customer**     **Services** ), click **View Service Order**.     The _Service Orders_ (FS300100) form. 
 
-2. In the Date box, select _1/30/2025_. 
+2. On the form toolbar, click **Create Appointment**. The _Appointments_ (FS300200) form opens with all service     order's details. 
 
-3. Drag the service order to the column of _Alberto Jimenez_ at 15:00. 
+3. On the **Staff** tab, add _Alberto Jimenez_. 
 
- An appointment is created. 
+4. On the **Settings** tab, in the **Scheduled Start Date** group of boxes, verify that _1/30/2026_ is specified in the     first box, and specify 3:00 PM in the second box. 
+
+5. Save the appointment. 
 
 
 <!-- PAGE_BREAK -->
- Creating a Service Order Along with a Case | 109 
+ Creating a Service Order Along with a Case | 127 
+
+ An appointment is now created. 
 
 #### Step 5: Processing the Appointment 
 
  To process the appointment, do the following: 
 
-1. While you are still viewing the _Calendar Board_ (FS300300) form, click the reference number of the     appointment in the calendar. (You are acting as the staff member and will continue to do so for the next     three instructions.) The _Appointments_ (FS300200) form opens. 
+1. While you are still viewing the _Appointments_ (FS300200) form, on the form toolbar, click **Start** (You are acting     as the staff member and will continue to do so for the next three instructions.) 
 
-2. On the form toolbar, click **Start**. 
+2. In the **Actual Date and Time** section of the **Settings** tab, specify the actual start and actual end times to be     the same as the scheduled times, and select the **Finished** check box. 
 
-3. In the **Actual Date and Time** section of the **Settings** tab, specify the actual start and actual end times to be     the same as the scheduled times, and select the **Finished** check box. 
-
-4. On the form toolbar, click **Complete**. 
+3. On the form toolbar, click **Complete**. 
 
  The service required to complete the case has been delivered, and you have completed the corresponding appointment. The completion of the appointment caused the service order to also be completed because of the settings of the MRO service order type on the Service Order Types (FS202300) form, as described in the Configuration Overview section. 
 
@@ -3742,13 +4146,13 @@ As a result, two invoices will be released: the first one for the requested serv
 
 1. While you are still viewing the completed appointment on the _Appointments_ (FS300200) form, on the form     toolbar, click **Quick Process**.     According to the settings of the _MRO_ service order type on the **Quick Processing** tab of the _Service Order_     _Types_ (FS202300) form, by clicking the **Quick Process** button, the system will close the appointment, run     the billing process, and generate and release a sales invoice for the appointment. 
 
-2. In the dialog box, click **OK**. Once the billing process is finished, an invoice is generated and released. Click     **OK** in the **Processing Results** dialog box. 
+2. Once the billing process is finished, an invoice is generated and released. Close the confirmation box in the     upper right corner of the form. 
 
 #### Step 7: Completing the Task and Closing the Case 
 
  Now you can complete the task and close the related case; these actions must be performed manually. Do the following: 
 
-1. On the **Other** tab of the _Appointments_ (FS300200) form, click the reference number of the case in the Source     Info section. 
+1. On the **Settings** tab of the _Appointments_ (FS300200) form, click the reference number of the case in the     Source Info section. 
 
 2. On the _Cases_ (CR306000) form, which opens, in the **Summary** column of the **Activities** tab, click the link of     the task associated with the case. 
 
@@ -3760,7 +4164,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with Items to Be Purchased | 110 
+ Processing Service Orders with Items to Be Purchased | 128 
 
 ## Processing Service Orders with Items to Be Purchased 
 
@@ -3768,11 +4172,11 @@ As a result, two invoices will be released: the first one for the requested serv
 
 ### Service Orders with Items to Be Purchased: General Information 
 
- A purchase order can be created from a service order if the necessary stock items are not at any of your company's warehouses, or if services or non-stock items are provided by a vendor of your company. 
+ A purchase order can be created from a service order when the required stock items are not available in any of your company’s warehouses, or when certain services or non-stock items are provided by a vendor. 
 
- In this topic, you will read about the steps involved in processing the service order along with any number of purchase orders. 
+ This topic describes the steps involved in processing a service order together with one or more related purchase orders. 
 
- In this topic, we consider only the purchasing of stock items for a service order. Similarly, services or other non-stock items can be purchased and included in a service order if a vendor provides nonstock items or services (at a vendor location). 
+ In this topic, we focus on the purchasing of stock items for a service order. However, the same process applies when purchasing services or non-stock items from a vendor to include in a service order, for example, when a vendor provides specialized labor or materials at their own location. 
 
 #### Learning Objectives 
 
@@ -3780,13 +4184,13 @@ As a result, two invoices will be released: the first one for the requested serv
 
 - Create a service order with an item to be purchased 
 
-- Create a purchase order that includes at least one item in a service order 
+- Create a purchase order for an item in a service order 
 
-- Process a purchase order that includes at least one item in a service order 
+- Process a purchase order linked to a service order 
 
 #### Applicable Scenarios 
 
- You create a service order and then create a purchase order from the service order when your company needs to provide some stock items during an appointment, and it needs to purchase stock items from the vendor before the appointment. 
+ You create a service order and then generate a purchase order from it when your company needs to use stock items during an appointment but must first purchase those items from a vendor because they are not available in any warehouse. 
 
 #### Process Diagram 
 
@@ -3796,59 +4200,59 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with Items to Be Purchased | 111 
+ Processing Service Orders with Items to Be Purchased | 129 
 
  Figure: Purchase order processing along with service order processing 
 
-#### Entry of a Service Order 
+#### Creating a Service Order 
 
- When a service manager receives a customer request for services, the service manager enters a service order with the Open status by using the Service Orders (FS300100) form. In the service order, the manager specifies such 
+ When a service manager receives a customer request for services, the manager creates a service order with the Open status on the Service Orders (FS300100) form. In the service order, the manager specifies details such as the 
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with Items to Be Purchased | 112 
+ Processing Service Orders with Items to Be Purchased | 130 
 
- details as the customer from which the request has been received, the branch and branch location from which the services are delivered, the services that should be performed, and the stock items to be purchased with the services. 
+ customer who submitted the request, the branch and branch location, the services to be performed, and any stock items that need to be purchased for the job. 
 
- As part of this step, the service manager checks the availability of the stock items at the warehouse (by selecting the warehouse and an inventory item in the corresponding columns of the Details tab of the Service Orders form for each item). For the inventory items that are not available at the warehouse, the manager selects the check box in the Mark for PO column. The system selects the Waiting for Purchased Items check box in the Summary area of the form, indicating that at least one item in the service order needs to be received. 
+ As part of this step, the service manager checks the availability of the required stock items in the warehouse by selecting the warehouse and an inventory item in the corresponding columns on the Details tab. For any items not available in the warehouse, the manager selects the check box in the Mark for PO column. When at least one item is marked for purchase, the system automatically selects the Waiting for Purchased Items check box in the Summary area of the form, indicating that the service order includes items to be received. 
 
-#### Creation of Purchase Orders 
+#### Creating Purchase Orders 
 
- Aer the service manager has made sure that all the necessary items are marked as needing to be purchased from the vendor or vendors, the manager clicks Create Purchase Orders on the More menu of the Service Orders (FS300100) form to open the Create Purchase Orders (PO505000) form. On this form, the manager checks the vendors and vendor locations specified for the items for which the purchase orders need to be created and creates these purchase orders. 
+ Aer confirming that all necessary items are marked for purchase from the appropriate vendors, the service manager clicks Create Purchase Orders on the More menu of the Service Orders (FS300100) form. This actions opens the Create Purchase Orders (PO505000) form, where the manager reviews the vendors and vendor locations for the items and creates the required purchase orders. 
 
- The system creates purchase orders of the Normal type with the On Hold status on the Purchase Orders (PO301000) form. Now the service manager can track the reference number and status of the purchase orders related to the service order in the PO Nbr. and PO Status columns on the Service Orders or Service Order Details (FS401000) form. 
+ The system creates purchase orders of the Normal type with the On Hold status on the Purchase Orders (PO301000) form. The service manager can then monitor the reference number and statuses of the related purchase orders in the PO Nbr. and PO Status columns on the Service Orders or Service Order Details (FS401000) form. 
 
- The system creates one purchase order for all items with the same vendor and vendor location, and different purchase orders for items with different vendors or vendor locations. 
+ The system creates one purchase order for all items associated with the same vendor and vendor location, and separate purchase orders for items with different vendors or locations. 
 
-#### Processing of Purchase Orders 
+#### Processing Purchase Orders 
 
  On the Purchase Orders (PO301000) form, the purchase manager processes the purchase orders, as described in Purchases of Stock Items: General Information. The system assigns the Open status to each purchase order. 
 
- Each time the status of the purchase order is changed on the Purchase Orders form, the status is reflected in the PO Status column on Details tab of the Service Orders (FS300100) form. 
+ Each time the status of the purchase order changes on the Purchase Orders form, the updated status is automatically reflected in the PO Status column on Details tab of the Service Orders (FS300100) form. 
 
- Each time a receiving clerk receives the purchased stock items, they create and process a purchase receipt on the Purchase Receipts (PO302000) form. Aer purchase receipts have been released for all items included in a particular purchase order, the system assigns the purchase order the Closed status. The system also generates an inventory receipt with the Released status; the receiving clerk can view this receipt on the Receipts (IN301000) form. 
+ When the purchased stock items are received, the receiving clerk creates and processes a purchase receipt on the Purchase Receipts (PO302000) form. Once purchase receipts have been released for all items in a purchase order, the system changes the purchase order status to Closed and generates a corresponding inventory receipt with the Released status. The receiving clerk can view this receipt on the Receipts (IN301000) form. At this point, the stock items are available to be added to appointments. 
 
  The system also creates a bill with the On Hold status. An accountant now can process the bills related to the purchase orders on the Bills and Adjustments (AP301000) form. 
 
-#### Creation of Appointments 
+#### Creating Service Appointments 
 
- Aer the purchase order has been processed, a service manager of your company then uses the Calendar Board (FS300300) form to schedule the appointments that are needed to perform the services requested by the customer. 
+ Aer the purchase order has been processed, the service manager schedules the necessary appointments to perform the customer’s requested services. 
 
- The service manager selects a staff member to attend an appointment by taking into consideration the work schedule of the staff member, as well as filtering the displayed staff members by the skills and licenses needed to perform the service and the service area where the services are provided. On the Appointments (FS300200) form, the service manager checks the information on each appointment and enters additional information, such as the resource equipment used to perform the services. The system assigns the Not Started status to each appointment when it is first created. 
-
-
-<!-- PAGE_BREAK -->
- Processing Service Orders with Items to Be Purchased | 113 
+ When assigning staff members to appointments, the service manager considers their work schedules, as well as skills, licenses, and the service area. On the Appointments (FS300200) form, the service manager reviews each appointment and records additional information, such as the resource equipment used to perform the services. Each appointment is assigned the Not Started status when created. 
 
  An appointment can be created earlier in the process. The items that need to be purchased will also be included in the appointment. The Mark for PO , PO Nbr. and PO Status columns on the Details tab of the Appointments form display details on the related purchase. 
 
- The further processing workflow of the service order and its appointment does not differ from the general processing workflow of an ordinary service order. 
+
+<!-- PAGE_BREAK -->
+ Processing Service Orders with Items to Be Purchased | 131 
+
+ The subsequent processing workflow of the service order and its appointments follows the same steps as the general workflow for standard service orders. 
 
 ### Service Orders with Items to Be Purchased: Process Activity 
 
  This activity will walk you through the creation of a service order for which a stock item must be purchased from a vendor. You will also learn how to process the purchase order and service order (up to but not including the creation of appointments). 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -3857,6 +4261,8 @@ As a result, two invoices will be released: the first one for the requested serv
  Because this juicer is not yet in stock, the SweetLife Service and Equipment Sales Center needs to first purchase the juicer from the SQUEEZO vendor. When the juicer is received, an appointment to perform the services can be created. Acting as the service manager (Maia Davis), you will create the service order, create the purchase order, and process the purchase order. 
 
 #### Configuration Overview 
+
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -3878,13 +4284,15 @@ As a result, two invoices will be released: the first one for the requested serv
 
 - On the _Billing Cycles_ (FS206000) form, the following settings have been specified for the _AP AP_ billing cycle: 
 
-
-<!-- PAGE_BREAK -->
- Processing Service Orders with Items to Be Purchased | 114 
-
 - **Run Billing For** : **Appointments** 
 
-- **Group Billing Documents By** : **Appointments** Based on these billing cycle settings, a separate billing document is generated for each appointment; this document presents the details of each service of the appointment. 
+- **Group Billing Documents By** : **Appointments** 
+
+
+<!-- PAGE_BREAK -->
+ Processing Service Orders with Items to Be Purchased | 132 
+
+ Based on these billing cycle settings, a separate billing document is generated for each appointment; this document presents the details of each service of the appointment. 
 
 - On the _Customers_ (AR303000) form, the _GOODFOOD (GoodFood One Restaurant)_ customer has been defined,     and the _AP AP_ billing cycle has been selected in the **Service Management** section of the **Billing** tab. 
 
@@ -3900,13 +4308,13 @@ As a result, two invoices will be released: the first one for the requested serv
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as the service manager by using the _davis_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step 1: Creating a Service Order with an Item to Be Purchased 
 
@@ -3932,17 +4340,15 @@ As a result, two invoices will be released: the first one for the requested serv
 
 4. On the form toolbar, click **Save**. 
 
-5. On the **Details** tab, select the **Mark for PO** check box for _JUICER05_.     Now a purchase order for this inventory item can be created from the service order. 
+5. On the **Details** tab, select the **Mark for PO** check box for _JUICER05_.     A purchase order for this inventory item can now be created from the service order. 
 
-6. In the **Vendor ID** column of the row, select _SQUEEZO_. 
+6. In the **Vendor ID** column of the row, select _SQUEEZO_.     This vendor will supply the item designated for purchase. 
+
+7. On the form toolbar, click **Save**. 
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with Items to Be Purchased | 115 
-
- The item that is designated for purchase will be purchased from this vendor. 
-
-7. On the form toolbar, click **Save**. 
+ Processing Service Orders with Items to Be Purchased | 133 
 
 #### Step 2: Creating a Purchase Order 
 
@@ -3960,21 +4366,21 @@ As a result, two invoices will be released: the first one for the requested serv
 
 1. On the form toolbar of the _Purchase Orders_ (PO301000) form, for the purchase order that you created in the     previous step, click **Remove Hold**. 
 
-2. On the form toolbar, click **Enter PO Receipt**.     The _Purchase Receipts_ (PO302000) form opens with a new receipt that has settings copied from the     purchase order. 
+2. On the form toolbar, click **Enter PO Receipt**.     The _Purchase Receipts_ (PO302000) form opens, displaying a new receipt with settings copied from the     purchase order. 
 
 3. On the form toolbar, click **Save**.     The receipt has been created for the purchased item. 
 
-4. On the form toolbar, click **Release**.     The receipt has been released, indicating that the ordered inventory item is at the warehouse. 
+4. On the form toolbar, click **Release**.     The receipt has been released, indicating that the ordered inventory item is now available in the warehouse. 
 
 #### Step 4: Reviewing the Service Order with the Purchased Item 
 
  To review the service order, do the following: 
 
-1. Open the _Service Order Details_ (FS401000) form, and in the **Customer** box, select _COFFEESHOP (FourStar_     _Coffee & Sweets Shop)_ (see Item 1 in the following screenshot).     In the list, find a service order with the item that has been purchased ( _JUICER05_ in the **Inventory ID**     column). In the **PO Status** column, notice that the status of the purchase order is _Completed_ (Item 2). This     indicates that the stock item has been received at the warehouse. 
+1. Open the _Service Order Details_ (FS401000) form, and in the **Customer** box, select _COFFEESHOP (FourStar_     _Coffee & Sweets Shop)_ (Item 1 below).     In the list, find a service order with the item that has been purchased ( _JUICER05_ in the **Inventory ID**     column). In the **PO Status** column, notice that the status of the purchase order is _Completed_ (Item 2). This     indicates that the stock item has been received at the warehouse. 
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with Items to Be Purchased | 116 
+ Processing Service Orders with Items to Be Purchased | 134 
 
  Figure: The purchased item 
 
@@ -3994,11 +4400,13 @@ As a result, two invoices will be released: the first one for the requested serv
 
  You can reserve the specified item quantities for the service order by allocating them on the Service Orders (FS300100) form. On the Details tab, you can click a service order line and view the item availability information at the bottom of the form. You may want to reserve the requested quantity for this specific item (or for multiple items). 
 
- To allocate stock for a particular line of a service order, you use the Line Details dialog box, which opens if you click the needed line on the Details tab of the Service Orders form and then click Line Details on the table toolbar. By using this dialog box, you can select whether to reserve the requested quantities of the item in a single warehouse or multiple warehouses. Also, you can use the Line Details dialog box to track the order fulfillment. For each allocation line, the Related Document column contains the reference number of the document related to the current stage of the order fulfillment. 
+ To allocate stock for a particular line of a service order, you use the Line Details dialog box, which opens if you click the needed line on the Details tab of the Service Orders form and then click Line Details on the table toolbar. By using this dialog box, you can select whether to reserve the requested quantities of the item in a single warehouse or multiple warehouses. Also, you can use the Line Details dialog box to track the order fulfillment. For each 
 
 
 <!-- PAGE_BREAK -->
- Processing Service Orders with Items to Be Purchased | 117 
+ Processing Service Orders with Items to Be Purchased | 135 
+
+ allocation line, the Related Document column contains the reference number of the document related to the current stage of the order fulfillment. 
 
 #### Notes on Processing of Appointments with Allocated Items 
 
@@ -4024,7 +4432,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Processing Prepayments for a Service Order | 118 
+ Processing Prepayments for a Service Order | 136 
 
 ## Processing Prepayments for a Service Order 
 
@@ -4056,19 +4464,55 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Processing Prepayments for a Service Order | 119 
+ Processing Prepayments for a Service Order | 137 
 
 **_Figure: Processing a service order with prepayments_** 
 
 
 <!-- PAGE_BREAK -->
- Processing Prepayments for a Service Order | 120 
+ Processing Prepayments for a Service Order | 138 
+
+#### Creating a Service Order 
+
+ The service manager creates a service order on the Service Orders (FS300100) form. The order includes both service and inventory line items. 
+
+#### Entering a Prepayment 
+
+ The service manager records a prepayment for the service order on the Payments and Applications (AR302000) form. The prepayment reduces the unpaid balance of the service order. 
+
+#### Creating an Appointment 
+
+ The scheduler creates an appointment on the Appointments (FS300200) form. The appointment includes all relevant details from the service order. 
+
+#### Starting the Appointment 
+
+ The assigned staff member starts the appointment on the Appointments (FS300200) form. The appointment status changes to In Process , and the system updates the balances accordingly. 
+
+#### Entering an Additional Prepayment 
+
+ If necessary, the staff member records another prepayment on the Appointments (FS300200) form to reflect partial payments made during the service. 
+
+#### Completing the Appointment 
+
+ Aer performing the service, the staff member completes the appointment on the Appointments (FS300200) form. The appointment status changes to Completed. 
+
+#### Closing the Appointment 
+
+ The accountant reviews and verifies the appointment details, then closes it on the Appointments (FS300200) form. The appointment status changes to Closed. 
+
+#### Generating an Invoice 
+
+ The accountant runs billing for the completed appointment. Aer the invoice is generated and released, its balance reflects that all prepayment amounts have been subtracted from the total. 
 
 ### Service Order Prepayments: Process Activity 
 
  This activity will walk you through the process of managing prepayments that have been made for a service order, including entering a prepayment while acting as a staff member attending an appointment. You will go through the whole process, starting from the creation of a service order and ending with the release of the invoice for the service order. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
+
+
+<!-- PAGE_BREAK -->
+ Processing Prepayments for a Service Order | 139 
 
 #### Story 
 
@@ -4076,7 +4520,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -4100,27 +4544,29 @@ As a result, two invoices will be released: the first one for the requested serv
 
 - **Run Billing For** : **Appointments** 
 
-
-<!-- PAGE_BREAK -->
- Processing Prepayments for a Service Order | 121 
-
 - **Group Billing Documents By** : **Appointments** Based on these billing cycle settings, a separate billing document is generated for each appointment; this document presents the details of each service of the appointment. 
 
 - On the _Cash Accounts_ (CA202000) form, the _10200EQ (Equipment Checking)_ cash account is assigned to the     _SWEETEQUIP_ branch. 
 
 #### Process Overview 
 
- You will create a service order on the Service Orders (FS300100) form and add the service to be performed. You will enter the initial prepayment for the service order on the Payments and Applications (AR302000) form and then create the related appointment on the Appointments (FS300200) form. You then will process the appointment, including entering the second prepayment on the Payments and Applications form. Finally, you will process an invoice on the Invoices (SO303000) form to bill the customer. 
+ You will create a service order on the Service Orders (FS300100) form and add the service to be performed. You will enter the initial prepayment for the service order on the Payments and Applications (AR302000) form and then create the related appointment on the Appointments (FS300200) form. You then will process the appointment, 
+
+
+<!-- PAGE_BREAK -->
+ Processing Prepayments for a Service Order | 140 
+
+ including entering the second prepayment on the Payments and Applications form. Finally, you will process an invoice on the Invoices (SO303000) form to bill the customer. 
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step 1: Entering a Service Order 
 
@@ -4154,11 +4600,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 1. While you are still viewing the service order you created on the _Service Orders_ (FS300100) form, on the     **Prepayments** tab, click **Create Prepayment** on the table toolbar.     The _Payments and Applications_ (AR302000) form opens in a pop-up window. 
 
-
-<!-- PAGE_BREAK -->
- Processing Prepayments for a Service Order | 122 
-
-2. In the **Cash Account** box of the Summary area, ensure that _10200EQ (Equipment Checking)_ is selected. 
+2. In the **Cash Account** box of the Summary area, ensure that _10200EQ - Equipment Checking_ is selected. 
 
 3. In the **Payment Amount** box, type 820 , which is 20% of the total amount. 
 
@@ -4170,19 +4612,21 @@ As a result, two invoices will be released: the first one for the requested serv
 
 7. Close the window with the form.     On the _Service Orders_ form, to which you return, notice that the prepayment you have created is now listed     on the **Prepayments** tab. 
 
+
+<!-- PAGE_BREAK -->
+ Processing Prepayments for a Service Order | 141 
+
 #### Step 3: Creating an Appointment 
 
  To create an appointment for the service order, do the following: 
 
 1. While you are still viewing the service order on the _Service Orders_ (FS300100) form, click **Create**     **Appointment** on the form toolbar.     The system opens the _Appointments_ (FS300200) form with relevant settings copied from the service order. 
 
-2. On the **Settings** tab, in the **Scheduled Start Date** boxes, specify _2/3/2025 12:00 PM_ 
+2. On the **Settings** tab, in the **Scheduled Start Date** boxes, specify _2/3/2026 12:00 PM_ 
 
-3. On the table toolbar of the **Staff** tab, click **Add Row**. 
+3. On the **Staff** tab, add _Alberto Jimenez_ as a staff member. 
 
-4. In the **Staff Member** column, select _Alberto Jimenez_. 
-
-5. On the form toolbar, click **Save**. 
+4. On the form toolbar, click **Save**. 
 
 #### Step 4: Processing the Appointment with the Prepayment 
 
@@ -4192,7 +4636,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 2. On the **Prepayments** tab, click **Create Prepayment**.     The _Payments and Applications_ (AR302000) form opens in a pop-up window. 
 
-3. In the **Cash Account** box, ensure that _10200EQ (Equipment Checking)_ is selected. 
+3. In the **Cash Account** box, ensure that _10200EQ - Equipment Checking_ is selected. 
 
 4. In the **Payment Amount** box, type 1,230.00, which is 30% of the total amount. 
 
@@ -4206,17 +4650,13 @@ As a result, two invoices will be released: the first one for the requested serv
 
 9. On the _Appointments_ form, to which you return, in the **Actual Date and Time** section of the **Settings** tab,     specify the following settings: 
 
-- **Actual Start Date** : _2/3/2025 12:00PM_ 
+- **Actual Start Date** : _2/3/2026 12:00PM_ 
 
-- **Actual End Date** : _2/3/2025 1:00PM_ 
+- **Actual End Date** : _2/3/2026 1:00PM_ 
 
 - **Finished** : Selected 10.On the form toolbar, click **Complete**. 11.On behalf of the accountant, on the form toolbar, click **Close**. 
 
  The completion and closing of the appointment caused the service order to also be completed and closed because of the settings of the INST service order type on the Service Order Types (FS202300) form, as described in the Configuration Overview section. 
-
-
-<!-- PAGE_BREAK -->
- Processing Prepayments for a Service Order | 123 
 
 #### Step 5: Generating an Invoice 
 
@@ -4226,23 +4666,33 @@ As a result, two invoices will be released: the first one for the requested serv
 
 1. While you are still viewing the appointment on the _Appointments_ form, click **Run Billing** on the form toolbar. 
 
-2. Aer the processing has successfully completed, on the **Billing Documents** tab, click the reference number     of the invoice.     The _Invoices_ (SO303000) form opens in a separate window with the generated invoice. 
+2. Aer the processing has successfully completed, the _Invoices_ (SO303000) form opens in a separate window     with the generated invoice. 
 
-3. On the **Applications** tab (Item 1 in the following screenshot), notice that both prepayments are listed (Item     2). 
+
+<!-- PAGE_BREAK -->
+ Processing Prepayments for a Service Order | 142 
+
+ You can open an invoice by clicking its reference number on the Billing Documents tab. 
+
+3. On the **Applications** tab (Item 1 below), notice that both prepayments are listed (Item 2). 
 
  Figure: The Applications Tab 
 
  Also notice that the Total Paid and the Unpaid Balance amounts are indicated in the right panel of the Application tab. Verify that the Total Paid is 50% of total appointment billable amount. 
 
-4. On the form toolbar, click **Remove Hold** and then **Release**.     In the Summary area of the _Invoices_ form, review the invoice balance ( **Balance** ) to be paid is 2,050.00. 
+4. On the form toolbar, click **Remove Hold** and then **Release**. 
 
-5. On the More menu, click **Pay**.     The system opens the document of the _Payment_ type on the _Payments and Applications_ (AR302000) form,     with the amount to be paid equal to 2,050.00, which is specified in the **Payment Amount** box in the     Summary area of the form. 
+ In the Summary area of the Invoices form, review the invoice balance ( Balance ) to be paid is 2,050.00. 
+
+5. On the More menu, click **Pay**. 
+
+ The system opens the document of the Payment type on the Payments and Applications (AR302000) form, with the amount to be paid equal to 2,050.00, which is specified in the Payment Amount box in the Summary area of the form. 
 
 6. Click **Remove Hold** and **Release**. 
 
 
 <!-- PAGE_BREAK -->
- Creating and Using Resource Equipment | 124 
+ Creating and Using Resource Equipment | 143 
 
 ## Creating and Using Resource Equipment 
 
@@ -4252,11 +4702,11 @@ As a result, two invoices will be released: the first one for the requested serv
 
 ### Resource Equipment: General Information 
 
- In Acumatica ERP, you can enter and keep information about equipment that staff members use to perform services—resource equipment. Resource equipment is a physical resource of your company. You can enter the equipment's parameters, such as its serial number, registration information, manufacturing settings, purchase information, owner, and location. 
+ In Acumatica ERP, you can record and manage information about the equipment that staff members use to perform services—called resource equipment. Resource equipment represents a physical asset of your company. You can enter details such as serial numbers, registration information, manufacturing data, purchase details, owner, and location. 
 
- Equipment types are categories that are used for grouping equipment and associating a group of equipment with a service. You create equipment types, specify the appropriate type for each resource equipment, and assign equipment types to services. This ensures that the right equipment will later be selected to perform these services. 
+ Equipment types are categories used to group equipment and link groups of equipment to specific services. You create equipment types, assign the appropriate type to each resource equipment record, and associate equipment types with services. This ensures that the correct equipment will later be selected when performing those services. 
 
- In this chapter, you will learn how to create equipment types, and assign them to equipment and services in the system, how to add resource equipment to the system, and how to assign it to appointments. 
+ In this chapter, you'll learn how to create equipment types, assign them to equipment and services, add resource equipment to the system, and assign equipment to appointments. 
 
 #### Learning Objectives 
 
@@ -4276,57 +4726,63 @@ As a result, two invoices will be released: the first one for the requested serv
 
 #### Creating Equipment Types 
 
- Equipment types structure the data in the system and make it easier to select the right equipment for performing services. Equipment of one equipment type is used to perform similar types of work. For instance, if your company provides installation services, you might create the first equipment type for all drills of the company and the second equipment type for screwdrivers. You assign an equipment type to every piece of resource equipment in the system, so that when you create a service document, the system automatically sorts the list of resource equipment by the types assigned to services, and you can easily select the necessary equipment from the list. 
+ Equipment types help organize equipment data in the system and make it easier to select the right tools for performing services. Equipment belonging to the same equipment type is typically used for similar kinds of work. For example, if your company provides installation services, you might create one equipment type for all drills and another for screwdrivers. 
 
-#### Creation of Resource Equipment 
+ Each piece of resource equipment in the system must be assigned an equipment type. When you create a service document, the system automatically sorts the list of available equipment by type, allowing you to quickly find and select the appropriate equipment. 
 
- You add each specific piece of resource equipment (for example, a specific screwdriver or drill) that you are going to use to perform services on the Equipment (FS205000) form. You have to specify to the system that this item is resource equipment by selecting the Resource Equipment check box in the Summary area of the form. Then you specify the type of equipment and indicate that you are an owner by selecting the Company option button on the form (under Owner in the Summary area). 
+#### Creating Resource Equipment 
+
+ You add each specific piece of resource equipment (for example, a particular screwdriver or drill) on the Equipment (FS205000) form. On this form, you specify the equipment type and select the Resource Equipment check 
 
 
 <!-- PAGE_BREAK -->
- Creating and Using Resource Equipment | 125 
+ Creating and Using Resource Equipment | 144 
 
- All the equipment recorded in the system with the Active status can be assigned to an appointment. 
+ box to identify the item as resource equipment. Under Owner Type , you select Company to indicate that your organization owns the equipment. 
 
-#### Specification of Attributes 
+ Any equipment with an Active status can be assigned to an appointment. 
 
- To give users the ability to specify additional information for a piece of equipment so that your company can track this information, attributes have to be defined for the related equipment type on the Equipment Types (FS200800) form. 
+#### Managing Equipment Attributes 
 
- When you create a piece of equipment on the Equipment (FS205000) form and select its equipment type, the system populates the Attributes tab with the attributes (and any default values) defined for the equipment type on the Equipment Types form. You can specify or modify equipment attribute values in the Values column. If the Required check box is selected for an attribute, the value has to be specified before you save the new equipment you are creating. 
+ To let users record additional details for a piece of equipment and help your company track that information, you can define attributes for the related equipment type on the Equipment Types (FS200800) form. 
 
- Also on the Attributes tab of the Equipment form are the Image set of elements, which you can use to attach an image of the piece of equipment. 
+ When you create a piece of equipment on the Equipment (FS205000) form and select its equipment type, the system populates the Attributes tab with the attributes (and any default values) defined for that equipment type. You can then enter or update attribute values in the Value column. If the Required check box is selected for an attribute, you must specify a value before saving the new equipment record. 
 
-#### Assignment of Equipment Types to Services 
+ The Attributes tab of the Equipment form also includes the Image area, which you can use to attach an image of the equipment. 
 
- You can specify which equipment types are needed for each service. Services are defined in the system as nonstock items of the Service type on the Non-Stock Items (IN202000) form. You assign the appropriate equipment types to the service on the Resource Equipment Types tab of this form. 
+#### Assigning Equipment Types to Services 
 
-#### Assignment of Resource Equipment to Appointments 
+ You can specify which equipment types are required for each service. In the system, services are defined as nonstock items of the Service type on the Non-Stock Items (IN202000) form. On the Resource Equipment Types tab of this form, assign the appropriate equipment types to a service. 
 
- You can assign the necessary equipment to the appointments of a particular service order on the Service Orders (FS300100) form or to a particular appointment on the Appointments (FS300200) form. You assign the resource equipment on the Default Resource Equipment tab of the Service Orders form and on the Resource Equipment tab of the Appointments form. On these tabs, for each piece of equipment that you want to add, you add a row and select the necessary equipment identifier from the list in the Equipment ID column. 
+#### Assigning Resource Equipment to Appointments 
 
-#### Viewing of Equipment Details 
+ You can assign the necessary resource equipment to the appointments of a specific service order on the Service Orders (FS300100) form or directly to an appointment on the Appointments (FS300200) form. You make the assignment on the Default Resource Equipment tab of the Service Orders form and on the Resource Equipment tab of the Appointments form. 
 
- On the Equipment Summary (FS400200) form, you can view the list of all equipment added to the system and its key settings, such as type, description, serial number, owner information, model, and installation date. You can filter the list by equipment type, customer (for equipment that customers own), customer location, and model (stock item ID). 
+ On these tabs, add a new row for each piece of equipment you want to include, and select the required equipment identifier from the list in the Equipment ID column. 
 
- To view the details of particular equipment, you can click an equipment number in the Equipment Nbr. column, which causes the system to bring up its details on the Equipment (FS205000) form. 
+#### Viewing Equipment Details 
+
+ On the Equipment Summary (FS400200) form, you can view all equipment added to the system along with key details such as type, description, serial number, owner information, model, and installation date. You can filter the list by equipment type, customer (for customer-owned equipment), customer location, and model (stock item ID). 
+
+ To view the details of a specific piece of equipment, click its number in the Equipment Nbr. column. The system opens the Equipment (FS205000) form, displaying the selected equipment’s details. 
 
 ### Resource Equipment: To Create an Equipment Type and Assign It to a Service 
 
- In this activity, you will learn how to create in Acumatica ERP the types of equipment that your company has and that could be necessary for employees to perform repair services. You will also assign an equipment type to a service for informational purposes, to indicate the type of equipment that is generally needed to perform the particular service. 
+ In this activity, you’ll learn how to create equipment types in Acumatica ERP to represent the kinds of equipment your company uses to perform repair services. You’ll also assign an equipment type to a service for reference, indicating the type of equipment typically required to perform that service. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 
 <!-- PAGE_BREAK -->
- Creating and Using Resource Equipment | 126 
+ Creating and Using Resource Equipment | 145 
 
 #### Story 
 
- Suppose the SweetLife Service and Equipment Sales Center wants to start to keep track of its resource equipment —that is, equipment that staff members use to perform services. Acting as an administrative user of the company, you will create the needed equipment type, which will then be assigned to a service for which staff members providers need special equipment. 
+ Suppose the SweetLife Service and Equipment Sales Center wants to start tracking its resource equipment—the tools and machines that staff members use to perform services. Acting as the company’s administrative user, you’ll create the necessary equipment type and assign it to a service that requires specialized equipment to be performed. 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed for the purposes of this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -4344,13 +4800,13 @@ As a result, two invoices will be released: the first one for the requested serv
 
 #### System Preparation 
 
- Before you start creating an equipment type, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a system administrator by using the _gibbs_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a system administrator by using the _gibbs_ username and the _123_ password. 
 
-2. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _Service and Equipment Sales Center_ branch. 
+2. On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the _Service_     _and Equipment Sales Center_ branch. 
 
-3. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+3. Make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_ (CS100000) form. 
 
 #### Step 1: Creating an Equipment Type 
 
@@ -4370,7 +4826,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Creating and Using Resource Equipment | 127 
+ Creating and Using Resource Equipment | 146 
 
  The new equipment type can now be assigned to services, and a particular piece of equipment with this type can be created. This gives you the ability to track equipment that is used for performing services. 
 
@@ -4380,7 +4836,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 1. Open the _Services_ (FS400800) form, and click _REPAIR_ in the **Inventory ID** column. The _Non-Stock Items_     (IN202000) form opens with this service selected. 
 
-2. On the **Resource Equipment Types** tab (see Item 1 in the following screenshot), click **Add Row** , and select     the _DRILL_ equipment type (Item 2). 
+2. On the **Resource Equipment Types** tab (Item 1 below), click **Add Row** , and select the _DRILL_ equipment type     (Item 2). 
 
  Figure: The equipment type assigned to the service 
 
@@ -4392,23 +4848,23 @@ As a result, two invoices will be released: the first one for the requested serv
 
  In this activity, you will learn how to create a resource equipment record in the system. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that you are an administrative user of the SweetLife Service and Equipment Sales Center, and you need to add resource equipment used in appointments to Acumatica ERP. 
+ Suppose you’re the administrative user at the SweetLife Service and Equipment Sales Center, and you need to add the resource equipment used in appointments to Acumatica ERP. 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed for the purposes of this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
+
+
+<!-- PAGE_BREAK -->
+ Creating and Using Resource Equipment | 147 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
 - The _SWEETLIFE_ company has been created on the _Companies_ (CS101500) form. This company has multiple     branches created on the _Branches_ (CS102000) form, including _SWEETEQUIP (Service and Equipment Sales_     _Center)_. 
-
-
-<!-- PAGE_BREAK -->
- Creating and Using Resource Equipment | 128 
 
 - On the _Service Management Preferences_ (FS100100) form, the minimum settings have been specified,     including specifying the numbering sequences and work calendar, for the service management functionality     to be used. 
 
@@ -4422,13 +4878,13 @@ As a result, two invoices will be released: the first one for the requested serv
 
 #### System Preparation 
 
- Before you start creating equipment records, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a system administrator by using the _gibbs_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a system administrator by using the _gibbs_ username and the _123_ password. 
 
-2. On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the     _Service and Equipment Sales Center_ branch. 
+2. On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the _Service_     _and Equipment Sales Center_ branch. 
 
-3. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+3. Make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_ (CS100000) form. 
 
 4. As a prerequisite activity, be sure that the equipment type has been created as described in _Resource_     _Equipment: To Create an Equipment Type and Assign It to a Service_. 
 
@@ -4450,9 +4906,9 @@ As a result, two invoices will be released: the first one for the requested serv
 
 - **Resource Equipment** : Selected 
 
-3. Under **Owner** , select **Company**. 
+3. Under **Owner Type** , select **Company**. 
 
-4. Under **Location** , select **Company** , and select _SWEETEQUIP_ in the **Branch** box. 
+4. Under **Location Type** , select **Company** , and select _SWEETEQUIP_ in the **Branch** box. 
 
 5. On the form toolbar, click **Save**. 
 
@@ -4466,49 +4922,47 @@ As a result, two invoices will be released: the first one for the requested serv
 
 - **Target Equipment** : Cleared 
 
-- **Resource Equipment** : Selected 
-
-- **Owner** : **Company** 
-
-- **Location** : **Company** 
-
 
 <!-- PAGE_BREAK -->
- Creating and Using Resource Equipment | 129 
+ Creating and Using Resource Equipment | 148 
+
+- **Resource Equipment** : Selected 
+
+- **Owner Type** : **Company** 
+
+- **Location Type** : **Company** 
 
 - **Branch** : _SWEETEQUIP_ 
 
 7. On the form toolbar, click **Save**. 
 
-8. Open the _Equipment Summary_ (FS400200) form, and make sure that the pieces of equipment you have     created are displayed in the table (as shown in the following screenshot). 
+8. Open the _Equipment Summary_ (FS400200) form, and make sure that the pieces of equipment you have     created are displayed in the table (as shown below). 
 
  Figure: The pieces of equipment you have created 
 
-### Use of Resource Equipment in Appointments: To Use Resource Equipment in 
+### Resource Equipment: To Add Resource Equipment to an Appointment 
 
-### Appointments 
+ This activity guides you through the process of assigning to appointments the resource equipment that your company owns and uses to perform services. 
 
- This activity will walk you through the process of assigning to appointments the resource equipment that your company owns and uses for performing services. 
-
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
- Suppose that the SweetLife Service and Equipment Sales Center has its own equipment that is used for repair services and keeps a history of appointments for each item that was used. The service manager (Maia Davis) receives a call from the FourStar Coffee & Sweets Shop customer that the repair of a juicer is necessary on February, 4, 2025. 
+ The SweetLife Service and Equipment Sales Center owns equipment that is used for repair services and maintains a history of appointments for each item. The service manager (Maia Davis) receives a call from the FourStar Coffee & Sweets Shop customer requesting the repair of a juicer on February, 4, 2026. 
 
- Acting as the service manager, you will schedule the appointment, while taking into consideration which piece of resource equipment can be used during the time of the appointment. You will also review the history of usage of the selected piece of resource equipment. 
+ Acting as the service manager, you will schedule the appointment, taking into account which piece of resource equipment is available for use at that time. You will also review the history of usage of the selected equipment. 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
+
+
+<!-- PAGE_BREAK -->
+ Creating and Using Resource Equipment | 149 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
 - The _SWEETLIFE_ company has been created on the _Companies_ (CS101500) form. This company has multiple     branches created on the _Branches_ (CS102000) form, including _SWEETEQUIP (Service and Equipment Sales_     _Center)_. 
-
-
-<!-- PAGE_BREAK -->
- Creating and Using Resource Equipment | 130 
 
 - On the _Service Management Preferences_ (FS100100) form, the minimum settings have been specified,     including specifying the numbering sequences and work calendar, for the service management functionality     to be used. 
 
@@ -4526,23 +4980,23 @@ As a result, two invoices will be released: the first one for the requested serv
 
 #### Process Overview 
 
- To assign to an appointment the resource equipment that is necessary to perform a service, on the Appointments (FS300200) form, you create an appointment with the service for which resource equipment is required, and add needed resource equipment. You then review the Resource Equipment History (FS656500) report to determine which in which appointments the equipment has been or will be used, including the appointment. You will then view the appointments to which the selected piece of equipment has been assigned on the Appointment Summary (FS400100) form. 
+ To assign the resource equipment required to perform a service, you will use the Appointments (FS300200) form. You will create an appointment with the service that requires the equipment and add the necessary resource equipment. Next, you will review the Resource Equipment History (FS656500) report form to see the appointments where the equipment has been or will be used. Finally, you will view the resource equipment history on the Appointment Summary (FS400100) form. 
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-3. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
-#### Step 1: Creating an Appointment 
+#### Step 1: Creating an Appointment with Resource Equipment Assigned 
 
- To create the appointment for which resource equipment will be used, do the following: 
+ To create an appointment that will use the resource equipment, do the following: 
 
-1. On the _Appointments_ (FS300200) form, add a new record. 
+1. On the _Appointments_ (FS300200) form, click **Add New Record**. 
 
 2. In the Summary area of the form, specify the following settings: 
 
@@ -4552,39 +5006,37 @@ As a result, two invoices will be released: the first one for the requested serv
 
 - **Description** : Repair of a juicer 
 
-3. On the **Settings** tab, in the **Scheduled Start Date** box, select _2/4/2025 9:00 AM_. 
+3. On the **Settings** tab, in the **Scheduled Start Date** box, specify _2/4/2026 9:00 AM_. 
 
 4. On the table toolbar of the **Details** tab, add a row, and specify the following settings: 
+
+
+<!-- PAGE_BREAK -->
+ Creating and Using Resource Equipment | 150 
 
 - **Line Type** : _Service_ 
 
 - **Inventory ID** : _REPAIR_ 
 
-
-<!-- PAGE_BREAK -->
- Creating and Using Resource Equipment | 131 
-
 5. On the **Resource Equipment** tab, add a row, and in the **Equipment ID** column, select _FSE00001 (Vissko_     _Screwdriver Set)_. 
 
 6. On the form toolbar, click **Save**. 
 
-#### Step 2: Reviewing the Resource Equipment to Be Used in the Appointment 
+#### Step 2: Reviewing the Usage History of Resource Equipment 
 
- To review the list of appointments in which the resource equipment will be used, do the following: 
+ To review the list of appointments where the resource equipment has been or will be used, do the following: 
 
 1. Open the _Resource Equipment History_ (FS656500) report form. 
 
-2. In the **End Date** box, select _2/4/2025_. 
+2. In the **End Date** box, select _2/4/2026_. 
 
 3. In the **Resource Equipment** box, select _FSE00001_. 
 
 4. On the form toolbar, click **Run Report**. 
 
- The report opens with the details of the appointment that you have created in Step 1 in which the equipment will be used. 
+ The report lists all appointments that use the selected resource equipment, including the one you created in the previous step (see below). 
 
-#### Step 3: Reviewing the Resource Equipment History 
-
- To review the history of appointments to which the piece of resource equipment has been assigned, do the following: 
+ You can also review the list of appointments for the piece of resource equipment as follows: 
 
 1. Open the _Equipment_ (FS205000) form. 
 
@@ -4592,21 +5044,21 @@ As a result, two invoices will be released: the first one for the requested serv
 
 3. On the More menu (under **Inquiries** ), click **Resource Equipment History**. 
 
-4. On the _Appointment Summary_ (FS400100) form, which opens with _FSE00001_ selected in the **Resource**     **Equipment** box, clear the **Staff Member** box (Item 1 in the following screenshot). 
+4. On the _Appointment Summary_ (FS400100) form, which opens with _FSE00001_ selected in the **Resource**     **Equipment** box, clear the **Staff Member** box. 
 
-5. In the **To Scheduled Date** box, select _2/4/2025_ (Item 2). 
+5. In the **To Scheduled Date** box, select _2/4/2026_. 
 
- You can view the appointments for the selected time range in which the resource equipment has been or will be used to provide services (Item 3). 
+ You can view the appointments within the selected time range where the resource equipment has been or will be used to provide services. 
+
+
+<!-- PAGE_BREAK -->
+ Creating and Using Resource Equipment | 151 
 
  Figure: Appointments related to the resource equipment 
 
 ### Resource Equipment: Related Report and Inquiry Forms 
 
  In the following sections, you can find details about the reports you may want to review to gather statistics about resource equipment. 
-
-
-<!-- PAGE_BREAK -->
- Creating and Using Resource Equipment | 132 
 
 #### Reviewing the Resource Equipment History 
 
@@ -4620,7 +5072,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Correcting Service Order Billing | 133 
+ Correcting Service Order Billing | 152 
 
 ## Correcting Service Order Billing 
 
@@ -4654,7 +5106,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Correcting Service Order Billing | 134 
+ Correcting Service Order Billing | 153 
 
  Figure: Correcting a sales invoice originating from a service order 
 
@@ -4668,7 +5120,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Correcting Service Order Billing | 135 
+ Correcting Service Order Billing | 154 
 
  the table toolbar of this tab, the Add and Delete buttons are unavailable, so that no detail lines can be added or deleted. In the Related Svc. Doc. Nbr. column, the reference number of the related service order is specified. 
 
@@ -4706,7 +5158,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Correcting Service Order Billing | 136 
+ Correcting Service Order Billing | 155 
 
  Then you can make the needed corrections to the service order on the Service Orders form and run the billing process, which causes the system to create the new project transaction (and inventory issue, if applicable). 
 
@@ -4728,7 +5180,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Correcting Appointment Billing | 137 
+ Correcting Appointment Billing | 156 
 
 ## Correcting Appointment Billing 
 
@@ -4762,7 +5214,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Correcting Appointment Billing | 138 
+ Correcting Appointment Billing | 157 
 
  Figure: Correcting an AR invoice originating from an appointment 
 
@@ -4772,7 +5224,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Correcting Appointment Billing | 139 
+ Correcting Appointment Billing | 158 
 
  the Appointments (FS300200) form, the accountant finds and clicks the reference number of the invoice. The system opens the invoice on the Invoices and Memos (AR301000) form in a pop-up window. 
 
@@ -4802,7 +5254,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Correcting Appointment Billing | 140 
+ Correcting Appointment Billing | 159 
 
  The ability to reverse a sales invoice is available only if the Service Management and Advanced SO Invoices features are enabled on the Enable/Disable Features (CS100000) form. 
 
@@ -4836,9 +5288,9 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Correcting Appointment Billing | 141 
+ Correcting Appointment Billing | 160 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -4848,7 +5300,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -4876,17 +5328,17 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Correcting Appointment Billing | 142 
+ Correcting Appointment Billing | 161 
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
 
 1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _2/16/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-3. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _2/16/2025_. If a different date is displayed, click the Business Date menu     button, and select _2/16/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step 1: Opening an Invoice from the Appointment 
 
@@ -4922,7 +5374,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 4. On the **Details** tab, click **Add Row** , and select _REPAIR_ in the **Inventory ID** column of the row. 
 
-5. In the **Actual Duration** column of the row, specify 1 h 00 m. 
+5. In the **Actual Duration** column of the row, verify 1 h 00 m has been specified. 
 
 6. On the form toolbar, click **Save**. 
 
@@ -4932,7 +5384,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Correcting Appointment Billing | 143 
+ Correcting Appointment Billing | 162 
 
  The system opens a pop-up window with the prepared invoice on the Invoices and Memos (AR301000) form. Notice that two detail lines have been added on the Details tab (one for the TRAINING service, and another for the REPAIR service). 
 
@@ -4954,35 +5406,35 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Creating Quotes and Converting Quotes to Service Orders | 144 
+ Creating Quotes and Converting Quotes to Service Orders | 163 
 
 ## Creating Quotes and Converting Quotes to Service Orders 
 
  In this chapter, you will learn how to create quotes and convert them to service orders. 
 
-### Quote Processing: General Information 
+### Quotes: General Information 
 
- A quote is a document that contains the list of items (any services and inventory items) that will be used if a customer decides to deal with your company and their costs. The details of the quote can be communicated by phone or email. 
+ A quote is a document that lists the services and inventory items to be provided to a customer, along with their estimated costs. The quote serves as a preliminary offer and can be communicated to the customer by phone or email. 
 
- Once the customer has agreed to have the services performed at the quoted costs, you create a service order from the quote. (Multiple service orders can be created based on a single quote.) Thus, quotes can be used as templates for future service orders. 
+ Once the customer agrees to proceed with the quoted services and costs, you create a service order based on the quote. Multiple service orders can be generated from a single quote, which makes quotes useful as templates for future service orders. 
 
 #### Learning Objectives 
 
  In this chapter, you will learn how to do the following: 
 
-- Create a quote 
+- Create a quote for a customer 
 
-- Confirm the quote 
+- Confirm the quote once the customer accepts it 
 
-- Copy the quote to a service order 
+- Copy the quote to a service order for further processing 
 
 #### Applicable Scenarios 
 
  You create a quote in the following cases: 
 
-- You want to show a customer what services and costs will be involved if the customer orders the services of     your company 
+- You want to show a customer which services and costs will be involved if the customer decides to order your     company’s services. 
 
-- You want to gain more customers, so you create quotes with the details of the services and stock items (and     costs) that are typically included in a common service order. Any of these quotes can be sent to a potential     customer. 
+- You want to attract new customers by preparing quotes that include typical services, stock items, and their     costs. Any of these quotes can then be sent to potential customers. 
 
 #### Workflow of Quote Processing 
 
@@ -4990,7 +5442,7 @@ As a result, two invoices will be released: the first one for the requested serv
 
 
 <!-- PAGE_BREAK -->
- Creating Quotes and Converting Quotes to Service Orders | 145 
+ Creating Quotes and Converting Quotes to Service Orders | 164 
 
 **_Figure: Quote processing_** 
 
@@ -4998,65 +5450,65 @@ The remaining sections of this topic describe many of the actions shown in the d
 
 
 <!-- PAGE_BREAK -->
- Creating Quotes and Converting Quotes to Service Orders | 146 
+ Creating Quotes and Converting Quotes to Service Orders | 165 
 
-#### Creation of a Service Order from a Quote 
+#### Creating a Service Order from a Quote 
 
- When a customer request for services is received, a sales manager enters a quote (that is, a service order with the Quote behavior) by using the Service Orders (FS300100) form (see Item 1 in the diagram in Workflow of Quote Processing ). In the quote, the sales manager specifies the customer from which the request has been received, the branch and branch location from which the services are delivered, the services that should be performed, and the inventory items to be purchased with the service (if any). The sales manager then sends it to the customer for confirmation. 
+ When a customer's request is received, the sales manager enters a quote —a service order with the Quote behavior —by using the Service Orders (FS300100) form (see Item 1 in the diagram in the Quote Processing diagram). In the quote, the sales manager specifies the customer who submitted the request, the branch and branch location that will deliver the services, the services to be performed, and any inventory items to be used with the service. The sales manager then sends the quote to the customer for confirmation. 
 
- Aer the customer has approved the quote, the sales manager creates a service order from the quote by using the Copy command on the Service Orders form (Item 2). The system creates a service order with the Open status using the settings specified in the quote. Since accounts and subaccounts (if subaccounts are used in the system) are not specified in a quote, the system specifies an account and a subaccount (if any) in the created service order based on the settings of the service order type selected during the creation of the service order as follows: 
+ Aer the customer has approved the quote, the sales manager creates a service order from the quote by using the Copy command on the Service Orders form (Item 2). The system creates a service order with the Open status applying the settings defined in the quote. 
 
-- **Account** : The source of the sales account is specified in the **Use Sales Account From** box on the _Service_     _Order Types_ (FS202300) form for the selected service order type. It can be one of the following options: 
+ Because accounts and subaccounts (if used) are not specified in quotes, the system determines them for the created service order based on the settings of the service order type selected during creation: 
 
-- _Inventory Item_ : The system uses an account specified on the **GL Accounts** tab of the _Stock Items_     (IN202500) or _Non-Stock Items_ (IN202000) form. 
+- **Account** : The source of the sales account is defined in the **Use Sales Account From** box on the _Service Order_     _Types_ (FS202300) form. The account can be taken from one of the following sources: 
 
-- _Warehouse_ : The system uses an account specified on the **GL Accounts** tab of the _Warehouses_ (IN204000)     form. 
+- _Inventory Item_ : The account specified on the **GL Accounts** tab of the _Stock Items_ (IN202500) or _Non-Stock_     _Items_ (IN202000) form. 
 
-- _Posting Class_ : The system uses an account specified on the **GL Accounts** tab of the _Posting Classes_     (IN206000) form. 
+- _Warehouse_ : The account specified on the **GL Accounts** tab of the _Warehouses_ (IN204000) form. 
 
-- _Customer/Vendor Location_ : The system uses an account specified on the **Locations** tab of the _Customers_     (AR303000) form or on the _Vendors_ (AP303000) form. 
+- _Posting Class_ : The account specified on the **GL Accounts** tab of the _Posting Classes_ (IN206000) form. 
 
-- **Subaccount** : A subaccount is determined by the rule specified in the **Combine Sales Sub. From** box on the     _Service Order Types_ form for the selected service order type. For details, see the description of the **Combine**     **Sales Sub. From** box in _Service Order Types_. The system inserts a respective account and subaccount (if any) in the **Account** and **Subaccount** columns on the **Details** tab of the _Service Orders_ form. 
+- _Customer/Vendor Location_ : The account specified on the **Locations** tab of the _Customers_ (AR303000) form     or _Vendors_ (AP303000) form. 
 
- Once a service order has been created, staff members can be assigned to the service order and appointments can be created. 
+- **Subaccount** : The subaccount is determined by the rule specified in the **Combine Sales Sub. From** box on     the _Service Order Types_ form for the selected service order type. For details, see the description of this box     in the _Service Order Types_ topic. The system inserts the corresponding account and subaccount (if any) in the **Account** and **Subaccount** columns on the **Details** tab of the _Service Orders_ form. 
 
-#### Appointment Creation 
+ Once the service order has been created, staff members can be assigned to it, and appointments can be scheduled. 
 
- Aer the service order has been created in the system, a scheduler of your company (that is, a person who is responsible for planning the appointments) uses the Calendar Board (FS300300) form to schedule the appointments (see Item 3 in the diagram in Workflow of Quote Processing ) that are needed to perform the services requested by the customer. 
+#### Planning and Creating Appointments 
+
+ Aer the service order has been created in the system, a scheduler (that is, the person responsible for planning appointments) uses the Calendar Board (FS300300) form to schedule the appointments needed to perform the services requested by the customer (see Item 3 in the Quote Processing diagram). 
 
  Appointments can also be created directly on the Appointments (FS300200) form. 
 
- When the scheduler selects a staff member to attend an appointment, the scheduler considers the work schedule of the staff member, the skills and licenses needed to perform the service, and the service area where the services are provided. The scheduler checks the settings of each appointment and enters additional information (if needed), such as the resource equipment used to perform the services and the stock items purchased by the customer along with the service. (The system assigns the Not Started status to the created appointments.) 
+ When the scheduler assigns a staff member to an appointment, they take into account the staff member’s work schedule, the skills and licenses required to perform the service, and the service area where the work will be performed. The scheduler reviews the appointment settings and enters additional details if needed, such as the resource equipment to be used and the stock items purchased by the customer along with the service. The system assigns the Not Started status to the created appointments. 
 
 #### Attending Appointments 
 
- The staff member who is assigned to an appointment looks through the upcoming appointments on the Staff Calendar Board (FS300400) form, identifies which appointment needs to be attended (see Item 4 in the diagram in Workflow of Quote Processing ), and goes to the location where the service has to be performed (which is usually the 
+ The staff member assigned to an appointment reviews the upcoming appointments on the Calendar Board (FS300300) form, identifies the appointment that needs to be attended (see Item 4 in the Quote Processing diagram), and travels to the location where the service is to be performed—typically the customer’s location. 
+
+ The staff member starts the appointment on the Appointments (FS300200) form (Item 5), which changes its status to In Process. While performing the services, the staff member updates the appointment with relevant details, such as service status, quantities, and any additional stock items used (Item 6). 
 
 
 <!-- PAGE_BREAK -->
- Creating Quotes and Converting Quotes to Service Orders | 147 
+ Creating Quotes and Converting Quotes to Service Orders | 166 
 
- customer location). The staff member starts the appointment on the Appointments (FS300200) form (Item 5), which causes the appointment to be assigned the In Process status. 
+ Once all services have been performed, the staff member reviews the appointment details. When everything is complete and accurate, they select the Finished check box and complete the appointment (Item 7). The system then assigns the Completed status to the appointment and marks the related service order as Completed once all its appointments are finished. 
 
- While the services are being performed, the staff member adds information on services (such as status, quantities, and extra stock items that were used) to the appointment on the Appointments form (Item 6). When the services have all been performed, the staff member checks the details of the appointment. When everything is correct and complete, the staff member selects the Finished check box and completes the appointment (Item 7), which gives it the Completed status and causes the system to complete the service order. 
+#### Closing Appointments and Service Order 
 
- When all appointments of a particular service order are completed, the system assigns the service order the Completed status. 
-
-#### Closing of the Appointments and Service Order 
-
- Further processing of the service order is performed by an accountant. On the Appointments (FS300200) form, the accountant opens the completed appointment and verifies quantities and prices (see Item 8 in the diagram in Workflow of Quote Processing ). When all information is verified and the appointments are ready for invoicing, the accountant closes the appointments (Item 9), and the system closes the service order. (The appointments and service order are assigned the Closed status.) 
+ Further processing of the service order is performed by an accountant. On the Appointments (FS300200) form, the accountant opens the completed appointment and verifies the quantities and prices (see Item 8 in the Workflow of Quote Processing diagram). When all information has been verified and the appointments are ready for billing, the accountant closes the appointments (Item 9). As a result, the system closes the related service order. Both the appointments and the service order are then assigned the Closed status. 
 
 #### Generation and Processing of the Billing Document 
 
- The accountant generates a document (AR invoice, sales order, or sales invoice) with the Open status by using the Run Appointment Billing (FS500100) form (see Item 10 in the diagram in Workflow of Quote Processing ). 
+ The accountant generates a document (such as an AR invoice, a sales order, or a sales invoice) with the Open status by using the Run Appointment Billing (FS500100) form (Item 10 in the diagram). 
 
- The accountant then processes the billing document in the system. 
+ Aer the document is generated, the accountant processes it in the system through the standard billing workflow. 
 
-### Quote Processing: To Create and Process a Quote 
+### Quotes: To Create and Process a Quote 
 
  This activity will walk you through the process of creating and confirming a quote in Acumatica ERP, and then converting the quote to a service order. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
 #### Story 
 
@@ -5064,19 +5516,19 @@ The remaining sections of this topic describe many of the actions shown in the d
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
 - The _SWEETLIFE_ company has been created on the _Companies_ (CS101500) form. This company has multiple     branches created on the _Branches_ (CS102000) form, including _SWEETEQUIP (Service and Equipment Sales_     _Center)_. 
 
-
-<!-- PAGE_BREAK -->
- Creating Quotes and Converting Quotes to Service Orders | 148 
-
 - On the _Service Management Preferences_ (FS100100) form, the minimum settings have been specified,     including specifying the numbering sequences and work calendar, for the service management functionality     to be used. 
 
 - On the _Users_ (SM201010) form, the _davis_ account has been created. For the _davis_ user account, in the     **Linked Entity** box of the Summary area of the form, the _Maia Davis_ employee account has been specified. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Quotes and Converting Quotes to Service Orders | 167 
 
 - On the _Branch Locations_ (FS202500) form, the _WEST BRIGHTON_ branch location of the _SWEETEQUIP_ ( _Service_     _and Equipment Sales Center_ ) branch has been created. 
 
@@ -5096,17 +5548,17 @@ The remaining sections of this topic describe many of the actions shown in the d
 
 #### System Preparation 
 
- Before you begin performing the steps of this activity, do the following: 
+ Before you start this activity, do the following: 
 
-1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded. You should     sign in as a service manager by using the _davis_ username and the _123_ password. 
+1. Launch the Acumatica ERP website, and sign in to a company with the _U100_ dataset preloaded; you should     sign in as a service manager by using the _davis_ username and the _123_ password. 
 
-2. In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the     business date in your system is set to _1/30/2025_. If a different date is displayed, click the Business Date menu     button and select _1/30/2025_ on the calendar. For simplicity, in this activity, you will create and process all     documents in the system on this business date. 
+2. In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date _1/30/2026_.     For simplicity, you will use this business date to create and process all documents in this activity. 
 
-3. In the company to which you are signed in, ensure that the _Service Management_ feature has been enabled     on the _Enable/Disable Features_ (CS100000) form. 
+3. Aer signing in, make sure that the _Service Management_ feature is enabled on the _Enable/Disable Features_     (CS100000) form. 
 
 #### Step 1: Creating and Reviewing the Quote 
 
- You will create a quote for the cost of the service and generate a print-friendly version of the quote for the customer's review. Do the following: 
+ You will create a quote that specifies the cost of the service and generate a print-friendly version of the quote for the customer’s review. Do the following: 
 
 1. On the _Service Orders_ (FS300100) form, add a new record. 
 
@@ -5122,13 +5574,7 @@ The remaining sections of this topic describe many of the actions shown in the d
 
 - **Line Type** : _Service_ 
 
-- **Inventory ID** : _REPAIR_ 
-
-
-<!-- PAGE_BREAK -->
- Creating Quotes and Converting Quotes to Service Orders | 149 
-
- As soon as you select the service, the system inserts the default billing rule (which you will change), price, and duration information that have been specified for the service. 
+- **Inventory ID** : _REPAIR_     As soon as you select the service, the system inserts the default billing rule (which you will change),     price, and duration information that have been specified for the service. 
 
 - **Billing Rule** : _Flat Rate_ 
 
@@ -5137,6 +5583,10 @@ The remaining sections of this topic describe many of the actions shown in the d
 - **Line Type** : _Inventory Item_ 
 
 - **Inventory ID** : _JUICER15_ As soon as you select the inventory ID, the system inserts the stock item's unit price from its settings. 
+
+
+<!-- PAGE_BREAK -->
+ Creating Quotes and Converting Quotes to Service Orders | 168 
 
 5. Add a row, and specify the following settings in the row for the inventory item: 
 
@@ -5150,17 +5600,19 @@ The remaining sections of this topic describe many of the actions shown in the d
 
 8. On the form toolbar, click **Save**. 
 
-9. Verify that the service order total in the **Estimated Billable Total** box in the Summary area is $2,880.00 (see     Item 1 in the following screenshot).     This total is the sum of the unit prices of all lines of the **Details** tab (Item 2): $80.00 (1h of the service) +     $2500.00 (commercial juicer) + $300.00 (blade holder). 
+9. Verify the service order total in the **Estimated Billable Total** box in the Summary area. 
+
+ This total is the sum of the unit prices of all lines of the Details tab. 
 
  Figure: The service order total 
 
 10.On the More menu (under **Printing and Emailing** ), click **Print Service Order**. 
 
- A print-friendly version of the service quote is opened in a new window, as shown in the following screenshot, and you can print it, if needed. You can also convert the quote to PDF or XLS format, or send it to the customer via email for review. 
+ A print-friendly version of the service quote is opened in a new window, as shown below, and you can print it, if needed. You can also convert the quote to PDF or XLS format, or send it to the customer via email for review. 
 
 
 <!-- PAGE_BREAK -->
- Creating Quotes and Converting Quotes to Service Orders | 150 
+ Creating Quotes and Converting Quotes to Service Orders | 169 
 
  Figure: The print-friendly quote 
 
@@ -5170,6 +5622,10 @@ The remaining sections of this topic describe many of the actions shown in the d
 
 1. Return to the quote on the _Service Orders_ (FS300100) form. 
 
+
+<!-- PAGE_BREAK -->
+ Creating Quotes and Converting Quotes to Service Orders | 170 
+
 2. On the form toolbar, click **Confirm**. 
 
  Notice that the status of the service order changed to Confirmed. 
@@ -5178,31 +5634,23 @@ The remaining sections of this topic describe many of the actions shown in the d
 
  Once the quote is confirmed, you should convert it to a regular service order (that is, copy the quote to a service order). Do the following: 
 
-1. On the _Service Orders_ (FS300100) form, open the quote. 
+1. On the _Service Orders_ (FS300100) form, on the form toolbar, click **Copy**. 
 
-2. On the form toolbar, click **Copy**. 
+2. In the **Select the New Service Order Type** dialog box, select _MRO_ , and click **Proceed**.     The system opens the _Service Orders_ form displaying the service order being created. The service order     inherits the service and inventory lines from the quote. 
 
-3. In the **Select the New Service Order Type** dialog box, select _MRO_ , and click **Proceed**.     The system opens the _Service Orders_ form displaying the service order being created. The service order     inherits the service and inventory lines from the quote. 
+3. On the form toolbar, click **Save** ; then verify that the service order has been assigned the _Open_ status. 
 
-4. On the form toolbar, click **Save** ; then verify that the service order has been assigned the _Open_ status. 
+4. On the **Settings** tab, verify that the quote number has been inserted in the **Reference Nbr.** box ( **Source Info**     section) as the source of this service order. 
 
+5. Click the reference number link.     The original quote opens on the _Service Orders_ form in a new window. Verify that the quote has been     assigned the _Copied_ status. 
 
-<!-- PAGE_BREAK -->
- Creating Quotes and Converting Quotes to Service Orders | 151 
+6. On the **Related Documents** tab, make sure that the service order you created based on this quote is listed. 
 
-5. On the **Other** tab, verify that the quote number has been inserted in the **Reference Nbr.** box as the source of     this service order. 
-
-6. Click the link in the **Reference Nbr.** box. 
-
- The original quote is displayed on the Service Orders form, which opens in a new window. Verify that the quote has been assigned the Copied status. 
-
-7. On the **Related Documents** tab, make sure that the service order you created based on this quote is listed. 
-
- Multiple service orders can be listed on this tab. A quote can be copied to any number of service orders, and they can have different service order types. 
+ Multiple service orders can be displayed on this tab. A quote can be copied to any number of service orders, which may have different service order types. 
 
 
 <!-- PAGE_BREAK -->
- Integrating Field Services with Projects | 152 
+ Integrating Field Services with Projects | 171 
 
 ## Integrating Field Services with Projects 
 
@@ -5248,11 +5696,11 @@ The remaining sections of this topic describe many of the actions shown in the d
 
 
 <!-- PAGE_BREAK -->
-Integrating Field Services with Projects | **153** 
+Integrating Field Services with Projects | **172** 
 
 
 <!-- PAGE_BREAK -->
- Integrating Field Services with Projects | 154 
+ Integrating Field Services with Projects | 173 
 
 #### Creation of a Project 
 
@@ -5276,9 +5724,9 @@ Integrating Field Services with Projects | **153**
 
  To create an appointment for the project-related service order, you click one of the following commands on the More menu of the Service Orders form: 
 
-- **Create Appointment** : The system opens the _Appointments_ (FS300200) form, where you fill in the     appointment’s settings. For details, see _Appointment Creation: To Create an Appointment on the Appointments_     _Form_. 
+- **Create Appointment** : The system opens the _Appointments_ (FS300200) form, where you fill in the     appointment’s settings. For details, see _Appointment Creation: To Create an Appointment with Staff on the_     _Appointments Form_. 
 
-- **Schedule on Calendar** : The system opens the _Calendar Board_ (FS300300), where you can create an     appointment while considering staff members' availability, skills, licenses, and service areas. For details, see     _Appointment Creation: To Create an Appointment on the Calendar Board_. 
+- **Schedule on Calendar** : The system opens the _Calendar Board_ (FS300300), where you can create an     appointment while considering staff members' availability, skills, licenses, and service areas. For details, see     _Scheduling Appointments: To Create a Skill-Matched Appointment on the Calendar_. 
 
 - **Schedule on Staff Calendar** : The system opens the _Staff Calendar Board_ (FS300400), where you can create     an appointment considering the schedules of the staff members. Regardless of which form you use to create the appointment, the system inserts the project in the Summary area of the _Appointments_ form. 
 
@@ -5288,7 +5736,7 @@ Integrating Field Services with Projects | **153**
 
 
 <!-- PAGE_BREAK -->
- Integrating Field Services with Projects | 155 
+ Integrating Field Services with Projects | 174 
 
  To create an appointment from a project, on the More menu of the Projects (PM301000) form, you click Create Appointment. In the Create Service Order/Appointment dialog box, which opens, you select the project-related service order type. In the Default Project Task box, you specify the default project task for the appointment. The system copies other settings—such as the branch, branch location, description, and project—from the project settings and inserts them in the appropriate boxes. 
 
@@ -5318,7 +5766,7 @@ Integrating Field Services with Projects | **153**
 
 
 <!-- PAGE_BREAK -->
- Integrating Field Services with Projects | 156 
+ Integrating Field Services with Projects | 175 
 
 - In a line with a service, the **Billable** check box is selected because it will be billed later through the     project billing process. Therefore, the total amount in the Summary area does not include the cost of the stock items because the **Amount** column for these lines on the **Details** tab contains _0_. This project transaction is recorded to the account group that initially keeps project transactions originating from service documents. However, note that stock items are added with an amount of _0_. 
 
@@ -5350,7 +5798,7 @@ Integrating Field Services with Projects | **153**
 
 
 <!-- PAGE_BREAK -->
- Integrating Field Services with Projects | 157 
+ Integrating Field Services with Projects | 176 
 
 1. You create account groups for tracking project transactions originating from service documents. 
 
@@ -5386,7 +5834,7 @@ Integrating Field Services with Projects | **153**
 
 
 <!-- PAGE_BREAK -->
- Integrating Field Services with Projects | 158 
+ Integrating Field Services with Projects | 177 
 
 **Purpose Type Configuration Actions Description** 
 
@@ -5420,7 +5868,7 @@ An account group intended to record expenses related to non-stock items and serv
 
 
 <!-- PAGE_BREAK -->
- Integrating Field Services with Projects | 159 
+ Integrating Field Services with Projects | 178 
 
  Purpose Type Configuration Actions Description 
 
@@ -5468,7 +5916,7 @@ An account group intended to record expenses related to non-stock items and serv
 
 
 <!-- PAGE_BREAK -->
- Integrating Field Services with Projects | 160 
+ Integrating Field Services with Projects | 179 
 
  In the Quantity column, the quantity is specified with a positive sign. Additionally, the system generates a project transaction for this line and inserts its reference number in the Project Tran. ID column. 
 
@@ -5512,7 +5960,7 @@ An account group intended to record expenses related to non-stock items and serv
 
 
 <!-- PAGE_BREAK -->
- Integrating Field Services with Projects | 161 
+ Integrating Field Services with Projects | 180 
 
 2. The system allocates project transactions from the field service default account group to the account group     used in the project to store unpaid project costs. The system moves these project transactions with positive     quantities and amounts to the account group of the _Asset_ type intended to track unpaid project costs. 
 
@@ -5594,7 +6042,7 @@ Thus, you create an allocation rule with the following steps defined in the le�
 
 
 <!-- PAGE_BREAK -->
- Integrating Field Services with Projects | 162 
+ Integrating Field Services with Projects | 181 
 
 - **Credit Transaction** section, **Account Group** box: _None_ 
 
@@ -5660,7 +6108,7 @@ Thus, you create an allocation rule with the following steps defined in the le�
 
 
 <!-- PAGE_BREAK -->
- Integrating Field Services with Projects | 163 
+ Integrating Field Services with Projects | 182 
 
 - **Line Description Formula:** ='WIP billing' 
 
@@ -5706,7 +6154,7 @@ Thus, you create an allocation rule with the following steps defined in the le�
 
 
 <!-- PAGE_BREAK -->
- Integrating Field Services with Projects | 164 
+ Integrating Field Services with Projects | 183 
 
 1. Project transactions (see Item 1 in the screenshot above) that were created when the billing process was run     for a service document and recorded to the account group intended to track transactions originating from     service documents. 
 
@@ -5724,7 +6172,7 @@ Thus, you create an allocation rule with the following steps defined in the le�
 
 
 <!-- PAGE_BREAK -->
- Processing Service Documents with Projects | 165 
+ Processing Service Documents with Projects | 184 
 
 ## Processing Service Documents with Projects 
 
@@ -5750,7 +6198,7 @@ Thus, you create an allocation rule with the following steps defined in the le�
 
 
 <!-- PAGE_BREAK -->
- Processing Service Documents with Projects | 166 
+ Processing Service Documents with Projects | 185 
 
 ### Assignment of Serial or Lot Numbers for Project Stock Items in Service Documents 
 
@@ -5770,11 +6218,11 @@ Thus, you create an allocation rule with the following steps defined in the le�
 
 - In the lookup table that opens when you click the magnifier button in the **Lot/Serial Nbr.** column on the     **Details** tab. This table only shows the serial or lot numbers for the selected project stock item. 
 
-- In the **Line Details** dialog box that opens aer you select a detail line and click the **Lot/Serial Nbrs** button     on the table toolbar of the **Details** tab, only the serial or lot numbers of the selected project stock item are     displayed. For details about generating and assigning lot or serial numbers in appointments, see _Assigning Lot or Serial Numbers to Stock Items in Appointments_. 
+- In the **Line Details** dialog box that opens aer you select a detail line and click the **Lot/Serial Nbrs** button     on the table toolbar of the **Details** tab, only the serial or lot numbers of the selected project stock item are     displayed. For details about generating and assigning lot or serial numbers in appointments, see _Assigning Lot and Serial Numbers in Appointments_. 
 
 
 <!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 167 
+ Managing Appointments in Mobile App | 186 
 
 ## Managing Appointments in Mobile App 
 
@@ -5784,81 +6232,83 @@ Thus, you create an allocation rule with the following steps defined in the le�
 
  The Acumatica mobile app is an out-of-the-box solution that empowers the staff members of your company to access Acumatica ERP from mobile devices to manage their work documents, including appointments. 
 
- The appearance and functionality of the Acumatica mobile app may slightly differ for iOS and Android devices. 
+ The appearance and functionality of the Acumatica mobile app UI may vary slightly between iOS and Android devices. 
 
 #### Opening the List of Appointments 
 
- In the Acumatica mobile app, you access the list of appointments by tapping Services on the main menu and then tapping Appointment List (see the following screenshots). 
+ In the Acumatica mobile app, you access the list of appointments by tapping Services on the main menu and then tapping Appointment List (see below). 
 
  Figure: The list of workspaces on the main menu of the mobile app 
 
 
 <!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 168 
+ Managing Appointments in Mobile App | 187 
 
 **_Figure: The list of screens in the Services workspace_** 
 
- The lists of available workspaces and screens depend on the features included in your license and enabled on the Enable/Disable Features (CS100000) form. 
+ The list of available workspaces and screens depends on the features included in your license and enabled on the Enable/Disable Features (CS100000) form. 
 
 When you tap **Appointment List** , the Appointment List screen opens. 
 
-To find and view the needed appointment, you can change the filter criteria by tapping the Filter button in the top right corner of the screen, and specifying the needed dates and the assigned staff member (see the following screenshot). 
+To find and view the needed appointment, specify the following filter criteria (see below): 
+
+- **From Scheduled Date** : Select the start date of the scheduled appointments to be displayed. 
+
+- **To Scheduled Date** : Select the end date of the scheduled appointments to be displayed. 
+
+- **Staff Member** (optional): Specify the staff member whose appointments you want to view. By default, the     signed-in staff member is selected. 
 
 
 <!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 169 
+ Managing Appointments in Mobile App | 188 
 
- Figure: The list of appointments on the Appointment List screen 
+ Figure: Appointment filtering options 
 
 #### Creating a New Appointment 
 
- In the mobile app, you can create a new appointment. On the Appointment List screen, you tap the + icon or Create New (depending on the mobile operating system) at the bottom of the appointment list, and specify the settings and details of the new appointment in form view. Once you are finished, you save the new appointment. 
+ In the mobile app, you can create a new appointment directly from the Appointment List screen. To do this, tap the plus (+) icon or Create New (depending on your mobile operating system) at the bottom of the list. Then, specify the required settings and details for the new appointment in the form view. When finished, save the appointment. 
 
 #### Searching for an Appointment 
 
- In the Acumatica mobile app, you can find any needed appointment by entering a search string in the search box. The search results are listed with the highlighted words matching your string, as you can see in the following screenshot below. 
+ In the Acumatica mobile app, you can find a specific appointment by entering a search string in the search box. The results are displayed in a list, with the words matching your search string highlighted, as shown in the screenshot below. 
 
 
 <!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 170 
+ Managing Appointments in Mobile App | 189 
 
  Figure: Search results 
 
 #### Working with a Particular Appointment 
 
- By tapping a particular appointment in the appointment list, you open the form view with the settings of the selected appointment. You can process an appointment by using one of the commands available on the More menu (see the following screenshot). You can use these commands to start, depart, pause, and complete the appointment, as well as signing and previewing a report related to the appointment. 
+ By tapping an appointment in the list, you open its form view, which displays the settings of the selected appointment. You can process the appointment by using the buttons and commands available on the More menu (see below). 
+
+ The following buttons and commands are available: Start , Complete (for started appointments), Close (for completed appointments), Depart , Create Prepayment , Cancel , Delete , Sign Report , Preview Report , and Add Record to Favorites. 
 
 
 <!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 171 
+ Managing Appointments in Mobile App | 190 
 
  Figure: Appointment commands 
 
 #### Reviewing and Signing the Report 
 
- Before completing an appointment, you open the report by tapping Preview Report on the More menu (see Item 1 in the following screenshot); you review the report and show it to the customer. You then tap Sign Report (Item 2), and the signature screen opens so that the customer can sign it. 
+ Before completing an appointment, tap Preview Report on the More menu to open and review the report (see below). Then, show the report to the customer. 
 
 
 <!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 172 
+ Managing Appointments in Mobile App | 191 
 
-**_Figure: The Preview Report and Sign Report commands on the More menu_** 
+**_Figure: The preview report screen_** 
 
-On the signature screen, the customer signs. You close the view by tapping **OK** at the bottom of the screen. 
-
-
-<!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 173 
+Then, tap **Sign Report** to open the signature screen, where the customer can sign the report (see below). 
 
 **_Figure: The signature screen_** 
 
-You can open the signed report by tapping **Preview Report** again. The following screenshot shows the signed report. 
-
 
 <!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 174 
+ Managing Appointments in Mobile App | 192 
 
- Figure: The signed report 
+ Aer the customer provides the signature, close the view by tapping Done. 
 
 ### Appointments in the Mobile App: General Information 
 
@@ -5880,39 +6330,29 @@ You can open the signed report by tapping **Preview Report** again. The followin
 
  You use the Acumatica ERP mobile app when you attend an appointment and need to manage the appointment details in the system at a customer location or during your trip. 
 
-
-<!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 175 
-
-#### Process Diagram 
-
- In the following diagram, you can see the general workflow in which a staff member processes an appointment in the mobile app. 
-
-
-<!-- PAGE_BREAK -->
-Managing Appointments in Mobile App | **176** 
-
-
-<!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 177 
-
 ### Appointments in the Mobile App: To Process an Appointment Assigned to a Staff 
 
 ### Member 
 
  This activity will walk you through the process of starting and completing an appointment that requires additional service to be added during the appointment, and a customer signature in the Acumatica mobile app. 
 
- This activity is based on the U100 dataset. If you are using another dataset, or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the U100 dataset to its initial state. 
+ This activity is based on the U100 dataset. If you are using another dataset or if any system settings have been changed in U100 , these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the U100 dataset to its initial state. 
 
- The appearance and functionality of the Acumatica mobile app may slightly differ for iOS and Androis devices. 
+ The appearance and functionality of the Acumatica mobile app UI may slightly differ for iOS and Android devices. 
 
 #### Story 
 
- Suppose that Alberto Jimenez uses the Acumatica mobile app to process the appointments that he attends. On January 31, 2025, he will arrive to the appointment location and process the appointment by using the mobile app. That is, he will start the appointment in the mobile app, add one more service to the appointment, and show the appointment report to the customer. The customer will sign the appointment in the app. Alberto Jimenez will then complete the appointment, send the signed appointment to the customer. Acting as Alberto Jimenez, you will perform these actions in the mobile app. 
+ Suppose that Alberto Jimenez uses the Acumatica mobile app to process the appointments he attends. On January 31, 2026, he arrives at a customer location and processes the appointment by using the mobile app. He starts the appointment, adds one more service, and shows the appointment report to the customer. The customer signs the report in the app. Alberto Jimenez then completes the appointment and sends the signed appointment to the customer. 
+
+ Acting as Alberto Jimenez, you will perform these actions in the mobile app. 
+
+
+<!-- PAGE_BREAK -->
+ Managing Appointments in Mobile App | 193 
 
 #### Configuration Overview 
 
- In the U100 dataset, the following tasks have been performed to support this activity: 
+ In the U100 dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity: 
 
 - The minimum system configuration, which is described in _Company with Branches that Do Not Require_     _Balancing: General Information_ , has been performed. 
 
@@ -5930,13 +6370,7 @@ Managing Appointments in Mobile App | **176**
 
 #### Process Overview 
 
- In the Acumatica mobile app, you will open the Appointment List screen and specify the filter criteria to find the needed appointment assigned to Alberto Jimenez. Then you will start the appointment, add an additional service 
-
-
-<!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 178 
-
- on the Details tab, review the appointment report, obtain the customer's signature for the appointment by tapping Sign Report , complete the appointment, and send the report with the signed appointment to the customer. 
+ In the Acumatica mobile app, you will open the Appointment List screen and specify the filter criteria to find the needed appointment assigned to Alberto Jimenez. You will then start the appointment, add an additional service on the Details tab, review the appointment report, obtain the customer's signature by tapping Sign Report , complete the appointment, and send the signed report to the customer. 
 
 #### Preparation 
 
@@ -5944,9 +6378,9 @@ Managing Appointments in Mobile App | **176**
 
  Before you proceed, ensure that GPS location recording is enabled on your mobile device. 
 
-1. On the mobile device, tap the app icon to launch the app. 
+1. Launch the app. 
 
-2. Enter the URL of your Acumatica ERP instance (for example, _[http://my.site.acumatica.com](http://my.site.acumatica.com)_ ), and tap **Next**. 
+2. Enter your Acumatica ERP instance (for example, _[http://my.site.acumatica.com](http://my.site.acumatica.com)_ ). 
 
  The U100 dataset must be installed on your instance before you can perform the instructions in this activity. 
 
@@ -5954,33 +6388,43 @@ Managing Appointments in Mobile App | **176**
 
 #### Step 1: Viewing Appointments Assigned to a Staff Member 
 
- You will start by viewing the appointments to which Alberto Jimenez, the staff member whose actions you are performing in the mobile app, is assigned. In the mobile app, do the following: 
+ You will start by viewing the appointments assigned to Alberto Jimenez , the staff member whose actions you are performing in the mobile app. 
+
+ In the mobile app, do the following: 
 
 1. On the main screen, tap **Services** , and then tap **Appointment List**. 
 
-2. At the top of the screen, tap the **Filter** icon, and specify the filter criteria so that the scheduled date range     includes the 1/31/2025 date. Tap **Update**. 
-
-3. In the list of appointments assigned to Alberto Jimenez that opens, tap the _000044-1_ appointment to open     it. 
-
-4. On the Summary tab, tap **View on Map**. The map showing the location of the appointment opens, as the     following screenshot shows. 
-
 
 <!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 179 
+ Managing Appointments in Mobile App | 194 
+
+2. Specify the filter criteria so that the scheduled date range includes the 1/31/2026 date. You can set the filter     options as follows: 
+
+- **From Scheduled Date** : 1/1/2026 
+
+- **To Scheduled Date** : 1/31/2026 
+
+- **Staff Member** : Alberto Jimenez (selected by default, because you signed-in with Alberto Jimenez’s     credentials). 
+
+3. In the list of appointments assigned to Alberto Jimenez, tap the _000044-1_ appointment to open it. 
+
+4. On the Summary tab, tap **View on Map**. A map showing the location of the appointment opens, as shown     below. 
 
 5. Close the map and return to the appointment. 
 
 #### Step 2: Starting the Appointment and Adding an Additional Service 
 
- To start the appointment and add the additional service, do the following: 
+ To start the appointment and add an additional service, do the following: 
 
-1. While you are still viewing the appointment in the mobile app, on the More, tap **Start**. 
+1. Return to the appointment in the mobile app. 
 
-2. Tap the **Details** tab. 
+2. Tap **Start**. 
 
-3. Tap the plus sign.     The Details screen opens. 
+3. Tap the **Details** tab. 
 
-4. Specify the following settings: 
+4. Tap the **plus (+)** sign.     The Details screen opens. 
+
+5. Specify the following settings: 
 
 - **Line Type** : _Service_ 
 
@@ -5988,49 +6432,47 @@ Managing Appointments in Mobile App | **176**
 
 - **Description** : _Repair of customer's equipment_ 
 
-- **Actual Quantity** : 1 (inserted by default) 
-
-5. Tap **Update** and save your changes on the Details screen. The additional _REPAIR_ service has been added to     the appointment, as the following screenshot shows. 
-
 
 <!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 180 
+ Managing Appointments in Mobile App | 195 
+
+- **Actual Quantity** : 1 (inserted by default) 
+
+6. Tap **Update** and save your changes on the Details screen. The additional _REPAIR_ service has been added to     the appointment, as shown below. 
 
 #### Step 3: Obtaining the Customer's Signature and Completing the Appointment 
 
- Sign the appointment (on behalf of the customer) and complete it (again acting as Alberto Jimenez) as follows: 
+ Sign the appointment on behalf of the customer and complete it, acting as Alberto Jimenez , as follows: 
 
-1. While you are still viewing the appointment in the mobile app, on the More menu, tap **Preview Report**.     The report appears on the screen (as the following screenshot shows). Alberto Jimenez would now show     this report to the customer to verify that all information has been entered correctly. 
-
-
-<!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 181 
-
-2. Close the report, and tap the **Additional** tab (see Item 1 in the following screenshot). 
-
-3. In the **Signature** section, in the **Full Name** box (Item 2), specify Douglas Kim, and tap **Save**. 
+1. While you are still viewing the appointment in the mobile app, on the More menu, tap **Preview Report**.     The report appears on the screen (see below). _Alberto Jimenez_ would now show this report to the customer     to verify that all information has been entered correctly. 
 
 
 <!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 182 
+ Managing Appointments in Mobile App | 196 
+
+2. Close the report, and tap the **Additional** tab (see below). 
+
+3. In the **Signature** section, in the **Full Name** box, specify Douglas Kim, and tap **Save**. 
 
 4. On the More menu, tap **Sign Report**. 
 
-5. In the form view of the appointment, leave a signature, and tap **Done**. (Here you are signing the     appointment on behalf of the customer. In production use of the app for an appointment, the customer     would sign the appointment.)     The image with the signature is now attached to the appointment. 
 
-6. On the **Summary** tab (see Item 1 in the following screenshot), in the **Date and Time** section (Item 2), specify     the actual start date and time and actual end date and time (Item 3). 
+<!-- PAGE_BREAK -->
+ Managing Appointments in Mobile App | 197 
+
+5. In the form view of the appointment, leave a signature (see below) and tap **Done**. (In this exercise, you     are signing the appointment on behalf of the customer. In actual use, the customer would sign the     appointment.)     The image containing the signature is now attached to the appointment. 
+
+ Figure: Signature captured for the report 
+
+6. On the **Summary** tab, in the **Date and Time** section, specify the actual start date and time and actual end     date and time. 
+
+7. In the Summary area, select **Finished** (see below). 
 
 
 <!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 183 
+ Managing Appointments in Mobile App | 198 
 
-7. In the Summary area, at the top of the screen, select **Finished** , as the following screenshot shows. 
-
-
-<!-- PAGE_BREAK -->
- Managing Appointments in Mobile App | 184 
-
-8. On the More menu, tap **Complete**. 
+8. Tap the **Complete** button. 
 
  The signed report is attached to the appointment in the Files section. You can tap the attached report to view it. 
 
@@ -6040,7 +6482,7 @@ Managing Appointments in Mobile App | **176**
 
 
 <!-- PAGE_BREAK -->
- Appendix | 185 
+ Appendix | 199 
 
 ## Appendix 
 
@@ -6080,37 +6522,105 @@ Managing Appointments in Mobile App | **176**
 
  Before you run a report, you specify the needed parameters on the report form. You can select a template and manually make selections that affect the information collected. Also, you can specify appropriate settings to print or email the finished report. 
 
- The following screenshot shows a typical report form. 
+ The following screenshot shows a typical report form, which has the following elements: 
+
+1. Report form toolbar and More menu (see Item 1) 
+
+2. Details area (Item 2) 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 186 
+ Appendix | 200 
 
  Figure: Report form 
 
-1. Report form toolbar 
+ Switching reports to the Modern UI will be available in a future release. 
 
-2. Selection area 
+#### Report Form Toolbar and More Menu 
 
-3. Details area 
+ The following table lists the elements of the report form toolbar and the commands of the More menu. 
 
-#### Report Form Toolbar 
-
- The following table lists the buttons of the report form toolbar, which appears on the report form when you are configuring a report. 
-
- Button Description 
+ Element Description 
 
  Cancel Clears any changes you have made on the report form and restores the default settings. 
 
+ Delete Template Removes the selected template. 
+
+ This command is available only if a template is selected in the Template box. 
+
+ Edit Report For a report created in the Acumatica Report Designer, downloads the RPS file with the report. 
+
+ For an ARM report, opens the Report Definitions (CS206000) form, where you can modify the report. 
+
+ Edit Template Opens the Edit Template dialog box, in which you can change the template name and settings. 
+
+ This command is available if a template is selected in the Template box. 
+
  Run Report Initiates data collection for the report and displays the generated report. 
 
- Save Template Gives you the ability to save the currently selected report as a template with all the selected settings. 
+ Save Template Saves changes to the currently selected template. If you do not select any template, the system saves the currently selected report as a template with the settings that you specify in the Save Template dialog box. 
 
- Remove Template 
+ Save Template As 
 
- Removes the previously saved template. 
+ Saves a copy of the selected template with the settings that you specify in the Save Template dialog box. If you do not select any template, the system creates a template with the specified settings. 
 
- This button is available only when a template is specified on the report form. 
+
+<!-- PAGE_BREAK -->
+ Appendix | 201 
+
+ Element Description 
+
+ Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
+
+ To quickly find a template, start typing its name in the Search box. If no template is selected, the lookup box remains empty. After you select a template, its name appears in this box, which becomes highlighted in blue. To run a report without using a template, you select None in this box. 
+
+ You can mark frequently used templates as favorites. The system lists these templates at the top of the list. 
+
+**_Table: The Save Template Dialog Box_** 
+
+In this dialog box, you specify the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ Shared templates are also available for selection in the Report Parameters box on the Attached Reports tab of the Email Templates (SM204003) form. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+**_Table: The Edit Template Dialog Box_** 
+
+In this dialog box, you edit the name of the template and mark it as default, shared, or both. 
+
+ Element Description 
+
+ Template The name of the template. 
+
+ Default A check box that you select to mark the template as the default one for you. 
+
+ Shared A check box that you select to indicate that the template is shared with other users. 
+
+ Shared templates are marked with the Group icon to help you identify them quickly. 
+
+ The dialog box has the following buttons. 
+
+ Save Saves the changes and closes the dialog box. 
+
+ Cancel Closes the dialog box without saving the changes. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 202 
 
 #### Report Toolbar 
 
@@ -6119,12 +6629,6 @@ Managing Appointments in Mobile App | **176**
  Buttons Icon Description 
 
  Parameters Navigates back to the report form to let you change the report parameters. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 187 
-
- Buttons Icon Description 
 
  Refresh Refreshes the information displayed in the report (if any data changes were made). 
 
@@ -6150,25 +6654,77 @@ Managing Appointments in Mobile App | **176**
 
  Export Enables you to export the data in the selected format (Excel or PDF). 
 
-#### Selection Area 
+#### Parameters Tab 
 
- You use the elements in this area to select an existing template, which you can share with other users or use as your default report settings. You can also select the locale and the localization. 
-
- The elements of this area, which are available for all reports, are described in the following table. 
-
- Element Description 
-
- Template The template to be used for the report. If any templates have been created and saved, you can select a template to use its settings for the report. 
-
- Default A check box that indicates (if selected) that the selected template is marked as the default one for you. A default template cannot be shared. 
+ This tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 188 
+ Appendix | 203 
+
+- Which elements are available on a particular report 
+
+- Whether elements contain default values 
+
+- Whether specific elements require values to be selected 
+
+- Whether elements may be le blank to let you display a broader range of data 
+
+#### Sorting & Filtering Tab 
+
+ This tab contains the following sections with additional sorting and filtering conditions: 
+
+- **Sorting** : Defines the sorting order. You can add a line, select one of the report-specific properties, and select     the _Descending_ or _Ascending_ sort order for the column. 
+
+- **Filtering** : Defines the report filter. You click **Add** , select one of the report-specific fields, and define a     condition and its value. The list of conditions include one-operand and two-operand conditions. For more     information on creating filters, see _Managing Advanced Filters_. For detailed procedures on using ad hoc     filters, see _Modern UI: Filters_ and _Reports: Process Activity_. 
+
+#### Mailing & Printing Tab 
+
+ If you plan to print the report or save the report as a PDF, select the appropriate settings in the Printing section. 
+
+ Table: Printing Section 
 
  Element Description 
 
- Shared A check box that indicates (if selected) that the selected template is shared with other users. A shared template cannot be marked as the default. 
+ Archived Records The indication of how the system should treat archived records when printing the report. The following options are available: Hide , Print , Only. 
+
+ Deleted Records The visibility of the data deleted from the database. The following options are available: Hide , Print , Only. 
+
+ Print All Pages A check box that you select to causes the system to print all pages of the report. 
+
+ Print in PDF Format A check box that you select to display the report in PDF format. 
+
+ Compress PDF File A check box that you select to indicate that the system should generate a compressed PDF. 
+
+ Embed Fonts in PDF File A check box that you select to indicate that the system should generate the PDF with fonts embedded. 
+
+ If you plan to send the report as an email, in the Mailing section, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
+
+ When you add recipients, the system checks the format of the email addresses entered in the To , Cc , and Bcc boxes. If an address’s format is incorrect, its box is highlighted in red so that you can quickly identify and correct the issue. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 204 
+
+ Table: Mailing Section 
+
+ Element Description 
+
+ Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
+
+ Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
+
+ To The email address of the recipient. 
+
+ CC An additional addressee to receive a carbon copy (CC) of the email. 
+
+ BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
+
+ Subject The subject of the email. 
+
+ Table: Regional Section This section appears only when multiple locales are active in the system. 
+
+ Element Description 
 
  Locale A locale that you select to indicate to the system that the report should be prepared with the data translated to the language associated with this locale. This box is displayed if there are multiple active locales in the system. For details, see Locales and Languages. 
 
@@ -6186,91 +6742,45 @@ Managing Appointments in Mobile App | **176**
 
  To determine if a localized version of a report exists, the system checks the Site\ReportsDefault directory, the database, the ReportsCustomized folder, and the ReportsDefault folder. 
 
-#### Report Parameters Tab 
-
- The Report Parameters tab has sections where you can specify the contents of the report depending on the current report and vary in the following regards: 
-
-- Which elements are available on a particular report 
-
-- Whether elements contain default values 
-
-- Whether specific elements require values to be selected 
-
-- Whether elements may be le blank to let you display a broader range of data 
-
-#### Additional Sort and Filters Tab 
-
- The Additional Sort and Filter tab contains additional sorting and filtering conditions: 
-
-- **Additional sorting conditions** : Defines the sorting order. You can add a line, select one of the report-     specific properties, and select the _Descending_ or _Ascending_ sort order for the column. 
-
-- **Additional filtering conditions** : Defines the report filter. You can add a line, select one of the report-     specific properties, and define a condition and its value. The list of conditions include one-operand and     two-operand conditions. To create a more complicated logical expression, you can use brackets and logical     operations between brackets. For more information on creating filters, see _Managing Advanced Filters_. For     detailed procedures on using ad hoc filters, see _Reports: Process Activity_. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 189 
-
-#### Print and Email Settings Tab 
-
- If you plan to print the report or save the report as a PDF, select the appropriate settings in the Print Settings area. 
-
- Table: Print Settings Section 
-
- Element Description 
-
- Deleted Records Selects the visibility of the data deleted from the database. 
-
- Print All Pages Causes all pages of the report to be printed. 
-
- Print in PDF format Displays the report in PDF format. 
-
- Compress PDF file Indicates that the system will generate a compressed PDF. 
-
- Embed fonts in PDF file Indicates that the system will generate the PDF with fonts embedded. 
-
- If you plan to send the report as an email, in the Email Settings area, specify the format in which the report will be sent, as well as the email subject, the recipients of copies of the report, and the email account of the recipient. 
-
- Table: Email Settings Section 
-
- Field Description 
-
- Format The format ( HTML , PDF , or Excel ) in which the report will be emailed. 
-
- Merge function for reports in Excel format is not supported. If you want to merge a report with other reports and send an aggregated report by email, you should select either the HTML or PDF format for the report. 
-
- Email Account The email address of the recipient. 
-
- CC An additional addressee to receive a carbon copy (CC) of the email. 
-
- BCC The email address of a person to receive a blind carbon copy (BCC) of the email; an address entered in this box will be hidden from other recipients. 
-
- Subject The subject of the email. 
-
-#### Report Versions Tab 
+#### Versions Tab 
 
  If the report has multiple versions, you can select one of them. 
 
  This tab displays the data only to users assigned with report designer user role. 
 
- Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
-
- Table: Report Versions Tab Toolbar 
-
- Button Description 
-
- Refresh Refreshes the list of report versions. 
-
 
 <!-- PAGE_BREAK -->
- Appendix | 190 
+ Appendix | 205 
+
+ Report versions are designed in the Report Designer. To activate editing report versions, give the user report designer role. 
+
+ The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
+
+ Table: Table Toolbar 
 
  Button Description 
 
- Select Temporarily activates the selected report version. 
+ Edit Version Downloads the RPS file with the report version. 
+
+ Deactivate Deactivates the report version. This button appears if a report version is active. 
+
+ If the version is inactive, the button changes to Activate. 
+
+ Table: Table Columns 
+
+ Column Description 
+
+ Version The version number. 
+
+ Description Th description of the version. 
+
+ Created The date when the version was created. 
+
+ Active Read-only, A check box that indicates (if selected) that the version is active. 
 
 #### Email Notifications Tab 
 
- The Email Notifications tab lists the email templates used to send the report. 
+ This tab lists the email templates that can be used to send email notifications that include the report. 
 
  Table: Table Toolbar The table toolbar includes standard buttons and buttons that are specific to this table. For the list of standard buttons, see Table Toolbar. The table-specific buttons are listed below. 
 
@@ -6289,6 +6799,12 @@ Managing Appointments in Mobile App | **176**
  Screen ID The identifier of the form whose elements are used as the source of specific placeholders for this template. 
 
  Recipients The email addresses of the people to receive the email. Use semicolons as separators between addresses. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 206 
+
+ Column Description 
 
  Report Template The template configured for the report. 
 
@@ -6312,10 +6828,6 @@ Managing Appointments in Mobile App | **176**
 
  The prepared report is displayed in the report view of the report form. For more information about setting up the report parameters and the parameters view of the report form, see Report Form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 191 
-
 #### Report Toolbar 
 
  The following table lists report toolbar buttons. 
@@ -6330,13 +6842,19 @@ Managing Appointments in Mobile App | **176**
 
  View PDF / View HTML 
 
-##### / 
+ / 
 
  Displays the report as a PDF, or displays the report in HTML format. The available button depends on the current report view; if you're viewing a PDF, for instance, you will see the View HTML button. 
 
  First Displays the first page of the report. 
 
  Previous Displays the previous page. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 207 
+
+ Buttons Icon Description 
 
  Next Displays the next page. 
 
@@ -6354,10 +6872,6 @@ Managing Appointments in Mobile App | **176**
 
 - _Report_ 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 192 
-
 ### Form Toolbar and More Menu 
 
  The form toolbar, which is available on most forms, is located near the top of the form, under the form name (and record title, if the form has one), as shown in the following screenshot. 
@@ -6372,6 +6886,10 @@ Managing Appointments in Mobile App | **176**
 
  Figure: The form toolbar and the More menu 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 208 
+
  You use the standard buttons on the form toolbar to navigate through entities that were created by using the current form, insert or delete an entity, use the clipboard, save the data you have entered, or cancel your work on the form. 
 
  A form toolbar on a particular form may include form-specific buttons in addition to standard buttons; it may also (or instead) include commands on the More menu. By using these form-specific buttons and commands, users can navigate to related records and forms, initiate specific actions, and perform modifications or processing related to the functionality of the form. 
@@ -6380,11 +6898,7 @@ Managing Appointments in Mobile App | **176**
 
  The following table lists the standard buttons of the form toolbar. A form toolbar may include some or all of these buttons. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 193 
-
-**_Table: Standard Form Toolbar Buttons_** 
+ Table: Standard Form Toolbar Buttons 
 
  Button Icon Description 
 
@@ -6410,6 +6924,12 @@ Managing Appointments in Mobile App | **176**
 
  You can delete an entity only if it is not linked with another entity. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 209 
+
+ Button Icon Description 
+
  Archive Archives the document that is opened on the form. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document open on the form and if the document meets the archival criteria—that is, if the document is older than the retention period specified on the Archival Policy form and has been processed to completion or canceled. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
@@ -6417,12 +6937,6 @@ Managing Appointments in Mobile App | **176**
  Extract Extracts the archived document from the archive and makes the system use this document in day-to-day operations. This button is available if archival is set up on the Archival Policy (SM200400) form for the type of the document opened on the form is archived. 
 
  For more information on archiving the documents, see Archiving Old Documents in the Acumatica ERP System Administration guide. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 194 
-
- Button Icon Description 
 
  Clipboard Provides menu commands you can use to do the following: 
 
@@ -6450,19 +6964,19 @@ Managing Appointments in Mobile App | **176**
 
 #### Inquiry Form Toolbar Buttons 
 
- Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
+ Acumatica ERP inquiry forms present data in a tabular format; they may also have selection criteria you can use to filter the data in the table. Predefined inquiry forms are provided as part of Acumatica ERP out of the box, and 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 210 
+
+ inquiry forms can be designed by a user with the appropriate access rights by using the Generic Inquiry tool (for details, see Managing Generic Inquiries in the Acumatica ERP Reporting Tools Guide). A form toolbar of an inquiry form contains both the standard form toolbar buttons (described in the table above) and the additional buttons described below. 
 
  Button Icon Description 
 
  Refresh Refreshes the inquiry data in the table. 
 
  Cancel Clears all changes (including selection criteria that has been specified, if the generic inquiry form has this criteria) and restores the default settings. 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 195 
-
- Button Icon Description 
 
  Add New Record Initiates the creation of a new entity. 
 
@@ -6472,13 +6986,15 @@ Managing Appointments in Mobile App | **176**
 
  Export to Excel Exports the data to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
- Filter Settings Opens the Filter Settings dialog box, which you can use to define a new filter. After the filter has been created and saved, the corresponding tab appears on the table. For more information about filtering, see Filters. 
-
 #### The More Menu and Form-Specific Buttons 
 
  If there are multiple form-specific commands on the form toolbar, they are displayed on a single menu—the More menu—and listed under descriptive categories, which makes it easier to find the needed menu command. On the More menu, you can easily define your favorite menu commands, which eases access to them. 
 
  On some forms, the system places a button (which is highlighted in green) on the form toolbar for the expected next command, which represents the likely next step to be performed on the selected record. The following screenshot, which shows the Cash Transactions (CA304000) form, illustrates an example of the form toolbar and the More menu, which contains categories and menu commands. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 211 
 
  Figure: The form toolbar of the Transactions form 
 
@@ -6489,10 +7005,6 @@ Managing Appointments in Mobile App | **176**
 2. Another button for a command that is commonly performed on the form 
 
 3. The More button, which you click to open the More menu 
-
-
-<!-- PAGE_BREAK -->
- Appendix | 196 
 
 4. The More menu with most form-specific menu commands and descriptive categories on it 
 
@@ -6506,6 +7018,10 @@ Managing Appointments in Mobile App | **176**
 
  To add a command to the form toolbar as a button, you open the More menu, hover over the needed command, and click the star icon when it appears. The yellow color of the star indicates that the command has been added to your favorites, and a button for the command appears on the form toolbar immediately. The following example shows two commands that have been added to the user's favorites on the Invoices and Memos (AR301000) form and thus added as buttons on the form toolbar. 
 
+
+<!-- PAGE_BREAK -->
+ Appendix | 212 
+
  Figure: Favorite commands on the More menu and the corresponding toolbar buttons 
 
  Favorites are individual to each user account, specific to a particular form, and preserved across user sessions. 
@@ -6516,11 +7032,11 @@ Managing Appointments in Mobile App | **176**
 
  If a command is the expected next command (that is, the command that is most likely to be clicked for a record with the current status), it is shown both on the form toolbar and on the More menu. The primary command on the form toolbar is highlighted in green (see Item 1 in the following screenshot), and on the More menu, it is marked with a green dot (Item 2). Below is an example of a cash transaction on the Cash Transactions (CA304000) form that has the On Hold status (Item 3). Before you can process it, you need to remove it from hold. Because Remove Hold is the next logical command, it is displayed as a button on the form toolbar and highlighted in green. 
 
+ Figure: The highlighted command and the corresponding status 
+
 
 <!-- PAGE_BREAK -->
- Appendix | 197 
-
- Figure: The highlighted command and the corresponding status 
+ Appendix | 213 
 
 #### Unavailable Commands on the More Menu 
 
@@ -6532,17 +7048,13 @@ Managing Appointments in Mobile App | **176**
 
  If there are multiple categories on the More menu, the categories and menu commands can be displayed in multiple columns on the More menu, depending on the screen size and the number of categories. When the screen size decreases, the system moves some categories and menu commands to the le to decrease the number of columns, and in the screens of the smallest size, all categories are displayed in one column. Below are two examples of the same menu in different screen sizes for a record on the Bills and Adjustments (AP301000) form. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 198 
-
-**_Figure: The form toolbar and More menu on a wide screen_** 
-
-**_Figure: The form toolbar and More menu on a narrow screen_** 
+ Figure: The form toolbar and More menu on a wide screen 
 
 
 <!-- PAGE_BREAK -->
- Appendix | 199 
+ Appendix | 214 
+
+ Figure: The form toolbar and More menu on a narrow screen 
 
  Related Links 
 
@@ -6554,7 +7066,11 @@ Managing Appointments in Mobile App | **176**
 
 ### Table Toolbar 
 
- Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the search box (for some tables; for others, the search box is displayed in the filtering area). 
+ Each table on an Acumatica ERP form, tab, dialog box, or page has a table toolbar, which contains the buttons you can use to work with the details or objects of the table. A toolbar, shown in the following screenshot, includes buttons that are specific to the table, standard buttons that most table toolbars have, and the Search box (for some tables; for others, the Search box is displayed in the filtering area). 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 215 
 
  Figure: Table toolbar 
 
@@ -6574,17 +7090,17 @@ Managing Appointments in Mobile App | **176**
 
  Delete Row Deletes the selected row or rows. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 200 
-
- Button Icon Description 
-
  Move Row Up Moves the selected row one position up. 
 
  Move Row Down Moves the selected row one position down. 
 
  Fit to Screen Adjusts the table to the screen width and makes the column width proportional. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 216 
+
+ Button Icon Description 
 
  Export to Excel Exports the data in the table to an Excel file. For more information, see Integration with Excel in the Acumatica ERP Getting Started Guide. 
 
@@ -6614,13 +7130,13 @@ Managing Appointments in Mobile App | **176**
 
  Upload Closes the dialog box and opens the Common Settings dialog box, where you specify the import settings. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 201 
-
 #### Common Settings Dialog Box 
 
  In the Common Settings dialog box, which opens if you click Upload in the File Upload dialog box, you specify the import settings for a file that you has selected in the File Upload dialog box. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 217 
 
  Element Description 
 
@@ -6664,15 +7180,15 @@ Managing Appointments in Mobile App | **176**
 
  Property Name The name of the corresponding column in the table in Acumatica ERP. 
 
-
-<!-- PAGE_BREAK -->
- Appendix | 202 
-
- Element Description 
-
  The dialog box has the following buttons. 
 
  OK Closes the dialog box and imports the selected file. 
+
+
+<!-- PAGE_BREAK -->
+ Appendix | 218 
+
+ Element Description 
 
  Cancel Closes the dialog box without importing the data from the file. 
 
